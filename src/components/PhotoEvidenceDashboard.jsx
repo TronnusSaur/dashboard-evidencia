@@ -217,7 +217,9 @@ const PhotoEvidenceDashboard = () => {
 
     // PDF Export Function
     const exportToPDF = () => {
-        if (tableData.length === 0) {
+        const isGeneralSummary = selectedCompany === 'ALL' && selectedContract === 'ALL';
+
+        if (tableData.length === 0 && !isGeneralSummary) {
             setShowAlert(true);
             setTimeout(() => setShowAlert(false), 3000);
             return;
@@ -230,6 +232,78 @@ const PhotoEvidenceDashboard = () => {
                 format: 'a4'
             });
 
+            if (isGeneralSummary) {
+                // Generar PDF del Resumen General
+                doc.setFontSize(20);
+                doc.setTextColor(139, 92, 246);
+                doc.text("Resumen Ejecutivo de Auditoría Global", 14, 25);
+
+                doc.setFontSize(10);
+                doc.setTextColor(100);
+                doc.text("GOBIERNO MUNICIPAL DE TOLUCA - CONTROL DE BACHEO", 14, 32);
+                doc.line(14, 35, 196, 35);
+
+                const totalOmisiones = RESUMEN_DATA.reduce((acc, row) => acc + row.TOTAL_OMISIONES, 0);
+
+                doc.setFontSize(11);
+                doc.setTextColor(60);
+                doc.text(`Total de folios observados: ${totalOmisiones}`, 14, 45);
+
+                const summaryColumn = ["Categoría de Error", "Cantidad", "% del Total"];
+                const errorSums = {};
+                CONDENSED_CATEGORIES.forEach(type => {
+                    errorSums[type] = 0;
+                    ERROR_TYPES.forEach(rawType => {
+                        if (MAP_TO_CONDENSED[rawType] === type) {
+                            errorSums[type] += RESUMEN_DATA.reduce((acc, row) => acc + (row[rawType] || 0), 0);
+                        }
+                    });
+                });
+
+                const summaryRows = CONDENSED_CATEGORIES.map(type => [
+                    type,
+                    errorSums[type],
+                    totalOmisiones > 0 ? ((errorSums[type] / totalOmisiones) * 100).toFixed(1) + "%" : "0%"
+                ]);
+
+                autoTable(doc, {
+                    head: [summaryColumn],
+                    body: summaryRows,
+                    startY: 55,
+                    theme: 'striped',
+                    headStyles: { fillColor: [139, 92, 246] },
+                    styles: { fontSize: 10 }
+                });
+
+                doc.setFontSize(14);
+                doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
+
+                const companyColumn = ["Empresa", "Faltan", "Total"];
+                const companyRows = RESUMEN_DATA.map(row => [
+                    row.EMPRESA_RAIZ_MASTER,
+                    row.TOTAL_OMISIONES,
+                    row.TOTAL_OMISIONES
+                ]);
+
+                autoTable(doc, {
+                    head: [companyColumn],
+                    body: companyRows,
+                    startY: doc.lastAutoTable.finalY + 20,
+                    theme: 'grid',
+                    headStyles: { fillColor: [71, 85, 105] },
+                    styles: { fontSize: 8 }
+                });
+
+                doc.setFontSize(9);
+                doc.setTextColor(150);
+                doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
+
+                window.open(doc.output('bloburl'), '_blank');
+                doc.save(`Resumen_Auditoria_Global_${new Date().getTime()}.pdf`);
+                return;
+            }
+
+            // Generar PDF Detallado de Contrato
             // Header Section
             doc.setFontSize(20);
             doc.setTextColor(139, 92, 246); // Brand Purple
@@ -287,72 +361,14 @@ const PhotoEvidenceDashboard = () => {
                 }
             });
 
-            // Add General Summary Section if General
-            if (selectedCompany === 'ALL') {
-                doc.addPage();
-                doc.setFontSize(16);
-                doc.setTextColor(139, 92, 246);
-                doc.text("Resumen Ejecutivo de Auditoría", 14, 25);
-
-                const totalOmisiones = RESUMEN_DATA.reduce((acc, row) => acc + row.TOTAL_OMISIONES, 0);
-
-                doc.setFontSize(11);
-                doc.setTextColor(60);
-                doc.text(`Total de folios observados: ${totalOmisiones}`, 14, 35);
-
-                const summaryColumn = ["Categoría de Error", "Cantidad", "% del Total"];
-                const errorSums = {};
-                CONDENSED_CATEGORIES.forEach(type => {
-                    errorSums[type] = 0;
-                    ERROR_TYPES.forEach(rawType => {
-                        if (MAP_TO_CONDENSED[rawType] === type) {
-                            errorSums[type] += RESUMEN_DATA.reduce((acc, row) => acc + (row[rawType] || 0), 0);
-                        }
-                    });
-                });
-
-                const summaryRows = CONDENSED_CATEGORIES.map(type => [
-                    type,
-                    errorSums[type],
-                    totalOmisiones > 0 ? ((errorSums[type] / totalOmisiones) * 100).toFixed(1) + "%" : "0%"
-                ]);
-
-                autoTable(doc, {
-                    head: [summaryColumn],
-                    body: summaryRows,
-                    startY: 45,
-                    theme: 'striped',
-                    headStyles: { fillColor: [139, 92, 246] },
-                    styles: { fontSize: 10 }
-                });
-
-                // Detailed Summary Section
-                doc.setFontSize(14);
-                doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
-
-                const companyColumn = ["Empresa", "Faltan", "Total"];
-                const companyRows = RESUMEN_DATA.map(row => [
-                    row.EMPRESA_RAIZ_MASTER,
-                    row.TOTAL_OMISIONES,
-                    row.TOTAL_OMISIONES
-                ]);
-
-                autoTable(doc, {
-                    head: [companyColumn],
-                    body: companyRows,
-                    startY: doc.lastAutoTable.finalY + 20,
-                    theme: 'grid',
-                    headStyles: { fillColor: [71, 85, 105] },
-                    styles: { fontSize: 8 }
-                });
-            }
+            // Si es un contrato, no añadimos la hoja general extra, la mantuvimos exclusiva para el reporte general
 
             doc.setFontSize(9);
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
             window.open(doc.output('bloburl'), '_blank');
-            doc.save(`Resumen_Auditoria_${new Date().getTime()}.pdf`);
+            doc.save(`Detalle_Contrato_${selectedContract}_${new Date().getTime()}.pdf`);
         } catch (error) {
             console.error('PDF Export Error:', error);
             alert('Error al generar el documento pdf.');
