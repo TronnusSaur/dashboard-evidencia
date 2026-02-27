@@ -278,7 +278,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.setFontSize(14);
                 doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
 
-                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Folios)"];
+                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Fotos)"];
 
                 // Group by EMPRESA_RAIZ_MASTER
                 const companyMap = {};
