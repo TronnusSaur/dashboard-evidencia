@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7a1531",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#201216",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<title>Supervisión Inteligente - Toluca Capital</title>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen pb-20">
+<!-- Header Section -->
+<header class="bg-primary text-white p-4 shadow-md sticky top-0 z-50">
+<div class="flex items-center justify-between max-w-md mx-auto">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center border border-white/30 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Toluca Capital minimalist white logo on burgundy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzjrMVt7to-eB1W2hLnudw6TKoRHq-AfXCPa3aPquPhbXhbN_dL-z-czP68WUCo5ZfbJ75goi47W7J92N9XojMEnMy_RpEong3n91qTTkBQW14AOG37Lpssg1n_SfFms6kjzQ64OEl7KJaqVuZgqwPR0qLYaYrYoTNlxCDlMBtmmZ0D_Zl7fMzczjlYl_kk1ib19sT3OdrGSAwXXL4AR2GkM-BCuWr7PzRsv68-TNtQXSwojldvepUV-8vmFfOqlKYic9h0EuCYx_l"/>
+</div>
+<div>
+<h1 class="text-sm font-bold tracking-tight uppercase leading-none">Toluca Capital</h1>
+<p class="text-[10px] opacity-80 uppercase font-medium">Dirección de Obras Públicas</p>
+</div>
+</div>
+<button class="p-2 hover:bg-white/10 rounded-full">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="max-w-md mx-auto px-4 pt-6 space-y-6">
+<!-- Welcome & Title -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary to-[#5a0f24] p-6 text-white shadow-lg">
+<!-- Decorative geometric shapes -->
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-white/10 rounded-full"></div>
+<div class="absolute right-12 bottom-0 w-16 h-16 bg-white/5 rotate-45 transform origin-bottom"></div>
+<h2 class="text-2xl font-bold">Dashboard de Supervisión</h2>
+<p class="text-white/80 text-sm mt-1">Gestión y Control de Evidencias</p>
+</div>
+<!-- Key Metrics Grid -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-xl">description</span>
+<span class="text-slate-500 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">Total Folios</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-bold">1,482</span>
+<span class="text-emerald-600 text-xs font-bold">+5.2%</span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-xl">report_problem</span>
+<span class="text-slate-500 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">Errores</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="text-2xl font-bold text-red-600">38</span>
+<span class="text-red-500 text-xs font-bold">-2.1%</span>
+</div>
+</div>
+</div>
+<!-- Charts Section -->
+<div class="space-y-4">
+<!-- Distribution Donut -->
+<div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-4">Distribución de Errores</h3>
+<div class="flex items-center justify-around gap-4">
+<div class="relative w-32 h-32 flex items-center justify-center">
+<!-- Simulated Donut Chart using Gradients/Conic -->
+<div class="w-full h-full rounded-full" style="background: conic-gradient(#7a1531 0% 45%, #a63d5a 45% 75%, #d18ba0 75% 100%);"></div>
+<div class="absolute inset-4 bg-white dark:bg-slate-800 rounded-full flex flex-col items-center justify-center">
+<span class="text-lg font-bold">38</span>
+<span class="text-[10px] text-slate-400 uppercase">Total</span>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-xs">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="text-slate-600 dark:text-slate-400">Estructura</span>
+</div>
+<div class="flex items-center gap-2 text-xs">
+<span class="w-3 h-3 rounded-full bg-[#a63d5a]"></span>
+<span class="text-slate-600 dark:text-slate-400">Acabados</span>
+</div>
+<div class="flex items-center gap-2 text-xs">
+<span class="w-3 h-3 rounded-full bg-[#d18ba0]"></span>
+<span class="text-slate-600 dark:text-slate-400">Instalación</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bar Chart: Monthly Progress -->
+<div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-6">Trabajos Mensuales</h3>
+<div class="flex items-end justify-between h-32 px-2">
+<div class="flex flex-col items-center gap-2 flex-1">
+<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 40%">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+</div>
+<span class="text-[10px] font-medium text-slate-400">MAY</span>
+</div>
+<div class="flex flex-col items-center gap-2 flex-1 mx-1">
+<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 65%">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+</div>
+<span class="text-[10px] font-medium text-slate-400">JUN</span>
+</div>
+<div class="flex flex-col items-center gap-2 flex-1">
+<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 90%">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+</div>
+<span class="text-[10px] font-medium text-slate-400">JUL</span>
+</div>
+<div class="flex flex-col items-center gap-2 flex-1 mx-1">
+<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 55%">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+</div>
+<span class="text-[10px] font-medium text-slate-400">AGO</span>
+</div>
+<div class="flex flex-col items-center gap-2 flex-1">
+<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 75%">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+</div>
+<span class="text-[10px] font-medium text-slate-400">SEP</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Data List: Detalle de Folios -->
+<div class="pb-4">
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300">Detalle de Folios Recientes</h3>
+<button class="text-primary text-xs font-bold uppercase tracking-tight">Ver todos</button>
+</div>
+<div class="space-y-3">
+<!-- List Item 1 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">map</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-bold text-sm">FOL-2024-001</span>
+<span class="px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[10px] font-bold rounded-full uppercase">Completado</span>
+</div>
+<p class="text-xs text-slate-500 mt-1" data-location="Centro Histórico, Toluca">Centro Histórico, Toluca</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-300">chevron_right</span>
+</div>
+<!-- List Item 2 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">engineering</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-bold text-sm">FOL-2024-042</span>
+<span class="px-2 py-0.5 bg-amber-100 text-amber-700 text-[10px] font-bold rounded-full uppercase">En Proceso</span>
+</div>
+<p class="text-xs text-slate-500 mt-1" data-location="Santa Ana Tlapaltitlán, Toluca">Santa Ana Tlapaltitlán</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-300">chevron_right</span>
+</div>
+<!-- List Item 3 -->
+<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">warning</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-bold text-sm">FOL-2024-089</span>
+<span class="px-2 py-0.5 bg-red-100 text-red-700 text-[10px] font-bold rounded-full uppercase">Error</span>
+</div>
+<p class="text-xs text-slate-500 mt-1" data-location="Colonia Morelos, Toluca">Colonia Morelos, Toluca</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-300">chevron_right</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-6 py-3 z-50">
+<div class="max-w-md mx-auto flex justify-between items-center">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined font-variation-fill">home</span>
+<span class="text-[10px] font-bold uppercase tracking-wider">Inicio</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">assignment</span>
+<span class="text-[10px] font-bold uppercase tracking-wider">Reportes</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold uppercase tracking-wider">Perfil</span>
+</a>
+</div>
+</nav>
+<style>
+        /* Material Symbol custom styling for filled state */
+        .font-variation-fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Smooth backdrop for the navigation */
+        nav {
+            backdrop-filter: blur(8px);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .dark nav {
+            background-color: rgba(32, 18, 22, 0.9);
+        }
+    </style>
+</body></html>
