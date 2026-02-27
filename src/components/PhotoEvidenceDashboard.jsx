@@ -278,19 +278,76 @@ const PhotoEvidenceDashboard = () => {
                 doc.setFontSize(14);
                 doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
 
-                const companyColumn = ["Empresa", "Faltan", "Total"];
-                const companyRows = RESUMEN_DATA.map(row => [
-                    row.EMPRESA_RAIZ_MASTER,
-                    row.TOTAL_OMISIONES,
-                    row.TOTAL_OMISIONES
-                ]);
+                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Múltiples", "Sin Carpeta/Vacías", "Total Faltan"];
+
+                // Group by EMPRESA_RAIZ_MASTER
+                const companyMap = {};
+                RESUMEN_DATA.forEach(row => {
+                    const comp = row.EMPRESA_RAIZ_MASTER || "Desconocida";
+                    if (!companyMap[comp]) {
+                        companyMap[comp] = {
+                            name: comp,
+                            inicial: 0,
+                            caja: 0,
+                            final: 0,
+                            multiples: 0,
+                            sinCarpeta: 0,
+                            total: 0
+                        };
+                    }
+
+                    // Contabilizar desde las columnas raw hacia los grupos principales
+                    const mapToGroup = (rawProp, groupProp) => {
+                        companyMap[comp][groupProp] += (row[rawProp] || 0);
+                    };
+
+                    ERROR_TYPES.forEach(rawType => {
+                        const amount = row[rawType] || 0;
+                        if (amount > 0) {
+                            if (rawType.includes('+') || rawType.includes(' Y ')) {
+                                companyMap[comp].multiples += amount;
+                            } else if (rawType === 'FALTA: INICIAL') {
+                                companyMap[comp].inicial += amount;
+                            } else if (rawType === 'FALTA: CAJA') {
+                                companyMap[comp].caja += amount;
+                            } else if (rawType === 'FALTA: FINAL') {
+                                companyMap[comp].final += amount;
+                            } else if (rawType === 'SIN CARPETA' || rawType === 'CARPETA VACÍA') {
+                                companyMap[comp].sinCarpeta += amount;
+                            }
+                        }
+                    });
+
+                    companyMap[comp].total += row.TOTAL_OMISIONES;
+                });
+
+                const companyRows = Object.values(companyMap)
+                    .sort((a, b) => b.total - a.total)
+                    .map(c => [
+                        c.name,
+                        c.inicial,
+                        c.caja,
+                        c.final,
+                        c.multiples,
+                        c.sinCarpeta,
+                        c.total
+                    ]);
 
                 autoTable(doc, {
                     head: [companyColumn],
                     body: companyRows,
                     startY: doc.lastAutoTable.finalY + 20,
                     theme: 'grid',
-                    headStyles: { fillColor: [71, 85, 105] },
+                    headStyles: { fillColor: [71, 85, 105], halign: 'center', fontSize: 8 },
+                    columnStyles: {
+                        0: { fontStyle: 'bold', halign: 'left' },
+                        1: { halign: 'center' },
+                        2: { halign: 'center' },
+                        3: { halign: 'center' },
+                        4: { halign: 'center' },
+                        5: { halign: 'center' },
+                        6: { halign: 'center', fontStyle: 'bold', textColor: [190, 18, 60] } // Resaltar el total
+                    },
                     styles: { fontSize: 8 }
                 });
 
