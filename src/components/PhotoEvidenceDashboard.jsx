@@ -278,7 +278,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.setFontSize(14);
                 doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
 
-                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Múltiples", "Sin Carpeta/Vacías", "Total Faltan"];
+                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Folios)"];
 
                 // Group by EMPRESA_RAIZ_MASTER
                 const companyMap = {};
@@ -290,22 +290,19 @@ const PhotoEvidenceDashboard = () => {
                             inicial: 0,
                             caja: 0,
                             final: 0,
-                            multiples: 0,
                             sinCarpeta: 0,
                             total: 0
                         };
                     }
 
-                    // Contabilizar desde las columnas raw hacia los grupos principales
-                    const mapToGroup = (rawProp, groupProp) => {
-                        companyMap[comp][groupProp] += (row[rawProp] || 0);
-                    };
-
                     ERROR_TYPES.forEach(rawType => {
                         const amount = row[rawType] || 0;
                         if (amount > 0) {
                             if (rawType.includes('+') || rawType.includes(' Y ')) {
-                                companyMap[comp].multiples += amount;
+                                // Descomponer y sumar a columnas individuales
+                                if (rawType.includes('INICIAL')) companyMap[comp].inicial += amount;
+                                if (rawType.includes('CAJA')) companyMap[comp].caja += amount;
+                                if (rawType.includes('FINAL')) companyMap[comp].final += amount;
                             } else if (rawType === 'FALTA: INICIAL') {
                                 companyMap[comp].inicial += amount;
                             } else if (rawType === 'FALTA: CAJA') {
@@ -328,7 +325,6 @@ const PhotoEvidenceDashboard = () => {
                         c.inicial,
                         c.caja,
                         c.final,
-                        c.multiples,
                         c.sinCarpeta,
                         c.total
                     ]);
@@ -345,8 +341,7 @@ const PhotoEvidenceDashboard = () => {
                         2: { halign: 'center' },
                         3: { halign: 'center' },
                         4: { halign: 'center' },
-                        5: { halign: 'center' },
-                        6: { halign: 'center', fontStyle: 'bold', textColor: [190, 18, 60] } // Resaltar el total
+                        5: { halign: 'center', fontStyle: 'bold', textColor: [190, 18, 60] } // Resaltar el total
                     },
                     styles: { fontSize: 8 }
                 });
