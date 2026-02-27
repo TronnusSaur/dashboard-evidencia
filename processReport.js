@@ -1,71 +1,84 @@
-import XLSX from 'xlsx';
 import fs from 'fs';
+import path from 'path';
 
-const excelPath = 'Reporte_Faltantes_Evidencia_Final.xlsx';
-const mockPath = 'src/dataMock.js';
+const resourcesDir = path.join(process.cwd(), 'dashboard_resources');
+const statsMasterPath = path.join(resourcesDir, 'stats_master.json');
+const contratosDir = path.join(resourcesDir, 'contratos');
+const publicContratosDir = path.join(process.cwd(), 'public', 'contratos');
+const mockPath = path.join(process.cwd(), 'src', 'dataMock.js');
 
 try {
-    const workbook = XLSX.readFile(excelPath);
+    // 1. Process stats_master.json
+    const statsMasterData = fs.readFileSync(statsMasterPath, 'utf8');
+    const globalTotals = JSON.parse(statsMasterData);
 
-    // 1. Process RESUMEN_DASHBOARD
-    const resumenSheet = workbook.Sheets['RESUMEN_DASHBOARD'];
-    const resumenData = XLSX.utils.sheet_to_json(resumenSheet);
+    // Extract dynamic error types
+    const errorTypes = Object.keys(globalTotals);
 
-    // Global Totals for Pie Chart (Initial State)
-    const totals = {
-        'SIN CARPETA': 0,
-        'CARPETA VACÍA': 0,
-        'FALTA FOTO FINAL': 0,
-        'EVIDENCIA INCOMPLETA': 0
-    };
-
-    resumenData.forEach(row => {
-        totals['SIN CARPETA'] += (row['SIN CARPETA'] || 0);
-        totals['CARPETA VACÍA'] += (row['CARPETA VACÍA'] || 0);
-        totals['FALTA FOTO FINAL'] += (row['FALTA FOTO FINAL'] || 0);
-        totals['EVIDENCIA INCOMPLETA'] += (row['EVIDENCIA INCOMPLETA'] || 0);
-    });
-
-    // Filters Map
+    // 2. Process Company JSONs to build FILTERS_MAP and RESUMEN_DATA
     const filtersMap = {};
-    resumenData.forEach(row => {
-        const company = row.EMPRESA_RAIZ_MASTER;
-        const id = row.ID.toString();
+    const resumenData = [];
+
+    // Ensure public/contratos exists
+    if (!fs.existsSync(publicContratosDir)) {
+        fs.mkdirSync(publicContratosDir, { recursive: true });
+    }
+
+    const files = fs.readdirSync(contratosDir).filter(f => f.endsWith('.json'));
+
+    files.forEach(file => {
+        const basename = path.basename(file, '.json');
+        const lastUnderscoreIndex = basename.lastIndexOf('_');
+        if (lastUnderscoreIndex === -1) return;
+
+        const company = basename.substring(0, lastUnderscoreIndex);
+        const id = basename.substring(lastUnderscoreIndex + 1);
+
         if (!filtersMap[company]) {
             filtersMap[company] = [];
         }
         filtersMap[company].push(id);
+
+        const contractPath = path.join(contratosDir, file);
+        const contractData = JSON.parse(fs.readFileSync(contractPath, 'utf8'));
+
+        const contractSummary = {
+            EMPRESA_RAIZ_MASTER: company,
+            ID: id,
+            TOTAL_OMISIONES: contractData.length
+        };
+
+        // Initialize counts
+        errorTypes.forEach(type => contractSummary[type] = 0);
+
+        contractData.forEach(row => {
+            const status = row.RESULTADO_AUDITORIA;
+            if (contractSummary[status] !== undefined) {
+                contractSummary[status]++;
+            } else {
+                contractSummary[status] = 1;
+                if (!errorTypes.includes(status)) {
+                    errorTypes.push(status);
+                }
+            }
+        });
+
+        resumenData.push(contractSummary);
+
+        // Copy file to public/contratos
+        fs.copyFileSync(contractPath, path.join(publicContratosDir, file));
     });
 
-    // 2. Process Company Sheets for Detail Table
-    const recordsByContract = {};
-    const companySheets = workbook.SheetNames.filter(name => name !== 'RESUMEN_DASHBOARD');
-
-    companySheets.forEach(sheetName => {
-        const sheet = workbook.Sheets[sheetName];
-        const data = XLSX.utils.sheet_to_json(sheet);
-        recordsByContract[sheetName] = data.map(row => ({
-            folio: row.folio,
-            Error: row.Error,
-            calle: row.calle,
-            delegacion: row.delegacion,
-            colonia: row.colonia
-        }));
-    });
-
-    const updatedMock = `// Generated data from Reporte_Faltantes_Evidencia_Final.xlsx
-export const GLOBAL_TOTALS = ${JSON.stringify(totals, null, 2)};
-
+    const updatedMock = `// Generated data from Sentinel JSONs
+export const ERROR_TYPES = ${JSON.stringify(errorTypes, null, 2)};
+export const GLOBAL_TOTALS = ${JSON.stringify(globalTotals, null, 2)};
 export const RESUMEN_DATA = ${JSON.stringify(resumenData, null, 2)};
-
 export const FILTERS_MAP = ${JSON.stringify(filtersMap, null, 2)};
-
-export const RECORDS_BY_CONTRACT = ${JSON.stringify(recordsByContract, null, 2)};
 `;
 
     fs.writeFileSync(mockPath, updatedMock);
-    console.log('Successfully updated dataMock.js with report data');
+    console.log('Successfully updated dataMock.js and copied contract JSONs to public/contratos');
 
 } catch (error) {
-    console.error('Error processing Excel:', error.message);
+    console.error('Error processing JSONs:', error);
 }
