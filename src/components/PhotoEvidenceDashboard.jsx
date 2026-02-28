@@ -55,12 +55,41 @@ const PhotoEvidenceDashboard = () => {
     const [records, setRecords] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
+    // Theme State
+    const [isDarkMode, setIsDarkMode] = useState(false);
+    useEffect(() => {
+        if (isDarkMode) document.documentElement.classList.add('dark');
+        else document.documentElement.classList.remove('dark');
+    }, [isDarkMode]);
+
     const companies = useMemo(() => ['ALL', ...Object.keys(FILTERS_MAP)], []);
 
     const contracts = useMemo(() => {
         if (selectedCompany === 'ALL') return ['ALL'];
         return ['ALL', ...(FILTERS_MAP[selectedCompany] || [])];
     }, [selectedCompany]);
+
+    const kpiData = useMemo(() => {
+        // Obtenemos los totales agregados basados en el desglose actual sin importar el filtro de error (solo por dropdown)
+        let total = 0, sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
+        let filtered = RESUMEN_DATA;
+        if (selectedCompany !== 'ALL') filtered = filtered.filter(r => r.EMPRESA_RAIZ_MASTER === selectedCompany);
+        if (selectedContract !== 'ALL') filtered = filtered.filter(r => r.ID.toString() === selectedContract);
+
+        filtered.forEach(row => {
+            total += (row.TOTAL_OMISIONES || 0);
+            ERROR_TYPES.forEach(rawType => {
+                const amount = row[rawType] || 0;
+                if (amount > 0) {
+                    if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) sinCarpeta += amount;
+                    else if (rawType === 'FALTA: INICIAL') faltaInicial += amount;
+                    else if (rawType === 'FALTA: CAJA') faltaCaja += amount;
+                    else if (rawType === 'FALTA: FINAL') faltaFinal += amount;
+                }
+            });
+        });
+        return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
+    }, [selectedCompany, selectedContract]);
 
     // Handle company change to reset contract and error type
     const handleCompanyChange = (company) => {
@@ -428,7 +457,7 @@ const PhotoEvidenceDashboard = () => {
     };
 
     return (
-        <div className="flex flex-col gap-8 pb-20">
+        <React.Fragment>
             {/* Alert Notification */}
             <AnimatePresence>
                 {showAlert && (
@@ -436,266 +465,290 @@ const PhotoEvidenceDashboard = () => {
                         initial={{ opacity: 0, y: -50 }}
                         animate={{ opacity: 1, y: 20 }}
                         exit={{ opacity: 0, y: -50 }}
-                        className="fixed top-0 left-1/2 -translate-x-1/2 z-[100] bg-red-500 text-white px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-3 border border-red-400"
+                        className="fixed top-4 left-1/2 -translate-x-1/2 z-[100] bg-primary text-white px-6 py-3 rounded shadow-xl flex items-center gap-3 border border-red-400"
                     >
-                        <AlertOctagon className="w-5 h-5" />
-                        <span className="font-semibold">¡No hay registros para exportar!</span>
+                        <span className="material-symbols-outlined">error</span>
+                        <span className="font-semibold text-sm">¡No hay registros para exportar!</span>
                     </motion.div>
                 )}
             </AnimatePresence>
 
-            {/* Header & Filters */}
-            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
-                <div>
-                    <h1 className="text-3xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-                        Control de Evidencia Fotográfica
-                    </h1>
-                    <p className="text-slate-400 mt-1 flex items-center gap-2">
-                        <MapPin className="w-4 h-4" /> Toluca, Estado de México
-                    </p>
-                </div>
-
-                <div className="flex flex-wrap gap-4 w-full lg:w-auto">
-                    <button
-                        onClick={exportToPDF}
-                        className="flex items-center gap-2 px-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm font-semibold text-slate-300 hover:bg-white/10 hover:text-white transition-all transform hover:scale-105 active:scale-95"
-                    >
-                        <FileText className="w-4 h-4 text-purple-400" />
-                        Exportar Resumen
-                    </button>
-                    {/* Primary Filter */}
-                    <div className="flex-1 lg:flex-none">
-                        <label className="text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-1 block">Empresa Raíz</label>
-                        <div className="relative">
-                            <select
-                                value={selectedCompany}
-                                onChange={(e) => handleCompanyChange(e.target.value)}
-                                className="w-full lg:w-48 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm appearance-none focus:outline-none focus:ring-2 ring-purple-500/20 cursor-pointer"
-                            >
-                                {companies.map(c => <option key={c} value={c} className="bg-slate-900">{c}</option>)}
-                            </select>
-                            <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 pointer-events-none" />
-                        </div>
-                    </div>
-
-                    {/* Secondary Filter */}
-                    <div className="flex-1 lg:flex-none">
-                        <label className="text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-1 block">Contrato (ID)</label>
-                        <div className="relative">
-                            <select
-                                value={selectedContract}
-                                onChange={(e) => setSelectedContract(e.target.value)}
-                                disabled={selectedCompany === 'ALL'}
-                                className="w-full lg:w-48 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm appearance-none focus:outline-none focus:ring-2 ring-purple-500/20 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                            >
-                                {contracts.map(id => <option key={id} value={id} className="bg-slate-900">{id === 'ALL' ? 'TODOS' : id}</option>)}
-                            </select>
-                            <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 pointer-events-none" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* Dashboard Content */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-
-                {/* Visualizations Row */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="lg:col-span-5 glass-card p-6"
-                >
-                    <div className="flex items-center gap-2 mb-6">
-                        <PieIcon className="w-5 h-5 text-purple-400" />
-                        <h3 className="font-semibold text-lg">Distribución de Errores</h3>
-                    </div>
-                    <div className="h-[350px]">
-                        <ResponsiveContainer width="100%" height="100%">
-                            <PieChart>
-                                <Pie
-                                    data={pieData}
-                                    cx="50%"
-                                    cy="50%"
-                                    innerRadius={80}
-                                    outerRadius={110}
-                                    paddingAngle={8}
-                                    dataKey="value"
-                                    animationBegin={200}
-                                >
-                                    {pieData.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill={entry.color} stroke="none" />
-                                    ))}
-                                </Pie>
-                                <Tooltip
-                                    contentStyle={{ backgroundColor: 'rgba(15, 23, 42, 0.95)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px' }}
-                                    itemStyle={{ color: '#fff' }}
-                                />
-                                <Legend
-                                    verticalAlign="bottom"
-                                    height={36}
-                                    formatter={(value) => <span className="text-xs text-slate-300 ml-1">{value}</span>}
-                                />
-                            </PieChart>
-                        </ResponsiveContainer>
-                    </div>
-                </motion.div>
-
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.1 }}
-                    className="lg:col-span-7 glass-card p-6"
-                >
-                    <div className="flex items-center gap-2 mb-6">
-                        <BarChart3 className="w-5 h-5 text-blue-400" />
-                        <h3 className="font-semibold text-lg">
-                            {selectedContract !== 'ALL' ? `Detalle: Contrato ${selectedContract}` : selectedCompany !== 'ALL' ? `Contratos: ${selectedCompany}` : 'General: Conteo de Faltantes'}
-                        </h3>
-                    </div>
-                    <div className="h-[350px]">
-                        <ResponsiveContainer width="100%" height="100%">
-                            <BarChart data={barData} layout="horizontal" margin={{ top: 20, right: 30, left: 20, bottom: 40 }}>
-                                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
-                                <XAxis
-                                    dataKey="name"
-                                    stroke="#64748b"
-                                    fontSize={10}
-                                    tickLine={false}
-                                    axisLine={false}
-                                    angle={barData.length > 5 ? -45 : 0}
-                                    textAnchor={barData.length > 5 ? "end" : "middle"}
-                                    height={60}
-                                />
-                                <YAxis stroke="#64748b" fontSize={11} tickLine={false} axisLine={false} />
-                                <Tooltip
-                                    cursor={{ fill: 'rgba(255,255,255,0.05)' }}
-                                    contentStyle={{ backgroundColor: 'rgba(15, 23, 42, 0.95)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px' }}
-                                    itemStyle={{ color: '#fff' }}
-                                />
-                                <Bar
-                                    dataKey="value"
-                                    radius={[6, 6, 0, 0]}
-                                    barSize={barData.length < 5 ? 80 : 40}
-                                >
-                                    {barData.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill={entry.color} />
-                                    ))}
-                                </Bar>
-                            </BarChart>
-                        </ResponsiveContainer>
-                    </div>
-                </motion.div>
-
-                {/* Table Section */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2 }}
-                    className="lg:col-span-12 glass-card overflow-hidden"
-                >
-                    <div className="p-6 border-b border-white/5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                        <div className="flex items-center gap-2">
-                            <TableIcon className="w-5 h-5 text-slate-400" />
-                            <h3 className="font-semibold text-lg">Detalle de Folios</h3>
-                        </div>
-
-                        <div className="flex flex-wrap gap-2">
-                            <button
-                                onClick={() => toggleErrorType('ALL')}
-                                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${selectedErrorTypes.length === 0 ? 'bg-white/10 text-white border border-white/20' : 'text-slate-500 hover:text-slate-300'}`}
-                            >
-                                TODOS
-                            </button>
-                            {CONDENSED_CATEGORIES.map(type => (
-                                <button
-                                    key={type}
-                                    onClick={() => toggleErrorType(type)}
-                                    className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${selectedErrorTypes.includes(type)
-                                        ? 'text-white'
-                                        : 'text-slate-500 border-transparent hover:text-slate-300'
-                                        }`}
-                                    style={selectedErrorTypes.includes(type) ? {
-                                        backgroundColor: `${getColorForStatus(type)}20`,
-                                        borderColor: `${getColorForStatus(type)}40`,
-                                        color: getColorForStatus(type)
-                                    } : {}}
-                                >
-                                    {type}
-                                </button>
-                            ))}
-                        </div>
-
-                        <div className="px-3 py-1 bg-white/5 rounded-full text-xs text-slate-400 border border-white/10">
-                            {tableData.length} registros encontrados
-                        </div>
-                    </div>
-
-                    <div className="overflow-x-auto max-h-[500px] custom-scrollbar">
-                        {isLoading ? (
-                            <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4">
-                                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-500"></div>
-                                <p className="text-lg font-medium text-slate-400">Cargando folios...</p>
-                            </div>
-                        ) : tableData.length > 0 ? (
-                            <table className="w-full text-left text-sm">
-                                <thead className="bg-white/5 text-slate-400 uppercase text-[10px] tracking-widest sticky top-0 z-10">
-                                    <tr>
-                                        <th className="px-6 py-4 font-bold">Folio</th>
-                                        <th className="px-6 py-4 font-bold">Error</th>
-                                        <th className="px-6 py-4 font-bold">Calle</th>
-                                        <th className="px-6 py-4 font-bold">Delegación</th>
-                                        <th className="px-6 py-4 font-bold">Colonia</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-white/5">
-                                    {tableData.map((row, idx) => (
-                                        <tr key={idx} className="hover:bg-white/5 transition-colors group">
-                                            <td className="px-6 py-4 font-mono font-medium text-purple-400">{row.FOLIO}</td>
-                                            <td className="px-6 py-4">
-                                                <span
-                                                    className="px-2 py-1 rounded text-[10px] font-bold uppercase border"
-                                                    style={{
-                                                        backgroundColor: `${getColorForStatus(row.RESULTADO_AUDITORIA)}20`,
-                                                        color: getColorForStatus(row.RESULTADO_AUDITORIA),
-                                                        borderColor: `${getColorForStatus(row.RESULTADO_AUDITORIA)}40`
-                                                    }}
-                                                >
-                                                    {row.RESULTADO_AUDITORIA}
-                                                </span>
-                                            </td>
-                                            <td className="px-6 py-4 text-slate-300">{row.CALLE}</td>
-                                            <td className="px-6 py-4 text-slate-400 cursor-help" title="Delegación">{row.DELEGACION}</td>
-                                            <td className="px-6 py-4 text-slate-400">{row.COLONIA}</td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        ) : (
-                            <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4">
-                                <AlertCircle className="w-12 h-12 opacity-20" />
-                                <div className="text-center">
-                                    <p className="text-lg font-medium text-slate-400">Sin datos seleccionados</p>
-                                    <p className="text-sm">Selecciona una empresa para visualizar el desglose de folios o verifica los filtros aplicados.</p>
+            {/* Header Section */}
+            <header className="header-gradient text-white shadow-lg">
+                <div className="semi-circle-1"></div>
+                <div className="semi-circle-2"></div>
+                <div className="w-full max-w-[1536px] mx-auto px-4 lg:px-8 py-4 relative z-10">
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                        <div className="flex items-center gap-6">
+                            <div className="flex items-center gap-3">
+                                <div className="bg-white/10 p-2 rounded-lg backdrop-blur-sm">
+                                    <span className="material-symbols-outlined text-3xl">account_balance</span>
+                                </div>
+                                <div>
+                                    <h1 className="text-xl font-black tracking-tight leading-none uppercase">Toluca Capital</h1>
+                                    <p className="text-[10px] font-medium tracking-[0.2em] opacity-80 uppercase">Ayuntamiento 2022-2024</p>
                                 </div>
                             </div>
-                        )}
+                            <div className="h-10 w-[1px] bg-white/20 hidden md:block"></div>
+                            <div className="hidden md:block">
+                                <h2 className="text-lg font-bold leading-tight">Supervisión Inteligente</h2>
+                                <p className="text-sm font-light opacity-90">DIRECCIÓN DE OBRAS PÚBLICAS</p>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-4 w-full md:w-auto">
+                            <button
+                                onClick={() => setIsDarkMode(!isDarkMode)}
+                                className="p-2 rounded-full hover:bg-white/10 transition-colors"
+                                title="Cambiar Tema"
+                            >
+                                <span className="material-symbols-outlined">{isDarkMode ? 'light_mode' : 'dark_mode'}</span>
+                            </button>
+                            <div
+                                className="flex items-center gap-3 pl-2 border-l border-white/20 cursor-pointer hover:opacity-80 transition-opacity"
+                                onClick={() => alert('La configuración de usuario aún está bajo construcción.')}
+                                title="Perfil de Usuario"
+                            >
+                                <div className="text-right hidden sm:block">
+                                    <p className="text-xs font-bold leading-none">Admin Usuario</p>
+                                    <p className="text-[10px] opacity-70">Supervisor General</p>
+                                </div>
+                                <div className="w-10 h-10 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center">
+                                    <span className="material-symbols-outlined text-xl">person</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </motion.div>
-            </div>
-
-            {/* Floating Action Button for PDF Export */}
-            <motion.button
-                whileHover={{ scale: 1.1, rotate: -5 }}
-                whileTap={{ scale: 0.9 }}
-                onClick={exportToPDF}
-                className="fixed bottom-8 right-8 w-14 h-14 bg-gradient-to-tr from-red-600 to-rose-400 rounded-full shadow-2xl flex items-center justify-center text-white z-50 group"
-            >
-                <FileText className="w-6 h-6 group-hover:animate-pulse" />
-                <div className="absolute bottom-full right-0 mb-4 bg-slate-900 text-white text-[10px] px-2 py-1 rounded border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                    Exportar PDF ({tableData.length} folios)
                 </div>
-            </motion.button>
-        </div>
+            </header>
+
+            <main className="w-full max-w-[1536px] mx-auto px-4 lg:px-8 py-8">
+                {/* Title and Filters */}
+                <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                    <div>
+                        <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Panel de Control de Documentación</h3>
+                        <p className="text-slate-500 dark:text-slate-400">Estado actual de folios y seguimiento de incidencias administrativas</p>
+                    </div>
+
+                    <div className="flex flex-wrap items-center gap-3">
+                        <div className="flex flex-col">
+                            <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Empresa Raíz</label>
+                            <div className="relative">
+                                <select
+                                    value={selectedCompany}
+                                    onChange={(e) => handleCompanyChange(e.target.value)}
+                                    className="appearance-none bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold rounded px-3 py-2 pr-8 focus:ring-primary focus:border-primary dark:text-white"
+                                >
+                                    {companies.map(c => <option key={c} value={c}>{c}</option>)}
+                                </select>
+                                <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-lg">expand_more</span>
+                            </div>
+                        </div>
+                        <div className="flex flex-col">
+                            <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Contrato</label>
+                            <div className="relative">
+                                <select
+                                    value={selectedContract}
+                                    onChange={(e) => setSelectedContract(e.target.value)}
+                                    disabled={selectedCompany === 'ALL'}
+                                    className="appearance-none bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold rounded px-3 py-2 pr-8 focus:ring-primary focus:border-primary disabled:opacity-50 dark:text-white"
+                                >
+                                    {contracts.map(id => <option key={id} value={id}>{id === 'ALL' ? 'TODOS' : id}</option>)}
+                                </select>
+                                <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-lg">expand_more</span>
+                            </div>
+                        </div>
+                        <button
+                            onClick={exportToPDF}
+                            className="mt-4 flex items-center gap-2 px-4 py-2 bg-primary text-white rounded text-sm font-bold hover:bg-primary/90 transition-colors shadow"
+                        >
+                            <span className="material-symbols-outlined text-sm">download</span> {selectedCompany === 'ALL' ? 'Descargar Resumen' : 'Exportar Detalles'}
+                        </button>
+                    </div>
+                </div>
+
+                {/* KPI Cards Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500">
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Total Errores Físicos</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.total}</h4>
+                    </div>
+                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-primary">
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Sin Carpeta / Vacía</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.sinCarpeta}</h4>
+                    </div>
+                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500">
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Inicial</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaInicial}</h4>
+                    </div>
+                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500">
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Caja</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaCaja}</h4>
+                    </div>
+                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-red-500">
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Final</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaFinal}</h4>
+                    </div>
+                </div>
+
+                {/* Main Content Area */}
+                <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+                    {/* Visualizations Section */}
+                    <div className="xl:col-span-1 flex flex-col gap-6">
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
+                                {selectedContract !== 'ALL' ? `Contrato: ${selectedContract}` : selectedCompany !== 'ALL' ? `Contratos: ${selectedCompany}` : 'Conteo Faltantes'}
+                            </p>
+                            <div className="h-[250px] w-full">
+                                <ResponsiveContainer width="100%" height="100%">
+                                    <BarChart data={barData} layout="horizontal" margin={{ top: 10, right: 10, left: 0, bottom: 20 }}>
+                                        <CartesianGrid strokeDasharray="3 3" stroke={isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"} vertical={false} />
+                                        <XAxis
+                                            dataKey="name"
+                                            stroke={isDarkMode ? "#737373" : "#a3a3a3"}
+                                            fontSize={10}
+                                            tickLine={false}
+                                            axisLine={false}
+                                            angle={barData.length > 5 ? -45 : 0}
+                                            textAnchor={barData.length > 5 ? "end" : "middle"}
+                                        />
+                                        <YAxis stroke={isDarkMode ? "#737373" : "#a3a3a3"} fontSize={10} tickLine={false} axisLine={false} width={30} />
+                                        <Tooltip
+                                            cursor={{ fill: isDarkMode ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.02)' }}
+                                            contentStyle={{
+                                                backgroundColor: isDarkMode ? '#262626' : '#fff',
+                                                border: isDarkMode ? '1px solid #404040' : '1px solid #e5e5e5',
+                                                borderRadius: '8px',
+                                                color: isDarkMode ? '#fff' : '#171717'
+                                            }}
+                                        />
+                                        <Bar dataKey="value" radius={[4, 4, 0, 0]} barSize={barData.length < 5 ? 60 : 30}>
+                                            {barData.map((entry, index) => (
+                                                <Cell key={`cell-${index}`} fill={entry.color} />
+                                            ))}
+                                        </Bar>
+                                    </BarChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </div>
+
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Distribución de Errores</p>
+                            <div className="h-[280px] w-full">
+                                <ResponsiveContainer width="100%" height="100%">
+                                    <PieChart>
+                                        <Pie
+                                            data={pieData}
+                                            cx="50%"
+                                            cy="50%"
+                                            innerRadius={60}
+                                            outerRadius={90}
+                                            paddingAngle={4}
+                                            dataKey="value"
+                                            animationBegin={200}
+                                        >
+                                            {pieData.map((entry, index) => (
+                                                <Cell key={`cell-${index}`} fill={entry.color} stroke="none" />
+                                            ))}
+                                        </Pie>
+                                        <Tooltip
+                                            contentStyle={{
+                                                backgroundColor: isDarkMode ? '#262626' : '#fff',
+                                                border: isDarkMode ? '1px solid #404040' : '1px solid #e5e5e5',
+                                                borderRadius: '8px',
+                                                color: isDarkMode ? '#fff' : '#171717'
+                                            }}
+                                        />
+                                        <Legend
+                                            verticalAlign="bottom"
+                                            height={30}
+                                            formatter={(value) => <span className="text-[10px] uppercase font-bold text-slate-500 ml-1">{value}</span>}
+                                        />
+                                    </PieChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Data Table Section */}
+                    <div className="xl:col-span-2 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+                        <div className="p-6 border-b border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                            <h5 className="font-bold text-slate-800 dark:text-slate-100">Registros de Incidencias</h5>
+                            <div className="flex flex-wrap gap-2">
+                                <button
+                                    onClick={() => toggleErrorType('ALL')}
+                                    className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.length === 0 ? 'bg-primary text-white border-transparent' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'}`}
+                                >
+                                    TODOS
+                                </button>
+                                {CONDENSED_CATEGORIES.map(type => (
+                                    <button
+                                        key={type}
+                                        onClick={() => toggleErrorType(type)}
+                                        className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.includes(type)
+                                            ? 'text-white'
+                                            : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
+                                            }`}
+                                        style={selectedErrorTypes.includes(type) ? {
+                                            backgroundColor: getColorForStatus(type),
+                                            borderColor: getColorForStatus(type)
+                                        } : {}}
+                                    >
+                                        {type}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="overflow-x-auto overflow-y-auto w-full h-[580px] max-h-[580px] custom-scrollbar">
+                            {isLoading ? (
+                                <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4 h-full">
+                                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+                                    <p className="text-sm font-bold uppercase tracking-widest text-primary">Cargando folios...</p>
+                                </div>
+                            ) : tableData.length > 0 ? (
+                                <table className="w-full text-left">
+                                    <thead className="sticky top-0 z-10">
+                                        <tr className="bg-slate-50 dark:bg-slate-900 text-[10px] uppercase tracking-wider text-slate-500 font-bold">
+                                            <th className="px-6 py-4">Folio</th>
+                                            <th className="px-6 py-4">Tipo de Error</th>
+                                            <th className="px-6 py-4">Calle</th>
+                                            <th className="px-6 py-4">Delegación</th>
+                                            <th className="px-6 py-4">Colonia</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
+                                        {tableData.map((row, idx) => (
+                                            <tr key={idx} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+                                                <td className="px-6 py-4 font-bold text-primary dark:text-white text-sm">{row.FOLIO}</td>
+                                                <td className="px-6 py-4">
+                                                    <span
+                                                        className="px-2 py-1 rounded text-[10px] font-black uppercase text-white shadow-sm"
+                                                        style={{ backgroundColor: getColorForStatus(row.RESULTADO_AUDITORIA) }}
+                                                    >
+                                                        {row.RESULTADO_AUDITORIA}
+                                                    </span>
+                                                </td>
+                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.CALLE}</td>
+                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.DELEGACION}</td>
+                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.COLONIA}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            ) : (
+                                <div className="flex flex-col items-center justify-center p-20 text-slate-400 gap-4 h-full">
+                                    <span className="material-symbols-outlined text-4xl opacity-50">search_off</span>
+                                    <p className="text-sm font-bold uppercase tracking-widest">Sin datos coincidentes</p>
+                                </div>
+                            )}
+                        </div>
+                        <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between bg-white dark:bg-slate-800 rounded-b-lg">
+                            <p className="text-xs text-slate-500 font-medium">Mostrando <span className="font-bold">{tableData.length}</span> registros filtrados</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </React.Fragment>
     );
 };
 

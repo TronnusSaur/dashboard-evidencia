@@ -3,9 +3,10 @@
 <html lang="es"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Supervisión Inteligente - Toluca Capital</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
@@ -30,219 +31,315 @@
             },
         }
     </script>
-<title>Supervisión Inteligente - Toluca Capital</title>
 <style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-  </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen pb-20">
+        body {
+            font-family: 'Public Sans', sans-serif;
+        }
+        .header-gradient {
+            background: linear-gradient(135deg, #7a1531 0%, #5a0f24 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .semi-circle-1 {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            top: -150px;
+            right: -50px;
+        }
+        .semi-circle-2 {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 70%);
+            bottom: -100px;
+            left: 10%;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
 <!-- Header Section -->
-<header class="bg-primary text-white p-4 shadow-md sticky top-0 z-50">
-<div class="flex items-center justify-between max-w-md mx-auto">
+<header class="header-gradient text-white shadow-lg">
+<div class="semi-circle-1"></div>
+<div class="semi-circle-2"></div>
+<div class="max-w-[1440px] mx-auto px-6 py-4 relative z-10">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-6">
 <div class="flex items-center gap-3">
-<div class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center border border-white/30 overflow-hidden">
-<img class="w-full h-full object-cover" data-alt="Toluca Capital minimalist white logo on burgundy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzjrMVt7to-eB1W2hLnudw6TKoRHq-AfXCPa3aPquPhbXhbN_dL-z-czP68WUCo5ZfbJ75goi47W7J92N9XojMEnMy_RpEong3n91qTTkBQW14AOG37Lpssg1n_SfFms6kjzQ64OEl7KJaqVuZgqwPR0qLYaYrYoTNlxCDlMBtmmZ0D_Zl7fMzczjlYl_kk1ib19sT3OdrGSAwXXL4AR2GkM-BCuWr7PzRsv68-TNtQXSwojldvepUV-8vmFfOqlKYic9h0EuCYx_l"/>
+<div class="bg-white/10 p-2 rounded-lg backdrop-blur-sm">
+<span class="material-symbols-outlined text-3xl" style="">account_balance</span>
 </div>
 <div>
-<h1 class="text-sm font-bold tracking-tight uppercase leading-none">Toluca Capital</h1>
-<p class="text-[10px] opacity-80 uppercase font-medium">Dirección de Obras Públicas</p>
+<h1 class="text-xl font-black tracking-tight leading-none uppercase" style="">Toluca Capital</h1>
+<p class="text-[10px] font-medium tracking-[0.2em] opacity-80 uppercase" style="">Ayuntamiento 2022-2024</p>
 </div>
 </div>
-<button class="p-2 hover:bg-white/10 rounded-full">
-<span class="material-symbols-outlined">notifications</span>
-</button>
+<div class="h-10 w-[1px] bg-white/20 hidden md:block"></div>
+<div>
+<h2 class="text-lg font-bold leading-tight" style="">Supervisión Inteligente</h2>
+<p class="text-sm font-light opacity-90" style="">DIRECCIÓN DE OBRAS PÚBLICAS</p>
+</div>
+</div>
+<div class="flex items-center gap-4 w-full md:w-auto">
+<div class="relative flex-1 md:w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-white/60 text-xl" style="">search</span>
+<input class="w-full bg-white/10 border-white/20 rounded-lg pl-10 pr-4 py-2 text-sm focus:ring-primary focus:border-primary placeholder:text-white/50" placeholder="Buscar folio o calle..." type="text"/>
+</div>
+<div class="flex items-center gap-3 pl-2 border-l border-white/20">
+<div class="text-right hidden sm:block">
+<p class="text-xs font-bold leading-none" style="">Admin Usuario</p>
+<p class="text-[10px] opacity-70" style="">Supervisor General</p>
+</div>
+<img alt="Profile" class="w-10 h-10 rounded-full border-2 border-white/20" data-alt="Official user profile photo for administration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfVr85604Mq8pKvu3D0qn4exIMo2XZVr-ou42BFnWvY7sHRiqxvtjXO8YjXhvVtkEmyJhXmFtfsOXFntZmRvBky73sny6QAQgRwrDqvuIsNWnN93vXXZTim8dAaAM1-ibjuEk6oaPWc7lvTz3Zxv-uLKWFVM7iTIPLpZxBRZDl-M3c9xgkwL_iseOTtAa1NS-1JHFsUgWZdbk3dvrYO9-xWbCAZukDj4tbm6_tm5PJdjF6WmijXEva8Ra5TmXmhks5b98tbohIZ6gL" style=""/>
+</div>
+</div>
+</div>
 </div>
 </header>
+<main class="max-w-[1440px] mx-auto px-6 py-8">
+<!-- Dashboard Title Area -->
+<div class="mb-8">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100" style="">Panel de Control de Documentación</h3>
+<p class="text-slate-500 dark:text-slate-400" style="">Estado actual de folios y seguimiento de incidencias administrativas</p>
+</div>
+<!-- KPI Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+<div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1" style="">Total Folios</p>
+<div class="flex items-end justify-between">
+<h4 class="text-3xl font-black text-primary" style="">9,878</h4>
+<span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded" style=""><br/></span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-primary">
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1" style="">Sin Carpeta</p>
+<h4 class="text-3xl font-black text-slate-800 dark:text-slate-100" style="">4,958</h4>
+<div class="w-full bg-slate-100 h-1.5 mt-3 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[50.1%]"></div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1" style="">Falta: Inicial</p>
+<h4 class="text-3xl font-black text-slate-800 dark:text-slate-100" style="">1,409</h4>
+<p class="text-xs text-slate-400 mt-2" style="">14% del total</p>
+</div>
+<div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1" style="">Falta: Caja</p>
+<h4 class="text-3xl font-black text-slate-800 dark:text-slate-100" style="">1,249</h4>
+<p class="text-xs text-slate-400 mt-2" style=""><br/></p>
+</div>
+<div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
+<p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1" style="">Falta: Final</p>
+<h4 class="text-3xl font-black text-slate-800 dark:text-slate-100" style="">723</h4>
+<p class="text-xs text-slate-400 mt-2" style="">10% del total</p>
+</div>
+</div>
 <!-- Main Content Area -->
-<main class="max-w-md mx-auto px-4 pt-6 space-y-6">
-<!-- Welcome & Title -->
-<div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary to-[#5a0f24] p-6 text-white shadow-lg">
-<!-- Decorative geometric shapes -->
-<div class="absolute -right-4 -top-4 w-24 h-24 bg-white/10 rounded-full"></div>
-<div class="absolute right-12 bottom-0 w-16 h-16 bg-white/5 rotate-45 transform origin-bottom"></div>
-<h2 class="text-2xl font-bold">Dashboard de Supervisión</h2>
-<p class="text-white/80 text-sm mt-1">Gestión y Control de Evidencias</p>
+<div class="grid grid-cols-1 xl:grid-cols-3 gap-8">
+<!-- Visualization Section -->
+<div class="xl:col-span-1 bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm"><div class="flex items-center justify-between mb-6">
+<h5 class="font-bold text-slate-800 dark:text-slate-100" style="">Analítica de Incidencias</h5>
+<button class="text-primary text-xs font-bold hover:underline" style="">Ver Reporte Detallado</button>
 </div>
-<!-- Key Metrics Grid -->
-<div class="grid grid-cols-2 gap-4">
-<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-<div class="flex items-center gap-2 mb-2">
-<span class="material-symbols-outlined text-primary text-xl">description</span>
-<span class="text-slate-500 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">Total Folios</span>
-</div>
-<div class="flex items-baseline gap-2">
-<span class="text-2xl font-bold">1,482</span>
-<span class="text-emerald-600 text-xs font-bold">+5.2%</span>
-</div>
-</div>
-<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-<div class="flex items-center gap-2 mb-2">
-<span class="material-symbols-outlined text-primary text-xl">report_problem</span>
-<span class="text-slate-500 dark:text-slate-400 text-xs font-semibold uppercase tracking-wider">Errores</span>
-</div>
-<div class="flex items-baseline gap-2">
-<span class="text-2xl font-bold text-red-600">38</span>
-<span class="text-red-500 text-xs font-bold">-2.1%</span>
-</div>
-</div>
-</div>
-<!-- Charts Section -->
+<div class="space-y-8">
+<!-- Bar Chart: Conteo de Faltantes -->
+<div>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4" style="">Conteo de Faltantes</p>
 <div class="space-y-4">
-<!-- Distribution Donut -->
-<div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-4">Distribución de Errores</h3>
-<div class="flex items-center justify-around gap-4">
-<div class="relative w-32 h-32 flex items-center justify-center">
-<!-- Simulated Donut Chart using Gradients/Conic -->
-<div class="w-full h-full rounded-full" style="background: conic-gradient(#7a1531 0% 45%, #a63d5a 45% 75%, #d18ba0 75% 100%);"></div>
-<div class="absolute inset-4 bg-white dark:bg-slate-800 rounded-full flex flex-col items-center justify-center">
-<span class="text-lg font-bold">38</span>
-<span class="text-[10px] text-slate-400 uppercase">Total</span>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-slate-600 dark:text-slate-400 uppercase" style="">Sin Carpeta</span>
+<span class="font-bold" style="">4,958</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-slate-700 h-6 rounded overflow-hidden">
+<div class="bg-primary h-full" style="width: 100%;"></div>
 </div>
 </div>
-<div class="space-y-2">
-<div class="flex items-center gap-2 text-xs">
-<span class="w-3 h-3 rounded-full bg-primary"></span>
-<span class="text-slate-600 dark:text-slate-400">Estructura</span>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-slate-600 dark:text-slate-400 uppercase" style="">Falta: Inicial</span>
+<span class="font-bold" style="">1,409</span>
 </div>
-<div class="flex items-center gap-2 text-xs">
-<span class="w-3 h-3 rounded-full bg-[#a63d5a]"></span>
-<span class="text-slate-600 dark:text-slate-400">Acabados</span>
-</div>
-<div class="flex items-center gap-2 text-xs">
-<span class="w-3 h-3 rounded-full bg-[#d18ba0]"></span>
-<span class="text-slate-600 dark:text-slate-400">Instalación</span>
+<div class="w-full bg-slate-100 dark:bg-slate-700 h-6 rounded overflow-hidden">
+<div class="bg-primary/70 h-full" style="width: 28.4%;"></div>
 </div>
 </div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-slate-600 dark:text-slate-400 uppercase" style="">Faltantes Múltiples</span>
+<span class="font-bold" style="">1,357</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-slate-700 h-6 rounded overflow-hidden">
+<div class="bg-amber-500/80 h-full" style="width: 27.3%;"></div>
 </div>
 </div>
-<!-- Bar Chart: Monthly Progress -->
-<div class="bg-white dark:bg-slate-800 p-5 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300 mb-6">Trabajos Mensuales</h3>
-<div class="flex items-end justify-between h-32 px-2">
-<div class="flex flex-col items-center gap-2 flex-1">
-<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 40%">
-<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium">
+<span class="text-slate-600 dark:text-slate-400 uppercase" style="">Falta: Caja</span>
+<span class="font-bold" style="">1,249</span>
 </div>
-<span class="text-[10px] font-medium text-slate-400">MAY</span>
-</div>
-<div class="flex flex-col items-center gap-2 flex-1 mx-1">
-<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 65%">
-<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
-</div>
-<span class="text-[10px] font-medium text-slate-400">JUN</span>
-</div>
-<div class="flex flex-col items-center gap-2 flex-1">
-<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 90%">
-<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
-</div>
-<span class="text-[10px] font-medium text-slate-400">JUL</span>
-</div>
-<div class="flex flex-col items-center gap-2 flex-1 mx-1">
-<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 55%">
-<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
-</div>
-<span class="text-[10px] font-medium text-slate-400">AGO</span>
-</div>
-<div class="flex flex-col items-center gap-2 flex-1">
-<div class="w-full bg-primary/20 rounded-t-sm relative" style="height: 75%">
-<div class="absolute bottom-0 w-full bg-primary rounded-t-sm" style="height: 100%"></div>
-</div>
-<span class="text-[10px] font-medium text-slate-400">SEP</span>
+<div class="w-full bg-slate-100 dark:bg-slate-700 h-6 rounded overflow-hidden">
+<div class="bg-primary/50 h-full" style="width: 25.1%;"></div>
 </div>
 </div>
 </div>
 </div>
-<!-- Data List: Detalle de Folios -->
-<div class="pb-4">
-<div class="flex items-center justify-between mb-4">
-<h3 class="text-sm font-bold text-slate-700 dark:text-slate-300">Detalle de Folios Recientes</h3>
-<button class="text-primary text-xs font-bold uppercase tracking-tight">Ver todos</button>
-</div>
-<div class="space-y-3">
-<!-- List Item 1 -->
-<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
-<div class="flex items-center gap-3">
-<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-<span class="material-symbols-outlined">map</span>
-</div>
+<!-- Donut Chart: Distribución de Errores -->
 <div>
-<div class="flex items-center gap-2">
-<span class="font-bold text-sm">FOL-2024-001</span>
-<span class="px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[10px] font-bold rounded-full uppercase">Completado</span>
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4" style="">Distribución de Errores</p>
+<div class="flex items-center gap-6">
+<div class="relative w-32 h-32 rounded-full flex items-center justify-center" style="background: conic-gradient(#7a1531 0% 50.1%, #7a1531b3 50.1% 64.3%, #f59e0bcc 64.3% 78%, #7a153180 78% 90.6%, #7a15314d 90.6% 97.9%, #94a3b8 97.9% 99.7%, #dc2626 99.7% 100%);">
+<div class="absolute w-20 h-20 bg-white dark:bg-slate-800 rounded-full flex flex-col items-center justify-center">
+<span class="text-lg font-black text-slate-800 dark:text-white leading-none" style="">9,878</span>
+<span class="text-[8px] text-slate-400 uppercase font-bold" style="">Total</span>
 </div>
-<p class="text-xs text-slate-500 mt-1" data-location="Centro Histórico, Toluca">Centro Histórico, Toluca</p>
+</div>
+<div class="flex-1 space-y-1.5">
+<div class="flex items-center gap-2 text-[10px] font-bold text-slate-600 dark:text-slate-400">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="flex-1 uppercase" style="">Sin Carpeta</span>
+<span class="" style="">50.1%</span>
+</div>
+<div class="flex items-center gap-2 text-[10px] font-bold text-slate-600 dark:text-slate-400">
+<div class="w-2 h-2 rounded-full bg-primary/70"></div>
+<span class="flex-1 uppercase" style="">F. Inicial</span>
+<span class="" style="">14.2%</span>
+</div>
+<div class="flex items-center gap-2 text-[10px] font-bold text-slate-600 dark:text-slate-400">
+<div class="w-2 h-2 rounded-full bg-amber-500/80"></div>
+<span class="flex-1 uppercase" style="">F. Múltiples</span>
+<span class="" style="">13.7%</span>
+</div>
+<div class="flex items-center gap-2 text-[10px] font-bold text-slate-600 dark:text-slate-400">
+<div class="w-2 h-2 rounded-full bg-primary/50"></div>
+<span class="flex-1 uppercase" style="">Otros</span>
+<span class="" style="">22%</span>
 </div>
 </div>
-<span class="material-symbols-outlined text-slate-300">chevron_right</span>
 </div>
-<!-- List Item 2 -->
-<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
-<div class="flex items-center gap-3">
-<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-<span class="material-symbols-outlined">engineering</span>
 </div>
+</div>
+<div class="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/10">
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary" style="">info</span>
 <div>
-<div class="flex items-center gap-2">
-<span class="font-bold text-sm">FOL-2024-042</span>
-<span class="px-2 py-0.5 bg-amber-100 text-amber-700 text-[10px] font-bold rounded-full uppercase">En Proceso</span>
-</div>
-<p class="text-xs text-slate-500 mt-1" data-location="Santa Ana Tlapaltitlán, Toluca">Santa Ana Tlapaltitlán</p>
+<p class="text-xs font-bold text-primary uppercase" style="">Nota del Sistema</p>
+<p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed" style="">Los datos reflejan cortes de supervisión al día de hoy. La actualización de archivos físicos puede demorar hasta 24 horas.</p>
 </div>
 </div>
-<span class="material-symbols-outlined text-slate-300">chevron_right</span>
-</div>
-<!-- List Item 3 -->
-<div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
-<div class="flex items-center gap-3">
-<div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-<span class="material-symbols-outlined">warning</span>
-</div>
-<div>
-<div class="flex items-center gap-2">
-<span class="font-bold text-sm">FOL-2024-089</span>
-<span class="px-2 py-0.5 bg-red-100 text-red-700 text-[10px] font-bold rounded-full uppercase">Error</span>
-</div>
-<p class="text-xs text-slate-500 mt-1" data-location="Colonia Morelos, Toluca">Colonia Morelos, Toluca</p>
+</div></div>
+<!-- Data Table Section -->
+<div class="xl:col-span-2 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm overflow-hidden">
+<div class="p-6 border-b border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<h5 class="font-bold text-slate-800 dark:text-slate-100" style="">Registros de Incidencias</h5>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 px-3 py-1.5 border border-slate-200 dark:border-slate-600 rounded-lg text-xs font-semibold hover:bg-slate-50 transition-colors" style="">
+<span class="material-symbols-outlined text-sm" style="">filter_list</span> Filtrar
+                        </button>
+<button class="flex items-center gap-2 px-3 py-1.5 bg-primary text-white rounded-lg text-xs font-semibold hover:bg-primary/90 transition-colors" style="">
+<span class="material-symbols-outlined text-sm" style="">download</span> Exportar PDF</button>
 </div>
 </div>
-<span class="material-symbols-outlined text-slate-300">chevron_right</span>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-slate-50 dark:bg-slate-900/50 text-[10px] uppercase tracking-wider text-slate-500 font-bold">
+<th class="px-6 py-4" style="">Folio</th>
+<th class="px-6 py-4" style="">Tipo de Error</th>
+<th class="px-6 py-4" style="">Calle</th>
+<th class="px-6 py-4" style="">Delegación</th>
+<th class="px-6 py-4" style="">Colonia</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 dark:divide-slate-700">
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19535</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded text-[10px] font-black uppercase" style="">Falta: Caja</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Prado Sur</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">SANTA MARIA TOTOLTEPEC</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">El Olimpo</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19542</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded text-[10px] font-black uppercase" style="">Sin Carpeta</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Av. Independencia</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">CENTRO HISTÓRICO</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Centro</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19601</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded text-[10px] font-black uppercase" style="">Falta: Inicial</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Paseo Tollocan</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">SAN SEBASTIAN</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Vértice</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19688</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded text-[10px] font-black uppercase" style="">Faltantes Múltiples</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Vicente Villada</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">CAPULTITLÁN</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Barrio de la Cruz</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19712</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded text-[10px] font-black uppercase" style="">Falta: Final</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Morelos</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">SAN BUENAVENTURA</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Morelos</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+<td class="px-6 py-4 font-bold text-primary text-sm" style="">19745</td>
+<td class="px-6 py-4" style="">
+<span class="px-2 py-1 bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded text-[10px] font-black uppercase" style="">Sin Carpeta</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Av. Juárez</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">CENTRO HISTÓRICO</td>
+<td class="px-6 py-4 text-sm text-slate-600 dark:text-slate-400" style="">Santa Clara</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between">
+<p class="text-xs text-slate-500" style="">Mostrando 6 de 4,958 registros</p>
+<div class="flex gap-2">
+<button class="w-8 h-8 flex items-center justify-center rounded border border-slate-200 dark:border-slate-600 text-slate-400 hover:bg-slate-50 transition-colors" style="">
+<span class="material-symbols-outlined text-sm" style="">chevron_left</span>
+</button>
+<button class="w-8 h-8 flex items-center justify-center rounded bg-primary text-white text-xs font-bold" style="">1</button>
+<button class="w-8 h-8 flex items-center justify-center rounded border border-slate-200 dark:border-slate-600 text-xs font-bold hover:bg-slate-50 transition-colors" style="">2</button>
+<button class="w-8 h-8 flex items-center justify-center rounded border border-slate-200 dark:border-slate-600 text-xs font-bold hover:bg-slate-50 transition-colors" style="">3</button>
+<button class="w-8 h-8 flex items-center justify-center rounded border border-slate-200 dark:border-slate-600 text-slate-400 hover:bg-slate-50 transition-colors" style="">
+<span class="material-symbols-outlined text-sm" style="">chevron_right</span>
+</button>
+</div>
 </div>
 </div>
 </div>
 </main>
-<!-- Bottom Navigation Bar -->
-<nav class="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-6 py-3 z-50">
-<div class="max-w-md mx-auto flex justify-between items-center">
-<a class="flex flex-col items-center gap-1 text-primary" href="#">
-<span class="material-symbols-outlined font-variation-fill">home</span>
-<span class="text-[10px] font-bold uppercase tracking-wider">Inicio</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500 hover:text-primary transition-colors" href="#">
-<span class="material-symbols-outlined">assignment</span>
-<span class="text-[10px] font-bold uppercase tracking-wider">Reportes</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500 hover:text-primary transition-colors" href="#">
-<span class="material-symbols-outlined">person</span>
-<span class="text-[10px] font-bold uppercase tracking-wider">Perfil</span>
-</a>
+<footer class="mt-12 py-8 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-[1440px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" style="">gavel</span>
+<p class="text-xs text-slate-500 font-medium" style="">© 2024 Ayuntamiento de Toluca. Dirección de Obras Públicas.</p>
 </div>
-</nav>
-<style>
-        /* Material Symbol custom styling for filled state */
-        .font-variation-fill {
-            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        
-        /* Smooth backdrop for the navigation */
-        nav {
-            backdrop-filter: blur(8px);
-            background-color: rgba(255, 255, 255, 0.9);
-        }
-        .dark nav {
-            background-color: rgba(32, 18, 22, 0.9);
-        }
-    </style>
+<div class="flex gap-6">
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#" style="">Aviso de Privacidad</a>
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#" style="">Transparencia</a>
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#" style="">Contacto Técnico</a>
+</div>
+</div>
+</footer>
 </body></html>
