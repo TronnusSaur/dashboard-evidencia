@@ -486,7 +486,7 @@ const PhotoEvidenceDashboard = () => {
                                 </div>
                                 <div>
                                     <h1 className="text-xl font-black tracking-tight leading-none uppercase">Toluca Capital</h1>
-                                    <p className="text-[10px] font-medium tracking-[0.2em] opacity-80 uppercase">Ayuntamiento 2022-2024</p>
+                                    <p className="text-[10px] font-medium tracking-[0.2em] opacity-80 uppercase">Ayuntamiento 2025-2027</p>
                                 </div>
                             </div>
                             <div className="h-10 w-[1px] bg-white/20 hidden md:block"></div>
