@@ -20,30 +20,12 @@ const PATRONES = {
     "FINAL": ["_terminado", "_final", " terminado", " final"]
 };
 
-// Autenticación con Google Service Account
+// Autenticación (Compatible con Workload Identity en GitHub o credenciales locales)
 async function getAuth() {
-    let credentials;
-    if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
-        credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
-    } else {
-        // Fallback local file if it exists (for local testing sin env var literal)
-        if (fs.existsSync('service-account.json')) {
-            credentials = JSON.parse(fs.readFileSync('service-account.json', 'utf8'));
-        } else {
-            console.warn("⚠️ No se encontró GOOGLE_SERVICE_ACCOUNT_KEY ni service-account.json. Fallará si no está en un entorno autorizado por default.");
-            const auth = new google.auth.GoogleAuth({
-                scopes: ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly'],
-            });
-            return auth.getClient();
-        }
-    }
-
-    return new google.auth.JWT(
-        credentials.client_email,
-        null,
-        credentials.private_key,
-        ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly']
-    );
+    const auth = new google.auth.GoogleAuth({
+        scopes: ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly'],
+    });
+    return auth.getClient();
 }
 
 // Obtener todas las páginas de una query de Drive
