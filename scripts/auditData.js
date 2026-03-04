@@ -31,18 +31,22 @@ async function getAuth() {
             credentials = JSON.parse(fs.readFileSync('service-account.json', 'utf8'));
         } else {
             console.warn("⚠️ No se encontró GOOGLE_SERVICE_ACCOUNT_KEY.");
-            return new google.auth.GoogleAuth({
+            const defaultAuth = new google.auth.GoogleAuth({
                 scopes: ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly'],
-            }).getClient();
+            });
+            return await defaultAuth.getClient();
         }
     }
 
-    return new google.auth.JWT(
-        credentials.client_email,
-        null,
-        credentials.private_key,
-        ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly']
-    );
+    const auth = new google.auth.GoogleAuth({
+        credentials: {
+            client_email: credentials.client_email,
+            private_key: credentials.private_key,
+        },
+        scopes: ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly'],
+    });
+
+    return await auth.getClient();
 }
 
 // Obtener todas las páginas de una query de Drive
