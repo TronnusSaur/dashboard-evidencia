@@ -278,7 +278,7 @@ const PhotoEvidenceDashboard = () => {
             if (isGeneralSummary) {
                 // Generar PDF del Resumen General
                 doc.setFontSize(20);
-                doc.setTextColor(139, 92, 246);
+                doc.setTextColor(122, 21, 49);
                 doc.text("Resumen Ejecutivo de Auditoría Global", 14, 25);
 
                 doc.setFontSize(10);
@@ -286,40 +286,31 @@ const PhotoEvidenceDashboard = () => {
                 doc.text("GOBIERNO MUNICIPAL DE TOLUCA - CONTROL DE BACHEO", 14, 32);
                 doc.line(14, 35, 196, 35);
 
-                const totalOmisiones = filteredRecordsByDelegation.length;
+                const totalOmisiones = kpiData.total;
 
                 doc.setFontSize(11);
                 doc.setTextColor(60);
-                doc.text(`Total de folios observados: ${totalOmisiones}`, 14, 45);
+                doc.text(`Total de faltantes y omisiones: ${totalOmisiones}`, 14, 45);
 
                 const summaryColumn = ["Categoría de Error", "Cantidad", "% del Total"];
-                const errorSums = {};
-                CONDENSED_CATEGORIES.forEach(type => {
-                    errorSums[type] = 0;
-                    filteredRecordsByDelegation.forEach(row => {
-                        const rawType = row.RESULTADO_AUDITORIA || '';
-                        if (MAP_TO_CONDENSED[rawType] === type) {
-                            errorSums[type]++;
-                        }
-                    });
-                });
-
-                const summaryRows = CONDENSED_CATEGORIES.map(type => [
-                    type,
-                    errorSums[type],
-                    totalOmisiones > 0 ? ((errorSums[type] / totalOmisiones) * 100).toFixed(1) + "%" : "0%"
-                ]);
+                const summaryRows = [
+                    ["Sin Carpeta / Vacía", kpiData.sinCarpeta, totalOmisiones > 0 ? ((kpiData.sinCarpeta / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Inicial", kpiData.faltaInicial, totalOmisiones > 0 ? ((kpiData.faltaInicial / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Caja", kpiData.faltaCaja, totalOmisiones > 0 ? ((kpiData.faltaCaja / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Final", kpiData.faltaFinal, totalOmisiones > 0 ? ((kpiData.faltaFinal / totalOmisiones) * 100).toFixed(1) + "%" : "0%"]
+                ];
 
                 autoTable(doc, {
                     head: [summaryColumn],
                     body: summaryRows,
                     startY: 55,
                     theme: 'striped',
-                    headStyles: { fillColor: [139, 92, 246] },
+                    headStyles: { fillColor: [122, 21, 49] },
                     styles: { fontSize: 10 }
                 });
 
                 doc.setFontSize(14);
+                doc.setTextColor(122, 21, 49);
                 doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
 
                 const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Fotos)"];
@@ -340,23 +331,18 @@ const PhotoEvidenceDashboard = () => {
                     }
 
                     const rawType = row.RESULTADO_AUDITORIA || '';
-                    if (rawType) {
-                        companyMap[comp].total++; // Increment total rows for this company
-
-                        if (rawType.includes('+') || rawType.includes(' Y ')) {
-                            // Descomponer y sumar a columnas individuales
-                            if (rawType.includes('INICIAL')) companyMap[comp].inicial++;
-                            if (rawType.includes('CAJA')) companyMap[comp].caja++;
-                            if (rawType.includes('FINAL')) companyMap[comp].final++;
-                        } else if (rawType === 'FALTA: INICIAL') {
-                            companyMap[comp].inicial++;
-                        } else if (rawType === 'FALTA: CAJA') {
-                            companyMap[comp].caja++;
-                        } else if (rawType === 'FALTA: FINAL') {
-                            companyMap[comp].final++;
-                        } else if (rawType === 'SIN CARPETA' || rawType === 'CARPETA VACÍA') {
+                    if (rawType && rawType !== 'OK') {
+                        let rowInc = 0;
+                        if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
                             companyMap[comp].sinCarpeta++;
+                            rowInc = 1;
+                        } else {
+                            if (rawType.includes('INICIAL')) { companyMap[comp].inicial++; rowInc++; }
+                            if (rawType.includes('CAJA')) { companyMap[comp].caja++; rowInc++; }
+                            if (rawType.includes('FINAL')) { companyMap[comp].final++; rowInc++; }
                         }
+
+                        companyMap[comp].total += rowInc; // Increment total by actual errors
                     }
                 });
 
@@ -376,14 +362,14 @@ const PhotoEvidenceDashboard = () => {
                     body: companyRows,
                     startY: doc.lastAutoTable.finalY + 20,
                     theme: 'grid',
-                    headStyles: { fillColor: [71, 85, 105], halign: 'center', fontSize: 8 },
+                    headStyles: { fillColor: [122, 21, 49], halign: 'center', fontSize: 8 },
                     columnStyles: {
                         0: { fontStyle: 'bold', halign: 'left' },
                         1: { halign: 'center' },
                         2: { halign: 'center' },
                         3: { halign: 'center' },
                         4: { halign: 'center' },
-                        5: { halign: 'center', fontStyle: 'bold', textColor: [190, 18, 60] } // Resaltar el total
+                        5: { halign: 'center', fontStyle: 'bold', textColor: [122, 21, 49] } // Resaltar el total
                     },
                     styles: { fontSize: 8 }
                 });
@@ -400,7 +386,7 @@ const PhotoEvidenceDashboard = () => {
             // Generar PDF Detallado de Contrato
             // Header Section
             doc.setFontSize(20);
-            doc.setTextColor(139, 92, 246); // Brand Purple
+            doc.setTextColor(122, 21, 49); // Brand Deep Wine
             doc.text("REPORTAJE DE EVIDENCIA FOTOGRÁFICA", 14, 25);
 
             doc.setFontSize(10);
@@ -444,7 +430,7 @@ const PhotoEvidenceDashboard = () => {
                 startY: currentY + 15,
                 theme: 'grid',
                 headStyles: {
-                    fillColor: [139, 92, 246],
+                    fillColor: [122, 21, 49],
                     textColor: [255, 255, 255],
                     fontSize: 9,
                     halign: 'center'
