@@ -1,0 +1,48 @@
+name: "Update Sentinel Dashboard Data"
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *' # Cada 12 horas en UTC
+  workflow_dispatch: # Permitir inicio manual desde GitHub UI
+
+# IMPORTANTE: Se requieren permisos para Workload Identity
+permissions:
+  contents: write # Para poder hacer el commit
+  id-token: write # Necesario para conectarse a Google Cloud sin llaves
+
+jobs:
+  audit_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: 'feat/automation'
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: '${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}'
+          service_account: '${{ secrets.SERVICE_ACCOUNT_EMAIL }}'
+
+      - name: Install Script Dependencies
+        run: npm install googleapis dotenv p-limit
+
+      - name: Run Sentinel Audit Bot
+        run: node scripts/auditData.js
+        env:
+          DOCUMENT_ID_SHEETS: ${{ secrets.DOCUMENT_ID_SHEETS }}
+          FOLDER_ID_DRIVE: ${{ secrets.FOLDER_ID_DRIVE }}
+
+      - name: Update Cache and Data
+        run: |
+          git config --global user.name "Queeny Bot 🤖"
+          git config --global user.email "bot@sentinel.ai"
+          git add public/contratos/ src/dataMock.js audit_cache.json || true
+          git commit -m "chore(data): auto-update photo evidence JSON records" || echo "No changes to commit"
+          git push origin feat/automation
