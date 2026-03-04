@@ -11,7 +11,7 @@ import {
     PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip,
     BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from 'recharts';
-import { FILTERS_MAP, ERROR_TYPES } from '../dataMock';
+import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
 
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
