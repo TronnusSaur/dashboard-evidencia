@@ -11,7 +11,7 @@ import {
     PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip,
     BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from 'recharts';
-import { GLOBAL_TOTALS, RESUMEN_DATA, FILTERS_MAP, ERROR_TYPES } from '../dataMock';
+import { FILTERS_MAP, ERROR_TYPES } from '../dataMock';
 
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
@@ -70,26 +70,19 @@ const PhotoEvidenceDashboard = () => {
     }, [selectedCompany]);
 
     const kpiData = useMemo(() => {
-        // Obtenemos los totales agregados basados en el desglose actual sin importar el filtro de error (solo por dropdown)
-        let total = 0, sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
-        let filtered = RESUMEN_DATA;
-        if (selectedCompany !== 'ALL') filtered = filtered.filter(r => r.EMPRESA_RAIZ_MASTER === selectedCompany);
-        if (selectedContract !== 'ALL') filtered = filtered.filter(r => r.ID.toString() === selectedContract);
+        let total = records.length;
+        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
 
-        filtered.forEach(row => {
-            total += (row.TOTAL_OMISIONES || 0);
-            ERROR_TYPES.forEach(rawType => {
-                const amount = row[rawType] || 0;
-                if (amount > 0) {
-                    if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) sinCarpeta += amount;
-                    else if (rawType === 'FALTA: INICIAL') faltaInicial += amount;
-                    else if (rawType === 'FALTA: CAJA') faltaCaja += amount;
-                    else if (rawType === 'FALTA: FINAL') faltaFinal += amount;
-                }
-            });
+        records.forEach(row => {
+            const rawType = row.RESULTADO_AUDITORIA || '';
+            if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) sinCarpeta++;
+            else if (rawType === 'FALTA: INICIAL') faltaInicial++;
+            else if (rawType === 'FALTA: CAJA') faltaCaja++;
+            else if (rawType === 'FALTA: FINAL') faltaFinal++;
         });
+
         return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
-    }, [selectedCompany, selectedContract]);
+    }, [records]);
 
     // Handle company change to reset contract and error type
     const handleCompanyChange = (company) => {
@@ -110,30 +103,17 @@ const PhotoEvidenceDashboard = () => {
         );
     };
 
-    // Filtered data for visualizations
-    const filteredResumen = useMemo(() => {
-        let data = RESUMEN_DATA;
-        if (selectedCompany !== 'ALL') {
-            data = data.filter(r => r.EMPRESA_RAIZ_MASTER === selectedCompany);
-        }
-        if (selectedContract !== 'ALL') {
-            data = data.filter(r => r.ID.toString() === selectedContract);
-        }
-        return data;
-    }, [selectedCompany, selectedContract]);
-
     // Pie Chart Data
     const pieData = useMemo(() => {
         const sums = {};
         CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
 
-        filteredResumen.forEach(row => {
-            ERROR_TYPES.forEach(rawType => {
-                const condensed = MAP_TO_CONDENSED[rawType];
-                if (condensed) {
-                    sums[condensed] += (row[rawType] || 0);
-                }
-            });
+        records.forEach(row => {
+            const rawType = row.RESULTADO_AUDITORIA || '';
+            const condensed = MAP_TO_CONDENSED[rawType];
+            if (condensed) {
+                sums[condensed]++;
+            }
         });
 
         return CONDENSED_CATEGORIES.map(name => ({
@@ -141,7 +121,7 @@ const PhotoEvidenceDashboard = () => {
             value: sums[name],
             color: getColorForStatus(name)
         })).filter(d => d.value > 0);
-    }, [filteredResumen]);
+    }, [records]);
 
     // Bar Chart Data
     const barData = useMemo(() => {
@@ -149,13 +129,11 @@ const PhotoEvidenceDashboard = () => {
             // Desglose del contrato específico
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            const row = filteredResumen[0];
-            if (row) {
-                ERROR_TYPES.forEach(rawType => {
-                    const condensed = MAP_TO_CONDENSED[rawType];
-                    if (condensed) sums[condensed] += (row[rawType] || 0);
-                });
-            }
+            records.forEach(row => {
+                const rawType = row.RESULTADO_AUDITORIA || '';
+                const condensed = MAP_TO_CONDENSED[rawType];
+                if (condensed) sums[condensed]++;
+            });
             return CONDENSED_CATEGORIES.map(type => ({
                 name: type,
                 value: sums[type],
@@ -163,27 +141,27 @@ const PhotoEvidenceDashboard = () => {
             }));
         } else if (selectedCompany !== 'ALL') {
             // Comparativa de contratos de la empresa
-            return filteredResumen.map(row => {
-                let total = 0;
-                ERROR_TYPES.forEach(rawType => {
-                    const condensed = MAP_TO_CONDENSED[rawType];
-                    if (condensed) total += (row[rawType] || 0);
-                });
-                return {
-                    name: `Contrato ${row.ID}`,
-                    value: total,
-                    color: '#8b5cf6' // Purple for contract comparison
-                };
+            const contractSums = {};
+            records.forEach(row => {
+                const rawType = row.RESULTADO_AUDITORIA || '';
+                const condensed = MAP_TO_CONDENSED[rawType];
+                if (condensed && row._contract) {
+                    contractSums[row._contract] = (contractSums[row._contract] || 0) + 1;
+                }
             });
+            return Object.keys(contractSums).map(contractId => ({
+                name: `Contrato ${contractId}`,
+                value: contractSums[contractId],
+                color: '#8b5cf6' // Purple for contract comparison
+            }));
         } else {
             // General por tipos
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            RESUMEN_DATA.forEach(row => {
-                ERROR_TYPES.forEach(rawType => {
-                    const condensed = MAP_TO_CONDENSED[rawType];
-                    if (condensed) sums[condensed] += (row[rawType] || 0);
-                });
+            records.forEach(row => {
+                const rawType = row.RESULTADO_AUDITORIA || '';
+                const condensed = MAP_TO_CONDENSED[rawType];
+                if (condensed) sums[condensed]++;
             });
             return CONDENSED_CATEGORIES.map(type => ({
                 name: type,
@@ -191,17 +169,13 @@ const PhotoEvidenceDashboard = () => {
                 color: getColorForStatus(type)
             }));
         }
-    }, [selectedCompany, selectedContract, filteredResumen]);
+    }, [selectedCompany, selectedContract, records]);
 
+    // Table Data (Drill-down)
     // Table Data (Drill-down)
     // Lazy Loading Effect
     useEffect(() => {
         const fetchRecords = async () => {
-            if (selectedCompany === 'ALL' && selectedContract === 'ALL') {
-                setRecords([]);
-                return;
-            }
-
             setIsLoading(true);
             let allRecords = [];
 
@@ -211,11 +185,23 @@ const PhotoEvidenceDashboard = () => {
                     const res = await fetch(url);
                     if (res.ok) {
                         const data = await res.json();
-                        allRecords = data;
+                        allRecords = data.map(item => ({ ...item, _company: selectedCompany, _contract: selectedContract }));
                     }
                 } else if (selectedCompany !== 'ALL') {
                     const ids = FILTERS_MAP[selectedCompany];
-                    const promises = ids.map(id => fetch(`/contratos/${selectedCompany}_${id}.json`).then(r => r.ok ? r.json() : []));
+                    const promises = ids.map(id => fetch(`/contratos/${selectedCompany}_${id}.json`).then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: selectedCompany, _contract: id }))) : []));
+                    const results = await Promise.all(promises);
+                    allRecords = results.flat();
+                } else {
+                    const promises = [];
+                    Object.keys(FILTERS_MAP).forEach(company => {
+                        FILTERS_MAP[company].forEach(id => {
+                            promises.push(
+                                fetch(`/contratos/${company}_${id}.json`)
+                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: company, _contract: id }))) : [])
+                            );
+                        });
+                    });
                     const results = await Promise.all(promises);
                     allRecords = results.flat();
                 }
@@ -272,7 +258,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.text("GOBIERNO MUNICIPAL DE TOLUCA - CONTROL DE BACHEO", 14, 32);
                 doc.line(14, 35, 196, 35);
 
-                const totalOmisiones = RESUMEN_DATA.reduce((acc, row) => acc + row.TOTAL_OMISIONES, 0);
+                const totalOmisiones = records.length;
 
                 doc.setFontSize(11);
                 doc.setTextColor(60);
@@ -282,9 +268,10 @@ const PhotoEvidenceDashboard = () => {
                 const errorSums = {};
                 CONDENSED_CATEGORIES.forEach(type => {
                     errorSums[type] = 0;
-                    ERROR_TYPES.forEach(rawType => {
+                    records.forEach(row => {
+                        const rawType = row.RESULTADO_AUDITORIA || '';
                         if (MAP_TO_CONDENSED[rawType] === type) {
-                            errorSums[type] += RESUMEN_DATA.reduce((acc, row) => acc + (row[rawType] || 0), 0);
+                            errorSums[type]++;
                         }
                     });
                 });
@@ -309,10 +296,10 @@ const PhotoEvidenceDashboard = () => {
 
                 const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Fotos)"];
 
-                // Group by EMPRESA_RAIZ_MASTER
+                // Group by _company
                 const companyMap = {};
-                RESUMEN_DATA.forEach(row => {
-                    const comp = row.EMPRESA_RAIZ_MASTER || "Desconocida";
+                records.forEach(row => {
+                    const comp = row._company || "Desconocida";
                     if (!companyMap[comp]) {
                         companyMap[comp] = {
                             name: comp,
@@ -324,27 +311,25 @@ const PhotoEvidenceDashboard = () => {
                         };
                     }
 
-                    ERROR_TYPES.forEach(rawType => {
-                        const amount = row[rawType] || 0;
-                        if (amount > 0) {
-                            if (rawType.includes('+') || rawType.includes(' Y ')) {
-                                // Descomponer y sumar a columnas individuales
-                                if (rawType.includes('INICIAL')) companyMap[comp].inicial += amount;
-                                if (rawType.includes('CAJA')) companyMap[comp].caja += amount;
-                                if (rawType.includes('FINAL')) companyMap[comp].final += amount;
-                            } else if (rawType === 'FALTA: INICIAL') {
-                                companyMap[comp].inicial += amount;
-                            } else if (rawType === 'FALTA: CAJA') {
-                                companyMap[comp].caja += amount;
-                            } else if (rawType === 'FALTA: FINAL') {
-                                companyMap[comp].final += amount;
-                            } else if (rawType === 'SIN CARPETA' || rawType === 'CARPETA VACÍA') {
-                                companyMap[comp].sinCarpeta += amount;
-                            }
-                        }
-                    });
+                    const rawType = row.RESULTADO_AUDITORIA || '';
+                    if (rawType) {
+                        companyMap[comp].total++; // Increment total rows for this company
 
-                    companyMap[comp].total += row.TOTAL_OMISIONES;
+                        if (rawType.includes('+') || rawType.includes(' Y ')) {
+                            // Descomponer y sumar a columnas individuales
+                            if (rawType.includes('INICIAL')) companyMap[comp].inicial++;
+                            if (rawType.includes('CAJA')) companyMap[comp].caja++;
+                            if (rawType.includes('FINAL')) companyMap[comp].final++;
+                        } else if (rawType === 'FALTA: INICIAL') {
+                            companyMap[comp].inicial++;
+                        } else if (rawType === 'FALTA: CAJA') {
+                            companyMap[comp].caja++;
+                        } else if (rawType === 'FALTA: FINAL') {
+                            companyMap[comp].final++;
+                        } else if (rawType === 'SIN CARPETA' || rawType === 'CARPETA VACÍA') {
+                            companyMap[comp].sinCarpeta++;
+                        }
+                    }
                 });
 
                 const companyRows = Object.values(companyMap)
