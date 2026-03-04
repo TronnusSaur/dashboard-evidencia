@@ -32,6 +32,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
           DOCUMENT_ID_SHEETS: ${{ secrets.DOCUMENT_ID_SHEETS }}
           FOLDER_ID_DRIVE: ${{ secrets.FOLDER_ID_DRIVE }}
+          FOLDER_ID_DRIVE_E1: ${{ secrets.FOLDER_ID_DRIVE_E1 }}
 
       - name: Update Cache and Data
         run: |
