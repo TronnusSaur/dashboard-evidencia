@@ -91,16 +91,23 @@ const PhotoEvidenceDashboard = () => {
     }, [records, selectedDelegation]);
 
     const kpiData = useMemo(() => {
-        let total = filteredRecordsByDelegation.length;
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
 
         filteredRecordsByDelegation.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
-            if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) sinCarpeta++;
-            else if (rawType === 'FALTA: INICIAL') faltaInicial++;
-            else if (rawType === 'FALTA: CAJA') faltaCaja++;
-            else if (rawType === 'FALTA: FINAL') faltaFinal++;
+            if (rawType === 'OK') return;
+
+            if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
+                sinCarpeta++;
+            } else {
+                if (rawType.includes('INICIAL')) faltaInicial++;
+                if (rawType.includes('CAJA')) faltaCaja++;
+                if (rawType.includes('FINAL')) faltaFinal++;
+            }
         });
+
+        // Sumamos las incidencias para que el Total sea la suma exacta de las tarjetas siguientes
+        let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal;
 
         return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
     }, [filteredRecordsByDelegation]);
