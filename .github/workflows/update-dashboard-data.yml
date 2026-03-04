@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          ref: 'feat/automation'
+          ref: 'main'
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,4 +39,4 @@ jobs:
           git config --global user.email "bot@sentinel.ai"
           git add public/contratos/ src/dataMock.js audit_cache.json || true
           git commit -m "chore(data): auto-update photo evidence JSON records" || echo "No changes to commit"
-          git push origin feat/automation
+          git push origin main
