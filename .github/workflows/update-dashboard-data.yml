@@ -1,0 +1,39 @@
+name: "Update Sentinel Dashboard Data"
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *' # Cada 12 horas en UTC
+  workflow_dispatch: # Permitir inicio manual desde GitHub UI
+
+jobs:
+  audit_data:
+    runs-on: ubuntu-latest
+    # Como propusiste prueba, forzamos a que trabaje en esta rama hasta que decidamos hacer merge a main
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: 'feat/automation' # Trabajando en la rama segura
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Script Dependencies
+        run: npm install googleapis dotenv p-limit
+
+      - name: Run Sentinel Audit Bot
+        run: node scripts/auditData.js
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          DOCUMENT_ID_SHEETS: ${{ secrets.DOCUMENT_ID_SHEETS }}
+          FOLDER_ID_DRIVE: ${{ secrets.FOLDER_ID_DRIVE }}
+
+      - name: Update Cache and Data
+        run: |
+          git config --global user.name "Queeny Bot 🤖"
+          git config --global user.email "bot@sentinel.ai"
+          git add public/contratos/ src/dataMock.js audit_cache.json || true
+          git commit -m "chore(data): auto-update photo evidence JSON records" || echo "No changes to commit"
+          git push origin feat/automation
