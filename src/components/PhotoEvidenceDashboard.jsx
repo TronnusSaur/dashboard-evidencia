@@ -48,6 +48,7 @@ ERROR_TYPES.forEach(type => {
 const PhotoEvidenceDashboard = () => {
     const [selectedCompany, setSelectedCompany] = useState('ALL');
     const [selectedContract, setSelectedContract] = useState('ALL');
+    const [selectedDelegation, setSelectedDelegation] = useState('ALL');
     const [selectedErrorTypes, setSelectedErrorTypes] = useState([]);
     const [showAlert, setShowAlert] = useState(false);
 
@@ -62,18 +63,38 @@ const PhotoEvidenceDashboard = () => {
         else document.documentElement.classList.remove('dark');
     }, [isDarkMode]);
 
-    const companies = useMemo(() => ['ALL', ...Object.keys(FILTERS_MAP)], []);
+    const companies = useMemo(() => {
+        if (selectedDelegation === 'ALL') return ['ALL', ...Object.keys(FILTERS_MAP)];
+        const unique = new Set(records.filter(r => r.DELEGACION === selectedDelegation).map(r => r._company).filter(Boolean));
+        return ['ALL', ...Array.from(unique).sort()];
+    }, [records, selectedDelegation]);
 
     const contracts = useMemo(() => {
         if (selectedCompany === 'ALL') return ['ALL'];
         return ['ALL', ...(FILTERS_MAP[selectedCompany] || [])];
     }, [selectedCompany]);
 
+    const delegations = useMemo(() => {
+        const unique = new Set(records.map(r => r.DELEGACION).filter(Boolean));
+        return ['ALL', ...Array.from(unique).sort()];
+    }, [records]);
+
+    useEffect(() => {
+        if (!isLoading && selectedDelegation !== 'ALL' && delegations.length > 0 && !delegations.includes(selectedDelegation)) {
+            setSelectedDelegation('ALL');
+        }
+    }, [delegations, selectedDelegation, isLoading]);
+
+    const filteredRecordsByDelegation = useMemo(() => {
+        if (selectedDelegation === 'ALL') return records;
+        return records.filter(r => r.DELEGACION === selectedDelegation);
+    }, [records, selectedDelegation]);
+
     const kpiData = useMemo(() => {
-        let total = records.length;
+        let total = filteredRecordsByDelegation.length;
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
 
-        records.forEach(row => {
+        filteredRecordsByDelegation.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
             if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) sinCarpeta++;
             else if (rawType === 'FALTA: INICIAL') faltaInicial++;
@@ -82,7 +103,7 @@ const PhotoEvidenceDashboard = () => {
         });
 
         return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
-    }, [records]);
+    }, [filteredRecordsByDelegation]);
 
     // Handle company change to reset contract and error type
     const handleCompanyChange = (company) => {
@@ -108,7 +129,7 @@ const PhotoEvidenceDashboard = () => {
         const sums = {};
         CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
 
-        records.forEach(row => {
+        filteredRecordsByDelegation.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
             const condensed = MAP_TO_CONDENSED[rawType];
             if (condensed) {
@@ -121,7 +142,7 @@ const PhotoEvidenceDashboard = () => {
             value: sums[name],
             color: getColorForStatus(name)
         })).filter(d => d.value > 0);
-    }, [records]);
+    }, [filteredRecordsByDelegation]);
 
     // Bar Chart Data
     const barData = useMemo(() => {
@@ -129,7 +150,7 @@ const PhotoEvidenceDashboard = () => {
             // Desglose del contrato específico
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            records.forEach(row => {
+            filteredRecordsByDelegation.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed) sums[condensed]++;
@@ -142,7 +163,7 @@ const PhotoEvidenceDashboard = () => {
         } else if (selectedCompany !== 'ALL') {
             // Comparativa de contratos de la empresa
             const contractSums = {};
-            records.forEach(row => {
+            filteredRecordsByDelegation.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed && row._contract) {
@@ -158,7 +179,7 @@ const PhotoEvidenceDashboard = () => {
             // General por tipos
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            records.forEach(row => {
+            filteredRecordsByDelegation.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed) sums[condensed]++;
@@ -169,7 +190,7 @@ const PhotoEvidenceDashboard = () => {
                 color: getColorForStatus(type)
             }));
         }
-    }, [selectedCompany, selectedContract, records]);
+    }, [selectedCompany, selectedContract, filteredRecordsByDelegation]);
 
     // Table Data (Drill-down)
     // Table Data (Drill-down)
@@ -220,7 +241,7 @@ const PhotoEvidenceDashboard = () => {
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
         // Filter out records mapped to null (e.g., 'OK')
-        let filtered = records.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
+        let filtered = filteredRecordsByDelegation.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
 
         // Apply Error Type Filter based on CONDENSED group
         if (selectedErrorTypes.length > 0) {
@@ -228,7 +249,7 @@ const PhotoEvidenceDashboard = () => {
         }
 
         return filtered;
-    }, [records, selectedErrorTypes]);
+    }, [filteredRecordsByDelegation, selectedErrorTypes]);
 
     // PDF Export Function
     const exportToPDF = () => {
@@ -258,7 +279,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.text("GOBIERNO MUNICIPAL DE TOLUCA - CONTROL DE BACHEO", 14, 32);
                 doc.line(14, 35, 196, 35);
 
-                const totalOmisiones = records.length;
+                const totalOmisiones = filteredRecordsByDelegation.length;
 
                 doc.setFontSize(11);
                 doc.setTextColor(60);
@@ -268,7 +289,7 @@ const PhotoEvidenceDashboard = () => {
                 const errorSums = {};
                 CONDENSED_CATEGORIES.forEach(type => {
                     errorSums[type] = 0;
-                    records.forEach(row => {
+                    filteredRecordsByDelegation.forEach(row => {
                         const rawType = row.RESULTADO_AUDITORIA || '';
                         if (MAP_TO_CONDENSED[rawType] === type) {
                             errorSums[type]++;
@@ -298,7 +319,7 @@ const PhotoEvidenceDashboard = () => {
 
                 // Group by _company
                 const companyMap = {};
-                records.forEach(row => {
+                filteredRecordsByDelegation.forEach(row => {
                     const comp = row._company || "Desconocida";
                     if (!companyMap[comp]) {
                         companyMap[comp] = {
@@ -387,12 +408,13 @@ const PhotoEvidenceDashboard = () => {
             doc.setTextColor(40);
             doc.text(`Empresa: ${selectedCompany === 'ALL' ? 'Todas' : selectedCompany}`, 14, 45);
             doc.text(`Contrato: ${selectedContract === 'ALL' ? 'General' : selectedContract}`, 14, 51);
+            doc.text(`Delegación: ${selectedDelegation === 'ALL' ? 'Todas' : selectedDelegation}`, 14, 57);
 
             // Multi-line for error types if too long
             const splitErrors = doc.splitTextToSize(`Errores: ${errorLabel}`, 180);
-            doc.text(splitErrors, 14, 57);
+            doc.text(splitErrors, 14, 63);
 
-            const currentY = 57 + (splitErrors.length * 6);
+            const currentY = 63 + (splitErrors.length * 6);
             doc.text(`Total de folios: ${tableData.length}`, 14, currentY);
 
             doc.setFontSize(9);
@@ -538,6 +560,19 @@ const PhotoEvidenceDashboard = () => {
                                     className="appearance-none bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold rounded px-3 py-2 pr-8 focus:ring-primary focus:border-primary disabled:opacity-50 dark:text-white"
                                 >
                                     {contracts.map(id => <option key={id} value={id}>{id === 'ALL' ? 'TODOS' : id}</option>)}
+                                </select>
+                                <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-lg">expand_more</span>
+                            </div>
+                        </div>
+                        <div className="flex flex-col">
+                            <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Delegación</label>
+                            <div className="relative">
+                                <select
+                                    value={selectedDelegation}
+                                    onChange={(e) => setSelectedDelegation(e.target.value)}
+                                    className="appearance-none bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-semibold rounded px-3 py-2 pr-8 focus:ring-primary focus:border-primary disabled:opacity-50 dark:text-white"
+                                >
+                                    {delegations.map(d => <option key={d} value={d}>{d === 'ALL' ? 'TODAS' : d}</option>)}
                                 </select>
                                 <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-lg">expand_more</span>
                             </div>
