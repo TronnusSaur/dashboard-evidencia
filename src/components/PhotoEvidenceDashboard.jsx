@@ -269,6 +269,11 @@ const PhotoEvidenceDashboard = () => {
         }
 
         try {
+            const fileNameContext = selectedDelegation !== 'ALL'
+                ? selectedDelegation
+                : (selectedCompany !== 'ALL' ? selectedCompany : 'Global');
+            const pdfFileName = `Resumen_Auditoria_${fileNameContext.toUpperCase().replace(/\s+/g, '_')}_${new Date().getTime()}.pdf`;
+
             const doc = new jsPDF({
                 orientation: 'portrait',
                 unit: 'mm',
@@ -379,7 +384,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
                 window.open(doc.output('bloburl'), '_blank');
-                doc.save(`Resumen_Auditoria_Global_${new Date().getTime()}.pdf`);
+                doc.save(pdfFileName);
                 return;
             }
 
@@ -449,7 +454,7 @@ const PhotoEvidenceDashboard = () => {
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
             window.open(doc.output('bloburl'), '_blank');
-            doc.save(`Detalle_Contrato_${selectedContract}_${new Date().getTime()}.pdf`);
+            doc.save(pdfFileName);
         } catch (error) {
             console.error('PDF Export Error:', error);
             alert('Error al generar el documento pdf.');
