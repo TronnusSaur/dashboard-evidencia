@@ -7,9 +7,21 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 // CONFIGURACIÓN 
-const ID_RAIZ_2DA_ETAPA = process.env.FOLDER_ID_DRIVE || '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik';
 const SHEET_ID = process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8';
-const HOJA_NOMBRE = 'ETAPA 2 MASTER';
+
+const STAGES_CONFIG = [
+    {
+        id: 'E1',
+        name: 'ETAPA 1 MASTER',
+        driveId: process.env.FOLDER_ID_DRIVE_E1 || '1RJrTrWIp7sYZDyAYhmsq_5xqaLCj3CYN'
+    },
+    {
+        id: 'E2',
+        name: 'ETAPA 2 MASTER',
+        driveId: process.env.FOLDER_ID_DRIVE || '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik'
+    }
+];
+
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'contratos');
 const MOCK_PATH = path.join(process.cwd(), 'src', 'dataMock.js');
 const CACHE_FILE = path.join(process.cwd(), 'audit_cache.json');
@@ -26,7 +38,6 @@ async function getAuth() {
     if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
         credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
     } else {
-        // Fallback local file if it exists (for local testing sin env var literal)
         if (fs.existsSync('service-account.json')) {
             credentials = JSON.parse(fs.readFileSync('service-account.json', 'utf8'));
         } else {
@@ -49,7 +60,6 @@ async function getAuth() {
     return await auth.getClient();
 }
 
-// Obtener todas las páginas de una query de Drive
 async function obtenerPaginado(drive, query) {
     let items = [];
     let pageToken = null;
@@ -68,7 +78,6 @@ async function obtenerPaginado(drive, query) {
     return items;
 }
 
-// Analizar fotos dentro del folder de un folio
 async function auditarFotos(drive, folioId) {
     if (!folioId) return "SIN CARPETA";
     try {
@@ -78,7 +87,7 @@ async function auditarFotos(drive, folioId) {
             fields: "files(name)",
             supportsAllDrives: true,
             includeItemsFromAllDrives: true,
-            pageSize: 100 // generally < 20 photos
+            pageSize: 100
         });
 
         const fotos = (res.data.files || []).map(f => f.name.toLowerCase());
@@ -103,25 +112,14 @@ async function auditarFotos(drive, folioId) {
     }
 }
 
-async function main() {
-    console.log("👑 Queeny Bots: Iniciando la Auditoría Total...");
-    const authClient = await getAuth();
-    const drive = google.drive({ version: 'v3', auth: authClient });
-    const sheets = google.sheets({ version: 'v4', auth: authClient });
+async function procesarEtapa(drive, sheets, config, auditCache) {
+    console.log(`\n📂 Procesando ${config.id}: ${config.name}...`);
 
-    // 1. Cargar cache existente
-    let auditCache = {};
-    if (fs.existsSync(CACHE_FILE)) {
-        auditCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-        console.log(`🧠 Caché cargada con ${Object.keys(auditCache).length} folios procesados anteriormente.`);
-    }
-
-    // 2. Mapeo de Carpetas (Drive)
-    console.log("🗺️ Mapeando Drive...");
+    // 1. Mapeo de Drive
+    console.log(`  🗺️ Mapeando carpetas en Drive para ${config.id}...`);
     const dictMap = {};
-    const contratos = await obtenerPaginado(drive, `'${ID_RAIZ_2DA_ETAPA}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const contratos = await obtenerPaginado(drive, `'${config.driveId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
 
-    // Concurrencia de Mapeo
     const limit = pLimit(5);
     const mapeoTasks = contratos.map(c => limit(async () => {
         try {
@@ -131,39 +129,38 @@ async function main() {
                 dictMap[folioKey] = f.id;
             }
         } catch (e) {
-            console.error(`Error mapeando contrato ${c.id}:`, e.message);
+            console.error(`  ⚠️ Error mapeando contrato ${c.name} (${c.id}):`, e.message);
         }
     }));
     await Promise.all(mapeoTasks);
-    console.log(`✅ ${Object.keys(dictMap).length} Carpetas de folios mapeadas.`);
+    console.log(`  ✅ ${Object.keys(dictMap).length} Carpetas mapeadas.`);
 
-    // 3. Cargar Base de Sheets
-    console.log(`📊 Cargando registros de Sheets (${HOJA_NOMBRE})...`);
+    // 2. Cargar Sheets
+    console.log(`  📊 Cargando registros de Sheets (${config.name})...`);
     const sheetData = await sheets.spreadsheets.values.get({
         spreadsheetId: SHEET_ID,
-        range: HOJA_NOMBRE
+        range: config.name
     });
 
     const rows = sheetData.data.values;
+    if (!rows || rows.length < 2) return [];
+
     const headers = rows[0].map(h => h.trim().toUpperCase());
     const df = rows.slice(1).map(row => {
-        const obj = {};
+        const obj = { _stage: config.id };
         headers.forEach((h, i) => obj[h] = row[i] || "");
         return obj;
     });
-    console.log(`✅ ${df.length} registros cargados.`);
 
-    // 4. Auditoría (Con concurrencia para velocidad)
-    console.log("⚡ Iniciando Auditoría Real...");
-    const auditLimit = pLimit(20); // max 20 Peticiones simultáneas a la API
+    // 3. Auditoría Real
+    const auditLimit = pLimit(20);
     let auditadosNuevos = 0;
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = String(row['FOLIO']).trim();
         const folioId = dictMap[folioStr];
 
-        // Verificar si tenemos este folio ya cacheado
-        const cacheKey = `${folioStr}_${folioId}`;
+        const cacheKey = `${config.id}_${folioStr}_${folioId}`;
         if (auditCache[cacheKey] === "OK" && folioId) {
             row['RESULTADO_AUDITORIA'] = "OK";
             return;
@@ -177,19 +174,38 @@ async function main() {
         }
 
         auditadosNuevos++;
-        if (auditadosNuevos % 200 === 0) console.log(`  ...Auditados ${auditadosNuevos} folios consultando Drive.`);
     }));
 
     await Promise.all(auditTasks);
+    console.log(`  ✅ ${df.length} registros auditados.`);
+    return df;
+}
+
+async function main() {
+    console.log("👑 Kinger: Iniciando la Auditoría Magistral (Etapa 1 + Etapa 2)...");
+    const authClient = await getAuth();
+    const drive = google.drive({ version: 'v3', auth: authClient });
+    const sheets = google.sheets({ version: 'v4', auth: authClient });
+
+    let auditCache = {};
+    if (fs.existsSync(CACHE_FILE)) {
+        auditCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+    }
+
+    let allData = [];
+    for (const config of STAGES_CONFIG) {
+        const stageData = await procesarEtapa(drive, sheets, config, auditCache);
+        allData.push(...stageData);
+    }
 
     // Guardar Caché
     fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
 
-    // 5. Generación de Salidas (Archivos Locales base JSONs)
-    console.log("📂 Generando archivos JSON para el Dashboard...");
+    // Generación de Salidas
+    console.log("\n📂 Generando archivos consolidados...");
     if (!fs.existsSync(PUBLIC_DIR)) fs.mkdirSync(PUBLIC_DIR, { recursive: true });
 
-    // A. Limpiar folder
+    // Limpiar folder
     const oldFiles = fs.readdirSync(PUBLIC_DIR);
     oldFiles.forEach(f => {
         if (f.endsWith('.json')) fs.unlinkSync(path.join(PUBLIC_DIR, f));
@@ -201,12 +217,13 @@ async function main() {
     const resumenData = [];
 
     const grupos = {};
-    df.forEach(row => {
+    allData.forEach(row => {
         const emp = row['EMPRESA'];
         const id = row['ID'];
+        const stage = row['_stage'];
         if (!emp || !id) return;
 
-        const key = `${emp}_${id}`;
+        const key = `${stage}_${emp}_${id}`;
         if (!grupos[key]) grupos[key] = [];
         grupos[key].push(row);
 
@@ -216,8 +233,8 @@ async function main() {
     });
 
     for (const [key, records] of Object.entries(grupos)) {
-        const emp = key.split('_')[0];
-        const id = key.substring(emp.length + 1); // safe extraction
+        const [stage, emp, ...idParts] = key.split('_');
+        const id = idParts.join('_');
 
         if (!filtersMap[emp]) filtersMap[emp] = [];
         if (!filtersMap[emp].includes(id)) filtersMap[emp].push(id);
@@ -225,6 +242,7 @@ async function main() {
         const summaryRow = {
             EMPRESA_RAIZ_MASTER: emp,
             ID: id,
+            _stage: stage,
             TOTAL_OMISIONES: records.length,
         };
         errorTypesSet.forEach(t => summaryRow[t] = 0);
@@ -241,19 +259,20 @@ async function main() {
                     CALLE: r.CALLE,
                     COLONIA: r.COLONIA,
                     DELEGACION: r.DELEGACION,
-                    _company: emp
+                    _company: emp,
+                    _stage: stage
                 });
             }
         });
 
         resumenData.push(summaryRow);
 
-        let fileName = `${emp}_${id}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
+        let fileName = `${key}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
         fs.writeFileSync(path.join(PUBLIC_DIR, fileName), JSON.stringify(pendientes, null, 2));
     }
 
     const errorTypes = Array.from(errorTypesSet);
-    const mockContent = `// Archivo Auto-generado por el Robot Sentinel
+    const mockContent = `// Archivo Auto-generado por Kinger
 export const ERROR_TYPES = ${JSON.stringify(errorTypes, null, 2)};
 export const GLOBAL_TOTALS = ${JSON.stringify(globalTotals, null, 2)};
 export const RESUMEN_DATA = ${JSON.stringify(resumenData, null, 2)};
@@ -261,7 +280,8 @@ export const FILTERS_MAP = ${JSON.stringify(filtersMap, null, 2)};
 `;
     fs.writeFileSync(MOCK_PATH, mockContent, 'utf8');
 
-    console.log("✅ ¡Misión Cumplida! Vercel puede tomar el relevo de aquí.");
+    console.log("\n✅ ¡Misión Cumplida! La corona brilla sobre ambas etapas.");
 }
 
 main().catch(console.error);
+

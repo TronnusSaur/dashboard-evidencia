@@ -46,11 +46,28 @@ ERROR_TYPES.forEach(type => {
 });
 
 const PhotoEvidenceDashboard = () => {
+    const [selectedStage, setSelectedStage] = useState('E2'); // Default to Stage 2
     const [selectedCompany, setSelectedCompany] = useState('ALL');
     const [selectedContract, setSelectedContract] = useState('ALL');
     const [selectedDelegation, setSelectedDelegation] = useState('ALL');
     const [selectedErrorTypes, setSelectedErrorTypes] = useState([]);
     const [showAlert, setShowAlert] = useState(false);
+
+    // Filter RESUMEN_DATA by stage
+    const activeResumen = useMemo(() => {
+        if (selectedStage === 'ALL') return RESUMEN_DATA;
+        return RESUMEN_DATA.filter(r => r._stage === selectedStage);
+    }, [selectedStage]);
+
+    // Derived filters map from activeResumen
+    const activeFiltersMap = useMemo(() => {
+        const map = {};
+        activeResumen.forEach(r => {
+            if (!map[r.EMPRESA_RAIZ_MASTER]) map[r.EMPRESA_RAIZ_MASTER] = [];
+            if (!map[r.EMPRESA_RAIZ_MASTER].includes(r.ID)) map[r.EMPRESA_RAIZ_MASTER].push(r.ID);
+        });
+        return map;
+    }, [activeResumen]);
 
     // Lazy Loading States
     const [records, setRecords] = useState([]);
@@ -64,15 +81,15 @@ const PhotoEvidenceDashboard = () => {
     }, [isDarkMode]);
 
     const companies = useMemo(() => {
-        if (selectedDelegation === 'ALL') return ['ALL', ...Object.keys(FILTERS_MAP)];
+        if (selectedDelegation === 'ALL') return ['ALL', ...Object.keys(activeFiltersMap).sort()];
         const unique = new Set(records.filter(r => r.DELEGACION === selectedDelegation).map(r => r._company).filter(Boolean));
         return ['ALL', ...Array.from(unique).sort()];
-    }, [records, selectedDelegation]);
+    }, [records, selectedDelegation, activeFiltersMap]);
 
     const contracts = useMemo(() => {
         if (selectedCompany === 'ALL') return ['ALL'];
-        return ['ALL', ...(FILTERS_MAP[selectedCompany] || [])];
-    }, [selectedCompany]);
+        return ['ALL', ...(activeFiltersMap[selectedCompany] || [])];
+    }, [selectedCompany, activeFiltersMap]);
 
     const delegations = useMemo(() => {
         const unique = new Set(records.map(r => r.DELEGACION).filter(Boolean));
@@ -86,9 +103,16 @@ const PhotoEvidenceDashboard = () => {
     }, [delegations, selectedDelegation, isLoading]);
 
     const filteredRecordsByDelegation = useMemo(() => {
+        if (selectedStage !== 'ALL' && selectedDelegation === 'ALL') {
+            return records.filter(r => r._stage === selectedStage);
+        }
         if (selectedDelegation === 'ALL') return records;
-        return records.filter(r => r.DELEGACION === selectedDelegation);
-    }, [records, selectedDelegation]);
+        let filtered = records.filter(r => r.DELEGACION === selectedDelegation);
+        if (selectedStage !== 'ALL') {
+            filtered = filtered.filter(r => r._stage === selectedStage);
+        }
+        return filtered;
+    }, [records, selectedDelegation, selectedStage]);
 
     const kpiData = useMemo(() => {
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
@@ -111,6 +135,14 @@ const PhotoEvidenceDashboard = () => {
 
         return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
     }, [filteredRecordsByDelegation]);
+
+    // Handle stage change
+    const handleStageChange = (stage) => {
+        setSelectedStage(stage);
+        setSelectedCompany('ALL');
+        setSelectedContract('ALL');
+        setSelectedErrorTypes([]);
+    };
 
     // Handle company change to reset contract and error type
     const handleCompanyChange = (company) => {
@@ -209,27 +241,50 @@ const PhotoEvidenceDashboard = () => {
 
             try {
                 if (selectedContract !== 'ALL') {
-                    const url = `/contratos/${selectedCompany}_${selectedContract}.json`;
-                    const res = await fetch(url);
-                    if (res.ok) {
-                        const data = await res.json();
-                        allRecords = data.map(item => ({ ...item, _company: selectedCompany, _contract: selectedContract }));
-                    }
+                    // Try to fetch for a specific stage if selected, or detect from RESUMEN_DATA
+                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+
+                    const promises = stagesToFetch.map(async (st) => {
+                        const url = `/contratos/${st}_${selectedCompany}_${selectedContract}.json`;
+                        const res = await fetch(url);
+                        if (res.ok) {
+                            const data = await res.json();
+                            return data.map(item => ({ ...item, _company: selectedCompany, _contract: selectedContract, _stage: st }));
+                        }
+                        return [];
+                    });
+                    const results = await Promise.all(promises);
+                    allRecords = results.flat();
+
                 } else if (selectedCompany !== 'ALL') {
-                    const ids = FILTERS_MAP[selectedCompany];
-                    const promises = ids.map(id => fetch(`/contratos/${selectedCompany}_${id}.json`).then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: selectedCompany, _contract: id }))) : []));
+                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+                    const promises = [];
+
+                    stagesToFetch.forEach(st => {
+                        const ids = RESUMEN_DATA.filter(r => r._stage === st && r.EMPRESA_RAIZ_MASTER === selectedCompany).map(r => r.ID);
+                        ids.forEach(id => {
+                            promises.push(
+                                fetch(`/contratos/${st}_${selectedCompany}_${id}.json`)
+                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: selectedCompany, _contract: id, _stage: st }))) : [])
+                            );
+                        });
+                    });
                     const results = await Promise.all(promises);
                     allRecords = results.flat();
                 } else {
                     const promises = [];
-                    Object.keys(FILTERS_MAP).forEach(company => {
-                        FILTERS_MAP[company].forEach(id => {
+                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+
+                    stagesToFetch.forEach(st => {
+                        const stageSummary = RESUMEN_DATA.filter(r => r._stage === st);
+                        stageSummary.forEach(r => {
                             promises.push(
-                                fetch(`/contratos/${company}_${id}.json`)
-                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: company, _contract: id }))) : [])
+                                fetch(`/contratos/${st}_${r.EMPRESA_RAIZ_MASTER}_${r.ID}.json`)
+                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: r.EMPRESA_RAIZ_MASTER, _contract: r.ID, _stage: st }))) : [])
                             );
                         });
                     });
+
                     const results = await Promise.all(promises);
                     allRecords = results.flat();
                 }
@@ -243,7 +298,7 @@ const PhotoEvidenceDashboard = () => {
         };
 
         fetchRecords();
-    }, [selectedCompany, selectedContract]);
+    }, [selectedCompany, selectedContract, selectedStage]);
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
@@ -404,15 +459,16 @@ const PhotoEvidenceDashboard = () => {
 
             doc.setFontSize(11);
             doc.setTextColor(40);
-            doc.text(`Empresa: ${selectedCompany === 'ALL' ? 'Todas' : selectedCompany}`, 14, 45);
-            doc.text(`Contrato: ${selectedContract === 'ALL' ? 'General' : selectedContract}`, 14, 51);
-            doc.text(`Delegación: ${selectedDelegation === 'ALL' ? 'Todas' : selectedDelegation}`, 14, 57);
+            doc.text(`Etapa: ${selectedStage === 'ALL' ? 'Global (E1 + E2)' : `Etapa ${selectedStage.slice(1)}`}`, 14, 45);
+            doc.text(`Empresa: ${selectedCompany === 'ALL' ? 'Todas' : selectedCompany}`, 14, 51);
+            doc.text(`Contrato: ${selectedContract === 'ALL' ? 'General' : selectedContract}`, 14, 57);
+            doc.text(`Delegación: ${selectedDelegation === 'ALL' ? 'Todas' : selectedDelegation}`, 14, 63);
 
             // Multi-line for error types if too long
             const splitErrors = doc.splitTextToSize(`Errores: ${errorLabel}`, 180);
-            doc.text(splitErrors, 14, 63);
+            doc.text(splitErrors, 14, 69);
 
-            const currentY = 63 + (splitErrors.length * 6);
+            const currentY = 69 + (splitErrors.length * 6);
             doc.text(`Total de folios: ${tableData.length}`, 14, currentY);
 
             doc.setFontSize(9);
@@ -535,6 +591,23 @@ const PhotoEvidenceDashboard = () => {
                     </div>
 
                     <div className="flex flex-wrap items-center gap-3">
+                        <div className="flex flex-col">
+                            <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Etapa de Obra</label>
+                            <div className="flex bg-slate-100 dark:bg-slate-700 p-1 rounded-lg border border-slate-200 dark:border-slate-600">
+                                {['E1', 'E2', 'ALL'].map(stage => (
+                                    <button
+                                        key={stage}
+                                        onClick={() => handleStageChange(stage)}
+                                        className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${selectedStage === stage
+                                            ? 'bg-white dark:bg-slate-500 text-primary dark:text-white shadow-sm'
+                                            : 'text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200'
+                                            }`}
+                                    >
+                                        {stage === 'ALL' ? 'GLOBAL' : `ETAPA ${stage.slice(1)}`}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
                         <div className="flex flex-col">
                             <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Empresa Raíz</label>
                             <div className="relative">
