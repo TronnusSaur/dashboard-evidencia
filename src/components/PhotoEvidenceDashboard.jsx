@@ -102,22 +102,32 @@ const PhotoEvidenceDashboard = () => {
         }
     }, [delegations, selectedDelegation, isLoading]);
 
-    const filteredRecordsByDelegation = useMemo(() => {
-        if (selectedStage !== 'ALL' && selectedDelegation === 'ALL') {
-            return records.filter(r => r._stage === selectedStage);
-        }
-        if (selectedDelegation === 'ALL') return records;
-        let filtered = records.filter(r => r.DELEGACION === selectedDelegation);
+    const filteredRecords = useMemo(() => {
+        let filtered = records;
+
         if (selectedStage !== 'ALL') {
             filtered = filtered.filter(r => r._stage === selectedStage);
         }
+
+        if (selectedCompany !== 'ALL') {
+            filtered = filtered.filter(r => r._company === selectedCompany);
+        }
+
+        if (selectedContract !== 'ALL') {
+            filtered = filtered.filter(r => r._contract === selectedContract);
+        }
+
+        if (selectedDelegation !== 'ALL') {
+            filtered = filtered.filter(r => r.DELEGACION === selectedDelegation);
+        }
+
         return filtered;
-    }, [records, selectedDelegation, selectedStage]);
+    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation]);
 
     const kpiData = useMemo(() => {
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
 
-        filteredRecordsByDelegation.forEach(row => {
+        filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
             if (rawType === 'OK') return;
 
@@ -134,7 +144,7 @@ const PhotoEvidenceDashboard = () => {
         let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal;
 
         return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
-    }, [filteredRecordsByDelegation]);
+    }, [filteredRecords]);
 
     // Handle stage change
     const handleStageChange = (stage) => {
@@ -168,7 +178,7 @@ const PhotoEvidenceDashboard = () => {
         const sums = {};
         CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
 
-        filteredRecordsByDelegation.forEach(row => {
+        filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
             const condensed = MAP_TO_CONDENSED[rawType];
             if (condensed) {
@@ -181,7 +191,7 @@ const PhotoEvidenceDashboard = () => {
             value: sums[name],
             color: getColorForStatus(name)
         })).filter(d => d.value > 0);
-    }, [filteredRecordsByDelegation]);
+    }, [filteredRecords]);
 
     // Bar Chart Data
     const barData = useMemo(() => {
@@ -189,7 +199,7 @@ const PhotoEvidenceDashboard = () => {
             // Desglose del contrato específico
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            filteredRecordsByDelegation.forEach(row => {
+            filteredRecords.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed) sums[condensed]++;
@@ -202,7 +212,7 @@ const PhotoEvidenceDashboard = () => {
         } else if (selectedCompany !== 'ALL') {
             // Comparativa de contratos de la empresa
             const contractSums = {};
-            filteredRecordsByDelegation.forEach(row => {
+            filteredRecords.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed && row._contract) {
@@ -218,7 +228,7 @@ const PhotoEvidenceDashboard = () => {
             // General por tipos
             const sums = {};
             CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
-            filteredRecordsByDelegation.forEach(row => {
+            filteredRecords.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
                 if (condensed) sums[condensed]++;
@@ -229,7 +239,7 @@ const PhotoEvidenceDashboard = () => {
                 color: getColorForStatus(type)
             }));
         }
-    }, [selectedCompany, selectedContract, filteredRecordsByDelegation]);
+    }, [selectedCompany, selectedContract, filteredRecords]);
 
     // Table Data (Drill-down)
     // Table Data (Drill-down)
@@ -240,54 +250,28 @@ const PhotoEvidenceDashboard = () => {
             let allRecords = [];
 
             try {
-                if (selectedContract !== 'ALL') {
-                    // Try to fetch for a specific stage if selected, or detect from RESUMEN_DATA
-                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+                // We always fetch all records for the selected stage(s) to allow independent filtering
+                // and ensure the global PDF has all company data.
+                const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+                const promises = [];
 
-                    const promises = stagesToFetch.map(async (st) => {
-                        const url = `/contratos/${st}_${selectedCompany}_${selectedContract}.json`;
-                        const res = await fetch(url);
-                        if (res.ok) {
-                            const data = await res.json();
-                            return data.map(item => ({ ...item, _company: selectedCompany, _contract: selectedContract, _stage: st }));
-                        }
-                        return [];
+                stagesToFetch.forEach(st => {
+                    const stageSummary = RESUMEN_DATA.filter(r => r._stage === st);
+                    stageSummary.forEach(contractInfo => {
+                        promises.push(
+                            fetch(`/contratos/${st}_${contractInfo.EMPRESA_RAIZ_MASTER}_${contractInfo.ID}.json`)
+                                .then(res => res.ok ? res.json().then(data => data.map(item => ({
+                                    ...item,
+                                    _company: contractInfo.EMPRESA_RAIZ_MASTER,
+                                    _contract: contractInfo.ID,
+                                    _stage: st
+                                }))) : [])
+                        );
                     });
-                    const results = await Promise.all(promises);
-                    allRecords = results.flat();
+                });
 
-                } else if (selectedCompany !== 'ALL') {
-                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
-                    const promises = [];
-
-                    stagesToFetch.forEach(st => {
-                        const ids = RESUMEN_DATA.filter(r => r._stage === st && r.EMPRESA_RAIZ_MASTER === selectedCompany).map(r => r.ID);
-                        ids.forEach(id => {
-                            promises.push(
-                                fetch(`/contratos/${st}_${selectedCompany}_${id}.json`)
-                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: selectedCompany, _contract: id, _stage: st }))) : [])
-                            );
-                        });
-                    });
-                    const results = await Promise.all(promises);
-                    allRecords = results.flat();
-                } else {
-                    const promises = [];
-                    const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
-
-                    stagesToFetch.forEach(st => {
-                        const stageSummary = RESUMEN_DATA.filter(r => r._stage === st);
-                        stageSummary.forEach(r => {
-                            promises.push(
-                                fetch(`/contratos/${st}_${r.EMPRESA_RAIZ_MASTER}_${r.ID}.json`)
-                                    .then(r => r.ok ? r.json().then(data => data.map(item => ({ ...item, _company: r.EMPRESA_RAIZ_MASTER, _contract: r.ID, _stage: st }))) : [])
-                            );
-                        });
-                    });
-
-                    const results = await Promise.all(promises);
-                    allRecords = results.flat();
-                }
+                const results = await Promise.all(promises);
+                allRecords = results.flat();
                 setRecords(allRecords);
             } catch (error) {
                 console.error("Error fetching records:", error);
@@ -298,12 +282,12 @@ const PhotoEvidenceDashboard = () => {
         };
 
         fetchRecords();
-    }, [selectedCompany, selectedContract, selectedStage]);
+    }, [selectedStage]); // Only depend on selectedStage to avoid re-fetching on every filter change
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
         // Filter out records mapped to null (e.g., 'OK')
-        let filtered = filteredRecordsByDelegation.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
+        let filtered = filteredRecords.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
 
         // Apply Error Type Filter based on CONDENSED group
         if (selectedErrorTypes.length > 0) {
@@ -311,7 +295,7 @@ const PhotoEvidenceDashboard = () => {
         }
 
         return filtered;
-    }, [filteredRecordsByDelegation, selectedErrorTypes]);
+    }, [filteredRecords, selectedErrorTypes]);
 
     // PDF Export Function
     const exportToPDF = () => {
@@ -377,7 +361,7 @@ const PhotoEvidenceDashboard = () => {
 
                 // Group by _company
                 const companyMap = {};
-                filteredRecordsByDelegation.forEach(row => {
+                filteredRecords.forEach(row => {
                     const comp = row._company || "Desconocida";
                     if (!companyMap[comp]) {
                         companyMap[comp] = {
