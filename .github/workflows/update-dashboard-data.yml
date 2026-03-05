@@ -2,8 +2,8 @@ name: "Update Sentinel Dashboard Data"
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Cada 3 horas iniciando a las 00:00 UTC
-  workflow_dispatch: # Permitir inicio manual desde GitHub UI
+    - cron: '0 */3 * * *'
+  workflow_dispatch: {}
 
 # IMPORTANTE: Se requieren permisos para Workload Identity
 permissions:
