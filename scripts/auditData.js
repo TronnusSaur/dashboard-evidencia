@@ -32,6 +32,16 @@ const PATRONES = {
     "FINAL": ["_terminado", "_final", " terminado", " final"]
 };
 
+// Normalizar Folio: Si es numérico, asegurar que tenga al menos 3 dígitos (relleno con ceros)
+const normalizeFolio = (f) => {
+    if (!f) return f;
+    const trimmed = String(f).trim();
+    if (/^\d+$/.test(trimmed)) {
+        return trimmed.padStart(3, '0');
+    }
+    return trimmed;
+};
+
 // Autenticación con Google Service Account
 async function getAuth() {
     let credentials;
@@ -125,7 +135,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         try {
             const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
             for (const f of fols) {
-                const folioKey = f.name.split('_')[0].split(' ')[0].trim();
+                const folioKey = normalizeFolio(f.name.split('_')[0].split(' ')[0].trim());
                 dictMap[folioKey] = f.id;
             }
         } catch (e) {
@@ -157,7 +167,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     let auditadosNuevos = 0;
 
     const auditTasks = df.map((row) => auditLimit(async () => {
-        const folioStr = String(row['FOLIO']).trim();
+        const folioStr = normalizeFolio(String(row['FOLIO']).trim());
         const folioId = dictMap[folioStr];
 
         const cacheKey = `${config.id}_${folioStr}_${folioId}`;
