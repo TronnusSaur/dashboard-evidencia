@@ -319,33 +319,6 @@ const PhotoEvidenceDashboard = () => {
                 format: 'a4'
             });
 
-            const openPdfPreview = (generatedDoc, name) => {
-                const stringURL = generatedDoc.output('datauristring');
-                const win = window.open();
-                if (win) {
-                    win.document.open();
-                    win.document.write(`
-                        <html>
-                            <head>
-                                <title>${name}</title>
-                                <style>body{margin:0;padding:0;height:100vh;overflow:hidden;} iframe{border:none;}</style>
-                            </head>
-                            <body>
-                                <iframe width='100%' height='100%' src='${stringURL}'></iframe>
-                            </body>
-                        </html>
-                    `);
-                    win.document.close();
-                }
-                generatedDoc.save(name);
-            };
-
-            doc.setProperties({
-                title: pdfFileName,
-                subject: 'Reporte de Auditoría',
-                author: 'AuditPro Dashboard'
-            });
-
             if (isGeneralSummary) {
                 // Generar PDF del Resumen General
                 doc.setFontSize(20);
@@ -449,7 +422,8 @@ const PhotoEvidenceDashboard = () => {
                 doc.setTextColor(150);
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-                openPdfPreview(doc, pdfFileName);
+                window.open(doc.output('bloburl'), '_blank');
+                doc.save(pdfFileName);
                 return;
             }
 
@@ -519,7 +493,8 @@ const PhotoEvidenceDashboard = () => {
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-            openPdfPreview(doc, pdfFileName);
+            window.open(doc.output('bloburl'), '_blank');
+            doc.save(pdfFileName);
         } catch (error) {
             console.error('PDF Export Error:', error);
             alert('Error al generar el documento pdf.');
