@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 944,
-  "OK": 28894,
+  "FALTA: INICIAL": 946,
+  "OK": 28903,
   "FALTA: CAJA + FINAL": 1170,
-  "CARPETA VACÍA": 740,
-  "SIN CARPETA": 4378,
-  "FALTA: CAJA": 1047,
+  "CARPETA VACÍA": 749,
+  "SIN CARPETA": 4365,
+  "FALTA: CAJA": 1041,
   "FALTA: INICIAL + CAJA + FINAL": 53,
-  "FALTA: FINAL": 680,
+  "FALTA: FINAL": 677,
   "FALTA: INICIAL + CAJA": 573,
-  "FALTA: INICIAL + FINAL": 59
+  "FALTA: INICIAL + FINAL": 61
 };
 export const RESUMEN_DATA = [
   {
@@ -733,15 +733,15 @@ export const RESUMEN_DATA = [
     "ID": "14",
     "_stage": "E2",
     "TOTAL_OMISIONES": 466,
-    "OK": 389,
-    "FALTA: INICIAL": 12,
+    "OK": 390,
+    "FALTA: INICIAL": 14,
     "FALTA: CAJA + FINAL": 2,
-    "CARPETA VACÍA": 41,
+    "CARPETA VACÍA": 39,
     "SIN CARPETA": 5,
     "FALTA: CAJA": 5,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 10,
-    "FALTA: INICIAL + CAJA": 2,
+    "FALTA: INICIAL + CAJA": 1,
     "FALTA: INICIAL + FINAL": 0
   },
   {
@@ -1037,16 +1037,16 @@ export const RESUMEN_DATA = [
     "ID": "59",
     "_stage": "E2",
     "TOTAL_OMISIONES": 1794,
-    "OK": 1304,
+    "OK": 1308,
     "FALTA: INICIAL": 121,
     "FALTA: CAJA + FINAL": 5,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 193,
-    "FALTA: CAJA": 106,
+    "CARPETA VACÍA": 11,
+    "SIN CARPETA": 180,
+    "FALTA: CAJA": 104,
     "FALTA: INICIAL + CAJA + FINAL": 2,
-    "FALTA: FINAL": 44,
+    "FALTA: FINAL": 42,
     "FALTA: INICIAL + CAJA": 9,
-    "FALTA: INICIAL + FINAL": 10
+    "FALTA: INICIAL + FINAL": 12
   },
   {
     "EMPRESA_RAIZ_MASTER": "VIGOR",
@@ -1172,8 +1172,8 @@ export const RESUMEN_DATA = [
     "SIN CARPETA": 1394,
     "FALTA: CAJA": 113,
     "FALTA: INICIAL + CAJA + FINAL": 10,
-    "FALTA: FINAL": 32,
-    "FALTA: INICIAL + CAJA": 38,
+    "FALTA: FINAL": 31,
+    "FALTA: INICIAL + CAJA": 39,
     "FALTA: INICIAL + FINAL": 2
   },
   {
@@ -1181,12 +1181,12 @@ export const RESUMEN_DATA = [
     "ID": "68",
     "_stage": "E2",
     "TOTAL_OMISIONES": 1530,
-    "OK": 699,
+    "OK": 703,
     "FALTA: INICIAL": 20,
     "FALTA: CAJA + FINAL": 178,
     "CARPETA VACÍA": 3,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 255,
+    "FALTA: CAJA": 251,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 374,
     "FALTA: INICIAL + CAJA": 0,
