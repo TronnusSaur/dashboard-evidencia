@@ -422,17 +422,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.setTextColor(150);
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-                const bloburl = doc.output('bloburl');
-                window.open(bloburl, '_blank');
-
-                // Force Native Download with correct filename using HTML5 download attribute
-                const link = document.createElement('a');
-                link.href = bloburl;
-                link.download = pdfFileName;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-
+                doc.save(pdfFileName);
                 return;
             }
 
@@ -502,17 +492,7 @@ const PhotoEvidenceDashboard = () => {
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-            const bloburl = doc.output('bloburl');
-            window.open(bloburl, '_blank');
-
-            // Force Native Download with correct filename using HTML5 download attribute
-            const link = document.createElement('a');
-            link.href = bloburl;
-            link.download = pdfFileName;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-
+            doc.save(pdfFileName);
         } catch (error) {
             console.error('PDF Export Error:', error);
             alert('Error al generar el documento pdf.');
