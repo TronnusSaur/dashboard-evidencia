@@ -319,6 +319,12 @@ const PhotoEvidenceDashboard = () => {
                 format: 'a4'
             });
 
+            doc.setProperties({
+                title: pdfFileName,
+                subject: 'Reporte de Auditoría',
+                author: 'AuditPro Dashboard'
+            });
+
             if (isGeneralSummary) {
                 // Generar PDF del Resumen General
                 doc.setFontSize(20);
@@ -422,7 +428,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.setTextColor(150);
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-                window.open(doc.output('bloburl'), '_blank');
+                window.open(`${doc.output('bloburl')}#filename=${pdfFileName}`, '_blank');
                 doc.save(pdfFileName);
                 return;
             }
@@ -493,7 +499,7 @@ const PhotoEvidenceDashboard = () => {
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-            window.open(doc.output('bloburl'), '_blank');
+            window.open(`${doc.output('bloburl')}#filename=${pdfFileName}`, '_blank');
             doc.save(pdfFileName);
         } catch (error) {
             console.error('PDF Export Error:', error);
