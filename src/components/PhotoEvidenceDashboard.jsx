@@ -422,7 +422,6 @@ const PhotoEvidenceDashboard = () => {
                 doc.setTextColor(150);
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-                window.open(doc.output('bloburl'), '_blank');
                 doc.save(pdfFileName);
                 return;
             }
@@ -493,7 +492,6 @@ const PhotoEvidenceDashboard = () => {
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
 
-            window.open(doc.output('bloburl'), '_blank');
             doc.save(pdfFileName);
         } catch (error) {
             console.error('PDF Export Error:', error);
