@@ -32,13 +32,22 @@ const PATRONES = {
     "FINAL": ["_terminado", "_final", " terminado", " final"]
 };
 
-// Normalizar Folio: Si es numérico, asegurar que tenga al menos 3 dígitos (relleno con ceros)
+// Normalizar Folio: Asegurar 3 dígitos para numéricos y remover espacios extraños en subdivisiones (ej: "8041 - 1" -> "8041-1")
 const normalizeFolio = (f) => {
     if (!f) return f;
-    const trimmed = String(f).trim();
+    let trimmed = String(f).trim().replace(/\s*-\s*/g, '-'); // "8041 - 1" -> "8041-1"
+
+    // Si es un número puro, asegurar 3 dígitos
     if (/^\d+$/.test(trimmed)) {
         return trimmed.padStart(3, '0');
     }
+
+    // Si tiene un guion pero la primera parte es número (ej: "1-1"), asegurar 3 dígitos del primer número
+    if (/^\d+-\d+$/.test(trimmed)) {
+        const parts = trimmed.split('-');
+        return `${parts[0].padStart(3, '0')}-${parts[1]}`;
+    }
+
     return trimmed;
 };
 
@@ -135,7 +144,20 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         try {
             const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
             for (const f of fols) {
-                const folioKey = normalizeFolio(f.name.split('_')[0].split(' ')[0].trim());
+                // Nuevo algoritmo de extracción visual para evitar que los espacios rompan "8041 - 1"
+                // Busca la primera secuencia de números, opcionalmente seguida de guion(es) y más números, ignorando espacios
+                const rawName = f.name;
+                const match = rawName.match(/^(\d+(?:\s*-\s*\d+)*)/);
+
+                let extracted = "";
+                if (match) {
+                    extracted = match[1]; // Saca "8041 - 1" de "8041 - 1 Inicial"
+                } else {
+                    // Fallback a lo original si no empieza con números
+                    extracted = rawName.split('_')[0].split(' ')[0];
+                }
+
+                const folioKey = normalizeFolio(extracted);
                 dictMap[folioKey] = f.id;
             }
         } catch (e) {
