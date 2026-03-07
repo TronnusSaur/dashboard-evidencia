@@ -135,6 +135,7 @@ async function runCleanup() {
 
     } catch (error) {
         console.error("❌ Error grave durante la limpieza:", error.message);
+        process.exit(1);
     }
 }
 
