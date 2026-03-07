@@ -594,7 +594,7 @@ const PhotoEvidenceDashboard = () => {
                 {/* Title and Filters */}
                 <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                     <div>
-                        <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Panel de Control de Documentación</h3>
+                        <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Panel de Control de Evidencias</h3>
                         <p className="text-slate-500 dark:text-slate-400">Estado actual de folios y seguimiento de incidencias administrativas</p>
                     </div>
 
