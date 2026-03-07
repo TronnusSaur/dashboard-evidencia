@@ -1,7 +1,18 @@
 import { google } from 'googleapis';
 import pLimit from 'p-limit';
 import * as dotenv from 'dotenv';
+import fs from 'fs';
 dotenv.config();
+
+let globalLog = "";
+function myLog(msg) {
+    console.log(msg);
+    globalLog += msg + "\n";
+}
+function myError(msg, err) {
+    console.error(msg, err);
+    globalLog += msg + " " + (err || "") + "\n";
+}
 
 const ROCADURA_FOLDER_ID = '1zSKOY7lHNiK04xEtT1jUazK4Ln1-cVIc';
 
@@ -45,13 +56,13 @@ async function obtenerArchivos(drive, query) {
 }
 
 async function runCleanup() {
-    console.log("🚀 Iniciando Limpieza y Fusión de Carpetas en Rocadura...");
+    myLog("🚀 Iniciando Limpieza y Fusión de Carpetas en Rocadura...");
 
     try {
         const authClient = await getAuth();
         const drive = google.drive({ version: 'v3', auth: authClient });
 
-        console.log(`📂 Buscando carpetas en ROCADURA-007-2ETAPA...`);
+        myLog(`📂 Buscando carpetas en ROCADURA-007-2ETAPA...`);
         const carpetas = await obtenerArchivos(drive, `'${ROCADURA_FOLDER_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
 
         // Agrupar por nombre
@@ -74,7 +85,7 @@ async function runCleanup() {
         const limit = pLimit(2); // Limitar a 2 operaciones paralelas graves para no saturar la API
 
         for (const [nombre, listaOcurrencias] of duplicados) {
-            console.log(`\n🔄 Procesando duplicados para el folio: "${nombre}"`);
+            myLog(`\n🔄 Procesando duplicados para el folio: "${nombre}"`);
 
             // Ordenar por fecha de creación (la más vieja [0] es la original)
             listaOcurrencias.sort((a, b) => new Date(a.createdTime) - new Date(b.createdTime));
@@ -82,7 +93,7 @@ async function runCleanup() {
             const carpetaOriginal = listaOcurrencias[0];
             const carpetasSobrantes = listaOcurrencias.slice(1);
 
-            console.log(`  -> Carpeta Original Elegida: ${nombre} (ID: ${carpetaOriginal.id}) creada el ${carpetaOriginal.createdTime}`);
+            myLog(`  -> Carpeta Original Elegida: ${nombre} (ID: ${carpetaOriginal.id}) creada el ${carpetaOriginal.createdTime}`);
 
             // Obtener archivos de la carpeta original
             const archivosTarget = await obtenerArchivos(drive, `'${carpetaOriginal.id}' in parents and trashed = false and mimeType != 'application/vnd.google-apps.folder'`);
@@ -90,7 +101,7 @@ async function runCleanup() {
 
             for (const carpetaFuente of carpetasSobrantes) {
                 const archivosFuente = await obtenerArchivos(drive, `'${carpetaFuente.id}' in parents and trashed = false`);
-                console.log(`  -> Extrayendo ${archivosFuente.length} archivo(s) de la carpeta duplicada (ID: ${carpetaFuente.id})`);
+                myLog(`  -> Extrayendo ${archivosFuente.length} archivo(s) de la carpeta duplicada (ID: ${carpetaFuente.id})`);
 
                 const moveTasks = archivosFuente.map(archivo => limit(async () => {
                     let nuevoNombre = archivo.name;
@@ -101,7 +112,7 @@ async function runCleanup() {
                         const base = match[1];
                         const ext = match[2] || '';
                         nuevoNombre = `${base} (1)${ext}`;
-                        console.log(`     ⚠️ Conflicto detectado. Renombrando '${archivo.name}' a '${nuevoNombre}'`);
+                        myLog(`     ⚠️ Conflicto detectado. Renombrando '${archivo.name}' a '${nuevoNombre}'`);
 
                         await drive.files.update({
                             fileId: archivo.id,
@@ -111,7 +122,7 @@ async function runCleanup() {
                         nombresTarget.add(nuevoNombre);
                     }
 
-                    console.log(`     Moviendo '${nuevoNombre}' a la original...`);
+                    myLog(`     Moviendo '${nuevoNombre}' a la original...`);
                     await drive.files.update({
                         fileId: archivo.id,
                         addParents: carpetaOriginal.id,
@@ -122,7 +133,7 @@ async function runCleanup() {
 
                 await Promise.all(moveTasks);
 
-                console.log(`  🗑️ Enviando carpeta duplicada vacía a la papelera...`);
+                myLog(`  🗑️ Enviando carpeta duplicada vacía a la papelera...`);
                 await drive.files.update({
                     fileId: carpetaFuente.id,
                     requestBody: { trashed: true },
@@ -131,10 +142,12 @@ async function runCleanup() {
             }
         }
 
-        console.log("\n✨ ¡Limpieza de Rocadura finalizada con éxito!");
+        myLog("\n✨ ¡Limpieza de Rocadura finalizada con éxito!");
+        fs.writeFileSync('cleanup_log.txt', globalLog);
 
     } catch (error) {
-        console.error("❌ Error grave durante la limpieza:", error.message);
+        myError("❌ Error grave durante la limpieza:", error.message);
+        fs.writeFileSync('cleanup_log.txt', globalLog);
         process.exit(1);
     }
 }
