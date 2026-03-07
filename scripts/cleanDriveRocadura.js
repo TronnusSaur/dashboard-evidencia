@@ -14,7 +14,7 @@ function myError(msg, err) {
     globalLog += msg + " " + (err || "") + "\n";
 }
 
-const ROCADURA_FOLDER_ID = '1zSKQY7lHNiK04xEtT1jUazK4Ln1-cVIc';
+const PARENT_MASTER_ID = '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik'; // ID Maestro Etapa 2
 
 // Autenticación con Google Service Account (Requiere permisos de Edición en el Drive)
 async function getAuth() {
@@ -56,13 +56,29 @@ async function obtenerArchivos(drive, query) {
 }
 
 async function runCleanup() {
-    myLog("🚀 Iniciando Limpieza y Fusión de Carpetas en Rocadura...");
+    myLog("=========================================");
+    myLog(`🚀 [${new Date().toISOString()}] Iniciando Limpieza...`);
 
     try {
         const authClient = await getAuth();
         const drive = google.drive({ version: 'v3', auth: authClient });
 
-        myLog(`📂 Buscando carpetas en ROCADURA-007-2ETAPA...`);
+        myLog(`📂 Buscando carpeta ROCADURA-007-2ETAPA dinámicamente...`);
+        const searchRes = await drive.files.list({
+            q: `name = 'ROCADURA-007-2ETAPA' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`,
+            fields: "files(id, name)",
+            supportsAllDrives: true,
+            includeItemsFromAllDrives: true
+        });
+
+        if (!searchRes.data.files || searchRes.data.files.length === 0) {
+            throw new Error("No se encontró la carpeta mayor 'ROCADURA-007-2ETAPA' en Google Drive. Verifica que el robot tenga acceso (Editor).");
+        }
+
+        const ROCADURA_FOLDER_ID = searchRes.data.files[0].id;
+        myLog(`✅ ID dinámico encontrado: ${ROCADURA_FOLDER_ID}`);
+
+        myLog(`📂 Extrayendo subcarpetas de ROCADURA...`);
         const carpetas = await obtenerArchivos(drive, `'${ROCADURA_FOLDER_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
 
         // Agrupar por nombre
