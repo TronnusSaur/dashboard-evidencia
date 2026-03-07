@@ -63,20 +63,25 @@ async function runCleanup() {
         const authClient = await getAuth();
         const drive = google.drive({ version: 'v3', auth: authClient });
 
-        myLog(`📂 Buscando carpeta ROCADURA-007-2ETAPA dinámicamente...`);
+        myLog(`📂 Buscando carpeta ROCADURA dinámicamente usando 'contains'...`);
         const searchRes = await drive.files.list({
-            q: `name = 'ROCADURA-007-2ETAPA' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`,
+            q: `name contains 'ROCADURA-007' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`,
             fields: "files(id, name)",
             supportsAllDrives: true,
             includeItemsFromAllDrives: true
         });
 
         if (!searchRes.data.files || searchRes.data.files.length === 0) {
-            throw new Error("No se encontró la carpeta mayor 'ROCADURA-007-2ETAPA' en Google Drive. Verifica que el robot tenga acceso (Editor).");
+            throw new Error("No se encontró ninguna carpeta que contenga 'ROCADURA-007' en Google Drive. Verifica que el robot de limpieza tenga el acceso (Editor).");
         }
 
-        const ROCADURA_FOLDER_ID = searchRes.data.files[0].id;
-        myLog(`✅ ID dinámico encontrado: ${ROCADURA_FOLDER_ID}`);
+        myLog(`🔍 Coincidencias encontradas: ${searchRes.data.files.map(f => `"${f.name}" (${f.id})`).join(', ')}`);
+
+        // Tomar la primera coincidencia que contenga la palabra ETAPA por si hay varias
+        let rocaduraFolder = searchRes.data.files.find(f => f.name.toUpperCase().includes('ETAPA')) || searchRes.data.files[0];
+
+        const ROCADURA_FOLDER_ID = rocaduraFolder.id;
+        myLog(`✅ Usando carpeta: "${rocaduraFolder.name}" (ID: ${ROCADURA_FOLDER_ID})`);
 
         myLog(`📂 Extrayendo subcarpetas de ROCADURA...`);
         const carpetas = await obtenerArchivos(drive, `'${ROCADURA_FOLDER_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
