@@ -1486,7 +1486,7 @@
   },
   {
     "FOLIO": "5403",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "Melchor Ortega",
     "COLONIA": "San Bernardino",
     "DELEGACION": "CIUDAD UNIVERSITARIA",
@@ -1594,7 +1594,7 @@
   },
   {
     "FOLIO": "5415",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "Vasco De Quiroga",
     "COLONIA": "San Bernardino",
     "DELEGACION": "CIUDAD UNIVERSITARIA",
@@ -2192,24 +2192,6 @@
     "CALLE": "Paseo Colon",
     "COLONIA": "Colón y Ciprés I",
     "DELEGACION": "COLÓN",
-    "_company": "FENA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "5219",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
-    "CALLE": "Paseo Universidad",
-    "COLONIA": "Plazas de San Buenaventura",
-    "DELEGACION": "CIUDAD UNIVERSITARIA",
-    "_company": "FENA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "5220",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Paseo Universidad",
-    "COLONIA": "Plazas de San Buenaventura",
-    "DELEGACION": "CIUDAD UNIVERSITARIA",
     "_company": "FENA",
     "_stage": "E2"
   },
