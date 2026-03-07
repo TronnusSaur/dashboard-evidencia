@@ -144,20 +144,11 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         try {
             const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
             for (const f of fols) {
-                // Nuevo algoritmo de extracción visual para evitar que los espacios rompan "8041 - 1"
-                // Busca la primera secuencia de números, opcionalmente seguida de guion(es) y más números, ignorando espacios
-                const rawName = f.name;
-                const match = rawName.match(/^(\d+(?:\s*-\s*\d+)*)/);
+                // Nuevo algoritmo de extracción que respeta letras y corrige subdivisiones
+                let cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
+                cleanName = cleanName.replace(/\s*-\s*/g, '-'); // "8041 - 1" -> "8041-1"
 
-                let extracted = "";
-                if (match) {
-                    extracted = match[1]; // Saca "8041 - 1" de "8041 - 1 Inicial"
-                } else {
-                    // Fallback a lo original si no empieza con números
-                    extracted = rawName.split('_')[0].split(' ')[0];
-                }
-
-                const folioKey = normalizeFolio(extracted);
+                const folioKey = normalizeFolio(cleanName.split(' ')[0].trim());
                 dictMap[folioKey] = f.id;
             }
         } catch (e) {
