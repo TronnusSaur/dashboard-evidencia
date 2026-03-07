@@ -25,6 +25,8 @@ async function getAuth() {
         throw new Error("⚠️ No se encontró GOOGLE_SERVICE_ACCOUNT_KEY en las variables de entorno.");
     }
 
+    myLog(`🔐 Autenticando robot: ${credentials.client_email}`);
+
     const auth = new google.auth.GoogleAuth({
         credentials: {
             client_email: credentials.client_email,
