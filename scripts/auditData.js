@@ -27,9 +27,9 @@ const MOCK_PATH = path.join(process.cwd(), 'src', 'dataMock.js');
 const CACHE_FILE = path.join(process.cwd(), 'audit_cache.json');
 
 const PATRONES = {
-    "INICIAL": ["_inicial", "_i", " inicial"],
-    "CAJA": ["_caja", "_proceso", " caja", " proceso"],
-    "FINAL": ["_terminado", "_final", " terminado", " final"]
+    "INICIAL": ["_inicial"],
+    "CAJA": ["_caja"],
+    "FINAL": ["_terminado"]
 };
 
 // Normalizar Folio: Asegurar 3 dígitos para numéricos y remover espacios extraños en subdivisiones (ej: "8041 - 1" -> "8041-1")
