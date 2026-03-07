@@ -1,0 +1,42 @@
+=============================================================================
+PLAN DE IMPLEMENTACIÓN TÉCNICA: FUSIÓN FÍSICA DE CARPETAS EN GOOGLE DRIVE
+=============================================================================
+OBJETIVO:
+Desarrollar un script asíncrono en Node.js o Python (Colab) que limpie un 
+Shared Drive o My Drive de carpetas duplicadas con el mismo nombre, emulando 
+el comportamiento de resolución de colisiones del Explorador de Windows.
+
+LÓGICA CORE (ALGORITMO):
+1. MAPEO Y AGRUPACIÓN
+   - Realizar un `drive.files.list` filtrando por `mimeType = 'application/vnd.google-apps.folder'`.
+   - Normalizar los nombres (toLowerCase, trim, etc.) y agrupar los `folder.id` en un diccionario por nombre.
+   - Filtrar el diccionario manteniendo solo las keys (nombres) que tengan `array.length > 1`.
+
+2. ITERACIÓN SOBRE GRUPOS DUPLICADOS
+   - Por cada grupo de carpetas duplicadas (Ej. "Folio 8041-1"):
+     a) Sortear el array de `folder.id` por `createdTime` ascendente.
+     b) Asignar `array[0]` como `TARGET_FOLDER` (Carpeta Original Histórica).
+     c) Asignar `array[1...]` como `SOURCE_FOLDERS` (Carpetas a vaciar).
+
+3. TRANSFERENCIA Y RESOLUCIÓN DE CONFLICTOS
+   - Por cada `SOURCE_FOLDER`:
+     a) Obtener lista de archivos internos (`q: 'SOURCE_FOLDER_ID' in parents`).
+     b) Por cada archivo, verificar si su `file.name` ya existe en el `TARGET_FOLDER`.
+        -> SI NO EXISTE: Usar `drive.files.update` enviando `{ addParents: TARGET_FOLDER, removeParents: SOURCE_FOLDER }`.
+        -> SI YA EXISTE: 
+             i) Generar un nuevo nombre emulando Windows (Ej. `regex /(.*?)(\..*?)?$/` -> `$1 (1)$2`).
+             ii) Actualizar el `file.name` usando `drive.files.update`.
+             iii) Mover el archivo al `TARGET_FOLDER`.
+
+4. GARBAGE COLLECTION
+   - Una vez comprobado que el `SOURCE_FOLDER` está completamente vacío, 
+     ejecutar `drive.files.update` con `trashed: true` para enviarla a la papelera.
+   - (Opcional) Loggear las colisiones en un archivo físico `.csv` para auditoría temporal.
+
+CONSIDERACIONES DE LA API DE GOOGLE DRIVE:
+- Rate Limiting: Es crítico usar `p-limit` o timeouts entre requests de `update/move` para no recibir un error 403 o 429 de cuotas.
+- Permisos: Asegurarse de correrlo con una Service Account con scope `drive.file` o con un OAuth token personal. Si son Shared Drives, usar el param `supportsAllDrives: true`.
+
+=============================================================================
+NOTA PARA EL YO DEL FUTURO: Este script debe de correrse manual y localmente solo cuando sea necesario limpiar la estructura, no dentro de GitHub Actions.
+=============================================================================

@@ -97,23 +97,27 @@ async function obtenerPaginado(drive, query) {
     return items;
 }
 
-async function auditarFotos(drive, folioId) {
-    if (!folioId) return "SIN CARPETA";
+async function auditarFotos(drive, arrayFolioIds) {
+    if (!arrayFolioIds || arrayFolioIds.length === 0) return "SIN CARPETA";
     try {
-        const query = `'${folioId}' in parents and trashed = false`;
-        const res = await drive.files.list({
-            q: query,
-            fields: "files(name)",
-            supportsAllDrives: true,
-            includeItemsFromAllDrives: true,
-            pageSize: 100
-        });
+        let todasLasFotos = [];
 
-        const fotos = (res.data.files || []).map(f => f.name.toLowerCase());
-        if (fotos.length === 0) return "CARPETA VACÍA";
+        for (const folioId of arrayFolioIds) {
+            const query = `'${folioId}' in parents and trashed = false`;
+            const res = await drive.files.list({
+                q: query,
+                fields: "files(name)",
+                supportsAllDrives: true,
+                includeItemsFromAllDrives: true,
+                pageSize: 100
+            });
+            todasLasFotos.push(...(res.data.files || []).map(f => f.name.toLowerCase()));
+        }
+
+        if (todasLasFotos.length === 0) return "CARPETA VACÍA";
 
         const encontradas = new Set();
-        for (const f of fotos) {
+        for (const f of todasLasFotos) {
             for (const [cat, patrones] of Object.entries(PATRONES)) {
                 if (patrones.some(p => f.includes(p))) {
                     encontradas.add(cat);
@@ -126,7 +130,7 @@ async function auditarFotos(drive, folioId) {
 
         return faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
     } catch (e) {
-        console.error(`Error accediendo a folio ${folioId}: ${e.message}`);
+        console.error(`Error accediendo a conjunto de folios: ${e.message}`);
         return "ERROR DE ACCESO";
     }
 }
@@ -163,7 +167,11 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
                 if (folioKey.includes('8041')) {
                     console.log(`  [DEBUG DRIVE] Carpeta encontrada: "${f.name}" => Se procesó como Folio: "${folioKey}" en contrato "${c.name}" (ID: ${f.id})`);
                 }
-                dictMap[folioKey] = f.id;
+
+                if (!dictMap[folioKey]) {
+                    dictMap[folioKey] = [];
+                }
+                dictMap[folioKey].push(f.id);
             }
         } catch (e) {
             console.error(`  ⚠️ Error mapeando contrato ${c.name} (${c.id}):`, e.message);
@@ -195,22 +203,22 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
-        const folioId = dictMap[folioStr];
+        const folioIds = dictMap[folioStr]; // Ahora es un array sumado desde Mapeo
 
         if (folioStr.includes('8041')) {
-            console.log(`  [DEBUG EXCEL] Evaluando Folio Excel: "${row['FOLIO']}" => Normalizado: "${folioStr}". ¿Encontrado en Drive?: ${folioId ? 'SÍ (' + folioId + ')' : 'NO'}`);
+            console.log(`  [DEBUG EXCEL] Evaluando Folio Excel: "${row['FOLIO']}" => Normalizado: "${folioStr}". ¿Encontrado en Drive?: ${folioIds ? 'SÍ (' + folioIds.length + ' duplicados agregados)' : 'NO'}`);
         }
 
-        const cacheKey = `${config.id}_${folioStr}_${folioId}`;
-        if (auditCache[cacheKey] === "OK" && folioId) {
+        const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
+        if (auditCache[cacheKey] === "OK" && folioIds && folioIds.length > 0) {
             row['RESULTADO_AUDITORIA'] = "OK";
             return;
         }
 
-        const resultado = await auditarFotos(drive, folioId);
+        const resultado = await auditarFotos(drive, folioIds);
         row['RESULTADO_AUDITORIA'] = resultado;
 
-        if (resultado === "OK" && folioId) {
+        if (resultado === "OK" && folioIds && folioIds.length > 0) {
             auditCache[cacheKey] = "OK";
         }
 
