@@ -63,25 +63,34 @@ async function runCleanup() {
         const authClient = await getAuth();
         const drive = google.drive({ version: 'v3', auth: authClient });
 
-        myLog(`📂 Buscando carpeta ROCADURA dinámicamente usando 'contains'...`);
-        const searchRes = await drive.files.list({
-            q: `name contains 'ROCADURA-007' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`,
-            fields: "files(id, name)",
-            supportsAllDrives: true,
-            includeItemsFromAllDrives: true
-        });
+        const ROCADURA_FOLDER_ID = '1zSKQY7lHNiK04xEtT1jUazK4Ln1-cVIc';
+        myLog(`🎯 Intentando acceder directamente al ID: ${ROCADURA_FOLDER_ID}`);
 
-        if (!searchRes.data.files || searchRes.data.files.length === 0) {
-            throw new Error("No se encontró ninguna carpeta que contenga 'ROCADURA-007' en Google Drive. Verifica que el robot de limpieza tenga el acceso (Editor).");
+        try {
+            const folderCheck = await drive.files.get({
+                fileId: ROCADURA_FOLDER_ID,
+                fields: "id, name",
+                supportsAllDrives: true,
+                includeItemsFromAllDrives: true
+            });
+            myLog(`✅ Carpeta encontrada por ID: "${folderCheck.data.name}"`);
+        } catch (e) {
+            myLog(`❌ Error accediendo por ID: ${e.message}`);
+            myLog(`🔍 Listando carpetas disponibles para el robot para investigar problemas de permisos...`);
+            const allFolders = await drive.files.list({
+                q: "mimeType = 'application/vnd.google-apps.folder' and trashed = false",
+                fields: "files(id, name)",
+                pageSize: 20,
+                supportsAllDrives: true,
+                includeItemsFromAllDrives: true
+            });
+            if (allFolders.data.files && allFolders.data.files.length > 0) {
+                myLog(`📂 El robot puede ver estas carpetas: ${allFolders.data.files.map(f => `"${f.name}"`).join(', ')}`);
+            } else {
+                myLog("🚫 El robot no puede ver NINGUNA carpeta en este momento.");
+            }
+            throw new Error(`No se pudo acceder a la carpeta ROCADURA. Detalles en el log.`);
         }
-
-        myLog(`🔍 Coincidencias encontradas: ${searchRes.data.files.map(f => `"${f.name}" (${f.id})`).join(', ')}`);
-
-        // Tomar la primera coincidencia que contenga la palabra ETAPA por si hay varias
-        let rocaduraFolder = searchRes.data.files.find(f => f.name.toUpperCase().includes('ETAPA')) || searchRes.data.files[0];
-
-        const ROCADURA_FOLDER_ID = rocaduraFolder.id;
-        myLog(`✅ Usando carpeta: "${rocaduraFolder.name}" (ID: ${ROCADURA_FOLDER_ID})`);
 
         myLog(`📂 Extrayendo subcarpetas de ROCADURA...`);
         const carpetas = await obtenerArchivos(drive, `'${ROCADURA_FOLDER_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
