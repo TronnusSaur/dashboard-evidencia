@@ -14,7 +14,7 @@ function myError(msg, err) {
     globalLog += msg + " " + (err || "") + "\n";
 }
 
-const ROCADURA_FOLDER_ID = '1zSKOY7lHNiK04xEtT1jUazK4Ln1-cVIc';
+const ROCADURA_FOLDER_ID = '1zSKQY7lHNiK04xEtT1jUazK4Ln1-cVIc';
 
 // Autenticación con Google Service Account (Requiere permisos de Edición en el Drive)
 async function getAuth() {
