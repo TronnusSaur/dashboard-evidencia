@@ -148,7 +148,21 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
                 let cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
                 cleanName = cleanName.replace(/\s*-\s*/g, '-'); // "8041 - 1" -> "8041-1"
 
-                const folioKey = normalizeFolio(cleanName.split(' ')[0].trim());
+                // Remover inteligentemente descriptores en lugar de cortar por el primer espacio tontamente
+                let lowerName = cleanName.toLowerCase();
+                for (const [cat, patrones] of Object.entries(PATRONES)) {
+                    for (const p of patrones) {
+                        if (lowerName.includes(p)) {
+                            cleanName = cleanName.substring(0, lowerName.indexOf(p));
+                            lowerName = cleanName.toLowerCase();
+                        }
+                    }
+                }
+
+                const folioKey = normalizeFolio(cleanName.trim());
+                if (folioKey.includes('8041')) {
+                    console.log(`  [DEBUG DRIVE] Carpeta encontrada: "${f.name}" => Se procesó como Folio: "${folioKey}" en contrato "${c.name}" (ID: ${f.id})`);
+                }
                 dictMap[folioKey] = f.id;
             }
         } catch (e) {
@@ -182,6 +196,10 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
         const folioId = dictMap[folioStr];
+
+        if (folioStr.includes('8041')) {
+            console.log(`  [DEBUG EXCEL] Evaluando Folio Excel: "${row['FOLIO']}" => Normalizado: "${folioStr}". ¿Encontrado en Drive?: ${folioId ? 'SÍ (' + folioId + ')' : 'NO'}`);
+        }
 
         const cacheKey = `${config.id}_${folioStr}_${folioId}`;
         if (auditCache[cacheKey] === "OK" && folioId) {
