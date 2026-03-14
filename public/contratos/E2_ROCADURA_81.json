@@ -378,15 +378,6 @@
     "_stage": "E2"
   },
   {
-    "FOLIO": "256",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
-    "CALLE": "Texcoco",
-    "COLONIA": "Sor Juana Inés de la Cruz",
-    "DELEGACION": "SÁNCHEZ",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
     "FOLIO": "282",
     "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "Filiberto Navas",
@@ -477,15 +468,6 @@
     "_stage": "E2"
   },
   {
-    "FOLIO": "456",
-    "RESULTADO_AUDITORIA": "FALTA: FINAL",
-    "CALLE": "Filiberto Navas",
-    "COLONIA": "San Jorge",
-    "DELEGACION": "SAN MATEO OXTOTITLAN",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
     "FOLIO": "478",
     "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "Filiberto Navas",
@@ -524,15 +506,6 @@
   {
     "FOLIO": "499",
     "RESULTADO_AUDITORIA": "FALTA: CAJA",
-    "CALLE": "Filiberto Navas",
-    "COLONIA": "Tierra y Libertad",
-    "DELEGACION": "SAN MATEO OXTOTITLAN",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "500",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "Filiberto Navas",
     "COLONIA": "Tierra y Libertad",
     "DELEGACION": "SAN MATEO OXTOTITLAN",
@@ -688,15 +661,6 @@
     "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "Filiberto Navas",
     "COLONIA": "Tierra y Libertad",
-    "DELEGACION": "SAN MATEO OXTOTITLAN",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34132",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
-    "CALLE": "San Miguel",
-    "COLONIA": "San Jorge",
     "DELEGACION": "SAN MATEO OXTOTITLAN",
     "_company": "ROCADURA",
     "_stage": "E2"
@@ -928,7 +892,7 @@
   },
   {
     "FOLIO": "34351",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -937,7 +901,7 @@
   },
   {
     "FOLIO": "34352",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -946,7 +910,7 @@
   },
   {
     "FOLIO": "34353",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -955,7 +919,7 @@
   },
   {
     "FOLIO": "34355",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -964,7 +928,7 @@
   },
   {
     "FOLIO": "34356",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -973,7 +937,7 @@
   },
   {
     "FOLIO": "34357",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -982,7 +946,7 @@
   },
   {
     "FOLIO": "34358",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -991,7 +955,7 @@
   },
   {
     "FOLIO": "34359",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -1000,7 +964,7 @@
   },
   {
     "FOLIO": "34360",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Parque Bosencheve",
     "COLONIA": "Parques Nacionales I",
     "DELEGACION": "ADOLFO LÓPEZ MATEOS",
@@ -1026,110 +990,11 @@
     "_stage": "E2"
   },
   {
-    "FOLIO": "34374",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Venustiano Carranza",
-    "COLONIA": "Morelos Primera Sección",
-    "DELEGACION": "MORELOS",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34375",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Parque Bosencheve",
-    "COLONIA": "Ocho Cedros Segunda Sección",
-    "DELEGACION": "OCHO CEDROS",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34379",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Parque Bosencheve",
-    "COLONIA": "Parques Nacionales I",
-    "DELEGACION": "ADOLFO LÓPEZ MATEOS",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34383",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Parque Bosencheve",
-    "COLONIA": "Parques Nacionales I",
-    "DELEGACION": "ADOLFO LÓPEZ MATEOS",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34384",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34385",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34386",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34388",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34390",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
     "FOLIO": "34391",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34396",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Ocho Cedros Segunda Sección",
-    "DELEGACION": "OCHO CEDROS",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34397",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Ocho Cedros Segunda Sección",
-    "DELEGACION": "OCHO CEDROS",
     "_company": "ROCADURA",
     "_stage": "E2"
   },
@@ -1143,35 +1008,8 @@
     "_stage": "E2"
   },
   {
-    "FOLIO": "34400",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34409",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo II",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
-    "FOLIO": "34410",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
-    "CALLE": "Lanceros de Toluca",
-    "COLONIA": "Héroes del 5 de Mayo I",
-    "DELEGACION": "SEMINARIO 2 DE MARZO",
-    "_company": "ROCADURA",
-    "_stage": "E2"
-  },
-  {
     "FOLIO": "34435",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1180,7 +1018,7 @@
   },
   {
     "FOLIO": "34436",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1189,7 +1027,7 @@
   },
   {
     "FOLIO": "34437",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1198,7 +1036,7 @@
   },
   {
     "FOLIO": "34438",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1207,7 +1045,7 @@
   },
   {
     "FOLIO": "34441",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1216,7 +1054,7 @@
   },
   {
     "FOLIO": "34442",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1225,7 +1063,7 @@
   },
   {
     "FOLIO": "34443",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Ocho Cedros Segunda Sección",
     "DELEGACION": "OCHO CEDROS",
@@ -1234,7 +1072,7 @@
   },
   {
     "FOLIO": "34444",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1243,7 +1081,7 @@
   },
   {
     "FOLIO": "34445",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Ocho Cedros Segunda Sección",
     "DELEGACION": "OCHO CEDROS",
@@ -1252,7 +1090,7 @@
   },
   {
     "FOLIO": "34446",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1261,7 +1099,7 @@
   },
   {
     "FOLIO": "34447",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Ocho Cedros Segunda Sección",
     "DELEGACION": "OCHO CEDROS",
@@ -1270,7 +1108,7 @@
   },
   {
     "FOLIO": "34448",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1279,7 +1117,7 @@
   },
   {
     "FOLIO": "34451",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1288,7 +1126,7 @@
   },
   {
     "FOLIO": "34454",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1297,7 +1135,7 @@
   },
   {
     "FOLIO": "34455",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Ocho Cedros Segunda Sección",
     "DELEGACION": "OCHO CEDROS",
@@ -1306,7 +1144,7 @@
   },
   {
     "FOLIO": "34456",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Ocho Cedros Segunda Sección",
     "DELEGACION": "OCHO CEDROS",
@@ -1315,7 +1153,7 @@
   },
   {
     "FOLIO": "34457",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1324,7 +1162,7 @@
   },
   {
     "FOLIO": "34458",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1333,7 +1171,7 @@
   },
   {
     "FOLIO": "34459",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1342,7 +1180,7 @@
   },
   {
     "FOLIO": "34460",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1351,7 +1189,7 @@
   },
   {
     "FOLIO": "34461",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1360,7 +1198,7 @@
   },
   {
     "FOLIO": "34463",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1369,7 +1207,7 @@
   },
   {
     "FOLIO": "34464",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1378,7 +1216,7 @@
   },
   {
     "FOLIO": "34465",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1387,7 +1225,7 @@
   },
   {
     "FOLIO": "34466",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
@@ -1396,7 +1234,7 @@
   },
   {
     "FOLIO": "34467",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Lanceros de Toluca",
     "COLONIA": "Héroes del 5 de Mayo I",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
