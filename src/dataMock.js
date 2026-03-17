@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 394,
-  "OK": 35282,
-  "FALTA: CAJA + FINAL": 871,
-  "CARPETA VACÍA": 918,
+  "FALTA: INICIAL": 370,
+  "OK": 34101,
+  "FALTA: CAJA + FINAL": 860,
+  "CARPETA VACÍA": 2170,
   "SIN CARPETA": 587,
-  "FALTA: CAJA": 275,
-  "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 180,
-  "FALTA: INICIAL + CAJA": 150,
-  "FALTA: INICIAL + FINAL": 28
+  "FALTA: CAJA": 258,
+  "FALTA: INICIAL + CAJA + FINAL": 53,
+  "FALTA: FINAL": 169,
+  "FALTA: INICIAL + CAJA": 127,
+  "FALTA: INICIAL + FINAL": 30
 };
 export const RESUMEN_DATA = [
   {
@@ -1421,8 +1421,8 @@ export const RESUMEN_DATA = [
     "ID": "81",
     "_stage": "E2",
     "TOTAL_OMISIONES": 852,
-    "OK": 712,
-    "FALTA: INICIAL": 49,
+    "OK": 714,
+    "FALTA: INICIAL": 47,
     "FALTA: CAJA + FINAL": 26,
     "CARPETA VACÍA": 7,
     "SIN CARPETA": 1,
@@ -1437,15 +1437,15 @@ export const RESUMEN_DATA = [
     "ID": "9",
     "_stage": "E2",
     "TOTAL_OMISIONES": 477,
-    "OK": 474,
+    "OK": 472,
     "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 1,
+    "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 1,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 1,
+    "FALTA: FINAL": 4,
+    "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
   {
@@ -1453,16 +1453,16 @@ export const RESUMEN_DATA = [
     "ID": "67",
     "_stage": "E2",
     "TOTAL_OMISIONES": 1911,
-    "OK": 1356,
-    "FALTA: INICIAL": 25,
-    "FALTA: CAJA + FINAL": 13,
-    "CARPETA VACÍA": 347,
+    "OK": 175,
+    "FALTA: INICIAL": 3,
+    "FALTA: CAJA + FINAL": 3,
+    "CARPETA VACÍA": 1599,
     "SIN CARPETA": 109,
-    "FALTA: CAJA": 19,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 19,
-    "FALTA: INICIAL + CAJA": 22,
-    "FALTA: INICIAL + FINAL": 1
+    "FALTA: CAJA": 2,
+    "FALTA: INICIAL + CAJA + FINAL": 13,
+    "FALTA: FINAL": 4,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 3
   }
 ];
 export const FILTERS_MAP = {
