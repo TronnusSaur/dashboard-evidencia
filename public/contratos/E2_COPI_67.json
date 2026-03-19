@@ -1,16 +1,7 @@
 [
   {
-    "FOLIO": "8702-1",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
-    "CALLE": "Aretusa",
-    "COLONIA": "La Floresta",
-    "DELEGACION": "SAN MATEO OTZACATIPAN",
-    "_company": "COPI",
-    "_stage": "E2"
-  },
-  {
     "FOLIO": "8770-1",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "Aretusa",
     "COLONIA": "La Floresta",
     "DELEGACION": "SAN MATEO OTZACATIPAN",
@@ -19,7 +10,7 @@
   },
   {
     "FOLIO": "8770-2",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "Aretusa",
     "COLONIA": "La Floresta",
     "DELEGACION": "SAN MATEO OTZACATIPAN",
@@ -1512,6 +1503,15 @@
     "_stage": "E2"
   },
   {
+    "FOLIO": "31593-2",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "Prevista",
+    "COLONIA": "La Floresta",
+    "DELEGACION": "SAN MATEO OTZACATIPAN",
+    "_company": "COPI",
+    "_stage": "E2"
+  },
+  {
     "FOLIO": "31625-1",
     "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "Reforma",
@@ -1638,6 +1638,15 @@
     "_stage": "E2"
   },
   {
+    "FOLIO": "34627",
+    "RESULTADO_AUDITORIA": "FALTA: FINAL",
+    "CALLE": "Camino de los Huertos",
+    "COLONIA": "Jardines de La Crespa",
+    "DELEGACION": "SAN MATEO OTZACATIPAN",
+    "_company": "COPI",
+    "_stage": "E2"
+  },
+  {
     "FOLIO": "33137",
     "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "Cedral Poniente",
@@ -1658,6 +1667,15 @@
   {
     "FOLIO": "33185-2",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "Cedral Poniente",
+    "COLONIA": "Jardines de La Crespa",
+    "DELEGACION": "SAN MATEO OTZACATIPAN",
+    "_company": "COPI",
+    "_stage": "E2"
+  },
+  {
+    "FOLIO": "33193",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "Cedral Poniente",
     "COLONIA": "Jardines de La Crespa",
     "DELEGACION": "SAN MATEO OTZACATIPAN",
