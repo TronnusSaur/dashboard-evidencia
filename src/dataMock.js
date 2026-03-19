@@ -12,14 +12,14 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 337,
-  "OK": 35712,
-  "FALTA: CAJA + FINAL": 834,
-  "CARPETA VACÍA": 703,
-  "SIN CARPETA": 569,
-  "FALTA: CAJA": 270,
-  "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 144,
+  "FALTA: INICIAL": 336,
+  "OK": 35794,
+  "FALTA: CAJA + FINAL": 832,
+  "CARPETA VACÍA": 627,
+  "SIN CARPETA": 568,
+  "FALTA: CAJA": 269,
+  "FALTA: INICIAL + CAJA + FINAL": 41,
+  "FALTA: FINAL": 142,
   "FALTA: INICIAL + CAJA": 91,
   "FALTA: INICIAL + FINAL": 25
 };
@@ -1453,14 +1453,14 @@ export const RESUMEN_DATA = [
     "ID": "67",
     "_stage": "E2",
     "TOTAL_OMISIONES": 1911,
-    "OK": 1584,
-    "FALTA: INICIAL": 18,
-    "FALTA: CAJA + FINAL": 14,
-    "CARPETA VACÍA": 145,
-    "SIN CARPETA": 108,
-    "FALTA: CAJA": 13,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 9,
+    "OK": 1666,
+    "FALTA: INICIAL": 17,
+    "FALTA: CAJA + FINAL": 12,
+    "CARPETA VACÍA": 69,
+    "SIN CARPETA": 107,
+    "FALTA: CAJA": 12,
+    "FALTA: INICIAL + CAJA + FINAL": 1,
+    "FALTA: FINAL": 7,
     "FALTA: INICIAL + CAJA": 20,
     "FALTA: INICIAL + FINAL": 0
   }
