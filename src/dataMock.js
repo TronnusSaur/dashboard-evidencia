@@ -17,10 +17,10 @@ export const GLOBAL_TOTALS = {
   "FALTA: CAJA + FINAL": 782,
   "CARPETA VACÍA": 509,
   "SIN CARPETA": 327,
-  "FALTA: CAJA": 155,
+  "FALTA: CAJA": 154,
   "FALTA: INICIAL + CAJA + FINAL": 40,
   "FALTA: FINAL": 113,
-  "FALTA: INICIAL + CAJA": 32,
+  "FALTA: INICIAL + CAJA": 33,
   "FALTA: INICIAL + FINAL": 17
 };
 export const RESUMEN_DATA = [
@@ -1282,10 +1282,10 @@ export const RESUMEN_DATA = [
     "FALTA: CAJA + FINAL": 9,
     "CARPETA VACÍA": 80,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 26,
+    "FALTA: CAJA": 25,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 13,
-    "FALTA: INICIAL + CAJA": 4,
+    "FALTA: INICIAL + CAJA": 5,
     "FALTA: INICIAL + FINAL": 10
   },
   {
