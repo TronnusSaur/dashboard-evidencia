@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 169,
-  "OK": 36863,
-  "FALTA: CAJA + FINAL": 679,
+  "FALTA: INICIAL": 168,
+  "OK": 36939,
+  "FALTA: CAJA + FINAL": 634,
   "CARPETA VACÍA": 420,
   "SIN CARPETA": 307,
-  "FALTA: CAJA": 111,
+  "FALTA: CAJA": 101,
   "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 92,
-  "FALTA: INICIAL + CAJA": 34,
-  "FALTA: INICIAL + FINAL": 10
+  "FALTA: FINAL": 82,
+  "FALTA: INICIAL + CAJA": 27,
+  "FALTA: INICIAL + FINAL": 7
 };
 export const RESUMEN_DATA = [
   {
@@ -861,14 +861,14 @@ export const RESUMEN_DATA = [
     "ID": "19",
     "_stage": "E2",
     "TOTAL_OMISIONES": 481,
-    "OK": 424,
+    "OK": 475,
     "FALTA: INICIAL": 1,
-    "FALTA: CAJA + FINAL": 44,
+    "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 2,
-    "FALTA: CAJA": 3,
+    "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 7,
+    "FALTA: FINAL": 2,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
@@ -1197,15 +1197,15 @@ export const RESUMEN_DATA = [
     "ID": "66",
     "_stage": "E2",
     "TOTAL_OMISIONES": 175,
-    "OK": 162,
+    "OK": 174,
     "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 1,
+    "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 6,
+    "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 6,
+    "FALTA: INICIAL + CAJA": 1,
     "FALTA: INICIAL + FINAL": 0
   },
   {
@@ -1277,16 +1277,16 @@ export const RESUMEN_DATA = [
     "ID": "72",
     "_stage": "E2",
     "TOTAL_OMISIONES": 321,
-    "OK": 305,
-    "FALTA: INICIAL": 1,
+    "OK": 318,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 4,
+    "FALTA: CAJA": 2,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 5,
-    "FALTA: INICIAL + CAJA": 2,
-    "FALTA: INICIAL + FINAL": 4
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 1
   },
   {
     "EMPRESA_RAIZ_MASTER": "AZTLAN",
