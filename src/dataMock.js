@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 168,
-  "OK": 36939,
+  "FALTA: INICIAL": 167,
+  "OK": 36946,
   "FALTA: CAJA + FINAL": 634,
-  "CARPETA VACÍA": 420,
+  "CARPETA VACÍA": 421,
   "SIN CARPETA": 307,
-  "FALTA: CAJA": 101,
+  "FALTA: CAJA": 98,
   "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 82,
-  "FALTA: INICIAL + CAJA": 27,
-  "FALTA: INICIAL + FINAL": 7
+  "FALTA: FINAL": 80,
+  "FALTA: INICIAL + CAJA": 26,
+  "FALTA: INICIAL + FINAL": 6
 };
 export const RESUMEN_DATA = [
   {
@@ -861,14 +861,14 @@ export const RESUMEN_DATA = [
     "ID": "19",
     "_stage": "E2",
     "TOTAL_OMISIONES": 481,
-    "OK": 475,
-    "FALTA: INICIAL": 1,
+    "OK": 479,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 2,
-    "FALTA: CAJA": 1,
+    "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 2,
+    "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
@@ -1200,12 +1200,12 @@ export const RESUMEN_DATA = [
     "OK": 174,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
+    "CARPETA VACÍA": 1,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 1,
+    "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
   {
@@ -1277,16 +1277,16 @@ export const RESUMEN_DATA = [
     "ID": "72",
     "_stage": "E2",
     "TOTAL_OMISIONES": 321,
-    "OK": 318,
+    "OK": 321,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 2,
+    "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 1
+    "FALTA: INICIAL + FINAL": 0
   },
   {
     "EMPRESA_RAIZ_MASTER": "AZTLAN",
