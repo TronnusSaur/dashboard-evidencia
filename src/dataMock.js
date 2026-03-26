@@ -13,15 +13,15 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 169,
-  "OK": 36860,
+  "OK": 36863,
   "FALTA: CAJA + FINAL": 679,
   "CARPETA VACÍA": 420,
   "SIN CARPETA": 307,
-  "FALTA: CAJA": 113,
+  "FALTA: CAJA": 111,
   "FALTA: INICIAL + CAJA + FINAL": 40,
   "FALTA: FINAL": 92,
   "FALTA: INICIAL + CAJA": 34,
-  "FALTA: INICIAL + FINAL": 11
+  "FALTA: INICIAL + FINAL": 10
 };
 export const RESUMEN_DATA = [
   {
@@ -1277,16 +1277,16 @@ export const RESUMEN_DATA = [
     "ID": "72",
     "_stage": "E2",
     "TOTAL_OMISIONES": 321,
-    "OK": 302,
+    "OK": 305,
     "FALTA: INICIAL": 1,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 6,
+    "FALTA: CAJA": 4,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 5,
     "FALTA: INICIAL + CAJA": 2,
-    "FALTA: INICIAL + FINAL": 5
+    "FALTA: INICIAL + FINAL": 4
   },
   {
     "EMPRESA_RAIZ_MASTER": "AZTLAN",
