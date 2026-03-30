@@ -12,13 +12,21 @@ const SHEET_ID = process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI5
 const STAGES_CONFIG = [
     {
         id: 'E1',
-        name: 'ETAPA 1 MASTER',
-        driveId: process.env.FOLDER_ID_DRIVE_E1 || '1RJrTrWIp7sYZDyAYhmsq_5xqaLCj3CYN'
+        name: '1 - ETAPA 1 MASTER',
+        driveId: process.env.FOLDER_ID_DRIVE_E1 || '1RJrTrWIp7sYZDyAYhmsq_5xqaLCj3CYN',
+        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8'
     },
     {
         id: 'E2',
-        name: 'ETAPA 2 MASTER',
-        driveId: process.env.FOLDER_ID_DRIVE || '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik'
+        name: '2 - ETAPA 2 MASTER',
+        driveId: process.env.FOLDER_ID_DRIVE || '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik',
+        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8'
+    },
+    {
+        id: 'E3',
+        name: '3 - ETAPA 3 MASTER',
+        driveId: process.env.FOLDER_ID_DRIVE_E3 || '1pYZIkXzvsuwB8bk4l5sUTovmdSrwD9uW',
+        sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
     }
 ];
 
@@ -182,8 +190,9 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     // 2. Cargar Sheets
     console.log(`  📊 Cargando registros de Sheets (${config.name})...`);
+    const currentSheetId = config.sheetId || SHEET_ID;
     const sheetData = await sheets.spreadsheets.values.get({
-        spreadsheetId: SHEET_ID,
+        spreadsheetId: currentSheetId,
         range: config.name
     });
 

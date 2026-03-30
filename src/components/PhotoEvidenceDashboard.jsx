@@ -252,7 +252,7 @@ const PhotoEvidenceDashboard = () => {
             try {
                 // We always fetch all records for the selected stage(s) to allow independent filtering
                 // and ensure the global PDF has all company data.
-                const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2'] : [selectedStage];
+                const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2', 'E3'] : [selectedStage];
                 const promises = [];
 
                 stagesToFetch.forEach(st => {
@@ -602,7 +602,7 @@ const PhotoEvidenceDashboard = () => {
                         <div className="flex flex-col">
                             <label className="text-[10px] uppercase font-bold text-slate-500 mb-1">Etapa de Obra</label>
                             <div className="flex bg-slate-100 dark:bg-slate-700 p-1 rounded-lg border border-slate-200 dark:border-slate-600">
-                                {['E1', 'E2', 'ALL'].map(stage => (
+                                {['E1', 'E2', 'E3', 'ALL'].map(stage => (
                                     <button
                                         key={stage}
                                         onClick={() => handleStageChange(stage)}
