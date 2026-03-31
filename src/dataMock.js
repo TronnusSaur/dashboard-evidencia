@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 164,
-  "OK": 36956,
+  "FALTA: INICIAL": 217,
+  "OK": 37299,
   "FALTA: CAJA + FINAL": 634,
   "CARPETA VACÍA": 420,
-  "SIN CARPETA": 305,
-  "FALTA: CAJA": 94,
-  "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 80,
-  "FALTA: INICIAL + CAJA": 26,
-  "FALTA: INICIAL + FINAL": 6
+  "SIN CARPETA": 346,
+  "FALTA: CAJA": 101,
+  "FALTA: INICIAL + CAJA + FINAL": 41,
+  "FALTA: FINAL": 90,
+  "FALTA: INICIAL + CAJA": 27,
+  "FALTA: INICIAL + FINAL": 8
 };
 export const RESUMEN_DATA = [
   {
@@ -1463,12 +1463,270 @@ export const RESUMEN_DATA = [
     "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ALSAFI",
+    "ID": "01",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 36,
+    "OK": 33,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 3,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ICI",
+    "ID": "04",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 21,
+    "OK": 16,
+    "FALTA: INICIAL": 1,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 2,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 2,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ICI",
+    "ID": "05",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 119,
+    "OK": 104,
+    "FALTA: INICIAL": 1,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 10,
+    "FALTA: CAJA": 2,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 2,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "MAMUTEE",
+    "ID": "09",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 15,
+    "OK": 15,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CREA",
+    "ID": "11",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 23,
+    "OK": 23,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CARASTOL",
+    "ID": "12",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 18,
+    "OK": 0,
+    "FALTA: INICIAL": 18,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CARASTOL",
+    "ID": "13",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 14,
+    "OK": 0,
+    "FALTA: INICIAL": 14,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CARASTOL",
+    "ID": "14",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 11,
+    "OK": 0,
+    "FALTA: INICIAL": 10,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 1,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "HISPANO",
+    "ID": "15",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 4,
+    "OK": 4,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "HISPANO",
+    "ID": "16",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 14,
+    "OK": 14,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "EDIT",
+    "ID": "17",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 37,
+    "OK": 36,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 1,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CREA",
+    "ID": "18",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 22,
+    "OK": 17,
+    "FALTA: INICIAL": 1,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 3,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 1,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "TORRE",
+    "ID": "26",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 15,
+    "OK": 15,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "MAMUTEE",
+    "ID": "27",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 28,
+    "OK": 27,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 1,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "MONROY",
+    "ID": "28",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 43,
+    "OK": 39,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 4,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ALSAFI",
+    "ID": "31",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 38,
+    "OK": 0,
+    "FALTA: INICIAL": 8,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 27,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 1,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 2
   }
 ];
 export const FILTERS_MAP = {
   "ALSAFI": [
     "61",
-    "10"
+    "10",
+    "01",
+    "31"
   ],
   "AREVIR": [
     "16"
@@ -1576,5 +1834,35 @@ export const FILTERS_MAP = {
     "62",
     "63",
     "64"
+  ],
+  "ICI": [
+    "04",
+    "05"
+  ],
+  "MAMUTEE": [
+    "09",
+    "27"
+  ],
+  "CREA": [
+    "11",
+    "18"
+  ],
+  "CARASTOL": [
+    "12",
+    "13",
+    "14"
+  ],
+  "HISPANO": [
+    "15",
+    "16"
+  ],
+  "EDIT": [
+    "17"
+  ],
+  "TORRE": [
+    "26"
+  ],
+  "MONROY": [
+    "28"
   ]
 };
