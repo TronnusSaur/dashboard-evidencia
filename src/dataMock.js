@@ -12,14 +12,14 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 217,
-  "OK": 37299,
-  "FALTA: CAJA + FINAL": 634,
+  "FALTA: INICIAL": 218,
+  "OK": 37581,
+  "FALTA: CAJA + FINAL": 643,
   "CARPETA VACÍA": 420,
-  "SIN CARPETA": 346,
-  "FALTA: CAJA": 101,
-  "FALTA: INICIAL + CAJA + FINAL": 41,
-  "FALTA: FINAL": 90,
+  "SIN CARPETA": 546,
+  "FALTA: CAJA": 105,
+  "FALTA: INICIAL + CAJA + FINAL": 42,
+  "FALTA: FINAL": 116,
   "FALTA: INICIAL + CAJA": 27,
   "FALTA: INICIAL + FINAL": 8
 };
@@ -1513,6 +1513,38 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + FINAL": 0
   },
   {
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
+    "ID": "06",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 4,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 4,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "DOMAJA",
+    "ID": "07",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 65,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 65,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
     "EMPRESA_RAIZ_MASTER": "MAMUTEE",
     "ID": "09",
     "_stage": "E3",
@@ -1657,6 +1689,86 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + FINAL": 0
   },
   {
+    "EMPRESA_RAIZ_MASTER": "HISPANO",
+    "ID": "19",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 14,
+    "OK": 14,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "SAQEB",
+    "ID": "20",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 54,
+    "OK": 31,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 23,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "EDITUM",
+    "ID": "22",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 52,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 52,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ARKA",
+    "ID": "23",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 31,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 4,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 3,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 1,
+    "FALTA: FINAL": 23,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "TORRE",
+    "ID": "24",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 2,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 2,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
     "EMPRESA_RAIZ_MASTER": "TORRE",
     "ID": "26",
     "_stage": "E3",
@@ -1708,17 +1820,177 @@ export const RESUMEN_DATA = [
     "EMPRESA_RAIZ_MASTER": "ALSAFI",
     "ID": "31",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 38,
+    "TOTAL_OMISIONES": 37,
     "OK": 0,
     "FALTA: INICIAL": 8,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 27,
+    "SIN CARPETA": 26,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 1,
     "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 2
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "SHAYE",
+    "ID": "32",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 39,
+    "OK": 39,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "KANARE",
+    "ID": "38",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 33,
+    "OK": 26,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 4,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 3,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "EDIT",
+    "ID": "39",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 73,
+    "OK": 73,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "PERBOR",
+    "ID": "40",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 19,
+    "OK": 19,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "PERBOR",
+    "ID": "42",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 15,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 15,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "TERRA",
+    "ID": "44",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 23,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 23,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "TERRA",
+    "ID": "45",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 15,
+    "OK": 15,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "INTEGRA",
+    "ID": "46",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 39,
+    "OK": 37,
+    "FALTA: INICIAL": 1,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 1,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "INTEGRA",
+    "ID": "47",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 32,
+    "OK": 28,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 1,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 3,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "CREA",
+    "ID": "48",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 14,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 14,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
   }
 ];
 export const FILTERS_MAP = {
@@ -1786,7 +2058,9 @@ export const FILTERS_MAP = {
   "PERBOR": [
     "12",
     "55",
-    "56"
+    "56",
+    "40",
+    "42"
   ],
   "REDNI": [
     "8",
@@ -1795,16 +2069,19 @@ export const FILTERS_MAP = {
   "ROCADURA": [
     "7",
     "57",
-    "81"
+    "81",
+    "06"
   ],
   "SAQEB": [
     "54",
     "71",
-    "68"
+    "68",
+    "20"
   ],
   "SHAYE": [
     "65",
-    "70"
+    "70",
+    "32"
   ],
   "TAYCAR": [
     "14"
@@ -1839,13 +2116,17 @@ export const FILTERS_MAP = {
     "04",
     "05"
   ],
+  "DOMAJA": [
+    "07"
+  ],
   "MAMUTEE": [
     "09",
     "27"
   ],
   "CREA": [
     "11",
-    "18"
+    "18",
+    "48"
   ],
   "CARASTOL": [
     "12",
@@ -1854,15 +2135,35 @@ export const FILTERS_MAP = {
   ],
   "HISPANO": [
     "15",
-    "16"
+    "16",
+    "19"
   ],
   "EDIT": [
-    "17"
+    "17",
+    "39"
+  ],
+  "EDITUM": [
+    "22"
+  ],
+  "ARKA": [
+    "23"
   ],
   "TORRE": [
+    "24",
     "26"
   ],
   "MONROY": [
     "28"
+  ],
+  "KANARE": [
+    "38"
+  ],
+  "TERRA": [
+    "44",
+    "45"
+  ],
+  "INTEGRA": [
+    "46",
+    "47"
   ]
 };
