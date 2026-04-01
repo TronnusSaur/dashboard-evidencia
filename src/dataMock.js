@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 237,
-  "OK": 37581,
+  "FALTA: INICIAL": 194,
+  "OK": 37624,
   "FALTA: CAJA + FINAL": 643,
   "CARPETA VACÍA": 420,
   "SIN CARPETA": 520,
-  "FALTA: CAJA": 105,
+  "FALTA: CAJA": 106,
   "FALTA: INICIAL + CAJA + FINAL": 42,
-  "FALTA: FINAL": 116,
-  "FALTA: INICIAL + CAJA": 28,
-  "FALTA: INICIAL + FINAL": 14
+  "FALTA: FINAL": 117,
+  "FALTA: INICIAL + CAJA": 27,
+  "FALTA: INICIAL + FINAL": 13
 };
 export const RESUMEN_DATA = [
   {
@@ -1501,8 +1501,8 @@ export const RESUMEN_DATA = [
     "ID": "05",
     "_stage": "E3",
     "TOTAL_OMISIONES": 119,
-    "OK": 104,
-    "FALTA: INICIAL": 1,
+    "OK": 105,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 10,
@@ -1581,8 +1581,8 @@ export const RESUMEN_DATA = [
     "ID": "12",
     "_stage": "E3",
     "TOTAL_OMISIONES": 18,
-    "OK": 0,
-    "FALTA: INICIAL": 18,
+    "OK": 18,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
@@ -1597,8 +1597,8 @@ export const RESUMEN_DATA = [
     "ID": "13",
     "_stage": "E3",
     "TOTAL_OMISIONES": 14,
-    "OK": 0,
-    "FALTA: INICIAL": 14,
+    "OK": 14,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
@@ -1613,15 +1613,15 @@ export const RESUMEN_DATA = [
     "ID": "14",
     "_stage": "E3",
     "TOTAL_OMISIONES": 11,
-    "OK": 0,
-    "FALTA: INICIAL": 10,
+    "OK": 9,
+    "FALTA: INICIAL": 1,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
+    "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 1,
+    "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
   {
@@ -1821,16 +1821,16 @@ export const RESUMEN_DATA = [
     "ID": "31",
     "_stage": "E3",
     "TOTAL_OMISIONES": 37,
-    "OK": 0,
-    "FALTA: INICIAL": 27,
+    "OK": 1,
+    "FALTA: INICIAL": 26,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 1,
-    "FALTA: FINAL": 0,
+    "FALTA: FINAL": 1,
     "FALTA: INICIAL + CAJA": 1,
-    "FALTA: INICIAL + FINAL": 8
+    "FALTA: INICIAL + FINAL": 7
   },
   {
     "EMPRESA_RAIZ_MASTER": "SHAYE",
