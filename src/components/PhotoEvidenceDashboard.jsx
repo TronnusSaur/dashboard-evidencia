@@ -12,6 +12,7 @@ import {
     BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from 'recharts';
 import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
+import FolioVisualizerModal from './FolioVisualizerModal';
 
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
@@ -30,9 +31,7 @@ const CONDENSED_CATEGORIES = [];
 const MAP_TO_CONDENSED = {};
 
 ERROR_TYPES.forEach(type => {
-    if (type === 'OK') {
-        MAP_TO_CONDENSED[type] = null;
-    } else if (type.includes('+') || type.includes(' Y ')) {
+    if (type.includes('+') || type.includes(' Y ')) {
         MAP_TO_CONDENSED[type] = 'FALTANTES MULTIPLES';
         if (!CONDENSED_CATEGORIES.includes('FALTANTES MULTIPLES')) {
             CONDENSED_CATEGORIES.push('FALTANTES MULTIPLES');
@@ -52,6 +51,9 @@ const PhotoEvidenceDashboard = () => {
     const [selectedDelegation, setSelectedDelegation] = useState('ALL');
     const [selectedErrorTypes, setSelectedErrorTypes] = useState([]);
     const [showAlert, setShowAlert] = useState(false);
+    const [selectedVisualizerFolio, setSelectedVisualizerFolio] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [showOkFolios, setShowOkFolios] = useState(false);
 
     // Filter RESUMEN_DATA by stage
     const activeResumen = useMemo(() => {
@@ -121,15 +123,22 @@ const PhotoEvidenceDashboard = () => {
             filtered = filtered.filter(r => r.DELEGACION === selectedDelegation);
         }
 
+        if (!showOkFolios) {
+            filtered = filtered.filter(r => r.RESULTADO_AUDITORIA !== 'OK');
+        }
+
         return filtered;
-    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation]);
+    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation, showOkFolios]);
 
     const kpiData = useMemo(() => {
-        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0;
+        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0, ok = 0;
 
         filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
-            if (rawType === 'OK') return;
+            if (rawType === 'OK') {
+                ok++;
+                return;
+            }
 
             if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
                 sinCarpeta++;
@@ -143,7 +152,7 @@ const PhotoEvidenceDashboard = () => {
         // Sumamos las incidencias para que el Total sea la suma exacta de las tarjetas siguientes
         let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal;
 
-        return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal };
+        return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal, ok };
     }, [filteredRecords]);
 
     // Handle stage change
@@ -271,7 +280,26 @@ const PhotoEvidenceDashboard = () => {
                 });
 
                 const results = await Promise.all(promises);
-                allRecords = results.flat();
+                let allRecords = results.flat();
+                
+                // Inject Optimistic UI Cache
+                try {
+                    const optimisticStoreStr = localStorage.getItem('optimistic_folios');
+                    if (optimisticStoreStr) {
+                        const optimisticStore = JSON.parse(optimisticStoreStr);
+                        allRecords = allRecords.map(r => {
+                            if (optimisticStore[String(r.FOLIO)] && optimisticStore[String(r.FOLIO)].PHOTOS) {
+                                return { 
+                                    ...r, 
+                                    PHOTOS: optimisticStore[String(r.FOLIO)].PHOTOS,
+                                    RESULTADO_AUDITORIA: optimisticStore[String(r.FOLIO)].RESULTADO_AUDITORIA
+                                };
+                            }
+                            return r;
+                        });
+                    }
+                } catch(e) { console.error("Error applying optimistic cache", e); }
+
                 setRecords(allRecords);
             } catch (error) {
                 console.error("Error fetching records:", error);
@@ -286,16 +314,22 @@ const PhotoEvidenceDashboard = () => {
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
-        // Filter out records mapped to null (e.g., 'OK')
-        let filtered = filteredRecords.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
+        let docs = filteredRecords;
+        
+        if (searchQuery.trim() !== '') {
+            // override the OK filter
+            docs = docs.filter(r => r.FOLIO && String(r.FOLIO).includes(searchQuery.trim()));
+        } else {
+            // Filter out records mapped to null (e.g., 'OK')
+            docs = docs.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
 
-        // Apply Error Type Filter based on CONDENSED group
-        if (selectedErrorTypes.length > 0) {
-            filtered = filtered.filter(r => selectedErrorTypes.includes(MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA]));
+            // Apply Error Type Filter based on CONDENSED group
+            if (selectedErrorTypes.length > 0) {
+                docs = docs.filter(r => selectedErrorTypes.includes(MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA]));
+            }
         }
-
-        return filtered;
-    }, [filteredRecords, selectedErrorTypes]);
+        return docs;
+    }, [filteredRecords, selectedErrorTypes, searchQuery]);
 
     // PDF Export Function
     const exportToPDF = () => {
@@ -525,6 +559,30 @@ const PhotoEvidenceDashboard = () => {
         }
     };
 
+    const handleFolioSync = (folioStr, newPhotos, newStatus) => {
+        setRecords(prevRecords => prevRecords.map(r => {
+            if (String(r.FOLIO) === String(folioStr)) {
+                // Save to localStorage
+                try {
+                    const optimisticStoreStr = localStorage.getItem('optimistic_folios') || '{}';
+                    const optimisticStore = JSON.parse(optimisticStoreStr);
+                    optimisticStore[folioStr] = { PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+                    localStorage.setItem('optimistic_folios', JSON.stringify(optimisticStore));
+                } catch(e) {}
+
+                return { ...r, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+            }
+            return r;
+        }));
+
+        setSelectedVisualizerFolio(prev => {
+            if (prev && String(prev.FOLIO) === String(folioStr)) {
+                return { ...prev, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+            }
+            return prev;
+        });
+    };
+
     return (
         <React.Fragment>
             {/* Alert Notification */}
@@ -666,10 +724,14 @@ const PhotoEvidenceDashboard = () => {
                 </div>
 
                 {/* KPI Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+                    <div className="bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500">
+                        <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">Folios Completos (OK)</p>
+                        <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300">{kpiData.ok}</h4>
+                    </div>
                     <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500">
-                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Total Errores Físicos</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.total}</h4>
+                        <p className="text-[10px] xl:text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Total Errores Físicos</p>
+                        <h4 className="text-2xl xl:text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.total}</h4>
                     </div>
                     <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-primary">
                         <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Sin Carpeta / Vacía</p>
@@ -772,12 +834,33 @@ const PhotoEvidenceDashboard = () => {
                     <div className="xl:col-span-2 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
                         <div className="p-6 border-b border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                             <h5 className="font-bold text-slate-800 dark:text-slate-100">Registros de Incidencias</h5>
-                            <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-2 items-center">
+                                <div className="relative mr-2">
+                                    <input 
+                                        type="text" 
+                                        placeholder="Buscar Folio..." 
+                                        value={searchQuery}
+                                        onChange={(e) => setSearchQuery(e.target.value)}
+                                        className="pl-8 pr-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-xs w-36 sm:w-48 focus:outline-none focus:ring-1 focus:ring-primary"
+                                    />
+                                    <span className="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-[14px] text-slate-400">search</span>
+                                </div>
                                 <button
                                     onClick={() => toggleErrorType('ALL')}
                                     className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.length === 0 ? 'bg-primary text-white border-transparent' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'}`}
                                 >
                                     TODOS
+                                </button>
+                                <button
+                                    onClick={() => setShowOkFolios(!showOkFolios)}
+                                    className={`px-3 flex items-center gap-1 py-1.5 rounded-full text-[10px] sm:text-xs font-bold uppercase transition-all ${
+                                        showOkFolios 
+                                            ? 'bg-green-500 text-white shadow-md shadow-green-500/20' 
+                                            : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
+                                    }`}
+                                >
+                                    {showOkFolios ? <span className="material-symbols-outlined text-[14px]">visibility</span> : <span className="material-symbols-outlined text-[14px]">visibility_off</span>}
+                                    {showOkFolios ? 'Folios OK Visibles' : 'Folios OK Ocultos'}
                                 </button>
                                 {CONDENSED_CATEGORIES.map(type => (
                                     <button
@@ -813,6 +896,7 @@ const PhotoEvidenceDashboard = () => {
                                             <th className="px-6 py-4">Calle</th>
                                             <th className="px-6 py-4">Delegación</th>
                                             <th className="px-6 py-4">Colonia</th>
+                                            <th className="px-6 py-4 text-center">Evidencia</th>
                                         </tr>
                                     </thead>
                                     <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
@@ -830,6 +914,15 @@ const PhotoEvidenceDashboard = () => {
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.CALLE}</td>
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.DELEGACION}</td>
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.COLONIA}</td>
+                                                <td className="px-6 py-4 text-center">
+                                                    <button 
+                                                        onClick={() => setSelectedVisualizerFolio(row)}
+                                                        className="p-1 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-md transition-colors text-primary dark:text-white"
+                                                        title="Ver Evidencia"
+                                                    >
+                                                        <span className="material-symbols-outlined text-[20px]">visibility</span>
+                                                    </button>
+                                                </td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -847,6 +940,12 @@ const PhotoEvidenceDashboard = () => {
                     </div>
                 </div>
             </main>
+            <FolioVisualizerModal 
+                isOpen={!!selectedVisualizerFolio} 
+                onClose={() => setSelectedVisualizerFolio(null)} 
+                folioData={selectedVisualizerFolio} 
+                onFolioSync={handleFolioSync}
+            />
         </React.Fragment>
     );
 };

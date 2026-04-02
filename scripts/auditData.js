@@ -106,7 +106,7 @@ async function obtenerPaginado(drive, query) {
 }
 
 async function auditarFotos(drive, arrayFolioIds) {
-    if (!arrayFolioIds || arrayFolioIds.length === 0) return "SIN CARPETA";
+    if (!arrayFolioIds || arrayFolioIds.length === 0) return { status: "SIN CARPETA", photos: null };
     try {
         let todasLasFotos = [];
 
@@ -114,21 +114,33 @@ async function auditarFotos(drive, arrayFolioIds) {
             const query = `'${folioId}' in parents and trashed = false`;
             const res = await drive.files.list({
                 q: query,
-                fields: "files(name)",
+                fields: "files(name, webViewLink, thumbnailLink)",
                 supportsAllDrives: true,
                 includeItemsFromAllDrives: true,
                 pageSize: 100
             });
-            todasLasFotos.push(...(res.data.files || []).map(f => f.name.toLowerCase()));
+            todasLasFotos.push(...(res.data.files || []).map(f => ({
+                name: f.name.toLowerCase(),
+                webViewLink: f.webViewLink,
+                thumbnailLink: f.thumbnailLink
+            })));
         }
 
-        if (todasLasFotos.length === 0) return "CARPETA VACÍA";
+        if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null };
 
         const encontradas = new Set();
+        const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
+
         for (const f of todasLasFotos) {
             for (const [cat, patrones] of Object.entries(PATRONES)) {
-                if (patrones.some(p => f.includes(p))) {
+                if (patrones.some(p => f.name.includes(p))) {
                     encontradas.add(cat);
+                    if (!photosMap[cat]) {
+                        photosMap[cat] = {
+                            thumbnail: f.thumbnailLink,
+                            view: f.webViewLink
+                        };
+                    }
                 }
             }
         }
@@ -136,10 +148,11 @@ async function auditarFotos(drive, arrayFolioIds) {
         const categorias = ["INICIAL", "CAJA", "FINAL"];
         const faltan = categorias.filter(c => !encontradas.has(c));
 
-        return faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
+        const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
+        return { status, photos: photosMap };
     } catch (e) {
         console.error(`Error accediendo a conjunto de folios: ${e.message}`);
-        return "ERROR DE ACCESO";
+        return { status: "ERROR DE ACCESO", photos: null };
     }
 }
 
@@ -209,6 +222,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     // 3. Auditoría Real
     const auditLimit = pLimit(20);
     let auditadosNuevos = 0;
+    let completados = 0;
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
@@ -219,19 +233,31 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         }
 
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
-        if (auditCache[cacheKey] === "OK" && folioIds && folioIds.length > 0) {
+        const cached = auditCache[cacheKey];
+        if (cached && typeof cached === 'object' && cached.status === "OK" && cached.photos && folioIds && folioIds.length > 0) {
             row['RESULTADO_AUDITORIA'] = "OK";
+            row['PHOTOS'] = cached.photos;
+            row['_folderId'] = folioIds[0];
             return;
         }
 
         const resultado = await auditarFotos(drive, folioIds);
-        row['RESULTADO_AUDITORIA'] = resultado;
+        row['RESULTADO_AUDITORIA'] = resultado.status;
+        row['PHOTOS'] = resultado.photos;
 
-        if (resultado === "OK" && folioIds && folioIds.length > 0) {
-            auditCache[cacheKey] = "OK";
+        if (resultado.status === "OK" && folioIds && folioIds.length > 0) {
+            auditCache[cacheKey] = resultado;
         }
 
         auditadosNuevos++;
+        completados++;
+        
+        if (completados % 250 === 0 || completados === df.length) {
+            const porcentaje = ((completados / df.length) * 100).toFixed(1);
+            console.log(`  [Progreso] ${config.name}: ${completados} / ${df.length} folios auditados (${porcentaje}%)`);
+        }
+        
+        row['_folderId'] = folioIds && folioIds.length > 0 ? folioIds[0] : null;
     }));
 
     await Promise.all(auditTasks);
@@ -310,7 +336,7 @@ async function main() {
             const st = r.RESULTADO_AUDITORIA || "SIN CARPETA";
             summaryRow[st]++;
 
-            if (st !== "OK") {
+            if (true) { // Incluir TODOS para que el visualizador pueda operarse en "Completos"
                 pendientes.push({
                     FOLIO: r.FOLIO,
                     RESULTADO_AUDITORIA: st,
@@ -318,7 +344,9 @@ async function main() {
                     COLONIA: r.COLONIA,
                     DELEGACION: r.DELEGACION,
                     _company: emp,
-                    _stage: stage
+                    _stage: stage,
+                    _folderId: r._folderId,
+                    PHOTOS: r.PHOTOS
                 });
             }
         });
