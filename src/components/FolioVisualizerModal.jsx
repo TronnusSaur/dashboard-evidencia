@@ -1,8 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw } from 'lucide-react';
+import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key } from 'lucide-react';
+import { useGoogleLogin } from '@react-oauth/google';
 
-const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying }) => {
+const SHEET_MAP = {
+    "E1": '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
+    "E2": '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
+    "E3": '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
+};
+
+const PATRONES = {
+    "INICIAL": ["_inicial"],
+    "CAJA": ["_caja"],
+    "FINAL": ["_terminado"]
+};
+
+// 100% Serverless / Stateles: The Browser talks directly to Google APIs!
+const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet }) => {
     const [isImageLoading, setIsImageLoading] = useState(true);
     const [isDragging, setIsDragging] = useState(false);
     const [isUploading, setIsUploading] = useState(false);
@@ -28,10 +42,67 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         setIsDragging(false);
     };
 
+    const uploadToGoogleDrive = async (file) => {
+        return new Promise((resolve, reject) => {
+            const boundary = '-------314159265358979323846';
+            const delimiter = "\r\n--" + boundary + "\r\n";
+            const close_delim = "\r\n--" + boundary + "--";
+
+            let typeStr = internalCategoryName.toLowerCase();
+            if (typeStr === 'final') typeStr = 'terminado';
+            
+            // Extract extension
+            const extension = file.name.substring(file.name.lastIndexOf('.')) || '.jpg';
+            const fileName = `${folio}_${typeStr}${extension}`;
+
+            const metadata = {
+                name: fileName,
+                parents: [folderId]
+            };
+
+            const reader = new FileReader();
+            reader.readAsDataURL(file); // This natively produces base64 mapping
+            reader.onload = async function() {
+                const base64Data = reader.result.split('base64,')[1];
+                const multipartRequestBody =
+                    delimiter +
+                    'Content-Type: application/json\r\n\r\n' +
+                    JSON.stringify(metadata) +
+                    delimiter +
+                    'Content-Type: ' + file.type + '\r\n' +
+                    'Content-Transfer-Encoding: base64\r\n\r\n' +
+                    base64Data +
+                    close_delim;
+
+                try {
+                    const res = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&supportsAllDrives=true&fields=id,webViewLink,thumbnailLink', {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': 'Bearer ' + accessToken,
+                            'Content-Type': 'multipart/related; boundary=' + boundary
+                        },
+                        body: multipartRequestBody
+                    });
+                    
+                    if (!res.ok) throw new Error(await res.text());
+                    const data = await res.json();
+                    resolve(data);
+                } catch(e) {
+                    reject(e);
+                }
+            };
+            reader.onerror = () => reject(new Error('Failed to read file'));
+        });
+    };
+
     const handleDrop = async (e) => {
         e.preventDefault();
         setIsDragging(false);
         if(stableImageSrc || isUploading || isDeleting || isVerifying) return;
+        if (!accessToken) {
+            alert('Debes Iniciar Sesión con Google primero (botón arriba).');
+            return;
+        }
 
         const file = e.dataTransfer.files[0];
         if (!file || !file.type.startsWith('image/')) return;
@@ -41,55 +112,44 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         }
 
         setIsUploading(true);
-        const formData = new FormData();
-        formData.append('file', file);
-        formData.append('folio', folio);
-        formData.append('type', internalCategoryName);
-        formData.append('folderId', folderId);
-        formData.append('stage', stage || 'E2');
-        formData.append('user', 'Dashboard Admin');
 
         try {
-            const res = await fetch('http://localhost:3001/api/upload', {
-                method: 'POST',
-                body: formData
-            });
-            const data = await res.json();
-            if (data.success) {
-                setIsImageLoading(true);
-                if (onActionSuccess) onActionSuccess();
-            } else if (data.requiresAuth || data.error === 'NO_TOKEN') {
-                alert('Falta autenticación OAuth2. Se abrirá una pestaña para que autorices a la aplicación.');
-                window.open(data.authUrl || 'http://localhost:3001/auth', '_blank');
-            } else {
-                alert(`Error al subir: ${data.error}`);
-            }
+            const uploadedData = await uploadToGoogleDrive(file);
+            console.log(`✅ ¡Éxito! Archivo subido directo a Drive con ID: ${uploadedData.id}`);
+            
+            // Log to spreadsheet directly from browser!
+            await logToSheet('SUBIDA', folio, internalCategoryName, uploadedData.id);
+
+            setIsImageLoading(true);
+            if (onActionSuccess) onActionSuccess();
         } catch (err) {
-            alert(`Error de conexión con el Micro-Servidor: ${err.message}`);
+            alert(`Error de red con Google Drive API: ${err.message}`);
         }
         setIsUploading(false);
     };
 
     const handleDelete = async () => {
+        if (!accessToken) {
+            alert('Debes Iniciar Sesión con Google primero (botón arriba).');
+            return;
+        }
         if (!confirm(`¿Estás seguro de que quieres eliminar la evidencia ${title} de Google Drive?`)) return;
+        
         setIsDeleting(true);
         try {
-            const res = await fetch('http://localhost:3001/api/delete-evidence', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ folderId, type: internalCategoryName, folio, stage: stage || 'E2', user: 'Dashboard Admin' })
+            const res = await fetch(`https://www.googleapis.com/drive/v3/files/${driveId}?supportsAllDrives=true`, {
+                method: 'DELETE',
+                headers: { 'Authorization': 'Bearer ' + accessToken }
             });
-            const data = await res.json();
-            if (data.success) {
-                if (onActionSuccess) onActionSuccess();
-            } else if (data.requiresAuth || data.error === 'NO_TOKEN') {
-                alert('Falta autenticación OAuth2. Visita http://localhost:3001/auth');
-                window.open('http://localhost:3001/auth', '_blank');
-            } else {
-                alert(`Error al eliminar: ${data.error}`);
-            }
+            
+            if (!res.ok) throw new Error(await res.text());
+            
+            console.log(`🗑️ Eliminada evidencia de Drive directo: ${driveId}`);
+            await logToSheet('ELIMINACIÓN', folio, internalCategoryName, driveId);
+
+            if (onActionSuccess) onActionSuccess();
         } catch (err) {
-            alert(`Error de conexión con el Micro-Servidor: ${err.message}`);
+            alert(`Error de comunicación directa con Google Drive: ${err.message}`);
         }
         setIsDeleting(false);
     };
@@ -133,7 +193,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                 <div className="flex gap-2">
                     <button
                         onClick={handleDelete}
-                        disabled={isDeleting || isVerifying}
+                        disabled={isDeleting || isVerifying || !accessToken}
                         className="p-1.5 bg-red-50 dark:bg-red-900/30 hover:bg-red-100 dark:hover:bg-red-900/50 rounded-lg text-red-500 dark:text-red-400 shadow-sm transition-colors disabled:opacity-50"
                         title="Eliminar de Drive"
                     >
@@ -184,30 +244,104 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
 export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFolioSync }) {
     const [isVerifying, setIsVerifying] = useState(false);
+    const [accessToken, setAccessToken] = useState(() => localStorage.getItem('drive_access_token'));
     
-    // We want to fetch truth immediately on open
     const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage } = folioData || {};
+
+    const login = useGoogleLogin({
+        onSuccess: (tokenResponse) => {
+            setAccessToken(tokenResponse.access_token);
+            localStorage.setItem('drive_access_token', tokenResponse.access_token);
+        },
+        scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/spreadsheets'
+    });
 
     const triggerVerification = async () => {
         if (!_folderId) return;
+        if (!accessToken) {
+            console.log("No auth token, bypassing direct live verification");
+            return;
+        }
+
         setIsVerifying(true);
         try {
-            const res = await fetch(`http://localhost:3001/api/verify-folio?folderId=${_folderId}`);
-            const data = await res.json();
-            if (data.success) {
-                if (onFolioSync) onFolioSync(FOLIO, data.photos, data.status);
+            const query = encodeURIComponent(`'${_folderId}' in parents and trashed = false`);
+            const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
+            const driveRes = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
+            
+            if (driveRes.status === 401) {
+                // Token expired!
+                setAccessToken(null);
+                localStorage.removeItem('drive_access_token');
+                throw new Error("Token expirado, vuelve a conectar Tu Google.");
             }
+            if (!driveRes.ok) throw new Error(await driveRes.text());
+
+            const resData = await driveRes.json();
+            const files = resData.files || [];
+            
+            const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
+            let status = "OK";
+            if (files.length === 0) {
+                status = "CARPETA VACÍA";
+            } else {
+                const encontradas = new Set();
+                for (const f of files) {
+                    for (const [cat, patrones] of Object.entries(PATRONES)) {
+                        if (patrones.some(p => f.name.toLowerCase().includes(p))) {
+                            encontradas.add(cat);
+                            if (!photosMap[cat]) {
+                                photosMap[cat] = {
+                                    id: f.id,
+                                    thumbnail: f.thumbnailLink,
+                                    view: f.webViewLink
+                                };
+                            }
+                        }
+                    }
+                }
+                const reqs = ["INICIAL", "CAJA", "FINAL"];
+                const faltantes = reqs.filter(r => !encontradas.has(r));
+                if (faltantes.length > 0) {
+                    status = "FALTA: " + faltantes.join(" + ");
+                }
+            }
+
+            if (onFolioSync) onFolioSync(FOLIO, photosMap, status);
         } catch (error) {
-            console.error(error);
+            console.error("Verification error:", error);
         }
         setIsVerifying(false);
     };
 
+    const logToSheet = async (action, folio, type, fileId) => {
+        if (!accessToken) return;
+        const spreadsheetId = SHEET_MAP['E2'];
+        const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' });
+        const range = encodeURIComponent("'Historial de Actividades'!A:F");
+        
+        try {
+            await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}:append?valueInputOption=USER_ENTERED`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': 'Bearer ' + accessToken,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    values: [[dateStr, folio, 'Administrador Vercel', action, type, fileId]]
+                })
+            });
+            console.log(`[Log Registrado] ${action} en Folio ${folio}`);
+        } catch(e) {
+            console.error("Fallo al escribir en log google sheets:", e);
+        }
+    };
+
     useEffect(() => {
-        if (isOpen && _folderId) {
+        if (isOpen && _folderId && accessToken) {
             triggerVerification();
         }
-    }, [isOpen, _folderId]);
+    }, [isOpen, _folderId, accessToken]);
 
     if (!isOpen || !folioData) return null;
 
@@ -251,20 +385,35 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 {CALLE || 'Calle No Especificada'}, {COLONIA || 'Colonia No Especificada'}
                             </p>
                         </div>
-                        <button 
-                            onClick={onClose}
-                            className="p-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-full transition-colors text-slate-600 dark:text-slate-300"
-                        >
-                            <X size={24} />
-                        </button>
+                        
+                        <div className="flex items-center gap-4">
+                            {!accessToken ? (
+                                <button 
+                                    onClick={() => login()}
+                                    className="flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary/90 text-white rounded-xl font-bold shadow-md transition-colors text-sm"
+                                >
+                                    <Key size={16}/> Connect Google (Administrador)
+                                </button>
+                            ) : (
+                                <span className="text-xs font-bold text-green-600 bg-green-50 px-3 py-1.5 rounded-full flex items-center gap-2 border border-green-200 shadow-sm">
+                                    <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div> Cuenta Autorizada
+                                </span>
+                            )}
+                            <button 
+                                onClick={onClose}
+                                className="p-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-full transition-colors text-slate-600 dark:text-slate-300"
+                            >
+                                <X size={24} />
+                            </button>
+                        </div>
                     </div>
 
                     {/* Content */}
                     <div className="p-6 overflow-y-auto">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <PhotoCard title="Inicial (Bache)" photoObj={PHOTOS?.INICIAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="INICIAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} />
-                            <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} />
-                            <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} />
+                            <PhotoCard title="Inicial (Bache)" photoObj={PHOTOS?.INICIAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="INICIAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
+                            <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
+                            <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
                         </div>
                     </div>
                 </motion.div>
