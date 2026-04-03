@@ -1,0 +1,14 @@
+﻿git : To https://github.com/TronnusSaur
+/dashboard-evidencia.git
+En línea: 1 Carácter: 1
++ git push origin main --force 2>&1 | 
+Out-File -Encoding utf8 final_pus ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (To https://gith...d-evidenc  
+  ia.git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+ + 9a669e3...075e5d7 main -> main 
+(forced update)

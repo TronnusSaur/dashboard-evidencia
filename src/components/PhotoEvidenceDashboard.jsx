@@ -123,12 +123,14 @@ const PhotoEvidenceDashboard = () => {
             filtered = filtered.filter(r => r.DELEGACION === selectedDelegation);
         }
 
-        if (!showOkFolios) {
+        // Search bypass: if searching, we don't apply the OK filter here
+        // so that search can actually find them.
+        if (!showOkFolios && searchQuery.trim() === '') {
             filtered = filtered.filter(r => r.RESULTADO_AUDITORIA !== 'OK');
         }
 
         return filtered;
-    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation, showOkFolios]);
+    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation, showOkFolios, searchQuery]);
 
     const kpiData = useMemo(() => {
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0, ok = 0;
@@ -259,30 +261,17 @@ const PhotoEvidenceDashboard = () => {
             let allRecords = [];
 
             try {
-                // We always fetch all records for the selected stage(s) to allow independent filtering
-                // and ensure the global PDF has all company data.
                 const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2', 'E3'] : [selectedStage];
-                const promises = [];
-
-                stagesToFetch.forEach(st => {
-                    const stageSummary = RESUMEN_DATA.filter(r => r._stage === st);
-                    stageSummary.forEach(contractInfo => {
-                        promises.push(
-                            fetch(`/contratos/${st}_${contractInfo.EMPRESA_RAIZ_MASTER}_${contractInfo.ID}.json`)
-                                .then(res => res.ok ? res.json().then(data => data.map(item => ({
-                                    ...item,
-                                    _company: contractInfo.EMPRESA_RAIZ_MASTER,
-                                    _contract: contractInfo.ID,
-                                    _stage: st
-                                }))) : [])
-                        );
-                    });
-                });
+                const promises = stagesToFetch.map(st => 
+                    fetch(`/contratos/${st}_Master.json`)
+                        .then(res => res.ok ? res.json() : [])
+                        .catch(() => [])
+                );
 
                 const results = await Promise.all(promises);
                 let allRecords = results.flat();
                 
-                // Inject Optimistic UI Cache
+                // Inject Optimistic UI Cache (Preserve existing logic)
                 try {
                     const optimisticStoreStr = localStorage.getItem('optimistic_folios');
                     if (optimisticStoreStr) {

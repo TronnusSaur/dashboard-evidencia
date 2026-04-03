@@ -17,10 +17,7 @@ const PATRONES = {
 
 // 100% Serverless / Stateles: The Browser talks directly to Google APIs!
 const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet }) => {
-    const [isImageLoading, setIsImageLoading] = useState(true);
-    const [isDragging, setIsDragging] = useState(false);
-    const [isUploading, setIsUploading] = useState(false);
-    const [isDeleting, setIsDeleting] = useState(false);
+    const [blobUrl, setBlobUrl] = useState(null);
 
     const getDriveId = (url) => {
         const match = url?.match(/\/d\/([a-zA-Z0-9_-]+)/);
@@ -29,12 +26,46 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
     const driveId = photoObj?.id || getDriveId(photoObj?.view);
     const stableImageSrc = driveId 
-        ? `https://drive.google.com/thumbnail?id=${driveId}&sz=w800` 
+        ? `https://www.googleapis.com/drive/v3/files/${driveId}?alt=media` 
         : (photoObj?.thumbnail ? photoObj.thumbnail.replace('=s220', '=s800') : '');
+
+    // Fetch image with Bearer token to show private Drive files
+    useEffect(() => {
+        if (!driveId || !accessToken) {
+            setBlobUrl(stableImageSrc);
+            return;
+        }
+
+        let isMounted = true;
+        const fetchImage = async () => {
+            setIsImageLoading(true);
+            try {
+                const response = await fetch(stableImageSrc, {
+                    headers: { 'Authorization': `Bearer ${accessToken}` }
+                });
+                if (response.ok) {
+                    const blob = await response.blob();
+                    if (isMounted) setBlobUrl(URL.createObjectURL(blob));
+                } else {
+                    // Fallback to public thumbnail if direct fetch fails (e.g. CORS or permission)
+                    if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+                }
+            } catch (err) {
+                console.error("Error fetching private image:", err);
+                if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+            }
+        };
+
+        fetchImage();
+        return () => { 
+            isMounted = false; 
+            if (blobUrl && blobUrl.startsWith('blob:')) URL.revokeObjectURL(blobUrl); 
+        };
+    }, [driveId, accessToken]);
 
     const handleDragOver = (e) => {
         e.preventDefault();
-        if(!stableImageSrc) setIsDragging(true);
+        if(!driveId) setIsDragging(true);
     };
 
     const handleDragLeave = (e) => {
@@ -154,7 +185,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         setIsDeleting(false);
     };
 
-    if (!stableImageSrc) {
+    if (!driveId) {
         return (
             <div 
                 onDragOver={handleDragOver}
@@ -224,7 +255,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                     </div>
                 )}
                 <img 
-                    src={stableImageSrc} 
+                    src={blobUrl} 
                     alt={`Evidencia ${title}`}
                     referrerPolicy="no-referrer"
                     className={`w-full h-full object-cover transition-opacity duration-500 relative z-10 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
