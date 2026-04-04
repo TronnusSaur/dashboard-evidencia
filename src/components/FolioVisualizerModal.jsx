@@ -15,9 +15,14 @@ const PATRONES = {
     "FINAL": ["_terminado"]
 };
 
-// 100% Serverless / Stateles: The Browser talks directly to Google APIs!
+// 100% Serverless / Stateless: The Browser talks directly to Google APIs!
 const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet }) => {
     const [blobUrl, setBlobUrl] = useState(null);
+    const [isImageLoading, setIsImageLoading] = useState(true);
+    const [isDragging, setIsDragging] = useState(false);
+    const [isUploading, setIsUploading] = useState(false);
+    const [isDeleting, setIsDeleting] = useState(false);
+    const [tokenExpired, setTokenExpired] = useState(false);
 
     const getDriveId = (url) => {
         const match = url?.match(/\/d\/([a-zA-Z0-9_-]+)/);
@@ -31,23 +36,47 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
     // Fetch image with Bearer token to show private Drive files
     useEffect(() => {
-        if (!driveId || !accessToken) {
-            setBlobUrl(stableImageSrc);
+        // Reset state on each image change
+        setTokenExpired(false);
+        setBlobUrl(null);
+
+        if (!driveId) {
+            setIsImageLoading(false);
+            return;
+        }
+
+        if (!accessToken) {
+            // No token: try the public thumbnail as fallback
+            setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+            setIsImageLoading(true);
             return;
         }
 
         let isMounted = true;
+        setIsImageLoading(true);
+
         const fetchImage = async () => {
-            setIsImageLoading(true);
             try {
                 const response = await fetch(stableImageSrc, {
                     headers: { 'Authorization': `Bearer ${accessToken}` }
                 });
+
+                if (response.status === 401) {
+                    // Token has expired — show a clear message instead of a broken image
+                    if (isMounted) {
+                        setTokenExpired(true);
+                        setIsImageLoading(false);
+                    }
+                    return;
+                }
+
                 if (response.ok) {
                     const blob = await response.blob();
-                    if (isMounted) setBlobUrl(URL.createObjectURL(blob));
+                    if (isMounted) {
+                        setBlobUrl(URL.createObjectURL(blob));
+                    }
                 } else {
-                    // Fallback to public thumbnail if direct fetch fails (e.g. CORS or permission)
+                    // Other errors: fallback to public thumbnail
                     if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
                 }
             } catch (err) {
@@ -65,7 +94,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
     const handleDragOver = (e) => {
         e.preventDefault();
-        if(!driveId) setIsDragging(true);
+        if (!driveId) setIsDragging(true);
     };
 
     const handleDragLeave = (e) => {
@@ -92,7 +121,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
             };
 
             const reader = new FileReader();
-            reader.readAsDataURL(file); // This natively produces base64 mapping
+            reader.readAsDataURL(file);
             reader.onload = async function() {
                 const base64Data = reader.result.split('base64,')[1];
                 const multipartRequestBody =
@@ -129,7 +158,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
     const handleDrop = async (e) => {
         e.preventDefault();
         setIsDragging(false);
-        if(stableImageSrc || isUploading || isDeleting || isVerifying) return;
+        if (stableImageSrc || isUploading || isDeleting || isVerifying) return;
         if (!accessToken) {
             alert('Debes Iniciar Sesión con Google primero (botón arriba).');
             return;
@@ -248,7 +277,18 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                         <Loader2 className="w-10 h-10 text-white animate-spin" />
                     </div>
                 )}
-                {isImageLoading && (
+
+                {/* Token expired overlay */}
+                {tokenExpired && (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center bg-amber-50 dark:bg-amber-900/20 z-10 gap-3 p-4">
+                        <AlertTriangle className="w-10 h-10 text-amber-500" strokeWidth={1.5}/>
+                        <p className="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase text-center tracking-wide">
+                            Sesión expirada. Vuelve a conectar tu Google.
+                        </p>
+                    </div>
+                )}
+
+                {isImageLoading && !tokenExpired && (
                     <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-100 dark:bg-slate-800 z-0">
                         <Loader2 className="w-8 h-8 text-primary animate-spin mb-2" />
                         <span className="text-xs font-bold text-slate-500 uppercase tracking-widest animate-pulse">Cargando...</span>
@@ -258,7 +298,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                     src={blobUrl} 
                     alt={`Evidencia ${title}`}
                     referrerPolicy="no-referrer"
-                    className={`w-full h-full object-cover transition-opacity duration-500 relative z-10 ${isImageLoading ? 'opacity-0' : 'opacity-100'}`}
+                    className={`w-full h-full object-cover transition-opacity duration-500 relative z-10 ${isImageLoading || tokenExpired ? 'opacity-0' : 'opacity-100'}`}
                     onLoad={() => setIsImageLoading(false)}
                     onError={(e) => { 
                         setIsImageLoading(false);

@@ -44,6 +44,10 @@ ERROR_TYPES.forEach(type => {
     }
 });
 
+// Module-level cache: persists across renders and stage switches without losing data.
+// Key = stage string (e.g. 'E1'), Value = array of record objects.
+const stageCache = {};
+
 const PhotoEvidenceDashboard = () => {
     const [selectedStage, setSelectedStage] = useState('E2'); // Default to Stage 2
     const [selectedCompany, setSelectedCompany] = useState('ALL');
@@ -54,6 +58,7 @@ const PhotoEvidenceDashboard = () => {
     const [selectedVisualizerFolio, setSelectedVisualizerFolio] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [showOkFolios, setShowOkFolios] = useState(false);
+    const [loadingMessage, setLoadingMessage] = useState('');
 
     // Filter RESUMEN_DATA by stage
     const activeResumen = useMemo(() => {
@@ -123,14 +128,10 @@ const PhotoEvidenceDashboard = () => {
             filtered = filtered.filter(r => r.DELEGACION === selectedDelegation);
         }
 
-        // Search bypass: if searching, we don't apply the OK filter here
-        // so that search can actually find them.
-        if (!showOkFolios && searchQuery.trim() === '') {
-            filtered = filtered.filter(r => r.RESULTADO_AUDITORIA !== 'OK');
-        }
-
+        // NOTE: OK filter is intentionally NOT applied here.
+        // It is applied in tableData so that search queries can still find OK folios.
         return filtered;
-    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation, showOkFolios, searchQuery]);
+    }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation]);
 
     const kpiData = useMemo(() => {
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0, ok = 0;
@@ -257,19 +258,33 @@ const PhotoEvidenceDashboard = () => {
     // Lazy Loading Effect
     useEffect(() => {
         const fetchRecords = async () => {
+            const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2', 'E3'] : [selectedStage];
+
+            // Check if ALL required stages are already in the module-level cache.
+            const allCached = stagesToFetch.every(st => stageCache[st]);
+            if (allCached) {
+                const cachedRecords = stagesToFetch.flatMap(st => stageCache[st]);
+                setRecords(cachedRecords);
+                return; // Skip fetch entirely — instant switch!
+            }
+
+            // Only fetch stages not yet cached.
+            const stagesToDownload = stagesToFetch.filter(st => !stageCache[st]);
             setIsLoading(true);
-            let allRecords = [];
+            setLoadingMessage(`Descargando datos de ${stagesToDownload.map(s => `Etapa ${s.slice(1)}`).join(' y ')}...`);
 
             try {
-                const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2', 'E3'] : [selectedStage];
-                const promises = stagesToFetch.map(st => 
+                const downloadPromises = stagesToDownload.map(st =>
                     fetch(`/contratos/${st}_Master.json`)
                         .then(res => res.ok ? res.json() : [])
-                        .catch(() => [])
+                        .then(data => { stageCache[st] = data; return data; }) // store in cache
+                        .catch(() => { stageCache[st] = []; return []; })
                 );
 
-                const results = await Promise.all(promises);
-                let allRecords = results.flat();
+                await Promise.all(downloadPromises);
+
+                // Now assemble all records from cache (includes just-downloaded + previously cached)
+                let allRecords = stagesToFetch.flatMap(st => stageCache[st] || []);
                 
                 // Inject Optimistic UI Cache (Preserve existing logic)
                 try {
@@ -295,30 +310,35 @@ const PhotoEvidenceDashboard = () => {
                 setRecords([]);
             } finally {
                 setIsLoading(false);
+                setLoadingMessage('');
             }
         };
 
         fetchRecords();
-    }, [selectedStage]); // Only depend on selectedStage to avoid re-fetching on every filter change
+    }, [selectedStage]); // Only depend on selectedStage to avoid re-fetching on filter change
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
         let docs = filteredRecords;
         
         if (searchQuery.trim() !== '') {
-            // override the OK filter
-            docs = docs.filter(r => r.FOLIO && String(r.FOLIO).includes(searchQuery.trim()));
+            // When searching, bypass ALL status filters (including OK) so the user
+            // always finds what they're looking for regardless of toggle state.
+            const q = searchQuery.trim().toLowerCase();
+            docs = docs.filter(r => r.FOLIO && String(r.FOLIO).toLowerCase().includes(q));
         } else {
-            // Filter out records mapped to null (e.g., 'OK')
-            docs = docs.filter(r => MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA] !== null);
+            // When not searching, apply the OK visibility toggle.
+            if (!showOkFolios) {
+                docs = docs.filter(r => r.RESULTADO_AUDITORIA !== 'OK');
+            }
 
-            // Apply Error Type Filter based on CONDENSED group
+            // Apply Error Type Filter based on CONDENSED group (only for non-OK records)
             if (selectedErrorTypes.length > 0) {
                 docs = docs.filter(r => selectedErrorTypes.includes(MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA]));
             }
         }
         return docs;
-    }, [filteredRecords, selectedErrorTypes, searchQuery]);
+    }, [filteredRecords, selectedErrorTypes, searchQuery, showOkFolios]);
 
     // PDF Export Function
     const exportToPDF = () => {
@@ -874,7 +894,12 @@ const PhotoEvidenceDashboard = () => {
                             {isLoading ? (
                                 <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4 h-full">
                                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-                                    <p className="text-sm font-bold uppercase tracking-widest text-primary">Cargando folios...</p>
+                                    <p className="text-sm font-bold uppercase tracking-widest text-primary">
+                                        {loadingMessage || 'Cargando folios...'}
+                                    </p>
+                                    <p className="text-xs text-slate-400 max-w-xs text-center">
+                                        Los siguientes cambios de etapa serán instantáneos gracias a la caché.
+                                    </p>
                                 </div>
                             ) : tableData.length > 0 ? (
                                 <table className="w-full text-left">
