@@ -13,13 +13,13 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 172,
-  "OK": 37923,
+  "OK": 38033,
   "FALTA: CAJA + FINAL": 676,
   "CARPETA VACÍA": 435,
-  "SIN CARPETA": 509,
+  "SIN CARPETA": 639,
   "FALTA: CAJA": 109,
   "FALTA: INICIAL + CAJA + FINAL": 40,
-  "FALTA: FINAL": 103,
+  "FALTA: FINAL": 106,
   "FALTA: INICIAL + CAJA": 28,
   "FALTA: INICIAL + FINAL": 6
 };
@@ -1657,70 +1657,6 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + FINAL": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "SAQEB",
-    "ID": "20",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 54,
-    "OK": 31,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 23,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 0
-  },
-  {
-    "EMPRESA_RAIZ_MASTER": "EDITUM",
-    "ID": "22",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 52,
-    "OK": 52,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 0
-  },
-  {
-    "EMPRESA_RAIZ_MASTER": "ARKA",
-    "ID": "23",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 31,
-    "OK": 0,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 31,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 0
-  },
-  {
-    "EMPRESA_RAIZ_MASTER": "TORRE",
-    "ID": "24",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 2,
-    "OK": 0,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 2,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 0
-  },
-  {
     "EMPRESA_RAIZ_MASTER": "TORRE",
     "ID": "26",
     "_stage": "E3",
@@ -1981,11 +1917,75 @@ export const RESUMEN_DATA = [
     "ID": "19",
     "_stage": "E3",
     "TOTAL_OMISIONES": 23,
+    "OK": 23,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "SAQEB",
+    "ID": "20",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 65,
+    "OK": 62,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 3,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "EDITUM",
+    "ID": "22",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 88,
+    "OK": 52,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 36,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "ARKA",
+    "ID": "23",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 173,
     "OK": 0,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 23,
+    "SIN CARPETA": 173,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "TORRE",
+    "ID": "24",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 56,
+    "OK": 56,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
@@ -2138,15 +2138,9 @@ export const FILTERS_MAP = {
     "16",
     "19"
   ],
-  "EDITUM": [
-    "22"
-  ],
-  "ARKA": [
-    "23"
-  ],
   "TORRE": [
-    "24",
-    "26"
+    "26",
+    "24"
   ],
   "MONROY": [
     "28"
@@ -2165,5 +2159,11 @@ export const FILTERS_MAP = {
   "INTEGRA": [
     "46",
     "47"
+  ],
+  "EDITUM": [
+    "22"
+  ],
+  "ARKA": [
+    "23"
   ]
 };
