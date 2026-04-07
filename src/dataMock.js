@@ -13,10 +13,10 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 172,
-  "OK": 38033,
-  "FALTA: CAJA + FINAL": 677,
+  "OK": 38047,
+  "FALTA: CAJA + FINAL": 678,
   "CARPETA VACÍA": 435,
-  "SIN CARPETA": 990,
+  "SIN CARPETA": 1452,
   "FALTA: CAJA": 109,
   "FALTA: INICIAL + CAJA + FINAL": 40,
   "FALTA: FINAL": 106,
@@ -1884,12 +1884,12 @@ export const RESUMEN_DATA = [
     "EMPRESA_RAIZ_MASTER": "SHAYE",
     "ID": "32",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 39,
+    "TOTAL_OMISIONES": 94,
     "OK": 39,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
+    "SIN CARPETA": 55,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
@@ -1897,16 +1897,16 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + FINAL": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "KANARE",
-    "ID": "38",
+    "EMPRESA_RAIZ_MASTER": "SHAYE",
+    "ID": "33",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 33,
-    "OK": 26,
+    "TOTAL_OMISIONES": 153,
+    "OK": 0,
     "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 4,
+    "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 3,
+    "SIN CARPETA": 153,
+    "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
@@ -1916,12 +1916,12 @@ export const RESUMEN_DATA = [
     "EMPRESA_RAIZ_MASTER": "EDIT",
     "ID": "39",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 73,
+    "TOTAL_OMISIONES": 134,
     "OK": 73,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
+    "SIN CARPETA": 61,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
     "FALTA: FINAL": 0,
@@ -2039,6 +2039,54 @@ export const RESUMEN_DATA = [
     "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "MONROY",
+    "ID": "34",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 132,
+    "OK": 0,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 132,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "KANARE",
+    "ID": "36",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 56,
+    "OK": 14,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 42,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "KANARE",
+    "ID": "38",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 53,
+    "OK": 26,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + FINAL": 5,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 19,
+    "FALTA: CAJA": 3,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + FINAL": 0
   }
 ];
 export const FILTERS_MAP = {
@@ -2128,7 +2176,8 @@ export const FILTERS_MAP = {
   "SHAYE": [
     "65",
     "70",
-    "32"
+    "32",
+    "33"
   ],
   "TAYCAR": [
     "14"
@@ -2204,14 +2253,12 @@ export const FILTERS_MAP = {
     "25"
   ],
   "MONROY": [
-    "28"
+    "28",
+    "34"
   ],
   "SERVIESTRUCT": [
     "29",
     "30"
-  ],
-  "KANARE": [
-    "38"
   ],
   "TERRA": [
     "44",
@@ -2220,5 +2267,9 @@ export const FILTERS_MAP = {
   "INTEGRA": [
     "46",
     "47"
+  ],
+  "KANARE": [
+    "36",
+    "38"
   ]
 };
