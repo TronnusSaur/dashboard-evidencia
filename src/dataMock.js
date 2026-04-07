@@ -16,7 +16,7 @@ export const GLOBAL_TOTALS = {
   "OK": 38033,
   "FALTA: CAJA + FINAL": 676,
   "CARPETA VACÍA": 435,
-  "SIN CARPETA": 639,
+  "SIN CARPETA": 466,
   "FALTA: CAJA": 109,
   "FALTA: INICIAL + CAJA + FINAL": 40,
   "FALTA: FINAL": 106,
@@ -1961,22 +1961,6 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + FINAL": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ARKA",
-    "ID": "23",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 173,
-    "OK": 0,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + FINAL": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 173,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 0
-  },
-  {
     "EMPRESA_RAIZ_MASTER": "TORRE",
     "ID": "24",
     "_stage": "E3",
@@ -2162,8 +2146,5 @@ export const FILTERS_MAP = {
   ],
   "EDITUM": [
     "22"
-  ],
-  "ARKA": [
-    "23"
   ]
 };
