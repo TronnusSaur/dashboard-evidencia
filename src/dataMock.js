@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 258,
-  "OK": 39410,
-  "FALTA: CAJA + FINAL": 687,
+  "FALTA: INICIAL": 245,
+  "OK": 39440,
+  "FALTA: CAJA + FINAL": 688,
   "CARPETA VACÍA": 429,
-  "SIN CARPETA": 424,
+  "SIN CARPETA": 407,
   "FALTA: CAJA": 119,
-  "FALTA: INICIAL + CAJA + FINAL": 48,
-  "FALTA: FINAL": 113,
+  "FALTA: INICIAL + CAJA + FINAL": 47,
+  "FALTA: FINAL": 119,
   "FALTA: INICIAL + CAJA": 39,
-  "FALTA: INICIAL + FINAL": 12
+  "FALTA: INICIAL + FINAL": 6
 };
 export const RESUMEN_DATA = [
   {
@@ -1837,14 +1837,14 @@ export const RESUMEN_DATA = [
     "ID": "29",
     "_stage": "E3",
     "TOTAL_OMISIONES": 22,
-    "OK": 19,
+    "OK": 20,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 1,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 1,
+    "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
@@ -1869,16 +1869,16 @@ export const RESUMEN_DATA = [
     "ID": "31",
     "_stage": "E3",
     "TOTAL_OMISIONES": 63,
-    "OK": 25,
-    "FALTA: INICIAL": 13,
-    "FALTA: CAJA + FINAL": 0,
+    "OK": 52,
+    "FALTA: INICIAL": 1,
+    "FALTA: CAJA + FINAL": 1,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 18,
+    "SIN CARPETA": 1,
     "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + FINAL": 1,
-    "FALTA: FINAL": 0,
+    "FALTA: INICIAL + CAJA + FINAL": 0,
+    "FALTA: FINAL": 8,
     "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 6
+    "FALTA: INICIAL + FINAL": 0
   },
   {
     "EMPRESA_RAIZ_MASTER": "SHAYE",
@@ -1917,14 +1917,14 @@ export const RESUMEN_DATA = [
     "ID": "34",
     "_stage": "E3",
     "TOTAL_OMISIONES": 132,
-    "OK": 129,
-    "FALTA: INICIAL": 2,
+    "OK": 131,
+    "FALTA: INICIAL": 1,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 1,
+    "FALTA: FINAL": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
