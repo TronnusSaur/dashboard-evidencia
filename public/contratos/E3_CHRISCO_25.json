@@ -865,7 +865,7 @@
   },
   {
     "FOLIO": "250037",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SAN BUENAVENTURA",
@@ -873,13 +873,16 @@
     "_stage": "E3",
     "_folderId": "17kRosbSqgQ7pU498ja_f4T5zqavu-NSC",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6fBvUQpeFBp48DIVSTtUWteZbfnXGI5bo3-BoVo952AZk3E3WdLK-01FB-4Xm6Ab7rjiFxsjn4AaWr7HzjrnQNA20okqOvJkVxNBWJ_QeyFtc1g=s220",
+        "view": "https://drive.google.com/file/d/1da2hssglWAbjkC-I90zif3XpN6rnGkRH/view?usp=drivesdk"
+      },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPykGiPtVL5XyddHxVdyXEaVzZ21N7sU7nPN0fBQBPwBxGW13d_O7i16FhkDw7NDi9aA6blyo5HcYkWLoQVQ2e4xMKOoebhXwsaqqy9JXvisKEcy_8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOW6RwsH9Dg7GTktDypOtus9xcYPcW8LinfoaWegE3Oihc9nsP9u8UV4cNqYe-c5Bw3uXTi12b7B3wrlLRltB-Nh_6IsvJVREM83bp9EQ9f8cesKg=s220",
         "view": "https://drive.google.com/file/d/1-mOKpvcyq7N64XEviGFgYJoGA1n8jMCO/view?usp=drivesdk"
       },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYsUSnSaKs47oLQcUJCnMEuc5Nrf7kadPP7Uz64-ibirf8WNFzSZlF8Gs2y3BxAH7xhfgzAV2-RmZ5Oj3R-5_LsLLYW8JkQeUMj1RMJgmcV5fyyrU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPSpKN_zeIbRJiVZYt9w2St75o5QdapBVW37LbpQJVyo0TCegnm5rMxk6tLCbWfytFRsJ0IB_jDRARabdDkulIGFB6Qcuias6yT7J-tu6fq0IFPQ=s220",
         "view": "https://drive.google.com/file/d/1Cq7pl6ArzgNN7FxgKkA_mJ5R7ktrVa7n/view?usp=drivesdk"
       }
     }

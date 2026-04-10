@@ -1441,7 +1441,7 @@
   },
   {
     "FOLIO": "280057",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "VÍA LÁCTEA",
     "COLONIA": "GALAXIAS",
     "DELEGACION": "SAN PABLO AUTOPAN",
@@ -1449,13 +1449,16 @@
     "_stage": "E3",
     "_folderId": "1rElKptYUK-tsdl1EkMasOyXhG8FqibqQ",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4ryrndtWLEIMhTjloJo60uZiKi_7-8Orpn9O8x661SzGq1DAnDfwzFJ98b6PNsfFGL4kNgD10WQ2ZLHGnIaY1ohl4IN48hddaVRQef8YNdvNyjQ=s220",
+        "view": "https://drive.google.com/file/d/1B0ig8RGHkpBgwTpJFeH7RFmzowVFz_WR/view?usp=drivesdk"
+      },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbxr84WcVKS7hvKUeiGz2YSsQIK9NZ36e1-UNdjA6Y-dkqCcPM63A5VCLQQ6odGT5CbNGOr2THg0gbCWW5UP4RvSuTGJoTbvAQYWdaNlFFx4Obqao=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_qlaD1ZjPSm_dtPvsTWrhm4_PmsoHAiu68RDUtZgFxfKJdS-gcbJEAFGKR_mpU4ABiGMBA45JsQfjI6s95sxxW_gOnYpW6HCA8ngW4t6VzqzcIA=s220",
         "view": "https://drive.google.com/file/d/1dW67ezDrfNCIMMBZxSS97Re0GNlrtwG4/view?usp=drivesdk"
       },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNafPJahl4jnGis3mMKNRwHZh8Prz8MVp3Lux9EDMYNti3xNIu_ITwzEhVSHeMiz67KDfeOFWrv72d6dz_IuDXRGSiDheUszmlWrXp4NDC5Ydn51Ng=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOU2bq7Nkn1ZvgYZEnR8BdpyjRrIdfNjFoDnkj4wQJJxu0vqD43LCtho8pggTaM9FrpaiQoShUAq1wj41KuIuO2Do3mTexQTBMjUvp3jp_Aymp5mQ=s220",
         "view": "https://drive.google.com/file/d/1LhX76Jq_ORo_vNHPDX10jn1XynOonIm6/view?usp=drivesdk"
       }
     }
