@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + FINAL"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 207,
-  "OK": 44649,
+  "FALTA: INICIAL": 206,
+  "OK": 44695,
   "FALTA: CAJA + FINAL": 669,
   "CARPETA VACÍA": 420,
   "SIN CARPETA": 747,
   "FALTA: CAJA": 137,
-  "FALTA: INICIAL + CAJA + FINAL": 76,
-  "FALTA: FINAL": 214,
+  "FALTA: INICIAL + CAJA + FINAL": 74,
+  "FALTA: FINAL": 174,
   "FALTA: INICIAL + CAJA": 32,
-  "FALTA: INICIAL + FINAL": 16
+  "FALTA: INICIAL + FINAL": 13
 };
 export const RESUMEN_DATA = [
   {
@@ -1757,16 +1757,16 @@ export const RESUMEN_DATA = [
     "ID": "21",
     "_stage": "E3",
     "TOTAL_OMISIONES": 198,
-    "OK": 122,
-    "FALTA: INICIAL": 3,
+    "OK": 164,
+    "FALTA: INICIAL": 2,
     "FALTA: CAJA + FINAL": 5,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 62,
+    "FALTA: FINAL": 24,
     "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + FINAL": 6
+    "FALTA: INICIAL + FINAL": 3
   },
   {
     "EMPRESA_RAIZ_MASTER": "EDITUM",
@@ -1805,14 +1805,14 @@ export const RESUMEN_DATA = [
     "ID": "24",
     "_stage": "E3",
     "TOTAL_OMISIONES": 229,
-    "OK": 215,
+    "OK": 217,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + FINAL": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + FINAL": 0,
-    "FALTA: FINAL": 14,
+    "FALTA: FINAL": 12,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 0
   },
@@ -1837,13 +1837,13 @@ export const RESUMEN_DATA = [
     "ID": "26",
     "_stage": "E3",
     "TOTAL_OMISIONES": 204,
-    "OK": 154,
+    "OK": 156,
     "FALTA: INICIAL": 2,
     "FALTA: CAJA + FINAL": 4,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 2,
-    "FALTA: INICIAL + CAJA + FINAL": 36,
+    "FALTA: INICIAL + CAJA + FINAL": 34,
     "FALTA: FINAL": 4,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + FINAL": 2
