@@ -399,6 +399,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const [renamingId, setRenamingId] = useState(null);
     const [editingFile, setEditingFile] = useState(null);
     
+    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage } = folioData || {};
+
     const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com"];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
 
