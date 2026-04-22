@@ -25,7 +25,7 @@ const STAGES_CONFIG = [
     {
         id: 'E3',
         name: '3 - ETAPA 3 MASTER',
-        driveId: process.env.FOLDER_ID_DRIVE_E3 || '1pYZIkXzvsuwB8bk4l5sUTovmdSrwD9uW',
+        driveId: process.env.FOLDER_ID_DRIVE_E3 || '1EqejY8Bm2c3NvQ0PEOh7DNUEABuJmHMr',
         sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
     }
 ];
