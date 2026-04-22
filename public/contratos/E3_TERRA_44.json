@@ -1465,7 +1465,7 @@
   },
   {
     "FOLIO": "440073",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "",
     "COLONIA": "EL CERRILLO",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -1473,13 +1473,16 @@
     "_stage": "E3",
     "_folderId": "1CX8lPMDVLWWBzYkhkpfErWtFGonjzoQn",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNw8tg2iMZzNt5Y-zeNW7wkfMFp5LX2C9_gR7MnDG5mHToQhe8fL2tWYwzidoHi0zAdJ1c6hgq3LMLC_TmwraKYjsjQqRHUX_Qmu84M_YsB4TUn6Zk=s220",
+        "view": "https://drive.google.com/file/d/1jldWZoWpf6LiKXB_dPrLi7yF0dEZrvge/view?usp=drivesdk"
+      },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4BknYqZCihRqwM10j4s_61eGJTqd0Cn2KDsJlzQ8-b7TYjAwbvAk3s7XvEDyMgq-m-tQ1y0OH9UITHOXVI66ropfOtXm4NEso3BGFHo8EZlJlw0A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9tHy8vr9WQBy0tVSTsciVisEq9SnWOZFcABb-sXl3GwxpjuLOZKnRXCIWj1PkZYZWb52YMrYziKBtJLxAZoVtGIDwYr8OQVDxvkxXtcsfWQ5TwCs=s220",
         "view": "https://drive.google.com/file/d/1BNIqxfG7bolleUP6065AjZVgY5hn1yX0/view?usp=drivesdk"
       },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkr2c6NiGCvXL3ufPJaI2m85rzTc-GjdddnLQLYznelYMdITABuCrqlQHbkQ52E4VHF5d2E3QhGekg68RYcdXa7w4nVwCdxBrG44F4knbpfhuLftc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1U4k5tvrDYsLKqA4OLdgGmDTZL_jugJ-v4FspgQP6STz_7hilBU6pB5hsX9KRh6108W_xzT5o1MHWRc7XFRdnLndfpuvuKBw8wxL-43qHjDkZuT8=s220",
         "view": "https://drive.google.com/file/d/1hKjX8VXVIVP8Lu21Sn4NB-2JwMKGhQ9L/view?usp=drivesdk"
       }
     }
