@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key } from 'lucide-react';
+import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key, Pencil, FolderOpen, Check, FileImage, File as FileIcon } from 'lucide-react';
 import { useGoogleLogin } from '@react-oauth/google';
 
 const SHEET_MAP = {
@@ -316,6 +316,9 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFolioSync }) {
     const [isVerifying, setIsVerifying] = useState(false);
     const [accessToken, setAccessToken] = useState(() => localStorage.getItem('drive_access_token'));
+    const [extraFiles, setExtraFiles] = useState([]);
+    const [renamingId, setRenamingId] = useState(null);
+    const [editingFile, setEditingFile] = useState(null); // { id, name }
     
     const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage } = folioData || {};
 
@@ -337,11 +340,10 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         setIsVerifying(true);
         try {
             const query = encodeURIComponent(`'${_folderId}' in parents and trashed = false`);
-            const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
+            const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,mimeType,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
             const driveRes = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
             
             if (driveRes.status === 401) {
-                // Token expired!
                 setAccessToken(null);
                 localStorage.removeItem('drive_access_token');
                 throw new Error("Token expirado, vuelve a conectar Tu Google.");
@@ -352,15 +354,19 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             const files = resData.files || [];
             
             const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
+            const recognizedIds = new Set();
             let status = "OK";
+
             if (files.length === 0) {
-                status = "CARPETA VACÍA";
+                status = "CARPETA VAC\u00cdA";
+                setExtraFiles([]);
             } else {
                 const encontradas = new Set();
                 for (const f of files) {
                     for (const [cat, patrones] of Object.entries(PATRONES)) {
                         if (patrones.some(p => f.name.toLowerCase().includes(p))) {
                             encontradas.add(cat);
+                            recognizedIds.add(f.id);
                             if (!photosMap[cat]) {
                                 photosMap[cat] = {
                                     id: f.id,
@@ -376,6 +382,10 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 if (faltantes.length > 0) {
                     status = "FALTA: " + faltantes.join(" + ");
                 }
+
+                // Collect unrecognized files
+                const extras = files.filter(f => !recognizedIds.has(f.id));
+                setExtraFiles(extras);
             }
 
             if (onFolioSync) onFolioSync(FOLIO, photosMap, status);
@@ -408,9 +418,55 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         }
     };
 
+    const handleRename = async (fileId, newName) => {
+        if (!accessToken) {
+            alert('Debes Iniciar Sesi\u00f3n con Google primero.');
+            return;
+        }
+        setRenamingId(fileId);
+        try {
+            const res = await fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?supportsAllDrives=true`, {
+                method: 'PATCH',
+                headers: {
+                    'Authorization': 'Bearer ' + accessToken,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name: newName })
+            });
+            if (!res.ok) throw new Error(await res.text());
+            console.log(`\u270f\ufe0f Renombrado exitoso: ${newName}`);
+            await logToSheet('RENOMBRADO', FOLIO, newName, fileId);
+            setEditingFile(null);
+            await triggerVerification();
+        } catch (err) {
+            alert(`Error al renombrar: ${err.message}`);
+        }
+        setRenamingId(null);
+    };
+
+    const getQuickRenameOptions = (fileName) => {
+        const ext = fileName.includes('.') ? fileName.substring(fileName.lastIndexOf('.')) : '.jpg';
+        const options = [];
+        const cats = [
+            { key: 'INICIAL', suffix: '_inicial', label: 'Inicial' },
+            { key: 'CAJA', suffix: '_caja', label: 'Caja' },
+            { key: 'FINAL', suffix: '_terminado', label: 'Terminado' }
+        ];
+        for (const cat of cats) {
+            if (!PHOTOS?.[cat.key]?.id) {
+                options.push({ label: cat.label, newName: `${FOLIO}${cat.suffix}${ext}` });
+            }
+        }
+        return options;
+    };
+
     useEffect(() => {
         if (isOpen && _folderId && accessToken) {
             triggerVerification();
+        }
+        if (!isOpen) {
+            setExtraFiles([]);
+            setEditingFile(null);
         }
     }, [isOpen, _folderId, accessToken]);
 
@@ -486,6 +542,141 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                             <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
                             <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
                         </div>
+
+                        {/* Folder Explorer */}
+                        {accessToken && _folderId && (
+                            <div className="mt-8">
+                                <div className="flex items-center gap-2 mb-4">
+                                    <FolderOpen size={18} className="text-slate-500" />
+                                    <h4 className="text-sm font-black text-slate-700 dark:text-slate-200 uppercase tracking-wider">Explorador de Carpeta</h4>
+                                    <span className="text-xs text-slate-400 font-medium ml-1">({extraFiles.length} archivo{extraFiles.length !== 1 ? 's' : ''} sin clasificar)</span>
+                                </div>
+
+                                {isVerifying && extraFiles.length === 0 ? (
+                                    <div className="flex items-center gap-2 justify-center py-6 text-slate-400">
+                                        <Loader2 size={16} className="animate-spin" />
+                                        <span className="text-sm font-medium">Escaneando carpeta...</span>
+                                    </div>
+                                ) : extraFiles.length === 0 ? (
+                                    <div className="flex flex-col items-center justify-center py-8 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-dashed border-slate-200 dark:border-slate-700">
+                                        <FolderOpen size={32} className="text-slate-300 dark:text-slate-600 mb-2" />
+                                        <p className="text-sm font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">Sin archivos adicionales</p>
+                                        <p className="text-xs text-slate-400 dark:text-slate-600 mt-1">Todos los archivos est\u00e1n correctamente clasificados</p>
+                                    </div>
+                                ) : (
+                                    <div className="rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+                                        {extraFiles.map((file, idx) => {
+                                            const isImage = file.mimeType?.startsWith('image/');
+                                            const isCurrentlyRenaming = renamingId === file.id;
+                                            const isEditing = editingFile?.id === file.id;
+                                            const quickOptions = getQuickRenameOptions(file.name);
+                                            const thumbUrl = file.thumbnailLink || (isImage ? `https://drive.google.com/thumbnail?id=${file.id}&sz=w120` : null);
+
+                                            return (
+                                                <div
+                                                    key={file.id}
+                                                    className={`flex items-center gap-4 px-4 py-3 transition-colors
+                                                        ${idx !== extraFiles.length - 1 ? 'border-b border-slate-100 dark:border-slate-800' : ''}
+                                                        ${isCurrentlyRenaming ? 'bg-amber-50 dark:bg-amber-900/10' : 'hover:bg-slate-50 dark:hover:bg-slate-800/50'}`}
+                                                >
+                                                    {/* Thumbnail */}
+                                                    <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center">
+                                                        {thumbUrl ? (
+                                                            <img
+                                                                src={thumbUrl}
+                                                                alt={file.name}
+                                                                referrerPolicy="no-referrer"
+                                                                className="w-full h-full object-cover"
+                                                                onError={(e) => {
+                                                                    e.target.style.display = 'none';
+                                                                    e.target.parentNode.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>';
+                                                                }}
+                                                            />
+                                                        ) : (
+                                                            <FileIcon size={20} className="text-slate-400" />
+                                                        )}
+                                                    </div>
+
+                                                    {/* File name / Edit field */}
+                                                    <div className="flex-1 min-w-0">
+                                                        {isEditing ? (
+                                                            <div className="flex items-center gap-2">
+                                                                <input
+                                                                    type="text"
+                                                                    value={editingFile.name}
+                                                                    onChange={(e) => setEditingFile({ ...editingFile, name: e.target.value })}
+                                                                    onKeyDown={(e) => {
+                                                                        if (e.key === 'Enter') handleRename(file.id, editingFile.name);
+                                                                        if (e.key === 'Escape') setEditingFile(null);
+                                                                    }}
+                                                                    className="flex-1 text-sm px-3 py-1.5 border border-primary/40 rounded-lg bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/30 font-mono"
+                                                                    autoFocus
+                                                                />
+                                                                <button
+                                                                    onClick={() => handleRename(file.id, editingFile.name)}
+                                                                    disabled={isCurrentlyRenaming}
+                                                                    className="p-1.5 bg-green-100 hover:bg-green-200 dark:bg-green-900/30 rounded-lg text-green-600 transition-colors disabled:opacity-50"
+                                                                    title="Confirmar"
+                                                                >
+                                                                    {isCurrentlyRenaming ? <Loader2 size={14} className="animate-spin" /> : <Check size={14} />}
+                                                                </button>
+                                                                <button
+                                                                    onClick={() => setEditingFile(null)}
+                                                                    className="p-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 rounded-lg text-slate-500 transition-colors"
+                                                                    title="Cancelar"
+                                                                >
+                                                                    <X size={14} />
+                                                                </button>
+                                                            </div>
+                                                        ) : (
+                                                            <p className="text-sm font-medium text-slate-700 dark:text-slate-300 truncate" title={file.name}>
+                                                                {file.name}
+                                                            </p>
+                                                        )}
+                                                    </div>
+
+                                                    {/* Actions */}
+                                                    {!isEditing && (
+                                                        <div className="flex items-center gap-2 flex-shrink-0">
+                                                            {/* Quick rename buttons */}
+                                                            {quickOptions.map(opt => (
+                                                                <button
+                                                                    key={opt.label}
+                                                                    onClick={() => handleRename(file.id, opt.newName)}
+                                                                    disabled={isCurrentlyRenaming}
+                                                                    className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider rounded-lg border border-primary/30 text-primary hover:bg-primary hover:text-white transition-all disabled:opacity-50"
+                                                                    title={`Renombrar a ${opt.newName}`}
+                                                                >
+                                                                    {isCurrentlyRenaming ? <Loader2 size={10} className="animate-spin" /> : opt.label}
+                                                                </button>
+                                                            ))}
+                                                            {/* Manual edit */}
+                                                            <button
+                                                                onClick={() => setEditingFile({ id: file.id, name: file.name })}
+                                                                className="p-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-lg text-slate-500 dark:text-slate-400 transition-colors"
+                                                                title="Editar nombre manualmente"
+                                                            >
+                                                                <Pencil size={14} />
+                                                            </button>
+                                                            {/* Open in Drive */}
+                                                            <a
+                                                                href={file.webViewLink}
+                                                                target="_blank"
+                                                                rel="noreferrer"
+                                                                className="p-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-lg text-slate-500 dark:text-slate-400 transition-colors"
+                                                                title="Abrir en Drive"
+                                                            >
+                                                                <ExternalLink size={14} />
+                                                            </a>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
                 </motion.div>
             </div>
