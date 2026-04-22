@@ -16,38 +16,64 @@ const PATRONES = {
 };
 
 // 100% Serverless / Stateless: The Browser talks directly to Google APIs!
-const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet }) => {
+const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet, isEditable }) => {
     const [blobUrl, setBlobUrl] = useState(null);
     const [isImageLoading, setIsImageLoading] = useState(true);
     const [isDragging, setIsDragging] = useState(false);
     const [isUploading, setIsUploading] = useState(false);
     const [isDeleting, setIsDeleting] = useState(false);
     const [tokenExpired, setTokenExpired] = useState(false);
+    const [isRenaming, setIsRenaming] = useState(false);
+    const [renameValue, setRenameValue] = useState('');
+    const [isRenamingLoading, setIsRenamingLoading] = useState(false);
 
     const getDriveId = (url) => {
         const match = url?.match(/\/d\/([a-zA-Z0-9_-]+)/);
         return match ? match[1] : null; 
     };
 
-    const driveId = photoObj?.id || getDriveId(photoObj?.view);
-    const stableImageSrc = driveId 
-        ? `https://www.googleapis.com/drive/v3/files/${driveId}?alt=media` 
+    const driveFileId = photoObj?.id || getDriveId(photoObj?.view);
+    const stableImageSrc = driveFileId 
+        ? `https://www.googleapis.com/drive/v3/files/${driveFileId}?alt=media` 
         : (photoObj?.thumbnail ? photoObj.thumbnail.replace('=s220', '=s800') : '');
 
+    const handleCardRename = async () => {
+        if (!renameValue.trim() || !driveFileId || !accessToken) return;
+        setIsRenamingLoading(true);
+        try {
+            const res = await fetch(`https://www.googleapis.com/drive/v3/files/${driveFileId}?supportsAllDrives=true`, {
+                method: 'PATCH',
+                headers: {
+                    'Authorization': 'Bearer ' + accessToken,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name: renameValue })
+            });
+            if (!res.ok) throw new Error(await res.text());
+            console.log(`✏️ PhotoCard renombrado: ${renameValue}`);
+            await logToSheet('RENOMBRADO', folio, renameValue, driveFileId);
+            setIsRenaming(false);
+            setRenameValue('');
+            if (onActionSuccess) onActionSuccess();
+        } catch (err) {
+            alert(`Error al renombrar: ${err.message}`);
+        }
+        setIsRenamingLoading(false);
+    };
     // Fetch image with Bearer token to show private Drive files
     useEffect(() => {
         // Reset state on each image change
         setTokenExpired(false);
         setBlobUrl(null);
 
-        if (!driveId) {
+        if (!driveFileId) {
             setIsImageLoading(false);
             return;
         }
 
         if (!accessToken) {
             // No token: try the public thumbnail as fallback
-            setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+            setBlobUrl(`https://drive.google.com/thumbnail?id=${driveFileId}&sz=w800`);
             setIsImageLoading(true);
             return;
         }
@@ -77,11 +103,11 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                     }
                 } else {
                     // Other errors: fallback to public thumbnail
-                    if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+                    if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveFileId}&sz=w800`);
                 }
             } catch (err) {
                 console.error("Error fetching private image:", err);
-                if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveId}&sz=w800`);
+                if (isMounted) setBlobUrl(`https://drive.google.com/thumbnail?id=${driveFileId}&sz=w800`);
             }
         };
 
@@ -90,11 +116,11 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
             isMounted = false; 
             if (blobUrl && blobUrl.startsWith('blob:')) URL.revokeObjectURL(blobUrl); 
         };
-    }, [driveId, accessToken]);
+    }, [driveFileId, accessToken]);
 
     const handleDragOver = (e) => {
         e.preventDefault();
-        if (!driveId) setIsDragging(true);
+        if (!driveFileId) setIsDragging(true);
     };
 
     const handleDragLeave = (e) => {
@@ -159,6 +185,10 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         e.preventDefault();
         setIsDragging(false);
         if (stableImageSrc || isUploading || isDeleting || isVerifying) return;
+        if (!isEditable) {
+            alert('No tienes permisos de Edici\u00f3n. Solo cuentas verificadas pueden subir fotos.');
+            return;
+        }
         if (!accessToken) {
             alert('Debes Iniciar Sesión con Google primero (botón arriba).');
             return;
@@ -189,6 +219,10 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
     };
 
     const handleDelete = async () => {
+        if (!isEditable) {
+            alert('No tienes permisos para eliminar. Solo cuentas verificadas pueden realizar esta acci\u00f3n.');
+            return;
+        }
         if (!accessToken) {
             alert('Debes Iniciar Sesión con Google primero (botón arriba).');
             return;
@@ -197,15 +231,15 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         
         setIsDeleting(true);
         try {
-            const res = await fetch(`https://www.googleapis.com/drive/v3/files/${driveId}?supportsAllDrives=true`, {
+            const res = await fetch(`https://www.googleapis.com/drive/v3/files/${driveFileId}?supportsAllDrives=true`, {
                 method: 'DELETE',
                 headers: { 'Authorization': 'Bearer ' + accessToken }
             });
             
             if (!res.ok) throw new Error(await res.text());
             
-            console.log(`🗑️ Eliminada evidencia de Drive directo: ${driveId}`);
-            await logToSheet('ELIMINACIÓN', folio, internalCategoryName, driveId);
+            console.log(`🗑️ Eliminada evidencia de Drive directo: ${driveFileId}`);
+            await logToSheet('ELIMINACIÓN', folio, internalCategoryName, driveFileId);
 
             if (onActionSuccess) onActionSuccess();
         } catch (err) {
@@ -214,7 +248,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         setIsDeleting(false);
     };
 
-    if (!driveId) {
+    if (!driveFileId) {
         return (
             <div 
                 onDragOver={handleDragOver}
@@ -250,15 +284,33 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         <div className="flex flex-col group relative rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
             <div className="bg-slate-50 dark:bg-slate-700 p-3 border-b border-slate-200 dark:border-slate-600 flex justify-between items-center z-10 relative">
                 <h4 className="text-sm font-black text-slate-700 dark:text-slate-200 uppercase tracking-wider">{title}</h4>
-                <div className="flex gap-2">
-                    <button
-                        onClick={handleDelete}
-                        disabled={isDeleting || isVerifying || !accessToken}
-                        className="p-1.5 bg-red-50 dark:bg-red-900/30 hover:bg-red-100 dark:hover:bg-red-900/50 rounded-lg text-red-500 dark:text-red-400 shadow-sm transition-colors disabled:opacity-50"
-                        title="Eliminar de Drive"
-                    >
-                        {isDeleting ? <Loader2 size={16} className="animate-spin" /> : <Trash2 size={16} />}
-                    </button>
+                <div className="flex gap-1.5">
+                    {isEditable && (
+                        <>
+                            <button
+                                onClick={handleDelete}
+                                disabled={isDeleting || isVerifying || !accessToken}
+                                className="p-1.5 bg-red-50 dark:bg-red-900/30 hover:bg-red-100 dark:hover:bg-red-900/50 rounded-lg text-red-500 dark:text-red-400 shadow-sm transition-colors disabled:opacity-50"
+                                title="Eliminar de Drive"
+                            >
+                                {isDeleting ? <Loader2 size={16} className="animate-spin" /> : <Trash2 size={16} />}
+                            </button>
+                            <button
+                                onClick={() => {
+                                    // Pre-fill with current expected name
+                                    const ext = '.jpg';
+                                    const suffixMap = { INICIAL: '_inicial', CAJA: '_caja', FINAL: '_terminado' };
+                                    setRenameValue(`${folio}${suffixMap[internalCategoryName] || ''}${ext}`);
+                                    setIsRenaming(true);
+                                }}
+                                disabled={isRenamingLoading || isVerifying || !accessToken}
+                                className="p-1.5 bg-amber-50 dark:bg-amber-900/30 hover:bg-amber-100 dark:hover:bg-amber-900/50 rounded-lg text-amber-600 dark:text-amber-400 shadow-sm transition-colors disabled:opacity-50"
+                                title="Renombrar archivo en Drive"
+                            >
+                                {isRenamingLoading ? <Loader2 size={16} className="animate-spin" /> : <Pencil size={16} />}
+                            </button>
+                        </>
+                    )}
                     <a
                         href={photoObj?.view || photoObj?.thumbnail} 
                         target="_blank"
@@ -271,6 +323,29 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                 </div>
             </div>
             
+            {/* Inline Rename Form */}
+            {isRenaming && (
+                <div className="bg-amber-50 dark:bg-amber-900/20 border-b border-amber-200 dark:border-amber-800 px-3 py-2">
+                    <p className="text-[10px] font-bold text-amber-700 dark:text-amber-400 uppercase mb-1.5">Renombrar archivo</p>
+                    <div className="flex gap-1.5">
+                        <input
+                            type="text"
+                            value={renameValue}
+                            onChange={e => setRenameValue(e.target.value)}
+                            onKeyDown={e => e.key === 'Enter' && handleCardRename()}
+                            className="flex-1 px-2 py-1 text-xs border border-amber-300 dark:border-amber-700 rounded-lg bg-white dark:bg-slate-800 text-slate-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-amber-400"
+                            autoFocus
+                        />
+                        <button onClick={handleCardRename} disabled={isRenamingLoading} className="px-2 py-1 bg-amber-500 hover:bg-amber-600 text-white text-[10px] font-black rounded-lg disabled:opacity-50">
+                            {isRenamingLoading ? <Loader2 size={12} className="animate-spin" /> : <Check size={12} />}
+                        </button>
+                        <button onClick={() => { setIsRenaming(false); setRenameValue(''); }} className="px-2 py-1 bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-[10px] font-black rounded-lg">
+                            <X size={12} />
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <div className="h-64 w-full relative bg-slate-200 dark:bg-slate-900 overflow-hidden flex items-center justify-center">
                 {(isDeleting || isVerifying) && (
                     <div className="absolute inset-0 bg-slate-900/40 z-20 flex items-center justify-center">
@@ -316,18 +391,40 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFolioSync }) {
     const [isVerifying, setIsVerifying] = useState(false);
     const [accessToken, setAccessToken] = useState(() => localStorage.getItem('drive_access_token'));
+    const [userProfile, setUserProfile] = useState(() => {
+        const saved = localStorage.getItem('google_user_profile');
+        return saved ? JSON.parse(saved) : null;
+    });
     const [extraFiles, setExtraFiles] = useState([]);
     const [renamingId, setRenamingId] = useState(null);
-    const [editingFile, setEditingFile] = useState(null); // { id, name }
+    const [editingFile, setEditingFile] = useState(null);
     
-    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage } = folioData || {};
+    const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com"];
+    const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
+
+    const fetchUserProfile = async (token) => {
+        try {
+            const res = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (res.ok) {
+                const profile = await res.json();
+                setUserProfile(profile);
+                localStorage.setItem('google_user_profile', JSON.stringify(profile));
+            }
+        } catch (error) {
+            console.error("Error fetching user profile:", error);
+        }
+    };
 
     const login = useGoogleLogin({
         onSuccess: (tokenResponse) => {
             setAccessToken(tokenResponse.access_token);
             localStorage.setItem('drive_access_token', tokenResponse.access_token);
+            fetchUserProfile(tokenResponse.access_token);
+            triggerVerification();
         },
-        scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/spreadsheets'
+        scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'
     });
 
     const triggerVerification = async () => {
@@ -388,7 +485,10 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 setExtraFiles(extras);
             }
 
-            if (onFolioSync) onFolioSync(FOLIO, photosMap, status);
+            if (onFolioSync) {
+                const extras = files.filter(f => !recognizedIds.has(f.id));
+                onFolioSync(FOLIO, photosMap, status, extras.length);
+            }
         } catch (error) {
             console.error("Verification error:", error);
         }
@@ -496,6 +596,24 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 <h3 className="text-2xl font-black text-slate-800 dark:text-white tracking-tight">
                                     FOLIO {FOLIO}
                                 </h3>
+                                {isAuthorizedEditor && (
+                                    <span className="flex items-center gap-1.5 px-2 py-1 bg-blue-600 text-white text-[10px] font-black rounded-full shadow-lg shadow-blue-500/20 border border-blue-400">
+                                        <Check size={12} strokeWidth={4} />
+                                        CUENTA VERIFICADA
+                                    </span>
+                                )}
+                                {_folderId && (
+                                    <a
+                                        href={`https://drive.google.com/drive/folders/${_folderId}`}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 text-[10px] font-bold rounded-full border border-slate-300 dark:border-slate-600 transition-colors shadow-sm"
+                                        title="Abrir carpeta del folio en Google Drive"
+                                    >
+                                        <FolderOpen size={12} />
+                                        VER EN DRIVE
+                                    </a>
+                                )}
                                 <div className="flex items-center gap-2">
                                     <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${RESULTADO_AUDITORIA === 'OK' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'}`}>
                                         {RESULTADO_AUDITORIA}
@@ -522,9 +640,20 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                     <Key size={16}/> Connect Google (Administrador)
                                 </button>
                             ) : (
-                                <span className="text-xs font-bold text-green-600 bg-green-50 px-3 py-1.5 rounded-full flex items-center gap-2 border border-green-200 shadow-sm">
-                                    <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div> Cuenta Autorizada
-                                </span>
+                                <div className="flex items-center gap-3">
+                                    {userProfile && (
+                                        <div className="hidden sm:flex items-center gap-2 mr-1 px-2.5 py-1.5 bg-slate-100 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                                            <img src={userProfile.picture} alt="" className="w-5 h-5 rounded-full border border-slate-300" />
+                                            <div className="flex flex-col">
+                                                <span className="text-[10px] leading-none font-black text-slate-700 dark:text-slate-200 uppercase tracking-tighter">{userProfile.name}</span>
+                                                <span className="text-[9px] leading-none text-slate-400 font-mono">{userProfile.email}</span>
+                                            </div>
+                                        </div>
+                                    )}
+                                    <span className="text-xs font-bold text-green-600 bg-green-50 px-3 py-1.5 rounded-full flex items-center gap-2 border border-green-200 shadow-sm">
+                                        <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div> Conectado
+                                    </span>
+                                </div>
                             )}
                             <button 
                                 onClick={onClose}
@@ -538,9 +667,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     {/* Content */}
                     <div className="p-6 overflow-y-auto">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <PhotoCard title="Inicial (Bache)" photoObj={PHOTOS?.INICIAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="INICIAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
-                            <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
-                            <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} />
+                            <PhotoCard title="Inicial (Bache)" photoObj={PHOTOS?.INICIAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="INICIAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
+                            <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
+                            <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
                         </div>
 
                         {/* Folder Explorer */}
@@ -638,8 +767,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                                     {/* Actions */}
                                                     {!isEditing && (
                                                         <div className="flex items-center gap-2 flex-shrink-0">
-                                                            {/* Quick rename buttons */}
-                                                            {quickOptions.map(opt => (
+                                                            {/* Quick rename buttons - Restricted to Authorized Editors */}
+                                                            {isAuthorizedEditor && quickOptions.map(opt => (
                                                                 <button
                                                                     key={opt.label}
                                                                     onClick={() => handleRename(file.id, opt.newName)}
@@ -650,14 +779,16 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                                                     {isCurrentlyRenaming ? <Loader2 size={10} className="animate-spin" /> : opt.label}
                                                                 </button>
                                                             ))}
-                                                            {/* Manual edit */}
-                                                            <button
-                                                                onClick={() => setEditingFile({ id: file.id, name: file.name })}
-                                                                className="p-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-lg text-slate-500 dark:text-slate-400 transition-colors"
-                                                                title="Editar nombre manualmente"
-                                                            >
-                                                                <Pencil size={14} />
-                                                            </button>
+                                                            {/* Manual edit - Restricted to Authorized Editors */}
+                                                            {isAuthorizedEditor && (
+                                                                <button
+                                                                    onClick={() => setEditingFile({ id: file.id, name: file.name })}
+                                                                    className="p-1.5 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 rounded-lg text-slate-500 dark:text-slate-400 transition-colors"
+                                                                    title="Editar nombre manualmente"
+                                                                >
+                                                                    <Pencil size={14} />
+                                                                </button>
+                                                            )}
                                                             {/* Open in Drive */}
                                                             <a
                                                                 href={file.webViewLink}

@@ -292,11 +292,13 @@ const PhotoEvidenceDashboard = () => {
                     if (optimisticStoreStr) {
                         const optimisticStore = JSON.parse(optimisticStoreStr);
                         allRecords = allRecords.map(r => {
-                            if (optimisticStore[String(r.FOLIO)] && optimisticStore[String(r.FOLIO)].PHOTOS) {
+                            const cached = optimisticStore[String(r.FOLIO)];
+                            if (cached && cached.PHOTOS) {
                                 return { 
                                     ...r, 
-                                    PHOTOS: optimisticStore[String(r.FOLIO)].PHOTOS,
-                                    RESULTADO_AUDITORIA: optimisticStore[String(r.FOLIO)].RESULTADO_AUDITORIA
+                                    PHOTOS: cached.PHOTOS,
+                                    RESULTADO_AUDITORIA: cached.RESULTADO_AUDITORIA,
+                                    EXTRA_PHOTOS: cached.EXTRA_PHOTOS || 0
                                 };
                             }
                             return r;
@@ -568,18 +570,18 @@ const PhotoEvidenceDashboard = () => {
         }
     };
 
-    const handleFolioSync = (folioStr, newPhotos, newStatus) => {
+    const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0) => {
         setRecords(prevRecords => prevRecords.map(r => {
             if (String(r.FOLIO) === String(folioStr)) {
                 // Save to localStorage
                 try {
                     const optimisticStoreStr = localStorage.getItem('optimistic_folios') || '{}';
                     const optimisticStore = JSON.parse(optimisticStoreStr);
-                    optimisticStore[folioStr] = { PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+                    optimisticStore[folioStr] = { PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, EXTRA_PHOTOS: extraPhotosCount };
                     localStorage.setItem('optimistic_folios', JSON.stringify(optimisticStore));
                 } catch(e) {}
 
-                return { ...r, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+                return { ...r, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, EXTRA_PHOTOS: extraPhotosCount };
             }
             return r;
         }));
@@ -929,13 +931,23 @@ const PhotoEvidenceDashboard = () => {
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.DELEGACION}</td>
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.COLONIA}</td>
                                                 <td className="px-6 py-4 text-center">
-                                                    <button 
-                                                        onClick={() => setSelectedVisualizerFolio(row)}
-                                                        className="p-1 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-md transition-colors text-primary dark:text-white"
-                                                        title="Ver Evidencia"
-                                                    >
-                                                        <span className="material-symbols-outlined text-[20px]">visibility</span>
-                                                    </button>
+                                                    <div className="flex items-center justify-center gap-2">
+                                                        {row.EXTRA_PHOTOS > 0 && (
+                                                            <span 
+                                                                className="flex items-center justify-center w-5 h-5 bg-orange-500 text-white text-[10px] font-black rounded-full shadow-lg shadow-orange-500/40 animate-pulse border border-orange-400" 
+                                                                title={`${row.EXTRA_PHOTOS} archivos extra sin clasificar en la carpeta de Drive`}
+                                                            >
+                                                                {row.EXTRA_PHOTOS}
+                                                            </span>
+                                                        )}
+                                                        <button 
+                                                            onClick={() => setSelectedVisualizerFolio(row)}
+                                                            className="p-1.5 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-all text-primary dark:text-white border border-transparent hover:border-slate-300 dark:hover:border-slate-500"
+                                                            title="Ver Evidencia y Gestionar Archivos"
+                                                        >
+                                                            <span className="material-symbols-outlined text-[20px]">visibility</span>
+                                                        </button>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         ))}

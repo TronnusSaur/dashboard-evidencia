@@ -130,10 +130,13 @@ async function auditarFotos(drive, arrayFolioIds) {
 
         const encontradas = new Set();
         const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
+        let matchedFileNames = new Set();
 
         for (const f of todasLasFotos) {
+            let matched = false;
             for (const [cat, patrones] of Object.entries(PATRONES)) {
                 if (patrones.some(p => f.name.includes(p))) {
+                    matched = true;
                     encontradas.add(cat);
                     if (!photosMap[cat]) {
                         photosMap[cat] = {
@@ -141,15 +144,21 @@ async function auditarFotos(drive, arrayFolioIds) {
                             view: f.webViewLink
                         };
                     }
+                    break;
                 }
             }
+            if (matched) {
+                matchedFileNames.add(f.name);
+            }
         }
+
+        const extraFilesCount = todasLasFotos.filter(f => !matchedFileNames.has(f.name)).length;
 
         const categorias = ["INICIAL", "CAJA", "FINAL"];
         const faltan = categorias.filter(c => !encontradas.has(c));
 
         const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
-        return { status, photos: photosMap };
+        return { status, photos: photosMap, extraFilesCount };
     } catch (e) {
         console.error(`Error accediendo a conjunto de folios: ${e.message}`);
         return { status: "ERROR DE ACCESO", photos: null };
@@ -244,6 +253,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         const resultado = await auditarFotos(drive, folioIds);
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
+        row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
 
         if (resultado.status === "OK" && folioIds && folioIds.length > 0) {
             auditCache[cacheKey] = resultado;
