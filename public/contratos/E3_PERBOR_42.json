@@ -265,7 +265,7 @@
   },
   {
     "FOLIO": "420012",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
@@ -273,17 +273,23 @@
     "_stage": "E3",
     "_folderId": "1uXA7v9AAJqZUWZafWD2BJu2I8-4WRUqA",
     "PHOTOS": {
-      "INICIAL": null,
-      "CAJA": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ05zUz1l5IjAC-68GF_rzEJVJqUmbKk5vmgcse4O8UQEfb66Z_bWY5dc6ls0BeXp6iFowiLqv9aVlBV-0E28ii_BmjL35Z5cFY2pU_kenAgUCp7M=s220",
+        "view": "https://drive.google.com/file/d/1DLJO20KdWvKmJ0l63nyXh8MTiqSc5Xx6/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPx4DseEBm98E7ZzNso7SY3E6e-oDs0TvFagFYNc6caet1JaucD_s9H-Rbf8yqwmuuy1SUD7--YOqNlPEvyIkMp6iiz_6WwQby7PRYqoTLvoXO51ZQ=s220",
+        "view": "https://drive.google.com/file/d/1ASMEnudrb_3_eqisH98S_3jRZ66IG_bD/view?usp=drivesdk"
+      },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnx9Qqj-cSVwhlHcNY73XaN0fOoP39DfN1DYW0v1r3-SmvHuL-r0_Bk48FRHLls6IMBfzE6PK7hbsH2qp1Vl1cSPZJcTdMUabFQzHZJTKP5bC0Dw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNF5GQdnsAeCBJDL3JzaHxbF5y-YWdaFZNSjpaa1jtGDI1potB_IBn7HBc_8JG-JWpx0h9Ic72H_73SZmQqyJIJi6oAcsOwRLsGjBHWgUkRFQrbZGQ=s220",
         "view": "https://drive.google.com/file/d/1TkfOgFzUh1moHuSngAJTh1OA9UcWKrO_/view?usp=drivesdk"
       }
     }
   },
   {
     "FOLIO": "420013",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
@@ -291,11 +297,17 @@
     "_stage": "E3",
     "_folderId": "1MioYHjSRtvWieGxG2NEQ48wuI7aMghN8",
     "PHOTOS": {
-      "INICIAL": null,
-      "CAJA": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ8lWa6dUyQipw10TGcpSFQEykRY0KRQWuDoR-T1WCGse3IG85iKTPpktY_D-_QglFCu7IJNsJhlrgto-rZaj0VNbiRqpf4u1bogo50nkx-vxrGqg=s220",
+        "view": "https://drive.google.com/file/d/1k8f5tpW_fnj_pBmvQzMlfIVX_mVfS2ny/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSZmo_7JbAKp3lThsRVtNUeqPJyHzbOVTCWvDGqo3HlaZFGBn-TRkFC2n0y47hf2o6jOd2OSy2-SbZzCRoVOLrwQ9UZ37PjxPEuyMYUKHs-HcSmYA=s220",
+        "view": "https://drive.google.com/file/d/1NSSDpz8wBMVJWtheTGwUQPKa1X3xsfQ9/view?usp=drivesdk"
+      },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj2Isp0bfc3uT5NJzGCibFb8jcXYI0M6N9uJlC2kWKL-tCOKaFQtqKJMHP8arZUo2vdOoRR3BZzSZixoXu42rmNptt3D_y9-wctTQrGm5FSDiTKmo=s220",
-        "view": "https://drive.google.com/file/d/1Tx9pWYKOQZsxGP1UzlYD5Y3tUvq6qwuD/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcijRwfcNlx12oxP7aP4iy3sLAfYY4U87GHGKtfn8rJBvoFJzmztUJmsnRt5AHZyAdCliwcZn5Oyba4TXxUux4IemHnoUNiB6kx425y4QyVAqkz5w=s220",
+        "view": "https://drive.google.com/file/d/1T0bvwP9o4vHl9dApcNx8Vwq07AWq1zB7/view?usp=drivesdk"
       }
     }
   },
@@ -853,200 +865,266 @@
   },
   {
     "FOLIO": "420037",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "14MoQpwGIBFOmGVOpiponurcmiREPI6OY",
+    "_folderId": "1n8aDz4EcUJbOWC_wyW4Pf_pHVqBcHdX5",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRgL62txQ-DoK_3Y9N_zqdkcpCbm3fF88xGXuz4WDXmPze-M2rV4VRzDFBvJamW9ehjiXaTaq4qBUrzLGFknU-VwAfxce9t7e59jFU4bHu6ok6O_A=s220",
-        "view": "https://drive.google.com/file/d/1zyqbKxl1bV8u9GJ4JESqX90EZEJtT2Vt/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIoodYJZkNDwGF4RIAcjwtn7f8Rgc1TQnYwBpJ41rK81IKJseP2K7THO2O08RzTi3KsojFbQ7uUgpertYe3N7TRP-fKZ8tDyNix9TX5BRql01_ZcQ=s220",
+        "view": "https://drive.google.com/file/d/1hlwNZBPmbdUsXpkCgUqyFmG3MyYCK7mk/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeRidBk8FNZjAD6qhrZZCYeETqAI2ON0Cnpf3G1oGFktgXb99jWDxbsQz97vQC3wFu1J2C9zKBctKLIrn951f9baQt9YiFhZc3OrTsbrbAOsakA18=s220",
+        "view": "https://drive.google.com/file/d/1pzAiQe6uH3HzWdcWxg1SAgCWdOCYeswU/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsBazw_s1gNHGKZVC10Q60hW_k5KQjmXlavBAbkSbcMUSyJTPQ1WU0bbpArnHPpuWsE9FpUPEXNZKjM1Dl4xxZU9nfompc-GGHbtlesJgqJ97jkHg=s220",
+        "view": "https://drive.google.com/file/d/1SZExfE6bjxRZ0N9PCL2280t4Nj5jz4UO/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420038",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1W1oxzuoIKH8dJ0fTaFHjMvJQk_Luotc9",
+    "_folderId": "1nRUTnH-kk-ieRBn4Gr-U12n7ArlXsPWU",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAhp3ckbUmULwbu0_10bR-vogvK_OR0z7pXcKV6jjM3aBMqCwlfVYI2JAcCGnF52KO-xwftFnpLzzdNdpMh4w49gVFHwWtYriv_gp1DdWpArmhsqQ=s220",
-        "view": "https://drive.google.com/file/d/1quqtlmW_tHpL30gMfwlCUsprwNsXIrcz/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNraA_691lsnaZnTt6_VOQysuh-32pwJZjCzk9PCw8-X_zlltrSaX8TAud3ZwrNrW07yn0zpfrK-dVSiIV2zjPzrANTK7XdSbQBXMxJau7lzEWDygQ=s220",
+        "view": "https://drive.google.com/file/d/13dfSZQprhB-OFDRXGyzYkVtny-U7Lvk3/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2yitlB2PzrOZE8iBD7P83GaqJFgVjQJiR6sR38rQ77pXZtezK-h4SePfv--xZti43Bcy8FROZ3JDjDwReWEZBsULw_2hsrtdNNXNtZlm9vXN4mzk=s220",
+        "view": "https://drive.google.com/file/d/1P1kRWP95A9ANNO8o3faWwtgVgjfV8pMl/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZlVhhdi55GjWZsYj15tzaP_1zNzVxehuj7_iIsYh06K8IJLyX90zCGwpktqM07swVyyaw74UI-2f6V-LkKEtIxZIEQITqYWWG4Hk5Jm5aTt-PERg=s220",
+        "view": "https://drive.google.com/file/d/1GEe__WiLf_b8_aiP2tNQXC3HCAXcTyM4/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420039",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1buy1m7Hz7z2J1Itz_Z3BWw2ssUC84iJf",
+    "_folderId": "1NFq48KoBna0gc8miD_GoFcUZ-ruPoP-0",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmX9Y5r9UWmlFmT_PL6uQCYoeY5BQar-o5E7dXi0Pjlm-9dGRUCbU6dbb5VWrFYGA-Kl9CzGPe6wPeDLMB9Eywbu8BOkHqYezU5PrNBA78GIgbKdg=s220",
-        "view": "https://drive.google.com/file/d/1xWDPWNLeUyM0ps5sW1hh6MwFgdsG2DxO/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQc6gdPBV-yMzdNeFxSeyiPRaKrSdc8S-lJlJ3jjuN4WNNVt9-fLCiKneGnaUmLnSrOd0bnTLkHttL1vwP_eJgjoXxxcvqO7QERwjeQzZdfVUe91k=s220",
+        "view": "https://drive.google.com/file/d/1cd_eC-oLzzyxb-l7Qs816KJwvXsUCLxv/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr4RY_rbxgzJdwPPblpFAcxRvb5m_3TDododpjAjPf_uPkc8w7NGAShSVjLoTU93zwCLAeOvRAldMtLOZXMYrgzqN-6LcF0ewD9eALGok6xMbm8oc=s220",
+        "view": "https://drive.google.com/file/d/1IlgDMmqyQFTEIGg0WmDs1lBAban3IQSE/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTzdUDRh7tN9dGj9AbKGs4-KDORFzwEQAGNWphz0gMb9YkGpdMIRS_AfNaF7xCTxwfdK6wDJyg-fUTKLBggotmBZQ1SkRHq4joLwxDTdj8kxIDxIU=s220",
+        "view": "https://drive.google.com/file/d/1NgCm7QBslRlOjYbQNec1XaaLlnFrLk7D/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420040",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1xKjQQpz5MUjev9__Th9SM38RmOVsZ5uW",
+    "_folderId": "1zQo6fRx6DprrX9NY2GTbLwRa75TpplMx",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOs6JZ08k7FDvV4czfOgkxJ51RnLWkfsulculmOPy6tif5mBb-8xjNh-mP4d1XP_1oBSbfEDj1CfIZ7Joqr-qH9jKV1kmBHRjHhZPAdCnA6Y7gXhNU=s220",
-        "view": "https://drive.google.com/file/d/19VdSkera-Y5M0ZZ5amdBjENCPVxxceBX/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOw0kUOG3QtxSDcdSbsF7YhqmuZWGLLEAE4iqn4ve3DVW4y_sBL4Npev80A1Pn_1k3Zyf89H1WGlmwxCJzOpp-z3v6Ydzg7kMfs7sSm0cl0oirp1og=s220",
+        "view": "https://drive.google.com/file/d/1WfxTSMlN2z3Fsa0STx6Al1l2YTyEXekx/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsW54wjAc8Vj1KR_QtDK3hT0RTlO3GAFKvYSBZMJBLCJufuw3bO8eCYEojiaUKRY6QiKsgU-aOLjAaUraRbV2oI629PpOlMTFUamLmLg4Z6okZAoY=s220",
+        "view": "https://drive.google.com/file/d/1LQyl9xHj3JJl2fzkZ_MPl06l_mI6scqH/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1ENHcn30l5AVLgG2RSkl2m0gE1iDvjXI7Sphbq0SHsFrd5pkvgBQN51I_ySpwPLdUagK5AQGCc7lrdm_Q7kla4ULBYkVY7t-l91AcFHJwCBvwrQ4=s220",
+        "view": "https://drive.google.com/file/d/1yUwVUy-qbvE9uiAhMfap5vcrhuRdAAlS/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420041",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1sqWwvD72R2PfSOBlNzZMiqCefbNLte2Z",
+    "_folderId": "1OuSsy-DAiPL-urrPs2HUzMuhkJ4dzRvb",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwgpapBtKp7mI3VYb0Z7FbF7nnx0GAWALtRTs8ydzzinaMHPwkIgZ6G20XPlK0facMy_ZVc2XlbrcZNByg6mr3q01UPjfCMs_eyYiZddqIi9hE6k0=s220",
-        "view": "https://drive.google.com/file/d/1ui4vgOSFCnXbemZsxq-jD-C54PeDYxOI/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJAsaOaU3nEMpSgOnhjREYJDGPkMkqk-Uo7Zb9atGS1zRp9_387LxugJHbN28zeWH9FTBYJudNUzjTqA3OBZb-Fj6xmbKfJKTEogPxLq3BlwFmqss=s220",
+        "view": "https://drive.google.com/file/d/1tOj2i-edJoO1GrRxpz8vHdUPy_6XZAuu/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUm-Vi6Kig8kUFIutvcTaVMZLnbmB9KO6SlRYEwhauS0Ob3ueYmDZlEFFRmvoch5B4jAJnGDRzY8LdMw_KrfFumVKBn_Nk1Mqr9Ts_aZNPiEonFp8=s220",
+        "view": "https://drive.google.com/file/d/18E5bAvVMEzi9PWzvg03c1R6uLXrMVUy3/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbw4mMkh5h6TaYjdRllf3Cm6CF7M7b9PhUdFGYu0HpNCGKqRf1TKL4GCf2z4NN6OkX01qm9qXvqg_UQc_-ajniOdpnwQZmAKwu8-8EDW33NpIKijw=s220",
+        "view": "https://drive.google.com/file/d/1ndM049r-ePt62CRzWqwtKbY0pd2uZ3Yt/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420042",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "10oUAzimdjXu-mKXwJfkP74foKIdjIdKh",
+    "_folderId": "1mnhnzC6VExCdCzaXKJipBDL9h3c89Nnr",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNl0CLm60eG3gVX7jDkGiU5BH8Aky0rPdasTd61IimnwMTmROJ3JnR4NmAdIgxb5t3JB6t7DX0gJFKkACijM-u_F3wh2ieMEqylvqjFSHYMpz2gZC0=s220",
-        "view": "https://drive.google.com/file/d/1ouDUUc5tr61AZfH1wH9PrIpGPmVju_Qk/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMewh4xCIgc79ej-zuAD-5oZgdVqEc2voix2uJkoK0f8xExZsvU1UA_BNq3AaJNgiDjNR4-SKDeiJbQaPvKpjqjBoFZa8zCSwlPv-zNpXsT2OjSx4U=s220",
+        "view": "https://drive.google.com/file/d/1WIh3Y9r56KTloUejfXbXEjZkO5AFvJ1s/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiaMQExDlYVxYMJWcMXek5v6zkpLTuzDfSuGOH_tnsYkk3Yy7HJ0KIvSKo9rN3zk5ytBaQsRhYXZ9VNTrt52wTJdikyB--j4MgtwYmOIiKXHS5K6g=s220",
+        "view": "https://drive.google.com/file/d/17y90Z03xemjNlGmpufqWkuGMaWOHendD/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfyE-2Lmfj0WThCUewQ30CiEuqjRqmpxuQQbX6EyELtmGbg4VWvQpbnn9ABk7Acro4_7s9_1MP34i9WCCXhUMZO6o1z63i_rDeZ6t1NmcIEmoCzNY=s220",
+        "view": "https://drive.google.com/file/d/1-9D2kuBmZKB_8U3GGSWvdvGWB090Zwuz/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420043",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1TLNqS4DP-G9bIsZWTDv3BhF9gzgaAepS",
+    "_folderId": "13orFmV_fIfChfURSZiH7B_cbANIvKoUg",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuxhAiHKGDyHKIoa-8plc2OeRC9sMByfapPaO55kEN-jAsJhEIDP-40O9qlEDTQKVdhV9dW-XyAq5Xuxa7807WtXtqGmX4HvOduUc1Hwf594KPy1E=s220",
-        "view": "https://drive.google.com/file/d/1f66YwYzD64tOSSXFgQH1h1MPhR5KeV7r/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOLZyWetqfRSkmHh5nlqfL0F7qpriKGVn8JOwACUV2-l5PdmbfE9QGWzoo6P5MIa4hrVfigsjIivGxwJQw_NeiGY3PUxE5WDw1Omi8IDze2zjYEGM=s220",
+        "view": "https://drive.google.com/file/d/1YLmigRp2oehpspL77hGbkqEDEoJUxlvf/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpS6V51u4-FHyA50Ee37nIxZ3YLPZegVqwaYfe6PwgdAcoS6ktETX8T3pN-irAPFGsPPtbfKLT_cG4dOcgMu5ineTbEybnqB87Ja3_-pj5GK8medU=s220",
+        "view": "https://drive.google.com/file/d/1xkaj_WP9nRMYlnJY7Kd8wK5eTyf0yu0j/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVcCvLTsGjOiA0QY6COCFvpUgtzNv31VHaHaljZs6NL81FhnhnQmDBt-aFot4St8EYEg55IIflqNduUEBBqjdakeDfBCMcMbvRzmUznw262R2VfIs=s220",
+        "view": "https://drive.google.com/file/d/1htiE4MEKON_vbsGYjvFFNjERdjLryYCQ/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420044",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1x5MWbfTdFT3lKhcF5oUYbz899EVOJbHm",
+    "_folderId": "1SEd_H-Kr3BNiA1wecmBSEnarWnn39ywp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxXtsUVhluGThKV3ywTkYSnEyHysUgOFqQ7p1eBNX0AX2wtxRg0BJUIdjjEGZXarlnH8EOBKzK2GkQtQiGzUILlGwaztar4d2LVduyT4US8s97o5w=s220",
-        "view": "https://drive.google.com/file/d/1GN4pAGLIze9mXXKpbc5ZnaEAvsRgs2sq/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4udC6C0VupHAQwOkkmMCtJMvKXTBPAhxIoCPta_OtapGtwQU-oXLarssqicQ3_vcTPXNFcwwOud3YsHZIy0CbhPQU0pxJWRtUlufDUXQFbRNr5S4=s220",
+        "view": "https://drive.google.com/file/d/12zg3EbVuIG1w65s32ZUjGhRR_R_bY7uq/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe3IBc7IRLyhj3RlBBpdY9_Ad3SPrOKKjBYJ46yCwQheJ-_UvH6npjFYZQLJW40jzMfRny9HmleaLzCxlNlKTtnKEJQkVOdWWNLmQ-lTvSpeRRLKE=s220",
+        "view": "https://drive.google.com/file/d/12sti7vPEiuYEK65jsyZjKTAHmxCD1WYB/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOsUgpcgUs9FWe7Wm2LgxJ4thobl98cFrDj1nKfjwYR8NhzlZhXq1jo_n9rhaPCOi0pph4Z2UUTFebQyytx5idF5CDn-ry5CfFWE1Kf9lvkGaTxZI=s220",
+        "view": "https://drive.google.com/file/d/1vROJ4UH_mAEDAvQwmaLvmJOFTYC4EmnX/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420045",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1TPGgIkuuOTB-32m-8iKdVp0hd3Rinrq5",
+    "_folderId": "1nsJ9ahe7ri2Mj5nlHXc0EQkm8G89dQBC",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNn1D4GEwX1aLv7VQwWP7Miq_uuRDUNK1AjPWZ30JlCZ1pqEMJRjFiXqoYnJ8-72UA08BnLyPyh6-AeB-shDJXUugNd2_cMKubFGgYttIlG_IXjiSQ=s220",
-        "view": "https://drive.google.com/file/d/1FanuTEVI_hhDFsBbWt8AO7IKiG7ZpOW9/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXU6xHl-Gy1Afu3vAPkE9F8g9g91fia2_n1OW4YSCm11V-MCXayVBk8sFBEV6UrhbgZkr2PNrL4oFBPD2oXnkQdW4NRIohdSpbS-4M9scCorDjfls=s220",
+        "view": "https://drive.google.com/file/d/13hYjRQtjdB_TWiElkXzssoypfksy-A_Y/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKvvWBmTFZvICBko-WDjoZGpaKGwO_WcUqKrcYz_4L50rVnE16HJ3o7PrHw0-A2rr5Rph91Wzt4t1wlljFSXByFUBqvnFXcfRPtUuZUhjrBMSDRdk=s220",
+        "view": "https://drive.google.com/file/d/1LSkZsuG4uh2qq8yHY-YgXqfDkR66lYfV/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtq-t4qhjnzUKUuGwPtJac3YfvA_0z4s7hGc_-IZDIesm1HhiW8J_lxNeok_UIo6gnwbRpDquQSQ1IkASKSfPeaBMpoHHXf5DGVVBfSqmSgGLfIEU=s220",
+        "view": "https://drive.google.com/file/d/1_J1auhX3SBbiBkK74zFvPPpWAconYmPS/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420046",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1XYQeJXcuVDK5QfimmllR-TgLijKDvVlI",
+    "_folderId": "1ovhSRzEDj8OJgJjx3zjvT2VsQT8aDJsF",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhP0sh7dJWDGxHE88KZR2A_G7XY8wcQT2pNk4ILZK6f6sIxdKgJUQLmKDfRtnvKnecE2H5FJJRhSTvrHzOQtbYeDtHak-o9z6PLMd9eTNLmKjt1ww=s220",
-        "view": "https://drive.google.com/file/d/1MI7c--K1PVDCFUgq-aJ0iV9xomdXB3CB/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGNq9b2bQxhGnMxTY_2K9NUQYIEYDJQxzsw31dWMDmlDufeVxGm4J0yQbp9sj7f0CC_2EPAGFZN2warTXQ1GGr2EcKWRYTEj6KX4nd5h6KST_PRkY=s220",
+        "view": "https://drive.google.com/file/d/1Q82DbiTcpZJQjYGFKCICeLs9BEw9CECo/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrJG3Om4UNmM3BIFXFgssBExedAzxoTnag744HR_7VkEcc2ftGuaQYs12lsq1K6bj5m8YlZCe_NltSJQYun5DvdK6oYVsOTpJNZQNlXVkeuePhNP0=s220",
+        "view": "https://drive.google.com/file/d/1dGa5mTI2Bp2FoctQxAYDoljpH5ffYF3_/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMzfSI7PBmv7cMMVgSOq264djQFINQqsJbkCoJBGTY9o0Z48paWUxRwEfoO9DkZoPVEXsoNFvrKTsRxF80W2qrSGDBO3Mk50o0VHoLE7bJ9b3t8fI=s220",
+        "view": "https://drive.google.com/file/d/1f5vZfsQ4vLal4P36h-0OW8Tk-cyqI0u6/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420047",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA (BARRIO SAN JUAN DE LA CRUZ)",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1eK7HfVsaMckZriWQnODjRLd0AGXwmpZQ",
+    "_folderId": "106xzbz3ZkqOEbkQV55qEUthpAMEA5VOX",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaMgNny6TYktj5TUrigM02Bn1ugCd4L-H9Zq19bTEICp_kJKWCdsBIjnnv7sOzQELaPnki5OWxB7mrCBYr_wt-5SirkgNjoD8uskGhRkfrJo8sxnw=s220",
-        "view": "https://drive.google.com/file/d/1YJYbkCAVvRZO4L7o9SjUkv3oOncPidTR/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOP0GU-cMeJALiQVZq8_fQ4MmKFALKtst-mpXRukDID3VFCrRf9MprAODq1ECWIb8JkEIfyAWWtKLxnn64PtPTVtL-x3nz_S9U240SedQcUDTvcOFk=s220",
+        "view": "https://drive.google.com/file/d/1D-69T2PsgZZ4R_JI_5KxGRNWVRgxM70P/view?usp=drivesdk"
       },
-      "CAJA": null,
-      "FINAL": null
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOm4L26bErCZHoDLktbZwUhkcJqungx2xBQnca6OJmv-7utBd78d-H8TrFYUMxNoMD2MPEqiNsg26Y-UQkZCj8OPgdT52YVCeaLZXP2G_WeP3hL4zQ=s220",
+        "view": "https://drive.google.com/file/d/1D85wch9zwKZEHrPXRwbl61WpKWfiHDGe/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMA1PQFXNH9tC1RXl2h527I0EIipXVPs-lzEF3KrJlro-h1LFT3-gYAwhk7Row9bpKhnYuXzzAdRBHnIhzA7i5PHls7dZuVnE9bFMwhgfcAZjoIpaQ=s220",
+        "view": "https://drive.google.com/file/d/1MbaeDeTrTiI8TTQIaqU06jMCwjvn8M9U/view?usp=drivesdk"
+      }
     }
   },
   {
@@ -1651,44 +1729,44 @@
   },
   {
     "FOLIO": "420073",
-    "RESULTADO_AUDITORIA": "FALTA: FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1NacrUmYvjJ6ynORQegDnbq0p9kF-gFJy",
+    "_folderId": "1OiZAdHRE6zI6Sf7sKxMFyPm3c9aPTb-I",
     "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnXjuiHDax8qKtjPzyRXwJq7KXNT79tykWqTk_PuFdiUpCgl4N9LSMnj0uoBH5tv6tTrcWBXEGFlmRw7EzaEUR8puacSpFc1JmKxGyHG5Pbi2G2RU=s220",
-        "view": "https://drive.google.com/file/d/1cTA6jLj1ywHbnhV4Xb7HiyPuqyVhJDOr/view?usp=drivesdk"
-      },
+      "INICIAL": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNv8PYYd3xqZzJ5QmSJgjJ-RHbLQfnhqSE_tztgssNuNT2yNflfgQtLK5RYMgqU8mJImkDXRX1SX5s3SxX78FXnIsaKZ7Mh3cDNy9mKvKLBdBNOzkg=s220",
-        "view": "https://drive.google.com/file/d/1DgaZJ4MHHDNcnRkzgBV2w-xWQVtFkC7W/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKXJG7Up--RW8iJBEsJ35FZGx2ZLZIWxHcdibHoyPl9lGK8mmKVUc3oWINdtZRrp3ZFbKCweiKYE5MRxLNmi-FmPfh6e5k3_opp22ygeQtOEvqDj4=s220",
+        "view": "https://drive.google.com/file/d/1qjv9d0yY_M0s_ajX2vCyRfivwhTviSqa/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOov6MkYVrDPOKqxZA4ts-Lt8K5vgYbiEh69tx3SVq5G4EFRM_yZIqqcoFhvaTFpySEbujOuGLP434VcJmRNdibFdXPAL6UFwWinemUsKy2fQLd0gc=s220",
+        "view": "https://drive.google.com/file/d/1Vs5twg5lsDieGRtve38pkCOpdNHJz2x6/view?usp=drivesdk"
+      }
     }
   },
   {
     "FOLIO": "420074",
-    "RESULTADO_AUDITORIA": "FALTA: FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "DAVID ALVARADO GUERRERO",
     "COLONIA": "EX HACIENDA LA MAGDALENA",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1DrxJYkOt_SRG8HxszLFGcd3hO-_4Lwkh",
+    "_folderId": "17pgtYYCP8InkbSHsteqvlbvhVNO8_yZY",
     "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN30JFGZIzGLOz75tbkmtkkf5gvSxXbAjSZSJnTa943ckl_ZH2oR0SGfwMPAIJx1ZCCGyZKfSorejYR9fmPTzB6HKnzz974N1XQpGKiAouxdnQU--U=s220",
-        "view": "https://drive.google.com/file/d/1lIbYxng23oLLvYW86cQWhZd8qwGvpQFU/view?usp=drivesdk"
-      },
+      "INICIAL": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYGXAMKqTOmrJJGlh87dfe1GmWX3iZoU9Non87eQMCvDG9paUtoV96qWBhnVJ5UE9UjxDU3UlFHw5-WdRl1zvKCYZCsDZc1-t0v8Xhzbgli0PDoSY=s220",
-        "view": "https://drive.google.com/file/d/1ZOlx2bY6Xg113XLOPlQrmpN42M_CPZcc/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOJZDFfakWZ8nQMs-qvKqnYgn0I1WGgfdaMMJZUht-52dYp0e9ROChdJLa44W4SKiRXcHedW501ZcYc5sdBig2ojr1cTsJ5yK3EgNpjwEdFvw0sU4=s220",
+        "view": "https://drive.google.com/file/d/1Sf8_5tA2OvxM52dzgNCLU2YBMz2PJLMD/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyzO4rSX0JPoxW3qr7IrMpOpnBLdt1efnllm_DYLVPIgReqzBXjgLfBfMKZK2xqqExSpGir_erTBMSSd4gP9f_8pfqI7orT4Zk7M4_TVP_xD9M11Q=s220",
+        "view": "https://drive.google.com/file/d/1np9yRR9_nyyXo16bGp2uOi2E1bbmI1pK/view?usp=drivesdk"
+      }
     }
   },
   {
@@ -1981,22 +2059,25 @@
   },
   {
     "FOLIO": "420087",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DR. NICOLÁS SAN JUAN",
     "COLONIA": "EX HACIENDA LA MAGDALENA",
     "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1CzfTfhAZdyE8Dm2PvUyr27wIoXtilxL1",
+    "_folderId": "1sC2_FpVNGo6LdthbcEXubWN-55j0D-jT",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_ePBeTNxgv18UuexhAHCDjVyXzG4QSWSQ3QsQR4dl3iQDMh70yd6vo_cOavUrTtvzuovsoNQgXUnLMpyMwD0hcJEixBKBePKCgf2vm1Ng-7LC4qA=s220",
+        "view": "https://drive.google.com/file/d/13JYAKwyLIA5SH_WwgaBsLZwWDyc4G8Ho/view?usp=drivesdk"
+      },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLN-p5GXVEtYGr7_PlNUGf3iEJqpHvy52qLHp4oxKccaFIeA3AEIS_4i3oonX5DDzdsBNhonhBmJLGBVQ-IqbKjgQXZz-ELbBVa93WVKUhbouWObc=s220",
-        "view": "https://drive.google.com/file/d/1bwEnSmUn958oW6ZXor9pAvYAV0D-87-A/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZzmIcGMVNvTLvaadEpxFo35OLgGoFHrAkUQPTZwkbE2NGkZxPLHjPnSDZ21uWPaVVMVOP08laGdjz3sU3zku3BwLkkOI61t4iUjS1SaE6_ZL-YvY=s220",
+        "view": "https://drive.google.com/file/d/1b5rwAA4nkQOaB-CzXB6sm6OxYFXNYISW/view?usp=drivesdk"
       },
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjNVC7ebbRk6o2vEsLD7KBojxHxjZdSWAPDPkB8vIq5FdPm0I2hZUs6AQdPIu3a7Fc8lKDQlO989dmKwISCHkn4dQIp3m_EiLXHQtm2YoPKhaeNvA=s220",
-        "view": "https://drive.google.com/file/d/1Q5hTWJDMK_f-Amc8N-6BCl60Rg55jlY_/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVCJkTz5pydHPQCdfAnn1J46g-CBsfyb8dKhabHpFE868ekoR37_xcqlI_2G3V6GBRDuNlziKDHFuDcvVARi8bASGRGO0P_30NM5pBVHFtH1yPGWw=s220",
+        "view": "https://drive.google.com/file/d/1VPS4e_pyVeBDA6GHXNed8aamJFqH6ryZ/view?usp=drivesdk"
       }
     }
   },
