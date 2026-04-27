@@ -135,6 +135,7 @@ const PhotoEvidenceDashboard = () => {
 
     const kpiData = useMemo(() => {
         let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0, ok = 0;
+        let faltaFolio = 0, faltaCorte = 0, faltaDemolicion = 0, faltaLiga = 0, faltaMezcla = 0, faltaLimpieza = 0;
 
         filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
@@ -148,14 +149,25 @@ const PhotoEvidenceDashboard = () => {
             } else {
                 if (rawType.includes('INICIAL')) faltaInicial++;
                 if (rawType.includes('CAJA')) faltaCaja++;
-                if (rawType.includes('FINAL')) faltaFinal++;
+                if (rawType.includes('FINAL') || rawType.includes('TERMINADO')) faltaFinal++;
+                if (rawType.includes('FOLIO')) faltaFolio++;
+                if (rawType.includes('CORTE')) faltaCorte++;
+                if (rawType.includes('DEMOLICION')) faltaDemolicion++;
+                if (rawType.includes('LIGA')) faltaLiga++;
+                if (rawType.includes('MEZCLA')) faltaMezcla++;
+                if (rawType.includes('LIMPIEZA')) faltaLimpieza++;
             }
         });
 
         // Sumamos las incidencias para que el Total sea la suma exacta de las tarjetas siguientes
-        let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal;
+        let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal + faltaFolio + faltaCorte + faltaDemolicion + faltaLiga + faltaMezcla + faltaLimpieza;
 
-        return { total, sinCarpeta, faltaInicial, faltaCaja, faltaFinal, ok };
+        return { 
+            total, sinCarpeta, ok,
+            faltaInicial, faltaCaja, faltaFinal, 
+            faltaFolio, faltaCorte, faltaDemolicion, 
+            faltaLiga, faltaMezcla, faltaLimpieza 
+        };
     }, [filteredRecords]);
 
     // Handle stage change

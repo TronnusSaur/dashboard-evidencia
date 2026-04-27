@@ -36,8 +36,15 @@ const CACHE_FILE = path.join(process.cwd(), 'audit_cache.json');
 
 const PATRONES = {
     "INICIAL": ["_inicial"],
+    "FOLIO": ["_folio"],
+    "CORTE": ["_corte"],
+    "DEMOLICION": ["_demolicion"],
     "CAJA": ["_caja"],
-    "FINAL": ["_terminado"]
+    "LIGA": ["_liga"],
+    "MEZCLA": ["_mezcla"],
+    "TERMINADO": ["_terminado"],
+    "LIMPIEZA": ["_limpieza"],
+    "FINAL": ["_terminado"] // Para retrocompatibilidad en el mapeo
 };
 
 // Normalizar Folio: Asegurar 3 dígitos para numéricos y remover espacios extraños en subdivisiones (ej: "8041 - 1" -> "8041-1")
@@ -129,7 +136,11 @@ async function auditarFotos(drive, arrayFolioIds) {
         if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null };
 
         const encontradas = new Set();
-        const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
+        // Build photosMap dynamically from all defined categories
+        const photosMap = {};
+        for (const cat of Object.keys(PATRONES)) {
+            photosMap[cat] = null;
+        }
         let matchedFileNames = new Set();
 
         for (const f of todasLasFotos) {
@@ -154,11 +165,17 @@ async function auditarFotos(drive, arrayFolioIds) {
 
         const extraFilesCount = todasLasFotos.filter(f => !matchedFileNames.has(f.name)).length;
 
-        const categorias = ["INICIAL", "CAJA", "FINAL"];
-        const faltan = categorias.filter(c => !encontradas.has(c));
+        // Determinar si es un set nuevo o legacy basado en si hay algún archivo con los nuevos sufijos
+        const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
+        const esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
 
+        const categoriasRequeridas = esSetNuevo 
+            ? ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LIGA", "MEZCLA", "TERMINADO", "LIMPIEZA"]
+            : ["INICIAL", "CAJA", "FINAL"];
+
+        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
         const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
-        return { status, photos: photosMap, extraFilesCount };
+        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo };
     } catch (e) {
         console.error(`Error accediendo a conjunto de folios: ${e.message}`);
         return { status: "ERROR DE ACCESO", photos: null };
@@ -254,6 +271,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
+        row['_isNewSet'] = resultado.isNewSet || false;
 
         if (resultado.status === "OK" && folioIds && folioIds.length > 0) {
             auditCache[cacheKey] = resultado;
@@ -356,7 +374,9 @@ async function main() {
                     _company: emp,
                     _stage: stage,
                     _folderId: r._folderId,
-                    PHOTOS: r.PHOTOS
+                    PHOTOS: r.PHOTOS,
+                    EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
+                    _isNewSet: r._isNewSet || false
                 });
             }
         });

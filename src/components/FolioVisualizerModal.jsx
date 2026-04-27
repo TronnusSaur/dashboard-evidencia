@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key, Pencil, FolderOpen, Check, FileImage, File as FileIcon } from 'lucide-react';
+import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key, Pencil, FolderOpen, Check, FileImage, File as FileIcon, Clock } from 'lucide-react';
 import { useGoogleLogin } from '@react-oauth/google';
 
 const SHEET_MAP = {
@@ -9,10 +9,23 @@ const SHEET_MAP = {
     "E3": '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
 };
 
-const PATRONES = {
-    "INICIAL": ["_inicial"],
-    "CAJA": ["_caja"],
-    "FINAL": ["_terminado"]
+const CONFIG_FOTOS = {
+    LEGACY: [
+        { id: 'INICIAL', pattern: '_inicial', label: 'Inicial (Bache)' },
+        { id: 'CAJA', pattern: '_caja', label: 'Caja (Fresado)' },
+        { id: 'FINAL', pattern: '_terminado', label: 'Terminado' }
+    ],
+    NEW: [
+        { id: 'INICIAL', pattern: '_inicial', label: '1. Inicial' },
+        { id: 'FOLIO', pattern: '_folio', label: '2. Folio' },
+        { id: 'CORTE', pattern: '_corte', label: '3. Corte' },
+        { id: 'DEMOLICION', pattern: '_demolicion', label: '4. Demolición' },
+        { id: 'CAJA', pattern: '_caja', label: '5. Caja' },
+        { id: 'LIGA', pattern: '_liga', label: '6. Liga' },
+        { id: 'MEZCLA', pattern: '_mezcla', label: '7. Mezcla' },
+        { id: 'TERMINADO', pattern: '_terminado', label: '8. Terminado' },
+        { id: 'LIMPIEZA', pattern: '_limpieza', label: '9. Limpieza' }
+    ]
 };
 
 // 100% Serverless / Stateless: The Browser talks directly to Google APIs!
@@ -134,12 +147,14 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
             const delimiter = "\r\n--" + boundary + "\r\n";
             const close_delim = "\r\n--" + boundary + "--";
 
-            let typeStr = internalCategoryName.toLowerCase();
-            if (typeStr === 'final') typeStr = 'terminado';
-            
             // Extract extension
             const extension = file.name.substring(file.name.lastIndexOf('.')) || '.jpg';
-            const fileName = `${folio}_${typeStr}${extension}`;
+            
+            // Map internal category to proper suffix
+            let suffix = `_${internalCategoryName.toLowerCase()}`;
+            if (internalCategoryName === 'FINAL') suffix = '_terminado';
+
+            const fileName = `${folio}${suffix}${extension}`;
 
             const metadata = {
                 name: fileName,
@@ -299,8 +314,9 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                                 onClick={() => {
                                     // Pre-fill with current expected name
                                     const ext = '.jpg';
-                                    const suffixMap = { INICIAL: '_inicial', CAJA: '_caja', FINAL: '_terminado' };
-                                    setRenameValue(`${folio}${suffixMap[internalCategoryName] || ''}${ext}`);
+                                    let suffix = `_${internalCategoryName.toLowerCase()}`;
+                                    if (internalCategoryName === 'FINAL') suffix = '_terminado';
+                                    setRenameValue(`${folio}${suffix}${ext}`);
                                     setIsRenaming(true);
                                 }}
                                 disabled={isRenamingLoading || isVerifying || !accessToken}
@@ -396,10 +412,17 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         return saved ? JSON.parse(saved) : null;
     });
     const [extraFiles, setExtraFiles] = useState([]);
-    const [renamingId, setRenamingId] = useState(null);
     const [editingFile, setEditingFile] = useState(null);
+    const [renamingId, setRenamingId] = useState(null);
+    const [isNewSet, setIsNewSet] = useState(false);
+    const [livePhotos, setLivePhotos] = useState(null);
     
-    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage } = folioData || {};
+    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet } = folioData || {};
+
+    // Initialize isNewSet from pre-computed audit data, can be overridden by live verification
+    useEffect(() => {
+        if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
+    }, [_isNewSet]);
 
     const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com"];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
@@ -452,22 +475,36 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             const resData = await driveRes.json();
             const files = resData.files || [];
             
-            const photosMap = { INICIAL: null, CAJA: null, FINAL: null };
-            const recognizedIds = new Set();
-            let status = "OK";
-
             if (files.length === 0) {
-                status = "CARPETA VAC\u00cdA";
+                status = "CARPETA VACI\u00cdA";
                 setExtraFiles([]);
+                setLivePhotos(null);
+                setIsNewSet(false);
             } else {
-                const encontradas = new Set();
+                const foundPhotos = {};
+                const recognizedIds = new Set();
+                const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
+                let detectedNew = false;
+
+                // Check for new suffixes to determine if we use the 9-photo set
                 for (const f of files) {
-                    for (const [cat, patrones] of Object.entries(PATRONES)) {
-                        if (patrones.some(p => f.name.toLowerCase().includes(p))) {
-                            encontradas.add(cat);
+                    const lowerName = f.name.toLowerCase();
+                    if (newSuffixes.some(s => lowerName.includes(s))) {
+                        detectedNew = true;
+                        break;
+                    }
+                }
+                
+                setIsNewSet(detectedNew);
+                const currentSet = detectedNew ? CONFIG_FOTOS.NEW : CONFIG_FOTOS.LEGACY;
+
+                for (const f of files) {
+                    const lowerName = f.name.toLowerCase();
+                    for (const cat of currentSet) {
+                        if (lowerName.includes(cat.pattern)) {
                             recognizedIds.add(f.id);
-                            if (!photosMap[cat]) {
-                                photosMap[cat] = {
+                            if (!foundPhotos[cat.id]) {
+                                foundPhotos[cat.id] = {
                                     id: f.id,
                                     thumbnail: f.thumbnailLink,
                                     view: f.webViewLink
@@ -476,20 +513,26 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                         }
                     }
                 }
-                const reqs = ["INICIAL", "CAJA", "FINAL"];
-                const faltantes = reqs.filter(r => !encontradas.has(r));
+
+                setLivePhotos(foundPhotos);
+
+                const faltantes = currentSet
+                    .filter(cat => !foundPhotos[cat.id])
+                    .map(cat => cat.id);
+                
                 if (faltantes.length > 0) {
                     status = "FALTA: " + faltantes.join(" + ");
+                } else {
+                    status = "OK";
                 }
 
                 // Collect unrecognized files
                 const extras = files.filter(f => !recognizedIds.has(f.id));
                 setExtraFiles(extras);
-            }
 
-            if (onFolioSync) {
-                const extras = files.filter(f => !recognizedIds.has(f.id));
-                onFolioSync(FOLIO, photosMap, status, extras.length);
+                if (onFolioSync) {
+                    onFolioSync(FOLIO, foundPhotos, status, extras.length);
+                }
             }
         } catch (error) {
             console.error("Verification error:", error);
@@ -549,14 +592,12 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const getQuickRenameOptions = (fileName) => {
         const ext = fileName.includes('.') ? fileName.substring(fileName.lastIndexOf('.')) : '.jpg';
         const options = [];
-        const cats = [
-            { key: 'INICIAL', suffix: '_inicial', label: 'Inicial' },
-            { key: 'CAJA', suffix: '_caja', label: 'Caja' },
-            { key: 'FINAL', suffix: '_terminado', label: 'Terminado' }
-        ];
-        for (const cat of cats) {
-            if (!PHOTOS?.[cat.key]?.id) {
-                options.push({ label: cat.label, newName: `${FOLIO}${cat.suffix}${ext}` });
+        const currentSet = isNewSet ? CONFIG_FOTOS.NEW : CONFIG_FOTOS.LEGACY;
+        
+        for (const cat of currentSet) {
+            const hasPhoto = livePhotos ? livePhotos[cat.id] : PHOTOS?.[cat.id === 'FINAL' ? 'FINAL' : cat.id];
+            if (!hasPhoto) {
+                options.push({ label: cat.label.replace(/^\d\.\s/, ''), newName: `${FOLIO}${cat.pattern}${ext}` });
             }
         }
         return options;
@@ -604,6 +645,17 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                         CUENTA VERIFICADA
                                     </span>
                                 )}
+                                <span className={`flex items-center gap-1.5 px-2 py-1 text-[10px] font-black rounded-full border shadow-sm ${
+                                    isNewSet 
+                                        ? 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-300 dark:border-emerald-700' 
+                                        : 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300 dark:border-amber-700'
+                                }`}>
+                                    {isNewSet ? (
+                                        <><FileImage size={12} /> 9 FOTOS</>
+                                    ) : (
+                                        <><Clock size={12} /> LEGACY (3 FOTOS)</>
+                                    )}
+                                </span>
                                 {_folderId && (
                                     <a
                                         href={`https://drive.google.com/drive/folders/${_folderId}`}
@@ -616,6 +668,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                         VER EN DRIVE
                                     </a>
                                 )}
+
                                 <div className="flex items-center gap-2">
                                     <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${RESULTADO_AUDITORIA === 'OK' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'}`}>
                                         {RESULTADO_AUDITORIA}
@@ -668,10 +721,26 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
                     {/* Content */}
                     <div className="p-6 overflow-y-auto">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <PhotoCard title="Inicial (Bache)" photoObj={PHOTOS?.INICIAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="INICIAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
-                            <PhotoCard title="Caja (Fresado)" photoObj={PHOTOS?.CAJA} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="CAJA" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
-                            <PhotoCard title="Terminado" photoObj={PHOTOS?.FINAL} folio={FOLIO} folderId={_folderId} stage={_stage} internalCategoryName="FINAL" onActionSuccess={triggerVerification} isVerifying={isVerifying} accessToken={accessToken} logToSheet={logToSheet} isEditable={isAuthorizedEditor} />
+                        <div className={`grid gap-4 ${isNewSet ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 md:grid-cols-3 gap-6'}`}>
+                            {(isNewSet ? CONFIG_FOTOS.NEW : CONFIG_FOTOS.LEGACY).map(cat => {
+                                const photoObj = livePhotos ? livePhotos[cat.id] : (cat.id === 'FINAL' ? PHOTOS?.FINAL : PHOTOS?.[cat.id]);
+                                return (
+                                    <PhotoCard 
+                                        key={cat.id}
+                                        title={cat.label} 
+                                        photoObj={photoObj} 
+                                        folio={FOLIO} 
+                                        folderId={_folderId} 
+                                        stage={_stage} 
+                                        internalCategoryName={cat.id} 
+                                        onActionSuccess={triggerVerification} 
+                                        isVerifying={isVerifying} 
+                                        accessToken={accessToken} 
+                                        logToSheet={logToSheet} 
+                                        isEditable={isAuthorizedEditor} 
+                                    />
+                                );
+                            })}
                         </div>
 
                         {/* Folder Explorer */}
