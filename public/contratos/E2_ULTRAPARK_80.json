@@ -8,11 +8,13 @@
     "_company": "ULTRAPARK",
     "_stage": "E2",
     "_folderId": null,
-    "PHOTOS": null
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23001",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "19 De Marzo",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -21,19 +23,28 @@
     "_folderId": "15juOAE66ToKn2iH7S4cqNgBsKrKMrH1N",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORNcHak2YWR5MNPFp_We26XQ619xm98jG9REL-_pQVAPZyZjq5gRe_fYy8NQryRwoipU5v70ZXV7fNubbJkkp7RuhFH1AMgJ4ztWRPe2CKXOW2Ohk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM73XsfJwTYcY-nf9A_TbjVRf-Jb8bkHokCQ7ART6JnPEcO5kKBCDrO-Co3h8r71OPrtvbVuoMRFBncJ3Qo42iAU3xrMRrm9ITfn2i6P63_aApcvgU=s220",
         "view": "https://drive.google.com/file/d/1gkTXHAlWsPHQjYzMEvljTXN66yf8-pob/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCj1uBpJmGCbebpUnLbthERgiFdxtzSPhQ_ETxbhzjDjEar3gVkHBClRlIAqe8E72NA5by27t0zUvk4TdQp0_TFREo9yUuU4oVPi3Yes0o3vmT49E=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOS-SHqIq3yNPY2OJ7vf_Gx5WczhTaH9a38TrVERFmPTrYPtytt4FHnytnpCsyHXF4MoplvQFTI98XOA41Rq9gAfZm2_QmMkCCK4sE2_fvOJPyQDhU=s220",
         "view": "https://drive.google.com/file/d/1CXGPm8Up3pjYn3u3RCx0j51H4UMhqH8-/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23002",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "19 De Marzo",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -42,15 +53,24 @@
     "_folderId": "1QpTU_tsyQAat8lmbLRsEQks_GGkkTF7G",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOolJSDMP2ze-4ELzH1HgWy36ABQMGJgLViLxegqqip38U2UNhPoYHayGhOko5KHD9uu9sm-1eHLafZdSn7cTahdvYABYJWVyffW9vYu3X6OD8ufr4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz-KxZERMNyLb8Ho-CJiay-r7-8xtIGn6N6z2Gop0cXhjc2O2qjqgz19ihd9uKBhHskOAk-4DyvmU8TjHRzh7sryKQXJJK1tPgHlzUpxvehlpkniE=s220",
         "view": "https://drive.google.com/file/d/1SEl8ZYETuDqlL_0IrVFLyrRx81aUIgKg/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIX5iyV7EQFTr76-srAR2NSWU0w6wqDR-QWSbn9wLgD_wD2c5zgXm5bHh7BLaDl0B-oy27yq6DAB5fVSFZxFMuURXQTQpuuWl22804UGsnJ0dHSp0=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_Gkh8jNYo7XvbyCQntMBX3uQQS0aBf9odJzRuYne2AS3GKjNonGzAnHAtcdA4ZOeflKI_tpTn3mmFI_5wNqokA4WbAUa4hC5GZB5mQHUM7p-V8co=s220",
         "view": "https://drive.google.com/file/d/141AGdh8tVME0KIDcXxDgqs1oWDbYTw0b/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23003",
@@ -74,7 +94,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoWYipAEwuB6xFt5v0LihDUH0zagzZC8Lc5GM-UpczT6lyV-hPq3PSwm8Us6mbNO7C3YgDOCAJsnjIBgBNVxLMqpbh8QFXcoDeA6EUzAaa4KmgWA=s220",
         "view": "https://drive.google.com/file/d/1wMyAq4vd6KVm632avrNBzQaLSm_ruMev/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23004",
@@ -98,11 +120,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhCjOqpoEFJgpZQg73Xi1sgDXkkIGIe_w2_iwJvm2lzcHWHCeGjgav46mIy3eX0u_1Lw-J607bvqFpmUkruhSd6YSP_iB-A0EwsSORjdqbMFuwNw=s220",
         "view": "https://drive.google.com/file/d/1CHs2qo3LPg5-R06kUTFrGqZwyEefyo8-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23005",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "19 De Marzo",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -111,15 +135,24 @@
     "_folderId": "1R7ZOH4dC3o514Mt-xFQdw_1YZiev42ZI",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOweDgvMhEaZYTbXfxcvLBdh7OCefCHUqbrRq7w0UETH_FQGCBUd5FY_vlayM43neYQbtDGSyB8qM2C3VBJSWOW-WL73salUOAglLb5S6AUv4HHgOU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKmV3fyrt3kf0mgIr5GCrCcZqa5sGimzQafSTGAUlYFUv3QLKr3sBa4RbAYCI5DhQbQdvwC9HnzGEFhN1w-fcj23B-ICqm8ifURXrFVsk-nyxPv9o=s220",
         "view": "https://drive.google.com/file/d/17ftgPpnoZqQkF05Fn2j98vUUQxaY5iiA/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoeoQ8ZzGO-0_uGJByn_ClL1nyWDNo9xQS9vXKqJeE-yrwNanvKuxp9Ub5uGd1b70ADsr6xgTf_vjfkPK_Ps7HM23V4rDPX4BkwcZ7xDLBXpgZC4k=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxTcmzSK3RQS4JPPXMHcBMbO3kxaXo5qkR6on8yWaGSg-7q9yCtfe7CJRUoeC9YD5o3e3C_lfabdoo8fPxSrIECtlWw3IPHV8PvWkE99asKaiu-RY=s220",
         "view": "https://drive.google.com/file/d/1JZy1sqTMdLOW28pjyUpem2juDfhCZEFv/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23006",
@@ -143,11 +176,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOe8lqMrIC1qj1dTUiYbaTwkaeSrfsCIn0antBOSHFH4gryZQBNnjSI9nZpSe_5opjSXgK1-0GUYGKhq7veU3c2e6SOjpbGe3qQNeqXP5sfXNXYRA=s220",
         "view": "https://drive.google.com/file/d/1BSPkBNYeRW3llY6Y0j26P2yUo1XPsQRw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23007",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "19 De Marzo",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -156,15 +191,24 @@
     "_folderId": "1XCAfW95-zd0hqEF1-KdOJe1adir0q06V",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_T3HxxBS_mYu17FLOZWyExVmNkZN0VYkUkTgNy9FY9MjXawNzmfEGO6UHogxbwhFKnI0Uo6NqWI1feduEP8ZyWicN1MOOAPvZIn85BAu9wbOj3kA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP18yqaV10Jq6pDEgMB9U-XRkHtoeMsxKZ5jo5hoYj4qRXpHN3qH-pA3nGx4czXN9dr8zV3C4h1GQhp-DS0rX39JXJhYuTKorFvKjnBD50oUWpRU6g=s220",
         "view": "https://drive.google.com/file/d/1yuErgPAdopmfeu-EK-gvOA5OGolxWogH/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxFhw9fSA-pCiwZiXpZ4LnqyohsUsNNnnEOlv0OMFWxI3_fYHvMMFOboK7CfwVkEJyGLQB6-NCVWFefTbEbtXl6IrKz7Yj3HwYlp6KEartkVRSwAY=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWFab9RV0CFxAzICs-TRidooyoeASXOpkrFyATjAMOJ4ZCElrH11AthCfdDXePH78AqhemMUoOZXzc-Hv_3LTqloZr9JjsB-NOOCYt761mpZ6wIXw=s220",
         "view": "https://drive.google.com/file/d/1fVGqbv2qOhCXrsrYSTbUhQVUZ_4T7_OK/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23008",
@@ -188,11 +232,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF7MIE3xk2j9OmgEXynCEBiwe-jHfRLWrh4leSIfgyvcInCIJrQGyAr7jnrdx7thO61X0lpGPnmJmVsMhqPRJrR3LaAzoLhoANmb6z5Ir0d879Cg=s220",
         "view": "https://drive.google.com/file/d/15L5MWKq-zXwWIAxlTfPwrVaEJHhTCrpm/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23009",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "19 De Marzo",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -201,15 +247,24 @@
     "_folderId": "1jpHKuJzyf6U6z4fF_mY-YoRSGOl1fAge",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfYQ9pSktABmp5A80Es7I9yGHytpd_TGPFEwRACkiXkOBQAcgVN-x_zIzKixXa-DxAXvJNn3gOGjJYPFXCKEQcZzVreFrBTsPJCE8z0TJ5o53RopU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_HxSbaVdO3EenjtI4edJkMqsD56FlD04NuKw9kT5NGJ7wG9zMYHF87vop3ScdwUnU_Xscz-HIPuxkYFa977WxjtM0cj8nHBFKG3WnvuY87vIcVz4=s220",
         "view": "https://drive.google.com/file/d/19U51H_CDF4ZyZ7JzVfaKrEz5zBR0Q_Tj/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKxr7AOuZKjEezprXVLtLHv9Luaoaws-xFJb1t4oWmxvWhexBZixnSzDKPD7pfipnt3ySFW3gWts2z6UldC9i1bccSMKg-uu_ZStT3mgR2Osdr3kY=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOt-q-OdfXJxwDzHiJVfCH4FJ7g255y6fTan-n-o3hdm_3BPNRTP6v41K0IqkZ5UFZm3veGvgeG9DZPRGzAmoP8zwBbHfNW83h0shmlOrDjpUH9bhs=s220",
         "view": "https://drive.google.com/file/d/1MJBpJqABFzYIfxgaPQMvqtq9lr-A8N5D/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2301-80",
@@ -233,7 +288,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOKpgkrajfu4Rlxq_qwwbhErjGDKxgYa4H_RyH0A1jJYl_JssPSW84ZAk390MIq9UHKkv1BDSMX9P_muQhCeN-vHppKMDlZRQ4ScCYzQ75MbPsGQ=s220",
         "view": "https://drive.google.com/file/d/1vDLVk56_YYQ_xgKcKUJfD6a4rgjyAREU/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23010",
@@ -257,7 +314,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXiFqgNLl_lAsRrg8HLBKgENPAnuQOfSL0RrUVQhxIhLMVmNM5r6YXe3zV20AwL2C8Glq1ij_Q5OYbAgReYHnE6WQGQ4dimadxwtiSJ-8yI_YFbQ=s220",
         "view": "https://drive.google.com/file/d/1pt5l7NZRnaRHTQW23tF7EGqNOZSmFvpJ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23011",
@@ -281,7 +340,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLlknfmKS51R5OP_3XLxUUjCkHukIQ2n0j2yRbCXyE71AbSfW9uqUZ5Ts5daYwzyME4n0epeihMYSHJttOOyrBBAgv9h1hHrubnfzh1jrxYOqwlA=s220",
         "view": "https://drive.google.com/file/d/10FvEOmNbPYboecRmQRAM8PrWjUK9ky1B/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23012",
@@ -305,7 +366,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfo0xXZoNGN9FiAvH25Qcg8w4yy1-kMreBzfa1gYJ2hRoRBW_kMgLe_eRDeN94rIlkRXA96Ujv9EmGSfy2FVHu0NLY55ScCW_aMaz_wA5NTJ0Hyg=s220",
         "view": "https://drive.google.com/file/d/17mzUMEBtsFB92iah8uG6BMUbKJCpqg5r/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23013",
@@ -329,7 +392,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVCTFIBhNreVRArrVMqJf6DpBQREhc9pEALHtz1JxcD9yAqhfW3hRiPBHmskSXae-CD0tXpeATjPLRF3QHv0CYGXOO7Bfw-2z_8HahELaCaSkDPA=s220",
         "view": "https://drive.google.com/file/d/1-4AwydXC3p7tyYr-oTaDQJ7BZYv8PEOs/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23014",
@@ -353,7 +418,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvid3Lw1YAOTqAqD9oVPTA6cGJcb9oZrM9-LRX_FqoWwAV9rGyBnDIcuRdv1iI8-4QPBQ7Kr1RoQB_HMxVqEFeh6Umlu5YZeW97BDonxnZxk2O6A=s220",
         "view": "https://drive.google.com/file/d/1iOYtCelrqtAc16hmzC0QmmncTiUx57iT/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23015",
@@ -377,7 +444,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXnYWtRrfLIYCe2BxYLaQbeXleO5v4AexycIeTw2ztobWvJ7JGvse-OCZvkG7RLmOwLSyeIAi4V2MNw7OICF-10TRFnqe3t2LfrpUwrYzeWK0MHQ=s220",
         "view": "https://drive.google.com/file/d/1p0GIfNKIXecGC9MBgzC4F8BAsmUTB4qU/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23016",
@@ -401,7 +470,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPga7lvzoF7s4T9o92K2TGtYp_Em1PSAXn0Q7Zg1neihMpqHM9Fm1XlOSIL2TeJvIyt48aEUhCX_L3vKP5xb-T3C1o9NiZMonXg6hbyslWd4BLdxg=s220",
         "view": "https://drive.google.com/file/d/1wRn8l8AuxK--vxGMdm5afKV-XI-cBGd3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23017",
@@ -425,7 +496,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXQXU0RQLuLO1-W7gmMiAl2M3AxGfyRVzmQJkolEU0LLFSyr4sxQkvYknI-S685U0lRiRhJZtM4nBgh0CecEv7YjfX2LMFrvZvdKDdgmsH0H9cvA=s220",
         "view": "https://drive.google.com/file/d/1e36wZJ8M30B4om4S81COxT7VQ5jNnDp2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23018",
@@ -449,11 +522,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0ZatxN0tY0G6gu80xWCg507Gv7LxgqX6elVAX_fP6uhNAqp6jboKY4BGeHslgkmN8hwa3I2Rh2Vhbf9ypEFH0wfeqhQ6mAtAu0W6F_oJvUC6v_B4=s220",
         "view": "https://drive.google.com/file/d/1ph1U58dFyHJlsuyqkQy6SfiDRk_KSjrh/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23019",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -462,15 +537,24 @@
     "_folderId": "1OstLlkhxmitRE6ysfwKJPiIaddsyanPO",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPt03L2ZJ4j-mPsIWvoAl7wLzS2oRy0be8F-b5PlWbOcUasAvjLRlYKsIrQ1rbbeteZrGVgSNJ1AbtcxV519NT_yUwvF4f0rppzEJICcb0fqY0-KS0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvgEfcODwxA-BfrMODvfg6g7L_LznlsXjxjy0xNTh5T8x-_Ad8YiFNRml0PBv49zTxbhc23eoOBrtMMAh4HuYmPBT-dGvIF2qp9Ut3j25Lq55Lwvk=s220",
         "view": "https://drive.google.com/file/d/1mz2_rjF2f2Ui4Ga3GjZTR-s-0Uy9Z0lJ/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoNH5nodn2m9OzC7myG7quD34hH3-WqKv9vFK-M3L52FRfKHBnkCpgeGx0lP74hDmRjHvgOGL4OVZSE8a_QDJr4gSMUmN2xicV7Z87ch90faGxQbs=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5A8OX1p2uu1A3FSefK4a27Z7YF5_61czMHnwLfvYfQCVyzA8llQdnNh45L7_irElHR79vQnKX3LHwAhUVw478WqH-PhX7xyOzL6_Wat9HlEJuCo0=s220",
         "view": "https://drive.google.com/file/d/1J2GNg3vFm0M8O7k0dn7_6gM44sOUrwIk/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2302-80",
@@ -494,7 +578,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwdeHXsROx5ljrPUdcK4Kbb3DmaTcPqigpB0l_aOp0GCALGUyvEUcw9-mqqChi9ZJo1SSgNp6x550LfTWUqI7BMCeEffAzPhZjXaMrV7ua96f6WG0=s220",
         "view": "https://drive.google.com/file/d/1I0MIBt-B6Vat-YwLn-ySwJ1kUb4_OJ90/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23020",
@@ -518,11 +604,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLUSBuUrsawSd-5fIkVD6jEY6NzAH3Rbzv1l2KHCsIPMBNP4ALiB4K8M8c8wrO_uM1A4UpaB3mxlSJrG7QRBNJRtR3RQHK6_HQlotlBiKD5QZilYM=s220",
         "view": "https://drive.google.com/file/d/1OyhEhDvDY0c57epiue_pprAljkAZfkke/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23021",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -531,19 +619,28 @@
     "_folderId": "1u5gsbiJADKK7IFsVQeq7HV-N9Vve2GIK",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiDB2KgfetACaZEMphhD1Ow-71FNgGBUlyvea5VCciR7UsnHN67lkTWgFSYKojBnbfk-KfNdHxbAcwy0C9E_DTV_PWnbc_Wd2U-iDVWSLmSvxyCac=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXJRuP5hVU5tGoVTW_Bay70DL7aPWiewtGxytJd_jAjVJMeBBYHjUK1E5DNF_6XG37_QYNzi8_h0H3637rP_CZygf9ZapqJAglFTVXrKOpIQ26a9c=s220",
         "view": "https://drive.google.com/file/d/1Rej_SF-Canub7EF7ohKrblPuggAFXbfB/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPvF7T7WFlvl_TE1P8I7GoHktIe0iiSjGsNfkKLa-mTLEYPy9AB6vhixFD3UbKj7rQPcECRCQOAHovAn6MrWgFzHf_tXTaWGUL5Emst7UoiKgdeO4=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOslj2sA4nDh5FUddiXxoBWxMNqD6ys4RsojYzYX_kuWylgQPin1jfNwd-G4R6gWjKkqyk6Sr8SHmyqoznMFFBmpWMuGDL-h7M_pQi-kNEyNPRJjqU=s220",
         "view": "https://drive.google.com/file/d/1jEq7xrmfnGiPYC_LddGvWY5SBVCwkHjk/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23022",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -552,19 +649,28 @@
     "_folderId": "1-zgZfUpVhteoxLLtr_SooATlJinhb4nR",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxXifbCQXR7ZSdBRf_IncqJepc9gq6WLaOI9UrbRLegbqmGn8i5QSGWVXZjIMr37U8xT75TgpMKl7VUE3wtoBadNVhAviRp6w66nrq1lEhuv7KHC4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNviv3MQ1E3AwRjUcNsCmbui_qIx0Oy4qDqhM9x2E1QpfviDpHyqE51fMYunQpWCLKIuNJLMbp4XpRL_FocT5pbTrtjb4U-smMsG6LbqaQZbodXGSo=s220",
         "view": "https://drive.google.com/file/d/1NJoJxU9GqpZ15QZTF6twAZ4RLY0REJv0/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpcaP8YTEF0E6naLwNIGfOQdNNaiyDL3F2nKGmU2nZa8yPca2aoeVGqJA-us_r-fW8Gq3mqzWK3JG8FidD5Y5zWEh4RebN0c-UC4QEkLiMV-hShYU=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEzsBsB6ulXQDuBlsIXGntLXVZ3FW1lokRch7_nDPrye99HjpkDRvaCOScHsQuATG5EcXxFWY1e7b4iMawjRiQPFDrahTCefpjkiUdPjmfNh5QbLU=s220",
         "view": "https://drive.google.com/file/d/1MWZCbvpjodP9GmXhzbP8x7kAqCMNoMQ5/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23023",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -573,19 +679,28 @@
     "_folderId": "1fHQRSXf0y_Rvt2X4mKR2BadzAKw8tAsX",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzYKr5umuWb4SWobvtnvfH9NSKHZ8wH3iMI7F3J2SCwCYcJ0MBBNV-od4W_pAyuSy24Cxzp07PDB8894fzBfDtELzbOo6yCkz-tIetYIId_-15YHc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5OzzkKOdLqHKfnBGEaUs5DbpZuIWbc-A8NPc1oqVOdeTB2glGcZ0jOku3T1NGi_oBslxLXiEoUZg27mnkYj1dnqWUoGkJo64Jueh77IRJ3bUs7uo=s220",
         "view": "https://drive.google.com/file/d/1OVEjoJmjCgjdPCmuBz5iKQuFJ3o_CQox/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMj6gcio834_-wRvWJ_oeRvxLPqCEymFAFTxi8HiNfVDx1FiI6unHoXojZcNwQ3rgvo4ZtH0YyE3kYP6JZamDFFqtHoJNT-YlZWj2IG5mjtDDYyeE=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoYbj_G5bVZ7oQTWgPsr6WyINFQ0LzcH_xZgTg0Y3l5OQ0B3h23eKFSg3QvVdG1Kr0T1jlae2734o3mXbCxRZdpcG4u1u-kJ_WOc_E0hepkxLZC2w=s220",
         "view": "https://drive.google.com/file/d/1-Fr69TllYdIX6EDc2gjh0wVnVqARjXLR/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23024",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -594,19 +709,28 @@
     "_folderId": "1zTv634igo9layA0Y8aF-iyU-sFotEnvR",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOX_D963BdPlNlHP9siympn2EbcE4vrh8Be4Cq-jaDTn4gZHm33JJaSy6WnZs5CRcTXXhORiOFZq0U2b9QsQyBBzyBn2V7qyFMbObTwFwm9Oa5QFC4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtJUFeGjOZAWLhED1v-Ijdy_h6_qYPk3PckKb4VgRXWxpJ0_cXsdWu_HYkB2bvbtW2EHKn0vQKWlxQJdMQI8Bt9GSn1B7ykZUanE2xOq6ClPTYCng=s220",
         "view": "https://drive.google.com/file/d/119yVdzKAx8bCFgCdaY4YLYFUaduhlgr7/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxJZeiRsYKHpjOw51e9z3Qh8mIsEroWZz2ys19t8MBs06eSdvR4kU27zk79xbHRozf_jnyGm3iMAXq6_FRHkLBIRDranyGCZXiUsL-fldAeAfcz5c=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHXVvzW6muLqmrlehxfGqhb5tBY2Wzvb6n2tVZH_TGHyrCPItS5OehPHrUi2-PPwjcJCi7ut6mVkaIXoYCJMfvOqoMRsGupxPrzQXNywiAJToPo8Y=s220",
         "view": "https://drive.google.com/file/d/1dO_wO1X1qTY0ObZm3f1M-UgiHvhwXbzK/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23025",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -615,19 +739,28 @@
     "_folderId": "1lUFyNY45HsZXzl9ck_gn9c2-gaA2skB5",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPByhYe3DLodt6XBalxsxulpPyNx94dPWgvn37Knf32otw3i7v7WsTu5kGABW0nMo4sEoPdg7JI4tJ57gJquQkg4JJzpx-zV3ydSRoNeeNIqOzjslE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaegwikBD37Zd36yRIj9FVbZj3wDyH6iAhZGNcUPnSsCNjjjyW_sFt_w7PEH485YJ3ebSj9i8IHBBv_3gRLhJMNaJOnZRIE1FTEwSzJg6cyDayawU=s220",
         "view": "https://drive.google.com/file/d/1m28Dq5SezS9AbfvEsc2Dl9tw4V1jw6A8/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrDOxR0_XFpmQ1aWJYOF9ttaGwyOADBxSMRaTCv4hvGi5jrA6hOvTbqpHT-U9yNXsX2n2Fw9kdCkcV73nP7NLKZ8rBcPkSOUnO6sxo8OiOILvRrrI=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmkjAjWFBkDHf2I81PjvmDEgDBymIWejOwAXV8FTSGdGFuCkQgs4u15qrJk7l8LivXEEZbQAUjllK5RJcelY2JvxhRmILxGGd7XnRLHbG44tfC-y4=s220",
         "view": "https://drive.google.com/file/d/1cFMGIAy3T5NfRvtJP9XT_KkToKww9ozO/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -636,19 +769,28 @@
     "_folderId": "1ewLoFrHYTtLKuXu9I8lwIBodqFingtVb",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrAU_JO-x6w7UO8gvIz5VF9PljCbI3Eik_6npM22ZmvBHKCW_bAU_tdD1AjcPE9cM6c5K1PWaCedEc9vueirySRiX_mnVD7rGMqW7ltp-tchBW9X8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6EWf0-9p29i8TbCS7t8DCfJ5Nlr2GsNOmbBgOddDWI5MfKLjzRgghoVQJ4u-YFc3BS1l2UxmdLSO47hpQfpKDV7xellXx2ZDmSmn4RNASf6z6iFM=s220",
         "view": "https://drive.google.com/file/d/1lOa2kBsvvv7GPhOSnPcVxzz-19U2u79i/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMGW1Rt_oXs9DxdW64wRtpN1m3kK1sXYQ31JKHuxu0fHEGmaTu4kOlK8T8antrfJl96K84YMADtZuV6b80e2uHVvRXFfMI0GTUs0yEjhXz6mOIdik=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRxr6WhGChmqVkL-vy5KQoF0B7ylwxY-mqYol4RLS_q8EI1i6LOuk1j48LviHASzvDkfFqPzuoDyYIgs4x05jg0qXOKDhQSIAqc2Pe9KLMhjP1FaI=s220",
         "view": "https://drive.google.com/file/d/1RQjbgRg7bIYCK_BY6xTwsR_foQQfoPsN/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23027",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -657,15 +799,24 @@
     "_folderId": "1FQnsury_7KrqW4cfJKcWVRbqqvsNsdla",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCqJOb9jdO0da_IUVJu82jiVlg0CoL5hYGV6M6gBJE9I3QfabxZJP3TVxlJqlNL6w5gAmTXBs347yBnNj74dCrRtfbuA75ceHvwk4DGU6c-_CIzF8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNsqxvyO5Uum9HRf4NZ2tUNPxXs3YObL0oiCDY7G4YpxYQDJBzHHXH5fKf0blfo1iGmDlTUcJ4fDt52vgnHaz0h79b8GtKIm8hM7GduESGcXoG6zq0=s220",
         "view": "https://drive.google.com/file/d/12fNmwopmUcdBKUhZf6uqOcdZt1zgAGVP/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz8TVBXRK1J3Y_P3pmttKk3Q-8fWDX_CAix1RMjUg1_DgEkfH1MECqgY_0JvKRM_yVnNO-9HgsKCJILz7KX4hdy-YUg3cXMGdX7OA7js3wNII0Ywg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOP3bGXtuid0LNQhe6GrRMH8CNV_PAA-Nrr3M0DuiLQEvH_uBPAQHUoPjDRxE6AyRnQFbFGm3QQ6gucfgSPeLfkk4eRJKlAJglDUttfRReFlymvKtI=s220",
         "view": "https://drive.google.com/file/d/1MMF9bOtolZ7rfrtku86fJO7CDNrxfgbv/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23028",
@@ -689,11 +840,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCm30iITPpFwpLC4abJIvkBGTSZ4w1MVdtG_hSBbgvi99qb6ediNmsuk97PQhQf2GhLqFTBuO14Tya02uJ0sZc8pnR8JSIPkzfeTt5yPpElWsYSps=s220",
         "view": "https://drive.google.com/file/d/1-gdKS0J9meT115Vkox0Vj7dHGvSnafY6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23029",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -702,19 +855,28 @@
     "_folderId": "1w8Rp_4Ry305qKu3pKpZp1vGQ4BvkOEtJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcGCU45hIhKtjQSjtLXq4nMdhRHpmzKlrkMXTJFC6i_rHYbWuq6OJamwncCSjH5WdfA0LdK7oS9FUlDbvpGje9BIUN1WQE8XQEbc07LkdXVeYtGP8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtkEr4wV9kukcKnieu0vwYiGgMNsYwZ4b3KgC1JdrDxRHYg7wRhEAuriFmbAMmUyGrmE7l-9_M9JYzlR7fq4SHONjuAUg5rqjMlfTnd_YTssp-0kc=s220",
         "view": "https://drive.google.com/file/d/1r47gxy2ntCPt-AczPsizyJq3NWlnBisJ/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkDJsVFHzLVr-LGX5edns9XO-Y-rOrjFnaYzhaAnvHGPbso8FEeckEoO7wi3uRxDbQlYNZ9-vOpva7XgktBVtg03RBhXqAhGfpaorRFyWbH4UenUc=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqhd9JJonW9abI2_HTnJVX8gi1f9p0X2Y6iEtvOcYr4ZVTB9JS7tNCnTfjBlrPmNxvk5-TZp1P0Q9fqvQuGwB7HjNmXkcQUtasAmWOXN5k9vfiSEQ=s220",
         "view": "https://drive.google.com/file/d/1IrL3BVXVxUruzE-VZaSn_toDunvp_fmx/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2303-80",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Cerrillo",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -723,19 +885,28 @@
     "_folderId": "1wiGbOcEI2jYUx1FsctwbgVzBVR-5naeB",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX9NO3MEXHLRRYQzPVHQcZRATQwwwF4Lbaiw7O-MM3Fg67ADiPYwmAgGJb4LyBYzZj9va_W_BT_LJZ0RXosMaNOEJmbEy9llSjc88fGM6rm1x5RdQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0bSo4CpRiRDz8g59BVssTvFaaBku7c8ZNOECjcJXxVr_LPN10Bt2wEwTggbH03HuLmj2hddvHlYyY9RByw81-mjl6WBhjAb_qYOv2ycJZLNMh5Sc=s220",
         "view": "https://drive.google.com/file/d/1l0zbod_xhenmF2r87zaLTOjPFvHk53TX/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgcWm5-n87gL2rvM6WoMe3XaQdK7SKr8fqME5x8MbxuBLMifHfvK4LEOgXBdc6--CT7N4QBfQkwwjb-xhmoqWBTi5jThmR1UKmj7qB7uHoc-YIXJs=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcVOkAm8Ab_u-YrN3YkwfdgllURf24FbIMe5pcp0zjOoaMuYCdamG8rNK4_-5WCe3zaO_YMnI0ekvM1EfsWdIqjLdgTOUi7RZNkH65Ls-2KT9KlR0=s220",
         "view": "https://drive.google.com/file/d/1dt2evUE3mmdvcApdFYL2sksdxAzo_Bfq/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23030",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -744,15 +915,24 @@
     "_folderId": "1rkt8EOUAemwvHR3aBW2BXmV8ibBLhDqb",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiXGFIlaAhsT1KKRyMAJjZePaAE9UlKWJRLF8_fTf2RSDy3tP2Uu3OgpYYRb5PJX7sX2MpbkqE74sR2Dj4VjTW_08awIDO1_EEdk-_5jrsheSwqAw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHP39YEP0EQnCR4uj6uHwcKYRSeSJOD-CD2kkuGWp2I_f9z8qUYYfLx2fznyc1zk3ky55tDA__VlJzMvz3HwfLSOU7uvNPPftn7esXtVCLC-rifRY=s220",
         "view": "https://drive.google.com/file/d/1BNtyu27WuIw_PmIpj7sLcqkMK0jH0Z70/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVYfsFrkZbMi6MLUVi90A__bNr06RExh6lVRg15srvNJFZl8TqRUtlDRZPrX9Hzmd-VN8mAZSip8mPvy2FZrpXxLrAO85aPuGAQ7UeCwU7Q62D6aM=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFSsjQ8qag5CiITCmbffrgl3olneadA5GoCdDk7TOAgQiXSpTQkSVh788Bp4tW7wGWFde-hS13IEQEDZenuFbM5RpAwrr-NwQIKcrevcm-srpvMWY=s220",
         "view": "https://drive.google.com/file/d/1K4ZMwnEo-f3308rV3DVAaa0xqOR-QPM9/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23031",
@@ -776,7 +956,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhPgEYc5bWn8jKs8SL0Pgb5sp7pAgPm4MFzFIVpCX4D4e5QhLvduyXN3qOELY_RDL37jIHIUIAkTmO0lHx7aMQDS0F3uG68uvoWRo2LVsLGeroM5c=s220",
         "view": "https://drive.google.com/file/d/1XCFCrcNchdwUfAvo8A9DqcfQQBQOQIX6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23032",
@@ -800,11 +982,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeethiHI9tjBbWclpZ62R7Wsxu492Uv035wpmPzm_Isu7NMekLDBzzV16iRE-Y5L45U7o-KsNuuHf57Y19bE4_2Ha_bIlv16ZYX4tBGfOUK43GEFM=s220",
         "view": "https://drive.google.com/file/d/1uo4fsHjZxtrfozu7F-3xodaahswAgn4j/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23033",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Del Panteon",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -813,15 +997,24 @@
     "_folderId": "1x3crToYsp7SN8qzSg_FoJ_6jEBBj7OX3",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxMB7bNOFjKxwFzt1XCadoF7kSYvxByJBOStSpvkwws12-1iZocDT_PIjG8TPL5glqrdOWeEXOhkhIJtmBj1RdNotMqqQby9PEutEyuKav86iwUcg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtKVfHvJiuMGHqms4djHtB0UBqiAsAQ2dNxm_eWihe00Eq-Sqbk4bhyDP4kNkvGOkg0xbuo_vyKVIlexkNhHYWOrkiBtiYaQWcFyUEJGE16DfubRw=s220",
         "view": "https://drive.google.com/file/d/1RPiiV2d021iKFA2MQ3ya35ByiRI-howd/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtUzGH_lRjbFk4lQHkVGpEvzlDjQSCfH_HTIXLwl5Ehre4i9tWDC8t8MBGL8zsom62P4I3FzKS3IrpiA1Tk5syfxQa2ulzHKtaN9b6VEq5_uXe_KY=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4ouaPW5HuVZbE546goz22PVV9O8tkT9_VcYSQlFy0SOOjBQ3FgeF2tUk8kXvB64bLIm2Qs-WVxtCMi882PT_NaD2bL5EiU3EMRU9m-baR_xXKOpk=s220",
         "view": "https://drive.google.com/file/d/1452cqTKKu_-ydHq1nvbKAE53A60VvMoJ/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23034",
@@ -845,7 +1038,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqmHXovmxwuXLUSgmo0wtO1M0inbEVRBb2RcxzBO7amyFnxA6mlismHyMwbFFqh9V5BGBUM_q_TUNHirUQdgjnxXlDVJGWtgXXJjEfXt1lCfD4I2s=s220",
         "view": "https://drive.google.com/file/d/1RBEyMAXl6t9i7nvy5Yik-DV_kvpwH3zh/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23035",
@@ -869,7 +1064,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJRA4TB_ulnpj-BPZsvkwljeRZJrbDnXnnXL1ue66zNKbkA4em85IlupGEwio1QZ7ZwK8pDUp2WPD59RQH-RXQiu-kQYv4vNeDH1VBBcbJwimiek4=s220",
         "view": "https://drive.google.com/file/d/13s786XMwyPNTexgewgIBqv6bI0lQVeJH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23036",
@@ -893,7 +1090,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRO36f1B-7FPJbYB8pTzf7QgF9qlkUF4QNPVR0ccD0aXV2mmFFVt12M61hifFzDKcPhvmYa0WATJNxTZ2l1JXXNApWZ8-VDm-j7-BoadVvsOH91-s=s220",
         "view": "https://drive.google.com/file/d/1r1Lif1px0432KUQmXtcfvD9jELQIGnke/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23037",
@@ -917,7 +1116,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT-mJxT_zmhKW3mfwSC8xUsoZEgHUGIBO6xRcSJZVZyS0jysXj-59SaS6bK7dcIje9i_nqjK317-cxXUGYiYLypl2RcUwsDzg9YIjJXQxOGxs_MEA=s220",
         "view": "https://drive.google.com/file/d/1mCXvlj2l0e3-HhZ2vYW6Q3P26Ah-udaj/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23038",
@@ -941,7 +1142,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCbdh6hjUhsTt4p0LYqV-LdyqX6sreqDD_yV6yU0yt2x6POhZj2BIetih4opGq6DXbeHlk5xsdlJlEMmam3JmjYt-75MrxaFCV6-46ghbm5iPZ25U=s220",
         "view": "https://drive.google.com/file/d/1GBZKSxde3avKCTrYC-iC-cHrKxB7DFbH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23039",
@@ -965,11 +1168,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0d6OweS-5l_S6nozPBenGhlmWEP3wRryvmZAVdzcal_776DjQGwT3U7R0jJTDlFR4O8HvwAqgI4YFj_Ky73LcI4n9TsLf8pAXs7nMbInH8_O7owg=s220",
         "view": "https://drive.google.com/file/d/1R8OzTvsT4dHHRe17Wyc6_qp1y3qxFlg_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2304-80",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -978,15 +1183,24 @@
     "_folderId": "1FGvNb1LGQjSPIYbSejhXCfChWokc_6id",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk9aVaW-e4GFop-Z-AQOEZzh19rRwjfsTDomIg3QmtkfLOnHutwJ78hhDZVPojkBoghCPARR6aMEv_ftwYYAzh4lVtJGr8P799uQ-7T5n-sizd2HI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUE4vEB4JuhzeWxiTRdlluNujEUz47FvCR356Npg4UsO54iLeV1vunJBulGwcIcjSKJ6hxKNyBi4IDO6mVZ4Teg1S06Yb_Y44cnm6TpsiC8t7nddU=s220",
         "view": "https://drive.google.com/file/d/1-eLwZ9_4o0HUBb9p5ldUWJNbE2_kAvkz/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_M9P193fFROzlFzkigW_CfrIy2mmQUW8h4Wl3begaf3iEEficR1hnu63iGplvmdjSmABFcAOSmRuqDuQaBYlbITzQZiVX76-qmbAWztlOPIcmDcw=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcVUv4U7ycW5ECYzOZLlSP_vTxws86-iL8PTAVHJQP3UGXy6HKW_3AWk2SAhADBV5ym1Avg8_xeEDOSNO2ZLcbjDEk-Cr0xcaf1X6vKAUD29rUF48=s220",
         "view": "https://drive.google.com/file/d/1glxZUfMT8d3RwBjfMG9Y7vYM3TsM3zY4/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23040",
@@ -1010,7 +1224,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6U7cX_kzDI2pYX3Q3PuQ_6urI54BiRQQ86ZqwVM5tixH4DEvjO5t-GZiRBa6NUeQdZVYCik7-HxjMmSnzIKvBDn_LYmitkbf4cBpeYlA4TXbA8AU=s220",
         "view": "https://drive.google.com/file/d/1ZXarcwbGaGhL4vepxMSXr5W3O474wtYH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23041",
@@ -1034,7 +1250,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRyOFoXvivSDgW5K3tzHVAwo9WqoXIPv79b4Cqngkcs4V4uxHNspO79aetQ5Vc_xj2sLH6P-A_7WMZV3pHjCMqx7xqVbr98OP_yEjvwF4BR5ud9PY=s220",
         "view": "https://drive.google.com/file/d/1sRTnixfZCkJgddEQ0v9U9QiWBlDhCAHL/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23042",
@@ -1058,7 +1276,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOt82-DUZBe9igTzgHvgQ6fauxrHy2d_3pBvYpWiLk1iQUbmAow6ySffjHdE90usMUsoFBXvypjCa3TQG0RWgYI1Vktn0s-gx25M274rcud0T8FoFM=s220",
         "view": "https://drive.google.com/file/d/1hHKd54v09sAF10u3khaZ4HpM5CJyMgAi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23043",
@@ -1082,7 +1302,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwnXHkypnjy8REQoMMKnLbM4ytoQZBKlFgea38gFEofsebf05y77KLyJl_3HktXehUzeLn3DvzLVFS1Di4nr6K6aa8lHtT77oqpI9RZ1rKABmD3gU=s220",
         "view": "https://drive.google.com/file/d/1FoHq7X5QiRd3V6VudBEuWn7s6Gnj5606/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23044",
@@ -1106,7 +1328,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCz9OwJoDBK0r6Hv_gKFUgIN1zndSNWE0Ni0T0OZr0syeE7zwE3nE6mA_7WYgbcJEtXyEI8WwBFONzsD9l1XxS9dxDNw27TVWM1s5sJGiiLgr0qnY=s220",
         "view": "https://drive.google.com/file/d/1em0QGXLwXlAJt17EIGmuYEP49CfGfa3p/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23045",
@@ -1130,7 +1354,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmd7GRQdinqeTyNLXURUMCgg-z8fraQocn82dsM8AIQi74-unfm9e8fv8NIL7ouCERNUW1hkq5DAj6rmzD9f-wRs6w1ydth5B54FUJWZQYqwymxQw=s220",
         "view": "https://drive.google.com/file/d/1jaXC-UBfExYqXbeRMeff9bv6_Jg32TsZ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23046",
@@ -1154,7 +1380,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOos2BfI3ZvQRTwMFiqnILFUGJQN3_Q7dK0hY2_CFHUKb48j8gnsb73QUf7T1A6Ug6mI5CGqcFnTyOicxC1Vsc26jLqq0VrkQEDnwdS3EAjFqc4_7o=s220",
         "view": "https://drive.google.com/file/d/1N_kTCu2w9K7jS0E0XNW22YYbmV2JN59b/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23047",
@@ -1178,7 +1406,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGXjw4PSQPDU_j-nh4a9HP4bapm0GwsyfRmV5RIqNe2xxjx9MkOkfYeiwAbptTVoXCn8ks4VHmpE5f2LS-EPhArTpF9z9WKpCeBWFnIxr0spQ_Kx4=s220",
         "view": "https://drive.google.com/file/d/1nlwb3YiTV8DfT9zuu4OSxl-NPFsMRSHU/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23048",
@@ -1202,7 +1432,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcGelam0q5R1ng_PjLi8UCakK14hthF7mfu1KHQLW7jEVSmcXgfiRWbk3DImolDLZSBRkZwkiaF_F5yGZudSEKoOD-6DaUUpa4b_xAqB6sbklXpr0=s220",
         "view": "https://drive.google.com/file/d/1sBOIA7JNDP6CylTkSvSscNxD0gqb8Eyl/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23049",
@@ -1226,7 +1458,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_kCd0hVN7rfbjaxy7uSTAMXuyl7lrjAkAMssELme4Y22CRY6omXiBBol2m54lcFVIR-Ceck5crnZIXJxPpHPqLbIFkrF_XrlO1D4rkwz_kffsOp8=s220",
         "view": "https://drive.google.com/file/d/1aMoVx0ftwNOVGkFtBSZDz9yFzL7PF8_7/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2305-80",
@@ -1250,7 +1484,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMGjGeBWXob3Vk-fGHQVim-yQDuVvj9fjpJKT3aNll4cSQH-qdvWGMsfwX2IEOPcyXxqAHzTn-Ne2GjsgvIHgH7VmmgVDLL0tcWOVkaEzub5VIj7s=s220",
         "view": "https://drive.google.com/file/d/14FmhlYLj0eHv3kpFenYTGPxfmstrg1ep/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23050",
@@ -1274,7 +1510,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDzRFoPU8SgepL0ASZxdiyA3k1XSs-U1e6KWjsCZ0AHGnaeYIymV6QRd3qRaeMNijmnHmbv_tcw70D8XSWB86NHC_VHX8qUYOLfDaRy1MqfiU4Ak0=s220",
         "view": "https://drive.google.com/file/d/116eHcALtyPrZ1YDmKYZQUJ2hnk66Ldhg/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23051",
@@ -1298,7 +1536,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfJ2qhg_JkBVQ-nTt9g6Cbeuh6J5N5qNEcCr9v371k4LGiVKeQgwAFX7lADZ7ddvwuXKSC2MJAYJVc-3XS8Cs_Ima-vcije85hnINsmwlzCpDkyeQ=s220",
         "view": "https://drive.google.com/file/d/1IjJXuWXFbZ6l6qcP4f_heItNeioPWl0n/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23052",
@@ -1322,7 +1562,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJOxOeVBgHXNLYMBBAeBiUyT6aUacKiF4bfkSme5NAjo6Fn8gyctasfWFPoKATGCIxe6HPBI2SXMxp4dAu3fG8_JOMLw0uzXXKZOnVv4WcIzGClTk=s220",
         "view": "https://drive.google.com/file/d/1ob7iquN8yC4wu5C0nNe8QqWk1EF3cx43/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23053",
@@ -1346,7 +1588,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXDGnKeTIPErt_ifIU9Wy4Ohp_UaDKc2s-PlbcjuY4fNB1A2matltl-UL20unB4oO58eBBMWLpC5dmNE5Oa7A1_EPWWSKjU3dkE4j-WWKekBfpnA=s220",
         "view": "https://drive.google.com/file/d/1f566AERw-A2GeiXe0_SxtZSumHWkLeeP/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23054",
@@ -1370,7 +1614,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNva0E8F2LemwVsHjYdwVCGu99S-OBA4gDQEKKKhIiNDYcauD4HyIRShjhBOIZCxNmhVw-NgK9lbtjX-ec2TAdA8kXP95sV-23gIxSmkZCtJPwBvw=s220",
         "view": "https://drive.google.com/file/d/13xDvirICxuYAF-ETTKrzisDMYKYJBY0M/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23055",
@@ -1394,7 +1640,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNP-PMS5dF7NIA13qOMsgHZhAOd3_2zaLRsN705dbOV-RmX5peWt7MTXDd142mEsO0vqNiZTuhCzIxv-K3kcNxx5b4Mx8MYgXUqtkhQoS4kEn1IGg=s220",
         "view": "https://drive.google.com/file/d/13P60TYRfEj0e8Yct_aOKdkcipEvzARua/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23056",
@@ -1418,7 +1666,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOVV3-4aXtLkYrZcyQClis55vZzbDP16IchSGRFb9z7FuIpg1J3djM7jCinpeCYSdAGgRSAlJ2u3SOQhaVKRWOmzjYR5mEoBwrnNYf_Yz8qK-4tw=s220",
         "view": "https://drive.google.com/file/d/1l6ZjIdHBi2mAtgxznFnAa28u2CaFl6N1/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23057",
@@ -1442,7 +1692,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYtFZ8qprTXGX3CBVsUv9nO4qLObiMne0wECJ86h9VrcxYfdo8m6lwwl7kbk0Ene5PrZh7f96quiFxTg6rBiOBy63RH9AxsxBphjSd1jkX6D8Qdw=s220",
         "view": "https://drive.google.com/file/d/1gzynufDgADjERC78aHt7QkSTgcEdTFR7/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23058",
@@ -1466,7 +1718,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLWabdmL04lkafRdltDlePQzxotvp9CC5sLuOjM9K5K1IA_3YP_1_Fzx1h06aUgpEJR5XHjfa7tooTfxlCJ9qgfVCTi-3qtJp3fg3ECJ3o4drKKw=s220",
         "view": "https://drive.google.com/file/d/1u-P32C7DfXawFXCBb4bkVF4Oog9xqXDY/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23059",
@@ -1490,7 +1744,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpJg5_ixWV-1QVVEO1JXCnesgK2M1uyS-CN-vwBG5qc9zBB1mXbL5IHDEb9UL5bXlPV_fdq1Nsq6vhdlEzKwHuNr14BqdccwymGRXWXUTdhBDc4g=s220",
         "view": "https://drive.google.com/file/d/1r-NineFY3zr8RtnIm9Gh4HlV4PdRsJdf/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2306-80",
@@ -1514,7 +1770,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIbW4CKWRFjx-COWieiEijFoW0eA0TETZwgjrSLF51g_-pvHlrjkVs35Gy3aER_coOcx8oXcKwfNG3A92jTkffHuiH_DmaWqJdYGn8j59VEGK9hQ=s220",
         "view": "https://drive.google.com/file/d/16Bh8uQfnE1q8NdbgI64iGUFfPE7QHELz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23060",
@@ -1538,7 +1796,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6sV_CT6tELj7CeNfznGA4I084ilwq393RH1LHjQLELQaueP1wMHigAoZv_UBuzPP4bVsnPm1kWJKHDUbdRqRgJuLNRBkKa42Pc4TXHdcqU1ai-w=s220",
         "view": "https://drive.google.com/file/d/1FEjcQtSl21JjR19OfgY5PLUwwD1seygK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23061",
@@ -1562,7 +1822,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODck9XLf3MkRtO5y7uaG-l2mtMM2m7Qy7W331L2hdwr-BIjUaCGNV2AU9Z-iRQQV8nZS1gFzM-rn7ls7psZN_YhK2eEgAe8eJKAKlibKzTdWxhzA=s220",
         "view": "https://drive.google.com/file/d/1csMIEYw_vkgb-PDJ5LUy9tWGp8xZZxOw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23062",
@@ -1586,7 +1848,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1mjL51czDgS1Af9sp4SXKcqWoXYLwwLD5VAtb5FOlp9rBmns_RGVMMJmHd7szZjFUEC8-7nOCnKVLuILub_b8v-e7czn3W8zAwrIK3VFZBFd-_Q=s220",
         "view": "https://drive.google.com/file/d/1L4clhrbEf91DlBTBZZnS8aPjP-Oq2CDv/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23063",
@@ -1610,7 +1874,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCxqIxcBLeI-vC--7aUBkVVx97MHCLCzOdojeHjtPpIvGYk9by8aWZ48JFNLprTPeYfki7on6LW72ec119uFdWLngBFS3TDH6iVcuLROS9CagR_w=s220",
         "view": "https://drive.google.com/file/d/1Nz7p0Yy3nB0AN5mwI52c0R8WrOOdiLqp/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23064",
@@ -1634,7 +1900,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrLALsaD6Xlviy238RsIZqoamD3ugXt-xM163TK7a9zMc-qpKTQX-768sNPp2HmIRyWNunDUWvo-kvAegqc_7hyJ0iy-yeKG2RlecwCHsVz76gtA=s220",
         "view": "https://drive.google.com/file/d/1k9Tn92YV5gO5lSfVQn3kmqG_3cERC_gp/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23065",
@@ -1658,7 +1926,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnpKviDqmnk_E-h0H3Au-WbWbyGDTjHCoNRXSSMof7LL_0UT8hlupMSyPWxrNbkXpPcHWpLDfV5mc_hXlFYsBbkEyqmDPbEVlJyqmV52yf9yU0Lg=s220",
         "view": "https://drive.google.com/file/d/1bP2gjTLZTUSaHx-WaURnlTvUC9LEUu0y/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23066",
@@ -1682,7 +1952,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN94aX5rMtJ8e3HIsWW1k9RguBzsZCqM8IzO3Q9R2rUrU-N4YEGO14oVuS8XwBA59HE4xy8aRP2_vvVl_iyrqSIGxHRVurTHU2f-a7hl14lGXVRbg=s220",
         "view": "https://drive.google.com/file/d/1GnrbpfPt4sLXm-lwRrONt09EN_nsbNZG/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23067",
@@ -1706,7 +1978,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcZg-20D6jq2tfzfC5LVikBZpXhFgq_jJZ6ZA0QOL_i51Kw2j57ll_V9WBE-uCaXmmAYvqHNQTxCA6ZILN89k6VY7BJ-elQNsp9G6qCY7GfmCfTw=s220",
         "view": "https://drive.google.com/file/d/1lS2V5ss-abl0l2wswJ71ZVG-cJkiF9SK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23068",
@@ -1730,7 +2004,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp-ufj8wHmjgI8WRGWI9dyS8_01x_MllpKqCJkV7NoqK8H7qKml-19IerbYGMrC-XO6mLg8z8xj-nmRdIMYdaEZtnN3lbzCwmnxDikmf785Yj6Ug=s220",
         "view": "https://drive.google.com/file/d/11rA_yaZN8Jh7uQULP_uBHozZFAkWletr/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23069",
@@ -1754,7 +2030,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNoLomL1BRcQ5TfE0E3vFoGE6KJk3L2HwJcpddiq_zSPyMzPfr2JBQqoVpTUSAKuadWjXuUFXJAg7SoF08P0nG4XsG8GDXMfm20YF5G7AM-Ace-A=s220",
         "view": "https://drive.google.com/file/d/1FXmYFKNJQDyaxfrF_MEZ9LFgKwKoqlA3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2307-80",
@@ -1778,7 +2056,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzpguLh7T8i-sw1zZpjCO-xbozQOd7nhtDne8zE3_X_4cPOQgM2k9-1VG8VhqUAgMW2cWlOf9cJiDioYXbYAamWEf_PiNZFD37PXRedVlyyL0mEQ=s220",
         "view": "https://drive.google.com/file/d/1jZf7QnBsB5ZHDe7fMCmlUgpOn3QVG65D/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23070",
@@ -1802,7 +2082,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPl2Scj1DugLJkyKxDZleWqXrtBhrsaooD2r0YVBRoysA-f2K9V3qbqKh-MCaCGIfudvqDZvti_w4Q0rL4Vmmzb9LMrn2B8NLbMKLF264jEFwZG2A=s220",
         "view": "https://drive.google.com/file/d/11t_OIzgGnQXtijifibgmMLgSxAuBaek3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23071",
@@ -1826,7 +2108,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoetHI9cUB26jGNy8kPPF77GL2h3_GnNnrLtli_995MJbtg08r-HWrp-fX2RpPp11Ay493H0atMS0R5gRt2W0EPMSPGH-WAd3pvgG4mopAOhLMyg=s220",
         "view": "https://drive.google.com/file/d/1KMJdmVUoOAJsgVJK_0hEDdGSQX-TNIHs/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23072",
@@ -1850,7 +2134,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzGgEzGibdP_3WC8CkS7zGFB9Sb17unaphljS6SBxK3D8EzF07YKGmohwIDmDxzbUXy1OWbD8VjHsvAK57J20P37GxdDm4l8WfxKjBN7aRQpQ79g=s220",
         "view": "https://drive.google.com/file/d/1bB6dfineQhrmvbS4Qpm26aUiB3iSOChx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23073",
@@ -1874,7 +2160,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTC2GCuy3XDtRVxQpQS7AJxSi_zMqERDQrgdwyHXv96gl9eoE5M8-NVIPkQUFMraeWZp9r7J9qm76OAtyb17_2jf0JcY3xqcArZMKLl-HLSXlQGs4=s220",
         "view": "https://drive.google.com/file/d/1cQgPOHTlLoithniWZ0sudQhDE05lvIrX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23074",
@@ -1898,7 +2186,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDoJdYhztlCTPdeT2QOL7BsAWEtNmYqdEjA02QEHIaHx7thMcNVvCy7jcNEYCumCxRvSkVms9TxEXUShzyjjpRxZnFJa4qqdhN_jScyQW2ER64qGg=s220",
         "view": "https://drive.google.com/file/d/1YP9JefGyp-oFmriz--QYRHvV9QRw1lU4/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23075",
@@ -1922,7 +2212,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9WtHvaKGZtDFClJ2ZYp4pPkqHyPHKMfwapYGyo3mkl34DbuwVU9T5h-SVtiyoJwPCEO9hj9NiHnuhcp49A-JY2_xlgQnP9NaDfoM8T-0ZvUSKHw0=s220",
         "view": "https://drive.google.com/file/d/1EBvGp3e-J4M1iMVijTaIktYdJIGPXPGo/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23076",
@@ -1946,7 +2238,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMFxvgi63opZqofjxFZsC5SFcYgm1nq9NlFP3X3ZagC-u8-5aDmA-lmSLr7d9XB4qlTfXxEdmtV5NB2JFkkzBpCBAFN6-2b1zKDk_92IF7uzgEpbo=s220",
         "view": "https://drive.google.com/file/d/1tKSuZqDJddub_0TOQMpCycs8RdKX1eoe/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23077",
@@ -1970,7 +2264,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvoyQ1Z5_yJ-8vYTqVMHJLaT3jAqkYfqSM96CvooqFBMNQTRRa-mUz9imOb_sOjwzf_hpCthGpB0jLSgyOg0Qufz9_EOeg2qPzi2i2fy5wqtetK44=s220",
         "view": "https://drive.google.com/file/d/1kmrLbrgiKLGUHgSl-Q3cFKdydAAdIz6R/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23078",
@@ -1994,7 +2290,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPywFbN_QHqKbnQZHlHPGnHoTyAl6kwRJSIP-TMVuXSW16ESTQ0cTsiLFdkNx3-8K6HMkrw5Tc43VfNlCmkwYcDQeE5W3Xicb3s5z1IwnimLE7du98=s220",
         "view": "https://drive.google.com/file/d/1e9X65N8HloVzIn1iX_fRX9x5jlWXfjhk/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23079",
@@ -2018,7 +2316,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtbIDaEqVT2Nzu2Vd9h63KzsGS2MvSSSTqek2-UpOgf5odfyncsfEjomDEIkJRxLThHoUH3NazOR3zLRqGWZXdzP7XuQSqFd_UkIHEYNcAF_QSoYo=s220",
         "view": "https://drive.google.com/file/d/12anHAYpGcw54LtHneQUPksIgPict1vyy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2308-80",
@@ -2042,7 +2342,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMazorlPE0JU68HUwLF7pZPN6NLGxhwvY1IyU1jGNJEI1V8p-U1B5oK55mWhffGAWm4Zych2i8ZkGD9FmYQVAMn-BXua_CjD5C7M2BkpzSFVBk5jw0=s220",
         "view": "https://drive.google.com/file/d/1ZfsXm9B7Sx9vMbzTyeiPu7taVzZgLmXO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23080",
@@ -2066,7 +2368,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpLwpBCgmogkBUiQrLORzKq2Xh7RxJ8GLid9b8U0BcfOFrni5BRauxlxNYFjyFvrP4H4NCF5gjQOLtK-HZOGspUDFBPqid5MtaLQyxFh6N-xWZ4GM=s220",
         "view": "https://drive.google.com/file/d/1iRPfhE3DJCTF1oXwa8fnD4hdKsYMaEol/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23081",
@@ -2090,7 +2394,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPaRkHaqeNpRsMnjBsPHb76Yp-XH6iLDoIvE9Avb45-BCUK_eee91M2_B9Bamn7nF4lvTZGe2_1vmrUYF77ZC9llZhpM39kreH6If1Au9IeaDhVbg=s220",
         "view": "https://drive.google.com/file/d/1V6mAYpUFWeubDf4xHtHE3CT7Tn-Tg1QG/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23082",
@@ -2114,7 +2420,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOa_IM5FVbmuQd6kWcMJAQGY_r1ASVhp0ymm78zTgUeOgIKiNpic8eH9JHyzKaZUyW8cpsD37S7zL4I4Sr49X8tDaErtBBw9TE99qoSYFVmtI8ELuE=s220",
         "view": "https://drive.google.com/file/d/1lFcaopCWeIjY8wpcC3lcyZfVYsTEb9oa/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23083",
@@ -2138,7 +2446,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMTqUUr7oqmmbzCPvUMucCaiLg7LUJcXoTXuMSEAhdjqE0FwIvFrSi_Fgyw4Obd-gQEWOF76j1-w6wkiTjX9G4VSume2fdhJE_tzRd1fkpcmJGRHQ=s220",
         "view": "https://drive.google.com/file/d/1UZ6LxmhHzGnIPJxL3jW9wkPke3V6qiNH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23084",
@@ -2162,7 +2472,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP40dJNappT79Gq3S8vARnJP7gNCdQ0TDB1uXXiZ48XKKftN4oUieLpBtbkvF5uTFOxWFEw3YADbgApO52Duh7GvZXtxrzQelppB5jGGtuMWKCkQVE=s220",
         "view": "https://drive.google.com/file/d/1qCOJyroOptrvxktm6ctoQX-0sYu-X0Wt/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23085",
@@ -2186,7 +2498,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyLe8_7O-Kp5lHyfrm63GpNWjfCfZK3e76FB0r-E-yL7_9wQFxsGxco34CD0L2ZZokR4nLDPlKzoBfgexvyV8C9jCnJ-EaP6lLXIdeth1at632-WA=s220",
         "view": "https://drive.google.com/file/d/1-7s3QV-W64DP3FR5jTY0clxm98kjJJoW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23086",
@@ -2210,7 +2524,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdZ2NCR61IKD_7W8rnoTOsEs8Z-cxxqPgqN4AxaVRBASZj7I9kG_pW-uLGnNHqe5wUJkMbpDHA7iCIqJzx6YLbCBX07Ctl_L2-mE6MkCnxGZwfV6E=s220",
         "view": "https://drive.google.com/file/d/1zUOiKIPaOiT-5qx3-XCO6y8n2ZYfoPJW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23087",
@@ -2234,7 +2550,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqVDTI1xcyt9VmpFRjfIngIej_iwc7BExzp8d7M1g95l-Aej-VJFPGwY8QBaMA6gxju0HjikrN1JDFx_Py54GgN9I-tHoNYssxaUJd0uY0aOPtb5Y=s220",
         "view": "https://drive.google.com/file/d/18ns-sYA3Cdqeql0GgTcaEtIVOgn5m3a_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23088",
@@ -2258,11 +2576,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpdRMJ702JTVtfABX3OeZY1iJBE6ojhkT0EotOi-kwfIKqYm9gOxYhzx5FI8lpyJYs8jna3L1e6yVrfA20iPylObQUByNPeS5laDovQ_Ix2_30KdE=s220",
         "view": "https://drive.google.com/file/d/1oSDXAx6xvFGB9gYsknIJdkziJ3eumWbl/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23089",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Rio Panuco",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -2271,15 +2591,24 @@
     "_folderId": "12yopVAMjYGnMydxAa1pAF3UJwjrWGLdX",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM08zRczfcRUKqaluPyRfsZG-fC3fu1naeIcqq960Ql1cbei_i_EWeLOefqMBffDY-VAz9U93E6xyjEi3kiArdpSB_4um2yKjZZVLK_i2Cx3mtcduM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSeHt28_krxYWw80M6Qe7g9d60_BbT02KU3Y0nwDLtofQLJKr8GjGDI4XrHZVFjSI4GvQgi1eiOH0mGcSuBiTtZBJnlmn_-oh3-mfHCO6cf-k-2Cw=s220",
         "view": "https://drive.google.com/file/d/1A_xNYJ7_3soyErzVzPVkV0eoOwwGVgoz/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiv62y4zT-cV423MNtTlsXaq214PwXAja8w3Z7nQTw_0vfPKL5eu8lRV4HmUy7M2doBKMBlWfzYEWYhJiev9uH76ZNzOFiIr1AmWYu5boHvh8ZZOA=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz9aBf4GDZYxyWxOlMFZn2ikuwXDDzjGsce6tfZUBFN-GdoRwMDqqARUZ2AoKZNAu4hj2-YedJfYrjgHHsmg2_E25bAGKH0wOLFxRWhS8yISNfN3Y=s220",
         "view": "https://drive.google.com/file/d/1PoGKw83JdPTlEzp72uQt7kIg-SrExYlC/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2309-80",
@@ -2303,7 +2632,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhJSEUTOiDnjT-u3GqjwSlaXSPlOTLSf8cGUaL2Irim1wz0c4wlhG8oyDktGyiFKSwQV-T4z5a0JVDPylUxjGQ_jlhOM0gJ-y-YajfenHybkJavn0=s220",
         "view": "https://drive.google.com/file/d/1Z64pD4CtFYHDkvH345ynvMAHP-fBVAu-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23090",
@@ -2327,7 +2658,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFBKHonNIWYVVQ7qKCpqZ705pRba97kA9QWsaTRcgJGsQ8SQFRPkeFuFK-GU8y5qc2LaKvP0T-yV4gr6FbJmd5fdoCkqjxncIwG1WILIS_2d81iQY=s220",
         "view": "https://drive.google.com/file/d/1ZNB2IjH5pLMTULw2lcdY3zU4hi99qNRD/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23091",
@@ -2351,7 +2684,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ3N3nxmzZql3l8jDjCKVO0d8d1DOWtEOtcfRaZJV0ltA33htJQbq_l_sAiLahPBJfar8I_1pLEA60DqgVqjBoblVywE62TCIK4ci2_4bkWPlQYIk=s220",
         "view": "https://drive.google.com/file/d/1QGbGDShLD7ZR7ORUMcQPJ0x9T2efm31L/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23092",
@@ -2375,7 +2710,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONYeFLZokr4dwG05Ui_mlaLzpUlSYY1Ba3lFjrl96uxPJpq_G7igAtV7fWXuCquhk2BvOs3ZOACGkqTQTboZZ2LXGXk5qh9f0ERWfS_RpSEaZtc4M=s220",
         "view": "https://drive.google.com/file/d/1eornqp4DlHV5Uyeq-uLAtgKFXorfxWY_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23093",
@@ -2399,7 +2736,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUVaUt59TWhcwn-7jKHSghajUmIv5F2N0_Q0xirZ6rL-6GL5Gw7uVu00pyVjc5eSl2KfCuXnQvddEXIxD4SE0MlukoXOxStkLKGpKUq7z8ymdHkw0=s220",
         "view": "https://drive.google.com/file/d/1zVzfSpUUQnP-vnQZ2zMROawkrIN_v0-A/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23094",
@@ -2423,7 +2762,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCLN1WVBs_dwZ7wLZbwQw7Ju22zpAKjOukWClzNg20cv3sYs0tPUnPj2Rl26qIrUH4ureZPPsK414junpVADH7RA9riMI-khS48TnQj-NqnLEyyRQ=s220",
         "view": "https://drive.google.com/file/d/1GfZ3t2FfYreTOwTh0xxbkTiy6rwdngkU/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23095",
@@ -2447,7 +2788,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLHIkN0Tse3PHdTk2dIzXuUco63YvwfCxQ6fEB9DLkMdmP5xNNRrCe65MUDnMkTpz4kXn8tcLIeOSvfv4O239rMw4EdmJpwO7JjqRlAXlb-I8Z_70=s220",
         "view": "https://drive.google.com/file/d/1OeHB8-gWhiE5XAgeWhxgwlYCJ7Nv4c3j/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23096",
@@ -2471,7 +2814,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMk1Oc_JhLgTiJLZV0YawIrULiRPmZDYxSsuwlqpZ8CjcyhL3f5vFNUmuVOf5FiihidkdSW0DsVZtRPv6EEVF6PRvq71MziggUB0VeApXAF9AhQRJM=s220",
         "view": "https://drive.google.com/file/d/1bhLj7e9iIQOdc2t2UUjSqe-ayt96HxLK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23097",
@@ -2495,7 +2840,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPo2wcXlyPTCpFJOU83tqyZ9KbLDH3gNF8zS5N8wDVzGjdcEBvHT3P0ic7L0IX-aSurlzaOFpUVC3HiKd1Vi22F7luGS0nH5mzN41nBj4G-MsoIhY=s220",
         "view": "https://drive.google.com/file/d/1ygq3DtKBRLbZm4485geODkpHBzm3VcYn/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23098",
@@ -2519,7 +2866,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUs8efVgD5NQJpwSLQW6k3Ud9s0wITW78Xp_4SVBMZ3QCMfonQfABqpLJ1t0e5AIrfvd5m_ls0KtHqXdBjKMgOpi-B4-WvjNckAfq7A-7kjNgeFHU=s220",
         "view": "https://drive.google.com/file/d/111xtE06Pdw-ct19JyP9ZBhG3GnjS2dPz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23099",
@@ -2543,7 +2892,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7xnSFDQ10Kg1Czj5E2-KEzDYoxzOIvQl7ZGr_1E_E7fKRV_pJSGoEr5r-hI8NIC5jTHT_Pvw8idrCDDoR_uh7xbfqeBfq9vkLzLv9mb-XC4xUU9g=s220",
         "view": "https://drive.google.com/file/d/162ujjuoln-fnhsxEiYzfe0jsrAtU_XTc/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2310-80",
@@ -2567,7 +2918,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQwi422fxR234pvjhv2Zd6-DMji4kBLjs09BviuYIbLZYstetNJoBfgVh610-76ZZgwut1mMxlXwk8c3FsDohfslfMXzoHHWPb_9sl1wu1NLi5m9w=s220",
         "view": "https://drive.google.com/file/d/1OyD31lnIZCbeE8vp_BD9Og3avDhrrlL6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23100",
@@ -2591,7 +2944,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPdDR84noL6ka9gv-tRNuoGwhzfsWdng6z4BLAFZH1bobvXUb-BGAG-9IZ2ms0g2ouYmRY6yE1LFjN6LmvoMdWYHxwCYwIlvBIOktzeSR5CZGLOwA=s220",
         "view": "https://drive.google.com/file/d/19Ds06neL0La9NuABJ9HR1krZ--nJT44S/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23101",
@@ -2615,7 +2970,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1t-NLUDLxC9oCOAxR6kI2wGSPDWF5zKtv4YBqin5Yz0tlvY1kZNG-JGPvCCjfJ-pR2gb2K3loVHzJ0_XpDWctfy8LEFrAvi6PARvKOVUYTzm6YuM=s220",
         "view": "https://drive.google.com/file/d/1me5-9mu1qrHv7tJniS0T_niUD5bdhaA5/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23102",
@@ -2639,7 +2996,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsWdrBqmFbx1bffvsyqBEnpczKPIYTdRA7x_IrixHL6mgVfF4XMaJhH8jWbWvfu61eOZyinSTQXgNlXksVu1f91RvQ8vGxHJeFfp2RVc0FOf8opKI=s220",
         "view": "https://drive.google.com/file/d/1Zamk4IvS7vR4uNUNXWHTAEaz9_aBsizw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23103",
@@ -2663,7 +3022,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiYjvU717b2WxWpdYLNNqf6qYHAn2VPDgwZgmpll3Ea3pURaG8EklpBGNFi6gdIzVJYKi6knSnJj4oyxNe09OHY3PkAdM6QjDZZ8TXCOHunpJLRSU=s220",
         "view": "https://drive.google.com/file/d/18-oXgy6uuW5JhYMsln5UcdZVyhqJFMO-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23104",
@@ -2687,7 +3048,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGeZVCR5rDA1WtaUJy56neD66ELCi0KictrIZ1zZagEcfSuakpswFUOulf4g1eTraxr3-fccuSst_6Yc-f2j4NRPRHtkaEv9-RbiI7To3J1aaIX3E=s220",
         "view": "https://drive.google.com/file/d/12-IrvarZVtR0wzeHDHKLxbETGf4gm8J-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23105",
@@ -2711,7 +3074,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0JZsoSz1lQ2ZC_xMvWB2rvUOjV22Y_dy574u2PrWBOHkwbQxaMNU6AX34r2F9IPgUN9QPxqKxTiWil31wx3KhGYo-vhkjsRr84Mo-6c_tRykW1nQ=s220",
         "view": "https://drive.google.com/file/d/1UUYzVL_fmJOHNJjpR9MoQ3-V86cmVha3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23106",
@@ -2735,7 +3100,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2mVZo8CSIgV9rHSvHcEp0k6v37TlHp9TiDaxCQHd6URKJ7tlicFWpKZvGCvvqEz5qfFu07Uim693-91ZEBEa7VkULLidTvtx2S1EOE_J10e2vtAU=s220",
         "view": "https://drive.google.com/file/d/1uG9TzdN4s-oaFTb9BG05cEONbch5Iree/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23107",
@@ -2759,7 +3126,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkzn9T6eGzUNDVszRTydmp230cWgOsnJwUskaENxZ3OK78WLozh3AZ8-eECg_C5CEADYPQ0YGQFvuUUdggmzbMHhroWWlBJ3_0jjgqKfGNN9naUIM=s220",
         "view": "https://drive.google.com/file/d/1UxWwKqK_Y2PJsTpU8L259C3c5S8LeWBk/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23108",
@@ -2783,7 +3152,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUR7yjovkGB3af9E_Gn2Eibf-pgZhtLXaXcydqQLJPzMEUGt8xCxL_oQY8uU_QOQ8iPtBNKTRl12NVCa11_aNYXMpuX7ji8UYf9-aII503sHALK9Q=s220",
         "view": "https://drive.google.com/file/d/1Oev_-urq-eAoq7nP7hAv1aNShH7fzgTI/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23109",
@@ -2807,7 +3178,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAUNXRGtLWLVRv_dMDl13Cxo1xe81YdB4uGcaMq4mKaFvFuD2OwVbuuNv86GIRJZxrzh_GBExZhKJ_CBYO61IddktC2wG-yMkdRIzdjMvTi-vkIjM=s220",
         "view": "https://drive.google.com/file/d/14H4Jxsr8vJxtn39cPbbxJJfqwLTlFYr4/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2311-80",
@@ -2831,7 +3204,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuaNc8H-m6imjTIkTpV6Q9YakAcBfrsWrrW0R6PLGTrVsanbFtoOg6OTAOYKJIKOhdEbwTFjec6yeEO1M4_stgasmTIbCOg94Zj-O6Rarmq43lzlA=s220",
         "view": "https://drive.google.com/file/d/1ejWjnLk2BZ3JkPMgCQFWH4cftcbYkn84/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23110",
@@ -2855,7 +3230,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvtqv32cPhJLNvWC-bL9Xf1FjVtGpxqZh0cKfkyTn08JPcZen9YiLzP5Cpepy2ZC0aeh8MOgm8kPDpSOzBWkZIJ5vinImhnEvOAYmkluVzIWcGpVE=s220",
         "view": "https://drive.google.com/file/d/11qH6qkscNPEDp1tYJQNBN8Sdqai4gwXw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23111",
@@ -2879,7 +3256,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOo_blxTxdaE9tU9XGjJ4b1p1f_3TtkhFuGJ1J_24uZXx5tJnbP3FZN_k1q7nptWn4bY6EwtJzfpa3VSyF0EHldl2B0BIcSaWyAaEbfozbRGkpPU6E=s220",
         "view": "https://drive.google.com/file/d/1_Cy6PiRKXIy_UWGtERcOAfk9Jyx_JLUF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23114",
@@ -2903,7 +3282,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMO7kcMzorL4xHjbjOcF3SB5VkCJJbGUIJ0wYJQFWH0QeCyw1CWx8OIeHjBbJigzg59ok4kRh8-NoGLk0Wk3CwexHjyE_dmkhb1fCnu_HtFjgYp5ko=s220",
         "view": "https://drive.google.com/file/d/1u-HQvXX8J3MXQLPXJHN1gLncj6K0e9gw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23115",
@@ -2927,7 +3308,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPG3R5sM8SBI3qe2RxMxs9zjcWW1jeiytR5c47W363M1T-zI8EogmuWhrj6Q6d1cBe5Q7lSAqhz80rOvf59p0QzgU9b9Cz2eAAdd5780caW4raDd_c=s220",
         "view": "https://drive.google.com/file/d/1PeT0e2fTZEvqnXJ6QxVPYyj591d2OG7N/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23116",
@@ -2951,7 +3334,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOy2QkaEEOxDluhKywnam9YdsPoB74FBw3gXVEhErncf_Xu6L0i1fsbXpnd5ln2_BBqs-IbZzGcL9CyVjDV9Ydq5Q3R0SBmL7mb7_JBCOX4Wj0L4jI=s220",
         "view": "https://drive.google.com/file/d/11NTyDfDLeuh0Pz3gnwkFto3IJyXDMa1B/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23117",
@@ -2975,7 +3360,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3ZOz-CM_z1lXnJlxmOFa4Of-Torx-j7VC-fbAeajdKn--XZQVUpkToqi_tazmoxoCYqJ0tlzSzlz-Dz2dtqWIYn75RZD1tJKqFcX3Sg7oKa9beRE=s220",
         "view": "https://drive.google.com/file/d/1f1nteaRdA0WGm2x0dbZb2nOmCdo3f_Qf/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23118",
@@ -2999,7 +3386,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmPTAJzZNtRTa1149HP9gjnp2cyj_SOgp2J-cktlDo4Aq7Ao4Zc0UOgvDUdXJIz4XX6wbQp1zAfPEedTbX64C9BNuFRrli08fqFx9tqiJtPJb-7lE=s220",
         "view": "https://drive.google.com/file/d/1llMLcLdAVtl_pAG23sU9r7syOjj0NSzW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23119",
@@ -3023,7 +3412,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxWVpgCYxyL9BYj_H8TOD36Ky0JjQBq2dfqRcR3CiJwpdw8L61ruTd_fIRTQvX4MpyU3-Aq0JAozYh_oNPk1HMjmhja6KM5BRxDTJExI5HSA4iqWw=s220",
         "view": "https://drive.google.com/file/d/1CmOCE7bwXsvgD1CxiX5G4-rEfeQtaFXv/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2312-80",
@@ -3047,7 +3438,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTA3IKh4r6UtDl8Ka459-6A5gGk1ZylPEwVYSwdSTYFWV3joj5G8exSmTkaxa7sShKvqlaOmM_j4bSFS61wok9Oj8ccFC4geU967JbRzr4oasNaaE=s220",
         "view": "https://drive.google.com/file/d/1QSsNQYcTYWZym508bB0jzDaTd2M9LVBJ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23120",
@@ -3071,7 +3464,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjDXDt9OoW19DghkoAPjXC3jN4V4UYV499ZsULUSmnmPJYUiJNmJSIWABIoccbhpRJTzwY5QOPvcC_L1RZ4EDNrCvu3uE8BNrLQzYKDpL-bEyjVbU=s220",
         "view": "https://drive.google.com/file/d/1EWPGrEC7t2iyTIE4SPbX28J6Me6EpqOm/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23121",
@@ -3095,7 +3490,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObXhh4QvIEj3IY1qBcwyzVS-FXYzsWW8jjnO9VmRcYhRx_hjbLEIfB2JD9rRCpV4a-gDFgMVOljSUT2x53lshjBqZHt1LVQdzJjrbS_geE-FaOFiQ=s220",
         "view": "https://drive.google.com/file/d/1uBY218hUrtPKu-4nfkYh9YpO7g--Ost_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23122",
@@ -3119,7 +3516,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHU6as_Zq4aubVycdze7u6H9UxlJncn1lBQ0o7GhliryJPF4XUvGhiz1M5fcaZox7z_Ah2LFLwsLxeR2Hu-vKtL4BRk83pwi8hUq90Hamm_hWvtYY=s220",
         "view": "https://drive.google.com/file/d/1p_D1xuHZ2FOlfVXN71ACi7s-QKonMb54/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23123",
@@ -3143,7 +3542,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6jhNVJXbQbIcvkeXCTv1J_sPD91j1myTvC9cyhwD7Fekx6-Sabybzk_n47IPrvlpEij8xuNokod-qneVi7qW35Ch9nuYwGic27wEVxRXHDcRnmcg=s220",
         "view": "https://drive.google.com/file/d/1kBp044W4zMBYKXo6HVlCpVgZc6FpxMgs/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23124",
@@ -3167,7 +3568,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOmoKnmV86EvESrQX7ZFch81VA80QVrCEYzy-QvrVjKlYjA8meGI9wTmu6qqHIS5a5JNiEzzALmmDrTGCvq29eRb9w5c7rnMYMO00mM19BKOSTPDA=s220",
         "view": "https://drive.google.com/file/d/15aEh_AjPLZTd6HY9SFxM1jdlRqNjYYIn/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23125",
@@ -3191,7 +3594,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkjhfKI4B68FPn519ybHtXDAXGGC5L7UsJ6MMdsaRqDcWMj4mU8x5t_Oo2-flKbm8pkUFsTuH_jwozM7jX43M5qQ038fMh74F7Ra9zqqj6San4tQg=s220",
         "view": "https://drive.google.com/file/d/1fQ3rfROBd-bSZk-MM6eemRI2vPnZyZnF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23126",
@@ -3215,7 +3620,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOA_xFh28zwEa14fMol1WVgYIinM1oRK7mlpKFbtGxtjSf1KUdMTYhBN1OA2WudOMN5KdyBVdOUsaTmZSQg0i4WBRzfsq8fNnmkiF_hIL9zkePuIY8=s220",
         "view": "https://drive.google.com/file/d/1v1z7rPCwHHlrxAzgejErKSZZBUrXSc4K/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23127",
@@ -3239,7 +3646,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOf8aJsim9YdSGFLTSOh4c1wbuyn9dhH7CaKtOG0mCh7bDd7oAE2p5Pz0l7zyHF1l51t0ujW_6Ae6PLmXk_edqNxqSV3It1wNVSb_u5Ks28aw1wAN0=s220",
         "view": "https://drive.google.com/file/d/1yBuRYxuyoODD8q4mpkuPHwkMDCovNTLi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23128",
@@ -3263,7 +3672,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAbVTne7HZS3N7ghReHIMDR6aQEBlQvkqovarwgxNt7Q8N72OGrucASjDFqUPZaeAkyLHfWo6Km1TSk0f_QzwDDX2TRC9SQIcPwsZ5pmg6-7DHV1I=s220",
         "view": "https://drive.google.com/file/d/1BtmQZk38_iN0D6k_vDMdk86WrKnwzTlW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23129",
@@ -3287,11 +3698,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOm98XpkWunyLftCoIlwQH-T4Y54snPTwgTgYuxQ4c7P3np7UQcsyZq9Php3Wt3xzZL4fZPwILgL9e47RWReMQRrOkQ7tpYEFIV3srhTE4xl8raa3Y=s220",
         "view": "https://drive.google.com/file/d/1977vHj6jLRx9cTXK4HgB3EqQGILKkJn4/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2313-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Cerrillo",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -3300,12 +3713,21 @@
     "_folderId": "1W4i32aklGsxXcHAHS2xfrNTKh8vykogP",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXZatJSvT-EVp9od4WwazSUwqLGk-plKt1gp8_aMpe8q_Kr39wJI2APhDjdhqGxjteaYHaw2D-vSdXCUameepj1_vLc3NczXdZHkZTh5uebVXiPw0=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPT56dwDJdkDk6JnfrPO2f_Y-uixoSiCO7Eg_-N2TJd3uexia_UPVdPp6GG3OqSLYtTFqAMFoPPbKA8tVc4O1zxo-JXCHM8mLRqVQZTUWgiTR-BDr4=s220",
         "view": "https://drive.google.com/file/d/1ojgzgwmok1cq-r_XUOrahTHYiNJHIrSu/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23130",
@@ -3329,7 +3751,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRLWVAZ-Ktv6EMm5EQn1XDtOkhrQyuPO3bU20QXDWEjEmAcHyy0vDnzYvGpraxDBOw2EELpm4WMMjjNeuT3pqlHyisqN9kZ3ewWREFKXPQa8cTxZ8=s220",
         "view": "https://drive.google.com/file/d/1tBljwrkALI-p1oDpWXXo6S6dqEjYaeDj/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23131",
@@ -3353,7 +3777,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzBTFFGmkIz30kfOKb_cQ7mxAdXBca-dfvJUfeew0sTJ80rDntbUNB3YdoTJEEWqMy8sH5HaK4sAIsyDt6Cot-7fTd9smT3NL6tUjipPnw7Up27-Q=s220",
         "view": "https://drive.google.com/file/d/15jMfs8lSyK5EP7fDtjpV3ZiRzDqlzwQw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23132",
@@ -3377,7 +3803,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlBJrKx6gkCzh5QeQI8i3CgEUKQBrf6wbUeFAiz4R9XbvllZc2Nx1cvNckiN88jJHtWCpky1vzrWHug6xF7aXXuTRptkA7iD1Lzt58IX2wN8D1AZs=s220",
         "view": "https://drive.google.com/file/d/1ReN33ayaI1f-uqWlvW45d5PRz8iijzE9/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23133",
@@ -3401,7 +3829,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuoET5W0X2RGuw0n5s01ow5G5ougAeHQP3dW91l-Q3fMkHj6d9Z_wQWKa-6uFiKixU-3IHK0PYnz-LQrEt4cbcROdsRoeFoaed6BQP-07r84v5JUg=s220",
         "view": "https://drive.google.com/file/d/1RyL9f0OrFkeXm0FKBJhoAK4k6VJ3Mb-f/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23134",
@@ -3425,7 +3855,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrulL9hfyXAQd61-Xc53W0Y5gRF6KOJu7KuLrcs53RX96bg3_iGyr6RRLLAlIJ_q1A88sqTNVW_LVIJnn6ZE57QRyQJxxHryaLUjNEg51NnYHgN4I=s220",
         "view": "https://drive.google.com/file/d/16ICsSauVpnr6WyeHJ61TZqUWKYp0v0zr/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23135",
@@ -3449,7 +3881,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVD98F18kbeaahvigHCcD7yOyj4WdPqW1T7LkwK_Fch_9uqe3HE8hr4bWWJ0_ZWG9mWoqGM4rn64SzklLdU0tg2x3sQXzuFeBM7qLm2MQEoZN33uY=s220",
         "view": "https://drive.google.com/file/d/1Xb4mA-BPClqJrA4uYZ3WIDspnWNmE78r/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23136",
@@ -3473,7 +3907,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZMlPY842zFXHlanxvpzsPXYoIiHY_rkH23vkPlEKZENpPNDr06ffGbcjYmpLeC-ePxMgpyRAuCnLnBIGf0mHDpwJCRY9nRFCLbzpzqRfnJehgzMc=s220",
         "view": "https://drive.google.com/file/d/1cPM36oNI8SQFBhn5rg6obm3YrWRafs_X/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23137",
@@ -3497,7 +3933,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrtEM6ttVzipDTymRupmV8ikNPgWBIZR19dCog5Z0w5gxYmG2mFq5EqMNqhj3hAynZzsvhgYHfadZtdT0HXtw8nCHUaSClJ_iBqs3o7Z798WMLAWw=s220",
         "view": "https://drive.google.com/file/d/11aYnN7CSzxfKUiuHzgr0FgavYNqI4_ZE/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23138",
@@ -3521,7 +3959,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIVdb_qgd5bhNrEhKQjo7PTiiU0JQty_uX8w1DYteJwDJtJHPZ84jx3NVuOUVYgxsJf9n8egOsLCmm6ClkCowH8zErVoADoz_8I7vj3pp-b3HaWs8=s220",
         "view": "https://drive.google.com/file/d/1hE39voscFis2CAiLL-g52wfmjenEcYhR/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23139",
@@ -3545,7 +3985,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOVw9fUE4AI8NfjAqEkvcp1BZFHFw_pQlxeKzv6LVp8yY5yB9z4CLWdTuNR8Qa9dPeBqBmLxbLk2mmg4-xDvQ9hsd4utrh9Ws1SHtzP9jUil6AWuk=s220",
         "view": "https://drive.google.com/file/d/1njD9zHSNt9aT39ELVXCq1FPnlYOSQRJn/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2314-80",
@@ -3569,7 +4011,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5dZntkwUQ84HEfmX9T2a07ScSB4b1WuscUHnOgbzvRS3CAD2KpfjwwPnLtuSXyyTovvq6fAuQfctlL7Lp3V9E-gOWLg_Df9mgJeDT_zfVkjLSGik=s220",
         "view": "https://drive.google.com/file/d/1TEXd186H7BwGu-2ZOi8KDMJjMuixprcO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23140",
@@ -3593,7 +4037,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcbw4WTxMcbUm1eavvEeHPok0VXAkiTtnX0nn-nc6Lc9cvYSiH_dMtSi6s6ppxduVB2Zdd-fT1KvyPKxXwygo0ZYMWwcebbb4Vq4UEiz7XQqzLz2Q=s220",
         "view": "https://drive.google.com/file/d/13jBxFC_iX9nTCcMrejqV0oxViPBAHA4H/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23141",
@@ -3617,7 +4063,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2SXwIpbcxm0556TiXr95pWxnuhg0uSvjm_p7mGJG3DCd6Zz49jE_6eLPOiBl3WQ5j3d5-Gk5pxgxxxgqQ-TleIShGiZo4hio0FY5-MXao2_EKuYA=s220",
         "view": "https://drive.google.com/file/d/1lbnI0-EInwfRhRbptGASgZbV8GIMAu48/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23142",
@@ -3641,7 +4089,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8jj_34rN95ZVcHp5__wdi7TFm-b8YDn0HCr5VW3gSXQTjmo1gE0Nk_WwDcZ7BhN3S27tRe9vs24RJ8NwvjICMLnJnsCqBGS25Ja9gBHYtd5BBYPc=s220",
         "view": "https://drive.google.com/file/d/1cmky_deIceH-IOnhXYwc5kJQi3cabNnx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23143",
@@ -3665,7 +4115,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIKxc2_BBMwV2_ns3B40J433_s-nGpkkWfnafptyOEq4Y4Hk2wc9DvwB76Ek5a8jV7gKbWAvlhX-8k0OCzVszV6LOPEzog1QqUJ8VJGwrhtfISCs8=s220",
         "view": "https://drive.google.com/file/d/1qqJgGOrgAikV2OfOGPcGc-LMN2Ukc4li/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23144",
@@ -3689,7 +4141,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-8kTTCmPO-t1g4fa4M15SlD-qOJ9falnfXEbYHu7VgjBOYRri8Ipb_jCJDwZ0yPQFr33n7Rpy97VVmONS3ZhQ_576hyhESxNR2B0ydtvSym-FBI0=s220",
         "view": "https://drive.google.com/file/d/18ABoMmWWKrIZFxgtehYJsAtLKAxqQoU_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23145",
@@ -3713,7 +4167,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVqlmpOFHYK81-fSYNMOJM-ZU0Zygjrzu_YNy7ZmdQ3-EHz_wqDuJrhca8Sc2WUqXuHqq0is-9J3l6n3lPNyaPmqZyNIHsiym7U4XFj_LmcNoXWfc=s220",
         "view": "https://drive.google.com/file/d/1Bn2il2Cv2ecgUp5Jchr0sinI_vghWDje/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23146",
@@ -3737,7 +4193,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGo1g1VNDv1jejiK6jKlfucIVGk2yqNPOJgHS5ZOt74ZCgBmlkFYbpD0LMFqX9hmo9BmJRXCHAMHk_0899q6NKC8bYZ_sT2cuWj7Z6u2j3bngDSK8=s220",
         "view": "https://drive.google.com/file/d/1MoL0ge7VxCwQFlSvmF4_ACYOnhXItEi8/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23147",
@@ -3761,7 +4219,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2K43Po8PSfupqJKCTrZwKhJ5Y7sGST73w_Xa7oe-_gF5MCShceVzdBL6IxSUasO-wMc5_HN8n0R9zHokO9UJTsTuppbkBNweLuHSi8EzALQtyapU=s220",
         "view": "https://drive.google.com/file/d/1DxG-iHT-5UyF1M15b9P2wBzAQ72o8sjS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23148",
@@ -3785,7 +4245,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQIISa62wZIaMCx3yFEvJP4yz1-PJwsY__u2xywhJwkNMkLXGa_Yr6G5aFrKZFI_ieCoLITcMDPAaq280PMv7HPbAA_KMol5GPCbLv17ly3cTJFVQ=s220",
         "view": "https://drive.google.com/file/d/1HeE5UZxDgP4ExNuYqE17_USbWtdvqm-Q/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23149",
@@ -3809,7 +4271,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM33SNaooP72UlaA92uGboKoASukV9Wc0Cng5kxX7KlMV0TiHdM8RyyISu3oHMXo2lYqLMyRvkkLfb6pmAKjNZZp9DbZTabPH1wFbkyVHyFTlo7Yqc=s220",
         "view": "https://drive.google.com/file/d/1AwRHuMWHpqkYgq0vRFtQlwFMyOIo6eAX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2315-80",
@@ -3833,7 +4297,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuSSz-_izQLGnP3wsV5w0bi52HohvsjUXCGbFdf6g3cndl5zXA4JAPGUuNTX6kgqr5BMC8oAVuIqxMvmkTDGuMevnOa2ZET36T25yOJsmEkGtBm9w=s220",
         "view": "https://drive.google.com/file/d/191mA6-KZ4uDqNQtyvX0XQKJw4FzuNxWV/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23150",
@@ -3857,7 +4323,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHa2UZCk9mgXR6Cbh2i9t3nsh9NI7Zu2Q9Bb8BHAJkAksgI5MGrIUtbio5Rp-Ud599xX3d3YDx2urNRD2VM730eemPre2wA9F_XBqBSY0mEn1tshU=s220",
         "view": "https://drive.google.com/file/d/1AZF2QX01H8-MhvTioTvUICteuCrG1XPx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23151",
@@ -3881,7 +4349,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOO89A4CF0UQc91P9xJPdoODOE6Zjl3OiNlGdX1uP8ej6fBK5gu7wUgm3xL7zj88VZchQ1Jeae6F7qSpDU5tNyyYdcgXI-PeWGFhE_ummjmAI_iUz4=s220",
         "view": "https://drive.google.com/file/d/1UtUtNBXRuQVpjFZdTA4Jm2P7xO4N7Dza/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23152",
@@ -3905,7 +4375,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPAhd7ng7jNBmB1GPmyuu7tb9NI51R3jP69_FdMreDV4T5h912Kiz4HC4bsqJ09b05-0-hXlow9tAJy_GXqqH4dxuMebgBMGlJURaXozkEyKK5-hc=s220",
         "view": "https://drive.google.com/file/d/1fUGfogkp5ohwUD2r-XNKmf2Tt8uJWDlE/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23153",
@@ -3929,7 +4401,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNK6VZ6w-ijVJIdoyCI3v9w_jBw656Y6MOn7lRYkibgRK7zO2WYS_7mrBt5La_WcHbkqs1F6WpvuYSgbe8ly71V231TdzklBuLdWz-7BjJzVnEN8q0=s220",
         "view": "https://drive.google.com/file/d/1RY5mONxuLsKckJlt47OMP7te5Cfz-Ojc/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23154",
@@ -3953,7 +4427,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkbMA2qbevE8iYuinUBLDcHi9R4YDnlwjamZA6TGisit8ZkHVk_bk-ZZieY6nf0pZd5o1258l-ljDXJ8b70yuHUs1BFGE6t7hIdEbvoHvfQLcTeCg=s220",
         "view": "https://drive.google.com/file/d/13pM4PSBobvuRit2eEf2hVws0bU8K3_7L/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23155",
@@ -3977,7 +4453,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMW4XVkkMBI62AIwTC_cGr9xIdbPD_XoKRJAnQd9TnmobED9rj2pIkfExoqXWWyGcv9QCr0Ux53UMRbNWn6nuPtKJ8zabgnhZWb8I6b5enmSHJhg9w=s220",
         "view": "https://drive.google.com/file/d/1GuBMDE2oPksCk0hOFMSvO4Gul8EzLzh_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23156",
@@ -4001,7 +4479,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8GTgFLbmUK0DreCMEYoZC5zKd_G4b4JDmSHF-o2kfW7Klv-xPhnHU2LvFlWG3mcXGKUk0fTeLwbUBwIr73RI4oMSJlJ_Pp8k6mcNtLC9tDhUJ8MA=s220",
         "view": "https://drive.google.com/file/d/1JC8w2q9F6xpxvmLfWAcULunngvw5GGu2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23157",
@@ -4025,7 +4505,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSGYkLhWKaQFMBKSpUtNuV3QWEDvMLjSmLkdyoHeHxI2N3qkbaNZ67cMxC3f0qYNW4lQxFceF4OS6ZG2omG-j8QrR6ZtZAuUzM1Ltl1v2BEBvsXwM=s220",
         "view": "https://drive.google.com/file/d/1p5nZO2HxyO-yXoSq3ptfLPawzwPzvnQz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23158",
@@ -4049,7 +4531,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAwqJoj4oMnPkCwJcqa1R4P6gJGYCms7Cexu8l9k6i7GlBoYtPOjbVp4-ZhxKdiBLZhx_8l82S1hTPDTXCEth9hoJ5geznyQPZg76BcfopKrxgnoQ=s220",
         "view": "https://drive.google.com/file/d/1CKGHxHi76w1kVqe1qDCjC4YkN4lDCHjM/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23159",
@@ -4073,7 +4557,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyUqN_9-P2wqJFS9HGSI7XG-u_g7n98ZWqNNe1SfpHFRA8I2x1fmeYOL0-tKWfXjJpBNn4i5HGKyhaw5enl6f40iwndciyXoncnC_zUr2mg3pQ8jc=s220",
         "view": "https://drive.google.com/file/d/1j1I_9q7nzgjH8_pcgt99wOr3l5so4Zvq/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2316-80",
@@ -4097,7 +4583,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoH7ivp6reD7nsT8FkOoQkOXi9tQDBHg57LNkCcRIlEAl75ePe4JZs4eXfrXJbitu7vNRRkkjqWW6R6uH-i8-IqZHLFyOjNH5N3epM_0a_fmKjKIM=s220",
         "view": "https://drive.google.com/file/d/1J-rKcZvAKmykFZiUGUz6yZrZ4lQ8P_Zi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23160",
@@ -4121,7 +4609,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUmvjTZ72DVZHRgPOe1GNBP8Iqei9FQRH6kStD9IM0PYANwYyUGJu6USOQaj9jgBP_KiH8p77fq6wLnBQkztDPb-9vuZnq90P1sCHz9U9ROgJQpD4=s220",
         "view": "https://drive.google.com/file/d/1GkMlF9f37JgarWER-za4COE1qU4fs0IA/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23161",
@@ -4145,7 +4635,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbO8jJQiQvGtgp1wv4Oh4Q3c26imXffpclaBtgnkTrxUgyzeW9KYMqxIo98B1dFA3uXoIgzneVevacgafwhpLjp6FuCy-OIEuF6KDGAKl9JWtuGbI=s220",
         "view": "https://drive.google.com/file/d/1zYEIMMEEXfQLW6t8w2_XDSqt4hCcA1IW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23162",
@@ -4169,7 +4661,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtzR4cc4E5lTQYoUz4FSwrlmLNmU6CqOir4aZ5_cJ1OmnYn1qTZtIcM61MON1JV61judX-APsKzOIjizVCDdJwZNDVIxqm8alj2_qbjjt-CZQzVGM=s220",
         "view": "https://drive.google.com/file/d/1XwuiEeuIW579RigvUAs3RzhMzNRBdw0N/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23163",
@@ -4193,7 +4687,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnkVzypwAM8yPB5k0wooTBAzVDCy1RS537RI1g6oBYgrLPOHJOghAA20p0i75yG--KYRx-o3trpNPGEYQbFe4Mdo7iWllc4yInautCrV1QZPcDSPI=s220",
         "view": "https://drive.google.com/file/d/14rAAFQefjdgLYGtfpJu_7Y2oAcp6nG9C/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23164",
@@ -4217,7 +4713,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_EPZpAnSuS16E3W4O7OqdAtB39MJhFgGx7kuPVU8k8GWuH6Y69nwh9PlLQvlvp5YXO9zfL57lHgqdx8SH3yTCwBQzvDDsKtIaFDDI4NeabJB23gg=s220",
         "view": "https://drive.google.com/file/d/16EsDDPpHd9-b4rhrU5LP9TR767LI3Ygu/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23165",
@@ -4241,7 +4739,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOT6KLbjBt21xbgK93psgdYvXHUUlOzSsfRv6_mpoaDM0HWkJq6iol-RXZTx2kWcz0A4Fzl_u-Qr2wnNstPle0ux1s_snNQdNQtydR-ECY2pnP3dCg=s220",
         "view": "https://drive.google.com/file/d/1mbIVSFysu91oASa-CQK6qggNubfNRgVT/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23166",
@@ -4265,7 +4765,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLW-xtST-Hkl7pEFjYB3n0qZlswbi4kOpSCOlBoqaTC_VuMHt8JnieJREukwSOm7aSbyR5rZNReWHyuTeQ-ZgsBvzIoG0hbocPmY1VxZFKZfRK_Q=s220",
         "view": "https://drive.google.com/file/d/1IlnGdjNGhPNd1PjqidBiGr5VRDTzYyHe/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23167",
@@ -4289,7 +4791,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOleycQ8jz_wlEhmPuPWl_MRyWThWrtBd3ZXRgGBx3w5zAw5_VqlGPrt2RR6NY0caH4pif8dCHoJr8-YplI4jA7qmEKuQV-iX6QDqCtb2Z_xFdK3w=s220",
         "view": "https://drive.google.com/file/d/1s822FV6TQ4XGjbpm8Hx6XoneGQEnk6Ok/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23168",
@@ -4313,7 +4817,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvxqMsHd5CeDoBxn8ME0rOWSJir6DNaZRPAZfJch28sP9Nff-KPn8zC-HLIKxGQIEC9-bYPVj1kq9P_f2RzEkLHi1TXbrfW0qguTlEAynBm6V4VA=s220",
         "view": "https://drive.google.com/file/d/1WnCQ_bvmIYZ92kylSYDfOYA2pwgkEALE/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23169",
@@ -4337,7 +4843,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNok93dSYW1Rp3UWjUp434ku_bfhwk0BtkIG71ah-ANb5_8SsZ5a307enLcoWa_Cbh0_O4EVudnT7yajUrkM0U72gs8oRHuGil_x2IXk8rxrXseaA=s220",
         "view": "https://drive.google.com/file/d/1KHvjFSwm3dB8gM_inGEp5X0N_tWQG5AH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2317-80",
@@ -4361,7 +4869,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlDACRQ6D2JtzlhL5EXM3zsEU-nK3u6-IuwjQgi3Pd3rCM5Er-8dedINYEFuSNobfGgrX6rHlOtz_pe90A48MxxN4YS4ANRQiFSQcGXSOFqeDiBw=s220",
         "view": "https://drive.google.com/file/d/15kT71VebxFA1NB34AypH_6PMV--6p0E0/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23170",
@@ -4385,7 +4895,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJqlRZdb4E8otSE90k7gvym1_7z0L-6TfMJucm1c5y12NSRQjnuSk-BBMtsID_L710qsHTBCAkJ9FTmw3G5GTZlwFU-TtGjNFGMWDqcaW2Df2F7Q=s220",
         "view": "https://drive.google.com/file/d/1ncKSjBSOanErly3lvmG5D52DXPLbblGd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23171",
@@ -4409,7 +4921,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxXeT--wAVqyU1OZN4CjuotMfy6V6CL1_q3qReCOA2wbvZFvJW3VbGfmySY0eCev25wIinh68Tz_3BdrtBwdN1YlEMAz6KNCo1FF7wejeVr-_HUQ=s220",
         "view": "https://drive.google.com/file/d/1u0f0OV8SL10DHAp2PqRLqI8tQCNRhlxj/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23172",
@@ -4433,7 +4947,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLXxMLzfkYO-slhv1VCW-uYq93r7oZFtZ-0RvQ1DvPE-xViLcVDRJwKT5aosl6ghgjf5qLcC-CLH3o3IvnJWLNw-I0EcC7xsF8e67LFSrVcjt9-Q=s220",
         "view": "https://drive.google.com/file/d/1rYaifr_omek9Z1ZXWvVzQl2CmrxKUbtQ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23173",
@@ -4457,7 +4973,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2NqHivfaLyF-BYc3onIYTuRT-ksnpjq-VQ8B6rMMrzpbeczORTKCeEel2wFtztw9J4uLSkPfXrN4R6e3aiaQZO1dL0SW6XnMy7e_8e4cdjj1jTQ=s220",
         "view": "https://drive.google.com/file/d/1zBdGR64dkr90UMFjY2S2rI0zIIbtFAdN/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23174",
@@ -4481,7 +4999,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEUsnPZY-a5WckcyAHXE6doM-mSK33gKfmmN-dRLOUe99kR7gehbqghm0C3Y3gfjq3k9BzmTPN03gfHGBpl-4IW38P3BLBhrZeknANyLqPXRpRyIQ=s220",
         "view": "https://drive.google.com/file/d/1Ef4WL5qxEfRtnU-vvBM1BQw8Pk8bn6oV/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23175",
@@ -4505,7 +5025,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiAFEQgM1peHm6t0OOexq1eA0rd6G5AbSfAv5qfgA79wJ9tw6M9eLwxRlvqPpGI1w2dNlidou7JlTi3-mw_5SHe6ISavzP2VJxPV4jWhbu-z52RA=s220",
         "view": "https://drive.google.com/file/d/1n67K0BmvJUkppDMagp6R_QBl8gER0VXp/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23176",
@@ -4529,7 +5051,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNu_iU6hLPJq3Au3lirE4lGXjIyMBW3rhEuEyy5oaBtrBlTOfdjelFi4eZ9EINO36f2I-pfBIoHapIcDfmSCdJfADpPdoVtzx6LT8Zpgpq87dlLNA=s220",
         "view": "https://drive.google.com/file/d/13k02FOiCKEalBYwSFMfA1M5otiE2-Vgq/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23177",
@@ -4553,7 +5077,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPNsDm0Qm_LHpQ-nMFig8lCRhUto4ZMeRz_kXGm9XWeqKHhu-fkbsIhkiEUaCB_72MVYMxEfcOOmK7wu1s8b1HVSw2hJGTEItsdKn8Jau02k2E5Q=s220",
         "view": "https://drive.google.com/file/d/1w0oEQBlr4xzGdH88KS5BjT-YBPdEHTky/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23178",
@@ -4577,7 +5103,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMke2Zuc42Nkt3VekaxSPTfETeKrUpqiet-qJPKuGoMJ36QGXOeqYsfbS6VZrAIz80atFC2ieLOoVwKKSo1xNp-3w6dODunpb1sOvswW-V28ZSIng=s220",
         "view": "https://drive.google.com/file/d/1NKlwRwTQTw7Qo_XyRZPzG-Eqq1SnGxVP/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23179",
@@ -4601,7 +5129,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpTnJ0viXRGSAE0I4k932aVgHSEb7kpgPBWS1rmB5Lsl82AkCgFn4u83Y8mzM2DuCTSMejD8It32s5lug9klTv7rjX8Q96MGmDXiGesK5YB5DoEA=s220",
         "view": "https://drive.google.com/file/d/1nNQgHUr0wdqC41Bmn9hsTSo9ZTxyQkP4/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2318-80",
@@ -4625,7 +5155,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhBMnRLsq8f37Htm9reddQua_qEruzyUgJvJ6-xieMLyZ6SD4NM65f-QCVWDpX2K9qPbpIdcsb3VhRa7c4GU4AT7lNndW86pUGZX-5ZNkVw8b-Vw=s220",
         "view": "https://drive.google.com/file/d/1t4J-DSK-dk8tEsSXajYu4B9I-nuzedX6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23180",
@@ -4649,7 +5181,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2YVQNBM2TjKZZOLTzTwp-gEoG1gahuRlQFZ9lNHK0PZbwJFp58Vk_AA4j28qSc5v1nLInYqnk0KCyRWxNGKFguDBgQxOv2SReslMFw-z04Y7iYQ=s220",
         "view": "https://drive.google.com/file/d/1BYcue1D09xwnLD6s5tHO726BkOvB7ckG/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23181",
@@ -4673,7 +5207,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPI8O090v5BJS-jrqT2h9usP7fGeQvpvr-ohtzESyyWrKaJIY4xu8fEyr82hc_JNGmpMdmYF9mH90kulB8i-DN1PhgyW653mHzQ2cbtGIEPce3-g=s220",
         "view": "https://drive.google.com/file/d/1C-ds-uPb2IFvLyHb8QgePgWo4iak4VmE/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23182",
@@ -4697,7 +5233,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKJuwYepycKYEEswxeSRAjQNm8MBdiaTB3iaJAtzkkq5sBH1gxqlUWjsgCcnE63uhoufOIS_ZJgDXziMeoOOQmjRTNqUfHDC6o11Kfz_0tL0QBsg=s220",
         "view": "https://drive.google.com/file/d/1t8BZ7eqIvvPzsAV4fNwESd5mORC2gGZS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23183",
@@ -4721,7 +5259,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLYT-BXgCz6h9VBLbuy8uXSEQLtPpncCOFgqBsx4UxXed3Qgoyw1ampL9PJk3RxkIdeQi05gUsiUfZZTvrBBgl6OUUn0o5spOZjZB10Y4o10ykOg=s220",
         "view": "https://drive.google.com/file/d/1FSOCWAatJ8sh1tkPQL3IB8sO4_TY-22G/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23184",
@@ -4745,7 +5285,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPFJe3lpelJk2iPq6xNgD_1JM68bXX-roQgeO-1vRG8pPz483G-2KRVX5DphBySe_-yV1OgWkg0GxRAmQiCEoKSi343xk_DRAbrVxyjUQsaSKsrA=s220",
         "view": "https://drive.google.com/file/d/1IrYu7GOmDbySj0KZsK5sT0B0LSQ0NBDZ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23185",
@@ -4769,7 +5311,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnP-LuUc1G--HxmHNQpvUtL6d1NvOwz-SdZAXXovYQrDv6sgebZ9GGFERrp2dpiiVMgz5XkiRfKfxsYuJTx6M3DGuwBMv-Bm_8lna_Wjfy01AAjQ=s220",
         "view": "https://drive.google.com/file/d/153IKllqqBKXi9QRLZnwoy8Oy_FL8rLnA/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23186",
@@ -4793,7 +5337,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKR1Azs2gG_VpRYfi9KNC5lXWeKclRe-b2ZInNMxsq3uypQX7N_UmKaMAnkwVWTBpsjsGVaYqGK_V7leUK6tMBYg6G1eUr4e_Z_jiVOyyDjIhm7g=s220",
         "view": "https://drive.google.com/file/d/1AKj5k0GWcP4A-uawPFVxo4KFL88ZcPZB/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23187",
@@ -4817,7 +5363,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8UIvILz6C7Gd_7ejb8TwgpoSnWfG9WHDLlyKUzsPm3DNDpRp8DtfpG349GDJQ-GCGcRvbg6SAPFh64DtgHOO1S4WHwOGt9ZpF-a6T4W_OKhnaPQ=s220",
         "view": "https://drive.google.com/file/d/1lep8J4r1ydEYH8lpHcvLojDqbx3-UYac/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23188",
@@ -4841,7 +5389,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPc1DiWmYPF9sqMCUzVSUYxVsIqvQrahqBv1dX_NAH2cfVDIznHz479E5SunhOXNCo9nGiDhLQYFvQsMw-sH5kjdWQot8cVD487sv4syc2RAk0O-Q=s220",
         "view": "https://drive.google.com/file/d/1EsiZsBKX5ARHGjspPdpWDrIp7E_eLXDC/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23189",
@@ -4865,7 +5415,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIoTBSYeg7fEaoKuqYUXq-K7SMTV9D2t9uQoqMVyM1V0-y6vmutJ2Tt7soZABYQmW7TyMsrr2_rQk7ujtQDsBKPx6hKUoPTl2rnBLlBBHUP9T2Pg=s220",
         "view": "https://drive.google.com/file/d/192Ak4lAJ0hkThLa3epHbbSsLpj0OZyrc/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2319-80",
@@ -4889,7 +5441,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0FglbprPEak9nPwSB7YJN7fVst4PrWvrkqOCgoCUOhtQPloFasVmR-X7RaOk9f-zoQixAXmeHe8EDtk8soFGNSMAW1825u7t7J-kEKK0i3n3aWg=s220",
         "view": "https://drive.google.com/file/d/1UKDQI2Y1oq1mS3gCysnXmKL48UpqdUrY/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23190",
@@ -4913,7 +5467,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5SKvjy1VfM8aTVXLabFdZYmTCcyN_fLjQyaH1vdiI0uLQCissHiyW51X6Ni-vZcozduW-plV19AUViK-_uQFmwmt33sUGnEsqlJJamR1vs3tQqA=s220",
         "view": "https://drive.google.com/file/d/1JONIsANj_H9Pxfc_K8krBOvwIyv_Oal6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23191",
@@ -4937,7 +5493,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4OZlBVVvxkkSnpDnmp8h9or5p_nBD4vcHd1FsGLF53MVRBnSGVCTZkgkMDsiiIN2zHwYV8olhZsAu9qWryBc2cVYJx6ZI0yOBMnmOv_JHo59uhA=s220",
         "view": "https://drive.google.com/file/d/1r3xU8jgJLvUi49GoZ1tI0olnIj1JrR5S/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23192",
@@ -4961,7 +5519,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyzpUh5uZPmYguQSk3I-A65NDxulKLB1P11prFNpx_PdpqvxqLCV4Y0BueFTGEm5WBTvHikt4XLgt-OlXVGXQd3nLzMmJ5QpqyTMEMHKUr0FYXYw=s220",
         "view": "https://drive.google.com/file/d/1Cid_6EjfcYrXKTRhkolKAFwdW3agyluS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23193",
@@ -4985,7 +5545,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5vA-uSYzkn0P_m9a3BgZJCYLdBXt2bMzLJsn8298WiyjK_WLHL4SqTLrPjLBc3jYX6B0wa11UYpBlF_WsrsfzjnJtyjlwpKuXmH8zMkxJvU443Qg=s220",
         "view": "https://drive.google.com/file/d/1drzeUYpMEfHaAOqsca9xv4WNUlRQ4ifd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23194",
@@ -5009,7 +5571,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWXFE9BBVFyyuFDL2od4CJVU-3SzOrcXJxcqAprccW0iBSEC4pGlo5_nllz6GkLTVS05HhCbgjTqjWdpspREwh55Z8a-mbAEBEkSRrCFfi7wXIqQ=s220",
         "view": "https://drive.google.com/file/d/1HfqKi7IzzvgmFDJEICbH2tIoe6-MUv_b/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23195",
@@ -5033,7 +5597,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdocVzRM8uOehfKEWr8dtPhPyA1y1Zk3DJ3_tblFVHu-zXLwe3KF6w-hN3O01GXQwBoiuoNi-9miwV6rvAv024QbsAq3M1w8cnJLymhTBD6wZW-g=s220",
         "view": "https://drive.google.com/file/d/1M9PXGmQJl20x0V6SzQg6Z6E7I_2Uf0kA/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23196",
@@ -5057,7 +5623,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrlpOFwgYU31p_be6Kbth3BJtT1fr3qmSP2aN5oJ57IuYFOeX1NjD-X2nV-gtL7jEAyzY2mLj599vh4mWmWTwo1PaEIHK4MNqpBex_WEpHMc2HMg=s220",
         "view": "https://drive.google.com/file/d/1XuWnDSFqIDsOUt0hpx0YzJn0WFfkxBh_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23197",
@@ -5081,7 +5649,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVjgb_sFkbK7OsnBSvsCNqYvmCQGzXaxoJySw4xfzHNc8SpnBWLeXifS9uKwqdm2eqKlzZ1lcT5QPsbclhMJYo-AVXqUcqulozxRB2cu5f7hkZTdw=s220",
         "view": "https://drive.google.com/file/d/1YgdUlB7lZ9IzFEvkQbeh2afosfa_RwH2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23198",
@@ -5105,7 +5675,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNw2ESMUk2JHzGw5S4rCGChW9QRAIvROtnIm41c_p1_SIxNlNnVusNQA2H6HqCZEaJlsdzZ_04aAjoWvnD_e5UbrrjX18paDDsqg1SdP_bwIIFD5VA=s220",
         "view": "https://drive.google.com/file/d/1YT2xapD8UBTzg6oi4pRU54SRNdtRXR8K/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23199",
@@ -5129,7 +5701,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMo9qxQwfP-ZWmnTFKhaD_BLkslO59hmXnViWuKx_AP6nnVoV3AM1Db3_PdVCcgxfxXEpdfaPkhilxodI4xQaOL0QJ5Vkq4BnJAsz_QBy5ZtjhkDRg=s220",
         "view": "https://drive.google.com/file/d/1H04sFAVz7ZvTv-NrgZg_k5QCL8DIluzS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2320-80",
@@ -5153,7 +5727,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvwLpeSe9BEV3A-H5I4F-9glHeN8LIO8Oad490bgtjPhCl1h0_O7bg98b_FqdhCKpcdZ6hJpz8V54oHd0s0IvCjrURG8Bl5SXIWSNpyqn9HyfgvA=s220",
         "view": "https://drive.google.com/file/d/1ioR0C2F9WbKFXADUYBTtfQOrZxKrPXSZ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23200",
@@ -5177,7 +5753,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTErss6WpxSyAbGlilMQ48JDZpmxA_qwqKvA-nVL6N7IbKCcBGpI0sWPeUSg5Arou1xe7DzZEn65qpfZdC6yTYyiz-xjK2IahrcOwjOEeBKejnJ7o=s220",
         "view": "https://drive.google.com/file/d/1n1UTYT53vqIRpH_HDFk9zotJJMRo-5Gi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23201",
@@ -5201,7 +5779,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP43BtvYE4-QoCNtBbTawz-ZyMUBn9ZjiVN0WXuMp6Rjkn6SqYVSHTulTE_rakCgvKPQSXsICF8iywTDa-0_3KCvbVQb68tM1kp8_Z7xsrXPZ_sog=s220",
         "view": "https://drive.google.com/file/d/1_alj8VQxSEmf8qVlawP4kcFnbRB_7jB3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23202",
@@ -5225,7 +5805,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeIzemQolEduTni7eo_FKg2iD8O9qjG1hY88Mhmf8fiXJJq0QigvoIDC6M6M0OED5Vlh4u50KrhXFQuJFyvH97E4rmeyjqu2qZFSWIVk1OkQqRZ1A=s220",
         "view": "https://drive.google.com/file/d/1Oae9NgL3XUMqAO8OyLBSPIlR3mDjb8Rd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23203",
@@ -5249,7 +5831,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_zDBiZl0BVZSHBVuzIPcLBzhWTHA8OjpXW8WYOMGv_n-9PmUM_jz8tOZJuRPzij8u8eGjGWy9i6yP4nQKcU4glVO4H6I_gk1OoPShSvsSkXtCSL0=s220",
         "view": "https://drive.google.com/file/d/19d_UhwrChOAJSMzQzDPNXiFDRoYBNUt2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23204",
@@ -5273,7 +5857,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnMrp1qv9Nqhk1fIXBZD0VS3Mzb1qR0l63ns8f3n4mb6miW17iE776r-XjHkhF_Ue6Yt8VrANSOhjfN4pIr_d_Gb6-zQPd7qTRA5MIHxj8iNSz2iM=s220",
         "view": "https://drive.google.com/file/d/1aLQQC3lb5VgFs6nzBr5Nzn0zGVQyuKgh/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23205",
@@ -5297,7 +5883,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6t7hZIoCtZl8BQkOhy1klWbTpFFyUX5kJUOw9HPgAjF69CWikytpA1zMebRk6rIdmpoE86zwAUDoER7wJGbQgolKMWoVws2nxWPKoFq-pMOHhNO4=s220",
         "view": "https://drive.google.com/file/d/1_UZ-mHl6klPNHFvBGWUtC4EhiRYln0I-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23206",
@@ -5321,7 +5909,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwAFWjnpWadTO-DfLiBfxczB4NvsoyWTM7WiwvWMdv58pS872pqKRtraDjhQPSCewltfgWyn9qub9EwBT-qsrTMRj_J3apsQmUTOL00DzFIeekv-k=s220",
         "view": "https://drive.google.com/file/d/13gDNcCW4yr39ODxhFY1JZx3ec5HDuoA0/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23207",
@@ -5345,7 +5935,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNdMDkwqgb4oyPoYj8C2joWmccWMGFVg_hqs5vEy-REwkEzFV8kSMp1t7urO2e5oIqjdftpqTivCEew5T-nI5sK4MvycVMUVEveH-1ryiCEYce6FQ=s220",
         "view": "https://drive.google.com/file/d/1hx8yXeFqe5OaSNm58wdH31PwEdoDAa79/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23208",
@@ -5369,7 +5961,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzv0aNn_0GDN9AKhPPT4qtkInzqYIiQwQwm0RC3OcFbPzrEZx0b5hhOo6TVpkWoZQA_HMR2_-_sSI_EOMRJNLxWe9KQxz7lLSbF822-XVDqhAIvqM=s220",
         "view": "https://drive.google.com/file/d/1XAxX5xGNU9RpH3uf1QgqrnDu4X6RlyUI/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23209",
@@ -5393,7 +5987,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvTOLZ4wfcNGPaKced3yAziVp5kaLK4xshy_xKD-2pJBuajeNro1BX-7AQlY8CXAL3iPiKmd05k83QoNpj_uSw5mryJWHfXvg-W6JQnkkqKbVRCAQ=s220",
         "view": "https://drive.google.com/file/d/1Vfpzx3gX-Xf89V9vUqfW81NzG103enfw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2321-80",
@@ -5417,7 +6013,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPci9U5BS738CbgW4arvC9AEOHbfWWOzbUkoGZDkQM_EgNoDft8TuLX4Z524jsB_BF7kO_WjTIqmYZ2Y4W9b_i22khkOFfTRglYCFOXn3JpDaafvrY=s220",
         "view": "https://drive.google.com/file/d/1E9PshtLW5rEHqNLE0kyU_729kRGR-Yjq/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23210",
@@ -5441,7 +6039,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPfpNOMP59mK0Vq9iV04zae4B2-QTqtpVi_lL5pP_wNpaiE47iWfsKSzf0xtqcFd68JTIK1hfF7izzcj2gset8i3wDeFFjtyuNGh2l5xwrSo4m-Xs=s220",
         "view": "https://drive.google.com/file/d/1otd8tA9czsWRRPWUts9RM55ZwxTX3Hda/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23211",
@@ -5465,7 +6065,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ6NLZL2dFeI5FmTZk4936wB7cNk22l6fVZAVf8cgvx539H9N3b_YcOVced5njJPrk2biNwvv6CzEhLNO1x4FvsEP5WwhydQJcybk4hjCCvRoz0cE=s220",
         "view": "https://drive.google.com/file/d/1R5CDhCBfqx-wEpZTzgnW2ghjg1Y0n579/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23212",
@@ -5489,7 +6091,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIH9Zf9K-c4-9AYl7FI-WFYXYZgq7ydFC0SssX8k8abvn7QbEtCLrFNtXMAu3q48SEpd13Y7Bw7skKhY1NaBcksOLYbKQjuKn-_Bdtfy11xT77Whg=s220",
         "view": "https://drive.google.com/file/d/12spY0jS6GVs8JE5f5oOjl86YwdjaR-DK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23213",
@@ -5513,7 +6117,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1rXzmeieKkGcsfoMX9ZInu_WiSAbI0u_EmWYHs2z2e3XJeFQk_9r33ki8FZZn93ziBK7dHNadnRLbZdMB_hoJi8f52SoG3QYsFAo0fJGGesKb7Wo=s220",
         "view": "https://drive.google.com/file/d/1fN6gCQvQRqj_RHdlJzDj8cO_lb2CLpWd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23214",
@@ -5537,7 +6143,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIIbq2aE_opdNq4AjOQHbWSL1-I6i-d4-Nl9pdhFP-xELBQ3yrsVkJXv8Cgzxs7zsLk2kiLdMyER8w0aece0FWnxPQHZIZ9sxomfLBunzB7cGSzYg=s220",
         "view": "https://drive.google.com/file/d/1D87HXu6AzvQrpHwBJLl4WTC6xrssWWdM/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23215",
@@ -5561,7 +6169,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_mzv9TO4ee_EP8f6bWYw7HMFdsXMs2r2JvbFwS6BWscOMxv8cStgqOxClY5bTXsJgHhdyFucjd9siN2L7GZ-6kbdaa8_vglbZX5sWQVfFAF10VfM=s220",
         "view": "https://drive.google.com/file/d/115lDuxTLdqoDzY41qgKLf0o899_wFHFk/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23216",
@@ -5585,7 +6195,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOC5V3izo1Pq-SkyaxOJqtr4WY9I-SUdQ3V-TLR2jqc2m4WqDG6DM5fmyk_fAzLzX-61Vh_d6coLkSloxPCvdH2wlbC7rkBcBZ3veketackrxjjdo=s220",
         "view": "https://drive.google.com/file/d/1QJ8J4Tx52AhNobfyjaxFe8pNuPF0vuuz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23217",
@@ -5609,7 +6221,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8raO4d7EQnzIu7IAmAr_vIXqGxqcxSPlQR9ZO1uljAIrrX9CH7hFKr65jRdwXj0E38qVH5jNIDLEErf1ZWdqwbJlX74Mv4DNFyzPUohzHjy6cL0s=s220",
         "view": "https://drive.google.com/file/d/1Ek93BFrd8qrK8l9onXDeUGP5EV_uCZGE/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2322-80",
@@ -5633,11 +6247,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxRTDKblDRqbQswX0dA1ztnMYgsxub7eOO_G29JZhvjTJy0W6W-Fu9K8-jFSQTk_CjcQ6Hgo1VRnfzVhJvD11pS5CxqXf1KAk_Prw0iz7gm0GNbj8=s220",
         "view": "https://drive.google.com/file/d/1DvrW9iVLoRkUIMkdPSQF7aTrd83q38M0/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2323-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -5646,16 +6262,25 @@
     "_folderId": "12yDnEIyxn1iUac1vXh_N9wzlFs7lSe41",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONDspL2IFtIF8ofBVe0Xh75A4xZM4gPkJsCWJGRAKRBLbIofeWXrq2YLpBlGLpredN64hLeL7OdNL_se8qBug5LxdmYrI6L3rEluMsBWl23Kzntoc=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6OuovCQ-keQpV5zX93QlG4rsBImobwCLpWHl-GamHd8x0dcmFU78MA7rurC4BBGmb1ihyVqGB7xhmwcHowX6VmUQY3NnaiAD-tLjD7lyN4wSkSKs=s220",
         "view": "https://drive.google.com/file/d/14qqX84ZO5YWHdAY5rBNnfgJmr2dNdJgK/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2324-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -5664,16 +6289,25 @@
     "_folderId": "1_bdh0oKYcr-YCg8QgBZPrSfPCqkcD2Ci",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOtU9kkcqZbH7N8Sx4_mrU9qJ3tcO3goQUysXABhrJ_TnEDDG5iuHATwFzoQK0AvJOoOZxjMWFqsOq1AW6Qs7LtafUUhuSo4-7aiwpcmDT2AfeYQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1z2MHdIBVIufXzOZzfcDG_1BtJnrVpfEbrXHDynoRfDtY7Vmf16Cr_AAUMV0O6FQ5dT6omJiM00AjkM5Kh0I8XI0zuThBRcLIU_7cPQdFJ1XRAYc=s220",
         "view": "https://drive.google.com/file/d/1EYTbRDWkVlYIxWHNpOZb8KAEBiDyqLbd/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2325-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -5682,16 +6316,25 @@
     "_folderId": "1dLL9wpVcePM6Q5HgCb9jzZW-oglpOYRa",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzzuhUM4bJpWMExdgLbz_yDc0N11cFYVDPwMYqpYbOHAkorvsvCJzCZb961MMIp4UKCEGtBzVRyIw-BbBscfrKfQSz_Iyerg2rVHppXD7qPfr0Zi8=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK_JctsJ6_TUPdhoIoO9Z6VmA-89_c4t75QuxuBMAb9Mv0DgAE8qmJhAP-blGPrirPs2g5-BagPaiHFYU0CaJahLKjr0COVgPyBCNeOkKYHE_nW-0=s220",
         "view": "https://drive.google.com/file/d/1vauJ8CA9_-elyrufK_cQq-MeZJf1pk6_/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2326-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -5700,16 +6343,25 @@
     "_folderId": "1qFj85p7Np-N1ExbVEFZjkQO66FYM-no7",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEGwmWwOM_mDIpR5yhFqoPho65uQ1KIzlJjAbtjg6g4qKdiUDpBgSQ8mZx-dED4VavOf8skRle2knRCMMXTLXnG9yusOXavSaJWg8EXJpnLrUHZsI=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBUFEqX7prHzLbIbZix2txs25FGAQeBG6cj2GFT3fIl2B557G68_451F_n7cd4M7CFvJFwfjP1CpafXwuLDfrdeFJ83L-nP28uVzOAOLgNYV4acDU=s220",
         "view": "https://drive.google.com/file/d/1GW6zVyna9fh3UIFEKe-e42ROv-7aMYvw/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "2327-80",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "16 De Septiembre",
     "COLONIA": "El Embarcadero",
     "DELEGACION": "EL CERRILLO VISTA HERMOSA",
@@ -5718,12 +6370,21 @@
     "_folderId": "1xYoiCwHYFRPxJipMOkmjyhl_TyZnYCg1",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhY7sbT8tGXp61QnU69O2VuwY24ub-t0rVCL-CO_zvAjI68rP7RJLhCCQkZuDJTEaF_xaTU2QIWRI4u4sN9l0l5vAbeaF7yJQl2OBy_aEfwkWDdNo=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaIYg6AAto6ZTFgXL9Vg1rBNVz3zE8N2mjeSi0RPzmTOogPhG4985IIitlSxDO6dF4FLbV5hVoAiQ5-9y2VwWchH0px51TtnHyL-esf34ujxnVsMQ=s220",
         "view": "https://drive.google.com/file/d/1u4WVC0NcCAsaKlyfhSWMRFIDhM6mWjGw/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23300",
@@ -5747,7 +6408,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjePO2gI_GYEF5p38Dc2zwvF4s-Pq167jTpizBepWC8GXWc82U7Y4J007HWrYR9Iype-tkxiHTFukxgpTDKPWGzVtDi7x-R3_Ihho4X8m1n-jtCt0=s220",
         "view": "https://drive.google.com/file/d/1oB1CfB7Ra0YHlrH3c8YfCpBtnHTlAuux/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23301",
@@ -5771,7 +6434,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1kMWdbP7-0gsr16ckGRAV7ZPQ6wW4mBSQd2XNkIiov9jtJJsqZ8hp5TwryIxKWL_0W6OhBHo-RN-q0td9N5mG94bqisXjYHB8sOE7x4JDJPejBoU=s220",
         "view": "https://drive.google.com/file/d/15Mk4il79zp1vehrOGzH1iaKz8j6JKS17/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23302",
@@ -5795,7 +6460,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOz9wRcw_J7YMrq_1T82qkKIjq1RdDV--0IQ5-xwW0xGJ7J-KA9cipZal_o2NwAZcp2gWRkstIXUfNFEjytZPlcpMoqgj3z8eSati2eNNF6jPAYtzk=s220",
         "view": "https://drive.google.com/file/d/1UECmDqIzfexMUL3gP4ZHWfK34DV2_gdy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23303",
@@ -5819,7 +6486,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2u6JKUULPAM_ZIMLNmQ6cy52k60tLksMNhgnrsmZGMcN9afeWBHXZFNpRcLCcGAGVz7WkfGdeFJOFbC0oB7ToQcgZeOoYA6f5htTSVgvm0XhOiVw=s220",
         "view": "https://drive.google.com/file/d/1-uro_IpTV-Fsv_2MAUoBI_oRCeaEnmYo/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23304",
@@ -5843,7 +6512,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsw-gfzGq8yeCXcM4Px8iqyKI5qZGsQJCQ3AxY5VwovbIEwrQrv_OvVd3VA19lJ73WfJCxyIcWzeLBhdMzuMAtImMag25yulVY390KF2X123NAwOE=s220",
         "view": "https://drive.google.com/file/d/1B8KBzcIe_eTuBmMiIeXwhCCF4hf6q7qy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23305",
@@ -5867,7 +6538,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrEIZ8zhjg8nGZrhpkdvoAJ-6NsqRWdKCrqNw0421C1KUbn9FZtc0h3OAVGbqtm-GQYmUz5DDc9UJeFelKumhAm2UTv4ys4x1lwyxaC7DR6GszzWE=s220",
         "view": "https://drive.google.com/file/d/1NvR8ApnxGCK40qUrdUVYTis1VOjORUEI/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23306",
@@ -5891,7 +6564,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGLfwh-wWcT7NmyPII7J8a8BIwXqjJNz3zecjBW0olcfIV-EAjQNs_2OYvlibkXS6zTNp8SbQof15AFMhJfU3i_O-irurK_8lwecmXqxjGRHUhdPQ=s220",
         "view": "https://drive.google.com/file/d/1-UrMPYXm21QygQGt4tdblHuBwxfEY2oJ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23307",
@@ -5915,7 +6590,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJU99lkihosqpsszb1i-5mEtVi3ajm43qce0d0bDuzSBk_lm_Dw07-A7_Eu-6khlMe6UKpXWGAZodJO6S9PbMQpaxYFz2Lbf9KNIqt268bHYq7_JA=s220",
         "view": "https://drive.google.com/file/d/1Os0GS8NMRgN-_uzUDkE3kUGEWf-QzrAS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23308",
@@ -5939,7 +6616,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCFIo2emaUjmzmKP4eNJpYn0_oCPoPgTeCAH-hCxvXg1KZJyjESGx-Ke2F0vzJtJg3phyWdNEQF28pNODzDbOegq4bBOCoZVzKu7Xz6gx0PoeX-u4=s220",
         "view": "https://drive.google.com/file/d/1Jb_P0koA-7XYo5UzUuHB-fWMQXc4QiLB/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23309",
@@ -5963,7 +6642,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSUGDHAVUhaMcjPy78-j17Xf_iGsmBNnsCTR9coP1aHO-qX7MTdceLeYDxY3Ojm5auVDJ9hwnmEYwSa4vzmMDBz0h6TBBCHrKvouQ1m1jMt9gtVt8=s220",
         "view": "https://drive.google.com/file/d/1DBhvZ37WN-AFeslGX_N8KtwWczNIWC6W/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23310",
@@ -5987,7 +6668,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEJ6Vx7zit9-MKkyLZZfqIJIXSsz8Y2-_k3kcrhxOFcz0xsJct2su0D_h1uFUAVhr2TOmcOHHaw-KnzqLtgONkfDH3L8OuRtFnQ7tfLHOKsAbsGpM=s220",
         "view": "https://drive.google.com/file/d/1znBnjCPBf2RPBhBTPDURLzG1hGx-nTGi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23311",
@@ -6011,7 +6694,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpBmXDpiBjnChd0fO2ICudggAsjTMc7EklahBBp7DSMKdkz5Esa2arn8bcSZqDiwphHihaQiEOXH8hHlvdsawK0CcZXSKeMd7Ig-Tnb4uNW129NP0=s220",
         "view": "https://drive.google.com/file/d/1fsQOvuZvjZ9zPJfz_yjFYuV8GwvcF4_J/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23312",
@@ -6035,7 +6720,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0tklymkVs5xEEya0pMKzDmv-3bT_UWsqb4C7ho_k2Xzosg90cZQBDznc_s6r-0UU9xInH0nSfemPSilEuTchx9GiCjAy1X-COVkGPue0BWHpkrg=s220",
         "view": "https://drive.google.com/file/d/1kXdb3U9rSpvl1tzsdVVeXbdVaGeO_Fs_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23313",
@@ -6059,7 +6746,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMhVtkFKIDvU9aFItejjMiuGXWgfpwA-QYf5NxK9nQXDr0RoKAZBsB4iwfk-xP5Q7uBAuFuHH4m4SPn8RxaY_pRaYltIkCsUQ-EhWB63i1EArI87c=s220",
         "view": "https://drive.google.com/file/d/1755JcN72Uyye870p3rx4Ty3hVoigDnPx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23314",
@@ -6083,7 +6772,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPm4YytWehQrSEb8zH_yysh4bbTQmM41oBNaWKivdw9uFAmR5PUaRb3WDVNr3K7pV0AdfmFdTWLJbwA9uJhqJBxwcg1Ht_OazuMirNKvVeeqTeahsk=s220",
         "view": "https://drive.google.com/file/d/1dPrFOZ4hHxbJIfXFoEVA17vepEdeLxte/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23315",
@@ -6107,7 +6798,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdlubV81ZJVtvD8fB2w9uF6Ibago_cHvbf4G3_ydVP7P4v0NTYkXg-PL_XcAgF7J97_sqIUSlAaoh4fk1IEIvuKBTHqZo6y88dQFEpzl2-I312ryE=s220",
         "view": "https://drive.google.com/file/d/1FHxjI-pTQlECD2NQm57z6GuUfJ25deEA/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23316",
@@ -6131,7 +6824,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOblMhju25LWoLLlvxBCAdM1H5hz5t8n0FhEsEiavEAk2JD4sm4kAC4zhzSic5VRo5FWtTUSwkpu5Ggikhwz36JnRchgElu1nfzYbNhnJStijYo5A=s220",
         "view": "https://drive.google.com/file/d/1XUs3kD9xuzMKMExZ3FNUdY-uP39wJYEB/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23317",
@@ -6155,7 +6850,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzP6UDHY95TGE6-vj-Gni35U3yMj-9d9brnI6t4rk-W6IQJHk3GczOD6-uMl0huOKOx3pnh24HUDGSrP_LQjZiH7x1exUritVG5W7MCE2tvXAVVw=s220",
         "view": "https://drive.google.com/file/d/1CMg21c92h4crEN9ttm6LJvFjMr0UXIa9/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23317-a",
@@ -6166,7 +6863,9 @@
     "_company": "ULTRAPARK",
     "_stage": "E2",
     "_folderId": null,
-    "PHOTOS": null
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23318",
@@ -6190,7 +6889,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoYCVBFCx2t0b-SjZkG_VhbSLXium6V_7Vk5IIxpViBYWWBtVMvE6pc5ecT5P6yY6xow4jcu4BNTBq9hVkEn0173e2TUbE0AW_MWXSVWulRC769A=s220",
         "view": "https://drive.google.com/file/d/1_c5TRJaIEDwIx77Pjkdh0EZdNHFrnaKr/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23319",
@@ -6214,7 +6915,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfwklqEKJuoBf2-AfDgh6cleqM2e3B55QCqobTvGXm1qO1A7YlN-mR5joj3JXNmWbRNnvp6S8Z4M261wqr_ujIER54bQsGR4acxOZIK9hAZLfLQQ=s220",
         "view": "https://drive.google.com/file/d/1H4LN2y-gxxl4mDGebfJqi33kHOV8A0zy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23320",
@@ -6238,7 +6941,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN96IgFscCxTqAElm0OuSllNLEvTJkW83MsxQ610B40ufrlrGB1f5WZZ9ZAghskBRaZ19R2Bm5wy9eS_POvaRMsf1IaCOkFVlRa04nWevaADkGoIQ=s220",
         "view": "https://drive.google.com/file/d/1a8FBwVQs2a8QVMnid6e7lOIMdZnQzYyj/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23321",
@@ -6262,7 +6967,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXqxkLwwM4KYvrmv84CHz77ezVprboQcsiVZu4iONOY20OOi4_hLwFJ47vqFKYMsAT-xXcOrJaVlAXj6GFS9q_YthHsQrmPQc9-PK1hAHSrRgf7g=s220",
         "view": "https://drive.google.com/file/d/17OT1CUJYzMYBbL9PRQB9A2bldIY0MQq9/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23322",
@@ -6286,7 +6993,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjj3-YLA9lguWT4Nv6Xx-Gdn7PoFQZPToZQD7iA3ivZayVWl4hlkRmG9XkY_h_k8X4ejQ2453yBA8qhIzdp75_8Apk41V9SuoHPgivDLSHIVXlhg=s220",
         "view": "https://drive.google.com/file/d/1wKWUEE_eoV-LKw4IP4Ls1Q-cRfnqXYwC/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23323",
@@ -6310,7 +7019,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhZmXJ_WlmV1XmBiWD5HYNvbdy-Nz1lSg6Otb_CE7lUW_GJJjl7NdrzRuVNvutZ9yqko6yNoFnCKjXpd1TBO796QGaVJH6byFaXkyapzjS1nwmkQ=s220",
         "view": "https://drive.google.com/file/d/17MqANJBYqB9c0_pr-IvniACIrJpN5rF_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23324",
@@ -6334,7 +7045,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW1hvgrVQ3YP8Stq967JU7h2VVtdnwbBoOX5aJneDO7020SJbkpSACWlEz8eLZMkaYwVJtps8JPYFpq-zUG6lWqGJ_CMlTowjjSFuI9BymUM10nw=s220",
         "view": "https://drive.google.com/file/d/1LeSlJbdmCkdk205b_xxuX1OADHZWVLHV/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23325",
@@ -6358,7 +7071,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8sryLfL75CaOHj8pgOQylR8N4rf1bZaaK05rYDcEZPCMAJfbO_MzVLKc7QMwxI3QcqG4wJ7bzui_XOSiG-NDuxettayAgJ9beEu8RjmBfGNi9EQ=s220",
         "view": "https://drive.google.com/file/d/1LBXeBQXbdOx24L_FDtkKNYd-CzPggyC2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23326",
@@ -6382,7 +7097,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_j6Xp3gH0cFrbEHMy08fKuxI-g9McnmEhE39RFHYcPILlJFzwc_TGQce2nNwqHh2sYLnGX-5PJvhjBZMHCctvyqbBZWb8V3nCDsTNcYce72-oqg=s220",
         "view": "https://drive.google.com/file/d/1D7mcF4_rhFlYjwxcHtKyTZQ50SpvBW2q/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23327",
@@ -6395,15 +7112,24 @@
     "_folderId": "18uvm-_UuufaQErvaZ-vS6CoUpBl6C7SJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhd2WFPe30SOhS_kQ5GpqQa12zDY59PNQucHK6bTeLotF8jxwxXT9lSETFxxIVfELqE1Gg__AQra6Rl6kZKwwzH5GhEEXjzeNPLI6yuHiWZRkWLvU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnUO0OLm1hVSMpecW9IDb91D0ic-ONdkK4gfcIe4wb441Z4vyqauK2waRX1lQq2FZD0IBQjhXHcms-IeJOlzxGLfbzBSwzc-xwb9OfX6WwdYRCv8Q=s220",
         "view": "https://drive.google.com/file/d/1s1ZGQFmG28Uvsp4gMDoz2riG_DIz-f19/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgXofA8N78RksSYF8yZfIYYzg4v_K2U9YviDi9ZZh_xOAjrhoeYwfpCAQt0_adkGrNOoPwnvdQtB7YVx9AjsWBUMeZ8cuTz8nzp5UrlbU0CYw0JbQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDXClsZlVqLLZEiatTpcJ2dZCD_YqNa1ncOVc_tgoI1BBuLKdYofEsgoLFV9QqKTnD5DMRUxGdBCrrIVwvS3YSqaaRuEd7-9sWjWCWgJvSDrtLDFM=s220",
         "view": "https://drive.google.com/file/d/1n6Rkt3RoUWz6CHyBip_ZwhEcFPTtDMdD/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23328",
@@ -6427,7 +7153,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZELHRb0UwRglyv2QByQmqlsNMUFg1PwPSQh_aiVBVmp1xA9tpCUzkOw4ikR4bp5BhE1HjAm-nu_d6V5oEi_9AirXzzqxl8_MhQ3JQlwIAGwxI-g=s220",
         "view": "https://drive.google.com/file/d/15CGAEF7oIG-y5W9gQn4G3KjMYlrbrDlu/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23329",
@@ -6451,7 +7179,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqtODkKaxvzo1RpF2DJ0fA5r9YKFY77SHsUibLIEErHyErEI4rlkD5qGWTmAePaK_uOqpzr-ghGXsoVEH9_rff3CO1INeOpGS90QE9VrAbcHdLwg=s220",
         "view": "https://drive.google.com/file/d/1iox7s2allTKCmLEohRzoEf8UjHT8AtrK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23330",
@@ -6475,7 +7205,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBwzVmGsOvbkM-HnFA-2SqGTmNhUiYYThDuzwbpcCqPQJuXH-nLR3Uff_CaUO8KD0OLKlNJ_tbhX1VBwh0WrGxHTiZzq2pbsltdn6k_jt5rye8vg=s220",
         "view": "https://drive.google.com/file/d/1AT6bLT7KGLOiDuZQqz6KB0zrMJF5eII5/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23331",
@@ -6499,7 +7231,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_vd_EDAb6IyIfs00GTuljDN13crh5TIE5K8yximrzFIchoK1t4o8-MN4bcfjVWjOa4XZLs4OTbRVbtiXT1xImH6E44DN_5jJ7ACDUH6YhVBcBqA=s220",
         "view": "https://drive.google.com/file/d/1k_Ua8P_wGXMas9yUvKrEatL3wmecKT9r/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "23332",
@@ -6523,6 +7257,8 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEgZ7pFqfY6viP38Aix8uNWXOHPcw1Gbo2PU_nSy1B7aLJgvagqvHfmipBHFRqnmiAUmyUY5jjv5oBuj-7qaTiTXOhI_Hb-rNEHnF7v_mICkODqw=s220",
         "view": "https://drive.google.com/file/d/1DUCadVWtG1h_d4kFwEEzPO6BcR6OruFe/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   }
 ]

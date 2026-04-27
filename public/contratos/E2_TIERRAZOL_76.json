@@ -21,7 +21,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCBzLFvI7bdX0e5PXT1K0XuJYjF_1mOOHsLyII0XBfuK2rq7pj3_6JW5393CYxngQzhxkLuOJ2eWYi4R2i39lRIco6vUG-NHJYwxV2PW2hGxgVqy8=s220",
         "view": "https://drive.google.com/file/d/1r9LmuAjP55OduR9p9o1mCylkGqS6Bnt7/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20002",
@@ -45,7 +47,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoXTnU2EpQ2nRClGchyKB5eudo17CAvUnI9811NgveAZkQaBahTmt9PN0u03Hi9aouEKsEr0-1Yo4sQB49ZhcNXnDPve1-ETM3HU7J1_WvmLFV8h4=s220",
         "view": "https://drive.google.com/file/d/1NLE6FU-V7sayHv896aiSP03DYIZclAAK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20003",
@@ -69,7 +73,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPdJm3bOpkgpZCdHIhsO6QPW3wYc_qOuC-K_GPktbJOxG1o8H4gIs2put_lSOJCX18f7YacsonpY4RR_bMOKncxSCh4-GAq3xnOnPqeSP0emZdWN0=s220",
         "view": "https://drive.google.com/file/d/1nR34_qUDZxJaJ1Ocfeym5h2YElG_cGGx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20004",
@@ -93,7 +99,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvLJCCYV1xumhrfWNLZ887GUMOqceqGl-1Xor8AkPKZ0GECOrY9yAAhk8xdE9itJYAnqEeWEm3qVvp-nhdkzDbjrdEjONr2g-PcVSWIV5PXz5a4nQ=s220",
         "view": "https://drive.google.com/file/d/1uw3oIte910NcCznAfxMCyACyprcyg1n8/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20005",
@@ -117,11 +125,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO63zA8XUl7_ub01y0zgjJ9hHnJpbrEGk1kcxnievzOBZVG6hhSRwhURPDb-lkk6TkI46WGNxdSaQIfvk-1DSI4eJf2NDk7UmWrEBGD3rK2oxe7dYM=s220",
         "view": "https://drive.google.com/file/d/1YAl4mtSSvlP5C5G9Z_ZTjlw-cAyECRZX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20006",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -130,15 +140,24 @@
     "_folderId": "1zB4Qzdev-nG60yGXLCBrRG3khJlH9oaV",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ-JiWN6KAwaY7vatF9ONjTJAuibMCgAm7t6ZQKAIEGkxXXk6bkUXcTKBKaFfJ0Ily8_ngdVpUsbIbDP86MTpjbi8P4UYZ1KPsBtHpgq2vcG_nh8c=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZzc6rBDtXscbBWPEtLJG2iLuQi9jKSJ_ihoxR4B4RcNUaFixhdx_x2pr9JCZnSdS9eIf1LTamvK5WTZ6kwQE0geoRe7V929sYD6AIUe7oZ93dhg=s220",
         "view": "https://drive.google.com/file/d/1cp0Y_mazR4AtsMmhwvWGUdgejdNb428i/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOIJclWr4TSRpP_JJ-i-eUNrGxjiK3Nz6JgbsBpEdD2oCRD-LtxVXPGv-S7NDllaTvqFlzBcUxl1s5IGuArFLa6DZ1GpTPuuz9YzXUPDlIFqWW0Ik=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2D4TXT2Hz_k8uzb0-ra_TWq_SGBjzoNtq7DrNfOUbKsS50CAChCyt2RQAzqy9yyi8Gc9KVnGubCjsikih0eBg6mgH1AjZ_MHT45PB5rG2_Zt6fg=s220",
         "view": "https://drive.google.com/file/d/1kvhcM3qhc4w1ud2_JKCdOecYrX6Ud7d7/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20007",
@@ -162,7 +181,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjrGD3jBYWro5BMJzyf2-KiSfOX1V6bkNhc1awZ5C9t5uBBGlUrAKFzanncERprBj_vVrxGeC2zD7HNhTq_I9OBYPG4MpwG1Rs0PnePdpGDwGKiHc=s220",
         "view": "https://drive.google.com/file/d/1G0j8gWNWdb_59WqBc2I42i9UwkzKtO29/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20008",
@@ -186,7 +207,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPu8saHtMbmDrq7AGYOA2TLlqjuhWsHlbQEav7AbFgvyYOuyyrg-ih8N9NXwD2msu2lUtZcn5_sxKAP-ys_4mLAJ9GAys1BYXCMcxMefltA_-ux2IU=s220",
         "view": "https://drive.google.com/file/d/1AjqMuLTjDFr3-o2OqGDhw23kCMVXHuwz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20009",
@@ -210,7 +233,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9iaGV19m2HHNSNzjoLELN1nIeaDRvdSYTXpTzs-CRoGyK9UT1332fWyPQx-fIc_NfkW20osyQIDo9blXBv15GivlVC7WBlf8sxFzDPrtzMciAsPI=s220",
         "view": "https://drive.google.com/file/d/1t1ppmrtQYu0fS4L0YNRagg57phDeSsa2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20010",
@@ -234,7 +259,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRnVKZfURRY4QcaU-alZzTl5JdBxSFCcR5eXXnMuM3ha6ya2poWaA282nI2apWQCmG2AhXhYY2nWPagAU30wHXJddP1CQUR3lwl4D5iwwLyQ3OMls=s220",
         "view": "https://drive.google.com/file/d/1yO-CqquSm9EKNkzg-wv2S1DXSid2pS26/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20011",
@@ -258,7 +285,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwz0uQcXQitvCEcHhG9XPpEUrns9vk2M9xTjsNR2TojTIS6xiRj-e-WLntb76-auD8mrV8XxPsA8tvoBoaJJQE1cTyvRkE4JZP2JdJVl2-zoDcP7w=s220",
         "view": "https://drive.google.com/file/d/1US3rCk7KoX9uQnZQvqt-ACxpo-I7YAMW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20012",
@@ -282,7 +311,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOX22wzXPjbc7DNtDwAp66Foz2hnTlZ32KklJx7e2Imx2M9nVG9yXFlcPMbBPQc4CJhnlN3wT1rHA2ynviC8CJKn-kz8OYUd5oI8yxjyIVZTKUf1Sc=s220",
         "view": "https://drive.google.com/file/d/1-wCBgl9IpGnCIGv_YTz523Xi1OHrdFdB/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20013",
@@ -306,7 +337,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmbtjVl_580ttjztG182x5gW-2TdMgdqF9qd8BBLmqAAaEhtTnHRK3JdB_3r5vgY1jtsgOOQy9YJd9q3idnXnVQ-ijFc7jMYpKZ00TdWDXuAG85OE=s220",
         "view": "https://drive.google.com/file/d/1sgeKqGWspdCJ3yNxhQ_Knngr3Awg6lTL/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20014",
@@ -330,7 +363,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmXa8YQQy7mQt1roKPciaMZr4BM2CJijDgIPP61VgZAcy3hr9hD4IQG63-hyLRC-401iGCR_yyCljmq5_yYWGWKkLEiyVGQLZomoYHLaYeHrxn-lk=s220",
         "view": "https://drive.google.com/file/d/1O-kS8oIvQTt3WHYeeLAgBliqgjNj8A0i/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20015",
@@ -354,7 +389,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSWwbzFLUJ2To74jfJqDO6jCpRCVJBf5jc7_4IalogACXSNaTxRgk9knG3yAAM4Lb0RBus-rTqxzWXpeltRUJajWweJBf6GDjtPjwvpYdYocfcZDE=s220",
         "view": "https://drive.google.com/file/d/19BX53f9bub6Uriwge9NCNWAzbt8ZebH6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20016",
@@ -378,7 +415,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwxHpar59mj5k4oKwM8rQSN4ZtwVMhAqgnasawAWmpdML9AMkMVsiG0fM8d9SF9Ioaf0NYrfTk56ODup2A3jaYX8mI3eYjAOD5gY0_ZaPetLcbfjk=s220",
         "view": "https://drive.google.com/file/d/12ytt1L25RR0vWgxB4yAyprwcmB7mS2fe/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20017",
@@ -402,7 +441,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORs9ARQwBF_iML0aUwunjVavVmgLefBgaGTTE-mfzDjNtdaC-eA2_bc6k_qRG_M8X0K3_JpBrp04OE6NFJKHW2-HJxySGFVVfHxSy243IkY-vBYSg=s220",
         "view": "https://drive.google.com/file/d/1SDRfgF92H_3vXbPuH3G4S2l1tdvkkoyt/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20018",
@@ -426,7 +467,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAiUU9lbsD67oAHlFR8iNJraCa-vUPT6Hlm6Ec691rJoS3AfZ9Gb_ONU9Waf7g1sGZQ0OpwP11qCuVTaz-sCuJZkzNBXHgJORjp3XFKevXvadbKrw=s220",
         "view": "https://drive.google.com/file/d/14yl2y8TaYjICnQMAZhewuwP6yTjgjin_/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20019",
@@ -450,7 +493,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMvCvM8A88kp8vIlb5UIOqX8W5OzlXZm7GLaKx8ujqPmvJ3hdNpuCwRE63ZT1syRzaNIfN1ruMbbhBzdVWHUWaH5VlRS-0cMqEj8OIgOjsAnWECpg=s220",
         "view": "https://drive.google.com/file/d/1G3v18od6ku9TWfWOy4uZULvCt2H5s_FM/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20020",
@@ -463,15 +508,24 @@
     "_folderId": "1U8BvCbFJaHVdESkIAAuLu0Ht27eSE4C9",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlr1CEEIfGHUM1IyBTc0uQN66DNDgaT3HaWfJAwstjBw6tmguXwgC1-Sd3TELxb2Q1HDE0O2QZ5tke-UgV4qU3r4PrIBGxVCzDQXmuFhGgneZzvHU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaX3WWH3jqin20-sXhF4lFZhGzz9IdcHUgqo-Nw4bIlPM2FfmQ3l8Gs3MvmK41jJyyUtPiADHVFThZsTvOtiqHgt57iqBEZbn_frPkdaQsplVubg=s220",
         "view": "https://drive.google.com/file/d/1IPh42M0Ng3I8E6egqRf16fYgybiRWfc6/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK73rP98L54H0Al5EXr-oGakZCB72xBDEDqpEnL2Y43pm-OwDtvwN5-uw-dID6xYr35z3srzWPBFuuTGzdkkgI499yL7kp3yuTPaKgu2XyW0_phXo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8SBQo_sK9i4L_69BsfBwiGPijRpxQ4_KdFcbqJCQa7ZXHWaTw1AInXLMYVzdARK6jfB2x14_okh_1VeXcHA4S3gcjVU2zWiqizrSr4dREtkTfUw=s220",
         "view": "https://drive.google.com/file/d/1C5_ZTSU5gYgBiDUkWxTwRJGKIvVsykQM/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20021",
@@ -495,7 +549,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkAUFKzZYZ8aAnUsxgw1luITc7O5X9mbVuSFJu05fiDNnv_XyFn8djkyd5nOl5Qdi9hwISe5BYqGHYacwPmNLBhTE_-gIW1olUg__0CTVxL9I9rvw=s220",
         "view": "https://drive.google.com/file/d/1BllvhTE7IXybnMQQMO40XsxMOeIYURf3/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20022",
@@ -508,15 +564,24 @@
     "_folderId": "1bc7dq2aVlCYlYW57EWSES2W8opxGbC-_",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlR96EG5s0BaqAuzu3wSPe5eXzh0uv7KXrIkjnodUSY8ynE-mJgR8KQNd0Iao_5DzjRD_Jcieh5AAxzH3DUeIrM5Ew6b4HOMGmhskTLLkgAhvQ2ds=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPit2_dSuxXZD70RU9emro8Gfh6xFizLX0JZjoEbnK2FPZe-JpWzNDsiZb6tH3GiGsVho47ByCNt74z5yqlmUdgu36vBA7vAneoPkw7oT1Jqxc01A=s220",
         "view": "https://drive.google.com/file/d/1BPbMkNvyJHO2V9u_ejVTm1EEHOIDPft6/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT50INJ7J36my3RSaYjgGu0pgIi6gvX7Hn-cfrniJMCJBcdZbj2oI9XXwCofPXsNdn7qpx1epoHE7cVBj_muhiQMCbWfMJZ5D2hw8KK23ZZS3kABw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJx3gmhyNn0J9705kxfrSZAA3VIxZa49Q0wpf0rxzs47vENf9gIp4CRSOkiMhWNBn6oMF9GaUzGv9_Vha2nQaHxAZIqdKuGBp-2tkInUaprXQUBA=s220",
         "view": "https://drive.google.com/file/d/1YDEGP-EiGUVmfVbndARZO841lhri6Bth/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20023",
@@ -540,7 +605,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAjfKK7XUXtB6EDkX6FtVQIN5zZkf5-kg1tqSTBGuJYLI_ULeaSpUX2CoWah0EyrsAO7DFHfRL736CO1rrq-mBo5QWEICyJVYrq8jy5F4W9DDCvt4=s220",
         "view": "https://drive.google.com/file/d/1vOXPfp0hpRYZlgw8XzphwdTet0zGZYJU/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20024",
@@ -564,7 +631,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoN9EjTkItNFdqRTUhuRWVJZ1nOeoDtSqvyeUSWYWntmqDCChTgtxtiXVcekCZu_8ZIi0bCD_f33wzaN7eM517IW1AjQHgj9jLM2R-cuA8FZEi8qw=s220",
         "view": "https://drive.google.com/file/d/1laxh9gyYPkxwqHD2aBZQIPBuub3jk3EA/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20025",
@@ -588,7 +657,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWKOBTBxs5QOCYyhsPe26-BNdKjWWeFPvYKfaOANZsxaw-ohly7IBA0SpRY44CuX19kI_sWzp6qh8AcHLIcxnBae8V4nWtS-bkjrSXlixTo4IGzxY=s220",
         "view": "https://drive.google.com/file/d/1Sc8thhVD-q6b5neaHlYZQ-VryFkfOJH2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20026",
@@ -612,7 +683,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMS8QfxaLUDLg5qOh1ZdFNjan78JsACHwevvKBQdnJROqcwcmrxzTLYVhRY-qLQtxYz-ulUV-FEJGiVM8G7CvThyo8laR2PZOyzQqZAKppwPSM_rhg=s220",
         "view": "https://drive.google.com/file/d/1oV9_zdx3owtedbMohmSyA92vkpnsvR-E/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20027",
@@ -636,7 +709,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkbRhDzfd46OBvn3U3gFJ3srkfmjLQcdcvz1g4Z8x1pGYG33LpxVoT36fbAcEXl9sCJSJM0LXQp3nOv1RTjBsQgDAhQG0Cn34qz0Bw3wiupvGVgdk=s220",
         "view": "https://drive.google.com/file/d/12RQkAXMmy114q6oqaMRcDDvak7YN0v3X/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20028",
@@ -660,7 +735,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1JyFZPNcZb7X1ROTnX7VZ5keeLy8rACqiXCzKIpzWUFKI0AHFLKMsDm6YUUWsf5kTVgBujqxcmJCP9tvhgxgLxYuEdyIqSB8DyXDRxRLLBiVGVRo=s220",
         "view": "https://drive.google.com/file/d/1agPtqu1fDJys63H6ffKgi26H9jRQSMu7/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20029",
@@ -684,7 +761,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkaYmwiSeAUZpPtx0yEW13ZG5ZI_mGBmLBq6qwJuW4_XkgkgKGxT_Zcau4wWP2Gesf3_WzpHHk2yVIXzzJ2tuz8z1JnBaQxo-HVHjReBrspfULKw=s220",
         "view": "https://drive.google.com/file/d/1PBQ98xRutb9gPWAYmkKK7Uq19J14Cxaw/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20030",
@@ -708,7 +787,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZVwMa4D7T_Y87N5lnoxbcDTVYw7td51ZVaFpXfJsGAJVReYq1N0RUtw4MeBc_NqXr4HFfPpyiTGgsTghfTzYo4MbMZRAhfIBFVVqmnhuI6WwTbg=s220",
         "view": "https://drive.google.com/file/d/1pyrleNtCtaa2Hs0-_SSq8LxFRNSeOh52/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20031",
@@ -732,7 +813,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOk7Akzerp5ItxWlRSeSpFeSZvCtzL2fBllx1a5QvPi-tgEPt-8uFmPSvzjD5q1Nkdt7sz9WClRA_NX5yRhHiKi1_IeOn9ihYjqplbEUiQAhaZHMw=s220",
         "view": "https://drive.google.com/file/d/1aFtpbXRmk-TzNHdmKM4KDVq3qZCnvGZy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20032",
@@ -756,7 +839,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGLtzO5t057lZkS-JqInqF8_WDmvXgXUTAK5NYsGUyvtgn0WB4gWJOdnzvV9KlueMN5nulUJJ8rAeC81vhPUQVtuCpWsPx0PC3F5bfjIVaVaRcmg=s220",
         "view": "https://drive.google.com/file/d/1PbWFmviujTyfdBMzfuyf6AE-u9ZPrJqF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20033",
@@ -780,11 +865,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoqJ7-lUDj15mj2l34BNyKw7pqg1ShP9CxUysYD5jOTdL32trNOzfnN4nYsYy_l4LCmW8tM5MnCUdy59JXwcwm5v51KQRYE-nZr64TllUEggkDhA=s220",
         "view": "https://drive.google.com/file/d/1JCW3cQ_6Trba7H6IdzkdJpIefIuD9bNi/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20034",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -793,15 +880,24 @@
     "_folderId": "14GB7dZFrAV9YUAfWHMpH42i-dRep05-S",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoYu1rbV3zEpAbwu3g_n77bgvnncRbnABSIJsxeO7VzvTzP6XDY8ZKhoRyDMZKf6jsjwz4J-f-78UZIdaV_iV7I0lKu_mb3qhzuf8XORlxt8QUw5w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvUSv6eyGmJsd753j9dgkaMcNPAVTQ-CcX5bBpb34lDNNUjf555kriXZNvAFB6fKcVSV7e2H2Z4oyAqw9UNTBqnrCrKmTocvZQrpfGOJxF4ytCaA=s220",
         "view": "https://drive.google.com/file/d/1N5Q55DKdgtfFPUJItfj4VdWAiAcWj5N6/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9VwaEZvthn2hpqQf6N9NPUZ13tPCJ_3D3jFPMnok9b17I3bgHmw7P1FV8W6CbS8N2cEIo65_cDtO6zp_uoojHjF_ishQypMzbS7mRsJAsFgZUGuw=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHqF8Gu6nP0r_zDNvepDZ0AlLOnmqd4RJv0tpkSRCyBJAjGyD18g3mJ6liaRAL3plCFtB1QUnKTIFeCU1kTUyWlZO6ldCHoXrhe9p8mbXOTXV0fA=s220",
         "view": "https://drive.google.com/file/d/1y4VRJyP1a_IvKbd4R3sansRh1aNFJVoG/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20035",
@@ -825,7 +921,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOURU6gFSsUk4RVvZI583rJsSExNuuU6MpZVCD8NG6HogixKsaQvYZzOJ93vo6XGJRQCZgvijbCGZi3zI9vKRUdauVOSHBsph688bCUW8LgZXKedw=s220",
         "view": "https://drive.google.com/file/d/1kq84wmwcD2U3g3zA9wBWd0r2eJ-Qv8-k/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20036",
@@ -838,15 +936,24 @@
     "_folderId": "1-a2bmJCeqRMtNt6NBn3XzgCDpxD83pp4",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK8jSake7ZsXEBN_quzjA48wYm4zyypVFdlwH26RGh1DsK8KaEryEaiQLwTjWwaOUyQuwUSDMz1ta78Lg7g-u4MtyeAuPihV7ZVBcngr8vsLHz4g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ3NrhLSDeLL448kNtYZlr5jF3zGVrV9vUZXDROU3vEyuIIwGm7aB-dHQnYbt0vmUlx8TvnAHR5RnSTRkPSdo6gd74MJNoxRH90Cp-YMl1ThPD9Hw=s220",
         "view": "https://drive.google.com/file/d/1nn7ILOD8_UtOyAZw2i9J_kePd7YJl9Bs/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgHJZNgRL6nzAAURrdOgeMohJR_Vpnwe2uWMRpIw_sSgBoZoAi_Yt3B81HBbp4YPvu9R2RpENEx15KQFRtpfAxiOjXTOdSmHwRTOiGd6lbl4A26g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPijTFd4O_KHsYU92NA9uvRkENyNGmd5nPNXOnVuk5_3fShHsv7EDDfQvUeUeQPOdCX89jtnl-B3xZ2N2IpvXnBtP8mASCWon2bwFCF6g4RtPAFYvo=s220",
         "view": "https://drive.google.com/file/d/1Om8fZoO67LTFhYmqFQd20nchrfYeRyJK/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20037",
@@ -870,7 +977,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNS__RDYL2weFtehNjNAanhIrZuxyYU8Lf-kYvd_8kSFf2QrshEEW9e5kJ9_YYaRU7t-PHX2Fya6qJqUA5bUX-ppNCUjXnM8G_3Rub8kZd3V62KSw=s220",
         "view": "https://drive.google.com/file/d/1ZvUv2XBIhqoHT9SHXhPTq48reHKnvh_p/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20038",
@@ -894,7 +1003,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRPhMAxo8VpUHt-4tE56Qx0qgnDaEZzrkUxNvy9skd45UXSmjd6LaCBIaqwFTzLQcfot-SPhBX7968AwP7F_mc3h4wG1xShLiu1gZLwjYzo_zy4A=s220",
         "view": "https://drive.google.com/file/d/1m5t52RL5jr9HZjyr5R1UxO_voL7R86EO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20039",
@@ -918,7 +1029,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtj9VAewZX5yOaFeWu7gE3cicVWtcxAvbLh5PS_vthyCu5V9WQyVevi-wQ4bW56HGuO1zdUR3Z7qufgglwoRxqtlzan9LU6Q60JrAQvV8HRyJYtg=s220",
         "view": "https://drive.google.com/file/d/1nsqS7LRSxzBRY1Ay42_V_Ta8oT9MSpS1/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20040",
@@ -942,7 +1055,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOD9hSsRXjS4Az3pzekLJE4lYVstgUJi_19c8rkHlH9w6LW8UrJzZDdnQB_vCCH1bMU5GbEmc2ta6duIR3c_DAv1p110Mkzr2IOEoyJtX6N0RqMXg=s220",
         "view": "https://drive.google.com/file/d/17BXqxfdpXML7NedDRWc6lkLEMwPf7GEd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20041",
@@ -966,7 +1081,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNov54BwTvQvfY6PemjJg_0mhL_YfO9JLdBchmZ1-9G1a4bjVientb3WDuQaeo8ZcVJnR_CWfF5t-8zWkoYp2FzHDm1GioYQQgWSB68ciOUaCzWrw=s220",
         "view": "https://drive.google.com/file/d/1PvIq4DfE_ZsS8p67sqMsvA7X8DPARO5B/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20042",
@@ -990,11 +1107,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXSEoD7vBmhAtAmeO7e0x-G3TFE4N_vW6_NipKPBszepIvNqmAxXY4cTFm7wcgTZFAfyIJ5Gg6Iy1-g5OyIqlQBwpBC9WMUv1wCACcS3uVX0DzTA=s220",
         "view": "https://drive.google.com/file/d/1r9CmBnlK6puXoB6rMauoFVx5PlxcUdD-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20043",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1003,15 +1122,24 @@
     "_folderId": "1Fcf0WXosV3fY7WDXpgSm2JdhUjtumOGq",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7_SaQW3P9_XHaMSaDpOVc-CnbEUALzX9OH381o9VG-8cOOhyeYGYiP0PMFSbC9Q5tY2AeqU7I3_FvlTfQj4N7VcaFlorMI4Q7xDDMnuJzmjQw5TQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVCkxK_eccSKxqIX-p61imVU6E_53HZQnnlYC2e1Q8N5DKKJuTF_x2rRUVSJ_3KSKumaZ30Q9Kvw-YQHD-V-sahjW95P7zXPAPEu7kNDi8LDeJ5Q=s220",
         "view": "https://drive.google.com/file/d/1FydD19CQXcpNWFPfjlwVXe5iYRt_dyCy/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPb6hv6DAvLUejJ5AuYwIgUDSPGdWvFuec9eBHYI63lPNmBk0GyVzOphoLLhEQ8ZoSq8_rDWw9kod3IZjSGRuQSRY5WAB8kMesG65VQtDenWeeEB4I=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNE8Hw5mL_sy9TPJIA1-U7TvJpBnQA0vEUFCC6f6ts3DZJWR-YJJroIX8l2gv-JTIkq5DcCt_wDN2zxoLB57Sjpvm5Mz2mNm5rDIaaJb6wStOyRJg=s220",
         "view": "https://drive.google.com/file/d/1RWcA9F_oTEH-D_OQG51Kye78ggdI6sID/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20044",
@@ -1035,7 +1163,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF8j9BtoDmjcFrAcZDRlc60j26fwRJAKw8SX8vutctZdV8KxxPFTZcUqMGpykrUqoVfEf4s8DjubdLQ84Wah2jUDnsxC0n_M3RON7zoK52CYIn1AA=s220",
         "view": "https://drive.google.com/file/d/17PTPxNY-DMJrBhDe-La81tLWl0DMl8EO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20045",
@@ -1059,7 +1189,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPE2UTBnJnwhN90qjhjGx97V9iiRJB39lhowOFNvGch0oVJZP5RptxVHilL5XlwblmDH6lEOvJUXVNtKx7dOI1T29iXUr_jNMOoie5QUv9S67FBCs=s220",
         "view": "https://drive.google.com/file/d/15vYOaAVcri464tlW-_cw8wMym1Ca7Hhf/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20046",
@@ -1083,7 +1215,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaVT2a0OIhbx65FkfqfnSIdZfb-pvnjpNyA-P1Ms8GDucx0h-s0dtmgVDYohKHIKUZCM-wY0kM5AQJhFtKc91QrQZF_SKrrSL1jD648gsoo6ZyzA=s220",
         "view": "https://drive.google.com/file/d/1yz06Zl0DyQGmhuFkpUoRVQks3lndRDyt/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20047",
@@ -1096,15 +1230,24 @@
     "_folderId": "1ytB1rGQLZC_GXvk5DRl-I5y1xkW-IQUJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXpzkAhBXgwac6dacaHtBLrDXwqIKFL97v-vXqvrrkrTXv1yP4olDvD6rlQ7OpqfOERU_63ScZRuEGmsvyvnHRjJcXkgsjVAoyN263pWO5e2nDb8U=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqnph91SfAuuk2StqWCyS82phEp1Vnv8fItd5TWbDU5vC37FvbqbW1WaW9KIYoi3g1OVr5P1qMNmtqrCcpWvcibmPTqZZ4oU_tYLU0QseXNjz5hw=s220",
         "view": "https://drive.google.com/file/d/1feNpsa7NdTqFJSwBpSM6IvgC11FWNQTZ/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5pEVID_0pSZ1zJ6QEcV385ImFTrpLgfHIkF9J9iWwy3CcOoFT-DmgILvaQbIwEepJ0W6TTX0CMHpYxX5JUcbS4E-5UE4HQ1dCa4qo06hc2ebEIv8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOArq7qlGmXKuA8J6p4PS9kmDGyBykMAHGBCu9EKEpnYPPRSLVCNc2PalN47THgRiHzUcrWsIXg3SML_dIAHePFuuYpu2HtsZHYB0tY1LLj47lGuA=s220",
         "view": "https://drive.google.com/file/d/13HpdW5GnTtR30k5a66JNbF52qv6xHkBZ/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20048",
@@ -1128,7 +1271,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9qTlQysHEHH5244DK_l6pqkD8hyikS0taXAcvaxLTfYPyaLYjMrrS0Lo7uJM3mLWzB6PzSWMB6Nm2hD333BTY39JmLYpTrvnOr2XknU5K3LVNAiA=s220",
         "view": "https://drive.google.com/file/d/1t7Nhrk65K3YoGwCCJOFTI5wG-NgDEW-e/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20049",
@@ -1152,7 +1297,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObEzIX7F1_1U6I8OrwG10GE-cjG-3jwvnAVhHxr1Y5au-m_LxwBshIWNlNche4yHRx5rz8L8EgRqSniKIp1nvlcH3uuLHTdln4FEAZq9xixm8K_Ss=s220",
         "view": "https://drive.google.com/file/d/1PsyXVjl5x1ZHntulWhH7sr-RDPYarHXJ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20050",
@@ -1176,7 +1323,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiRTruBcw_pHlPJIaTCx9BVsm0ItS90Atb2ixp30D8pkQYgyNuvvczP2NwtjThc3CzQjFoXUdIRgIPvaBhXOW_V9uEq1lbF4uUcqF9OtSPd17MoLM=s220",
         "view": "https://drive.google.com/file/d/1-ISSn9fKA1b6pAYjfXNVhz2BM7g4GAiO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20051",
@@ -1200,11 +1349,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT4DCmGnRdow7FBshzDfJY_nefQ_r00jrGOy4oxd77Rdmw35N4QESNCWRXYVn9FMFR3WKwCNKQ1nDsbX07zurAb-s76odwLh9XdK0qOvgW26Z4g9s=s220",
         "view": "https://drive.google.com/file/d/1-MSi8RHaM-qOjyGzI1qRyJSZFnoQkB6-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20052",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1213,15 +1364,24 @@
     "_folderId": "1-DGgGs0paR54SwFp7iSR6gDdwJw-xUxm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXf2pD-XOk9XK4RbA0J7b_PCz22zDZ0023vcZsLBHP7fIfbXbGwgrrNHqA1s7x_3uJDJ-TjtuwD8AA_CAL1Tn20Jlu-0_BsOf7xB_Q4auSe_A8n6A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZKzG8K7bUTjSGBtLHRE3Tye8Cw5GaA2MdV27W4AiCyktlX7QrZODMrOY5iTOI_6Yeh2rkD6hpuTCH3n2r3SzMgGx3mV6nNiK1ihJfMe56-iU0qw=s220",
         "view": "https://drive.google.com/file/d/1b09yYQQLAPJepjnxKGgHsML4k112s7JA/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4cZgHGAH4b-HFZgqnyQhipM5cCT3GGSMlQ6BJjSDMnZIfV77yVAzU6acsdquk2D4lVzMSXjJ5Ovdari7dEANelMTKAnQhY0EF1OomV2nDZPoZBfY=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSmi9wyc4A9Bj6ubPRZX_Wfv3xr2c0KgluqS3nDhGKEJjZ79W5CV6AG-pGBELc-qt0jigS6LO827osoZbhcsRao5umGxZxXEWtdNFAiDzw3ZASpQ=s220",
         "view": "https://drive.google.com/file/d/1r_wHq8XEIaJzIS8Bmuuu9gWfuU0YeSPp/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20053",
@@ -1245,7 +1405,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcgLg1bJ9Ffq0uzJRtOlQ-JNwv0i8efUG3Sh5i1ueMYB3Bni4uXLUzjpujGwQ-LI4eNRAsm1QL9V2o7TYGlJ3vPIhroM_Mj4VvnasytukT-WMIRbE=s220",
         "view": "https://drive.google.com/file/d/1PYOo2jaJeaVDnBHXvdTn4vdoZUMsVINF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20054",
@@ -1269,7 +1431,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmcpQJ6ye1-mY5BwM4mComs1-Swny8tCl_ofUB_fYntZAuidz3JMcPhj8af0rFvMqRXwl2PqIuWfIuiHjsNtwEVc-1EZk2p5NQWbrI91QDjMrbBgI=s220",
         "view": "https://drive.google.com/file/d/1cGJYszRkTLuT-zvk2lnEV8zbi51Jmedm/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20055",
@@ -1293,7 +1457,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-XMnJhr9J6fNEA4yWdv5W6pPMju5whh5FfavWZfd7iQ7xbrMalX1pQH2ugIGr6qAOXY_lZigYWBxo3ld8czUsacoIvWl0TI4fgZGQVekoVxXY2G4=s220",
         "view": "https://drive.google.com/file/d/1ciyf0J7ytWSd-LNfn5R64rhFZTUW5NWv/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20056",
@@ -1317,7 +1483,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJRkOFLv26IAej4V2Y5Qhy_wQ5aVK486Y6X3M4L0Zhbk-bYke10WCAYEclMDMnPmkVqWTB20PUz50BUfK41E_02GA9o5tXk2vmGWOK6rDPshqAuzs=s220",
         "view": "https://drive.google.com/file/d/1OTSVvqcPpCCfra0MBkIAw293t18MNDx8/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20057",
@@ -1341,11 +1509,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMh5BNRyH_7Z9ATSfScYuhbQDBHLHpokNZBz2Qjv4JasAqwuxnfVPwMjskA7Hx9NUYGcwB2V-Y6Lx2zPbdBz8TV0BfEukbU9qcGXdVcrD_jI_kjv3Q=s220",
         "view": "https://drive.google.com/file/d/1MrhnVXI-ck6ZABZCS9yhG5-RfC8Vns1B/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20058",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1354,15 +1524,24 @@
     "_folderId": "164TPqYJFiRZM0QO8MVg63Lpk9f6ylNK3",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKoOP61bCd67NqV45PPIbMmmhMO05aRQW8RAksW_PapQum65rcErzhIu2927z_uOaBv1m4rfx0DX1vFzUG5ZnDflOtkOtJDGXkHisxRzjMwreOR0Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfMuVx6tB0RBK24wOiQkrRLkYVFDna7cVbpoR4_i5pnUjPg3aX72HKe1DOPCFeV2wA2ZFYJ8sQiiYIE5rpU8EjKvvk8uwb9dwbMnb8TqX7615w7Q=s220",
         "view": "https://drive.google.com/file/d/1rmJC5skwsO-hZ6w2DMljafNogDONG_27/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe2wvPc92D2tjDC-7p7eiY3hq9tk1zcWvO_LokhAwzgHiP-72g-KSelV9F41CZfsmAbZa_BrqBxljl0DJBrbZSHULJ4vyrUxnzF2Cz7r7YMfAGVtU=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzZaCehpFz36Zorxk9RCNnNzmJ9jIh-3f6kCvu9u508k_X9zAWV4fDHb-dbUEqsNNEClPHKK74iN7yyWu-ijYiPFWmemk_Hxrqv3xXWJmvAB5TIA=s220",
         "view": "https://drive.google.com/file/d/16kHgu_zj0MBTNiYs85vgYCeUQy7bQTYd/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20059",
@@ -1386,7 +1565,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKh19qq7uKNan_SAUmDFNdAa-vdQHLbp3MLXznz07GjOABFZnxkq8iWuzgAB8B6z24xjisjbs_bYOCLgnr0xBJ2ZugwCYLARf-a7YY8aEq0CMw6tI=s220",
         "view": "https://drive.google.com/file/d/107B3ze5-oYYr67Rqc8QwXLqdiTpkpt1x/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20060",
@@ -1410,7 +1591,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPX6O53c879XoF4MPi13QNU4iDb36ovlzvQgpHkaZiuEYCFyA_NS8C8Etap-gDrZgLE1evdEvlLgBgJ1zSSnD2GpH7kUPTxKgrl3wI0xhuDZSuW5k=s220",
         "view": "https://drive.google.com/file/d/1HdFGNX-ZYyaJhM3RgnvmMvniV3ysjCOz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20061",
@@ -1434,7 +1617,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2pRzyH2jrDX2AeZ7GZ1-dsmN-2pVKy4i8hbsn-toQyzMf9Z7-93n8jqdaaIky-pwgFF4bYkQI-s2vl3NNSDiBY1cj0u9TF7Hz1o7IETn_5TjMyoo=s220",
         "view": "https://drive.google.com/file/d/1Z_o1YxuqFwq5qjcvuP1qCBLxSvkR0S7z/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20062",
@@ -1458,7 +1643,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfz-Xlzg2N47l4DKPztrkmnd57KKJTneGr8QT2x7NbcJzt-2q5Wz5BuE390JlRR2mMpaEk5S-RDy9obERbas2_z4_tGHrIcOjSxtQ8zKLoEqO6teQ=s220",
         "view": "https://drive.google.com/file/d/1K7QpmvT5UuWXTjm_DZvLU3-igrpTytGS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20063",
@@ -1482,11 +1669,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxbMXhyDQ7TZjG1l98dmfw3Fia5ty9mzL34jy9b__Qm8_2dvSaEZzNdxA5xm32yFxoQhqseYfTAB2O7kaevPeTLRdK-o6uWHUwrcKORyETKk6-IA4=s220",
         "view": "https://drive.google.com/file/d/180Db9MKBL_TVSC4yPoZoOoNsWvjgKr3v/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20064",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1495,15 +1684,24 @@
     "_folderId": "1joaiO97FmoaIOB5YARia7V07tXqg7odk",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-wxQZ-zS9Np_4EF4QXUA99nlfditWiY6lI5zfY0bRBwhLTYso1Moj5vlF5oncEtGrCbUfJ_2LMIqLlgahWANECXBqpOI4n212MzFrhyVXWMFpKjo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTSo7JhHZtEf3H-TproCdYP3MTiD8fxM7V61Sm7QvOx9UXOkSuFbZam3fgAvK7hmKspb9BBvASvGMZ9baUzzxwOvHORJ66Z9268B-5v-IM_kmE9g=s220",
         "view": "https://drive.google.com/file/d/1e2Wn1g7g3tNZHxEpH_TDtIZEXejHlZ3P/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPusKgegvSmgH5v4f7xR4gElvedzkNR0OLaaw7UYUlYukBA_1OEnwpulC1o4kP5TbpCifbBCT0B9NDeOaefDJscnX7nMRUuNis7wAyV5kdzwq61MHg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMoaJOJCL7Q1K1O6RVcHXWlrGh9c-U1vxrfydwTcvnGXwAagcQGiD8JhxFn1nCk7lvG7sayt29PybJUa_HLYuqe_ixI2P3liG49tZDiAjiFN5IZg=s220",
         "view": "https://drive.google.com/file/d/1ZmzvARm-7mBbCLO_I9uwdjZllRuJ9r8-/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20065",
@@ -1527,11 +1725,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOd7SxM1o0_Jr3Qd4mqGa6OnpD1_mslfYmra-q3Det14HeOtl19uWsqcobD1P8xUT7zwgpKdXTqgXdZMV_d8SeElfAfcWoYeTUV__An197Xue9Eg88=s220",
         "view": "https://drive.google.com/file/d/1dEESoGtBUbwoF7K30m1BGYweD4S8EYBM/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20066",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1540,15 +1740,24 @@
     "_folderId": "1jbz_CEmPc35Kj5zLBHgoBYFQPdF_c5fv",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMypjB95Xm7gK8aIOf3tJoE2ZGdlaLRJabnlOC9t3mUGw9LcFinf3Oy_oRG4k0Gn8fOLkq22YNf6NhwcVngGOrTUixXB29N5Rqugl6MGgyHxECGa6s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWEL95j6K5FqaKPcjRs87jDCce_DDoPasvoUXExEccXJm_-Huot9Vc4AaPCQsisKzf1bWXlaRs8CsF41eKWqkOWv-uRJszfwmp1prxc6CBxRkrCM4=s220",
         "view": "https://drive.google.com/file/d/1k3e8qE2e5TDrHD5cExfR2Kcv5HD3TLD9/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEUrWX3nH6HiUmOYUF4x3OhB0OmPd-zygBsOBCZqzLz4d29ooXH-DdhEPkdYJm78s4Nsn2IsiF119OsGA7TEYrljA44SmfwvKlKqViWj625-0Vb74=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxTeYJACOzb75lYAFFr3deCd0aBRPUB2kLgQWDo2p7jXxY0zjXfV22yl-ndap_nf2LxqgSvDybR-7oH5uGZwFev7JbEz0vgWnUlUqcZwvbC5yWGBQ=s220",
         "view": "https://drive.google.com/file/d/1WN-LS-s_PeyY7yCe1uqzIsu7PzcXH9Ro/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20067",
@@ -1572,11 +1781,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpRLeL4ULi6gXjczUeWKmw__InpKQGEBxJMBH7CEYUpCpDjf9WOW4M07gJlB2U_xrycLTrXVX1xomdXWOHuNHeoR1DQjFB0wefcQQGKI8MBrZKuo4=s220",
         "view": "https://drive.google.com/file/d/1qvclf7g0ptVljCNFz0Kjr4dEvz-TG1vz/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20068",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1585,15 +1796,24 @@
     "_folderId": "18V8l06worVBZ0Jw-OJLpJVyplzI0NgHP",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxvc2wbwvkJzuOSTr-efjMH3HN_kiahFfWGuWOa8ebdJPFdpOrroun0IwrrpV9B7WELvtCw0ksDMcsHiu9n5zkbgTyeBop_SSMZ0gFa-YaulUjnw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmOuJG5U48ZKm65xxM8jqNsnPjzScM9K2pZZZbeV2ELMivatLegZwhPnpVrqkjlwdRTUu_UaBt1tZCORRyL_-yqw7kazKDhYB1oNXFLPcWURIfm_Q=s220",
         "view": "https://drive.google.com/file/d/16DFToM00L8b7p2PVmwUjHpbgacGf8TKU/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4r-PCv-oKQOWyeq9eOzhF-naZEfa09S1c-kYBQNitF44CfIQH-EDuj04TC7UqhsJMqHkFKqcYJLUXj2IQYLgsh0-iBhViLE5SLMlfQLVJ69s7Fg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_8FdOuMnw85aSdGnecQQsvPGMVB88YyA80GxDw6l_FtqS7A0xCOIGWgTz2c4nfSKRAdOcrvoudRkP_O39nHRz6ZAFxfwB3c5yTALAGXU4FbipwOQ=s220",
         "view": "https://drive.google.com/file/d/1X4JHK6JMKXr99dMen8fYYhSya87idqR6/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20069",
@@ -1606,15 +1826,24 @@
     "_folderId": "1uCHf8Ym1DFXWZkYNii2a1NT3KVuJQMYI",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPy2YDZSWUuBGw31glmehxdtOOvtCiFVXZrn6C_yAyAM0joffLkuK4Sf_eopy_1yK-q6as9sg3bxQQ91-NMwfVTgZcmigatgxofn37uxiiN2yIefwg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgXrWcA21V1eTnbTAq-fGabkdCnxDu_jRZM2X6YYInFQuDSskjg9AWWsNdCsHUP0RnHDu-_uK5PwidLgm8R5iVe5d-isRrQQeYu5jtl1uEpqQ1g84=s220",
         "view": "https://drive.google.com/file/d/1x27o46-IfdzwAI1M0t49nEebP8cimI46/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4U5svO5rb9069Co8yQo-xJhdD-hgWAYgROlu95uJ_DtW4XEMzvdP8qvYUnDlGfJMnMxLBPou_PvOxXVoPGIv_bmB4g0M27G6eiaVbbRavstp3xkk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWyT4RkRG_hl_bgkOT6XDHcdiZ2cq9mCQgcfFiSJs23VBucm0fb1frwjmmReIi85zRUZ5DfQZGqRMHLJ7Cr4ccxOlJadslRvmwJflOdWftOz8iytc=s220",
         "view": "https://drive.google.com/file/d/1z5ZG2L-2aahc5-WkLptd4NNk3fnt_J7Q/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20070",
@@ -1638,7 +1867,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSNLqf1DfCiddwE0C9YA1R5mCMbwn9ugXguHcUzrYJ2igA6r7NIYNR36Mz2Nw5avTnBrxF3LA6gLZ2ggIMnQBI__usrn7H4Ll9-j0avIOpsqLHgrs=s220",
         "view": "https://drive.google.com/file/d/1ABZ0pnwaloBPZ33ytsfJb_QS4R9s9dFS/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20071",
@@ -1662,11 +1893,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZf82fDStjD-K-jsPJy7Z_BHGbQzkC0j-2WrdnrD3AU0UAaIQ518YYJASVpAqlLpTiOc32tl2KaKD-CQO_MT5XXk6kznbmKxGdBJd4es0lzPUk7RI=s220",
         "view": "https://drive.google.com/file/d/1TVoA9-4zgvmWaOLYMKroPwxrtbqLVb2U/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20072",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1675,15 +1908,24 @@
     "_folderId": "1X12jyTcm7lxchjkyOGX0HRcRHa0Jaxo9",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM93N7lg_x6OC86lnGx-cTG7mjvXtyh5X7bxaEafKWwW8qjpR10S1SYuEsSLNt6E5vXb2heiKKRpWqSRYnEZ7TtmAD4ZWrzqD6e3zFa2EjoHS22zMk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNB6FkCmhs_pOrm-YlUlW-bXzkyw3q7Jynp7l0lujxNdBe55fEjqoG3wWULbXx9J5RxkfdKuHKNy-QWm3vAotI2GtFZrzZx9uFNFeH2By4G7OMO07s=s220",
         "view": "https://drive.google.com/file/d/1ohvpp5Q0z8p2MiCAdSgy38X9w-HcMvhP/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQh-6uRjYGHTeIsVu18lJzAqXIDZpMIgXI6HDzXCjrtgDpUtZ532cLh9cCjD_dJtG_qMHWRtDMR3QmwGVv3H6m7EgnJ3H_Po_1rZ1CJae2nnuD3ys=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNq3hQEBrKa1spyswuBubTkVQx8GgjRCgnsRVdOlGKk-nDQ7Pfui91zN9aFfWRyVecpRBmu8dyaOxJ3W3A6LHCejj2hBtfcCApJ2atoXo1P5qECwlM=s220",
         "view": "https://drive.google.com/file/d/1xgAVuOQUGjsCR5qKai4qS95hMjRV9k2d/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20073",
@@ -1707,7 +1949,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2wh1z6SiynQT83330unsZ0ebDB4ec797umCaoFUHieaebVR1_fZ0HOP67JGtGyN_onWqik4MRqPvJh_DEG8kJvZFWHoTGgcX7zSgxKwR2ev172QI=s220",
         "view": "https://drive.google.com/file/d/1NHGAtrp0EZnc2t4iqENGSU6TbPvZxFgW/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20074",
@@ -1731,7 +1975,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOppNVTl9pyTprt8jk5WVE-UBrhLpC6mxlk7bIr78N1JKGXN1Lcj9OGj-Hwa4a9w-aS1J0If4WvX0PojtbaGsJ5E3AHvCxT2bkuohz6y1VFEcoT4cg=s220",
         "view": "https://drive.google.com/file/d/1UEwWq63ukBhe13zP5ZG0K0LhhoxheeP9/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20075",
@@ -1755,7 +2001,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdS2GwQnjwlIatqO3RGUBdnvPfwqhYBg0uJufAIq-7Ky5z8kPDU7rYobMm6WxP98IgBsmtJwMMd_0s2r32tgaO_Ys7oe9zRNGnyJhSaiRbymEeSOk=s220",
         "view": "https://drive.google.com/file/d/17AVvUIIXD5IwA-ifLxzZWg8Ovqy0vRjB/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20076",
@@ -1779,7 +2027,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0tFomIi-_MLHnWpgIu6JxYkJDqY_5NYy8RP1sYOXCR_CO1QS_dPQhadJzlyGuZ0lKQ7B-ZwX9lrRs2WEwngs9g3-yh2ipUtPIqWBlglqracU8q-I=s220",
         "view": "https://drive.google.com/file/d/1SsyQoF_tEC4u44sUiG-ejDt8VeZ_TPay/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20077",
@@ -1803,7 +2053,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsZbz_9WMYReaN0Yt1GCk68UCjiug5-JD7VzkHgkCOqmOj4VuJrwitzMjwOYxdbWHYikOGxAMntsmJJqR4yX4jfDU38xOCMDsDm7dQmMM0PnitP4M=s220",
         "view": "https://drive.google.com/file/d/11tzLYiup8UXfVp_dULi-d5MsIGAEhUxv/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20078",
@@ -1827,7 +2079,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuZ-7dodZY2-6jdB-0MIyJwo0-IV701-DNvctqpItu3M7e2Sl5eJ36weK3AfWfpvvXiwWIsaSlGMwmcU4DiebChJeb9K_6yFk_ak_vXi9AbtbrfPw=s220",
         "view": "https://drive.google.com/file/d/1Ah2upLGDLAAXVPjsVQqOF6W6XCX3AdOK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20079",
@@ -1840,16 +2094,25 @@
     "_folderId": "1fC3n1Q7rP5HN8uzDUTy48LYoBqFaTJVc",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKqFqlOCqmZgiuGcKpyvy4lQGMhdRes5RfNxQEgKvL2bSiuPCVkXDPtzADhMXs-mrL7WG1dk1yrJX2m-Pmdx84z9t1mf2BS_MXBdOMRatAq_dHLzg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeZgMcBXZUYw4OVz_6cjORoVVcIg5w5MGFIpHt2wrJc-ZDfW0rx0kf2E3c5a5eWHyO-B5Co68JfQscwF3aSPF5rGJswyj3DeHjm0ZaRF6WVNg8syk=s220",
         "view": "https://drive.google.com/file/d/1x2wAD6Zxy_UO_E_oLXDd3muNenHGo5Z-/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20080",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1858,19 +2121,28 @@
     "_folderId": "1zxoxg8tw4b2TjcQQpDRcVqxs7-PH2aIF",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIGWrtoFd4SVK0xUmPqP9GSezePfk7BtBCDT0e9YWI4gQ-383x5zr2K7x8xTd4kTlw-vI1Dz6LehCnAGZsjd-IUdUK4FDuAncdKrynnVfbfwlLf54=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgTPn1Pn2A1sQUxGBW7iL6ClZRdcXxa7mOCwngxA4kuzQrqdd8Ex2zVpxjWVOR4MNP3hrUEyfq8FIFhCrn9czFiPMsSHB0xuM8WK_pxKVtWhRtR4E=s220",
         "view": "https://drive.google.com/file/d/1GUQFgzloRAqEyS3nShIRiAAhWJo6HQ-Z/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUiUOf0ElrbzQ4Z008FIHFmyf8kfXAIaUh8R80qGCdD2WDlFw7G0xSLC7SV5cY0NWxhwAVlnhFX1ItmTcoc5AMLt3R9WhiX7N_zPoBRf30Y_M3Zuo=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEtgeREaiUNn9mbaHbHVdYAHIDcMZMCU58Ns9ZLJd64Lrgf57md8EJ6spcHQLQD4aigiVqgeqQUKi3TouletSwoyMMXNWZF-LZZCcOFs-AFIBLzC8=s220",
         "view": "https://drive.google.com/file/d/12CNWdPfdct2UKg-pQ9Uuw9AZ8a9KF69b/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20081",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1879,19 +2151,28 @@
     "_folderId": "17-gwPYjp0p1bGhW2WcK9NbTavM4tckTv",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq0rmzgGraYeva2hDlB72puTGC0Y8niYQ8m5DEdP0WJfsqHBe4EZ9CpdEeP358rpF53vrPCypRRQIr1hZKZ9sGJV5vXKabFJPr7Aco3UwdCTeaqx4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdcPQV-eIlIbuk0OXUznRWMoPCCDcls7BQ_bkcb2ICZeC_Njpvdzx0_2UvL1E5XK0CLPxZISUOuXHrh9deQfsNT81ZUcCZLuxx2LCdE6pSDpfIor4=s220",
         "view": "https://drive.google.com/file/d/1Qb-waQIAv5PqOhLxV7-IscGuIe3vm7tC/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP82ABIQ4aPtpWl1R3NBVbR8bxKMUQK7BMtN0h5gLFeZuT-8pGrIgtZ4elnQjJmxjk5Gr6cZMm1oDh343k6gmianXEBjknLiMHlOKSEAT7ftD0ucZo=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZAiJXPSadfyoECOTJzrcsur6huVgAYRaxJDBoXdLPKJvSU-j4ebn43_Gs5zXW-Yr1dCLbauciCtO4kGibyEe-7_RrMFoKkS7NkYg9XDyPJehxI2Y=s220",
         "view": "https://drive.google.com/file/d/1XrDGF962DCuhEvJPoEJnL3gjq6JweDLw/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20082",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1900,19 +2181,28 @@
     "_folderId": "1kQVQhiQ28TEK2AzEbRqLbTq8C6yqdKcA",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdCvurTJg01trTX8hILgpjPFUyVpcGzj63cabBKAduhBVQFrCJtiQ9viyW2Hs0dVf3qJQtST-qjp0IVLSeGBAYtMHgQnCcLTYyts3Q30lqKWH8OsY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhxthKRQM2yp9DQzt6vkJiZhEDGxs17yYYFNmIjYhLK2TvNiLWARuueXHdVJqNNSOYsYx96udb1hso5e08ojMXf7RIFyY89Q3tDKtYWiX94YqMbPY=s220",
         "view": "https://drive.google.com/file/d/1mmjtmy6_Pk7-r0EY0z6KUEjyNLkBHRjM/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdQh9pP8fHhvvq--1GdaSLfzRMqO94rv3Q7G6avWMAA1ZVW_iWUkcwMW4Tuf7Wz8E2i4NRQh6zXgNQ0jmABiFZ0GHVwM-SioYCTlK7o5jSKtrMmr0=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtJy9zKQkj2-_jIpCCD0f8zWzvXhQO33NrfYmos46Xle2yuY-aL3L_bxAbTZASGvVQ7B7g1BXKlN3j-QZ5Fh7O-2lgvT8go7H5LOnjEUNNRTrLVgw=s220",
         "view": "https://drive.google.com/file/d/1cZLb6K3NVH_iBGYWXSEJ-1emSwBYJZQu/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20083",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -1921,15 +2211,24 @@
     "_folderId": "1tE_oxVL3dnjUY4vRCQG730hpq-KeH1qm",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpYluwoMXWxwgCOWPk60w8Gy5FLIqpd1Qky7GEFuXkOxvZo33WkH9JCs2z71xfRrD8_2dRepIJ1P-541FPWis4e2VT4xOIEA2BfwRsSZe6uHsfbVc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1JDPdlIvnoOIo1DDxNqxZJi8J-CXz5z8z30TPNVpTiPabDKdL1tGJimfZ-92-5BFTcysI2AJWhWNof9FK9ypKgTz1n-UzWSgrEO6ybuzVpC97B_M=s220",
         "view": "https://drive.google.com/file/d/19bEJvbUZyfYRDaAkhB__poMZrcjWHPl7/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8KeHKWGN5myKCBgXW7S4-nofoN1PXukjfrl85kkbNFffLVYYU55QYqW2r12kopA6sPZSNQ0yxHfd9_0xyjNIzXFzYKBAfTRrCMwDpMAldoWznhMQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPypzjOEo51ngn2-kAxnSSgbDwIEbGrXA6skMneC7mjm1fVyU1KkzBX2rdVjgS0vpJmGsXqRLN2F3guTYSaKf7WeaLkBOlwl1ECO2O_PeKWgBZfSio=s220",
         "view": "https://drive.google.com/file/d/1oAT_nzeeVos04znRyqmHpvr-YjjSl4OG/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20084",
@@ -1953,7 +2252,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfbfuoExsE6GPh6pUcDl66hIBjgzRFWP21vngZbdoQz5gCvlFzl9xRNutRGbrwTSBD9_WMGJN_dcOis7XikU93ra_ElKOtdl8zPJUcSaNKtsBTZdk=s220",
         "view": "https://drive.google.com/file/d/1uwKmsUvzDaUSTNChuQCuCNcMEheEX0Zq/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20085",
@@ -1977,7 +2278,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoTUCk0VPtVztnX_UcnGgzUSIeza473r_o4L-InI8d1MpQZzSZHiVhjRBRju-gsnyaYZvTEFu4bFXDETrQi7_T5STKNSlKPev3g0EMdGGWkMoYIns=s220",
         "view": "https://drive.google.com/file/d/1fApUBejXJAjfrDLtPLxVUhXFXANxbPFs/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20086",
@@ -2001,7 +2304,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwb8iBfmZaE_zDvKp62kjRKqtKQkTDywXNSYlWZos9ttXu3RNHs-wl1i2qpDBQmZWQUGtPa7IcSYYo8ZTZ81Wujlp5utQNwn3-2rCHTvpZ8wusGlM=s220",
         "view": "https://drive.google.com/file/d/1CV4pMAcLq8SJCh9GtVU8l5migPSQ2cNF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20087",
@@ -2014,12 +2319,21 @@
     "_folderId": "16-BORNWR9v_7uJzsX5aWzx1-KxH7l_KA",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV-TwCL94Oiy1HtRSXC8Zr63_xZkoheHnFc_5fyBDxORXX2n7Msi4Fao8Lh6BqJY0dw1_5RQLaJHcAkvBGmRSVOHQD8rybDX7mt8nW10TzHLyW_rc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLylQuksvylcSsClcFNiE-KoVUnyER55vVsTYkWEat_AvF6pX0JNezYDzYQL4KZk1vS-DFGsbfETkdMIHggcD-uUH00oYyExrGUkEDiF8RrxxYFcM=s220",
         "view": "https://drive.google.com/file/d/1igfpd8LZWjxsN0DCVn1y5HXcIL07FTcn/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20088",
@@ -2032,12 +2346,21 @@
     "_folderId": "1YXyehhh0QcW6hEum5yLIgxBSuRpBn2-T",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORHa_gdfxPm2znc7YVn-2gE9oZBPfh-yU2SBnuXsHI3A8unuzI6CQJrazCVL6RJxtBLmN8qSYE73WCkdyLZrPGZap1G_X5XQK-TWP34KmBSAbIlF0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNE12IwN5mCf-_CyyBmD9BULlJa6b5TR8tn8juSuzMxjExUHJF_dL6hQx0ae3MmB75Z4A01r7FQRM0wwF-r-QTOA0uYLJvY6_IZK_1Ys36ezmfMUDE=s220",
         "view": "https://drive.google.com/file/d/1Zo2UruQK34lqvqNkiI1H6n46rTqh8_Uh/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20089",
@@ -2061,7 +2384,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNhFMhdyk8V7EaQmKikgkLfTE4Ux0wXAx2iUtxa0jM685ilHq6PtAumYE0bDpFO6Noq0AlnmP8b-m_kPLQ2dHT7avhAhzBnSErYb455vmMMSgaeWU=s220",
         "view": "https://drive.google.com/file/d/1IeapDLV1Wpx-KCRjzYghNCtiWKLYIC2u/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20090",
@@ -2085,11 +2410,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLdfe5itEzoUV5ptkP4fyIOHskDXPYI334iLqq9HbThZ5U7W5SNoF7pQR5ZVzUWkqt5zZXTCDZZLTBdJqY8RfhqIgNqYYGdqisMd2vxrt-GzS5ZlQ=s220",
         "view": "https://drive.google.com/file/d/154BuPTcGEJYW383xltEsub6FeNmZUAfo/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20091",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Sur",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2098,15 +2425,24 @@
     "_folderId": "1HVmlJFqc0Q8Szl7EAMqyi-4kHcOrQCL5",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwXXNtHWI1YbR0cHkmYTGj5rYZWrvq9gRA976nEyfqkZhELq7_L2H0El4n-LJ_gEJDA4LpcEhCXtraYjapoJ63quMWk9q1PACtSTNKosT4WaRbzgA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAu1zWRNxO4IvHuGgeWtFJyJq6bQrcuCxrdVMWQG_1FHjlCWXbaomVUPbhjDK_bJseYkbSNyRqkjcBH2dZu7psDJWfyVJZNE1UGbBIMTvMmYheDuA=s220",
         "view": "https://drive.google.com/file/d/1qqUi_GR3qPriUc_OF_jZ1xoAcX1X8yLl/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdSIJkV8yWHoRIPRmgm4_RGObir8HAakc42GH2soyd6b3OiUBf8HqeeUEcr5VYAVauhimpTWZSnxR2gKwBvX5eKv9d7Hbsf4Uh7bcSUl3saRr1G4c=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDTHqT-_l547IjMqSJmGpTw_u4eoc4gDw3f2U6KfoelGgBouemOe2aGHireF1orPF9HFP4SsuP9_B0DEcjBGvHT3yH1Jug-rMM5Bg45o8yt4rFkb4=s220",
         "view": "https://drive.google.com/file/d/15jbfMSf10oQvS0lRPnupMskHM2tiHnWl/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20092",
@@ -2130,7 +2466,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNz52EdOwfdjcqn0lIh3vEEw-ddxKXneztSsFtD6_w4O0769wwyi9MUwhAfXinn5LcYYiuTq7H0qw3O-BNNYVY-c9WRbLeSEGx8ZkcUFQ1HNs9XZDk=s220",
         "view": "https://drive.google.com/file/d/1UGOuBMtM1A1Mzt2HTKGymLkoCBhB8tyg/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20093",
@@ -2154,7 +2492,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbQ8OQ5OAw7ABbkywrGMH5zsuvY5MoaDZzRoOo7Uk1oszzcHHC7tx4uLKE_r4XR_vmkjbudpWRmHSZQtsC2mVtZ5kgGbHKhjD-rpwtyRpcqVSdEuM=s220",
         "view": "https://drive.google.com/file/d/1xkYOdYZNniRZHNU4nTC90iXMWQBPLmVy/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20094",
@@ -2178,7 +2518,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDNXSho45zT0W2fbjacDtb9biccwQsmFjPzanICNxLjrlW2vJWWkH9jl1x4dFi4i81nSGqsnynz8w5H527BR5f15p7jVb3-ZxnfX4lA5szPGdvIAo=s220",
         "view": "https://drive.google.com/file/d/1VQm3JQSxQ-HQMK_6vfNBOcYBBiXDFLgg/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20095",
@@ -2202,7 +2544,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlS2vdGUH9xxK_sq9AqFGFEtoNU1V6AepLayNtSGiGQ4KUx0Xs5SOPagL6xp9dq4lMxUcqKKsjUMuNhfDyxBohKbfJyW1iQQpqG_ztXwhMXBQSxLg=s220",
         "view": "https://drive.google.com/file/d/1QLG5tPsGLs2tfogROKIj9iTLYR02WNfC/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20096",
@@ -2226,11 +2570,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNS8ZeJsh-52Oco0LTj2084bGwke_uxdDmU2gpVAFpkJGnF-aMFR3nDCbFjOLjspdoifmQUZ-VwEWICtzA2Tg7CFKc5UkCK4UAu8J4O47dw1LRuvzo=s220",
         "view": "https://drive.google.com/file/d/1spTeKtpXeY7z6ytJEmSET0klkbGhdqbc/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20097",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2239,19 +2585,28 @@
     "_folderId": "1En9f0hA_gfWt6WVmAQUt_gwJSLdwEeGA",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPpkk5nigVevLTiPPK5xwAShsSDgbOQ1rBeU7FZftBTdjgat7eAI-PJtgTaxvQXD0x9I5zf9fyKOOdZlA0KcQm6TkawbD7PoofyAirIyjzfvMUaEM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEsknP9QMzEnpKIByWL4xaCDRLx83wVU7teio3CC4tUzNF5Zd_PLpOJjt51A_qPbyxNiXImBlgkYu2KuZWILzQRcdgtquiMjaeDNOR5E9wqGaxyu8=s220",
         "view": "https://drive.google.com/file/d/1gq3iVIkeqrQW8_zd5My5ONlOosgKnFO6/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhaISQlhrkdDfLti0yEClOQXnX5qGDpD6EGEVFc2LnEZATPAFiIPsxmmj6N0fARV8y7zzn67L9BwyERv5YhNQXb0fImZbm3NwW3bDptPhFJ5oW2Fg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONd4W3IN_QFDwG3mZU-IgrinMmDAFWUiHbTtEjXognQmUMcAtYN-GvjAb_v4z546XINzZmuiT7GHxjqyDXwdcRaSJmWSgcS_X4ATasn1h1_VHBbv8=s220",
         "view": "https://drive.google.com/file/d/1fGefHFaU5Dk69DyTtRBdTdD9epZoscgk/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20098",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2260,19 +2615,28 @@
     "_folderId": "1-D80gMKhI67osrnS1XMjlNOLJqTMoh_X",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtQm3w9I_6AJbsIA9Ofs9h86G7Qrg4wz4PylT63mGah50-fxDQy2YHQ8uTF1UwV19q533UT3oDRpWmkTxyuJzWnXi8-nI4NbUbJW0Q7vS_EUW6eRQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMV8dU5QXoMc8z7WhqCFr6knxVUGmiAr_KvhW4RY913FpW8V5aJj-cH02uI1kFsxLTBzB37ifbaA_Z25UES9Lvit4vOgSYxLbNIKLITuXYcDT_Mn24=s220",
         "view": "https://drive.google.com/file/d/1oigk7FP2Lj2_zKEzhCC-kAXrgj0jxTZr/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnsjjVRYGhPzYUlYtPK1e8vRpmzXr2lTXgD0kSyOyEc_nwY-vyHAzM4WgoKTA2apin-tCYo8Osc8Ok5Apre5kTAvnHqRYgaMQiUKuaRT2zGC66C9Q=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNN1HgT-8f7afKn58zwiv3kQavReNB9y-ZpAuJ-1LKmKAOleIBkl92FM5cV_zvi3qjxXsPm856mihiHppa94K-5LiAHVdr_bU90H30-MGdUwWNWXuQ=s220",
         "view": "https://drive.google.com/file/d/1AqLAN8cZGF-zfBeHkjLasl9KfBBFqprn/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20099",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2281,15 +2645,24 @@
     "_folderId": "1w4vA9JngXKoEShUAFW2bPNcgCLL6rFPQ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3ZQKYzgRHBzzlnLFm-XEE1NI3RC1tPjgEmxmbIEVZuRsKeJD1GUvF_OPYUBLJ5-CCmnWBZDAm-bPIFlc0wasqtriqgzzPYeGypvCdERdd8TjaAQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpuOSOUy5BEgy67E_aHpnEYd7WfcYyIF__A3o6zTg3KFB494K0XHUjaDWT_EiEMcagffycQ2nsk6uYIxbK9_2MxNESLDb618-fUk_Dcjb2GYwQWAs=s220",
         "view": "https://drive.google.com/file/d/1MjdomKQHIwWMpEBIPSkXHHBYcrNtRN6y/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5RXCKQSVEo84MGIz7muqifbGCz0LJECSzQVq5DYVOosG3iBznbRbiJ75GVLoPnvKMzjw6BmeE6YVyYWB8qbXuDUSGMjBHx1w8z0McpryVxb0psw=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEnQuk8FBuGmDs8pkoDhNE8P42PBGFqJCEkNWzgkl8wkvlsD9MrhwO0qeoa977YKrTt5Fq5yiflZd-LzrrgVwF8Ik6NrqFyxrWaFrms4G0YNlB1ys=s220",
         "view": "https://drive.google.com/file/d/1UldqNdEb1s-ht3ENJJdUPWtTXoabXafa/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20100",
@@ -2302,12 +2675,21 @@
     "_folderId": "1aTMs4UENeTuslnn6t8vfZqa8X9kY_hk1",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdHw779u6k8UqUQ_3OliwcQY1x44dQt6kHjpx3H2Cbag535JjqmAhvZTDIMiAT74EfKdWkxSpPsGUFalJK3G94HN_dU6f97-RBLlMrc5BQaRdpwA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaTlvo8oalEPQfsDaRjsc1A0J3UniRLsMxCz4hoG_8uRU3jxyZ6x6hYerBmPlhKjR1Z0pC2I2QcMtJwd_xe3tGbNJdNfDDAfAydLUQ3OxPYZ9DBtM=s220",
         "view": "https://drive.google.com/file/d/11_wyWUrzJT1DjsFsLxQcjldeM_ZG1dd2/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20101",
@@ -2331,7 +2713,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM22Awv5PDOEIalYL_lUnQwWJRE362o2qKn6fejTp1QpX-TaxSao2Lxb3ZxN0r2wwQevlbNhNObx4zO92-6EEptnhJUQsLB1Nqlpv_x6gKgKxtUrR0=s220",
         "view": "https://drive.google.com/file/d/1krxj9oyN6hTJoVOkqIK4AQorSJ6mZl6x/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20102",
@@ -2344,12 +2728,21 @@
     "_folderId": "1TCBOntt1qDB2NWW1YS6HBGLNdf4GQBx1",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHVSdk5voAuvgooTyX6dAXypUWIyXb8p3yhsSOhrdr0O5Gj-YEQgFPdbosiyLXirShldIxOeM30gCoRd1sunR7cr5KwYcXVo14tdcK4ADVPDcavw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjA3QxdFvOAlu2KhvXh4-fEyBCGIqeTspkukcPqQppHoap8cO7S3X4nsXZtbSaszzCpuTGVvKvtztC_qyfKvPsDPb--qatFMcF7izZyg4t-u4aCdc=s220",
         "view": "https://drive.google.com/file/d/1GAuXXLyZ9bsUf54-W2-ei9SUY0eWM7ws/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20103",
@@ -2373,7 +2766,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpPA7XEhnUhNh_7GdhNInI1m28q1PKlVdws-V8Oz8ySa24-hNVWaehP6Gkbx_mXLXwVFApfCPNROqWGHo4iP8e5lWaPccbvOy_u7SwiGN9ORTK-g=s220",
         "view": "https://drive.google.com/file/d/1bNHOF1ZJCAZWnnySXHPk_63JN5SQ3n-t/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20105",
@@ -2386,15 +2781,24 @@
     "_folderId": "1AsCjOmIGBdIsGPfcQMBboOmZPKTezxrA",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoJl6lBHGqUEzT5foDTGKM_Kf-XFMp4Ybz1xc7L4LHqIUGRn35TcB97JbhfdKtK3_VxSIjLGEBVkntlml4-OTNvrLrpDkk3IbdyGeW6B72lizFsQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCVqZ03IB7T1T9_cIqmt8uaXR_HDQLlX8G2sDhxIkRHKm3tRbpxjzEJmWuTsdDH17hgeAFrp-juU6JzUwN0vtlkfg1wK305dplTqq9bD6eLsvyTaM=s220",
         "view": "https://drive.google.com/file/d/176_MCapMLW3BBrqHbhGQQTJ-BaAJphiz/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTJsUNsSgAWaRr-QVWe3X_qKiL9CDjlTVyQBrkXuPQPeFEuGJoCSaeHOp7j_gnUOEUjN7hMtFsfTQfDdafz-TGtKgns148m2fiPydcbq-Rae1ukA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVf2DravARpaQiyv-XcesF0687vY032U3Je43eUmOhqBQE1AJoj959trjvisgXwab_0jEkvjZK-sRDMK-oBmFgEA-vuLvsoGaN5SBA2sOJ_k64DPM=s220",
         "view": "https://drive.google.com/file/d/1NwPJLfNVtuO72Fb51prygDivlBsBbRD8/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20106",
@@ -2405,11 +2809,13 @@
     "_company": "TIERRAZOL",
     "_stage": "E2",
     "_folderId": "1xsnC4ELDFVDXb3Rkz611bBEBA72xfuoi",
-    "PHOTOS": null
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20107",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "Diego Rivera",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2418,12 +2824,21 @@
     "_folderId": "1I3v0kmfGgWmlwwRGoQFOaDCzfJi5ZMnP",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMd4PF5yr5b6lxvqpUbfE3R5Aya1SryZ986L7bloESjUPlro81kovkJkTzPAdVfRlxb7F6WvvkYo4iZZjfxEttN9VMNaiNkydqeMFOsFP6JIFGLRg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMf6sRe9iL-p6-dLNDzrrl_em7cU_qcoy6THfp8gi_pBnxOrm_R2xFORYSUpa1WX_oE8rwpbmYOqyJZ16HTqibp8i7Zs7pOkXUj9mvJVbYRTOM1e2w=s220",
         "view": "https://drive.google.com/file/d/1TPHJ6irXfHacsnXLhkdg_HWtD-K-wygI/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20108",
@@ -2447,7 +2862,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaSua5oWP3OQUiSoj2UhqzzTJgsEjES6H4Mxa7g8qBiLabRQSuhB7XXLTStDu99K_estuw6CDNwzUD0gKTSmAxA2smY_SAcX8Trfk9u13vnzxiNA=s220",
         "view": "https://drive.google.com/file/d/1vYgGw9hRdCBzrqYKruLvCo3jRJGaJMAQ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20109",
@@ -2471,7 +2888,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxiJnoiR8E9GmdT_wWZXDfgQkl3xvyE30XPAO1zWNTNtFMbpwddzonzzPB4Pvzs1iS8iP8ZG5l1RRSPLQ0ktbWtbRbBEtAVhB9GwGS4qRa-yPIhg=s220",
         "view": "https://drive.google.com/file/d/1pTRSJdCItY2GL4zGpkCguOnp6scx9FjN/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20110",
@@ -2495,11 +2914,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEAz751V87gCyy75hAUfdJ5XNeijQg4W73lqoNYPSgZmRKJzsivL1AlBh04qV-4Nf60BWEhQol9feglxII0wWGR4AAFycVHMbUqcT5xrKv8YUIBw=s220",
         "view": "https://drive.google.com/file/d/14_8pha_rMAI7oZza3kxsH-uzGycmhns2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20111",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2508,19 +2929,28 @@
     "_folderId": "1XseuxLUAY6bpZ7hM_hLyS-biasGwDcYm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMMmJ9nuszCSJv2sUUyaoJrBS-a-_lFGq8T4oCvCjrYN-AqyyYxiH5CHBifH-99PeEmLCZiltzpwHk064b3L10OZjAsjlKot8d-ZgexiFQF_BMnw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_LVjdSeBKiRCfmUUZ-KGGf5UA5Bxmxa-AG4jyfcni2baQzhrDTfuXljOz4sYkT4a31A8GwFCgy0UwTsYrR675mmZ74p25oWqcewV7OJrwH16Qz0k=s220",
         "view": "https://drive.google.com/file/d/1t8wwVRwW-948NP-PT_Rw0aF_iMjJONnP/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ1rI4MUqgecxpB_VaZ1DIqlog0bhc5DbfrZe5Wzh5yosttcT_eNHMexuLn6qwbvJ9Od8nDISPN-LNvkuSrPVQovA1p9HMcBLYlo1IKCFW0EEmtQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwZe7TYKgC-UB-77cb1eJC027XdyiRhPxKVaPGD5I38CKfS4KQGd8_aZcczF6jIpbVLtj_efLSemPJ9eBqvem17KwEu-GnmLMKW5yj-DD8kLAu7AM=s220",
         "view": "https://drive.google.com/file/d/1Ggta_y_5URUjHd3pZHMOgkxlsQAXa9Ov/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20112",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2529,15 +2959,24 @@
     "_folderId": "1ovFLqJflzX-_s87tIC0Tt3bbCGvO0Az_",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIEEeytQkyKAOpjOWQDCLBPTk5Z2YjFQfeolXV8oPPLoNjOfZ9FD4OhJGoGCZhq3i1XcytL8dkX7FU5sLZ2A5kby6MtyMLtrX9jBxznLXKvb6qsA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7FcyZNebBb85jBOvtXdP1XUxH7SqVRYRo-_ApTeVZn_RluHJe5PgiCBXwkar2_46smGLfS2lTryq1WsD1Pwvktn75JXmYC_7H5VCGLpRtzDdPQ-U=s220",
         "view": "https://drive.google.com/file/d/14PTxFY-ySvsI5QAMgWkX6doc8A4lV_Tl/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzCc9BfHCwowhLUY2p47JI8w08XqM3fNo-PyoJ5yDHQdSBVRbbI7NHiwxYOfDyfkpfD4AhhmAqd_BD4OoOpS0zTDvhaWEz_I2gYatFSU-V0O1pKA=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxaROWRIPzBf0YP_n2MXZbTjh2frlFtHik8EkyCXmyd6SyYbL7uZMSql1W-l0E-L6ehDxMqloETqnLEPzcqL1QuO-W95UPdImFXogIMxdYI9jHf4s=s220",
         "view": "https://drive.google.com/file/d/1fullecuK95pYx3SvsP6otJ9hRB9GSKr8/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20113",
@@ -2561,7 +3000,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOz8Wc9bNsoKOlsyiysHEB1CUWrhiT3iGD8al5LjST2i2klIecQONQXGIWhd2tMAtnQyb2IcMD3_7vvCCarbrSGiJVasVU35BUxKZJRchuUPxQ56g=s220",
         "view": "https://drive.google.com/file/d/16orItSyoW_0ANR7ZPL7wX_Ccicq9tfSh/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20114",
@@ -2585,7 +3026,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0J1FXmylipfcEaBT0NWtoVa1YXeFSXF0yk4i0hCjbTdwMSCv-s-Y_PaM20kHHCrx1lBKLzQJ6xGCmPTs2AnwJ670ykeNAMu6_Dwg733xOJ44eHg=s220",
         "view": "https://drive.google.com/file/d/1dq_ZyonaLCpnBsgWWrbb9KKGaKrGRhia/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20115",
@@ -2598,19 +3041,28 @@
     "_folderId": "1Qi-h9zY_ktQVodeWQFzpZuhPU38Ucjdr",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwX4qHiIHsyofTu1u-xBJ4mX5aGVbGrGGU6KnMgqyLRmej2G2Aou_T_xv1ltOaMrW5LkkIOjSAXZSHjchG4dr1mQK3tAHpYpUhoy3gtmnj_SVqng=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmu-sIRlbNyfXm47zbKskgjHtuxYX5ZvQI5DXk9IXhZuceLvSjTtnDVTMgvAZw30SBwZ5mpPsWLjnhmvY5MGIom_M-7fJYt-wHkZUxhBidpfMUftI=s220",
         "view": "https://drive.google.com/file/d/1XVCze7H_E62J2JA1z4vJNQJ8JN3dYHg6/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_O0ryMpGxOsXBBdYxhkVCoVE_VXk6m1SfWewWMRzGtfTkl07aBa7d9DTa5HeMV8hasM96axE_-91CMy7w6xG7W5j7GufkkT8lvF91vtFnei1Usw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOVUfZHiFiU3CsVwKzodYkHFFexHkBuJDySZ-HRfGQCXItZaP5t2qKveQ6raFuIh9OiMfoxPtHyXPIBsGaEiejYflMPw7l98JF6biEIVPemN6ZcEg=s220",
         "view": "https://drive.google.com/file/d/172HxTciU8qVn-wrZI4dzjNpbnVUusL51/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20116",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2619,15 +3071,24 @@
     "_folderId": "1K1CgsoY72UyCHK12xWF0Jp_mj6KZ_Hfi",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHKdlYe19YGHHLx2CL0oX1PXFGTjraTpgt4-X8MeSOxOSNeRWQwqoGiA86Tucb-DgRfsT1ixGKfxALU0NvNF1mfxCW1d_MCEIfFoYGvtkBj4gB7Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPleat0JLID1PKusl_oJ_ztwGxtDhjc4m61SwmrmxYF_2H2Zpse1dINphpCtsmgPN5J-k8Wj5HhoN6ALMpg7nhQudhW4xw0n3dnW5lNd1vRBY5LKOU=s220",
         "view": "https://drive.google.com/file/d/1ikdtON0xmOawMLNzpbC694ehd9OUZxfa/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUy7eX9AO7RWszigYw84bZUBCNQ5rZDIDj9DpQ-KDRMbWt1fiINN0lBSHzULH655GCex6Igk9wxYoRRm4MuN-cogxNWbaqcT2j1kz0oB9Fr0iZvQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbTYOuESv4gtJxwkTKL6TD2ibd7EPoJkD_DLuuXPiNJTefNUjXBqExflWPMackG6YgcBZU0AkhCLIhWFtIUtM7UQCkFmHEbCCE3IYkLzrTpL4CNlA=s220",
         "view": "https://drive.google.com/file/d/1xXz2aaKYqjG6rFJNUOUkXk8AlpHSoZqj/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20117",
@@ -2651,7 +3112,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOERTAdKCNusGf010ugYHaQ-fJ3w151XsUFRGWGCGNh4A_kpg-4x9xG7pUE8ZY1jyOMo4vjg37cVS-dxMaD421RcAMqEdBRWK3C6RyRqA29JMpkjA=s220",
         "view": "https://drive.google.com/file/d/1Q071Ul_zF3ZZF1Cmucp3ZZKpw5EuhEPK/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20118",
@@ -2675,7 +3138,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuBIHNQSbxnUofbJsxb3XzBnYIU2Z-IE88VX-NzHaMzrLM5Bxgi44bcI7P1Y6ChmZzc_0KAsyTf09hwvmOWgf_A9qn3vZda1PF3qn248ePzMs8pA=s220",
         "view": "https://drive.google.com/file/d/1Jpe7mPSlgr378X2ZsTTP7GvgjaXhe78x/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20119",
@@ -2699,7 +3164,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdaftxuXaasLKS07GmlEmTlfuCcGs2QllDpfGRfZluynQUs0w_HB_ajpPffg15dsC4oC1LXRhVwjdxqgcVAt0qnPWx8joaYctgRmUNE3BloM7hCg=s220",
         "view": "https://drive.google.com/file/d/1n7KkCHqjQks3fmLcPUALX8f0E919ePmX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20120",
@@ -2723,7 +3190,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiaZ1F961mxzfhcNarqtF_fsO7KUTu0bDN2ryCPcSd6VBVkinqOHfJQZ59Rs1VkQPo7O9316HnFJfV6v0r99nkuh_88qwdOPdBpablVWSxcL2T9w=s220",
         "view": "https://drive.google.com/file/d/1-vlyTV7_-EIzsIXBJWVZBbkvS5A-NOe4/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20121",
@@ -2736,15 +3205,24 @@
     "_folderId": "1cykYvgWqPKLaMJV1K_GyVnen5VGKFJi-",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7JnEBvfLC_92x3kpE3TKIEvVNhBcTeXEJCg3A_9RxMTkMC09WhCLCIroa0EfTyi9WrDpYuB4qyLBGpxjNAW0FY_DJvTcUAm6OpbFDVqEG9N5Nzw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0jOF3pSA2dYC0a3WD8e2Vwb6ycWPCNfQTbqd9FK7MrDfGoJLbfXH8GBWEtLu1DDzLPFIsvMOmcgfvLKAEJhEQBjyTuvXaAcBedzYPlj0vIZHH1Xg=s220",
         "view": "https://drive.google.com/file/d/1w1Kne74xzvuu5VtydT9iD84uXpb4kxKP/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr1b5k5SrbB7ZHFQ52E-Pu6r4nkLFxN-qJbmt-nXh-EedFNyplDFE2cjoSI7YVosQtxeIxEPMUR_dGOH6fZlEJSZAXY-pvEGTR1yth9iIKo7o1jg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ3Yk3Nlmy6CBissorAzme59Zf8-Qf9daYQe0l3HvLSJqBOC2UN1-7DTat5GkxWhNmKtcexVfwZrYgkaWaLMoavpHd1RnNl9eqV1-rFsjRV_Mcyis=s220",
         "view": "https://drive.google.com/file/d/1n1VwU-uNsNaG6Ik70ZpnB_YC7Bpcx4yR/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20122",
@@ -2757,15 +3235,24 @@
     "_folderId": "1CKQEbBH9AXQ0kznVJWy2W7iIXKzdpPAS",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdqnMO2PJZBQ3tYhZoXmj5aAsh37Ntbyn5P7eB0Y7ZR6oHhGdXToMDAMfkm9E2W1cn2SWWAX9AfwPGBeNkO2AMozgeWWZxGB6iWRC3WUTNd0RuQw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGP2F7bUpzFiAUI2wvlTzigr03n7W2Ovhuwolr6b-HXNh5ORD1YRhku0QPf0du22AFAUpebFc0CSOQd9mv8Lg0QOELmT_8dJp5-tf66kmAi_cW1MM=s220",
         "view": "https://drive.google.com/file/d/1uDtAoTPcb8HkAHlORzN8qOGPtc11pw7I/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCHDOrOYFihO28bGsAwLZT-pZv4nA74ht3VPb1UheJhPiUYmu3o5b9_p_klJsMUcInKUXHZ9O1BZ8ZpbfnvveTyP84Z4_rkBsuLr-lac7S97992g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxo04KFVktXPj-u3TP1E12hQaBr0DSXQC1yjgWkivlGHq1WGkAAYFf_gdP4iFpCJZVqPTCs6WoeWZJa24kG4qhERPYgu_6AxOK-Q4SyOOqMMIuTy0=s220",
         "view": "https://drive.google.com/file/d/1iwUcM6mVyzW8Kk5pBxdK37EExi1Bgokt/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20123",
@@ -2789,7 +3276,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeRFyqrI2jnOQWbnB30x0fl-H4pQoTwtHttQ8dnfkfrdPNGAlXxy972p6IXjVCeG4Gr8HQ9fveTM4sNwyB9Rbeo-MfU8-aaO-nmB5kcWM0vga1Rw=s220",
         "view": "https://drive.google.com/file/d/15ln9iTxuAXZwqMSdoTPSI88uAdL8ekmQ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20124",
@@ -2800,11 +3289,13 @@
     "_company": "TIERRAZOL",
     "_stage": "E2",
     "_folderId": "1E_vzEkf-3jIULqzMM2LN93DEkqo_x-XG",
-    "PHOTOS": null
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20125",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2813,19 +3304,28 @@
     "_folderId": "1LydFdWSpb4y3yofmMJPNkDXPkGEbN8c6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIui4luTX9TeCS6zD3TPeIw-er-5tIDUjkNHKk0mJIFTJT1XEb0NaPZxv2YP14kNA6yRbj-7sG5-2DSDcuSxo73c1pv6CJuZihS8JM4EcjEJJAzw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMI0PpsmPkrfV-lULmT9wsIiwQNJe3Uu71500zEQeeB2uF0hNrljf_8kkHFNUWskR8BiTGBE1FmxXqakNjn5qz8tCacjJC2V3ZLquAYCzmmKhmRwSs=s220",
         "view": "https://drive.google.com/file/d/1iy9qrjzTPcbaKeC-rI3RwASU5bXuDdJI/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOZyT8amals4UV9kUmQrsIqioIJRzcGUowaTR0Wh_ZsVRcULbmRuQQunkijJdc0nHanBYC1yKqGPQVZloEAtzsQKL7uRwpapWMS9avWB7DcWWBNQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOirmHEDBzY-HRcLpjfJgHSHApMuA3issOMA79Ap9QLRwZzwB_inVH2awesTcxNTyaCHPNLutrwkNjAIzT7uh811Ce0ZqjFFZngpxNu_thyyZLRFEg=s220",
         "view": "https://drive.google.com/file/d/1y5u-_Y0Geio5sh4Dm2sQfF4hROeBG6z2/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20126",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2834,15 +3334,24 @@
     "_folderId": "1MGC-gY9LiUfG2NK6jN20UtmIkj0_B8FJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHQ6Bm4aQ_VKBZZHzr354bCt7umeCfQl_aYsPkki7BUbGcwennWlmPGzVPHLTxwIVFU1k5YmYsDBiCI1bOL5RZcVwRJvIfl4dtpsJ7DQj3dH47Aw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZtgX1biBCBDTIXCYA6h17x3s95nRn3QyScKZKbCU2M0BeeE44nRqeIELFSLdRkTuzNLgqHg1KqWZj1B7HyYnSqNtNVkcAPpka49cOzAxgJWp6MP4=s220",
         "view": "https://drive.google.com/file/d/1DWEKpaqRzM9VlXApE_dn3f3Krvy-FZec/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT2sni1BtP19NMdqKcfVnhQbMtYRcXRjun5TiXHgjjQNo97wK5pN_vb7z8E9jyk8uP9RffAh9yUMpG11AFkjrE8a_BhgG6ZjYn8lU967ycZtZsfQ=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwGvBbVKcpbC8tvvStqSnbdOHg_atHENrqsI48bai863ge7ivK6wFcKcOt4VoK1n6SdN5AULojip1KCe62JKLiwCza9R9j_4Xd0IPn0xml8-Pv1wg=s220",
         "view": "https://drive.google.com/file/d/1z8Gl2HIi2cuXLqIiXvPUuVOH8H8rW72q/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20127",
@@ -2866,7 +3375,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLFOSFw6LslRgkm3gG0tMR1YdtWR0zi0finLjRhh_VcgP_4dJ1Jn6JSvjYXN1jYn-fbrM7GQzdZjIWdyK5MnBMJy1Iq4AHhKAIwJapQcA-KsSRC3k=s220",
         "view": "https://drive.google.com/file/d/1Ew29YlIOENwUJdZ9eOZg65MjKB4-gO89/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20128",
@@ -2890,7 +3401,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIYlF8bwZhlTIk7jCNgMKomiSVSI3ScNMiW6iWXk_SSgThUdrgDFaBnmjngjkIzN1WHtNK6F6Jr3OMgAjLAgrHI0NpdpcVeWEaCyLWe8DZ6MStqsc=s220",
         "view": "https://drive.google.com/file/d/1iyINVXHosGy1r8DhZ0Qvas0ODKcf-5cp/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20129",
@@ -2914,11 +3427,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPR4Wk6ldPXcuErXDWtn_js6IUEJCp1uu2YEnN5kBThHUxFI5EhMO4wLMXT89GZ6C-NfWj5r7iSDVjJGg1A_iIRCnNZi8jh7o1KPiD3um1tqHjWhR0=s220",
         "view": "https://drive.google.com/file/d/1grZ1bliwXXY34p4j5LXxu4uR7aIpE4AX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20130",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -2927,15 +3442,24 @@
     "_folderId": "1BHCY5JBirmCnt8kN7wEQtUJhc6TzaCPT",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1Lz5U84jIIs_ELaP_bLihynbSH8el5qpJdcTIDSPyZ8sn_mADHIGlYhILXrN7qsJLXjbuuRu_7Kj_qKJTjSz_soKdAU7Ue0C4E9j4Wqj_X7ACLw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQ07zJ_YO9aPGBJ3jIHOOr0OSg8RhfiuqB0HtvoWd5k5wqiloi7lvOasvCNg8fmoCbagw5WDpngfOr-mzxje9boXhy3_eWA25OILRVXfzl07ACCKc=s220",
         "view": "https://drive.google.com/file/d/1XmOQdroRUY56tP-moi4S8-pm_asUDxr1/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwz_165g5mbPq2V4j-3b0dp5NK8Wf6ACwpEziCNDQBBhevAFXOMNUB1Ns_e0YmOcyrCfX2uNXwdz3EC1aXNGgrauxCHbm0hPHQdFuym60POL4hZw=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIIbdKpQbvA1JCYHuB0etcCNVUYpHGnpYH1Rt5_3H4eHBRjCVjIAfykd6puoj6kVs36wn60yMsiW-X28tKXWwlLQRpaajp_OUnNrFHMjDu8G-x0so=s220",
         "view": "https://drive.google.com/file/d/1P0Llj8De8n06DIfHdWNQa0bkGVDKTRpX/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20131",
@@ -2959,7 +3483,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMw2SWFZ1jeiow7YBDftHWmOpd-xuAsAUC5aOMSgb0HoKW5x9Xudp-oINMLTuf7B5mpFbKaY94x_9PilxZthsrl_9V_SZVW29c5oCUE7DDN6JoVrTg=s220",
         "view": "https://drive.google.com/file/d/1daWB8O0xPMNYqtc6tf5OwHLFKo20pnm1/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20132",
@@ -2983,7 +3509,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM80YscC04PQEzXhISx0IsT-plIAW-A9V4nlnFNL2S9mi6zib7dHXPuefqXrPGI0qirwHGbsTuzHm-roeWFz8uILK6F__L7Y3d59khF0Qy2_-62CDw=s220",
         "view": "https://drive.google.com/file/d/1VLff9prx2bjdG1nHuj7vUDwt4SO2Qx3s/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20133",
@@ -3007,7 +3535,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfPSyvOSlQQDTrfIPbznxkSfX71Nk-noQyMAT9s9PdBlCpYPXEXeGz4r6u34nbYxpYhNcjmr7_hHh7kIO0CS_cPgEIGSkUZYYEg4-yOTFdX0vjPWQ=s220",
         "view": "https://drive.google.com/file/d/1Z6vyXarjF1_BSRCKllSJFMZd2A-hmF1z/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20134",
@@ -3031,11 +3561,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjQg3VY0tDqqDcudcCN5lXv4UOB39gTj-EpvHd-QuHs5MEF9YfIgLX6piTfnRJ4Fmg25wLcIOZwCn1Z49roGcItUEjDj69b8CcMOcPiEL0RLrJAS8=s220",
         "view": "https://drive.google.com/file/d/1klM-Wblsc6srSaVikyKESIasTm9rLdrY/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20135",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -3044,15 +3576,24 @@
     "_folderId": "1ZBeezCSxTPwXT2YowHzgI2EAN8t4CTKD",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMy5cRe5_ogGKvNBSavkBCWKQ4hiBPZyZzI3jfjsoyBOMuDLQTSQiAbLkc5NJ4ViTPxcntc3sYSoqsD5CC5YyY1bhWj26yg_8FJL1hKvguUfQ7aQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5d3PA_pu8EysLh8B8Ww8TXruvJ6axFJ3vOm56zwcVClL8yrla7PRI91sPbJIUyqQtpwY3QJPypTEdv15nsNzvWA_JLa_CwZjp6gYa27Cn3Y8ANjM=s220",
         "view": "https://drive.google.com/file/d/1EJQ7qhPWreES5kxnHaVeAmjM9HiI5D8u/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8tMWLl5_zwM7an_OmY2AhfMqmGjHEGS_LK3BVMJyN_J0UGQ5-qKVqjTZ5UvoptpnP-TSXxMIW4_V9pCqw2aeB7FMx_OJeK6JioWiwyCIs7orpFg=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMvlvaF44ZLQLhQnmi1_vfqFI7Uq6FRJBj0sq3L-lelc5F7HKd4-DT0SCHBtFBy8b3d1ds3HQv9NbrQPd1HAoYqO0vtoB-NFjfOzJ6_7OaGdUNj4g=s220",
         "view": "https://drive.google.com/file/d/1ACQzjxH3BryncZh_4VGlBdCrU32lnAMM/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20136",
@@ -3076,7 +3617,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlBue90FO3I_ab2o6C_6_RR8y6fZIbol-LhRCPPqsmYc5cwAYWkHU3NoWiZ-8EQER-w-ZpW5NPePPnic70u-cQpeu5_JF4dQ6HUeqs38_yqgET0js=s220",
         "view": "https://drive.google.com/file/d/1TPgjSttGyL4InoXnGhrj6iBy57wD6gGO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20137",
@@ -3100,11 +3643,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMviSozTwdDJiIgRXmztnePlDV_RnDHb2uFRcnuusjgiBGtiaBE0afQF5I6BYUlpGlWSfNcqRhNj6_SeYYOJBuIyZ3X0lqsg3dBtUf_UoZhFHtWB4c=s220",
         "view": "https://drive.google.com/file/d/1HItEP0X76Ounz9gZAiOjXoag89XO-i59/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20138",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -3113,15 +3658,24 @@
     "_folderId": "1dumF9pfyY-LCjBmGiUuN8GWw9YQNzclw",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN88RKS0gZnOgvh1KQHiIUlYZLsDDrxKf12PIQkeuCgilHWRywavyZzo-89mPiKZn4FKw4aCms2aLGR6wMoJ8YnCWdI4llkCDmcHbQwtYtiwkWyOQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3p2uStIKLLpiv0kvVIIIbTBIdIju84V3YWKD6TTfiG8F5CR8rOYGqnOU4nyx4zr86HJTZ8jNEWasnHuh-kCrO9yOD8BW-jKpBtEYFYrrDvHRZa6A=s220",
         "view": "https://drive.google.com/file/d/1vZO096Kl9TmBe06f89KSxy0v5rY6Kfr2/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUz7qIayn7oGutdeDl588l-qWzJKEXA5agkpGmflm5RG1_TmkDkRmHTdDjE5n4E4JT9xU4TECdSyGQNhkf2HtENJzxdXS-6IvJwaovDsKF_4ol8w=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOG9JCOV6uvCMgMOQJs2ybWpwIAAGdwVyIw9N77HEz77vjTT6Sk6Pm8-3hdvEXUjHk_ON4naSdHhGxuC5kHxmGuXQx3S3d2qu0FgJuXzq4HJfXTTW0=s220",
         "view": "https://drive.google.com/file/d/1KmkzhuJ7HIeOCgVyRT4nIRCcPfdE5o27/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20139",
@@ -3145,7 +3699,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaergdaqYlp8nqPNIpO0TebmxwyvnfsG_M_N7btCcYlpnexK8fgfPCpamN9k8Zp4WUicg6EvWxUweHVvCzq9cruW6AKg7AkEVWH7WnNwBWRD4xU9I=s220",
         "view": "https://drive.google.com/file/d/1V0K-1HqCjzMT52tYNbucIUld5XC-3CtO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20140",
@@ -3169,7 +3725,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNyKlOXy-Y1ZaELOu_Tp3xLjoLpRNoAg4ctJsyjZ-VHoMsg1qtvBqfE7xNnE4RbPWxAa0ApUrpOTB7VfP66JMe9cfRcZE0UyfQSK8jd9-UqmrPLbM=s220",
         "view": "https://drive.google.com/file/d/1ewo_HclhhmU_WgyElUqTbhEe482C4FfG/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20141",
@@ -3193,7 +3751,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMv9_Y_N3sp4ihzW_4NqOaxxnF03tdeGDV5KidCsam1-T2mVtBhgwWIEDMKZRzjgMwGMHK34_dQWz0xYlwaWy7GVKNDj4NcXio7Weg7So9Cdjz8BYY=s220",
         "view": "https://drive.google.com/file/d/1PmdgWAblsGlB6r8qZucmLih99500H1UH/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20144",
@@ -3217,7 +3777,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSc6hEIvp1zCKkTsZycYVH96rk0CZk0qRT3lu9f4lPVqoI52bfvSZx4m2J_6F9KYsMvGeH3mluhe4Hn1NgSitts0bqJurcqOkrA1G5N1nMmFPwdUQ=s220",
         "view": "https://drive.google.com/file/d/17S8ynxu39mK7_kOuMfsjd2DHWPBU6q9v/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20145",
@@ -3241,7 +3803,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPh1pbUeJLsIiXFiDKf7MRugpJ_5z4A1q9GJMzeZkbDBYH6NhmlFgfeUU--3oUQfWL7DdRwSW-T-CU4SrzSnn_dGK-UeJmsWPscvoM4HFiCywMvTmg=s220",
         "view": "https://drive.google.com/file/d/1udt9P2yP50rR2QPPWsCli-ovtQZiT3De/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20146",
@@ -3265,7 +3829,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnjZpcUPfJe1hN_qAyXIymMiJQfFKUB8Nj8oqnpYav0RfMOuIi2b93tLp1iSfkN_XZwwto8uxEAT2wz7f_Op9_o4TOQLiyIsR6h609HmMwwvwlQ9I=s220",
         "view": "https://drive.google.com/file/d/1FWUrJ4H8Opypd-xywcjMQomy1IBUQ6oC/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20147",
@@ -3289,7 +3855,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCJA0mN_un1AjdcVZsdD_qi_FKLmO2yc7xySdC3hZ8xRDYlgKrdZ_euS84l9WR_7sn3VX3jrslrisjkJJESFda8UHk7_l-Ujp0RW7lN4ZS1oJHYIo=s220",
         "view": "https://drive.google.com/file/d/1i8Too3hxVVontuF5n3V0_GtrvAOlMcMl/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20148",
@@ -3302,15 +3870,24 @@
     "_folderId": "1RzJv91Anu5SWxa4HK4UmpQKQZpfFltJR",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpmZR6iLgiPaX1FMu3aEcJuVDg-Y7_MXu4Vdf5T_HSCV03S4kjct0kij3GHUb_2yWM2HQaTL8sdoL-JUGszETKE5781_hGdiYVUOUfI1eS2JQlMg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDAIi0NUmV9abaPPWOy1fMcfaD0gFWY4faWqSSnknMYlS_iXa1jfAj4NhT6vK11YrJ0urhE5tzVv2VH5-yQd_K93OXc40B5l_ux4V-XiCSv9zjekY=s220",
         "view": "https://drive.google.com/file/d/13v_AssdGOkv1q_AbyiAFT3-Y-4jNTEmV/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjGZ7E6OdrXaX5LKavquyZ6yploxoiygGEqj58yVU9YSzpD_F1N8zONwBVfa_3tMsFepd_bqAiLvHO2KMRs8OOdFMU7UUW4OpUvo1nHpa1ef9qeg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1HqpPEvrwUMupcgMkfqE3Z-gz9IyjvUT7eX_Bm2zodlocBkyU7bJm9fS2jIiynEkz4ZLLaexlFsVgF4t0d8wXPdTWn1OjOPoW22ojgDTfKL87beY=s220",
         "view": "https://drive.google.com/file/d/1z0Mx-Khu_tsG8R4FRGJryFsk_rINWSwD/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20149",
@@ -3334,7 +3911,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWtj0P6exvLihSuMuy4tbtemptT7AxTwbfLF7jQHaH_fdEOGr6srF0sGFRipbuqo6V1A8O9Ik88P86PHJsdx0WO8v9lawmjR6eyccPxohSTa4ES5E=s220",
         "view": "https://drive.google.com/file/d/1aoXP9wEMCuAGAl86PpxGF4scGtMG7Qzg/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20150",
@@ -3358,7 +3937,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGFTmn675T_MyRNwlkiOgkpvRvpYTyL4TNDZZou1paOrNqPEAgC0Tt2K5BG-RQ0CPPnIueppLv68kWsCdd5I8pcbjUE3LKYGNmxAVDjYf0oKLIZGg=s220",
         "view": "https://drive.google.com/file/d/10o-_P6Uhswbtl_PDzvx88y_Kk16yyVw-/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20151",
@@ -3382,7 +3963,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXvp1myOXu5D5SjlPJM2Bym2JRbFllk91nfSFwzhb5Uyau90ck5_mK3Gg--spTbwaDr3sfGAcY99H9UYi1Ob1RKSbM0AP86WtnU_LYsbd6H9Tlecg=s220",
         "view": "https://drive.google.com/file/d/10hVgXZt26HAUvIupq_mrQiDG6Sjf3Uvc/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20152",
@@ -3406,7 +3989,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsK1H8n5PUtUTXcvkWo6MdIc7H9GADe1R_6URc3FeUJYw9s3ol_LZuI-JsUEss43eYOjQzvFPZetMCJ9OeI2_4ak1uO_YSaKR_fSC-IQASZGbbfqk=s220",
         "view": "https://drive.google.com/file/d/1mwlphxqGCdqo9ra_EBMITYK-ebfozsDn/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20153",
@@ -3430,7 +4015,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrYdgRpvVucZ2HAOs-9P54KBK9x8J3tJ3Iajvtgd8ikogXWEHjLvf1zO-K5_zSMcmKLab3p_bufrGyHSfjgHyUqhNGSTRHknwdxBsDo4yarfKLafM=s220",
         "view": "https://drive.google.com/file/d/12r5NhzUISgeAteNsv3NrweX9LpybuIiD/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20154",
@@ -3454,7 +4041,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfpED4iAVpk2Nk6OJVnY1uFWZjuh7Az8X-ytg8Jpwp3XzZzRcqlrjM3r_MK_M6oBd3GQSOVmMKXxXanYpNUXeigO5RyJ4T-59beGvP2rHnJHq4jp4=s220",
         "view": "https://drive.google.com/file/d/18z-moO8NqKi-u-ApfFPhPw8wA0zmbvgx/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20155",
@@ -3478,7 +4067,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgL2tZ30zzSRezl5ZJ2ZodpORBc4Cg1a9CMkz3-WNzcO5kh729FDdkeF0YXIW-w2HVBQsClgdMtSBHhhlGirPwFAF-WgMgQ5KYj4JqOzMzkgA0AC0=s220",
         "view": "https://drive.google.com/file/d/1_JKd72CtjoFw2nofd09BU8FRZfEVaGCh/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20156",
@@ -3502,7 +4093,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPj2uCVoLdmQ903PsfsmkIfagQgfA6PPYqE7Mf9amxMJVGMCKDcuE6QKtPf5K5Kttq9AUslqQngbYz4MX0F5Y6YYM_1EqwqkBXfKqCsJLWDqyRRpig=s220",
         "view": "https://drive.google.com/file/d/1doVgo9aJiG-bXpKoTckdBdmcDB0mq9Wm/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20157",
@@ -3526,7 +4119,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpzpp39NykefnHY2Mk6C3ZMnQFB2JO6EQc0IYt2joBiMtCxnoISpupwUnuFtR93v6OqQas2j5hWtk1l9HSNXS6PJiYscu8IR2MgIOXJFpWhBkF0iU=s220",
         "view": "https://drive.google.com/file/d/1f9BLw-Y9nwccNBuOT6p1TaJ3GfOufInq/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20158",
@@ -3550,7 +4145,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVLD6kGRXzOBT_-aNDT5fA-LKpmfUIQ7FTO4O6y2hmTdCXuhBu76zK3qTBYTor_5vgEBwBzvmpWNahUw-wGBnjo0EsrEFTqT_5HcF5SstK9L9SV20=s220",
         "view": "https://drive.google.com/file/d/1y6abZLHXo19sGkyXsbzYudhjrdd4SDRd/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20159",
@@ -3574,7 +4171,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNS0KkV-Y5_QK52i0Gj-ke_At-V9Ry0acJCvbujrXyTAPMiFTStR9ZdtO6tLtTdLr9SlTQSRg3zBpNVS87m5xD21qXmShnEp2LY9U1imA-2KUPqU2c=s220",
         "view": "https://drive.google.com/file/d/1XBwyJItOAa_rEjU_4SIYhFaeI_nNakmt/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20160",
@@ -3598,7 +4197,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmpxdVdKIpbVWksorntoTI0EV4u_TfjYNO2TcanNl6yY_0cMq78Ijc0UBMTHrxrrISjnMNjn79gBFreZYKplqlOb6UWfWY1JUrmC5nOpd6yMEq6HQ=s220",
         "view": "https://drive.google.com/file/d/1eUerL9fvmzUsmVF-68TdXyEaxKZXq13y/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20161",
@@ -3622,7 +4223,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMB9Wgn9KWArcxu9XgrLowKaBYzO32EXEB3VYCcTxTB5knP4vS7aObVrG_-17viEQoQ2NsMAlsqg-5c0lKLdBgzXaCYFvoBOF0wL1ZWGsse8uMDR9s=s220",
         "view": "https://drive.google.com/file/d/1mnRo1V5nkr2tijZXz_ZWIG5cHoG38xe8/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20162",
@@ -3646,7 +4249,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2HNW6OLklchesAwbsYE1-0h8N55btBfqC0J9ddJnJ_bLQ1GzWpSu0YuRfbAynaUVb7Ny4Pu5LhB8UFdmh57slps0arVhJcebJwoKP6MIfkP5P02E=s220",
         "view": "https://drive.google.com/file/d/1a07H9P8QrQoFmD0TInRlPqO_toUT-xoV/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20163",
@@ -3670,7 +4275,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4TQQKgmWjIKPh62ECev8shIWacEVngMksyGWxw_fIBa1rLSwylporcJzsUMCXozAOgnDXduUe2DQkKXQ-PKiZMZmxkfLK7C7VEPKIvT0NiJJggbE=s220",
         "view": "https://drive.google.com/file/d/1Ios2PxS2t7mmGSYXnJdMoqh-9u9KwB1v/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20164",
@@ -3694,7 +4301,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMv2A3cG4jLbt8fXGaqS5H_9BWs8w-1RdWBMrUAdJ5ME2tAIv9N_RSomj6oYca8E-R93b2lwxWOdHNgKCPKAT0C3aw1ln0aTfr-7ynv04MC1naun1s=s220",
         "view": "https://drive.google.com/file/d/18IrjxGYhcsvoxeuHFV9yt6k4idAV1nH1/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20165",
@@ -3718,7 +4327,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfG1zKtDOUF4XkL01DJXDqFuO9gWuOJmCIA4D8NKi_IORATm2m5vCEyrUshwqUHYTZZHdRYRDFFmCk3GmV_D6cW5JavA1T8TNscvVmR7L0-WIEOP0=s220",
         "view": "https://drive.google.com/file/d/1wbLuI0QkYOf7-E1Au4DA_3OMb5x68FhF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20166",
@@ -3742,7 +4353,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPhngNSGCqcSQNbXRushX1zt8nhnUT8c22xwaEyJMvEHZJrOY6GgoGTzlUW2QVIx71wtI05cHZ9-42xv0HNVusVsiaoz4WG2enwcu_tYnD-kUxfw=s220",
         "view": "https://drive.google.com/file/d/17bhhtp0gol2I9GhH7d0bHAIpp9OxZdKY/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20167",
@@ -3766,7 +4379,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1yjRQSumH2tkRStwHOoWyx__qdqpPsx-Gdps6ztSgbc2tQHxJ785fXv_gxolottk7YyFsQdxr2LMSl9VjE90Zdjk3CboDCXPNbFSqj9FOQWG__A=s220",
         "view": "https://drive.google.com/file/d/1vOyg4ObJfjQeZuuD8-BB7H-d1r3lOrHa/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20168",
@@ -3790,7 +4405,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmyticN2vA4nNmtB4lkjKf3tKh9feeT1O4hN3ZaZzG8o-Oaj00nc-pRdvGccb0WsHuudnl_AU7_qTv6f0T7JYpD7g3oQIydw6N1wZT0Pm19Zow8Q=s220",
         "view": "https://drive.google.com/file/d/15AB8jmwKbQLD44aZ3FjQLSovezABMfpf/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20169",
@@ -3814,7 +4431,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsZmlhG9WU4YfU4QvCrBsxQf0VVjrtWsk-CpfuAw3zC6mP24TumT7tOgCEgtikSrvJQgcQskbkMTkT32cvSJ3JIe5b_wE0TYiCkGJDEOMH_pXlIA=s220",
         "view": "https://drive.google.com/file/d/1SU6PY2ldg3HD5X-Yi8I4hS6ltlXcQqXM/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20170",
@@ -3838,11 +4457,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP07s8zXHoMiPqS6LZY8-4aGMIoFO7jfGfHiuVmKP1S7PVv8rx7MlrnBZqf38dvocmzt-Nfm9OHTFPLqo3dIuGoFtgG0zbs0dD9iWiCC5qsnIhCUg=s220",
         "view": "https://drive.google.com/file/d/1yDqxyR-wCKWA4Si4lWWYX4tcC8Kg_15h/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20171",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -3851,15 +4472,24 @@
     "_folderId": "14lbra4VrIelMVfnExvCuLXd0JQN57-gp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMS8zxG0jsWAy4GmmwTe4E83NS2S5PC6LOzW__PD2XokYk2fGo_TJAQxVPQjIF3qvYGkExSuYiX6DZmm1UxuhcnHJtgMlV931c-52ciHoImOi0YMMU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJ7lXX8Q-qcNEabmZj1pDgPW71qdb0D25U7zyNcYiwHqbVlvPm5CrOEcj7yaOTunn5CPyO92Zswcp4KSePVSUFowFOpuAr2qd0vYkuHSZS7RU1a4A=s220",
         "view": "https://drive.google.com/file/d/1DeHctQ0VvJIcXoQ32Jv9qlt_MMloAZ9S/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2I7I18TapDix9rCJRth2uz5_XFmC_p2sH276J3QmLo8nR5EHVSDX5S1RtVL09__ubHRKIaKSVh5jOgLRbKMJrp1cl1hMqSCIg_UZWz2C1svbI1M4=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGmBoAZq3plGzjCISkDhvTfXWRpD8ENh2OGZCgasza7nvsiD7-kheZFMfZU-93tdErSgaGqePZ0icqelWC5jzArx6-NWDvsZjUBjOSUBg5mza9z9g=s220",
         "view": "https://drive.google.com/file/d/1m0uXjUviUDMt6qVjcuE5EHtpw3m0BrJX/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20172",
@@ -3883,7 +4513,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMVfK69jk5YTJ3LwqC6X7UE0bQk6GEXBfgvyofzmw1DOu7jwWfeXUKyzc2Tg2fgTtFuWwW4A50-c5NqNN1BG0w8BXMHL76oToQZblgRm2_FB_Rhg=s220",
         "view": "https://drive.google.com/file/d/15h4tGZXJRGRJiU27Ldqk92NDdSu11JsC/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20173",
@@ -3896,15 +4528,24 @@
     "_folderId": "1flC1JVTfbsRt-_BrCqYpb01jyrEUC7Tx",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUlq8f-PAyRow2Bo2T0yxz1CS0W0nDBJ3LaxLZJtDS73nPeOrJ1NhaZwwu0-B1oEsiYP8sBCyZsZhPQJaPiF99wLN-iCzT09G5Kk7nyiVizgO6Vw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBZm1gBEtvlobnikq-oioSje2Sheq3BFp7sK9xlH7ElKLn8GPzk1wvuHvXAqxsjIFgldJTqbw0xdOZk0MYTekCCkFS1OlBInNDU5asI7UYDWL9De8=s220",
         "view": "https://drive.google.com/file/d/1XouQIIhQum6iEM8S3loQEBe8Xwy1WR4w/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP25otVOXbgMhd1cVL3QEJOfo7PjPUL3mtypDAR5pa9QbUX3bgXO4nM7AzxXnBe-Trshdlww4r_1pRhve9096-Xh4_h8bh3vehiDRVB3_hLOzk8bg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOL_QrzH18KohXHEsx6EUpPvX-PFnCT4vRTTJGoqgFmNvCWH85FR64tTyrxEAUMa5AzGkLOWKRAJcUNMJpJiPAf8OVUD5_9IL-8D7igwJTZxViQCx0=s220",
         "view": "https://drive.google.com/file/d/1mAoNS3l5wFMhLeVcXxEVyMPjqd0vpqA9/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20174",
@@ -3917,15 +4558,24 @@
     "_folderId": "1b02X40J-IWve9W-11G-DxRBeLp28syuj",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuKo61vlLzhtIBoIEkwfg0YSp8vw-gqRhT_HekFiGN5mCgA61Ws7hUgn2WrZgRxy67uhXoHbQyYA6ik75IgCcDucQW3MBwywWxWCD6qwWTXnPGRQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVhskiczzdg_MaQgHrwGnNjMOoKzlyuIaarBHygsnVhRk9NKtLAZkQsMuxnH6FHsgNib-QA6n_Wt7_36M-QMSOGBPfzqCVX5wnayCozhd0tAKoL4g=s220",
         "view": "https://drive.google.com/file/d/1O-tN2z9umq5-cAWiafBbNKiXju_NpDlO/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXkZzvawpgionqI_4kVBl2kmTqMifSFWIEh-WiX93A504l_YHAYo12SlqyXa6jT8tLIed7DaFxyMjizsVgCgyII1MtewrWunyIHxMCtEAbV43T5g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPF5INUtiF__f1bV8KS1nCGiib6AxBd0WP2J8p5w00ug2pw9fc0JeGIenzK-tEn6BtTWZw0BkdbjE16HKQeIsOy7XnzEadlbFHlzDN8ah4UhJEs2Ic=s220",
         "view": "https://drive.google.com/file/d/1d_VwT_2yTB3RYL3_FaySzZoxCG21i6Jd/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20175",
@@ -3938,12 +4588,21 @@
     "_folderId": "1Jr7Acy8q5W_MhlmS_SFsD6rJKMKBml_V",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONC4a_HbH9Sm8FcNooECLeFpkuJxijgxTMWcfXjIN59mOttt_xNL3Bj-nSw7RdQkmd1wxEr0GNKy73CKYYDCCFCTgVU1BxDXhrBM37KHnkddrnc9g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPM6k-hQSfFzd5U_n7gz_He0A2qnx1GbIyXIb9mMYHyMM_CQJVY1EQkIQGvAU1xHmWJKC2lehPIFYqM7WkkPD8zkyT5hes02TGR8RO_8lim_E5UFqQ=s220",
         "view": "https://drive.google.com/file/d/1D8-qA7lAJ13-V6vaM1KZSXxkypfAu-Z1/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20176",
@@ -3967,7 +4626,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL5bgQ_13cuj8CyzyrrvjlfD2WaQK56UFFlTVMzq6c7iU-2tFG-93euH1ZxhkXMuLosaKGt-VIAw1jdxfWGPX4GYy1xVaX-F2JZOYNTaLPahIrLg=s220",
         "view": "https://drive.google.com/file/d/1ev7Xiza938JuGADmoK4SYNQsC698mJ0I/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20177",
@@ -3978,7 +4639,9 @@
     "_company": "TIERRAZOL",
     "_stage": "E2",
     "_folderId": "1voT_on5NVk7QEzluKWxN6v-HWZiKQQC2",
-    "PHOTOS": null
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20178",
@@ -3991,15 +4654,24 @@
     "_folderId": "1H7LbUUn21G4rZU47_aXgdgaP6gSCWuh7",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGyqCXh1BHbHIp7htOzkU9tgf31avPrsaFrvtjowKCxQrNWQsiF2QDh9TZ1e0-y5TEuTjZEoi7aReVLHTzTYoo7pF1kizkwlPW8PO6LNaOQHZQJQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUVpPppkzwzEpzlOR8EYaBeywqbttoITCyr-CbX9orWI9kkXMsN7izW--AkmegoT3Po1G2u-ZLOnh4T3GO-1tPfRncs3552lInssIT_u3kTha_zFY=s220",
         "view": "https://drive.google.com/file/d/107RCSO16v_ESMrklDLo9ewWUgOY_j8Hp/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtD3PItDF-nKty4L1-qlsIQ5DZAeM3ukJJSzToSk2XGIqvoRbMQYgJbWOgL4sqWzujGopsrZ3jILh_0VjeTkTjBPlzOHnLv9nlwbQp4pVNoJFqjQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5QDy3G9Hq8JdxdQUjGDjOih_2OPKpZVkryZcN163Kj_4g66UCPAGSbnqHT4NyixIkiNfRpDk9LD7whR4067uPjQGTOVwUfgr7Gd1DWgFgMFxGYH0=s220",
         "view": "https://drive.google.com/file/d/1eO9uuqlmzw2vqZUZFCIznBJ2uLR-mqj6/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20179",
@@ -4012,15 +4684,24 @@
     "_folderId": "1aEScvF6U4yEardo-YzEpuGVF3cUKcoqt",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMduBrGQ580SCfkwKn8KESTOevOsnxtsxnVVOb0qqIwx93bhCnIfi_1RAy2G19l7FK_zDXdSJCPyvUQHjXVHtr1XzX1LXEV_Gh8sVVkPAucnujoKw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-9h_mfigFr7eHM5HFz4wSeVkqoDGtt9xmC01HHgi7XWtnt9rh0oCdcnBbYihRd_v2v4lpBelM-sNnMksiaZ5wHFbaS6oIqtfQEIeZkVHhpkGyhEI=s220",
         "view": "https://drive.google.com/file/d/14H26l1TUkYqqkqcC5udIgF_tIrEcRlvQ/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPutnlLcMRh7OySAaxqqUJmKQcTIiGsHQbHj7FrksYjP5R96RY3fSo3wd-iF-7D4cxtUw3XLlxVs3UvgUL6vuy6FLZkC5Garjge8fsbcD9v2yYftQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPb49Tj3-L3JmekcK4J6trRpV-qR4rk-9qlSLSugW4zsH1nNrhnbHwj1W7eKYpQJt36mSTJI9JD-DI98gkpfejuwPWOvsk-QjXAEokxapIgJhhGph4=s220",
         "view": "https://drive.google.com/file/d/1_NKJv4-0EPy9BRVRHdiMuwaHM9iEFCmn/view?usp=drivesdk"
       },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
       "FINAL": null
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20180",
@@ -4044,7 +4725,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEmYM-BCwiqfJshi6ZMOV0hZaYa2fSTxeWRzjeY-lv84Ri6m8qLOVgrRopbqp2hJ6lNN71Ls3Nr_9SmZFzzX1JQtV99pkv7A-XFZ-zoKEBTn-RFQ=s220",
         "view": "https://drive.google.com/file/d/1uDzmuA51_l55m2IqvMDOgA-HQPvTZjZr/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20181",
@@ -4068,7 +4751,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXGNyGEuHOtif3ACT724zvv3v0QzMNV7XLwj_r4T7XlMNQdXjfaASN1cusppVUO6H3gZsU18yRCaXLJguML2qE86rhZUsVSmzU9bguJmgAtQ3hmw=s220",
         "view": "https://drive.google.com/file/d/1H__IVZRNkCO8FgWl6tcjdqMbZSlRdO9u/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20182",
@@ -4092,7 +4777,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-NOx2stt9nZPQol89vYisG2n9v6Lt70Qy9AKcpqmL0P4N5rauP0p6zLIrx3CsKyl7q76qBnSZjg-qNu587kRaa75ib90bKLPMb4G4JKFd2aRusQ=s220",
         "view": "https://drive.google.com/file/d/10ejS8H4V8thr3rH8ysi8L3jwFabEHitl/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20183",
@@ -4116,7 +4803,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6YWYolfaj8dbF3eR-s1mElMutm3rQMbH9WhFH-7-9tyJl92Ot8DQF4FsWZnX811ybDUk9PjxHiiz97pwqoGlp9Pgv1B4ySS1n1hzUfqLEJgTdpg=s220",
         "view": "https://drive.google.com/file/d/1Yncw8Yi0RTSLEBcD2cz2Fax9jEkiT08A/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20184",
@@ -4140,7 +4829,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7uDD2taYHHZri5jkiCFqCPlWIe4fV2vzZhY3eJRTDA0eJwjFrh7iBZLZfhdJFIo8Q7JFrIeA6SpI-wY1hQvx93JgljQPIoZiI3wPDEtCmGog8Cg=s220",
         "view": "https://drive.google.com/file/d/1jN1W72lZ6PDNj5PZ1hg7JwPS8wia3uEJ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20185",
@@ -4164,7 +4855,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgx-9ggZgUrA5g7WeUG9RK4vQEZ4N7QK2EEpGzM9F-YBBlhzA4SGWnipX9wPVSvt3_lvCsCdEkgGPXHZi8njSG4JLkIGb1cKoWMBZwqH2Miu6ZWw=s220",
         "view": "https://drive.google.com/file/d/1WdY-fQSMupLTo-KPQOkqUAmp9OKOk5SN/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20186",
@@ -4188,7 +4881,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtZs3rXYEqxDcZmUlTmUG3qcCnmwOuFky2gZwtvI1k-uNWP0qXwjtv9Edv-afGsBU6mpVJCl68wUcgCnn3V08vuOJol6_LlJe9TBTve-JX8wO5dsw=s220",
         "view": "https://drive.google.com/file/d/1amK0XgQQCJlOBBWyjcxDY18gW86D1cjX/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20187",
@@ -4212,11 +4907,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoOWUEMxCui6iJeUeuOJXcPFvOSdYtbH8VWD6NRbz_j5K3ESE5sGpKSVddN19ZaPY9yLvzuY-g6u0BrGbADH-Gzktt-yONV_7N8Mux0IEOuSGSiyg=s220",
         "view": "https://drive.google.com/file/d/1zbeACEZiUcBdzNfjosmHu7g7BgKZs2tQ/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20188",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -4225,19 +4922,28 @@
     "_folderId": "1P6Wsq-10l3kdvLj-W8-gcacDezc-D7CS",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObXWiwX5uyxAg4o_LbVSNkAjpaiSVgXyooh-zEaOCi7Fjf7U36s6mms-cxoJIDEmETq34PTO43ed1pYENI-LHEexd2zqJjCLZ5VKefGBAhbz54m4A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOo8wwdphsDsjAi48KMfS6CUNeTLDbNJVpwqMGrY25PXs_F7vlz3LMlsmYwilu4bWBAxI9s4w3BB1RmG3-xsPUN3ZB0LohuuirW6hV_lhN8wgGhXMg=s220",
         "view": "https://drive.google.com/file/d/1SK7LhoKvR2Y3KS0n316w9uJIMuGCpeqs/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOkmZR_E0PC0YkHeRAGy_F6XC6gWqn_JWLiLz-0pR-pMRn2ppHkHoGzVCrVuFrDTM6Ch9dklmWNptgwDzbho_19AhFV0W7j4QROOyELBz3zYuoPqo=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0JFBRu3xH1As1q_DzgWSr42NpAhO_4ZaQPpv7RKFXGzvxURwT4iZVHCbEEwYD1kZFk-7LWuEgEIFti7a4JzXX0hI4CuyCIIPfiwBJFpPkuK_5T1c=s220",
         "view": "https://drive.google.com/file/d/1pNEWYr8K7baD1stZ_87f-Kbx97PgjlDM/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20189",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -4246,15 +4952,24 @@
     "_folderId": "1zGXFSdJ0CfI5Zm31onvQ1iPMkJY4aIaH",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3wTfcbMbLQ-uWc77MtixBELl2e9IFjn2T7Huu-ZP9VTjAlt452NwNvDN-D2nfNBMlV7ScMZbCN2ZoqdJI7-6eo2AaG2gppDRPGwGUTi_S2z80kHQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbzWgK_JKafQH5FvPhoNnJHKZlR89puHzlbD0QnqyNsYsqc9uGCeag9bePcrl7-Rgn2DTpPwE915w6h_uAjbMoSIuZ5rIaMPQaR8Wpd4TevstrddQ=s220",
         "view": "https://drive.google.com/file/d/1NmmHSppZB4YNCX8hmuoS3x7l-IoBpYQu/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoNyoB6ZeG2XF8Cf3ccT5Xis6AKykfeUgsuBx2CXzZP84IyC0eiDCslWIQ3HZ8ctIdI6EHcphVrHrkRTe-79Jl8mCnMaPXOU5JCvdbQFIGHeVj7CM=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0h_L54ODkb48GEi4e4kU0A6jPxzElLt_hMaJPuoZacO8OPaOeEi0tHo-VnBdahUrgUpk-JnZ995lVPR3TQLLzWo2gjhQN8yqQGcoZ4vbDE6STy_Q=s220",
         "view": "https://drive.google.com/file/d/1BZuf0ov-aCgH1DiugTwkXw5AiuGoFE2q/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20190",
@@ -4278,7 +4993,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrfpNBI312bb1Nj-4Riy9GsqC8jgwpxIwc43uDfAU4afPxBgfNDq7OdSvdy58rkoSqp5hdGEoClOaJ5FJ9J8XJ8SPa0EGiZmcgbevVh1J9AIuUWHU=s220",
         "view": "https://drive.google.com/file/d/12QrVuexdto6ZdOErRRzv8J7-5g_CDI-2/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20191",
@@ -4302,7 +5019,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPerbzXizEN5c8y9ikgSoZnKgCGApRdrVjp3sdA_epqaWQRv7_Hu4TdpMjnEb26Qa0149paS9MecIZmFQkAcaaa_7LuLW9sUfAovT1sna8EB5O81xc=s220",
         "view": "https://drive.google.com/file/d/1oJOfdVsW6JvgvKuedDg4j8y4KjB6B2YG/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20192",
@@ -4326,7 +5045,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwNiJEbcEdapSJ1zXigwxTLr12qxOeuoo2jCJQsewx1FRXXwP4eJi4FbfzvRJ4IVHRLcEmK1CTstDE_I4DEtg6TKb3RFlHWPRScIzWLpZ9iLS0lRE=s220",
         "view": "https://drive.google.com/file/d/1lRu97VBlNL4N3c4JcjXmCtPsSEHZVFEF/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20193",
@@ -4350,7 +5071,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5D-_KyVBdU3TyLOIwUla1sundvB0rz1J2Pq1e_rSv_OCHRdrRkRkqT5MxfsA0z-qg0FJTyqjT08a4w1rOibCs0Q5DC4swewjEhy4kvj6DMzCorRQ=s220",
         "view": "https://drive.google.com/file/d/18y5v10hrNiDxX4t4Fik3C8Y2Qx9XIXW7/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20194",
@@ -4374,7 +5097,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIyjcf74Vb7Im-MWHWcmTP5B82bZU6bbFpG-V8qhiDDTEpwwax-9GRkA-gflYLpi7aahMj-QSpEwxpdG4YGJEJb6pyfa0rEOiq3SeRYD84XUO34wo=s220",
         "view": "https://drive.google.com/file/d/12M5giRvlw9PJSyG1VJfQVoa5L1mrXedO/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20195",
@@ -4398,7 +5123,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkq2nM8Gco5P1GFbzEoZWo3_uPqIoBxo_39y260IL1nupNOoaD8KdaQV6J_tXdk_N7G62-q_EERnqYCuraTJj0kiwPHwWbekxNUQZLGruImN8MTAg=s220",
         "view": "https://drive.google.com/file/d/1sOl-Qw7YmBpQ-KTSLSNUIR5xfS4aOU8H/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20196",
@@ -4422,11 +5149,13 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR5wCiqUvz0d6BuA-cTsfK3n5jt1O5xbmPezE2I7D8NeLQn9vxbnB3os_PsWAWn3axY5o6S5ACbqAGaWZNeZOLOMXO910HTi9ZCqlpDBftKCiTaFc=s220",
         "view": "https://drive.google.com/file/d/1BO1c-QtXA2i64-Ntjzspzl6tiC3YPQnI/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20197",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -4435,16 +5164,25 @@
     "_folderId": "1RDDmO9n-5Wty1Pg9vnGG_tJyxB8VQrP4",
     "PHOTOS": {
       "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKs-QDxba6T8Jw37TkaNY1ObUfF0JSoraCv_CLci1QuCY4W1Z8Lc0boFldHqLpc4gkQV6CF9IgeeP7JpnFnHybInukntrzMrUdwEyiu2M3euGL5lM=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGc87P48Efl3RTc-tgWPOIPT54D9AsEx_0HCIIlaCMKBfUBwTiWimBoU7L9tcRQgyjpnAZCRzhcZUMdUsyUUau_CRlgPNb04mUHfnK3rWFQwHuDcY=s220",
         "view": "https://drive.google.com/file/d/1SRZDsA2DipPmwFKp5Mn0onwZwhH6Itca/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20198",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + FINAL",
     "CALLE": "Boulevard Adolfo Lopez Mateos",
     "COLONIA": "Miltepec Centro",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -4453,15 +5191,24 @@
     "_folderId": "1ZvR_YnmCFyhvzo_iQfwrBpbUerbX1oQ4",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNl3mYL2mCRiW24yRI81_8XE-DLHnwjcVYZFHyi-3HF83eke4xbboqmPB2OU2d1wH7tjx54WT0yaieU7DAS2LNp4Yudix4MqXh92Jw7YYn5gdggYNQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQJ4SANGoj3ymazQaAwOblFCSwSPv8ViK9hKjuODETkfawkfidINKxOyQwg2DOMUMwoArDZaFXHvh64f-7WqFdQfsgaCWekv9yQW6g-u0dIwwQkZI=s220",
         "view": "https://drive.google.com/file/d/1g8z3zEzabu3NaVV3-hfT_l7R_dSA65oD/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": null,
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOod5I5nSWkgnZLMfXhjL9bYRSVYgsmVDiVUJ9eh5j7OIoNqveNsf6jTkJLP4_aFthasGqQOWmAlheZpsn0KRCGSv_zWd1IvGt8b57vRePxnXbK-e8=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWkzc2DjSKSugxZGpdJLIuhbqF2SRl4ZH3seUzh3OogUmnoXmnYIf4zmSoE0pQ5KJ5xTXtdmFCGGgHE1qpWAz_DzEravh8VIt5YYMKai8jkpk7oPc=s220",
         "view": "https://drive.google.com/file/d/1ujxH4FH6djHH8YhGB5xhUiZA615P1-PN/view?usp=drivesdk"
-      }
-    }
+      },
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20199",
@@ -4485,7 +5232,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbuOBtJ2-VcKgEUorxSJ0VgPP7p4kfMIKMVzmRPL8aQQgKgPtoLe4Z2E98R4_4xc5S4oKUNFKVhqw08LzzZHTFR6HAHlAkLRIFuTaoJIXmvD69MBU=s220",
         "view": "https://drive.google.com/file/d/1Vm1zScj9XOym2IsmYdy2DLUdjbKCv9Ju/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20200",
@@ -4509,7 +5258,9 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPT-RO9dNlxCAWhNQ6QwCR596ZFxrTIv-pxck2DLCNrUlRFS2lM78NDnx8SdFtunF-bIQwuOJVRhJT4K3l5C_hwHku8wDj9CwT0_12X-kvkYpkfqTY=s220",
         "view": "https://drive.google.com/file/d/15Vo3RAXGWhVCqL2mLs4eiJHmyIw_8Gt6/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   },
   {
     "FOLIO": "20201",
@@ -4533,6 +5284,8 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtg7RyKnz5NDOLWCB2BBbHnenTG3q58cGJSr0CajGy7Cj2loL6ZSxfE4guIrqbC04UmpxhxhWK4c5jv8hBK-7kNIH3h70_XU11bohoElaSaGJvV_k=s220",
         "view": "https://drive.google.com/file/d/14_X4X1viBp1pcBMLjLIDq9QjJjvWwlwu/view?usp=drivesdk"
       }
-    }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false
   }
 ]
