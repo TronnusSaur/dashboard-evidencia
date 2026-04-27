@@ -421,8 +421,10 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
     // Initialize isNewSet from pre-computed audit data, can be overridden by live verification
     useEffect(() => {
+        setLivePhotos(null);
+        setExtraFiles([]);
         if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
-    }, [_isNewSet]);
+    }, [FOLIO, _isNewSet]);
 
     const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com"];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
@@ -453,7 +455,13 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     });
 
     const triggerVerification = async () => {
-        if (!_folderId) return;
+        if (!_folderId) {
+            if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0);
+            return;
+        }
+        let status = "";
+        let currentFoundPhotos = null;
+        let currentExtrasCount = 0;
         if (!accessToken) {
             console.log("No auth token, bypassing direct live verification");
             return;
@@ -475,13 +483,17 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             const resData = await driveRes.json();
             const files = resData.files || [];
             
+            let currentStatus = "";
+            let extraFilesCount = 0;
+            let currentFoundPhotos = null;
+
             if (files.length === 0) {
-                status = "CARPETA VACI\u00cdA";
+                currentStatus = "CARPETA VAC\u00cdA";
                 setExtraFiles([]);
                 setLivePhotos(null);
                 setIsNewSet(false);
             } else {
-                const foundPhotos = {};
+                currentFoundPhotos = {};
                 const recognizedIds = new Set();
                 const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
                 let detectedNew = false;
@@ -503,8 +515,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     for (const cat of currentSet) {
                         if (lowerName.includes(cat.pattern)) {
                             recognizedIds.add(f.id);
-                            if (!foundPhotos[cat.id]) {
-                                foundPhotos[cat.id] = {
+                            if (!currentFoundPhotos[cat.id]) {
+                                currentFoundPhotos[cat.id] = {
                                     id: f.id,
                                     thumbnail: f.thumbnailLink,
                                     view: f.webViewLink
@@ -514,25 +526,27 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     }
                 }
 
-                setLivePhotos(foundPhotos);
+                setLivePhotos(currentFoundPhotos);
 
                 const faltantes = currentSet
-                    .filter(cat => !foundPhotos[cat.id])
+                    .filter(cat => !currentFoundPhotos[cat.id])
                     .map(cat => cat.id);
                 
                 if (faltantes.length > 0) {
-                    status = "FALTA: " + faltantes.join(" + ");
+                    currentStatus = "FALTA: " + faltantes.join(" + ");
                 } else {
-                    status = "OK";
+                    currentStatus = "OK";
                 }
 
                 // Collect unrecognized files
                 const extras = files.filter(f => !recognizedIds.has(f.id));
                 setExtraFiles(extras);
+                currentExtrasCount = extras.length;
+                extraFilesCount = extras.length;
+            }
 
-                if (onFolioSync) {
-                    onFolioSync(FOLIO, foundPhotos, status, extras.length);
-                }
+            if (onFolioSync) {
+                onFolioSync(FOLIO, currentFoundPhotos, currentStatus, extraFilesCount);
             }
         } catch (error) {
             console.error("Verification error:", error);
