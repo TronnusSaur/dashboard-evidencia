@@ -3823,7 +3823,7 @@
   },
   {
     "FOLIO": "12666",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + FINAL",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
     "CALLE": "Camino Real",
     "COLONIA": "Camino Real",
     "DELEGACION": "SAN ANTONIO BUENAVISTA",
@@ -3839,11 +3839,14 @@
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzlLge-SFxNe5pAEYElZbXC4oP1mdruCOkXgFVzyMkQ8FAuJALP95fZyELptogDUHABfOiBVGj5JqczapO7T47N-YCFaQEWOlynt_q8O6nLbZfDBc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7_zTfkO_xERYL6y4rCRb2fUQldVJGgODb6yJEInBrsMtRRb2OoJ5CtoffIOvSjeBrOo7MgEXIjb7H5aerDtOD8_Xkn9Kk6QlOVggC-OHjqCs02w=s220",
         "view": "https://drive.google.com/file/d/1lUI3PwDsoc0AzfbbDByZsrFkvnyxcvgZ/view?usp=drivesdk"
       },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7_zTfkO_xERYL6y4rCRb2fUQldVJGgODb6yJEInBrsMtRRb2OoJ5CtoffIOvSjeBrOo7MgEXIjb7H5aerDtOD8_Xkn9Kk6QlOVggC-OHjqCs02w=s220",
+        "view": "https://drive.google.com/file/d/1lUI3PwDsoc0AzfbbDByZsrFkvnyxcvgZ/view?usp=drivesdk"
+      }
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false

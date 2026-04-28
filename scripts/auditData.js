@@ -171,9 +171,17 @@ async function auditarFotos(drive, arrayFolioIds) {
 
         const categoriasRequeridas = esSetNuevo 
             ? ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LIGA", "MEZCLA", "TERMINADO", "LIMPIEZA"]
-            : ["INICIAL", "CAJA", "FINAL"];
+            : ["INICIAL", "CAJA", "TERMINADO"];
 
-        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
+        const faltan = categoriasRequeridas.filter(c => {
+            if (c === "FINAL") return !encontradas.has("FINAL") && !encontradas.has("TERMINADO");
+            if (c === "TERMINADO") return !encontradas.has("TERMINADO") && !encontradas.has("FINAL");
+            return !encontradas.has(c);
+        });
+
+        // Unificar "TERMINADO" y "FINAL" en photosMap para retrocompatibilidad UI
+        if (photosMap["TERMINADO"] && !photosMap["FINAL"]) photosMap["FINAL"] = photosMap["TERMINADO"];
+        if (photosMap["FINAL"] && !photosMap["TERMINADO"]) photosMap["TERMINADO"] = photosMap["FINAL"];
         const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
         return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo };
     } catch (e) {
