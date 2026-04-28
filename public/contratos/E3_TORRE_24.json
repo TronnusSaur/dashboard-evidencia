@@ -5986,7 +5986,7 @@
         "view": "https://drive.google.com/file/d/1EBDVzKs2rGVCWoUnyH3tQeK1firEuyAm/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
@@ -6022,7 +6022,7 @@
         "view": "https://drive.google.com/file/d/1ZGawR4y-N3f7MHn-PIGAvJQCsvAcNASr/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
@@ -6058,7 +6058,7 @@
         "view": "https://drive.google.com/file/d/1b3Ku_3xJCwG8RJF7bif5fWXxjYevzXWH/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
@@ -6094,12 +6094,12 @@
         "view": "https://drive.google.com/file/d/1CNC5vhzZXAaUj7pugztDKIXtTGMzSaN0/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
     "FOLIO": "240235",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6108,28 +6108,34 @@
     "_folderId": "1jTXDD-E1QgFF54yMEogtaQ624ebz_krT",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPepCAj1TcNwXu0_zFuprKOLAnJjx5u6VRaWLIfeMWp7EZFP9NGCFGnBKCUkOhy8uSbuIsbBTd1Cvhr6PePSn9MUzzxW0_KsDH38xm9amFDEid9pCI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdc_f_0tWq26QG-MFgmxeoRv7fXjUJg35oJ0Zt52Fwq-9AiOnBXorXO1SPimo7UI-Dv54JqqMxnwrg1Z4KrzDBI4yGzgtS2rAXUiR3MNEKe25nspQ=s220",
         "view": "https://drive.google.com/file/d/1aR1aKwuEhM9uAXELFBKtIhFEk6ajSjbX/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaFcWAswQ9MMfOUW0a_E06a0YN3_jd8CDezT0OKO8qrPzX7Hurd44ffRpV8_V4fOTkSo0OE69ALvKMK9BWp7pkIWyr10xAd_FlplzcRakmAAJdaCc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrSxQY0-XJij-m6XLpS0CQdq9d5eLG8Y18PVGIiqHGpa0u3_g5391htf6dG3-AMFpAGrtSixk4WbzMoKMTER0hQ_wQlwW9f_hopB99QFqoF2uBXcE=s220",
         "view": "https://drive.google.com/file/d/1zcAppr9sMjSTIZyVRgiBeKN5mivugggZ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMATyZdIgWWogj43deSrMLHn-xxQs0mdC_dNluXYwfvs8PByrMiN7_m8EXP5bgIdUyXkHGNAnFXdGRAThKKkuFNowwaRsThO5jhUYk_x_AOD0kXOfo=s220",
+        "view": "https://drive.google.com/file/d/11vauciiJ4iaXHyG8BE05ky_A0Qy2rSSp/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMATyZdIgWWogj43deSrMLHn-xxQs0mdC_dNluXYwfvs8PByrMiN7_m8EXP5bgIdUyXkHGNAnFXdGRAThKKkuFNowwaRsThO5jhUYk_x_AOD0kXOfo=s220",
+        "view": "https://drive.google.com/file/d/11vauciiJ4iaXHyG8BE05ky_A0Qy2rSSp/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240236",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6137,23 +6143,35 @@
     "_stage": "E3",
     "_folderId": "1UhDtFhF3oCfJ_GJzr4UB2LgGiF4SZidv",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYqrD5hlVzum2WGZ7YNmrXFAYy6LDTwCs8PplAyzvLH53NjIkfkc4Gh66wAs8TA_XlDiCwOBub03f37E1s8iRg9TsU-Y2bVPz9SJ7RY0vNeh_9zgY=s220",
+        "view": "https://drive.google.com/file/d/1iFF6pTJBsJdPuT6i7sK1jD2XeQpWz0Xx/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCZ4V-K2pC0poceD7TiPU_ruvBzTLN_6pUQmZ3XxvWPf9yl5BRkDOpkA2bMDXt2UIwbuYFUXSCoiLs1gP_3MCBYK4eiUqYa0qC8fGuI8Xxtn1YjXs=s220",
+        "view": "https://drive.google.com/file/d/12gFjjvzhiFJCi-HVEos85SBLxpAEtet8/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpq0Vx11ke4UQT63KpnIWbcpM3go93GBhbicDocQA3m-aDaJLtk6v9j9EmNwFgKMui0pe4zAfFGWQVKN1fqvAjqdPWZ7CCDFPC9VLwuhD4Ikx1m08=s220",
+        "view": "https://drive.google.com/file/d/1ZCpWHJaJ81uJWLDEpAZw0SZwOroQYlM5/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpq0Vx11ke4UQT63KpnIWbcpM3go93GBhbicDocQA3m-aDaJLtk6v9j9EmNwFgKMui0pe4zAfFGWQVKN1fqvAjqdPWZ7CCDFPC9VLwuhD4Ikx1m08=s220",
+        "view": "https://drive.google.com/file/d/1ZCpWHJaJ81uJWLDEpAZw0SZwOroQYlM5/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240237",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6161,23 +6179,35 @@
     "_stage": "E3",
     "_folderId": "1Su21Ugc__nRMF4NGZ-ObhG5qLFVvoP1P",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMp4j3RNbevusyC7VnWMgnf6jO9bcAqSvamUpCAEXMdXfJifxEXJ2oF-vSL9jcNzCNGSYp2uXjKcp5kSprNTXmUKPhRrbq58y4GC5sQAx4GVaJ5Qkw=s220",
+        "view": "https://drive.google.com/file/d/1ENr-QD8sjdngKpPjmouJNGlzLx7PGJfC/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIvqYaZR3CL34DJs6JOaprUIZ53n8E-Aak8UzyGEF0xf2MneAKzEcDjcATFfo6PFE2667WL2qU88Ct6N_teqO0-usfpCzko3MPX8Z3_3eXDtfB6YI=s220",
+        "view": "https://drive.google.com/file/d/16Meucn2WaZOkjJbuh5X97B_8Hv6SM8th/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF0KimBn22jC4IM3CNz7n3KVlPqm_BspafD4Z85AOkluudbwQlNVDhUlc6HcNT6UTzcIw1tVUoDaxaoUn3wcYVkFqULUpfO0vWJi-k7m1wppBD1r4=s220",
+        "view": "https://drive.google.com/file/d/1YPsFwpHYYSeKgfz9u-eHPktX3LalV1xJ/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF0KimBn22jC4IM3CNz7n3KVlPqm_BspafD4Z85AOkluudbwQlNVDhUlc6HcNT6UTzcIw1tVUoDaxaoUn3wcYVkFqULUpfO0vWJi-k7m1wppBD1r4=s220",
+        "view": "https://drive.google.com/file/d/1YPsFwpHYYSeKgfz9u-eHPktX3LalV1xJ/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240238",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6185,23 +6215,35 @@
     "_stage": "E3",
     "_folderId": "13y6UnfWx9N8hFRTEu0BR3I0WS61ZjMqJ",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYOUVFbcw0To-ZwOk7-rygFeXkwZMK6enjGvebWTglloT4UBIPqTDSVSFPKBQKkrFxxkSgZ9-yieEEP8FZKUq5uLFs7z_qQW5Tl-eJdPvkZOUgAU8=s220",
+        "view": "https://drive.google.com/file/d/1CFpGTRwSjEKB01aeK7oHT80QwTgDFlUX/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqopQniFyJREWytujfda2ajMAnqKlciR0xxs71vUihyxUkfrGZlrqLp_2DZZouiLujwB40F1VNEuElhiyTN4SiMZ5DE3ACaPQBHniZmB2GCbzVNE0=s220",
+        "view": "https://drive.google.com/file/d/1a8AUwJRbtsOTzdTiF8n63F_IYd4PqKJU/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvRhqmyMxQZkBC7_pcVZk7btE78OeNUXoBA__3V6TKrjggLTkAjVMSl_azl-pG4n5YwhltF9tdCxiYieukxahrhgSKviALPte9rCYCqPL__8yZz8A=s220",
+        "view": "https://drive.google.com/file/d/1gNiuy5ZmsvHdAsQaDQYEDITEIhf2PYgf/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvRhqmyMxQZkBC7_pcVZk7btE78OeNUXoBA__3V6TKrjggLTkAjVMSl_azl-pG4n5YwhltF9tdCxiYieukxahrhgSKviALPte9rCYCqPL__8yZz8A=s220",
+        "view": "https://drive.google.com/file/d/1gNiuy5ZmsvHdAsQaDQYEDITEIhf2PYgf/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240239",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6209,23 +6251,35 @@
     "_stage": "E3",
     "_folderId": "1pyWb4t7m5h6zp0QgReKEJS9TjznImKwr",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkm87g1EQGbyxX9K0H0KB5KZ1UekZTftiBigP72c5dujmNX7_IAi_lvkGWjh-44afpc-tVjoKgcpTSB_FMv_LKn618ez-mgzUCYC7cLcyEwhG_rgs=s220",
+        "view": "https://drive.google.com/file/d/1niW2_j4vXN24YzVQhbR9XfyIuc6rVuBf/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpsTuVuVYvZSqsqYHBiDgYZNehJWsfnnRizGhi1hR_YxUpY0OU_-tFPemdq9f_McgMix7fZcaMOzEvlkBHK_dkINlGWERh5Yb-OlovemGRmo1AuFM=s220",
+        "view": "https://drive.google.com/file/d/1thLjPRVkbrYljqbDrWm18SWCyzworpuk/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHUVk0GiMR5GzSPU6Xlma_m97D5J3IGsV3abDmSTPmW3JutWMq26A-ujFZbTX6h27P2TAj4sUMJtCAYuR-E0oVMls5Z8X4-zsWxIMybv5C0p7e78M=s220",
+        "view": "https://drive.google.com/file/d/1pdNgquFfnT2sLxOwOnfdfFwJFzhNZH4R/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHUVk0GiMR5GzSPU6Xlma_m97D5J3IGsV3abDmSTPmW3JutWMq26A-ujFZbTX6h27P2TAj4sUMJtCAYuR-E0oVMls5Z8X4-zsWxIMybv5C0p7e78M=s220",
+        "view": "https://drive.google.com/file/d/1pdNgquFfnT2sLxOwOnfdfFwJFzhNZH4R/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240240",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6233,23 +6287,35 @@
     "_stage": "E3",
     "_folderId": "1sYNtS_w_fQ86pfOS9TAViZjXdlLnbaWX",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOIlYO17_z-eqC3Jkgia4tXWvmeaoYupmwmm9L3Czwkt8hIMbTQ1QOvqqJQ5hzSs5wROtzuk-tJIv13I9o2WqqDkbygB3jeB5RYlOxjgvAn6PqC6E=s220",
+        "view": "https://drive.google.com/file/d/1yvMa1xM6LO8b5r9XEAXY--KtOmvXAwGZ/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7e0--r7wenmG8SVgZYBxYSnlQp9hkHwWmtLv9XrvSCkZCuSlzLOg2b26yM4yZ8A3A3BieB8748z3AFmfuTW2gBlziGQE9hpD96uIxYRpbicuI8X4=s220",
+        "view": "https://drive.google.com/file/d/19tCpVKSefyca6wpnYgTg1d_O1MQdMpwY/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKmw4UGKk0S7L_1tR3suDlslR85uU_eFnWF8VhDL0HwSFt0iwqLpd6TRwx126d8igtYbHHXX7GPM95y7HpwN4Z_gjhdALEBKCfvjECVwpawQYhQdc=s220",
+        "view": "https://drive.google.com/file/d/1nzDoJRz_nZXQ5gJtZp_ShUq8_1FunhYX/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKmw4UGKk0S7L_1tR3suDlslR85uU_eFnWF8VhDL0HwSFt0iwqLpd6TRwx126d8igtYbHHXX7GPM95y7HpwN4Z_gjhdALEBKCfvjECVwpawQYhQdc=s220",
+        "view": "https://drive.google.com/file/d/1nzDoJRz_nZXQ5gJtZp_ShUq8_1FunhYX/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240241",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6257,23 +6323,35 @@
     "_stage": "E3",
     "_folderId": "1sej43284qLJAqsga6hdeDnMvfWO-I_1j",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzet7orw0pMLzDNCqTWtlC5mVrKlZ9r2iUI-lbjtajh8h6tuNAxGl85fXO2Y2FUexC9vWe_9zAH4QHYUtX398bsr9MDY9thvUwOcl1cToAcZEHAqQ=s220",
+        "view": "https://drive.google.com/file/d/16c7k8JN1kB0FKk0Uf-dmgm9GzvNNO8SA/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUpgUWryz8iwGOJBz8n6kGHd-DvGbkFWG2Wfnhl15I_yjZRlqFTuE8sCaOJztPV-fv8T05SgIJ25xYQOAQ00xMFan1q8iBMptwiZRk7fl5n1c-svg=s220",
+        "view": "https://drive.google.com/file/d/1Qsi2F1Hf5GQvnIeDfeFnIgI1QBNeV_0x/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuCtFxFmXddaq7-fkMvzsJgofeXZVHl1hemuCedABKkT5bJaswOARK8lQ_hm6hU6SUbABLODYCOeTrk7V3c3LTtFm2Uqwj-3LyH4ZtYG0NXBPK1wg=s220",
+        "view": "https://drive.google.com/file/d/1tYHS-XuIO4ePZ5sNjFPRXsbq8MCqVhFk/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuCtFxFmXddaq7-fkMvzsJgofeXZVHl1hemuCedABKkT5bJaswOARK8lQ_hm6hU6SUbABLODYCOeTrk7V3c3LTtFm2Uqwj-3LyH4ZtYG0NXBPK1wg=s220",
+        "view": "https://drive.google.com/file/d/1tYHS-XuIO4ePZ5sNjFPRXsbq8MCqVhFk/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240242",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6281,23 +6359,35 @@
     "_stage": "E3",
     "_folderId": "1_Td_XVTv04ae3jV0LclcuNz7PYhUns0U",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZw1TdaCwhwnvxS9V_0iWFvcasVlxVB8iVEghE1A7JQusroTVNNyfMtioDquJRZ-9yfyk6-nxlYDghCO2T7HVfVeb0ydnuh1LaWa9kSHuaC9bj5iI=s220",
+        "view": "https://drive.google.com/file/d/13oeTDw9I4ORhj7szHOqqqH8zorHbL54Z/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgIK0XOvz9ynGBB5GllFUD82KSIOV6EV9EBozWDIg6S_jLsJ5K4hhD31cISguYXPvOvXs6r1uPdpidh1MaQepGxB0S2UWHjriwjwplk5Y3q01zX9I=s220",
+        "view": "https://drive.google.com/file/d/1ac5tuPRhwKL0skSsiUYePsfRaEeW1Kcr/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXvtfGh7-ENlRDq8ci7a3i7B5KbV-MEqKDXzM8UY4xgDpoGgb3NcljnkCg8TtWGiBJMAmkeise2Yo3xUllRVyu4oGttot3GdNBl4tADf_F0dJ_zNM=s220",
+        "view": "https://drive.google.com/file/d/1pXJMvtzYyNabf4vYRyB8SItrRGfN51-z/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXvtfGh7-ENlRDq8ci7a3i7B5KbV-MEqKDXzM8UY4xgDpoGgb3NcljnkCg8TtWGiBJMAmkeise2Yo3xUllRVyu4oGttot3GdNBl4tADf_F0dJ_zNM=s220",
+        "view": "https://drive.google.com/file/d/1pXJMvtzYyNabf4vYRyB8SItrRGfN51-z/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240243",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6305,23 +6395,35 @@
     "_stage": "E3",
     "_folderId": "1-OjLgkQphYuEmWjayWP7MFsSGJOb80Qi",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM06t27rphkoghI57o71-HbowrWXFuOgxJoucxmKH5GhxpUTc_CRje94aJDFPy3hrqOs1uyumWy4vDuXLN7WxXZXJYIRBNXpKz0C4725E7j44uTxlI=s220",
+        "view": "https://drive.google.com/file/d/16qC3YqouHyqhEBa5zbbBCbfG1L7hO73f/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIgpjlkQcRcdQVH122F4AGSRg54a6NmiNqE3QZbGndacW9vp80U_inV_Pcd4Ud_TNRtLdPfn5f1m4UQsYVf2UR30HFN8LjFHA4HJYeNisz0HPJXcM=s220",
+        "view": "https://drive.google.com/file/d/1djgYnfDK9skEXyjx4gUGbzovUlMwcDw7/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOds6GeQqW2dy34mJ0Ou_jb-Z_SvjyhKpoGkg-NoKG8Zey6lN1OR_GiTfMIujgkdVOqav86I9M2qrCs-JCCwu1Q4YMMIUza1f5JX_j0DWGecAgYAWQ=s220",
+        "view": "https://drive.google.com/file/d/1DVqsk3Gyb4XttfTqnk47pkWID7tipFQA/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOds6GeQqW2dy34mJ0Ou_jb-Z_SvjyhKpoGkg-NoKG8Zey6lN1OR_GiTfMIujgkdVOqav86I9M2qrCs-JCCwu1Q4YMMIUza1f5JX_j0DWGecAgYAWQ=s220",
+        "view": "https://drive.google.com/file/d/1DVqsk3Gyb4XttfTqnk47pkWID7tipFQA/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240244",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6329,23 +6431,35 @@
     "_stage": "E3",
     "_folderId": "1HLHZVZ3M4BQLVNWwcXnCSW6JI4Oc3ZO9",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWoQUPsfZcqQ8Jiyb54I13xbhBAu9Ji0RAJieh_3izpiucXFZ8Tj7DRtIUzVMPGxSeQ7qG7_9VS7UlcQN09S-N5DXDdt26jliX752WKlq_IoiiuTw=s220",
+        "view": "https://drive.google.com/file/d/1anbMUdc_F6okupddItiWHTEP1obWFRog/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5_ZQBq2e9_KOzzmB9SOhF3JJj7P3wBirzZyPeckKFezURZaSLnmPg4E0wiyK-2t9JqkudOzfZEOjW7AIFeLxFXcF4r01ZHkrD2N_TKDbltjb3r18=s220",
+        "view": "https://drive.google.com/file/d/104tGQ4GyLyfCorRnYyeOIu7zBUfjWleE/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMc-5xyBKUZxI1iUby47DRAHIxoZXBUaEIXCAb533PIcMRo47c3LYytoVMiwJg-9KkbTN_qcLwmFCScA4XtfSSfYen4V0A2jSrUyKSOf7jMjA4tAIA=s220",
+        "view": "https://drive.google.com/file/d/1OOb5Q6T8UH4AUo5Ba_bAVZYK8httRM3a/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMc-5xyBKUZxI1iUby47DRAHIxoZXBUaEIXCAb533PIcMRo47c3LYytoVMiwJg-9KkbTN_qcLwmFCScA4XtfSSfYen4V0A2jSrUyKSOf7jMjA4tAIA=s220",
+        "view": "https://drive.google.com/file/d/1OOb5Q6T8UH4AUo5Ba_bAVZYK8httRM3a/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240245",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6353,23 +6467,35 @@
     "_stage": "E3",
     "_folderId": "1XdB5dcxQ68u3PQ2OzuCxGRFBPgeFnvSt",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNf08LxYbEc8nnR6-uSGGWst-nQ95RKtshifexppVIJb-FC9hAQahh7livS71hFkWU4Kx-FsU4NM4jWhsv5Gg9tpJee_7esI5T3ggd6I_dp955q9Lk=s220",
+        "view": "https://drive.google.com/file/d/121-yt17bOd1OVUG537QYwQJt1P4Za0Br/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnUU5_gXZ549rLB0yCQIstaE2myC_12DN-bqGSbCmSjszjFpGyODjGPJ-_ODcBEBU0eb6xD30khL3xlKv7L8v9eneQ_wr2l7lbVcqvnmdprN44msE=s220",
+        "view": "https://drive.google.com/file/d/1h7bjR_gmxPhfty_mRJ98O5IN6qh_yUac/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyXPY1GBZ77zTLy6clMkXQGalf7YoY1FA2-Is6_BoFVAyxx2MsHvrYSsR2jvCHZ90QM-PJB71Lom9dQ2p6zjyf-nJSQrN2Y6RXI844dyAH91655aY=s220",
+        "view": "https://drive.google.com/file/d/1oOQga_eGIxyZalI_M_Z0KoxseZPOpPAD/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyXPY1GBZ77zTLy6clMkXQGalf7YoY1FA2-Is6_BoFVAyxx2MsHvrYSsR2jvCHZ90QM-PJB71Lom9dQ2p6zjyf-nJSQrN2Y6RXI844dyAH91655aY=s220",
+        "view": "https://drive.google.com/file/d/1oOQga_eGIxyZalI_M_Z0KoxseZPOpPAD/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240246",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6377,23 +6503,35 @@
     "_stage": "E3",
     "_folderId": "1IF_tYkA4nCxwuES1WVu3Zl1lzfCX61Co",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxtTkyU9OZNVcKhRU4wBId-68RAYbIKdxyS4YGZPnbgtDvMpfyfCUJ8_esRw5waodlbyPnJjkzII8elfw4T27YQjvEk4zny2u3ZdJ83Crqb-5QuL8=s220",
+        "view": "https://drive.google.com/file/d/1pNIbBEx_3yPZAkuZqWXax73QkifLQsUS/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOe7I-_7Fr6zccLll0JnfiOMPzuhfHh0rrCy3eId_C-d7_iZg-XjazsBL16wmYWpB-VMY9awCnqDq_AicIWvCg8e0HBDKIDeaJg1vEkPY_I3ksloek=s220",
+        "view": "https://drive.google.com/file/d/1ejqQmDoloSXO-QILAdtI2iHRV_Qgr-FI/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnDwTPd5geF-Rzb82KDv8qhi92Lsn0iEUgsv5tcVsnu3onn3OD9yrEd0ZWGX-OBAEnS11CBosHhyg3qZAcl2vOKTeljmpbi0-Rs-IPxxMz6ZGp2Qk=s220",
+        "view": "https://drive.google.com/file/d/1qfNj55GOjLY6o537sZagUVRP9imviYxr/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnDwTPd5geF-Rzb82KDv8qhi92Lsn0iEUgsv5tcVsnu3onn3OD9yrEd0ZWGX-OBAEnS11CBosHhyg3qZAcl2vOKTeljmpbi0-Rs-IPxxMz6ZGp2Qk=s220",
+        "view": "https://drive.google.com/file/d/1qfNj55GOjLY6o537sZagUVRP9imviYxr/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240247",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6401,23 +6539,35 @@
     "_stage": "E3",
     "_folderId": "1JZtK5LImm27jGmzs1lXIMoznfw8gacs4",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZJfItaoh_Cyvy9_0_I8s8x93gaEffF0qaB-emgr8qIE9FCp6fugUfoLUtL9df9daWrMgtqtu903ZtA9GQHRQKeBL7uf2RBKvh6LjQOx6k9se7wdA=s220",
+        "view": "https://drive.google.com/file/d/1qPH68W3nyuK40P8RgMuzmCB3eJSBCovN/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGmE9Zc-I8GTiANHmzs2NAd2PfM6jhutVr7y6NfodS0mHmcywVlTTJJld6JQoZrZJhNswdBzxHVJtL5GOg1XvuQOgmwJtdI-y7BSPhDVE7yC6QWkE=s220",
+        "view": "https://drive.google.com/file/d/1d_o_okWFgK_dqWMFdFgWj9kGFrQ1zAaF/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPg6ffioDXQsTfrHU63MZfwHUlc0OGpDd6THBdoaWf9MmMrqgFjSU_vrJzJPF8ukicXLl5QvhMSS-w63eRXp12p3xB4-m3AQ2gPY5-q5_xnGAakbRw=s220",
+        "view": "https://drive.google.com/file/d/1Ikib2QIOl4yGx9-E5_xE1jjIXPyFk8bz/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPg6ffioDXQsTfrHU63MZfwHUlc0OGpDd6THBdoaWf9MmMrqgFjSU_vrJzJPF8ukicXLl5QvhMSS-w63eRXp12p3xB4-m3AQ2gPY5-q5_xnGAakbRw=s220",
+        "view": "https://drive.google.com/file/d/1Ikib2QIOl4yGx9-E5_xE1jjIXPyFk8bz/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240248",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6425,23 +6575,35 @@
     "_stage": "E3",
     "_folderId": "1Rxz4O-X_3j5OVDq6TiKkNp5tF3D96TbD",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAsTvJYJIIv5Mmm_8qgJ_mzqifPyEZLnXZtIwUDm2I9eUnuMXrtlg8Zon5Fqq_ao26uazGnrWiC4M7yj9Q5x-swOSLErMjb5zqlfgBR6WgFY3K29s=s220",
+        "view": "https://drive.google.com/file/d/1CxUgL99MvrvCwo9XJ09W8VtXUnTt5GZj/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_ck6ZeBq_KkE2J8pTCb3ti2-ylmoKNySUMtY_4OrDPFUOQ8CSy2evKwWPUGs0MiA__sRWjym8JyePdp0oPkTsy1fWjq1ar29XFQorY5_14zEdK_I=s220",
+        "view": "https://drive.google.com/file/d/1Hmu4UVjK1XezVkgXyVsaF-ONQqb9Nvyf/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiJnKxjilfBz90efpKD2GK7oas3xQerZoogpmtepISjpA6cJrd4S8atx7ID7_fMlEquE9L-vcH4SRfFJK8JXabZ7cAG2upK0A-xcjSqAIjRPG1UIA=s220",
+        "view": "https://drive.google.com/file/d/1ONRSl7aE-5z_zO1ng-Ot0MJiwinZF34t/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiJnKxjilfBz90efpKD2GK7oas3xQerZoogpmtepISjpA6cJrd4S8atx7ID7_fMlEquE9L-vcH4SRfFJK8JXabZ7cAG2upK0A-xcjSqAIjRPG1UIA=s220",
+        "view": "https://drive.google.com/file/d/1ONRSl7aE-5z_zO1ng-Ot0MJiwinZF34t/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240249",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6449,23 +6611,35 @@
     "_stage": "E3",
     "_folderId": "1FudJlC8Lm9xPAuuanq45e16--NK58Khy",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMerATcwNbzGNr5890iqaZz2rpMbmtPEw5EUdak7S5qxvJUuOYNgV1eXwWc501eDla_FFNUPeNhgnpNWX0F1gWgTLchgOaEV5cjeRPxQKMtazBNLa8=s220",
+        "view": "https://drive.google.com/file/d/1qeRdr6Pn0y1WkHklWr_JmNu7OL1krZFl/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5L2KW1zPIRk74YzeaTItmBOGvSkaeWTvFwWODKYKIEvw51limQsBTZWAKDd3gWJU3F0I8mqh6eaDgCgXvdog2P7DBg3u6BwSLKmmFb3T4YYUnufs=s220",
+        "view": "https://drive.google.com/file/d/1TGiOWrtwpJkrNloUbwNGYslUjDCVltw_/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4S2Z31RSsbEmCKHDfKKLjcvqq_zgGpivxjVSQA_tubveH_o6UyU791DUaW4rxzJuTogAWR6dYauCS0peJ37qS-IvYtLDqngsIKvdqgnHlVZWiaHo=s220",
+        "view": "https://drive.google.com/file/d/1SIm6v6toCX5p8P9hbByyjNehaBEfsol-/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4S2Z31RSsbEmCKHDfKKLjcvqq_zgGpivxjVSQA_tubveH_o6UyU791DUaW4rxzJuTogAWR6dYauCS0peJ37qS-IvYtLDqngsIKvdqgnHlVZWiaHo=s220",
+        "view": "https://drive.google.com/file/d/1SIm6v6toCX5p8P9hbByyjNehaBEfsol-/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240250",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6473,23 +6647,35 @@
     "_stage": "E3",
     "_folderId": "14b-KaWtlh8s1SxoHQer5pHHXG5LtYQV7",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNz4FPCBjRpn4hEHTdQL_WGSozys_baGBAK9ilg9zyfQX3tT6h0sG4vZFvspwQjNCBNUALgZT8qG1raPx1uixCYDRHaki1dGnk3MiDDt5ed3W9aB4=s220",
+        "view": "https://drive.google.com/file/d/1GobCHv1LcUp8v3G_W804xBDrFIOpOOiA/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOwfit3RcSSmN9pX6mImjiCjkPjU0yYIPlCaH04ASznActgG1yctKAJvdDG591l9aOFnVH6QLGzwqKYbTuwg-PXAf04VjmRpkxVkJn4pgv8QNjgeY=s220",
+        "view": "https://drive.google.com/file/d/1L-M3CTbJEt3fg5s8D70bwgEcjYzwy_Zi/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIlUvT84n49rRG4DKtN9xGjbnHU1mT4DOgw_bcXJoSTnJDBKAIIwGzscq1Emgct3Qh_0TFG4u2zSQatDwxLssjEcVT0MvhAsNDbfpHemImdzoMlbk=s220",
+        "view": "https://drive.google.com/file/d/1QgBYZtaPBFX2n9xJgNp8qpB5NeYulLpc/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIlUvT84n49rRG4DKtN9xGjbnHU1mT4DOgw_bcXJoSTnJDBKAIIwGzscq1Emgct3Qh_0TFG4u2zSQatDwxLssjEcVT0MvhAsNDbfpHemImdzoMlbk=s220",
+        "view": "https://drive.google.com/file/d/1QgBYZtaPBFX2n9xJgNp8qpB5NeYulLpc/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240251",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6497,23 +6683,35 @@
     "_stage": "E3",
     "_folderId": "1RZbWt72kn7JfbDnAQxDuWmfDySBpTOkJ",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaHmRoUIHS61GGsLzcursL4OpzxOjOdewnkBWHaT14goj45r2KLRSSH2qExVue-nKKBktkfQUbRYqfyrMHvPFTb3BIZ7yixMfjMkxsXC4F6eyeFMM=s220",
+        "view": "https://drive.google.com/file/d/13gAv3O9fd6_7bPuzELiYVzf8bTfORng-/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWznnrYt6B7vZegoGAVoohfaX7ps2xKWnUHQP6HYfmXl0vV8NEFaCaYbD4Dj15ZZlSNfQQHLwdOLhqcR7JsBt_nq6PD27wQ6LUuPfmibZ88xXp7tU=s220",
+        "view": "https://drive.google.com/file/d/1708witVGpWRZecnW39mfP9Gs3gU9wfhg/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCCYixfJVcMCQsfeVP2rPdgBspIzYpDWEI0f3h-KVef6GSetaByPIvO0brzrqTvV69d1ouijVGiVYCzKQp7Y56oA7jJ53caWMppKn-Cf6TKVdXFtg=s220",
+        "view": "https://drive.google.com/file/d/1zE1tmmLgYnr4XsPPNLYYIceNSx7oc4Hq/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCCYixfJVcMCQsfeVP2rPdgBspIzYpDWEI0f3h-KVef6GSetaByPIvO0brzrqTvV69d1ouijVGiVYCzKQp7Y56oA7jJ53caWMppKn-Cf6TKVdXFtg=s220",
+        "view": "https://drive.google.com/file/d/1zE1tmmLgYnr4XsPPNLYYIceNSx7oc4Hq/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240252",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6521,23 +6719,35 @@
     "_stage": "E3",
     "_folderId": "13awa0SscnyZrH1qYDOxg-ZihLYY7xwc6",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0faKuOEbWqR7TuUD4MhwP4fjgXdJIaqtBuDZH5gfZmgfeCzp9sPIuKh9DdOEjlP0MLQ7Oo9tzBHk9xRrgSJgviM0X335JMMfWwqpAaWCMRqVafuY=s220",
+        "view": "https://drive.google.com/file/d/1CCoojIvtSdiByRsblC03mDhwjA6lI3om/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDosxfgpapx6Qw3mq27PWylunt743tg-E0h8qL0DtKaMlKLi_p9Q-uJUC1yJEWVJkuaAZIJjaI3g9T4KG--zBbH0IrF2AHWO0DaRj7Qfdow3MNd5I=s220",
+        "view": "https://drive.google.com/file/d/16JDtKrjDr1Mkty48D03crdqSNHGlS1UO/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTYEqD43WYUh_Y3ST51_2_Y3Vhxp2QmJfaas8v5l2K_Dk8gm6hb-raCqWccVlEUzk71y8lbThhNz6eyTCaztzpkp75UkdcGZ0jkhtFSxluYQmoaF8=s220",
+        "view": "https://drive.google.com/file/d/1CjnsJyIT9UBbfsbmmdFwEToJCb170OKU/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTYEqD43WYUh_Y3ST51_2_Y3Vhxp2QmJfaas8v5l2K_Dk8gm6hb-raCqWccVlEUzk71y8lbThhNz6eyTCaztzpkp75UkdcGZ0jkhtFSxluYQmoaF8=s220",
+        "view": "https://drive.google.com/file/d/1CjnsJyIT9UBbfsbmmdFwEToJCb170OKU/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240253",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6545,23 +6755,35 @@
     "_stage": "E3",
     "_folderId": "1yyYh-EzyorPJhqQ2gOu9O4HVpySYOMD3",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPC0z35VpnAvwzl11G8xG5oi9W-oNka3Qf-KKBp9gdnEnkOZWg6rX9UErbD67gTGpqnafjlPw8st0MNx_3qbtzuxZLNpbO4s1wdAHwo-hVdUGd9ds=s220",
+        "view": "https://drive.google.com/file/d/1g6KKMN1AOrRq3XV8gTP8kWgSNBpF0I_f/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzjPyFnep6u3FQGfypGzLVu53bpD9Y_y0dsQa3FeikHLAm2yC9QPRZCn2YQwqBFXty1uNN_mnCU-VSph4SIQ-z2c751OR3ICLcjTJinENhgWnZ7wo=s220",
+        "view": "https://drive.google.com/file/d/1wS4m_Q_SAMnFKOKvgtwvUpNbGiJf_n0C/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgaP4OLS-kgDl8pFOiVPFWOVXovsxU_2HGJexL-1xnEWQB--m2iA5SYUxn-f1oz4FSuqDPP39fBKqEIcFJMp432wVS7-tDoPk91g8HEExIZ_yYUpE=s220",
+        "view": "https://drive.google.com/file/d/1QjsNUCwoWQF1YMAW_rs8h8irvmYRofJg/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgaP4OLS-kgDl8pFOiVPFWOVXovsxU_2HGJexL-1xnEWQB--m2iA5SYUxn-f1oz4FSuqDPP39fBKqEIcFJMp432wVS7-tDoPk91g8HEExIZ_yYUpE=s220",
+        "view": "https://drive.google.com/file/d/1QjsNUCwoWQF1YMAW_rs8h8irvmYRofJg/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240254",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6569,23 +6791,35 @@
     "_stage": "E3",
     "_folderId": "1QaExviJH-RCuxb-YsYcaKiJet3EpLgV7",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNY0OVOob-JzEC7IQ9FhpMAW8jgIX1q7vU0Uyzaa_ATkOhR61-AuyYEcUvrc7F2tgp5RvxskMekZyYj_g-SRj0vSA2MMKACJkIStyutdmd7qUuBSpQ=s220",
+        "view": "https://drive.google.com/file/d/1g071b0-8M6-CT56SYSFGzALMi8Ru78rc/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUi-hIVBd7KoO7SnPBQrezpIhRmgJxDh-aHLxVvlvu_iDbKiLwFjsljA5ylRfrJwV8T2XS-T8bbeHg2zXmdmi_lsOwMjYd-xkKlDSdRC2be6rvzhM=s220",
+        "view": "https://drive.google.com/file/d/1kI4RpRYYDtmQ92xGQq1ek6hznP1Sjks2/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyDmFliKBDSZIQJivwe-ImyLZxiWCnbMGUatIcQGvTpQKIrpIDP7UeB5dZ4BNGeuRt4riARp41Yls86AdPwaqYqjPpfVOppTvZ7p20uqCtdth5crY=s220",
+        "view": "https://drive.google.com/file/d/1wa-fKKgl4cjPKyIGE7ljwC6YCHQaYngx/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyDmFliKBDSZIQJivwe-ImyLZxiWCnbMGUatIcQGvTpQKIrpIDP7UeB5dZ4BNGeuRt4riARp41Yls86AdPwaqYqjPpfVOppTvZ7p20uqCtdth5crY=s220",
+        "view": "https://drive.google.com/file/d/1wa-fKKgl4cjPKyIGE7ljwC6YCHQaYngx/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240255",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6593,23 +6827,35 @@
     "_stage": "E3",
     "_folderId": "1fX88r-KiOp6ldfQ2kA-csTyUDEAQD9xI",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSGl-TW5a67xGbRijaoSqS6TEj32JhkYacAoHZjYku6OmsEBoWFxC1CuuzklQPHjSxzFu1MB7xWy_gRUFzGYkUS8YdwXcp_VsO43t45NeIbcT2O40=s220",
+        "view": "https://drive.google.com/file/d/1WC4naVEocjgz1r9WUeTl5LgCZwr_uJNN/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHLlPf5rmyftn3edeCuGnbq8RwzoBO4urLr57MlmmjLX6-lUr6aZDeJRkKjlDeHzF9yV5QNRssVmwK46fwdZsjtXfUtYnmieD4e9MB9whGcAMGv84=s220",
+        "view": "https://drive.google.com/file/d/1mQ1V_M3RLrQ4qvHeRi06jmAfKeLB3_Pf/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdaTAc4op4az64q83ugLifAhGNi7HCUWVWjeE0a4DMXSMMJ9RInufMazi9DN4pEQJtVN9wbOiyag6SwPSfi5GpOpD27rATS1QP8pA8n39TC_kzNFo=s220",
+        "view": "https://drive.google.com/file/d/1L7clubPySOa9VDjaSIBuvnWDHcc1mRVa/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdaTAc4op4az64q83ugLifAhGNi7HCUWVWjeE0a4DMXSMMJ9RInufMazi9DN4pEQJtVN9wbOiyag6SwPSfi5GpOpD27rATS1QP8pA8n39TC_kzNFo=s220",
+        "view": "https://drive.google.com/file/d/1L7clubPySOa9VDjaSIBuvnWDHcc1mRVa/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240256",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6617,23 +6863,35 @@
     "_stage": "E3",
     "_folderId": "1VvFVZT7jvcWmrUoYDsiN5hKYyAxoy2b0",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzo0j59dtRabvMVt-09Itf_Gcm9uBHE2-eWOub_-2t9jSvsKSLjxma8Xr7hNFZv0ZslgjnVD2dEpI997MK-Cd4GL2I6aSYoO4iOnW5J71pAAgHvf4=s220",
+        "view": "https://drive.google.com/file/d/1VKmBS46vOnfqv68cxo3WzvNEbc6l91ka/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdpDv6vu1L75D3LVdDQxDL2L5SRD_5cDeyKUtnrUTHfAS6XATuZFDEMmNzYkVkKpZf-sNOp5v6hphSP9z3Ic5Vb_DHSPX5COXQ5EtWv4sy1mj6Eh0=s220",
+        "view": "https://drive.google.com/file/d/1DhfHum9ZQJwUqUVOc-uzFi9umKtJ0tMk/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpieAhtaUF-YVu7ehnJQjEQXcDMJ-mGT1xRpoB6l6UsFCw-rfbfBI1Qsp3g4nao3jXJ_m0Y1hrXujKLOPfEIRdzHcZFDrnv_ix-b2OKDO-EwLs5DY=s220",
+        "view": "https://drive.google.com/file/d/1fywBeD_6pGEcH2Q9arqN27Eag0DpPDDT/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpieAhtaUF-YVu7ehnJQjEQXcDMJ-mGT1xRpoB6l6UsFCw-rfbfBI1Qsp3g4nao3jXJ_m0Y1hrXujKLOPfEIRdzHcZFDrnv_ix-b2OKDO-EwLs5DY=s220",
+        "view": "https://drive.google.com/file/d/1fywBeD_6pGEcH2Q9arqN27Eag0DpPDDT/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240257",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6641,23 +6899,35 @@
     "_stage": "E3",
     "_folderId": "1pJ5044eBeX5lIpoezP52JuHdUol3XcLB",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlJcSyDi3Fp3B4_WKt_MOmIi1Ab7FpB8LkIcD8iBfWOIIaJaUzy-kpXJMNvOhw7eRhqSs3VILLsXC_EvzKBqpx9msB4eYifhFMWCcS90pYV_SewaI=s220",
+        "view": "https://drive.google.com/file/d/166kgWIXoeDacAZ28_TYhc2qlJlM3mAq7/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMI5owxPmY2Za3zOSCD6VGYy8lFj0-HgqmKBnkemh0K0zkAEGft-Qg5OuKlahxj4pFqg5zoP2nlaa0jIQ8odH1KM77kzTz0xg23BD-ZDjYgttikIlA=s220",
+        "view": "https://drive.google.com/file/d/1k1Iryjz0kKrE3AsNXWb1ZnpfUxCqzxrW/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvNAkyxFVVkVaEaoCSMuxe9freLxJ1ql0Dxz7oliptJ1M96yD2UnNqrtK2m0-SeADY1d_oN8qV_sRMDBNaB1hy8By5oBYukn2CyIFAsceEwAL1CDM=s220",
+        "view": "https://drive.google.com/file/d/1oyJl0EDlzrF1YaKZpd34gJwaQxLi_TBO/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvNAkyxFVVkVaEaoCSMuxe9freLxJ1ql0Dxz7oliptJ1M96yD2UnNqrtK2m0-SeADY1d_oN8qV_sRMDBNaB1hy8By5oBYukn2CyIFAsceEwAL1CDM=s220",
+        "view": "https://drive.google.com/file/d/1oyJl0EDlzrF1YaKZpd34gJwaQxLi_TBO/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240258",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6665,23 +6935,35 @@
     "_stage": "E3",
     "_folderId": "1wV2-aT9COOowIPkUXpfeKcRMhwYSqrgU",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0GddRJiAxSyMlYJ_MfLeN7un6it_HwWXTG4_eDvqffqFUAVo91-tZphE-JFSdZulNrnidD0SPqcb0-OMU06OY3xdgWuJsiNVEKZF5e2aNxfmpVAY=s220",
+        "view": "https://drive.google.com/file/d/1ruZzNO8fOWTbQLw2MVecmNy2AZAv5dwI/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkXISeVtFSKMY-qBpGkxNmJxh-ij59Fr-m8YqMjMPNxZaBWuza4lvGudebntVIDBXLf1xkiCO0ej5oYWA6OmPOe3etTOneuFZ07t2ZmIz6DEqVqFM=s220",
+        "view": "https://drive.google.com/file/d/1pF-aMh02Y7A9PF-JuUrRhWQT-FsnmirT/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMglfx5k_1zv1tXUo-l52myJPRraiyCPopVO9I37GMxpksaQdXQiVWcn9O9tZJ3DnVdYGQ3kuihiErbsW34xU4sDHNnmHiRSPnsP20kjw4WFtIp05k=s220",
+        "view": "https://drive.google.com/file/d/1ZUHKMhoFf6CLaANdJfYp2j1_rbGjzbE0/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMglfx5k_1zv1tXUo-l52myJPRraiyCPopVO9I37GMxpksaQdXQiVWcn9O9tZJ3DnVdYGQ3kuihiErbsW34xU4sDHNnmHiRSPnsP20kjw4WFtIp05k=s220",
+        "view": "https://drive.google.com/file/d/1ZUHKMhoFf6CLaANdJfYp2j1_rbGjzbE0/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240259",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6689,23 +6971,35 @@
     "_stage": "E3",
     "_folderId": "1iAbHT7D2LU6Urj67oMvzUymqX2MrnXJR",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRhfhMNHzpWaikEybHGJEncp03rtEGa1ki4gYFmwm-OBHc4nFp-WrMKYUViIz9CW-U-y-_VCFzG2ItAkQZfUjJzrymwyGG110G5dSNonW-urb5HE0=s220",
+        "view": "https://drive.google.com/file/d/14HzVgRXDZrzUQjhTAOlnsULiPkEwE1yD/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpigwdlDatgTh9O0bh6-6mJJuCW5rLfhHgvIl1gZUNHWUMAa2fdoHarYIkyORlINCq0eh2ADRAqBft-hFKFQn3ove_NlUZVfKe0w66VkzRS3vSf8E=s220",
+        "view": "https://drive.google.com/file/d/18f8lFX58-KgIkC19JGoAxSuLoHLK3Ezs/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYQyYKEmb7QwAFy_qqdxdErGAeCBCvEc-wZBUKC0o0jOWNyY6aed_idiiWqrTYtQ7Ij8ekY9lrf4cAeAa6Z9ECEFkvBOf8w3RLiohQdObRW0boLX8=s220",
+        "view": "https://drive.google.com/file/d/16mcDDV10W9ICrTxkYAC9G7sQc9nYoD5g/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYQyYKEmb7QwAFy_qqdxdErGAeCBCvEc-wZBUKC0o0jOWNyY6aed_idiiWqrTYtQ7Ij8ekY9lrf4cAeAa6Z9ECEFkvBOf8w3RLiohQdObRW0boLX8=s220",
+        "view": "https://drive.google.com/file/d/16mcDDV10W9ICrTxkYAC9G7sQc9nYoD5g/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 3,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
     "FOLIO": "240260",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6713,23 +7007,35 @@
     "_stage": "E3",
     "_folderId": "1s9NGWagXuSYhtOagc842qOW7pEb4LzNy",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnoxmqVFxqDvBgM_1DwTmlI_IKzUYZhLEC6eL_5-9xYJZ9OKkzwQ5P0OjK_27CiJEyeMuEZZkznxRjYO9ks1KJGL8FHy5M0fNjcb2Xt_nmv774whM=s220",
+        "view": "https://drive.google.com/file/d/13UO4TwRNzg25EVrgnMBYeKn7UmcwGMrk/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMI4LenVdO1xi_51WgBDOhD0wI-6aPRkpFGzCD0ef0fUlp7Njla3FKtE_oi7o-mlqTwQFveT4yJtkcTdGfnc2h-XMixCmliS5ULD1eXKl8h2dwX_hk=s220",
+        "view": "https://drive.google.com/file/d/1v94TYC4Y2zRnuEcE5a7aUMSLmM8iSBIj/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtlPqrhAw61wHG0HzxaSkKjAghBsC9Hjm20kKxC4JnWX2KxmiUcKdJcj0LKrd0lENzXY21dBIqzh0uAxZlKS8DXXfEQwkhEOLzygPgNBVdSURKHAU=s220",
+        "view": "https://drive.google.com/file/d/1z1keI3Kf2WmmE9HOQ0K6efjnuzTqOv8R/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtlPqrhAw61wHG0HzxaSkKjAghBsC9Hjm20kKxC4JnWX2KxmiUcKdJcj0LKrd0lENzXY21dBIqzh0uAxZlKS8DXXfEQwkhEOLzygPgNBVdSURKHAU=s220",
+        "view": "https://drive.google.com/file/d/1z1keI3Kf2WmmE9HOQ0K6efjnuzTqOv8R/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240261",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6737,23 +7043,35 @@
     "_stage": "E3",
     "_folderId": "1a-KvA45OxwswmEoP8OVwWpQIaA0vXZIi",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYJkaiSffgslNrG-TQuLbUo-TaqR5e8Llw2V9jXpGiLn5IsVhgZII0QpPmpD6EeeW-bRC8GgSHMaS74HwB4PqsfB3xrM1DTi0RPMvAJlzFIx_HiYY=s220",
+        "view": "https://drive.google.com/file/d/12MacktfAVFgKOAvu0CFC4IH_gTO5HX9k/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPn0TEC-q8JPbQLcNWtUN3JTah5fSZ-AYO0O4egrSqdcc301R0xeaPWz94I4_3L6_yxM3bpFQ-xtESVPmVKeC7s3aOfPsroBywPEwsLgcYgVu8f4-A=s220",
+        "view": "https://drive.google.com/file/d/1nz3Coao2eUlpTiyNgckGhc5Lv1JI5XVK/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNepJLIK6ijILQIQAqZ4qyu9NLqAATUscfHDo-IcvCwa4YBnVypihVLko7OxN_qAs0YW5-PVmGjX3awl2cXCA_-UWNbx_Jq6WoFOp4a0aiUhTFqr74=s220",
+        "view": "https://drive.google.com/file/d/1F8Y0bMqKU7Y82HIlxx-d4ar-l8froG_n/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNepJLIK6ijILQIQAqZ4qyu9NLqAATUscfHDo-IcvCwa4YBnVypihVLko7OxN_qAs0YW5-PVmGjX3awl2cXCA_-UWNbx_Jq6WoFOp4a0aiUhTFqr74=s220",
+        "view": "https://drive.google.com/file/d/1F8Y0bMqKU7Y82HIlxx-d4ar-l8froG_n/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240262",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6761,23 +7079,35 @@
     "_stage": "E3",
     "_folderId": "16VGBu6duvJkk6sk8N7wgma_Y8n0aIDMv",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2vVhy2QVOSi-Lo6EDC7mKDPa6_6Sr3CZfjAdkDeZtUj6Z7pyH5xJ2a__-ItZUWm0XwS3pM5Paj15yjgqFf-G91P56QSSwQj_fKJGPvCzhKzZQRyU=s220",
+        "view": "https://drive.google.com/file/d/1t1i2epUNXI5HPXgXI7OANopo64Vl9IpQ/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSYlN0EjFI1pvsXohB_BfYHnUsEjw_ASm1c2K86OxY7SOdX0Yfm8mUB4JFmuHi0SVAzj3-dE8VKQCLlaUpNIFnRC3uyZtyel9U-ITElLpqLr3Scb4=s220",
+        "view": "https://drive.google.com/file/d/1NgNuvFM7wN8SLQdaYLIeXmw1UrGMu-RY/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsKr250Q3bL2yE9nRmp2iPiIKxtAsqjtHGgDK8_WuwC4trBFP0dAtoPc_iEbIYRGhcHjQEbRcFdFnXzQbTaqW351ZRiFHfY7z6-ntKVZPnuRXfXTk=s220",
+        "view": "https://drive.google.com/file/d/1qvj9KPBVdT7vJLhxS7NDZgOlDTbn5dwF/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsKr250Q3bL2yE9nRmp2iPiIKxtAsqjtHGgDK8_WuwC4trBFP0dAtoPc_iEbIYRGhcHjQEbRcFdFnXzQbTaqW351ZRiFHfY7z6-ntKVZPnuRXfXTk=s220",
+        "view": "https://drive.google.com/file/d/1qvj9KPBVdT7vJLhxS7NDZgOlDTbn5dwF/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240263",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6785,23 +7115,35 @@
     "_stage": "E3",
     "_folderId": "1e8CqwfLuzpVgR8mgk6t1YkJDbTxOK-Rf",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvpZCRyZJ2pOLWG3SKrhmg9ZI51bSiyh7IKktmJ_mvV9XLkWn6-5W4v_mCyU9mNSyXKik7F4Yyz2B2CaHgzYe8t03wB9hXCZ4ccHlGXCa7ChsYXwA=s220",
+        "view": "https://drive.google.com/file/d/1ghqZkEaLh2fDp6B-KKEv_qnQnbzBNgwF/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNFJHdXbm5B1x0KdJ288nH-GKWCLWhJ8POaPMpioS1cwDwxM0Ucw1qBjNfKvVreMhX9lbfWEA48s7q_1kFEAhRRFdHGIX7MNd6S2ccretz7eYyW1k=s220",
+        "view": "https://drive.google.com/file/d/1VZfxOP11WnG68UKABhC3iiynTQ_TTZkz/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFb7Lha0RYWj8tX-Byk08kS_Bz2kZ0TZ_rJIbauRwBSOLR4oHnhHGJ5y8_J9jst__yvVTWzR6Y7dPGwuLJH7vXz4032FG_j06YRIgx6p4s1TEWk1o=s220",
+        "view": "https://drive.google.com/file/d/13nG-mBcgrc1ulbbCT4tqdAAnJLsKJDBz/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFb7Lha0RYWj8tX-Byk08kS_Bz2kZ0TZ_rJIbauRwBSOLR4oHnhHGJ5y8_J9jst__yvVTWzR6Y7dPGwuLJH7vXz4032FG_j06YRIgx6p4s1TEWk1o=s220",
+        "view": "https://drive.google.com/file/d/13nG-mBcgrc1ulbbCT4tqdAAnJLsKJDBz/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240264",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6809,23 +7151,35 @@
     "_stage": "E3",
     "_folderId": "1qROZdrLZoY6mIz29hKKAOhYPw-7h0Uwh",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOl6g8S668CWxXDycnQKsolLIM0x6ktyKNomUSkj7K1VjvmW5_ZuNnNssUw-BWjtZZuqlLUuLIuG_-mjGoAdsgCxFZb73Ggm8qjWvd6sNjFxdkrTeg=s220",
+        "view": "https://drive.google.com/file/d/1Rg775-elNUlkSlsM3ym8Jq0p4OC7JGu5/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvd3JgJL6Tqzes2iGFjyraY2rT7HX7zZIXagO9eSAmbIhbHz19pQQUHm_rQhDzo-Rwf10uhIwiPl7Zykw85jIJ_TiF1cmSkize0MaN2IilETHbKaY=s220",
+        "view": "https://drive.google.com/file/d/1aP_Zg5ahyK5UPS5OyknVLRziQ9Ia77P3/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHyD-GS_xpAiy6ruP5VZ6C4iFOV2Y7JDw6BMl8BoH7s29SVEdGem1BBkTfAHK0PNYVGbYYkxxjgeEPVeUtYuoCkiX7gAxobTfs9GwuGmMRUWGtlIw=s220",
+        "view": "https://drive.google.com/file/d/1NyFaOOJ2Cjh17cMW3Mvss9buz3l4gCcS/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHyD-GS_xpAiy6ruP5VZ6C4iFOV2Y7JDw6BMl8BoH7s29SVEdGem1BBkTfAHK0PNYVGbYYkxxjgeEPVeUtYuoCkiX7gAxobTfs9GwuGmMRUWGtlIw=s220",
+        "view": "https://drive.google.com/file/d/1NyFaOOJ2Cjh17cMW3Mvss9buz3l4gCcS/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240265",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6833,23 +7187,35 @@
     "_stage": "E3",
     "_folderId": "18lujtoQNL2yqaXmABUnq4Z_uKUcZIXyi",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-x6opApgeEMPuhobEPZscfs4CI0s9nPKO1Phwodh3TXPdZSb3CBSu8izSYfRBBITRMGtDuQWMZFAQr1Eek59oSo9GLv1oo4HFK2bdPhGRzjgaSK4=s220",
+        "view": "https://drive.google.com/file/d/1uQp9IkRbrMZz6siC2o_GC9o2BS9nzxVw/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBshkpJRiE_Xji5KLCN5ahhGFxM33ml6RmitWkc8swKSI_JWcbLA4XmB8cHhQj4_MQHbMer6YT3RnmHxcyangW1kEWJQpz-g_Vys25IrUEuVzRm50=s220",
+        "view": "https://drive.google.com/file/d/1wfafPZC0NvMy_Hj4p1ya6TusZgkVutPK/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy9wFnVpaTKaYCepsmesRyE73RKs30n15LL75wfmKUlGRkjKnrW7wFnPGzH7Y_V2vL0SP2IhVSxlIsy9REqUu4s7oUEyVURH_V_auYvjiQfa5ap_c=s220",
+        "view": "https://drive.google.com/file/d/1MCE7vNBv32EwcOWZuPInScmWaXVy7VVb/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy9wFnVpaTKaYCepsmesRyE73RKs30n15LL75wfmKUlGRkjKnrW7wFnPGzH7Y_V2vL0SP2IhVSxlIsy9REqUu4s7oUEyVURH_V_auYvjiQfa5ap_c=s220",
+        "view": "https://drive.google.com/file/d/1MCE7vNBv32EwcOWZuPInScmWaXVy7VVb/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240266",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6857,23 +7223,35 @@
     "_stage": "E3",
     "_folderId": "1fXA3K6WVFlVfVPqO_pdqgoaNiN3w4EIz",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO88AmdLut13CWdbleU6gaCyYMhlbvA_ckXe7eL-81otRlsSB_WdJ1OemAe9mEDxkmPhCz2UHvarkHRP-IDFMi-LsuSpAAhT7jGwYmOWClgMEKWFsE=s220",
+        "view": "https://drive.google.com/file/d/1G7F-ydZuZWpe0e5s9N5Ir_yt1EeU7_lW/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqQ5VzvhqAq0rnid8BZAxDb2cT_pjKf7OvfPRgWJp1ZhqR0teQxtOxyPmEAekz0vZHK84VNVKitByxwa1807aC04iouSGQGp5F0MoCe-lVd95qrT0=s220",
+        "view": "https://drive.google.com/file/d/188Qb1sfMja0Rb8Uz6imJDxqit9rU5Ps0/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYncYja0SmzO4mKMxeETWWpYRqlZQ3tfCF3J7EO6Vumeh84T4HHACe7COZ27VnqLD3KxIHpoHjAFUlqpwTDCu7PtEInH7zDgBaATOG_cYFOUNN-EU=s220",
+        "view": "https://drive.google.com/file/d/11alQYvDDkeg8NJkqLqWMButPS5UUgvUI/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYncYja0SmzO4mKMxeETWWpYRqlZQ3tfCF3J7EO6Vumeh84T4HHACe7COZ27VnqLD3KxIHpoHjAFUlqpwTDCu7PtEInH7zDgBaATOG_cYFOUNN-EU=s220",
+        "view": "https://drive.google.com/file/d/11alQYvDDkeg8NJkqLqWMButPS5UUgvUI/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240267",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6881,23 +7259,35 @@
     "_stage": "E3",
     "_folderId": "1ZUvtKxNdZoIuu71r5k0yvMvDhHU8MFYs",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWlh95Ii8Ph1mjIUS68521wlguYyDTb8vJ9-vIOabt23frkSoGtu1rLcCic9FZqbxJUh8gp1SptsSmsDsTlTuT7ND031xbh6tgMGvlLE7zjyWRdNk=s220",
+        "view": "https://drive.google.com/file/d/1oSIIo3KWqGcUvvXjoUI0TXsAJGBriDjL/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMt9yTRZVLsb2aQObcbpgBKsh9vLGqkz1ZprpmWfdAtvWVc3xjo6hwE6EwDz8QhqBZ3_m1l1oZBbwZqV2thCec4BNL7UVDv4nIJLtzwXla57W_OjPM=s220",
+        "view": "https://drive.google.com/file/d/1zbNoZt57H-wCJ1KM3QaPmwjr4uMxVIEX/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjiX_PhQh8tUoSXMOJQhLGw2-ku_BdxijoyyS84RC4VOXWUoKa4IMaI8dG5RFoiIA4mqw3JSTY4nJEGNMGeAO0wjiogaFU7Cf85u6DKl9NsjoUBoo=s220",
+        "view": "https://drive.google.com/file/d/1EgOWn5mgXT5hdEwFT4bjVsiFBtTmHxx7/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjiX_PhQh8tUoSXMOJQhLGw2-ku_BdxijoyyS84RC4VOXWUoKa4IMaI8dG5RFoiIA4mqw3JSTY4nJEGNMGeAO0wjiogaFU7Cf85u6DKl9NsjoUBoo=s220",
+        "view": "https://drive.google.com/file/d/1EgOWn5mgXT5hdEwFT4bjVsiFBtTmHxx7/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240268",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6905,23 +7295,35 @@
     "_stage": "E3",
     "_folderId": "1z_MdjmhBl2iSsHOy-5ho4mZXLOo84h9Y",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkCgFIb5CutB6YvNF20FHArtpwBsVwBnhbCnmoVMYFcZG0V-kzH-2H7247nSDvzFR5eMInIDhRnU5QFOlZKm8obWUkiPB6qoBHc_9YfsUWE92EELM=s220",
+        "view": "https://drive.google.com/file/d/194v06rUupBtBjtR5XVZx9d_-a3OJUA0F/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBkaXBRnYwX1lhbZdi9sgg_jipU6RGg2YZE6ki_grRoIXve1jPWX-55YANntDir4RMvGtS8K8i-7rUKw_Pv7a3tbu_vdUCoKOp6e6cR00oSs70yHE=s220",
+        "view": "https://drive.google.com/file/d/1wCju0oVcCwGkk2wrmUoDtpjkLO51EIPP/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOBpU8_S9cC1bhHYbayvd77WYAY5xbbowRd3Y-fByUcioH9XdCQ464a8NmcLpHSb_D25z6qmIb2l8SDaI2VcnimM2Avm1I7moc3DHdulJIi0CDRo8=s220",
+        "view": "https://drive.google.com/file/d/1abXvhWExnMpxmMa6BuFET2NIjQIhCYBm/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOBpU8_S9cC1bhHYbayvd77WYAY5xbbowRd3Y-fByUcioH9XdCQ464a8NmcLpHSb_D25z6qmIb2l8SDaI2VcnimM2Avm1I7moc3DHdulJIi0CDRo8=s220",
+        "view": "https://drive.google.com/file/d/1abXvhWExnMpxmMa6BuFET2NIjQIhCYBm/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240269",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6929,23 +7331,35 @@
     "_stage": "E3",
     "_folderId": "1wi74ygibX3FOBTH7MBHDQEx2PrQr-gI8",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQCgmqyw1IIVK7XKwwC4A3ua2YdEP7qojSeTZhx3utI8APm5W9XlD7q2D0vtuziTl_kYzs74BQ8sd6iMq8oMi9J0sRmJLxyMJwvOm0Dl1qfTQdSHc=s220",
+        "view": "https://drive.google.com/file/d/1y7T_tHfQISJgh9N6k_fNXOk4weK4gtQ6/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhFO8koivWTBfDLX1FNoXnlIRemNJ6qukMlfxE1e9sQxUl_VxQ0qiTGRRWhd393ZH4QIFdn5s2mrRjBTpSm0aYn20V4g2gNAZQcBX5xd8aRSRp4v4=s220",
+        "view": "https://drive.google.com/file/d/1cI3Z4wj4S3_MRqTyUgInJwBTFCUxyPTe/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPukLTNhvRKVY1rMfkod498lqlwZmUSfGVssvPIA182-6QHX5fwS4VlVIahjP8FqDBkZqjoPlugidS94KiMgw66RzCfpV6g_0xkcXqyyQ4Xu1voXUU=s220",
+        "view": "https://drive.google.com/file/d/1VI_XFNeGlNij5WKGHznFn-9jOWEkqQ0W/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPukLTNhvRKVY1rMfkod498lqlwZmUSfGVssvPIA182-6QHX5fwS4VlVIahjP8FqDBkZqjoPlugidS94KiMgw66RzCfpV6g_0xkcXqyyQ4Xu1voXUU=s220",
+        "view": "https://drive.google.com/file/d/1VI_XFNeGlNij5WKGHznFn-9jOWEkqQ0W/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240270",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6953,23 +7367,35 @@
     "_stage": "E3",
     "_folderId": "1xqWBKkFM5X15Y-Qr0Kuyg0NTIOqNSwjR",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkw7VnGKF54aqWCu5QH8HtfSIqwCfh2RM3Esb4-VpT7eYgqKz2t3eT2sZ7ErVX5l_6IvHX8KXcxz9YbQ8PjysI14teCORDCHpGK3JxVmmQaHsreYM=s220",
+        "view": "https://drive.google.com/file/d/1B90iQ6j5GAdXhMhXZcUyM4fbuasxe2uT/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyhSPzNi33zuoLDtoNJ4Wtg8Ke7yk4ME5S0oQNhuri3PZJu_G3rG0UB2nSD1I2lv3rhQmdcFduWoDOOy-aGkPNUFc_xxz0F7bjXPFpOhZNvQNB3Ic=s220",
+        "view": "https://drive.google.com/file/d/1HLyo0BJ-T1WbNwBBX7LAk85J1o2K9G4y/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpqZy7qfPafa1G_Lj4q25OIFbtSiSVKddukq6vyq5nYQnynT7sW0WBgvoMmEzConWmtFIfLydIF9MgBNmXgQWYie1h-D8mwmN-Np5Ji7pSJ8cvD2c=s220",
+        "view": "https://drive.google.com/file/d/1QkguRetwKBVWdkj4yHqR45OoABGeLHWA/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpqZy7qfPafa1G_Lj4q25OIFbtSiSVKddukq6vyq5nYQnynT7sW0WBgvoMmEzConWmtFIfLydIF9MgBNmXgQWYie1h-D8mwmN-Np5Ji7pSJ8cvD2c=s220",
+        "view": "https://drive.google.com/file/d/1QkguRetwKBVWdkj4yHqR45OoABGeLHWA/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 3,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": false
   },
   {
     "FOLIO": "240271",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -6977,23 +7403,35 @@
     "_stage": "E3",
     "_folderId": "15ZHimVeUHlXhZGEHVesnr340Q_h3Z67T",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9xWOwIKxpz9K0ZSxMDulclDy8Xna6yfOwoUrf8Q5eF-o82FJ0S7Lpuc5z2QNMBOJjovjUQR7Id0AjGMvzZlEH_duH775w71V7prwrg7dsrkvmqlY=s220",
+        "view": "https://drive.google.com/file/d/14y0Fx59a4kNFhmWNx8YuVtxZQWCztzKA/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWxdp_J2SCU5QyjruD1uWGdEO9T-JDpCkQ8FJSemyNvkUAW4s58MQWR2r1OPw-Gxgf04EsCdQ6OKc645qllL8-CGDCYtsbqYqZ27p2hbETO0JzZSc=s220",
+        "view": "https://drive.google.com/file/d/1W9myjTnKkM2nGeRcXrhLYQhS3yfBQV-j/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmsAnSkLJg9zSW2ljy_ilaVWZiHPoaZ6v_85tJrIbjYIIjIMmk2ptmji1rBIhg84b5qBY2tDJJ1iGjNbp7q1eD5312GNbvn2Q16kGJK0IdkRO4KO4=s220",
+        "view": "https://drive.google.com/file/d/1BVU6WwOL4Rl_MrTHA717bCfxO1T_xSNr/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmsAnSkLJg9zSW2ljy_ilaVWZiHPoaZ6v_85tJrIbjYIIjIMmk2ptmji1rBIhg84b5qBY2tDJJ1iGjNbp7q1eD5312GNbvn2Q16kGJK0IdkRO4KO4=s220",
+        "view": "https://drive.google.com/file/d/1BVU6WwOL4Rl_MrTHA717bCfxO1T_xSNr/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240272",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -7001,23 +7439,35 @@
     "_stage": "E3",
     "_folderId": "1CtUDY9ujLTQReRk5KiUUFVFoBXYJtAOr",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp78j3GmqIWr7abWSoKBXUhcTctPLJNVlcLfW8LeHBn0FtJvofMg6vvMXh9zhbarQbiM-3k59e1SF4rNE_oLtlD0tdpnu8t0YoleQh_iyRWmK1SZ0=s220",
+        "view": "https://drive.google.com/file/d/1V-3mt4uctlgxr-oR7jeUvVfWhJ5435Ry/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyRXLcxvkE4UKZpbWowWyoFjdypp2wf-nbF2Ue0NL6mD1cebU8mjxvGM0YUlAYFmLeW69eMq3K1jkSDsaFpXHPZ5VmwEdLWXFt1M0v2N9q3zRvGIY=s220",
+        "view": "https://drive.google.com/file/d/1p5Ph6n0YZu-LwlTYKhxfMbeeXXqm9Mr0/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO642YHAJhJHvdp5B3c0C5Jwx4QGoDj3GjaFyqGYAAC0hr5tcYmxbF94Xl-wnXQ5OL4n7hhA6RgsXJiPhwa4e_aD50CyFtCQlqUygw_Vp7EPf7wvxs=s220",
+        "view": "https://drive.google.com/file/d/1dO9A_xlq_u1R7jvft-UJz3vRPz4fdw9y/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO642YHAJhJHvdp5B3c0C5Jwx4QGoDj3GjaFyqGYAAC0hr5tcYmxbF94Xl-wnXQ5OL4n7hhA6RgsXJiPhwa4e_aD50CyFtCQlqUygw_Vp7EPf7wvxs=s220",
+        "view": "https://drive.google.com/file/d/1dO9A_xlq_u1R7jvft-UJz3vRPz4fdw9y/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
     "FOLIO": "240273",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -7025,18 +7475,30 @@
     "_stage": "E3",
     "_folderId": "1N5dsi2MTH41oGyCG_NhKH-mH2-2Cf2TR",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdUoAqwMjrHULKjnSgGefte32jPUTwNwRsuYVpnXLWxYFJJDFAES3qmiz6YkXkuUrJaEAyvf2-IpicT7juRju28cKKD5sgEhYqrspcGthnzzF9YD4=s220",
+        "view": "https://drive.google.com/file/d/1vWfIU5-2YpbhElb03x-j-zC2-GGmMI4i/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4xDliRNwvprefUAtehVPJkSwyQpWdRdMRkIFqITmT20s0a63ByjllFk6EOU5OCOX3o6OhIs7QQqUPHz1Qazyap0G3-JBfnbQtwjhXxe8AySGNkRo=s220",
+        "view": "https://drive.google.com/file/d/1L98jheaTLOHNliHtYnYSqKd-OQO2T9BK/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaoZ5Dg5sVt_Y6PmJQni1hwKzhRsLTXewOrkFhGqR2pCXiUO-_7NTywpq0If0AwJ8EZTBPHNUc73ONQ8zWASbQaL7c_sITWGtKg4MZNPn7j6LMV-A=s220",
+        "view": "https://drive.google.com/file/d/1eOZJpRdhKe5UD--1GdS8CNBFQH_zAeBJ/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaoZ5Dg5sVt_Y6PmJQni1hwKzhRsLTXewOrkFhGqR2pCXiUO-_7NTywpq0If0AwJ8EZTBPHNUc73ONQ8zWASbQaL7c_sITWGtKg4MZNPn7j6LMV-A=s220",
+        "view": "https://drive.google.com/file/d/1eOZJpRdhKe5UD--1GdS8CNBFQH_zAeBJ/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 4,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
@@ -7221,7 +7683,7 @@
   },
   {
     "FOLIO": "240300",
-    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + LIGA + MEZCLA + TERMINADO",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + MEZCLA + TERMINADO",
     "CALLE": "MIGUEL HIDALGO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -7230,26 +7692,29 @@
     "_folderId": "1YAGlLrihqh4lhHKHYbZydmG_KQlkJtrb",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMunIgkw7qBd6avDepb1VeBUVnncSrRRpalW-wHmNVN8UDnzgYrnjcqaE8m_nfrpF0h2ipEwn4gp-Or1I8SSwuJaMJzGgwnjrwwT8qlmRBY4E716A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmIAuQpWfsfWxksfGIfaOoh-vvJMJmcZSWhaBIsurUg2yshRP1SYWP4L1OEPmgpj-t2uIQHtxziSPdAyUuy4TeR9w_1j6dHXos-qvFuqRwvHC4f-0=s220",
         "view": "https://drive.google.com/file/d/1cKNrx7X6hERdwmHdH78BXjAgoUGB7Crp/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqOu1dcy_k4ih2Nqb9fElTe7VM6UY5jDiz8ixPGomVr8_j_k4jRLMn22tJKvWsdRl9mJArPS66nxfU9rNHbKme_AtqwJ688DIB0btoGPq64wttRw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXWyE3ic8uMKWK-IzMjS7bZToTy8ATLHRb3lWpJvnL4AfrZWu5LNeUZII9D2p6Q3OX5YwM4NzF4wvba1vvjOmDvam8TKT8uLGddS6LIyPf3MSHLiU=s220",
         "view": "https://drive.google.com/file/d/1aPsaSU46i80xohFDiM7nD8k7f5GFQfAq/view?usp=drivesdk"
       },
-      "LIGA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdVYkYzoM8pW80e_p-faQwhYyzkrCiifbNr9GbJ3KdqGWmPZglbeoO8LHE5jErlz4FOA87e3O2Yw0HrsDRuXQhbCF2kNKxywwgWDX7Y98FvQCUdOM=s220",
+        "view": "https://drive.google.com/file/d/16lC8WswUpP4_dHgZLuqg49XzXGgOLswB/view?usp=drivesdk"
+      },
       "MEZCLA": null,
       "TERMINADO": null,
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuJfYF1R6KdfVTNCz_SOTr0C9hYdYqk1duR5FaIgVlZGQlzD6as6xAQAQ2l4p3wKtjakipL0yc4btAXyYmJ1ApE9K8iDYw7YxlsTMXIUxg5HKHLQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkVNKfbxSkuoaIVqbSjJ9KvzuBFWFEU66UXzvAp_0CcX6ZCoV9KsTl0NPYn8GHQctprwNU1GcFfFVlcXxe3wj6QVTTLkZRrj2ZOz9o1z0OuNeynuY=s220",
         "view": "https://drive.google.com/file/d/1bmlsypC8h32azmzMtFSBF0WJoZUSF-Ts/view?usp=drivesdk"
       },
       "FINAL": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true
   },
   {
@@ -7290,7 +7755,7 @@
   },
   {
     "FOLIO": "240302",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MIGUEL HIDALGO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -7299,23 +7764,29 @@
     "_folderId": "1dWsLR6HHcxpk5MfFgWbXaNgglZ2zawMi",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlpmgECGeeCEGx3gwMvSPKjcPEMHwj8dTCIF0E8jCEvZxs_8iVUFuDnJZxmj_ss-JzyKYaT-0YAuRhFisp0rMBhTucEiG50VDj3RmLpMkj-gX0IQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYY55viMkr1oF4wOI-WRDKvmFa6ns2-_WkvnqpmitmV8e2RwZgM87S4Y8M5_pDP0jpbiZdx8lzbJ_1HToHRqWmo8Lunl_RiF2_ncfEmJZ5AxpSfmc=s220",
         "view": "https://drive.google.com/file/d/1r1lV8gEVswq6JgF7K4g1NnD4W5Y6Lv-U/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxCRTRMr7vTKwWiuqpZKN_9Tt7lHououcO3ZXPHQYbgPxp-tSRxZCam2K9CZmvmHvGIaBJkcpzlngnrzGshJsl8IVmCADzW4M9Tk4RF3uldf4J0g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp-bhW2lZB_C3DJAqZ9q-GibazMLm2rQAYyksS7g265UxBug0huwSA3GGuHxX6eh9Ts5qIFJIrQBz8GtJFa4Ad3-KiWvdtqT4gwsQHGDSb0mZaj8E=s220",
         "view": "https://drive.google.com/file/d/1U20l6A-s7omtjvhlFKqvd-j9G44qkqhn/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUdCTjVpt5FVsStkzuJOQ_0Hueotgt-R7QNxyOeZqWmgv6p8ska8wsnseU9o_y2SvqIBpWRwRg0AEl_BWK_eFU195M2_KrK-brag5jOvfucPtW7eQ=s220",
+        "view": "https://drive.google.com/file/d/1pC7Nk8FnqZ3qJ6SrgviQmi7jLvwXpcRy/view?usp=drivesdk"
+      },
       "LIMPIEZA": null,
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUdCTjVpt5FVsStkzuJOQ_0Hueotgt-R7QNxyOeZqWmgv6p8ska8wsnseU9o_y2SvqIBpWRwRg0AEl_BWK_eFU195M2_KrK-brag5jOvfucPtW7eQ=s220",
+        "view": "https://drive.google.com/file/d/1pC7Nk8FnqZ3qJ6SrgviQmi7jLvwXpcRy/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
@@ -7680,7 +8151,7 @@
   },
   {
     "FOLIO": "240313",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MIGUEL HIDALGO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -7688,27 +8159,30 @@
     "_stage": "E3",
     "_folderId": "1tBaqV3yCZ17JFyTP8R7u_BefqZ0yReiy",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCNPQJcXWJmJlYwmVQ3gr947GJYBAWsoqMOe4d7ePJIZLTIWLkZZw9w4mfYEPoONjVuh2D2Gl1n8N87Jqq5FoT5X8jm5BkdDTIHdspp0lrZ31T_YM=s220",
+        "view": "https://drive.google.com/file/d/1XZdamjAv9l8zss5EkxuAleSPBJMonNZh/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMidTObHSstv27yrwDiUgNLE6yWFkTSmdLWtCB6CaAUJt-XIAhLkTmYf0MVEsQRPQFjPPqtbLTk3_UpyW4AZk-VIFJ6woFkJTHAE8RpGPvEaFqubA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_i6eZiTOkl0QjXwr0QaA1gr07g77rXiuc7fs-ePwhdcz0bxDl6w0rzt4jCSUemGWRCxO5RGgvG7vG6MZbKVUXp1_4szpe-34Phmbslawc1xAfLYE=s220",
         "view": "https://drive.google.com/file/d/1DeFDuz1Zw2MtOT8qjfGBT_g1bF1zrqLp/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPquUiqkkLjg0d9Fp33_eKuqoEQ6_HmV2gMFYdQ9wxbqt3Mv47WGUF9vK6NUDLIP2lHgLFcFGE1f0D4ihYyuLX1-JHlaBx9fwGAzxHGIraWnsSGAw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPghsPXLFzD2HEZLSy9V_V-mIrOCEMiOmcOitgQReIwGBZ1-eQ0QYywik75oyKlhl8r8FJN2VTx6l_MdGBp9i2z4SzxuZpDtt9P_TtqAQPbOF9z9JQ=s220",
         "view": "https://drive.google.com/file/d/1WEX4FQhQwJWlovXQvsa7FOlayYRAPbr6/view?usp=drivesdk"
       },
       "LIMPIEZA": null,
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPquUiqkkLjg0d9Fp33_eKuqoEQ6_HmV2gMFYdQ9wxbqt3Mv47WGUF9vK6NUDLIP2lHgLFcFGE1f0D4ihYyuLX1-JHlaBx9fwGAzxHGIraWnsSGAw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPghsPXLFzD2HEZLSy9V_V-mIrOCEMiOmcOitgQReIwGBZ1-eQ0QYywik75oyKlhl8r8FJN2VTx6l_MdGBp9i2z4SzxuZpDtt9P_TtqAQPbOF9z9JQ=s220",
         "view": "https://drive.google.com/file/d/1WEX4FQhQwJWlovXQvsa7FOlayYRAPbr6/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": false
   },
   {
@@ -8073,7 +8547,7 @@
   },
   {
     "FOLIO": "240274",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8081,38 +8555,53 @@
     "_stage": "E3",
     "_folderId": "1jhOoekFs-ZXuAneqDCQ7dGQKntxcq663",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNdoJiAGFACzL7dTZCrhLphZfYMu0GHnP7ScTTVc4TPBpYHTYNaX5Zju2e-JLpE4HCM-H_8bD_eRskxsw9B_Ps5A1ARBD7mSB2q9lKO1-Ki6Q6UtU=s220",
+        "view": "https://drive.google.com/file/d/1aOv0hhGTmR-4Ct_aQ9eSlnJpKlkSCx2B/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0xUaTFN19Jpmna5eHtXKV34XfP3daDC4TgTSEXAAQRrcMsByU1DX1D67F3Rzb-UzwudUmYY0CA9EdF5iCXUUcV19Jc87GIYJ0Bh_iFzp9BfW8bsk=s220",
+        "view": "https://drive.google.com/file/d/1AtuqwOFrUYA9MgCmUN7OD4wC8-6JDguA/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbIdDbTYfI1670GpeLr6GgEbpZkfg_EriIcNVe_hFzINfrr6n7aQICx-Za2iZbBFkKJeCc_1dk5AfFzpHEGWkYeRPTspwOcXVfMffqcbpEAIB7heU=s220",
+        "view": "https://drive.google.com/file/d/1X89xWggInhUsEmjruSek0jZEoxvJ0RoS/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTsI2zBPHbVr8Ju6j9lvvjU1g0uZGpqHB1UlIwIYM_H3SLCsweImidqSFO1Io8kWO1sm7Bt-XvO0jrOlmnV4e6TMm2LxI1qkAtrrPABCfvW_YLqg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwIWhUzO2o6hlq8oAqMapOXYj7rLqUIO9gkRA55epvz5CQ0SjKsxX8WH8fdDZNW6e_xX1tI0aFcFbKYyxB5w0sPSIG3nZYZSwPgA03a4nz4WxMMMo=s220",
         "view": "https://drive.google.com/file/d/107VUZPPYnENfwWyv2t00gyEyUswf43WO/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqCLJT-PTStqaaZukWMIda6w33ygX-APTSvdj5KtmNx8ikHDkUGsdCsngtGJTc1HFkj4Bj2Qo60LhdKzfD5Gl8eFGy5ylRwmRNqNkUgbkX0GiPOA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVL1kTT7Kzhvuve6FDnkAZcFZAS-V7Z_3ed5tLy_C3Kv99fP9GNB74lo4OWo5RjHxKw4xke71Qhf-FzA1jHip144NOXBeAFkzUbXbAkJXEtxy6GzY=s220",
         "view": "https://drive.google.com/file/d/1YZK2bNVOmYA8Hehr-6udvNosfGwb-_Lj/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr1etG1Vsm3X5Br5XNt5V42z0bJ6QtFAHDMhlRT1ySwWUtMNzQvnej_Nnbw2GF8xoaYKTIG61zD301Ajj9nEXI56GHywf1as7px6X8HJmS8lV0DA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORQht6Qn9kqIUOWwy-EODupco64GEyS2_vbg4CaAsDcqZV8vGk6Lwggjjx727fb42N0vNWyIBg0A6HeuvWAmemh8QNbn_kbihFIOaQIcMDbktLLHU=s220",
         "view": "https://drive.google.com/file/d/1vWD1vinnxaG3ojXEXHzmX3rkqIIhC8X3/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2pK73Tekm29ueGyGOKoQ8eH6PLF4adFiXRjZg_USJ3w1anKxZ49aVgtj8tA1uHPJLbtS5eUyJYDp_M0nViTedlJx5OTQWcg1Weut5UVhkUhcPxA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrr411dFH8BuzN2zp1RB9Y4f2W3i_TU1dm3toYfJAiI7h5ln-4AC6gvLvjbPZ55YajsS9CXmNyEz-Y3e7SmNLD0Ns_5IVNGa5HsvHhUoKPPRALihI=s220",
         "view": "https://drive.google.com/file/d/1wXPAn_zDLKxM0kYPaKXyf2jFllAo2BJL/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgjnQu96fCNpcOnY88VHgkrvOU_73odfqqPrf7e6bZYVEnzFv0F4qabtfgoXe-5ZiIZiLXC0-tA-lnuA_bRQbfmzJGptwQhgL2oRnt8FbrBrZvQQs=s220",
+        "view": "https://drive.google.com/file/d/1Vxu_JMA4f-_7XNF6fhjL5pOaN6N-wEvj/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMi4b75W1UYIb9hAK2CLUAlABumSpQl9uF0ga3mRIYcd40E9iA4IVQrLfF-BHnVOR7M-w2i0g0X5223FoLfAD3l0GrPOXVG0skK1Y4KUKreTnq4Hg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUgTKNE96qa81yhlwFI6dlrq6KMaLm7t_j-4NOZrQ8eppaxXyMp_b01xYOE7F6A5NtBh7kv7zs56IDduMbvu7CciptG0_PJTq9aINTzyPVPiIcHI8=s220",
         "view": "https://drive.google.com/file/d/1aVRFnu7Ckug2IeiuycM3AlX_wt0Nq6EH/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgjnQu96fCNpcOnY88VHgkrvOU_73odfqqPrf7e6bZYVEnzFv0F4qabtfgoXe-5ZiIZiLXC0-tA-lnuA_bRQbfmzJGptwQhgL2oRnt8FbrBrZvQQs=s220",
+        "view": "https://drive.google.com/file/d/1Vxu_JMA4f-_7XNF6fhjL5pOaN6N-wEvj/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240275",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + LIGA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8120,35 +8609,53 @@
     "_stage": "E3",
     "_folderId": "1SSbjLjrZqs735fGmlhpAnRxTEBRX9ro3",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMi8CM6ds7_UTdgzjDUvDY6UqdibkAAWJ0ZVdA9EIcTDa_1oEdeB1sviUIOm2hd9R8Kqn6RNxQJUQ2wbqDkaV0oxyQ1s8SUwjXWiRvs2J0VyIOgXSc=s220",
+        "view": "https://drive.google.com/file/d/1ndNgmqRhxqrIIoF8igEH1bGY03nBvQCf/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2boEWjRRvMuq4BnAAuufo1okJRpWHnfYnKcxUbuzkROehmlbeCK59TdTLRMIXUjQtISWZD3arfVRIHDIUplM7g2CjbY290FNqXvg5nBixOrjPhBA=s220",
+        "view": "https://drive.google.com/file/d/13B6pUCNm3-37QJHu9j5A8zfY_gXkiUe9/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9a2HHyOCTrINHNaxnZx9s-shQymSvHjv18Pgkfnc_BkHYLlTCzvaBionP0TLFJVFUeJNHCgOsCrCL21soEOPAPlVY9uC76OJRMGF5Ex5tpB2GzMg=s220",
+        "view": "https://drive.google.com/file/d/1HuYHAkIiJTa2NMQx1h8LT42lmZvk-hTz/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmMF0nKml7XDGurqUWN7GT7BffZvUoIZADrVidpBU82h5W6TR4-gWEEyjd6Ol4ldPI3A6eh8B4Jt-2H2kQnxf-3G5V6hnu997TDdwz7YmcxMPTEw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMctQguV9EVS-xnqsb9iSVX0afwG7xlj0AQQD2Zvh2AKE9mMSsb2hEBhImgnuXDz3AiAdXLhwYKj_kaRKdn9RDVcydOFx5dvbZI0jHATbGLBCnWp_8=s220",
         "view": "https://drive.google.com/file/d/1HHSpv0kW3dDjsCRw2c2qugaoM2fdnW-q/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8RH6T6kzsmG2oQj0o6rhT7jfK_QATn0MbUDhrnWBazTPEYTWpXN7cVarOmdStZ9g-m2cvdozCfnNV--TrLAcVooTswFFuZHF9_mkcVO1YKZEmHw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhVE5OOdvItsnvO5bKAdqDfYhLSV8DNUyfMQMOThZ6bRSjOL6KhrLUgOcBZoFBq7jI6ShqjXElRzqwHresN4mUmV5dOXzfXLqDu3NRAQb--4bmTCI=s220",
         "view": "https://drive.google.com/file/d/14J6cU-DuE2Nk2Jg10lSbLTGlc2BEV8NL/view?usp=drivesdk"
       },
-      "LIGA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNu6G1UkG36WXRUu8Qb29oGxRGwPN0H7Ldei46NJIuWw5vMpm1mJWj3CTIk5Qw-yHPzNoloRjTePwD2c2aAtd0Um6zLWu531eAB5bm2nel6J5p64zU=s220",
+        "view": "https://drive.google.com/file/d/1EJKUePq9dfGVN6R8Ymac-a_LWU1DLtWH/view?usp=drivesdk"
+      },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOabddTFmv1HKED6Lr2BHOUPOeITz0Oi6qaMiuQ6zOoR68mGUMCUhx0v_OrOXi21NstXpwxKwyv1XUM8VZKss_KsQu_GRgA52Gh4qw4mnZ3z4SZnw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhgpMw2E8FGDhiAAputSHOZl4UQfCJHQPKwtTuKyCR1KsY6Un8Q1sbZI6ltsqwAo3hAamDcsBlndsM1Uc0Bp_X5X2ad_EQ_q2lyMLiJPZYClzH8eU=s220",
         "view": "https://drive.google.com/file/d/1wHkglPZ51uV0Xo27X01pn_OoBwiqdF3h/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL1CsrONHzItjDUxXdAohWROaW0EEUqT6LkZQWFTbNUcQOUDtJD00PuEdzhoq_LvMCs_wsxTJkR0vfuPr6QFkObp0E63rlpTsa91PEXVwTqOCVMgc=s220",
+        "view": "https://drive.google.com/file/d/1MRlpHWm5Sm1CONfpS9LMYekeKu3t6M-_/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbF0cCCgf7w0LWQJxTfwwdFH8OIWUNIty_OZwXHoFjbG4PfLAfEqSPlOI5SId5GBhgIKJpeBBi1zCwEDrislDJ_e3WLhcPItD7xjsZgRU5D6WRJQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqm2oN3QMNXccARRSowvKLWN-ruauu8HgklKCC33HErhOkJW4T_CkRD-Y6i3UcfD8GShPjW5rM4eYyKiriSlUQpuOHlK_xH6I8_ef1GBqMoZ7KL2I=s220",
         "view": "https://drive.google.com/file/d/1ELNjSfiUaIaE8zHrJFLwh_BC0M0t8-bi/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL1CsrONHzItjDUxXdAohWROaW0EEUqT6LkZQWFTbNUcQOUDtJD00PuEdzhoq_LvMCs_wsxTJkR0vfuPr6QFkObp0E63rlpTsa91PEXVwTqOCVMgc=s220",
+        "view": "https://drive.google.com/file/d/1MRlpHWm5Sm1CONfpS9LMYekeKu3t6M-_/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 6,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240276",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8156,38 +8663,53 @@
     "_stage": "E3",
     "_folderId": "1rHAKAnpWXKBRqpo4NuLMBdKYycQchrAI",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWW1fhjuFQ9WJYavEDZ9Kih8-CNhLrSa0Z6KCbvShMLGSSl2DXTYFVP-HC381Jkw4hxlyk3jBzF07VLUDBYnNRXFTpe6eRTIKCR-D0bAeKDUbWqOc=s220",
+        "view": "https://drive.google.com/file/d/1E_uvnxLAOQhrv3ZkPx3z_E9ceNDe3Yv5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNU0JyDYh05tsu4QgMfivPEO-wQmHrekdu8Bdxr0Vpzf3MA0_Zd2JGWePf4ToOqO6dBO0LmPFUsWzPsAE66A3E6DaSIQa-DJ3NhwKPOBhx_Dxvp0gc=s220",
+        "view": "https://drive.google.com/file/d/1oG6YDo30HMdJSA5Knjjq_C7uwvkFZuNp/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3G57SSt74BcCPOlTiG_HV85XI0KdK_K_FDscSDpt7-nNYFkbRU9s9IV4NTI7OPZHSL9OA1hXIsSoBx1uI0NxT2BDuedcr0VvBjsU8iTOG6uMW0F8=s220",
+        "view": "https://drive.google.com/file/d/1SOmGbNovffDGCtflGOo3EPOiiLUqbeu4/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIy-X0WWvqSvrTtC4sSKt_gAv34l96Fm9jIvAP6KezHbOeMOeSj9FsD1BaOQs-e6fkaEpea63KjFKLRS-tqNshsLo3ebWsHJDwLeYCLwGj1FHV0A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXB4RW1yxkBVwN0d0Q0jafrWk7As6loFWA07Mr8SAyDakwLpZ0I_Ahg-87ZwHAdg-FYDPxn3FWb9Zr0ItJH3tPyWS5FKulBMhh1r1TM46Go6FL-NM=s220",
         "view": "https://drive.google.com/file/d/1DremxRBhJ7FinvnukcB_VGtH6x7S5K5p/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4raoLxwp9Cv6b5SrakpXD3nZiVtVxAe9d3Z4a9NoCdXCysAGIHKBkoNs_ZJ6zJJNHWQE9ocd_T7GQGwlEs4lnC7AMnti9lZ3V1QmgDK09loRX8w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBON18k2CLynk6IAeqUYrDPpHMRWBsB15-SHu-TdhEYxrJGuF6ZpXBm4hOjC-YsxqtRs1AMtqsN3YazXDaTFTjQxnS7UzLfSB6gtCyqxNp-wSYBJH-s=s220",
         "view": "https://drive.google.com/file/d/1lOkIyaSFIJW5zAcx1Wy9h2_Ke9vMCl6b/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpG7SXC3jFbZW7HvHJS-YRFRmzA8drM1fd85V6Gn7ZaG_wa33YOR6W6_WpWfKnbt1ad5SyTHOewPQg262QJcNQLmekymr4nZwoCLwgQ5RNpVWFRg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpeXt2SSqvjf0OBIy8WynS7DI3Xd-Q__uwtUgv3t9cF2vDUw_L_mKQJS6RSseIeEb43XbGiSbmyaFxhys-u0FSkRUYxW9Y9GL5QHoMwSyyBm8vC-c=s220",
         "view": "https://drive.google.com/file/d/18HgKwZuee79eAOkWRP7U6td2fsG4maET/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPi57UVIgFGg97RArXptS3zK4lRas1SamXjJ7gkaP6V_GmwHy50mCNBGUjqsP450FOunwgqu_igfoZLGXxTh4RZpstW1RQISoH6o-qKUjxAPYkFNg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0mhaeKGdTU570rBIXYQ8STqccXo8mRD6ppejJObHUsKqpk8zWvzGBG9wqJKYn2K6G5WOGfxFucNKo1Uejrnu9pbQRqAK5O0Hlsjxa_DliPx0BU2s=s220",
         "view": "https://drive.google.com/file/d/1MJvNKe3sgsh0DNkJjr5-boGmhmZRx_o9/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOefysJeFFXgN7VrT0aFbh3iRhUL24gYT6hUZ1u9ndqurGiPYcXu2jMsqPMB8gDK1XlAxflC5au__zXfQxqOtxt7fdxUIVmvTF8o3TS7lzkDql3M_c=s220",
+        "view": "https://drive.google.com/file/d/14LVdwSogAw9vzsdO5oQ17hsPP0IO0I13/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKImdgZMvjRlF1gNA3ABfKaslBmAPHCV2h_KdelOot0dOedLCx3eZn21uz3EovWOwmorO0UStVgifeMOcbskCeLSX6tDiK0dxhVlvDyQLEfp-bSw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnRhiqWtquFFuY8pBqUMqBySGYeimK3VF3vM1iwa7zxM5MYzsJB0NnfCaf4xHhX4RSKEwOVvYlYeik4EVP9eZoW-NvRpjOAYFyFaE1jrmFnHkiipQ=s220",
         "view": "https://drive.google.com/file/d/1q6A1jpMzLrQcVkDIMvVrJ94b-5Ofevet/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOefysJeFFXgN7VrT0aFbh3iRhUL24gYT6hUZ1u9ndqurGiPYcXu2jMsqPMB8gDK1XlAxflC5au__zXfQxqOtxt7fdxUIVmvTF8o3TS7lzkDql3M_c=s220",
+        "view": "https://drive.google.com/file/d/14LVdwSogAw9vzsdO5oQ17hsPP0IO0I13/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240277",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8195,38 +8717,53 @@
     "_stage": "E3",
     "_folderId": "1QYZVUMyi3AmLY9nRh7yGjizHs7kZeLVB",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7V5aDTkzWpaXr8OIbE9evB2jos92DWqcv_V5kHi63RXe5EgfHncE571aIqCUOk-F-hEo57p0UR0C234d1Q2NMjZrKU1dYt9Qqgz63NhnsTkdh2Mc=s220",
+        "view": "https://drive.google.com/file/d/1Y6kllKd1QFodn2wAO4uDSj_UFAwRI_N_/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRm76FfWn2JxL1hSkUypRDja8IpLpWbeotYZ_47kui6Q321ELqIjeocrrGxrfc9oy3qCcKQ_edEb9uZXIjvM1mOebnFUgCVZeGKgu67e5OZV8Vsco=s220",
+        "view": "https://drive.google.com/file/d/1X2f31ti973zkIfcVjkkzakIL43YxYXL_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaH-C39NhywTuq2rfSEnZUDVnwRsMmT9c5xjJ-TD4reLMMurPUMgXD7PBJoc1Bgb4fna3qondO8sOK0olzq2aOXCnqJbLopIM5dkUnnA5oDC9qv3s=s220",
+        "view": "https://drive.google.com/file/d/1wLB2xqw1v2SuBNh-Q3qa-WiJQ3h5wYTR/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNo68EjkBgIhDsWZ6AFj32xPn288-CK1fBNWt4Y0yZC57kTZjDNYAjODi2HkHCIJzN7rzH2CVvLJ2NJakZ6zLq_2LNCEQerCvNso-6vxpxYWUACfA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJVwOVsYrO327M_RM7WJQ6mvzagPm7w0fLBNrs6ecbRajDz1dCZzMOpS7XadiZ62f6_xcmVxOofkdxiXxj3PPYIb9MCVYh34lskrPRdIiQWIDkgBI=s220",
         "view": "https://drive.google.com/file/d/1MR5i-SwevAVDC65foGRilDCHRHBmDxjm/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnYkaC5QuVt0GMUw3FWzbkEa3qanLj_N24VjpzogIUNLpTEtnDcTNn_Y5UmmgwMFTXavaPcfJvY5f243uEKUU1l8UG1kz3ERBv62hpgMIuMDcvSg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOx4pCXNKe-YOD7yl9ZTVOCNvnfw-ZGhdHvpso_pPrO-JkYO6z6pUZ9PQv19pUsHve6xEUccIj_qhOlWB1ZTC8D6qVnoYOa90YllFnZbLUU-OJRIE=s220",
         "view": "https://drive.google.com/file/d/1xhXPDsmIls6ZvJ7itupTEm9AHe0JRA_f/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwo1KcuxxSLvx9RHzjpX52jBnPK5JF_UgjTH9e4sH8dR_4jPCaHhYNOfiueK4Q1GHHU-PiGVBoZviIVOo9XZwPMp5YFrZiAzFMnTuGfO97UjM1iQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7doUl_UO7opHJc09zxc5-Lsc25Sm8dyjACBZmYDuEhaGijaOcvn--NAnoX7mWGo2u-ARLaLkA7AE4b12Lm02ihyvbXqneP4hnBA1Iobq0_gfxhQQ=s220",
         "view": "https://drive.google.com/file/d/14jumwLEgBIXHl98nVijMYD-BrPNw56PE/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCb2JV__W6nQ06BEuYIj_1HrVdBknQwjWgmio4gCXjsQk5z1Ubk7N05VScDQT3Uqr3bHhJ1oKAk5erMyu95hyq-dEXKc6PXfMqYGMdrVKFRhlswA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoCMNNpSl67yrrIquwkGIDmZOSSIlvfxhQmX4YmC3Ne3aL5mwW4A7GXEIu0IdVySdgDWVXBMSx45Mw7TTfJ4Y26uoVAQwz7_HW7mvCGR-hIkpxehQ=s220",
         "view": "https://drive.google.com/file/d/10VdY_16yzRs_GhuPQdljmGO-LJgtVpj8/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM99r7CC6dYsyLwecSwp30XA29R0VZXrAOWrN_ckJr1k-zeKktzXIJzlIMN_3DGLKuyHj1EAcL3zIR6AqTi4uog2DXUHSlJDeGOiGT8HVUFwQQ2hHI=s220",
+        "view": "https://drive.google.com/file/d/1F45LdTO2piP5MAIHhaGWyie2KowdOX3_/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfRCxZmWDX3GG86N6Q2AqAL82PgCqmBNfnPN2YUbfJV0LKjurk_jebiuIOhWf5-6NdnCoe6dWtqPlPzcjn9MP2jxOqZMJ-ccHQ57S3OMLkmUDF7w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLee5qnh10hkEd4atRWrLzf69s00Rx1aOlTX8TkSwCaNPfz1AC_inpJaOX9-_m8mnITDMyww15W2MGdZxcNt3wnx0PDb9pIZt610C7GxWXBBmBwAA=s220",
         "view": "https://drive.google.com/file/d/1Unml1JpCsgGpFtbLCrTaQPn_5lsjsO89/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM99r7CC6dYsyLwecSwp30XA29R0VZXrAOWrN_ckJr1k-zeKktzXIJzlIMN_3DGLKuyHj1EAcL3zIR6AqTi4uog2DXUHSlJDeGOiGT8HVUFwQQ2hHI=s220",
+        "view": "https://drive.google.com/file/d/1F45LdTO2piP5MAIHhaGWyie2KowdOX3_/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 2,
     "_isNewSet": true
   },
   {
     "FOLIO": "240278",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8234,38 +8771,53 @@
     "_stage": "E3",
     "_folderId": "1yQg0_p3-BKaDnRu-AlXGt0GknZV75bv8",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoG2JxHwqnepn27ZNKnGEbIx_S7iobh_1ILd7VHsHQeuSaUhBtjZzIQaO_Pqul-eNwGBsuHkbvvBlbC7z6ra5bj8KjOwCnNPbjyARbiPDL5GAC7Do=s220",
+        "view": "https://drive.google.com/file/d/140Y6wvC2sT8LYoIGwrcxS2R5eGYWQWab/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjTn3rGAkH1JYc_dNd7tYPnqYtCW8mbEm9W1WJMw9iWfljdStfIb9IF0k9jzCj3B8-yjpnEZn0KqKNx60uHopzXqlX8EBslCWWUc8rSe-CuTumGkg=s220",
+        "view": "https://drive.google.com/file/d/1GOqNq4YSqxZ84QQQ24EaeJbWEB52EStn/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPou0i682rZXyT6d8tQ-GpzdKzd2rI4hpMj0ETMRioOR9mwXzYEZBi535goLFVXPXf0YpAc0yzFT70Oi1wtGy0MFvnwu2ypP2CQUrNxq_4pczkcX2M=s220",
+        "view": "https://drive.google.com/file/d/1ufVJLTxayXd0pNFhNvkUPmzwqieUmx3C/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKDDsFeTZjMdngZNvkosnwU95FvVkWlKamwtyBuUtO3QMw6-58s9eI9TM1LDlj-hHcDBIhVhpSIh8ZmB-97e93kHoxmdKdVOcfH_6K9_I9S89jPQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2kP8DZi-xVZUj5S1YTkPhYC1W0RD_bl-aAWGxhfjTeB43c6Je6ctee092l_n0pN5H-vxdyUk4n1YkWe5URfdsOnx1rmFLwGnDFHqkR36MOlOtyvk=s220",
         "view": "https://drive.google.com/file/d/1-xMzDPrMzcltzC4aJOmPS28WyLNVnzj7/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdJo6Z30EA5UtCOFeLUHny01Nk5DAXiN9qLp96Q5EqRCbgrInBPKd7iaK7r9BoUM-S56UciZwSZxLiCLCe3nHRcL7TVArglDoXsLbvLn1IMpFSpA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpwlZ8CJ3pzgqpb4rTAa9gQZI90VLvlCmnuJ51Zh0EqrLpDcNkDU5P_ds9aGRgKp_Nu91t2DfYAxhDFAKhpQ1ZaCqxb08SugUjF2FVEtyAC6zfZU0=s220",
         "view": "https://drive.google.com/file/d/1D1BKNqbNutU_M74MTkr6e0DqTngY39HV/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGZCprxJYV66Xb0pH34eccWVMnqF6gtXH4Hzd9OYAXzNf13XXD0DSs4fnMfFi-8Th72EQdPMbu3y6E8SdQbHLw-ugWLP7mVAVr_cXhtJIOdELZiA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_-k6cT5w--lfvsjqp9vLq25PI1ATHQYeE62LSpweUpc8P0SOqJYkfiZKkwQIWHWO3qlTY77gPKQmr7Dl7YlYR3w5hsMPPGzw93GXr5I_vG1IR_GY=s220",
         "view": "https://drive.google.com/file/d/16iPNPFf51et6_Hj93ZiO7wXj068pgS0c/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8d8xg5OliiolcuKnPSkLXYa1QZv8MbnEJTzFdX2xmvHHtaIVmLQ5QcXgrYTdZCXLsVMKfO9n8OiEO1EZ6rOe_lb4_jlPFh9BW8cFu0g9ETvemRw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTKVmWuBjNLSkQxRh0yAOSqHhLCuSr4EaWTPKmUWqVdveeW4vVgfgbDMqauOsVaeMmrTukN48KL1Xnast3gH6maoBh22wh0xM19XPiNpqDNEq8O90=s220",
         "view": "https://drive.google.com/file/d/1ihVTPl4BZWdZoAfmh-GK5PLIXnupqi9O/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6WpW8Hfocd5S4D1l9lLk5W-iD6iW_ZePEJW0g41yCPM9IScFylP-B2UfHcl0LSodq4Qlvgtubq1dr_3KwyaUi3O7tfNwR834BPbaqQbo8nsNt0o0=s220",
+        "view": "https://drive.google.com/file/d/1VseqGSXbrDzXNaqt80uA3iQlce05RuBD/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdqaBZbNp-B5g0jGy0qN041aaO3gTiLTTtv_3qk2K7no0zD2T3R93Y14cOc-WjwXBLwERb8i-GmkJ2QjAyDdIbBKsB-Mlp3JyqOKfw5XUeZOFDYA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFxbtv8_MDlquvjEEUEwlt1opVvZajRwm96WMpHEXg5pSO6zwr0WiwsNnTZARWQQmIlHb4sMuUmvxCCcFVNhvCpUnecDQ4dhjfI09tnPcPdDeNdGM=s220",
         "view": "https://drive.google.com/file/d/14eoNeaJpfl42PC_wps7Dh27qRvPzGzqc/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6WpW8Hfocd5S4D1l9lLk5W-iD6iW_ZePEJW0g41yCPM9IScFylP-B2UfHcl0LSodq4Qlvgtubq1dr_3KwyaUi3O7tfNwR834BPbaqQbo8nsNt0o0=s220",
+        "view": "https://drive.google.com/file/d/1VseqGSXbrDzXNaqt80uA3iQlce05RuBD/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240279",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8273,38 +8825,53 @@
     "_stage": "E3",
     "_folderId": "1LS-dG3LPEWYC5UjboAvqSLOXGVSNRwod",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM19VnDWD_OVUas9VvZkODL7it6nOhn0BtTdKi6_gQZn-XUX_kkWvlnnUBFR4TJPSXSJ3RjU8mDT_QuO9Hl9BRVjyNPci3S7rOM91fLpMcw495BCuM=s220",
+        "view": "https://drive.google.com/file/d/1t7gyLui4qsR695tBeCiCe5S6NPxeaEji/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMijD9OtYYe8Ke3PguyNdoC_WRvqM-j-QIpdZUa0vHEARJmc_YHWjLe8eScjZSYgu8oTv4ld19L6cOjK9qXB6rA3UDIrz5bkGIb4b71H2udCGfIE1A=s220",
+        "view": "https://drive.google.com/file/d/1zXH9L8u74QLClKoKP6WkaKXMKzhz_t6V/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5Il0dTDXVGiIcWHo4C4C7Nzeh2B8FEnIQtZUkOnCcjB5pQIoDyxCXeu0u_jZ9p0IYkWUZBnN2QnLvHs-QVWzZJ53g4HYCZ6LC1KWDUelbLUnfmGA=s220",
+        "view": "https://drive.google.com/file/d/1ZD9G5Z8LSjJdHvdcCX4ShKoARad0xmgK/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNydniNP3fOGxgUgu4BrWZMkhFvbAKGL7pvSmnGxnlj7W3zMbc45YocoUCi3KeM9qye0ezCfclv_gUpOlkG9TAY6PgtoXhDTcm4oFDSLhAyk0rcVA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrvHL-uNrcPEPCBO2fOR0ryd3R1IM5_nsn1hpjIpmY39QCyBc_RY3S5BTdzpfDh9d3hEYFsLvfAv3Y1ZBsodowPsXb8ejc7ZJzhSQdihlIBZ7KUXo=s220",
         "view": "https://drive.google.com/file/d/1A4Nc3ZG_HqmyhqMiyGt4o0EhIJ8HtOKZ/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEbmJbJf0EOBaXeGzHusHBAT3Zf7abR9TKZ6nmBZ-EavCKxgaNoSF1OAKPbtwBQIahFBpXuZ8PfC32xWarpiQGjkcg9NtYfbrXhtqb5fgJhrtnEA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZfRxFRqDkBxLjtvkBbBlpojzWBV5s1knnh8dCpF1IhZHBE0i3WTiVRy5Rd1VC9Mz7AgsyYRZpNmt4soeMQ8gFfG33KpBWSYc4kgY-OWkJKPnykUM=s220",
         "view": "https://drive.google.com/file/d/1RAKwpYaO9Gh-es7k18OvLYOtcHSxVbWj/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO12uidgO6ramgk0nmmVRFpCYyq4pWc7LAW_FRoODhN6yszDVj5IPA1_NAu0zpck-auKnsiNv8ho8v90Clr81YO_Lm2SoQiIrMmDaG3zx8M7JJ2kw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPw9h3e6v4xYW2MBy33XyqlX-fHi5qJ9m_Roqez9M78zIB5KpkyN9aH5uHK2jj5ptsL1X19mbB-9-6rO2e_-7r2FtHHla9ouJD86ThSGotRoNoKTUI=s220",
         "view": "https://drive.google.com/file/d/1Ai6AldYxaRwH1lkE_T3ov_8BjI6RiDV8/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOa6UqGZ4wpRSKbW94WuEeCqPN8oDNXsl6rJahEVZqFcPKuopb0g9D8KB1I2VIR9nIMBy7DJXJ5pLkyZnEi1eiCN3nDZucNZfYrNVvNpwC2-H21Ew=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPd6s9Fr9_dDaJMY52JzycYWN_Ulee27Hj7GD3D64uCE-Uiqz_SjGYeGBUAZzUxULFgn1k5FOL5G3ZlK-wwEXP6zAmaKpMPk6fzSQbDONvaXZVIdIk=s220",
         "view": "https://drive.google.com/file/d/10lJO5c2qCxqjiTgBvP63AVhY75FQdPJX/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWhCquuPs76yc4A2LEDe5SL-IOqgBWIcUCuTk8z86y_-RGbKzqRrr8Ot5BDwHxMgTLQu9RTf3WqndVJT6KDnMXGRZAOQa2-qO_OZlXH9UCayW3EGQ=s220",
+        "view": "https://drive.google.com/file/d/1OG2MrOhN0XsLSjU6qa-GxKCOg15nZMxV/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOffoy6PYU-RfVs-XjVbhvdMSAeifp64G6wF1l5E1WutbKPh_kpuVLMMCVPsM56yjqaB46gLrJEKbjuPuxmz7I3tIiwuXGTYz-bkzWqkpJ_R8PwIw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbDPOKTy4_W_M_nqcjEo4ke6HAp1CKIYmcvQzTIVFQD-hZLvVUR2qdr9JH9EhQdbaelQQV24FwAuOH_X2DHWjZbzvETruP1ftesZ4kdnKMVd6DgfE=s220",
         "view": "https://drive.google.com/file/d/167LmuawvXT-8TF9KP9VfTLnYqrC1dEBt/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWhCquuPs76yc4A2LEDe5SL-IOqgBWIcUCuTk8z86y_-RGbKzqRrr8Ot5BDwHxMgTLQu9RTf3WqndVJT6KDnMXGRZAOQa2-qO_OZlXH9UCayW3EGQ=s220",
+        "view": "https://drive.google.com/file/d/1OG2MrOhN0XsLSjU6qa-GxKCOg15nZMxV/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240280",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8312,38 +8879,53 @@
     "_stage": "E3",
     "_folderId": "1Qk76QctDw1CBhT54AoRbBJkjYGFMFD_k",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZ_f1CXPAw_AOV2JXxWncbiYIKNJokxutxf6dYnqlmjEsSUdL4AE_GibUIsFee99CZMjtgLPzF5epCHy_EVwwDBG6oYcoEKkWkhmzDJj5OlRojEgc=s220",
+        "view": "https://drive.google.com/file/d/16Jeg9MNP56Y6oOZ36p_mipOFmdpJKobv/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO00t64pp-GJvKuCmPB3nPP8c3mX7kkIVt791a8kzMaB__OFmIG1RlLTIXIIhlajWYJDKKg_mvEiLLz_ToWL4RqF58KEy_UvmbkhZgDT1S28XkjIW8=s220",
+        "view": "https://drive.google.com/file/d/1QpPm-RJptbedWkQuzqteZFpmpkJBNCnr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOW2om7iskdOBosOkjLlSyD0jjzWJfmRpqEBMadWiARrBnMSHCFcKZHqDrLVXQdCy093lJEOuRROcPthzm6y3OsTGV-Nqp9Uvg7JVRrcAN1rDIFgAE=s220",
+        "view": "https://drive.google.com/file/d/1m0_CxSZFUTYLsm3gtq8SofKkyZY90Pgi/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzDQaUYuReOUqNuemaYPJOfg2e1Zek6Kcvyp3Q3xML7MuPV_8Fre1jIMA6bVn9pNXvo3RMZjJ-RGSFLDmgHX6bK8ZSPWlFVsAmifBDwoJB0j09VQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNglxC1bWKmmKvwyG8zosFDWjtXuL1ZAWafo7gtXP9QNpsz_LEo6huE0fZ9lYHpIE62VBLrGR56YBqHjlmC93xPD2vfoR3crAgA9DpgcgrHqkiu-zE=s220",
         "view": "https://drive.google.com/file/d/1isg00t8CMXIkqKwEyC9jtLwLRHJahu5b/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDjbvIXDVi7QxEyoFhPhirvwQ_71xp5SA3LaJQAGrmju4Aedz2e9b0XeQtw6y6LDyNopBEpHyJoywt9xs9C_Zr4b_N2lVhWxNvZEEENk6cxvdckw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODZ1mwswcYIpy-lNWJrLccUPvtVevwliCTtMYbcZi-iVKEXcogG_fNJq8uU-MhxFA5p_mkg5FLLeWdSI38lPatoAuVxksFG03Q96cruotUE58ssJk=s220",
         "view": "https://drive.google.com/file/d/18pf_WcHgZfdTcfiBySdUJA9rOcm2x4yH/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOijNUBbcpjIcAygJaLz2UfzwYml5Jib_AA2tw5YIGAyW021Z49SjPFYmzv_SdxmphCvbRrzv24KK6AGI4BD5Ns98ArnIs3RpZGsYYS9vbt3vPvOQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYfErNVG4o6B8CQW7aWbjLtdbiaotoS9K7ktABjTePpWSTB1ynXPcSP3_HBnXeFc0SRtBb3a49VISLDnvtNjP_31uIAir7fPB1YbhoxEX-rBl3chM=s220",
         "view": "https://drive.google.com/file/d/1ullKfsInwti7UdJXk3pE7KC00pDS2mxm/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIybgkp8nod0ZBWKVwVFEZQP4M6AG_CDVsepM9n-FZ0mq8lF9kWH1VuOD0OGTS5KmIwmHkss6wvbYViEJU9ZdbVPPWiRyHIcxkJpui3DQSDkb_7w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOs8jlrxmbWBGKpwCzQXoBjanVDQmLL2Uc0Kj-YUv032Moevp2V8JIBrWevVqnOLu9XMRWwecrFrrIrQaawC-W9ojv2uAzhn4hCeifk3A8-zN2U2zw=s220",
         "view": "https://drive.google.com/file/d/1QlQrYDDNUZhYhkHUdb9ncfvvDzvdaENB/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaTV5PFc5mxy50KCcbLm23ki13GmldTLBaFRQQ7cQTCEEDOqTZf3gVPtFMzZ-Tni57RV9s90Y0LmXNSAQwzGNRjx600OGxIknnyw0KxDPk4hmIHCw=s220",
+        "view": "https://drive.google.com/file/d/1OEZOZGvsVkWkpZVceUVsZGgKpo73DkpH/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFRJRKpayAhlLabCkOBOmM8Ji6AZU7tAzfMfru7sBsbjm1KrWwz8ZUfVWcdit-XHiLRHWRODvF2BNKVeB_NKQtikl-ubdpY3NvBfO7b4tJbP7PTA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyL7ir0p49RVQ_va7bIHOvOTT0jcA3ikWWJDo4GEXRMsyQMpSVmmnI9Ad21Bv_RaKHssWUfl7swm6Wt6N3pfHF4BlfoNrySO25dvKl9uAuwGDYZa4=s220",
         "view": "https://drive.google.com/file/d/1myRTmlfBUZ6nRmQ84jKGGkWmgBfClcxi/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaTV5PFc5mxy50KCcbLm23ki13GmldTLBaFRQQ7cQTCEEDOqTZf3gVPtFMzZ-Tni57RV9s90Y0LmXNSAQwzGNRjx600OGxIknnyw0KxDPk4hmIHCw=s220",
+        "view": "https://drive.google.com/file/d/1OEZOZGvsVkWkpZVceUVsZGgKpo73DkpH/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240281",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8351,38 +8933,53 @@
     "_stage": "E3",
     "_folderId": "1p_ZjhdSLfkoI0pXGLKjULTy7BEiiMu_W",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiR7LynLTArE4U5pZhCA0teNdoSipjHHn-PTVlsrNmw_qdwIDjRSpu8ctf81ic-M152TY1o3jgEB38P6evS0maahrUOmeCFYzfa4JkUYWHcjFAsEo=s220",
+        "view": "https://drive.google.com/file/d/1eMhhbnmFepa4UHoyjRCBsuxKpuapy2xT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9bKi6tyhDmrWlem0nMqP4CZrq5AXGtFDV8fFnjgpwcgAhOBaoFYZT77G5amhaorV9iZgWVr-atyuQv4hG15WOVreKiRT7pgOvaULROW2H3WZSVH0=s220",
+        "view": "https://drive.google.com/file/d/1QM5W1KWtgYeQCI3XB5n90NxIVFJ7g5QV/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKMUWiH4HWN1BSJEnAVzqBQHjcUewxuLNvKNHYvikLBLFs3k8KfXm4HUaY_n9mfZ09mgcgu8XCD-3I0AjZBdeSnXpoXozi3o-YxgbQ1IrDivrpdNU=s220",
+        "view": "https://drive.google.com/file/d/1xIkfXfu_PKS1GlFfEVCEnPL4fAn5Ggnr/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMk7NYXZdl__LQps--SwekeRhq3YarLNkiBCQlPBwECbS1iV2sLTGGTSV9aWzqOy46Y8glJ_HDEDq8NR87eWVcTDqYvGShOYTgA1Pm1UcGUmYqy8A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_mPqKjBiWRAYdl-MzjDo3tWJLr7NS01Y58gWcb4TJuqphyabv0XMZC1lO8GjnLRsz4EmX9eVyaoxAzswwJbOuqLA74uDPdMExM49Ucp80E59ILEs=s220",
         "view": "https://drive.google.com/file/d/1JjFrUCu1fciOGfB90fotc7LVbCvpnzYg/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnYssj1BFbwXMDE1se87eUrr2jHFBKMZRw8fOlh8VIJuV4cw3_WgSOW64RtXJ2SuE3xCVQ2C8ZRdTfkDtvnfY6fP5rqUCO5knMTRaEdmbJ073Jcg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNy93LUPMHTMCTfexh_nYv9c4VqMYcLmLTMCJCVs_UnpTFNReVwvUs2natmwHj4MwiOrXzhvUsKH0MEmxDo_dTlcn46qQGK2FATywyqLs5PzRr_Zw=s220",
         "view": "https://drive.google.com/file/d/1XqQpkUfeTaLC8wrmHDKkFU35egeAotJu/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUWo1AXAzg0xCQmnvPCxsNbI-HGbu3ui_780DCVKcOb9Jb3gnWkFQQQ5tMipUXgksej90p6y7Clldm_thWw1hllj-BLqHYGbR7FHmuETXEe7iovQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9b1lQfy7t2-0h4L7Hf3ALjKoM4psFScrNTez9RexZLMBfj-RNh4BABzUZx6osPJYJxv9bbf5bXemvTWx-XTlPk6KYM8oTTYyUJYI-0MZ8RxEtHfs=s220",
         "view": "https://drive.google.com/file/d/10SA8qBAw7--XIf6B4grXQ2tZuP6jLTHV/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCv_PonewZhmQC6-kr2-yzr6jxnqdzEoWY45N4wFajtyisyIlbAkxV3It3HvKueSAylUPVE1BvLuNYzKTd2xlBZ_2RHq4O6OwCYQBWqhRlrRrpPQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNd7xa5gl0BPxubS5kY3T-CbzpOofbyTpMrTbVaABH-s0-QGXIvv_ghLmsoFx8vBq0elUFrahsWYqXyptHrm5BcxiO_zH3g360mj_1B5TtJxMQw29A=s220",
         "view": "https://drive.google.com/file/d/1Ds2k8z4z-A7k3egR8LA7VjpyjJF9Pkd9/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8z6E4Er9L7yuRyDyYB7C5fD37l1fjScKLEg1XFJt4RhZgZm5XhQdXL_XYRLikOmn-HlxvLe38pkiW175AWKXPIcIaaU36slgw9VzY3kqtAA_vglA=s220",
+        "view": "https://drive.google.com/file/d/1dlDSuGKL7GtMiREuzj5y1bV0pY8MviyV/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfu3eVLGKyE4-xI7Slqy_yXNWqaQm7_UaEFwL6ij4_oRd6eKoYIwtiU_4_8k9kyvByI1adlb24QGRBmqE-jt_FzN_ixpAgHDK5agwOXm4JK5eePg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmmyvimGwmQyddO11rXrdXxwfdo8mvWdnBW-SvjBP9z48YxTHW5gr_IEUSKgWOMnngB3c12s4dIETrTvV5zn2w4CxQmyjgMdVbmwsp_mD2QPJZcgw=s220",
         "view": "https://drive.google.com/file/d/1cbfB7iT0_YONq3qcRa1yCYNwlVdj8NqG/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8z6E4Er9L7yuRyDyYB7C5fD37l1fjScKLEg1XFJt4RhZgZm5XhQdXL_XYRLikOmn-HlxvLe38pkiW175AWKXPIcIaaU36slgw9VzY3kqtAA_vglA=s220",
+        "view": "https://drive.google.com/file/d/1dlDSuGKL7GtMiREuzj5y1bV0pY8MviyV/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240282",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8390,38 +8987,53 @@
     "_stage": "E3",
     "_folderId": "1JtPXStPX-57rm6Xf5Ncu_hPeeaL5M3Sj",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxV4rZZ7tPfh0KOuCj7U_bLoUN33w2x2vGiDJaK7zQtyzbSgomr_cYtynQRO67WY_CfQrGOtvOYQODg_Y33mKjveAuRH3TyRbUqVV4NoZSlwEmjCA=s220",
+        "view": "https://drive.google.com/file/d/1dDStUVZnz9EB4FAO9HfbCsiJJ8jhwiW5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUCe_jRli-o14uhB2LUVFk8ygwWrLM_xDoIvfwVkuYh542981UDeOk-dqei2ImslCuNvtFGQm_k-4il-4-eIgTAzgfHfb9nEZwt9v-6PF3WHmze6c=s220",
+        "view": "https://drive.google.com/file/d/1aD8N53AZlu5UfvinGv60gDUHFfVeacjt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnD5Gmtr8P5auneVE3lbOsTqpKbvwpGqMBB3gZqTv58jgRM_XyjpOcDI6lYIfyX-NaJAAGPweNicn4x2vmEcIHB5_zru8jSNx0TWsQA6THuTMkhBo=s220",
+        "view": "https://drive.google.com/file/d/1Kgzcnq5unE5GZcFGslz9EQ6aObhcGBMN/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD27otGdN72JU8I7BxdLtRE8VurSixgCpHQyE-FkFD8fdc8OQSrw2UAZZIe5-3AC_rHlS1-8xKr3868C0OCUSvuAGC1X-v6oWZD7cLorzjaXGGFA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNWIq-Ku3ffL2lm5FedAm3arC9-pERHdspyfzNxRSgZ3d0kWCljjXh5B-8_CaO_KM8bmN9cF2B6fHRvbIpj52GrwV-pPODkFr7iD1I9ZTqFcfPS5k=s220",
         "view": "https://drive.google.com/file/d/1ihyJBpX0TmrMyaQ-OyDFLUyi_aj9gsOA/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOBFrUzxs5yAfhxey931CHssZz6xpSmPYrFqmBboP9YrpX8kksZ2UUzRT5GzF6KUWRGpF4gxXVfY5t39D5P70HpkIMUczP_rHF83z5KpRP4eyymw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtpn5dgPvQ1klfyVQ2GGGFoJYmDIkiBEj_xQbZp2fIjjw-6RozZvrRNH4y7DRzixhC_P0CpVf48vKdoPUVt2FUmu__PHpIP1FskP0LsG5owOtqY_U=s220",
         "view": "https://drive.google.com/file/d/14E3NhG3tglsV6SblidrOyE1gXLNOW-b3/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNV-V1dxD8ZifmEd2f_ZFVd0QHLG0Z0yv3vepw8adG6v0GFgu15_OTKlgSCtEAHXih8E-EaDnGLD6ikCEiBJ1FeclWy1RvlOVQbK1iJ2a4r-vTi-w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPamdwl2-BiZjY485g7LPiiZweoPoEU_R6uwre3_6fjkzC85n-kTYtEaT4L3q_xr02Hfsj5_6zii-0Q5C4j9hPFjOKfAGprSjNA_C8cgA4hCsx_miQ=s220",
         "view": "https://drive.google.com/file/d/1KbFn8ujVsNRdAgnP9Iz3nzz5gjmAd-dm/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMe4VCWOJGW9RaepRKaVZPKEGKXHy7QcXo1GMY6IwC8el_PdX7Pw3dZPPqHg4AE1DGmD_GCaelYhTVArEzuZJ8fEDqbxcQbQYR5AFr9PLz45v5ZYQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5ZePsPkWq357nEI_ik_t24LJSxK18XW5LWvPdNqGftrWhkgqvvVC4bPuIyCoflzrkL94vqDVyOTtCSB3XQ1FnqARywHcszhor2dZddzuJU0fBUPU=s220",
         "view": "https://drive.google.com/file/d/1N_LVYPWe11ChAfjn2lQet4r1EY1WgE9i/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONg4BNWwgzKUz3S5Ti6xOU9kbOXVogw1ufZscQ6ahswBraqqqvjlRwx_-grNiI458B0C4zW1xK0Vr6Gmb4duPDcTkoUE72woy7Y76GfvHWvTtfL0Y=s220",
+        "view": "https://drive.google.com/file/d/1OMUUlKUz_Yv-dsofzqkpmlGjPrR9DQKV/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMx5YcU6ZQNxndbptZYkea4ngeIasqh42HqGzVYRYpFB7NEp8_iNxUDygRppFBe9KWvKYq182MemykwJTY_-i5caOFiyPNHYE_LdD5SLBhB68SctA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDxyiFW4IRCVLU7bo8Fd-nhirfA2_qtXNJwBFQjoooL92B89TchvUrMIuIIFe0cro77JF5iLkzXAX6GcBB46i6lyrCni9tDSXC82SWga7OEuAUrrQ=s220",
         "view": "https://drive.google.com/file/d/1Wc5512WuPCJjtJto8HxYiM-fI8dQkj10/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONg4BNWwgzKUz3S5Ti6xOU9kbOXVogw1ufZscQ6ahswBraqqqvjlRwx_-grNiI458B0C4zW1xK0Vr6Gmb4duPDcTkoUE72woy7Y76GfvHWvTtfL0Y=s220",
+        "view": "https://drive.google.com/file/d/1OMUUlKUz_Yv-dsofzqkpmlGjPrR9DQKV/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240283",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8429,38 +9041,53 @@
     "_stage": "E3",
     "_folderId": "1QcjZm_EXJ8pqucN7K2C1pzdkZ79lPKnp",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMePohYnlM1ORmjRa4Q8oxUhsHIuvAYgSAvDiJuK4139kvLut3Vnieu9dv5vaTWYtKTk2JpA3MtWhzJDO9F0lWEPaq6kCPsSmAxN1NMjIYHy7Mv0KE=s220",
+        "view": "https://drive.google.com/file/d/1fs8NMb1Htwfos6buMwbKSLsYyX92_Dhi/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCBmcE2dGECRTxmN-y0pq9MXKRVtrjRvb-8wdGgrDSm6BhTskz9_okFE4LXyyfujieZOkManSCjBMw893_hQ_H7-aQV2O1HBdD9JIQ7cnyiJ9YAms=s220",
+        "view": "https://drive.google.com/file/d/1zgGVkvbBK6IDfHQVvCUQDnWjxH5v2gSO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4q-TEjiB8PAnAHY6cGczZj1qqcSiW3sqFJ8IGuAIH_2pNBbAAjdP3cON89h1il3m-o7Luv4ZYzhEJAOdN_rla_dq0ccFoE6bIZE_h-79p5Wpuyts=s220",
+        "view": "https://drive.google.com/file/d/1LMl2YH8i-hz1ZFi6_PqS-IqE5Y4-FscS/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOa0KLSxf0OgXsM6QPFsYmeUaDgKzuVL44tVHJr6Uy-aU1KG11wNG-XQKQ1LO0dgaxL8Nwn29N-qwaJOmPRSapk9MF3gro683YSuxLcT97P1vFrOA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM99EIAzht1tlhjxyU-epLYyXKMR2toi-_i0B1htB1omHKWTVmQIbLaKT-0iFMBaoEh3nkJH6khFO1_IRTGrXQoj-7ZwzCVFsFtLH_4973dMjiOIfc=s220",
         "view": "https://drive.google.com/file/d/1vVtJ1M6QujIVQHye1_qRprVRB55Zypkx/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlH8-wxD9xXm9uXb5cgPF8LA4i1vSVe7zLAy8zVwAPuq13GIU5ayxIlwDDjklp4mOpDyq8WfjOphdnbcOp8GzgR9IJvQ52abe-6dVpfoTKf83t9g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMs9vl377o6R6zQUQFbo2ya8cc9M1nhJYtY3kuirSXZMOq89Jg2bkTofmJJJr07N0KpOftUPEGL41kmziyT2Oqd4D2JY6pjNWTkYiKwZOr3-SjxfnI=s220",
         "view": "https://drive.google.com/file/d/1cS5-Fk8oDQzB8-ehAatHXjfdP0LpAhbm/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMewuz3jq_kj-U7Q2KbI14AsHFoJXzQbrV9GYxXXI02qSU3ipBt6qyW44KkHYhx8DvyzzHNTVheFqhunq61YiASO1LCDh_R62dtc03cPFF0yioxLg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJOBI8LunaoSBrbnVlAwyUHC2Z2v2-bg2AY9kfxT6A-uOZUp88R4HSPVRx9WhUVngROXWy8gCjud4ZJNpAw1N_HV1h99_iuNMFFAxpofJRymBX2GA=s220",
         "view": "https://drive.google.com/file/d/1beqZs6tZnsjOeK3vCtGHB6h0D1sLqICP/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9lGSV2vKPZYUM9rY9O7sJ5g9Rnhazvq4wCHYa4L6XBFB9X00wpjhUn4Z3H8pRHf3H3eJ7qw31xFI8biBUn2qIhVeEtK0Zwy0scahs8olJKdfM6Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV5MROk4saaer1R9_BMAShpdhjJMDyUMoAsLjxwrjgOwJGjvArz_3I7Dysrl5OtzJTL_X7njW41hPeJTAXIAYEMsZe6WVd0SjT2DjpFXzQKPhilrI=s220",
         "view": "https://drive.google.com/file/d/1jw9H_rLzpHG8CZbybZo6k8XknqXXxqkZ/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2Nqb4Xb6zADziHW7zhD2RkMo2zM5srTmsIYWDOh7Hh6c_L4Tah5hkFQupRfaA59xpovN-U3_b8tlxgwFwW4VGFSwVuKUilIjT8pvmDa6_vwm-d5g=s220",
+        "view": "https://drive.google.com/file/d/1gVQoKzZ-or7sX77O4l3OZ3WQ2hXf4LM8/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZIFMpj2C8UASR7tJcAJx9FQ-niESPohV9HGZPbOoRNWi85iUyN3GEP28cnOd5pCqlPZjZgJtqaPtbGzn-Ng4klTDbK9p07bWQdEH3Om-33Fw2fw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_QNDAoDF9RW6t3slP1bLlUeEHm-SF33YO_6Ap8h8HumS_IMTXEAfS7OgoYGBduyW1p6WR1IbHi1LZqoJ59rKSpidGyqkLlKdSddxuGgJd0EkYdqc=s220",
         "view": "https://drive.google.com/file/d/1t2EBgSV0jHNt88_h4rsNKnryr6_GqvKb/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2Nqb4Xb6zADziHW7zhD2RkMo2zM5srTmsIYWDOh7Hh6c_L4Tah5hkFQupRfaA59xpovN-U3_b8tlxgwFwW4VGFSwVuKUilIjT8pvmDa6_vwm-d5g=s220",
+        "view": "https://drive.google.com/file/d/1gVQoKzZ-or7sX77O4l3OZ3WQ2hXf4LM8/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240284",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8468,38 +9095,53 @@
     "_stage": "E3",
     "_folderId": "1ftB7guYawskbTohmoBzxYfcWHp_d5P5v",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMM24IGWnKdxO8xd2AyK9fT4Uf1KMqi2kFed5y6GubAYABHGe5wqlcJMhbvOeWb0sK5gAERLfyHIAS-J_LMp7mKrMexn0vkESI7tnaWV169Q6eRBRw=s220",
+        "view": "https://drive.google.com/file/d/1zU5cWMP_HAkYd3kjfia_-dhps5AaCyzP/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrO13EGA2WTMTiMz2vNlvAMJawDUuOJgq19tJAFM7ugV1jm8_txtsY_5ftSVgvOlkWD3ITkl0Vetm40MyydF-LAxRbcjlsQM0XlhdJ5npLwwF_v9o=s220",
+        "view": "https://drive.google.com/file/d/1dEfDW4GdsEmbrFutgYnNTvVsOm3I1B7W/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjZrjBVA2kWuH3JFAflFwhXUhN3v3EAZm2OdD6QslHWdmoJ-bOI5dtVuODSZ3zSpLFMjgS-TJAjCoUNwiucG3kVP6fju6yYW2LH5Jo3baClRrzPlY=s220",
+        "view": "https://drive.google.com/file/d/1WfjHcfCi9EznpbSz5xqs4pg9wFwWcT9c/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFUdXCIDdW2vsoCdP36hgUn6iAxGIMsuHyR3I7tVlUrU2jd7L6pXuzzh8csCCMYikM9tOdEINei6vD7fO3s3Ms1oDf3IR87UgBq6EpTN1CN7U_M9w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUwvKAgEqMRWpNtKNOolz-s1Lfkx94AVAhHo8BwWL9Gt2v-H4YwT9gXrDOVD4EycZClKFJ5U_rApsL18xJLx_lyq8pdykrxUT3J_o3bNP6UDxOvfI=s220",
         "view": "https://drive.google.com/file/d/1YPcuO89X51bcwQ9NKeT81WhRT3yytwIi/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOb-A37V-EqZdphYPL7HidQcIhlGaKiVg66rvoYxGvZfYKJ-9M6FlfBbTKRpgHtmLWqOY3CHBfGWQ9hpPqqi1Be4uZPC7BWTwZYmzK4O_8UpfyZKig=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8Hq-VkTRg1KWiruxvh89Quf3WQTXeZK1JZggT0JFjF59LlAirj9FsJsfmtmGHINPHh0pMUm5JiRcyfR3ZCELRPFwDOzPnRjPhNZOuGgRv9PUdipc=s220",
         "view": "https://drive.google.com/file/d/1e8d7q-pTCe7rks9gEyDOoxIYUJBhMMTi/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtqQ1BSdhR-Atx-T7vr6scQHsdCXl6oL_SKTfJkKufXYvoVJVK4EyYhvCuVZ8yJ_zgw9F4ITGostjrQawiRjQaeh1osddaqOV0xr-6uOZJzWsHxuM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkNWqKvwyVWzGB1_hflgMQfpx1B-U0an1Yd38PnazJzH2mQUsgZ0CayLC2KtOKXD_cjwqMq6u6ja16uxGtxkAh-amUUdyr127I40SlA7d6rLSR45o=s220",
         "view": "https://drive.google.com/file/d/1ADZT3KO0FX_yyq8tU9XjfON3lqgRaURW/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIY-5Aoi3XvI69iuyglx6i_jZgbb-r8a2ukOk6QTFl27fXUPkV2WvvQ64GQER3vypmVq4VzagB_6cyN35rbMsJt-YWcQwR9CbikEo_p-WTF1vEffE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2lVWFt4noVuhDl43ZPPm2GMn38gzQiFfYlvzzzGRqyJUgkLJZqO-GMDizNvc3yyAyv1BCHPJ32JACgP6x5znhhkSqD4Q-ywanKlvAjtF35hpu2bo=s220",
         "view": "https://drive.google.com/file/d/1tm5heuZJ1nxhnjUJdyJCKR3PMAwPJzEQ/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4MRB-qeDTLCuZYALjeVjNpWWSwXP94bDGmrydXfPx68a8CTQiLtivflxJ8EMPaEpnadDLS6vEBmG4_nSXvKrI8RXKo0falzccAw3M1KrQuPYl2W4=s220",
+        "view": "https://drive.google.com/file/d/1QFS46UzKp571dij1EzKeVOzmjAvij3hR/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDBs_159GliSuyYF99SyEwDmhvJOSJLDKnl5ZQdjNItPpS6zAVJc2VQkWVcc3-yxFIA3HlQPYoMi3k5qHR6XQXnffFs_6k4yRqt9kxP3LtUX_xm4A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX09fe2uv4qRI4KMIsEWnwKUSNQRDfW_Lvk_0ZsLuCB2jH6KWzErKg4L0s9GAkhUacOIiX0rphyS-MEQmcHFf0ms9Fr5QMpNz0IkcFFFDiaFxjcJM=s220",
         "view": "https://drive.google.com/file/d/1TD0NGBtKROuXtFLZuApd27sJBATIqvhM/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4MRB-qeDTLCuZYALjeVjNpWWSwXP94bDGmrydXfPx68a8CTQiLtivflxJ8EMPaEpnadDLS6vEBmG4_nSXvKrI8RXKo0falzccAw3M1KrQuPYl2W4=s220",
+        "view": "https://drive.google.com/file/d/1QFS46UzKp571dij1EzKeVOzmjAvij3hR/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240285",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8507,38 +9149,53 @@
     "_stage": "E3",
     "_folderId": "19lh4gnnpih_MsZL9eEEC71YJDIVvSrLK",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-WMt42IHvCYGfBH54jgZC4jPtSYCuc5lMEXJI4a5ossfZ7-bmzFpBcwYUlQEUGPi6GlEO-GOMkbLhvt916x3-BUaveX-6wu3jdXDMWGiT9yg9hEw=s220",
+        "view": "https://drive.google.com/file/d/1b1hhH-m2O3lLtFMnGdp8gikfz_8oQ56b/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6Li1mMOVX5z-3lO0xZSUhBRgN77paG1INOlvTxo95aBbYSfPgLIzAOCJjlp_UghpJZUiq27WctJe24ImUMxEd8p6P8x7Ho9f3uD5dJ8tUzw8XLNE=s220",
+        "view": "https://drive.google.com/file/d/1AOVWXkD_z4ZWagpOkgDb_eIEVso-OfcL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBON619eFO0X9QxxRecX6lfZPaGZHyRpLu3_3eth8iW3dv-1mmcvqW5diRB3zm7HzlxxU3_Xy7VlMzFyNbhswcPGM7VtjmeuSzPTh8XSuc32Erx9t6o=s220",
+        "view": "https://drive.google.com/file/d/1gvqkPyds0XBNp3jojq1gyCh-sQX1Xs96/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNkNEZGYQg9Xqac2ur5WonIvepkvVto3YbULFqUORrbOMFH-FZnt8ViS9I7jMUJcAZ1XDRlyKTce7T91JvC6UbJNTNMKBjYI0qBR70ZcymaumyMA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLQM5YNoGa0eWZp2Nyzx83zblX6qQufcbYI2G7fTwym2fga8LMIQ8V9NiFWnDyjSWTHLU_qoZ-K9Gf8MDB35zDfNrFj3mmKyxuodmNcbFrvpNYDpI=s220",
         "view": "https://drive.google.com/file/d/1lLvNkHfcIrU6cp02US-EH5stX-tdmkzZ/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtdTrKOl2SFEYBwA-gZ7n3LmrWg4QYrRikreEc1a9gMnAy4VHjkZhvjubSnhgZ9toNoRjgDanKGvC5CiHSS9UMLfjtUUM-ABJGudinsSPMJ1rzdQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwSkYBeoSnp2gptsAKkdzqA589Pt9RxOD_z-VF-5Sv6MRLfIb0YiwowKp77TiYMjl2vUdznYaIoWKD57dd-ThumtebDZpdHy1W0XkBmNUiBGMPGpo=s220",
         "view": "https://drive.google.com/file/d/1Yup6Jy1s9HieIWHkaHxV3SiYeNPOUWRC/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLGxy25Gbhlxu8SvCYaQCgfpZY3zecwR28JCiYkECh0cjN-o0OfHdDzJdVMzvRY99RRE5h6ZFPED1retqsiRcYB4qBJWIXZhI2BXteEIlFNUHltQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMf6NEHfMJo0mRGlNXhnxEmphQQSuybAV4y_AffnAMdIo_CSaEC8A2Uq4GFrIsHCXEDFr-fav6EC4rTQcPX48JIRosc3BcP4U33nu4t1ssYpa9Xx8g=s220",
         "view": "https://drive.google.com/file/d/1xqnyu-K-VZc4pk3NBMbVw6cc23ptM7yP/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHtTRUfBIUSGV-A7Lqd0YRuQt2EmQulhPt2GeAkqBMt7te2gzXlfPb0VsUuwX8fFSsmvDweRBmvYLH1279fkih2l2hHplkpbeFlnwju4AAcNo3Xg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaS1QAnF5Mf76W9dcrKs2BPK57PU36QpAOin3mhPLjRzy8LGl0MaVpem5_zZnjQXtyVseo-TPtGGPUnUdf55zIZKuCh457EDpcPCOT-ThWS3XqyAg=s220",
         "view": "https://drive.google.com/file/d/1d2Vi9FZVlAMubeTOLkhHd0KA9NIagi0y/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeSVoRwPsF4neKRBgsU8_Lh1e8QBRxoXBjUP_4Yd9_f_OOmdmvqhwzeg9_vN0scqOSpuyzApLka2kro31qLOI_Va4e_MdB2-Er4Rx81QNIiecC57k=s220",
+        "view": "https://drive.google.com/file/d/1eO0IO1-aARXWljhDxY0INj0QBsUj8Y93/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaqMYx-DiiLFW_Gmb2ZYsU2fFFgbZYA8MXNOGpteJl8fh-ehUaTf1OqSzV9r7cIX8ZlTbaIcpFpYqWWWXkdnJI5fxAYPaWnaa_1iBHyeoQSIf5Nw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP181dfmYvCQUHA9CSCXDX9qzTQhB5EjU8X8hMqc3Z6U6yMVlgf3AxMC4xtB-AiHv2U2GR4050w_Bu-CdCcjGWwROQzYMd0sYY_L_unbuqerBnvuBs=s220",
         "view": "https://drive.google.com/file/d/162anCCFLq-zIt8jRvZ49PbdMsPOV-Uqw/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeSVoRwPsF4neKRBgsU8_Lh1e8QBRxoXBjUP_4Yd9_f_OOmdmvqhwzeg9_vN0scqOSpuyzApLka2kro31qLOI_Va4e_MdB2-Er4Rx81QNIiecC57k=s220",
+        "view": "https://drive.google.com/file/d/1eO0IO1-aARXWljhDxY0INj0QBsUj8Y93/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240286",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8546,38 +9203,53 @@
     "_stage": "E3",
     "_folderId": "1dPJxKW1J_oKkCSC2TfWgdSPGfR4AS_ao",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMK8q0GvmmSf3RBbtDQCYMpI8x5SJ9ytJNha5W_CkAarMdatqE4Xk5dDMAXHc3bboLabbH_mz-aPUUZ42BgSHhnv1GcpeUDuDUL-QmKdbDin4Hg7c=s220",
+        "view": "https://drive.google.com/file/d/13NcAO49djN5ALLMk4F1sMwRhYQZ2ajmz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEwXpAd4NXgmsD7Vf8eID6DgTEgq6Tf2zjKl695SGsq-5ynte0Hfmz5QhEqC1VNhIdFJtgGb7Ru0auvkm1Q4s6odFkVYUrIiVai_KZKq8V64n8M3M=s220",
+        "view": "https://drive.google.com/file/d/1bgLHNOnbeD283aS3M8jjL-BDsDkPDRDy/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3Y-VnNKcUudLZHUMGS08eyBzuZmHY_jFTPc52fdm-W7pM471xxY5xg-nYBQJYIvL2iJkPg-nzJRP-o2WfK0lUMZwImxCnIpKzb8UTa5uTiEEzSWA=s220",
+        "view": "https://drive.google.com/file/d/1SFstHUBqr2U3LWQDAJw9_zpsHq2U6yiP/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0tylTe5UlrWTgSfeLeA7AV3uKa3FCsqsS3M2SdPpJfSc2oOJWX7_-APUq-KcQfdZ2O7uXD9WsLCT6at8coQUYnDznF_xOprRN4o7CKd0L_nGBqw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNx1TxOP6D_EugEq6cbZw3aAMJvuJx0a3VqTJ4LVSbfKgig-Rxib-FAgs_26G_h3a3hP2aRpLPlbjibcXdynN4itMuwUQWfbvYyXWo5jJlOHXcgxAw=s220",
         "view": "https://drive.google.com/file/d/1vDvAafSRlyXvwf3RfQB0C0YCtOaH0D9y/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXOkCDkewqPIL8rgwi24pF5kp1yn2WsxKTUDJlL49AuCvN2zk8w5iMTg3PTMpwDv8aHlWarqBgcW_LhfWoefNhvapuQtzietC7-fsCsrmAedLVmQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-dzRy4RGllROqL3UPXPYN67CtdvswAoBekylGmV46PFT2PuqnzZFldI6ZmYFg1xOC6tcZdzQIt8hwzpV-P8F0WLBGa1U5ZgKTnvHQelEJ8KB2B9U=s220",
         "view": "https://drive.google.com/file/d/1l0YvKRE6DOBXWxYL_-OZEXqJjRYM7BiA/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5S4i6r0w6RTV2Z9_xAaiBJjXhTf9EVwZD9kuLZma-e8nVP0pl0YNz0LKFBPboin-XAlgF2S31bCRVxDzuDfG5krEgXpEvKpdTmOEQ6_UJcRQzkQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0M4MsDTB0zfUbzlZyTv5WBuoWzbq8s-csuOfa6mNw1mDDXAl921w-71UFuk_d8QzUGxdah76xW2rtlBerKNL7yF3SI68eDoQq4xprFhRt359B_YU=s220",
         "view": "https://drive.google.com/file/d/1u8KcW0M5iFsliy5I3GnDpZ15aew3AL94/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjvSzov8CrcDDw4oTlYdSrisNp-OipPNMl786lAYze5V2HkSiKgagi-GMa3Zd59DVX8JpxeI5LfpCKzR7DE2UobuoYBqdOfy3i7U-yxOzhMgVZsw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtfpVq14RMIZh6MJL86Tj_u6TGT3cP_U4nH-r2eTiuyO3gJxvp616GZJ682KJ7orUpSq1uoJga6PlXmn1qDXIhsnlKbeZd2yrfP_s_qfXaCTwDlkw=s220",
         "view": "https://drive.google.com/file/d/1NFz5fP1XyEz6kO52jj8GPaY5HPQXUFoY/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNN2cqV94RcAbwLj98gWnPRAjaqhoSOsdx1pZIfX61XsczXIW51l-15cy_D53PPikwt1kjuXU9UfuAMfMTkcaq2CHTlU2O7RTvuT28V2JB1-wQJYk0=s220",
+        "view": "https://drive.google.com/file/d/1-QYIA43oOlskvRx4_VZh3MpxPkJNixXl/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMv4bpOp_r4f-MUZwUpgp0wPFmb-POkiOL6dWMpeLB4BEf-e-8trb9E9Bh2lVqcyU_g-ChVSzvjL0ZyKDN4oD83fUHL1JZ3_FcwuufOeWnFLAFHg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOerXUexs7EEscttkcr1P8leRAg4lC1o0_ZLHSGUjs6TLELFaXHoPfoI5ruU8RVJ6lao431ax4_gRxy8ekieEk_R-fFl-zMN9Q8_Xm1fYza1F3RwPU=s220",
         "view": "https://drive.google.com/file/d/1eEHrY4OUq0sLzpmJgSFQbiOJzSH8WLuz/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNN2cqV94RcAbwLj98gWnPRAjaqhoSOsdx1pZIfX61XsczXIW51l-15cy_D53PPikwt1kjuXU9UfuAMfMTkcaq2CHTlU2O7RTvuT28V2JB1-wQJYk0=s220",
+        "view": "https://drive.google.com/file/d/1-QYIA43oOlskvRx4_VZh3MpxPkJNixXl/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240287",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO + LIMPIEZA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8585,35 +9257,53 @@
     "_stage": "E3",
     "_folderId": "16tChccWETDuxdnTkRDMYhj6wz5HJ3GHB",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnG5AWj417hMNRU-6gjdarWfpLMLpNPrvi3C4Fe55QyJP4xAeybWkg1OvVuESH_LHm-6u1euExpe8GNBCiZIzxms9a68Bp9SC_-Q-kNWwZsPoAkhE=s220",
+        "view": "https://drive.google.com/file/d/16mWiLstn3KBxgBfkRcexHaJIGsQa3LR2/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGAQUg-YNnBMnwb3jNpneVACffdMXeEe8jSJAp4mvbXAL56Z9UPWhECEq8l2VgepiunW611O8CrqFbn59-OcRbntMfoxmSzcJciGfe0jXLzlsXNlU=s220",
+        "view": "https://drive.google.com/file/d/1-vcFUwGReKDdPcTaUx5ofRCFMr6OxAUS/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMK7SxxSKfuyrea7zAdBLBVzsbCKH1eOWww97drxaMcNGqgGIWufse6P9QqzE9090tCF5iJd63QWavOj97HuwyFBNlcmxtLbzmTdCQjJ4nSo30NqHw=s220",
+        "view": "https://drive.google.com/file/d/18IoOTIgHRf44EadYig367auYVT-tbHIU/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTqF6hWtqckLypTHp62nUD3TcnMtya3nBuZt3O4P_w7m1YSZnZCpubPyIHHoOnlvBYfZdv3MA0A2LmoGoFSeWHSFHX_pD2A1JtXsZWRpUIrTW8Ow=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOA8tGySXx1z0H9W3NGrTHS_cl_f-I6zHITBofd9Jt55XjlC1afupF41zHJUoG142tiq5ymkYF_fF3hoxenDpUZHgo9D2DyemJYYeI7eTYWcQLSHc=s220",
         "view": "https://drive.google.com/file/d/1dQg-d5YMd9X1bfvbzWSjy03CixdxLYoR/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPebDFNlLb0-sqvcWWQRXaFiCln73z8ya3UMcRWaSaDn5IP7m95yR3b_-zHS2pqNnKMC4HPb9h8F9ApeucOo01Bygz8LtO9eA6btn9ex6Smcl-O4w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaxas6417eboSG_YCVgnwmW757H9gM55dOUOfqwO9-RMNOd6SEjVtxFADLU6kzkC-vEupnzgU8DATveC3R4fH6S9PA6Gt2HekXtCZIDKHNL-c5MAQ=s220",
         "view": "https://drive.google.com/file/d/1RQjRf0d3AVrZv89jVqHpWnNnwh9jggT9/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2PlbnUU__CfXqA1Z1eE8pngouIqxm2juZmwyvs4AtNxX5GrfhZ_dDKLcrHiboiH8o2RZhfQqTZM4Urgb0J5maCfmB-2MULQdu-0EeN0xS0Ibt0A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK2SSbjibtWe9sjyOAgHYzVktczY3bpVkEn41QW2FOt_-CvXDXyU051Y3-iqh7b7ePgR7deOrBCCVQtmRQq720ya8NO9t90Zd11bXL3eIoSo39cTI=s220",
         "view": "https://drive.google.com/file/d/12yFfPIW48XiimSODfBZpjvn0ru59UXnW/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzqAPRqw8t1UqGaKsfs6fBFDfAnhcft2oA_92L-Qu1Mvgk6QOgGsbO7QmkzLi_QK3RZ_oT7nevxkBnibuqpUy7UX_fB3So8xnA5NxHeaFtzdpoMg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6fs5QdkHXN2Zs0-fJP0keOCr_IW3GnuTykRX8S9aOnaxkbCqQtmV-JqC_EggoESM2qWZnR65uHibhAU1GJkCtKNglF_4ngFfdy2biD_28ws4QD-8=s220",
         "view": "https://drive.google.com/file/d/1dAjiXr-mQQ62tEtI9pEbFIEp62eIxeJW/view?usp=drivesdk"
       },
-      "TERMINADO": null,
-      "LIMPIEZA": null,
-      "FINAL": null
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQj8gQyafoJ01Dxp4I1YsmNqBb9JWVTx77VDFt7WH7d-sCZ7hfM7ebgxPpkbSAWInyPdi5Fw8Pc3kjaZcZ5SAyVpwQceIY1OHcDKLF_2P-a3Mni94=s220",
+        "view": "https://drive.google.com/file/d/1ir4BlHNYxJIu_NfnJoooJYPlwIsWAFrM/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUwVn6-4uR6-VkaIThGYc6ZVtquk3iRzeCfrBr82t4f3NP04yKMldXz4jvgYtxfL4Tb2XQ7X27odcNWXf7SvNZKPKjD8fAZOowyGvWrD63k_dpIo0=s220",
+        "view": "https://drive.google.com/file/d/1fbiD3ZDzoL8JcJrhGArTNRDKDrI-Niam/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQj8gQyafoJ01Dxp4I1YsmNqBb9JWVTx77VDFt7WH7d-sCZ7hfM7ebgxPpkbSAWInyPdi5Fw8Pc3kjaZcZ5SAyVpwQceIY1OHcDKLF_2P-a3Mni94=s220",
+        "view": "https://drive.google.com/file/d/1ir4BlHNYxJIu_NfnJoooJYPlwIsWAFrM/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 6,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240288",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8621,38 +9311,53 @@
     "_stage": "E3",
     "_folderId": "1V01tlVtMPcaZMnXjwCn0n42CxstbsmKY",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRiM2Qcu3wyBsurfujXr2vDpqh3SxEJilvx31LD117nyHDppHy_g5pNRpJRPS--261FN3hQDOVItxGkGZR1ckniGM919Pl4RLJoiFnBSU0pKIv5-c=s220",
+        "view": "https://drive.google.com/file/d/1vbMXcqSov13UBWJh2IAhUm_0RXZVQSlw/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdgar7ajcZ4Doc-32nZk5EX6O86wJJCTi-D3JVODIAugMLzu1ejpjXMROCdCPinJyoPadqLTUBLcRkjTCmQdPrWEVuLKgq2PKSSwqvhZ8qaAtPRm0=s220",
+        "view": "https://drive.google.com/file/d/15x16A7i_hg-7uyW87vBs9_Ja38lR4Pye/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEvVqtj7nLpBQ3iZY_42teevb_KgjzDFu_KpQ9oq_LvXuEq-JMa583KKebXcQdxYV_tS95Kiz5AIQHIKCN8-P2yjf4qo4T3vxLYOOw-5xgtl0FHvw=s220",
+        "view": "https://drive.google.com/file/d/12MeIMCywMHa5xIsS5usDGb2Z-5Q1T4_X/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN__VxMgU1uAIV5iHs3W4qUWRZzlObmmJ6STASXqoBNuTfgzLBInxteifhuGPLsjm82zjEUN38AG7SCE9GoyBEs33l4Q0l3tXJG9T0PbFp8FWEI6W0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyu7j9qjhRICK84spgKE9qhsyIihrQ9YwExlIaxPTHoJenCritZ_Y-7apxGMzxIkQadI3HYmycjiNJg8Jx6PVncbIL4iOQ9yCO5rAf1hWghxV-FfU=s220",
         "view": "https://drive.google.com/file/d/1z5RYdksU9rzlDNlmdcL3prLrJikF-nhX/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIUr9i7RSQQc3uoTZ60de3JtOVykOr8knk-Cm7UmORDvFk3HzTTFg_TCWXMv0L2U971fR9vI1siatQ2mF_9oq30laORzeU6xb5068Zx3w4DsNc48M=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3IzoijcbqxO_WgKEgnBw-VgSk5Ltzy30FSs_ZHh60LdEb3J0p-r6Y2CR8r9lBCysuWGSwzLlvgCFzp7tVuWXC309iclhB6w2N48Hg0lacuf83hEU=s220",
         "view": "https://drive.google.com/file/d/1dNZgnTa3t3zosn3iJYCavw-e6aZnBk6f/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNijamDMgfpNFSrtmxfQO6O0SycgPLKOBwYfTJfnjvl3Q0HujXhXmrIUHN7YxwwByRQUw8dMAlODd8sBqjdZ7d3b4ghM0GuXjVE45h8pph_ShbAzSk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWW9W-kJsHfzAhSJKfG7571UWFfnmpOwEJjHT7nI00sg_ToVj9rfyoMQOMK2HtpeHQ2Ccmiu2XD0k-vBYfxk-4MF3riJioQThn5SmLHeyGuMWb4aY=s220",
         "view": "https://drive.google.com/file/d/1Y_jn6wV2WRChm09ahgVXTh1wkOY1z-YR/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9QjdSpaEsUEMBV16e74dAORIkrQhKbVn9wLccsGwooOUFnpkkZLnmwdwVcBNI7EfN-t5VKA2FSBz7Hu8G8zD6UINYrNUShPVM3Ebglm8CyzH1Fuc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeLPLG0o0JStyZuBvztpKYXfSp5832TX7a_bRkz1kWiIw47lsjlSDK8enwRyu5TblPGd56mPOV6NuXsn9m77oibDbJMUE2EETOHfLYyr12JhMd2vQ=s220",
         "view": "https://drive.google.com/file/d/1TZmkJZFGIx9Z_kbWr0MwD0LaXVHGYfK0/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFKVIM-lI3tCy_d-Xt7-VhArKIyTmi8ZZd2m9xj7giqn_DCfOz4WZfZyAss8BWPKJV6hQARHUaql5XW2O7SZZ1cKUlNrlot7UUFOgO5vEhmSWEag4=s220",
+        "view": "https://drive.google.com/file/d/1DAwGoAk79hb0AgzGFKWOTfqCt9mboN7f/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQF4bsvaeEAr1AeLjZ9QsCKOoWtizVUbEu9f3dMfPqgafyolVGxAtS2dvScbvzZJTCZNPERLEqig8olywGJg_aK7qZUq0jZpL86Il4H2gI7DD0dtM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_IHjxAZ344cHw-wVg8vaay-_SVy_rnM4kBuC-m-_S_JvRw7APIAC663DBNKH1XanWesrd4FLL5MjkbkMpXG1SKmguPtF6avDeQdmBv4nZ2SI4am4=s220",
         "view": "https://drive.google.com/file/d/1Gt7f4OlH6KnFH3RePKb-GmEqcKkcTAlF/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFKVIM-lI3tCy_d-Xt7-VhArKIyTmi8ZZd2m9xj7giqn_DCfOz4WZfZyAss8BWPKJV6hQARHUaql5XW2O7SZZ1cKUlNrlot7UUFOgO5vEhmSWEag4=s220",
+        "view": "https://drive.google.com/file/d/1DAwGoAk79hb0AgzGFKWOTfqCt9mboN7f/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240289",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8660,38 +9365,53 @@
     "_stage": "E3",
     "_folderId": "12b0n6192ZiNgf5EypnT52AUZM5Jqrbx4",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7eXr9aUTgtw3-25kkA106oCqPhYGteopuzLQ4lfigITw8fpBBscjjYhn3HN1NCwIKGBJaOHr3ZFctoXb6hP6LeYMdRSvGJl17WUmsx5wgs4bA0aQ=s220",
+        "view": "https://drive.google.com/file/d/11PBHiddCgsLXb6TXPM_bn2l4Vve5zQRv/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPl_XGinwCRgOoJqIau8o3TQ4fjn6gbsiykcZEvrH91RG7ezRE9SC_i8E5on81hRFA9HtbfTuOcfBTA20mSKsPKcbIX3Ew-R3KL_T2WFxbFL12gFdA=s220",
+        "view": "https://drive.google.com/file/d/1_o4OsByPblyBes-KyEvauYgtk6mhs5pw/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5qid0dKZXvuOAaMBFuWElq0sqAV6xBtzSu-Mta24h33JAtuVvUztgfFCZjdaWY2WXwk3bh0uAWN7XenHjElioDuVTQEImrlmNWgZ4-P0cmisGH8k=s220",
+        "view": "https://drive.google.com/file/d/1SFzEskRuf0VxtxVe16a3iOMhZIMnUPNG/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGp25vkK2B3SQpqM5ShFg7YdXWRHRFhjWsNxR5dyuvTzALX3Cb9K6lSaMiMuXH1Z-7XYiyRL1cSgn151fzrqKAxbp31JlYiXNkn7Jo_qMvES_W1BA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3YYNMw_pcwXw6R0QCT2SVC9CqZqTn3SfH2P49wU_N_9nUKH_3kKMw00TFGaxaayhb67-kUl8H3K3_zN3qujuga83R5cHWADyUAY0ibFEr3RcVFsM=s220",
         "view": "https://drive.google.com/file/d/1bekC134gnRY81HBbFPpYxAGxhEiAbXjg/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnymkufiyqQqIeM4x9lyIHNkolpLiMVnEVBuCX-fr1PaKwPLLL2YdBF2Jv8YFU97gegiUXLCrNsQ6rKmg56a_uSnEKeRROL4DkrV4DtxERqhCfkTk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcecOiV5dKXKRdd-E1afydRBcjuhR8V1y5BWXQpQ2S2CMwPjPRHpA1Ek7teF-NYzN4dMJ-An2RtT1nRRAah1jKRfsFXyJhdY3RvKa1wpWyKnaTwjA=s220",
         "view": "https://drive.google.com/file/d/1NJltyifJnO1vB_CAGkM8kvwB_LFTEtpn/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYQq6WhddRN8yNZbiU3f9o1Yuo_CkN0NEMBFkVPZEamFbThleEmUdJqh63uJDW0SZHsdIhSBkhyBgA3AijqfhQhAg5z9rp9aLboTQRqzrQEQ4cE2g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMz4cNeM8tXyPfR4Wq8BzqUNY_qlW7H4nCDaej_Awj7y3chirINspehQ5sx_m70lskyVSjQS-FgUxSw5RO3zJrS4faBPoucbF5lcV4zBGJ9ln90yeQ=s220",
         "view": "https://drive.google.com/file/d/1lcjW7g3cRTdNTmheRFu1ekf2HOMHfBf3/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMY14wbPm5R7HPY2E89bWmosZGfk28sWIvx2bKEx6d-HpCxOnTCQGXCG5buNhXTlSxzhKB6hTEgtGyIZVJdbd8zCbwIM_U0b5MZEJVk0Hl32IYALDo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPplSH6r2a8bdWJAZ4jRs-7maSTGn8M1krBBC4BPXh5Bny57a2AcqJKD4gjJBbhI7Obe3u4q2v1G6pfofLyYbg5gTtoHw8B1KP-WlnnNI0JzmBwFQ=s220",
         "view": "https://drive.google.com/file/d/1LzEdNYcAgfyqAk2z2sTMZeNhNvgqDHby/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDOcX-6ot7YcM3zMvmhf4x1zSF2iU700FAHWGu_GUpQzn2ZzvPPa6dInC0UJIduH_NqMRetbaLkRYuEFq0qwO7d1P-gxqSiGrDYezKyazP0dRiygg=s220",
+        "view": "https://drive.google.com/file/d/10HLazncz9jdo47eyiUEWY9ZaGH-1SVA-/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkrG9UqxeuyszXe0Spk7KYyxvjOt3hR5tqAYz6k6arXRuSgwgP7ZiFG8zrGpL-gMCLdWj-j9WVVocnL9zzG6uYkl8ko3DnmN_JuUUh9uoU2YfzT6g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZ0ZZ-CKpH0vjn6DHyCnSULeD6atz_sT5jTPOsoBd7hSfnRBsnokQ0UUfvPBXYAHtz2FEoYjzXKm0mY2gXxQHkmTVWhxMmDX1shNT_3uEeoCDeY6Y=s220",
         "view": "https://drive.google.com/file/d/1o5EW65opAD4PFVbG7ZGZvfWP25BEaCU8/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDOcX-6ot7YcM3zMvmhf4x1zSF2iU700FAHWGu_GUpQzn2ZzvPPa6dInC0UJIduH_NqMRetbaLkRYuEFq0qwO7d1P-gxqSiGrDYezKyazP0dRiygg=s220",
+        "view": "https://drive.google.com/file/d/10HLazncz9jdo47eyiUEWY9ZaGH-1SVA-/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240290",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8699,38 +9419,53 @@
     "_stage": "E3",
     "_folderId": "1D2YiLlimdIGuZLMHBifM_Rt0E--LD3PT",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM18dRIZBdNMSVrL1i1h6RryLIoG0fkmWkqE-03_YZzPWw3t1q1xYB-RNubc75lridYlanVyEx_2Rq_vYsrbTs2h7QQrcn61s51LUGW8mi5Lv56UYk=s220",
+        "view": "https://drive.google.com/file/d/16waZNS0UZ-XMFKtXtBY6WUo-gwdcSxRM/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmJuxMpJiAQIk8aY8HkzTsMt0nh373CUhPIg6XI0jJ6Xa8eKmgai3R0PCI6SAner4wF942Kfn0G8zYEMFkF1nSyBtlqQfXxYUT_YC-QMbW4Q0vK4M=s220",
+        "view": "https://drive.google.com/file/d/1-CotE6MFq3I8FKg34-icJftrBDdlY6LS/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7FH-njVv06sWrA8g1HrNVYafZ83oYUm2ZruiqmhOvKkPoULvkB1HyB8too6x6nltb2_vq1en5wLBimyhrvBbtdyXsMBQvrk1TFLWp5T1ti0J_BzM=s220",
+        "view": "https://drive.google.com/file/d/15z48Ck7OjvVsb-P9yHx4t-7BuLSBjaZN/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM86AhwT1xqQzfZpdyitCL-avyAGSvm1RJdUG0zsndqqT86mxGOWL-6liabttCh9xTWXw5stPSV-RxWTlkp7MmbXTOInwgcxV9qbRd0-ARqfKq6dzs=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjnd8pk9og2vBohzhDXT5B8vjWO6NQVch2Z_vt3cFmXqwRfLASJNM7vjkupPOlNhDXBcbVRy_djy2BpZT3ZilfCf4b0mXnSu7RZOdxNNENALsau9c=s220",
         "view": "https://drive.google.com/file/d/1h0ydJXhZ8m9QVjlr4ToWalpnNI94ppk4/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz9MDuqbcRygTcsXB9ILrxRlu2DQrldw4M4i2EhvxV43NGxA0FoptVWmc5qHMJinhcc27bjHUsmdEqVplplZNM0NVN4TTNCyJPqpgWzfOwDPMms3E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYZaMRUCV3ZTuxb7ymDcW-POhC3xGDpKM5ugP4Zac7zZLBSe94deF4d_miTl3521t23dqjHo8eewwI943_1-tE2VqZPcTVG8qSUeWxt4Dxb8fQC1k=s220",
         "view": "https://drive.google.com/file/d/1_X0500908TRzoRVUgt1oa_BAIZ7CqdCE/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwM-kFyVgVOWVDmS4scI-wPN9xGPjw49ST3Hu6DT6g71ZKdea13zXgs4q32gi8M0BVoB-m5rUq0RHptaogpcWZK6pbQjb0wCjeBilGxFPaZBzlb_4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjs4WuJYYLVctWqsMsyMIJDX6KyfTViP2E-lebK6NX8zyTUlgAECzcTgMs7XDImJJMYnUiI5QDja0PMoQL4z5yZmaFiuyXUfnXj58mvwyiFHKfUU0=s220",
         "view": "https://drive.google.com/file/d/1BftzfYCF9Os-u8bR5xRkleGIbO4pSxSb/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGSVIJGQPelEliGPa1Pyoo8QFqS0a5D4NEjPLPhe-fPWIDRR38HBR-pXK8ejMun4coKEo6d_rzEq_j2ReSviC_YN8BZib13iarPUtDd0SjEAvCfF0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5tFfpQoSEo86BuvxZ2NyTzxV5xf4jhmCE28OWL6jR6-BYUxQQ8eFlLS2_8EnUjTUhmBUUVaoA3KAkZSZiSYrwWaRKcdH46EtJep25KyrBwKW0bSE=s220",
         "view": "https://drive.google.com/file/d/14rHClsEEiuUShfLDwXNjmFvxKzN2OcB5/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYJ_xPbipEOv4b4_dh3m_TYj-hdCVRzdiYnfz8bAqZYZmm5VjN0AV1rPF-mJDpv0E3wTHaSEXSyMpDnFdvLwy2wwCujIfv6FBqBuN0o-8t1MAovIQ=s220",
+        "view": "https://drive.google.com/file/d/1o0hv_XZsrbX-pnd8ROsAl-GiRDGubG6x/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9ZLTf1IQoovX2_0yvScoMPCOr8afU9E_gFcJR82LbFwX3cvW3RASzxeGtXOLH3X2q3zvMTKaV51ZQnxf2o0Hj9ETsV-jF7UioWKABUT0K6SJZpEI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIRGloi5M2qU5ou8_R-v8qh3VgqUNA3o2qCeCUePXN5TQiiLiddiJZVfKI2AsZLIP9KfUM6vu42NW0cQExFdXe9QKFI8RLjkkZ1GJ2Vl7ZcByTrRM=s220",
         "view": "https://drive.google.com/file/d/1PeIkD92v_WCxX8pKuhIiqmkjLApldwnk/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYJ_xPbipEOv4b4_dh3m_TYj-hdCVRzdiYnfz8bAqZYZmm5VjN0AV1rPF-mJDpv0E3wTHaSEXSyMpDnFdvLwy2wwCujIfv6FBqBuN0o-8t1MAovIQ=s220",
+        "view": "https://drive.google.com/file/d/1o0hv_XZsrbX-pnd8ROsAl-GiRDGubG6x/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240291",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8738,38 +9473,53 @@
     "_stage": "E3",
     "_folderId": "1KBmJEZjW6d3BhavEM72QhFNMr2kd5BAi",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbDBbgqJgfZHedSMcNmvtuMFdBCqayXjWCRDDkz7S8awSADIkACZpAWiM5p2UXcR_5SFS_lApcvPqlxpL1Kt_qA-T65XvhM9Oem0Jj42znPfFp=s220",
+        "view": "https://drive.google.com/file/d/147nS00cqyuOQmxIwhGYfM6U9IkQv7I1g/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZjPwa-v2LZxxlnQCNnlx0d62cDDCwOStOqfFGDOlzx3GTAY0QI_5uUsSN9kCLGQqQ3bK6cMRp0xbOu5jG5s6Lydh1fqsg6updHsr_BwxcNLmgmek=s220",
+        "view": "https://drive.google.com/file/d/1Ki9vkpUwxIE-y7AMeD1PWbQ_Dd68g9he/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqOIbaffa83pLMiybA5MwGoDxzrxSQJaDGB4nvxD7XiUfLBLaCsQzY-opTZEfhTRobgbnjDnQOcICDnKZ9yP-ly8aOCAnunPCNMSwTDcOYeGn4Cfc=s220",
+        "view": "https://drive.google.com/file/d/1ZYBN0yBunQu8Ry8seym6MtKGXG_X2Lsy/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcb3S0CWtE_YrJRmTbQwvo4qBgAbqMo9-uGmtA5dLGmabaAoM1Xm4Fq_ZerRMzNNWFaE9_LpP9YrNgICDIxVMw0YhdYWHjMuoX_wN6S61L6RTd_zo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbmffnlhOC_GCS1GT0HMG0k68dUXiFBH00mUCZo8vr8pGjfCNefQwMqdquiXIsVL1VP7TqJa_StIj1shcUS_Y_TCJxKGsEE197b4qLthg61eW_=s220",
         "view": "https://drive.google.com/file/d/1hN-W5CmuawAQe5DuH5v7lHhUJGQpBUvn/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQfiOQjLBLZUhIibRVX_uDFkhmgp3xdq0aQ5ntka-uAXSMl7sOSSYGXi_Hu2WUdHxQY1rCjNrDDDlYDcFwj1-S9_IyWu9TvVCB1ukzEbQF0DCRd0c=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1peVHE3qwrbO8j9E6-kOXVPB8VLBzClBdPr24zhIz2rSHIF3kg4ll__M_aZHSEnss5l_OWlnAJ3gHuRIsTuCpdIOXGRe_Vo3k0gpIZgjw3vNxLA=s220",
         "view": "https://drive.google.com/file/d/1cj05V1Zyy6E38tEwn_42_3VJok18Sw9W/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFym_HlNR1Qf-ewByW9WTL0pGbjq9FEZkmRXMNnE-sKSDHyVulUZgSnKHos7clm7Md4rS2UOk4il7gI87HRoA2krXkkothgg1FZPFbsWpLv3S9D4k=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6Fyo8yOelDf7WJEDeBUxCviDv70zMYMdWJImBH2Lxu7lUBb9P57KCv1huvZcsZOH_IDq5S9rg5g9h82gF_RGmdWDzG5zKjTnqfDyNaXpVGLgn=s220",
         "view": "https://drive.google.com/file/d/1Htv-xTX2uEuvK2XvIpEA8dfgGZp_V2lJ/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzlLXrIuxM0u5VjFuOFpmuzJH9JXYa0PQLt2KVACXMA69ZhR9mBEIrEi6HCzHoVp6SIE5ZWMFMfDLxd3dPHmHdRKj40kzFUsoHBHwLZEREbCJHzC0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM71dtGntV8o3Ysy0jVi4oh1fZmBxEmcGc-90bkSm_Evjy-qZ6tKiySQWdgxYK_SxsmQA8wzazST1EHM_4R8p6QGzH0Z3PCGHNhkFkbyHJ9EX8B=s220",
         "view": "https://drive.google.com/file/d/1DOZIp2bK6SXNVettyTEVff8HZfjq17pV/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBOVp72ejwoTzKZOHYXR8ZXsqE2VQ0Ni_F4yYDsu8LlZKhwWFkIiXsSEIb_znaXu2l5HrDE6BDgb82JKbQhJwCj-ptZjTnBtMzmVV8AyokJ3YRvZs=s220",
+        "view": "https://drive.google.com/file/d/1cHKwgcIP6gQ_MxK2-cg_wLWREn1NVAhe/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5JZkcAuBF2Gnm8bybqtvQLd5cP5PD2d2pqMUU7V7Ujiid4BOaYGjdCYxgziCowgq-lE_MyQx4KQCt6J1cf8UcSZZUNou5jbGcCFYaI_UhPzrVCY4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3xrMuVT7mGxhD1Xtgt7pDFTn1QEfQ7cZv98Xcrtb5BFRnzqO31HvK3RO-UaXX-ZCcW68QEhhQ8D52xedoxmLBOdKQ4ljGlnZWi1-4LtrqHQUizw=s220",
         "view": "https://drive.google.com/file/d/1tQKdEoLXwbp4TY6m-OdTu0z1FlXDbYMe/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBOVp72ejwoTzKZOHYXR8ZXsqE2VQ0Ni_F4yYDsu8LlZKhwWFkIiXsSEIb_znaXu2l5HrDE6BDgb82JKbQhJwCj-ptZjTnBtMzmVV8AyokJ3YRvZs=s220",
+        "view": "https://drive.google.com/file/d/1cHKwgcIP6gQ_MxK2-cg_wLWREn1NVAhe/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240292",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8777,38 +9527,53 @@
     "_stage": "E3",
     "_folderId": "1dFeOA2FC5D-OZsJOlLD8kopONZJSKMN0",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNa5cY-h9jJAARlGrqA9NUK5KPkVNm56Wrw6YwCVJtulkybJHztDd0L02F18vGI8sVNPZntJ43vC0zF2qzqZ6VzBlsG73Byz_nZkZED-cG8PoTCdg=s220",
+        "view": "https://drive.google.com/file/d/1A00NNwo3BcQiHPad19L58xg_y2M-d3b4/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMckcY8EhzZqL8rWw7SQFT8CP5hHrnr2gpKp5-07upQKryD1Oz6EDdmSJt-pbJpJKjKbhSkQDtPejGtn_hyUGvZY0QqJ9qztIAlMjXTq8Ltdm9RrA=s220",
+        "view": "https://drive.google.com/file/d/1WNrAF7cGd4UDKDZ8im4PzOv3ypaQFBUd/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpzyBzIyFjFRLoEQGabJUYu9Y9csQoOt43ZI1ZxPVdL6xulderJiuiwm3JvdnpyMShFxOCTtXMt62DcjGu-jtsqcC3pTp8g14vmP2uD34rLHzxZQ=s220",
+        "view": "https://drive.google.com/file/d/1N9kKRoGpEQrcoGZGah1dQyOlDZYFlB6z/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgDK1b0D5-EWXG88BS3DMxQdhd97c9SlwvvY-8BKNMcfioQ1_wBrmE_85wjjiC5pqC0udslEQE8oT1CDS7Wqz-SP5j5UxIZVzs-IlKVGW_iRK8pjg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKO5YmiaZmhhP8ypEzIFz0x6P-jRrPevZwquzocvBUeCie1r0Px_qjcnePPjlvnDkWpabm2wXViqIuRNCBumPCamTVYVMt7fA3RcPcCE-PWQphbQ=s220",
         "view": "https://drive.google.com/file/d/1nPmM0zZL-iaSOhHZqp7461oeqKCKizt3/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_2TpaKLZHvKU8bQR_pHkafF24y2nsUoWGVF1YtA9LUuYLX-pLex5Z-T3MIPqHEwe8ZfLAtWIiYPPIeNNwq8zr4p0GPpXNx1gINqOQRL2X6LJQp_8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjeE-ukUv-PGjg4e1NnAIPWrl6tH5pNyydFyqJte8vyvZfuazyF8giKvT0S6UwGA-5_azakdDfugNmuVr4yIMjeuW7rTydGZ_QHN8g4gA_udM9yg=s220",
         "view": "https://drive.google.com/file/d/1rfYs8kAoDsYHif92zDZ01rhxlzOQRfLj/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM28RvOPACqC5SUrbrBId-CJZw84yWgGg5EDxD9gwqnAX4nOH3fcGo90e6As0RwNOxNutvzFw1z6G1jyyY37VKwdaXVooFGwszPeL84eQ2tVgDmXZA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHzPgMR0-wepQ_6PaPVIeT_7s5G-nbcYQu4knHDcG18Zo1-FPgd72wqKFhxJhXTES85fAB1ihRFgaLFQ9lEeSiO-qd6u79qNSxzFox5BTtFvTDTA=s220",
         "view": "https://drive.google.com/file/d/1guUUYiRxP5FZqAHu3bRZbNkjKxZtqkTy/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7zlB53wHu50Ze-r0fFyeAcZVVAh89ZH3UJMvh3C_nvH51LxsC6_vc0461EMN2ZhmnJJnxHd_MxRNqlIi5EPHl3TkN91dm5i4fFk-6SpwlX-sEhDE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJfb0knC8Po9tPvTzU8PnYjV8DwXs3bXmS24Mv1Lj0-zk8pAc5YZl17JZCI5IyHYsvSxKbhogOJAe-4UfUVXLBCAM2y5FOg8nNLNML0VhUfwkNPA=s220",
         "view": "https://drive.google.com/file/d/1qlbP2E66I5k10VWF86tj6CAKTbvDKOis/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbNTIlUmp7CSAHrpD7v_qO83b2jmmUnisK5y6mIwaQviCzrviw4n8VUvE5F9viKKLsFUqwut2-kGFM2xZbLLeQuWlSnbqVlw7dG1Y_PvhB4raNrA=s220",
+        "view": "https://drive.google.com/file/d/1UU2QC7uk8hvkpwAvGgt_lm-tzRvwj1Zi/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6KAKdY-BlSzFcFcndukz9P05N5vJUvbDCkwfAM4nAutmqHAwTYRyjykEncY20Dmxq1FY2lXMjC4fjR4hVUcm_4X0N1zlbu8x2EuY6KQkA7eAyU_k=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjtV2oqvVG51m3pspAh15-sM1FmAy9c2V6jw1JBG7U6S8Sof8jWKGDPuFQ8t4GlKuxGmvsojWq7iZIJJvWgMsoLH8h-ngXG20F_Ua0-6FQBHDZrg=s220",
         "view": "https://drive.google.com/file/d/1at0EEhNR01qbVApkRsb5HiZmGvyVzffx/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbNTIlUmp7CSAHrpD7v_qO83b2jmmUnisK5y6mIwaQviCzrviw4n8VUvE5F9viKKLsFUqwut2-kGFM2xZbLLeQuWlSnbqVlw7dG1Y_PvhB4raNrA=s220",
+        "view": "https://drive.google.com/file/d/1UU2QC7uk8hvkpwAvGgt_lm-tzRvwj1Zi/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240293",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8816,38 +9581,53 @@
     "_stage": "E3",
     "_folderId": "1PyPTAB8Jh4VMs9hhijIFkiKyAQyWNzRG",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJAHEW0fALA1eYeqjYsA_e6g82AyyZzs4un6PjbYhUnjjG3CwN4EADGt6t_-uN9FU-rYOM78IH0txCy-G9zz47CX4RMpcI49I93-zWU43Bosv6EdQ=s220",
+        "view": "https://drive.google.com/file/d/1oDcHMefChPKqpTfKGaYug2r2vvcVvZyN/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzb8D4t9YlYE3aepHH6GSnZyaNMBbxAHOIfNMKkQLE2uvB36mE1zsiaOuWX5wJAViAIgfZSgnH1_JrqrV_hoPPe2c8YBE6UVldVbtDhSKurndgiPc=s220",
+        "view": "https://drive.google.com/file/d/1GSmxD9RvccBfuFvBXlL9khwKsSlBAzod/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGnQ9nFxUDBhfo0tgdlDd-QoXBbXpwAYoUja7gQ4SM0JBSkfIGn4DzAfeeuYbatDZrb0JnvX1wDiwpD3LcMe_wj8F2BKO3hlrWxx_dJeho4tqEABI=s220",
+        "view": "https://drive.google.com/file/d/16nURhFZYaKDobfOB-3c8C7ofTbYnQhWB/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOInMdOrZuqAqSAn2trsI4tpB4Ii7MsKDGMbtmBzNc0HzZ81RIEw0Wu6UJL9J3H58nEOG60cE_qsqMxLu5Dl25w-hHe9CPbr4NOyE7eBgXXFozJn38=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFDJwuFKqUeEKdpY--Pmd8f3Esm_5S3cdQmMRPT8Yy1jEsZuu4W4MTP4Oi1PD6WJHzPN95BRbsgHNvb74X7fF1pw39x_RL_fxpA0rAbwQCD6Pi=s220",
         "view": "https://drive.google.com/file/d/1rvN1NtP3rhSavx0YyQFksoEL_XkejeOe/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5bfI3suvJjenIkz2YunP-QW5EkTAG-LRo0x119gle-y75J4dpoRhkFACxSY6cC67M7b5mpQpRhl7iP2YHU6ZplxUj8CFHljOuLXh4mfbXRDny4yw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKHrsYe-bTyFtHV3EhHbpFVhSqohCucTM-ZPtJNKE67G2Yjrhh093m23aGSlxrIyPybly7uM3CiIKGvLwlY-PQxxRVu8J5wORP9UuSri9rjbpY_kA=s220",
         "view": "https://drive.google.com/file/d/1s34JWWZEerD9NC0ZT0MuMFwyqwtt70OO/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6JbxQaD789Y1nyi9hSGxrMUCI3qYt_PHYf78KBgcfiugnWwEhck_C9FO-1RBiaQiAMki-1c8aJOFEhFduTRChUA3405lVflRJTVOBTTDJh2dRFSM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRgOkUH0Y4U8G3g5C9Nq7y4VDDUyoSQUc-G65Gzrr1MiYG7b1QK3biz-yBZzvsc0-B1FO_6RpjQHQsxLUZTh6718n-i40snNTp1b6Sf2mFONkg=s220",
         "view": "https://drive.google.com/file/d/1OYuL767XTvLEc2QFsYU6imyBFysDuRsG/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjXpEDy1iBC_xR5FDufEcV1G1QM9BbYwreNhSr9P-JpAA9tXuBsKkXpLIBVkx7yO8hHCEVRlxbctqVUWF_ub--ger4qdUOw4FoFSMm5AWimtE_sYI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrIKi2pHXHI6JqSRUAeBKqAX_Ys92aNm-DD45cO4b_l36NhccK-mf3MO16hV0GEM288mbLEj0MhFQzNeo4V6j22WJmfvgJ8wO61eUfsPdMVKVjLPQ=s220",
         "view": "https://drive.google.com/file/d/1hAUZ4DgLl4f3ESkVQynu9-vXytcfTNSl/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOao7VTfBu-9tjffMNdIo27mqsoWz9yyJvkj4kucQ5s1wnBhnpzvNhwQzmsO0OSHOhgPeZAfG-ibbgLCP50gXfJYojGT3Tf5Th_4d9imoMqXPfQRNQ=s220",
+        "view": "https://drive.google.com/file/d/166R7cnoUfvT6HPAgkvnATj_QOLLH4fNl/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXPXJywydR7wDJduOA8Va_Ualcxbn3tP5iigDK-SJ5dnJ0jwH_alcvnf4z7Rt-C_w2_lV6RP3kw-HhxTHAKAUcHveLeG1ku8E_WTYWdwinDHp8grw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaDM8p1hsVzdAKnNRvYPz1RiN9ulbOxTsI5UoFx55AQDZIpbu-elLX9og-pFg1mHYa7-3yWjHkdSMOL40sYaguJRlIoFYeJCFufFDsk2ZBoRLd7Ow=s220",
         "view": "https://drive.google.com/file/d/1VfPUCmC92oJzEojV1BUlaa0qx7_wau5r/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOao7VTfBu-9tjffMNdIo27mqsoWz9yyJvkj4kucQ5s1wnBhnpzvNhwQzmsO0OSHOhgPeZAfG-ibbgLCP50gXfJYojGT3Tf5Th_4d9imoMqXPfQRNQ=s220",
+        "view": "https://drive.google.com/file/d/166R7cnoUfvT6HPAgkvnATj_QOLLH4fNl/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   },
   {
     "FOLIO": "240294",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MELCHOR OCAMPO",
     "COLONIA": "SECCIÓN 2",
     "DELEGACION": "SAN ANDRÉS CUEXCONTITLÁN",
@@ -8855,33 +9635,48 @@
     "_stage": "E3",
     "_folderId": "1oNKptsEbOcDDs5ZZ9oaU_yTqpRuvoGec",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOW6No6Dxfewylb2EIeXz4tGBMC4XZepHOfNENwqlowls1rGoS_oNwQ3FGGxXdJ6Agx_quDaOoTtBWqj_PMl-0cBNwRyt63GkFFOGVVxgns4lBF-U8=s220",
+        "view": "https://drive.google.com/file/d/1oTsLv06_GbEEWiDadeyc0lm1FTfZC3NG/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxD0yf1FLtopsuR2b8QEdUezpaAIUbCUXnvbKLOrSZ6nDMA0RsH96wGLYLSNiCoAfngfq6mnOXI_hYGbIEV2_dv7RoZ_V_NgAyo7J-p96w4RTr7A8=s220",
+        "view": "https://drive.google.com/file/d/15l8XzSybdCCjKz3ECMSuWHUOcc-MqJkD/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3SC1HOMtl0s4E6gDX-_aLqimq1d2OscLSi1n6C1q97mu3RpnMWqYs68jHcYG1IF1JG58BNcH5O9LrALUFbOefWUVp46qHkzif_ONc8FkOqqRjVlY=s220",
+        "view": "https://drive.google.com/file/d/1N1ejCdaLTK8bVXNqd2-WbKRXJPw5qIQS/view?usp=drivesdk"
+      },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGuHC82knMihGDHNW4zF8RypINS_FjBqvEUmgwbVN43lcabJShmfp69QdwIJIp6n7hCUze5P5h3a99epBKNzmAx9vnF6Bp812oRCAVVoOe9lXom60=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqVswy6tQB6IYhXeKlZeM9DSxA4budU5ch08nWb0o01tbWNBDJE0Ql3h98ygvFjIWK9nfPGXXLbVlcx3I2zSagdJF9PqW8gB6zsDMEfuxPkcRniLY=s220",
         "view": "https://drive.google.com/file/d/1NQos8_OsHFImA1Xu0lkQfZouuOLZ5HO_/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoNmYd8WcpFzR7rDuRgusKhHf9QDIjaAJfX9YZVw-q2Y0dH5w2kYM466wea_3yjjdV3bWB0qc7XXGgQodrKGqhlYtoOq00JQA5cdfHHf7Lltt9nk8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWoTK9Vl1Rxq3kH-bT9Yer95B17wIe2UgAQ59xLohIdgr6XpWVQFsaYHe8SFCQUaQL8nkVkItW4V1K1MlsiRwWTQR5BpY2tXEz0AaHAJXMxQ23VKI=s220",
         "view": "https://drive.google.com/file/d/17BR-XZoyNeN71Sh8Biu_-F-avHnFnmxV/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIpohxohTo1m9XHTsdJSF8qRnowEZ4CBGPZLwvwO_Q4l6sc_fRFA1KXg3B_plGrD5MS5tbuTNA9Y49cqtp2gDMN_YruBCY8miXcj1YuJfuEpq1o1g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpFjoJkdvaBmduS8no7khrj2Xw9Z4ohUPOv10gAHLwJJa6uRlcVC5vKNOmaTDtBTNB8qPLvO6lBqNYEsVSwxKV8W7yAhGO2SsqPaO32NPrf8-0TlU=s220",
         "view": "https://drive.google.com/file/d/1772s2DD8hOGPUcCRNxG5SgfZDxBYqZp1/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMONkKuU6CjDNB_5tyRn9vaclePcIAMMkm05V_gBi_sYD61IO6daeaAQ_trIxFO42p0Gba_o4PBQnsVZ9Yh-xAPRU88cdp5dtUXYhN8h4QZjD_HR4E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiR506shWcw8PEswH5Do76NWxy0qERDsg1X6o_NcYzrlgGzpjdTGikxtFy3D6v4rbHvkYzW_7C0fLjFiybsz66-Y2IzeMjAlOeeaJOHg0KGVucEkM=s220",
         "view": "https://drive.google.com/file/d/1dNXXppjHuFlF7yj2nXbOX70be-UebF3-/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi5tfAUZJGlVBpc4soMec9ZdmFDiWi1edzGCP4zutBB7aVqZCKm47-f5jdE3gJUshRMggNFMxJjeKW-k0hp84kDmE56MLVX-BHP38nGQHDPo06QXE=s220",
+        "view": "https://drive.google.com/file/d/1gS1AdWGaDWRjQkavmRklN1jsXj5iQcSY/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjKryFDUg_fjXpBjOB1II2XesUNebldez1TWlpitcDerEO1oiwAeiygbg6LHqa8pZTzLgpmM9LFwKkuSszl0TpmQS83Uq71PSyZEO5iBMNLbEy-Zk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWTFAI8EivNzuUhmCZv18IVXT9IfpBMSALm5eI33ynqDb3GoXy-xfU-N_ZtjWMZdGCPXLXInIp3OlAGL8xTRDxoC7FF9ClrwkpebyetRXXA_NKtr0=s220",
         "view": "https://drive.google.com/file/d/1xoYklpY0WfaaaD6NWrz4UUrqszzuhx3w/view?usp=drivesdk"
       },
-      "FINAL": null
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi5tfAUZJGlVBpc4soMec9ZdmFDiWi1edzGCP4zutBB7aVqZCKm47-f5jdE3gJUshRMggNFMxJjeKW-k0hp84kDmE56MLVX-BHP38nGQHDPo06QXE=s220",
+        "view": "https://drive.google.com/file/d/1gS1AdWGaDWRjQkavmRklN1jsXj5iQcSY/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 1,
     "_isNewSet": true
   }
 ]
