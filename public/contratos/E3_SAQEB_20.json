@@ -9325,7 +9325,7 @@
   },
   {
     "FOLIO": "200282",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TENANGO",
     "COLONIA": "SECTOR POPULAR",
     "DELEGACION": "SANCHEZ",
@@ -9333,23 +9333,26 @@
     "_stage": "E3",
     "_folderId": "1g6zlG46ym84RAoww4-prGXYgmdxAMapB",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5Vi7zCSzpgomcWy3Zhe01E0Wtm-sfTFxH8fbkeLcuiLyBMyRWVF4EsQeSHmYVixh6iaoPgQhGzi8tNfjhEZGdz7YAmP2JD-U2ZmQz6kmz_dbgmQ=s220",
+        "view": "https://drive.google.com/file/d/1q_I_9UTMYl1JCjk748ydtdWU63zBopve/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLWASMdooygvqbNcPy-bwdLj-FyX0lemu2VqYhux_d8nRkDZ3y5olepBz26a--L-ooQ8agaXB8IPhMj6xrEimBMj4gZtHXVZeaNdtJC5wONLIbig=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQ4DjO2_z0WXis5cHCQJZJhMBomsnFBULKqvQBH8DyRGJn538QJEC7a21aWr6yCXe4874CSbbju0yMOKmb-mypKaod5Mbm4SY83yjl3HCGyAtsvg=s220",
         "view": "https://drive.google.com/file/d/1gC1VYmokoYlcHoomAo-YZS-jkkwM3k6w/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPe9RaorN34rlHxP4uR6p08JnjsPCE4ksDRlY3Pf8LxuathHduCQJuSPtAOOel9iKMYefw7kCrIYwbrUDHKTlqwvd5OPl8nzfyRDH2EZYbRfjojCg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFBMT3rTsrExEGkEViHuWnMOzDmeDCwW7FjLhNMfRt3uVVXFAJ4qkd5ZhOLbbRlnlHTK6pUAt-7VZKWFp-CObMCzatFZufJYv7syT_e_FT-_ndsA=s220",
         "view": "https://drive.google.com/file/d/1Y4mCNnjcP7YxMBYd0_pzc4FUuWeI22k3/view?usp=drivesdk"
       },
       "LIMPIEZA": null,
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPe9RaorN34rlHxP4uR6p08JnjsPCE4ksDRlY3Pf8LxuathHduCQJuSPtAOOel9iKMYefw7kCrIYwbrUDHKTlqwvd5OPl8nzfyRDH2EZYbRfjojCg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFBMT3rTsrExEGkEViHuWnMOzDmeDCwW7FjLhNMfRt3uVVXFAJ4qkd5ZhOLbbRlnlHTK6pUAt-7VZKWFp-CObMCzatFZufJYv7syT_e_FT-_ndsA=s220",
         "view": "https://drive.google.com/file/d/1Y4mCNnjcP7YxMBYd0_pzc4FUuWeI22k3/view?usp=drivesdk"
       }
     },
