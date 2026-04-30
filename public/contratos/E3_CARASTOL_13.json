@@ -4213,7 +4213,7 @@
   },
   {
     "FOLIO": "130155",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + FOLIO + CORTE + DEMOLICION + MEZCLA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGO CONSTANZA",
     "COLONIA": "OCHO CEDROS I",
     "DELEGACION": "OCHO CEDROS",
@@ -4221,34 +4221,31 @@
     "_stage": "E3",
     "_folderId": "1Ffq4DdNwOtbejyXrtLeGWt1eBxdcBTl5",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_x3rdEExiky9ZvHQeCnmTDNxn--erV2XK9d9r3fxxvlGYAv-A8AlUqng_i195T5JIjQ64_ze4ZvO99WCIl9lmHqnddNCD7XFFcx1LlBBCo7L_D4M=s220",
+        "view": "https://drive.google.com/file/d/1Dtcw0QjNsRiZGy744i1-2-uAB7OX38os/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOC0leC6xvJHohmMcVLVQ-LIYtwI949RM4xVJIy7l-e48zrOLGHlMFdzqj1CkxjF5PAgmF0FPVy-629Z1KxXLnEPa0M6wKDJ_KpWHPrVlCVNNqYjQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7cTKyYJg0EJcbtuXsiC7IhTiQUd3EmoO-xfRDO81F9CSaaR-XvBHGjhlCSxVuXajPkVauEuaMJYQsLMAM92c8WHULB3yBBGYIThbjhjSKImp0Ch8=s220",
         "view": "https://drive.google.com/file/d/1mkMtYa8IJlEhsxQRY3GgaQMiZTPb6tOv/view?usp=drivesdk"
       },
-      "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkSXYuRKqdDDiokGeObp-hzBqW9rogO2DQ0V5-2A17VH_lff6Yg08GWyrBo8Hv2Cv_ax7jA0ELEskNA9Ll-u9FEQ7AkoojsJnhmF_AXeblPqTAQQ=s220",
-        "view": "https://drive.google.com/file/d/1gDXxFUPAeKwh0NIxt6MD1edEfuF5em2O/view?usp=drivesdk"
-      },
+      "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgvhJIxGQripehzqAZVlU-DrUdbp2h7CrqnaA-lcWkyI-UKxTdig54i_HWwCuyvyj2AaTQVCQikfrtRXs5qIyLSv7TPO2_6tafImkXNpFJEByJqw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8L1dGAmyGqBmY4W9cp91c3TcKlL0Y-kEyNzsT9btSMm70-JHXC6orT5Fl7nHOpjMTjCqX_L6gu1jLAi0d0CkfzsDY4sJLTk2JE31e6VV0F58yuUA=s220",
         "view": "https://drive.google.com/file/d/1B-sQ2xCC4DxLkXD9ZetUtrB9vV3tjaZO/view?usp=drivesdk"
       },
-      "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHnk-umn-D-PmuBEHoD5bOLHjm9zb1S0WMS7iYgN-jAUw2h8LaCaMEEAKm9wBWcBdCG03d-wbQZXtFMxvnFW_Xu0G34UXBuKwmCG8aE2Qf_z-bDw=s220",
-        "view": "https://drive.google.com/file/d/1jQNIb6Fmup5P72oUqqA_b53sjWSiWSNm/view?usp=drivesdk"
-      },
+      "LIMPIEZA": null,
       "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgvhJIxGQripehzqAZVlU-DrUdbp2h7CrqnaA-lcWkyI-UKxTdig54i_HWwCuyvyj2AaTQVCQikfrtRXs5qIyLSv7TPO2_6tafImkXNpFJEByJqw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8L1dGAmyGqBmY4W9cp91c3TcKlL0Y-kEyNzsT9btSMm70-JHXC6orT5Fl7nHOpjMTjCqX_L6gu1jLAi0d0CkfzsDY4sJLTk2JE31e6VV0F58yuUA=s220",
         "view": "https://drive.google.com/file/d/1B-sQ2xCC4DxLkXD9ZetUtrB9vV3tjaZO/view?usp=drivesdk"
       }
     },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": true
+    "_isNewSet": false
   },
   {
     "FOLIO": "130156",
