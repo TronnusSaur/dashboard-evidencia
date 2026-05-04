@@ -2081,16 +2081,48 @@
   },
   {
     "FOLIO": "140081",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO MACARAIBO",
     "COLONIA": "SEMINARIO TERCERA SECCION",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_folderId": "1fKto66yVYuw03UALyKu3NaN_VmmLjCVx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2TOy7TOR3cMz5il3kWAp2vDxWSKxD9emTcmVOBdQLuxbqkjy2GyaEMkFdyyCuL8vWNxMkzB4joTKgww7E_HRNG1JmmRl9m3O8L_5ck-2eoDTt=s220",
+        "view": "https://drive.google.com/file/d/1QjG1-2ap8ZVZSGqC9fcJpajgjiFthWdh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoib26BtekQVEKLHrOqjdJySCCTOcAlesHHsXqG5GTCeUZt8Qvkgp9PW9vLzIxvl0VBsEeCRHkQnjdytI-PoUfFTjivxUdNRVu3Circ0M2p56z=s220",
+        "view": "https://drive.google.com/file/d/1b4wi1J2EoKLZTgoebjeb-BZeGUjf6r7p/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcY30ggG_nzDfVqrzpUXiNqGUZY00l0lhPkIcb3O2Pwa7L3WqGEx0Evqqj_hPNeRva7MmKAycqpXeQwVkEYO5PY_vgF1fjqc5tkbu3BupSp_yKIQ=s220",
+        "view": "https://drive.google.com/file/d/1T8pya2DYC2V1CxJBZTHV2tBIOU6Gzvqz/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9qf4rJ3RMStPIRY34uawu5FNXT3awyCdv7lDAmhSY6EyuciUM9DdXDwPSh0j0HmVIoTsqfk5-9Ok29pa6oSvR5-i_2XsK345kS4Eprql3AFp9jQ=s220",
+        "view": "https://drive.google.com/file/d/1epfv4L2eWfcsfU7_3st4XbIjo5HW5f2j/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYc5PorDfVVXoosCuEoa8M2Fwf0wlg8FfqLQR2BwBJ4x3GU_f943r6TOyJXLkHGF_LAPqL7TkyncmJFF9qM-Cv3pIofnjMlhC7MNDKkufLsMjuJQ=s220",
+        "view": "https://drive.google.com/file/d/17dD-OrTffDfQt05xCLurC7inssUSXVKh/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPe_FJmMXOBGYt7lP-VcOCDEmA0Sg6uspk7cEnRQXZCWxnChz-SIEirDO4tAqhOoH5Vuuf5of8_RtzDOhlMk0fxhukhG3odBG0i51zOtFWPrOcDBQ=s220",
+        "view": "https://drive.google.com/file/d/1XQLVT7ws9qe2aoT8aniarYYNwI49PU4e/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOE3tnnGUPkKpa-869P9xp6Kg4_lSrBDoN_8nWb_BR4KreiwuFFL1U_tCsP7LZT-obaFOZDEsfvmIPLldAh1PX8gRkOMWhJkmb1PlxzGqUp8OaYw=s220",
+        "view": "https://drive.google.com/file/d/19dEdWj0EUZNyFiEMo82nVORvNk0YNDDY/view?usp=drivesdk"
+      },
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true
   },
   {
     "FOLIO": "140082",
