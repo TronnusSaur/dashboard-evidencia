@@ -426,7 +426,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
     }, [FOLIO, _isNewSet]);
 
-    const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com"];
+    const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com", "soranodex@gmail.com"];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
 
     const fetchUserProfile = async (token) => {
