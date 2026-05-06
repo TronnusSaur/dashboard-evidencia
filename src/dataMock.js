@@ -108,8 +108,8 @@ export const ERROR_TYPES = [
   "FALTA: FOLIO + CORTE"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 198,
-  "OK": 48772,
+  "FALTA: INICIAL": 196,
+  "OK": 48774,
   "FALTA: CAJA + TERMINADO": 662,
   "CARPETA VACÍA": 479,
   "SIN CARPETA": 685,
@@ -15229,8 +15229,8 @@ export const RESUMEN_DATA = [
     "ID": "46",
     "_stage": "E3",
     "TOTAL_OMISIONES": 250,
-    "OK": 247,
-    "FALTA: INICIAL": 2,
+    "OK": 249,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 1,
     "SIN CARPETA": 0,
