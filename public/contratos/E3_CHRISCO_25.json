@@ -10804,275 +10804,1082 @@
   },
   {
     "FOLIO": "250384",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1rfDFM9JiU5tBTUNCG9dc9QsenQCk1VVM",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP820D1XG3paLso63EAdvzqGcbzt-hEmKha0gxBnbqbKNRr7-q1sbO9qT89fwWR1EwKB0xSGWZ_NzqOcHTUm19LhdVvR1sUTT4QnNqIXw7sqPzyia8=s220",
+        "view": "https://drive.google.com/file/d/15LPpI4voEhvMEQfMMdU48Ej6ietNc89I/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJiPfer8pTrGYxDiQ2UaUZclUFLL0dACgVGLE2cyHycDpCQcfLEShPpfswDVqeH0SUYAdTXnSUbYE7NVHvQ2ttd_fQycebyy2ceQ5iAas-BdnH7wE=s220",
+        "view": "https://drive.google.com/file/d/1f6ilM9wfEK1prIyXfRQGpWDbl1IPQLBh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNP7M9GvSjFubdgfPruuQMIKpycLZDPQ1mbXcZjy4Za3VcMQS4-Q67QoCHKTgRDvh68cGsHIEjJ2o8J89tr7pn3gsiSvP71HMaN6QyQjOS7nwIm9Y=s220",
+        "view": "https://drive.google.com/file/d/1UuT_iXfMV_3o7Yr9EXBxUZThJ-s20ydX/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRjgeRozwZHB2Dr1qI4yXMdVBO6EshdCjXGOtJ-E2e8_f5rlJSQO-QOonOUD1kTrmnEWc-ABleriDov7wcvM7zOYroGCI5c3nOcZih7lyyzTTBrtg=s220",
+        "view": "https://drive.google.com/file/d/1NuEPeot4ZjRtjEY-msNSAtHwl0MdpzA5/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJiC4OXtM5ckwVNLasBMtUjAbMbWnqpicRxYN3rvuhNggCZ7s-4nYoADkPjFrGnu6yYxLrPAvckNAnUG3NyU45q2vIO1ZFzCLF_MyCdMaHNp2FyyM=s220",
+        "view": "https://drive.google.com/file/d/16Tg4BgEUrlubXdqwy1vvhnbG9UFQKhoN/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1JwtkAauB6bUA8nvsyLHgLSTa-k5QBVPTVVQOnThzWJUvzA7jZhjHujefo0kxLiVwsnjRYodQUeJIjAH6Aew6G6b3SFlmICfaI8DOxkPN2gb46I0=s220",
+        "view": "https://drive.google.com/file/d/1zelvBOUCLMC64BDzDZp815544dx-ut12/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMURni10T9JVqbOIC1p-EzfWuQ-La0z4Bv1b8VukWzhtW0bonb_po9I3ZdSLAEqMie4cFdzAVIR8yi9qwNXgHLZkSmTgLp7DFdcxOHMLBL2ZsZboQ=s220",
+        "view": "https://drive.google.com/file/d/1Yv8WYFryhlbBnlMpd3nRlPj4g-3KSOgw/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwrPfBtLu3XRPqF65ODcdI5_bXTrCzkwzzj4AOrYjOhARSKYUy1gAewyL8P8U84FVSC0LYlN00Ut6b_RljYmGgl_2InKS6gcEf-F-tBL7x-nKOz18=s220",
+        "view": "https://drive.google.com/file/d/1KNdyC_-s1yQtCeOgqEHLENyDvUM8YZbz/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMUw1Vxx0hbfIPGbDdkvl7_a3sx-rA_VtyY3Yl7oZ5gmLCvNG4uu2vplQwBEa_Qc1wLg70jBL7ctZz6VhNwjhpU9pmtdKkbXdtlPReahIIa8eih_w=s220",
+        "view": "https://drive.google.com/file/d/1WJ4iAB_pqDUhg9tRbTh8_-nBcf1srwrV/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwrPfBtLu3XRPqF65ODcdI5_bXTrCzkwzzj4AOrYjOhARSKYUy1gAewyL8P8U84FVSC0LYlN00Ut6b_RljYmGgl_2InKS6gcEf-F-tBL7x-nKOz18=s220",
+        "view": "https://drive.google.com/file/d/1KNdyC_-s1yQtCeOgqEHLENyDvUM8YZbz/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250385",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: DEMOLICION",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_folderId": "1c9i92h_FxaLG17GeUFQ9V9BwtZM_Ehkh",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORDdqIl8Vg0Mh0GWj-t0psnqrWW5mHOFOjV8I3mqUj1dOwZr7blLgiO-elMsurd9Wi2I1uzw5G5N9fW-7HGQncGuZL2T5AfI18vcglquOHnNittW8=s220",
+        "view": "https://drive.google.com/file/d/1GtC3ALcVOXAMauzBHSR4ysa2eTetr9X1/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTFZ2aWlnWqSmEJK0Taj2_hyfRuuZC9yOIgLEfPBwTyhMEBL_vBfO-c-A7GeWRVj75Rn_VnC6yFRVQD7KqxsJhg_m_is8n4inaTEGPrT0wHgkqFgY=s220",
+        "view": "https://drive.google.com/file/d/1rzXcsH83En84ffGAlu7CpYmKGMvHFaLH/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-nPG0LHkNrLwMYTYxMiu0QDeZEPEK20qImcCFmTGA-eMK4yn_E_ujgsu6Z_UhJfYfzKHUsdSH74WnXY-Vc-LEFL0uwfH9CskjLELgoeKF-v9cOjE=s220",
+        "view": "https://drive.google.com/file/d/1ZD5IcMSlq8KGZFGz-Zl3TXtWPjKvC0QN/view?usp=drivesdk"
+      },
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZqtRpob3gKFERJavplQUBeIlmMh5-X1-O8K6b_qCZVzAL_owg3_TAK5kNt-yZND_ESIsZsvUhhy3Zbefo2pfC0r2FNZIebCVODnkeqsE6SUoWxyY=s220",
+        "view": "https://drive.google.com/file/d/1qVjQ1LX7FVz5YippLMCn8dMUlgTehAOS/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGW_GAUYh68eaijWrh6cMtIUf5rmO0KzTgMiyIcuYauz3MaWXLQd0Xwv4HUhw3VTS3dJyTaUgPEcHk3e9V8AFLz8Lu57qoYhyS3Zwgdv_4YU2VZXk=s220",
+        "view": "https://drive.google.com/file/d/157lXcCUOR9oLIYcP9n9H0gJU25NTyp-1/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPi3V1X1xRJvSkxGeiHFR55e-1YH4sjHOFpvPXQWr2xYvYsB0jr2GjPwyaljM_gJaScNgIa7p53ZQ2t8VyaJCov1CmlVW2xJFSe3lihiVM4QJDA1l8=s220",
+        "view": "https://drive.google.com/file/d/1RfgTX4VnXwFVrKMMK8XPag2dvKy0rIvC/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxRSzSC6V9miaWiIyOLIDUI0mD5DJycCHnAzoaiz28gnJXPTRRVRck1z4ha0JnG3-kOU-XwWD3A5Pz_FJZBCv9QSeqnwFhP8Z2SmC0gPpCqZIhH2w=s220",
+        "view": "https://drive.google.com/file/d/1fO0fKJd7BqR-LoNuyTAikaXsZCwsJDoc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEfqrdkGX3EtQCvTmvy9PUEHvXEOu3Zgn5WEd6WyvLgV9aF-GWnkWpQmGDdRacEeuxVe9lxAMOF8wFOuLiFClW4y98AtBucOgOZLRZGrslz9Axxa4=s220",
+        "view": "https://drive.google.com/file/d/1AHJc5PUjno3kANvn90x-c_wHO17g7b02/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxRSzSC6V9miaWiIyOLIDUI0mD5DJycCHnAzoaiz28gnJXPTRRVRck1z4ha0JnG3-kOU-XwWD3A5Pz_FJZBCv9QSeqnwFhP8Z2SmC0gPpCqZIhH2w=s220",
+        "view": "https://drive.google.com/file/d/1fO0fKJd7BqR-LoNuyTAikaXsZCwsJDoc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true
   },
   {
     "FOLIO": "250386",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "18zz5w6LNWqBUJXrQo8E3R7Nq8w6dY6w1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkK2qAWrZFU-pmjJjGCPC4O0ubWxrbS4abTk8amn1VTFm5fuXoANS0VUgfBxq2GyXLzs9av1mOaLnjDtnvEpkJEWKCpcCF1sE2X68bSLrMA17Ay9g=s220",
+        "view": "https://drive.google.com/file/d/1yk0tzwGjxfq8jSRBqS8fk7QC_aI3q53X/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEtu3jLR8m2em7eWZ-cj6NlMbQluZPBImileQVvu9lzMW-Fpg4ultPScewiP83XyCN_Hl-mK5p66GvcLUd8a0V6406mfOlpMCL7WF7-0zKDPiVKeg=s220",
+        "view": "https://drive.google.com/file/d/1WPrAeOFoGANyz-a9JKYX9P_3Ix8Hah6u/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3JfWDV2-Q9eOyicXpq443Msyim1l721JY6wDbalUNiMatvR2jC5UDMAAvKfTw3a1SeY3g89Xl2AHM0AOE2cdK7wbpCkUaOl_m48Ziy8oyeF6kG7M=s220",
+        "view": "https://drive.google.com/file/d/1ZIGP0h3Tjo163G5G4RsIwN3FtXxqrN9b/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORzXvxJ8l1eQ3BdVDJFcKag7xpT1L7FWXG7s-dmsbSV_Of5cZmgAPdVEmcgpoCC1BNaiwo6NmetSSXdIEqMww-UTaaF4xw0D1chDciZmZqNSWaijw=s220",
+        "view": "https://drive.google.com/file/d/1uS4ukx1fux8OCIg66_2qd0UjoqIvByO_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJCFNxy0nhPVhcBbSSfHx4GSd8Xa0s2opesaTLN4QwSe9AppvkRkCzfOqOLXPhVV1maguP0W72A-jwHjr5Mc7LqvJYNO8G95OYwwZBQbiIaxWeNWw=s220",
+        "view": "https://drive.google.com/file/d/1xJ4kZxdtTMmJhgEIS8G3xnDdVYMhdN9J/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSv2GORot8w2FqiEFxxdYcEWRgJ6ZMCjtTTeQdGPlj5KXd4v388YktiTA56NX0JQVAwqry9O93XvgonJVE22EmjLCu_koJ1XWeVAk59qXNbUST2Ps=s220",
+        "view": "https://drive.google.com/file/d/1xG2Amy8oVryuq78Hph3RatSE8iSBSX1v/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfs4DfhfRGr66efYTj7acdDiwTpcVkNjURl3UZR5TNblokLDBCqVB0swD1G8TN-0U1NH9X5gCgrEQMgeeUwreCHUajyGsAYk8_d7rsEcDBXX4TS58=s220",
+        "view": "https://drive.google.com/file/d/1pdJ1BGNyK_hYAL3LA1B7eCArcDFi7Pze/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyJIVe4_l1KrWm6sfGISqHeaci0qV-4ExNBvVeumUh2_x62VUUlRCDOCAwIr3Etrz3jnbgdX7nYLMT3qvT9053H-ak1SsLiCUCFHluRWWM3ybsjQs=s220",
+        "view": "https://drive.google.com/file/d/1Z0cnmi4iUzbRZn0_gkB2X8JJzNs-79YI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUIppWqH8dTKUm_OESe8CtKrZ8CwZPYkJYh8-74MEYwoLAlUrAacrDtj7AQ4ZS39hGwbklbS_4zGiqt-R_hfZSHKd4Np1NHioLa6i6BNTS9wJoDTs=s220",
+        "view": "https://drive.google.com/file/d/1oQhsglpwdCYHZR19wcgbJG7P13AMLE0k/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyJIVe4_l1KrWm6sfGISqHeaci0qV-4ExNBvVeumUh2_x62VUUlRCDOCAwIr3Etrz3jnbgdX7nYLMT3qvT9053H-ak1SsLiCUCFHluRWWM3ybsjQs=s220",
+        "view": "https://drive.google.com/file/d/1Z0cnmi4iUzbRZn0_gkB2X8JJzNs-79YI/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250387",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1RcQeLPaXT71GDw2r94_5fdy1n9_sWa-R",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNz2yO9M-BeFg2WUPLIxkpGAsEFiBkftx9x6dRri1uLfY6hDAoqUDfA3fWAfYog4KSS9F-_oSKmZqAEIvrbN-a6fQBRxBnCt6EysonFQDf0tp6OvAI=s220",
+        "view": "https://drive.google.com/file/d/1lrySZxjEmaQS-6wFRyw8UMbEePNvxKfj/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoBE4h-lXZe7jssIn8VgfUU_p77yk7mQNz2TKlrCIddIOqREsDoTvoELXZnliRXwFHB0nngTtoqiTRZe0ZBMFlmtUf7zBNzowtg1mMuNRmSQwaCXY=s220",
+        "view": "https://drive.google.com/file/d/1udzjpPQCfof1zA9UTW1B4uM1yBxqxrHy/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPmcuNTAXABraQFVCz0ONdlvKnouzvE9Mi2k2FyktlbLfMxmkObmrhJ5RlQa9S2FCA8LCpz-PRawiJW1scB_AcbkGb2olEzomamBQTSQhHACTovmg=s220",
+        "view": "https://drive.google.com/file/d/11pwaKYDk8EE1mBC89-PMcF-TMGM3WTsH/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT7edfX3KsHVbvm5ATkI0kwoIu8hk-LyfRkzVc5ab7nNl7MGyXiRcjFSRFw8oC-Ef9yRHUoKbEpNG9p84HTExe_2ldBe3mTSVbCRW8fPGCZEULehs=s220",
+        "view": "https://drive.google.com/file/d/1tosPyf5XZLUNuWXLtfJXQAg5SdrEkCfn/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0MM-BPFSTy-7mKGm0LQZkj0ShoqhEa1MZ_728OesPBQ74qyyCPbun5CXZ5wnz-_RpsL1nJz36zhQ6Roo93XAJr47t-8iUp4Kw-etd7uBaKkdeWhU=s220",
+        "view": "https://drive.google.com/file/d/1r-h8y5dgyWmmQPu7vmxjxq34r8jlbSdF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIeguZHkIV2paEZTO0BCoOc7sgg0DPzAWmUtSHuiNTLN8e1ZJKGWDp6Hnrt1MwzsoStlf9nS1j-yr4yI-WRGPDVqomPYqm3CWBfNaH-DzhQebtP_w=s220",
+        "view": "https://drive.google.com/file/d/1VxQz65RPPBfK0jyYpdeOIzMV3pRWaaf7/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOztFFT544xVFTuvDKtToa6vnTEHc83OGBWZUgkhrP4VlRoU71H-jyV-0GG9-6rgk4tYSpxvRiOrwdXaPiZ-bI9zGQSJlvc5HA7a5ZPsbSLpOM2-b4=s220",
+        "view": "https://drive.google.com/file/d/1WISUUBTlg8ujDmacqGLxCMyaM2yEEqCS/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPToPq9gqkgyn-rtdlHre60m5baKIGvhIXeMbG-AcNZzIj5sxQKI8p8gSJoajODs9FDfME1BX9gcHyzTf4iTm0XiqYWhb2f8JijsFh8kSdRx78P0QQ=s220",
+        "view": "https://drive.google.com/file/d/12AxoVq9Mcz2hNFdly0dTodXGC5CSsd-a/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR-GDDaIaMMe-_eU27rAdmvX6L6mIWnpPRsgVrxHsuqYcI_Uhjew79XMu5N2KrO_CdQS9fH__M8qlm3rPUT5_gsUcn8EZ8Rm5zvsejp2YwZc114TQ=s220",
+        "view": "https://drive.google.com/file/d/1I8flOfQDaJNNnPkeQFdmZj2DkPzuJYhu/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPToPq9gqkgyn-rtdlHre60m5baKIGvhIXeMbG-AcNZzIj5sxQKI8p8gSJoajODs9FDfME1BX9gcHyzTf4iTm0XiqYWhb2f8JijsFh8kSdRx78P0QQ=s220",
+        "view": "https://drive.google.com/file/d/12AxoVq9Mcz2hNFdly0dTodXGC5CSsd-a/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250388",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1JmDlT5ABYR9gib_sZb6Zr97BM6gqTvQb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6wwaD-V7mlGFB7nDJMn0azxXaI__u4pvGzXo58OJuehFdfMZBQq2rk9m1-EvDQDQqH-Yfvm5hPk_gv-mqzLIsUgVnJsIbA7aQvKUn5HJUUzdsICA=s220",
+        "view": "https://drive.google.com/file/d/1JXaMljVecl80yLOEV-klThpeZAT74Squ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNydUe9GPRsziLUODCo5XRGrZmuowSmablcxShJqpic_BZ2yPwmHCyCxGX-MkVnAD3xxFoHg7XelaPqVXC_Wt1TMKVkSnK2D25pHY11bxjX7cQln2s=s220",
+        "view": "https://drive.google.com/file/d/1aDVGc2wpI_v_o6xUyvvfTpMbqgwFSNpX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1kW_hMyJDf5eW0f-q5Rv92YsAONpBlNv4o2dikJlfvXvvB1W3ffBP0cCbD4aqsRKhgu2K39jnf6aNkGFDV2hzko1-Y-SM4O_e7Dh-eRCCmf1vEfg=s220",
+        "view": "https://drive.google.com/file/d/1aRds90c6XxMALJbfCqTsTJwJ3Fy9mHvM/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxB9-JJ1CuTypApF8O_00Bj43xqHmll8TfkBdYSbuKNs4JSKBhfhHgUN5KRKzp9FJwlckP8VhIRMBpMqJYYaJ5Ga1-mGT8iiNkuBfhwkb5l65h5kE=s220",
+        "view": "https://drive.google.com/file/d/18t-wLd-3SYfsWsWNAeR8TnhLGDMbXkn4/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgZ9nFi8Au4bLe5IBxx8z5nv2M7G7M-adn__M8RC80-TBtC8WOi3RbMJCjlYskNUgGJkTMmEnItsA8Iv96ofvic_KfHKqBokau6aAdgbCuhgkYD8E=s220",
+        "view": "https://drive.google.com/file/d/1bEx01MA4bSuLMLUCcKrBZ-cBzx8Dy4n8/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1hO-uYblSwdADM3Y1ZFeh0OHIT9BU1K04yLkcU_H4iWftvHwxwoGSD8nhzaxakEWBqHG_HtPn0mRvsZeNIjiaS09-PrL5lYDKRxsLzRswJbX1WQg=s220",
+        "view": "https://drive.google.com/file/d/1Xzigq9EAPsnh9pLbFI3waV6pHcIzV21a/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORq_MdTR-lrC6-pHj0VFmP4n93BciT5j2sNR7se3hn1wy-18L864FQ19wK17h3u5fN68zxQET5sItsQfpBK77YPifrb5Sh7dS_kl6UTrOwADkKizE=s220",
+        "view": "https://drive.google.com/file/d/1gQ45yRH0ipZ_CsO2kooIognUwK_pk0aP/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEpfvVc7365xWyU0s6QSHSZ0OPNvc1SFprIEpxFJAI169frUErwhKMeGSxegOUPUibwfow15F-aUqR2cZS4JETKK15dKr-ThBQ253KFD5QtOXpU1I=s220",
+        "view": "https://drive.google.com/file/d/15zXyCboFDVM0fsiY7ROXZf-znyiqCKgv/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSQVA6OTGd3RXPtoYgLAC1t5iQls01eO7Ju2twjhP75jEWZTo-Fnd3O86knaUnTUOWQCoV5ELp0uSBCal-LaHaxPbLv1jSl4kZJYCvGPDGwN_mx_I=s220",
+        "view": "https://drive.google.com/file/d/1deSBSgVIGz8l-lI7LsaTtePhHH_rAn85/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEpfvVc7365xWyU0s6QSHSZ0OPNvc1SFprIEpxFJAI169frUErwhKMeGSxegOUPUibwfow15F-aUqR2cZS4JETKK15dKr-ThBQ253KFD5QtOXpU1I=s220",
+        "view": "https://drive.google.com/file/d/15zXyCboFDVM0fsiY7ROXZf-znyiqCKgv/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250389",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "155Lw21uwWDHBCp1eP0t1_ECVsHPjA76E",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_ftGfc8laEQK6G4PDOw7Yn8tbkgOr3SBIxRr6YFtcJkF4p-_kpsXASXM97ugj2NBc4MvaGG0zQEFMxSmMG6n4t6_s1u47aw6zeSwiaYQfzNBfjE8=s220",
+        "view": "https://drive.google.com/file/d/1Z6snfT_cBw8zAfgCl4bku_ejNk1hFU78/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_qo3fnMuwXgTbrJn0jHRLte_n18QsHjy-1uV5TlN_BatbxR9g0hhgXjbVF_-1TfzFtAaBqOEJnMcfW-1X0NuU5fMOUQ482ChKQAl--16SNI-HA5c=s220",
+        "view": "https://drive.google.com/file/d/1PFDHQRq4Ux944IqXHfwliu3muPMWUCAb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuH90wQe3xILnloCBCRh8vyOtZV8QxNiBbQvTQP_RDueIIukQ_hOXrnYRCG0q8ZGcv-NhMkaB0crN_kdmwgeTnAvLcQGwkso6PjPShkb7v2L8uQg4=s220",
+        "view": "https://drive.google.com/file/d/11qLk46Yz1t9F-pbgHmBbZMQgJHo6-kka/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7b429OkW9rySI18VGZPGEG9Jwvr9FHYzn1PpGGoHhmjaevgyRzbEFW8jjbsrruSWkBwsgK1pBk4Ix0i221vPDrQAVOEAcGe_V52nmq_lQVpNwmlY=s220",
+        "view": "https://drive.google.com/file/d/1qSL8xK9tg-w8ep53IzwtBJWVmobkUVIq/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFqK1Wh9Rw4n5dig73EICy7E70tVJqrOOlXrcSep82D5s5gGeM_Ni07KBcvQxb9mXmPbbDDtp2CVAuTtak351l2UWmSoI3vuLGiq5po6Mr-B8zJiY=s220",
+        "view": "https://drive.google.com/file/d/1QTPPLRCyfu9HFcvcyS2O7JuT63fZG2NU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPB8agRuhWYpXGbiNAsJRvemHqH6Vm9aaI5wYeLK5d3wYdcAdXm6LMHCvI_2aTokFES98qPuLSPAV3XWoNy7uYcnY37RF7sqNbClA6K9NvqPkwZWRs=s220",
+        "view": "https://drive.google.com/file/d/13-MjCw0WRkN0I41cqIHA_9y-PK6Re8TC/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNG821eHwRh0PK3tfridZveVCPnXxEoxSfGQ0-_rfPl_Z4ZrSHUTPpZtOZCQrUB1wd4qMV6abwCBiu0v9TI8ze68oW2wID8ylyAXn199xR7bZiTiqA=s220",
+        "view": "https://drive.google.com/file/d/1f79baV-u2C-QJ8CVvhRn7Yj4c7bO0bRX/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyF9QNLNSIw19hL-8Uyi4osPWG4Gkt3hcD4uOLA3ALfUGI8vVyjZDO8cwNhu44__oo1070d2EkHk0a863M1q5b6ZDoRuEWHQ9PY8KucPqgnRPyP20=s220",
+        "view": "https://drive.google.com/file/d/12DgGqQVmCpbCuNgb3XIXBVcGEDGBRwk7/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNCODcYSoLxlpgggSEdKBklSkoZjiodfMF4TVK-MdguQlZWASGdqqlAemC_MkMII_f2DUzXxyK1XUn3tFfZwtyQpG_sYUdX0WGbPDAJerSdxoxY2s=s220",
+        "view": "https://drive.google.com/file/d/1mUYLNl4N6LVL_fadA-oMc5iwsWto02Z3/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyF9QNLNSIw19hL-8Uyi4osPWG4Gkt3hcD4uOLA3ALfUGI8vVyjZDO8cwNhu44__oo1070d2EkHk0a863M1q5b6ZDoRuEWHQ9PY8KucPqgnRPyP20=s220",
+        "view": "https://drive.google.com/file/d/12DgGqQVmCpbCuNgb3XIXBVcGEDGBRwk7/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250390",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1NZkFyKiMbXoHk7EI7nI-1v32VCZCzHzD",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPox4hfIdZ83XQE9uGlzswsRuHi775USwSpwu_MBVj-Lh2PD664C1Ja5k440TiZ9DpgGdG8Z3aKKQ_BWMSdoCmw44NMIRlc-Mo_cuE7OS4RUzs8g9U=s220",
+        "view": "https://drive.google.com/file/d/11ayBb9tKPKjkaB0XhIdydhcMnRXPPDkM/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZlNhzSBZolT_olC-29q30SqLzlhXFjqMZZvcKcZl2II3X_lvk1HOfOKdWX3v_Gi-zcVul7cfJ18P4TJ7oU7uup752hyfVWkoksJH4bmB9zFGXV3g=s220",
+        "view": "https://drive.google.com/file/d/1NZvgmnNg9uJeZypV8Q-VM0LDUHKlxjbg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxAFm_3bVwxuXI0HBucOngE25OqjjkHVeDvDFAJZrZinWlbkpCTxEeRk69D7dpsC4oGiJdF12eGXeOtP2qwt3an1Ne00Y-77co4rT6t-bgSpmnR8M=s220",
+        "view": "https://drive.google.com/file/d/1f4I06WUJRqh2Ogw5muk8cvHpmdZED8CA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNsO_Hturf_zyJNO1r5tf0vtOWM2muac6l40T9iQ-Ve1BzCDmp_z9aZzs83RnTm_vbaQp94UncMk8xY-WP_g70s6Xs7z8-EPHiH0gUZU-jsOOOT67M=s220",
+        "view": "https://drive.google.com/file/d/1gg9iEovGnHgR4rIVrg4tixZe6Oivl10N/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNf-068cSvjaUg-dbolBzRD4mgrdUFZlz7-RDo3zv7w623GscuwYxc7QiWspQBrUwwiSyELCP2au61boQtQCorHEJBWsPK1B63TZa2mV-MRxRgaNhM=s220",
+        "view": "https://drive.google.com/file/d/11LIrEVovNw4lIHrHWAIjflsaXAP8foUF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPy0zgdj8eOdrPwaBonc7VK8io3Br3xMe0YUzrI06w8VSoQRUoSHWNdOe_71oReWfY9rSdiEpHqcTCH7wS_lLs9FcFKa47qkXH0DSJvG4xAjsWeJE=s220",
+        "view": "https://drive.google.com/file/d/1Mo5RP_hTEPir4uzYe38xQ3g_GtXfDthl/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRvHhJWR3rlvqkdXVDK9ygR7_A494kUJ00kwKzH0zPpedngsv7E0exQV2QDTwxRkFodiUK0ctSLCF_YgWTZm7sbZUk0zF9gExunrDZrwuaj4AZ6xA=s220",
+        "view": "https://drive.google.com/file/d/1UGC0KGzB4qow0tMD8VshMOyKbuaR9Cg-/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmOmjCS8UGy_eh6FIzNY6LhxWS6CepCXnKuORY7Agt2NXWhEjQlC5l10oMx0uYvT23cWsSdv26lSgII9xa3pYh7u0otEzgFZ7Gau3WEDjGRl7AiaM=s220",
+        "view": "https://drive.google.com/file/d/14R32Kl4zeMxNzaXx9cs35Vp9iD_TclfA/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmzcwZjqcg95pmdFCVdnkQ5AJ8ZemtWH-INMfRmDzS6cZ-W6R5gE-_2NKZ1ruMbmxSw9VHcPjZxjSSAppdg80v5CAH133lYtcTG0nDEFa4ur2tLgs=s220",
+        "view": "https://drive.google.com/file/d/1gpKGy_tmjnZE237OVcBVp_SAF6aUSMzf/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmOmjCS8UGy_eh6FIzNY6LhxWS6CepCXnKuORY7Agt2NXWhEjQlC5l10oMx0uYvT23cWsSdv26lSgII9xa3pYh7u0otEzgFZ7Gau3WEDjGRl7AiaM=s220",
+        "view": "https://drive.google.com/file/d/14R32Kl4zeMxNzaXx9cs35Vp9iD_TclfA/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250391",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1VKnVGI-csGqkTSKhRnOL_5eO5Mu5utaf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzrLdNFrN3BKnfkIQogTCj6Fd1JK9l7rxvHcIYUC97g4gnVkZQCQKr-fl5x2guZEvqcyKOepcgHnzQ35T_BZv6UlrRRWCJqW6QCUZ-cOVYZ-XfD30=s220",
+        "view": "https://drive.google.com/file/d/1r7RuMzRDOuG0yIG_Udh3X0zCIP55BeYl/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3u_rRHslJnL4gUchn7N7KZFWzLdNYJDiP8dbMVti-Mz6gYQSGQVi52s27uiH1no-1D5sxgvsmyAv0pG6NmUEICdTCoQfMG9V8EouBNAWOKTMU6Tc=s220",
+        "view": "https://drive.google.com/file/d/1l3LIM5q5JpihNPBmDUTL4T2r1LVXTIaV/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMW4YtS8BEj77-AW0kl2nRDGgmTwghVBKrk0ens2cCAYKNj1XCgppS8qYrnAwbgiFJVIZVHZlA-iZKniRp-1D1cEIOnW8Y9Y_30stXCm2Flgp0D3r0=s220",
+        "view": "https://drive.google.com/file/d/1fRHhaVsmMusXf4VM9dxfTLChFVxFwMJE/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmTLcgPjcCIafsi7wWAdJwbioSMli9plsn0LJPYPY0RpgSrSxWJAmP2rpx52Y2X49Qi7b0PdHYUeA7dQUMJe_j45H8g0-Xg-tnULAsorw7tW929Ak=s220",
+        "view": "https://drive.google.com/file/d/1hJHCZtH4mS1qkJLNl4EVtXUyDd6pHtsK/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhyeXmxzkvWCV04_6Nqkw7ylySaoV6kgRU8R3VOHp5lqpmZpJJOErUZZPw5Jg7Sw_WwUE9xa7M8ZdZ3ZUxUViSIAqqy9vX6-S-YrHg75f6hQ2dswU=s220",
+        "view": "https://drive.google.com/file/d/1zzbLFtlACW7RFIs9KJC7bWQ9a8-2gGoL/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNm-HpoUBb_rBePygttwgjJ3r4aGxq5_G8bZ_Kk3LI4RRgnBABNq749o2intEBvFGTq9wWM5t08pmWKwMY5pxyX85OY2HJTUNBPeQ1QKhprUEBPAXA=s220",
+        "view": "https://drive.google.com/file/d/1dPeR33MVe7ZFfE01tELSZo9lxZhMWOqc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMe1O9__OtHXc6AhZ4E26-GUyuoU0TEK-x7wUJn-zZldYXYFOar61aaodSyNM9lrLLT474zLS13AaAQOXW87Y-kzgVpaPQ9qrkTNzy_nlJHAjwSadc=s220",
+        "view": "https://drive.google.com/file/d/1dQzltxgvcWleCiCmhn5HkJ2RhXWroOlv/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwJ3OCbImj_aV8fvUe-OYvehrFAGwCgPmy0vSGaJyRT0pMdhtkFW3YhrpV39XEmXVMg5u7TQu8W7BIMOuk8yJxcGlvlYKI2WqGpVYBKjnGADGXZS0=s220",
+        "view": "https://drive.google.com/file/d/1JHDTb6lTO7aTDlIwV4ndZPxtwt5He7IF/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcxo-fiy3nRK1YeggRDX2jlB01KpVbq_KYsFG9g-ZsAEQ2zpnUuVyzLpdpDGXEHAIsgli_LGcD-QTAAQuJ5_xVmdJjN3U0vFzXxX8Wf30hE4U3I8c=s220",
+        "view": "https://drive.google.com/file/d/1-kxiT4RtF_MvVBAYSw6lOzfcXEOsYOm9/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwJ3OCbImj_aV8fvUe-OYvehrFAGwCgPmy0vSGaJyRT0pMdhtkFW3YhrpV39XEmXVMg5u7TQu8W7BIMOuk8yJxcGlvlYKI2WqGpVYBKjnGADGXZS0=s220",
+        "view": "https://drive.google.com/file/d/1JHDTb6lTO7aTDlIwV4ndZPxtwt5He7IF/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250392",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1-rS7guQRvb5IhI38kFpx5tf2__WOyGeJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzBtZprvu-6ZExe7bLR1Y6U6WVJ1l0F5w0nt6ALcBGgEuoGMAEkCeI6Rnt02RL2tqK8RZsCZc9tKX2CMJI3BezlSguGQnrs-cB7u9LWUc73rWe_tQ=s220",
+        "view": "https://drive.google.com/file/d/11SDXq0R7OwdkHbOKuL_2cRBtpwuzg-jl/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT2V_9jbRL1QP5Rv0-KntyNEtlUWOwiXa7dCnQAB014viDfDLDQ4Z2zyJY8EQFzOsHzeFi51EeqHT-R5DDJYrx7DYt2ohgWWq2Q1jGn6d_LNHGye4=s220",
+        "view": "https://drive.google.com/file/d/1kk3-Nz97-whVUzrzlVoJR4vxJ4J20K2O/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9JznjDmOKIVbW61y4SMmOjBN3MQjTPwWneEDXWAICv81_nozSv_WWv5rJ2MRvp5FPOmoBANLhZNGYeP2kVx1tBE8Eb4Tvogj5pWCcDNJmgH59E4A=s220",
+        "view": "https://drive.google.com/file/d/155Bm2iJ2QTjfClR-wwgMLwz7O12N1NoR/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDal-hKys_DeFGjn8wIvprAIKzhiXrik-zm09koCeJV2oqQ6IwDt-qh7cCOL2sPB00LeHLddF5RJ2vXs_XrLugco79x-doE2zVZwNKIhpQs3N8Ijw=s220",
+        "view": "https://drive.google.com/file/d/1kq2Crm1NlUv8tO8AZ5YUH-rJAq14YhTG/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWuUBLpQQpp3hsapzulaqUzvIlY9C_XG_HAZzr5F1ZqhqpoYGyEvmo5UilXlnhUzyhHWUzMpI0F7SkWUqv2GBMRKtVIepogLS3zhNmpSLzZgOK7dQ=s220",
+        "view": "https://drive.google.com/file/d/1zbc4uqAOzHXjw3yHawXU-FIQUvXzrfZr/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPBrznZQ7fB4bYFN00_D0RGLDdkp3Y3h5N2n3tLjy3RGZ_c693dibidw9QmZ9Nsn3xHGa1J2uqA2jC5Cgx51L-FNjMapAp1gUM-rRm3c1p3gpNSLw=s220",
+        "view": "https://drive.google.com/file/d/1ezarcfFFSsMu9nohDisTDG3Z5Y-b_ugO/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPdarw2O106uABwnraBqg5lBnQRCUT7VeKoSeuasj5cgOXVvobIGhzRJczfgj_-n384n9y26feKqZY6sgQEx2FVdRBNRHu_lfhsM5xujUMjt5pjuQ=s220",
+        "view": "https://drive.google.com/file/d/1mCYJyn6wsFDoXR4WPl_2y-kB58TrQMkC/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbLHkugdqPwQF5yp61yPo5TV6Yiy_PmUmOd5d8z_4ixu0-J4stDUlFlZuryi9Nm13IWhwRq3t_mI00VrPwZbrfgnBbWFPIHEUbv7b8vovvoCjXUCY=s220",
+        "view": "https://drive.google.com/file/d/1-YfbGBLCpaQomGZCKdsRdOwnNqN53BFq/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwSWUGk51I6TaSJ3pc9oCsvbx2pddMzrTPaTLgpFq-y9ZOh4qPPoFcN9dPX4GQtMDvDNotIz287qHWLGvqvckZ4fc_KffPbFV0QCS9KHlO7gmezJ0=s220",
+        "view": "https://drive.google.com/file/d/13-LKjOi34xWD_mh2uTRH9lST5D6_PS50/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbLHkugdqPwQF5yp61yPo5TV6Yiy_PmUmOd5d8z_4ixu0-J4stDUlFlZuryi9Nm13IWhwRq3t_mI00VrPwZbrfgnBbWFPIHEUbv7b8vovvoCjXUCY=s220",
+        "view": "https://drive.google.com/file/d/1-YfbGBLCpaQomGZCKdsRdOwnNqN53BFq/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250393",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: DEMOLICION",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_folderId": "1Cexv-raV4B3oMaMZ15x2q_84oyJdJIC4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMSLbsQxsUCgRSw0sG9o-qvzWlpHwMqavP2KPMmlvV2Xdgu4lnE9mNQxy59nYdnrLop6JRM-PtjRpsH8FxyuYpL9fPC78lqP8jyve7BSo1Du_fvV0=s220",
+        "view": "https://drive.google.com/file/d/15BEq4Yczcg6n5rQR2xHONVpiub5cTJiP/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0-ks-Gaz3zgScVE4xqTcIPeLVy126vHwmxdfOsojEVOVkTY3KLuQ6dY9zyIyRG7QZoE6RY6WDbchoH6JsKYhqziBNZF87iwWCDiy3c35CprAE9q0=s220",
+        "view": "https://drive.google.com/file/d/121gqNTYW9ImVCPXaw6VOWSZXaXgO1nFH/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGYHTmRyxPg4kwL3XL91BVMrqNVKvS6MdnVHFO8xdIglKAuz7v9nEWluT_gYJ-e_5fwTG7AXqkHdHWLSe1LzR0GvK-cGPJtTlDI_fd04mocAWHLiE=s220",
+        "view": "https://drive.google.com/file/d/16jKobd7iYgBqulb1BEQmpVYyqHt1Qd3R/view?usp=drivesdk"
+      },
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOw0SVWHuff7pYRehAZg6Zb-FangYET2XS2TuSP_wV3OxF1kt5fBFC2u_QXnnytfbRTYyJv9DlrowoWsvdoRg6ZH0Mi9vZCFTaLismr1Dro-O3jcuc=s220",
+        "view": "https://drive.google.com/file/d/1_bjJ3bNCUrsjhF3YxuKBHrGXaVpW2DtG/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFAEQXMOGQAX9syw5L1_EXeWvfzVrOhXSC6mWvR9MXBavCa0GjOGVh8dDG-yEfHSFGgXy_Zsz_aCauTmpCYRtyItBNJ7QlN3DHKyMxNFDXA4bP3Wg=s220",
+        "view": "https://drive.google.com/file/d/1fFzcnW4b87IVgswuRrprJrehu4Vq25zU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOi151Xf3fsUl7oUbxJB6gPZFtyyuGX05fNl2I3elWpJgarvySoreUia_gsynsZbFJ5pkuDovkOrk1RtaT7OraSKvjibVr3GU_-PLVIlGpDq-uxZFE=s220",
+        "view": "https://drive.google.com/file/d/1243LNVY2JOKxVjN3qy4hbz0srwDvmGpU/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIDYpXrgzsB0mJya-MmNjJDREgPwdmVdwLK0-GiViYgBF-XSp7yC4xJnpyAKejZiMn4irN0dh9bim0chI82cmci-1OWnej3YKXMQNGtCh8QvC-TuA=s220",
+        "view": "https://drive.google.com/file/d/1_H5kVY6WwKPn7VqX12bqVzUtWhxJSI39/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM324SwPD6KTWWiJiKuSQULSeKL8HenyLEbte5btg5ISfNgWMt3wp70dA6556rdICQUXcDTV35w7lGI4Z3b4XUqSyYs5YuJPAq565TJEpv4RGxWXmI=s220",
+        "view": "https://drive.google.com/file/d/1sxjz6Wc5-pN2c3mVmNpRVYdCb0l2QM4y/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIDYpXrgzsB0mJya-MmNjJDREgPwdmVdwLK0-GiViYgBF-XSp7yC4xJnpyAKejZiMn4irN0dh9bim0chI82cmci-1OWnej3YKXMQNGtCh8QvC-TuA=s220",
+        "view": "https://drive.google.com/file/d/1_H5kVY6WwKPn7VqX12bqVzUtWhxJSI39/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true
   },
   {
     "FOLIO": "250394",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_folderId": "1EaxBK2sONtPG0KwVbG70w8_PaDLTNggN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPb-UhF8ndznIM4zxF3jRjkSPbsF7Tbu4TZHzUb4ozAAY6lUDW7MHPvToLgtH9ZYyV8Er72BrtemFGQGreLPtKG_kkhu9B4cUXCn_K613DisBFZTH0=s220",
+        "view": "https://drive.google.com/file/d/1-F7qxAwT2PHfGRBLY61mXwaG4S3PCjME/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcQQGA5vVdknYs_WL_LxWgDt05uT-L0eWMvm3E6Ht5pJN0N9FQAidShbi1uxQ40WrRbh4IOdhXYfTf5gntEpZKB1ZVqzm87x1aAgDqsJ_jwiPo-5g=s220",
+        "view": "https://drive.google.com/file/d/1JVYHuglw3Frf5vs0psS__8Vn2afSMgCr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4pmmBD6nh8mdDs4zu9j9syblYHT_TLpNdy7imvxlWNcn3AwRDDmZFAaWqRpkhCJkv7qAKZaye00r_-7jybiZiZvdkb_3PZnmnYxlD6NKi-tqHnmI=s220",
+        "view": "https://drive.google.com/file/d/1u8VEaZdcvqV58xCF2GScgFxslpbyVteP/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPX6sp6MeyNcA5Pgf0z9tGCEMX4wvVspTVEzIEWxBwuFxbEaq6OurToWfa4PO9BGVYo0j-7FMkBAjD8qWayaA0BlOlhmGU_v692N_dadJr7WKprVYM=s220",
+        "view": "https://drive.google.com/file/d/1_MapFR-3kpBeePtxVoP1ia5Ffw3sqLeV/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhBGGGyNpF-4pS_8oV04dm_TPDHkIV_5Dnr2RrnWic5lknj4WW59kCMwfGXGi53jgecoPlZF3cs_SR-J4JgTpfVqaT5kVKd5qUQkGAEItnFc5IdBc=s220",
+        "view": "https://drive.google.com/file/d/1_sFqFmvlRRZ3viKGKqBioimk0Gws82MQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFGNUj5q4QVkCP9D5PLrsPLSypLN8t4KzsCGcZgqMGVkDr5jal0n5mZ5grNl6ORTKStuQp9x_ucSQDJpdgyHnTu2dZBMkFFxF9u6Z5I2B-1hNHcrI=s220",
+        "view": "https://drive.google.com/file/d/1ZYKDXUvAWEYqVvDgQhFD9021FaxF_MB3/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZZ5mGUUsGlUYT0FGq498juJlXWMjiud-Bk64OPjKjDPEaeH7nc3NSW3ym_5fsPQ0jdh0GRCKxZHiUX14BceZh3xIXgk3om6CcBun9k4G-PjZI7eQ=s220",
+        "view": "https://drive.google.com/file/d/1-wSaf8GYQq1T-8KIgUHfjOaUnn-V_Za1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMURBxvTw1O58YQ4SrKm1NKw9LdDq0ui3p02n7_AvRtJ0kOoHWM8Hnzk6GLzOQM65B5r-EHrkkafNBRDFsq_MxqXrqLe2gqNVt2bgKfuWh9JiCwmVA=s220",
+        "view": "https://drive.google.com/file/d/1o4oAcrxJonJ821t5QUDT2Sm17Iiffej8/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZZ5mGUUsGlUYT0FGq498juJlXWMjiud-Bk64OPjKjDPEaeH7nc3NSW3ym_5fsPQ0jdh0GRCKxZHiUX14BceZh3xIXgk3om6CcBun9k4G-PjZI7eQ=s220",
+        "view": "https://drive.google.com/file/d/1-wSaf8GYQq1T-8KIgUHfjOaUnn-V_Za1/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true
   },
   {
     "FOLIO": "250395",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1BJHtEx17TnqRa3A-84CiJDZ4lnu2zLCR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6saDyC63mA4T1HdEqRpxxL-SAUMsVS2LCyMfqeUDVygyNEWS5TBa3OuKEeIz8PEEz8TM48amm_-vXAOsvBa6cGvUwazqGGHNeA4Pn3Qx2PuYt7C0=s220",
+        "view": "https://drive.google.com/file/d/1nUPpHlhEcapIK9MR0E1E8NZDzNfEt5NQ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlfCa7ymBjzXrzjWVVjtSv7ZcbLgQCQitfxq_cBQA--474UXq0-DKRS4IaZVs5Xo2IAvzicMQlsAlboQ4dL5PMpGXRG2rjf625bZbwTOoSyqb0Ul0=s220",
+        "view": "https://drive.google.com/file/d/1T0l7LEPcL9ZTKNTKTSXpuEk7IT9e7-a3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoCa3pUtibwbe-kzoWmnLgc2LwLqD8X2lGHrBXHSZkzV4chAXJj60SB0MrCms-XKuZsMLsGx6zB3u3dYmxR6AKVcJ6asoYuzM4z4Wzo94tDWfo3dY=s220",
+        "view": "https://drive.google.com/file/d/1vuNEr8m7txYQK7Xu3nhBL34aLSy103fm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFtWe9zCubzlZ7ISWpVkeW68GsvgS62mhbFiboTbclPjLZXmR5qWuwT_nEfvI9-_r2inG9_vYGwDbLeW68LX3i7jEPn9PR9WJplocPbpOW6aZjQQk=s220",
+        "view": "https://drive.google.com/file/d/1mVtwEXj0KFwpG4uCF6Ct9S122vepqgy3/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi5W_DC8ifrkbFMI8OesjjdHVcsQcrETWTimmF5KiLLCgK5W3RptDucL3abjTCeHPMxou0SlfEhxPl12gtpb-u-iS639yucNa9ySNTFD5BExbFAPk=s220",
+        "view": "https://drive.google.com/file/d/1bq6tyUP-lrrd1W27MqG88ZXrOTYmp0rN/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4GY8lurztNeQFi_oEEGTJekJ6C6B4fIxUm7bivAI8uqEUdy-C90RIqQZSAP7fh5p9wevM3wiLA8Rx041FyZ4owPsMeSPYF9DvudRAJ3-mHgOMDQU=s220",
+        "view": "https://drive.google.com/file/d/1cTejXeqiQaLvbXGBlZYjhvVr1DhgqEx6/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXTPiMY9djofzf1yOcihtPrS1pDSRxlzsTBFcH_l6yyfn0uIRA2I5n3FdaYRb4nzI54JwKiqfB9PEbYz6wySG17-YfhF6PKpoEjOkcyspzCD4dnoA=s220",
+        "view": "https://drive.google.com/file/d/17X1YC1MEFuwUBTvIPWFMW93FaheS4y1E/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8d7y1hZpKORYyul03Mg8DR1PlZStnvtSWI7DJetVUzrAQxfbMLA4VBfQNkSodBG3bx2h9FYcUmo6ULyAw-C4nfTqOxTiRmQP1VWvClgl2vlyQQ-A=s220",
+        "view": "https://drive.google.com/file/d/1kpOX-KxgFAdRLV9VnZ56VdzyoDNtoK-d/view?usp=drivesdk"
+      },
+      "FINAL": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250396",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "15VqsW1LNH7Q--DHPXwFJyL0JYGWFFq0R",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNelnSanVJLAZhA9Kedcs1WvZGtkcPvKpFIE87otnM2usZ1YwsA4VGuCdeuZVuQDnWPt72dqWMDeEQZAs5c0dpDjLhrxXCt7LKKFw2MJIupK9Pwadg=s220",
+        "view": "https://drive.google.com/file/d/19jvMmrwvI1aoxw2OcegYvUl3unD9sU_L/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg6CzGSJWk8IQc3ptlj7TX2ODLfgtSnUkiWgKWHcDfu00FRXI806KXAj9X0SZNfPiBV2vEDPEuexBaK8ex0IjLrT7SfUeOu6Cmzrvi8toCDkkr9as=s220",
+        "view": "https://drive.google.com/file/d/1OcWiFL4FglVf4SUSjZ3Txu6EQw7EVYxW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOh-jaoyvbDe0_Y8bOJqq5_qkwJ0hoO2NVClZSqaUaoDl_dzeVhRL48LSZZq5rp1YDfsaxHwD7vJjHv96tgMrAkfE_fojCqoWDxNfSopP5Pi0wbSBg=s220",
+        "view": "https://drive.google.com/file/d/1MvV_IgCjZ47NVJSe27k8JKJiUF3YbTYw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDAlCDpVRQMeh0vossf7hyNmK2-vLPzB-CNgU8WhbF3ICloG48K0Z1-_SWUduV0CRAhWWjar0yqhJCCSkWeq98e5H2A9cbTOh90m6jGBI6OuRS6ps=s220",
+        "view": "https://drive.google.com/file/d/1bXJqyg93jjBm-Fkp6Qm8-SGYAKV3QeRz/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPunyDJqBax17Ad33bgy558fdyskWsRSDlM1cxU1w1fenlD_Hi78AiCo6Hp3QyEIKYBgqoGnqCIBSosLcLNHf2nmBEVmz6nWuBKINYJRT0rhc1moTg=s220",
+        "view": "https://drive.google.com/file/d/1SL6JzEmX2PuZ3Ik2bSwpp_kQI-9Tm8mm/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCBZlKxh5nAwuh5nXe1u-lhyxclPSiqAi6ObacawNNpMHzU2s1s24dOM6fx1NvY_Bsf1YTC4-fJFchaxTjM9RpEh-ijdLBHd_bgjDrelQpDhg4Ops=s220",
+        "view": "https://drive.google.com/file/d/1NgqeGpST5gZ2dVA0WRPzfUkEiknUqxzY/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNw0Bk9OGn4yw6fxj2ijaiOuTQaxy4E8wIba8nxgZWtyVqPPgtyxT3UwAdNjaggwH95m8LUmfn_eYlx1OYkgZAFyIzLKovZLqjBlnjM7D9OqQi5Z3A=s220",
+        "view": "https://drive.google.com/file/d/1uHQt6fu8bqQ-ZK9d4saoEyxfn7mvyTRz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTcsDvPwiwyBUwnGT7tVVnb4pRBgqiBNo-KmzCaqXzdYYHc1MnyUpQKaGm1HO8TzCv1y9uXQZaPOBxy2j9DekYqpbokrr2_sOWjCCMKU3iURO6TXs=s220",
+        "view": "https://drive.google.com/file/d/1ZesvgQeB-LJESa5tN8pSlHMr8Qv0w1jv/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNl105FgziUJM5nn4BvJVaxAe_6qQ12cL10rrZdFx-8qjKEMd34-QPB05I51MedOpnXHHOc8gNdPMscaOKrQysOdzidPtHYHiQwEBEJ0CYi_6YQ4Ds=s220",
+        "view": "https://drive.google.com/file/d/1jAc_le_PJEbsy1GNh1ZMBXjTtBwzj7IZ/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTcsDvPwiwyBUwnGT7tVVnb4pRBgqiBNo-KmzCaqXzdYYHc1MnyUpQKaGm1HO8TzCv1y9uXQZaPOBxy2j9DekYqpbokrr2_sOWjCCMKU3iURO6TXs=s220",
+        "view": "https://drive.google.com/file/d/1ZesvgQeB-LJESa5tN8pSlHMr8Qv0w1jv/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250397",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "19CuWWaQqR1ukNvWErzGcmX5gBJoeRvs8",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJkok46SQNYVKKhvkdeWPA2mmjNrUCd6ba_ZZFdyVoDXE1oAZmaQjUcPzLQGqU1EDsyArNWSP-71p5UFeikL0i51FHcWUaBArHiHeBqAtIWzmkcIQ=s220",
+        "view": "https://drive.google.com/file/d/1_FdhL362gbemeoYXMlxuh3oUReWZlBcw/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX_SzPgw_xIa8myyHW0Urb7Rn65LQS192r6sHUr91IYR0_harNToBONQYlOSk2rib-B1sU-XXQzhzLOeQKwMO-qQY7y_yPVNaw0C0oWuucNe_wMsY=s220",
+        "view": "https://drive.google.com/file/d/1h5rIHUwkf0K4D2t3UvKrkTsTK-7H_eA3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9DuwIMujdTiV4WKB277Ugc85Yh1SWKELOMhMTpTSGBtnO_8uCv-Rc5udgCsKwAxk7iLtR4yvaP1EaW-9TLmK7oiNoSn1tA-RZsCI24L3zHzTD66s=s220",
+        "view": "https://drive.google.com/file/d/1CH6RAb5-nwbSCPD4I2EgppPgJTLjLvDj/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3enVtSwSvUO7mnn4spSzuq8Yh-br3XEVrjzSmUEBfPj4BuoTTM1yrJU7rH93FHOKz1c05W4u_IUyKLdfCGlnwr2RY2QuDBWZG6TAxAkfo6eU6HjI=s220",
+        "view": "https://drive.google.com/file/d/1a7Zg3mWRLMW1OqV_zQedEbssd1ZpnVCH/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAmoOwAgDAQMjQJ6Ug6fd0DY0EpVb7ACcx5frRHGyefXdNnK0UZdBHUAlrLImErdmN7FKlIWrxE5FFRxhhArn-arAdjvVCoKTnIgrg14qah70n1pw=s220",
+        "view": "https://drive.google.com/file/d/1nmJQzAmN7WO1ApmZzS7qPW8Q4yoteC2V/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMv0dV7THKcLjJWBXlbFAM_7P84YmGHIZXBElKUag7Wy0kyxvBXznSTVowSDkNUlsJ0jTbXxv-WHnEluXtx_Al8Q2FoM8E2gG2ER_HiqeFWCTAVI64=s220",
+        "view": "https://drive.google.com/file/d/1e5ITRkBfxVmLMphe7X44TZETEU4E2eeD/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSN5mbBfHpjVFKXyDWVMtp1w7PiM1Xq_MsL5uJdEZdLGmphP868jPhcxm-NFi-yKbxq0wouJ3r5pkjmoDZtMcu1Q-uFq_KRr3b5uq8LLY4A63WOsU=s220",
+        "view": "https://drive.google.com/file/d/17LdgBdl40Hqx6lCfhdO0_gVKyotHdF6S/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhPK8OJy6lS44jGnF-HbfXmOqbzMioRtd8VHfthpFNFZU-8_PQZm_VEFYwk3biFwQ5cPtaDPY8fINf-d_8xcgNksoTCRWNctvUXed8cRQUEJ1DSqg=s220",
+        "view": "https://drive.google.com/file/d/1vK7t_UxydKmDIWpS1peJ_neKDhflyt3l/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNU0-RxuZuEqE2-Ka_SmSWc4FMsdE58-yzyoYfjY4WspIMPt1KB02GlX9-LCQOVywFL-VadzWgT0Gbxg7TDIxn11yMGkh6f3IX4tXsPZmD8pDXRntI=s220",
+        "view": "https://drive.google.com/file/d/1Q43qxcr6j13G3sCqZZNB2HBzujPUYEDu/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhPK8OJy6lS44jGnF-HbfXmOqbzMioRtd8VHfthpFNFZU-8_PQZm_VEFYwk3biFwQ5cPtaDPY8fINf-d_8xcgNksoTCRWNctvUXed8cRQUEJ1DSqg=s220",
+        "view": "https://drive.google.com/file/d/1vK7t_UxydKmDIWpS1peJ_neKDhflyt3l/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250398",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1gEVp1vDrEdlUDJ5Rn1XUFG51Y8JGcTVy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVg89fqZfEn4vFOyYppIex-iaN0RZ12CMU6WFigqTFcfsE3c3267Criax9NAxqtBfLucx8O5mkNUZU2NXMkXKFSfuGkfk5jzvvkY1TKg0CXTHm0mo=s220",
+        "view": "https://drive.google.com/file/d/1zXuStSesoL16Q_AsLFFD55miEcNmi1HK/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQzX4pewF-gzPeuLbolKtzNW_ZyRUTOIg4eT-VLuvP4_-gVSckPhVYpeCQbFGJ-u1I9AeCbV5pZJTi_Qi7runJY7xGcjp-kCPtjgjct24mqJbxp_k=s220",
+        "view": "https://drive.google.com/file/d/1oqpNy5UUbZFqho6sq1NDNxzwie5qyHkl/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOy5lV0kOFXYf4lwSap9GKsp7nA8qbC6oE26YF8LfULawXPvCYoClpNka4j5ZipGdBaN6-PvYSsC9q7fs1LMKBfBBsLSFQqYylsj6zxHdJAdlqZtqc=s220",
+        "view": "https://drive.google.com/file/d/1gBNAwhi0y_bSVdTBFP9M_J-aLJTvxa32/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBxW83sqVcUEf_LlaYbWAy1aP8hjQQNursrO_xeG7W9iJcv479TMmESLRLVfP_Jc8TPv_nGs9sGFHg8qkUX3LPiZJcaTUQ1tJTjE9CeEGDzHTbaGA=s220",
+        "view": "https://drive.google.com/file/d/1AUTrbcOvSfqqXM1Uml42ZX-Xws9w-FSa/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPg4sATUpGpTRmvIJ2gzYaoPxOsXsuF9CFHqUr_SUCIItoqRK4rfGVJcY8C91OoUYklG_SSx7GxmlhYGzr69O2d9HHqejswEOdEJ5mDjiO3BYXBf4=s220",
+        "view": "https://drive.google.com/file/d/1DT1Web2JsGhaczackMQuJUI0J-P3zRb_/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSE5zkhcnFPi2IVK61wFqG5rIMB-NqFntzmdGB2b-xu0N5rdVQ7ijp5_1db4j3QOL9Inx6g5l6QxAaTEqQgkMtx2LwZ__RYVTDCaCJk-iIeupmxQM=s220",
+        "view": "https://drive.google.com/file/d/1tzMQz2iR9-u-hT8_GczBwcR4r55j5buA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOnBHejK9zMUjsff1b5AbNr76mYOwfWIETXZieyJRB2HZ1bNOWF_Y_5v5L24CbbaYe9UP8LP06_ZOJjaauLVho36uBMU9rzwJKJsS1Ow7Ur1e4Utw=s220",
+        "view": "https://drive.google.com/file/d/1vU5v7mL4C6cMhHQaSjd2JzNF9gZ57NgD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL4Ua5uqglbKOb7vNQG1NMFvx8zxEs6K0NK8Sb26e9wlZGM2ISvsj03MQ4SEBUrS2wAshW3g_jC7noGWZSYWruJcdtLKFEDmJymzEUgnk5tVbLwM4=s220",
+        "view": "https://drive.google.com/file/d/1wHApLMxFaUVib0Jhfv2IrWbmS6Ft7QqV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONk0mgO7FmjVNoGti9xJKw-wvhsqA30T7_vctSn4woCZmlupPyAoiia72-MBUhrcY8P7mjPymcv43RDekrjd4UL20Z2B0uNmugESJgwRFasRxruV0=s220",
+        "view": "https://drive.google.com/file/d/18gV6eKNz9kwGL_XBp9YVzFCQXv5F5UKn/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL4Ua5uqglbKOb7vNQG1NMFvx8zxEs6K0NK8Sb26e9wlZGM2ISvsj03MQ4SEBUrS2wAshW3g_jC7noGWZSYWruJcdtLKFEDmJymzEUgnk5tVbLwM4=s220",
+        "view": "https://drive.google.com/file/d/1wHApLMxFaUVib0Jhfv2IrWbmS6Ft7QqV/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250399",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: LIGA",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_folderId": "1Pv4Hc7Ar8PDZ_IP71IcRq4LagOozwHQL",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVXEzYkbg3qHAI6CXJOgnGTIcpdExu3WZiGzKvpmJx2MoNYwjDC7NBcLIlYSY0hY4w1hKsfeGhFNUITzWn2F8KeClG8htsDR9uH3X2YdRN6E0vWYY=s220",
+        "view": "https://drive.google.com/file/d/15bYFKaloZ-BYUzW67M2GYPpAvnMXpKgN/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNp3zCuCJ6FtciYAONOemrLi5AsEgxrBniHDRSgWVGnety1Cvupl1EUCReSeqwOaE46tPSIAdagMipODn7mx4pznywuHjQmV6VgX_ACG7i5kXedCQY=s220",
+        "view": "https://drive.google.com/file/d/1lQ7XiqxTVz-znuiG-Y7swPNHBXTTclI6/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKrYSnB9zBXBtXWnv_R7mFKCTZGfvD1zqrl1F9sfosJKJn6tL9gUkUNsAPO2kkBWeDRRSJc08imzcAOj7kpHuk3pxIKTXIJ3i8ggjmvAqRalVRjOs=s220",
+        "view": "https://drive.google.com/file/d/1ySFgrfCR7pn3EQVi2LWKEXLbHksEfd_6/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMM48CYulW-qypL8a--yhEfrK3ymUPnTGq-OyWiGPhS8dLbphCt_e9dPo9W9mAQmtD7g21FkshhgqLUB_Joe-RY-tmFKEArWBVF4K6-lCMm9n3C5L0=s220",
+        "view": "https://drive.google.com/file/d/1q7_YSN211Hge_xHvbLgeJ7Raf52WNnYz/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF6Ag-pbPRyJINnDqu09_2xKtm7uE85gC7s9YliSMBcAQBxqKXLY93J7eOtojNLxnsuLKa4teCOHFpLlc6zJvYYhym6cQbxcxmNG_swOyxAbaEPa8=s220",
+        "view": "https://drive.google.com/file/d/12_8o2Z4hyTIwsTao4KaD1OMtf23CnLCd/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_yYUfWt_xtyJD1evKlXhiyt_r_bPjG0VQfesfPCnakd_-aBk7_DPkv3YwR9q2oM4OTE6aqAgZXRSK6Z9Ozj4rcjR0zOgp5FUPBDdaJjz6aPsajMs=s220",
+        "view": "https://drive.google.com/file/d/1NNHPShsQysBNBtSG_7SiJgMYeA7udIBB/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL23C_haSMujJZ4Ra07JVoeKX-3nKqu9oWyw0CMHyGF-OcKmmjmrSGUZZHj9hlapTtQyESD_L8_6FMTggXrFDp6KA1x8IjO267LQ5ZD3PXtxgJjVM=s220",
+        "view": "https://drive.google.com/file/d/1jIltX7XAjq6YWEbo_FOrDSbyvuTtupHT/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJmBAi-9p9dTYSZR1wMD7hBZXsQz9-YPELbOx8q7goMyph3CgLR7n0wtEunCNmgYLn0JF9BoNZRdLOCkUTMf6nQHz3_Sjz15HXF1ue5t4NUHun_Hg=s220",
+        "view": "https://drive.google.com/file/d/1IPULVvYbae1w5NQdEsHe3jKxda2f51Ad/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL23C_haSMujJZ4Ra07JVoeKX-3nKqu9oWyw0CMHyGF-OcKmmjmrSGUZZHj9hlapTtQyESD_L8_6FMTggXrFDp6KA1x8IjO267LQ5ZD3PXtxgJjVM=s220",
+        "view": "https://drive.google.com/file/d/1jIltX7XAjq6YWEbo_FOrDSbyvuTtupHT/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true
   },
   {
     "FOLIO": "250400",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1qyIcUrEwDtef-1bBb9AULw7qdLhd6WE0",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTiyN0t7KW905RgA2nEVv4UsxvvWkzCSo-zKf7BVxAjT4GBB-NXPuLUtiyRyViLISkApgYrr01DzCnQHGShcpj7g5Gz9Taa5rBnLzJfcdEeJTQBDU=s220",
+        "view": "https://drive.google.com/file/d/1fLSLKQt3uvoOvrayvtc8Up3AooF-0n12/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1lkGF8RpAYUZAJ6pA-CjJD2LzVgl8uzCvWwIPofmkZyn5X76rt8t9KY2xNh4OW4C8EADto-6DeC2Z0a7JyNzmbStt5wPU3nUrYXXfuc7zay4Ur6c=s220",
+        "view": "https://drive.google.com/file/d/1ZNr5ch317gG62iqZHd5V5ptZSAnAlHZY/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvG-aAP3-mmMjF4cHli5e9nq7E6uEKzx7aWZirqoGynooECVdOmKWkICJ-vYgtqGxrXd31FUvgZoDaWYJf36OyKmP00gJx9D5xktdYC5Ja5vf_YJ4=s220",
+        "view": "https://drive.google.com/file/d/1et-y0U41rH8_RxNjZQseVV6KfL2XMMVG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqxOxRovaIOu5OT8V3ejCoLdL_jD3puz-w0ZQliK5fg8M1a40RSrIrWnhiwnUdGgp0Mh41VGitw4v2J4TaB2ziPgZl62untUl8Q__KFMV2F--hAXE=s220",
+        "view": "https://drive.google.com/file/d/1nIHQJ1hZZKAl0oXgLH9z7w9o21Drmapr/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzgCZMIPu8dxV6Q7wS2Hg_t3djCaVn9k7UMezUTPypXlAa993p6mwfQjKx8A0Dmhgpw2o4uB0N-TPkVdiUCTOeYZdeUyAb-SAVHOc8FEEBERe1iew=s220",
+        "view": "https://drive.google.com/file/d/1X30cVvwhhm6AMvkOURpkLctTQv4BcW3J/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZWcu2EeIjpLmFY2nw9-AFvVyGhX1qjHjM2Q3DzmsRwbeHKRc74op7-pM_7yFhIWptlWaUmc71QiwdTjiy8PTeYZTW_cv9mzYAmHN-eclb77LlkRw=s220",
+        "view": "https://drive.google.com/file/d/1N0PZcdi9ObzbQ6GxYFrFSVQ4O9YpoLTu/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPr22w1li85Lhe9pDLUfOeFitKhiD1sF9hfr1rfZcXaKXzAsYWEI0iNUWQiqURepZBFvmxjozXI-RM9tWNecWBB426NXrs71zKgC7JjNmshcHwLMPI=s220",
+        "view": "https://drive.google.com/file/d/1KJD0w17S3xawvtOR5DSxnVabWjVNwlCr/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTL3BSga-qhH1l91gBzDgdNOZL3gJWpKpRxQo65_zQabYcSUkVcXqRMpRgB1v04Bjsr1XOyfOqbWQBYfELWxa2MMSEy_pTyN_EaMvBHudIPky1xsI=s220",
+        "view": "https://drive.google.com/file/d/198CN8OUok-t9j3_fKbsAP8XVd2XENSl3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCCfgDNzs6DjhYPihFV8nrYMzc3HsG3LSUTnK2bxjIviTC4BgPRKhXX1wfd7fbevn0YzjqZFj0zMY55VB-DluYhn_jK2gmH2uocf2APcqhboHcVwo=s220",
+        "view": "https://drive.google.com/file/d/18KnnKiTgowzuTUQN9pONOUdrxjvy_3ey/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTL3BSga-qhH1l91gBzDgdNOZL3gJWpKpRxQo65_zQabYcSUkVcXqRMpRgB1v04Bjsr1XOyfOqbWQBYfELWxa2MMSEy_pTyN_EaMvBHudIPky1xsI=s220",
+        "view": "https://drive.google.com/file/d/198CN8OUok-t9j3_fKbsAP8XVd2XENSl3/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250401",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1VRDnR4-SLb2jjhn_j7ihtR8O_zIyn_YZ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJqhKNeIQoR8x3XELPx7DZA9H_tm49V4v133esj6iHGrIOu63ewwjUcwGUhyYTzrW4zzBHmanxxs_49o8m9ch9reDx94s184B6Ghz51xWBQu0Kbic=s220",
+        "view": "https://drive.google.com/file/d/1aUQZK271Na02lPdAmwC8OdP6hao6E6yY/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9WK2bSejPjhM6gkMOB-Lz_wKtAAxXvtF_rAWJkbKYvkxwArw_8frrvAdLrZ86lxr9SV0GqUF1apVmf4IiIBK_kbFTH0E_Kv2WrIJm-rE9FgBCKcg=s220",
+        "view": "https://drive.google.com/file/d/1fpz4qvXv6goy97Wuk8FMgmspPY-sDlc-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF2MFDNCNjyOn8bByY8aa3NOZEM3jMu-Wh01zSDr7p5amjBan6519rXAmjJ2I5LdFc0VgMI-o9bCGkbsWSKkqJJK2I-_DzbJBDBSiQFky73_WkpfY=s220",
+        "view": "https://drive.google.com/file/d/1V8UPBSIJpCz_q_v1u1rGloytgMIHBpOn/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3xePnRjWvnYjjoTWSrwhbo9h3wZGCLxWC0MEkz2kB1hay81-R8y4zwKRoMSNc2E-OIx0W1sdesu9iW__1V-dpdV-L0k19C5GAiDVuBoZj2LsFbWA=s220",
+        "view": "https://drive.google.com/file/d/1rQqvFiflBmpJVqG05B1GTNmfASoeAffS/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwWibnVe8rQNRdkcbBdNVkDcSyDhm5vs3ykjmem1aAG685dmX9LcZiI8dBdAqd1SCbVRlAXzNj584nkuE5MXFlrujnSQdvKNM-SJp0UqthmtwLINM=s220",
+        "view": "https://drive.google.com/file/d/1xKr7Spee-006RHuE5xRGuU7ZnUtGYdZh/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaUDOlVe0q-qUIPek_0YUKM-uxxCKE65y7hbtGKno9ASv_bVkkNXWq0vGvKWMS7UHQNALKzBlTd0wifFWw1SaoGQz_ODC41h57MfAnlsLla87IihM=s220",
+        "view": "https://drive.google.com/file/d/1BYmcGUqBfbhgq3EDfsPG4geNSlK8TwaW/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD15BaA6CB-WEz7wcQhUGCF1jCUciWy2HTJoTGbh_CMLb1nR58ixTxfKP2mIFJgwKfJyCR0qLWD2LsPSY2lI1IUHu7BVSbGbvno97YBsHkLlsNJ_0=s220",
+        "view": "https://drive.google.com/file/d/1-rvPrPrj5UiG24r4ofXfhZjkF5eKqx4j/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPd7JWpv6AU6tieIcK7LHifY5HVQXNzjLoWs_rRzykGPbhwk4Nq0YLnhj5wjtxjYyHNR3CdnFmFC5xP7pqCy5-7cat3DN1E6TauGPIGGPMkD3wpNWs=s220",
+        "view": "https://drive.google.com/file/d/1MpEBqxT8Z5CgTuBp9dN_KJuNFkbHcPHG/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONKQuN_WsknCgC73r5uREvttY744RzFr3Dxv7-QEj1i-XYCmK_V_4yan8_AvL8GEgPxJhY75PiCHkAsCVbUxpw5OTjZxDDfHl9Y6VhPtUJy0tPAYM=s220",
+        "view": "https://drive.google.com/file/d/1ITY71isq-K3vqBhnsy2fubDg13zqoysn/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPd7JWpv6AU6tieIcK7LHifY5HVQXNzjLoWs_rRzykGPbhwk4Nq0YLnhj5wjtxjYyHNR3CdnFmFC5xP7pqCy5-7cat3DN1E6TauGPIGGPMkD3wpNWs=s220",
+        "view": "https://drive.google.com/file/d/1MpEBqxT8Z5CgTuBp9dN_KJuNFkbHcPHG/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250402",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
+    "_folderId": "1RhgloSyHnw7SS2tCOxPCDmQD3e_jzli5",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null,
+      "FINAL": null
+    },
+    "EXTRA_PHOTOS": 10,
     "_isNewSet": false
   },
   {
     "FOLIO": "250403",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1s4Y5aGgm1_5O4JWS5b7Sx_YqwTTYBuIU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgBgpZVZQVjxG134TaI7nBN1-6ODrDq2NqkzLGF4GzNZTdZPIqCtxQdlT42Nl1H0CoW442msXAaZ-bAgpAeA7NGGbfp8NYnGNoRh9F_xjKCVy-QxA=s220",
+        "view": "https://drive.google.com/file/d/1ILKbEUg2IbUgZxGnUZxYLYmSPBDrug9J/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIM35icD3E5ObKjc7ydTuLKaxYCEwWZ8oKd0T5gKtSNHrHF1MJylGQIVQ-LzOtzFf-zN7C7U-JUNWeKClpQ_kOGvzODFQhDAdwh1f2SIArhBeMi0I=s220",
+        "view": "https://drive.google.com/file/d/1hzU3uMQezv5l_XDnMivvm-BHz-BUvVEI/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNG77D86S7OSvNBu9LgwE9GJu0F1xL34XXXxWoy081eZUm1aSWDvhxxu4zNuy871PeXvE2tHfCAwj82ZOjAgiC-krmpm5VH7xcbHsBr_2kz_ytdZc4=s220",
+        "view": "https://drive.google.com/file/d/1CtzSSiPHDacGI-QbiCO7m_q2uff0lihm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCJyLgSJtwGPFTYUj6t-Old-cR2QbXwpLZ_oGw3Ln5AKphPzwuooQD8c4CwaYcdKbJH-QXyg2QyIhucpClchq2F0pDskHqbECs7d4NGwx9gSdf5qI=s220",
+        "view": "https://drive.google.com/file/d/1qlUjP5KHkg9KH7_6Xa-BDKcftdILLPUw/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMBxdqFAUoe3JBFQYG9dSQZDCbaCu6AnQBfrUcItjY0t6DpwZ0sAvr9NC0BzM1xxeEY44UpAJXJ12EKOGaIIzmtwh-Q8sLud3n0Ub_656gjCuQLuo=s220",
+        "view": "https://drive.google.com/file/d/1Pt7NmlMNfJa_eS8gAf7fjdKK5Ex5t25z/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOT08HmNkc33cIs0KRrkSrX08AsBWYfIlFx-J0tcxIgGlYZfjgPOBx7O8vEV05WufxyeMvobmuBjUEh5i1_bmEV9bLI8FR0_AyPR0eQBBOsjYp5Waw=s220",
+        "view": "https://drive.google.com/file/d/1Qox05uMpDJQoFtUTLez9PYE0voj6MKOX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTFIJlYio4-nQo--Um1eNtNYFJsCdD05qEJ4tHC_XZizAzm5WiqdGBAGPc1z8anYvGa3Bp5idPjkk_yRUbD7HGI_PjnnAVzkJyJ1xjcN0ed_teV5g=s220",
+        "view": "https://drive.google.com/file/d/13URAh18kcip0hHUfg80osNOs70Ys5eE4/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3dw3JgA9SFqZ8j8-B22P4cCP4opiSP9TZMmceGS7zpTNzSljIWlUknjuFMFN57c4OZv3JDPeI5KHJPgihggkXxrofV5ze7syizxhKqb71KPjgxRc=s220",
+        "view": "https://drive.google.com/file/d/1wg0n0opqT0_Z1FppsA0hqsI6zfIIgCp4/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqBlWGR75Oz3jvTP_ksqlwrKO13-spB4JjGWEabxw2HEzwXUjGXtV7xQbzAw9Mf-33450FtDGbLn8O-mEwxB1eMD-POliX3GEPyHgR_DmuBH7Iqss=s220",
+        "view": "https://drive.google.com/file/d/1Oq4z3Uv13Ub6flmeUoFVdWhp9eaVAe1g/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3dw3JgA9SFqZ8j8-B22P4cCP4opiSP9TZMmceGS7zpTNzSljIWlUknjuFMFN57c4OZv3JDPeI5KHJPgihggkXxrofV5ze7syizxhKqb71KPjgxRc=s220",
+        "view": "https://drive.google.com/file/d/1wg0n0opqT0_Z1FppsA0hqsI6zfIIgCp4/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   },
   {
     "FOLIO": "250404",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "133R8uMY42mpUMaHEGH3wOKzwHA3mCPAx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwhIzNaWyVbBXr5HhPYa4UYyqcMSNd4jSqg36eYE8bZ6DZGSSRc-fRjre0cm1269_FtLQCwpxcv0fmTwtQskxh1Ts53JMCCbKdiJMKy-NsB0Uv8NI=s220",
+        "view": "https://drive.google.com/file/d/1jF89-NYCxLgu7OJ1UJKe4RPoxjyckfoz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuJCZNhtF3SwA97XVj3EkOu8N7C59HEpcMcgUQ3dfu--rn8emR07Xf5LY-1DnhLoebrSjXfcggDePraVjzFjWb-Q-5S2yDNfJC8SPXAkN8obPYlGU=s220",
+        "view": "https://drive.google.com/file/d/1QoLHVykiGMvIBF0KQV-w5c0fMhMh_HYk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOv8UHMQapOdoDONAHnl2VcNkdVukFWZOQJgvRYa9s6HfgGFb8lrNMrxQcpcxAYde56XsisrxKm3YJC3egKBO6-KJSyGOndMfVkTJWEQQkkMa6aFYI=s220",
+        "view": "https://drive.google.com/file/d/1Ct2gDrWNhjrYmAPrA8swmYgFkF1sVmxo/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrrR8RbAb4OZSSEDGgDyHY9TCP6BboOHo8-kMulfr5JnnLqZobYbKxm0QgT50rZixZlvZ1OaBOkkGolY8_6qGY-Ng2RDKa81nHvqaNMogozE--Pb0=s220",
+        "view": "https://drive.google.com/file/d/1-8wnfH3zQx4uyzOm7eNmmYfkAJUsqx4I/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnn_4hhDkG0ooNsedYuTWqXw7DdAfEUj2Aj2qWccDemKDo12M6P8oRsHvN_bJ0rlflGQcYRoa1YtGBbD8KpJK85Rs7mXGavz75b85hZJtXLWORUAE=s220",
+        "view": "https://drive.google.com/file/d/1mJlHrIuG-LgyEQ2QkUSd29PLvNcx5wM3/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1aWIBZJM9Sfe-NPLPQn1NlkxOHFLGmF2IPQzS-3OsbGI_R4hiSL8BIPCRyIrWCjqwlXzxBW--W6JIpzi2inxHq57q1Sqkta6NbRi1WgJVstoyI4I=s220",
+        "view": "https://drive.google.com/file/d/1ngWDWCdUticHCcGYnmDoe3PmUGCtovUP/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgFSzeSXwwBgupjyPZ6An1QoDto8Vr-cEmfYMI-UjVLCAmuQ3qXaOkplicWOqZTq_NUuXYFLEaKQ2puBf5u_BBu1LrFhAQ2q1BwgaCPDqoQZnl0es=s220",
+        "view": "https://drive.google.com/file/d/1aQQ-UBb_QWvgjlFJwFkFROWewy9FgUR_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwOvU_QtpF-hdJI3FUiZNEtJ96g-G-EsfLzhR0vgs_D66jd3-eBBZxwI_Lvv5KGJve0pNmNhFtgJ8Vpic3wBTwruC_wBt0OPmQr3I1Svfwe5LmLxQ=s220",
+        "view": "https://drive.google.com/file/d/1YpYM7UFQyNY1mMxW1vdvCKJ9GqfMUCZc/view?usp=drivesdk"
+      },
+      "FINAL": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true
   }
 ]
