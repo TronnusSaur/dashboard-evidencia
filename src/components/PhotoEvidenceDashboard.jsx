@@ -601,7 +601,8 @@ const PhotoEvidenceDashboard = () => {
                 if (!lines[i].trim()) continue;
                 const columns = lines[i].split(',');
                 if (columns.length >= 4) {
-                    const cNum = columns[0].trim().replace('Contrato ', ''); // Extract number
+                    const rawNum = columns[0].trim().replace('Contrato ', '');
+                    const cNum = parseInt(rawNum, 10).toString(); // Normalize "01" to "1"
                     contractMap[cNum] = {
                         contratoOriginal: columns[0].trim(),
                         empresa: columns[2].trim(),
@@ -615,7 +616,8 @@ const PhotoEvidenceDashboard = () => {
             const errorsByContract = {};
             records.forEach(row => {
                 if (row.RESULTADO_AUDITORIA && row.RESULTADO_AUDITORIA !== 'OK') {
-                    const cId = String(row._contract || '');
+                    const rawId = String(row._contract || '');
+                    const cId = parseInt(rawId, 10).toString(); // Normalize "1" to "1"
                     if (!errorsByContract[cId]) errorsByContract[cId] = [];
                     errorsByContract[cId].push(row);
                 }
