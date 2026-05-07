@@ -2,6 +2,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
+import JSZip from 'jszip';
+import { saveAs } from 'file-saver';
 import {
     LayoutDashboard, AlertTriangle, Filter, Table as TableIcon,
     PieChart as PieIcon, BarChart3, ArrowRight, ChevronDown,
@@ -59,6 +61,7 @@ const PhotoEvidenceDashboard = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [showOkFolios, setShowOkFolios] = useState(false);
     const [loadingMessage, setLoadingMessage] = useState('');
+    const [isZipping, setIsZipping] = useState(false);
 
     // Filter RESUMEN_DATA by stage
     const activeResumen = useMemo(() => {
@@ -582,6 +585,117 @@ const PhotoEvidenceDashboard = () => {
         }
     };
 
+    const exportErrorsZip = async () => {
+        if (records.length === 0) return;
+        setIsZipping(true);
+
+        try {
+            // 1. Fetch and parse contracts.csv
+            const csvRes = await fetch('/contracts.csv');
+            const csvText = await csvRes.text();
+            const lines = csvText.split('\n');
+            const contractMap = {}; // contractNum -> { supervisor, empresa }
+
+            // Skip header
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+                const columns = lines[i].split(',');
+                if (columns.length >= 4) {
+                    const cNum = columns[0].trim().replace('Contrato ', ''); // Extract number
+                    contractMap[cNum] = {
+                        contratoOriginal: columns[0].trim(),
+                        empresa: columns[2].trim(),
+                        supervisor: columns[3].trim() || 'SIN SUPERVISOR ASIGNADO'
+                    };
+                }
+            }
+
+            // 2. Identify contracts with errors
+            // We group filteredRecords by contract, but only those with status !== 'OK'
+            const errorsByContract = {};
+            records.forEach(row => {
+                if (row.RESULTADO_AUDITORIA && row.RESULTADO_AUDITORIA !== 'OK') {
+                    const cId = String(row._contract || '');
+                    if (!errorsByContract[cId]) errorsByContract[cId] = [];
+                    errorsByContract[cId].push(row);
+                }
+            });
+
+            const contractsWithErrors = Object.keys(errorsByContract);
+            if (contractsWithErrors.length === 0) {
+                alert("No se encontraron contratos con errores para exportar.");
+                setIsZipping(false);
+                return;
+            }
+
+            // 3. Create ZIP
+            const zip = new JSZip();
+
+            for (const cId of contractsWithErrors) {
+                const contractData = contractMap[cId] || { 
+                    empresa: 'DESCONOCIDA', 
+                    supervisor: 'SIN SUPERVISOR ASIGNADO',
+                    contratoOriginal: `Contrato ${cId}`
+                };
+                
+                const supervisorFolder = zip.folder(contractData.supervisor);
+                const pdfName = `${contractData.empresa} ${cId}.pdf`;
+                
+                // Generate PDF Blob for this contract
+                const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+                
+                // PDF Header
+                doc.setFontSize(18);
+                doc.setTextColor(122, 21, 49);
+                doc.text("REPORTE DE INCIDENCIAS POR CONTRATO", 14, 20);
+                
+                doc.setFontSize(10);
+                doc.setTextColor(100);
+                doc.text("GOBIERNO MUNICIPAL DE TOLUCA - DIRECCIÓN DE OBRAS PÚBLICAS", 14, 26);
+                doc.line(14, 28, 196, 28);
+
+                doc.setFontSize(11);
+                doc.setTextColor(40);
+                doc.text(`Supervisor: ${contractData.supervisor}`, 14, 38);
+                doc.text(`Empresa: ${contractData.empresa}`, 14, 44);
+                doc.text(`Contrato: ${contractData.contratoOriginal}`, 14, 50);
+                doc.text(`Total Folios con Error: ${errorsByContract[cId].length}`, 14, 56);
+                doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, 62);
+
+                const tableColumn = ["Folio", "Tipo de Error", "Calle", "Delegación", "Colonia"];
+                const tableRows = errorsByContract[cId].map(row => [
+                    row.FOLIO || "N/A",
+                    row.RESULTADO_AUDITORIA || "N/A",
+                    row.CALLE || "N/A",
+                    row.DELEGACION || "N/A",
+                    row.COLONIA || "N/A"
+                ]);
+
+                autoTable(doc, {
+                    head: [tableColumn],
+                    body: tableRows,
+                    startY: 70,
+                    theme: 'grid',
+                    headStyles: { fillColor: [122, 21, 49], textColor: [255, 255, 255], fontSize: 9, halign: 'center' },
+                    styles: { fontSize: 7, cellPadding: 2 }
+                });
+
+                const pdfBlob = doc.output('blob');
+                supervisorFolder.file(pdfName, pdfBlob);
+            }
+
+            // 4. Generate and download ZIP
+            const content = await zip.generateAsync({ type: "blob" });
+            saveAs(content, `Errores_Supervisores_${new Date().getTime()}.zip`);
+
+        } catch (error) {
+            console.error("Error generating ZIP:", error);
+            alert("Hubo un error al generar el archivo ZIP.");
+        } finally {
+            setIsZipping(false);
+        }
+    };
+
     const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0) => {
         setRecords(prevRecords => prevRecords.map(r => {
             if (String(r.FOLIO) === String(folioStr)) {
@@ -646,6 +760,18 @@ const PhotoEvidenceDashboard = () => {
                             </div>
                         </div>
                         <div className="flex items-center gap-4 w-full md:w-auto">
+                            <button
+                                onClick={() => exportErrorsZip()}
+                                disabled={isZipping || isLoading}
+                                className={`flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white border border-white/30 rounded-lg text-sm font-bold transition-all backdrop-blur-md shadow-lg disabled:opacity-50 ${isZipping ? 'animate-pulse' : ''}`}
+                                title="Exportar Reportes de Errores por Supervisor"
+                            >
+                                <span className={`material-symbols-outlined text-sm ${isZipping ? 'animate-spin' : ''}`}>
+                                    {isZipping ? 'sync' : 'folder_zip'}
+                                </span> 
+                                {isZipping ? 'Generando...' : 'Exportar ZIP'}
+                            </button>
+
                             <button
                                 onClick={() => setIsDarkMode(!isDarkMode)}
                                 className="p-2 rounded-full hover:bg-white/10 transition-colors"
