@@ -1,6 +1,7 @@
 [
   {
     "FOLIO": "30913",
+    "FECHA": "29/4/25",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "Melero Y Pina",
     "COLONIA": "La Galia",
@@ -10,10 +11,12 @@
     "_folderId": "1NJwtMFGSsI2irw-fGYfnnhsHwVLUd_RJ",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 30913 - 29/4/25 (LEGACY)\n  → 30913_inicial ❌\n  → 30913_caja ❌\n  → 30913_terminado ❌"
   },
   {
     "FOLIO": "31959",
+    "FECHA": "22/5/25",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "Venustiano Carranza",
     "COLONIA": "San Nicolás Tolentino I",
@@ -23,11 +26,13 @@
     "_folderId": "1OOveGMjBkWVcxBuBgnMU1sJomT2R5AKn",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 31959 - 22/5/25 (LEGACY)\n  → 31959_inicial ❌\n  → 31959_caja ❌\n  → 31959_terminado ❌"
   },
   {
     "FOLIO": "32097",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "FECHA": "23/5/25",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + CAJA + LIGA + MEZCLA + TERMINADO + LIMPIEZA",
     "CALLE": "Venustiano Carranza",
     "COLONIA": "San Nicolás Tolentino I",
     "DELEGACION": "SAN MATEO OTZACATIPAN",
@@ -36,7 +41,7 @@
     "_folderId": "1iM-TtC4XOU3TomtKcA153G1bFWwwuo-J",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZhxx0u19q-Dffdq1Q1xAh2OkP4N_5xi6CnsPAOTw7IW_sDC4kuPSEcdryOI02mRPj7sTUn8pUqEfLXiZLalazrWaddqeCAZuk5SveRhV1KMKXgg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPi8nWrIzeAmvlSRmOgRgt_pZE1np0TJc-aKcz25uC_XZts_fnX2facNGScPqG3EIgK8IAk_q5N2fEMfGBCDNaNfWvtwNidXEsNfUm1mswZAUR2r2s=s220",
         "view": "https://drive.google.com/file/d/1FjRkZEJoSbd0fSVwBupq1BJdSeSWiaCu/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -46,15 +51,16 @@
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": null,
-      "LIMPIEZA": null,
-      "FINAL": null
+      "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true,
+    "_auditDetail": "Folio 32097 - 23/5/25 (9 FOTOS)\n  → 32097_inicial ✅\n  → 32097_folio ❌\n  → 32097_corte ❌\n  → 32097_demolicion ❌\n  → 32097_caja ❌\n  → 32097_liga ❌\n  → 32097_mezcla ❌\n  → 32097_terminado ❌\n  → 32097_limpieza ❌"
   },
   {
     "FOLIO": "32293",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "FECHA": "28/5/25",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + CAJA + LIGA + MEZCLA + TERMINADO + LIMPIEZA",
     "CALLE": "Venustiano Carranza",
     "COLONIA": "San Nicolás Tolentino I",
     "DELEGACION": "SAN MATEO OTZACATIPAN",
@@ -63,7 +69,7 @@
     "_folderId": "1xR2ypj2hg2tDszpsW9FTdRnwWsZQVySF",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOz5loqhwkNN4aT51dNxwSbN0KBHz9rkN9702IIjWu0ljhxLeUWCJvERfVMWOXTRhWa1iBbSdzVR7dFFJ7eglN3OTpI8ROrTsPyRd71R6jlquKBOw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrDzMMe_BXZcf-Hn2XsPQBP8bhii2YtSz3MzQZhvzCv68Yzr0q0SXX-eZzC5qRA-2alf8kNC5hnhdNAFYVtjWa7cOJceRRuU43j6N_-Xke8XmHMkk=s220",
         "view": "https://drive.google.com/file/d/1OKRHWQYsqD4HQiEfo_bEalvy3q1bCrvY/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -73,15 +79,16 @@
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": null,
-      "LIMPIEZA": null,
-      "FINAL": null
+      "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true,
+    "_auditDetail": "Folio 32293 - 28/5/25 (9 FOTOS)\n  → 32293_inicial ✅\n  → 32293_folio ❌\n  → 32293_corte ❌\n  → 32293_demolicion ❌\n  → 32293_caja ❌\n  → 32293_liga ❌\n  → 32293_mezcla ❌\n  → 32293_terminado ❌\n  → 32293_limpieza ❌"
   },
   {
     "FOLIO": "32389",
-    "RESULTADO_AUDITORIA": "OK",
+    "FECHA": "29/5/25",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + LIGA + MEZCLA + LIMPIEZA",
     "CALLE": "Paseo De Los Eucaliptos",
     "COLONIA": "Sauces II",
     "DELEGACION": "SAUCES",
@@ -90,23 +97,31 @@
     "_folderId": "1hKi9uJ5GARpQczSpVc9m7KJWbwXSZPz3",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFViEyGiepyFW6FVxNpvcW4e2Z8I371wAOpBb9lkBLxINtnFQmysYSbibX2stJu2-UEclXqZa0_0mpdXpzvf_NHltW2KmrOtT2_vM-aLf5sxLJ5Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMci-SqVj5C3l2AWHh2YnseDufuz7knXFmFNJJHgmw-rwXbdOSemK3L01VPXZs03G7T_8uXgTnzFNUw0WhM-LuV4bhbf7jcyJqIF-ZLn0TUFMmfVgw=s220",
         "view": "https://drive.google.com/file/d/1NLI0C0wWTdEgUlaqjdgyHUWBj7h3BXSs/view?usp=drivesdk"
       },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAq_x7brMOmQAx9ZGe25A4bE7GTys-masBnwoA2nCgou_vLtqdbQLlfAuuP8NVSpZtpSviffrwC9rkOqWC70gnUMoXurMlw2uW1XQoRZ91KFmH7A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFSr6JouNkWgIUcdcoyJaIQ9GYtzeJhGCRpLhEh8RwcPvl3hrHdi4bki8gWcePiIzv5NZ5591TGkLZ7J05gsfsjBTlpzpRhPHhGGKJBsnH78YnK5I=s220",
         "view": "https://drive.google.com/file/d/1xPZ9lA4vPxXBAiuH1hQg_eNc41FfBZ4y/view?usp=drivesdk"
       },
-      "FINAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPk1iXHnDtJAceAiS3GzAXpXT2EyVl_EWRONDKVMByb5r5NbHiKUF0IdlK1mV1XVqV6k5v7JQCHoInuNd0x2vAYGSRbT086VrDr9QLBua3UTAzQYw=s220",
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNm3qIyEMBiGc2jzkq73kXgaDykyEOJUWjmY79MGwqKHM4FkIZ_YPCphPyP9aDfoPoYcsIjXOKS0dSAmIqJQNvgrL6G6fQ9VOV1MgS9drzEhUbk_Vc=s220",
         "view": "https://drive.google.com/file/d/1HahuscrmMyYhUu-K8p0sh3bPKRSIBmD0/view?usp=drivesdk"
-      }
+      },
+      "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": true,
+    "_auditDetail": "Folio 32389 - 29/5/25 (9 FOTOS)\n  → 32389_inicial ✅\n  → 32389_folio ❌\n  → 32389_corte ❌\n  → 32389_demolicion ❌\n  → 32389_caja ✅\n  → 32389_liga ❌\n  → 32389_mezcla ❌\n  → 32389_terminado ✅\n  → 32389_limpieza ❌"
   },
   {
     "FOLIO": "32390",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "Paseo De Los Eucaliptos",
     "COLONIA": "Sauces I",
@@ -116,10 +131,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32390 - 29/5/25 (LEGACY)\n  → 32390_inicial ❌\n  → 32390_caja ❌\n  → 32390_terminado ❌"
   },
   {
     "FOLIO": "32408",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "Paseo De Los Quetzales",
     "COLONIA": "Sauces I",
@@ -129,10 +146,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32408 - 29/5/25 (LEGACY)\n  → 32408_inicial ❌\n  → 32408_caja ❌\n  → 32408_terminado ❌"
   },
   {
     "FOLIO": "32430",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -142,10 +161,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32430 - 29/5/25 (LEGACY)\n  → 32430_inicial ❌\n  → 32430_caja ❌\n  → 32430_terminado ❌"
   },
   {
     "FOLIO": "32431",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -155,10 +176,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32431 - 29/5/25 (LEGACY)\n  → 32431_inicial ❌\n  → 32431_caja ❌\n  → 32431_terminado ❌"
   },
   {
     "FOLIO": "32432",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -168,10 +191,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32432 - 29/5/25 (LEGACY)\n  → 32432_inicial ❌\n  → 32432_caja ❌\n  → 32432_terminado ❌"
   },
   {
     "FOLIO": "32433",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -181,10 +206,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32433 - 29/5/25 (LEGACY)\n  → 32433_inicial ❌\n  → 32433_caja ❌\n  → 32433_terminado ❌"
   },
   {
     "FOLIO": "32434",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -194,10 +221,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32434 - 29/5/25 (LEGACY)\n  → 32434_inicial ❌\n  → 32434_caja ❌\n  → 32434_terminado ❌"
   },
   {
     "FOLIO": "32435",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -207,10 +236,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32435 - 29/5/25 (LEGACY)\n  → 32435_inicial ❌\n  → 32435_caja ❌\n  → 32435_terminado ❌"
   },
   {
     "FOLIO": "32465",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces III",
@@ -220,10 +251,12 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32465 - 29/5/25 (LEGACY)\n  → 32465_inicial ❌\n  → 32465_caja ❌\n  → 32465_terminado ❌"
   },
   {
     "FOLIO": "32466",
+    "FECHA": "29/5/25",
     "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "De Las Yucas",
     "COLONIA": "Sauces IV",
@@ -233,6 +266,7 @@
     "_folderId": null,
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "_isNewSet": false,
+    "_auditDetail": "Folio 32466 - 29/5/25 (LEGACY)\n  → 32466_inicial ❌\n  → 32466_caja ❌\n  → 32466_terminado ❌"
   }
 ]
