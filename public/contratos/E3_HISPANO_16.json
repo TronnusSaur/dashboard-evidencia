@@ -2663,17 +2663,36 @@
   {
     "FOLIO": "160081",
     "FECHA": "17/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: FOLIO + CORTE + DEMOLICION + LIGA + MEZCLA + LIMPIEZA",
     "CALLE": "MANUEL SOTELO",
     "COLONIA": "MORELOS PRIMERA SECCION",
     "DELEGACION": "MORELOS",
     "_company": "HISPANO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1adNyXd19yoPVrzg9kmr4_Zuq4nig-4Bi",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsON1S7xAYU1Q3OTlCvvpCrSHSAD0C8CCpn-Ep536eDwJSeH8QT2A6exmejE95L7RVLf_J5pjp_WVkEMTWhFGillvnsKfRYZRgYe4g4x8woEwM61A=s220",
+        "view": "https://drive.google.com/file/d/1AI6qnSR9PXZKqIW0zcs9WL5s9JMvZoci/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxjIKFVGIRVHcy81T4OD2TKSuUJZRg3xhUrkRnBuTbRRyj5fWasWyTBTdszX5GATIa_vVHQ6FHjwonalZoQ7yjBnXaEJNbn_QvLDNhpSwU0Vp2PnM=s220",
+        "view": "https://drive.google.com/file/d/1qwf45JjwfR7NQsgilRyb-GJ71qKzL8M1/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8v2lgC2I8Gv-5xU4iuLXAwonIQOGc3W0ADTQfFKCTe9SjWLV9wj1PT_hCWhfyaogCiap7GOr2sTq7c8EtbnEPW4agmH1wSzHfkyPL0P9p1E9rIoI=s220",
+        "view": "https://drive.google.com/file/d/1rXl_li5eVWYxqbvNxHeaahHKYuyJ2Qi0/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 160081 - 17/4/26 (LEGACY)\n  → 160081_inicial ❌\n  → 160081_caja ❌\n  → 160081_terminado ❌"
+    "_isNewSet": true,
+    "_auditDetail": "Folio 160081 - 17/4/26 (9 FOTOS)\n  → 160081_inicial ✅\n  → 160081_folio ❌\n  → 160081_corte ❌\n  → 160081_demolicion ❌\n  → 160081_caja ✅\n  → 160081_liga ❌\n  → 160081_mezcla ❌\n  → 160081_terminado ✅\n  → 160081_limpieza ❌"
   },
   {
     "FOLIO": "160082",
