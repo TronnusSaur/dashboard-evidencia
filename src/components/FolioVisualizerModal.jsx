@@ -461,9 +461,13 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     // Instead of global search + parent validation (which fails for shared drives),
     // we walk the tree: Root → Contracts → Weeks → Folios
     const supTreeCacheRef = React.useRef(null); // { folioMap: { normalizedFolio: folderId } }
+    const supTreePromiseRef = React.useRef(null); // Singleton promise for tree building
 
     const buildSupervisorTree = async () => {
         if (supTreeCacheRef.current) return supTreeCacheRef.current;
+        if (supTreePromiseRef.current) return supTreePromiseRef.current;
+
+        supTreePromiseRef.current = (async () => {
         if (!accessToken) return null;
 
         console.log('🌳 Building supervisor drive tree...');
@@ -508,7 +512,11 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         } catch (e) {
             console.error('Error building supervisor tree:', e);
             return null;
+        } finally {
+            supTreePromiseRef.current = null;
         }
+    })();
+    return supTreePromiseRef.current;
     };
 
     const findSupervisorFolder = async (folioNumber) => {
@@ -559,16 +567,37 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     };
 
     const triggerVerification = async () => {
-        let resolvedFolderId = _folderId;
+        if (!isOpen || !FOLIO) return;
 
-        // In Supervisor mode, dynamically find the folder
-        if (driveMode === 'SUPERVISOR' && accessToken && FOLIO) {
+        let resolvedFolderId = _folderId;
+        
+        // Show existing photos from JSON immediately while we verify live
+        if (PHOTOS) {
+            // Map JSON structure to livePhotos structure
+            const initialLive = {};
+            Object.entries(PHOTOS).forEach(([key, val]) => {
+                if (val && val.view) {
+                    initialLive[key] = {
+                        thumbnail: val.thumbnail,
+                        view: val.view
+                    };
+                }
+            });
+            if (Object.keys(initialLive).length > 0) {
+                setLivePhotos(initialLive);
+            }
+        }
+
+        // In Supervisor mode, if we don't have a folderId yet, find it
+        if (driveMode === 'SUPERVISOR' && !resolvedFolderId && accessToken && FOLIO) {
             setIsVerifying(true);
+            setVerificationStatus('verifying');
             resolvedFolderId = await findSupervisorFolder(String(FOLIO).trim());
             if (!resolvedFolderId) {
                 if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0);
                 setIsVerifying(false);
                 setCurrentFolderId(null);
+                setVerificationStatus('error');
                 return;
             }
         }
@@ -577,6 +606,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
         if (!resolvedFolderId) {
             if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0);
+            setVerificationStatus('error');
             return;
         }
         let status = "";
@@ -876,7 +906,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                         title={cat.label} 
                                         photoObj={photoObj} 
                                         folio={FOLIO} 
-                                        folderId={_folderId} 
+                                        folderId={currentFolderId} 
                                         stage={_stage} 
                                         internalCategoryName={cat.id} 
                                         onActionSuccess={triggerVerification} 
@@ -890,7 +920,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                         </div>
 
                         {/* Folder Explorer */}
-                        {accessToken && _folderId && (
+                        {accessToken && currentFolderId && (
                             <div className="mt-8">
                                 <div className="flex items-center gap-2 mb-4">
                                     <FolderOpen size={18} className="text-slate-500" />
