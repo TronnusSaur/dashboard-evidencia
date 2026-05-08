@@ -169,79 +169,52 @@ async function obtenerPaginado(drive, query) {
     return items;
 }
 
-async function auditarFotos(drive, arrayFolioIds, fechaStr) {
-    if (!arrayFolioIds || arrayFolioIds.length === 0) return { status: "SIN CARPETA", photos: null, isNewSet: false };
-    try {
-        let todasLasFotos = [];
+// Optimized in-memory auditor
+function auditarFotosInMemory(filesInFolio, fechaStr) {
+    if (!filesInFolio || filesInFolio.length === 0) return { status: 'SIN CARPETA', photos: null, isNewSet: false };
 
-        for (const folioId of arrayFolioIds) {
-            const query = `'${folioId}' in parents and trashed = false`;
-            const res = await drive.files.list({
-                q: query,
-                fields: "files(name, webViewLink, thumbnailLink)",
-                supportsAllDrives: true,
-                includeItemsFromAllDrives: true,
-                pageSize: 100
-            });
-            todasLasFotos.push(...(res.data.files || []).map(f => ({
-                name: f.name.toLowerCase(),
-                webViewLink: f.webViewLink,
-                thumbnailLink: f.thumbnailLink
-            })));
-        }
+    const esLegacy = isLegacyByDate(fechaStr);
+    const categorias = esLegacy ? CATEGORIAS_LEGACY : CATEGORIAS_NUEVO;
+    const esSetNuevo = !esLegacy;
 
-        if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null, isNewSet: false };
+    const photosMap = {};
+    const encontradas = new Set();
 
-        const encontradas = new Set();
-        const photosMap = {};
-        for (const cat of Object.keys(PATRONES)) {
-            photosMap[cat] = null;
-        }
-        let matchedFileNames = new Set();
-
-        for (const f of todasLasFotos) {
-            let matched = false;
-            for (const [cat, patrones] of Object.entries(PATRONES)) {
-                if (patrones.some(p => f.name.includes(p))) {
-                    matched = true;
-                    encontradas.add(cat);
-                    if (!photosMap[cat]) {
-                        photosMap[cat] = {
-                            thumbnail: f.thumbnailLink,
-                            view: f.webViewLink
-                        };
-                    }
-                    break;
+    filesInFolio.forEach(f => {
+        const fileName = f.name.toLowerCase();
+        for (const [cat, patrones] of Object.entries(PATRONES)) {
+            if (patrones.some(p => fileName.includes(p))) {
+                encontradas.add(cat);
+                if (!photosMap[cat]) {
+                    photosMap[cat] = {
+                        thumbnail: f.thumbnailLink,
+                        view: f.webViewLink
+                    };
                 }
-            }
-            if (matched) {
-                matchedFileNames.add(f.name);
+                break;
             }
         }
+    });
 
-        const extraFilesCount = todasLasFotos.filter(f => !matchedFileNames.has(f.name)).length;
+    const faltantes = categorias.filter(cat => !encontradas.has(cat));
+    const extraFilesCount = Math.max(0, filesInFolio.length - encontradas.size);
 
-        // Determinar Legacy vs Nuevo: primero por fecha, fallback por heurístico de archivos
-        const legacyByDate = isLegacyByDate(fechaStr);
-        let esSetNuevo;
-        if (legacyByDate !== null) {
-            esSetNuevo = !legacyByDate;
-        } else {
-            // Fallback: si hay archivos con sufijos nuevos, es set nuevo
-            const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
-            esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
-        }
-
-        const categoriasRequeridas = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
-
-        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
-
-        const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
-        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, encontradas };
-    } catch (e) {
-        console.error(`Error accediendo a conjunto de folios: ${e.message}`);
-        return { status: "ERROR DE ACCESO", photos: null, isNewSet: false };
+    let status = 'OK';
+    if (encontradas.size === 0) {
+        status = 'CARPETA VACÍA';
+    } else if (faltantes.length > 0) {
+        status = `FALTA: ${faltantes.join(', ').toUpperCase()}`;
     }
+
+    // Generar detalle legible
+    let detail = `Folio - ${fechaStr || 'Sin Fecha'} (${esSetNuevo ? '9 FOTOS' : 'LEGACY'})\n`;
+    const catLabels = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
+    catLabels.forEach(cat => {
+        const ok = encontradas.has(cat) ? '✅' : '❌';
+        detail += `  → ${cat} ${ok}\n`;
+    });
+
+    return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, detail };
 }
 
 async function procesarEtapa(drive, sheets, config, auditCache) {
@@ -291,7 +264,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
-        const folioIds = dictMap[folioStr];
+        const folioIds = dictMap[folioStr]?.ids;
         const fechaStr = row['FECHA'] || row['FECHA_REPORTE'] || '';
 
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
@@ -306,7 +279,8 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
             return;
         }
 
-        const resultado = await auditarFotos(drive, folioIds, fechaStr);
+        const filesInFolio = dictMap[folioStr]?.files || [];
+        const resultado = auditarFotosInMemory(filesInFolio, fechaStr);
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
@@ -326,7 +300,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
                 photos: resultado.photos,
                 extraFilesCount: resultado.extraFilesCount || 0,
                 isNewSet: resultado.isNewSet || false,
-                detail: resultado.detail // Guardamos detalle en cache tambien
+                detail: resultado.detail
             };
         }
 
@@ -360,8 +334,15 @@ async function mapearDriveAdmin(drive, rootId) {
         for (const f of fols) {
             const cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
             const folioKey = normalizeFolio(cleanName.replace(/\s*-\s*/g, '-'));
-            if (!dictMap[folioKey]) dictMap[folioKey] = [];
-            dictMap[folioKey].push(f.id);
+            if (!dictMap[folioKey]) dictMap[folioKey] = { ids: [], files: [] };
+            dictMap[folioKey].ids.push(f.id);
+
+            // Fetch files in this folio immediately to avoid later calls
+            const resFiles = await drive.files.list({
+                q: `'${f.id}' in parents and trashed = false`,
+                fields: 'files(id, name)'
+            });
+            dictMap[folioKey].files.push(...resFiles.data.files);
         }
     })));
     return dictMap;
@@ -377,8 +358,15 @@ async function mapearDriveSupervisor(drive, rootId) {
             const fols = await obtenerPaginado(drive, `'${w.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
             for (const f of fols) {
                 const folioKey = normalizeFolio(f.name.trim());
-                if (!dictMap[folioKey]) dictMap[folioKey] = [];
-                dictMap[folioKey].push(f.id);
+                if (!dictMap[folioKey]) dictMap[folioKey] = { ids: [], files: [] };
+                dictMap[folioKey].ids.push(f.id);
+
+                // Fetch files for this folio
+                const resFiles = await drive.files.list({
+                    q: `'${f.id}' in parents and trashed = false`,
+                    fields: 'files(id, name)'
+                });
+                dictMap[folioKey].files.push(...resFiles.data.files);
             }
         }
     })));
