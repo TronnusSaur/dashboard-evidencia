@@ -6,7 +6,9 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-// CONFIGURACIÓN 
+// ══════════════════════════════════════════════════════════════
+// CONFIGURACIÓN
+// ══════════════════════════════════════════════════════════════
 const SHEET_ID = process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8';
 
 const STAGES_CONFIG = [
@@ -46,6 +48,22 @@ const PUBLIC_DIR = path.join(process.cwd(), 'public', 'contratos');
 const MOCK_PATH = path.join(process.cwd(), 'src', 'dataMock.js');
 const CACHE_FILE = path.join(process.cwd(), 'audit_cache.json');
 
+// Tiempo máximo de ejecución: 8 minutos (deja margen para commit + push)
+const MAX_RUNTIME_MS = 8 * 60 * 1000;
+const START_TIME = Date.now();
+let TIMED_OUT = false;
+
+function checkTimeout() {
+    if (Date.now() - START_TIME > MAX_RUNTIME_MS) {
+        TIMED_OUT = true;
+        return true;
+    }
+    return false;
+}
+
+// ══════════════════════════════════════════════════════════════
+// PATRONES Y CATEGORÍAS (UNIFICADO: solo TERMINADO, nunca FINAL)
+// ══════════════════════════════════════════════════════════════
 const PATRONES = {
     "INICIAL": ["_inicial"],
     "FOLIO": ["_folio"],
@@ -66,12 +84,11 @@ const CATEGORIAS_NUEVO = ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LI
 
 /**
  * Determina si un folio es Legacy basándose en su fecha.
- * Si la fecha no es parseable, cae al heurístico de archivos.
+ * Retorna null si no se puede determinar.
  */
 function isLegacyByDate(fechaStr) {
-    if (!fechaStr || !String(fechaStr).trim()) return null; // null = indeterminado
+    if (!fechaStr || !String(fechaStr).trim()) return null;
     const str = String(fechaStr).trim();
-    // Intentar parseo DD/MM/AAAA o DD/MM/AA
     const parts = str.split('/');
     if (parts.length === 3) {
         const [d, m, y] = parts;
@@ -82,12 +99,11 @@ function isLegacyByDate(fechaStr) {
             return date < LEGACY_CUTOFF_DATE;
         }
     }
-    // Intentar parseo nativo como fallback
     const native = new Date(str);
     if (!isNaN(native.getTime())) {
         return native < LEGACY_CUTOFF_DATE;
     }
-    return null; // No se pudo parsear
+    return null;
 }
 
 /**
@@ -104,26 +120,21 @@ function generarAuditDetail(folioStr, fechaStr, isLegacy, categoriasRequeridas, 
     return lines.join('\n');
 }
 
-// Normalizar Folio: Asegurar 3 dígitos para numéricos y remover espacios extraños en subdivisiones (ej: "8041 - 1" -> "8041-1")
+// Normalizar Folio
 const normalizeFolio = (f) => {
     if (!f) return f;
-    let trimmed = String(f).trim().replace(/\s*-\s*/g, '-'); // "8041 - 1" -> "8041-1"
-
-    // Si es un número puro, asegurar 3 dígitos
-    if (/^\d+$/.test(trimmed)) {
-        return trimmed.padStart(3, '0');
-    }
-
-    // Si tiene un guion pero la primera parte es número (ej: "1-1"), asegurar 3 dígitos del primer número
+    let trimmed = String(f).trim().replace(/\s*-\s*/g, '-');
+    if (/^\d+$/.test(trimmed)) return trimmed.padStart(3, '0');
     if (/^\d+-\d+$/.test(trimmed)) {
         const parts = trimmed.split('-');
         return `${parts[0].padStart(3, '0')}-${parts[1]}`;
     }
-
     return trimmed;
 };
 
-// Autenticación con Google Service Account
+// ══════════════════════════════════════════════════════════════
+// GOOGLE AUTH
+// ══════════════════════════════════════════════════════════════
 async function getAuth() {
     let credentials;
     if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
@@ -139,18 +150,16 @@ async function getAuth() {
             return await defaultAuth.getClient();
         }
     }
-
     const auth = new google.auth.GoogleAuth({
-        credentials: {
-            client_email: credentials.client_email,
-            private_key: credentials.private_key,
-        },
+        credentials: { client_email: credentials.client_email, private_key: credentials.private_key },
         scopes: ['https://www.googleapis.com/auth/drive.readonly', 'https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
-
     return await auth.getClient();
 }
 
+// ══════════════════════════════════════════════════════════════
+// DRIVE HELPERS (ORIGINAL SPEED — SOLO FOLDER IDs)
+// ══════════════════════════════════════════════════════════════
 async function obtenerPaginado(drive, query) {
     let items = [];
     let pageToken = null;
@@ -169,58 +178,119 @@ async function obtenerPaginado(drive, query) {
     return items;
 }
 
-// Optimized in-memory auditor
-function auditarFotosInMemory(filesInFolio, fechaStr) {
-    if (!filesInFolio || filesInFolio.length === 0) return { status: 'SIN CARPETA', photos: null, isNewSet: false };
+/**
+ * Audita fotos de un folio consultando la API de Drive.
+ * SOLO se llama si el folio NO está en caché.
+ */
+async function auditarFotos(drive, folderIds, fechaStr) {
+    if (!folderIds || folderIds.length === 0) return { status: "SIN CARPETA", photos: null, isNewSet: false };
+    try {
+        let todasLasFotos = [];
+        for (const folderId of folderIds) {
+            const res = await drive.files.list({
+                q: `'${folderId}' in parents and trashed = false`,
+                fields: "files(name, webViewLink, thumbnailLink)",
+                supportsAllDrives: true,
+                includeItemsFromAllDrives: true,
+                pageSize: 100
+            });
+            todasLasFotos.push(...(res.data.files || []).map(f => ({
+                name: f.name.toLowerCase(),
+                webViewLink: f.webViewLink,
+                thumbnailLink: f.thumbnailLink
+            })));
+        }
 
-    const esLegacy = isLegacyByDate(fechaStr);
-    const categorias = esLegacy ? CATEGORIAS_LEGACY : CATEGORIAS_NUEVO;
-    const esSetNuevo = !esLegacy;
+        if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null, isNewSet: false };
 
-    const photosMap = {};
-    const encontradas = new Set();
+        const encontradas = new Set();
+        const photosMap = {};
+        for (const cat of Object.keys(PATRONES)) { photosMap[cat] = null; }
 
-    filesInFolio.forEach(f => {
-        const fileName = f.name.toLowerCase();
-        for (const [cat, patrones] of Object.entries(PATRONES)) {
-            if (patrones.some(p => fileName.includes(p))) {
-                encontradas.add(cat);
-                if (!photosMap[cat]) {
-                    photosMap[cat] = {
-                        thumbnail: f.thumbnailLink,
-                        view: f.webViewLink
-                    };
+        for (const f of todasLasFotos) {
+            for (const [cat, patrones] of Object.entries(PATRONES)) {
+                if (patrones.some(p => f.name.includes(p))) {
+                    encontradas.add(cat);
+                    if (!photosMap[cat]) {
+                        photosMap[cat] = { thumbnail: f.thumbnailLink, view: f.webViewLink };
+                    }
+                    break;
                 }
-                break;
             }
         }
-    });
 
-    const faltantes = categorias.filter(cat => !encontradas.has(cat));
-    const extraFilesCount = Math.max(0, filesInFolio.length - encontradas.size);
+        const extraFilesCount = todasLasFotos.length - encontradas.size;
 
-    let status = 'OK';
-    if (encontradas.size === 0) {
-        status = 'CARPETA VACÍA';
-    } else if (faltantes.length > 0) {
-        status = `FALTA: ${faltantes.join(', ').toUpperCase()}`;
+        // Legacy detection por fecha, fallback por heurístico
+        const legacyByDate = isLegacyByDate(fechaStr);
+        let esSetNuevo;
+        if (legacyByDate !== null) {
+            esSetNuevo = !legacyByDate;
+        } else {
+            const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
+            esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
+        }
+
+        const categoriasRequeridas = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
+        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
+        const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
+
+        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, encontradas };
+    } catch (e) {
+        console.error(`Error accediendo a folio: ${e.message}`);
+        return { status: "ERROR DE ACCESO", photos: null, isNewSet: false };
     }
-
-    // Generar detalle legible
-    let detail = `Folio - ${fechaStr || 'Sin Fecha'} (${esSetNuevo ? '9 FOTOS' : 'LEGACY'})\n`;
-    const catLabels = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
-    catLabels.forEach(cat => {
-        const ok = encontradas.has(cat) ? '✅' : '❌';
-        detail += `  → ${cat} ${ok}\n`;
-    });
-
-    return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, detail };
 }
 
+// ══════════════════════════════════════════════════════════════
+// MAPEO DE DRIVES — SOLO FOLDER IDs (RÁPIDO)
+// ══════════════════════════════════════════════════════════════
+async function mapearDriveAdmin(drive, rootId) {
+    const dictMap = {};
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(5);
+    await Promise.all(contratos.map(c => limit(async () => {
+        const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const f of fols) {
+            const cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
+            const folioKey = normalizeFolio(cleanName.replace(/\s*-\s*/g, '-'));
+            if (!dictMap[folioKey]) dictMap[folioKey] = [];
+            dictMap[folioKey].push(f.id);
+        }
+    })));
+    return dictMap;
+}
+
+async function mapearDriveSupervisor(drive, rootId) {
+    const dictMap = {};
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(3);
+    await Promise.all(contratos.map(c => limit(async () => {
+        const weeks = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const w of weeks) {
+            const fols = await obtenerPaginado(drive, `'${w.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            for (const f of fols) {
+                const folioKey = normalizeFolio(f.name.trim());
+                if (!dictMap[folioKey]) dictMap[folioKey] = [];
+                dictMap[folioKey].push(f.id);
+            }
+        }
+    })));
+    return dictMap;
+}
+
+// ══════════════════════════════════════════════════════════════
+// PROCESAMIENTO POR ETAPA
+// ══════════════════════════════════════════════════════════════
 async function procesarEtapa(drive, sheets, config, auditCache) {
     console.log(`\n📂 Procesando ${config.id}: ${config.name}...`);
 
-    // 1. Mapeo de Drive
+    if (checkTimeout()) {
+        console.log(`  ⏰ TIMEOUT: Saltando ${config.id} para guardar progreso.`);
+        return [];
+    }
+
+    // 1. Mapeo de Drive (RÁPIDO — solo folder IDs)
     let dictMap = {};
     if (config.driveType === 'ADMIN') {
         console.log(`  🗺️ Mapeando carpetas en Drive Admin para ${config.id}...`);
@@ -238,7 +308,6 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         spreadsheetId: currentSheetId,
         range: config.name
     });
-
     const rows = sheetData.data.values;
     if (!rows || rows.length < 2) return [];
 
@@ -249,151 +318,115 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         return obj;
     });
 
-    // 3. Auditoría Real
-    const auditLimit = pLimit(10);
-    let auditadosNuevos = 0;
+    // 3. Auditoría con caché + timeout
+    const auditLimit = pLimit(20);
     let completados = 0;
-
-    const saveCache = () => {
-        try {
-            fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
-        } catch (err) {
-            console.error("  ⚠️ Error guardando caché intermedia:", err.message);
-        }
-    };
+    let cacheHits = 0;
+    let apiCalls = 0;
 
     const auditTasks = df.map((row) => auditLimit(async () => {
+        // Abort si timeout
+        if (TIMED_OUT) return;
+
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
-        const folioIds = dictMap[folioStr]?.ids;
+        const folioIds = dictMap[folioStr];
         const fechaStr = row['FECHA'] || row['FECHA_REPORTE'] || '';
 
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
         const cached = auditCache[cacheKey];
+
+        // CACHE HIT — no API call needed
         if (cached && typeof cached === 'object' && cached.photos && folioIds && folioIds.length > 0) {
             row['RESULTADO_AUDITORIA'] = cached.status;
             row['PHOTOS'] = cached.photos;
             row['_folderId'] = folioIds[0];
             row['_isNewSet'] = cached.isNewSet || false;
             row['EXTRA_PHOTOS'] = cached.extraFilesCount || 0;
-            row['_auditDetail'] = cached.detail || `Folio ${row.FOLIO} - OK`;
+            cacheHits++;
+            completados++;
             return;
         }
 
-        const filesInFolio = dictMap[folioStr]?.files || [];
-        const resultado = auditarFotosInMemory(filesInFolio, fechaStr);
+        // CACHE MISS — API call
+        const resultado = await auditarFotos(drive, folioIds, fechaStr);
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
         row['_isNewSet'] = resultado.isNewSet || false;
-        
-        // Detalle legible solo para errores o por contrato
-        if (resultado.status !== 'OK') {
-            row['_auditDetail'] = resultado.detail;
-        } else {
-            row['_auditDetail'] = `Folio ${row.FOLIO} - OK`;
-        }
+        row['_folderId'] = folioIds && folioIds.length > 0 ? folioIds[0] : null;
 
-        // Cache both OK and error results (saves re-auditing unchanged folios)
+        // Cache the result (OK and errors both)
         if (folioIds && folioIds.length > 0) {
             auditCache[cacheKey] = {
                 status: resultado.status,
                 photos: resultado.photos,
                 extraFilesCount: resultado.extraFilesCount || 0,
-                isNewSet: resultado.isNewSet || false,
-                detail: resultado.detail
+                isNewSet: resultado.isNewSet || false
             };
         }
 
-        auditadosNuevos++;
+        apiCalls++;
         completados++;
-        
-        if (completados % 100 === 0 || completados === df.length) {
+
+        if (completados % 200 === 0) {
             const porcentaje = ((completados / df.length) * 100).toFixed(1);
-            console.log(`  [Progreso] ${config.name}: ${completados} / ${df.length} folios auditados (${porcentaje}%)`);
+            const elapsed = ((Date.now() - START_TIME) / 1000).toFixed(0);
+            console.log(`  [${config.id}] ${completados}/${df.length} (${porcentaje}%) | Cache: ${cacheHits} | API: ${apiCalls} | ${elapsed}s`);
         }
 
-        // Checkpoint cada 500 folios o al final de la etapa
-        if (completados % 500 === 0) {
-            saveCache();
-        }
-        
-        row['_folderId'] = folioIds && folioIds.length > 0 ? folioIds[0] : null;
+        // Check timeout periodically
+        if (completados % 100 === 0) checkTimeout();
     }));
 
     await Promise.all(auditTasks);
-    console.log(`  ✅ ${df.length} registros auditados para ${config.id} (${config.driveType}).`);
+    console.log(`  ✅ ${config.id}: ${completados} registros (Cache: ${cacheHits}, API: ${apiCalls})`);
     return df;
 }
 
-async function mapearDriveAdmin(drive, rootId) {
-    const dictMap = {};
-    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-    const limit = pLimit(5);
-    await Promise.all(contratos.map(c => limit(async () => {
-        const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-        for (const f of fols) {
-            const cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
-            const folioKey = normalizeFolio(cleanName.replace(/\s*-\s*/g, '-'));
-            if (!dictMap[folioKey]) dictMap[folioKey] = { ids: [], files: [] };
-            dictMap[folioKey].ids.push(f.id);
-
-            // Fetch files in this folio immediately to avoid later calls
-            const resFiles = await drive.files.list({
-                q: `'${f.id}' in parents and trashed = false`,
-                fields: 'files(id, name)'
-            });
-            dictMap[folioKey].files.push(...resFiles.data.files);
-        }
-    })));
-    return dictMap;
-}
-
-async function mapearDriveSupervisor(drive, rootId) {
-    const dictMap = {};
-    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-    const limit = pLimit(3);
-    await Promise.all(contratos.map(c => limit(async () => {
-        const weeks = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-        for (const w of weeks) {
-            const fols = await obtenerPaginado(drive, `'${w.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-            for (const f of fols) {
-                const folioKey = normalizeFolio(f.name.trim());
-                if (!dictMap[folioKey]) dictMap[folioKey] = { ids: [], files: [] };
-                dictMap[folioKey].ids.push(f.id);
-
-                // Fetch files for this folio
-                const resFiles = await drive.files.list({
-                    q: `'${f.id}' in parents and trashed = false`,
-                    fields: 'files(id, name)'
-                });
-                dictMap[folioKey].files.push(...resFiles.data.files);
-            }
-        }
-    })));
-    return dictMap;
-}
-
+// ══════════════════════════════════════════════════════════════
+// MAIN
+// ══════════════════════════════════════════════════════════════
 async function main() {
-    console.log("👑 Kinger: Iniciando la Auditoría Magistral (E1 + E2 + E3 Admin + E3 RAW)...");
+    console.log("👑 Kinger: Iniciando la Auditoría Magistral...");
     const authClient = await getAuth();
     const drive = google.drive({ version: 'v3', auth: authClient });
     const sheets = google.sheets({ version: 'v4', auth: authClient });
 
+    // Cargar caché
     let auditCache = {};
     if (fs.existsSync(CACHE_FILE)) {
-        auditCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+        try {
+            auditCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+            console.log(`📦 Caché cargada: ${Object.keys(auditCache).length} entradas.`);
+        } catch (e) {
+            console.warn("⚠️ Caché corrupta, iniciando limpia.");
+            auditCache = {};
+        }
+    } else {
+        console.log("📦 Sin caché previa — cold start.");
     }
 
     let allData = [];
     for (const config of STAGES_CONFIG) {
         const stageData = await procesarEtapa(drive, sheets, config, auditCache);
         allData.push(...stageData);
+
+        // Guardar caché después de cada etapa
+        fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
+        console.log(`  💾 Caché guardada (${Object.keys(auditCache).length} entradas).`);
+
+        if (TIMED_OUT) {
+            console.log("⏰ TIMEOUT alcanzado — guardando progreso parcial.");
+            break;
+        }
     }
 
-    // Guardar Caché
-    fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
+    // Generación de Salidas (solo si tenemos datos)
+    if (allData.length === 0) {
+        console.log("⚠️ Sin datos para generar salidas.");
+        process.exit(0);
+    }
 
-    // Generación de Salidas
     console.log("\n📂 Generando archivos consolidados...");
     if (!fs.existsSync(PUBLIC_DIR)) fs.mkdirSync(PUBLIC_DIR, { recursive: true });
 
@@ -415,7 +448,6 @@ async function main() {
         const stage = row['_stage'];
         if (!emp || !id) return;
 
-        // Use '||' as delimiter to avoid collision with 'E3_SUP' stage name
         const key = `${stage}||${emp}||${id}`;
         if (!grupos[key]) grupos[key] = [];
         grupos[key].push(row);
@@ -447,7 +479,6 @@ async function main() {
             const fechaStr = r['FECHA'] || r['FECHA_REPORTE'] || '';
             const isLegacy = r._isNewSet === false;
             const categoriasReq = isLegacy ? CATEGORIAS_LEGACY : CATEGORIAS_NUEVO;
-            // Build encontradas set from PHOTOS
             const encontradasSet = new Set();
             if (r.PHOTOS) {
                 for (const [cat, val] of Object.entries(r.PHOTOS)) {
@@ -476,8 +507,7 @@ async function main() {
 
         resumenData.push(summaryRow);
 
-        // Para E3_SUP, el nombre del archivo debe ser E3_SUP_EMPRESA_ID.json
-        let fileName = `${stage}_${emp}_${id}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
+        let fileName = `${stage}_${emp}_${id}.json`.replace(/[\\/\\]/g, '-').replace(/ /g, '_');
         fs.writeFileSync(path.join(PUBLIC_DIR, fileName), JSON.stringify(pendientes, null, 2));
     }
 
@@ -490,8 +520,21 @@ export const FILTERS_MAP = ${JSON.stringify(filtersMap, null, 2)};
 `;
     fs.writeFileSync(MOCK_PATH, mockContent, 'utf8');
 
-    console.log("\n✅ ¡Misión Cumplida! La corona brilla sobre ambas etapas.");
+    const elapsed = ((Date.now() - START_TIME) / 1000).toFixed(1);
+    if (TIMED_OUT) {
+        console.log(`\n⏰ Completado parcialmente en ${elapsed}s. La próxima ejecución continuará con caché.`);
+    } else {
+        console.log(`\n✅ ¡Misión Cumplida en ${elapsed}s! La corona brilla sobre todas las etapas.`);
+    }
 }
 
-main().catch(console.error);
-
+main().catch(err => {
+    console.error("❌ Error fatal:", err.message);
+    // Intentar guardar caché antes de morir
+    try {
+        if (fs.existsSync(CACHE_FILE)) {
+            console.log("💾 Caché preservada a pesar del error.");
+        }
+    } catch (_) {}
+    process.exit(1);
+});

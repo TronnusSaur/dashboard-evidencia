@@ -35,11 +35,9 @@ jobs:
       - name: 📦 Instalar dependencias del script
         run: npm install --no-save googleapis dotenv p-limit
 
-      # 4. Restaurar audit_cache.json desde la rama para aprovechar el cache previo
-      #    (el checkout ya lo trae si fue commiteado antes)
-
-      # 5. Ejecutar la auditoría completa (E1 + E2 + E3)
+      # 4. Ejecutar la auditoría (con timeout graceful de 8 min integrado)
       - name: 🔍 Ejecutar Auditoría de Drive
+        id: audit
         run: node scripts/auditData.js
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
@@ -48,13 +46,35 @@ jobs:
           FOLDER_ID_DRIVE:            ${{ secrets.FOLDER_ID_DRIVE }}
           FOLDER_ID_DRIVE_E1:         ${{ secrets.FOLDER_ID_DRIVE_E1 }}
           FOLDER_ID_DRIVE_E3:         ${{ secrets.FOLDER_ID_DRIVE_E3 }}
+        continue-on-error: true
 
-      # 6. Generar los archivos Master consolidados (E1_Master.json, E2_Master.json, E3_Master.json)
+      # 5. SIEMPRE guardar la caché (incluso si audit falló parcialmente)
+      - name: 💾 Guardar caché de auditoría
+        if: always()
+        run: |
+          git config --global user.name  "Queeny Bot 🤖"
+          git config --global user.email "bot@dashboard-evidencia.app"
+
+          if [ -f audit_cache.json ]; then
+            git add audit_cache.json
+            if ! git diff --cached --quiet -- audit_cache.json; then
+              git commit -m "chore(cache): guardar progreso de auditoría [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+              git pull --rebase origin main
+              git push origin main
+              echo "💾 Caché guardada en el repositorio."
+            else
+              echo "📦 Caché sin cambios."
+            fi
+          fi
+
+      # 6. Generar los archivos Master consolidados
       - name: 🗜️ Generar Master JSONs
+        if: steps.audit.outcome == 'success'
         run: node scripts/generateMasterJson.js
 
       # 7. Commit y push — SOLO si hay cambios reales (evita deploys vacíos en Vercel)
       - name: 🚀 Publicar cambios (si los hay)
+        if: steps.audit.outcome == 'success'
         run: |
           git config --global user.name  "Queeny Bot 🤖"
           git config --global user.email "bot@dashboard-evidencia.app"
