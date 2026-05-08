@@ -51,7 +51,7 @@ ERROR_TYPES.forEach(type => {
 const stageCache = {};
 
 const PhotoEvidenceDashboard = () => {
-    const [selectedStage, setSelectedStage] = useState('E2'); // Default to Stage 2
+    const [selectedStage, setSelectedStage] = useState('E3'); // Default to Stage 3
     const [selectedCompany, setSelectedCompany] = useState('ALL');
     const [selectedContract, setSelectedContract] = useState('ALL');
     const [selectedDelegation, setSelectedDelegation] = useState('ALL');
@@ -62,6 +62,19 @@ const PhotoEvidenceDashboard = () => {
     const [showOkFolios, setShowOkFolios] = useState(false);
     const [loadingMessage, setLoadingMessage] = useState('');
     const [isZipping, setIsZipping] = useState(false);
+
+    // Multi-Drive State
+    const ADMIN_EMAILS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com", "soranodex@gmail.com"];
+    const [driveMode, setDriveMode] = useState(() => localStorage.getItem('drive_mode') || 'ADMIN');
+    const [isSyncing, setIsSyncing] = useState(false);
+    const [syncProgress, setSyncProgress] = useState({ current: 0, total: 0, stage: '' });
+    const [syncLog, setSyncLog] = useState('');
+    const loggedInProfile = useMemo(() => {
+        try { return JSON.parse(localStorage.getItem('google_user_profile') || 'null'); } catch { return null; }
+    }, []);
+    const isAdmin = loggedInProfile && ADMIN_EMAILS.includes(loggedInProfile.email);
+
+    useEffect(() => { localStorage.setItem('drive_mode', driveMode); }, [driveMode]);
 
     // Filter RESUMEN_DATA by stage
     const activeResumen = useMemo(() => {
@@ -698,6 +711,123 @@ const PhotoEvidenceDashboard = () => {
         }
     };
 
+    // ── Stage Sync Engine ──────────────────────────────────────────────
+    const PHOTO_PATTERNS = {
+        'INICIAL': '_inicial', 'FOLIO': '_folio', 'CORTE': '_corte',
+        'DEMOLICION': '_demolicion', 'CAJA': '_caja', 'LIGA': '_liga',
+        'MEZCLA': '_mezcla', 'TERMINADO': '_terminado', 'LIMPIEZA': '_limpieza'
+    };
+    const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
+
+    const runStageSync = async (stageId, mode = 'ADMIN') => {
+        const token = localStorage.getItem('drive_access_token');
+        if (!token) { alert('Debes iniciar sesión con Google primero (abre un folio y conecta tu cuenta).'); return; }
+
+        const stageRecords = records.filter(r => r._stage === stageId);
+        if (stageRecords.length === 0) { alert(`No hay registros cargados para Etapa ${stageId.slice(1)}. Selecciona la etapa primero.`); return; }
+
+        setIsSyncing(true);
+        const total = stageRecords.length;
+        let processed = 0;
+        let updated = 0;
+        setSyncProgress({ current: 0, total, stage: stageId });
+        setSyncLog(`Iniciando sincronización de ${total} folios...`);
+
+        // For supervisor mode, pre-build a folder index
+        let supervisorIndex = null;
+        if (mode === 'SUPERVISOR') {
+            setSyncLog('Indexando carpetas del Drive de Supervisores...');
+            supervisorIndex = await buildSupervisorIndex(token);
+            if (!supervisorIndex) { setIsSyncing(false); return; }
+            setSyncLog(`Índice listo: ${Object.keys(supervisorIndex).length} folios encontrados. Verificando fotos...`);
+        }
+
+        const batchSize = 5;
+        for (let i = 0; i < stageRecords.length; i += batchSize) {
+            const batch = stageRecords.slice(i, i + batchSize);
+            await Promise.all(batch.map(async (record) => {
+                let folderId = record._folderId;
+
+                if (mode === 'SUPERVISOR') {
+                    const folioKey = String(record.FOLIO).trim();
+                    folderId = supervisorIndex?.[folioKey] || null;
+                }
+
+                if (!folderId) { processed++; setSyncProgress({ current: processed, total, stage: stageId }); return; }
+
+                try {
+                    const query = encodeURIComponent(`'${folderId}' in parents and trashed = false`);
+                    const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,mimeType,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
+                    const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + token }});
+                    if (res.status === 401) { alert('Token expirado. Reconecta tu Google.'); localStorage.removeItem('drive_access_token'); setIsSyncing(false); return; }
+                    if (!res.ok) { processed++; setSyncProgress({ current: processed, total, stage: stageId }); return; }
+
+                    const data = await res.json();
+                    const files = data.files || [];
+                    const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
+                    const isNew = files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s)));
+                    const cats = isNew ? ['INICIAL','FOLIO','CORTE','DEMOLICION','CAJA','LIGA','MEZCLA','TERMINADO','LIMPIEZA'] : ['INICIAL','CAJA','TERMINADO'];
+
+                    const found = {}; const recognized = new Set();
+                    for (const f of files) {
+                        const ln = f.name.toLowerCase();
+                        for (const cat of cats) {
+                            if (ln.includes(PHOTO_PATTERNS[cat])) { recognized.add(f.id); if (!found[cat]) found[cat] = { id: f.id, thumbnail: f.thumbnailLink, view: f.webViewLink }; }
+                        }
+                    }
+                    const missing = cats.filter(c => !found[c]);
+                    const status = files.length === 0 ? 'CARPETA VACÍA' : missing.length === 0 ? 'OK' : 'FALTA: ' + missing.join(' + ');
+                    const extras = files.filter(f => !recognized.has(f.id)).length;
+                    handleFolioSync(record.FOLIO, found, status, extras);
+                    updated++;
+                } catch (e) { console.error(`Sync error ${record.FOLIO}:`, e); }
+                processed++;
+                setSyncProgress({ current: processed, total, stage: stageId });
+            }));
+            await new Promise(r => setTimeout(r, 80));
+        }
+        setSyncLog(`✅ Sincronización completada. ${updated} folios actualizados.`);
+        setIsSyncing(false);
+        setTimeout(() => { setSyncLog(''); setSyncProgress({ current: 0, total: 0, stage: '' }); }, 5000);
+    };
+
+    const buildSupervisorIndex = async (token) => {
+        try {
+            // Level 1: Contract folders
+            const contractsQ = encodeURIComponent(`'${SUPERVISOR_ROOT_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            const cRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${contractsQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=500`, { headers: { 'Authorization': 'Bearer ' + token }});
+            if (!cRes.ok) { alert('Error accediendo al Drive de Supervisores.'); return null; }
+            const contracts = (await cRes.json()).files || [];
+
+            const index = {};
+            const limit = 3; // concurrent contracts
+            for (let ci = 0; ci < contracts.length; ci += limit) {
+                const batch = contracts.slice(ci, ci + limit);
+                await Promise.all(batch.map(async (contract) => {
+                    // Level 2: Week folders
+                    const weeksQ = encodeURIComponent(`'${contract.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+                    const wRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${weeksQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`, { headers: { 'Authorization': 'Bearer ' + token }});
+                    if (!wRes.ok) return;
+                    const weeks = (await wRes.json()).files || [];
+
+                    for (const week of weeks) {
+                        // Level 3: Folio folders
+                        const foliosQ = encodeURIComponent(`'${week.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+                        const fRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${foliosQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=500`, { headers: { 'Authorization': 'Bearer ' + token }});
+                        if (!fRes.ok) continue;
+                        const folios = (await fRes.json()).files || [];
+                        for (const folio of folios) {
+                            index[folio.name.trim()] = folio.id;
+                        }
+                    }
+                }));
+                setSyncLog(`Indexando... ${ci + batch.length}/${contracts.length} contratos`);
+                await new Promise(r => setTimeout(r, 50));
+            }
+            return index;
+        } catch (e) { console.error('Error building supervisor index:', e); alert('Error al indexar el Drive de Supervisores.'); return null; }
+    };
+
     const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0) => {
         setRecords(prevRecords => prevRecords.map(r => {
             if (String(r.FOLIO) === String(folioStr)) {
@@ -761,7 +891,27 @@ const PhotoEvidenceDashboard = () => {
                                 <p className="text-sm font-light opacity-90">DIRECCIÓN DE OBRAS PÚBLICAS</p>
                             </div>
                         </div>
-                        <div className="flex items-center gap-4 w-full md:w-auto">
+                        <div className="flex items-center gap-4 w-full md:w-auto flex-wrap">
+                            {/* Drive Mode Selector */}
+                            <div className="drive-mode-selector">
+                                <button
+                                    onClick={() => setDriveMode('ADMIN')}
+                                    className={`drive-mode-btn ${driveMode === 'ADMIN' ? 'active' : ''}`}
+                                    title="Ver datos del Drive Administrador (corregido)"
+                                >
+                                    <span className="material-symbols-outlined text-sm">verified</span>
+                                    Admin
+                                </button>
+                                <button
+                                    onClick={() => setDriveMode('SUPERVISOR')}
+                                    className={`drive-mode-btn ${driveMode === 'SUPERVISOR' ? 'active' : ''}`}
+                                    title="Ver datos del Drive RAW de Supervisores"
+                                >
+                                    <span className="material-symbols-outlined text-sm">group</span>
+                                    Supervisores
+                                </button>
+                            </div>
+
                             <button
                                 onClick={() => exportErrorsZip()}
                                 disabled={isZipping || isLoading}
@@ -783,15 +933,14 @@ const PhotoEvidenceDashboard = () => {
                             </button>
                             <div
                                 className="flex items-center gap-3 pl-2 border-l border-white/20 cursor-pointer hover:opacity-80 transition-opacity"
-                                onClick={() => alert('La configuración de usuario aún está bajo construcción.')}
                                 title="Perfil de Usuario"
                             >
                                 <div className="text-right hidden sm:block">
-                                    <p className="text-xs font-bold leading-none">Admin Usuario</p>
-                                    <p className="text-[10px] opacity-70">Supervisor General</p>
+                                    <p className="text-xs font-bold leading-none">{loggedInProfile?.name || 'Usuario'}</p>
+                                    <p className="text-[10px] opacity-70">{isAdmin ? 'Administrador' : 'Supervisor'}</p>
                                 </div>
-                                <div className="w-10 h-10 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-xl">person</span>
+                                <div className="w-10 h-10 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center overflow-hidden">
+                                    {loggedInProfile?.picture ? <img src={loggedInProfile.picture} alt="" className="w-full h-full object-cover" referrerPolicy="no-referrer" /> : <span className="material-symbols-outlined text-xl">person</span>}
                                 </div>
                             </div>
                         </div>
@@ -872,6 +1021,45 @@ const PhotoEvidenceDashboard = () => {
                             <span className="material-symbols-outlined text-sm">download</span> {selectedCompany === 'ALL' ? 'Descargar Resumen' : 'Exportar Detalles'}
                         </button>
                     </div>
+                </div>
+
+                {/* Sync Action Bar */}
+                <div className="sync-action-bar mb-6">
+                    <div className="flex items-center gap-2 mr-4">
+                        <span className="material-symbols-outlined text-lg text-primary dark:text-white">sync</span>
+                        <span className="text-xs font-black uppercase tracking-wider text-slate-600 dark:text-slate-300">Sincronización</span>
+                        <span className={`text-[9px] font-bold uppercase px-2 py-0.5 rounded-full ${driveMode === 'ADMIN' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'}`}>
+                            {driveMode === 'ADMIN' ? '📁 Drive Admin' : '📂 Drive Supervisores'}
+                        </span>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                        {['E1', 'E2', 'E3'].map(stageId => (
+                            <button
+                                key={stageId}
+                                onClick={() => runStageSync(stageId, driveMode)}
+                                disabled={isSyncing || isLoading}
+                                className="sync-btn"
+                                title={`Sincronizar folios de Etapa ${stageId.slice(1)} con ${driveMode === 'ADMIN' ? 'Drive Admin' : 'Drive Supervisores'}`}
+                            >
+                                <span className={`material-symbols-outlined text-sm ${isSyncing && syncProgress.stage === stageId ? 'animate-spin' : ''}`}>
+                                    {isSyncing && syncProgress.stage === stageId ? 'sync' : 'cloud_sync'}
+                                </span>
+                                Etapa {stageId.slice(1)}
+                                {driveMode === 'SUPERVISOR' && stageId === 'E3' && <span className="text-[8px] opacity-70 ml-1">(RAW)</span>}
+                            </button>
+                        ))}
+                    </div>
+                    {isSyncing && (
+                        <div className="sync-progress-container">
+                            <div className="sync-progress-bar" style={{ width: `${syncProgress.total > 0 ? (syncProgress.current / syncProgress.total * 100) : 0}%` }} />
+                            <span className="sync-progress-text">
+                                {syncProgress.current}/{syncProgress.total} — {syncLog}
+                            </span>
+                        </div>
+                    )}
+                    {!isSyncing && syncLog && (
+                        <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400 ml-auto animate-pulse">{syncLog}</span>
+                    )}
                 </div>
 
                 {/* KPI Cards Grid */}
@@ -1111,6 +1299,7 @@ const PhotoEvidenceDashboard = () => {
                 onClose={() => setSelectedVisualizerFolio(null)} 
                 folioData={selectedVisualizerFolio} 
                 onFolioSync={handleFolioSync}
+                driveMode={driveMode}
             />
         </React.Fragment>
     );

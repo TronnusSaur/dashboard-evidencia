@@ -9,6 +9,8 @@ const SHEET_MAP = {
     "E3": '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
 };
 
+const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
+
 const CONFIG_FOTOS = {
     LEGACY: [
         { id: 'INICIAL', pattern: '_inicial', label: 'Inicial (Bache)' },
@@ -404,7 +406,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
     );
 };
 
-export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFolioSync }) {
+export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFolioSync, driveMode = 'ADMIN' }) {
     const [isVerifying, setIsVerifying] = useState(false);
     const [accessToken, setAccessToken] = useState(() => localStorage.getItem('drive_access_token'));
     const [userProfile, setUserProfile] = useState(() => {
@@ -454,8 +456,52 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'
     });
 
+    // Search for a folio folder in the Supervisor drive tree (Contract > Week > Folio)
+    const findSupervisorFolder = async (folioNumber) => {
+        if (!accessToken || !folioNumber) return null;
+        try {
+            // Search by exact name across all shared drives the user can access
+            const q = encodeURIComponent(`name = '${folioNumber}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            const url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,parents)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=10`;
+            const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
+            if (!res.ok) return null;
+            const data = await res.json();
+            const candidates = data.files || [];
+
+            // Verify parent chain leads to SUPERVISOR_ROOT_ID (max 4 levels deep)
+            for (const folder of candidates) {
+                let currentParent = folder.parents?.[0];
+                let depth = 0;
+                while (currentParent && depth < 4) {
+                    if (currentParent === SUPERVISOR_ROOT_ID) return folder.id;
+                    const pRes = await fetch(`https://www.googleapis.com/drive/v3/files/${currentParent}?fields=parents&supportsAllDrives=true`, {
+                        headers: { 'Authorization': 'Bearer ' + accessToken }
+                    });
+                    if (!pRes.ok) break;
+                    const pData = await pRes.json();
+                    currentParent = pData.parents?.[0];
+                    depth++;
+                }
+            }
+            return null;
+        } catch (e) { console.error('Supervisor folder search error:', e); return null; }
+    };
+
     const triggerVerification = async () => {
-        if (!_folderId) {
+        let resolvedFolderId = _folderId;
+
+        // In Supervisor mode, dynamically find the folder
+        if (driveMode === 'SUPERVISOR' && accessToken && FOLIO) {
+            setIsVerifying(true);
+            resolvedFolderId = await findSupervisorFolder(String(FOLIO).trim());
+            if (!resolvedFolderId) {
+                if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0);
+                setIsVerifying(false);
+                return;
+            }
+        }
+
+        if (!resolvedFolderId) {
             if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0);
             return;
         }
@@ -469,7 +515,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
         setIsVerifying(true);
         try {
-            const query = encodeURIComponent(`'${_folderId}' in parents and trashed = false`);
+            const query = encodeURIComponent(`'${resolvedFolderId}' in parents and trashed = false`);
             const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,mimeType,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
             const driveRes = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
             
@@ -618,14 +664,19 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     };
 
     useEffect(() => {
-        if (isOpen && _folderId && accessToken) {
-            triggerVerification();
+        if (isOpen && accessToken) {
+            // In admin mode, require _folderId. In supervisor mode, search dynamically.
+            if (driveMode === 'ADMIN' && _folderId) {
+                triggerVerification();
+            } else if (driveMode === 'SUPERVISOR' && FOLIO) {
+                triggerVerification();
+            }
         }
         if (!isOpen) {
             setExtraFiles([]);
             setEditingFile(null);
         }
-    }, [isOpen, _folderId, accessToken]);
+    }, [isOpen, _folderId, accessToken, driveMode]);
 
     if (!isOpen || !folioData) return null;
 
@@ -669,6 +720,13 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                     ) : (
                                         <><Clock size={12} /> LEGACY (3 FOTOS)</>
                                     )}
+                                </span>
+                                <span className={`flex items-center gap-1.5 px-2 py-1 text-[10px] font-black rounded-full border shadow-sm ${
+                                    driveMode === 'ADMIN'
+                                        ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 border-blue-300 dark:border-blue-700'
+                                        : 'bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 border-orange-300 dark:border-orange-700'
+                                }`}>
+                                    {driveMode === 'ADMIN' ? '📁 DRIVE ADMIN' : '📂 DRIVE SUPERVISORES'}
                                 </span>
                                 {_folderId && (
                                     <a

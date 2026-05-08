@@ -68,3 +68,149 @@ body {
     left: 10%;
   }
 }
+
+/* ── Drive Mode Selector ──────────────────────────── */
+.drive-mode-selector {
+  display: flex;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.drive-mode-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.drive-mode-btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.drive-mode-btn.active {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* ── Sync Action Bar ──────────────────────────────── */
+.sync-action-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.dark .sync-action-bar {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.sync-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #475569;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sync-btn:hover:not(:disabled) {
+  background: #7a1531;
+  color: white;
+  border-color: #7a1531;
+  box-shadow: 0 4px 12px rgba(122, 21, 49, 0.3);
+  transform: translateY(-1px);
+}
+
+.sync-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.dark .sync-btn {
+  background: #334155;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+
+.dark .sync-btn:hover:not(:disabled) {
+  background: #7a1531;
+  color: white;
+  border-color: #7a1531;
+}
+
+/* ── Sync Progress Bar ────────────────────────────── */
+.sync-progress-container {
+  flex: 1;
+  min-width: 200px;
+  height: 22px;
+  background: #f1f5f9;
+  border-radius: 11px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #e2e8f0;
+}
+
+.dark .sync-progress-container {
+  background: #1e293b;
+  border-color: #475569;
+}
+
+.sync-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #7a1531, #b91c5c, #7a1531);
+  background-size: 200% 100%;
+  animation: syncShimmer 1.5s ease infinite;
+  border-radius: 11px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 12px rgba(122, 21, 49, 0.4);
+}
+
+.sync-progress-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 800;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+@keyframes syncShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
