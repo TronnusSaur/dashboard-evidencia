@@ -6723,16 +6723,57 @@
   },
   {
     "FOLIO": "460269",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGO TEXCOCO",
     "COLONIA": "SEMINARIO 4A SECCION",
     "DELEGACION": "SEMINARIO 2 DE MRZO",
     "_company": "INTEGRA",
     "_stage": "E3",
     "_folderId": "1DewLqtYhtEadGTypZynZE_g_TATjrWP5",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcyCXmBGChqZfkRlsaz4WNClLk3KJBnnldhvAGhltq_8BvacFhm4_sZ6rPdCPvPzHPEG7VPSNa-BbhmvJME5b9oeevQyYwAESQLqOlkB2IHnswan8=s220",
+        "view": "https://drive.google.com/file/d/1EztHNpJUOtkRRJGJhIcBpFIHJxCaj9mJ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRaOSXX8hC1PZ3wZGUFM9YRLn9rHCCGqAfpGKdAMfztmmMac_u9A2CjKdgUVwD6ZLsEzIXezWcIJf4DMAXhRUgchcAwVWAwtb9_mOFUhkCaOLxU_Y=s220",
+        "view": "https://drive.google.com/file/d/1bmeIK03DwfjY7CtSysg6ChKmIy8bqVS9/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP890Ho1UFl8kbj82Odu8LnKDNKeER-iesTJMoLFBC0du75S5fTwuS3ggtV6Kj09NvfSsFiNgGe-BNantfw3k3mTVNqjnqBdkmxRyWPczksFxD8OEA=s220",
+        "view": "https://drive.google.com/file/d/15pnArdjkby_tn2GS5yqFxGdd9tmpr6EX/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzlhNApeoDNbxkU4R3cHUZO_QWDWYeE9mcrcd91mRsRhzVxPxDsJNIUH4YtfONfQtE1e2glGNDOxlyq73AYJf_6rCC-eWAOiGTVicANW_jL4BiCBA=s220",
+        "view": "https://drive.google.com/file/d/1gZVxyQrYn46PrT80RuJvz4bh62LLL7Je/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_8qkeek334APuiR29qgCyb40QX4ktYNIQQgQ0eFJDYmmXFMWFjQpiyTErhz2etu0jFXjNntnRr-znNI0ppQ9wGbHbX4v8gm6_HS5bBfw1Snq9CTQ=s220",
+        "view": "https://drive.google.com/file/d/118S9KuP-J1g7-XZqXnS_Bxh2wXKMvpV-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxsXAmSJ173YxoxbOTI7zawbWjRNI75nNt4SZJZJ-8VE3sjUmK1PkprgtJ1XBigb8Dcut5Ih9ZXQ00hAfDi9pW4pygNZ2Zhc3w_hvl0w1upsgNBjQ=s220",
+        "view": "https://drive.google.com/file/d/1ZLcCJBoec4U2oF8R13x1e75bnFmINObr/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6bMK0mRxP98iT2h4VRdsMuyN1xGj3ZX-gW56JItwVZwYwHnPO26pb6BalaRLOoKxHzBQLx2oT8SeYw7D8ezTE5ecNq8YT97NfVH4ubxA16ww1-jk=s220",
+        "view": "https://drive.google.com/file/d/1Y-0Tvw_9LRpYepVAW07Cp7bJDctkXEFM/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFEeHI92bLjAnxJcp_hKFBLNF4jlsvBMew_VTleSuU4XKHzjSiN1vRFEra58mys331sQyz9D-3n1-irabi5AMlJnoCbvXPXtxigAKWUbUOFhjFcSY=s220",
+        "view": "https://drive.google.com/file/d/18xkINm5J8YlXMtu0J69vD-2iOyZ-jwhi/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkoduW4jmKOh6YaGkhtlyVDQI6qSC2Hh3H24rQwjHR1wdhujEuz_Z0A8aRtb1_k6no7Zgymq5L3y5IfQkanR-MWPHK7TG9xMtP9aEcK7xQ7mPu4Rc=s220",
+        "view": "https://drive.google.com/file/d/1G9QyeAoCTCCMHUt07yyGUzJmME3RivX-/view?usp=drivesdk"
+      },
+      "FINAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFEeHI92bLjAnxJcp_hKFBLNF4jlsvBMew_VTleSuU4XKHzjSiN1vRFEra58mys331sQyz9D-3n1-irabi5AMlJnoCbvXPXtxigAKWUbUOFhjFcSY=s220",
+        "view": "https://drive.google.com/file/d/18xkINm5J8YlXMtu0J69vD-2iOyZ-jwhi/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true
   },
   {
     "FOLIO": "460270",
