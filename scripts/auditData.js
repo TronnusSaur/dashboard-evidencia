@@ -82,6 +82,9 @@ const LEGACY_CUTOFF_DATE = new Date('2025-04-20');
 const CATEGORIAS_LEGACY = ["INICIAL", "CAJA", "TERMINADO"];
 const CATEGORIAS_NUEVO = ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LIGA", "MEZCLA", "TERMINADO", "LIMPIEZA"];
 
+// Las fotos CRÍTICAS son las que definen si un folio es OK en el Dashboard
+const CATEGORIAS_CRITICAS = ["INICIAL", "CAJA", "TERMINADO"];
+
 /**
  * Determina si un folio es Legacy basándose en su fecha.
  * Retorna null si no se puede determinar.
@@ -240,10 +243,23 @@ async function auditarFotos(drive, folderIds, fechaStr, stageId) {
         }
 
         const categoriasRequeridas = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
-        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
-        const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
+        
+        // LÓGICA HÍBRIDA:
+        // 1. El estatus oficial de 'OK' solo depende de las 3 fotos CRÍTICAS
+        const faltanCriticas = CATEGORIAS_CRITICAS.filter(c => !encontradas.has(c));
+        const status = faltanCriticas.length === 0 ? "OK" : "FALTA: " + faltanCriticas.join(" + ");
 
-        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, encontradas };
+        // 2. Pero en el detalle queremos saber qué falta de TODO el set (si es nuevo)
+        const faltanDetalle = categoriasRequeridas.filter(c => !encontradas.has(c));
+        
+        return { 
+            status, 
+            photos: photosMap, 
+            extraFilesCount, 
+            isNewSet: esSetNuevo, 
+            encontradas,
+            faltanEnSetCompleto: faltanDetalle 
+        };
     } catch (e) {
         console.error(`Error accediendo a folio: ${e.message}`);
         return { status: "ERROR DE ACCESO", photos: null, isNewSet: false };
@@ -369,7 +385,8 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
                 status: resultado.status,
                 photos: resultado.photos,
                 extraFilesCount: resultado.extraFilesCount || 0,
-                isNewSet: resultado.isNewSet || false
+                isNewSet: resultado.isNewSet || false,
+                faltanEnSetCompleto: resultado.faltanEnSetCompleto
             };
         }
 
@@ -495,6 +512,12 @@ async function main() {
             }
             const folioNorm = normalizeFolio(String(r.FOLIO).trim());
             const auditDetail = generarAuditDetail(folioNorm, fechaStr, isLegacy, categoriasReq, encontradasSet);
+            
+            // Si el estatus es OK pero faltan fotos del set NEO, añadir advertencia al detalle
+            let finalAuditDetail = auditDetail;
+            if (st === "OK" && !isLegacy && r.faltanEnSetCompleto && r.faltanEnSetCompleto.length > 0) {
+                finalAuditDetail += `\n\n⚠️ AVISO NEO: Faltan fotos secundarias (${r.faltanEnSetCompleto.join(", ")})`;
+            }
 
             pendientes.push({
                 FOLIO: r.FOLIO,
@@ -509,7 +532,8 @@ async function main() {
                 PHOTOS: r.PHOTOS,
                 EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
                 _isNewSet: r._isNewSet || false,
-                _auditDetail: auditDetail
+                _auditDetail: finalAuditDetail,
+                _faltanNEO: r.faltanEnSetCompleto || []
             });
         });
 
