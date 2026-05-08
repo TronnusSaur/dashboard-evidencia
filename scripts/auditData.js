@@ -277,9 +277,17 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     });
 
     // 3. Auditoría Real
-    const auditLimit = pLimit(20);
+    const auditLimit = pLimit(10);
     let auditadosNuevos = 0;
     let completados = 0;
+
+    const saveCache = () => {
+        try {
+            fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
+        } catch (err) {
+            console.error("  ⚠️ Error guardando caché intermedia:", err.message);
+        }
+    };
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
@@ -294,6 +302,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
             row['_folderId'] = folioIds[0];
             row['_isNewSet'] = cached.isNewSet || false;
             row['EXTRA_PHOTOS'] = cached.extraFilesCount || 0;
+            row['_auditDetail'] = cached.detail || `Folio ${row.FOLIO} - OK`;
             return;
         }
 
@@ -302,6 +311,13 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
         row['_isNewSet'] = resultado.isNewSet || false;
+        
+        // Detalle legible solo para errores o por contrato
+        if (resultado.status !== 'OK') {
+            row['_auditDetail'] = resultado.detail;
+        } else {
+            row['_auditDetail'] = `Folio ${row.FOLIO} - OK`;
+        }
 
         // Cache both OK and error results (saves re-auditing unchanged folios)
         if (folioIds && folioIds.length > 0) {
@@ -309,16 +325,22 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
                 status: resultado.status,
                 photos: resultado.photos,
                 extraFilesCount: resultado.extraFilesCount || 0,
-                isNewSet: resultado.isNewSet || false
+                isNewSet: resultado.isNewSet || false,
+                detail: resultado.detail // Guardamos detalle en cache tambien
             };
         }
 
         auditadosNuevos++;
         completados++;
         
-        if (completados % 250 === 0 || completados === df.length) {
+        if (completados % 100 === 0 || completados === df.length) {
             const porcentaje = ((completados / df.length) * 100).toFixed(1);
             console.log(`  [Progreso] ${config.name}: ${completados} / ${df.length} folios auditados (${porcentaje}%)`);
+        }
+
+        // Checkpoint cada 500 folios o al final de la etapa
+        if (completados % 500 === 0) {
+            saveCache();
         }
         
         row['_folderId'] = folioIds && folioIds.length > 0 ? folioIds[0] : null;
