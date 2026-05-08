@@ -8,16 +8,20 @@ const __dirname = path.dirname(__filename);
 const CONTRATOS_DIR = path.resolve(__dirname, '../public/contratos');
 const OUTPUT_DIR = path.resolve(__dirname, '../public/contratos');
 
-const STAGES = ['E1', 'E2', 'E3'];
+const STAGES = ['E1', 'E2', 'E3', 'E3_SUP'];
 
 function consolidate() {
     console.log('🚀 Iniciando Consolidación de Datos (ESM)...');
 
     for (const stage of STAGES) {
         console.log(`\n📦 Procesando ${stage}...`);
-        const files = fs.readdirSync(CONTRATOS_DIR).filter(f => 
-            f.startsWith(`${stage}_`) && f.endsWith('.json') && !f.includes('_Master')
-        );
+        const files = fs.readdirSync(CONTRATOS_DIR).filter(f => {
+            if (f.includes('_Master')) return false;
+            if (!f.endsWith('.json')) return false;
+            // Evitar que E3 recoja archivos de E3_SUP
+            if (stage === 'E3') return f.startsWith('E3_') && !f.startsWith('E3_SUP_');
+            return f.startsWith(`${stage}_`);
+        });
         
         let masterData = [];
         let count = 0;

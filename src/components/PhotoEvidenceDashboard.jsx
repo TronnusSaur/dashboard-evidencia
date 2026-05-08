@@ -16,6 +16,44 @@ import {
 import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
 import FolioVisualizerModal from './FolioVisualizerModal';
 
+// ── Animated Counter Component ──────────────────────────────────────────────
+// Provides a smooth "ticker" animation when KPI values change between drives
+const AnimatedCounter = ({ value, duration = 600 }) => {
+    const [displayValue, setDisplayValue] = React.useState(value);
+    const previousValue = React.useRef(value);
+
+    React.useEffect(() => {
+        const from = previousValue.current;
+        const to = value;
+        previousValue.current = value;
+
+        if (from === to) {
+            setDisplayValue(to);
+            return;
+        }
+
+        const startTime = performance.now();
+        const diff = to - from;
+
+        const animate = (currentTime) => {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            // Ease-out cubic for a satisfying deceleration
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const current = Math.round(from + diff * eased);
+            setDisplayValue(current);
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            }
+        };
+
+        requestAnimationFrame(animate);
+    }, [value, duration]);
+
+    return displayValue.toLocaleString();
+};
+
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
     const s = status.toUpperCase();
@@ -47,7 +85,7 @@ ERROR_TYPES.forEach(type => {
 });
 
 // Module-level cache: persists across renders and stage switches without losing data.
-// Key = stage string (e.g. 'E1'), Value = array of record objects.
+// Key = `${driveMode}_${stage}` (e.g. 'ADMIN_E1', 'SUPERVISOR_E3_SUP'), Value = array of record objects.
 const stageCache = {};
 
 const PhotoEvidenceDashboard = () => {
@@ -76,11 +114,21 @@ const PhotoEvidenceDashboard = () => {
 
     useEffect(() => { localStorage.setItem('drive_mode', driveMode); }, [driveMode]);
 
-    // Filter RESUMEN_DATA by stage
+    // Filter RESUMEN_DATA by stage AND drive mode
+    // When viewing E3 in SUPERVISOR mode, we use E3_SUP entries from RESUMEN_DATA
     const activeResumen = useMemo(() => {
-        if (selectedStage === 'ALL') return RESUMEN_DATA;
+        if (selectedStage === 'ALL') {
+            if (driveMode === 'SUPERVISOR') {
+                // Replace E3 entries with E3_SUP entries
+                return RESUMEN_DATA.filter(r => r._stage !== 'E3');
+            }
+            return RESUMEN_DATA.filter(r => r._stage !== 'E3_SUP');
+        }
+        if (selectedStage === 'E3') {
+            return RESUMEN_DATA.filter(r => r._stage === (driveMode === 'SUPERVISOR' ? 'E3_SUP' : 'E3'));
+        }
         return RESUMEN_DATA.filter(r => r._stage === selectedStage);
-    }, [selectedStage]);
+    }, [selectedStage, driveMode]);
 
     // Derived filters map from activeResumen
     const activeFiltersMap = useMemo(() => {
@@ -286,35 +334,44 @@ const PhotoEvidenceDashboard = () => {
     // Lazy Loading Effect
     useEffect(() => {
         const fetchRecords = async () => {
-            const stagesToFetch = selectedStage === 'ALL' ? ['E1', 'E2', 'E3'] : [selectedStage];
+            const isSup = driveMode === 'SUPERVISOR';
+            const stagesToFetch = selectedStage === 'ALL' 
+                ? (isSup ? ['E1', 'E2', 'E3_SUP'] : ['E1', 'E2', 'E3']) 
+                : (selectedStage === 'E3' && isSup ? ['E3_SUP'] : [selectedStage]);
 
-            // Check if ALL required stages are already in the module-level cache.
-            const allCached = stagesToFetch.every(st => stageCache[st]);
+            // Build cache keys that are mode-aware
+            const cacheKeys = stagesToFetch.map(st => `${driveMode}_${st}`);
+
+            // Check if all needed data is already cached
+            const allCached = cacheKeys.every(ck => stageCache[ck]);
             if (allCached) {
-                const cachedRecords = stagesToFetch.flatMap(st => stageCache[st]);
+                const cachedRecords = cacheKeys.flatMap(ck => stageCache[ck]);
                 setRecords(cachedRecords);
-                return; // Skip fetch entirely — instant switch!
+                return;
             }
 
-            // Only fetch stages not yet cached.
-            const stagesToDownload = stagesToFetch.filter(st => !stageCache[st]);
+            const stagesToDownload = stagesToFetch.filter((st, i) => !stageCache[cacheKeys[i]]);
             setIsLoading(true);
-            setLoadingMessage(`Descargando datos de ${stagesToDownload.map(s => `Etapa ${s.slice(1)}`).join(' y ')}...`);
+            setLoadingMessage(`Cargando datos (${driveMode === 'SUPERVISOR' ? 'Drive Supervisores' : 'Drive Admin'})...`);
 
             try {
-                const downloadPromises = stagesToDownload.map(st =>
-                    fetch(`/contratos/${st}_Master.json`)
+                const downloadPromises = stagesToDownload.map(st => {
+                    const ck = `${driveMode}_${st}`;
+                    return fetch(`/contratos/${st}_Master.json`)
                         .then(res => res.ok ? res.json() : [])
-                        .then(data => { stageCache[st] = data; return data; }) // store in cache
-                        .catch(() => { stageCache[st] = []; return []; })
-                );
+                        .then(data => { 
+                            // Normalizar _stage a 'E3' para compatibilidad con UI filters
+                            const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
+                            stageCache[ck] = normalized; 
+                            return normalized; 
+                        })
+                        .catch(() => { stageCache[ck] = []; return []; });
+                });
 
                 await Promise.all(downloadPromises);
-
-                // Now assemble all records from cache (includes just-downloaded + previously cached)
-                let allRecords = stagesToFetch.flatMap(st => stageCache[st] || []);
+                let allRecords = cacheKeys.flatMap(ck => stageCache[ck] || []);
                 
-                // Inject Optimistic UI Cache (Preserve existing logic)
+                // Optimistic UI Cache
                 try {
                     const optimisticStoreStr = localStorage.getItem('optimistic_folios');
                     if (optimisticStoreStr) {
@@ -322,21 +379,16 @@ const PhotoEvidenceDashboard = () => {
                         allRecords = allRecords.map(r => {
                             const cached = optimisticStore[String(r.FOLIO)];
                             if (cached && cached.PHOTOS) {
-                                return { 
-                                    ...r, 
-                                    PHOTOS: cached.PHOTOS,
-                                    RESULTADO_AUDITORIA: cached.RESULTADO_AUDITORIA,
-                                    EXTRA_PHOTOS: cached.EXTRA_PHOTOS || 0
-                                };
+                                return { ...r, ...cached };
                             }
                             return r;
                         });
                     }
-                } catch(e) { console.error("Error applying optimistic cache", e); }
+                } catch(e) {}
 
                 setRecords(allRecords);
             } catch (error) {
-                console.error("Error fetching records:", error);
+                console.error("Fetch error:", error);
                 setRecords([]);
             } finally {
                 setIsLoading(false);
@@ -345,7 +397,21 @@ const PhotoEvidenceDashboard = () => {
         };
 
         fetchRecords();
-    }, [selectedStage]); // Only depend on selectedStage to avoid re-fetching on filter change
+
+        // Pre-fetch the alternative drive's E3 data in the background
+        // so the next switch is instant
+        const altMode = driveMode === 'ADMIN' ? 'SUPERVISOR' : 'ADMIN';
+        const altStage = altMode === 'SUPERVISOR' ? 'E3_SUP' : 'E3';
+        const altCk = `${altMode}_${altStage}`;
+        if (!stageCache[altCk] && (selectedStage === 'E3' || selectedStage === 'ALL')) {
+            fetch(`/contratos/${altStage}_Master.json`)
+                .then(res => res.ok ? res.json() : [])
+                .then(data => {
+                    stageCache[altCk] = data.map(r => ({ ...r, _stage: 'E3' }));
+                })
+                .catch(() => {});
+        }
+    }, [selectedStage, driveMode]); // Refresh on mode change too!
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {
@@ -718,49 +784,71 @@ const PhotoEvidenceDashboard = () => {
         'MEZCLA': '_mezcla', 'TERMINADO': '_terminado', 'LIMPIEZA': '_limpieza'
     };
     const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
+    const CACHE_KEY_SUP_INDEX = 'supervisor_drive_index';
+    const CACHE_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours
+
+    const getCachedSupervisorIndex = () => {
+        try {
+            const cached = localStorage.getItem(CACHE_KEY_SUP_INDEX);
+            if (!cached) return null;
+            const { data, timestamp } = JSON.parse(cached);
+            if (Date.now() - timestamp > CACHE_EXPIRY_MS) {
+                localStorage.removeItem(CACHE_KEY_SUP_INDEX);
+                return null;
+            }
+            return data;
+        } catch { return null; }
+    };
+
+    const saveSupervisorIndex = (data) => {
+        try {
+            localStorage.setItem(CACHE_KEY_SUP_INDEX, JSON.stringify({ data, timestamp: Date.now() }));
+        } catch (e) { console.warn('LocalStorage Full? Could not save index:', e); }
+    };
 
     const runStageSync = async (stageId, mode = 'ADMIN') => {
         const token = localStorage.getItem('drive_access_token');
-        if (!token) { alert('Debes iniciar sesión con Google primero (abre un folio y conecta tu cuenta).'); return; }
+        if (!token) { alert('Debes iniciar sesión con Google primero.'); return; }
 
         const stageRecords = records.filter(r => r._stage === stageId);
-        if (stageRecords.length === 0) { alert(`No hay registros cargados para Etapa ${stageId.slice(1)}. Selecciona la etapa primero.`); return; }
+        if (stageRecords.length === 0) { alert(`No hay registros para Etapa ${stageId.slice(1)}.`); return; }
 
         setIsSyncing(true);
         const total = stageRecords.length;
-        let processed = 0;
-        let updated = 0;
+        let processed = 0; let updated = 0;
         setSyncProgress({ current: 0, total, stage: stageId });
-        setSyncLog(`Iniciando sincronización de ${total} folios...`);
 
-        // For supervisor mode, pre-build a folder index
         let supervisorIndex = null;
         if (mode === 'SUPERVISOR') {
-            setSyncLog('Indexando carpetas del Drive de Supervisores...');
-            supervisorIndex = await buildSupervisorIndex(token);
-            if (!supervisorIndex) { setIsSyncing(false); return; }
-            setSyncLog(`Índice listo: ${Object.keys(supervisorIndex).length} folios encontrados. Verificando fotos...`);
+            supervisorIndex = getCachedSupervisorIndex();
+            if (!supervisorIndex) {
+                setSyncLog('Indexando Drive de Supervisores (Caché vencido o vacío)...');
+                supervisorIndex = await buildSupervisorIndex(token);
+                if (!supervisorIndex) { setIsSyncing(false); return; }
+                saveSupervisorIndex(supervisorIndex);
+            }
+            setSyncLog(`Índice listo (${Object.keys(supervisorIndex).length} folios). Sincronizando...`);
+        } else {
+            setSyncLog(`Sincronizando ${total} folios con Drive Admin...`);
         }
 
-        const batchSize = 5;
+        const batchSize = 10; // Subimos un poco el batch
         for (let i = 0; i < stageRecords.length; i += batchSize) {
             const batch = stageRecords.slice(i, i + batchSize);
             await Promise.all(batch.map(async (record) => {
                 let folderId = record._folderId;
-
                 if (mode === 'SUPERVISOR') {
                     const folioKey = String(record.FOLIO).trim();
                     folderId = supervisorIndex?.[folioKey] || null;
                 }
 
-                if (!folderId) { processed++; setSyncProgress({ current: processed, total, stage: stageId }); return; }
+                if (!folderId) { processed++; return; }
 
                 try {
                     const query = encodeURIComponent(`'${folderId}' in parents and trashed = false`);
-                    const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,mimeType,webViewLink,thumbnailLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
+                    const url = `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,thumbnailLink,webViewLink)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`;
                     const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + token }});
-                    if (res.status === 401) { alert('Token expirado. Reconecta tu Google.'); localStorage.removeItem('drive_access_token'); setIsSyncing(false); return; }
-                    if (!res.ok) { processed++; setSyncProgress({ current: processed, total, stage: stageId }); return; }
+                    if (!res.ok) { processed++; return; }
 
                     const data = await res.json();
                     const files = data.files || [];
@@ -777,55 +865,52 @@ const PhotoEvidenceDashboard = () => {
                     }
                     const missing = cats.filter(c => !found[c]);
                     const status = files.length === 0 ? 'CARPETA VACÍA' : missing.length === 0 ? 'OK' : 'FALTA: ' + missing.join(' + ');
-                    const extras = files.filter(f => !recognized.has(f.id)).length;
-                    handleFolioSync(record.FOLIO, found, status, extras);
+                    handleFolioSync(record.FOLIO, found, status, files.filter(f => !recognized.has(f.id)).length);
                     updated++;
                 } catch (e) { console.error(`Sync error ${record.FOLIO}:`, e); }
                 processed++;
                 setSyncProgress({ current: processed, total, stage: stageId });
             }));
-            await new Promise(r => setTimeout(r, 80));
+            await new Promise(r => setTimeout(r, 100)); // Throttling
         }
-        setSyncLog(`✅ Sincronización completada. ${updated} folios actualizados.`);
+        setSyncLog(`✅ ¡Hecho! ${updated} folios sincronizados.`);
         setIsSyncing(false);
-        setTimeout(() => { setSyncLog(''); setSyncProgress({ current: 0, total: 0, stage: '' }); }, 5000);
+        setTimeout(() => setSyncLog(''), 5000);
     };
 
     const buildSupervisorIndex = async (token) => {
         try {
-            // Level 1: Contract folders
             const contractsQ = encodeURIComponent(`'${SUPERVISOR_ROOT_ID}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
             const cRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${contractsQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=500`, { headers: { 'Authorization': 'Bearer ' + token }});
-            if (!cRes.ok) { alert('Error accediendo al Drive de Supervisores.'); return null; }
+            if (!cRes.ok) return null;
             const contracts = (await cRes.json()).files || [];
 
             const index = {};
-            const limit = 3; // concurrent contracts
+            const limit = 5; // Mayor concurrencia
             for (let ci = 0; ci < contracts.length; ci += limit) {
                 const batch = contracts.slice(ci, ci + limit);
                 await Promise.all(batch.map(async (contract) => {
-                    // Level 2: Week folders
                     const weeksQ = encodeURIComponent(`'${contract.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
                     const wRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${weeksQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=100`, { headers: { 'Authorization': 'Bearer ' + token }});
                     if (!wRes.ok) return;
                     const weeks = (await wRes.json()).files || [];
 
-                    for (const week of weeks) {
-                        // Level 3: Folio folders
+                    // Sincronizar semanas del contrato concurrentemente
+                    await Promise.all(weeks.map(async (week) => {
                         const foliosQ = encodeURIComponent(`'${week.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-                        const fRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${foliosQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=500`, { headers: { 'Authorization': 'Bearer ' + token }});
-                        if (!fRes.ok) continue;
+                        const fRes = await fetch(`https://www.googleapis.com/drive/v3/files?q=${foliosQ}&fields=files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=1000`, { headers: { 'Authorization': 'Bearer ' + token }});
+                        if (!fRes.ok) return;
                         const folios = (await fRes.json()).files || [];
                         for (const folio of folios) {
                             index[folio.name.trim()] = folio.id;
                         }
-                    }
+                    }));
                 }));
-                setSyncLog(`Indexando... ${ci + batch.length}/${contracts.length} contratos`);
+                setSyncLog(`Indexando... ${Math.min(ci + limit, contracts.length)}/${contracts.length} contratos`);
                 await new Promise(r => setTimeout(r, 50));
             }
             return index;
-        } catch (e) { console.error('Error building supervisor index:', e); alert('Error al indexar el Drive de Supervisores.'); return null; }
+        } catch (e) { console.error('Index error:', e); return null; }
     };
 
     const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0) => {
@@ -870,7 +955,7 @@ const PhotoEvidenceDashboard = () => {
             </AnimatePresence>
 
             {/* Header Section */}
-            <header className="header-gradient text-white shadow-lg">
+            <header className={`${driveMode === 'SUPERVISOR' ? 'header-gradient header-gradient-supervisor' : 'header-gradient'} text-white shadow-lg`} style={{ transition: 'all 0.6s ease' }}>
                 <div className="semi-circle-1"></div>
                 <div className="semi-circle-2"></div>
                 <div className="w-full max-w-[1536px] mx-auto px-4 lg:px-8 py-4 relative z-10">
@@ -896,7 +981,7 @@ const PhotoEvidenceDashboard = () => {
                             <div className="drive-mode-selector">
                                 <button
                                     onClick={() => setDriveMode('ADMIN')}
-                                    className={`drive-mode-btn ${driveMode === 'ADMIN' ? 'active' : ''}`}
+                                    className={`drive-mode-btn ${driveMode === 'ADMIN' ? 'active admin-active' : ''}`}
                                     title="Ver datos del Drive Administrador (corregido)"
                                 >
                                     <span className="material-symbols-outlined text-sm">verified</span>
@@ -904,7 +989,7 @@ const PhotoEvidenceDashboard = () => {
                                 </button>
                                 <button
                                     onClick={() => setDriveMode('SUPERVISOR')}
-                                    className={`drive-mode-btn ${driveMode === 'SUPERVISOR' ? 'active' : ''}`}
+                                    className={`drive-mode-btn ${driveMode === 'SUPERVISOR' ? 'active supervisor-active' : ''}`}
                                     title="Ver datos del Drive RAW de Supervisores"
                                 >
                                     <span className="material-symbols-outlined text-sm">group</span>
@@ -1063,32 +1148,38 @@ const PhotoEvidenceDashboard = () => {
                 </div>
 
                 {/* KPI Cards Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
-                    <div className="bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500">
+                <motion.div 
+                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8"
+                    key={`kpi-${driveMode}`}
+                    initial={{ opacity: 0.7, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.35, ease: 'easeOut' }}
+                >
+                    <div className={`kpi-card bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">Folios Completos (OK)</p>
-                        <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300">{kpiData.ok}</h4>
+                        <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300"><AnimatedCounter value={kpiData.ok} /></h4>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500">
+                    <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-[10px] xl:text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Total Errores Físicos</p>
-                        <h4 className="text-2xl xl:text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.total}</h4>
+                        <h4 className="text-2xl xl:text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.total} /></h4>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-primary">
+                    <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-primary ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Sin Carpeta / Vacía</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.sinCarpeta}</h4>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.sinCarpeta} /></h4>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500">
+                    <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Inicial</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaInicial}</h4>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaInicial} /></h4>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500">
+                    <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-orange-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Caja</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaCaja}</h4>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaCaja} /></h4>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-red-500">
+                    <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-red-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Final</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100">{kpiData.faltaFinal}</h4>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaFinal} /></h4>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Main Content Area */}
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
@@ -1290,10 +1381,31 @@ const PhotoEvidenceDashboard = () => {
                         </div>
                         <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between bg-white dark:bg-slate-800 rounded-b-lg">
                             <p className="text-xs text-slate-500 font-medium">Mostrando <span className="font-bold">{tableData.length}</span> registros filtrados</p>
+                            <span className={`mode-indicator ${driveMode === 'ADMIN' ? 'admin' : 'supervisor'}`}>
+                                <span className="material-symbols-outlined" style={{ fontSize: '12px' }}>{driveMode === 'ADMIN' ? 'verified' : 'group'}</span>
+                                {driveMode === 'ADMIN' ? 'Drive Admin' : 'Drive Supervisores'}
+                            </span>
                         </div>
                     </div>
                 </div>
             </main>
+
+            {/* Floating Supervisor Badge */}
+            <AnimatePresence>
+                {driveMode === 'SUPERVISOR' && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 20, scale: 0.9 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: 20, scale: 0.9 }}
+                        transition={{ duration: 0.3, ease: 'easeOut' }}
+                        className="supervisor-badge"
+                    >
+                        <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>warning</span>
+                        Modo RAW Supervisores
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
             <FolioVisualizerModal 
                 isOpen={!!selectedVisualizerFolio} 
                 onClose={() => setSelectedVisualizerFolio(null)} 

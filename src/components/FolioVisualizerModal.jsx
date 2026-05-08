@@ -418,15 +418,16 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const [renamingId, setRenamingId] = useState(null);
     const [isNewSet, setIsNewSet] = useState(false);
     const [livePhotos, setLivePhotos] = useState(null);
+    const [currentFolderId, setCurrentFolderId] = useState(null);
     
     const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet } = folioData || {};
 
-    // Initialize isNewSet from pre-computed audit data, can be overridden by live verification
     useEffect(() => {
         setLivePhotos(null);
         setExtraFiles([]);
+        setCurrentFolderId(null);
         if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
-    }, [FOLIO, _isNewSet]);
+    }, [FOLIO, _isNewSet, driveMode]);
 
     const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com", "soranodex@gmail.com"];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
@@ -460,29 +461,43 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const findSupervisorFolder = async (folioNumber) => {
         if (!accessToken || !folioNumber) return null;
         try {
-            // Search by exact name across all shared drives the user can access
-            const q = encodeURIComponent(`name = '${folioNumber}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-            const url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,parents)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=10`;
+            // Search by name contains to handle leading zeros more gracefully
+            const q = encodeURIComponent(`name contains '${folioNumber}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            const url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,parents)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=20`;
             const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
             if (!res.ok) return null;
             const data = await res.json();
-            const candidates = data.files || [];
+            
+            // Local filter for exact match or leading zero match
+            const targetNorm = String(folioNumber).replace(/^0+/, '');
+            const candidates = (data.files || []).filter(f => {
+                const fNorm = f.name.trim().replace(/^0+/, '');
+                return fNorm === targetNorm;
+            });
 
-            // Verify parent chain leads to SUPERVISOR_ROOT_ID (max 4 levels deep)
+            if (candidates.length === 0) return null;
+
+            // Verify parent chain leads to SUPERVISOR_ROOT_ID (relaxed to 6 levels deep)
             for (const folder of candidates) {
                 let currentParent = folder.parents?.[0];
                 let depth = 0;
-                while (currentParent && depth < 4) {
+                while (currentParent && depth < 6) {
                     if (currentParent === SUPERVISOR_ROOT_ID) return folder.id;
-                    const pRes = await fetch(`https://www.googleapis.com/drive/v3/files/${currentParent}?fields=parents&supportsAllDrives=true`, {
-                        headers: { 'Authorization': 'Bearer ' + accessToken }
-                    });
-                    if (!pRes.ok) break;
-                    const pData = await pRes.json();
-                    currentParent = pData.parents?.[0];
-                    depth++;
+                    try {
+                        const pRes = await fetch(`https://www.googleapis.com/drive/v3/files/${currentParent}?fields=parents&supportsAllDrives=true`, {
+                            headers: { 'Authorization': 'Bearer ' + accessToken }
+                        });
+                        if (!pRes.ok) break;
+                        const pData = await pRes.json();
+                        currentParent = pData.parents?.[0];
+                        depth++;
+                    } catch { break; }
                 }
             }
+            
+            // Fallback: if only one match found in the entire drive, trust it
+            if (candidates.length === 1) return candidates[0].id;
+
             return null;
         } catch (e) { console.error('Supervisor folder search error:', e); return null; }
     };
@@ -497,9 +512,12 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             if (!resolvedFolderId) {
                 if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0);
                 setIsVerifying(false);
+                setCurrentFolderId(null);
                 return;
             }
         }
+
+        setCurrentFolderId(resolvedFolderId);
 
         if (!resolvedFolderId) {
             if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0);
@@ -676,7 +694,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             setExtraFiles([]);
             setEditingFile(null);
         }
-    }, [isOpen, _folderId, accessToken, driveMode]);
+    }, [isOpen, _folderId, accessToken, driveMode, FOLIO]);
 
     if (!isOpen || !folioData) return null;
 
@@ -728,9 +746,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 }`}>
                                     {driveMode === 'ADMIN' ? '📁 DRIVE ADMIN' : '📂 DRIVE SUPERVISORES'}
                                 </span>
-                                {_folderId && (
+                                {currentFolderId && (
                                     <a
-                                        href={`https://drive.google.com/drive/folders/${_folderId}`}
+                                        href={`https://drive.google.com/drive/folders/${currentFolderId}`}
                                         target="_blank"
                                         rel="noreferrer"
                                         className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 text-[10px] font-bold rounded-full border border-slate-300 dark:border-slate-600 transition-colors shadow-sm"

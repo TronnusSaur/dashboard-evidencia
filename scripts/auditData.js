@@ -14,21 +14,33 @@ const STAGES_CONFIG = [
         id: 'E1',
         name: '1 - ETAPA 1 MASTER',
         driveId: process.env.FOLDER_ID_DRIVE_E1 || '1RJrTrWIp7sYZDyAYhmsq_5xqaLCj3CYN',
-        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8'
+        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
+        driveType: 'ADMIN'
     },
     {
         id: 'E2',
         name: '2 - ETAPA 2 MASTER',
         driveId: process.env.FOLDER_ID_DRIVE || '1dzZ1ETLfnrjRCGaokPWx07oZm8zeWvik',
-        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8'
+        sheetId: process.env.DOCUMENT_ID_SHEETS || '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
+        driveType: 'ADMIN'
     },
     {
         id: 'E3',
         name: '3 - ETAPA 3 MASTER',
         driveId: process.env.FOLDER_ID_DRIVE_E3 || '1EqejY8Bm2c3NvQ0PEOh7DNUEABuJmHMr',
-        sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU'
+        sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU',
+        driveType: 'ADMIN'
+    },
+    {
+        id: 'E3_SUP',
+        name: '3 - ETAPA 3 MASTER', // Misma hoja de cálculo
+        driveId: '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6', // Raíz de Supervisores
+        sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU',
+        driveType: 'SUPERVISOR'
     }
 ];
+
+const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
 
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'contratos');
 const MOCK_PATH = path.join(process.cwd(), 'src', 'dataMock.js');
@@ -194,45 +206,14 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     console.log(`\n📂 Procesando ${config.id}: ${config.name}...`);
 
     // 1. Mapeo de Drive
-    console.log(`  🗺️ Mapeando carpetas en Drive para ${config.id}...`);
-    const dictMap = {};
-    const contratos = await obtenerPaginado(drive, `'${config.driveId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-
-    const limit = pLimit(5);
-    const mapeoTasks = contratos.map(c => limit(async () => {
-        try {
-            const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-            for (const f of fols) {
-                // Nuevo algoritmo de extracción que respeta letras y corrige subdivisiones
-                let cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
-                cleanName = cleanName.replace(/\s*-\s*/g, '-'); // "8041 - 1" -> "8041-1"
-
-                // Remover inteligentemente descriptores en lugar de cortar por el primer espacio tontamente
-                let lowerName = cleanName.toLowerCase();
-                for (const [cat, patrones] of Object.entries(PATRONES)) {
-                    for (const p of patrones) {
-                        if (lowerName.includes(p)) {
-                            cleanName = cleanName.substring(0, lowerName.indexOf(p));
-                            lowerName = cleanName.toLowerCase();
-                        }
-                    }
-                }
-
-                const folioKey = normalizeFolio(cleanName.trim());
-                if (folioKey.includes('8041')) {
-                    console.log(`  [DEBUG DRIVE] Carpeta encontrada: "${f.name}" => Se procesó como Folio: "${folioKey}" en contrato "${c.name}" (ID: ${f.id})`);
-                }
-
-                if (!dictMap[folioKey]) {
-                    dictMap[folioKey] = [];
-                }
-                dictMap[folioKey].push(f.id);
-            }
-        } catch (e) {
-            console.error(`  ⚠️ Error mapeando contrato ${c.name} (${c.id}):`, e.message);
-        }
-    }));
-    await Promise.all(mapeoTasks);
+    let dictMap = {};
+    if (config.driveType === 'ADMIN') {
+        console.log(`  🗺️ Mapeando carpetas en Drive Admin para ${config.id}...`);
+        dictMap = await mapearDriveAdmin(drive, config.driveId);
+    } else {
+        console.log(`  🔍 Mapeando carpetas en Drive Supervisor (Recursivo) para ${config.id}...`);
+        dictMap = await mapearDriveSupervisor(drive, config.driveId);
+    }
     console.log(`  ✅ ${Object.keys(dictMap).length} Carpetas mapeadas.`);
 
     // 2. Cargar Sheets
@@ -248,7 +229,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const headers = rows[0].map(h => h.trim().toUpperCase());
     const df = rows.slice(1).map(row => {
-        const obj = { _stage: config.id };
+        const obj = { _stage: config.id.split('_')[0], _driveType: config.driveType };
         headers.forEach((h, i) => obj[h] = row[i] || "");
         return obj;
     });
@@ -297,12 +278,46 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     }));
 
     await Promise.all(auditTasks);
-    console.log(`  ✅ ${df.length} registros auditados.`);
+    console.log(`  ✅ ${df.length} registros auditados para ${config.id} (${config.driveType}).`);
     return df;
 }
 
+async function mapearDriveAdmin(drive, rootId) {
+    const dictMap = {};
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(5);
+    await Promise.all(contratos.map(c => limit(async () => {
+        const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const f of fols) {
+            const cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
+            const folioKey = normalizeFolio(cleanName.replace(/\s*-\s*/g, '-'));
+            if (!dictMap[folioKey]) dictMap[folioKey] = [];
+            dictMap[folioKey].push(f.id);
+        }
+    })));
+    return dictMap;
+}
+
+async function mapearDriveSupervisor(drive, rootId) {
+    const dictMap = {};
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(3);
+    await Promise.all(contratos.map(c => limit(async () => {
+        const weeks = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const w of weeks) {
+            const fols = await obtenerPaginado(drive, `'${w.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            for (const f of fols) {
+                const folioKey = normalizeFolio(f.name.trim());
+                if (!dictMap[folioKey]) dictMap[folioKey] = [];
+                dictMap[folioKey].push(f.id);
+            }
+        }
+    })));
+    return dictMap;
+}
+
 async function main() {
-    console.log("👑 Kinger: Iniciando la Auditoría Magistral (Etapa 1 + Etapa 2)...");
+    console.log("👑 Kinger: Iniciando la Auditoría Magistral (E1 + E2 + E3 Admin + E3 RAW)...");
     const authClient = await getAuth();
     const drive = google.drive({ version: 'v3', auth: authClient });
     const sheets = google.sheets({ version: 'v4', auth: authClient });
@@ -391,7 +406,8 @@ async function main() {
 
         resumenData.push(summaryRow);
 
-        let fileName = `${key}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
+        let driveSuffix = records[0]._driveType === 'SUPERVISOR' ? '_SUP' : '';
+        let fileName = `${stage}${driveSuffix}_${emp}_${id}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
         fs.writeFileSync(path.join(PUBLIC_DIR, fileName), JSON.stringify(pendientes, null, 2));
     }
 
