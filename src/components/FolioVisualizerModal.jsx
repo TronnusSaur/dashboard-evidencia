@@ -457,49 +457,105 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'
     });
 
-    // Search for a folio folder in the Supervisor drive tree (Contract > Week > Folio)
+    // ── Supervisor Drive Tree Walking ──────────────────────────────────────
+    // Instead of global search + parent validation (which fails for shared drives),
+    // we walk the tree: Root → Contracts → Weeks → Folios
+    const supTreeCacheRef = React.useRef(null); // { folioMap: { normalizedFolio: folderId } }
+
+    const buildSupervisorTree = async () => {
+        if (supTreeCacheRef.current) return supTreeCacheRef.current;
+        if (!accessToken) return null;
+
+        console.log('🌳 Building supervisor drive tree...');
+        const folioMap = {};
+
+        const listChildren = async (parentId) => {
+            let allFiles = [];
+            let pageToken = '';
+            do {
+                const q = encodeURIComponent(`'${parentId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+                let url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=200`;
+                if (pageToken) url += `&pageToken=${pageToken}`;
+                const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
+                if (!res.ok) break;
+                const data = await res.json();
+                allFiles = allFiles.concat(data.files || []);
+                pageToken = data.nextPageToken || '';
+            } while (pageToken);
+            return allFiles;
+        };
+
+        try {
+            // Level 1: Contract folders under root (e.g. "ALSAFI-001-3ETAPA")
+            const contracts = await listChildren(SUPERVISOR_ROOT_ID);
+            console.log(`  📂 ${contracts.length} contratos encontrados`);
+
+            // Level 2 & 3: Week folders, then Folio folders
+            for (const contract of contracts) {
+                const weeks = await listChildren(contract.id);
+                for (const week of weeks) {
+                    const folios = await listChildren(week.id);
+                    for (const folio of folios) {
+                        const norm = folio.name.trim().replace(/^0+/, '');
+                        folioMap[norm] = folio.id;
+                    }
+                }
+            }
+
+            console.log(`  ✅ ${Object.keys(folioMap).length} folios mapeados en drive de supervisores`);
+            supTreeCacheRef.current = folioMap;
+            return folioMap;
+        } catch (e) {
+            console.error('Error building supervisor tree:', e);
+            return null;
+        }
+    };
+
     const findSupervisorFolder = async (folioNumber) => {
         if (!accessToken || !folioNumber) return null;
+
+        // Try cached tree first
+        let tree = supTreeCacheRef.current;
+        if (!tree) {
+            tree = await buildSupervisorTree();
+        }
+        if (!tree) return null;
+
+        const targetNorm = String(folioNumber).replace(/^0+/, '');
+        if (tree[targetNorm]) return tree[targetNorm];
+
+        // If not in cache, try a targeted API search as fallback
         try {
-            // Search by name contains to handle leading zeros more gracefully
-            const q = encodeURIComponent(`name contains '${folioNumber}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
-            const url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,parents)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=20`;
+            const q = encodeURIComponent(`name = '${folioNumber}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            const url = `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,parents)&supportsAllDrives=true&includeItemsFromAllDrives=true&pageSize=10`;
             const res = await fetch(url, { headers: { 'Authorization': 'Bearer ' + accessToken }});
             if (!res.ok) return null;
             const data = await res.json();
             
-            // Local filter for exact match or leading zero match
-            const targetNorm = String(folioNumber).replace(/^0+/, '');
-            const candidates = (data.files || []).filter(f => {
-                const fNorm = f.name.trim().replace(/^0+/, '');
-                return fNorm === targetNorm;
-            });
-
-            if (candidates.length === 0) return null;
-
-            // Verify parent chain leads to SUPERVISOR_ROOT_ID (relaxed to 6 levels deep)
-            for (const folder of candidates) {
-                let currentParent = folder.parents?.[0];
+            for (const f of (data.files || [])) {
+                // Verify parent chain reaches SUPERVISOR_ROOT_ID
+                let cur = f.parents?.[0];
                 let depth = 0;
-                while (currentParent && depth < 6) {
-                    if (currentParent === SUPERVISOR_ROOT_ID) return folder.id;
+                while (cur && depth < 6) {
+                    if (cur === SUPERVISOR_ROOT_ID) {
+                        // Cache it for next time
+                        tree[targetNorm] = f.id;
+                        return f.id;
+                    }
                     try {
-                        const pRes = await fetch(`https://www.googleapis.com/drive/v3/files/${currentParent}?fields=parents&supportsAllDrives=true`, {
+                        const pRes = await fetch(`https://www.googleapis.com/drive/v3/files/${cur}?fields=parents&supportsAllDrives=true`, {
                             headers: { 'Authorization': 'Bearer ' + accessToken }
                         });
                         if (!pRes.ok) break;
                         const pData = await pRes.json();
-                        currentParent = pData.parents?.[0];
+                        cur = pData.parents?.[0];
                         depth++;
                     } catch { break; }
                 }
             }
-            
-            // Fallback: if only one match found in the entire drive, trust it
-            if (candidates.length === 1) return candidates[0].id;
+        } catch (e) { console.error('Supervisor fallback search error:', e); }
 
-            return null;
-        } catch (e) { console.error('Supervisor folder search error:', e); return null; }
+        return null;
     };
 
     const triggerVerification = async () => {
