@@ -358,7 +358,8 @@ async function main() {
         const stage = row['_stage'];
         if (!emp || !id) return;
 
-        const key = `${stage}_${emp}_${id}`;
+        // Use '||' as delimiter to avoid collision with 'E3_SUP' stage name
+        const key = `${stage}||${emp}||${id}`;
         if (!grupos[key]) grupos[key] = [];
         grupos[key].push(row);
 
@@ -368,8 +369,7 @@ async function main() {
     });
 
     for (const [key, records] of Object.entries(grupos)) {
-        const [stage, emp, ...idParts] = key.split('_');
-        const id = idParts.join('_');
+        const [stage, emp, id] = key.split('||');
 
         if (!filtersMap[emp]) filtersMap[emp] = [];
         if (!filtersMap[emp].includes(id)) filtersMap[emp].push(id);
@@ -406,8 +406,8 @@ async function main() {
 
         resumenData.push(summaryRow);
 
-        let driveSuffix = records[0]._driveType === 'SUPERVISOR' ? '_SUP' : '';
-        let fileName = `${stage}${driveSuffix}_${emp}_${id}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
+        // Para E3_SUP, el nombre del archivo debe ser E3_SUP_EMPRESA_ID.json
+        let fileName = `${stage}_${emp}_${id}.json`.replace(/[\/\\]/g, '-').replace(/ /g, '_');
         fs.writeFileSync(path.join(PUBLIC_DIR, fileName), JSON.stringify(pendientes, null, 2));
     }
 

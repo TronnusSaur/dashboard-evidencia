@@ -35,8 +35,11 @@ function consolidate() {
                 const content = JSON.parse(fileContent);
                 
                 const parts = file.replace('.json', '').split('_');
-                const empresa = parts[1];
-                const contratoId = parts[2];
+                // E3_SUP files: ['E3','SUP','EMPRESA','ID'] → offset by 1
+                // Other files:  ['E1','EMPRESA','ID']
+                const isSupFile = stage === 'E3_SUP';
+                const empresa = parts[isSupFile ? 2 : 1];
+                const contratoId = parts[isSupFile ? 3 : 2];
 
                 const enriched = (Array.isArray(content) ? content : [content]).map(item => ({
                     ...item,
