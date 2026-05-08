@@ -182,7 +182,7 @@ async function obtenerPaginado(drive, query) {
  * Audita fotos de un folio consultando la API de Drive.
  * SOLO se llama si el folio NO está en caché.
  */
-async function auditarFotos(drive, folderIds, fechaStr) {
+async function auditarFotos(drive, folderIds, fechaStr, stageId) {
     if (!folderIds || folderIds.length === 0) return { status: "SIN CARPETA", photos: null, isNewSet: false };
     try {
         let todasLasFotos = [];
@@ -221,14 +221,22 @@ async function auditarFotos(drive, folderIds, fechaStr) {
 
         const extraFilesCount = todasLasFotos.length - encontradas.size;
 
-        // Legacy detection por fecha, fallback por heurístico
-        const legacyByDate = isLegacyByDate(fechaStr);
+        // Determinación de Reglas de Auditoría
+        const isE3 = stageId && stageId.startsWith('E3');
         let esSetNuevo;
-        if (legacyByDate !== null) {
-            esSetNuevo = !legacyByDate;
+
+        if (isE3) {
+            // Etapa 3 SIEMPRE es Set Nuevo (9 fotos)
+            esSetNuevo = true;
         } else {
-            const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
-            esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
+            // Para E1/E2, usamos fecha o heurístico
+            const legacyByDate = isLegacyByDate(fechaStr);
+            if (legacyByDate !== null) {
+                esSetNuevo = !legacyByDate;
+            } else {
+                const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
+                esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
+            }
         }
 
         const categoriasRequeridas = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
@@ -348,7 +356,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         }
 
         // CACHE MISS — API call
-        const resultado = await auditarFotos(drive, folioIds, fechaStr);
+        const resultado = await auditarFotos(drive, folioIds, fechaStr, config.id);
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
