@@ -55,9 +55,54 @@ const PATRONES = {
     "LIGA": ["_liga"],
     "MEZCLA": ["_mezcla"],
     "TERMINADO": ["_terminado"],
-    "LIMPIEZA": ["_limpieza"],
-    "FINAL": ["_terminado"] // Para retrocompatibilidad en el mapeo
+    "LIMPIEZA": ["_limpieza"]
 };
+
+// Fecha de corte: folios con FECHA anterior al 20 de abril 2025 se consideran Legacy (3 fotos)
+const LEGACY_CUTOFF_DATE = new Date('2025-04-20');
+
+const CATEGORIAS_LEGACY = ["INICIAL", "CAJA", "TERMINADO"];
+const CATEGORIAS_NUEVO = ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LIGA", "MEZCLA", "TERMINADO", "LIMPIEZA"];
+
+/**
+ * Determina si un folio es Legacy basándose en su fecha.
+ * Si la fecha no es parseable, cae al heurístico de archivos.
+ */
+function isLegacyByDate(fechaStr) {
+    if (!fechaStr || !String(fechaStr).trim()) return null; // null = indeterminado
+    const str = String(fechaStr).trim();
+    // Intentar parseo DD/MM/AAAA o DD/MM/AA
+    const parts = str.split('/');
+    if (parts.length === 3) {
+        const [d, m, y] = parts;
+        let year = parseInt(y, 10);
+        if (year < 100) year += 2000;
+        const date = new Date(year, parseInt(m, 10) - 1, parseInt(d, 10));
+        if (!isNaN(date.getTime())) {
+            return date < LEGACY_CUTOFF_DATE;
+        }
+    }
+    // Intentar parseo nativo como fallback
+    const native = new Date(str);
+    if (!isNaN(native.getTime())) {
+        return native < LEGACY_CUTOFF_DATE;
+    }
+    return null; // No se pudo parsear
+}
+
+/**
+ * Genera el detalle de auditoría en texto legible.
+ */
+function generarAuditDetail(folioStr, fechaStr, isLegacy, categoriasRequeridas, encontradas) {
+    const fechaLabel = fechaStr ? ` - ${String(fechaStr).trim()}` : '';
+    const setLabel = isLegacy ? 'LEGACY' : '9 FOTOS';
+    let lines = [`Folio ${folioStr}${fechaLabel} (${setLabel})`];
+    for (const cat of categoriasRequeridas) {
+        const found = encontradas.has(cat);
+        lines.push(`  → ${folioStr}_${cat.toLowerCase()} ${found ? '✅' : '❌'}`);
+    }
+    return lines.join('\n');
+}
 
 // Normalizar Folio: Asegurar 3 dígitos para numéricos y remover espacios extraños en subdivisiones (ej: "8041 - 1" -> "8041-1")
 const normalizeFolio = (f) => {
@@ -124,8 +169,8 @@ async function obtenerPaginado(drive, query) {
     return items;
 }
 
-async function auditarFotos(drive, arrayFolioIds) {
-    if (!arrayFolioIds || arrayFolioIds.length === 0) return { status: "SIN CARPETA", photos: null };
+async function auditarFotos(drive, arrayFolioIds, fechaStr) {
+    if (!arrayFolioIds || arrayFolioIds.length === 0) return { status: "SIN CARPETA", photos: null, isNewSet: false };
     try {
         let todasLasFotos = [];
 
@@ -145,10 +190,9 @@ async function auditarFotos(drive, arrayFolioIds) {
             })));
         }
 
-        if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null };
+        if (todasLasFotos.length === 0) return { status: "CARPETA VACÍA", photos: null, isNewSet: false };
 
         const encontradas = new Set();
-        // Build photosMap dynamically from all defined categories
         const photosMap = {};
         for (const cat of Object.keys(PATRONES)) {
             photosMap[cat] = null;
@@ -177,28 +221,26 @@ async function auditarFotos(drive, arrayFolioIds) {
 
         const extraFilesCount = todasLasFotos.filter(f => !matchedFileNames.has(f.name)).length;
 
-        // Determinar si es un set nuevo o legacy basado en si hay algún archivo con los nuevos sufijos
-        const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
-        const esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
+        // Determinar Legacy vs Nuevo: primero por fecha, fallback por heurístico de archivos
+        const legacyByDate = isLegacyByDate(fechaStr);
+        let esSetNuevo;
+        if (legacyByDate !== null) {
+            esSetNuevo = !legacyByDate;
+        } else {
+            // Fallback: si hay archivos con sufijos nuevos, es set nuevo
+            const nuevosSufijos = ["_folio", "_corte", "_demolicion", "_liga", "_mezcla", "_limpieza"];
+            esSetNuevo = todasLasFotos.some(f => nuevosSufijos.some(s => f.name.includes(s)));
+        }
 
-        const categoriasRequeridas = esSetNuevo 
-            ? ["INICIAL", "FOLIO", "CORTE", "DEMOLICION", "CAJA", "LIGA", "MEZCLA", "TERMINADO", "LIMPIEZA"]
-            : ["INICIAL", "CAJA", "TERMINADO"];
+        const categoriasRequeridas = esSetNuevo ? CATEGORIAS_NUEVO : CATEGORIAS_LEGACY;
 
-        const faltan = categoriasRequeridas.filter(c => {
-            if (c === "FINAL") return !encontradas.has("FINAL") && !encontradas.has("TERMINADO");
-            if (c === "TERMINADO") return !encontradas.has("TERMINADO") && !encontradas.has("FINAL");
-            return !encontradas.has(c);
-        });
+        const faltan = categoriasRequeridas.filter(c => !encontradas.has(c));
 
-        // Unificar "TERMINADO" y "FINAL" en photosMap para retrocompatibilidad UI
-        if (photosMap["TERMINADO"] && !photosMap["FINAL"]) photosMap["FINAL"] = photosMap["TERMINADO"];
-        if (photosMap["FINAL"] && !photosMap["TERMINADO"]) photosMap["TERMINADO"] = photosMap["FINAL"];
         const status = faltan.length === 0 ? "OK" : "FALTA: " + faltan.join(" + ");
-        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo };
+        return { status, photos: photosMap, extraFilesCount, isNewSet: esSetNuevo, encontradas };
     } catch (e) {
         console.error(`Error accediendo a conjunto de folios: ${e.message}`);
-        return { status: "ERROR DE ACCESO", photos: null };
+        return { status: "ERROR DE ACCESO", photos: null, isNewSet: false };
     }
 }
 
@@ -241,29 +283,34 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const auditTasks = df.map((row) => auditLimit(async () => {
         const folioStr = normalizeFolio(String(row['FOLIO']).trim());
-        const folioIds = dictMap[folioStr]; // Ahora es un array sumado desde Mapeo
-
-        if (folioStr.includes('8041')) {
-            console.log(`  [DEBUG EXCEL] Evaluando Folio Excel: "${row['FOLIO']}" => Normalizado: "${folioStr}". ¿Encontrado en Drive?: ${folioIds ? 'SÍ (' + folioIds.length + ' duplicados agregados)' : 'NO'}`);
-        }
+        const folioIds = dictMap[folioStr];
+        const fechaStr = row['FECHA'] || row['FECHA_REPORTE'] || '';
 
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
         const cached = auditCache[cacheKey];
-        if (cached && typeof cached === 'object' && cached.status === "OK" && cached.photos && folioIds && folioIds.length > 0) {
-            row['RESULTADO_AUDITORIA'] = "OK";
+        if (cached && typeof cached === 'object' && cached.photos && folioIds && folioIds.length > 0) {
+            row['RESULTADO_AUDITORIA'] = cached.status;
             row['PHOTOS'] = cached.photos;
             row['_folderId'] = folioIds[0];
+            row['_isNewSet'] = cached.isNewSet || false;
+            row['EXTRA_PHOTOS'] = cached.extraFilesCount || 0;
             return;
         }
 
-        const resultado = await auditarFotos(drive, folioIds);
+        const resultado = await auditarFotos(drive, folioIds, fechaStr);
         row['RESULTADO_AUDITORIA'] = resultado.status;
         row['PHOTOS'] = resultado.photos;
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
         row['_isNewSet'] = resultado.isNewSet || false;
 
-        if (resultado.status === "OK" && folioIds && folioIds.length > 0) {
-            auditCache[cacheKey] = resultado;
+        // Cache both OK and error results (saves re-auditing unchanged folios)
+        if (folioIds && folioIds.length > 0) {
+            auditCache[cacheKey] = {
+                status: resultado.status,
+                photos: resultado.photos,
+                extraFilesCount: resultado.extraFilesCount || 0,
+                isNewSet: resultado.isNewSet || false
+            };
         }
 
         auditadosNuevos++;
@@ -387,21 +434,34 @@ async function main() {
             const st = r.RESULTADO_AUDITORIA || "SIN CARPETA";
             summaryRow[st]++;
 
-            if (true) { // Incluir TODOS para que el visualizador pueda operarse en "Completos"
-                pendientes.push({
-                    FOLIO: r.FOLIO,
-                    RESULTADO_AUDITORIA: st,
-                    CALLE: r.CALLE,
-                    COLONIA: r.COLONIA,
-                    DELEGACION: r.DELEGACION,
-                    _company: emp,
-                    _stage: stage,
-                    _folderId: r._folderId,
-                    PHOTOS: r.PHOTOS,
-                    EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
-                    _isNewSet: r._isNewSet || false
-                });
+            const fechaStr = r['FECHA'] || r['FECHA_REPORTE'] || '';
+            const isLegacy = r._isNewSet === false;
+            const categoriasReq = isLegacy ? CATEGORIAS_LEGACY : CATEGORIAS_NUEVO;
+            // Build encontradas set from PHOTOS
+            const encontradasSet = new Set();
+            if (r.PHOTOS) {
+                for (const [cat, val] of Object.entries(r.PHOTOS)) {
+                    if (val) encontradasSet.add(cat);
+                }
             }
+            const folioNorm = normalizeFolio(String(r.FOLIO).trim());
+            const auditDetail = generarAuditDetail(folioNorm, fechaStr, isLegacy, categoriasReq, encontradasSet);
+
+            pendientes.push({
+                FOLIO: r.FOLIO,
+                FECHA: fechaStr,
+                RESULTADO_AUDITORIA: st,
+                CALLE: r.CALLE,
+                COLONIA: r.COLONIA,
+                DELEGACION: r.DELEGACION,
+                _company: emp,
+                _stage: stage,
+                _folderId: r._folderId,
+                PHOTOS: r.PHOTOS,
+                EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
+                _isNewSet: r._isNewSet || false,
+                _auditDetail: auditDetail
+            });
         });
 
         resumenData.push(summaryRow);

@@ -58,7 +58,7 @@ const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
     const s = status.toUpperCase();
     if (s === 'FALTANTES MULTIPLES') return '#be123c'; // Rose-700 (Muy Crítico)
-    if (s.includes('FINAL')) return '#ef4444'; // Red (Crítico)
+    if (s.includes('TERMINADO')) return '#ef4444'; // Red (Crítico)
     if (s.includes('INICIAL') || s.includes('CAJA')) return '#f97316'; // Orange (Advertencia)
     if (s === 'OK') return '#22c55e'; // Green
     if (s === 'SIN CARPETA') return '#eab308'; // Yellow
@@ -198,7 +198,7 @@ const PhotoEvidenceDashboard = () => {
     }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation]);
 
     const kpiData = useMemo(() => {
-        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaFinal = 0, ok = 0;
+        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaTerminado = 0, ok = 0;
         let faltaFolio = 0, faltaCorte = 0, faltaDemolicion = 0, faltaLiga = 0, faltaMezcla = 0, faltaLimpieza = 0;
 
         filteredRecords.forEach(row => {
@@ -213,7 +213,7 @@ const PhotoEvidenceDashboard = () => {
             } else {
                 if (rawType.includes('INICIAL')) faltaInicial++;
                 if (rawType.includes('CAJA')) faltaCaja++;
-                if (rawType.includes('FINAL') || rawType.includes('TERMINADO')) faltaFinal++;
+                if (rawType.includes('TERMINADO')) faltaTerminado++;
                 if (rawType.includes('FOLIO')) faltaFolio++;
                 if (rawType.includes('CORTE')) faltaCorte++;
                 if (rawType.includes('DEMOLICION')) faltaDemolicion++;
@@ -224,11 +224,11 @@ const PhotoEvidenceDashboard = () => {
         });
 
         // Sumamos las incidencias para que el Total sea la suma exacta de las tarjetas siguientes
-        let total = sinCarpeta + faltaInicial + faltaCaja + faltaFinal + faltaFolio + faltaCorte + faltaDemolicion + faltaLiga + faltaMezcla + faltaLimpieza;
+        let total = sinCarpeta + faltaInicial + faltaCaja + faltaTerminado + faltaFolio + faltaCorte + faltaDemolicion + faltaLiga + faltaMezcla + faltaLimpieza;
 
         return { 
             total, sinCarpeta, ok,
-            faltaInicial, faltaCaja, faltaFinal, 
+            faltaInicial, faltaCaja, faltaTerminado, 
             faltaFolio, faltaCorte, faltaDemolicion, 
             faltaLiga, faltaMezcla, faltaLimpieza 
         };
@@ -480,8 +480,14 @@ const PhotoEvidenceDashboard = () => {
                     ["Sin Carpeta / Vacía", kpiData.sinCarpeta, totalOmisiones > 0 ? ((kpiData.sinCarpeta / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
                     ["Falta: Inicial", kpiData.faltaInicial, totalOmisiones > 0 ? ((kpiData.faltaInicial / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
                     ["Falta: Caja", kpiData.faltaCaja, totalOmisiones > 0 ? ((kpiData.faltaCaja / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
-                    ["Falta: Final", kpiData.faltaFinal, totalOmisiones > 0 ? ((kpiData.faltaFinal / totalOmisiones) * 100).toFixed(1) + "%" : "0%"]
-                ];
+                    ["Falta: Terminado", kpiData.faltaTerminado, totalOmisiones > 0 ? ((kpiData.faltaTerminado / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Folio", kpiData.faltaFolio, totalOmisiones > 0 ? ((kpiData.faltaFolio / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Corte", kpiData.faltaCorte, totalOmisiones > 0 ? ((kpiData.faltaCorte / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Demolición", kpiData.faltaDemolicion, totalOmisiones > 0 ? ((kpiData.faltaDemolicion / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Liga", kpiData.faltaLiga, totalOmisiones > 0 ? ((kpiData.faltaLiga / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Mezcla", kpiData.faltaMezcla, totalOmisiones > 0 ? ((kpiData.faltaMezcla / totalOmisiones) * 100).toFixed(1) + "%" : "0%"],
+                    ["Falta: Limpieza", kpiData.faltaLimpieza, totalOmisiones > 0 ? ((kpiData.faltaLimpieza / totalOmisiones) * 100).toFixed(1) + "%" : "0%"]
+                ].filter(row => row[1] > 0); // Solo mostrar categorías con errores
 
                 autoTable(doc, {
                     head: [summaryColumn],
@@ -496,7 +502,7 @@ const PhotoEvidenceDashboard = () => {
                 doc.setTextColor(122, 21, 49);
                 doc.text("Desglose por Empresa Raíz", 14, doc.lastAutoTable.finalY + 15);
 
-                const companyColumn = ["Empresa", "Iniciales", "Caja", "Finales", "Sin Carpeta/Vacías", "Total Faltan (Fotos)"];
+                const companyColumn = ["Empresa", "Ini", "Caja", "Term", "Folio", "Corte", "Demo", "Liga", "Mezc", "Limp", "S/C", "Total"];
 
                 // Group by _company
                 const companyMap = {};
@@ -505,11 +511,9 @@ const PhotoEvidenceDashboard = () => {
                     if (!companyMap[comp]) {
                         companyMap[comp] = {
                             name: comp,
-                            inicial: 0,
-                            caja: 0,
-                            final: 0,
-                            sinCarpeta: 0,
-                            total: 0
+                            inicial: 0, caja: 0, terminado: 0,
+                            folio: 0, corte: 0, demolicion: 0, liga: 0, mezcla: 0, limpieza: 0,
+                            sinCarpeta: 0, total: 0
                         };
                     }
 
@@ -522,10 +526,16 @@ const PhotoEvidenceDashboard = () => {
                         } else {
                             if (rawType.includes('INICIAL')) { companyMap[comp].inicial++; rowInc++; }
                             if (rawType.includes('CAJA')) { companyMap[comp].caja++; rowInc++; }
-                            if (rawType.includes('FINAL')) { companyMap[comp].final++; rowInc++; }
+                            if (rawType.includes('TERMINADO')) { companyMap[comp].terminado++; rowInc++; }
+                            if (rawType.includes('FOLIO')) { companyMap[comp].folio++; rowInc++; }
+                            if (rawType.includes('CORTE')) { companyMap[comp].corte++; rowInc++; }
+                            if (rawType.includes('DEMOLICION')) { companyMap[comp].demolicion++; rowInc++; }
+                            if (rawType.includes('LIGA')) { companyMap[comp].liga++; rowInc++; }
+                            if (rawType.includes('MEZCLA')) { companyMap[comp].mezcla++; rowInc++; }
+                            if (rawType.includes('LIMPIEZA')) { companyMap[comp].limpieza++; rowInc++; }
                         }
 
-                        companyMap[comp].total += rowInc; // Increment total by actual errors
+                        companyMap[comp].total += rowInc;
                     }
                 });
 
@@ -533,9 +543,8 @@ const PhotoEvidenceDashboard = () => {
                     .sort((a, b) => b.total - a.total)
                     .map(c => [
                         c.name,
-                        c.inicial,
-                        c.caja,
-                        c.final,
+                        c.inicial, c.caja, c.terminado,
+                        c.folio, c.corte, c.demolicion, c.liga, c.mezcla, c.limpieza,
                         c.sinCarpeta,
                         c.total
                     ]);
@@ -545,16 +554,12 @@ const PhotoEvidenceDashboard = () => {
                     body: companyRows,
                     startY: doc.lastAutoTable.finalY + 20,
                     theme: 'grid',
-                    headStyles: { fillColor: [122, 21, 49], halign: 'center', fontSize: 8 },
+                    headStyles: { fillColor: [122, 21, 49], halign: 'center', fontSize: 7 },
                     columnStyles: {
                         0: { fontStyle: 'bold', halign: 'left' },
-                        1: { halign: 'center' },
-                        2: { halign: 'center' },
-                        3: { halign: 'center' },
-                        4: { halign: 'center' },
-                        5: { halign: 'center', fontStyle: 'bold', textColor: [122, 21, 49] } // Resaltar el total
+                        11: { halign: 'center', fontStyle: 'bold', textColor: [122, 21, 49] }
                     },
-                    styles: { fontSize: 8 }
+                    styles: { fontSize: 7, cellPadding: 1.5 }
                 });
 
                 doc.setFontSize(9);
@@ -743,9 +748,10 @@ const PhotoEvidenceDashboard = () => {
                 doc.text(`Total Folios con Error: ${errorsByContract[cId].length}`, 14, 56);
                 doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, 62);
 
-                const tableColumn = ["Folio", "Tipo de Error", "Calle", "Delegación", "Colonia"];
+                const tableColumn = ["Folio", "Tipo", "Tipo de Error", "Calle", "Delegación", "Colonia"];
                 const tableRows = errorsByContract[cId].map(row => [
                     row.FOLIO || "N/A",
+                    row._isNewSet ? "9 Fotos" : "Legacy",
                     row.RESULTADO_AUDITORIA || "N/A",
                     row.CALLE || "N/A",
                     row.DELEGACION || "N/A",
@@ -1176,8 +1182,8 @@ const PhotoEvidenceDashboard = () => {
                         <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaCaja} /></h4>
                     </div>
                     <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-red-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
-                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Final</p>
-                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaFinal} /></h4>
+                        <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Falta: Terminado</p>
+                        <h4 className="text-3xl font-black text-slate-800 dark:text-slate-100"><AnimatedCounter value={kpiData.faltaTerminado} /></h4>
                     </div>
                 </motion.div>
 

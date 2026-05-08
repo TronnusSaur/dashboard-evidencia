@@ -15,7 +15,7 @@ const CONFIG_FOTOS = {
     LEGACY: [
         { id: 'INICIAL', pattern: '_inicial', label: 'Inicial (Bache)' },
         { id: 'CAJA', pattern: '_caja', label: 'Caja (Fresado)' },
-        { id: 'FINAL', pattern: '_terminado', label: 'Terminado' }
+        { id: 'TERMINADO', pattern: '_terminado', label: 'Terminado' }
     ],
     NEW: [
         { id: 'INICIAL', pattern: '_inicial', label: '1. Inicial' },
@@ -154,7 +154,6 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
             
             // Map internal category to proper suffix
             let suffix = `_${internalCategoryName.toLowerCase()}`;
-            if (internalCategoryName === 'FINAL') suffix = '_terminado';
 
             const fileName = `${folio}${suffix}${extension}`;
 
@@ -317,7 +316,6 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
                                     // Pre-fill with current expected name
                                     const ext = '.jpg';
                                     let suffix = `_${internalCategoryName.toLowerCase()}`;
-                                    if (internalCategoryName === 'FINAL') suffix = '_terminado';
                                     setRenameValue(`${folio}${suffix}${ext}`);
                                     setIsRenaming(true);
                                 }}
@@ -759,7 +757,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         const currentSet = isNewSet ? CONFIG_FOTOS.NEW : CONFIG_FOTOS.LEGACY;
         
         for (const cat of currentSet) {
-            const hasPhoto = livePhotos ? livePhotos[cat.id] : PHOTOS?.[cat.id === 'FINAL' ? 'FINAL' : cat.id];
+            const hasPhoto = livePhotos ? livePhotos[cat.id] : PHOTOS?.[cat.id];
             if (!hasPhoto) {
                 options.push({ label: cat.label.replace(/^\d\.\s/, ''), newName: `${FOLIO}${cat.pattern}${ext}` });
             }
@@ -899,7 +897,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     <div className="p-6 overflow-y-auto">
                         <div className={`grid gap-4 ${isNewSet ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 md:grid-cols-3 gap-6'}`}>
                             {(isNewSet ? CONFIG_FOTOS.NEW : CONFIG_FOTOS.LEGACY).map(cat => {
-                                const photoObj = livePhotos ? livePhotos[cat.id] : (cat.id === 'FINAL' ? PHOTOS?.FINAL : PHOTOS?.[cat.id]);
+                                const photoObj = livePhotos ? livePhotos[cat.id] : PHOTOS?.[cat.id];
                                 return (
                                     <PhotoCard 
                                         key={cat.id}
