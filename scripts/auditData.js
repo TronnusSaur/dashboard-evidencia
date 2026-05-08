@@ -229,7 +229,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const headers = rows[0].map(h => h.trim().toUpperCase());
     const df = rows.slice(1).map(row => {
-        const obj = { _stage: config.id.split('_')[0], _driveType: config.driveType };
+        const obj = { _stage: config.id, _driveType: config.driveType };
         headers.forEach((h, i) => obj[h] = row[i] || "");
         return obj;
     });
