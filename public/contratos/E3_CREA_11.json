@@ -11644,33 +11644,95 @@
   {
     "FOLIO": "110307",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1gswZswDWGXSvk-WFYJNX1TRPPVlD9d6e",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110307 - 8/5/2026 (LEGACY)\n  → 110307_inicial ❌\n  → 110307_caja ❌\n  → 110307_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJWJ8crNmhTxa9QYTONqkUjjM6-tq3k6yh9VjmtQ4NJDjn_c03NhfkVB6luCH1r6Kk32ohcCk7bCe_BgxfH6sU1whi-HuVBEvLYozRoAWqPJD23R0=s220",
+        "view": "https://drive.google.com/file/d/1CaNrYAxN7krXegSSvTbg4W3GUrldDI4f/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOm2-qurKMcbkrM9VYmV04x39TqT_udPonUzcu2wtZX0ieTFjLqDU5RZo_AXGHSHxYCfYWoC38wMd-ifggCaXId-fBnXf1xTkZbGIuURStWPVECj8s=s220",
+        "view": "https://drive.google.com/file/d/1UfS-ctTwW8Pe_DJPv1hfWFS4uksgJ8za/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDG-gzWiEnAoBQDdhlsvIE-9ExCX4S16KtDIklw5giuK_QdnAAPe-kzKOyGyQ1-lxZFEPz85OMB5J7y0mxvLWrD2mxw7ZxrDFpy3q67UH-y9BYlMY=s220",
+        "view": "https://drive.google.com/file/d/1DDzGcGMSKfMEA2F3olcz9D2cFF_i7zcw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIEY-C0EmPBmM7x7pfRYYbGEfHcQS9zFGhf93IWbVSJR9hPLolWqLr405HWUfurKnUWILX4zH3Lk5vZnECrZpuW8hu9NnTfatKCN7n4nG71sxSciQ=s220",
+        "view": "https://drive.google.com/file/d/1-Iukb5FGpB8VQInISMUNdqEVf7kuHNFJ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPx50AIigRAUaPNP9a2oHdg75-P0SdLxaVV8zdGb2_jMTlkTm2JwKe01oBmZe6AVQaCap6cEeaTv9wtRWfQmXybAR9cxzeYBXFp9q9TD4fV3SRLyf4=s220",
+        "view": "https://drive.google.com/file/d/14q7BbwEbqPmymxTm2HySoq0N1ZvtIJgB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJRybmKjSiRlBgvBJ5bjiuJiwr1XiI37zRMJ-HWTAxMMPSr-dFg7c-TnRyoBjBP0eOSWTz89tG9FvMSnLyBSgNyjkzJbACU1bIsMwI-mzrx-Rkr-M=s220",
+        "view": "https://drive.google.com/file/d/1tyH565IaOfsf_W3xRbfsxHgVigijjvQs/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyrnoBosEQ8Mr5vBz9XZuLh8SplE6AjiRchDuLSoBDnWaa4mDjJe6z0AcZoMDbARS-uqs5miVCbAHLfzUYsQupoLnrDw63eJoRndsGQt6nAZQNYbo=s220",
+        "view": "https://drive.google.com/file/d/1B4AdjJdE7_yG2E142Ozdg-yw7n7jg6xx/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110307 - 8/5/2026 (9 FOTOS)\n  → 110307_inicial ✅\n  → 110307_folio ✅\n  → 110307_corte ✅\n  → 110307_demolicion ✅\n  → 110307_caja ❌\n  → 110307_liga ✅\n  → 110307_mezcla ✅\n  → 110307_terminado ❌\n  → 110307_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110308",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "15rTWLlrpBWdq9akNpani0rreFOrnTIGT",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110308 - 8/5/2026 (LEGACY)\n  → 110308_inicial ❌\n  → 110308_caja ❌\n  → 110308_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr0Yqxla7NYdzdIqHKaOlHq-BFV_3-mi9S4mP-dCJZ7F5qlRXhNrIbXl8ctztwdBW8BpKTHQWJbCc-aEZs068hi6Lx-Wv09htPwPdqd9vYfWisG-I=s220",
+        "view": "https://drive.google.com/file/d/1jTFUKp2favLpmF8ANfbJidrjiujaAleh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFJcG5saQShtrGNS5dBMzwblUAA-jvkbGFQdRn5kv1dwgkAamkCq3X-R98mosnso73Ou6PZ6jwAhp8AqLm2M9v_boXLNiGN2-ScMbBiA3jztS5oYk=s220",
+        "view": "https://drive.google.com/file/d/18FeKX_P_2cqHYjjWpl3QfZVCS4yxLaCw/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQfQO4oN5Te2ajfa3o8sjHU0U-QmUCLhdz1X02YHOrbriE-o2tr-Lmbj25XCw-d2i-muWxToOrx3_YO9TxxVIJCDxrwUpuU5-aixSB45h-hz-6h8E=s220",
+        "view": "https://drive.google.com/file/d/19ZJdwqWZDwvAyl9ZsRepUKZgggBaqU_h/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdSLHinftVGIZniua33aY4awNJjnRfvtCcslXU9CvjKojvgsQ6aTdv1uu4XE-8uMm9Yb9SVd3UiRJoMbw7Zc-Jht9V-0KTSLoM97GU0THfUuLM9nc=s220",
+        "view": "https://drive.google.com/file/d/1VaQRHi6UPiUxiZsGGvgjaNy5pzlfejNz/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIU8kA00rzqMfXGeGY5uwpgHre5wPP3vhrTw0mNLUbhK65E5EHAQ0RNLsonTIwByrENcxtxsWiMmVpax6dVK8MiOCF1kskqDS_wGg7w9BSnC-Ce14=s220",
+        "view": "https://drive.google.com/file/d/1jkz4kR8_ya6sSbKF10prC2ft1qMPi1re/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPh-DqSxpC5L1usy_m58ps8LbHKfRX7LVqNbfYoa6gwA3EVh_sVWz0rE3avsljXzrUcpsqy5jjvd6Wde6U2lmOwEhp3oeOYWkcZq_NpZAeHTzu8mls=s220",
+        "view": "https://drive.google.com/file/d/1OqMRVdghSGm3fMwykN_lA3XLcaHwtuZi/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2Sz6Ms2biLAfiThZkzNICNyUPf0bsPs5prJiObNDENG-b9Z5XRXKwgQKVT4NzWprgMbR2ClfmF0L1hEoHEHwtAeXqt7k5q6_C-Dkv941MJwiOxUg=s220",
+        "view": "https://drive.google.com/file/d/1xCjeaswA1hkHBdQj7JnshSlumPYPKSsU/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110308 - 8/5/2026 (9 FOTOS)\n  → 110308_inicial ✅\n  → 110308_folio ✅\n  → 110308_corte ✅\n  → 110308_demolicion ✅\n  → 110308_caja ❌\n  → 110308_liga ✅\n  → 110308_mezcla ✅\n  → 110308_terminado ❌\n  → 110308_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -12050,97 +12112,286 @@
   {
     "FOLIO": "110329",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1921PrLeKa-R7PZ1F06ccr_HdvNDMSTC5",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110329 - 8/5/2026 (LEGACY)\n  → 110329_inicial ❌\n  → 110329_caja ❌\n  → 110329_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnB2wVZx0MXAkx0LMR2AwvjPkRmNJM9ZSn_7X6XnX75sHHA8HO002dqg0lbfD2yBg1dLqbdzcBSe5YBRsp--jQ8yWwBsqLndYZIPT53Sfe2VHd6yo=s220",
+        "view": "https://drive.google.com/file/d/1LbDvTgtDbKQ8srxJ1xaVyV8zlTTnSOZ7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQnfFnrXSJxTPcZYOCDNP6p_MeEw0Pu0XX3jZ9Ny76IlB-vly7ZlWGOVA9W_NI_I4O_suHXFpL-pd5Hxk2VTEfZSD0zs0cGbIt6kFDMO31-ZTGt_M=s220",
+        "view": "https://drive.google.com/file/d/1Zti-F_oSeSeYWW2GFlQKzcKVS_hj_-ta/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOp50omvNwyQS-YIDDWpdQTHCmIzv2QYLCvn8pZuj-iuCWJMHUtva5Y7esLRXfnJkpJE7r42IoHUA21CW-xXqH9msvlWSdp32RoN-WMhEegI_EtuUw=s220",
+        "view": "https://drive.google.com/file/d/1c6CqD_AqHkit3uCRcb9LU2OAU-Ddk8TV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6JLzDTr1ISbqKX0xCwBhPmb1GUZ8ny77xBIeBGU7x-toSLrLXXUwA-DdjQYIGXUfrpXS5obfMTSHDLl0_-eXh_rnsuO_NHcLXp5-fX7dRNWqGnxA=s220",
+        "view": "https://drive.google.com/file/d/1JmC0O62iLKzad0gWA8hZTRVcY47PYh8D/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNosCKSnlYXOCAF4O6u1tZVKUIJhgFF1TtsE3UmtTSvo0wwbt1mYCNRl70auainjyyQDC32FIaw9eq6mQaDCWGxCt_W_KJb71WMyaASbeQDVMZrAb0=s220",
+        "view": "https://drive.google.com/file/d/1FmWdguySD0kyUzdPX9z5yAeVzIGsE_XV/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsywAJ1JZRLjmw0eRpjzAiJjURY17k-JtnTdMnfQDJQgDtBPR7KNaVpUSLmrVsE78nTx0Q5wGtA6c0PEXTcc6f0-ZuuiuB2XzQYfcqPmPKix1FgNg=s220",
+        "view": "https://drive.google.com/file/d/1fnHGrlCozCTmwmq4I6QzvCStD-V4tl5E/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV55PIT0WZ7G17Znocz0ZzSUpNzf731PqwM6dWilsftMup_BpuQZRakZmblp524wvr2X3SnUV9WKRQ8mVdr8-vaqW9e6dO3SsqZIcYYFwiKunP_rs=s220",
+        "view": "https://drive.google.com/file/d/1tm5MVYNG9PCqPFDIAPMusbsvyFcl4TS0/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110329 - 8/5/2026 (9 FOTOS)\n  → 110329_inicial ✅\n  → 110329_folio ✅\n  → 110329_corte ✅\n  → 110329_demolicion ✅\n  → 110329_caja ✅\n  → 110329_liga ❌\n  → 110329_mezcla ✅\n  → 110329_terminado ❌\n  → 110329_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110330",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1zab-XdbzTQgHUnOL-Amzauen0fdL5XVi",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110330 - 8/5/2026 (LEGACY)\n  → 110330_inicial ❌\n  → 110330_caja ❌\n  → 110330_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk1hbFgNZm83OfFI8zqBx-0IRUZbBCg00jIvURXiF68IxLTuhnD7tQ2rOxZN7-k3jafEL87zPPSjyqO-eRTTUy75bA-XDvseY_d7viWfHGIIREC7A=s220",
+        "view": "https://drive.google.com/file/d/1VR55h5ay1JlJlrb_3bDo5b6ruPTIAZrj/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzKPmd4boLetaRUPp_4NtBmj1synvNTNT1xX-pyxSPPPVsCP4C6ONOcI1487CH8E8XCTxWb2oTJxAjvpZBFuZ_cmXTFrjc-eFnigx12xpmdkWxluo=s220",
+        "view": "https://drive.google.com/file/d/1vIAb0GamFKh9XmPAUIPe2XLAyHLYpZYg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWv37-X8eakgSRe950240K0T3VUylclisw5NSn71_aJdDLEXW85Pw9WMxTEVazvznYk7G6663vBThEl0Yft0W1njsQrlgGIe49xcxGRyxSvg45ksM=s220",
+        "view": "https://drive.google.com/file/d/1bpyZrfSec-Yry4gh36khz77TvFT1Ul3Y/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtWSmbvrCCeUd-1UraAdxquRAZF8m95dU4dl8nWbZLpY3j72WxdsD6kByOXsdwx6pIW3WqJ8K1Ifvrp1Ey6kFaO1uJuGon5-ZjMyv2BiojdOOKDpU=s220",
+        "view": "https://drive.google.com/file/d/1wHd7p2X0k8W-KqAqEFmjo2-S3A7h0RV3/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdwWpPTuAw08vgQnKXpUDb_ubDG0Klxu7nTyJ-sYB1z_SVec9_41-OKakYyDbJ4LWtfb_Sw4d1oVADPqD2c4nc7bGjIQj6cZreDLH0SI02DFUxXUI=s220",
+        "view": "https://drive.google.com/file/d/1KC9KGTame6NSpyJQ4uWsEzCWbJM_dYpH/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIYaTuNeURUEj--WD8sVEZZYwAddVdJFmDRkQMq5JP9Wu-Dg9HkqOLrtPMqJwawwWo-j3Da-CRBP61_xJkpBnqJIxktm5q71LonoH1LOIWSDTFflU=s220",
+        "view": "https://drive.google.com/file/d/1Bv6Bi-QRuKZZ-T3n5Cw1057zbjv_v74g/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWHj0YnjSXUOh1Z_lA6hcE_1wFzErdYgxSka1rc_-qvTDt3yfZnT8j0t0PmhWllD8Bo5Ogx0v2wMvb42nMR8F7VEBipnfFdpy1W4iLtSrnFJ4MXKk=s220",
+        "view": "https://drive.google.com/file/d/1c7BOyoAPqXn-WOnhhCeVW70YfZRcM98V/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110330 - 8/5/2026 (9 FOTOS)\n  → 110330_inicial ✅\n  → 110330_folio ✅\n  → 110330_corte ✅\n  → 110330_demolicion ✅\n  → 110330_caja ❌\n  → 110330_liga ✅\n  → 110330_mezcla ✅\n  → 110330_terminado ❌\n  → 110330_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110331",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1TzFowY8vxzc6sCGdV17Uckp1gR6IYDSh",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110331 - 8/5/2026 (LEGACY)\n  → 110331_inicial ❌\n  → 110331_caja ❌\n  → 110331_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPK18lXvRgd0mFpQrarwfnh9Qweg2sW7E5LTYAQXVsc3Lbmesv2G3dpMtjcBMjNkKj_MnJP5qb8Ippu0pXPrRbFJrkNFh3Lj2F_V_vtn8-uieNMGmI=s220",
+        "view": "https://drive.google.com/file/d/1hL7U0gQiCnTE0vsq5r4Ccrw2Z6W79ifT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGq7JVxEonhiqGsMm1PI1EmaqTNfIun0pA43g0xGlLKAVjev9ispRWePVQEIdyji2h3do9aE7kNMz63zSHS7RSVjZCvecvAySrJBQUv5GID6w0LEM=s220",
+        "view": "https://drive.google.com/file/d/15Lz_apCKGW9JnyIUT4k1uIhj_1DBgPER/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfcimXJY0lAgSeBLejbCRDyilLYk8PtvHs_yIjKnWr0ogBXQj1JYdl7rHpTs5EKElbUj3v7J_-fE98Su3dpqG65en0uEQSSn9HeSZEcjnGxOYYr3s=s220",
+        "view": "https://drive.google.com/file/d/197SjYWBYck7MGjNKulRt9l0YgdNhg7XM/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNSGtyh1oyRPv6v6JubelE4AuvOVw7W8w6Kg0AdeBazbzjdKmF9MdHUdnlUbdSNRiLpca5kcdCw4o9KUQzjPd3lCzxM8aCkbUt98vcrPqOwtGGFH8=s220",
+        "view": "https://drive.google.com/file/d/1LVKrydEYT1BP9DZdHU8zYHOPzwj3Y94n/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhIoau7mFp9bwrhZp7UqDByAiOMEWb-FdWAoicZSavfLctEN6BhjKRak4VO2PLH3kfUHIPpL3nnCS2VzWD4Byb-cm-ydigiH-ROSYDwoai--hkk40=s220",
+        "view": "https://drive.google.com/file/d/1x1Q3JSoe7Tyrdu3zfjIc2eVNRpwFjxZ5/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNh6uZUGaySGcAVKivz6uqmQPbPfL2QpG0RwWKEs2Wy32gcYZrHaVQW1W-DAhBjG-P1fiwNPzqhIZwtM736HK1OSJSWoBpA9GeL0FSXrwFUfWm97Zk=s220",
+        "view": "https://drive.google.com/file/d/1ILVQ3alcIETsUQAjIgYUsL0fgXS7Kzmk/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1RNBDCSelf4RKDlbZWtS2IbA-KEx7EQzKPFDR1q2opDO-nSijb0ZvL9IIDrAuFqqzGAR-Y749pkzu1ARv0uc1nBXoXTFEm-S_ypq0bi1FUYmASSk=s220",
+        "view": "https://drive.google.com/file/d/19RBcTpk0EOg7imNSEKr7K4MEruVv64pn/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110331 - 8/5/2026 (9 FOTOS)\n  → 110331_inicial ✅\n  → 110331_folio ✅\n  → 110331_corte ✅\n  → 110331_demolicion ✅\n  → 110331_caja ✅\n  → 110331_liga ❌\n  → 110331_mezcla ✅\n  → 110331_terminado ❌\n  → 110331_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110332",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1UCgOu1Tp-rRXZDEylFEUTUieX8fOeTxb",
-    "PHOTOS": null,
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYsZCbxh02MTh4IW6gGtOtTYKZPuWnZ1aTLU6XUtue5scA9jo0IucYp30hPU5VP9MwMBSxhaImKRm6mMDdw84-cCHIaW-cxwEame903yiFJrcu5lE=s220",
+        "view": "https://drive.google.com/file/d/1NquFGKEn242-FgCnI_bEDwgBHTGhHYAt/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxgWwk1xFL6pXiGZTXn43j3xOyK9fPN57GxVoDz_97wqeFDVBC45L_aAJvGuR-owdoJUiI-mE2Jfhli_v4foUwA-nnKl16c-fQUx5YAFQfk0WQj6k=s220",
+        "view": "https://drive.google.com/file/d/1Hp8jHQY4tTrK0M74yi_MNEgpoY9nR6lu/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqMaGHb-gG3t4nJZ_F0iXu-Oc8c6Y6h94TQCAfCaVq-u9C-62s1lvk7JgHHsJWc7A2gqYXVFmq-z4oQ6s1suJ6flYRovJ_s7kpsnrZu8_2b9OcnuA=s220",
+        "view": "https://drive.google.com/file/d/1yg-CLxmfNGqszBglr5BsuKlEMmstwXvg/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOETQruKrCylIlmL7Esbm1y-_thNp3GN5zNfjRAGTu34jf5RFEaMXpuaENJnPzRWhW9vexWaLv8bUaQGuH1CGo-NAFbcwHSn6k5w0Tx0laxbrbctZA=s220",
+        "view": "https://drive.google.com/file/d/1gMiLC5zBS_ID1nTISOoQpz_AzGLQGnXX/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWsAaQ8GPbyI8sHJAusgJDXNL8J3BieJk9LhqYDkkIcOUZsyc1zzMkfZT_XvK_dJGjZHTzl4QyoN_sISxGqQkBPYv4gkW7wO4zVm_2TiXXmL5fdd8=s220",
+        "view": "https://drive.google.com/file/d/1kO3t0n5JlkePr6REDksePtcrssT3m6LN/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCtdidQQ6BcmQ5B40MK7AeNEjxkQ2NJ0z9oN2uAiBFfXlow_qZKSd3e_kR-GPkRHAjPzkrtZNiKWiiRWE9JN6_A69JfwEQNwfRcyaCUACdT-0g7Kg=s220",
+        "view": "https://drive.google.com/file/d/10yzL82_s2gyLpvDb4K2OGcviMjB_JBZB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQOtF47y-jJihACUIsoCpQoXlW_RMVo79yUE1as2Tmco89T7ipADqezQLR3G8S-VcD_05jz9o1m6k8i5BwaTBTWHIhPkkXqDRX4jcUVbUe7oV_3fc=s220",
+        "view": "https://drive.google.com/file/d/1A07guY4JRIAxWCxiG3wE2dOn2vRo-JQN/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTKg0_4NlEWv_YrId3hXRmUbdVWpSbb_5QNdCTRPVsIDWBks0yhipQx0Z_MPQ0s1_IfViwyE4yb-tpXd3DKZhiHhK7FnA2bScBur2MGDEjymfHcbM=s220",
+        "view": "https://drive.google.com/file/d/16VRhlUvbr85oTWUGASI3anTrdrtHMQm3/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110332 - 8/5/2026 (LEGACY)\n  → 110332_inicial ❌\n  → 110332_caja ❌\n  → 110332_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110332 - 8/5/2026 (9 FOTOS)\n  → 110332_inicial ✅\n  → 110332_folio ✅\n  → 110332_corte ✅\n  → 110332_demolicion ✅\n  → 110332_caja ✅\n  → 110332_liga ✅\n  → 110332_mezcla ✅\n  → 110332_terminado ❌\n  → 110332_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110333",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1fTZ8dcYNtTbqqPJAb2BjuMh1CWJK-aMG",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110333 - 8/5/2026 (LEGACY)\n  → 110333_inicial ❌\n  → 110333_caja ❌\n  → 110333_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAtqBXgWIMy38tLBWsUblA4O_DjliLgcKEHg2C_aIm9NYulnnzAXtLOdSklz78juQMaCYkHrxQ56ECaZw9_dpcwrlPsCWCgWHD7EtLhVrBpEN1JC8=s220",
+        "view": "https://drive.google.com/file/d/1YK1piO5hhDQBxD1uTvnhbQeZSR-Lw2BA/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhA8SHdanwSbODKptAnJu9Qk6Ihq6EgggXZd-By5E81JPdY9gsOLTqjiDelwuhziLMxG1STSnMLuwhOa6rsunxgrmWTJxL54AX9I70aD4WUm1dKog=s220",
+        "view": "https://drive.google.com/file/d/1Kf5j71OeOzXLp7vZxseRrk5w4-bhvBj-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAlwT2W14b_2Tnb2lpO8XRvOHy5_1rqbjXQPXoPz16uzRstwefeVHJQbfDu4N6t3IqwiH_GD6axsaiBT-4-lJQ5xWh8IDZ4DUeYePtl0NZCX3tyGo=s220",
+        "view": "https://drive.google.com/file/d/1e2Ml_PA1T1-talWrMSYAM5DLb4-y5_Rz/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7NFx52GLUg6QsoXOEYGv3cTYVr2ddzRAxChUzUHTW_KD6AfM1sS0_0bJ7al-yIi0qNm_tDpqLEiAXx99wVXfYnWXn9zbrXL_TW-sBjd5p2VLjcDA=s220",
+        "view": "https://drive.google.com/file/d/1ZDQAiDVW_rwtoLTfS9bKgkA4YjnJdJ9j/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMGDpgKu9ymvCCc_6jX6jnyqzZdB7gG38CMsirdcRVmuZ5UKcFx7G1_Pp7SqcMngXJaTmP0WyhBiW0VJeLw2lc5iD_A8jyVLcvwrEVJsT0VY6Z3QM=s220",
+        "view": "https://drive.google.com/file/d/17Uo7tt-mfcDhOTrOe32-FN-Rq_1jKZtX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmhO0EI696LO6aACyul59cwnseCpQUQUaUD9B4M_eT0s4GRnpbx-tNOcVqInypZqme2fVmjvhT4jWHiEYELAQ8867lSJDNo1XXqb1yaYBIVX9IVKk=s220",
+        "view": "https://drive.google.com/file/d/1SomUfsRU0fxoREMmneyLHTeVJu6eBlVy/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxkAOKwpLV4_MbP_u6-FMOUrpXqdA5hz_9EIJipP-KBB3l_V0pwsRzIMj_DuxkLXRP3WnSPNnb8BtWSulPlBy0IOCoN6k3aTWqeijq5pECf1MhmIk=s220",
+        "view": "https://drive.google.com/file/d/1S89Z3ftbmdIUPl-mSSOIAzzpwZg_uxkW/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110333 - 8/5/2026 (9 FOTOS)\n  → 110333_inicial ✅\n  → 110333_folio ✅\n  → 110333_corte ✅\n  → 110333_demolicion ✅\n  → 110333_caja ❌\n  → 110333_liga ✅\n  → 110333_mezcla ✅\n  → 110333_terminado ❌\n  → 110333_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "110334",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "CIPRES",
     "DELEGACION": "COLÓN",
     "_company": "CREA",
     "_stage": "E3",
     "_folderId": "1vmvluz3ZTky8eMYBPDT40XXJ9cgwrqln",
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 110334 - 8/5/2026 (LEGACY)\n  → 110334_inicial ❌\n  → 110334_caja ❌\n  → 110334_terminado ❌",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5DVrFiNM_8aNmt2HGDU3ACeM-6PcOeSVUEmdhqUcf0nPgfU0xbEW_JpMCcOslL55n2b2dciL8wTA3INIcUgYg-TV6ahOo8teqFNVsT5tp_lnrmRc=s220",
+        "view": "https://drive.google.com/file/d/1GkXkL7NAp80QSU5GK74_0TJ_Ztijt9cF/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN87Fd8TyimMBk4gAJ5xrWNkmZI1VpQMOf1S4EolU62Dg4KTrYbKo9f66IlNwPeC2Me96SQIa-QLBM-wNJ3zn6UmpKGEN9rNR5xzwNZCOjihlHTIV8=s220",
+        "view": "https://drive.google.com/file/d/13RrM0P1XGBGwUHNpsI19HG1RkSkMUFVl/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPmFrX32icTQM5HRZqshL-LXZ1yBdNmppjb22a6eHm21R6wwf_rCzOTmHKCs_lw3yisa9zbrFycbkjy9H4OpdET8h04r2abbz5-tdYize_q-Yo6DA=s220",
+        "view": "https://drive.google.com/file/d/1DbVznKwRu1GOtRX_eLk2PzB-pSXNY8zA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4p9-WxOg_iVa-zas7xC3U4nELcBDZeDy-3X9rMvaW7bsaXbWqL5naRsDxEbphSnnsOdMq_BUsHQvl8Glj4s2wck2H6C6XdPZmZU7imAtdVvUi2VI=s220",
+        "view": "https://drive.google.com/file/d/19A1OiVA7L4_SbI4TMwnxh_6t9bWI2D7D/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK3xSMeKbxVGPi4GZvVqsltEdAQ3emPAQ78Up0njbxzoAM_SbaAXGeuhtt1f3P4wuo4wfoC0lWjoraNBSHRHZKrJPF-5xTee8yzKKVrmZHfYYitrU=s220",
+        "view": "https://drive.google.com/file/d/1w3gLBMaJ2Ka03N3MLaCsuoNiiOt1MjrY/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXpa3PLRLBP02QrMQ4hYBtEnu08DrOXXl5ZOuuFx6fFU-lRIWLfBOHjg1sKILRR3v9Xq6I7r6QrYhVNZVq548YwMfAJjilXyYfMhYFwi7bCEdTh0Y=s220",
+        "view": "https://drive.google.com/file/d/1R2eVn_s3bBcbA_BuMcZuP1ww4Q7iwWGM/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjv_GJO6g7cT4bvUx0jIo68Izz7P4sqIHcJgDMHaSKUDij3jzjIfcYxCGSfwLBgEeF_OODXsLI-95Bj7dHIeuPAMpaBL4UEaiKPGbK0Gz_kstivD0=s220",
+        "view": "https://drive.google.com/file/d/15hzod6zrpdt-p-anoA5wZPpvQzOz7Y0B/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 110334 - 8/5/2026 (9 FOTOS)\n  → 110334_inicial ✅\n  → 110334_folio ✅\n  → 110334_corte ✅\n  → 110334_demolicion ✅\n  → 110334_caja ❌\n  → 110334_liga ✅\n  → 110334_mezcla ✅\n  → 110334_terminado ❌\n  → 110334_limpieza ✅",
     "_faltanNEO": []
   }
 ]
