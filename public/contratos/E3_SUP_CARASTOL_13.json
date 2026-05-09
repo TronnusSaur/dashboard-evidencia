@@ -6164,17 +6164,33 @@
   {
     "FOLIO": "130173",
     "FECHA": "27/4/26",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "ANDRES QUINTANA ROO",
     "COLONIA": "OCHO CEDROS I",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3_SUP",
     "_folderId": "18fnl6ErINGW5yiF4zvlaiBjoBdsqu80W",
-    "PHOTOS": null,
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnrKSNG5fsc3SmFFsqJObnaTpmE6lXk_B2VTRy62QZHcfw-4TvJAn8v-OoZDE2EvaMx4QG2YIL3ha1WfE57-xx40f0UyPwjWz6NVkU4n5e3xujNK4=s220",
+        "view": "https://drive.google.com/file/d/1vKjXBwqoSLNmBlJanpWvl2T68fp1jk0b/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVbg6WwzhdYG508Tw4hw4bUSGV8EUscuqOb9PgmwknLoMvEv61sNyruj4GHkJXmq4mpgcRoMJR1VFDS3UYgmmEC6i_yLegLWhmB499SAbCUeOY98I=s220",
+        "view": "https://drive.google.com/file/d/1uxPvztNQT7kLT04ej6sBb-PCjFhp68_I/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 130173 - 27/4/26 (LEGACY)\n  → 130173_inicial ❌\n  → 130173_caja ❌\n  → 130173_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 130173 - 27/4/26 (9 FOTOS)\n  → 130173_inicial ✅\n  → 130173_folio ❌\n  → 130173_corte ❌\n  → 130173_demolicion ❌\n  → 130173_caja ❌\n  → 130173_liga ❌\n  → 130173_mezcla ❌\n  → 130173_terminado ✅\n  → 130173_limpieza ❌",
     "_faltanNEO": []
   },
   {
