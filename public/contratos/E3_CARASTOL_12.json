@@ -9400,785 +9400,2301 @@
   {
     "FOLIO": "120229",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120229 - 4/5/2026 (LEGACY)\n  → 120229_inicial ❌\n  → 120229_caja ❌\n  → 120229_terminado ❌",
+    "_folderId": "1EQRFDuV8aS3_k9btAxICw7O9roO3bdzm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNH4_4_SR2jHIsWRr-z66U4xFXrglYcRsZswb4-ovJfQE8zICT0OVtYwqaEEdiL0axGvhU9GqVhEUWitzRp8gXZkXr_P0ueUwKyUesfMZzLJqD0Iw=s220",
+        "view": "https://drive.google.com/file/d/1xYzS3FwDJITwbAiACXUAkAihOjEPZyAj/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxFQSuplFvm4QIWR2RQW_Qv9pfBt8gCPbJ_tOvqCT-EOb_IJLoioNxxeCVBodfL77VLanuMrz7qpKnJYtiUkJonBMFYjiQxp87wABH-B9uIv7mtw=s220",
+        "view": "https://drive.google.com/file/d/1ZV5YF5G2Nz1JlVQMNBZkQGZ0rf3dtY-C/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9nCmIatFckmkrmPF-GvSyBia4f59MGXmYyU0ajnuPwPU-dAkMtCP0n2U1ze4X9nFWV1AHNYzyG90PzhqBprt0a3kZRkzLXxip6PUZ3abEkkCIKw=s220",
+        "view": "https://drive.google.com/file/d/1og15HrUq3ypLIgNBrY_v8d2oig32lXle/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrthd8Ho6mhSjEVBVp6cQtho1QI6qmmToUrYHO3elI3B1rEIJLk5dBoXZbjHHFfBevieYwbT5F8dcS3Ggf--mrns2cdyqURP8JXZ89pMx2Dpdfrg=s220",
+        "view": "https://drive.google.com/file/d/1dK5BjqRGaQqOCIYzg9EkhbbKlNI6LWCh/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNYdoaxTiQLC96rsyVY9I5kgj0I-TJbQC-CKQcumRMGe04uvLgoIpbyOTNyMbcGDNDlGjRvqIq8hFzz4cvkIILaGsX7yWWYVYksGRmpGz4K_w__A=s220",
+        "view": "https://drive.google.com/file/d/1RFH-VvyyGn_1reI-PT8DxibrnvRc1gVJ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCVU0iPxodSTPsW2jw8qUUoQdoq3KCqbMmOGUW_YibNn5E8ZtCUtU-oHm5QuMNWi_GZI71xu9-rqvD-1WYBFLSbHHQJV0rriG5uRzMwv_Zb7gv3w=s220",
+        "view": "https://drive.google.com/file/d/1Kincoo7V8XboX4IvsacpnyKHx4Pbbshi/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRDwMs3-qHjjEvuhNvguIjIxpdvss-Rm1qf3XYC7Xn9-QeRl0Fz91ttExqr2pXbdej9byD3bnDGolTyFWUwFDslPGL9IZ-dcQJBiGFAZdCp_XPrw=s220",
+        "view": "https://drive.google.com/file/d/15XdpuK9rILzS2rulreWuckxta01VJDBi/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120229 - 4/5/2026 (9 FOTOS)\n  → 120229_inicial ✅\n  → 120229_folio ✅\n  → 120229_corte ✅\n  → 120229_demolicion ✅\n  → 120229_caja ❌\n  → 120229_liga ✅\n  → 120229_mezcla ✅\n  → 120229_terminado ❌\n  → 120229_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120230",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120230 - 4/5/2026 (LEGACY)\n  → 120230_inicial ❌\n  → 120230_caja ❌\n  → 120230_terminado ❌",
+    "_folderId": "1uHcyfO8tGrhIYrGrMbcIDqqezlQlo1Tf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9K9DtYf_RRPqgbsujeKC9qghPkcH4wtU7Mo9mb-VOi-Wid9c2pM51QnKxmCUmYV6Rm1qfbrrqQnjphc17kgWnnBALtZmRsHvNfCiVb4tIJiDD3A=s220",
+        "view": "https://drive.google.com/file/d/1WHpu3pr5ndCommKvPxwQDQDDXYpa9HMB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbAQG2jtmk9n6igPWcvQkCeeYAyCs0D_0ziBQI2XXebGLStLQBSLM2RE7TmmLz2onrPrMAbuK3aN5YZ3p6zWKqErD7Dmp_SOUdxXkpd3YHrdP6bA=s220",
+        "view": "https://drive.google.com/file/d/1OTdCVB0UtTmAXnUsPVbE4b8HTwrakt6z/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlvga89TI1gbJfCzevIAckLqH2BvyiDUyS3BIv1Fqv9DXhGiaviV7WwvdwHW4ZGM0e2hsc-zJkpNUQHJZhO4uv036QgBzb2XnGUik7rvcyX-w3oQ=s220",
+        "view": "https://drive.google.com/file/d/1qur1cEZ10pnFxu6xeB48U-z59kRclgEK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOnVW3kMoQwrnZQudbgl3aN254h8HXNk2VHr9WTlN1mrXJfZXKEr3QBgwz1QqG7V6XSyVk_jB5PjODO1-reMik3wTUIN6OIVfH9mS88jsp9VVM7w=s220",
+        "view": "https://drive.google.com/file/d/12dnBHoqmwKslsjp54y7Ls8q6WZs3GWOy/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYw8a0ADLHRXdD5Vap0cqfTEInfU-DozvMz4W8rES1k4V6XBVcD1dOQQoqkP8Gp1KcMI_RjDEF8ifC86wRtopg3IHzkMCq3GJIU4mbtSA39XEZAQ=s220",
+        "view": "https://drive.google.com/file/d/1HPh_Jh4pF2dEkaDlKfjy9YsIctcLn1kR/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDBU7giLJoGOIBTbd8mYTjTmp6WHIY3pgrSJ9jogbtaNin2pxvQFDvjdLM6s6_DboycNVD88pfh5rhs5_FcsJ610mHWeFTm7O-U4mGmO07YRcOEw=s220",
+        "view": "https://drive.google.com/file/d/1HjYSY6sqEBYlmiEcBSSvenOTH49UzFXC/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBCSEB8FscdPTxPglma_U3LHqrXNVnc6YVDmSccBuLr_EY6iZRUJ7de5VX8HDeBliuH9rjwQ2ZMhiGegR_MOEqyYexplcQ7OyEmKn0rifiG-nBiQ=s220",
+        "view": "https://drive.google.com/file/d/1eWTnzqMX8ynSlgXDIEZgM__flmJOTyNe/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120230 - 4/5/2026 (9 FOTOS)\n  → 120230_inicial ✅\n  → 120230_folio ✅\n  → 120230_corte ✅\n  → 120230_demolicion ✅\n  → 120230_caja ❌\n  → 120230_liga ✅\n  → 120230_mezcla ✅\n  → 120230_terminado ❌\n  → 120230_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120231",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120231 - 4/5/2026 (LEGACY)\n  → 120231_inicial ❌\n  → 120231_caja ❌\n  → 120231_terminado ❌",
+    "_folderId": "1oJ-c3ojj7CIRNbyyxLlNXJKfR8KA0gbx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfHdlrHxePAkinxuywb00WNLxAF3bZjV36rKoOw8533a-2s5GkaIAbCx0_4kVEobwQvSeD2nXlxiIl9Md3AMVfHr_QGaZPOEC7S78bu3bo1TfYtQ=s220",
+        "view": "https://drive.google.com/file/d/1SGN6hOWgw04-VYk4H-qPw0kM9aba-HRD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQRoX4Z9VfASUh5gN0ji9mkIdO-FWijq4bZLlfl7JsVaU8qJfU-RoakJ_ogolpysSN7ZNuWAMDiV_1UvJf-6wgxgdhNFPqDC4eap_k-ATmu8567Q=s220",
+        "view": "https://drive.google.com/file/d/1NIL_SsQPacIdkRIyw9n2vrutXCDjJYmK/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNab9fenaAIHNJM8ZWMHZBjb_zuOl9UyBzariHt1RUlDQuBWMcVtn5xXLdcRvljPZCzcwNk7lD5pIPy8bw2giZLmq2w8JRU2pEFOLn3mmWIBlimkg=s220",
+        "view": "https://drive.google.com/file/d/1tMuunFGw1L6wS4GVr2t9Hg7UB7UXJMx7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhgqzGd72Si43RV_kSpO_-qafVNgzx3KD4N2J8-vLExOvGqBssLqUQKXaNTaXdedhG2vopTtPxGWAGJlGmklUoXQIAfZorzIPVwFx5_OUgg62R3A=s220",
+        "view": "https://drive.google.com/file/d/1evN7sJ6rfLZuwvOHV6-gL89XYThs8uGu/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMn1oFBKN5G7v8ldIXYMBcgG7HnV5yKefIW9JyJ71o9YC8VI58Vuj7hTbEb0gL981riPbxgs0GoA30Ob37rpcbutYfio2nirKv84T_lZlC8ogAbag=s220",
+        "view": "https://drive.google.com/file/d/1y72DrNvqEK0zHgN8pgqtzYl626lio00w/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp-4tDv43_PERZkJpYsVP8Ey1wriIeA3lKXdfZ8ZL_03J2jqmS-zI-QaDKaXrNkZx9XMHnWqwCEn8uldu3ZC9zhk_KETc2QhLVouszirpAe5NGow=s220",
+        "view": "https://drive.google.com/file/d/1tS56sk5z03_a4hw1lakZI2K5h3tgJC-m/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpxPiAxHMOJ2qTVZi_kWfs7KAOCwDKzd0FtUylqUTFZjXxjro5an38nZUFGXLw-ffLPHg_eldgh758aZwPpQTfonvZym-QmlfXWHyIMC9Cj6uzuQ=s220",
+        "view": "https://drive.google.com/file/d/1dAohBhSqiZCulnLi4NViObmTkBMsXlvg/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120231 - 4/5/2026 (9 FOTOS)\n  → 120231_inicial ✅\n  → 120231_folio ✅\n  → 120231_corte ✅\n  → 120231_demolicion ✅\n  → 120231_caja ❌\n  → 120231_liga ✅\n  → 120231_mezcla ✅\n  → 120231_terminado ❌\n  → 120231_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120232",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120232 - 4/5/2026 (LEGACY)\n  → 120232_inicial ❌\n  → 120232_caja ❌\n  → 120232_terminado ❌",
+    "_folderId": "1TFmyVwHHpVukjOarRiRtLM6k9pBFJ7FV",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM50aq09FtNGRVM4Z5ZKRjXCMdgTFSh3lrkNRmiGmETIYkFklYCcor0ZRsUv6TOxwLQg6Hm3oqMsykj8HRK_ogN6Tp9e6aSQNUNF6qO9ADhR0mAww=s220",
+        "view": "https://drive.google.com/file/d/1kogEwMsmRgHXsrXDlUc8WalcIhUym9Wp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9syXSYYBYKXo7_oPMXYD8trbxqVK6fvauJr9I3L_AbRtqUsx_acj1WR4J-sGGeNzAbMfYvphuvlIpYU5RqOpwmyQ6zsQmUEfa-lkDAed4C4b_pQ=s220",
+        "view": "https://drive.google.com/file/d/1PiwfDelZJasQUAtTWXktNy9gUfjU9Bt-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIC53OWoMggZtjMxK-4TiTrCBI6Syu8O977YoUL3C3dtoZjryY2l243NPoOrZKpzNobHQJES_hy2pwRX0fHDQA0OMoObXxs-xAxmCzRDdrveJRjA=s220",
+        "view": "https://drive.google.com/file/d/1NZ-ZFTV6HhbWZ8Tvpwg7uQuf1nq1HEu7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRG26XrZaz0PyIwmEt8ubxEAIRnS2VND_3qvBipbQ3ntaHIhXTJLHxmFocWyf2TDZX2K19xfEYE7nI4fh159wMhAOJmTOfdQqM_z7XL1gbAIGFUQ=s220",
+        "view": "https://drive.google.com/file/d/1xnnbwxRbVoCfyyTmEweWv_k6p0xZHcLG/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZygP5Cx7yt09vnMX9W2fVOe1Dmwa_lDcuDWorbocfsIdzud_w_nal2Gx8Q4ZIE2ihVw8Zk_bftE7fN4-3ZLdEKzZ4ye7NtaMDJZ-wZlvXk5l-lg=s220",
+        "view": "https://drive.google.com/file/d/1eJSaIVoA4s1fpCMs4P6psk7T1Xe5E1X5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJdn3TPiVaS6GfRQqVXWg1QmNJNx2BeV2cFeKjIKjximVjwoRGSEw9vzMbyoEhvRXZnDx1lV04U_N4l2A8cl_QQP0MyA1q6LOlXH-oj_9wxJeqbQ=s220",
+        "view": "https://drive.google.com/file/d/1AGIlgaBbz-AAMahyQkJPXd1ABNo75C9G/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9uWZrX__N_il199bIkiYT-HTMt1kPUtl7m0k8S5HQBufcc8MvKyPS3Tkti---3aCpSdgE1aKiwmTnvH-OGhKhJeJcJWZ-b-dMaRhlSPP4Vcrx8A=s220",
+        "view": "https://drive.google.com/file/d/15C9ghgD0zb7dX8CeDCC4iZ22ZltZOGQS/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120232 - 4/5/2026 (9 FOTOS)\n  → 120232_inicial ✅\n  → 120232_folio ✅\n  → 120232_corte ✅\n  → 120232_demolicion ✅\n  → 120232_caja ❌\n  → 120232_liga ✅\n  → 120232_mezcla ✅\n  → 120232_terminado ❌\n  → 120232_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120233",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120233 - 4/5/2026 (LEGACY)\n  → 120233_inicial ❌\n  → 120233_caja ❌\n  → 120233_terminado ❌",
+    "_folderId": "1QRRRJkmbQJrksqaTU1YEZ8PgTS-o39xE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOc5ji_7psQk4CC-h3mHYnwJq3MM7QmQWFETvmEiO-_guX3BGn2xP6TGR9B95Uns_Z4mBvw4C_qvQeQA8AJE_ma_cfrlO-D_4DYqQvke8xn4A_R5w=s220",
+        "view": "https://drive.google.com/file/d/11EI06SQo3NeZTC-2sffiMT15MjE0Ld0p/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNswI8A3ghB_vpaXPrIloG4tmE-Vwan6Iui1S2LWPH_88esUyViFliHUxeaqHz1W5UVls1szRY92WN5vf1KgPocgr5Btu-X7Pwk6wg_wFrXkNOp4A=s220",
+        "view": "https://drive.google.com/file/d/1LYFtFjif8bEIaaFkFxlLDrwhl0ZXjAeP/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgfQrT1P0rQF5RZ-rOMuNwGMMfVDL7K__95FQLtvrWQ3UuKBt3V4XipJ9JUaeTESCWOCkLBb-ku34sAyJra5qfj50y9IfjKGjRlQeq67OIl3pQ6Q=s220",
+        "view": "https://drive.google.com/file/d/1FO7TFsCEXR3nKeZifr11H9amuAWCI7KT/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9i0dBrE_lc5D_h3LfRAM38OIEcSjQ9SoBUR8XkiF4pKPd3C5u_qvGzdRZFIDy0EYnDCoCIl5mTXKqbjPPXctS1SD0meYHWXtv0-nVwOVUFiIVyQ=s220",
+        "view": "https://drive.google.com/file/d/1q-h8-mBRnW8bqVHJVcJK8GoElW6sXXxA/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV5SSroGQnJg4pRYbIhmTEwSWN5-OS65kvMNVM1Exsay9wvpi7b4yYuOuirRIn-9idf5HI_R7jOLX0ooQbthDFdaAWrW2vNfFZBtfhFzQdD-jBig=s220",
+        "view": "https://drive.google.com/file/d/1nqI9JtSVZlnLhsVyTGoUXynzgV48jAnq/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN31gB9jL-nJGlbi110wnJ0_Hj5lfDO-s2fCldspwKN1fR9uCHH5IO0VPFh2eKxQxrGK5-ewSdJ9RXXD-z3vjElHKl-iYRP-qZw4L-zYWhafhEJcQ=s220",
+        "view": "https://drive.google.com/file/d/1TkGYLIzcBOCiNPHRYd0_jV-B5iN75Ay0/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcewnsthiQI27LW5Dkk5RWlxf95pvwfgxFd4MOZm1XPJodS0iE09rVOHDptM0H4oLeKx8bblYbAwruhxJfh5Y-vBvjOyG_2eyPcx5UhvLe4rg1QA=s220",
+        "view": "https://drive.google.com/file/d/1mejl4JR6j9VpKAnYAwUgueTfo1HW95FL/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120233 - 4/5/2026 (9 FOTOS)\n  → 120233_inicial ✅\n  → 120233_folio ✅\n  → 120233_corte ✅\n  → 120233_demolicion ✅\n  → 120233_caja ❌\n  → 120233_liga ✅\n  → 120233_mezcla ✅\n  → 120233_terminado ❌\n  → 120233_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120234",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120234 - 4/5/2026 (LEGACY)\n  → 120234_inicial ❌\n  → 120234_caja ❌\n  → 120234_terminado ❌",
+    "_folderId": "1jhNd2tvFHvZSJV4gUEwip8XWIhT24bVG",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpqBUyA4MsKxpJ7-khXHFtdX_dvdrZxvntXLHUJOAjwpuhWUJM_bP1Bg-OnGs8FlnEGIxKX2efsd1HY4w8ArxcvdW8RsNZiQ19ol5SR-s1lNg9Ew=s220",
+        "view": "https://drive.google.com/file/d/1mjb126M5cj8sqTod0GjOxJ2_fNdWrhs_/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVHhJdysSCctPqtrAEEHcfi2g6opYo_LeG1vqwoZiO2lOVhaf6koZGgHwDtW1KjI0mYHGhAnDjP53SlPEVopF0lxdjOZKqljJYFFscCEkgMRSLPw=s220",
+        "view": "https://drive.google.com/file/d/1fj5ed5k3j8DmIlC-PX_0BGZC6nfhKG0M/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4nz3ICAREd8v3n35t2T-1vnlIU4hleIveDaQJAO_A88OkLAiESZ0ZKM01nYTmOzczP9bGqvTu_GpDUkmvZH8joBmdhw_Z6GVpAuUwHjjdABurFA=s220",
+        "view": "https://drive.google.com/file/d/1qPEjuYS7xMiU7NZeD_lYeGhdzM3osvTi/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTaAXFyesNmOQT02qKKFez-2-7-mtavu_l5SD31Uh6AGfz-cGR9OBeMJ24W-5pLAdntzzkRoL6H1sudzrvUeBv0Pw-Y9qAl2bWiRcYICilAnCZUA=s220",
+        "view": "https://drive.google.com/file/d/1ZMhH0BJD7CExaqIlji4Fcs_z88yXGn0p/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjbUvgEOxuv5r30ru9kSTvezMgiIIT3Pu9NpVQ2BNvXfrI0zFSspswMPQQGqVQNLprCHlaO71f31ZYTmdM1botEeJf3rm1bmU5PC1a6-Rk8P8-hg=s220",
+        "view": "https://drive.google.com/file/d/1fYmRIj073PnK4fTqr4GimTxN8dYcrXlG/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPALH_sQ19yvVZH2sDQeemKGg3E5tK4OaOq_HQnUbCx--rVvBdKeBG16jSxncwJ3McBtNLnnwuicoa4S2JRpJ4VtsSPx-HV5CF37Ic67qoTf30ErA=s220",
+        "view": "https://drive.google.com/file/d/1oRuXwe_uIMsEQgR5OtfqsARqYEodB74e/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5l4Lhccuwwx0u_KjI2hxLJaaYAfOmOE-Ic5U5v9JWRg0CPFBEpiyNsh-dzhYr9Seoxyo67c6qNrH2uBmbUzytXuoyjs-2HelCAxTHMXsuLeJAuQ=s220",
+        "view": "https://drive.google.com/file/d/1-OgM29Mi-Eg98EbMYLyDhU1qgmxWuw4M/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120234 - 4/5/2026 (9 FOTOS)\n  → 120234_inicial ✅\n  → 120234_folio ✅\n  → 120234_corte ✅\n  → 120234_demolicion ✅\n  → 120234_caja ❌\n  → 120234_liga ✅\n  → 120234_mezcla ✅\n  → 120234_terminado ❌\n  → 120234_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120235",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120235 - 4/5/2026 (LEGACY)\n  → 120235_inicial ❌\n  → 120235_caja ❌\n  → 120235_terminado ❌",
+    "_folderId": "1hAyFT9-3wDHISneF20TruSm-hDPiSQ9E",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2pbj5FK5qjbNfMeTUVsQlBSs-b9uZ629q-LmDbKvD88F_N9RkfKR2UvztsaZUaGysP1U-PdAlXGynRvMTi40nR71GAuw52TwNfyn9aBAO06batQ=s220",
+        "view": "https://drive.google.com/file/d/1DBqS-vc8dHdtY5mZfG6LB161yRcUbauZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-l_8x86SNXC2MPAphhFLMiHCN9mbHq22ark2zg91cK0pwcbLGCBPcXm1aSJsTr2b6gcSC_Ae3yFCQZCaoagk1EZR6AGd88TZEJdt6dovFAZvFAQ=s220",
+        "view": "https://drive.google.com/file/d/17mdQ6aX93pZf6SEZU3wPGE7cKEcEuMks/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFPJO2PgRYZ9geSRhhS73fyLhnJXC5r8yZdQSYqM7hsROBTTILnmY8jg-qZmxQI5odo0JeRN5YScgSx9VNuG9_sx9Ii1aUM86P0hPVA_KWXqqJvA=s220",
+        "view": "https://drive.google.com/file/d/1RSqGe-g2BLx_aMjOfdXRemPDXcNePUR1/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_jzbHdMBak5Ch2tZa2Lu-0x2Izv4gWFxHwBhikEP7OiMVnvlnrDogqZmNfO7bcH3WmLDXZp-e69LCc2j5wd0GV6lGRG5lKzpcgHKjFLGSaO7f_w=s220",
+        "view": "https://drive.google.com/file/d/1xeqql1LoG09SZpS2dsX8jlKAj4clcCLk/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOenoPqMWfPRjeoItlaeKTz0VdFDhPj37gly1DTogmg2taCj9vHunNilfpey1PTdeCWc9JAaBW_HSSpB6H3VVZTEAq498GjEscXib1AgpB54x1MCA=s220",
+        "view": "https://drive.google.com/file/d/1bGJUdUnjAENZrYO3R7UTZh5OzLp9kqQq/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNY27X7DgZk_SJrNO5YyVXJFZO2Qea1Cjtxvr5tR34jHEmlXqnr1x8DwHqXy-oZ_Iel7jW0ppRZUdCSZg1NuLcs-lFa7o-Qe9pvsxBUrd43yh9lzA=s220",
+        "view": "https://drive.google.com/file/d/1YBDSX7KUVLLY1dWbbIZwg8dVMKsvnLQs/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_niqN3VGRxrXCUgIRpGPQDLXHduSlg4dhuWmGKvoO9I0L_d-cgzt8TROTD2OW1VLY4Q9dW1NmiirPJ6XOSiQ8lGMA0ZvW1EA89AQn_Kui5rwEIQ=s220",
+        "view": "https://drive.google.com/file/d/1dXZGKHU76Unuv1aSAhPkeLMhQo4nUysA/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120235 - 4/5/2026 (9 FOTOS)\n  → 120235_inicial ✅\n  → 120235_folio ✅\n  → 120235_corte ✅\n  → 120235_demolicion ✅\n  → 120235_caja ❌\n  → 120235_liga ✅\n  → 120235_mezcla ✅\n  → 120235_terminado ❌\n  → 120235_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120236",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120236 - 4/5/2026 (LEGACY)\n  → 120236_inicial ❌\n  → 120236_caja ❌\n  → 120236_terminado ❌",
+    "_folderId": "1s4AYVbT9JtYvtsaIwpFvsRVwlLJbkgIo",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgDglp2T37M1k9dgAjJNzVoKV56S8WLjto5hSRM3MZ3NYe5fAkNEOQMDlLlqk3ZCQgcAgtXOoYYIePlObkBn_9UbmGDQ-7x34pKb5zHav37nHGQQ=s220",
+        "view": "https://drive.google.com/file/d/1G_fuwso3KNTNNDw5oHAZmU-sZeDnm4Qt/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzVS-b9eJOwETfCiuSk2PddhIXPXjLXF02gnwUYJHZ7xBwzuq_xxOXVL-8tBLFfba4WYkg6oTTOrZ_M_6KMUWLLkatwUglP4l5M9YvapD-R4-TwA=s220",
+        "view": "https://drive.google.com/file/d/1RrzhtX_nyP7N2acduCRydhlRAQxdTlYX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIzLaJ2gulh6yGEIG2rXv-BRZ3ER0QaCFr1r5end7S7lwJ2BBMPWwpmfvpkmV6ecbRJwaovBasZ-eiLyALTTRWfJlL7MF2VD30Lbzs7N_IQVxivA=s220",
+        "view": "https://drive.google.com/file/d/1srLCc6Zj0bcgoq_01RqhmHNAQ5ylurdz/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQr_H3i44vLDUM9Gk7_Mk2UgPlsxYPwzDTMVXokVRhAXdXAJhmO80T2TbakTWaWGtboj6Yp41mLRpsLKYyyBhMi-7jJvKry9zCP0wxIKXzi01jPw=s220",
+        "view": "https://drive.google.com/file/d/1VKZhCVIqcuBrdChrwcKuYS5ScHgH2PFO/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_PASfiVSfBZab6GoaQVWhgKfU6bOAXnUi-f8MD1wN3R9thUGBxSrHNDllFqNa0Ulkho30e614g0X3zyVDlTQcvkGvVVW6BW6RgZodpcETCFJApA=s220",
+        "view": "https://drive.google.com/file/d/1RSDBSZ9n2M27H6n3qRE3QQs5yb2HVT9r/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDuXn1mYnpwjDts-2gKcpjl4q5HsCp5ECEUUHiLGEZjyFTQsGo04u9XSHIwkex7pX_VaBHWaAaCzU9imFFZ8XzUdIgQTsrieCyPlHOAMgmO9idFQ=s220",
+        "view": "https://drive.google.com/file/d/1T7eGqd5v6l1y1HV-htN7f7UK9O9_Ogij/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz33wCkRZ-NYtuxwpd2oGVTp3vYE4g8AHmSNfHboD5fTnmIxjQCPok-04zkjBbWUeY086cG_DPkWl-s9boms7B6Tc2GOhUmX1NQ-OIYwGW458dcA=s220",
+        "view": "https://drive.google.com/file/d/1QEZycIIfrHcIuyMgNNNZ4WgCISxXLOHt/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120236 - 4/5/2026 (9 FOTOS)\n  → 120236_inicial ✅\n  → 120236_folio ✅\n  → 120236_corte ✅\n  → 120236_demolicion ✅\n  → 120236_caja ❌\n  → 120236_liga ✅\n  → 120236_mezcla ✅\n  → 120236_terminado ❌\n  → 120236_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120237",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120237 - 4/5/2026 (LEGACY)\n  → 120237_inicial ❌\n  → 120237_caja ❌\n  → 120237_terminado ❌",
+    "_folderId": "158h5CRZ5D-zD1PxtIPwii5VQ9vGXq5pN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8JqVA2u-bD4FIZ9loqfrNYrl_s43GePwG2O9LbeTuNg0RpVgSrr4ZrsX6yS0578WiJ9egx_KzXDo4gH503SAMISrZ_cOftowjd4GoIFDjeJwxhQ=s220",
+        "view": "https://drive.google.com/file/d/18yG3qq_kSzotecZA-AogvILP68V30K5h/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6Q5Bfks24vhhrrNxZeR2V7g4N65q0ra5rw9pFb9iytZmgW-Vb-ntKoExe4_-lwySqlY1-hywd8mcdTLvUOrMf5lIJv3pIMYsUQiABWuBtffjm0w=s220",
+        "view": "https://drive.google.com/file/d/1YfCFZWBHvh9qHhUfQ6wojipmC0w1nxzg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-TGYUHN0NfEWH-CajbGI5UMxzu9YU0tMdufRPxk6-WoZlsI3dGPV7gT-tTexSLFBQIKhGNg1b7Ft4h-ZQOEWC7AbrgwkfGpMU1KKMrWs_gv1Q5A=s220",
+        "view": "https://drive.google.com/file/d/15F-JUjMAiKUWIzblQZJb8XEnNsZ4rMBP/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoQHfbOQRJO7dV_b4kre1qnX-hvUUeqtl46yFctWpuSKPZORFadDBf3IOcjAEV3ZaGUExMs099AbcEJoQNvTle5nhuOEGJZix15LogtsJm9fOplQ=s220",
+        "view": "https://drive.google.com/file/d/1ZRdsnGFM2jXf23fM0-hkudrjPqOHoJfx/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7bSqSqNFN8gVlPKaTkAuzX52p61jvXlUTCyHK7xX1Ih6UOvBT7WIos9RqyrZ9vqU0nOYGVQgNk1ut_9itenHghgKPPNy7vFh8O4ei7lKXX8cmAQ=s220",
+        "view": "https://drive.google.com/file/d/1UMEv9wrvQbw6ajBdLksoHaMhO1Xd6nAC/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJpu0x3ai-pBC2hh4dNM0nR3c7Mlja_v-Cb_7D5hZ6MofMlo9jNk4oMr4jA3nN1jKveiBJy6uGVvxlvuyCENa8bd-R_cGR2c3Et0W2fStDRoGZaQ=s220",
+        "view": "https://drive.google.com/file/d/1XqhbbjQ7NEyOqr4N25ldmyRG86RwUlrg/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN90CQHfoLfvwqY1tfy2mPrgBfwGg4_KVhNHkiuR1RfuVvgQ_JfDJJXz1bGy3yZK3dzxjoSOuNYvhXp6hSjig2L3ZUF_w8HUnMi2-BZZLeYf21D3w=s220",
+        "view": "https://drive.google.com/file/d/1ZBz0qgP3Y4KUqCLj3QDzshZSlJchL8vF/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120237 - 4/5/2026 (9 FOTOS)\n  → 120237_inicial ✅\n  → 120237_folio ✅\n  → 120237_corte ✅\n  → 120237_demolicion ✅\n  → 120237_caja ❌\n  → 120237_liga ✅\n  → 120237_mezcla ✅\n  → 120237_terminado ❌\n  → 120237_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120238",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ II",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120238 - 4/5/2026 (LEGACY)\n  → 120238_inicial ❌\n  → 120238_caja ❌\n  → 120238_terminado ❌",
+    "_folderId": "16gtvHyeV9Dz5EdeHE2cqlIbY43H1bp1M",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYiYKbGQ_7I1WkDZZZLigkv3qPVsJqxJ7wCcGMy5tjJztFsI-y6VJ2n_7RXI81en8KM9DcrOkF7JEDDhucNEx1h8ykkr7RiRh-L_VoXqFRrP-0fw=s220",
+        "view": "https://drive.google.com/file/d/1PXdhaHwcgFmXeXOHuteg1glc6ii4twp_/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3U7nUyEs4mLy9Zllb-uVKi6Rb-wUEX2i1XDK9azGT_sZeKhP1l4caI4sUssCVsQUNPnXLtKuOJ56V-ShdI3UehqtV1pmDZ7w9xwmorOxrIDzPxQ=s220",
+        "view": "https://drive.google.com/file/d/1u07VQ3aJBfpyyKnHKwu5ZtDbzmNaIszs/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPO27NtQVSgPxiILbYTpBbsjQo0YXBJ54veCUWrP9CgX8vjJ4mnGMbaAQ21lhnapmUWT6jzmncDVW-2epkDNo8rZnjBkx9dA7rTi-d-6DG7QRYl7A=s220",
+        "view": "https://drive.google.com/file/d/1nv_WbSworNod1GfQBqPfNDUweUtgx550/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM87tRFXjcO13Om1CIBZ1nG6AcmCtGhbCl4SxgbLdkmWoPDTq74xCJt1Pv0LdsbsPgSoK3B3zpnLwOcxMDknPWw_Z3Bw55r4av4eYOlYtn4LhExMw=s220",
+        "view": "https://drive.google.com/file/d/1o9EkwJuXnyZbg0mdSBihomYayNUknUpX/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2W2CQFvzc0EXJkAxssrBzn5d-2LVtrtdjPHvLaDb9KEcvBMPQhXpZcj6pnjiAkzmfW0nmCBXB7DrUO-CnU9sPsqx3yqHdK4N85nyZfdepll9FEA=s220",
+        "view": "https://drive.google.com/file/d/1iAC97JceRYkZDn8CECFfzi1SGOcuD_qo/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONSTJNAwR0H6hCNONZ-qblVWZJXXMQ7Ru-j7Z774LQtEZXr_1NbMRbhQEDIikncHQiHowI1p97kg-V5pzSe1IEWOr6r5uYDYu0Q-YBVUU5YtY1cw=s220",
+        "view": "https://drive.google.com/file/d/1fhT2dDWdMTcE8gFOPVgvtma1gUMbg9ik/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOH4kIr1kP88XjCKSRQ60tAUvzDypoB_QYaMhefUoEF3MAxRSO2x8Cb2469mkR2TxCPoMUdEWk-QK2GMU6PK1Z6Fx2EP-UjelSoZG0rqRHp5SRGtQ=s220",
+        "view": "https://drive.google.com/file/d/1MPreuMz98mS3F2vQTqPtGXcEZoeAXb34/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120238 - 4/5/2026 (9 FOTOS)\n  → 120238_inicial ✅\n  → 120238_folio ✅\n  → 120238_corte ✅\n  → 120238_demolicion ✅\n  → 120238_caja ❌\n  → 120238_liga ✅\n  → 120238_mezcla ✅\n  → 120238_terminado ❌\n  → 120238_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120239",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120239 - 5/5/2026 (LEGACY)\n  → 120239_inicial ❌\n  → 120239_caja ❌\n  → 120239_terminado ❌",
+    "_folderId": "1uCWtIIbPoI_Uk2WAGz0IRh7aiyqVI1x9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMGsVuUy24hFzrpkMsU1ggx7I0sDfwNSBR4Bj_CPZaiiFeuwm-7dBkvP5Gjckdjlvggl3uyO_1PPKyf8lFVivwGaqAUXmjT88w6f_mJIZGjsrebg=s220",
+        "view": "https://drive.google.com/file/d/1WTs4rsyT5g52M9Wa5Wqa6JgkDjkUbg-n/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvqrMB1tru9UjTFfpZvFlIim6rWLxq-0qQLYaH7RUo6IZBqPS6A1RUP6qJiUy0RZwFXV2FSh_sEnB7q9s0URfbauDRd4G1alBP19CB87RT6RUqtg=s220",
+        "view": "https://drive.google.com/file/d/1Svg8IeeEEIF8J75da7sBaKiKnygXPKK0/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYbHBF9-bN72V-Gx9HO6uQb_BhF8mfJ8yiOTwo1q1Y9UavZCyVJyDf23ay4w91dP44dtMjN0IGRfp9k8BIEfptOXhYNa-eGbDoDyyZatLxo7jkgw=s220",
+        "view": "https://drive.google.com/file/d/1EZn34gVDLMr6D5mHCtyNCzF0LgZ9aeM7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdalIzyGn5KjrcYrqqnku4JqLz-XFKHdEo7e3OaqH8aHUmVzDXZpjW6-maCbykTyPaSxWvj38TcGniIGD0VFXXEkDXri1tSmLS2jrn1hw-gmG6sA=s220",
+        "view": "https://drive.google.com/file/d/1AIGv2Ep0D9wGVL_JcWJ82VwA2KqKd6ab/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMB-rfiJSXY83HzqVUb4LzShrO-V0OjnZ663LoFeCI8Lr53oMqc79wfsX7r_nl8eWRis-Kf3SXv8lWTVyTy0HmwcEjMExPPTjkYkD2TJPw0BGjLmA=s220",
+        "view": "https://drive.google.com/file/d/1bwUgRXq2wE9gIi_uS4vqyWQ4PSXxpWox/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUtmlZKzTNXkyWkZq49hF5b54z9fBoMkBbbKGQC59nBz_CGXnoW5F70adlfHFUtZHV8ty8YM5Q1j5Tl2pZ7d9xRFHy_GRvPngNnBpg9EPGOUfWcw=s220",
+        "view": "https://drive.google.com/file/d/1uiZB5zuaAnwiAZDhSABxvd6m7CU2jpVS/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNumyvEPGxAd4KhcKiyJcjwM94DjD3z7iiOWa_4RD4SNDB1ZuzI0_Fq9FK7sveEnwHKmE3B7z9i26OFAfYIr1XuePFU1gEZJD1VcDp6jxGwTVqmXQ=s220",
+        "view": "https://drive.google.com/file/d/1s3pza9EYJHJtNHN-i7JhdGfUnhHsWz6S/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120239 - 5/5/2026 (9 FOTOS)\n  → 120239_inicial ✅\n  → 120239_folio ✅\n  → 120239_corte ✅\n  → 120239_demolicion ✅\n  → 120239_caja ❌\n  → 120239_liga ✅\n  → 120239_mezcla ✅\n  → 120239_terminado ❌\n  → 120239_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120240",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120240 - 5/5/2026 (LEGACY)\n  → 120240_inicial ❌\n  → 120240_caja ❌\n  → 120240_terminado ❌",
+    "_folderId": "13Z4tdSfAaLtqup3MvHq9UPg4QQD2iwxw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7wO2aso3Iax0BWuNjaJROevavbStEprtQrDfBW4XXGJWyoFg4GgcpHEW_O4hrWlO4T06eQUTfdmIZ07gKNt3WIregEzXdKC33HGDGwYJqRYUw0A=s220",
+        "view": "https://drive.google.com/file/d/1ZQ1WUJGprnHBcdxBZbpnukrfq2CFddwL/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPxV8YP_GdFtOrLiEIiH_mEZcXV8-pwMeB3Xdzf4-qa0QDCAfK_ZsQZr_W1-Ip6J_5smHmJnGto7OjOFlPZ9vRNVmqay3izG3F_KAJCHdLRsQgSw=s220",
+        "view": "https://drive.google.com/file/d/1wIC1-q5ByuXgJgjWVLe8Y3iXAk0rFEaW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNo_L7dOxlUs1W0Xp_6j8X6J0oj1mSsd95RxgTfsLyBjr26nfduAY1YKU5wQjIrrdI3thlZs-XfBVw96A-6DnVyjyYit78hi7C1wWm-pd61goyP6g=s220",
+        "view": "https://drive.google.com/file/d/1uPMWwGCmrmg0rJXc-slVE2UjvqS7l9jb/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxYDsC-duxyrz1b60TfrM_cr_4RyhAaX45ubrL1krEy61Aq-HtPJOyxFMORauShMzHcYeDykxXGjwVE5pH8SOXBDMwIQbAL6_uDkNIKMlT8EF8NA=s220",
+        "view": "https://drive.google.com/file/d/12X4qvSb7B5kycpkRRa-mz9uTWV1sRf4M/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlHdWS8coZ9PP1jJAaMaGxdarMcWXNE5cPoG7Ogq3Lws1ca50_ZpKLUQZ_FeZ79atu-WC5nQ2NGhyi0QAxmccecnPgYd3BimJxqwovR98QpVskNQ=s220",
+        "view": "https://drive.google.com/file/d/1mHq_W14VIswDEx7Ie4ITscV7YlXNJVxK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxLlvYKdZ0RGvV8R3wPBsHdUnHXG2ANKFcOaiMbbPHsh6A3igutYgrcwOPhq2OJ5VrznPdnXBuD1GmMqSAXanTtm5U1l3xIXFia5hf9Fkwd2asJw=s220",
+        "view": "https://drive.google.com/file/d/1lUS_LW-YKHBlWhgLMX5WqnrUSpZqUmGs/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOigKpt_ECri2ajuy8Q2bg3qCm7XaqEH4aTykMsdEX5OFhTuNvao1Q5dYDwMldFvZCyitO35TuDYpVk1BvCIxk67PGPyLO4c2hGnYMInNP5Apr2IQ=s220",
+        "view": "https://drive.google.com/file/d/1fxawzQ_bPhRozosBJl2ra4spMD1JO4TG/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120240 - 5/5/2026 (9 FOTOS)\n  → 120240_inicial ✅\n  → 120240_folio ✅\n  → 120240_corte ✅\n  → 120240_demolicion ✅\n  → 120240_caja ❌\n  → 120240_liga ✅\n  → 120240_mezcla ✅\n  → 120240_terminado ❌\n  → 120240_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120241",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120241 - 5/5/2026 (LEGACY)\n  → 120241_inicial ❌\n  → 120241_caja ❌\n  → 120241_terminado ❌",
+    "_folderId": "1umYJAAiU4s45z4Z1lTd-YsranDbIIF5x",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOokvygGmcitLITeZJ5gv8dWHOlJWlIuJphfh8NvBnpIuXwY9kbonAJ-RFSz8E49GtVbaZQUyU2eC2lzqqoHq12d8qvn4BBochNgAtZgZqC7A1Wjw=s220",
+        "view": "https://drive.google.com/file/d/130hL3PiI4vejrGWpDMmMTtLsnS4PpnIz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdE121T0pTCLSSe4_3ln_yIAQJS6QMWgMShbCukXg1l2DHtZE4ki7GcF4Z_TGfMZFa93XPhwm6lBJzND54PiPJ4s04nyLXeSg9nOLVY-90tZentQ=s220",
+        "view": "https://drive.google.com/file/d/1TrPEOlvcNH34CuPuh_2sN_EaZLzqX5GN/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHbuUvFyKaRvpg-hZilwHx1_q-LK1vnZm74WsCTPsXWK-3NLSAYdPBl2tkOpeR4g0VCjKvpZIU18S3ZbUyPYkZhcVpx5j2Q7mOJYuGoLpUzA6Rrg=s220",
+        "view": "https://drive.google.com/file/d/1yTkdEMbRhoRGIy4u8jM-fkFSc7VHtKT0/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKF0oz08H_DkCRcMQ2g29WDSOW12nwxXs7t3M2E9BbqUVDnu96xYL1J31fDgLQ3EL4aEj4Ed-KSUZZZmLFROr1A9g0Zn294keF4QJJTmhltwZVkg=s220",
+        "view": "https://drive.google.com/file/d/143F7HmDfNxQGl5j-sjTqQ8ardf84Ie4a/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaBP3XWriF2lGtM6tHF4sIpPA-6spgcE0JmOKCf3fVii2dFf01bu3U3TJOnSPsxTSxZjgQiuIpeglLlepzW9Na1xQ_FVFccfBSbL4UK8q9jGnrAg=s220",
+        "view": "https://drive.google.com/file/d/1EjX_bhZoA0FLx5oncHRzwWkzMd5Al0nQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOd7LIrXkxfjTNQtF5f7NSCJNcnrW52rvEOy3qAOWXzn3NSRbnGGJEGY_-WFBMiqrohaK0x7Db5bz83GYv7ml2TKxH060-FICvz0v-vZt7th1fcSA=s220",
+        "view": "https://drive.google.com/file/d/1nsdRL5TX5bH-Uc9dTqsaRZ-B9ZiJ_gLh/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN99smj6PvpcQ6qtwVQIxQ6EChWnauQvJ-e7nWi5PoNO2uh13B0QAmotbzbDKI9ylkwLcnJ22u-3qxV1CvxL6ggDj0vApzuQfWCy5Fk9AecAMJZHg=s220",
+        "view": "https://drive.google.com/file/d/13eEzYm4bRAtg-flbqXWKUeSmufylQtaY/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120241 - 5/5/2026 (9 FOTOS)\n  → 120241_inicial ✅\n  → 120241_folio ✅\n  → 120241_corte ✅\n  → 120241_demolicion ✅\n  → 120241_caja ❌\n  → 120241_liga ✅\n  → 120241_mezcla ✅\n  → 120241_terminado ❌\n  → 120241_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120242",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120242 - 5/5/2026 (LEGACY)\n  → 120242_inicial ❌\n  → 120242_caja ❌\n  → 120242_terminado ❌",
+    "_folderId": "1fZzvYxEeRsFXBhdnN0f9JTvru-qTxeLC",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkvdEO6YIjan5NX1p5jAgSPpCfN6FEOxOP5_L0_4_HuESxrs1yJ_SEVCx7nWQaOIg0__5DL5cYAsOaCeey1O7lxex06pXUT5Tx5Zs3nMjYzgVW5g=s220",
+        "view": "https://drive.google.com/file/d/1Euevil7fdpoDPmmEHwTJEPeheqzQNimD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAdiaV4z3-zZ5Sp20aoGEVR9tnQzQySJN__b7M5Ie7jScsnFMonBu_17zRZLPkiUIY0Zn48T336GuDB8DLDRwhOvkXpJ1IPOx0WNPOVUIafWT8gA=s220",
+        "view": "https://drive.google.com/file/d/1hrm-H77eQOA2KzFYnBbauCI5wW_zMvvT/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiz7tt3dmP8O-gejqx_GoTjWb9TVX7dr1Gbj8IsAFAumLKOzP8RC8IxM6-dmzBvIFleDe1lWSMojp739MCWWWSCj4OCE2XRRfoxOvnUaHUdml_lw=s220",
+        "view": "https://drive.google.com/file/d/19StVrrcFKbey4NEI8a1o_PCQHDn4D1Xt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxWRhRuc6jGOInIMe-hM1oevA0Q_W0fhoOq8S_9Pz1krSaX_TSC3B36a4ZaQDyu8VLF0OSVlF503SGIQPImkL1htHQvyIKHxrVPLjk6QLzz6vDUg=s220",
+        "view": "https://drive.google.com/file/d/1kp_pqoNZrrWEbLRA6ePcgZy88Y9T8cA3/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHVPWXwAFPzGqKvMVFA2qF8wOLX-R3vMtBsDC-SKJKGuQv3j3O_Qd6_UAYR4B2qQSHKLnZkDFef1fgJm5sL2u0AUqcQFDqIyk1AIjeuSoFGLqyZQ=s220",
+        "view": "https://drive.google.com/file/d/1TkuicIgCFC-L5xuyyxZC_UP4OH5wajth/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQEuG_u9D7DDnsTVQSMnxa6OB2wmVqX8-mV_YJ6p1kPwblCEbEtPjvnn5bugkuZywXP3FelPp7odoXVqe5Wb1lt2haLsABE4hOAb6ZGNiuHJ77ZQ=s220",
+        "view": "https://drive.google.com/file/d/1N14J0L2KeCEEKKwJevtCN199ePPwDVZ_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMraD-ifFzU95539FTrqsD6qE7gllEWqLGlQn_qXREAPhX4MAjIlkLeuaCYNdHrFrYtRYU9ydTKJstbbiZ7O-HZ-psN6-9LteZVmVpequc1pdGR7w=s220",
+        "view": "https://drive.google.com/file/d/1zBJ-m-cw0Zc5f8kRpFtI3JHpDyDxDB58/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120242 - 5/5/2026 (9 FOTOS)\n  → 120242_inicial ✅\n  → 120242_folio ✅\n  → 120242_corte ✅\n  → 120242_demolicion ✅\n  → 120242_caja ❌\n  → 120242_liga ✅\n  → 120242_mezcla ✅\n  → 120242_terminado ❌\n  → 120242_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120243",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120243 - 5/5/2026 (LEGACY)\n  → 120243_inicial ❌\n  → 120243_caja ❌\n  → 120243_terminado ❌",
+    "_folderId": "1CdtNav8UQlY-0VQvQhz59GMr1nlgigaf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzB6QFp3Ay-YirCxJGjvQgTNTTogB6J_0RQMYWAXwNWsfRAGzapZM_jOk3EhmZkJEYCFEnRLcAbzwa8BTgoXKYKtZfqv5ieV4t7OcdzGeeAUGThQ=s220",
+        "view": "https://drive.google.com/file/d/10SL2-qta9DjOGM80Mi3Zd4Bx2qqskabj/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDLhLeiUAIbwfW0wDxtDw7EUTfZgDAsyyHTcdccX0t6vgmfcLNye9I9NZVKVPG8oCqo-2SvW_DcP4LwhA56uEPdWW7umwjDRE95nZrYyBxaWWR3g=s220",
+        "view": "https://drive.google.com/file/d/1stZOQszReWjMXJEiuuhy8ynZB7mYCqSP/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPu5KcjYkYhk4fuxd4VzBiHDKSZab52FoyXI0QKJgyWc0Or9eILo-asK3lA5lHLRA6pkBeTsABXtErkR7Qh0T2UsOapOLKYNW62UYEUxezqdhHdg=s220",
+        "view": "https://drive.google.com/file/d/12VRmGn95K5Sq3hKK_7sdvKSK262uI8E2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2eAe2w65XvjHIIWtHxvM9wzajsyS86J0fP5ewnnRu9wXCxwxJQiI54gC772d-Ue2zryIhj7SYhF7fGndjKTb7DElqfkiwxD-ToFgOxPian-Z7Ng=s220",
+        "view": "https://drive.google.com/file/d/1UFFuIPqiOgrFlr1zKrFeWILNUNpqg8v3/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOecBmEvI7RJoPrIWl2odwtAkGAlG8XOb1dsZz_ti0-AarqDHnJoMJgBYZfVEYyvD0QOc2nCpSGMqSBOi2MTByKCIkKw4mARIgflWGAMbThVwXIeQ=s220",
+        "view": "https://drive.google.com/file/d/1HqbISegn84I5ZqImbST-QR4N78YC2BvN/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4PJd3tHSo0DEJjKhJkpDKxcjYciJtPZ69qa0lDvNueGYA068wIX8TRHRiDI1tgfzJD9BNjE5LY_y80_7VpvLdwTvT27rytyhRu1Nyg8bMNTeK7Q=s220",
+        "view": "https://drive.google.com/file/d/1gpW2_HFY3xWAX9eR-COj-uRW8rbZy-UN/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvl_R-ZyfKuuaIyDzOwXXd3fYtnHGyfLq5ECYMLC0acLBaD4-CjzSUg2WV6l34znjjGvuxiXBwd0LplTzB7l8xA0irR974GFZ7Idm5XzS-Sio_aw=s220",
+        "view": "https://drive.google.com/file/d/1HxJNlTZhZDXxAXbwp8jF3yD3aeUura00/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120243 - 5/5/2026 (9 FOTOS)\n  → 120243_inicial ✅\n  → 120243_folio ✅\n  → 120243_corte ✅\n  → 120243_demolicion ✅\n  → 120243_caja ❌\n  → 120243_liga ✅\n  → 120243_mezcla ✅\n  → 120243_terminado ❌\n  → 120243_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120244",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120244 - 5/5/2026 (LEGACY)\n  → 120244_inicial ❌\n  → 120244_caja ❌\n  → 120244_terminado ❌",
+    "_folderId": "15oKxmg5tXDJWe7vEd8VeYHnvZ_qlZJYG",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5obQ_afeNWaqln5ugDEGdPvDnuY8-MeRmBSVpTIpAD6tyBRq8WMw_RFvpYrefOWNTA-6f4cAMvW5s35GJBVK3FGW5AztdbkUPX6ZVBg9pzGgqKQ=s220",
+        "view": "https://drive.google.com/file/d/11pDwcSQE1LODZzxVKqlbg9AosGjaM1eb/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO33BWWoxlY8MMEhTuN71byHiba3x8ofw4hER_7E4x7d6xetV8SBFkywqceL6HyYwyBNa_n_IqVwRQhml7G4x1gcHVDXGYLTcFntDonU1VVGFk9jQ=s220",
+        "view": "https://drive.google.com/file/d/1BD4xAKpmeV8K6snzxwo2T9RGeNI8nSZ-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWSrqNuvw-asX-blh_LkAy1PW-VA9cXLVEJGgv5MeAShRMSfKQIKlN-H8SkyZrAvuEvTBbrygu1yzrn--Fpe_6WF5DuH5MmWoGFwVyOK2_bO53Lw=s220",
+        "view": "https://drive.google.com/file/d/1dcM0xgW61NZrXvub_7tox2M0nYvKzkDN/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWyh9dnNLP-E75kwrGqAsq27Wv6g63cZcLgKLEuv02k4xiqpMvWVe-_xL-D3Yq7XQpVPyZgHQkD3qzDIE4KSxX9_GpDLs_WffOs3DVzmZP_nmlCA=s220",
+        "view": "https://drive.google.com/file/d/1mtMKclRehsxsT7k6LBaOYsEKBTP65Yzy/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGppnhEsBEjdp9YBLrSjxYEKojMzJd9YcnX9y91gHV0wvVbJeR66C4Uq23Cg8uOi2m2NcxklmOf4yDOKbOckJRalKtK5617F1beA56A_r-JF1QUQ=s220",
+        "view": "https://drive.google.com/file/d/1vi2hi7m19VyUsDEFZz-23M8_Xf1wtf7B/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEWHAVUPzzFmBbdsyrOnKWqk7ZHnnANROQ-nX7P-9Lid0NemNvuisv7klwr8aMeA8CnGDWRBALQ7mPfUYyseqVLcDGGXSe_SGYhnWs66hrD8iD3w=s220",
+        "view": "https://drive.google.com/file/d/128lioi7d_HjFII3dCdt_tuV176oLbxeb/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPq4ySeDGZYl256fgwt0ckqhuEBezbRThdjNyRaRoLrfBhNpipwe48DTWQewfZFFpR4Ag6mDT24p2Kju7qGVo7w0_xuQFn2mXbykEdIT4FuuQkcNQ=s220",
+        "view": "https://drive.google.com/file/d/1GIoOBP8XIjw6hkdzBBDUDdVRZAGSZp-s/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120244 - 5/5/2026 (9 FOTOS)\n  → 120244_inicial ✅\n  → 120244_folio ✅\n  → 120244_corte ✅\n  → 120244_demolicion ✅\n  → 120244_caja ❌\n  → 120244_liga ✅\n  → 120244_mezcla ✅\n  → 120244_terminado ❌\n  → 120244_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120245",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120245 - 5/5/2026 (LEGACY)\n  → 120245_inicial ❌\n  → 120245_caja ❌\n  → 120245_terminado ❌",
+    "_folderId": "1i7qpKYDenYm5wbsoxtcK9d4TuAO1LFmz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNt47babN-pfDDKr_YSe_WQ6uKoLUkwTJ8FiAapdXyZjLGdyipLKlb3iLp9-Rnx0aInQ5Hx2S9gEx27PxNWwbMNJQhr1UzFCONwn2DhNcVg8vZb0A=s220",
+        "view": "https://drive.google.com/file/d/1fxsYFK3E_n3YgloFaWWRPjmY8M15IJ68/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaoZh7xGgZKXMajo4E870qy2hUwDFw2FKA_cG0bAJnTtPS2zPVdztS1b99svnKp-T--njaUoOHXY3TyihvB1oj1KAakdkNBnhoOQxtgiDfr149Ag=s220",
+        "view": "https://drive.google.com/file/d/1uLx4RApWooK7fIe6M4x5TFxCQIM1SZ-o/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOOj-b6UxjxsuAwv5DPKEuH2FylQjVS9R1bNF3XjZ-7IeZKqvYcQ_7DKTGZRWup-MzRUJQKKZpLTnkH8STTxf3w2foiVDwrss94PyTwCZXr55QPg=s220",
+        "view": "https://drive.google.com/file/d/1O8hoX3JHcqCzAJRaSnrAg46luAXK15pf/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOu-onskugjcnI5iCGilMD62ijcQFVOJCsQIONLe6xUdYMXNyD3Xcq6pzGY2cTFHzRvaxJUUZ7NF_hjHuo_ihr08U6g6jUd0qLE5mxu7dt577Wd3A=s220",
+        "view": "https://drive.google.com/file/d/1P-j0aXWqcdDoDpqfISqqyRu5WuhXpJGE/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuaYFJWp-nzlHc3MFkncP9LmbB0xdbPDDmLiXhW1JH41jYvtV-Uxcllm2mv1088G8Vof2fmt4yCtyB5I2QbgPmxxFY1rhnVxeAM61bM5uiQoVv6Q=s220",
+        "view": "https://drive.google.com/file/d/18-iGzK4ir3dGrzMCCRFD03lDJArZrB_Z/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCMUW7kTXic4ZDG3UVkvFnCQVYVqI7rqUIlIx7B1OzJmBBStvyw_G150a4afVwWpEaRfp62tk7iLSLV3TQuWR9paL28tCXgD8jWJMZDIF2iCw5UQ=s220",
+        "view": "https://drive.google.com/file/d/1sEaJB4bcw6drfvPx5li1JkRK4SRcTGg9/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzWLszETkb8w0kQC23jjEItClBGOHQeefvlLNVrx56OyPHgY0wffa_wXQOepnj3CMWj2m2Bk4OFfV2JVUHkNUksuEpzDx2SGVPuWWefqxHCdYHrg=s220",
+        "view": "https://drive.google.com/file/d/1zz80bx40PsTfp1ikCdTsPmwTdCBg83cq/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120245 - 5/5/2026 (9 FOTOS)\n  → 120245_inicial ✅\n  → 120245_folio ✅\n  → 120245_corte ✅\n  → 120245_demolicion ✅\n  → 120245_caja ❌\n  → 120245_liga ✅\n  → 120245_mezcla ✅\n  → 120245_terminado ❌\n  → 120245_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120246",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120246 - 5/5/2026 (LEGACY)\n  → 120246_inicial ❌\n  → 120246_caja ❌\n  → 120246_terminado ❌",
+    "_folderId": "1DnMQrEt0SlVDy0CVdAqb5_Zc2Ma_HehE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnbjXZC95DcsMh17WN-bb4kfNb_Z280b3QcvqBPS9MTR-cFEpBFeUzlMVwSixODIBpbdkOgkBBdNiZZlU87kzQ9V0WbstxQ9F6jCOCZ1H9qHRwKA=s220",
+        "view": "https://drive.google.com/file/d/1fRunC_KE2m6T1k7RkhdmHRdRzhGJQy13/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOT8Fac-y0I1pbdqb6PGsvvmbzvg_h94gBvjZC774_YtlTHNzeAa_FV10czyGwjri7gN_C2XTZy0e7xhf_gjsRwDCiLA-fNGFZw6mXINja-EAQC3A=s220",
+        "view": "https://drive.google.com/file/d/1TeYK-OKEyMdgSH5v9EV6YX4KEgNkAgRh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJagEpTpvAAABtGJWmpYpiyuTAQnGDwHCyXZOks0OQkx3pFVHURVYDriA9wsDnP_GewfteSE0dLIehUlXFMbUsaQY4t_Q94gKAnT0jAB91yI_p-A=s220",
+        "view": "https://drive.google.com/file/d/1RcreLB2lgO64MYJ3ReyWtxJc3MrEW4py/view?usp=drivesdk"
+      },
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0qveNlbEfTZPeLlY0kp439fD9kDd9Rhytxsf3iwKOICj8cuRnuobOMrmLXdGGcs96ja0bgcaRpKPdv6fSjnD5ouLTikjwlO3Yjl4kwmEazH0fIQ=s220",
+        "view": "https://drive.google.com/file/d/1kgxViFrnK8hYi4vHKdtG_GyXVwSNvMci/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5l0SCYsO-3RM2zI-5xYZpF0c88xpQ_pue9sAnMHg5Chfu1x0A0WLfhb6FbPnGc0PqWguoxuvZD-LkiEa-gi1kHnVYfjW27BuurX7Rxubu7FlEnQ=s220",
+        "view": "https://drive.google.com/file/d/1bmkNVhVolhMSVqi7tl6h51vDctulUUf3/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0zP9JvLXHeUJUbk8-N8GKY5vjW4jMJgUkoXwR0ZHhJDFWNdac8_Xglnj9z2aokQyRH01XJgNll7G4jtcJFKxMQfVKMBTlb5oIjF-uB0ZYmlckZQ=s220",
+        "view": "https://drive.google.com/file/d/1XN6oQhHNB8uWMl5q2FKwlr0qEyX0APDJ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120246 - 5/5/2026 (9 FOTOS)\n  → 120246_inicial ✅\n  → 120246_folio ✅\n  → 120246_corte ✅\n  → 120246_demolicion ❌\n  → 120246_caja ❌\n  → 120246_liga ✅\n  → 120246_mezcla ✅\n  → 120246_terminado ❌\n  → 120246_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120247",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120247 - 6/5/2026 (LEGACY)\n  → 120247_inicial ❌\n  → 120247_caja ❌\n  → 120247_terminado ❌",
+    "_folderId": "1DFiNsECcQfbyaFe27RIIKE_1FBEGR6LU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT5RDzanIMckfbmvhcjLoiOqMeQf5LNZTwr0w20MRAneMWEvSY0V_a2IMemPkyv01EJ7iW-k8S9G6oVSs1mhNXH8bAdUzN7xokjwk9TC1uEwoV8w=s220",
+        "view": "https://drive.google.com/file/d/1gYtEPv6uXPUyo296WeHAOLiQoOjsuW66/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgUMNqqPEukIWSwZ2dFMpB6YTMR9iekMSLohGVOhpT7HDFX4SJwzYeIV_LBfdCWoMCMBMJxBi9meiKVhMAXT9d1tyfnUtUOJ4sy1ochh6BVK4qig=s220",
+        "view": "https://drive.google.com/file/d/1fyEG-t6WNNy1IRfontE7DLsjb1mUkAxc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMBvn74huDDjwbDjFnmTVO4se6peSs0_RApzJQtKTon0ko5L4nofxoNbndvmmNOFGmDvzLZ7W4KP0cOHS1VmelIEaXDEQOmFjo8NBF2ilt4wPstQ=s220",
+        "view": "https://drive.google.com/file/d/1LMK0_bBZVc6SNdj3tUfG4j0z_DSruoNT/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPBqk_aYBVOdsSo3AYc0O5L93CeMmiggUoAC3mugUqtjuYDwwlZw99FPh_1NLVdxlg3c9Paux_f6EtbgHYDlKSNbyJLOlwfzB4_huwucsUbfNo-g=s220",
+        "view": "https://drive.google.com/file/d/1Bzk6Z3tGjDt7GAbJgECx2v_rC66e7wfd/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQO5TPxA5uNR_BI4Eq0vBQ70JoCrii4ZVAOQcrLW4YXHLUxWqgIyWbB9kth7KN9d6OSx80Ei1KSMkQIjp36W60BXWJPofyYMUbTzVh6F9Fl0tVuw=s220",
+        "view": "https://drive.google.com/file/d/1Rt-NCMHx2YYoU6QGbBRd9QE1Zu4WmmPl/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaBMYH3gpe9LLhsjSa5G1jgQvxForhosBpco_n1wzRVq6BKw9hOAyjGxZGD76GgalP-J0HpaoFMIcmjNLmp7uFZ6kjFhVwxX-3mgRaAK6Xl4M9lQ=s220",
+        "view": "https://drive.google.com/file/d/15lb4DQbq0GaGWejvVAuxU_y5eKScwOIi/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-uhcrZIsjnGS414qrEBCmEcjRntC3dp94FYiHuTHmOE5vz6t08hDj24TuXKBgXyxQw7smYEcOxpRYvytl_Zx31hotmVi1timYukt1RDKWZUJEnQ=s220",
+        "view": "https://drive.google.com/file/d/1ZUJ6bJgXwty3OICRmmvx2wcrrDiU5L1Y/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120247 - 6/5/2026 (9 FOTOS)\n  → 120247_inicial ✅\n  → 120247_folio ✅\n  → 120247_corte ✅\n  → 120247_demolicion ✅\n  → 120247_caja ❌\n  → 120247_liga ✅\n  → 120247_mezcla ✅\n  → 120247_terminado ❌\n  → 120247_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120248",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120248 - 6/5/2026 (LEGACY)\n  → 120248_inicial ❌\n  → 120248_caja ❌\n  → 120248_terminado ❌",
+    "_folderId": "1t-RPieDBDPzSi8OAbQHNa0mWAlOnohyH",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmDJEBe_3B_tR427BRLjBtewS9dn0_KENILj6a-rtNUFx_iYzooNiUI6qCa86_ACawiPizd3mCNlTwj5OTO212sElwauBASNWPfoXjQ1mxHB_ZPQ=s220",
+        "view": "https://drive.google.com/file/d/1B_IfMa2c1kt9mZQqF7UaJ2gLhl_lclKN/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlj1KZrUbEK36fCKCWg6PxOhXrNzhpFy-qhJsaCbqkERSyruV2dTGGbf5UWHr5fVddvTRRQUrApPfMbWHMndihqBPQmCjfRvHumMOa8ADavVyQxQ=s220",
+        "view": "https://drive.google.com/file/d/1malTXOvPJ32rm8tYc-vy_k4s2TocAN9Q/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmVDW2QQ0apaYorUfu8OnTelnriUKz2SFw-_kNvdGlKnckoHeYG9VOTWg-e0-a98FhnqK_M3zbwZUKF6trzDWyrLOTDtgHnKC44_5uTmpRPUZqCQ=s220",
+        "view": "https://drive.google.com/file/d/1SYkaAGYszVpJqh9q_g6JSE2VeHEQeeg2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_U2i-zyhVMbilOgCr6oBAfOXA7HMexVO682J8i1hUiMvtLqMWKxi-i_hqwmROqYiiLkx8IeQHJ0_WGOMBy5yiP4rqrGcwLRzKKkZJuA-Y1Pf2Dw=s220",
+        "view": "https://drive.google.com/file/d/1CelN8V9SpVcM-D18sTyEpH3ueptaxfUV/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9eMsliMFlBseb4lJ94uBQvVJDXGxwKtUXuCw-zr73dxShpMjLSnnszv8t7Y1fGH8a_35Aji4mgz0s0e0z0G1LObe0rk1ZrJvVkN2EoXSDJFsvpw=s220",
+        "view": "https://drive.google.com/file/d/1-UEr9HnPe_GAAICvwIx-qWEQQSOX_X55/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZFfYICR0jbmF2mPGC8O9b9fIoX7aaVcOV9ER_TBwtqHEmEKct2HqKwZ3tZnCnu058vzdenPZQvqBSxfOLWLUi4bSGaAR_6ACYrAGtaGt5ceHwRg=s220",
+        "view": "https://drive.google.com/file/d/1Qb32zFxmMIID-JiUVvSpnFd_rtk_ppa_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUxSYRCxPcPw49znhp9tTrD3HJtL2J2fXzr1TE6Zf0wIwtoNRloNpH-8yff7YDaVY02WlTkXN-gbXEI5cWvwsQYp_pMYkub0sYow9oxdLBBx7jBA=s220",
+        "view": "https://drive.google.com/file/d/1QIZNTOX7XJQj3-1lur7PSFedkLAw-D27/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120248 - 6/5/2026 (9 FOTOS)\n  → 120248_inicial ✅\n  → 120248_folio ✅\n  → 120248_corte ✅\n  → 120248_demolicion ✅\n  → 120248_caja ❌\n  → 120248_liga ✅\n  → 120248_mezcla ✅\n  → 120248_terminado ❌\n  → 120248_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120249",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120249 - 6/5/2026 (LEGACY)\n  → 120249_inicial ❌\n  → 120249_caja ❌\n  → 120249_terminado ❌",
+    "_folderId": "1V64YtCbOlmohR_p-tW6I-mDOASbN3UrR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMO8xISKvYh4mlvw0yjJliyw0BsQntAOgNQPZnn593QqtTeIBC9FbN6fuGL_jWPvmeGiJm8gLknwCAb1u8ZLZauFlqITzZnOfpIylCY2ORRJDQn5A=s220",
+        "view": "https://drive.google.com/file/d/12CZ0mRMIpYkOwqKDeaHOMZEeL0P14yfT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKdkmGcBHZ_wJxd2FfmplS8Stl7MVCqc6rmNL-u_kozr8KSo9GF7hWd_b0ko9aVD3lTp7I1tJOOAV5vAhdZ8c_YqR4DGnKCMLHJ7MahbZuQDnRCA=s220",
+        "view": "https://drive.google.com/file/d/1APugvnphYkX9xe-1imQFyNOEvk75ygaw/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_dG27RwKpmhS9M3vvrk9kFRv7UrFn31SkmHHK7AWfc_gJRkIxkN-zp0HHY7mDFepXu57CUG7LggvEtTp78d0z9zUZc2cG9IMhXQX-V3x6vartbg=s220",
+        "view": "https://drive.google.com/file/d/1vG77DD6En2crwnuD7d6zBhlvKFIpqW4K/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIe4MAFqvdnL8nmE1YZ9NZc3o2sRpSvCu6-UNccAruI1-0kUaNlYb9UV0Mgyutr-1DRYfoZjddmiQgaSKlwMD0f_51Un8f_rEsqK04mjRX7CKerQ=s220",
+        "view": "https://drive.google.com/file/d/1gosoMuc-2qa6dH9ZkvcripUyccIadxtY/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOP4VaNEuWtyR2XUvAZ9wBnJpdm9HZ40M4QxXEHqIFOPFlZLEu1EwBstC_hCe2OppVFMRShz3UzOOlHxsJa-LtstO3f5TjyKQuDGy9prz_LEmqr8A=s220",
+        "view": "https://drive.google.com/file/d/1SdO8Yj7K6pv08UPRvJRJNKWsPJiJt3ry/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdyTklT4UZwGwQRZ_7Gu2AiVK_KHm5PFd2fMwXYqBHdb7_yCGaelbGLF65h8QpoNmI2k1rbHY_JQTlye4TSugfEb1xxweBz8ySSUshBbQ0JzaCcA=s220",
+        "view": "https://drive.google.com/file/d/1zxeK_a5rAlnmbagwkH1gFqFyJYXoQ-Ig/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3YSim_AVYwBNTA_mskFOmC1DLj13tmaeZojyDBtnumSJSKnq1GWpa9x6gsg6cmUIeSYY7cYK31-G_wJnvb4SKAZmJ2S00gGqVo9R4W7b3G5rc-g=s220",
+        "view": "https://drive.google.com/file/d/1buGcTzEMXhRI2qt86djeh9ongaTjPK2e/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120249 - 6/5/2026 (9 FOTOS)\n  → 120249_inicial ✅\n  → 120249_folio ✅\n  → 120249_corte ✅\n  → 120249_demolicion ✅\n  → 120249_caja ❌\n  → 120249_liga ✅\n  → 120249_mezcla ✅\n  → 120249_terminado ❌\n  → 120249_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120250",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120250 - 6/5/2026 (LEGACY)\n  → 120250_inicial ❌\n  → 120250_caja ❌\n  → 120250_terminado ❌",
+    "_folderId": "1JDMyCnQR6DRf4mYZl1RGquMGQ_UjMHQu",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsq8HXmbk0oYDREj5pQBhYXMdm3WdrHXYUFPyNwmQYZ2jJRUNybr2X-r_XethmB_IzGr_HnaRsGJYLGAKxZPg8YzhyrIj94TWC8QpJo7grwbMKMQ=s220",
+        "view": "https://drive.google.com/file/d/1GFxgkXq2vmHyz2Lz81W0w1S0bcsmcmt8/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfTpKD1y_ASdushILsGOvlcc7BUR3g_5amJVrlz2i97P1gO_Mj7IU2fkdnFEqbvNM1XTMEX9sZ5-iiuMdc6JQLFgLrCkkcspOQ_peE0XUurtJ7Pw=s220",
+        "view": "https://drive.google.com/file/d/1AX5PWEFTFQx0BepxcksvhaCdMBUPdPMz/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6DLz3fyp374TH_NeXa_ELKYkprmn4sMvZ0Tya6bakMNWMbk6WwX5CA_4RbUHP_7Q-vPNG-CRD2QxyvD3A7PxLjJBZZPq3UwEz5szDylnYCLLvfA=s220",
+        "view": "https://drive.google.com/file/d/1mNHqOcJMZbbaxNMwlQ6ETY_Ac-CVfK4k/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6WsrLUrHpRNS7EL_HydsrtpUZR5ap8083arD5EXHJDEqkzH2T5Xg9edLb0p6dFxNfV5pQgqG4sNZWBvIQ8a0JcxnF63aOJCX8RDs5AHHSdeLdKw=s220",
+        "view": "https://drive.google.com/file/d/1d5zFEB-a_xUOJfvzUs6LEnnkbgHcTiVs/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiOP4e9xy0yRy5kIgckuyDzbuLjt-5hrbiE1seVR3e_ELwTwJ4gEZ74TAmB2rCZrbH6tC5J9ZPCrpxy-Hy9gq1UPOaHZDq_AyBZ3tCPsysPm4rjw=s220",
+        "view": "https://drive.google.com/file/d/1YYoLLGByAHf1BjfB8PbhTKoQq5LeWKZK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWp96tL4QmbJPmYnuyFWJnwi5u0j_uTlO2JlHrwEFz0EmNtFCokMGJ3TRr59HlFjjw_iCLemeqmdr0fec0PfWzxDlWkMt_DX1MNGN5YycZrQ-OXQ=s220",
+        "view": "https://drive.google.com/file/d/1roFEqUUu7qEpJpzIs9RTtvF2s5LmhJAt/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf9oBT0XU74_ZWtfpE5GTNZl5nWJX-fhXeaxPsvojNO8NHfCE1KDzOPsfrewgdX6uxsXA9ezxLkZDa1otHQmJs7JGO2wJ-PXHTyuzFY9A0a_AfYg=s220",
+        "view": "https://drive.google.com/file/d/1zXZRnkTSopC4LACkjdw3n4gaCfWt-vH5/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120250 - 6/5/2026 (9 FOTOS)\n  → 120250_inicial ✅\n  → 120250_folio ✅\n  → 120250_corte ✅\n  → 120250_demolicion ✅\n  → 120250_caja ❌\n  → 120250_liga ✅\n  → 120250_mezcla ✅\n  → 120250_terminado ❌\n  → 120250_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120251",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120251 - 6/5/2026 (LEGACY)\n  → 120251_inicial ❌\n  → 120251_caja ❌\n  → 120251_terminado ❌",
+    "_folderId": "1hFzlixUEOnLAJc34dbXqVasHMiIcgLOz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOn7NHuyPFIA72i5jrs0IFuddTjqVAusLAhnEn56s_Ladexl6hduIcugJuaXig7aFLhYJiLqhqdoVDQkzi6SSWw6RiaH3OxzPC883tSH6HjO6U7BA=s220",
+        "view": "https://drive.google.com/file/d/1HMcl93wq7gTMDOPzpvTLv3aOULXwCj2V/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDWR-ZM8EWyqvO7qp4BSuJRrzIBvhQ-o91PpSRfNo64OgZ3UJ25vPqGDQxH0t_zcGyOZ7Bto_YW0TxrfP5hrDM8nqDQ4Q5n6liX-VuQ_R0Xiipig=s220",
+        "view": "https://drive.google.com/file/d/1gZj5IyZMvmm5IUrA1n6uncrXzSYx-Y8J/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSZ8SREugMix9ZJTgMy5pijtwcxHlmvakir-3tB338cwMf1JcpQ1aGX6i5SUyEn0JTDxTmsqtt_Z_QhKeMemP2u46FVS18D07qki4Ta1iWUVmm-g=s220",
+        "view": "https://drive.google.com/file/d/1s3czIvK9C7JLAUWVpR-cVcdHtZIrAr7w/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNl0HEM4wleYIagK5uHEvyJgQh7cf25Rzyi_pzs62ukYwbqkPB-ny-GoSj8CBrPpN6oyktlxzBhDuf-AGm2Ai21E4fFZ0roLz2Dv87zXuSdJBV3ZQ=s220",
+        "view": "https://drive.google.com/file/d/10St3aPzxxjafxyBQfP6KtUgePR-AqiUf/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7DlbaHEh3Mpd-vZyvz010oiO3UxinA1bujD4MjCB6yrMTu6B6ha0rW-grXKDoRFvVaxHs9j53OGBGC_sXA31SJaffr8fWDMA0NOMYKBESJPVTPg=s220",
+        "view": "https://drive.google.com/file/d/1AxFcLEeU_WRBeW32y1oI3HyUAwqdLz-6/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9RqM-TOUfkc9JzwqgOyK6HcCD_NmQM9nRzdrjAa9XmHM0B8wSweI-m8FAU_Xk992ADrxDtz87BMjfUMkh5KBjRrOWvtgpz9GqCpKiT-FPFTbW8Q=s220",
+        "view": "https://drive.google.com/file/d/1b5DYZbC2I_wuaNfJcLWX2hBDJ5weD-GU/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5rmWLF3B90tjJgOu-IlMeUJ63_0bjjGyV_rryeFGTOlfO3BFqmYJ3K4P19TfAcIL_TF7nrTYEz83HnVO4ffXOReTJ6iCtZKGlue1_C9JQVLRXkg=s220",
+        "view": "https://drive.google.com/file/d/13F9pFANdGyfI_IT3rHUrQWBGbRQOJPIR/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120251 - 6/5/2026 (9 FOTOS)\n  → 120251_inicial ✅\n  → 120251_folio ✅\n  → 120251_corte ✅\n  → 120251_demolicion ✅\n  → 120251_caja ❌\n  → 120251_liga ✅\n  → 120251_mezcla ✅\n  → 120251_terminado ❌\n  → 120251_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120252",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120252 - 6/5/2026 (LEGACY)\n  → 120252_inicial ❌\n  → 120252_caja ❌\n  → 120252_terminado ❌",
+    "_folderId": "1bS6z3WZTd1yHQ6G2pE0aJNQuYcF8g-0I",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEGOXk5y1-v3i2e4pCciu8AeaEs5HpiNPvcAa09RS69jxMpgyhwj2aZ_kXuoTgo6A7Sh31YVfB0Hpkgyhuhv8ebVJvwgXdrgh9W1Zdnsoxd-5FNg=s220",
+        "view": "https://drive.google.com/file/d/1bnSH_JBpmpYSAf07pKJOsxtO48B5-tgk/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0ptpzVpT19siaWVWJMSpvLOgzgL4R7xPdPht4fW_7IcPrYAncZs1X7SgjUzmnCoMxNwDJvm-QwoAxr0HeLGt7pknv3DQQH7byFp9i-ADLPhreOw=s220",
+        "view": "https://drive.google.com/file/d/1DtJbkKT766skqfh4atLRlJP50vppPZyU/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYlYxClVpOTRvtMU1033zrLGi0hVWtXZyizI7IFn8aTHSvigeo48AzZ8wKrbGr1985x71j2Mzpdc_I_oUeyM03MRJV2Wxo7lkHZa9IlZqe6x7q7w=s220",
+        "view": "https://drive.google.com/file/d/1Dt8kTCUJvFbpz35QHICHMe58Tot-DSwZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOc1GbnzWBR5hkN--C3wrzWdfK6Tz8QtQjGXgOrsUXjDtlfllZNNfKm4Ux2YE07YRL4q3loOPsp2mYgtSqSM5s-fmaTwRx-Ld53gaItZ4ZUnxEypw=s220",
+        "view": "https://drive.google.com/file/d/1qjWga57kXyrBsC5DdVMhDEcEzHO-EjuF/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpA6lL599e7gflcf_cesrU88lX7EZzsl11z7sPR0GhBJRFigQ4tjVrcH1ccwzRJeKtDNqf2q1lyYVKtArlijw2X1Oye9JGfQU3crSxP5ssd0Fvfg=s220",
+        "view": "https://drive.google.com/file/d/1GohWzCn_mdAfHVux-4dBOLf_nzQzmWPV/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzVwA5aTJJPf4sQ7n83WFiFjpq_8jKubFmpYLB31BbIw5rzD9QAh1ivJQTHXQBGqcEPbCP-L3LD3m4NP5JjK2zGNtR3Z6azPVVlij2QbKlFeihrA=s220",
+        "view": "https://drive.google.com/file/d/17f2l1TZ2o8hTk2LIXL9Mi_GXdo5gd-8M/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0uVInle7HoU0XSSNkzIhWf83_gq1eUWGRWYhk_IL0FmR1GoQ8Wo_fpVnYBMfROjAJB4_-UwLikGfG_yF7vy_dfN_5rWlJHJ4hu1dZGoV-ZUS7Ig=s220",
+        "view": "https://drive.google.com/file/d/1ewJw709Iesi3jT-87mowETNpkIachdoB/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120252 - 6/5/2026 (9 FOTOS)\n  → 120252_inicial ✅\n  → 120252_folio ✅\n  → 120252_corte ✅\n  → 120252_demolicion ✅\n  → 120252_caja ❌\n  → 120252_liga ✅\n  → 120252_mezcla ✅\n  → 120252_terminado ❌\n  → 120252_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120253",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120253 - 6/5/2026 (LEGACY)\n  → 120253_inicial ❌\n  → 120253_caja ❌\n  → 120253_terminado ❌",
+    "_folderId": "1yIp8cRYuJpf6NtwF-QWrvr8mdY6-Fz6z",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNEp22ZuUvR7ujfEZoCyYq5bNlr6o0fi-xXg9rVw6MsjogZOeZkq70vQm73PHfCfbN0LyTimuQyf7J35VJAmTGt_InU-8hpDR41SadbmD5v-S4xg=s220",
+        "view": "https://drive.google.com/file/d/1qw7ElcJm7InzHk285WsIhqcSlznOqY2F/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYxqZrIw_l5986M94RNSNladM3dYNL93fHItDUyM2pqtY-5NdAvmlqsQuJ1p2ydg-RwofRbDm5yPm29BenD6TTMOxvER-TLkzXAfqa4yCCyT0Yyw=s220",
+        "view": "https://drive.google.com/file/d/1cpZfbLX34PVxPttbhFUevzVTVtF8wxQX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMImDf2igx3JNR098kGzv9-IWh7qDHUGQ4cVwyYLzWA-CeWmbNrDkcor6xko-jX7vEoczd7h1xUKBLeG8sYusIlEyjlgtF2eZV8A3G3MvWdGCMm_w=s220",
+        "view": "https://drive.google.com/file/d/1StfYtyazIDMPf6nf66Ddq3bMm3WuPeG8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj2T4Mu-w5jpFwhLLpbzM-yZ0o72YJdmH5R-MLUVLv-VfC0fTlNvq38GMnN5VoaKxfKEm_1xexSs6uDoIBiJ-oxDfge8SnMOeBrAvaGtIUVrfSYQ=s220",
+        "view": "https://drive.google.com/file/d/1lvXryhap_H9MO3J7Q75NqwznHjTcbadz/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRxhn3_ld49tGEn0o8DNNFaP-2acRkn7ZWLCNxRjJZdPe9YvO1MDEyAbOeMg67yj6HDY_4B35r3G8Kyy8yoSeuBjvMxj4_noSBkrAPmvT_sMtkcQ=s220",
+        "view": "https://drive.google.com/file/d/1uag4kXsDt8ciWdcXfRX5fP_qZLvumkxC/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtVUX23bZz1gkhzoADgU3dHDBimYYvSWEZGjB-lswEqMImEJ_2S2tPZjjJf937qM8VUguvOAwJVmI9DKCdhLSz-oU0-Zrx1qlw36SzDjwuv0UfOw=s220",
+        "view": "https://drive.google.com/file/d/11NsdRCmA7hwv8PA1xodmP2xor6fDLqRK/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuKpBa2-jqROCvZCZnNAQB0qziN0xiuGM4bwm5UorS9gdaD05VQcYRPUdp6J2f0vh1hDOjB5oUKaEcZL0pOltclLzpvTefEy9xqjLw9P-odNpMpw=s220",
+        "view": "https://drive.google.com/file/d/1m489ZqfGrrlhkg63Z2yQDJS0F2E_P4My/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120253 - 6/5/2026 (9 FOTOS)\n  → 120253_inicial ✅\n  → 120253_folio ✅\n  → 120253_corte ✅\n  → 120253_demolicion ✅\n  → 120253_caja ❌\n  → 120253_liga ✅\n  → 120253_mezcla ✅\n  → 120253_terminado ❌\n  → 120253_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120254",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120254 - 6/5/2026 (LEGACY)\n  → 120254_inicial ❌\n  → 120254_caja ❌\n  → 120254_terminado ❌",
+    "_folderId": "1Rp4xLT7lGCIfurKDHkVMS8Jdml1ew7s1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoXP_Npl3gVIJV0AdYw5Q7yrswO1ygMKC-g_yxHnlJ8bb-ULe6-crFY3GBirNJMZ-5o_PtEHvlV8LxsIfxbsdHWQFYhFILNUIKFe_pximEdYxZyw=s220",
+        "view": "https://drive.google.com/file/d/13R0rXUNol1V9IP3z7vZjqn90V5LNVhhg/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNV_RdWqMjdY0m_sqjgVbhrH-f7sWGWO520HVH8STv5qGkYTFaG8BufdxsBR0UuUJaEh6zqu5Hu-pbdPEeTUKnPOnZ_kFgW_Rxf44Wws5c5sty_A=s220",
+        "view": "https://drive.google.com/file/d/1vQdzfPMJKOcDqltD41J0ayZPyBA0Y1tx/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCSFqdz8HKVMX8aZAyvnlcgM8j5o7DNDq_Hk8_om2-QRE2IcepLlvdta7UJZPo2EmgQ-KatseI4BvUakBO7yvR0oZQgPbHNEOLzR7AMPOo7iOp_g=s220",
+        "view": "https://drive.google.com/file/d/1qeWsCqy4By2AktPgTlhkUW5Y7BAR_fKt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTl2Itrsy08tr_qgXDuLEspBmzwW4sC7V7F7JsuWAP8-6QWsr8WuApFmqFjrXskwPgyQTV_a2SEoQ9dr39FNn019GFEUGc8fxVjfXUwDKaA12rVw=s220",
+        "view": "https://drive.google.com/file/d/1OEpeJwhVsD4l4gnKJ4Ral7s0utVuiY88/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIT9nBSVaMCopQvkwFaTzZAseFt8sJU5DTDr2SFkYNdKMMeynYIfTXBOHNlunGkxgRSGWtCYbhqSnoFXg2WOBlxuC4-Dxo5nkb0OunRMFnBclGVA=s220",
+        "view": "https://drive.google.com/file/d/1wISJv1Q-OyzbojzSVitMF3HYKwIeb4d5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdw8j9mEt8J3Y7CCPqtp2To2TQT0JDBbcKBOoi6my4Cpq5QPxMF9q9P1pNWXDIBndYY9fJhKGbb4NjP7x2_cI07Peom7Xh93FHUPlZXbjPpYFEbg=s220",
+        "view": "https://drive.google.com/file/d/1BX3PMu45uedg7kGD4C8_-E9xqgZru3lD/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPu_1n5ZliIwXucN6r91a_7JuXBjkpvU3uj7_em0QoGV0FoJhJs0ikyNv3K1937jBPOTFxkuIKabvn9YyIAQ6ODpslXzCNEGmLx2n7fggLeUHz8qQ=s220",
+        "view": "https://drive.google.com/file/d/1yzKNGN1JqWppv9dQQFZzH158PWGluzQK/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120254 - 6/5/2026 (9 FOTOS)\n  → 120254_inicial ✅\n  → 120254_folio ✅\n  → 120254_corte ✅\n  → 120254_demolicion ✅\n  → 120254_caja ❌\n  → 120254_liga ✅\n  → 120254_mezcla ✅\n  → 120254_terminado ❌\n  → 120254_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120255",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120255 - 6/5/2026 (LEGACY)\n  → 120255_inicial ❌\n  → 120255_caja ❌\n  → 120255_terminado ❌",
+    "_folderId": "1mueTz08crFMxBs5zpC_uQ6M2rkuM1ia2",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoeMR3QlR3JS0ZS4ofDb_JftZrJUAHe6WJzVJDZf4J12WhK5yspO3PPHa3xTcPP0SdZD-SsKT-6VpoatbXjaWpKb604CA8CLTAZscH0rt8Tod1vw=s220",
+        "view": "https://drive.google.com/file/d/14LXiH_rK4njDs5pQKc8_RSi213yipp_C/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPDLggn6_8ztCH1br5Z0SdJAs6a0pIwRLPBIAiwMNlhr8IuFog1CMYyAi-_4xS-ExYCCvYLXXByjPjnho2nvEzqXapqe_D-GiBSR9iKAwIcyfcFQ=s220",
+        "view": "https://drive.google.com/file/d/1VggGo-C67ue-VwDoWRn0VPhtnVIiL5wN/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQga_bqrK_JSoNHtE69mKmiubM__qNtpLMNnACihR5iJEwwfs2FZ8tE0LtWl-qV7iV8RuOER28ABvTYChEPnt0Wr7jNrQ_2dZAD1uOqxy9a_Ef-Q=s220",
+        "view": "https://drive.google.com/file/d/1xSANrLSSSfSOLaFtKFDpRf_xx3j3TM9B/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5tRKd7wU9bcWtG7TELnlLpRsmRbfqcIy-tyFZQizHXEN3UdPBJ37efpzKPeo7iijh5K3-0xP9L9ZL3RXo6_EYCQBy0gzEZTnbPvZukFSdoipLIg=s220",
+        "view": "https://drive.google.com/file/d/1DI0GLFWhWZiiryk8O5TWAfvYIr80FXbw/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHewZMOQ0vLBTQlC8xE5jMKweMK6peA-ZAZ_PIm-FbAZFN3m81s8CZJKSyUOtZ_lLg2zyEBzkJCiDTkB67YbSpXoxCRfXWVLVk_eRrWb5MF1ZNiQ=s220",
+        "view": "https://drive.google.com/file/d/16LcUCT8NifMM38EClXQG_gZkkJT2-dSA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOl4cKbVcCni6XKbjr2WLr18694PoHCX2O8R4ZJC_SSkJn6EvzoQrE4HWNu42mNNTCKB5mDSEtuITKJAPazcZ3X5_S56PRHizUbOQO3vWyQKLz1sg=s220",
+        "view": "https://drive.google.com/file/d/1FNcTCG0YKFozt9QNzB7wVF7ed0mK2QRM/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLicfES6yviw3OjWH_v2pR6xJsrnCUqoUc9UUWr9hWblI_dmja5a8jPJurTdGryi5qvyi4pctMDvuKLMupaFMr5a28pesIENoiMLlfqlVLdtDGxw=s220",
+        "view": "https://drive.google.com/file/d/1kJZl-GMhCZmeorrvdbUVxXQwWo5uKM2s/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120255 - 6/5/2026 (9 FOTOS)\n  → 120255_inicial ✅\n  → 120255_folio ✅\n  → 120255_corte ✅\n  → 120255_demolicion ✅\n  → 120255_caja ❌\n  → 120255_liga ✅\n  → 120255_mezcla ✅\n  → 120255_terminado ❌\n  → 120255_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120256",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120256 - 6/5/2026 (LEGACY)\n  → 120256_inicial ❌\n  → 120256_caja ❌\n  → 120256_terminado ❌",
+    "_folderId": "1qpc9UK2cQRBVumJVPh0qEFlcpoVZqWW4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPweNxgjijuNAJAXyihvvs2WtnlVO7MLoBPZ9DxE2ctOPU_PgmvLHmAS6DVeSWwoG6OOEvcpnayngKxufxYI_fXNLrulnDlKvucBmgYpbIdHC6tlA=s220",
+        "view": "https://drive.google.com/file/d/1KfoF-6M0QxOpaZ5SJWoxdG0B9jEQhZ4Y/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOx8A_B9L1aS2QSLsfVMxrUeLG9Hxi4bxQe2Ssp-4sxW6w4Fm8aZGesznNOydpe_kGZUPyHmsx-OOgsMx7ny8pbajQt_dLv_cAndFU5Fb0X-0xPAA=s220",
+        "view": "https://drive.google.com/file/d/1bomt-7exy54T4G54b8n19rkse-0qkptT/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZHpYvLZUS22neaX-lWqjiD8_Ie8bKVz4WChB3NWhW0aM1u1MJuCE_1PODgZ3x2JhgjDmOigNqgAw8yJRsEeKzM1ZJTC4JMOBSr-8Idggs7meuLg=s220",
+        "view": "https://drive.google.com/file/d/1D_vu-M4gh3gPpHd96Jns3SO6Cm2Sqr80/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6p7Bv10svp7DX2xvQsSJt7b63VOGojqWOtTinUcdFOr9XxpADOVGB_3C3OhguelPbl2lUmtCLhlRObLbbF_Crhp5kEvkt_yQ2g-csyFKmmQN3WQ=s220",
+        "view": "https://drive.google.com/file/d/14dgzSCJu4MlsgrKidyetfInoNBr6hpp3/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVORmDV6g25y7o4qNPfunlCp9poXWYOcatuH_DFmqK4BtozrB85rsx2mRaQ7RTAFhkfBDTOY0qGaMsz8RM7jCipO4NJYxFWgOTwFUUpVd1BWlR9Q=s220",
+        "view": "https://drive.google.com/file/d/1lvlAqnAt7Z6sks-gVNQ4HrW0off9Q0Jk/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvKLSLdohbgbkcZ2mb0bDkv4BrXEIXgEo5qUoPX1iu83aTbsB5Z83TDsxCSh1q0aLtaN0AMm80RsA8__R_vJBbAlmZzdKB7iTVqeBacftinrwSOQ=s220",
+        "view": "https://drive.google.com/file/d/11haO4VD0zywm9JrPhSexnn3oZiMKMBFl/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6dWco24Do8TIzM158HZ8NRaBg2jGRMFd1eLfhOW--ifNVupsWRy_L7u5JwGTjIYmv7-_ycacaibslNoamAC3MrMm1rkVvXCmUvviMtcmeBOKChQ=s220",
+        "view": "https://drive.google.com/file/d/16AM2L0hpa03u1Lz7z1hkCjs7iDWLZjOr/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120256 - 6/5/2026 (9 FOTOS)\n  → 120256_inicial ✅\n  → 120256_folio ✅\n  → 120256_corte ✅\n  → 120256_demolicion ✅\n  → 120256_caja ❌\n  → 120256_liga ✅\n  → 120256_mezcla ✅\n  → 120256_terminado ❌\n  → 120256_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120257",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "MARIANO MATAMOROS",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120257 - 7/5/2026 (LEGACY)\n  → 120257_inicial ❌\n  → 120257_caja ❌\n  → 120257_terminado ❌",
+    "_folderId": "1sXFyfvcxgtWxJAspEPLtA1J7WRHPFCTn",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOq1vOOfWgvylddsdfeLj08qlq4Oj0eNv2YZrQy0zUznNjScGc6XvjIh7LrjZaeJfHKb3--Jjja88SUvycSNZ9IzcUBu6B9bL_a0tIVZMNbqp7En8M=s220",
+        "view": "https://drive.google.com/file/d/1ZiupSCDVSp3h2Qf9p8GTFRXMgLg96hFT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNby-rbv_6PDjBh_yaUF6dqRB8i3gr5pV7KmtGmbPXR2HyzlHokDgE45DYU7skp1hn79xjeVyhl9u4DGPJ6WBbi9F5r2fFf7Wr3bbAHa6nYO0TaIA=s220",
+        "view": "https://drive.google.com/file/d/1QUSJ_05A8IJFR70-5zUS44woLrsWT8ie/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPllmNoTWTCF67TIbJ6PZLItRLo30krRZqAZ_oHidZZkvlMzbJjxI2F0CrvKL3JEaFwibZxjFU6NVc2TiPI-eIj7oCAdS1UTbT6MjIvYy3KpenVPY4=s220",
+        "view": "https://drive.google.com/file/d/1jw6Zzrm5jYbgZfLietCxi_jSLgMFk4dw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcN2pwG-lo93ZF1uduxj4HZ2K5OR9EOPd7x21Q_kNl9t2uL_tBjvGyn7cV8llUVSY0b5I6XZ8F2KpVSS-4AlfeCOlbLDG5x-6GZRBs2SifcQApVg=s220",
+        "view": "https://drive.google.com/file/d/1AlAVcuaHSexosZTHaeq1gQgBiEHbBwQF/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYgnfHpH_cRE2oE1EatXQOd2trtKK_tArouqghxwpTBYt-9aD_aszwCZysLcTlmxZs7CrWy6f7WdBDOiA_NKqZOEvn9x4Vze7ySlTlaD-BYziG0g=s220",
+        "view": "https://drive.google.com/file/d/1yNEpv2xk2kbnwHrV3GTZAXSYgIrYY3YD/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-8rrR1cDxa6ZyePdOco7B_zfibEZHkVaojDUwWqzsYwkcxtlf_z6cfXv0CQdpJfLJqnZEARK19HD-ITO4OMOlggCLK7BUKAfOdLD1DVa4gAeLlA=s220",
+        "view": "https://drive.google.com/file/d/1BfMMNKLUrsbJ1nvpH29WUErgX76AHWEC/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9oZBW3KtLMzbe0kOd5_8-GG5kh4a1wcnX8-RuPltpcfCBctZiVgx-dQeb6LwfPOFyfXBMvix4rOWACmpy3m9-4XGH-WtA20gw1fe_gTAoEBk_pg=s220",
+        "view": "https://drive.google.com/file/d/1-MimA_pdJANHtFsDNcrIW6Z17LDCHz6R/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120257 - 7/5/2026 (9 FOTOS)\n  → 120257_inicial ✅\n  → 120257_folio ✅\n  → 120257_corte ✅\n  → 120257_demolicion ✅\n  → 120257_caja ❌\n  → 120257_liga ✅\n  → 120257_mezcla ✅\n  → 120257_terminado ❌\n  → 120257_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120258",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120258 - 7/5/2026 (LEGACY)\n  → 120258_inicial ❌\n  → 120258_caja ❌\n  → 120258_terminado ❌",
+    "_folderId": "1fUeTjvRr8TDasnp7NJrzEvgXHevwqJWD",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvicxdMurDA00qB7tpZOruZ2bNRgY-7q7waGOQBNs8b-87bhkqXp-XBAET3fna3PCqdkTwE9tlxVyBjCYOb9_gpPJTrVW2Mg2KMHtqFob6sE2NMA=s220",
+        "view": "https://drive.google.com/file/d/1Ve1z-DIkqTYPvZXzJIU4JQJUDSsekEBs/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdeiw6VnmTLLPBcRJG9n13soS_yrJ9hmI4N0AVvrhOKFxZzNeTTclpUav_7FfBagQqzCDBfJmSzEpDHxUlUALknQZ_nd8FIwW_8rYHY0BOlsReyw=s220",
+        "view": "https://drive.google.com/file/d/1tR7w8QYJ6DNrGqa6auQ_4gmcjc2_2vBO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_GzhA9xoHPL9m4JP1WzqOrEf1gG0RhSiR7lVkgt0kfOCXmdDAMQYLfwAtibHEVREx3sNmTVgx10iYd7Rb9ySIELjKMSQOW0b2vzKUDQnGVYZTRQ=s220",
+        "view": "https://drive.google.com/file/d/1O7QvcThvaFDZj_-yBxMz8Xi_by0ud73I/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAYy04nWi0zWB2hbo3jAeaVwYjYNrYze7bPgprc7oomTDTSWG5_kpPIX9CVngh8rSfi239c_oXi6W1lEC3jh1EpNmlj2GNcaFmALaRrKbYBVRm0A=s220",
+        "view": "https://drive.google.com/file/d/1Pgws_hOaGmDzbwUXpow9ZQ9tb_LF0TSk/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlWTG-TqXjwov064LkO3yw4Z0uZU3qtGXubKUTKr_cdK5ipZTY4hWeqtfJT-EhSZRS0avMqiJDZs3l29hHGOL_oDFuPLUPe7oQhOdbWzVU8J9yWA=s220",
+        "view": "https://drive.google.com/file/d/1IxdZSSBuUFWne3fe4XLCvssLQflljxlp/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpXmxG1tOAyaHTg4TtMqGjwYlNa_ybRSFsX5WK3TbUsliEkDW_-Nugq9cnDzJ649882rnezHFdX5kCN-B3jYUv24mgzaWkzovEs454M6wetOA08A=s220",
+        "view": "https://drive.google.com/file/d/1XBc3tIEcsDQtajofA1OD8omGuXb_BoNV/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhEd8_XC-QkwYuh84UfiihkYFOJQci0P-jaU-K5g39LoKpZM56BYu9mfOC_5l_uTq2hj1BJ-vs_OovUw35xHSxdwm1MDbAKM4vEl7moBfv8W2dmg=s220",
+        "view": "https://drive.google.com/file/d/1C_i-HmOO3TWI1eY4JO0t5eTCr-W-l1nJ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120258 - 7/5/2026 (9 FOTOS)\n  → 120258_inicial ✅\n  → 120258_folio ✅\n  → 120258_corte ✅\n  → 120258_demolicion ✅\n  → 120258_caja ❌\n  → 120258_liga ✅\n  → 120258_mezcla ✅\n  → 120258_terminado ❌\n  → 120258_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120259",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120259 - 7/5/2026 (LEGACY)\n  → 120259_inicial ❌\n  → 120259_caja ❌\n  → 120259_terminado ❌",
+    "_folderId": "1iIyPGYa3B0lp2cu4YSGNgw9Yqd9coK7J",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvGVKXfxPd3cAAebuIbloowEvT-O1C0D-j7XBw9ExKA2i4JSkmKNCjv4D6ciegRXZyqJIJXYuQY9by_EXK8OUspkvgT92yeb4G5qZ_0gOASeXMQvM=s220",
+        "view": "https://drive.google.com/file/d/1JmbFlZ3pAWdMtSf-MndFxXzEO4qaCSRJ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwPa7P_VdpewTSnnLJYGbVe-Ft_jSdM4tODRF_etqZLszAYrkGustB4tzKTTgEsclj3uWont07fTqSRfprYdC36RhSS2PHKJKb_HJojor8Be2w9Tg=s220",
+        "view": "https://drive.google.com/file/d/1eU1U79FOlMAFR0CW0VkbpKh4CESakFQ5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPm5apHEZRHfd_xJ0SFaxTq0Ely1z6C1kd1B-KocEe5xhRZDfCwZDqt3F9pBVhvK8lCqI63nbcyzpfozpdWTwM7Ziv3T9nFbiQLhXncoRUySudPmUA=s220",
+        "view": "https://drive.google.com/file/d/1FgfxSc7ch3QSyd_6e31WA5pBJA_9swzm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp_7b4e3jZ_pqcCjleCzbVg1Q9lLPiAX1O2mLfIWvSDL_yzoiigbFEp9oG3yjBYT-5fShQ9ifTF7fvjqqhGJV5HS7JpG8PD2HvcL2vqXrLAagKhMs=s220",
+        "view": "https://drive.google.com/file/d/1yp1RCrQzPKy1GAkgrhxGdkWdv8n2tsv3/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHt3v5ZSoMkGCPE4XUkvbN3jhoKDg7wUU-AnH9zxAnxR6gyd1KACK9Y3c7rz2yuh4YAsM4bFqvnHJNHR0IhH4_pohtryTxbtOwXNLJ_peVD2XRhHc=s220",
+        "view": "https://drive.google.com/file/d/1rzxzqsCFBvLET2XpziXzD6thaKhMlDZq/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNxRf6U243KjFWMOCYzItVi4O8pFqlpJHtLeF51eU_NrwImMbFMllkL1-EdwcS9XXUA7Lm-vUWCx5heY4I-8EY3QT0bKEweAc_5rdRCPV8hq_DYNs=s220",
+        "view": "https://drive.google.com/file/d/1Q7ufle0EFcJoAFNRj_yu2B-5iyUMTe5F/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj98rgV8-zUiadIAiLnN7buOO_xQDpDVTGU7-QyHtS9a9vEyAa-e3YwQIyuhE-IFVlZkVSdXM3ImO29hnxzYZwOefIsXivUixg6g7vAYHS5qBNfho=s220",
+        "view": "https://drive.google.com/file/d/11B6OPd5PGNK-lIHzvTY7FBvG_yu4ZHif/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120259 - 7/5/2026 (9 FOTOS)\n  → 120259_inicial ✅\n  → 120259_folio ✅\n  → 120259_corte ✅\n  → 120259_demolicion ✅\n  → 120259_caja ❌\n  → 120259_liga ✅\n  → 120259_mezcla ✅\n  → 120259_terminado ❌\n  → 120259_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120260",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120260 - 7/5/2026 (LEGACY)\n  → 120260_inicial ❌\n  → 120260_caja ❌\n  → 120260_terminado ❌",
+    "_folderId": "1dYqYe-boOhh_4P91f5c7r0B9J8-_I-VB",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeqUX0ZwU1FvFQiq6hvKQv8lTI7IRUBFzzOA8HYNzQx0f3t0vVZhEwTXBD2yWQzPNc9xWVyIRbU2nU4XbMtMgCQzfXQBCGxIiLftA025pkBe4uWaI=s220",
+        "view": "https://drive.google.com/file/d/1aKJaCAFtfE7UpV1JKm7jqbi9Zo7mshQD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNbDZtgJbh64Fb4ZGd_Ws_sFTtjhNyEnoFb66ZvtHkUCDtzwHEyzyzCc3G1iOyTeAglObmd0m12HozjZQi6s4dZXPcFrtrOdCohmI88wCvNVrsskc=s220",
+        "view": "https://drive.google.com/file/d/1XsZQlhEQzKgOEC0Q4QP_pc7m2nsiBp25/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3oTWEyM9T0yf_A6plE02lmjzdAtKvP89fPSbHv3_Zwxk2l1ozaVOqDh43gcPc5BveuxtJ-OZBKsKS89FFIlOKkx0ehCkWi3ob8KO-8AxrREkNqrQ=s220",
+        "view": "https://drive.google.com/file/d/1DVWjl9DpS-zcBh9rf1XzIp6TW5Zc9QXV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQK90yu_U9gYJM6cHag94W367qr56o24tZBKWZ57nOjCRIgqAFcVPVnVPcUK7-lM_0RfskbeG-3HxDgDb6v22wPDlm3NUiatjW30kjxoJEHAakeMg=s220",
+        "view": "https://drive.google.com/file/d/1hiykH8ElTPq_brVG-Xpzxg_VwAFLmQEZ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcqZNdIU3zLnCzA0aMyjxwf1cZ1iCpyBg9kZKOaboj5yob7yW1USs3GCMvQvGKBJeQMS9SWmFE6gAOgWKFdMW7FVKD1PofOstGBxXFAM74SA3mjKA=s220",
+        "view": "https://drive.google.com/file/d/1dmzjocxeHaDntNAmOLA_C1zhSxfwK6CK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQPZ0oc8FZLq-bwU5UlyTc_Q8rQaOnpt2UvwtMzPZhYPAb3kA1oTJm5-29WD4S2CvepmY45Oy1jfOv765-RtHGuIc_wHcTtayBpp2iYeR747T4GB8=s220",
+        "view": "https://drive.google.com/file/d/186RBJHeCLEK40jfHYiiVZ26h3xU0oFs_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcPRFItdlf_lCMpuGsyQVtDkqVPDbHHzbiYTbhMT6Un7w2f-VNN9GL4mefq-xB1L4AJTDl3cagVAL4kfnD1MSa0l-Rm5HYan3jTk_LyzVWpZZt0P4=s220",
+        "view": "https://drive.google.com/file/d/1AnpVSEJv8hZ-4tDWyVzVmCvLBgEXxQAg/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120260 - 7/5/2026 (9 FOTOS)\n  → 120260_inicial ✅\n  → 120260_folio ✅\n  → 120260_corte ✅\n  → 120260_demolicion ✅\n  → 120260_caja ❌\n  → 120260_liga ✅\n  → 120260_mezcla ✅\n  → 120260_terminado ❌\n  → 120260_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120261",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120261 - 7/5/2026 (LEGACY)\n  → 120261_inicial ❌\n  → 120261_caja ❌\n  → 120261_terminado ❌",
+    "_folderId": "1JlhPmEvnJqZBz8kgn5J3-_Kkkd6ms4u9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwsGZL30YQ_Is2tlG7VhqhKb3bWFyrfJl6xAQVHus1usqX3-s0zYk4aWE0ueYYcRmkx8gs5QV6z_74qZigKXn3VFUiYburKPXL22Jp2g81lbY4UI4=s220",
+        "view": "https://drive.google.com/file/d/1SSt7Vy4QzqapqXaXVu6pA1uhhEM27y62/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAURx1TW9d5UPP2rlcYHxZGjy8M8FVXPysfr3Fl4ivob0xWUX9kVPX3Wn6zIXKCJyxGUK1oIffoX35zfnDYbeIUgXX-oIppcUGm_Lb-xAzsZp30Gw=s220",
+        "view": "https://drive.google.com/file/d/1CcDE-U0jQKSGbQT7bE1qReXnE6sv0Kr_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf8E-mFG9T7ZhtXZEBHCvoXWzhYok8an5FsaBTdvUBJol_tqaQGZLvpBozOxzp0jBPsbcEoaHvdNAsOp36PPR9KiGi0PyBEcNCg_NAGYYY44rVs0k=s220",
+        "view": "https://drive.google.com/file/d/16-uJPbbgGb6cxFsJJTzPLZiTk2lp1ntl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfCOLHTYguafAMt57rqjU5f9Fz2GtZn6TUBay2-C1aSNoJheebJ01_qa7V7hI_nd4uiYZE_ZVk7n8yi3K9dr_l372NrOfN162j-YLMj7MQBjFHDKA=s220",
+        "view": "https://drive.google.com/file/d/1PXN0d4ilxRhCOxCQ_A835rwox-LGid1j/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKta8HWIABylRLnwKTyDmtwB1gTiCulTzSYUTZ6JqIP9C2MHEXlXpkhnUrbRaCF7dMwq_1jpKCqXdGxcxtgDlky5tMvXH8kSPG4CWjNO0LiF_Zya8=s220",
+        "view": "https://drive.google.com/file/d/1bWvznz64HjoyBd84-pzt6KheE3_Pm2b2/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5FVe3j5Ofk2XRrxjnB-oRIRXcfuHFHgwe6te8rsICWM8XCoJKCX3WzB2P7NBW46xslIPuUQKE-42SFRjfwugy-U3Uywb8RW-7XfaMVvwXAyeaJ_U=s220",
+        "view": "https://drive.google.com/file/d/19uSB-v2nGRJjY7KdSawoZELxRFcOgEDE/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqhiZqaKGobTnZt0VNwa-u1Iyv9_N-ThpCKi73kpijnVeFZ_yL-yZr5_cJGI6afe7u54mU8fJMmmuD9ZTE970wCkwBbMmArahnjel-KxzDvIbUAEM=s220",
+        "view": "https://drive.google.com/file/d/1kN8udo-zAmgUlwY9N-uM4DQdL5gn8l0-/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120261 - 7/5/2026 (9 FOTOS)\n  → 120261_inicial ✅\n  → 120261_folio ✅\n  → 120261_corte ✅\n  → 120261_demolicion ✅\n  → 120261_caja ❌\n  → 120261_liga ✅\n  → 120261_mezcla ✅\n  → 120261_terminado ❌\n  → 120261_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120262",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120262 - 7/5/2026 (LEGACY)\n  → 120262_inicial ❌\n  → 120262_caja ❌\n  → 120262_terminado ❌",
+    "_folderId": "1FxIpgC1NyaTWimmVOnpzAThShRuSuYzq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXPIhX9UpqWw2BtFB1_gpo-nmt9Fn_0zRBxHzrwqjG1rEF97GasNRGUJSwa4P24yy3s0spfMMy2E2kFAjS2aIz9wmpFnH9V3NSpWX8NxntlNZY4fU=s220",
+        "view": "https://drive.google.com/file/d/1yj81S9g9zXLOjMtp6RX-oV20xoWzEu_t/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN56CUR01Mb4mrh_2ieqREn2CH-N62k96lgHKCf7fF-w_-gtsGlOeqPA-Czl_OP527In9B--Tryfch9vvn_zDyd-dtzHq8d-Dk7QE3_tDjW6k4g6-c=s220",
+        "view": "https://drive.google.com/file/d/1PfBz1IO9SDd5xuA6BWokk3akd-4v--Ne/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrdGETC5Zkr2eJ5XYxEY_RStDuV44mkQj4Sa--JFy9BW0NgJO7Jj2pFLZ3505qgDzaG7uqkxu4vMFMhCvYv9oqa41JmtSjNOj3hcJBng0te4MLyrg=s220",
+        "view": "https://drive.google.com/file/d/12TWp0pR70jRZBoczmGwb-0-ONGmNopNR/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0NX_AoipbaSLwI8pLvs_87YRfJ5lqmngUXf9oUdEwI1Tol0f1JWfraEOl_U0gdveZ-wr2mgIwfY1KxHrScmnMvQlXKQfkQHGjax2YuyltKt2wQ6I=s220",
+        "view": "https://drive.google.com/file/d/1q7UFd79dW8irywTXCCmneYxxqPYXNG8Y/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVjt4vx7Z7YU5t467IJBOXSQTB5vm9Jc727l6EH3IdTHgbmU_wm4P14-5gVExmekpn1EPjQAAMEaa1C7i1uSAQE6k_eWiftyl-HmsI1DmxMfjYAlE=s220",
+        "view": "https://drive.google.com/file/d/1qW-GDBVodfDqa-ryboz3uIG8mPi41Cxt/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFwm8-2pt57lVotYiYqPPoCa19H6TApzJ9aoWbWFUO4sCc9PC8H1o6ZdTWvTgaBMTx9Z5c24Ga4fy0rTAb4-47KmnC2nsasOyY6nrrUjPukvVihKM=s220",
+        "view": "https://drive.google.com/file/d/1oS2OISF9uZQ6rxhWDf0u9x-l2Kgbeii1/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCrLUBJc2r1oNiL8GT0TjhDm6Ekt_qiND9gS7FaeOqECLm5PTLSRk6QIf7rn5tyP08eW2XivKj0YJVSsXD_6FHMal-fD6QC0tSfNiV29HjioQpxZg=s220",
+        "view": "https://drive.google.com/file/d/1jog7GprD2T8iSl2FR3i-5gXJe1oLlMFX/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120262 - 7/5/2026 (9 FOTOS)\n  → 120262_inicial ✅\n  → 120262_folio ✅\n  → 120262_corte ✅\n  → 120262_demolicion ✅\n  → 120262_caja ❌\n  → 120262_liga ✅\n  → 120262_mezcla ✅\n  → 120262_terminado ❌\n  → 120262_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120263",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120263 - 7/5/2026 (LEGACY)\n  → 120263_inicial ❌\n  → 120263_caja ❌\n  → 120263_terminado ❌",
+    "_folderId": "1W5nkK7rwkkWbTyVqz_uxL9vtM-xOxAZN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2j6n8xtisSjKynk6xVNAVfHy_6YXtFAfjuwfnVX9N3NJrjwqr8nwqZVq6Ogm5rcGGjD2luBogbHlzgtZoK4-Vy01S37jNxEVdrk7BswiQL176KcY=s220",
+        "view": "https://drive.google.com/file/d/1JNUTzFK1vlCCyE1wLRFdx86HTJ2v0HJO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXzkXQdizrq0beqNRQivCUa3R9Qt-eyxvk4JhJ6RXyF02KVwmAHie0A_OFOUiEfnb9S4MjILDMeZh0nmpUfwwDfftxkLRLnNinWbr0QEoBfFHD6cg=s220",
+        "view": "https://drive.google.com/file/d/1c6ejGP8KcXpo5Udv5CV38aKHexvEQjg7/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9OEU9C0_q9AYhloZfgDeqnKT7cZa-bRlJrK6DdcGsyYNChyfYnG75DSq6Vo1RJbV-BFflH5sjls06FvgOiYvWYxoQvEKYZDhAo_6S8QNNxT6O_8M=s220",
+        "view": "https://drive.google.com/file/d/17XNBZV14xakKDjmzYzNnkqrms-KIkutq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOw3w8nTN3tq7rNB37BZq9c1got2FO8E23AD8Gl-7qwuh3VvvQG7a2r1-gnaT4oJzXMrpsIMXMoAW93BU4I2jWee62c4EGDaauamSZid0vUHBvgOQc=s220",
+        "view": "https://drive.google.com/file/d/1z6EiaRAKrXSWfrOwoDP9IvCQ9DsABz12/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORrFzti1mYubiIWm8b62BzAwSCKH5PU1538vicY6BBZq0kK6mXyIbcqwfREV2DJ9elsmT0XZK2hR7IZPOdFMjPjIQNxInTByk3QE3HlcxzUMOOZZg=s220",
+        "view": "https://drive.google.com/file/d/1FNwEuYEXRPWhNFdMtBj2LVxCaWJ_bgfb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfHCvzFo9WHqUS8d9xlgnGivjF7FK5WRGiqNOaMT3uEoIf3D15ZB9-crEAFd-V1bOniwuynJBUqkj0KpUnjjA-00nCJgJn5sjQAI7ZRTKYEiJ1ut4=s220",
+        "view": "https://drive.google.com/file/d/14rIL_yuqysnrgVpNLS54omGtfUYS1vcx/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNquMP9AH1n4BtrCkziYXl9a98pfDAFvAKqnw683ccNMj1gz6GL5Ub-wQl_sNIblPw9iWOXA9BdDSPWqJWbzzDy18YBP9FgcBo7qDpCpXzxm-Kdssc=s220",
+        "view": "https://drive.google.com/file/d/14B3tbj8gvKSZXcqs9PSB9keWOIV6a5LA/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120263 - 7/5/2026 (9 FOTOS)\n  → 120263_inicial ✅\n  → 120263_folio ✅\n  → 120263_corte ✅\n  → 120263_demolicion ✅\n  → 120263_caja ❌\n  → 120263_liga ✅\n  → 120263_mezcla ✅\n  → 120263_terminado ❌\n  → 120263_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120264",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120264 - 7/5/2026 (LEGACY)\n  → 120264_inicial ❌\n  → 120264_caja ❌\n  → 120264_terminado ❌",
+    "_folderId": "1rLnDyzMRd8rb5brrtxOulZ_Wu5Fr5nNb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaF3ffD-8ENYzYn6zHfcFlOnHklrUwjvP5ImIXa_nIRqkQ_wtOZK0ZZ384AcXJPVW8Jg1QiXW0KX7fY5mmUdNmcXdSb-JqLessGl3RtOGFazgQKt0=s220",
+        "view": "https://drive.google.com/file/d/15gcYO5BAzLuEp2KbA-H6v6U84tVrbFkd/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8D9Ub0BSCYCd3Ko8TN7hW96PFwim5BRpQRCDSCaEHDaI7aVgih3VhBF5i05UBcYIvk09usqKNLBDwu6Ih8RN5cXnUA5hrkvfBblGCbIZodkANZRI=s220",
+        "view": "https://drive.google.com/file/d/1bVUNZFZG6iexMZ8i91mjnXVcEVgQIxch/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdVrA7si-BNhqEWrBh1J3ppgx9nHrVf4i6x_K-XmTIesHv1On_QFkVcXZFAbg5A1BYAnMW-Qdf8nFmuvNaQUEl1UJABX3c-95j0jc6ErR6OTXM0gI=s220",
+        "view": "https://drive.google.com/file/d/1HYodWxikV9fFOTHX9VMsAQ3xOkU1-P_L/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9XaxZV3XL49DPvnedrb-Msz5z3o3HnjYLFh9agSiZtbe4iNWqUrtRuJMcluf1v2Fzn2ZvhKGucxNHF99CRgQ4vIn_GogapffvhCz4IKVWGwio3S0=s220",
+        "view": "https://drive.google.com/file/d/19jZtTB7giUlUtUhbkgPOTrqnQnMD0Xyv/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyXF7WDv2HnElJNrGHarso93zUjvNX5rQGCAzIAUtEwOd2JJw2gRheR_X-w4HHHfEPHDUuwra5qG4am7xpGycWdHZWJw1rzeQ9yUHNi8UOUmAD-zQ=s220",
+        "view": "https://drive.google.com/file/d/1b0WpeSTYU0yBD4G8PM28zvsUOaJ1ruRH/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeGj3_EuwDap0TY57WmoyAl9Ezr2XIAwwENmurPXB6bZv9NPcQH2sNPRh9oREA_b9-w-uhbF28O6WuAwk2__iIFlbJcxIyql7ifsnMlwQnHXrThw0=s220",
+        "view": "https://drive.google.com/file/d/1J90wa_WR4RdR8wqKVjnAy8DifHewyGTU/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7pT7Bz2_vJfY1YKTx_mHO_Ms7p3l4dVgTxjdIPjleokFpgoQnfvXjcwSxBMddAsWontQLBqDOp9WBGvorEoBx1lzA7i8fEDJX_vpNbD7bQAWRmDQ=s220",
+        "view": "https://drive.google.com/file/d/1WvJtqukeckp3fDIts10_ujg6sWJaFRaI/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120264 - 7/5/2026 (9 FOTOS)\n  → 120264_inicial ✅\n  → 120264_folio ✅\n  → 120264_corte ✅\n  → 120264_demolicion ✅\n  → 120264_caja ❌\n  → 120264_liga ✅\n  → 120264_mezcla ✅\n  → 120264_terminado ❌\n  → 120264_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120265",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120265 - 7/5/2026 (LEGACY)\n  → 120265_inicial ❌\n  → 120265_caja ❌\n  → 120265_terminado ❌",
+    "_folderId": "1jAQqd51sCtyeWzXbNMjkr3iVURxNEV8p",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOGmqxgz16dxFf_mifwQVlJwe_QaccfxZGsnH9PAOrE6Gkg8bkHaiqgEsii3GffADmSeCxjijRuR5NQog_syEZcrmNEiAbb-3MoEMZard3_scaGA4=s220",
+        "view": "https://drive.google.com/file/d/1DsjmPTA07aXeJKdYtz0Pm2xVpYqofC4n/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKcwDnNibo0-KK-x-D1OxANlLZdR5yGE_keF4O9_ZOXaO7FDW-cWGcuFY5DrPpci2wCe-naWDQSg1qpIHxbKlhnk5gzPR54-TF90OysGyjPZ_NrI0=s220",
+        "view": "https://drive.google.com/file/d/1uaxH4Wln-3joH5hamBy_vGv11j8vzKJ8/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBIrONKd_P3EDWJ7o9lNPukyTn_IAQhwLExWMYVg1xpVpmp01spLt8TJT0nRqBCZb3gdMwAsGfIsc0sb4Cs2YdyEOqMamIOeZRo3n0HNOzv718qno=s220",
+        "view": "https://drive.google.com/file/d/14PxMOy-60_T6MbyuDPYVdoXL1ORAgDDc/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPJo9ORRhUTRLm28417o46FeptEIjBXjJ6AEfi5t6QJcfSsBIg7KJfTrBlyKaQYCX5ZTYzD0S5_OTRBKbHYsupZpB0FsqmTXtK1RkImYQi64AkGUU=s220",
+        "view": "https://drive.google.com/file/d/1EeTBgoGdfLlmqjSnyurSDkSxCMTLBO01/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDDOqc-W5HX6AqZgvjaDAG42Eyrg2gCtcSvNKckoA_NkIW5NF1Lgp_HC3Hhwqc60b-GqGT6W3jNUm4LSbk_YyaWLfBznel-ZW8YiTuyvuBexTLW3c=s220",
+        "view": "https://drive.google.com/file/d/1Uq_LNodbSYz1taO_WR2sbkyk1WIzR9C7/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOx-SkOfqtk5fL1rJohBLNOtrLVBV5hyD-W1wuCwSysXt22Tx84rfKSK4S0GyKre251dZ-FoY__OgXTGa_KtEQ-KbLbjpjGH6xKi_IGm9n80HH8pCM=s220",
+        "view": "https://drive.google.com/file/d/1qeeZkfpTzYa4aSAZVm90jsVnvYCIPKvz/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObV-TsGyrSE_wNMKg-0Wp0auSaQYUHybW4tGnCBMxNtRoaIWRtMqpDgKoRjIHKJOT2eW6rFqFW_UXnu2uxPAPczclzId0FmAoSWcuJ843_T3BtzrE=s220",
+        "view": "https://drive.google.com/file/d/1haaLddMM1YSTTbivHQfLJ1MxK-Xf6bUD/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120265 - 7/5/2026 (9 FOTOS)\n  → 120265_inicial ✅\n  → 120265_folio ✅\n  → 120265_corte ✅\n  → 120265_demolicion ✅\n  → 120265_caja ❌\n  → 120265_liga ✅\n  → 120265_mezcla ✅\n  → 120265_terminado ❌\n  → 120265_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120266",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120266 - 7/5/2026 (LEGACY)\n  → 120266_inicial ❌\n  → 120266_caja ❌\n  → 120266_terminado ❌",
+    "_folderId": "1KJXNCWWIJGtMOZ6tLjD7LubyOeWbAMgP",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONGTnnG8PQRhcqJ6hjFvPAdbvnP0jjVFdUMK9bkZr75_R-dJ-GcToCEj2t2cphxfdkA5QjiDoaNGrH422lY1PkLF9YfSfEGQnFxjPN2L8AvIqn5yA=s220",
+        "view": "https://drive.google.com/file/d/1jOla6BaLP1w6W31wK0QWAzRgV-JzsfIW/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWhWKgdBzNg1t6bfYuPORITock--qTXs3-yL5vwvyNH6W0nG4upsrrjTulB3t4p9PR2HJ3wQcId-DNDCcI7R2EM3tbMWXv5xO7xVT9q00sCZG0Wio=s220",
+        "view": "https://drive.google.com/file/d/13Q3M7xB4nOZ06pQmriHC_bJcwyNLpTtX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkxV56gWCjIT325U4BGGjx4CNXDd9-BWiGUt-DXl8wT2MrW2cSsgLL-aqOAnNmZVDwzwYtiC-rfudjgNLrBiG8AokpWvbOD5LNlG0OtjZcpl8gbQQ=s220",
+        "view": "https://drive.google.com/file/d/1qHTrRCZ8XlgkBb10-BXijCuXqkbhA-n8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmu1QwzTSWrrZjINhCDGkBJED8b3klZRD6PlfEXJB6HVriznNFf1OP4L2CG5BH2-wkR7uv8XJz1tuceUp3yawzEhzAxBCo-FA9WgMThXcriFXUdTM=s220",
+        "view": "https://drive.google.com/file/d/1kt7whcMzrARP6R8r390N6CF9Blzu6ByB/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_qN3Mdo9QHw1Ul_3at-dxPNVP4tfPT4NVU6K4cYgEgkWVId0I3bm7_UbbJhEqSkycv-M7GPuquRLcXOINjeqCe1zifjuP81FqWm0eVTsQ23fCGLI=s220",
+        "view": "https://drive.google.com/file/d/1er4IFGxBnoxSoORJVquRYsnNu9Jre8vp/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPror8tRdh1qRnQlqoJy2vCMi3MLvWNIInvhRr2z5oLOEimemF-9R_F1Xi9cOeWdCKDgtINfQ-Nqp7QLtRadwbHdxvwQv6pzAZ4w5BpezS2zbPsBA=s220",
+        "view": "https://drive.google.com/file/d/1JPrfDZ9eUxdKNGOs5nHpoO5cblqAEy_d/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiZFt-IyoXMJmt6EAKVlqjcgSfKWdRDzh1326-5uERqcq6GWEsKTJPpbXiFC2mMHR6kt3vcnVL7b5n-OWTSITbZrhv2cEkizELHs1iC-3g-6dYwdY=s220",
+        "view": "https://drive.google.com/file/d/1xO_BRALxWObFDPTL7rhVhbgBz4Ftblef/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120266 - 7/5/2026 (9 FOTOS)\n  → 120266_inicial ✅\n  → 120266_folio ✅\n  → 120266_corte ✅\n  → 120266_demolicion ✅\n  → 120266_caja ❌\n  → 120266_liga ✅\n  → 120266_mezcla ✅\n  → 120266_terminado ❌\n  → 120266_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120267",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120267 - 7/5/2026 (LEGACY)\n  → 120267_inicial ❌\n  → 120267_caja ❌\n  → 120267_terminado ❌",
+    "_folderId": "1AhZS1askwBMHjjLS3rYLk4FsafhD_-2f",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxHb7DhP4tEN9Clhyah2YuuOk_SB3H4SZ5FIdHQbbK8lkARI2oLvAVil6YYiG3z-2s-J1yCmCwD6b0AQc0ywyQGxecgsWYdQuJQjpK1awcHBUa1TU=s220",
+        "view": "https://drive.google.com/file/d/18h1i49sVYPgTEfPiuOTV2-wfud0LCbuY/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFSzHz8ARpqltcXnVQ_66gtvIZ46iYdzIyNWWS_LnI9m85o_j7sDP5T9IfxoXa5qozn7_YlT3NT6CYLmEA_OV4Gp96wMXeMSoH1xnMYDQkwDf71tE=s220",
+        "view": "https://drive.google.com/file/d/1gACx0NH4QBXirVFsXl8VxDrWMlPwNnIt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzZtipVsw7_Q_z7vFuRXwi88gKCpoLQ8ckVvIj4DDMlBsmA67WRDKVtsvi-QzhkJDPHTTzbSWRkY7MFYkoGB9YJQTsC1E1FsBPz5qL5xPXV6gpP4E=s220",
+        "view": "https://drive.google.com/file/d/1N8J7wqBIkb7nLoAgWvWNZmpg2KF3MH_A/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNicH9r4EJI13NgPB4J8eEDGcMQEdpaJ-iW5sd5x_TUA0goNZvYiGUVktnWImcid3JE-gWBRiljlZP6zYIfmTRgZsR9gAF05JDCJsiGDX6DI2P2rD8=s220",
+        "view": "https://drive.google.com/file/d/1p_07sNNQLgFk78mHNcmoci8be7vOVkO8/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6I13BmGmTWtJ4rP5ZwXBCy5s5bBNAOvIuxhjJdZ8EFN-FotS0ULNG7V_Z2AlOTU7pMMRE6xSkIAoOrTbJpml-Bb8yaRIRYR5IzQVRpJIJNlwkgSM=s220",
+        "view": "https://drive.google.com/file/d/1ZzRA2Oi8w0gxw88eVFsbjd3fOvFjwGQa/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmbqfKYDL7G_o7ESVIg-pMSVZQArd8PVATLXxKyDYpars8c9GiQE5XTKhCtVu7djxIFOS74RZ0CcggO_vMGKzpDmu4b-sBd-uwAN8eyTOIKOgzR1U=s220",
+        "view": "https://drive.google.com/file/d/1Z_eB7UUdpemSthQ6YgSYEkSAJemqshca/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqiyTi4qULfuMn2iQTyvXtp2cJvLclLBVPoZ2zkOOACbFF8NZqA6DLFjtoVKRhfYMfRv2bFw0Jts5WHPQhnB1gM7xn2pbbb7AtRNJ5rVVmCT2kcj0=s220",
+        "view": "https://drive.google.com/file/d/10OiG1sG7Ts_IGuQUztbHdBgPYhH9Lmcc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120267 - 7/5/2026 (9 FOTOS)\n  → 120267_inicial ✅\n  → 120267_folio ✅\n  → 120267_corte ✅\n  → 120267_demolicion ✅\n  → 120267_caja ❌\n  → 120267_liga ✅\n  → 120267_mezcla ✅\n  → 120267_terminado ❌\n  → 120267_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120268",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120268 - 7/5/2026 (LEGACY)\n  → 120268_inicial ❌\n  → 120268_caja ❌\n  → 120268_terminado ❌",
+    "_folderId": "1gogTDyR1urQWoNuenWiqceuyaSCyJlqy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi8MK8D1GkA9SGDg8NWfpD1FxH2VAA_Qr5NrB67TC5A88QgHF9lPpeov5miGWcXikGqxvqkGIXnJ5yyeSI3wH97640i029Lcti9Ym2ebaB2wDmFJA=s220",
+        "view": "https://drive.google.com/file/d/1_WzVmoNP_aplAUe5KSS1ln90g9Dho-Po/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXh3a4hmuodZeVNqE-WeGtQIjCxhpUhQ1rT7aOs-M8tK3P3jesp0VYXW0wNUTM1HnhVEqCC0efrMrGKt0zyetGuEfNpzwEY0gBBX9jvlfQnAJYGCo=s220",
+        "view": "https://drive.google.com/file/d/1zO2pn76NRnIbVLQkTSHQtivER2oGjRsg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF7kjMW_FDQheRAPNRJeK4PjMObndGYbH4xFb1d0lojgS2X-OjqxhPT-zaCNuE4LhTKHIrNjiugMWTx4skEiM-RX_-2I8GdGyMZiqG7ImQRMk_yEM=s220",
+        "view": "https://drive.google.com/file/d/1HSPz06dNd8stkKzdKOmoG_XRhrrMOecW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiF3c3zCLXlbicBv-mv0104MVfPkir6nenm2PeKvgduBGHb5fBtkNw5sWZG8y_PfG0SeY__rZmeIQZl8gc8fusvRTEMa-XJHMBIJ3OFAsWtOKr4AI=s220",
+        "view": "https://drive.google.com/file/d/1WWy6hvFXWFzgDHW-SaVYq-lsrh7Q3-EM/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7GzNIAKJck03s16N-ZczRt0a4rhBrK5T-kWcxkWaEqn1iNj4kTBP-EDYu4NbF8OWVAsVhn9RE_E1fohTML4Z6URaSkWiuMt_PJBEsWfvte11s-iM=s220",
+        "view": "https://drive.google.com/file/d/1M9uRvyMh--2a9LtdAnHRiXBE3_2cMlmr/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-vWf1JcvZtt3_x7UQdF9c7K1EANmTJeSsofj2fEswRyIWV-FdaPpk-6FkFuVthEqejRtV2T5_MSv3ZZoVcC2GRYynVbu2xpuvQFCcR2tT3YiLAyA=s220",
+        "view": "https://drive.google.com/file/d/1WUanc3m71dJM9E64zI6YJY7VBr8aBmj3/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNap8eM7KxAY9i4MgSdetdI0N7SyPprXL7lkfi0-f5uUAsJXLaw8WCEuc1Mlg9SuuucIwUdjSc6IjUodvngJdYNyratTJaReG8ca1hd-yNPvrTGuA8=s220",
+        "view": "https://drive.google.com/file/d/1sGT5LSwkmFMjNTcT_ecvG4dbplcF3-qn/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120268 - 7/5/2026 (9 FOTOS)\n  → 120268_inicial ✅\n  → 120268_folio ✅\n  → 120268_corte ✅\n  → 120268_demolicion ✅\n  → 120268_caja ❌\n  → 120268_liga ✅\n  → 120268_mezcla ✅\n  → 120268_terminado ❌\n  → 120268_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120269",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120269 - 8/5/2026 (LEGACY)\n  → 120269_inicial ❌\n  → 120269_caja ❌\n  → 120269_terminado ❌",
+    "_folderId": "1oGwv46qlyXqnoRksSmFnWCqv1EYKjwBF",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO99RlQ3dt2FhU46PlcEstv_G9TZXUCD11Xzk-m3u1hgONwgy6YSBIgj6HBaIZnP__hecv__5yiogaVllnuTpzDaUIFK_ItIlT30awN1CWwCZQ5KK0=s220",
+        "view": "https://drive.google.com/file/d/1nkkorLMiPQaUWRyKiaBw7IKJaFEabhx5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNm0VOkkRIsQaRU4Wt4MFZ9ROeP5b-OXPCNi_SKWMtS7Z-FTraqEnFJluLGOceiJLlUVQDUKQ-APK0EzP9g6ebFmaESR6DCsMOjUUeqQ0r9r0XWAI=s220",
+        "view": "https://drive.google.com/file/d/1nBIU6sjeIVQjI6zR1vj4pRwn1LqBVtk6/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFe9IO7VLqw2KrpnJnQhaOVzIVPraXO1qJ2kc8ob0B2Q1GQyQcw9pA7jqvPwh-T5QcA9PpkEXmnBOxjP1ttyORSdeZRj9Z4ow_h9IHnKIN93KSHzM=s220",
+        "view": "https://drive.google.com/file/d/1v1PhDL5RZL7h8jh63kWIv8DcY6dlXhVT/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHjJQ64YA9EeIZ8Bx4invC39cVV4Xg0TKSj8ZdW1EzT1dHpxq0ci4YstoUgcLCjq1m3gViE0YDuXMP0Geafy8KoDJaJGb5fDpga8_kgX5RWdlxbQE=s220",
+        "view": "https://drive.google.com/file/d/1Wq1ZGKmVKO8608enz0jfcDnZXzEHRqcn/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-0mjgIpCFq4N1JIEJgG0Qv1I8chHsuXT73_1Pl2aKQZkwCSIthKC2aa8lznwR6MxSDZFtJSVO8O_RQ94loRS7wOuCyswwvW6R0ccTnkokBqoTXlk=s220",
+        "view": "https://drive.google.com/file/d/1nlZyN0sqT73_wCmfbmBh3tjKrqXUgbbE/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5mmrCxbVd5umhboBdt2eq3MEKaYl6g52IZANtWfTE9ywsTa6h1kQ3tfZTwf46nlosLkRgYwGAKn1LHCdoUkOOZ2RtgSM_vDpgaYqUg_6p26bOGH8=s220",
+        "view": "https://drive.google.com/file/d/1Fl8Bp_hG0B9sZ3gyYYWmbzNhWVxsqFt1/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOn7XqWiD7MIqtx383n2tsbPPNak5iE-w2XMZKT_shJ-m2BL2bBPIdInESDpMms-34PVzw73vTZeDG7vmTYQahJ6Atx2SMEFDbJ1ksKsD5YfGA-fM=s220",
+        "view": "https://drive.google.com/file/d/1vJKQLiyg6tTRNS2d1LcqXN0dbFxvXqaV/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120269 - 8/5/2026 (9 FOTOS)\n  → 120269_inicial ✅\n  → 120269_folio ✅\n  → 120269_corte ✅\n  → 120269_demolicion ✅\n  → 120269_caja ❌\n  → 120269_liga ✅\n  → 120269_mezcla ✅\n  → 120269_terminado ❌\n  → 120269_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120270",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120270 - 8/5/2026 (LEGACY)\n  → 120270_inicial ❌\n  → 120270_caja ❌\n  → 120270_terminado ❌",
+    "_folderId": "1r8NJSHhxvpuVxXgHZ3gZ5pNff4ij3tij",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVF6kWU3ws0GMtP-bISsFhDC3uQxjTPKhbCZtdCq_8hwCWShl4Rp0JfPftuYqyfMGJzkVBaA4CB_pz5yIWcvDSB5kW02PfizBBolZki-G18N3l43E=s220",
+        "view": "https://drive.google.com/file/d/1FskwL49QCUAaBRGS3qaMx9I9rGqm2-UI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhErvqZg2_Dwp6ZJBAXiqb5Z8ATZqI4YVBj5Z81yEa4q5seav767BmugZJSTE7LBgFAh0xKwkzTAh70UGFgZ-Kwz2E5QrOCxSRrdmvmYQhzjQsmV4=s220",
+        "view": "https://drive.google.com/file/d/1U51FHtfZNuaSVRFKNG_fYH333Qiq2rAp/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQGVi7EeJqaKD8OARmNNrG_RyLXFYf7iTfd3C--AMn2SmKzod-LWqX7hvw_4R9qoW1YYDlnWneWd4p-frbIAhyqm9lT9SvZ3IYVmTefYUng-48PO8=s220",
+        "view": "https://drive.google.com/file/d/1diM8XR0nlnzymOPNFBtkMmHE1wDrcXXJ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtdVJwKnnUqSNV60_nczSefLdwnUVE5SXuLit_RC9_PNmPWw75hVn3iI5M2LQelVst51-JMXSrct30p10qeo6GEqcN8CkVTP5Vbmywqo42f66ErOo=s220",
+        "view": "https://drive.google.com/file/d/1ljeaU01wSSfxYDZwuaQoGv3ASMvMFCSD/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6Q9ag3dsMh1vvvARrhiLkNENIGvVYmU5f4o4Mh-2ytQ1CkBFR3CJUWdxrYN88opx5hzBLaVpdP6ZBB-S-akW3c_vqvcbeOH_REiP27JKwfGoX26o=s220",
+        "view": "https://drive.google.com/file/d/1QMFMqpgwq0nQECT25YZ88snVK3bFBwO4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLC5ul_ono3ljA3SdY4pWP2n7EXsJ0-pk4TG9EeavQQRtRhv-VymWSHKX58gshspz0sqXa4MqjdXm5Qezzef79ArqxdowbzM8QF9qmJXFEEBQ7pjY=s220",
+        "view": "https://drive.google.com/file/d/1RrwJ1o8mXTUWVu7CjjY4puSZnluAJOPj/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMS5lkDF7OS24P1u52oGL69hOXBVKpDOXylNbb5DWb6GWZeIk-nmywVpLm39JW5coJFoGTTgR8sOGmn4pK8UfhTzLR20BlHsVTNlnT6JAznKVWHYY=s220",
+        "view": "https://drive.google.com/file/d/10CEXA5wozqrg6HYNMBpiqFicwgM-FqOK/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120270 - 8/5/2026 (9 FOTOS)\n  → 120270_inicial ✅\n  → 120270_folio ✅\n  → 120270_corte ✅\n  → 120270_demolicion ✅\n  → 120270_caja ❌\n  → 120270_liga ✅\n  → 120270_mezcla ✅\n  → 120270_terminado ❌\n  → 120270_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120271",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120271 - 8/5/2026 (LEGACY)\n  → 120271_inicial ❌\n  → 120271_caja ❌\n  → 120271_terminado ❌",
+    "_folderId": "1bgaIziK-YU9bDtiScuMHmZtbL50ntWbl",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXq9cLNkdIBGhySwoIio2vYK5AhvK3ObhwN26msBrnKlPLY8F6Wo5FV-tiee0tHoJGEs4U_-Vc9n1M-ODVeoZ8EYqENWjHskZqn-xo85tspelaWR8=s220",
+        "view": "https://drive.google.com/file/d/1wjF9hwYLFJt4IBaaoxFodypzWkMg6OB1/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5fskMSoB_BayWiCGamRjvmhjVoimSQd2GbknOrKTIBAo_g_eqxxpG0fcjbnefXUL8VCvXKpeaG7Z6ZpNFXTE7rcVEX1OnkFr8-Vfj6860ppi2PwQ=s220",
+        "view": "https://drive.google.com/file/d/1_YUy06_CAyD6Nk0ZBn9Jn0WJ5Fj3jYQh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZn77L8eNP2sQ1EUXBGNsEyPAImAu-bflaPXQfycjhRKg99Soy7tiscPOkMX8dHSEQBdjUc3NaxJvFcfFRGrTSn8bmxfG8Io7vbvjVqOybejxFWx0=s220",
+        "view": "https://drive.google.com/file/d/1aUQ6y5MozKA4ouyuwOkZSEJg1QCXxULK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1CNU91141kpEoC833yVudK3ApkCwGNX93RAGlN6lRIt0flJM3IDG29rcLg1gN3aNqyISI-p47dJ3GDv_lhkbJ4K-CHsfQ_hTbMRfn9NI_5WTFi48=s220",
+        "view": "https://drive.google.com/file/d/194ceozRe-8aQh28PmbZkreMbFTKGcLn6/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrDFsgBuHGE6cxw4aOuBQzFUml7VF8fTUQHeTwt-nS8rLadBhIkIjMLmNtnAvXa_duP08KFTjRsbix3Lcy0C6Kpu45V94pk9WZy3ny6W7zt3q-1IE=s220",
+        "view": "https://drive.google.com/file/d/10cLEQWNKOXTjp7da76ZPx9AkgwHd6JhX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHB6w5ruD439CZkHf_2KbuaSNejL17pitcgdDhcyK4vrSgow9llstKix4jrYIQDDiFbWGCOIKDmT4KP_LXtdMze1_bJAL_M1dhiAkfNisLeWbBSRY=s220",
+        "view": "https://drive.google.com/file/d/1g08ccHW8Ye13ZESt1QCSytjSIi2d63PR/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUwcDnggwzSDlYReQKcFM6EYc4alc5Pe9wQD76pOuo-up3WgehhQIlOemzMbugkUVCyJvESie2zmuyPSw1DIRztigSBqggh-nlH-Lxs0hjfu6oAT8=s220",
+        "view": "https://drive.google.com/file/d/1EsP_ty3Kmo2Cj7XNS_e5K1hgDl0aqddm/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120271 - 8/5/2026 (9 FOTOS)\n  → 120271_inicial ✅\n  → 120271_folio ✅\n  → 120271_corte ✅\n  → 120271_demolicion ✅\n  → 120271_caja ❌\n  → 120271_liga ✅\n  → 120271_mezcla ✅\n  → 120271_terminado ❌\n  → 120271_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120272",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120272 - 8/5/2026 (LEGACY)\n  → 120272_inicial ❌\n  → 120272_caja ❌\n  → 120272_terminado ❌",
+    "_folderId": "1aD_7DLwqCde2FwvtOZthpLZMMa3GE24f",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxq2wlugHZeOiQ8LeZcbVkpGIX7rA4ZtWMU8TxChNbPzh1abU8di35IkJEugKImPSJPusJCOk3ttphA0JkEgbHZK7-Rsfxq_MF2guFSIC5ekUDA1M=s220",
+        "view": "https://drive.google.com/file/d/18IlRAF8Q_ewwfvw3lFfgytDA8zyBDDLs/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtHTCBg02nd3LIfXKi1Cvch41RbAHlgvU4_odmvXhxsv_HlVW0Mcpw_Iaq0pdjqaqB5UOz4n1mIfmbuEFmArAy3-xRZRq_pJ51eG9nf8Rk1bMJCu0=s220",
+        "view": "https://drive.google.com/file/d/1eTd3k2_dwO3NMUBwX76LKfIL9YnA-i1m/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ9LG5_FAdlTGqiLOAw-eHY2yaTXWVOy3BWpOl0soh5o_g7FLqNr8plsmZ6RQwZqIQkYdE7HMz0q79yRtlUanSIuWAXw3hkM92pwxNOEDcOy9QbIQ=s220",
+        "view": "https://drive.google.com/file/d/1mp5yNpGBus34mi224yskKbGU_urq4krn/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpIxKB3w6eVSHipg76ivgj-NvjZUckqbg61UeuHqReZD_00AyDuVh4FP1uFXhx7DKjsOFP4VH9Rz1Xat454gBvaj0affxL2nvDsdFT4z3XafBCuoc=s220",
+        "view": "https://drive.google.com/file/d/10FQZ1xLGIlRXa93KqvJlDQZ5d5vYskmt/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGrAO-EEZQDdjAUiXHiX2fcchwtc7oVpxDr_I1-UAiY03JdDqqM4ZGXUvfIqJXB_f0zj2pt2nvYFS2E2nEfOQ_eguMApoGraco2LCwagIw2NwuJ_I=s220",
+        "view": "https://drive.google.com/file/d/1OdAjDZ_XRTg5GkfbulEWqjUE_mRIUv3-/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOceI0GR70nVsswnofJDz7l_THe-4OpNePTCMgtaiSmiy7pHsX0NOJE-sOhsgldOfxmZBvmeYYlO7G33cxqMn-BtXUbMtLSFu0QpmoAzxtAz_zhsjE=s220",
+        "view": "https://drive.google.com/file/d/1X-S6C8PLvkY2Ia71264etLJp8lywOpdx/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUk3iNPVdfZ9VzrZfef_GqjZOum3f1yrxB2zI8R6gY9_NM-tYrZgYj8DZhqlNFuUHOyVLNC6ew1wuJA_f508ccsCEyw3RS5Xi4ICoGEkWq6gRuxh4=s220",
+        "view": "https://drive.google.com/file/d/1X9bxZU22RiYK_N9sHG8MgB1h7aDiiHUq/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120272 - 8/5/2026 (9 FOTOS)\n  → 120272_inicial ✅\n  → 120272_folio ✅\n  → 120272_corte ✅\n  → 120272_demolicion ✅\n  → 120272_caja ❌\n  → 120272_liga ✅\n  → 120272_mezcla ✅\n  → 120272_terminado ❌\n  → 120272_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120273",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120273 - 8/5/2026 (LEGACY)\n  → 120273_inicial ❌\n  → 120273_caja ❌\n  → 120273_terminado ❌",
+    "_folderId": "19dgz_baFEqchBGbR4MMmuwiZkISPPA2p",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpIuX2FBN8u9I-4GgFUjNC3djTwB4ruTRzY--9z_p0d8OLpV4D70Qw616qkl0fuvyoPygBauRArW2aW4i79CnwdnDaJUuPRBehn31MqxCBhh-Zfqk=s220",
+        "view": "https://drive.google.com/file/d/1v80P2BJCWa-jm4ik2g3EkuZ_f9MEvHTh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOauOJEaO7NxFIXB9OYWB7qDLWc_YNOZO5XW-7FtX24XvyfGnnHbrW4wNl4WllVxgkTO5GZ4pWzHwnTLwDMn6dPlpRbw-OA11PRVcnaGfOSPWYQyYM=s220",
+        "view": "https://drive.google.com/file/d/1Sv6qN92VWCGeld3s6Q_oNYNkGIauLKWj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLvcUaBbnry82gKLQyFWCxCQeWvvYvEPvC0bRJ4kmWvVkNX0nAbaL0NmXj1CNIH00hzGdK-KnnoBy9HE6lPsKMEdkk6RgPtZ51Aw70CKeUKnTQhz0=s220",
+        "view": "https://drive.google.com/file/d/1pKPh8bzkbwSgQ5cQpSe4s2GLnDQrYvQH/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbJ23iLl1PNELUPPGJ0qUMr2xldPruHe6RLj8lxjOutCLV-kH8eyqaUHDdI02uRMo2V8Q-73Z0Sb1SBEWivqCoyCACpVqUSta5qjxAZ9BpmYVbkic=s220",
+        "view": "https://drive.google.com/file/d/1CEe7lk9IPzzLGHW9KKdpQ_hag-aEqFrh/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNAUDJcbkYYHM_Q3J_L88tcTQCshd1ehjBwiuMv4LBConfeQC-X34li9g0mEHYnvDt5kQgVl4NMA2J1ZDKHvtu1b1ymRBd9dSq866eorEbpFfp3l4=s220",
+        "view": "https://drive.google.com/file/d/1fV26-ORPN0EdfBYQPJgcqn1Gtcrpri2f/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBSH54uXsJ3bG9Ae7CQxZ6j4oCh-ySj6E6diWTo4bdjqX1k7RvQbqWcf0GzB4TdflpnArAz3GQQWeOiQvaElbQcVeN-IJYL5DIAY0PhoTBbWtyDUk=s220",
+        "view": "https://drive.google.com/file/d/1mohyDiAG9PzUFmpcL_dMke6hq-AZT_kY/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWbwgxeatrDh0JHOxbvzifvOJe0ABLUYwsUVsQkYle47Sp52CB96ImxvJTqG2p_RvlMhoXZp5GL3yTyM05bFPi415nRVCsaIAXeoeySasYlkEehBQ=s220",
+        "view": "https://drive.google.com/file/d/1yEr4HW1DyoW0TD799ks7ee-0hRPT_bWx/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120273 - 8/5/2026 (9 FOTOS)\n  → 120273_inicial ✅\n  → 120273_folio ✅\n  → 120273_corte ✅\n  → 120273_demolicion ✅\n  → 120273_caja ❌\n  → 120273_liga ✅\n  → 120273_mezcla ✅\n  → 120273_terminado ❌\n  → 120273_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120274",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120274 - 8/5/2026 (LEGACY)\n  → 120274_inicial ❌\n  → 120274_caja ❌\n  → 120274_terminado ❌",
+    "_folderId": "1wuI_7Ts5FWNJuIgDQ-6yAcuYpn2WpSs-",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOJpnTUVkvQt0QXRmxZDpT5gfENh-mpo_DYOXNBOPfDSL3SlU_GWTu-lxoRMhYNnARXnfM8FMMLPPdO4aqvgeWufTPVST2lN7oZ4vPpmt24uv4RQE=s220",
+        "view": "https://drive.google.com/file/d/1-fY9IQrOrDggEZEdW0p7mb9PMrbLb3T-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGwfi57zaeAmEPYFNZrzaNk2wXnHkq2-Jcq-xfbFUe5qCJ1E1KD8WWZV4gbcJN07iQyd0r4p3zABcZ9v6fXgn8-6s8rl7-P2OoCcCZPs7dORBw1eU=s220",
+        "view": "https://drive.google.com/file/d/1nTMAkfMTAdFq9hA1skJVHOYtwCc56MMB/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpLbCN47JID65pWmC8hmb6YRsbzBRLIsaQRr4j4wDiRq-Pd0Zv6tbOIPy7BoBcvgy2BvWkfjmooW-V3C7xkjJuqkcwnrEy6XxRWgG198KWVGHv9_8=s220",
+        "view": "https://drive.google.com/file/d/1TEaOoZneReCvdjz9GOWjYmjPKkm6vJNZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhk4PALruqe2I2h--VJMN71pnqti4lz8A5Z4PzLeGN1DtoiNJyktQ7PsD07vWWi0y6ldc-JAveDY-eNnLljRUG6-a7Rv5vgMKOgSUS-Zk5lZnh03k=s220",
+        "view": "https://drive.google.com/file/d/1rpT2lBHX8wlaI5_Nyj4DwboxCIcq4n8Z/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEN2PseJqtmuQMwO8D7vsNZQ1u1pL2O61S0zxnbHxdt4sdtIfTAXsUEVgwFVCdfBd0URJOU_ih4cnmE0JrAFonbuIQlV5emcxEdrSVCyGPaeZs8t4=s220",
+        "view": "https://drive.google.com/file/d/1x5yIqcV5EZg9qrIM270dZPorVLP0PAFW/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONsDxWu68hSJsHgbnixr2J-LxyD2Ojbm-KQHPIuCP8cSkCy6eUK-Kw3cjuzynIns9owklQxYSwdg7est14JL8yijikl17gZN05Hwz4kVF1baCjO_0=s220",
+        "view": "https://drive.google.com/file/d/1EWp2cddKUYdiObAY3pzdofD7LBnQfWfo/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYZ13Q0X8y-mo0pPzK6swUFjwrL11MltteqAzbTOwdt2ZegwUcZoPhfH7fNOuB_7wR5wjJDkrfR_BQTNK1TvdTGZQnU5Wbzma_jbFaGj6aOXHcQDU=s220",
+        "view": "https://drive.google.com/file/d/1HXQEtyFeB9ln9Nkv2xDEP4Zvs4dHBGsG/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120274 - 8/5/2026 (9 FOTOS)\n  → 120274_inicial ✅\n  → 120274_folio ✅\n  → 120274_corte ✅\n  → 120274_demolicion ✅\n  → 120274_caja ❌\n  → 120274_liga ✅\n  → 120274_mezcla ✅\n  → 120274_terminado ❌\n  → 120274_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120275",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120275 - 8/5/2026 (LEGACY)\n  → 120275_inicial ❌\n  → 120275_caja ❌\n  → 120275_terminado ❌",
+    "_folderId": "1CPGsX0pnMQJyZYHW8JZM0Kgv2LIBGvdx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPE21R-LL-0wS977TLI0HLsoxir2-F78Ycb3Gohp4tZWMg_gQ5I1H5MJkiiBpwkIsalUEqqNREIKgxxdb7uyO1mjVCO-1fGHEV4sivPvkCeKDKWuVc=s220",
+        "view": "https://drive.google.com/file/d/1brBhsnqjyXLDKcuXNyRd67BP6gTOo9Ev/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPISKjfhYDv-DfovItHvJ5CEBp1LeyiJ5LW1o73SxVkiEVsocPVM4-fG3L8aTXIP7dBmBfXtsBQMRH4wodQewJDWxePgdLnYRc2ha7FCEp6DmIW97I=s220",
+        "view": "https://drive.google.com/file/d/1xhW3lfNbI-sfYu02b9hrL8X2FUCaIBC4/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORpP-3ioVWGzIf7L0MdqACeOtnVb_yiGe41KNiwzTbDycL_xKjA9kwfHvUWxCuYlb66f0KLazxMTY6_XjYGJZZYyQe3VkVV-2FQHEsAc_zrfpIoqM=s220",
+        "view": "https://drive.google.com/file/d/1p2j5557SztnxM6byshTQR4WGjEofmi1T/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr_gWs5UfoiJRxtNWg77oDF3vjQ2sgj_gL1Na2Ia6kk3c4tg7z0mpzSd3SijByTLfrqZRJeb5vvpM7tLrIuMzXRnDIGi2k22GP6xSUGHxNfVnqS6U=s220",
+        "view": "https://drive.google.com/file/d/1P4UpQVYHEJstnik91IcUYOZCGlRgc_RQ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQF-mR6bS2w1ziSvIZEjpVEMLsng1Ycu3mhhA3cv-iaTROrW-DjwhpThp-6hQIgJzo_Ypaf8uKEYZHSnV9KdgkaIJrbH2bTboTzRBcxn2usNvS39k=s220",
+        "view": "https://drive.google.com/file/d/1aAP4qMExXXcBp8eLFRw8-1S8T7NsqHDw/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMt32lRt-e5BjtzwpvD5MvyKoRNbdsGfwSiiDcENt0DYxJ8I52j5VBCZPULlba4E21I0lEEGuvk8QMzDNCRr8xT03wTzPx9vHl1uvWmV5uk-wkliWU=s220",
+        "view": "https://drive.google.com/file/d/1xrNnhUYFrGbtgHiw8zkYis2VCSZcV2rO/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDWjckvmxgX14Q5Vc_SNWBwUYkQ41oxg5B5IfR2fiK3C2wzCU45mAIi_GXhaS6MusHgzm2-pyMgnZzUZ6rrSF1sFPOOi_T3w587Vq3oL81-OV31_Y=s220",
+        "view": "https://drive.google.com/file/d/1ZJ9cKnUMEejHXBDB0xlkzm0gqycYlnl8/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120275 - 8/5/2026 (9 FOTOS)\n  → 120275_inicial ✅\n  → 120275_folio ✅\n  → 120275_corte ✅\n  → 120275_demolicion ✅\n  → 120275_caja ❌\n  → 120275_liga ✅\n  → 120275_mezcla ✅\n  → 120275_terminado ❌\n  → 120275_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120276",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120276 - 8/5/2026 (LEGACY)\n  → 120276_inicial ❌\n  → 120276_caja ❌\n  → 120276_terminado ❌",
+    "_folderId": "17TE9kPtdd3lCyUptD8_tk8ItaOFkOGtJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQNQhCvNNBFH0wu-lakK8QZDIkXKIZtHuNHu4rcx1-SNweSvO9NgjJL-LeOeOcL9uAQCDnjQzUMuyej55NTRs-HMPlfQNWgFd-b-wmK9fOfM9ovck=s220",
+        "view": "https://drive.google.com/file/d/1wkIODS8qJE0fZH8GGMGz_W5LAR8FZqbD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTvpQvFAmx9JzQyAkDych6QQgZJN6cI7EpdqbcSpKpsTvEwyhSVgnqFvkoBgSMFBq8sYKE6CQ0BEYWihm8fYYzplJAJ_OgisQiXieS5bBENrxOShI=s220",
+        "view": "https://drive.google.com/file/d/1Jwyt6-hunGpjaPFnqE6vGe9YamTshw6e/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpUxTviowQ0bd73BYvpMjwSUxV4kB0DhHGeyctEUui4dhF7cJwrz25Qu5kFPCalw_Y8dz2joPRe5OTbtpnuYYxy5d9YT-ZKVgfVGOVV0Mmjbu_Jc8=s220",
+        "view": "https://drive.google.com/file/d/1Hl3AAwDsm6vF1MvTWVulXslgFUqhOeXW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBiHzHsQeOrRnSIlgETBJsrwj5q60WyvgCwc2_IQ5fqRScSgAmerSbsMwi3bwV8YUCSMnJZG5djtaS6RQZXMP_oNC9tUS5I-BP2v8QfK3DblmGHxY=s220",
+        "view": "https://drive.google.com/file/d/1FCjGsjLsIFfT_B9ttekQmYT2NwXJIDYr/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxwKnxZ9njyG-BMOea9naMW8LJVKCxvyxTI6isfqOkFmBdUICT2xH_AawEUn4n8jT1WfWnUKVOs2ykkQT8ktShK1xTXqzKgZnNrx7PO5wZvd0jljI=s220",
+        "view": "https://drive.google.com/file/d/1b20568L4ZNliaUGr3vht084KSp2XEODP/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_-2N5_gVYN6hGw7qV2y7oqx1u7hpwcW_6sm8qs12b5VtPpDWPw730RMwPTrIIzNgObXZGGJW9lkhT_R3p5rx1ii4FbpD9c90yAFhsv0IWSPB88UM=s220",
+        "view": "https://drive.google.com/file/d/18PsG8ZrQpaHHOeCU9ZflLsI4YFnrZIcO/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJfZCsLc1Yer1LUHjFj2t-ZKNd3WNDfAhZhE2w-EHaS0wl6srZqEamyGh-_DUezRS1vy7PKTasoiho4FeNhFDB2ufRZmDPSfL-DR6gGElteSIVhKk=s220",
+        "view": "https://drive.google.com/file/d/1st6SKDhLqs33Tyvqk5L-2Rx6-f6SuJHl/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120276 - 8/5/2026 (9 FOTOS)\n  → 120276_inicial ✅\n  → 120276_folio ✅\n  → 120276_corte ✅\n  → 120276_demolicion ✅\n  → 120276_caja ❌\n  → 120276_liga ✅\n  → 120276_mezcla ✅\n  → 120276_terminado ❌\n  → 120276_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "120277",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "GUILLERMO MENES SERVIN",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 120277 - 8/5/2026 (LEGACY)\n  → 120277_inicial ❌\n  → 120277_caja ❌\n  → 120277_terminado ❌",
+    "_folderId": "1gHqSJ_4KBonXSS-sIhWtCbptwil5jx1W",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDqymyS86OU5ByzSOXsrV0tPUUxhzVmC7RrYWYaMl3oMElh0lY1gH49wZ2m5wCVjsXpYfpXh9heiO6XBUNHiLo_4k75pib67JZaG6UTXxQTV79x-U=s220",
+        "view": "https://drive.google.com/file/d/13aDalRLEvllAremEW6QwpCDlRqQtkqmy/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMh2cTTjMyWNSCPPzpr-ZsqwAFiNkuIummOP11d_yBn5-nYUGl2yZNjsPSar4C6oMfr0hWt0Bf9M7caZr1Tt8fSamjYY-Vz9LB3B5J6BGDWkMd6YL4=s220",
+        "view": "https://drive.google.com/file/d/1Epwiu4IVmC1IxFrsnVaEvZHIu4-HolmU/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiO4Cj-qDnnBku-YESmLmrEhRNZ50t6wLWPTKCWK3LLUHBGzDSBE5dNjASp3cgWnJahHA_VEqa-EneYcqXdtN2ttWpOlisDh80XdVofFHBpovNz48=s220",
+        "view": "https://drive.google.com/file/d/1fhH2D9-hmaiI8anHNCsbwL9C0up21wA9/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk17vQ8HuL7SLtcOKY7lXf0q12XIn2tLylzYxDKUp-tmwaHK2M3qSUj8I6T3XLbe9yhnwRwyfu2tkETOrO6r_cHL5JPr9TOOpXq6Q2311OCtzeMrk=s220",
+        "view": "https://drive.google.com/file/d/1V5sAQISo2UytUa3rBW9O2iD2i3wbu3pd/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrduUyZSTn_xuemvqvUkCfN8LfB6UQMdN-y0Px9U5xiiSEGOlJIuZtGEpp7r0Zh2uqxWjKOGKCR_ZClMABn7_2QgK6RD1L55E0rPn4WJEuOYQXLfk=s220",
+        "view": "https://drive.google.com/file/d/1RNLxTCQGWwD1tD5M_qmFU04xNGlniVkJ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObWXgR0bQpA5Sg5u3SdneyxhXzOsHZmWc_yzKCsEgBdDItcuq8sMPdlYderKw8lLc_D_60Uw_5MFO5s8Ejs9ZAGC50B7IYjy3B-NxAgfLteBysuEY=s220",
+        "view": "https://drive.google.com/file/d/1Epvz4da5J6D2Gp1p-7wVsTq5DNAMhEIq/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXAYrjdwW4qtgXySYXdS17lKFsl9rl85AhC4dd4Q_bPJSd4KIAVYANHBaTYA3l7Tae3OAlooJj4sw-9KH0WGySU7TZYUUzzMphlWl1wThbuw7sHp8=s220",
+        "view": "https://drive.google.com/file/d/1n0QF76IS6N2JzEZG8ReyeBNyOXONBG7U/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 120277 - 8/5/2026 (9 FOTOS)\n  → 120277_inicial ✅\n  → 120277_folio ✅\n  → 120277_corte ✅\n  → 120277_demolicion ✅\n  → 120277_caja ❌\n  → 120277_liga ✅\n  → 120277_mezcla ✅\n  → 120277_terminado ❌\n  → 120277_limpieza ✅",
     "_faltanNEO": []
   }
 ]

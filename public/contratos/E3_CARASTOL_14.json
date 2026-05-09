@@ -8100,513 +8100,1505 @@
   {
     "FOLIO": "140222",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140222 - 4/5/2026 (LEGACY)\n  → 140222_inicial ❌\n  → 140222_caja ❌\n  → 140222_terminado ❌",
+    "_folderId": "1Ew94VJlAEJaIb8kedvsIyk8GtRRxha6e",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1eLL517IOxEAxho0k1_z-sjWbRs5Hd19Rns2Fe4lbn6wZeWB8DxrFZVY_YYBmnyz2b8o3jl7ThfMphJ5Hv59ce7v_I40-WP3hMbvBMRjimFIHcDM=s220",
+        "view": "https://drive.google.com/file/d/1CWorAnDfM0v-OuZ6VN5jixxhm-DaUR5l/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNd6D6JPXVgQhahYa3O7k5m5K4hwjIjhMwQ0QgdkLzjqyBiIfAQsInSCVnBf_SYUrMQ9e67pfhQeQaxkH-tyYjFBCkne1F_pd1Oo0NfU7cqzGll0Pk=s220",
+        "view": "https://drive.google.com/file/d/1YCLFeDXvqWol3NtXQefqZhTdFBVIfntd/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzEc6yRAGGSQOiDUwm2MBphD6Bp2-P5W48AzD-ivIrlABIu3e_yffWEcH0o2fQCDfkYphYVmt_4OlZWXppaTP1QzDTHh5S4mb7uOTDozJWCpeoLkI=s220",
+        "view": "https://drive.google.com/file/d/1ljNyzPsssnd6BVHg-ipOEHVln38Bv84g/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5AM6oMbVDElaL8km_YtxcrJMyQgQ5ZsmvjCSCkEK8Vl2Q5HB3oNNFbDkCD08k9rqtO5KqPd4bJNPkCxhB2Sjapvw4SrgVOAne53Eka1cWIZ44laI=s220",
+        "view": "https://drive.google.com/file/d/13Ji7DS8zoOLzdHoGwJdQDDhzu7wS-yKb/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqIEoggI2pHymyh0N-rNIPMgRyQBoJ4wbzmVL6Yz4IIKHaqAtNtw0ynTjvOIAWgGTNJDNnCvazLHb7zgkbrEcDnwZSCJoxY45whVd5l26Vik0j728=s220",
+        "view": "https://drive.google.com/file/d/1y8oi1JwOr2dYL_W2Wfrz9M-2thy-8GRL/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPG7Lwr1i6EtM49xlWTetv-6NKDzy_aqZyTrM-LSW1eQKHILxZ2qTv5ZDXwGiGwBlPAeIRJ-5Gx1-K0XkeeMwItXV6fa_sxiLMc3gTiIS2N_tKgo1E=s220",
+        "view": "https://drive.google.com/file/d/1I_tMb9L0ioVHWjGPuUdbqIqSTtsVOZ-p/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPtcBGQBnIbpAkHaP2u5mFD6-ctEqn9YezCpIaTXI4FIFQb9yRrvP1dcMhZy_Gs8OFKWR8FqeWqjLykJbsJFyy3QTh3VXSL_cYx3pkVtOrp-PlKnc=s220",
+        "view": "https://drive.google.com/file/d/16KIAtaDt5NFTFkzs3FHcx8wM5teE4AZ6/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140222 - 4/5/2026 (9 FOTOS)\n  → 140222_inicial ✅\n  → 140222_folio ✅\n  → 140222_corte ✅\n  → 140222_demolicion ✅\n  → 140222_caja ❌\n  → 140222_liga ✅\n  → 140222_mezcla ✅\n  → 140222_terminado ❌\n  → 140222_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140223",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140223 - 4/5/2026 (LEGACY)\n  → 140223_inicial ❌\n  → 140223_caja ❌\n  → 140223_terminado ❌",
+    "_folderId": "1_Q_gqy1bYgJs74AZX7GDmlIumgZlP0tg",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFv80Q5xijCHWVhw0MlPmY557vazp3LmBznzJAdP-NA-vZvxnD0l4B-4aWgOuZcYf6hOIzaVdLfYtth3IaMPpf1yyPwuyqmoD46xSBUtfq4UYLCM4=s220",
+        "view": "https://drive.google.com/file/d/1mMdhTJoVux0SflcR9FAiWAW43lRTSaq6/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGwqtyXXvi-dThMSYECVF3UdVRbbTH_8iNItB3t_wfDpZWsA76KJeDRuMGSaHahTAJR7OF49z_l0TSP1o0kWLVea3XLbNpbwXK4G_rn7SVUJwn_QQ=s220",
+        "view": "https://drive.google.com/file/d/1bLMmB0wgzxCIuL-rNUWnmtzHCkuWXbUJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0HZB1i4CN44DXvqHhtvw_n-CcmbqmL0Ym6_ShHziqpGC5v6eoc9gL9w9mgSmIy_0foW_ZCnw9KFx8SCvuMKOsYuKy7rsgHifAMsomHg60rnQd5AI=s220",
+        "view": "https://drive.google.com/file/d/1D_HbZX2X-to5C_wjOCh_izo_XFU8IKnx/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf5f-U4sUVSWAQPmMv5DNHCzxQThAqS8VDJWaDRPK2bLc4wIYPXpygNIt4XnsuEPnmdGDwJrQrNhIcASYml5Rd5tzRRyIxyJ49JoR8cmCGt8aT0sA=s220",
+        "view": "https://drive.google.com/file/d/1X6fy3CLH_I6X8X25tRBrka25oh4caSoE/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdal-SjvhCvTfyJN4b8iRj_l4R_qTw5XgfYMIiP3955fOjpDLclBnmkrS1zriwU-X-En6vsBG1zSK3bi7w7DPLwOnVAGyug6YDfUkJvyAWdCiIXOc=s220",
+        "view": "https://drive.google.com/file/d/1H-NjYikJk-hANSHFTPeFI7-0E9JFKF-Y/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDsLDk_kTC2vT1HZ7MHW-RJJMOL0vmB3KgCY0ZF5hFeUz6k0Rh6EF1EIZUxyPCJ1rH-tGatz9LIzsazMzc-gVe7H1Y9EHO5WtaFwY3BfieCOo4Ses=s220",
+        "view": "https://drive.google.com/file/d/1XkxST7Si99ugUgSyE89Dzn6a90Q3KUQ-/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuT7aWXNJqY_xddfc65gevNVlisi7pKWNYCUanS6kR7KrLOTEpie4b8Jhf3xoByy7Dprn1DAHRihhJTNt_WhEQs0AviD3aiSztQdb8kq7Uwym2O2U=s220",
+        "view": "https://drive.google.com/file/d/1Env68m4VTFeumXXySv4_0T8wg2VRVVLR/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140223 - 4/5/2026 (9 FOTOS)\n  → 140223_inicial ✅\n  → 140223_folio ✅\n  → 140223_corte ✅\n  → 140223_demolicion ✅\n  → 140223_caja ❌\n  → 140223_liga ✅\n  → 140223_mezcla ✅\n  → 140223_terminado ❌\n  → 140223_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140225",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140225 - 4/5/2026 (LEGACY)\n  → 140225_inicial ❌\n  → 140225_caja ❌\n  → 140225_terminado ❌",
+    "_folderId": "15QHZKCRPfX_xGsRre5_hp1OySyNFfn5i",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPv07T6F3fShRq1HNrjIAWq6DmcV0G36rFZmB6nH3K7_9jiX-A1rAC9hbz6QjtR0048iXS218jcwD2LsZGRC7bzg-58wgeG48PuV35OR48qbARm9iI=s220",
+        "view": "https://drive.google.com/file/d/1FcurKSN6PR3hZ49gWMhldCXE1zfsj3kF/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy4GtWvEN9HukIlyYE6B3ATHsU4kjsoK66vqrhpJmJGzwJ79IPY4bZvleQk6DJTHG8ht2RB_hY_V0lNtTE5dvEBfG-p5Vi9Ncwnp7FjP5B0oKu2Vs=s220",
+        "view": "https://drive.google.com/file/d/1NIuS4kjiGEfW9ITnX-q1APEGoOFzYFDf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZManizNewId7zvoyv5htDX0t00kqMSVZc2bDcTNUUGFd8XBlpvjZsLsEZwrrDiZmkA_qW9qpsRd0IZ5q_-L5BPQnYEWm4L09x8y8jQUTPH1QyS-0=s220",
+        "view": "https://drive.google.com/file/d/1fQNYyK4qZo-N4ZxN29NCao2n0CZSBIzb/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-sM-Scjj4j51KlbhFUVN1brXeEXLeBzSTSWP4fN_tkTzfpfOOfYt9ZD-It4fJcNiJvHhlLqIk5ezVnVshgXmS9k7GpIyKsXyxzRlpbcLBpDA97k4=s220",
+        "view": "https://drive.google.com/file/d/1rB51TP6BqztOHXGOccpOrwhpOsnv_9x-/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfVdEcM0LQexeD24AJX_7lSabtMk8vp4m_bJZptN3Ei5z-rfV215cF-Q_PECQisj26kBec2ULGl9UymHSeqhxG_JebkPJ98bgInKRCBjAT2sq-wUU=s220",
+        "view": "https://drive.google.com/file/d/1Adq232lDM94Q9cNdmrzIAR3f5L0S68yi/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0P5wHrtIHVcxf77_7EjdMISYj39oQadmNmmXUkxTzXnq5u--3GamBQxQ11AhwekjkRKXfga_RBuiAUX_UWjeyPGowX9aVWHmZZOKCXCM5r-IhQ7U=s220",
+        "view": "https://drive.google.com/file/d/1SGNlgJ_76R4eU2w4QE9G_sfO0lQOOp0p/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGdNdXgBa4gA61AgnPJGcJJrTZ5cIAbQb-YhnhaJijGEbedb-RJD14933X7Z6D_n3HzSYNIC_EtjFITUh-i98VJ_AR8DY4ua7cJ_7tRsi8lxShHXI=s220",
+        "view": "https://drive.google.com/file/d/1l7Aj-9XE0Zd6VE0JBlCK4WYd5A-wTOd0/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140225 - 4/5/2026 (9 FOTOS)\n  → 140225_inicial ✅\n  → 140225_folio ✅\n  → 140225_corte ✅\n  → 140225_demolicion ✅\n  → 140225_caja ❌\n  → 140225_liga ✅\n  → 140225_mezcla ✅\n  → 140225_terminado ❌\n  → 140225_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140229",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140229 - 4/5/2026 (LEGACY)\n  → 140229_inicial ❌\n  → 140229_caja ❌\n  → 140229_terminado ❌",
+    "_folderId": "15CC3_WiSW-Szcg6OERMIRtapGqW55d6r",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiOy24yM9f4fCdxoaS2YLgSS14syPhu0_x_LHWh2bBgLKYCdzu_iMYI5eSNeUsArB8tUmAWZ2OVGJpaToHMC9HDk6cUyLXc2JHjk5vwe6IZKiYpWY=s220",
+        "view": "https://drive.google.com/file/d/1GiLoBxN5357vuu5o-SpMJEtwTfygi_nP/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdzL4SAU-FNmVtYZHk70IQYLOO_SsSooqiO72mbv877VpOeHDy-fUVA8NyFfeYiC-mywSGyFUm5xHzJHHKS1tMEiDM3IzJMOvcTupeZSx3eHsu_q4=s220",
+        "view": "https://drive.google.com/file/d/17-mgkWU3m6Ct3z8v9miX9yQ0G2uL3Knv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMujwPeXZshdD4Hwby_S8OJNSA9HeOhv1AL0irO4Xt3nb_NSxwuoQPeOYYobQubM34dNDmjs42iUhtw16U32vDjEZnddHPEQL7O8qQnN5yB3B0VUnw=s220",
+        "view": "https://drive.google.com/file/d/1dGCDCmtpjW1-XaFvFe2OE0utp472xBtl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONDIaJMJ4ltqe32Sx1BYXTFJlubJFG5l1UqI8UpM7FoIm5lR4-7UrLYDGx7chzJ1VtbP4hBUMCwkma7ZMiczmwAhGLDPsjl4RF3gMrkaF-_AgVvVc=s220",
+        "view": "https://drive.google.com/file/d/1QR5LyFu2Xg1cO6HOpaCk5FK5KsNHy-Zu/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIF9ROcFWJQAhbTYWz6QNVisYYY6GEeS0QV34b-7YjMVy4N4MTHlNTYnGjyWrjyeOhCoqhIxcU_qowCUsCcRDxbSyBKKcOGMilxMVq58UDcosfwKc=s220",
+        "view": "https://drive.google.com/file/d/1mkLMptaBYc8-SyqWmcVN0VGlugIyGoXU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUDAJ8XzHXgo0lhSDe3slt_bj6v2MMcyQ2XxlPFM97LHNMz9Z7aisTB0lQpZS-gcKU140sr7KjACYr_OGh4lt6tQxTfY_CewNIrJdKs2CZfAe02QY=s220",
+        "view": "https://drive.google.com/file/d/1UpchE-qTYoe0GZILY-PxLcAiOgQI89-l/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdlp2Ns4m4ppgc0Fp1WLqAI6ZoL5GnF_NeFBcCyAxIu8oWyCbO7RUynZz03VFjw8Z2pYq0u3O_6zAywOVrqEEGmOwqBuOz1QWFQWsncl0G3NkDXf0=s220",
+        "view": "https://drive.google.com/file/d/1GUuL-V1L4Q-xzFKJlIpUyNaciyvDYGB4/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140229 - 4/5/2026 (9 FOTOS)\n  → 140229_inicial ✅\n  → 140229_folio ✅\n  → 140229_corte ✅\n  → 140229_demolicion ✅\n  → 140229_caja ❌\n  → 140229_liga ✅\n  → 140229_mezcla ✅\n  → 140229_terminado ❌\n  → 140229_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140230",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140230 - 4/5/2026 (LEGACY)\n  → 140230_inicial ❌\n  → 140230_caja ❌\n  → 140230_terminado ❌",
+    "_folderId": "1zpXoU2j7LuNwgQuP57FcxLbPTNc3CfBz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoMmXvACwrp_EWFL6g-eNbl4EFgMkMPCxjjuiT5_aUQ_AzwB9g3pKZBx5V0Wl6niznO-ZGsiUIUA2wbb8Quji_R2GYhKHPhaRDLpJ-RVBaQWDvzcc=s220",
+        "view": "https://drive.google.com/file/d/16tkkiwWRGtu59Tzd0MKBBlI7AKz4A8lp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVYG57QdrCEL2o7Rp4RLuo03g-OgtjA2mXU7qN5MHmijocfQV3VbViX7QzZCAwjWhse_Fy51kTP4Ng0-w76wiluYa5mOl3XFfdhUWVSjAf4baI750=s220",
+        "view": "https://drive.google.com/file/d/1rbseHwFbFPHcjqRn4QOTzgPbhA0eW7_v/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOskolSa3Ui48yUOokJVNyUUB75Qa_wz1D1i_3nKk3sFyXFn_4VDygRW5I4y_KZONIpvNV3nnC2tYMm5d2sJcFcLLwK_YYuZS1qZOEBTrly_PfWCJM=s220",
+        "view": "https://drive.google.com/file/d/1ZvmRMarr-7iFALaRkQVUw7PjU64PKdPb/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRQo7vSAShXjjglux0oxpTHj1FYm4gAiaqocYy7RtFGeqZPqoJkNXx-lJRKCOazJNmbiy20XY08JmK2aAAG_AprDOWf4EdUzhzQFQSBGA2JEBFUlo=s220",
+        "view": "https://drive.google.com/file/d/1rI_yEGBWXR4wEnNoxQ7L3E0TcscUBL0s/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdkT-7EmyfM2gZxFcb9PcWUVdt4P8sJ9TPYVdVGptGgz7bvlKiHZLmEjq4RvCHVUFmyHUqrUodatRzYf8ou13Hu8ohUDq6UIwQwQ3TS7IWUHzKMgE=s220",
+        "view": "https://drive.google.com/file/d/1DcpTaun0KMo-WbolBgDBHGfasoOTkw7U/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhqwHViulqniKESQmRD4qbuIWk5Xq1xq6SrVKDb_6cdJjnAJXGbnbEWUJp3LwSEBThsLXgCa32YQdIMPzvM6H3_M_UGBpYcxLDcI8MU33ihtbj2ss=s220",
+        "view": "https://drive.google.com/file/d/1HKr9nOhy5OxUowwm2Y84vO5pP7xMsll5/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWqHtXbVZwktuXwIl1svvdD3vYwZiO47B9x7WMlfM09l4H92gP1Qzr3dYTfyFTCYlYRqTHemZGO5P1_790wFe_c2WirKZo_4rInGQiZBoeCGiHzys=s220",
+        "view": "https://drive.google.com/file/d/15oBRtLU-BhWvdv97GCBQa4nlDUF3OJpG/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140230 - 4/5/2026 (9 FOTOS)\n  → 140230_inicial ✅\n  → 140230_folio ✅\n  → 140230_corte ✅\n  → 140230_demolicion ✅\n  → 140230_caja ❌\n  → 140230_liga ✅\n  → 140230_mezcla ✅\n  → 140230_terminado ❌\n  → 140230_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140231",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140231 - 4/5/2026 (LEGACY)\n  → 140231_inicial ❌\n  → 140231_caja ❌\n  → 140231_terminado ❌",
+    "_folderId": "1_NHrqEXGXAojUbgCu-OrMd2H3Y3rvGTt",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlKIziIwz0bydic32IwCvXDGBxBLr9JxO-sFTc6fqSUafaHzocbDvPCaoJNqwWo8zLcYHC3ZyugbiEOXfogdVwMU7e6T58aV2C6n1nJ_78zJDp2xk=s220",
+        "view": "https://drive.google.com/file/d/1Lg6nCxXqCU01AypltVQZ0_agiUbra4p_/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzCyzMuECoAtowNVilHNHdXBiJV0Z1IXUU9pDtpSettPle7RkFfSSEudd24Vvt1tV6SR2iMhrUMuiY8Z9wdREYKWjk4KFrd8IZxPrb3NzEZo6lSec=s220",
+        "view": "https://drive.google.com/file/d/1B6TOGIyli4H4llxiyv8obX54BsjbUlT7/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_umOkM1KY--lP1t9nXokTOasT5hZh_Rqrg3IZIgxfOBf-QuzkvOU-mCJTYgqkO6oVNGJ6u1B4mBdRtX_0cpuhetcQcI3CNnV6sZKArmCJsKzD5qg=s220",
+        "view": "https://drive.google.com/file/d/1LDHS5eiMz1r42fx65gKYIblDtXvIE4PP/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4gf8UGSk0ogCwAoK9FAkFYmnLYyxHSsZLDRI9thYqhkub-Qovr-ogY9HObP0A1ph11s9rImHtU0Tif-7C3aVmNsYphGCApG9iL4Q-_d_Acj79gAk=s220",
+        "view": "https://drive.google.com/file/d/16wtU0_PzeSdf6kYA99gPDJ3GWT-EbPjQ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOY7sT9Dl6cF4rmgVeCXhwt_sxFikeZ9Z1xSEF5zBSdtL4djXn1kUKyBerzjOj8AbB9m7r0UK1TduvuyiwdX9iricfeIMRYeZucB0mOGSS2Ix6Zrck=s220",
+        "view": "https://drive.google.com/file/d/1zzP7nZSP0vxIKlvd8QdDbCDbK6RyaO5U/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP88MKLAxIEnR1roDcFYsI2mvH9AUiy_1DnD0UVt6b6wS9QHR-8o9PRBKANqNy39RC_IR9v2R-fRE5jBNbaaJW-3PkwRfzQklZegL9u-NI05C2X09M=s220",
+        "view": "https://drive.google.com/file/d/1FDhmlF-62q0GFObXcHvn1KqqOR3RY-mc/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJpS6P-Ny0XcQxBU9XtebC6wBhSU_86bdH7n67-R4iTlhQ2V7LD9T5jGcVJahcyj7bFhTcjauMGhLaELTkN64K-Ay9hkXBVrl7FY23dhNPCpRoT1g=s220",
+        "view": "https://drive.google.com/file/d/1ENRj3UZ27FQAebxrwWq9XJe-6x4hCC8V/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140231 - 4/5/2026 (9 FOTOS)\n  → 140231_inicial ✅\n  → 140231_folio ✅\n  → 140231_corte ✅\n  → 140231_demolicion ✅\n  → 140231_caja ❌\n  → 140231_liga ✅\n  → 140231_mezcla ✅\n  → 140231_terminado ❌\n  → 140231_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140232",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140232 - 4/5/2026 (LEGACY)\n  → 140232_inicial ❌\n  → 140232_caja ❌\n  → 140232_terminado ❌",
+    "_folderId": "1gOBP3cK0ZxTJ4sU0qxepnvOHukhZVeuc",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIhvQu9FVZuESoZObXNg2X8izyKT4Q0RK1wxLBnISY1K9NIpeq5TLzLaGkBKSWk1_CaKmojvvNh8AT2IL_b0OzC-uT-3ieGDolwDHVozhZsY3qgg0=s220",
+        "view": "https://drive.google.com/file/d/16xtoEd_bFfH10K30dibdb2pxrbhZvmjb/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf_-7LzU2_wYH8_w4EGZfa_65pefzfI-hy2d_2mwLhRNS3-9NnpVy6gATvBF0x2M4J8Eh5VERvrXLrlPLTkHC8dQFgbYG_zfBGVAdFGmO_TN1yH6Y=s220",
+        "view": "https://drive.google.com/file/d/1sVp7P1der2uFHn4eF1oJRNeXL8NrByj0/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5jpZ_uDhodVb_-ePo1KE2FaRcQf7F_xLqJOIpnDJLPXaT8xlWtH82WKIIezuNTmLoPHqa3_1XXw1gt-dSye5je10EfGzgQ-4-occ-DtSez3LXcDU=s220",
+        "view": "https://drive.google.com/file/d/1GbCPJHJiYEwzjKU8XsXbsVAPvxnFAEV4/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAux-eKzdw9XP9w66jSarcMxWVEO0Ag3sL0TyWoK8W7SrXaoXcfxMH8xodNio4o5z-0wj6Vu07Nu691-ULUvFCqSwpS08M17pE0AQYjUt18lHZVrY=s220",
+        "view": "https://drive.google.com/file/d/1iHvqq4EzQpA9NjY9Tfbw_V0EWF4mWI2O/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkj7WhUiYRLl060ObVjxiDEcNdfe8SOTsEaGAP7Mhmon3FKTgWDohnoloqqWHGQvoO-QGEwQVHJWFZiijXbq8lUhSu4dcnBjGsHialyossY5Srjtg=s220",
+        "view": "https://drive.google.com/file/d/1pF9bGWuNUiEorFefoDrG8suPbPZTIgNc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUKE2ztq8Yo9EDKHIUCd7tYdOFL65Wj3x58oH7n53PUDMxc-2v7jIA9yxkv3jt8zYO6ma2bgCbcbjiVZUmobIRJyLycyTo3-xUcO4FY4de5XHHkgI=s220",
+        "view": "https://drive.google.com/file/d/1a_FFa2dqs77Xda0T2fvS42CqITL7hw3f/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1G6wC9cQuDKevJFhCteUfMK6egEZoMGVzmfiNUk2QGcPpiChmSNVM-ltmn5CTYPoBsJkpFJYCs2dRLLt2pVYKcC-261fdIsWXr86G-AiKPeRM83M=s220",
+        "view": "https://drive.google.com/file/d/1OjsG-nKhfn8kRv9bBrt5_bscFwAT1Guw/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140232 - 4/5/2026 (9 FOTOS)\n  → 140232_inicial ✅\n  → 140232_folio ✅\n  → 140232_corte ✅\n  → 140232_demolicion ✅\n  → 140232_caja ❌\n  → 140232_liga ✅\n  → 140232_mezcla ✅\n  → 140232_terminado ❌\n  → 140232_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140233",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140233 - 5/5/2026 (LEGACY)\n  → 140233_inicial ❌\n  → 140233_caja ❌\n  → 140233_terminado ❌",
+    "_folderId": "1h14DScd8vmLprE0egHP-4U6Wfm8PvDMs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEjs6r8LwIL3l_5jgThXMQ7H1_X3A7WB44Jf8PiCc4AKLjbgtqdKOYmKb8OPnlP3NK3jgbBAPUPRQ1FWcenQTBoLeIcaDalzNF3KHllY4shwrJFyI=s220",
+        "view": "https://drive.google.com/file/d/1998f1BhrfvgxISyptkR5rXtc08Dg24n-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4Nrxlu9ziBmK1Xh6MHd9a3NhQPApe-aEeB7IkbR-iY85Ks0oY2ShdVcAiGwKjFnO1BlWIUx5t0_Op8Kq8yWS0JB5Q1aZsDALlDYnZ7ETUiaaPwBI=s220",
+        "view": "https://drive.google.com/file/d/1BbJDW63kOB0-HJ_rBfgVuvKusogePpMe/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXfgzrCyr1JT5uYYNzHBUyN5bWr0AOfAUIkmBQ_A16fQll5M1CeiHi227uWoMYsMND2UJPnTbu-JWng-0S0JV-iYUJX2U_5xOVPjZ5_aSgY6fwDHU=s220",
+        "view": "https://drive.google.com/file/d/1Q83pJkctL8uzgL0OyPd0N48sEdiLiOkc/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_eRCDGZ1-U1GvH3OW2Zh6K4iU1nxYpfLsC6QA84vWXAtHBI-EiPmR2mUVQeUC3aI8DtEEm-sJrIOTgxKwegbj8DiCnNpaxRJwPw5TEJ8aWaorils=s220",
+        "view": "https://drive.google.com/file/d/1SQ4w-bJTAQHsIjRwkEDTOHzuyx_nGjCm/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHG304NIj2q5G08rpUZvjlJ1J9SWoZPyr8P5R0OE-8L3wjlTRTefcX1MQihNvLzIeZSXm4b4KJbB-HKxDnpaJVSJxSXt2M-UReKkof5j4XmTv3SU8=s220",
+        "view": "https://drive.google.com/file/d/1Cn_NtTTFbtjLUNhXo1iK5bURJpmn_92R/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5GVYoy65pwMM_5Wqlq_Sw37tW1HGAA3ms_UCzWCJlPVUnm0KJ6bOgcCevVU-nHehtF3IjfLJ6B-MG12Ar02wqnExgd9c5k6XXRkeU-z6pHkl1Atg=s220",
+        "view": "https://drive.google.com/file/d/19sfFoVCPIJQ-MiUKi1qLBMpxkEAs8iT1/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlwo2tgu_rcqf3fJO7_7lhn3o8Ut_goivNaRmr_MRds2cF6APOzzrTqYngAYK3ITRBLeMSni8puj1FLk1StrUMRjT1OfI1boOsoVAIk8K_GukS5YQ=s220",
+        "view": "https://drive.google.com/file/d/1R64N8wHTOvKuRjeQfatj9NRNHt6mmCLc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140233 - 5/5/2026 (9 FOTOS)\n  → 140233_inicial ✅\n  → 140233_folio ✅\n  → 140233_corte ✅\n  → 140233_demolicion ✅\n  → 140233_caja ❌\n  → 140233_liga ✅\n  → 140233_mezcla ✅\n  → 140233_terminado ❌\n  → 140233_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140234",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140234 - 5/5/2026 (LEGACY)\n  → 140234_inicial ❌\n  → 140234_caja ❌\n  → 140234_terminado ❌",
+    "_folderId": "1ugfruoZTcVRHJLkqdQc0DTE3RHjezISE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuPgjtL2Ld3M_8b3YASYQzNfcgMjiFDctJypEWBdQjUQ6WJYlbndqN1ZtnhMPAsuGClTwNIe78ZPcAhVh1YWTqBLT7WunnhW_ZDtMRUYlqnUUNYFU=s220",
+        "view": "https://drive.google.com/file/d/1fShhwpB5e7PEwrK2tM6Tw1VVxK_5fUgC/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJwt815qPXue944AzGu0aVRgblnPLWVZiZEvL9by3FhZmUWjad8DF2jOAaekcgbg5Rb17v2DdPr1PKe1btm8CFPzn66HE_NQD-Jn8cSRZcKzB1NwA=s220",
+        "view": "https://drive.google.com/file/d/1QmexCsICo7-zi0N7xAfXZx7-PbSbOzmv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwsIB-3_mPfwWwwJv9WXfuMZpUk6QqFyyy4w-4wp5LDARcTkEpwN0PLV6mo11lHLlqkcz81uFaO4Uht_-P0NcRx8wJ11vlWK5YJpOXVyKIgEljV8U=s220",
+        "view": "https://drive.google.com/file/d/17dWL_CtxOQ6riE_vXdAZjQZkS1FUAiA-/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_rIK78ZuGk-Vex2PI1TdMyRbMS7a9XU1gGC59iX3hzYoImPw47BnVvdjTV_DwoH1YLKVqzMBXdTF-vdO8tszI5s_ijJ3a_3WmArSeKzP7QiKabx0=s220",
+        "view": "https://drive.google.com/file/d/1ylvursddHk1OqM9v63J0xCPVid5O2jek/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPv4x-AeCBMhlqYND8enIFRsgZKh9YRJ8szv4AHqQQBhOek0RvqQsmjAhtlELD6VIc3-l1Y3sfZ10AepkJ_MAFlkliPdn3nF08Lvz1fjTW8SeV3nbg=s220",
+        "view": "https://drive.google.com/file/d/1CQvThFETVyjKMPszlIb0H27-yI8fVuBG/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkT6Z-saWm4Qydtn379VWliRN_UaKaCbKv7aETwAumac_KQ8otQad5n7R8VgvJRkJvOnDXD8nhUPkc90qnmQjSw2zkChTwbsI4ofh5TlVa5aK0Igk=s220",
+        "view": "https://drive.google.com/file/d/1i3yZpSIk6p5fazevCNUzLmCVhwvTA20m/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSBPSL_Bu_8cCZ-Wvvunyg-8S9hp1Q0faxxx_kM2FQo9prWuWYzPZ6n16YYzfb-h_ekt2skxZwVp0OtdNtU4rjXX-8r02EM3R396zk-StZmZIkY5A=s220",
+        "view": "https://drive.google.com/file/d/1epaWqwIUnkV5mrUunFdRbwEQOZ9_i5Ln/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140234 - 5/5/2026 (9 FOTOS)\n  → 140234_inicial ✅\n  → 140234_folio ✅\n  → 140234_corte ✅\n  → 140234_demolicion ✅\n  → 140234_caja ❌\n  → 140234_liga ✅\n  → 140234_mezcla ✅\n  → 140234_terminado ❌\n  → 140234_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140235",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140235 - 5/5/2026 (LEGACY)\n  → 140235_inicial ❌\n  → 140235_caja ❌\n  → 140235_terminado ❌",
+    "_folderId": "1g2rPDsSLSM_0hkaxjYrQUgRXq3kPSDmP",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzbTV8i4oIz8TvZmrhu6N85g3FkUmSm2P6J77oKGPhRj8jeDhpBQSxL7Mi3g0IXZfmHM_kiTxdqf5AArJjwk2qHdQ_redTJZVOIkQLk34d2zxpFNA=s220",
+        "view": "https://drive.google.com/file/d/1iYp1kgXmArj805-1M3tFbeaHXchPQAxK/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcykjHe0Xw67H1-W0SrNBG44uJJdlQsbo3ZUpkmmBba22nqrKX2-lFcU6_15SzyhLHOl80USmSpPwbh6RbdLr2tTipryWTuNY9rZ9bnr35BEdZZuI=s220",
+        "view": "https://drive.google.com/file/d/1fW59PZzScl61402suoowrLyAjrA1Qcq2/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWOyKgsq25Q4qYLFoXXFa5fkGj8I9DFNw2Oyss_W4G3amPeTX4cCoMZTSdyBkX8L7y_nqxcCbOqcF6nGqtw-CAWBYk1_gfRVnOi1qyxjKByJzUrS8=s220",
+        "view": "https://drive.google.com/file/d/10ZhQXvGol9KcLwYp3DbDsx3-b1p9MFtC/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO27aw1UG5Ihvj7WzSc57aI0OtcB2lhJw_RSvGNLsdY8CQPunXzrXNsBhesi8Yo9FGnoXnFSjl1q5-gSgnEEYyuF1iTsUIfUSXskRxRr_VAUtAmKe4=s220",
+        "view": "https://drive.google.com/file/d/1aGx3EAND3FIxPddULsfszplRt4jNsv-X/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3CpLudnc3N0yKj_XP8fq1H6wu16PHPsGq87jNTNzIehyPb1hl0mVolVO-wOV-EUZdprQDS3McBSq-VhQEicfDgoCo3k5I-k1xkYFf8ZpzI1whjRU=s220",
+        "view": "https://drive.google.com/file/d/1T8_S7szkKniwp5eWKiadA0md4OPzrVtj/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5VsTlJaG92sfWEka6Izg6FsLnhpXyuhmXe1NrlYKN9P4qyHWQokF68iPfiBERPffUCjhJcDlQ6LwGy8LeY3XFCriGJjziK3O7WEuysjtQQIWToQs=s220",
+        "view": "https://drive.google.com/file/d/16wXFaTJZWM-71g7gZZaByo2zqgQdvgi9/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnJjFbcSC-gTCZaLCNh5nmtHFw9v3XHwHxxFQwXzAsLsqXxYk23a4OCNzxXPN0A49bZ65Adb7v8uJ5rZDTs-JZ2BKy62JKfI_CwfjG7iqaiNSG3GY=s220",
+        "view": "https://drive.google.com/file/d/1qXGSxYhGnwRRI2oNDF0GKgQd6DA93aa1/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140235 - 5/5/2026 (9 FOTOS)\n  → 140235_inicial ✅\n  → 140235_folio ✅\n  → 140235_corte ✅\n  → 140235_demolicion ✅\n  → 140235_caja ❌\n  → 140235_liga ✅\n  → 140235_mezcla ✅\n  → 140235_terminado ❌\n  → 140235_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140236",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140236 - 5/5/2026 (LEGACY)\n  → 140236_inicial ❌\n  → 140236_caja ❌\n  → 140236_terminado ❌",
+    "_folderId": "1TCwEo2mmAXFNviv5OpqkKJKNh7UlhvHe",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkprYNo4waV4cJCGeO8-PnGUcr26ZJvLd4lo2TynzBsHabGVO8RjkCnuqyJTa_jdlmKA1fqaupfsBAoA6HiDG_akQtWmgKnmvZsrHfqxvO3-hO9vY=s220",
+        "view": "https://drive.google.com/file/d/1AX08Cnx-UK8Yb2O-yFCR7sT_xNafd57-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1Wc8cpBvdS02zZo-YQBxDtAi_B_d3ytNs01mcqi57IBkNYkSB_aqFht02-stj7JvmCBrAAW17sfK0R7p5Ul_wzEc6AfBRoLbf6t7S48KP3KXx8t8=s220",
+        "view": "https://drive.google.com/file/d/18uSBwsWgalFTgRvLhzx08Vfql6QzVRvO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkzGzXN9ZNIC-64w55fYZkR8DXuEgCB7SjMk4zt8x0Vf12Bf4Xj_V3egSYXzizitp4csTqggKhBgQciqmKEW2CR38uRIQFyIq_qGFPJTl8LnLqyKU=s220",
+        "view": "https://drive.google.com/file/d/1Seui30Kw1PZ2e1nK1T1INHWswvGFAFY8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP66KAjxbsbVO08d1ZNinUkAftqM6Sjz0lqWz-7Gq7KpO-BVHHNH8F2GSUnrTJDx163a4yVL1R93H3rcRy93oFFdujM2K66upwYxvqSAUnKeP6Kwso=s220",
+        "view": "https://drive.google.com/file/d/1a7Dd91BWzwW65P5WX0ixmYCvvk-eLNx9/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHdlLBgTBFSkgM_RqBpPzXX4kZ1lPA4vXAg6E7g0nIwpU2AsTspNe_JXIZ_obHnT0DPgctAH4QDzk0j23wvYE-prunm57Az1lbrNFn_s7yU_FcN8E=s220",
+        "view": "https://drive.google.com/file/d/1XRi0G06YRDmftk2UoVLpYVDswwxCx10m/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhl_ybJX-VCrh4j2uX1Eu8iiN2W3UEz41qz3-KRuzQgASB9ooVJUEQ38ktMBlMQOvZSYlIo0_H008Lexl5SPsizsvu0nkaAQ5BDbEMjSeVFbX8DwU=s220",
+        "view": "https://drive.google.com/file/d/18jhq5jQGueBeZX-C3AkZeZIJlsWINxSb/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNR_44yq0pjBPW9aVJfh2XejCZkBewUXNngCYslbA4bqiwYzCYfQ9Sl2hVltkQeMrkNOwH_GqgsvX7sh3mnwHo7Mt3hQ2mnKXExc9dMP6b0tXLKVks=s220",
+        "view": "https://drive.google.com/file/d/1y4MdxrrC76-Apy6DWLHpZPE4qF522fFD/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140236 - 5/5/2026 (9 FOTOS)\n  → 140236_inicial ✅\n  → 140236_folio ✅\n  → 140236_corte ✅\n  → 140236_demolicion ✅\n  → 140236_caja ❌\n  → 140236_liga ✅\n  → 140236_mezcla ✅\n  → 140236_terminado ❌\n  → 140236_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140237",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140237 - 5/5/2026 (LEGACY)\n  → 140237_inicial ❌\n  → 140237_caja ❌\n  → 140237_terminado ❌",
+    "_folderId": "1lqqZ6rfnKfasiuwaLZrUgayA9RC5Amxz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk08Db7qiJ8pKYK5G1sNHjBEBTakHwkl8CYQVX_hQ0Kqy79vwy4zgokYHk3-GlO5h56Qw7bxEPAu1yrK8yUL53JH7zYiQ7ra2IzT9KO37W5-pWr-I=s220",
+        "view": "https://drive.google.com/file/d/1qJir9iP9MS4JIdg14wBPTqMPSWtuwxyp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHvYeLfqpBPEuBo79eoVLuMVQmEyoXJWsLT130cMVsQmzi--qibF6GQiVUSYQkQfdBFlgh30Oo0dSGtIFouboqgRFCxi1FN54A-qf0b-ykX7jWFGc=s220",
+        "view": "https://drive.google.com/file/d/15sUTOQJ8JKqOQFuOdJHZ8YEnl2kEI8qm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlhqgEQ2wmFeem8zgmWmEb7FfpE0u2YMg1hKqZh22Imcb45ahA6yZ19qNMeGmuiY6ywI43eg51Jf00OkTHUehqCpPJE5-ENw-R3naBmoFgfhaSQ8o=s220",
+        "view": "https://drive.google.com/file/d/19eEI1Qpxt-BKfQJ96TRoF2xMKV4NX-2J/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiUeJAho0qoHnyek-Rj7dsmPYB8ejgVylsRRWbsAAD9HRT5qY2bjfRwmkMNkosMtcitBNwgnHUNDbvqyJB4nkRPNol4SCAUWhYLGNBoVRelIFoCQo=s220",
+        "view": "https://drive.google.com/file/d/1n3ioon23xlCBl28WCqSGqEFCoVdWANsd/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlnZNwzRHedhYXMFnfNlxIP9MZWjNsGHZ2H8qS0LO-iWgwQRHnumql9PUK1ICSnWbas7CqR39kprdU-6RvW7z1m9zTUPFD7u3Cy5nPrrkCDl2vrVM=s220",
+        "view": "https://drive.google.com/file/d/19fMNGplSS5yqxgAWKwd1lkV2f-ODsLOX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPF7broRgzsTbSD1U4PwvD4Rp2XJ2kb8K1jlxOUeE5PveYei-hWpcZ14TvFFbol1IVXZcfcUmLY-FR2m_BYNm3djXyW971c-Avw9HNhYhgUyT9_eAY=s220",
+        "view": "https://drive.google.com/file/d/1TjMWRnsgajzVgJmyb8a-Vy3O8l2VPMGI/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqsCzwQ9vAcjKewHaTvCFrRj3JCNIEbzRYTyqo3gK0Jb1Vn6WnKo2bfpn6hCki_IxfdlH5zUUO5mQhGR25VOIYRkGhEgzrMQhh3wi5Ka8tiaA67Yg=s220",
+        "view": "https://drive.google.com/file/d/1cT_Uk5GgEdlozHsQHtyxvY_ch1LIek4l/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140237 - 5/5/2026 (9 FOTOS)\n  → 140237_inicial ✅\n  → 140237_folio ✅\n  → 140237_corte ✅\n  → 140237_demolicion ✅\n  → 140237_caja ❌\n  → 140237_liga ✅\n  → 140237_mezcla ✅\n  → 140237_terminado ❌\n  → 140237_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140238",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140238 - 5/5/2026 (LEGACY)\n  → 140238_inicial ❌\n  → 140238_caja ❌\n  → 140238_terminado ❌",
+    "_folderId": "1STVmiMs5G0jKdwUKA1LJW3FZ2MAY1cxy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGT_h97i4w8SILy4fbFbsIa4WhT0lsZdlTlFcy0ty6NrGn_Uy68vkAc0GjF-FBtjP0aq-OQo2YCRn546-S3ApPIOZ5Hb0D33T4otMngcS-qRgge78=s220",
+        "view": "https://drive.google.com/file/d/1nqsiL7yMtM1FPPpmxAhepKF3SZPQ4Bwd/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_cDP3en90LfYJLQTp5QJjFOGLJ_dZPql7hqdjiRHBGtn42d5h7kLx--oKT6AaqHup0jM5iCoA6ciYx40HhIgr2oKG9Ic4uW-KePhDT4TzyIqqcpY=s220",
+        "view": "https://drive.google.com/file/d/1u_IA9_QUCxGkesHz4i9FIgmUPnB2AttZ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMd7Vx6hilP0KTJERg6tFMMHpydcAtcIJKP-2ai3fAocjHsxlpoJV4K0A2oUaOnbCpWKifg2YDKMTWL0VRp4ISGMjZYdJsiL1vlXek_XZ1jVXcCDBM=s220",
+        "view": "https://drive.google.com/file/d/1cyX5u0k3XwNBLxzqQmXUzaO2UBxWP4Q4/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM44nFOq12owqXlLWPQvXD1aMKCbeEvcMB8gEif1sUINhto-W5GY-rTolotlItdzFciLgCeT2T_aPZI8bTHBwdC0P3qpbjNxPW3cLIOM6NDv9EUQn4=s220",
+        "view": "https://drive.google.com/file/d/17Blj1Xo3F99waF1ZTe0YtopXvLSPArLz/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMf_hL9eixMcXPZtsAU51-h5RaqkOIL-OLTu0RoiPZyvIpY0LtCKi1OC7H0piIsaQrQYll_lppSIgIKrjjYOfEiatva72uA8IMSSRdLqnJhndih5w=s220",
+        "view": "https://drive.google.com/file/d/1kw3qxPMZhLLJ4hIEITj7Z8YU7-EFBnwy/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNv6eS5Bz2DPNdP4ufW_4ildVhoS3Jt1RqkiNgBnvfyCEVbWNAix0un05wWf0WZ7vps7fcSLZNDhtRdEHMsUFI3jDM1LnI4hVByamV6KQhJlntTtWM=s220",
+        "view": "https://drive.google.com/file/d/1aRKWJR0mA_zajIpSsBqsueAvMEnY6pFQ/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPofzunGJ1OL7DPdKOI7VXfGnclvndPbs1V42DEA5rv9N8T8CWVeIzblweei3yMqUfwtQOryzwoIYX3fAtOoCm9IVTtd9DdxR9ze7d_CeSoN53lEbk=s220",
+        "view": "https://drive.google.com/file/d/1LzAMInXscadKERyJCdiBt3HnRbTV16CR/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140238 - 5/5/2026 (9 FOTOS)\n  → 140238_inicial ✅\n  → 140238_folio ✅\n  → 140238_corte ✅\n  → 140238_demolicion ✅\n  → 140238_caja ❌\n  → 140238_liga ✅\n  → 140238_mezcla ✅\n  → 140238_terminado ❌\n  → 140238_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140239",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140239 - 6/5/2026 (LEGACY)\n  → 140239_inicial ❌\n  → 140239_caja ❌\n  → 140239_terminado ❌",
+    "_folderId": "1NGAQm6pbPBa8Vs4siHdZgqtBAYEY359p",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPI4Mc4FBfO22IaUwWxyOukqetwCtS_mRIZxN9m8gaMqV5WOQ1PkQtuN9hw6IytaPuy6vCVynkMOP2vjhT4P5aMTm1CLLfCDsouoC3ofJRtkaeRmw=s220",
+        "view": "https://drive.google.com/file/d/1UOkfx3utA2ToHxAYFJcsPpz1C91LZDBQ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOHEZO0hcTgcHlxuwJ2-m1KgKOUws44wdTtE0x8kZ6BtZzRuAoSjiY-Bm5jKn7wzK49scs5N1lTNiqstuoJnQKt_FntwnUXG5JzLUSn3qfElEsdA=s220",
+        "view": "https://drive.google.com/file/d/1fFSSIc4CX6GY9ByAOeEpyUGjLCXS9XT4/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcYhTq3Ajs9jx_xjWhESF2D4ezswH5m105zEfLaGsR46SFYhh1D5nzbj1Aq5fe1pBTjLwmPM5UywGubyi3a8FKGthI00fz-yJ_uimBiYBD5ueE_w=s220",
+        "view": "https://drive.google.com/file/d/1X2DlqQLsZu8VRCj34jLxFY5nerfVldZU/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOnmnZ6az6qS1TVLglAJRA2zDQ1DPgHcq6qDHne7TBLkiNAGDmcVm52i-IP5K4zeJM8Lq8zgVzBQSiSzPGwprbG1lDPSzW-AfRk6P-69Y-Ff1g9A=s220",
+        "view": "https://drive.google.com/file/d/1jcC5GbEJrv8UvojlIMp-0fsCyhbWPSYN/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOFp5PMyKcFtYlgvFClHdEIcLGqDOnk4BMmtX0cO3BbJFv-NPsL1JRq_86C9cyGeH_gNoeJW4aEHe1xOyeKDuhRhKxi59MteC_DBGezqMSRNwIKQ=s220",
+        "view": "https://drive.google.com/file/d/1pQaNqEO-OreyHium85zhB-VZBDHwDD13/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPxmRtcEGeXQ5iPnfWmls3d5c11M43alOrNHotvM2qbmNmGgVM1aU_KrznzK6ktwmoHHx19GCwqsceRlWhY5eKLvTLjXN3i9vwMKfrCVFro5Rz1w=s220",
+        "view": "https://drive.google.com/file/d/1ww4ECh3_VUqzwzLoGYXiZIGoqpvmcPGI/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2w0GHfzhLlFx9oIK4181dCR1SNAbjRhFoyPMF26t9AKpiJHlY_iYOb7RJXbIYC0A5hmxmOvgt4Me-lrA6d4nis6Mz6AGEaSxHkOBT0d6YgnzMwA=s220",
+        "view": "https://drive.google.com/file/d/1hsHnLwo_heIuVmCkGBgJCsog-fl95gu9/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140239 - 6/5/2026 (9 FOTOS)\n  → 140239_inicial ✅\n  → 140239_folio ✅\n  → 140239_corte ✅\n  → 140239_demolicion ✅\n  → 140239_caja ❌\n  → 140239_liga ✅\n  → 140239_mezcla ✅\n  → 140239_terminado ❌\n  → 140239_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140240",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140240 - 6/5/2026 (LEGACY)\n  → 140240_inicial ❌\n  → 140240_caja ❌\n  → 140240_terminado ❌",
+    "_folderId": "1d3iEuQqgn3dzZXfk6p9LHo3L3AU1vL1X",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ437Zx-LADsy98BU1LIfsjkA2GoN-8QFrOIcfmTtqb08R2K8LIHvSLiETXnFQZbgzWQTenQyfroz0cqZzM50X6VxdLZEujoX_MXM5B3LSClwRiOc=s220",
+        "view": "https://drive.google.com/file/d/1K8Mh3Fvp49JRzCJ851DFsWyC6fXYPHyc/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSenqHDJn1wy-tYXIA0f2hMoJLmlsvRmUMSiXUGLWrz-Rp5fsXVfAtJzljzbEeFshq0GvZBIqtrtP7UTQThVEDWuXakqTWa87V7OXSMdgMVnaGcio=s220",
+        "view": "https://drive.google.com/file/d/1rHs9VerAumOXMGbQEoJWCYQbu8K-viG1/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeBUAVf0Ha9SB2k7JzAMEbaAby57q2Le7qDFEZEhUzf3ceaXpkTjtZ5ZD_FW1RHzTfv8qectoh7BhV6EfMTH6_JSwWJAPAsehqZqhPyaJ_P5YnPx0=s220",
+        "view": "https://drive.google.com/file/d/1eSID5aazPisxGW2JhJcU7Cw5MzNd-JhS/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfK66mxb1WEyLr2n0UL1JIjbu3pgfxcRIBAiK_VpfyChEq3W6LauZ8xfik7BHNckHvuaSJAZshvnb-Q9BacSrPbUa36sa9t5Zs7a5fyC_MMub9ipI=s220",
+        "view": "https://drive.google.com/file/d/1COgyklog7jG7AGRIs8vZzxb-1YofRlkE/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQfDQZ1fvlgC_h_b_1sBTott_-lBVH6R8glBrxbIwqolc_AVih374dk_7JE113miZ6wjyv10xuYwccrR0L0p55RNQTVaFrJDbDly-sSlJJoQdBf5E=s220",
+        "view": "https://drive.google.com/file/d/1epGomn7VtOZvtA3qMD_aw1PdfUlLnH9E/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6DdgFVlQU2noAJo4qxYe2VlC49IVQWdN0B1RJIngaAglCaKviQb4uc0Mr37ySkpj13wjXvqU5jcWNVAjWpJ0g4TyQaP2VHSwYgGv1F_oUL3nvuJg=s220",
+        "view": "https://drive.google.com/file/d/1M6jp_hrb6cilQZRDUGkbtDdMGVJ_LsU4/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfqZgw5tjtsGpckJDdkP1gmOwnerbjd2YqjpwdS5OS-hZNhkCOCTBgbmBAtStMcTm0igGxuSEhfFTbHPsNq7Y6lWy9yuo1vxRtHAb9wB23opxL_bs=s220",
+        "view": "https://drive.google.com/file/d/1CldUX9dT5nhYh3xfhlSFv8ootWZHpfOc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140240 - 6/5/2026 (9 FOTOS)\n  → 140240_inicial ✅\n  → 140240_folio ✅\n  → 140240_corte ✅\n  → 140240_demolicion ✅\n  → 140240_caja ❌\n  → 140240_liga ✅\n  → 140240_mezcla ✅\n  → 140240_terminado ❌\n  → 140240_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140241",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140241 - 6/5/2026 (LEGACY)\n  → 140241_inicial ❌\n  → 140241_caja ❌\n  → 140241_terminado ❌",
+    "_folderId": "17FBQhQwSvekc2PzUEYVRHRFrHqWZjbWy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNON1pTic4PvTgzCgpFuNu3Yb9qvFFiXERa6kztbS4lBAvLQ7vuT57fIR2qm13vmmNbSMFDaqQW1yYBaZJwn22WxNtXjQhG1a665vY8AZJXFkFIJw=s220",
+        "view": "https://drive.google.com/file/d/16zuGq2rb0A8Z3pe3T2XScEMYKXJYJovW/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbU5qoWLDo9BNEcc5KZ5H8uOBhJVAHmxLuTzogOLmI4suG5WbOMAGoM7RUr4gnrlz9VMxY3cYNuUFlzyayd7Uduv62RFjwS-dHp-7HCQdBDJTqcQ=s220",
+        "view": "https://drive.google.com/file/d/1m6N5BCcH21kqFttMt8Q_gmtSuZEolgPW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBME5P9raaHDA93e0fxu1PMdUpaInjZRQBhDJmUMdKX2aZndcp8IrIevw-clKoWQH5Xtx4J5oD7wtdtBy1uYn1kk08GSbpDzk28YA9NaPce3sTDZVg=s220",
+        "view": "https://drive.google.com/file/d/1Iuw4ZeolreY7Mo5yQgpjwOpAby7-F0zA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCww125UC6S88xoS8tocnhdc8DFF795GsHuJ8z8WDhLGZ1V59gicDsS9nCAaRfxvM4oklVWg4DOFujbI8hQclkL37A5vOJVV9_l_d81TiLMLuRSQ=s220",
+        "view": "https://drive.google.com/file/d/1QfQl9DHuUAM_SY6QL8UtH3NdI8jL31HY/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMAnomFYsTToS5oFkrQyI_O_9rQaPLzqOqirZzyY-IVW1qtdxAx_DLLuyhu_gZLfm_d8O2FyYYUb46Rf0ZsehzpwGFTptv1XCPab0DlyScMXe4Zg=s220",
+        "view": "https://drive.google.com/file/d/1EWDs1o5iaTlurdR55FcZJqJMKU8Yp4lV/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrNbkHTd1aeVXW4_2BLXjMMgCEK4oA-p2dbisF5_zE8S7Hb8S1KXzYB-Z1FdYqZ2QnTgsScXPVw4xY3p5L2P2EaNt2CQOUepNubnBUYZ3liRfTdA=s220",
+        "view": "https://drive.google.com/file/d/1pTJTEtJZGeOKEfY5vkc8JPxoDVleW5Wz/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZjUy-SgkX_A1hGhyFeHYg-qOSw4arvTCQMtTzXdeDp_6sva3OMWTuqVV8QfAIMgNdQQBEThiZ5OdLm06_MuRmNXPP5yMnhPsTjt_PWqi6qG4d2w=s220",
+        "view": "https://drive.google.com/file/d/17AHMhViBwlu-MqaCIxNU8Ha4dDaljkWH/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140241 - 6/5/2026 (9 FOTOS)\n  → 140241_inicial ✅\n  → 140241_folio ✅\n  → 140241_corte ✅\n  → 140241_demolicion ✅\n  → 140241_caja ❌\n  → 140241_liga ✅\n  → 140241_mezcla ✅\n  → 140241_terminado ❌\n  → 140241_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140242",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140242 - 6/5/2026 (LEGACY)\n  → 140242_inicial ❌\n  → 140242_caja ❌\n  → 140242_terminado ❌",
+    "_folderId": "1XwUq1MjabWqjAxu9kM2FqQcopeCRWzKi",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMV7oQDPwrQAyv6t0mHPcWZTpXfvUN6sezRRknV9-0cM0Fz-cJ920kdeo334HI2Id664oV22LPSEmWjRbHZhAXocSlM21GD4KdYSXW17VlP79NDaQ=s220",
+        "view": "https://drive.google.com/file/d/1ca1-FutPotLODiIJtY-h3z2xFW9puuKo/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzyVvGB9lQTvA--yd-kP-B8PTEYLV38Mr47UpnSRnzuhufNEF49RuOFSRe4zh2OziVWiipMHDXPXAablthH1rdgmhr1hUw6tIgNlF1PjJaIZCfzw=s220",
+        "view": "https://drive.google.com/file/d/1U7QjKgvD81IAdHe0xm2HFzwmsR3vIgNZ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqfEjha6TBrG_QggS7prgWhVo-FLpp-Cb47nsN9u6Hx0Cqw8s7dSOw1fORXa3ItYAd4N1uIAeUpQYqgX8BD6r5aSK3vGPauy3CZc1aCZqfX139Eg=s220",
+        "view": "https://drive.google.com/file/d/1m0RtAmE1Vyycnr1iZ1fVza1xlFoA0BgA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBmxx2eeCkvV_VKqYbC_8mZykpAe7aHc-dJaX6Cqeah3FfJLxlst2snAcmCI9qq__L7dnMYwo97kSh_bCqaMY5EceMCT6aqno6f7y-SZnL3bg1RA=s220",
+        "view": "https://drive.google.com/file/d/18GOlTB3KcFiSBE6amS30YcRVksfo0FjY/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy-B6TrzW6DhyipHHuDjCt5ks-BFHVsm3ZNXuSbMDHapNDU5Z0veGOkjORjXLJ4XvsZqV9SkmACLnuJ44BmXw9m3Oo12vsEgZ3IRQsacHoqaVlBA=s220",
+        "view": "https://drive.google.com/file/d/185ixEYrK5LvBZJP-kwVC9C-OfKxqR_-X/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGB099wRtrVX4ARJcqFbd-DkHOmyQowu3yyQ33MvZQnuPI1IoLgy4wiqTTyGlekPwLcu4XFZgYLsse_SdJ-9GP17_7wHVdFUD8cAw8l4hp0R87AA=s220",
+        "view": "https://drive.google.com/file/d/1S3l6giSp5pMHWbTxQJlmf37oS7Rtmwdn/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrf5gib29FbNTo8f54u6Pq3jqU1RXZ55mVxqQDQtNTIuhNJVPTpytHcSIYO3arCdgkfQeHzy1LEZARCiPf6ECHrzSYy_K8M4tiIDZ9r2jbPrCJCQ=s220",
+        "view": "https://drive.google.com/file/d/17Nu2ZK8TG3J4t5Y_Tj3rIfE2FmcEtQC9/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140242 - 6/5/2026 (9 FOTOS)\n  → 140242_inicial ✅\n  → 140242_folio ✅\n  → 140242_corte ✅\n  → 140242_demolicion ✅\n  → 140242_caja ❌\n  → 140242_liga ✅\n  → 140242_mezcla ✅\n  → 140242_terminado ❌\n  → 140242_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140243",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140243 - 6/5/2026 (LEGACY)\n  → 140243_inicial ❌\n  → 140243_caja ❌\n  → 140243_terminado ❌",
+    "_folderId": "1OWyUKEvjRMcOwWuhzAosxjS0-8jZDFMT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnuj-FmIFmXh2-Chn_kUf3JxPOTgSxxi0xGK3ARoYHC23BGsYquHcwoI1RUhBeKwPfMyaWuKESaNcm8UIxY5vZ-jhvSCQJg1PR3cvI8OIcoZG09w=s220",
+        "view": "https://drive.google.com/file/d/1VFQpuWCGxRQIoXZNAjKEplqs_7tyCM5r/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3BU9-l96_Vuw5ruhN85niyXTGRkF37EHCofXR8mAM2jj156AHtUGsUUvapNBjSb9fyWOhsg32NmN6rFTMhB945YCti8I1UhE-ekQ1fgcJZmFiqg=s220",
+        "view": "https://drive.google.com/file/d/1lEfv5CqqOXUa90o9fqboUdjsCYDE4hVc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX1iCfSBFHnmcsBRAeVg9OWSvIUDiou6ZplbsQh48K9G8vFJdYYMXqqaNo3UOXdCMrqxiv1Yi93OaDThQ-1k0pKA0mRUbHEk8jerMlyJEMjN_Gxw=s220",
+        "view": "https://drive.google.com/file/d/17uS2wnipB61HaJtZb0gNAzpvHBbjP2oX/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWNU1fg9usx8ZuucVsDqjFFnus4CaUfgam_6em1MD9qpaw5V3fhBQYbuSZtMRTwuwmvCQhGhLUVDGUkQicv1n3wZPq4Y4DD6bSu8yh7O4NgffVxw=s220",
+        "view": "https://drive.google.com/file/d/1NEC1VAeWFQJRQQqwVZZcQb18GyEDXiUQ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaw5DLaJoHQE3SlbDFAYDKGfLNXteoz84h7JI0_YiEMWr5tImQDaUQ3DL8KEgcE1UhGgl9VqIDo-MmkdkYlk003dbZeZFKee7jQljkXiDrPc1iUA=s220",
+        "view": "https://drive.google.com/file/d/1BZTcYrArO8sl6Ga1Z-d9dHQ8sF3RwHP3/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0RP604WcIsNWeXWSWu8rXcNbJAEm8XGS8i6R8CrxzX-FwkE14xo5Kw5mFN6YFr3NszOG1J7I3m_vgLPckDD9-pKEdPGWxEzF2th66oCjgBAb1Gw=s220",
+        "view": "https://drive.google.com/file/d/19mIffMHZOmXyTqCulmcs4l6GY2ZkKzxr/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGCNEOOgmJ__phiE-UW7i56AwUAds7KU0-vwS04otgaM2qwHW5YB6oMLmX0ZiU9tlIzpSQBoujb8Zis6kkqv3wP2Kf9wr9BJvURBGWkDMVktk8Jg=s220",
+        "view": "https://drive.google.com/file/d/1M-hk6kAMkxNqtp6XntD2ac5DPt4sbfG_/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140243 - 6/5/2026 (9 FOTOS)\n  → 140243_inicial ✅\n  → 140243_folio ✅\n  → 140243_corte ✅\n  → 140243_demolicion ✅\n  → 140243_caja ❌\n  → 140243_liga ✅\n  → 140243_mezcla ✅\n  → 140243_terminado ❌\n  → 140243_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140245",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140245 - 6/5/2026 (LEGACY)\n  → 140245_inicial ❌\n  → 140245_caja ❌\n  → 140245_terminado ❌",
+    "_folderId": "10iNYCUwkiW6UU9p8KtsPg9oBWOUy0zMv",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIfm12bOu_6RbQTAmOGPMW9fwcIb5_WpKp3sLgSoO6_yZnaCpfIX2e2p8bhwbvG86_s8uUlmmTc7pLwAA8NYjM2Y4Dw1ubxpn4MItHTJUCBQhEXQ=s220",
+        "view": "https://drive.google.com/file/d/1I_Evr26oV2VdNcJUon6JtJF-3z_iDROS/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPov_p1zUDQ9oWX1sSzeXUKHfkc0Qb2p8RmPN3z7EMzYEZa6ao3MKT4Swr12OCW0wnVoTyY6EmJNhk-TNkb7-DaC8ZcMP6PfLUljUvRHFpKJu_-iw=s220",
+        "view": "https://drive.google.com/file/d/15FU3rrN6ZwX9mRSAJp1N8zuOIntfk5Gl/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORmKzCELAvuL7dlYtdfdFOxLUfPtrX_deQcoXl4f2Hbycu8nA-nCGvf7_tOU3sf5Sm9oFg8PHKM2ae1uXq4WCS2t6NGokmeuG3ncDpmLCvTp5NBw=s220",
+        "view": "https://drive.google.com/file/d/1JBDKmA53DsM6oL9aGmF1R2s8EvREWoZ_/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtD5X46_HFL8qGcRMOqDHU5ezSH0Vq2J2evX26A9EoQ1j6Z-UiRNBUPYLLGtiJLtH6Nz5ueyvUPBIuzhoGhCaaFYyLkzhL_MqdR12OinACc4yUow=s220",
+        "view": "https://drive.google.com/file/d/1PDaWyCux_G0L1eHAiZqR_cja5llUU3Gy/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVBZpPGIf732MbJDx9FYqlTSarnJVlgaiLJh4-v-1ODhr4z4ZqyKjkmBmrdjAYGI3xTHc9zsbNFLj0aeBVmPQB19ZqRWSbIojPeFSbSytz7YIvNA=s220",
+        "view": "https://drive.google.com/file/d/1SfbOtkkPG69lOVd8-RINFXKnyy57gERG/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNr1xKioe8VYC0yEcMDNBZYsgGCvZvlZpfmXSmZSCNYfnT73ox5FHOwOwzeSf8b34dLHmHpniHTHQWSySfnxRNnHnRFsCQUI4NFRqNRulRyaZtlsg=s220",
+        "view": "https://drive.google.com/file/d/1iXyyKh3jUYQxR2bqcFosX83fAHIR5J23/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwuEwaf9lAy1amlDiU2ALWqlHC-1k2y0rKY6dRir_qVN84wVfZUSqf1TX47vhzyadpck-o8iznETT0QPZAq10FqbtH8RWC7t9VrrEYhh5SZlAz1w=s220",
+        "view": "https://drive.google.com/file/d/1-Xlrvu-mMx_JOV7pqDsylpWQAOBdWjYw/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140245 - 6/5/2026 (9 FOTOS)\n  → 140245_inicial ✅\n  → 140245_folio ✅\n  → 140245_corte ✅\n  → 140245_demolicion ✅\n  → 140245_caja ❌\n  → 140245_liga ✅\n  → 140245_mezcla ✅\n  → 140245_terminado ❌\n  → 140245_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140246",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140246 - 6/5/2026 (LEGACY)\n  → 140246_inicial ❌\n  → 140246_caja ❌\n  → 140246_terminado ❌",
+    "_folderId": "1B2ko3Jhc7d3Kd4J6KT8Ja4Rahokm3Gda",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjXEzkqZhpSGkxDFtOcZpD87XYMjbFK-h_PRgKb3MozIe_eiLN56JeYQK-CZq4vqKnqvcn47ptQAfejLrstVyArImJaTRw_7TAtGdA5djZUnzIBw=s220",
+        "view": "https://drive.google.com/file/d/12ND6JdU6Kat7ptVN4Goo1YXZeXoB5gzH/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOC4Nhlha24GA7vAwQSDuFIIMm1WY5cGL8HG9bjRKxddfQRbEQROsOEhfwJmQND-mkG8o104Bf-qLSOrSBBfegrTzuX8uiPJgm4IXCcmR93_Wn2oA=s220",
+        "view": "https://drive.google.com/file/d/1L3C33Nc3HsJxKPvxzrKIPixc71_wj81k/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOwC8DeJ4t599EHRo4CDP6NwzSAZ6GqGULeT03mV2-K9KWSXE80X91URK8y-BIKkiGOg7p_pWLwyS0D8xsGYjkgrJD8_HJidx4Af1jIFDe-f063Q=s220",
+        "view": "https://drive.google.com/file/d/1hzW3_PfdTwdXgeby4BwjKydt4HgQIdH3/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvBv0bmk7I5lSixJ-YE2aNLL0bT2BDvzZuKcGQpNH91C8aNlCh24fNIo864m1hDk0hYnPzfQqi2sCHF8ZUpSvXmPAYPP5Q1eUSiK7YVTTuj1LM8Q=s220",
+        "view": "https://drive.google.com/file/d/1M0MHodTuPC2U6TJ2T7oCjQ6MXRGS_AW-/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaEKlU3OrH9oy8X-ekZSoNffUek2vHYav22Nabe_bmuWNRjIVtf84PcdlS_QajzNCCEwZ_mX-fgmFAEDBmqR0zj0JeIH7qTcLCMKZUGIm4Gch77A=s220",
+        "view": "https://drive.google.com/file/d/1efg5KWydui8N9WgCERl4quFTh8W8NfXF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO58VVQ-VNllswVFeVatx-tJun3o6Y5a5BApLdHvCBHLs1qGocueVcl77HtFEY7KXno_l2GA4AKGhIhR8vMea1cAkGKlmQ-1554s3-VtFDlLHwn_Q=s220",
+        "view": "https://drive.google.com/file/d/1voc6lZimmNphXL6ZBsYmFKz7tpQ0an6G/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKZtQuH7hb6pOsbEVOyOB1BQNKXJTzvNQDRcfsZnw0zIWcZyj_qq9rR-6_C7QnHLTzBla3p1LNb5umF3ssKK_Grfppve6J4Yey5a4H_CFDNqWCSQ=s220",
+        "view": "https://drive.google.com/file/d/1LDgBvnItVAt5IeeWPz1FkeJW1P_IYTHg/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140246 - 6/5/2026 (9 FOTOS)\n  → 140246_inicial ✅\n  → 140246_folio ✅\n  → 140246_corte ✅\n  → 140246_demolicion ✅\n  → 140246_caja ❌\n  → 140246_liga ✅\n  → 140246_mezcla ✅\n  → 140246_terminado ❌\n  → 140246_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140247",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140247 - 7/5/2026 (LEGACY)\n  → 140247_inicial ❌\n  → 140247_caja ❌\n  → 140247_terminado ❌",
+    "_folderId": "1GiW86-TFB8EATOePN7ehG7M_Ozc55CTK",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVDpaTO7d_CHZ4iVeCqYua604uBMHthdtJ0EzLROKb0q7hmjbd5EvGBA6CMGBQjmtuI9bevbyGK9aKCoCGLNB7bGzNkzPUaSrol6PSAm-jWDgzig=s220",
+        "view": "https://drive.google.com/file/d/1tUX4syBH8q0xV_tv-zeLbgCkg12h8zls/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcXyfc6wMWQMxKd3dTceC2nTJu5oiLwAXo3l_Hdi8O_w0DVOTDyBf6ZnlvY4xei3PqxiofE3kfDA0e8cFPI6kigD3kJzeXJOa621mvV6jYUZIeKg=s220",
+        "view": "https://drive.google.com/file/d/1vqXF13NuZImjczZcLGJtVBeqSKoc0uqJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMRn0cWZTnzim8R5VB8X3FLJ6i_2oVf1zt7jy1AdutjxgM_2g5AXWaAkRQsYz35JaukdUok-rqk2gWDvwRO9s7yoLu1YosTW1KHrziskZZQy4thg=s220",
+        "view": "https://drive.google.com/file/d/1TvhPUquAZbeDrE9ZKSAfBKDtHDYYPoIo/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNw_8UbkCRh1D96taigSAUNmobuXful3l7Vh4rarcTBEO533sGqgapbOiUWsB77309fyYWazIjWZy7UDUxiTcrkQ9w9dP0jQozSgrzm4ncXF-oWA=s220",
+        "view": "https://drive.google.com/file/d/1Tgcq2hJJkfg2WmMRTrQdiazFxofqaNZG/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyqnG9f_ru9QnaNmYdyrIA-nzDYGm8J_Ox4i9xHNh7jjdD8kFgMY1yDQZ2sdJ9891WGZ-wQiQ1fTt2BQn1IK3PSu8TM3FNL_gUbtB-C5wG7dMBkQ=s220",
+        "view": "https://drive.google.com/file/d/1MMosbTb29VfNraEBvE-9KV9tOSkjfEBF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5InesNtJm7FBtjpU2OWpbhRMsjkAzVMHZ3ETBnh50gcXghyapLSnJSfBLgeTR4ENRDdpsu5XmL11Db1BzUgMGITgjlO4kNrkjdlNluC87I78XVQ=s220",
+        "view": "https://drive.google.com/file/d/1fg1k0t8bcdjCuLPZsoNzoWiFMtSD0GnI/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOD7Vy74Vu6bPYJ-ZmxG8cUgBmEsSVk-0IJyQnOXNK1SADABU4-_i5PkjrhLtXYGI3aLdnNW7UXMN2q3L4ZSl2WQEkaEpuDjFdodx0xobXZ5w75wA=s220",
+        "view": "https://drive.google.com/file/d/1qeKWtEnBOgRfAnOusBScSJe0Alxuweb6/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140247 - 7/5/2026 (9 FOTOS)\n  → 140247_inicial ✅\n  → 140247_folio ✅\n  → 140247_corte ✅\n  → 140247_demolicion ✅\n  → 140247_caja ❌\n  → 140247_liga ✅\n  → 140247_mezcla ✅\n  → 140247_terminado ❌\n  → 140247_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140248",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140248 - 7/5/2026 (LEGACY)\n  → 140248_inicial ❌\n  → 140248_caja ❌\n  → 140248_terminado ❌",
+    "_folderId": "1nZ-ZPDBQZHMFZU2WLtOPqRSmAtxEN6mI",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0B1orEGihAwlSu8HHFM0u26GFGVLV60ui8CZ78ay3pz3C_GgIHISU2KTo-D63bZDrK1QwtlqYhv3p0KNcOn8dTgDN3NF-Qw3qihzxrN-DvMb3_w=s220",
+        "view": "https://drive.google.com/file/d/1F_PmOPIjNkdNwOvJtsWQYRXgx9PULdjR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOE1lyTbLCodBn0XjCog5RkvlEn24vjgxyVvmBYbAwGb9fWQoBzzy2CU_RIG6PQ5E_dcYKSOMhhjDQTtCd7yMyA0GTVxs7RxwfOQ5O_YsixJ1GZ-g=s220",
+        "view": "https://drive.google.com/file/d/1hO5GAKpUmXTp-6slylNG63acy0T7fMs7/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYXirEhq7ATjam9R1cwHywbtwAbL1RUepGUBwrSAb6RhNX8cJlfByXRzecdPedGSs0LKbUJXou1D9uSFB2gPjVRvT8cV-xSE8qYhLTbdmE11kGjA=s220",
+        "view": "https://drive.google.com/file/d/152isywmoOIVs4OnA_Yqumfwo0vM0eRG8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-CA8G_TkwZapY8hSLUqpimadu_kXVOBoAoIXvnhV9WNGI-hBIzfhXebwZPF-Z_Kgn2JAHGT4oLz2hicBs-aBqNwgNXmwsbIQvPBjEQgup2g07CA=s220",
+        "view": "https://drive.google.com/file/d/1BhvrTkRMIcIl7NbjZXVC0vYVt1qmFBfx/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdKrHcwHJRW93EOldDfwEdO7AXpOdUhS1CP2NJ2OtIxV4MJr6SMGMU1ToeOg_XIPJpnCW6hC6BrVc0_a1Ov-iOH9fzCH7eT9BWXEOEjzD9Xk9QSg=s220",
+        "view": "https://drive.google.com/file/d/18nDzRKalmTEVRlLfR7BWwc3GC9E1LgyU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMdJgVL9sTW3wI3n40cUJEmZCPA4iGtuGdPsaYcs-4KHlWZhfmtuEDaD70fV9aLIG8DZzIF2mzZm5xST9_fTUG8uPIQfZdqmgsSJuw_x7WBLLqAA=s220",
+        "view": "https://drive.google.com/file/d/1v9l43lIkIk11ucQ5VJVLWulU5k10tWpv/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtKNQaZ5y4LJ1dkOzJIA2J9UhcjR1N8b46ai-2H_mRykcBk0yPG2Rvq2OdqLy_cXTwdFHI-i0zUEG2BEXCf6c6nLWw1mK28wE1XaetfOFpt2nyKw=s220",
+        "view": "https://drive.google.com/file/d/154QguOH-iwn2i0dZd5GijI1uH1VDBd_S/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140248 - 7/5/2026 (9 FOTOS)\n  → 140248_inicial ✅\n  → 140248_folio ✅\n  → 140248_corte ✅\n  → 140248_demolicion ✅\n  → 140248_caja ❌\n  → 140248_liga ✅\n  → 140248_mezcla ✅\n  → 140248_terminado ❌\n  → 140248_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140249",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140249 - 7/5/2026 (LEGACY)\n  → 140249_inicial ❌\n  → 140249_caja ❌\n  → 140249_terminado ❌",
+    "_folderId": "1xU2ghfxSGkQZ6ilZXQmV-jmLIQoknCI0",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1diLr7uJak2JX9KSnIS1WNV6uFOCDfZQiGYPhhBg6us7pMOHiTveRKWpaFsil58Rute_qxv8AH4IKsCLduArI52wg76-dUdd9x8FgmRCAYHGL4A=s220",
+        "view": "https://drive.google.com/file/d/19rv8_cmvrsn4eiZ0LiZK0sX5gleVPPTQ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD4INADFaIxWJntVZui7CTdLCFXvCMg7OKaSApZGOJyBtj19nDZLZFtb674SL27Fa0nzRilgbgcbQEPwi5vtfcHmcuyFT5Cd5nWJ1v5y1P9Pg1Zw=s220",
+        "view": "https://drive.google.com/file/d/1aprWfNSRxMb5-HMdVl5lgZW8Z1aJeiXh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwrJ85V0BAj3vpQB6RIE21L42_uJiSy7WD_wW3flmKZI_tT9IpcvZFf9UVnpTxGy2oShI1kVzX_4qo5mEoEBDIKAa9BsiLk3wAbXZVVo_V4RXMgQ=s220",
+        "view": "https://drive.google.com/file/d/1inPIXvoU5iTKkuWJ69SX4J01sqACJiol/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbo-ys5DM3feNU4mQRKFOawfxiKtJfsel9e-gvBg-TibjwY1KSpAi4mYaSrvJ4xLgRE_p2iquPXO74YHeBmcMJsXA7PHTDC1Ywz2BXLfv9LxvX6w=s220",
+        "view": "https://drive.google.com/file/d/1ktiQue1T0-akVNQ-WWA-LUM54OHNtKLB/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxBUN3RCrYnEInSDvD4Vdokt-gm7hDu2LzcwW3khVIUnL_ntBfC37t8H_kGiMRFGSBrOHmpbvi2D6fElwjL-r0ak635UCO8iETBo4y04_Dwvy85Q=s220",
+        "view": "https://drive.google.com/file/d/16gpSjlYJ_nAfkESzBus9UWBtvX00Klfg/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlO3iUZlousa1hH1V6A0H98VXC5pAmuSAxK7dWnXlsv94ju_fCXW5ZnG25UDOcuQT1C8-g3pgOrAAr2ZUYO7KboTM1TUH2BPInpeC5mRfl7-gUFA=s220",
+        "view": "https://drive.google.com/file/d/19esvIPwTwvb838PHlrpU6Ef8eGjBxr13/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuFAAZ2LsqQZYQEvIncLWESh3C_ffvCzwxSXudkPWvNhc08JikhykGsfF9vao7O2TRhfGR87NYfdSimv6J6bDQy1-f0vPwBKwXYI322p65dKKKSg=s220",
+        "view": "https://drive.google.com/file/d/1MSQEag43s8pKf429dc5FQROHjVt6025s/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140249 - 7/5/2026 (9 FOTOS)\n  → 140249_inicial ✅\n  → 140249_folio ✅\n  → 140249_corte ✅\n  → 140249_demolicion ✅\n  → 140249_caja ❌\n  → 140249_liga ✅\n  → 140249_mezcla ✅\n  → 140249_terminado ❌\n  → 140249_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140250",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGUNA DEL VOLCAN",
     "COLONIA": "SEMINARIO EL PARQUE",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140250 - 7/5/2026 (LEGACY)\n  → 140250_inicial ❌\n  → 140250_caja ❌\n  → 140250_terminado ❌",
+    "_folderId": "1vcAdnULPngNJPWYLDvAyK34EV7lp181U",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNceynyJdSVXV3EdNrA7QhVsmoc2GVhAkzroOyCXALxccY8ufr-V6nNlTg2isuvk_djKNPIXDm1iPvk-cFZWeWXx-WtV8g-6WYqAIWBLyTUcK-0A=s220",
+        "view": "https://drive.google.com/file/d/1BF2RRIZHr_7iRgL6PQs25Y8FVHfA4FLX/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdX1dpTGCYOPY-Y6juB1Km_Sr5oIWQrjCIJWQTGZHhML7u6_Bwopwe7LC6_nj7bnviMFfaRtDiFP83SkIE_PRc7Tocstn6A_Du0vygnaKJG2sk_w=s220",
+        "view": "https://drive.google.com/file/d/1GteYJ3stFbfVYNiRs1njza4b0k18H20b/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_-Ra3dbQiALTxZXVqHu-yJ8Wus0FrXsZM4Ehi5bqd0gp3mUkhBqf-gjl1trTjyELo3Pq6y4wHmX2oGXlSPVRuYimnsudIDgOUD0df4DKQIVX52g=s220",
+        "view": "https://drive.google.com/file/d/18XfoGRgYemk1WKEjPv7ciIrnTrkLqkyK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkXG29jB9U6aEeIocjmgJrlAV_BjbZaFVU2cU08Xw0h09Jz5yigcmfVTrQN-s40R0gIN4vYAJAvtxgWgjAMBT4VJQL_-FeAO5nj9NWQyOFTwW85Q=s220",
+        "view": "https://drive.google.com/file/d/1t3C5Iliub7MkReq9M7pwSPUTLh64WMtD/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5lyOx9qN93ODgF-8WZ_VxDJpID0odxc9fs3yuLXxGwVLwvrEeyNI5W86mCxhfhRt-RcbXzzp-RqyitEHnvEVChtEVKZLGduIj-PP4yDw6e-n0pg=s220",
+        "view": "https://drive.google.com/file/d/1lITAusEZ6O666XrDvhSnNxLS_fOOgI0u/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-zxjEefpAFgfxvdWvn6nniW0A8_wOsa-AmVZDZavln1Y7pJCQSixrOvH8PHjAJyvCbFwgMhGKueP-gQwzRtFWW4iLIgliIbb9rtTh2HJ33eyPbQ=s220",
+        "view": "https://drive.google.com/file/d/1rGZhG8VnjYBtM9EoN8eAaEF4xRXbKSb8/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZIJs_cYSTmAyeOEVXGkRX6AmMFi0PtdjHNRhvdwtZlpo-fNuQ8DFZPKcvYhhc7Xk7lNUmnfmz1PYy-G7yRdR-b0JNR7EKRlcYmakTP_KH6JqlZw=s220",
+        "view": "https://drive.google.com/file/d/1KeZnieW298eCfrikrEWsnWdmQDeyate8/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140250 - 7/5/2026 (9 FOTOS)\n  → 140250_inicial ✅\n  → 140250_folio ✅\n  → 140250_corte ✅\n  → 140250_demolicion ✅\n  → 140250_caja ❌\n  → 140250_liga ✅\n  → 140250_mezcla ✅\n  → 140250_terminado ❌\n  → 140250_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140251",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140251 - 7/5/2026 (LEGACY)\n  → 140251_inicial ❌\n  → 140251_caja ❌\n  → 140251_terminado ❌",
+    "_folderId": "1W4UySUwt0g2LgfoUwCBmUDFM5yvXx4CJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7kxphSBfe_avjJUSoHtL1KFvnUeHxnQ8lHs0xrwtEgd_SFKr90BHeDZJ6aODh_PfVwJADoBVgiYCUQDnirs5iXvgVt0IiTgabfA80B6WuYydwkw=s220",
+        "view": "https://drive.google.com/file/d/1M4uAtXopQTqOUMLP6SQd31KQlWS1nTF3/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP04HSRLQ-OrNX83jlGzeZQ7cxdGTI3cNTa4WQXxJWzsCDPOSX32cl85vzU_Jny15QwRsnvBhYV72aJULEuLaknOLLHfm_rXzr0PelCqgCw75Q7gw=s220",
+        "view": "https://drive.google.com/file/d/1JNEgtRbRc3i1JsH2HQ-Bu5BTURmWTONm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnpuyn2sxJuK9th5GkENkr9hbjEsmxngH-hEE6QbVu4z5-4wKacIJ3ZJX2NHjmUCEKSNguG02AWtFmKz1RcRLspMcqeeep2nHceWqmKe9trkbxTw=s220",
+        "view": "https://drive.google.com/file/d/1a78hk1VcjBGVM6mU6-bY1nKQ6pw8t6tP/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPELkK7Arr9xcyR1ghLSAAyibSHMwhZX5v55q_j1Em7QL4PwVVfRVKRAJP2MaZCeX3WVKnRRW3hM2wxOgSmPDT3A_ksqp9c5kjB7M4VSrBT7IH5gA=s220",
+        "view": "https://drive.google.com/file/d/12sd9pBFTZVp4yh_5cIYv67tu_CiwW_YY/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgcDF43vCBHpPi53DgdfltyAvrwzvltPVNcB-NSTTXLllWKz725xFcuzA7-esJ_Y-Pd_5Pf-D34BXj4yOYl8wiNALqSZWCCuu95V8X5od1ElghVw=s220",
+        "view": "https://drive.google.com/file/d/1pBqlGtXXEgNQ_PsrgyNNK10nBy_crEXI/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsiSdN-ZlJdKeGH8Apw4HIULwSEkofbbIcMNA-mOsczVPctt9ykpcJQfT9Gx4RnZtpmuSQpQiDaPxtBVRJUARaa02iuUFl0zzXKlcC8F0W-K7sjw=s220",
+        "view": "https://drive.google.com/file/d/1q20BhZICWQlVSJrQPR16KTGARd2v2_5V/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOadjvj84BGNSp5v7x42JEOA3m1Eo8acoipfcGY-DvdE6YOdunWECCwWPIheyPqDzpF7cax4aQfFg2Hse6dAgWsSviMO5q3rgrGmL4CInp87_zvTg=s220",
+        "view": "https://drive.google.com/file/d/1azG3MuWDElJD5M7YWqxq6HOnOBjyHJVr/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140251 - 7/5/2026 (9 FOTOS)\n  → 140251_inicial ✅\n  → 140251_folio ✅\n  → 140251_corte ✅\n  → 140251_demolicion ✅\n  → 140251_caja ❌\n  → 140251_liga ✅\n  → 140251_mezcla ✅\n  → 140251_terminado ❌\n  → 140251_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140252",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140252 - 7/5/2026 (LEGACY)\n  → 140252_inicial ❌\n  → 140252_caja ❌\n  → 140252_terminado ❌",
+    "_folderId": "16zoMxgFKOnp5hWOI49WC9wxvOIFjn_Lb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmROePbSJZC38hFCmKRmhFXf-wH7N8wNZ6PglkfnEkCgztmukuY2eoVH3YMki7YIN0XeFX2P_ArENQk5VNjwsOij-vZjT-LeW-0NIcYXAS1J8Rcw=s220",
+        "view": "https://drive.google.com/file/d/1RAcOd5cuu1LQouduIIv6rQrQ6dvMoyvr/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKFO54NwO3gsSFqBuJVb2t3jQYVLzEcDGX4kwn8Xe_098ykGA8v2_elx93_Rq2w_SLQ5r2__J2hKUZY46t90QQ3KhawKaTAbQJ5AI8_zGmRags4Q=s220",
+        "view": "https://drive.google.com/file/d/1aqJvfyz1Tx1FG5Yua88T-YGkngjZuquL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOoTWcA0riGLwSXoigVZR_sbac35kB9oPtR2sDRg6Ubhjle8sxWgVnZ25vz8sBXK6k7S87r9vy--gnS7WYCekaBwfd3LkOdP5rhunCJEtQkcehdg=s220",
+        "view": "https://drive.google.com/file/d/1GxjCAyDU4A3tebMUc7aThdpPhaRdKJlm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsud-Yq9zCgHF-9Pnfee94jcHI_FPyA3darGG5pjKwQoMqJv2egYdiZnYbDDrkzMAky7nArWRqPyVBC79fXNgFu4HS4XylbRg2UuFnE5sGrwqVTg=s220",
+        "view": "https://drive.google.com/file/d/1smmOnEMqeTG6TnAtEyJGs-wzbYqvTTUa/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZUesSNGNSpj3mxGfSE7eWcycTsm9AlZ5Cpt7XBJTOZy_F_JhJlwzlj2OtQ04QwDV-6IVdD9mpAdFRsve2YcWvGTZH4wRcmZw72PpvK2kjl1djfw=s220",
+        "view": "https://drive.google.com/file/d/1yhWg2xZzYujNXjJkka69sNID7UPHRJoz/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlDYkDTpg8C5eCce7f7_XUhLn28xc_3X7FDDJDSqtjI8PqZAFmRyMwt37NxlR6lD3psCqEu-YEqZOoQ29Wxr0MbpW6PSBzu1rYf03A0d09jhs_8g=s220",
+        "view": "https://drive.google.com/file/d/19IgePSozLgIg6eob0DURH8rCBaIgDe8y/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcwJKqVdWquTX_vLXYoVrLz0bs15eYPeQUnwVRLzNRct9qR8DMbOn7PWuq6vnstK3uQCRZqr_qsSMrlHLqkLqvLzGp8JvIJxjsjSI7QplG7Ko3LQ=s220",
+        "view": "https://drive.google.com/file/d/1lNKAEQmt6RvJP3kkePvqcMThO_8eCsQQ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140252 - 7/5/2026 (9 FOTOS)\n  → 140252_inicial ✅\n  → 140252_folio ✅\n  → 140252_corte ✅\n  → 140252_demolicion ✅\n  → 140252_caja ❌\n  → 140252_liga ✅\n  → 140252_mezcla ✅\n  → 140252_terminado ❌\n  → 140252_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140253",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140253 - 8/5/2026 (LEGACY)\n  → 140253_inicial ❌\n  → 140253_caja ❌\n  → 140253_terminado ❌",
+    "_folderId": "1yLrtw3Ca6vGJEaD45TgNrC1CvJdqXPMr",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHPOdOUbtKzzJKxC8PVgO80YEhhUuDwwA995x2FCViTF1znN2Vr3ICEJhb95AoDW2_01fC5xMw7j9a7lZxqV_j1ft5HSjVZQGn8Erza-KNbWAAhw=s220",
+        "view": "https://drive.google.com/file/d/149M1_ntT7jzVzmvb4GtYJ_LJN_QDfb5x/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlXlPzBr9NMbgVEBKI3daKty50DX4PRdIU-xuS_PMlOoTVQK8mN01Nvg30eVf0EhM6HPa0Gfd6QShcw5NbWtrx6mXDM_sFVyAgg7qMepvQpAXNRQ=s220",
+        "view": "https://drive.google.com/file/d/1l4DIhgyG9hOanq2o5dAi8pAZS5fCJ8le/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJeqq4DMlKRdw6PZL5MLJagpn6QAgmoIouBJzQBNFtTOYI6c3umQinx7FyysJkroF0C-irDSPSh-cF5byvu5PvZKIK3g2N4EYtnVrAj87sgcaoUg=s220",
+        "view": "https://drive.google.com/file/d/1my_zeBDUTtlRo2Ey-oqaQopEwjKe-JfT/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR5cs3dLTBN9059ikBNZLIhFvdIy8M3hRMpxDdpIi-S1aylbeB7Ybz_tL9OMD7DUZZnuXRnw_2hpiZZsKa7INFa5Op5DO_ci6fvOZrDB4-WMWjug=s220",
+        "view": "https://drive.google.com/file/d/14b2XQuqrl-_AmRVufzGpR21dQudhlgov/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlLNuzLlkP8_M57fXc5zaszobTG18GYBVsUbVrrMVTpnEhqNlOUMKzYVnX__jezPpM6szf7Fppp3dyobcDjS5nidvzyaPooiiXT-PFqZakzDroxA=s220",
+        "view": "https://drive.google.com/file/d/1xMfT4qQlkcKGF2GJcvv3SnXTuxWTXj1y/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtLOoMNoHlh-ID0HPhrAocEPu6EmjtZd2Ch-9CSt3btd3YraNrl2_oKh1DP-W4Lmz9iyUtzNO1L1XJm5FE4wBTqvmfJRXPpYG1SGJwasl640p68w=s220",
+        "view": "https://drive.google.com/file/d/1O-kWynMf6AoqcHCqvr7AN5hRvfBM-Un-/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsd92rAgd66Ssj1wixvHg36eCvu16JIz-MlXOWHz4vi9dpUXcnYO-1hVzHLxJ2kqUS6Mq2H0EWZOxw9GdSvnH-qGk9A2Cui44_dPum_Ph89gWDng=s220",
+        "view": "https://drive.google.com/file/d/1uWrC4OSblNDQnD4fZniGwLHkH6GVJLKI/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140253 - 8/5/2026 (9 FOTOS)\n  → 140253_inicial ✅\n  → 140253_folio ✅\n  → 140253_corte ✅\n  → 140253_demolicion ✅\n  → 140253_caja ❌\n  → 140253_liga ✅\n  → 140253_mezcla ✅\n  → 140253_terminado ❌\n  → 140253_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140254",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140254 - 8/5/2026 (LEGACY)\n  → 140254_inicial ❌\n  → 140254_caja ❌\n  → 140254_terminado ❌",
+    "_folderId": "190qQ316y_EGnXsBfgZZnBOXwzeBkSV2e",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpG86FY11XWPTuNGF1t8BW9V-bUSkuyrP_MjObHG4LiHrZOyV70j_y1YvjdDdZEfarzYQIs73FXqBJ-gkmP5zA37sTWLt9BwqmGPlg1_a_429diw=s220",
+        "view": "https://drive.google.com/file/d/1QKKHPf_l7Jw5NkLHCV6CYtaKErypQflJ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-VzQ43TnxKtbPbYfn8Xs4fyOYXXUVtJlZNAr9bEvh80wJ4sOXjVEd0f1pcFfr6ehNdsAtgCYpNpz4b_-v__1jBFG9kRRmaMjyyW800aq21NDYCA=s220",
+        "view": "https://drive.google.com/file/d/1_vzHpptMlTTgHbbqaAVA56R-mtkx5sHZ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4rbJmwNkdRiZEfZU-IzEG9Oa0-dslu0R5Ya4Xn7hE6Fod6drsauf3kZB8DH9oWMbSCZUYz3gLjYyDA_mBDyb7OE3YETOCca5x2Ds_2CbG3xbBBA=s220",
+        "view": "https://drive.google.com/file/d/1X_c28rxvWKU_B68h0x0DyP6dKqbmC0Jr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYHLk6q4Vh63RWI0N9w02X8zV4Py34yVTil6XfRf-i9KXzwLk88TlHliUMhjdywWP6No-Nm-_KuKvHA37tgTY3vAzN-iOsaY5ET4eIOKZPv71QPQ=s220",
+        "view": "https://drive.google.com/file/d/1ommn4iv9Im3D2VEwmirs9h0Esy1mkpc4/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmhbvcDNqMG2gzf0hDsLn991b11-k8hBiy6FOGhPBb3gqvWdWKp4W2auywCDZTNLTZwU5u434mXSIZm-SpU9K1Jh8dUIsYpOUnTx92SjDNi4Xo4g=s220",
+        "view": "https://drive.google.com/file/d/1EZRp7V-3UVmBzyOduXq9WDo4nA14FIgb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9KEkVrO4EpOcXsZqOWE8AfJUQsdfYogrEBT6wT476DoYNPisNszAsh-PhoggTqZxnKKSG-MV_4__tg-EKsHqyKB4yATILJMm2D6qmVekwQgio-g=s220",
+        "view": "https://drive.google.com/file/d/1Gd5mp8XFC4ABfaLl7FKwvfMulIE3aZwc/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzDPmeL3p97FTRDHYF6uSxvErAfIRmoCE1bitlGOsDQpwoQEIDEljYcJACQT26uzv9uyTTI_jXq4ah-E0JzNNTI_KU0KdoJuxwrugiE7uJhPiY7Q=s220",
+        "view": "https://drive.google.com/file/d/1PqU4CFGqN3i_aWKra53XnzQfVIDOe1lu/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140254 - 8/5/2026 (9 FOTOS)\n  → 140254_inicial ✅\n  → 140254_folio ✅\n  → 140254_corte ✅\n  → 140254_demolicion ✅\n  → 140254_caja ❌\n  → 140254_liga ✅\n  → 140254_mezcla ✅\n  → 140254_terminado ❌\n  → 140254_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140255",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140255 - 8/5/2026 (LEGACY)\n  → 140255_inicial ❌\n  → 140255_caja ❌\n  → 140255_terminado ❌",
+    "_folderId": "1Y58lSl_xkXNV0FWQ4Cx8tEuWByNOpqNj",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0udoufC0yUIOyi4UsjAtXQVPDTl9SXTP_g3VhxZBnAs96Teryw_G2cmO3qzXwQD2UxvaWt4-NkUBYfswhJWv1hb59OK3srqXOwVW3tcg1TmRacg=s220",
+        "view": "https://drive.google.com/file/d/1yIHmmqf9BMXSoc21HORvgEpx0bc92XD3/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFhlJfNgDGgnBFpV6JU6woIXHotCrd6AIU4_tBlk6yDPVVq2hTyhLeVkcGycX7Q9VxLRVIKL-SU5qpC7s-CKYsUVp-d0u9V4UgQoksIIRm7ZgsSQ=s220",
+        "view": "https://drive.google.com/file/d/1fwJwOFyNkIvGXoM3zRgpYruvYcZjOR0C/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsIVR_TJHVh620SWsVcTh0RTdVrC487DsiUIcwtsOvfV6gRdtTKjHWDZt6-ZXEtA3sBFO2IFlvJKCto-YBW-DyvRQDbehzYq3ncq-LKdKtR1Y58A=s220",
+        "view": "https://drive.google.com/file/d/1X4wk24BwulInFwZfxQggEY9LZ88RhZ3E/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhk87pXiUo3r5M1HFmQQlZ5ZO55t3E8n4HGdgsASmCmpPtrPh7yj49H-64PIeTY8EHzvSFzdrKy1hOT70AFubHY3v3FnJFtbwf-48pAqQgsmNyqA=s220",
+        "view": "https://drive.google.com/file/d/1TyYCMS2IfbCNwLe6GKcjXQ-Ahzkxf896/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvX6bjyGeDkTgfa3uyG8IR_ZKlUYKz3LoSwePoFOuj01KVo4jqq7CIbPVKrfgo-ZApOvzlMZ4l_nKFsOWx3GYHOmshH9llgTjRgrLDzeg9fPXcRg=s220",
+        "view": "https://drive.google.com/file/d/1QDHnEYo4CPOqjnry4alZPcOPtLWf3cUZ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFu5OrZOzlrSieTvFqNG967BGWEQnLWhwH3CMSWGNEvgAT3XtBf4yOhAv767DKlsns4RPkSJfFWVHcvXJyVyMx3I2kMsZasIbO_QbdH8cl-s5Kig=s220",
+        "view": "https://drive.google.com/file/d/1V01rT5MCDyvoOlWuP4ENmh8fCktu_VfH/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCjudpUGNYGQaBULGGytZgQZ3QeO_COh2IGVeVtVEdpN6KhvpXBmdlAptCc6rOdt5mDUV3yXwYncgsK0jXKqsEkgHXOmCDlIjxO77X9hoHNaxXKw=s220",
+        "view": "https://drive.google.com/file/d/1uzd9L7PWJ12OPFQ4vIm24VQAX6yc4TMH/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140255 - 8/5/2026 (9 FOTOS)\n  → 140255_inicial ✅\n  → 140255_folio ✅\n  → 140255_corte ✅\n  → 140255_demolicion ✅\n  → 140255_caja ❌\n  → 140255_liga ✅\n  → 140255_mezcla ✅\n  → 140255_terminado ❌\n  → 140255_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140256",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140256 - 8/5/2026 (LEGACY)\n  → 140256_inicial ❌\n  → 140256_caja ❌\n  → 140256_terminado ❌",
+    "_folderId": "1818DXr-G5B5OjHFURTemzJlfNt0ELyCN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoV2Ux649pTED1EWZA7fazRrm5NY8S5qpfwKJfw-41dT2TBsco1VGUZ30AP1GxlyEN43tnoDI26NeefXUuWsZgJw1ScoGcBOyfhAVSfUNRyjrVow=s220",
+        "view": "https://drive.google.com/file/d/1jj75f0dMYjFV_hor32Awr17F7CNlQ5iB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNY9QlBZRnxvI3yAh5p4QPNfsp-pHuq8PPR00L1elEv782yar8sjCwrAxlL-SMU7o_Wxi6I90yM_ZwzX5YzVrKZTRpL6cfgmKNeoMhQ3gwLNK5mcQ=s220",
+        "view": "https://drive.google.com/file/d/1GdZlcd0zpOl8QIh6P77WgX4dB3Yvtlgm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObeDQ91EIOrZVtgzN6vWiTGgFSHWk-Mu8HgyD4cI5PVyJ_laxYUpZvFKPk-No5NgwVFZ9FROSTZqTwLxFlCiRID7WohQdixu0r7zp_HBK58oVS8w=s220",
+        "view": "https://drive.google.com/file/d/1YAP2MxEUA_GVzKs61oYygrHpuzjEIb16/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlPWHcDyOk7HVucz9x3L7AvF3j-Bu-Y8Fs8QOUW6EKa3mFfJHYJ9QxF8qCsNtOR9FnrEVWNQaZEYGr2mz1JJbNwA-3ZPlrWb0YTsTqY801Oa2GbA=s220",
+        "view": "https://drive.google.com/file/d/1mUngAUZuUNw2r64sehIlIKNn6aVsPnnT/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKqARe1PtCX_Ykcgj_LrYLpn2tZjgbFC5zNX3Ta7-urvpJAgxHAf4-28RUEUKb0bUatMgCwYtQNFC1n6UGCkOKYzqg1IC-IAXpKPDMckchqFOO-A=s220",
+        "view": "https://drive.google.com/file/d/1amH6_-TW5xAYn-zC_X8mxc2jZEZmSlOE/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMOr06gWSslH6ZgJ2wTwCa097l5pp35rNL9hQa79q7RXhM4b5Gs63hUl-7ahVRsGNsKG-0-uFgARGxSs-zPBjh1wonrvTOIlT6eGNHkuYAC1TUpg=s220",
+        "view": "https://drive.google.com/file/d/1Lzou3nfTiDy4HUotjHeg-8ajXOreY7Nj/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMV_8_MpifgRSHixpNDffccVT8kS0JBSYa8MLhhNl1G9obuqkG3qgyK9fEcv0G15Z5umAmXJovcYq_Nbpn8_agXHjp1V_3AU6E27oy5q2tGD53OQw=s220",
+        "view": "https://drive.google.com/file/d/1rerkt0A1gM83Aglkg66MaCVmtH1QW85M/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140256 - 8/5/2026 (9 FOTOS)\n  → 140256_inicial ✅\n  → 140256_folio ✅\n  → 140256_corte ✅\n  → 140256_demolicion ✅\n  → 140256_caja ❌\n  → 140256_liga ✅\n  → 140256_mezcla ✅\n  → 140256_terminado ❌\n  → 140256_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140257",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140257 - 8/5/2026 (LEGACY)\n  → 140257_inicial ❌\n  → 140257_caja ❌\n  → 140257_terminado ❌",
+    "_folderId": "18fgfO-Po7ub8mBLNrK9fifqumfCjp7oE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPo_1PG4GJp9B4Ehooj_b5rtmo3_oDdYmV2qYVyGBRpTxix5e3EKjYt5YaF2_wPepUcY8FA7v7Skew-IWWSR44vZy7DR6tvauiorGPZm2j5u2wdDA=s220",
+        "view": "https://drive.google.com/file/d/14vfTp85HcYpDEdqv2DqovmnC_QWgwFU3/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCieDf9R0ZBGMyjEp_jK8iur1hVfjO0rBxGlBbJA0M0BgSEKYkgcUzmSb1RwVZEUbDJDGBseFLckhqrORscTaPSpGZ4pjvDQuEpOR3Boftq4eS3Q=s220",
+        "view": "https://drive.google.com/file/d/1VptWZ4BKJZpD-O2_kA_rC_hH7nnPp1-L/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiih0rI979yNfQl9OijLND8acI7yDDfxEoExGFZ2KPVralTCmNqMnG0hhCeyoZtQktEPigJ9m3smqnu2vTk-RzAqnKC1NxCmk2W0hKRPDCfR0cGA=s220",
+        "view": "https://drive.google.com/file/d/1VG9C7rbS0P3GhO2spifRoqTkeEPX1Av8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj212Aa68YgJ8Mhu0ckM1fsXtNr9zPdfA-So2pA2mdLxlxOxDXxsj7IWQV8Lj2l6UsQ0QYr_NrQuNDlSJ0KCoI2VKL1CxziBJ40VZ9EDJVfwbV9g=s220",
+        "view": "https://drive.google.com/file/d/16zGhRZS6iE2SjIz8RkzvMoO0Jg692DYL/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqu3S9P_AHuegLj1mBfjmqkCpRr9GcrEgwKp5bhbFRNMX-XtN3t7sJ2Nn47tb65DB53AeYnU08HxzyfpU_59Xcl_xbzb8wDCZsN7u4NP91qmx8Rw=s220",
+        "view": "https://drive.google.com/file/d/18asQNqoFAuUM6n0DG9rwjN7JFlXEElv3/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHPiYxU8fRo2ufg4D1AkNrijn4XYwaOySGAzPatyR8gMglkeST6C4CpP9AuzJT-wsTSEwqq0Ik0jKREwH8KHa3Qqu5lsopZg_wZrwgSN-HBUfEoA=s220",
+        "view": "https://drive.google.com/file/d/12ohQ0OnroX__91I-4S3noQmUz8eRGMBn/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-3-mvGYUSCPf5gyIT7gHddW4q1IiKxwWORQqI2AFQcVe1qt6UWu0VINeqzuMa5B3uw3tVDGKNGNWy0QqaT0uwYZYy_k7wEk9awEMAY5ChxcKmeg=s220",
+        "view": "https://drive.google.com/file/d/1VHyr55W6vp6aBIoxQJY0t-pTul2u9gJN/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140257 - 8/5/2026 (9 FOTOS)\n  → 140257_inicial ✅\n  → 140257_folio ✅\n  → 140257_corte ✅\n  → 140257_demolicion ✅\n  → 140257_caja ❌\n  → 140257_liga ✅\n  → 140257_mezcla ✅\n  → 140257_terminado ❌\n  → 140257_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "140258",
     "FECHA": "8/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "LAGO NIAZA",
     "COLONIA": "SEMINARIO EL MODULO",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140258 - 8/5/2026 (LEGACY)\n  → 140258_inicial ❌\n  → 140258_caja ❌\n  → 140258_terminado ❌",
+    "_folderId": "1W40Lp6ChzVwVwm7ol6c4IvbCh7QjDOVb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAtZQPjDS_fTEDtpIk8cxwuTgBgTPa7xP0Qkkv3-ByOXidixEQ0QazKaP7k5o2yuHXeB8Wuqd3ZQXWcvjd7uE8AtgZuglmJ81VWmxeLktR_zq07w=s220",
+        "view": "https://drive.google.com/file/d/1p3YQ6logteqppgZdD-VcdmnislTaJCMB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUcOW3HJki3oXrpvtpD_9jyiR1pALY8JTfEcPAQI4HGnwYPgV645DZVm-epCXcrZiXyaWn0cnkaMEzjaLdMmMKZ9NpdVl7GTBiGK0_9vyxkk-S_A=s220",
+        "view": "https://drive.google.com/file/d/1Y3h7It-1EV8jmVKOJjGKRuLweZUTIWdk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcmsr0hHZAyWY06sCxsomtgYUfijhP-iMcUMNJ7ZNf9cR2UdzQPp0fgz2oY0zduMDyfc71QKMVPDNi0y6xK1Dd2Jhs34e5CxKeAs7IvtoA-IssuA=s220",
+        "view": "https://drive.google.com/file/d/1OtTG2wMJxqTnsM3tWHnL2rF0IpVhtYFV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1Klmn3e3C3AGoXsY_25HuA5vQ7VcIBUHYwrctAdNxUatT4j5eZm8GfpAE69VliW0ZplvRMujXx9ND77_-_hNA8YreIdPO5hlrJMe2-cFreK0-OA=s220",
+        "view": "https://drive.google.com/file/d/1AEPvneRdUKbD3Smi9CBIxCNwrRqMRuE5/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrAQ7LZHaGcbdn4PAdkmoLaHBrXGDnpU9BDnvuaQ-v4VQf4M6TdWSCGb7AZLagg2fJSTCx1LS3tFTCAs7w1vKO396ZynhoAeRVrg0hkWUtyOynVA=s220",
+        "view": "https://drive.google.com/file/d/1rwo-oj2ur43GP5Rlo6lK0Yj8hRefS5-e/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP84yB8xtEhwj3t6H-bazroGH9WicIF3Hc8TKr0kuw6xT7cAAVmUUQy09rE7uvK_0HkXppIjGyILFNZKSZq0dEP0q2dTqkcU1kh4zI5rl8xJdaCUg=s220",
+        "view": "https://drive.google.com/file/d/1Ox14m-ZuWDMpc4_F7LCGHXrdpx_swb6k/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtdBnqwegohL-ugAYUqZ2y7tcGsAZ4AXNDBD2KMKnIbnzSYs9e89xZPemyHhfp-4nK5dlLFfUG0A0LcrLIdURLhRHIIJYaEk9iWcbkxf4EazqEsA=s220",
+        "view": "https://drive.google.com/file/d/1eoaeFSyUvEayUoCrn471Ru3wdxOTvPeh/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140258 - 8/5/2026 (9 FOTOS)\n  → 140258_inicial ✅\n  → 140258_folio ✅\n  → 140258_corte ✅\n  → 140258_demolicion ✅\n  → 140258_caja ❌\n  → 140258_liga ✅\n  → 140258_mezcla ✅\n  → 140258_terminado ❌\n  → 140258_limpieza ✅",
     "_faltanNEO": []
   }
 ]
