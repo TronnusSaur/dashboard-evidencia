@@ -343,6 +343,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     console.log(`  ✅ ${Object.keys(dictMap).length} Carpetas mapeadas.`);
 
     // 2. Cargar Sheets
+    const currentSheetId = config.sheetId || SHEET_ID;
     const sheetData = await sheets.spreadsheets.values.get({
         spreadsheetId: currentSheetId,
         range: config.name
