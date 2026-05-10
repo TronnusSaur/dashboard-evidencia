@@ -46,7 +46,16 @@ const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
 
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'contratos');
 const MOCK_PATH = path.join(process.cwd(), 'src', 'dataMock.js');
-const CACHE_FILE = path.join(process.cwd(), 'audit_cache.json');
+// Carpeta de caché (dividida por etapa para evitar límite de 100MB de GitHub)
+const CACHE_DIR = path.join(process.cwd(), '.cache');
+if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
+
+function getCachePath(stage) {
+    return path.join(CACHE_DIR, `audit_cache_${sanitizeFileName(stage)}.json`);
+}
+
+let currentCache = {};
+let currentCachePath = "";
 
 // Tiempo máximo de ejecución: 8 minutos (deja margen para commit + push)
 const MAX_RUNTIME_MS = 8 * 60 * 1000;
@@ -334,12 +343,24 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     console.log(`  ✅ ${Object.keys(dictMap).length} Carpetas mapeadas.`);
 
     // 2. Cargar Sheets
-    console.log(`  📊 Cargando registros de Sheets (${config.name})...`);
-    const currentSheetId = config.sheetId || SHEET_ID;
     const sheetData = await sheets.spreadsheets.values.get({
         spreadsheetId: currentSheetId,
         range: config.name
     });
+
+    // Cargar caché específica de la etapa
+    currentCachePath = getCachePath(config.id);
+    if (fs.existsSync(currentCachePath)) {
+        try {
+            currentCache = JSON.parse(fs.readFileSync(currentCachePath, 'utf8'));
+            console.log(`    📦 Caché etapa ${config.id} cargada: ${Object.keys(currentCache).length} entradas.`);
+        } catch (e) {
+            currentCache = {};
+        }
+    } else {
+        currentCache = {};
+    }
+
     const rows = sheetData.data.values;
     if (!rows || rows.length < 2) return [];
 
@@ -365,7 +386,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         const fechaStr = row['FECHA'] || row['FECHA_REPORTE'] || '';
 
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
-        const cached = auditCache[cacheKey];
+        const cached = currentCache[cacheKey];
 
         // CACHE HIT — no API call needed
         if (cached && typeof cached === 'object' && cached.photos && folioIds && folioIds.length > 0) {
@@ -374,6 +395,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
             row['_folderId'] = folioIds[0];
             row['_isNewSet'] = cached.isNewSet || false;
             row['EXTRA_PHOTOS'] = cached.extraFilesCount || 0;
+            row['faltanEnSetCompleto'] = cached.faltanEnSetCompleto || [];
             cacheHits++;
             completados++;
             return;
@@ -386,10 +408,11 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         row['EXTRA_PHOTOS'] = resultado.extraFilesCount || 0;
         row['_isNewSet'] = resultado.isNewSet || false;
         row['_folderId'] = folioIds && folioIds.length > 0 ? folioIds[0] : null;
+        row['faltanEnSetCompleto'] = resultado.faltanEnSetCompleto || [];
 
         // Cache the result (OK and errors both)
         if (folioIds && folioIds.length > 0) {
-            auditCache[cacheKey] = {
+            currentCache[cacheKey] = {
                 status: resultado.status,
                 photos: resultado.photos,
                 extraFilesCount: resultado.extraFilesCount || 0,
@@ -412,6 +435,10 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
     }));
 
     await Promise.all(auditTasks);
+
+    // Guardar caché específica al terminar la etapa
+    fs.writeFileSync(currentCachePath, JSON.stringify(currentCache, null, 2));
+
     console.log(`  ✅ ${config.id}: ${completados} registros (Cache: ${cacheHits}, API: ${apiCalls})`);
     return df;
 }
@@ -421,32 +448,13 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 // ══════════════════════════════════════════════════════════════
 async function main() {
     console.log("👑 Kinger: Iniciando la Auditoría Magistral...");
-    const authClient = await getAuth();
     const drive = google.drive({ version: 'v3', auth: authClient });
     const sheets = google.sheets({ version: 'v4', auth: authClient });
 
-    // Cargar caché
-    let auditCache = {};
-    if (fs.existsSync(CACHE_FILE)) {
-        try {
-            auditCache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
-            console.log(`📦 Caché cargada: ${Object.keys(auditCache).length} entradas.`);
-        } catch (e) {
-            console.warn("⚠️ Caché corrupta, iniciando limpia.");
-            auditCache = {};
-        }
-    } else {
-        console.log("📦 Sin caché previa — cold start.");
-    }
-
     let allData = [];
     for (const config of STAGES_CONFIG) {
-        const stageData = await procesarEtapa(drive, sheets, config, auditCache);
+        const stageData = await procesarEtapa(drive, sheets, config);
         allData.push(...stageData);
-
-        // Guardar caché después de cada etapa
-        fs.writeFileSync(CACHE_FILE, JSON.stringify(auditCache, null, 2));
-        console.log(`  💾 Caché guardada (${Object.keys(auditCache).length} entradas).`);
 
         if (TIMED_OUT) {
             console.log("⏰ TIMEOUT alcanzado — guardando progreso parcial.");

@@ -58,7 +58,7 @@ jobs:
 
           # Stagear todo (incluyendo borrados de archivos con tildes)
           git add -A public/contratos/ src/dataMock.js
-          git add -A audit_cache.json || true
+          git add -A .cache/ || true
 
           # Salir limpiamente si no hay cambios
           if git diff --cached --quiet; then
