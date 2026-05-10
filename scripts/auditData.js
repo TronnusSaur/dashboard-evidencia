@@ -135,6 +135,14 @@ const normalizeFolio = (f) => {
     return trimmed;
 };
 
+// Limpiar nombres para archivos (quitar tildes y caracteres raros)
+const sanitizeFileName = (name) => {
+    return name.normalize("NFD")
+               .replace(/[\u0300-\u036f]/g, "") // Quita tildes
+               .replace(/[^a-zA-Z0-9_\-]/g, '_') // Cambia lo demás por _
+               .toUpperCase();
+};
+
 // ══════════════════════════════════════════════════════════════
 // GOOGLE AUTH
 // ══════════════════════════════════════════════════════════════
@@ -539,7 +547,9 @@ async function main() {
 
         resumenData.push(summaryRow);
 
-        let fileName = `${stage}_${emp}_${id}.json`.replace(/[\\/\\]/g, '-').replace(/ /g, '_');
+        const safeEmp = sanitizeFileName(emp);
+        const safeId = sanitizeFileName(id);
+        let fileName = `${stage}_${safeEmp}_${safeId}.json`;
         fs.writeFileSync(path.join(PUBLIC_DIR, fileName), JSON.stringify(pendientes, null, 2));
     }
 
