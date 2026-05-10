@@ -56,20 +56,20 @@ jobs:
           git config --global user.name  "Queeny Bot 🤖"
           git config --global user.email "bot@dashboard-evidencia.app"
 
-          # Stagear archivos de datos + caché
-          git add public/contratos/ src/dataMock.js
-          git add audit_cache.json || true
+          # Stagear todo (incluyendo borrados de archivos con tildes)
+          git add -A public/contratos/ src/dataMock.js
+          git add -A audit_cache.json || true
 
-          # Salir limpiamente si no hay cambios (evita un deployment innecesario de Vercel)
+          # Salir limpiamente si no hay cambios
           if git diff --cached --quiet; then
             echo "✅ Sin cambios detectados — no se requiere deploy."
             exit 0
           fi
 
-          # Obtener resumen de qué cambió para el mensaje del commit
+          # Commit con resumen
           CHANGED=$(git diff --cached --name-only | wc -l | tr -d ' ')
           git commit -m "chore(data): refresh automático — ${CHANGED} archivos actualizados [$(date -u '+%Y-%m-%d %H:%M UTC')]"
 
-          # Pull con rebase en caso de que haya commits concurrentes
-          git pull --rebase origin main || git rebase --abort
+          # Pull con estrategia de resolución de conflictos automática
+          git pull --rebase -X ours origin main || (git rebase --abort && exit 1)
           git push origin main
