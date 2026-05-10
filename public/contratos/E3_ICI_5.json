@@ -14721,29 +14721,66 @@
   {
     "FOLIO": "050379",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050379 - 4/5/2026 (LEGACY)\n  → 050379_inicial ❌\n  → 050379_caja ❌\n  → 050379_terminado ❌",
+    "_folderId": "1kTbED8c3rfBI7DU6eST7m6d-sMxIsHRJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDmbAzev53-m3Wm1Z2Rux6vFpiu5YO9_wuxIGcM52IzxmncuIHnpDSWm7D1i5NzIQrgRHHfUnYN--fpkG7vTP_Qw_E3w42KLCfpipXNfIfabXmpnA=s220",
+        "view": "https://drive.google.com/file/d/1yHgsDRZDV4bhQ6Aze2KzmMovojRO7Eu4/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8YIV4DeWTBMDGGoO5tngn9BGdH6hkYYxPEETxJVbdYERpdzAAPQ9hdQYFLm12mqC7dKrwWW-i49mm5A5ZS5PoduJ99hYigME64P8X2CkmoCeFjLE=s220",
+        "view": "https://drive.google.com/file/d/1lSnxV-3Dbmr37TWDAIUiXky-QHsFrbX9/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZllIDVvSNKMMCpBsySW6oWr1mpuI1eNY6T3ozBWuz2mZm80LHLtyhqGw-wu4-ZeZgiudQxHiwmroeyL3MwzhIog59ZR6OLjksSO7FNFUhUkibd-8=s220",
+        "view": "https://drive.google.com/file/d/1b0DR7VBvya41W6ktdp_kzFyUABCC2UcO/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJnuC4Xz_jR9SMyds-WvA2dc0_o0WZIkrQvly4B0s92VIHsk_66ln34zJpSOuH-yeE0Ozp0d4V3S0lOprC1sLj0YJv9xTxPHQ4TgomyejSwya7=s220",
+        "view": "https://drive.google.com/file/d/1RszEkbNI8p3tJ1MvZcexCU3kyq08yPwR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMh290VEvlgm4EUtCnBF0DBJDo-GOdEWzuCmusVv5nLY-b_TUGxHxqOU87ZnA6ANckg1LbVT2epwjhZCoZlibgE5I38-d7hds2Awfmv9BzXxFxN9Oc=s220",
+        "view": "https://drive.google.com/file/d/1E1b_Hm4K9r-vfO3lGhvSH-SXrs5htjYq/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX-ThwdXXsR2yK3rlz-eOutoIrd4RdZ7oIEAU-Y-Du3J1jZOzdMbPZnLEovH5LEOk9sUydgG1fHRPjE2XvMhE3TRtiao0-UjyodaRrfiTUU7pk=s220",
+        "view": "https://drive.google.com/file/d/1LyibgIdF8lPI7tJaTr_dyDyz4RuB5SLj/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzGvADzMngi7Eidmm44OQQvhlH6qNnQdhv75Ez1ascI109DkHvzq24slyzdOeylajsZyYMTSZqh2_cx138UUZqqu9pqgcbl_ytOj3aK8ni23vp_5Q=s220",
+        "view": "https://drive.google.com/file/d/1fuFroZuCTIjedrSd91h6MHVE_yAuMAwJ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNauZ5AEgOvwZubJcJbakbb61S1tYKJDbxqNlozsRRfcfrh4UO0S_Iet8eik-hkKppnqEQ-QaJTdXdUFAbjqqW1aPq5TJ_FWIY7CQN1NGHWCYPNRXs=s220",
+        "view": "https://drive.google.com/file/d/1E9v-5C1yLt91Atskjt-3u-jbhfH0hARX/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMH9aiz1MgIeaxPJkPCQ2THtgJ3F8X-V3NTj4uh3gRwYVKrZTbvvq-4b73_V9PG-_v5sSjdvFqWbZFBzturVIPoJ2CIDoYI1DUPlRxi3F1yvZmkdMg=s220",
+        "view": "https://drive.google.com/file/d/1ImEnXUvnQ5QSBkdqBZJlftYEMmuPe-Vu/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050379 - 4/5/2026 (9 FOTOS)\n  → 050379_inicial ✅\n  → 050379_folio ✅\n  → 050379_corte ✅\n  → 050379_demolicion ✅\n  → 050379_caja ✅\n  → 050379_liga ✅\n  → 050379_mezcla ✅\n  → 050379_terminado ✅\n  → 050379_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "050380",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1vlY40Ftt07BITf67_FW0r0V1XzzKt3uz",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14753,29 +14790,66 @@
   {
     "FOLIO": "050381",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050381 - 4/5/2026 (LEGACY)\n  → 050381_inicial ❌\n  → 050381_caja ❌\n  → 050381_terminado ❌",
+    "_folderId": "1VXUoA2JacM6O-ztfYOutC9vxZ4dhGsZc",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIN8ggOrKvpZb-cUVeoq0DxMN8Vr6szAW5y6puYHEl1Rr-GUr8eqpaY1uiaRF0afPRgTsJ1nhy1hUTDSfJ67PDZ_ABc4lzvyDiY6VG98OE7i1_OVM=s220",
+        "view": "https://drive.google.com/file/d/1iDps4nB54ZutzzgSzvfldD4TIttok0zo/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtSftzQcbuxz4yhhyoed5Tqk8glUHWh3NwMopRxIyy69yMl29-0dcKtAE2FZ_kXgDLfJ82CgHsv-h-BX3SA5WOzpFrItb7vq5PT9lIXRYmx4jji8U=s220",
+        "view": "https://drive.google.com/file/d/1MlR4xpmSZre0x5yQtDOWw8v-gRRzMrCk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNNuAdR1ASh6NliHGyb3QnHIs8NDWBljd4S2qLQ65Rvh7RBttvUJcLpJ1VuaqLdvrjtW5Z5v51leXoXVEcYq6br2uFQ1ETZvVmMoWQJSBlSiElFa0=s220",
+        "view": "https://drive.google.com/file/d/1mFpxNmnWphqpiu4Xw9hf3MMG-XdQPSEt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdlmIINk7OFYH9kyLVB3omLntGnLVbH8jw-t0DiJSRId9Nq5QH2iRerNSmyBX8HVSeepqw9kPsDK3bJpgKNY-48GXbCWutFLZKZpb_dt6QA_l4WN4=s220",
+        "view": "https://drive.google.com/file/d/14-c8czuHmJPPOYS6kWyn8WsTCyv-pLGm/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyRT2nLfbYBv_f6aYASFn_TwU9nYktQw-524F7AnHQYHACp_Mnj-12uUC6yglwooCKTvs7AY7vILFc3A0dmqZ3tRxh0kMm7wqyGA_dd1CYXQeXySc=s220",
+        "view": "https://drive.google.com/file/d/1ay7RgjOS0ifVpdNk4foGyPxvUvDfHdvF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8DQxhnpp1kiDRAvMNO_ls-uSJCOK8f6fFiSD8UjId6XICWblguF-Ay6Vbbh3SfSFjDgA7NEGSWFyjZ7Qj1hlQmtit3q0BkfK094CfoAC8Pc1JEBQ=s220",
+        "view": "https://drive.google.com/file/d/1x3jep2jlElgphA2eagEuvvs5qG_hlFvn/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOa_FydTMY0MVscngcXda4txj2aDp6hmgO7TjV8hnMK2iUp83vdgAYP5Id786mhODoFDgRqoTslTGWMSGZEE6i45sCac5V6nYRo3JYrcQ_g75w9JkM=s220",
+        "view": "https://drive.google.com/file/d/1edyBpvq_9W3xQPLt-qaiqzjI9Ve2WqMm/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFgfxWU53wEJKI810AlHNXL20BkdNJyc9FLzLAOblhoBgrW4iTE8i11TsrvTC1Rrj-kbF84VwRwcQHilC2cK2rquqfyMld1v42MNwFAIGE9kua1QY=s220",
+        "view": "https://drive.google.com/file/d/1vfI7MTrqBIi0Ly9a8JuY0LkgVreK53TH/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ8vpePhHngf4nOywvxCv4JuhCDfMq4bENlFxf42qnOlE1M8sgJTD-betH1hbn7Jj3e5pj0LAzMv6LzllCgs1va2-fOZ-P0gImP9qL14QO3GHAvKo=s220",
+        "view": "https://drive.google.com/file/d/12igSzbHcEisBjUZ3KiNjPN5-zLmvjNHZ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050381 - 4/5/2026 (9 FOTOS)\n  → 050381_inicial ✅\n  → 050381_folio ✅\n  → 050381_corte ✅\n  → 050381_demolicion ✅\n  → 050381_caja ✅\n  → 050381_liga ✅\n  → 050381_mezcla ✅\n  → 050381_terminado ✅\n  → 050381_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "050382",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1pB1Dovidbg31UHCH6jvqGJwuP-5sRqhD",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14785,29 +14859,66 @@
   {
     "FOLIO": "050383",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050383 - 4/5/2026 (LEGACY)\n  → 050383_inicial ❌\n  → 050383_caja ❌\n  → 050383_terminado ❌",
+    "_folderId": "1RNCQAA5xP1HrXVy3lnvFRO5TS-BVSecp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfIlCsWwU_lblHKEl65RBMrr75U91SQzZ20TnsYd_YI2L4T5vsMenPplzisdlXy3UtV2UmtijBFdbrTT1qrRsD4jsjjdsgWwo51xW3l8_T0cxm1xA=s220",
+        "view": "https://drive.google.com/file/d/1w_e8xfr-XTVrc6_oaFwO2AlR44EKS9o5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzEZ8Zz8ru1JZYCsh6RuHRRUDXfs44BYcBi7iNnWrbCTdAFDEBxJ-VuDKzM_tyL0zrnfR8u31U2RRx4xhDzNsyOTcvwKBQvQ3c9lgdVx-ZvcxILJ0=s220",
+        "view": "https://drive.google.com/file/d/1zVzbsY_hpfL1jd1gbdYt_1Q90-C3P6_V/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvPUNE5sSnRlbNx7uiay-xoBniEyYT_RRnTDAEVC03-xx7xxmyqFdV4Ni5o-EFEhAngwiHrI9L8Glnue3mgVS-och6VRbxiCGImGF2JF3dWIN3TX8=s220",
+        "view": "https://drive.google.com/file/d/1elPf9YNDHR6rqzb2OAMs5i1kS4ckFKSS/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk8j9HdzCyZhvTAZTE56bmI5BS9FtX-JMIjvkg2_2_htIM8hQeH87lHnpVsmIpnAOIKHLs5YhQ9ObiYdLY-pAfAzWW3C7k-txC2FKbc38XYjEcOT4=s220",
+        "view": "https://drive.google.com/file/d/1c8udaO6j8yLz4mchnnb715yAyOUrcZ0-/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2I--g9jcZnZIRDs1ptcBHlf3dFor_VpmkzvZT1vb-JrLoJgbxgBnu1hXA97GqeJoAqz9RXTH09dnFmHFQABOLBsQiehXg9EHuYTagU5jKh0l7wi4=s220",
+        "view": "https://drive.google.com/file/d/1IY8TKwcmJGuGSAB8AmTr7NkCXCDJJQj-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDQ9u9lfI9l-8BoUR_MF3ruMvOqFZ3Ina6s8xdh8QW-CANHCFDJF9Thuy9mUECWjWTe7IuFyQRvmtQckAOXsDcZ-bpBIjuggpLgliRKv3cWTFPdwo=s220",
+        "view": "https://drive.google.com/file/d/1-UV3xrSys1wfVTe4I_Ut9nhiIvMHbWe-/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLKJaT6ND1GDpEW00G0m3TLx6f5QT8N4VK3tr1OulZ5zUnhTIx-egcSNY3EsEvpp9JXbrHDhsQ-erQ8QYlMSaqKV1yHhLerS9TK15_68RTOnl9DlA=s220",
+        "view": "https://drive.google.com/file/d/1LaQtLsx1e69CLuRBCY4uEthux5d27ce4/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2DXgsd0GQA1nsIjz-8xhO2dgJWiykh77StRee_2kbGDVP2sekpVGWbVVVcUyjoA9ph8WoChkET-N69SbiRGSVdk2KHv53pAHGTin8auWeALYNrRI=s220",
+        "view": "https://drive.google.com/file/d/1cyt-2cJZ7ZUOEikpgyjDwx0nspMMe7Eb/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYYH8Gzpv8QpkAgyMshVxCtIBjiSjqETkLxpA31E71ZhD2APks2aEfe7y1y2aTl36IkPLVgNT9ORUvmlvVWRp_-aPQm56DwjmPlnjj8MuL-MAub5o=s220",
+        "view": "https://drive.google.com/file/d/1RNdvItTO2J74_6DuP4Z3sNCBfRkEqrGM/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050383 - 4/5/2026 (9 FOTOS)\n  → 050383_inicial ✅\n  → 050383_folio ✅\n  → 050383_corte ✅\n  → 050383_demolicion ✅\n  → 050383_caja ✅\n  → 050383_liga ✅\n  → 050383_mezcla ✅\n  → 050383_terminado ✅\n  → 050383_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "050386",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1rdiWGdcWrsf0gG7Rk8m6TdP6YC-5xbpJ",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14817,13 +14928,13 @@
   {
     "FOLIO": "050387",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "GALILEO GALILEI",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1FCIqmwZ4_x7AAM3o8jJIFRms52R-Ll0E",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14833,13 +14944,13 @@
   {
     "FOLIO": "050388",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "15U8Phk0Htz-LBwj2uEvPtduRe3cKhvbs",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14849,13 +14960,13 @@
   {
     "FOLIO": "050389",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1DxC43x_v7PqvqQqe045-plEqzxqZdQIO",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14865,13 +14976,13 @@
   {
     "FOLIO": "050390",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1hWNkHUhA7zEu69gbLsm6ocDdy-mSVV6z",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14881,29 +14992,63 @@
   {
     "FOLIO": "050391",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050391 - 4/5/2026 (LEGACY)\n  → 050391_inicial ❌\n  → 050391_caja ❌\n  → 050391_terminado ❌",
+    "_folderId": "1349BeEABe3_OYuN0abJxFvvDnVBT0g-C",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9KUuD_yRtunIFMADFX0Kldx1DTcMiyr-ywwJh0zi-SEkr4mtVn4mll_XFGOXAB594gYj01XrRaL0IBbJwqGKGp88jMbsmgX1fmXo6QKn8cAcvjOs=s220",
+        "view": "https://drive.google.com/file/d/1szSinHxnF51yZ-T5WDPCHcpaUxGXrG6I/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdhVnPu-lR0K-ShvUTcTgYbB1orPBpi8PYMyHoH4GPdaS6UIf-ARkZeCztL6F14keWkO3OVS7gymSIWzKUMVB6h2yl2UT4XIbpbM42ixT7Lr0RDTk=s220",
+        "view": "https://drive.google.com/file/d/1KRXs4tH1ScuL57DxuZy1lS1qVqrnKEyt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0hZkiQCmZxnLXq6rqpCs28xmBXsPoDvMOCU6Nc3E0Y5ski9aNR3o-tNBOuadzbvE6D4sNouABkCmUi9iMABWymY6g7Lj2pzHbXXkAVEDQAmvXcGM=s220",
+        "view": "https://drive.google.com/file/d/12EN_UYRvQIAU0tXgmQ8uArqQIYxGUcqf/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvbmLvwS4svbWZbr-rg9A6oyj2uH0VqCLzO65Yw35lCfDYNlaIHmFuFjcElGhamM6I5JTnZkf7aDPFGNEP4ss7ylvSFu4AbXsyIe1w5no-Jl7jHcU=s220",
+        "view": "https://drive.google.com/file/d/1paX_5crrXzj6vjaLe6huEZZrkXBYPerS/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP83k0_Qbqh_I-X_I1ligWCFAXOQgS4KrwE2kefCGYF598JXlrBjDi57VwrMHwXzlptTWS3cg2w3yy7MNI8grfuFhI7MPmpDrgyPMYmBs0sYzxkoko=s220",
+        "view": "https://drive.google.com/file/d/1a21e4JUWQPGzzAu7FgP1qMCGto8_FOUK/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOye2m2Qp6KdXbVYtjTnR7eQ-e2aHydxzjZh36_LNr0MaazeF44n3qZUf9Jq3KTtko0Y_Z_WCg99QGZr4GMwUJCzZmq7FAfJTQngY-ZcSVFDP6OEUs=s220",
+        "view": "https://drive.google.com/file/d/1zCOWfRQT-LlKDpmpnetUdjADbyZM7zHq/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3xcT6bgUaWvVRQSB9jFCtBU4LgVtgCznKVRxokj1KwUkzxG9jo9_g14Zq0cNIHBZdjfO9ajPgdyvdAVM4s9Cr08wKQo8pXEgH2JGY2P3Z3I2UC8I=s220",
+        "view": "https://drive.google.com/file/d/1JetRDSxxoDJ6VgJ8BUlYsFg1F4H8QjIt/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzDzPtUPK9o784WohGRtOdA-fCi9F82fpxC65cdloX79mytZzJgY-WuiC--diZEJ4yQ4Tc__2MDycYXQy7biRtpWz1yp8IXnVgu8rMTc2aBZuys8k=s220",
+        "view": "https://drive.google.com/file/d/1GISdFVYwo8ejr8-xuNcVHwPCsACZ5srs/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050391 - 4/5/2026 (9 FOTOS)\n  → 050391_inicial ✅\n  → 050391_folio ✅\n  → 050391_corte ✅\n  → 050391_demolicion ✅\n  → 050391_caja ✅\n  → 050391_liga ✅\n  → 050391_mezcla ✅\n  → 050391_terminado ❌\n  → 050391_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "050392",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "12jgpgnKhBbQy-E0-xYwpvfCPcsuZrqmA",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14913,13 +15058,13 @@
   {
     "FOLIO": "050393",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1XiUbSCHa5ePwzUBfdRuhIipCwl3fIGcg",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14929,13 +15074,13 @@
   {
     "FOLIO": "050394",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1B_D4jiqg4zTdQfMmkxmCTASDjKxf8FaC",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14945,13 +15090,13 @@
   {
     "FOLIO": "050395",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "INDUSTRIA MINERA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1xPMntAur9q6wRVwcs_3aB2D9aIhhjdKN",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14961,13 +15106,13 @@
   {
     "FOLIO": "050396",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1nvGRkISpETiRKAoqUud_zrHCBJBqQ0PJ",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14977,13 +15122,13 @@
   {
     "FOLIO": "050397",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1Qq7T_traBDFSXEAASyqVG-aI0ZpYkJqs",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -14993,13 +15138,13 @@
   {
     "FOLIO": "050398",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1zMQqL1glN3Y2oNiIEBlXytZRrF3wUrFm",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15009,13 +15154,13 @@
   {
     "FOLIO": "050399",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1RkrmH6TFeOZ2ikdT24c_mqe-kWboLtE1",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15025,13 +15170,13 @@
   {
     "FOLIO": "050400",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "17fnbUSvcu1wODXMEKuGGRuQJ_EDSM2T0",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15041,13 +15186,13 @@
   {
     "FOLIO": "050401",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1e3lNGjosxLZkNrPL5y2UoGRRAg-22Qbv",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15057,13 +15202,13 @@
   {
     "FOLIO": "050403",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1GHjvUG4qV3p7vJ0AG_xOkVyskXKEfpoh",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15073,13 +15218,13 @@
   {
     "FOLIO": "050402",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1oMz3X0QKwavZFb2shXqLc5pUdqoUD5rV",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15089,13 +15234,13 @@
   {
     "FOLIO": "050404",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1RYuD8xw1fTbEPn1ZmP5Zs_PWy_MK7tXW",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15105,13 +15250,13 @@
   {
     "FOLIO": "050405",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1qq7bmTJggxzTm-RHK1Q-GkyQKCXMKvCd",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15121,13 +15266,13 @@
   {
     "FOLIO": "050406",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1rrDfnbU3C3RmHHiJRQytTxDaieTFHG9P",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15137,13 +15282,13 @@
   {
     "FOLIO": "050407",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1z6qzf6AOK_FdvhuTR_i53aojCcPtj5jp",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15153,13 +15298,13 @@
   {
     "FOLIO": "050408",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1Ai_1zkP-UGr9Y7waQEfaQTjNYHWmssup",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15169,13 +15314,13 @@
   {
     "FOLIO": "050409",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1MssRLatiFur1EJKWbk2DOGmsACiFL3So",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15185,13 +15330,13 @@
   {
     "FOLIO": "050410",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1jBqAtnBMQgoEjYai5GQGfw_KiqbSvBwl",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15201,29 +15346,66 @@
   {
     "FOLIO": "050411",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1zbiLjjp4SGnGBUuOOM5j0Xcya-zc7ppf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGytTspA578nQBHKYCc3xRXN80dV2Uqiopvqx_ntbRgLK0iyA3fQBirhw-1a9sIFBTmqHq1E9UuR5bbVzLrOR0maDGeb7hUKlQTyuz5l67ldTc4A=s220",
+        "view": "https://drive.google.com/file/d/1b0rewkFi0hSA1GSsQivpfSYQCfAiEBa2/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEa_TPBVy7Jhaczobu1GAv8sB83fBmetxIcU-3a0ZK3tNTyQMGsnmyV1yWwlOz6axyB5DomoaIir1xxPN5Dk4yCLMXS-x8rRndCIeu6t8RGioTtg=s220",
+        "view": "https://drive.google.com/file/d/1lxcLdZvoNpiImrIoxC52o9dC1JUZ6PKB/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvPyBp0vA87IrNn4hv49JF4now3FJXnLCA9MhbVK8VCr4OqaOuH4GLKAoHHZBU-xeyHzCJwgjDn0lymKNwHQdbmiWkfpRnEaRhLV5HcRZyZHioQg=s220",
+        "view": "https://drive.google.com/file/d/1uCf97JF865O4ifi7IeSm68qMAyxcxfO0/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMn_LCV_xIc0JhytPmd9UcRXBXgJp_7ln1QyPiUdWTZI75Yy__3uOdnnBWCMrxh3gM4kdiahWXpTkf9PR0es7iQh4VfGWaS2C4njIyaYHhINXBAxQ=s220",
+        "view": "https://drive.google.com/file/d/1cs937tI34iW15Jk3KknP05m3ke1FEkZJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObp2Mfp3mfM49c3f7jr3PrWayrTgjDR8wYgcLQH9y4iFSNzMxoRLb-olgslNm1EK8mt7flVj6mkDrjwYDmrpSOpyebXpOCOyLBx9WnPa4DBeXxtg=s220",
+        "view": "https://drive.google.com/file/d/1bhdHo9tVNdHMBcrtBrEaESc3wI7piL_a/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqHGVXUzwQxNiMpvVLQjtWVJDkByIP5V-LT0ZuSLDt5Nuk72DoXmwBf7bN4lFWwOVlPDXqwjO04kebP0lTXVaHpHuiVQT0nN_Vn-yFAoTRqoBUHQ=s220",
+        "view": "https://drive.google.com/file/d/1MyCKyWN3nMpUallLhgzVu9hdd2Htuc35/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnFICSd6b_l14U6DNQDQ139JkMTdSkTahxLKs5tQoVy5hHGfrI1l3aNQb7TFYlkqDAIaBsb9TDPsxVm9V9DYJ1rD-CwGVppzDbsnBssVY9YZ4DUg=s220",
+        "view": "https://drive.google.com/file/d/1DCW7rZaI27aSyr2RtOAZKURTxQNixAnt/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-tWu45z_C4t6sRa8KhTwhdizEY91SD7OFXDUH7R3r-utd4IgwMwv9fEtgZe4y5e7QL55SJ0HPEFfXI9fC_FTFUytJf1V9L3o4wbZ0MNGzcRwBig=s220",
+        "view": "https://drive.google.com/file/d/1CypDG3HR7P3IWw0MhCdwPSOgiPxyWVt3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnWLv2_eYjDUDJnfvqHszaSaHVwv0kyorygX4wjRyLWc4-P905tEvtHekk9dvuiZ4NrAv7Yyjear45diA4S1amZ9JI70nmJ4TCGuKnRJmmmYAr5Q=s220",
+        "view": "https://drive.google.com/file/d/1otsiFfyUXVK6IvlIaZjFAvZc0CejiOw_/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050411 - 7/5/2026 (LEGACY)\n  → 050411_inicial ❌\n  → 050411_caja ❌\n  → 050411_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050411 - 7/5/2026 (9 FOTOS)\n  → 050411_inicial ✅\n  → 050411_folio ✅\n  → 050411_corte ✅\n  → 050411_demolicion ✅\n  → 050411_caja ✅\n  → 050411_liga ✅\n  → 050411_mezcla ✅\n  → 050411_terminado ✅\n  → 050411_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "050412",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1T73hM21iiooRbOu-ykZvdgobibrDJdI5",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15233,13 +15415,13 @@
   {
     "FOLIO": "050413",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1CCF_zx5E9mis7au9BUz-wJrb5S7ySIst",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15249,13 +15431,13 @@
   {
     "FOLIO": "050414",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1Y4wNY52s0QVzzp2vrqcrWZdLwEAv7Egl",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -15265,13 +15447,13 @@
   {
     "FOLIO": "050415",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "FRANCISCO VILLA",
     "COLONIA": "INDEPENDENCIA",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "13ANMqJUddPhzvXIp846RQdwTmjmqA2fU",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,

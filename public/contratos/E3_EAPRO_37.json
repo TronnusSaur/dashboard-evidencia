@@ -6849,305 +6849,1008 @@
   {
     "FOLIO": "370166",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PROL. PASEO TOTOLTEPEC",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370166 - 4/5/2026 (LEGACY)\n  → 370166_inicial ❌\n  → 370166_caja ❌\n  → 370166_terminado ❌",
+    "_folderId": "1TNSf3zrRLpvoS7xv-bKVr5bXqg2L99v5",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtINlCCkBJ4cjf_dCrCYpclDjkWHxNvfj6hqvE1zptXT8FJNXrXqWH_v4buadcoyq-QlnRp7NlwdyaOPDXOJgpDsqgLZqQfYhKIJMDFu-DNqd8DUU=s220",
+        "view": "https://drive.google.com/file/d/1E2pDHPpLC5jF8B9qklUZ8TkjgmxFciYV/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjsieZsiQZsPzT839xZGJQnApWJ3j_BXVuf-FD88Ip6O0pFuy2g68ym5YuqGeVHEFxcYQVO96ynt-KZ3ADrrf7Y5hLC4SHCjBITD6KLXLPoYRNhiE=s220",
+        "view": "https://drive.google.com/file/d/1wQ0sZycYxn6s__a6kkWRC5GQ-_XViUlW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVDjy-FtUn-cIY8npiWEV46eD30pZL6wOlbRA33_5YGJX4FzVcXnyeylbqj1R-hCCVkjcmvKDJJnPyA0tTAg8zK2vLNOtxqWrMwXnB6lvelc3wWyA=s220",
+        "view": "https://drive.google.com/file/d/1v-91_z71G58Nvuz-HBH8nMRa71yb14_E/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOppz_noD_ir0XGnQaxnJeKkU0-18DUsQpdQQgmI2fTbCXLrzjfavyYWn5A0Ty-G35ZvO6fsJ_pzt09NTJhY26HU_jclmNWN7BQlyLz0WrEo3GSno0=s220",
+        "view": "https://drive.google.com/file/d/1-Hp35Mr6XeReVFJZWqXgXromCUvY8F1l/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdrtKxgu-82qiv081yG7LzC9D93JsbBzr26nkN0zvudkM9NgIYiUGPwufFNd-s4-7JwzLqn0EVysXBXf7F_jK70otRYIuJ1AhDHwHR9HHj5aH4vgI=s220",
+        "view": "https://drive.google.com/file/d/1V0kNrkADOQI1uvSwkQP81g5iJJLoHa2r/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7FjjCz31EqdOt2lptvcP9hoYgVIZqZBQcrJV1hnk2-ReEAaTiqpoxs7dJwhoPaKzgP_eMXpP3KtwF1_nT35AskgRTbeGFmQlNrJlsxm-01oWq7qM=s220",
+        "view": "https://drive.google.com/file/d/1fsOtZTKcRSC_I1ZJ-KkepIah-HeKWWnB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZRlKpxMDAQi_3Pt65Jkvlej6mOrFBz8OSgHw9mkTpZ_UCJQOo7z9inUfGBYhyPdu66SIqxTtg5kcNuF7BlR2MH7Zqeu5JJHs8aQpY-UVdun0R2cs=s220",
+        "view": "https://drive.google.com/file/d/1cVW-14iOK0cjEA244PGNlcE2yXD_6p5O/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfFr6AwdB-m5bfOj78TYkCLL73F2J8E8-ptjUN2aFCVDDXyPL1js9RdSiAT4cplnuEFlrX7iC00XS3X40-GuzS9BGWZuM7SRO32m3PLGDCF9-LITo=s220",
+        "view": "https://drive.google.com/file/d/1lW2Z2comrZd-mOM2eK5jm1ewbQ8QZYhd/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUfELoXywr-S7yDUkSL56CAo5c9S0N1uBwKtTx-NJVdDR6nRv46F8rlC3j_NR6Rwe8h9uWlG-7LUOuuqipbzCb5A1St31uLigD0H8H0BIePkU8Fx4=s220",
+        "view": "https://drive.google.com/file/d/1Ns_vhy-r7ihWIwPdwWuvSWokm40ZMMvI/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370166 - 4/5/2026 (9 FOTOS)\n  → 370166_inicial ✅\n  → 370166_folio ✅\n  → 370166_corte ✅\n  → 370166_demolicion ✅\n  → 370166_caja ✅\n  → 370166_liga ✅\n  → 370166_mezcla ✅\n  → 370166_terminado ✅\n  → 370166_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370167",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ARTICULO 27",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370167 - 4/5/2026 (LEGACY)\n  → 370167_inicial ❌\n  → 370167_caja ❌\n  → 370167_terminado ❌",
+    "_folderId": "1fG0-FYxpzXUa5HtIKW-3CXyJ_Quw8xWm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUba-tFvoi8e-ZDRkcqRw-pLhdozppz3pnKbDYC2r_UGvE49neVg7QWB_-xhBlsVaSLC3j5DxGkugH2oTyHGOS6m-YJNqA1LQpLaNVp4DR8H-SXR4=s220",
+        "view": "https://drive.google.com/file/d/1TQLCd5o8Cc9bjVglN7_1Zj3EOgfGWrb7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAN7-E2mffBwGRNpJ-eMqiMMyaYV7eYvYajFCelEVQOykPvYoEgO-gl8yGQPlXfLbQhVYS2fyzJw-e6yML3XZKUnPWcN6KGdw_ONZIhfVWF_EUqKU=s220",
+        "view": "https://drive.google.com/file/d/1toG2DYkl5sFDis2W_hP6aXwSfZh1-Jkk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPu-yEDUHF26e_W19orlo1hRnuSXpNIEyUCWELvyDgtBe1zL6SlQpg_uL8GYqLep5VbwOu5JTb5vEnJduHj6mcXiJfLOgqdm2LzpfMxAQu_P52pBio=s220",
+        "view": "https://drive.google.com/file/d/1BtiHVmHs-pkF-dOb1PiySsEgSstO7oSK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZW1IXUT9hYhn09_De0Cv804yXPAvSWZ00pZS-j_F2gCEDEqEWrC5rma7GZB8bgwzakKJ7kNp4BLgXLz8h-7jY7AB7RXnrRDFxTaGgCGi4VVNmG_w=s220",
+        "view": "https://drive.google.com/file/d/1x439OkIQN6fp0UFnm-Tp7uucx3qnHF76/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwji_nqgFG2JFUA1saJ4Etk-9JcNHo53kmf8vNAmK_xKFMnFp5IhdSA2Yzgc7KhLxrdyXST2XUqV6Yhq4I7bgsIt_GmZsBBe6wpIvYiHKvWnvfbXA=s220",
+        "view": "https://drive.google.com/file/d/1NYtSkXLkNSz7RquHfOelBAfIPRgWnHU5/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDj04Jo2gTK4yltlJSYc5CV-blBonkSzMPEQ3gyoAnzg0NN5d3BQ1RQFPM3p7NA70H647kkUZGia3WFaGcHg8-JWnw6CAoYRELCRGUtWEuW-hIPKw=s220",
+        "view": "https://drive.google.com/file/d/1q3wxPIxgQTHMEwOTqhcPnOAQOW5u6DZi/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZlhKyEj-5gsmZukxyM9fCrNTr0A8_9imCSFWBJzzkw_zQe7YN1WFtdAZ4OlPAaZWBMoRBAm7papZbfzjPJ9lmxsW3OAtKDDL2pYl8R05gC9MLhdU=s220",
+        "view": "https://drive.google.com/file/d/1gTj1jN-AlXSidnoFOgOuDbYeAKZxX8vb/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUfZX28TkEn8DWlXZUFGCSPjnZG3deoLagYiIdMVFMBjRjKnqsr7VlAojawIw9KdzcZtBQly6cJQuMQlGEGQqIRO-JwK8pZJC2PfXBVXp4PuinJBw=s220",
+        "view": "https://drive.google.com/file/d/1d2_4bAXC3uZ1u9AuGMM9g-NIsu5x8fuV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtCQPEooHdwXKP9N7TU_hV1ot2Kiyzby9Ba0YX03Ce3m1pMC7bNbm5awBxJgByMs74WKf5aCodNSTdkhuxb7hxD0_wphSPzDOzHX2-DFEms9bb0as=s220",
+        "view": "https://drive.google.com/file/d/1SgBZ2t0QPdZ99z4rl6OooASuqP7lIgiP/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370167 - 4/5/2026 (9 FOTOS)\n  → 370167_inicial ✅\n  → 370167_folio ✅\n  → 370167_corte ✅\n  → 370167_demolicion ✅\n  → 370167_caja ✅\n  → 370167_liga ✅\n  → 370167_mezcla ✅\n  → 370167_terminado ✅\n  → 370167_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370168",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ARTICULO 27",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370168 - 4/5/2026 (LEGACY)\n  → 370168_inicial ❌\n  → 370168_caja ❌\n  → 370168_terminado ❌",
+    "_folderId": "1cTACES76jkrUbKZF6eQfAkgmOA6YejQW",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMU41j8MuscA33jH5BKQzGDf8REWciQKz6JaCYYYWhqWhCjn86cbClYWXebaNgrCUBAjMD5cGnO9ZLqTVzOEwA-kOKX33sU3wwyD3rqJcBDf19lPNg=s220",
+        "view": "https://drive.google.com/file/d/1-bgV7Z-tQlosKO6d8L3Cwr1wTEEW5eog/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmB7aaiAT6KJKZxI-QPlBelkH3wLPjVFGJ6Uy97SDarvwcw8PKOU4b77ikyMi-P-CF21o4g25kggcAhtBw-am4t4uQwrc5iMKTGL-9Rq6TAJL8eFU=s220",
+        "view": "https://drive.google.com/file/d/15-9yov1ZhmCilT7UP4qCdLR5OZ-MgaNL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOap2Z1Q4_undhoXs8OmPqqJvNeCbuDZ-84yC7X20YN3pIBQS1TX17swSdKgtL0vKYSpgeWNsmsaPywMjbcW2AxQG6zco0JzgWy9rBwhyDJH35v26Q=s220",
+        "view": "https://drive.google.com/file/d/1JQJSqS4oUE7i0bMyeaumivhluGphOh40/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNdy0F-EUc0rWynxXRvtBVVRV28beSW-mK_5f6sFhfECfmzUG6RzDs-e7sSKpz2xO2oKsQs_3NKTcZUztQQ23JqaHBlh7nGHZ-Z3oJYVtY1UbK9BE=s220",
+        "view": "https://drive.google.com/file/d/1HFh7zucfukL8wKrfuPzu-_C3cDzyQ-HR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxYbhrThImi1bb_uxYRdnDmphWSDPr4rJlViZo3Jc3rwfFIEwZ6MWsrRydePOtLPM7A1Wwpz5hyqV5NZhmT_qVUuoz7lTOGUbBfz5Pi853e8yGAf4=s220",
+        "view": "https://drive.google.com/file/d/1uK3kgc9ji79kH9vF37pedKruA99_uViE/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_Xdp1kg38VkOgAP34Cn1BoAwgXwHcgGyJi6GDEw97Ka6S8dT-woNz1r7g7W-zmol877Cyu737DWTsadt4VbHxfnlMd3Oue3WlU5RlvPIBsiFPuBo=s220",
+        "view": "https://drive.google.com/file/d/1366i9igTt_Z3a_GeZrnrVHkaxsYhv0rK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmp7yNxAqVwTZPpwvlavHQJolxDx70Zz422mm_1QqDS1bdQncANVAa99b4wOZNboTz6FtmCG7kQQv5ee7-d-J6Okr3uGwZ9z5nYDu_auNYKtZP3ZQ=s220",
+        "view": "https://drive.google.com/file/d/1bssyr_W-R_NbpzypBqVI_Lky1OHocdRp/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqviY1CL4_JabFR5LCkRuXfPXhD9otsTvSWWw-9fZbpUK5f1LULdK8COHjCGCl3P2qZX3Bn7xa0aNlPz46eWHBbFNvVpbGAL5fTbNIF47ONH59bXA=s220",
+        "view": "https://drive.google.com/file/d/155p2w3zn7gFc3xDyFjBVPore-mrSloh7/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkd-OgLMSy3BFEPqduFVGJDGsEBAwkvUufydq8FGD5fDCmQz4NMzMEmxeSc5o33oncZ8uyS1xn8LD-NAqeATU2IvuZDZG6NRfxvq0f2nCc1jlny4Y=s220",
+        "view": "https://drive.google.com/file/d/1YU3aLQYIwl8g4_jsWSApoRQRy3HMJgDb/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370168 - 4/5/2026 (9 FOTOS)\n  → 370168_inicial ✅\n  → 370168_folio ✅\n  → 370168_corte ✅\n  → 370168_demolicion ✅\n  → 370168_caja ✅\n  → 370168_liga ✅\n  → 370168_mezcla ✅\n  → 370168_terminado ✅\n  → 370168_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370169",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ARTICULO 27",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370169 - 4/5/2026 (LEGACY)\n  → 370169_inicial ❌\n  → 370169_caja ❌\n  → 370169_terminado ❌",
+    "_folderId": "1ouEws4qGGdzoZQ-jwYrnsKHO2rptpceT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOotf7i_JSWwjqb84rMQfTKqMsYVVnYgHL3z3KEmmTs3H8kOI56eKcitKAuOkd7g0I2kw7VxGNVUCD-KF9Nn9Dr0btYWyaMfH_j2KLt5gG4wtNXH0Q=s220",
+        "view": "https://drive.google.com/file/d/1_JQT5boeRHQ5Zfb3CfMSxG_ByOjeEspp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtl2QdlUz7mG_ZtaRhFJJtTSQEsUr5ANyrgqcApO6hMFIO22PckhgrgYHErdLV_sSUoDHaDSE22zD72al6B42Wd9R1KQYr7JxEayoox7sphsFBHek=s220",
+        "view": "https://drive.google.com/file/d/1qqBwCys-LHb6jEqlHRaHanKV_OzHy38U/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRepW_yU6LL6nBHQC2GqHyOU-U15LqoY5HANvbW0YPZ-eQeucSp0OF_ZfBiKSxpejt1M9v88cl789XRPTsWN54DcsMR39zhQ_i3K0nYltfxWUL1fE=s220",
+        "view": "https://drive.google.com/file/d/1swu-N54zp3qA4Bhvyg0qEauXKa5Vh0kO/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5Kqp_8oSSR18b0Nq0AKQQsSJCop_SMWcRtwKummBH7ZBwNLcB00FitpyyxoejTQpD6GLZbL0QOTGAtheiO7yCsJzrPTcCCJkjhw7msqAy_ts_ivE=s220",
+        "view": "https://drive.google.com/file/d/1IkohikNjHQ7YUCVLzA02BfYwtYrbbUmt/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwjM4QNWZbIE-R1jKnRwoNVn9phxvvzztFkua-zc6W5YqUsO3Zl9ce2Nn7smERxj7yh_D2XUvz3XpUeCjKX55NiRqMqRrlh_kXIQTHF8bgRkoJG60=s220",
+        "view": "https://drive.google.com/file/d/12-KMObHJ_yqY81DS2YZZBMMLgbx7-LNi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNE1tA1IOM0PU_sjc7YV5VFvgqUpwurFUDVWi0EsA0_RxgBYcJzVrZylbKgJ0fC2FDtvlNLPqBVMXiiYvQ5I8dAJeZ8xeHo0urscKVi7C5p9jfwC5c=s220",
+        "view": "https://drive.google.com/file/d/1hkbnse9MGwUKxYjo0xfA8FR31Wso5KI4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvl4nBRKasCUVohKsFKSe2mKpWvJgbmazV4BqvRFbd0qGu3VgugULro0ZL-EK2Y7WCZHhqoGcaEBb0P2N7jwDJ71sQD2GYzlM73jGLcqv4XvRrK0Y=s220",
+        "view": "https://drive.google.com/file/d/1mEsL7zQEfUedzU-QK9gjVPQ35IhMpTbD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj45miGMnkx3u0vy5qQw_lO-W62IjBgjCArpb9oDMI8iZceUqot8RA6Q1Cup2KcxYMk5s-_IhE_V2oFqvAst4cHBlpJo20815ORYFmcghLIApGxAs=s220",
+        "view": "https://drive.google.com/file/d/1dIJNBgNsXuMEzZ5M5VDmERsdD_EYS8dj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzvNPQ5e_WkYQlPfISaa_eTmhL9RO4PVvJeLE_yvv-aHDynPEywg9wN2W441mDx0_GUCD53ZRa2-t4VMqxd8lk4PLHiIUjoyFnLitenEMsrAxqUvk=s220",
+        "view": "https://drive.google.com/file/d/1-XAewTgB6E1tCQMZpfferbv6P1kw6Ek3/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370169 - 4/5/2026 (9 FOTOS)\n  → 370169_inicial ✅\n  → 370169_folio ✅\n  → 370169_corte ✅\n  → 370169_demolicion ✅\n  → 370169_caja ✅\n  → 370169_liga ✅\n  → 370169_mezcla ✅\n  → 370169_terminado ✅\n  → 370169_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370170",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ARTICULO 27",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1uW_tH73JVuB4zX6yCcCyPOODVQyHATi8",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6CsIGWjqmiuwUJUzV391qRTwmFdOhXqNua7lnKPBGTQDmuW7081iRG5goloeoMKmunIhyKxPOB_mlcC0YXnVttFhza2658nmpPsnIfaWjjqSeNF8=s220",
+        "view": "https://drive.google.com/file/d/17Ql5oOA5hIaaqgUti9ftF8HO8286z-Kv/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmRSiA7ndMDj6l4Rdw7Ss1scSVg4qW8JGFD-aV0rHkINthzuTr_QhYmj-xCAqKsS7sRT3m_-9ZPuAgPCs7_Hsl-_tOs0w8EwFdklwwO1RrnEVIIl4=s220",
+        "view": "https://drive.google.com/file/d/17wOnuRE-4opctJwrOgGgZUdmlbZoEdkc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtdbVHpjhIFeoJLumMPZxQ2YM5nM51RmL4JZVuPJX9qyJfhlDqDeCyGCN87eJ1tgoZxCfK8vOIcmsgopad2kZBvcXVmLwSleoSPl8x8c7dt0zDOk4=s220",
+        "view": "https://drive.google.com/file/d/1cHyItyFbhSCwbTLgiCehOaUyskSuXSOr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCCux7wD4YDW9xoBPn4Ahi3gA5e9cN6H3Jys7oj6ruUTpjjU3aG-qNS-Hj2pD3MAzZoRSXjEvd8MFxgMbs1W9VFEfw4rzKAbPIF5FuJUCFpitaGzY=s220",
+        "view": "https://drive.google.com/file/d/1w8Q_aqUALWTCYTo2mTofuwGo9-ZGx8Lf/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPa86pR2Udf-IUnwRJ4qRU5Ao90J7YimfwNGAi_dok9EIj5hIAoWRcRmZKGEeHLEtngN8OBEgk8-KFRsEvdL1qzN536BsA3VN_SsVMKhNHYs3ICRs=s220",
+        "view": "https://drive.google.com/file/d/1k-8HXYkFR8DB0BjW0FGEUIn3Pd3eudjI/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpListtIv8eceg-llB5C50wcDlFKk_MDxVuCGFpHOsTKhd8JbE34xhqWiZ_UlTCzRaaCu_kyGWTxTG41AEgjEmftxKE7nZ7xZGhnLi83PLgLRzZwo=s220",
+        "view": "https://drive.google.com/file/d/1cUXUm2XnNuScm-U647YiWR5ToqIi1g06/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMx_0VDeTLtft_yagigrMrtPiVfo1AhwylAB6sMkQ-ic0zJwkOaNhpfnw_txHjYInGmxJm8LHRtubDpHog6FMPrWXvN--D_8LgYbsI2t9m2eh4_eZY=s220",
+        "view": "https://drive.google.com/file/d/1JuXnur-ov3U-jSDpuDV1foSLu4yo125f/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1Tob7bAzdTrI7P5C4nud1saW98-7ZbIWig96yYohf97ZypS6VdE8ct989e8oZG1Jl1zzNhITewMI4_19ZssbQ1CfwEQ-c0JLOAD-XZYKa3WQp_Oo=s220",
+        "view": "https://drive.google.com/file/d/188zzQ0XgAtZ86BsM5K5oqLsO4TNPDhCg/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfSw52PQ765oXmphJdUwFzVDCjIGbX7mDY9JoT69AstSze75gjjr7WjDV8RsmBcquPsVV3PhIadLwZOLUZgw0TYfkJ2G6-f_JJxNRcbYH-RhOJMrY=s220",
+        "view": "https://drive.google.com/file/d/1MyzHhaefw864_YSfvj3yBbqerPeQr4D2/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370170 - 4/5/2026 (LEGACY)\n  → 370170_inicial ❌\n  → 370170_caja ❌\n  → 370170_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370170 - 4/5/2026 (9 FOTOS)\n  → 370170_inicial ✅\n  → 370170_folio ✅\n  → 370170_corte ✅\n  → 370170_demolicion ✅\n  → 370170_caja ✅\n  → 370170_liga ✅\n  → 370170_mezcla ✅\n  → 370170_terminado ✅\n  → 370170_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370171",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1cWnAn06x2a09xC4IntlT_rRxoDOzYi1s",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCvQ9ZOTkPXEUUNhXRZjPpwPmasMpeHDP7LBSgsOotCK2H6g_20ctlnpAKNrThL0lZzWytqASjB5P-cOKLblqbXo9WKQ5TeSBQZrf0IvtkRRpcOS4=s220",
+        "view": "https://drive.google.com/file/d/1jUWKbyTP-UFJdSQsC4c81OP5aBKeWXaO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2pSxmxcGPtElYy5p9LGxJ1X-rQb7lXeZ8hRUHfuCKHoRWimUxLKfKXiwHLZvt5lxOBW3vMKMzwVEdbxqtioWG9upjku7gqsH-aiqzIVynMRotJiA=s220",
+        "view": "https://drive.google.com/file/d/11Tiqgon7YE_L_wuf6YrFRZYiJgtOCKW7/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMJFOo8rvjWXVUW-2jQvrUpu09LCxOy1mBv4o5k05ZT6Tbd1umOdn9VTGdmYc-Avd5KX60yo9GWzODueqPs6BkoB9VMzM_YGkegUAtEz-vVYaJBPU=s220",
+        "view": "https://drive.google.com/file/d/1SfItRC-hWHpIFcMtSnlJva6-KUMFnS-K/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvzCyZ97S4B8S7Z-sBCEyKiLQL6SAs4oBOoalIbfoNKIrjn29-dUk4-q1J793ut0D8_xZVvD7MZwT7vTamn8AqgVC2kUvXIBuqeFAlqv4r6E7oRzs=s220",
+        "view": "https://drive.google.com/file/d/19yrWkjYQxnAyF7dC2UX1fyECz1IlQHDd/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuuFkgfuGoeGF2rXXhZqt8lpOK28WmBVMGnX3AdgbXHomRw8K7p3INrwVQwLWZzyLpZXTdmpqW1TaheycQkuGdtblbf_EuTslBrxKGVVYLeyFLiRI=s220",
+        "view": "https://drive.google.com/file/d/1MLMTkbH7RU93JM3LH_Qco_TeESmmxk3b/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOly756rIAYbMcvtxYnxahhRSw3M2uvTXRZd9nm5D25Ixe1QD3FW0g3UBFCfczRA5wwqaleDZvWQnq0ZljgReFXdPNaB6YT3givkYVab0fcmlXNxUk=s220",
+        "view": "https://drive.google.com/file/d/1aF2jHx7LLQ1OL_c3Sq022eTonGdxGJsf/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNejReOSivIWZE4iDS0HCnnsvVhPAoNbX_3sBtLCfMxfazdrOc-Bfpp8xz-2Q14qndA5oSyf91RpYXTTcfJ3zQz3L-czHNCSuJOCvlHcyCYXG4Zx-A=s220",
+        "view": "https://drive.google.com/file/d/1r6TkXWNr7Xb0561u6g3z2ZRdUWWVaeJK/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrKbEMx7y53Ye4mwfXIYYFJz85LKMX9_ixizlmcvAWMq0S9ny3G0DMIiEzHy6Zdp3s8dgqhrW-ca9qUDTUBWodTvMPp8vby5xe-DgWsZ_vHhisAnI=s220",
+        "view": "https://drive.google.com/file/d/1HMwmtwXPlMSRzAPajLmh6MWswBcSXRHD/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2BL_XkwVYy5ZRXYFpkLsjDoKowhT50GOkEqTM585JbOIZmvaZupa4zuygzTww0AzThoz44vJI3ajo1iEa0kYyAiFwdjiepl3zpqxEB2oWUDuc-dw=s220",
+        "view": "https://drive.google.com/file/d/1uLm_DXNYpf06dUN25IDgN81pGtgXGY7E/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370171 - 4/5/2026 (LEGACY)\n  → 370171_inicial ❌\n  → 370171_caja ❌\n  → 370171_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370171 - 4/5/2026 (9 FOTOS)\n  → 370171_inicial ✅\n  → 370171_folio ✅\n  → 370171_corte ✅\n  → 370171_demolicion ✅\n  → 370171_caja ✅\n  → 370171_liga ✅\n  → 370171_mezcla ✅\n  → 370171_terminado ✅\n  → 370171_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370172",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1cqFtFPbUOhfCpRPqWBTGt0xaK9Byok2L",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlKRCfwlnokQUeayM_GNh2GfGfxDbiv0-9TuvIaQ4N9S2SvkHiJBBwv5Mgqj1HUCwYg2U2X_BWWnWPlKkC1kbDk2a1PGNhz1EghAmID9q0GlR6ZhE=s220",
+        "view": "https://drive.google.com/file/d/1KElddZ8oJeongCj2sZtxiEJDH9z2uP28/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPek0qW41MLzvYqDkmYaTneyu7iPhRBudqydJYVBIPRVLSmGE8wdskoPPGJPEWwzTqbtaAtQFM7f-oB5RstCm3oACOsexRUcev0O3NlfuwK6lC041g=s220",
+        "view": "https://drive.google.com/file/d/1KY6OGYHmvFZzsOTxxbGFnJlRrSA10EQB/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHNjXd9gVl-L3S84RkPpX2i_88zLHnQXifIozOHukoYHjAvD0nlhiEIanq3InitWDST_J7sIrSXBeRkM2UxI3bYlDctpChZjMOemWO1ka2GQ2QoIk=s220",
+        "view": "https://drive.google.com/file/d/1mh6vp14NaiREBrQYpY6SCbuvl-_P6di9/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNY1B-k7ZMsr_bs-Kt0eCTjjIktLaeN5scHAIThBDrPiwSrZYerzNKLOXB3GPDQSG0r3Z4_O25iM_TD0gW3_O1XKspCGjE7rvs5nDNUny8ozvJEZnE=s220",
+        "view": "https://drive.google.com/file/d/1ulsFc92fN1rGzdHuSMyi6ICn35ppwOLA/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBUL6b3BT3E76wJ-_ZGoQtHRoFkA4zSu76tDvUDi1BfcqBgmza0f-aGK6dMCr_FILvACK2tqoicKX5T-D-MCrGzHjzcxRH0QFGAfQK5ojLSgzEz2E=s220",
+        "view": "https://drive.google.com/file/d/12ZizPawTHtkrsdjS0VVOOctAa2u4m5gr/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOq_I8S3IFQytBFvee7VRLM2BYNc4H9PVADouX8-DrdIf2QGKgLnv8JEHt5he-OO3JEWAKMF4gAh6g7LINLfujJPkgg0HekcBN-96Max0NR3c7aNE0=s220",
+        "view": "https://drive.google.com/file/d/1PnT0g6HlXIoLWm8LlGiQQ6UV5kUtcYeV/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkQv4w9bxOcKsN2yxvfH-pEZicTIwZcPtTynbjnGFxQsjeGGXfeNkTldoCZNDiq40r3P9lVXNRGgbFj6gPqqwKx1Q5VIRlG_eZKOll6zgY0SqYsqk=s220",
+        "view": "https://drive.google.com/file/d/1gINZGq9U39a7XxUU2mXtnw6PL53tXPH8/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOftMbj2PR29XXjjPw6ZsTojEbMGCULOrVM_zJWJDsEeV14m1Dm-UcKcf99AUxTaPVN1arTXMDsofQ3njA1Ist0g7O4loJjYFr1NCQjxlNZL8r0_jA=s220",
+        "view": "https://drive.google.com/file/d/1q2Rgs2gl4VOTGvaSkd9Hum-Bymsn57MV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSuu7xQbhUlO8JWF1UI54nLu9ZTFatLc14FJ6Ci080TK7gnSgZB1ZneI-YXbmjYnk7BTp63WKOR3d9-a9q2217wwiIEQVoLJku7WjelyLoJRRsxFY=s220",
+        "view": "https://drive.google.com/file/d/1XjEgvXGnOZhQf1VFP-04DPBGRcN9TAY6/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370172 - 4/5/2026 (LEGACY)\n  → 370172_inicial ❌\n  → 370172_caja ❌\n  → 370172_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370172 - 4/5/2026 (9 FOTOS)\n  → 370172_inicial ✅\n  → 370172_folio ✅\n  → 370172_corte ✅\n  → 370172_demolicion ✅\n  → 370172_caja ✅\n  → 370172_liga ✅\n  → 370172_mezcla ✅\n  → 370172_terminado ✅\n  → 370172_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370173",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370173 - 4/5/2026 (LEGACY)\n  → 370173_inicial ❌\n  → 370173_caja ❌\n  → 370173_terminado ❌",
+    "_folderId": "1tEEVhWfezyKsktbBwRJ77H2sGviihUGU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYT6MQeMG2HHkf8tQ4tGKXCskhwBpxDvE3ym7gXftK89rQFj-HsfZ4z1nSPBU0fWifeNrA6tSyl6slVQi9ZSVOmibeio9kjq1xxhIjFCBgOiYQ6CE=s220",
+        "view": "https://drive.google.com/file/d/1yV6bJp7uVINOymIf4OZvyAfHqCJBBaT9/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOU9RVzOPoHEs0C_B27_Kz_ab174cfbz101jfq_fsuVu1y_ZELoeEEqciJy3hfG4RgCYDXMrVI4UaopYw_KGLVVhcOwjKPneN37SmoFuKycLhBpRZk=s220",
+        "view": "https://drive.google.com/file/d/1vpJ0-D5O-ivt3favIiGboeI-5q-FP9Xe/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnPNZa-RdRnt4gYgd8DMEUB3iEsSP6PvMRj-QflqlLXYSPgT0Ebwe51LMi5cRx_6Paczrp7b9XrP5JxHMc6s2HCOXg723gHHbxHou-0suImuGf4co=s220",
+        "view": "https://drive.google.com/file/d/1iDjawXX7a6zVeO7wGh6UIEJA5WwgQiif/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkljxHEnNfcw_7MCSTHBbdK3yzLEXhGLB24ObPkQm3JaGLl_qUizK0xOn4qdPtoCNyXMSz18zZ4T9yK_ELmo24dwWKjCjRLbesRIK50LHkNy1t134=s220",
+        "view": "https://drive.google.com/file/d/1NFERN3tnkABBCHi2WLl0Oy8fAqustHlb/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5wBtsBSWVTliR5Km_6fpD5VV8wUzJ_L1CdjtQVy7xgdzu8MEfJdr6c5jM8P8X_gBjAknBhjKJzNKi5vg2FFCNpsC-9owL6ojm9yE0fkRpwIOeYD0=s220",
+        "view": "https://drive.google.com/file/d/1CiUhRJYEV9m21c8JuK9D8dqWoXq_U0FP/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMABHHYgNGR_eU3ij3y3ylMouu4yXjVycz8C6B_YykB5hHqCGOeFwi4u479izAz68YTNpB9OVR1kGE5jlfz3FHDKstIgpGwvpiDOa8pdduzESzVjXw=s220",
+        "view": "https://drive.google.com/file/d/1WfEqbj8CAIkHHNETFA4IwAA9loUoN6M4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNp2sbL5O7d7TyAINt1Wvz6WJrs9fX1Gs-x4w9MoYvHebCZ0tWVtFDxZ6MqH1bpxKniwBIOT4D_khD3HWjAh15Wz-oNim63Z_rIay9vdOyWVYVgOGE=s220",
+        "view": "https://drive.google.com/file/d/1gO5tsCIKWwrp4jywH9e8weKcoJ28rRjL/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7PBN1B9TWuVvR2VlcFCaguTGGw1VPS1wuOVad7tdAdEmKqYIaq7CyQFHrUoH4fxEZcWTUeoJqJfjFR_K0wHQhDc52dsKRsU1UYV7-BAXcaO7iI04=s220",
+        "view": "https://drive.google.com/file/d/1oPyB7v5u4UCwL-ttuVYDJ_X77fL-Q0Y_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJmdryt00yEakvkbPayq8Qn1bqC992bQ5iSBZYcZgEe3X8NyiSzSEeYnmQwGVDsL5CfZ4pGtLVyEpAOS9_pgXHI_edndsOF0REH_42tY4gCVcuvGs=s220",
+        "view": "https://drive.google.com/file/d/1ky7ztQNmbLTtfPtam6icadqgEQYlu6Mm/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370173 - 4/5/2026 (9 FOTOS)\n  → 370173_inicial ✅\n  → 370173_folio ✅\n  → 370173_corte ✅\n  → 370173_demolicion ✅\n  → 370173_caja ✅\n  → 370173_liga ✅\n  → 370173_mezcla ✅\n  → 370173_terminado ✅\n  → 370173_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370174",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370174 - 4/5/2026 (LEGACY)\n  → 370174_inicial ❌\n  → 370174_caja ❌\n  → 370174_terminado ❌",
+    "_folderId": "1dhID21GvmQ50kGP34WxZwx3PpsTpgRO5",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0b-kP9WOMbDWhCcYmOiGtZrnYIBhAosnibB5B_6XLjU2FKgsmy-g9PcN0Uqg79ovqP1IZwy0BrpqnlDMMMSv18y-9rPSY4gfVJHbV3Z8ZjjJfHNY=s220",
+        "view": "https://drive.google.com/file/d/1UDepuXOyiEb4kHJNp4bI7QSaWEC0BBP9/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHwCQsVB0MMMOWereYOmBf9oyXIxMIbz3qe6OxLPkywV5nyg2MWi9a3NtBTE3iwFvXATVRNm9bIc3mJXclV20HQ1KH8ym1oNxr1YKJz5f8-Flm0TU=s220",
+        "view": "https://drive.google.com/file/d/1YQQGvvLpN0VzD37fAMT-1JrChsUkTj6T/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNf5wALuJvE_ZREkLoC9JZimFFqVneY90kaX7Krnm8WcrxpHSsgFxfHZNFH8LAHaJ9e3N1tCOMn4At4N5oT1UrJ7ieGhHseIGBK4HhZzm5J--wJnD8=s220",
+        "view": "https://drive.google.com/file/d/1jGvt71Qa7INj917CGjEr3BMF8yGYS8wm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyabb_2sgRfWPgcNMemo0rceKmTmfqJ1uxylejZ_2TUqlOYqTPUpt9_JRNiXBVQKI9QDOayAT3naf7-EabOrYZj9B_QujluZyb43Tvwe8d07kR20k=s220",
+        "view": "https://drive.google.com/file/d/1hkWwCbMMzaSZZeAQRb74ep8SNNZo7dks/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsSFPN0AmKPLVTa30S3x9Yh0zZOOAWuLWA8wM3FIHgeAnoM66QFWmRzOc6MJII5TSGKfOM7EQBdfLmexAkUkPCoouYW37x8xK0nEseCPYwNDej6pI=s220",
+        "view": "https://drive.google.com/file/d/1a_8-Kcr6Uig7zot98KNhE9y6Og2_wh2_/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMe8MwDYUf9ac5zvdlJQLbreOgxa_25ozXQZdFhx8loqoGGYODYPS0vbk5BuDbjrTDy84PzsOKB38Q3-CaJkl_aBQ-wJbaP-eIqpyJHrBHE7dgAUBk=s220",
+        "view": "https://drive.google.com/file/d/156csTL4Uc8w6XP4Ld2JxqHb_HyPdn9kU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdunNtvjt0ICJnzy6nBFAY7HSr8BqJUmudoWym6op54YDceiIdPnut0jVtG1aPCfXKEe-mRQh9J5Y9UcKOQ8CAd4p0pskYmHEkBFyMTPVWEIwFRbA=s220",
+        "view": "https://drive.google.com/file/d/14SwtG4R0GDvgW-2m0eoE0xkT6mbI1k7_/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyJKyRuoIqMgRUVlfJoGgFRStZQDoA_OYkkcjdObEAa1LnptohnwBFTWaxdbICjZ0xBwkCpyMypT4PpW_LV_yw3rFvZuK1OS3hYD1z_j4MA0MNbL8=s220",
+        "view": "https://drive.google.com/file/d/1FNLHg-7rhOAIvbCogKAuvqeYP6GLXweJ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgyN75z82dN31MWhJSJYh6-c5RFyTA_Tpe8wWbxEJVPon1-GZayEeaT3pGhjy8ImE3ixn0gYhnpE61gDDc2jwfoOWJW9r07csHg4n8RQa3lRyv3s4=s220",
+        "view": "https://drive.google.com/file/d/1U3w660RcTHZyFVJ1W71p7jc9pzXqxdz2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370174 - 4/5/2026 (9 FOTOS)\n  → 370174_inicial ✅\n  → 370174_folio ✅\n  → 370174_corte ✅\n  → 370174_demolicion ✅\n  → 370174_caja ✅\n  → 370174_liga ✅\n  → 370174_mezcla ✅\n  → 370174_terminado ✅\n  → 370174_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370175",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1pFXQ24SCiHz9x7Afk-TBWrH76mQ9aEhl",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_CJmePmQ65CfB50KSfdvWbLoNXHW6yRmMtERBkj07BdlwqeeFgVX4vKi37zOTXLFfOPIb5q6LysvLduzdUWNRJ6nwQc5NzBPLWS_D0GdGYcRu52s=s220",
+        "view": "https://drive.google.com/file/d/17V4MZkSwswho1IFHp_dFhjvc9-Cg6Kll/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbxdHiYI-MP0viTS7l2oUIcChQS5nhYvawVrbfoarb_b2TQicYq4s8VdDRHh3cJqy-fh0eGgGxsy5u3ZMdGUVr8Fevb9IelKX84YbwBHq0SWRJKoU=s220",
+        "view": "https://drive.google.com/file/d/1FCh4mfhsJk-aHVp3DMxtgU6bQyWyf7Cn/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfsuHexiXlSg7let0wdT1OYx4pN0tQ8rdT7SR0K_iTf7OdfzK_flEF_XtQZz59jXdI-sMME24JoDFll7QIrux_l6Qaks4URawlE6QnT-8EmF9dKks=s220",
+        "view": "https://drive.google.com/file/d/1GctBF2Las4rogRBIuDpHXev1vGW8ZfvY/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0M2NrerFDufPq7qCRbdhFXD53_BD7kjib1SHSFom3TmtF-JmhBlqKBx5of45MFl44Ofjj1jv_olGup6I0pYat3ZTC99bXqrEmOCJiN7TSUp__YQI=s220",
+        "view": "https://drive.google.com/file/d/1CyIuRSmAe-0YQPZGkKp3y7KZrvp6G5wt/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkKUTwnofmgsgF5vaO5iKCJ6Sg_G-v5M-2ML-iK0250Ek6iFIFS-A4V0JLP6DAnmdNSpy7u-J4E_pehhZ0pGBDGHAdtXJnlyYM_j4TfthhXaNijEQ=s220",
+        "view": "https://drive.google.com/file/d/1ThV0KLzm8xzxDeSyV0obWU1gPRTNhimg/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZVnbEIi9avfTaJBzkwGF65WFhM_EjUSK0JSLCZiGZ1b9iRJjNNnnQDfSYGqgRq0BR-Rqm4IE5TiIclsp97FnC-Jkq03ZV7w0Uf210uiOqCgVRyZo=s220",
+        "view": "https://drive.google.com/file/d/1jDq3eDscIRJ3yqvEJtRm8gU_r-gEugMt/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoQJp4hYY1Mzc0oXCVSEO8MlgMAcfsxApsxRfHaam6EgQgMknyt8hF3sJcg3TKctJPmWsg_BvQPe7BTc3cMMIa0-i2Hh-s5fm6VQ3GsOyPY-gBDhs=s220",
+        "view": "https://drive.google.com/file/d/16NsWDGyeJJ3soqY9ta6zGghEaD7SsF17/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMo2Z1Qt7cfznFR0KxOVrmP0cDML6yvXEJccXOIPG6rbNc0Fogf3iU-hUqk0usNAAkamj0ogwzR2ChIIrtD4UMlu1JT3rD6YWnIKyjR-IwFUh4Sbxg=s220",
+        "view": "https://drive.google.com/file/d/1mti4k_dWE-uzaqaA-HWahYcUFOQetbZZ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVe49G3b9xx2uAXAc7OxJtDqhq83BR4LJvC8574gQQjnxfjC6omCrw1PyAMj2s3r55k2Ykfj_DmuPuutpuOwlw3vxtjECDkfvu5JzQv3ulrRgizSg=s220",
+        "view": "https://drive.google.com/file/d/1cEG4cBTsZHDYrfXLirvyIpKj3H2NKc0q/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370175 - 4/5/2026 (LEGACY)\n  → 370175_inicial ❌\n  → 370175_caja ❌\n  → 370175_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370175 - 4/5/2026 (9 FOTOS)\n  → 370175_inicial ✅\n  → 370175_folio ✅\n  → 370175_corte ✅\n  → 370175_demolicion ✅\n  → 370175_caja ✅\n  → 370175_liga ✅\n  → 370175_mezcla ✅\n  → 370175_terminado ✅\n  → 370175_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370177",
     "FECHA": "1/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370177 - 1/4/2026 (LEGACY)\n  → 370177_inicial ❌\n  → 370177_caja ❌\n  → 370177_terminado ❌",
+    "_folderId": "1PCY2zTPME7dMZU8V1WLYCTRxBnWAoJ9_",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuobHd4mYhA36iqND18H3FPqHJZD97E1t86k5iM_fbZ46w1PEux2Jqt224N-sngqHaLrwivHfiF7Y4Efex8YmqxDPSoJvDuPioYTmUCSduWAzLBw0=s220",
+        "view": "https://drive.google.com/file/d/18rP7y88ogaBGMJxwc2ORoZDGamqvWzy7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNahenmYIOnjNbxqO8bRlgz1uplwHnkaVsmKHkE3iHTi-vC47oFhrR-gLPYD8I5NOV_Kh-OiqyJrve4feumgX5NXcWTEXZ3Yzgkx4cqrHFH03WI6Oc=s220",
+        "view": "https://drive.google.com/file/d/1lhNZgTM-f0rHdzRUJz_AEEITBC0hi5rh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnXMYnPTIMCokk5evoOP0yIaqoB2c5gb6OCUqSd6wPm-tGF7wjON4EDnpdjJe7RLPCC_5VNIgYxYkTYujGDA4eHXf-9fGJ7tabC63NCEBzjR1kZM4=s220",
+        "view": "https://drive.google.com/file/d/11H4ikwxazmxzdVwo3mwLal48xSVSOUnl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXkMln-Qr59tvZz6V3DkVDFxCUZ105MQDmeQpHGdk_UULQ_viqmva1wjkkF8Y9IKq9WFfhvjVYhViD-Gvgydr8Xq8LBfd_6bNCGK2cKGbGDLH3yTY=s220",
+        "view": "https://drive.google.com/file/d/1tV0kxV9llw6vV9tcOfYQQKGIzqulv8f_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2zPQuBYwq0hGD8TFT25Urp-OdvBhmRTImu8xu_ZlvRwaGM4SWS0ePrIrJ4PQtMctv5ReVvPPftb4DkVLmauP-l_yvgLszY02i_e9K6gz-xt6GkyY=s220",
+        "view": "https://drive.google.com/file/d/191JDnZ05aGUwuNoF4Wek_Tnw4wMPnep6/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQ1fZetSCbe9CFVFt9DFlj6nGL7z5WMwD8ajVN5FB3AxNJlEx8OctZahbLNvg4iKC27LFWRqPFd5MNqx1BLUv_8J-ohPCYs_tFiHgSK4pJIfBpRsA=s220",
+        "view": "https://drive.google.com/file/d/1TnfTxZgqORoGt1BwArxec8dDYAzrU27I/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJ0pNASuPK1LfwJWrpr1xPy50yY85VFVFkdgnSs4M63cqtADTOZ0OTIwwezZu5JmOtWYAXflSYjnwBChg2H6LxvNQDl0_TTk335ZOfjptZvS5uvfE=s220",
+        "view": "https://drive.google.com/file/d/15nGlApEyajKcgyQG9CQW9DpVHtaAi3HM/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaf_8JSfNdzVmf8esn5vwCAw2vKQPp3nacWEUQmqwqua5gJVVb9d51mERHfCo5NpL4_BI6GIoa8terxnn-UszA5aiv1mMRJBi5VYy1lCU7cQZyp50=s220",
+        "view": "https://drive.google.com/file/d/1QyOBLUXRGkkcNPRArOMu0l7iYEwvwnah/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_B1bpCJvteIPu5AqQ1e4zkL_lQZeVqELvKcgTpjeb_p9MtyfcnSrOTKN-kv6gwgutlwNrW8wIhjygoDt2EzCvokLT2o17KNK1N3xKkXRlgPWS8-8=s220",
+        "view": "https://drive.google.com/file/d/197RWJzwFlifUObZYk9TKKtf2zGwKMQ1C/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370177 - 1/4/2026 (9 FOTOS)\n  → 370177_inicial ✅\n  → 370177_folio ✅\n  → 370177_corte ✅\n  → 370177_demolicion ✅\n  → 370177_caja ✅\n  → 370177_liga ✅\n  → 370177_mezcla ✅\n  → 370177_terminado ✅\n  → 370177_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370178",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370178 - 7/5/2026 (LEGACY)\n  → 370178_inicial ❌\n  → 370178_caja ❌\n  → 370178_terminado ❌",
+    "_folderId": "1vmmZxknaRJoJnfrfrtKgLVJWDB7_1Hyx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT43J12XtVqhb8zL-DkdM1oKNtB3yWKboz64zyXOAYL3wYt15tecdi_yJAjdRLYWR6JsHKMb5H9QbCuLsYQtp4OqW6PUe09gXsRqeKk6mx11Cqw3A=s220",
+        "view": "https://drive.google.com/file/d/1ByTjQw8B-dfmv7Q6NmIZtjEu-g-eXrqu/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrL86lMnOafuDPPWrdZYF0RMDET68LaeXTE9a-1_5BGvRXDx_baDy-aD9CZ2Q8eR4q_pTZoy2QUrigyVQOiAM7CC-Vt-KoYGLkztG3yNDe62TkQVk=s220",
+        "view": "https://drive.google.com/file/d/1qA8OGeKOeAeaww9G_6xriGqxBRgpunYF/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUbgWXOPcin31mGbxVAJ6kkUZRhv-fZCsB-THRpfdTdrYfl19xRQu3ILfI0ImEFPGZWOvxhLw26IWZw-jRMARzzuWpsc1xSjjuMVN7PDOwmnjFYdE=s220",
+        "view": "https://drive.google.com/file/d/1OXKqfCclGSAI24cfZbBaWUbTRWod_Zo6/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPorXZ0OJ4DIP5uL8cgCKPdVynM-YiICTky34E_7TS9AKRxNZd0FV1rrUVUic7KkhkiZx7lsivU10hJ5GmAiJICln5au6uahqkhvSFU9oU2xHsq-AU=s220",
+        "view": "https://drive.google.com/file/d/1sLojAQfQcA_HQotNKcFoYk5Y4wXYSeVJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgwa7ZroPPJFdaDkYSQQ7w0fw6C_rZNGtUvHrYIs4fzJCqgluSiT_CLrjlGqlCvYM9Q8dP1K4UY5ERIhRpQEqBJoerXsfiihoopxeie0Q6njPabto=s220",
+        "view": "https://drive.google.com/file/d/1GHYbUzjJFczS6LSGOjfB7IMi7_Wi-T1v/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0uCxqdxh9fJ8zr9DLU5kmQhqiyJoUV4QoThUcwyNmdJjhZBnAhNl98N05stKPe3qV778yPHWTOyVee7S9HOs0zTB8VujfYYRmydqhppzU8zjQD7I=s220",
+        "view": "https://drive.google.com/file/d/1MXOd8O57eVy0rtb4aqupKJ21dLiOasAK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMd1zCqkV0CEflIFbzvJtw1kPjJCZqyCAR2l6LkZYTJiRKLxswg7JYZY8OdnqRpdMnWQlpEWi79-4_vht9nOtE6rpbYrB0yIZ4uknFC0VbqsGWdGjA=s220",
+        "view": "https://drive.google.com/file/d/1aHBNCflL-bQtWIfbwQ7aUeoYcZVL_AoQ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJxT52csDHVRiwvJ72lKPFEOlvWNRkfAi3OPyuxuW5NzBvA1ZPq_FPzsusk6hziIzbrEZYaznwOmq_-9-Sin_gJEojGD265hX3kLWJtDPhlFNdPv0=s220",
+        "view": "https://drive.google.com/file/d/1A-1CgzzXPytqr6TnSSPkzBM5ne2c24lt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkXGKmTuA6WOlmtlbEKNryoQK9FVGeks6ON9n1Xho6A6LLhZIq3HdAnrIZcPGkf95oAWXf7Nib8bt8rhyUDGGW6tLjKHWlURQCUmt-xvddQy2dFLs=s220",
+        "view": "https://drive.google.com/file/d/1Y3PCatIASQuAP5vNSTi2PSg_HARzw8XZ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370178 - 7/5/2026 (9 FOTOS)\n  → 370178_inicial ✅\n  → 370178_folio ✅\n  → 370178_corte ✅\n  → 370178_demolicion ✅\n  → 370178_caja ✅\n  → 370178_liga ✅\n  → 370178_mezcla ✅\n  → 370178_terminado ✅\n  → 370178_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370179",
     "FECHA": "7/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1QxAZ6_RpqAPLmiz8EECiuC45Ko2EJZ5T",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoartwsp5kDJEK6WcUcb5Cmf18QZUIBf8vR1TjLBkzjVwMOHo3Aqx8eIAZ-cW1n4qIJRHLn6EmwLjPXuVOLlgMLmCkKXMy2njzuRDXemRtNXiCirI=s220",
+        "view": "https://drive.google.com/file/d/1SbUKO1cdzh92zTpAB4AVbInl9kSSgaWr/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0ORWDozMs4aKU0kGmwgreOJ5Y6FnhOnfo_iH0iCSUTAdFdxAsi2HKmsifPRWvvlOSAeqXaKu-43oWMsKcS_xJLeStqb8q6qlCNVTC1I_wF7hMiyY=s220",
+        "view": "https://drive.google.com/file/d/1_G1u2P4ap6MwH2bkICU02MGe9AIcB8tf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDN1EB0jkDaYKZrvawasYiD4vRcxQNMngdkmd-AslvxsI6eU2zgnJotg_VsmR7oiQEToCNQnExMsoDN69BGsXRl0gYxEMnNXF8FgmKppoMy5NSF8s=s220",
+        "view": "https://drive.google.com/file/d/1DMWxFQCq3tCP4vtNyb7r-HWEepid6BZ2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPE9b0_oEdj2gsHRSf-4-PEM-voBVmWViz5VqWcHfismEi4Z1z3lGwtldx2rt7HwgHKpYCkzVoN0NcgbLeqS5wVFzhV8FvS0D0kqearpG-MB9b4gjY=s220",
+        "view": "https://drive.google.com/file/d/1Uw4nOtKf1vVYxxDrefS5trMgjobSxNe5/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9D-8uHkk4bqlRCFKoU1Br4gdSZG3b9YY1lnzVkfUw51YAoWw1jTcXMNhcNdCz17fFVLH7hhAdaoSAmwuAethIVVpECBdxIEnxgEpY0KHqvuAdL0I=s220",
+        "view": "https://drive.google.com/file/d/1JAVRYANwi9b2ET6G4h2PhuX7KKyW_ZMO/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdWY0RNdeR3UZwKO0Vzlf35ypltSCKqHSDBBVgXymKvGTQnC5-bxrl2nIwF35kXjr3h-NiWDGW39V-wk1RyOIN3EuvbDsT4RcDfTXAxAvVaOFVmng=s220",
+        "view": "https://drive.google.com/file/d/1j4WDNKCMjU9pFxaNJP-0ZH0L-cARHygG/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdo4cQEZZ326frG4CCny21YjrM7nCRHJJW7UP8Bhdq3cTvnfK0M3cnXte6oROTcHs6ttTXq2tVzkV8bqFFFjHcuRz5PLSXosCihjAaVvQIG96Z4F4=s220",
+        "view": "https://drive.google.com/file/d/1-Zl2VdZqqBwxBIK40AfAgL_-V51UmXSa/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCdi6C7TkiGbdzRvMdi3dO27zjRkYATnaXmo7vMnYOgCxnV4arqpErN69ANcf28hkLeEAl725E_GrZYTckR89VdFdHXZzchAoyVezB8gysMsJOXcE=s220",
+        "view": "https://drive.google.com/file/d/1aYvFI8T6E-XErtKT0hdt5Mr_cYZlM6_e/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeAQTnBJFjP2kZbtVtJZaAjq12KkPF7ThEbtgV11zhEygdbPBBBQNluL2eAyDFWYq2v2tdY9JBmkL6n4MNeXhIDE8K8O_wuTzgBckW-y_nWe_V4Ns=s220",
+        "view": "https://drive.google.com/file/d/1nztzbFglmLzMWQRwe2oIB_Gsi9_WusOy/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370179 - 7/5/2026 (LEGACY)\n  → 370179_inicial ❌\n  → 370179_caja ❌\n  → 370179_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370179 - 7/5/2026 (9 FOTOS)\n  → 370179_inicial ✅\n  → 370179_folio ✅\n  → 370179_corte ✅\n  → 370179_demolicion ✅\n  → 370179_caja ✅\n  → 370179_liga ✅\n  → 370179_mezcla ✅\n  → 370179_terminado ✅\n  → 370179_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370180",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370180 - 5/5/2026 (LEGACY)\n  → 370180_inicial ❌\n  → 370180_caja ❌\n  → 370180_terminado ❌",
+    "_folderId": "14qoG1oSUk9c4nDZwgjaSznYNgODJPbfw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlK6BmFSMCYFuA2epUIA_JvcM5YNGqgSeTMbt1_WkJJ3rRauFGw0ak5DS87TmnRSwrgmmXlTmPJq6fzopZ9-62wky4JiEdO4x1E_C3Wa7327erPXc=s220",
+        "view": "https://drive.google.com/file/d/14Bw0zIekhGqqXxUs6Gunkcvo4VeIY-Ee/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPU9h___u0fP_ybjHqDTqXjzQiRN7laHXQjME4dUrHH56SJgOygdFIDv5vaM9zsRqyiYJWSPp61oSB7IhB_PtxZ9d-4EcqyPYRZbTy1zN0C-2DBxkg=s220",
+        "view": "https://drive.google.com/file/d/1X_YNDKOBD2__6HT_aYG_LdloM0-9IN5l/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIn9DQULIreAaWyW0hn47dg8B-mJ_jsyIpJw6eFMcEZ51PbMYp9Ur-JjY1S7vxAzCF3unNd39Fqp6FZpFsLjaYJTT8H14ORv8hEugq0Lm_S3ytad4=s220",
+        "view": "https://drive.google.com/file/d/1Ciu_fp6DL46fyXGlXswOjht1VyVkTPlG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaEn0JfBUiRu3GE8D6hay5TD2780QbckCEnmuR4eGkECBsMvAw4lunxXN6kG8h3Da3Aw8Om4sjlxUErZzVD0IVxW17MoWy5l87a2IGfcbjJWE_IYE=s220",
+        "view": "https://drive.google.com/file/d/1pc0MQpt7OQOyLPJ7Dny-lg83998feAMn/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOkE3XZ52Z6z66kgoatk2HrjLwyIq9GB03EP25LVEmGSq-C2QKQC-NzpoTVkJoVNoG2FXAwLWruCqMY9yBadxgrwSL2Jz-X9EKTXAeERmK9XtDq9c=s220",
+        "view": "https://drive.google.com/file/d/16am-Il7lMCHxw_QTSE9loDcP8MhP3zvi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIEsO0hXtfUA27DSW0w8-A4qPK0yykpYebtUUOd8O5ai-XU3cyNbKcXPI8XBIotElc-yJckX9n-tG_z9YzHdpCymFpbA_rIJAglIRc66UveD_xYgc=s220",
+        "view": "https://drive.google.com/file/d/1Dxd7ekbLNlTHwUUiqx0LX-JvOc-CFnEr/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzWS6zuu32vJqweAp1EZGFbpvNDcQKM-j0VCf_MFo-AMC2Kt6j4LOTQi1kUjnalLqYjMQI0tsn5rMyKnhRKxDGqjPpNibu6XQFuoRjEYTjkSR8dbM=s220",
+        "view": "https://drive.google.com/file/d/1tcU7FRAzTMULLKDnNxtSXEdzXR0gCZR7/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOwBKIY1rlpcLZYYir1luwmWRO9RAnThFKdMaoORO9KXx22F1petT5_Mi8p5iAXIKozEJBnnLLaLoHVEKKZBnDkR767Atf5xF3It6JPgUHSujz25A=s220",
+        "view": "https://drive.google.com/file/d/1s-vf1KQ5hVDerO_Zhaqn8hN9HXzSFJNt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSWRLZj-7ARogr-VwukMDOe4UbvXNZmEKniWAPlBQi1Xy_ZSg-4zfyecpEFTlvedGp3BVoX-5NknLY2yQQ9BGZrgdS1x_K7D5RvPkcNOshgBFLbyo=s220",
+        "view": "https://drive.google.com/file/d/1WZASMpniTprUkYi0tKaFbCG2EKbxJvbh/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370180 - 5/5/2026 (9 FOTOS)\n  → 370180_inicial ✅\n  → 370180_folio ✅\n  → 370180_corte ✅\n  → 370180_demolicion ✅\n  → 370180_caja ✅\n  → 370180_liga ✅\n  → 370180_mezcla ✅\n  → 370180_terminado ✅\n  → 370180_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370181",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370181 - 5/5/2026 (LEGACY)\n  → 370181_inicial ❌\n  → 370181_caja ❌\n  → 370181_terminado ❌",
+    "_folderId": "1n90H6MzVt94GAQrbAnP2RJj0fD1T4WUe",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlRPOunV8w2K5HBqhqGZiLg2_5dcp-SRoflH7cdqbYvVG3oO1TBDZZ-SmrGFvo_t-CRC8sZUMzC7flwioPqY1PvNGB6AyCa9vwHgYIkyRUFzwGiHk=s220",
+        "view": "https://drive.google.com/file/d/1PCEvgCEIh2Mboh3aOW4T9JK8IvfTFC0z/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfURT6_cy2fISARcECVkxLRLOZ1PkK-58Gla_LZ8slCJG9TsO84V0BrhaoFghkJ1OLC9NL-_5rlk1V04a6vw2TklJmXnaxVRIfb3XJy3P6rJ5NzIk=s220",
+        "view": "https://drive.google.com/file/d/1xZNAMaTPXCNeMDSmhNyU6LvPBNUpHgQI/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhRyCMDVCMPzQBkkWY8J1qxZFemt8bSjV7XSn8T_MSaPpGWFXrtfYrug3QSBIKA69CuaGubifnsMFzmISPB9g2yb_LB-pOp2hHWzXn2HqpjIeohMg=s220",
+        "view": "https://drive.google.com/file/d/1TpgP0KGchK6-mUOKGohRINzqdhifwALK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY4QHtik4k-ZHO01rJ3nf6EqwH9yPPXe786ieOvns8F7qaDq4eS36J_dObWikIth6xIx0WRvodR7fZmOXKer1_x1xgt6nbUGTm6-lL7HMNjpGp9mA=s220",
+        "view": "https://drive.google.com/file/d/13w88ca_FaHJiaP_BU2ZZb67mjwJH6Vh5/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOs6jsesXmtZe9a9G6w5R4d1aG2f9dt8KrvXnlVY7PxBBYOt5FIFf3ocBRwRIZwuvFH3LdCyB0-z1XkHPvMBbKAEQXDWqFiqmy8pfBmKfoGiy6Irq8=s220",
+        "view": "https://drive.google.com/file/d/1CKMBMujG5ykKbgVPYzwvAIfghsC7r8uX/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWg5e9jeQCXf-sb_ytvZKSBI7Hr1uei07fYcUnOKCKpELfMSRUReAOowQvicD9YuSW4H1Mz1wCutkA-8bJier5_O_t0w77mWlytU15NVXyISrjtac=s220",
+        "view": "https://drive.google.com/file/d/1PCDmSKkgByhfG-aXce9H0HOoDPYPpBWH/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpUsOWxp2Vr377bKjacc6LBnhklXmItBSxM9-V-c9kswZDQ0rl4PKdW4k7t9I_E8oySmmLeoUJ4MusMWd1KqaXy0wHWTrMprte2DM6UR7j0Gh-gDQ=s220",
+        "view": "https://drive.google.com/file/d/14VeO-ygWMV315TCqkj-DqhJKBG1DvK8F/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdC3uxV7ilkX2PSSrGVsCepSgQ-UB2759oCZm_Y_cim-gZQ9gtx6yBuc2WetOln6JsBRjncJ-JZqLz9K_e_kDIn8U_VaSeRWfUKlrOd_poLv65rhg=s220",
+        "view": "https://drive.google.com/file/d/14ti3NeQGGXqFaQfcGAHXO1aSIHMn070r/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJae7o11mRIeBVgeXIsTq_4ecCyhEAfkHaUk2pM4Bx3bDcP37rKs7tjASwwkd-flZHqQIn47EMJQ4E3xjqVxkcdL3NvT0FpSGUcGOmHcriBIG3qK0=s220",
+        "view": "https://drive.google.com/file/d/1gAkrrZrVzuzA1hn5XfOgub72XDy921UQ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370181 - 5/5/2026 (9 FOTOS)\n  → 370181_inicial ✅\n  → 370181_folio ✅\n  → 370181_corte ✅\n  → 370181_demolicion ✅\n  → 370181_caja ✅\n  → 370181_liga ✅\n  → 370181_mezcla ✅\n  → 370181_terminado ✅\n  → 370181_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370182",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1-n2OR9UYFD_63Z_CYcDuLp6ufUKKoK2X",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFDI0JTPZ1hiaaFnHmmM-AqvikDeDvbRUWtVMAdOhcYox0lgeqiSvKLCh3WMLEvZfQcwdpcoxRU3KXHdGfFGU680gbAAx74e9hak3eYbOsgXQjaVY=s220",
+        "view": "https://drive.google.com/file/d/1wt8AhUrvaDOQ5g0W57S7paE3zkQVJVJU/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFG-bZgVm7cwAceRV0TxsRph4WmmR3obScEo_hnBwfjobQnc3YUGpvegyIJVN8S9ohkLCGRrfS3KD353GBP_F5vy0x7beh0s6riZsUwdvzQoznRmY=s220",
+        "view": "https://drive.google.com/file/d/1d7Ui9kbdbO0YgYZDrkU_nzi69TRX37Lq/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOxCHI2PVyTVgxqjA4Oop88yB-AilHAwBT0V5ufujpkgX8Qs1DxOSc7R0EE0o2Alovl568QSEm0fZJ50iLPSPBD28IL1F6yJIrp9-fAx6a_OxhNxw=s220",
+        "view": "https://drive.google.com/file/d/1eXMcopB18N7u0WE06ncOjcdAT2_tl8Df/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3gv56ocLPNNiB8SQSNWRU7jDs__1ldAGdbD383wxVXfU-tqlcFPQS0pvmhy9Qcgxs02wJJtE_9JP73AbPDYvn2f0OZBsJ2wqLoInyedtG_Z3Lz4A=s220",
+        "view": "https://drive.google.com/file/d/1BI_x767vPFRJBv4HXRfpGQ8xpuP7ZnHR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwNI8x5crJdch18fc0tbtSQuTpZfeo-61f2Qlb-PPPvP2MY9x_llH8ivkpR3vx4-GrQR2IesOlzCRWnp1hacqlOnYDcixH0beSBjAuEyuiuCTGKOk=s220",
+        "view": "https://drive.google.com/file/d/1bHXL690AioQevzAW39xGI5zKaHQmW9ZS/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMobhH2wspjGLarTg0piLukaoafIzlhVYjgG23PBUODtZF0PuRcSduyDQr7foGXhV4KDHp3Nxn6w8k3UeptqYNxJjPanNJ9eDPv5AudJvLu2cqAzdk=s220",
+        "view": "https://drive.google.com/file/d/17l7vNsA3Fa7nixBSQOTDoLtbr3m87U-v/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYnMuI5l6AfFDtiaBAl9Bipj1XYh9BrCW5BNYx-F372yaDNsMPPq2tojSQlakV48pEYAkESG_iQb-Muuz-hG4VlUsXVQPyTAtfykYX0TP9sTMc2tw=s220",
+        "view": "https://drive.google.com/file/d/1YKshsXa5y2gBZw2VEgUKzA8bfxoWv1pz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHnDUEEv-grIySuoqHshimMXbQgMu7dZ5EwpETIGMc_2YrxL9k8dP-Lans0MCXeB3Y6yIiJN0OeGflUb-Ka1QaNPzIIfdc3OLQ3DT2nqRcy7C1psA=s220",
+        "view": "https://drive.google.com/file/d/1w8ITaFAfsgoAR9J0uFOUIthUAhtwHsV9/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOnz8CWuej8W8mW0lymfL13iVPyfBvOO_KsHfDT_p11EQh0J6ql23vwceShtCTphxqz373vB-00l3alg0I8ibD2wLrfWKbTvoZLjtJWAFVCeM4czs=s220",
+        "view": "https://drive.google.com/file/d/1P4-kq_j-2FUXYtGOQlNEkBNMAaTEzZOU/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370182 - 5/5/2026 (LEGACY)\n  → 370182_inicial ❌\n  → 370182_caja ❌\n  → 370182_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370182 - 5/5/2026 (9 FOTOS)\n  → 370182_inicial ✅\n  → 370182_folio ✅\n  → 370182_corte ✅\n  → 370182_demolicion ✅\n  → 370182_caja ✅\n  → 370182_liga ✅\n  → 370182_mezcla ✅\n  → 370182_terminado ✅\n  → 370182_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370183",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1FlGkQ-ZQxGm78zcFK7bYY5BynsKqCbFB",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrPFc4i4BBeaYkKGUJzjQ2CMQ1B6UZGcmLsWXC347-Ba4dQrZcvDa9-kbwxcU1J8aknIssCYHv5DBX15bxQb1jujWE97Cvw1SO091VvJGql2w8ibI=s220",
+        "view": "https://drive.google.com/file/d/1V4Z4sRJerC4RaugI_Y_p02MCtXlaOFpZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJsn0SYSYJwEd5573rMCw5g-_DSiRi84KvxYSqTO7jMcn7jp26bPfVJLvq9N5pXTs3iEnV5BROnKiEF18kUBZNt0Q2XqGy3lbn9EMSIZajO1EesF8=s220",
+        "view": "https://drive.google.com/file/d/1TXuLMVrdMkYHLUtIA0HGjWP3uGIIlZr6/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhLlVEoqFmUd9cKsr15z4pY93V5jSavZPOW7Oqouh-_3ABmE1zQOTiXCLRjOJFCNV1w2mHbny1RgLF74kyBHzVj4QvfeIybSQ9NridWP2sS7FR9TU=s220",
+        "view": "https://drive.google.com/file/d/1ZX4RT5Bo1Y9SnwxdcPyRbx66erCYhV_5/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEk93cvxKf3fdPy1kyLfCEyEnKwblwFbdyzdctZo1TynJd8nCQAvnYkK_yei9ImaD066JdaJetlhTiqWaH15v-3TE0n7vKDBaEi0W-rb7e21IYvs0=s220",
+        "view": "https://drive.google.com/file/d/1YxudyKguItiJ0hCG_2h4DvGpRfJ9QF0Q/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqns1GdYDUEwFtc93UG4DXrVCECbjE8JAjosYq04VlCSb0-p3hf7TRG3Wfu8IxMqx08lZSusQQGQUBlPIQ9OzE6wdfcTz8TOjEBPS8Lb7E8IC_7zU=s220",
+        "view": "https://drive.google.com/file/d/1LaJRnQtjFh2ito3G1-PO3sagslozmk4b/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTxh4o6cQbMX7QEpSM9dk3IqGYWvLsRGYoeYCi-BbzOiRblNm5OSlSnkFRWB3cs9YvCsVyjbCHlX14ptv-v_F53BhJR8LZU2H-JAsVl1zF5U4Kvn8=s220",
+        "view": "https://drive.google.com/file/d/1LU1QQfYj7TKnNtVDRHR65kk-4NQeJeec/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlop6zGMPhkvwdChxx3ZmKfDDKswGe3PTGQcoUKLAk8iKpV6SV-IMOR-bxPMsohJ91J5zpJKpt0IN2AIiCTn4H17Ofid6Zj8j3O0tgpOMiBew1L0M=s220",
+        "view": "https://drive.google.com/file/d/1Tx2czFCkk21_Sre9I7wqW9w1rjLrMUeB/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzAJyj9wilhoMCR9TsM8ul9r9aIO9QBp02xOCzm6dPC0h7lTdwuqVKLJmRya0PkWZ45n3drkwA96OaHsRvQmu4WP8LZ5Snhul1JqEYbWUQ5o8ZTIs=s220",
+        "view": "https://drive.google.com/file/d/1iKGNuygPwXUJUHk42r22YEENypYu9dUe/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMY3beJoFqnFRo6UkMImL5ZeNcvq1jmAa9maS3FdF1b8xwPyA7yWXG8SJbkj0yEVaBXA-aAuc-hSlV9BoXH2gGHY7Gmle8Fs9CFIpWhI8-OienNhzw=s220",
+        "view": "https://drive.google.com/file/d/184n1dbS9gK626lperULi4zQpdbpLX8CZ/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370183 - 5/5/2026 (LEGACY)\n  → 370183_inicial ❌\n  → 370183_caja ❌\n  → 370183_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370183 - 5/5/2026 (9 FOTOS)\n  → 370183_inicial ✅\n  → 370183_folio ✅\n  → 370183_corte ✅\n  → 370183_demolicion ✅\n  → 370183_caja ✅\n  → 370183_liga ✅\n  → 370183_mezcla ✅\n  → 370183_terminado ✅\n  → 370183_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370184",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1fxQOy5kY2cDta3Dy5SWL_Ukf-05qyjiU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOh62vOzDWd9CUzS94IXQrGjloI6i9WpOLb8_IqgUDFSJvbaclzHyIzTJg786_gVHT-_S_yGONmykrXHpFoPYU7L542H8VBTXjULj1NMb0ko0KnlZA=s220",
+        "view": "https://drive.google.com/file/d/13v8z1qqbFXdpKroiSobUNTSiu7YvmgFh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBllaH9hrpK5fq1ChRc4bJHluoNZm_GqT10JryN2G-OqsGNYWRAGZABNcNSJkj2QoiT-H5VIJNFtIwzVC4Q9j60ROQM5Wu2X6yucQuMCPIVA8e-IA=s220",
+        "view": "https://drive.google.com/file/d/1BSNQYf_0tvY8MmGGPr6SfY76h6BTYmT-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ1tTS-WSGqi6FpnINbNn8VKp4Ms7WfRSO9A5webaVzpfmGxWfKaOVGtToM1BQ9wIl2gU8jzFDofQAq3yf_3mH-11s18YkvgDqlBxgSIOqL5Kfvk8=s220",
+        "view": "https://drive.google.com/file/d/1pGNx35y_Rwju6Hc2_oe_XqfVjvVL9kKM/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSj4StYCBY-yPf0oTUuihmg2jeqrHnRXsbB9CW-l_cWvBojMRWFpD1ykGsG6db8-RKdVm7dXbxc5sgej3xiC1J5pg89UMXcUqbsjfZFOZXHlKBETw=s220",
+        "view": "https://drive.google.com/file/d/1xOZsFuCMb5_kbNiL0ryg-TcxCl6hzj3S/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgS78MnU3H6JVLpPBmKsKW1f4Za6kF5hauulMSRGhDjNA5IiSwijkxk4UYUMFWr9Rs6ID4g6zityBMZc7tSPvB9wq336oYUy4Vh4hjQ1ywx5FXKZE=s220",
+        "view": "https://drive.google.com/file/d/1MJHK5mzxY4VGdNpBy54INsJoo6YMqZNl/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOse42skCEz-6LVBZdEibXyrqhWRgt380ZMKouMl27ml4iNelA1kqORAApG9GSl-yl9SL1X7Kgawb7Z_VcYoiNGYNBKAhTOPthxbMju5NnVKkQ9qw=s220",
+        "view": "https://drive.google.com/file/d/1sk3um6UZzM_-i9mAR67nTq8i33zZG2Sg/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUGTEajUxVsLOS8kMuWEma0K2xo4xx1ZR01ADL8KmInfesKexY_B7PXsrmuBpT_OJFnuJuYZ-n6dARpKkmPoar6K6pDrlPd1j2VsFrrlYgk_gfPEE=s220",
+        "view": "https://drive.google.com/file/d/1ZHmEin0kNyK3iPK_Ahob9xZSUSfCKX63/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJrg6W_31874f3RJlQe8wg68rpQ4iGL29a1t8e3LLV6g2jRnrqwIaasKySuZ4Xhe0d8cD7pbi4QiDhr2EAw_zVRv7sW6DW860xOCVAZgrjAREIx7E=s220",
+        "view": "https://drive.google.com/file/d/1kX6VH_3csGfb-cCPilhHLTrtdlLdccGe/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNModIxt3T5SR5sTmt1oDHts4BqCY1nfkFnl4_IPmFEI6JoWcTt0QlBkzVrOW5Ab1GUTBKAYozFwKDcfPoWgUgzAZLa9r4HBwXUca89YNiJevsksBM=s220",
+        "view": "https://drive.google.com/file/d/1MI5XJ-hYgSUP99HZ7F6JLDZzIg69YAhW/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370184 - 5/5/2026 (LEGACY)\n  → 370184_inicial ❌\n  → 370184_caja ❌\n  → 370184_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370184 - 5/5/2026 (9 FOTOS)\n  → 370184_inicial ✅\n  → 370184_folio ✅\n  → 370184_corte ✅\n  → 370184_demolicion ✅\n  → 370184_caja ✅\n  → 370184_liga ✅\n  → 370184_mezcla ✅\n  → 370184_terminado ✅\n  → 370184_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "370185",
     "FECHA": "5/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TEXCOCO",
     "COLONIA": "PASEO TOTOLTEPEC",
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "17Xj0oQhxJ1seKH_uIjtrWLp6W8VA5Ng_",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxrNk7KuJdWl-uYz1XAcE3fwQ-TOPA8cXTBAdSRWgApxU27wrhxSZPAOtHg2bj7d2nqnpCPQQXb8pI4dj91X0UoYJZcOmfLSp7r-fBKmbv9E_Q46Q=s220",
+        "view": "https://drive.google.com/file/d/1p3XRdWG05VjxxFb93_4G2O4rMQxTOwZo/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRNoX7wo97X8SFstixBCjkIkISBlK2uf-kZ5WKaDRyyfqktUeK_gI4iE5xhicR0A645x3m2USLIAwib6iq3Dchyte37xHugDpdQRryoQd2bWVgvSM=s220",
+        "view": "https://drive.google.com/file/d/1iYbRCAtb0IsQtKAaKhzNsysEyHtoWqe_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMizeBCZod_aqEQDIVwhnCBQKjSKg2PO3vqtpZg7S1V1b6yS3x4fWdFP_oNgNCCQJuF2g14dl-tv5varWUa3FI6wnuhBWf2NP4oumKqxqwg0mwjJ9o=s220",
+        "view": "https://drive.google.com/file/d/15bg1ItZ6PGaLV62RIFAqUTzE2yPv246G/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaX8LMCeHELwcTTTO6xrGjiCJ19BlATNzX3V_u9isaKePNRg49YWFRNf7TG-uFa9pLJ-oFGOj1nEOHbW2EGW9cS6nz8qHMp25iE0_jF8mxjXJatjg=s220",
+        "view": "https://drive.google.com/file/d/1iTJ2kSKRXCevYRcD1xm1VA7CkxPMDDNC/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO59CkIgoEx87pJP_zWYcJLfwbMI3MkVcKws-w_Rrw54anhf3a1J--sa9Nq-czZ4yZ_oeMtApfBPHSNdrZfeMnQYgVZdeRzc14kN0Go-5Yjv1yAXF8=s220",
+        "view": "https://drive.google.com/file/d/1sp15ODF3XebVuITtum8RpRnv1_uDhtiQ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVuceq6I4OKw1SlNSUbMWnsxEegme9cAVWatYz9krBWWglnL8WyAGuJZ80D006jWYjJGfUvMiBCgcmMAxv2D1GXA-SJDk4wiUMQoSppXiK3iG2U5E=s220",
+        "view": "https://drive.google.com/file/d/1VBaAYk5_Uc8WphLOUPhXOj0I4VXZwsjQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP--WHlB8Nn-kQCvt-JNXCJA9KPy0IIeOUeZIBPauoWX0M_EnujwA5qyGoFy08cDXbpu4vtiPiw7zI5pmoFS4lmMxO3SsdIX2ynmKkWg9XnljvoLQw=s220",
+        "view": "https://drive.google.com/file/d/1JiLxbCe-L0U3FvYxic5vA5ZZfEUn_r0v/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOemRVF1lULAu8yB-8IMZcO04Jgan5M8wjorseIKuj4-SGua347amahNocrnWc5gKOeodIWydE3yCFuUCU-Nq8mYfsJiAGKnepQuqIIuLx9tp-Yhwo=s220",
+        "view": "https://drive.google.com/file/d/1Jh4Y2g8yJN2tfM3liNp2Em5B32143V0A/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPsPb2vYsjhyxNRXznBq-CGKOj2roFdPfE5u0snRP8yATxVjpzihil6WNlmggNFziyUA4cVZeJzP63Qql8efoHiQAxYSHImnHoD6Ftg3f2cPFH4cM=s220",
+        "view": "https://drive.google.com/file/d/1ouymoBSUJHBSWYzFiud_yogEe2syRkXf/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 370185 - 5/5/2026 (LEGACY)\n  → 370185_inicial ❌\n  → 370185_caja ❌\n  → 370185_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 370185 - 5/5/2026 (9 FOTOS)\n  → 370185_inicial ✅\n  → 370185_folio ✅\n  → 370185_corte ✅\n  → 370185_demolicion ✅\n  → 370185_caja ✅\n  → 370185_liga ✅\n  → 370185_mezcla ✅\n  → 370185_terminado ✅\n  → 370185_limpieza ✅",
     "_faltanNEO": []
   }
 ]

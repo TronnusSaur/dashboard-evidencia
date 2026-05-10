@@ -9257,465 +9257,1436 @@
   {
     "FOLIO": "410247",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410247 - 27/4/2026 (LEGACY)\n  → 410247_inicial ❌\n  → 410247_caja ❌\n  → 410247_terminado ❌",
+    "_folderId": "1Z3qbPCGnJNatAB_36a8WiYJ5_xvs6XuA",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMvTgLRzYd31f3C2sVPCoC_nu5H1hIwMuLkNYFXnpTIKE4HS6oBRLPABBaKSA9rBE57xFf3Bu3tSHAPrv_qLESiHELJeW3vt8L7QcNPHyZRXzSkK8=s220",
+        "view": "https://drive.google.com/file/d/193Xm_qVZsbdVoBTFBkZApcUkUN4t4Xrp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9qA8QdwwUst1LOsQ7LYuz81QJSYq2xQF2cCCs5KhFHsslN_lRQ8buk31lyL6ulNil_90QMUtrPC1w-vqFXnwULHcSWdj6Sx1dlLwhweH09qNtiyc=s220",
+        "view": "https://drive.google.com/file/d/1KHsMdTMf1vSBOhGjL0Tvqq4K1hf4oFgj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPL21WcAWBE6Wfy8JnU0SWiCN_fMKuIX_H03SvUJSps0Uq9IepgChaVc9Uaiyu9ymzJvUxOYG3F7O3fJJEkCVB3ajSZU5gmeVKWs848SbNx_eY7LxI=s220",
+        "view": "https://drive.google.com/file/d/10ctZWhRvvUnlq_77fxAoNA8n7dEr33Tq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKl4dGN800ODoxWtuD4dGhDskeseLsquVW0gmlRsNzXRiyDK9hcp83rNidLtth501dFP6JUL5Kt8lYJI9GbNsl45zznSxfDfibYrRJKS7BCfFSy9Y=s220",
+        "view": "https://drive.google.com/file/d/1vQypxTx8fFZOR-vdeLhUMF80Ql9NbhjU/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMO9EAeEZdaLVteew_9_jAXju4p82hPSEsMB4QgeBb29dOZH4vEmOEdiBRZ3e1IyaX5SaJIlthvI-LucSAm5kTi_cVBfLTDpJ1GY4KZ9IHXY4nneI=s220",
+        "view": "https://drive.google.com/file/d/1Th8Hv36PSVde2CXqZnEgF65zvqRhRz52/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBME53JLAb6WRQRbnCv0ZZ0uDF6XSRjI49W6SIplXZ906xH5U5istDTZGCAq30CCPtnqDjHDfEkbpslhSk4m7PFOya2fAp3yahcymOrwPcw0nj3AHeg=s220",
+        "view": "https://drive.google.com/file/d/1y1biz4qRlt8HkBFTG9T6t36G4bCOSdbn/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsfs5gtvHrhSNGtQN5Aq7_AsWvKUOLyg2Evkc2ch-XQxhvoAJ90vvyJuJT0sOiPU7Vss7RLFjThhBLWPNYLKtz_uVIMP2psBlBle-PIctmd8RHEfU=s220",
+        "view": "https://drive.google.com/file/d/1-5u2KEoAnd_8ozNQmfM92eVNxey2pAv7/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHCcnHkrBMXjwuVNFtTPff6miWc7bjr9N5zsumgmpWH2B-IvpbVPjdGvE-4OmmG4EgRwS0XQENiQv93kQNEmPWvSirfxhjuMycjVNiXfG0TqevDZ4=s220",
+        "view": "https://drive.google.com/file/d/1yhWb4TkR3VTkRWi3-KSw3uB2V3VLUJx8/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410247 - 27/4/2026 (9 FOTOS)\n  → 410247_inicial ✅\n  → 410247_folio ✅\n  → 410247_corte ✅\n  → 410247_demolicion ✅\n  → 410247_caja ✅\n  → 410247_liga ✅\n  → 410247_mezcla ✅\n  → 410247_terminado ❌\n  → 410247_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410248",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410248 - 27/4/2026 (LEGACY)\n  → 410248_inicial ❌\n  → 410248_caja ❌\n  → 410248_terminado ❌",
+    "_folderId": "1a2L7xfpe0dX6IFIRRoIgeHow0nX2BIiQ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTKfc9yFIHUbqIidzGpcRIYq-QV7XBtTctuUo63eKK3mgY37B7nAQBXZusFAl7a8z5CAexXRtVtq0nGhAfBEqJsS6B5p6QnKmYnJ-c5pWC5GpEA08=s220",
+        "view": "https://drive.google.com/file/d/1qIBMR2XVKEAVbyU2pqjDP3kWVDBusvy7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHe3MWxlffUPWA1SlcAENZ4ez_Z1vbfjCoD4yI-9lAxAJdMQ_YP7j-75wCT6aMvAAizSoUTPU2doTik_s3x7F42LriHaVxhPFZBEHEzsLxonUcgLk=s220",
+        "view": "https://drive.google.com/file/d/1PUQela2dsyb_02BT-K5t5QJ_3Va-4gvT/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9oQhRg1_OmILi3EmS5MrwlJCqdHxXPgRwpaH7ROeKzQ_Bq4B5ykMCmBF20AIoS7HY2F7qoRG4AbnFkeKpFbr4fpnmoZ4SJkqeOWOr8Ek4dnz2X4k=s220",
+        "view": "https://drive.google.com/file/d/1frMxlJrf_MNzm934hlq4l86qSRYdFqtt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8YqfJZQ5mv9wEHN593EIzkAUfEF7TMk4If4Hl8Sr67fbJAgPy4gnp3K8EeK1i7gMnpV_ruucGuzHdnfFHVJfxTPUPynQfbwaACYbSJxNtQABzpe8=s220",
+        "view": "https://drive.google.com/file/d/1xu06MNrWRfUmtTFxZrp6lGNoniORc1Ly/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ_OdTpZTX8gYgKeZH_AyG0X0lvvPVMgdLI4Te5Fz3e4mJSrq6F00G48K7uW128CeZd44XbgCYULO0Iy-Hyxv6gAaw4s880zbODsMvnSlP8wBDiwM=s220",
+        "view": "https://drive.google.com/file/d/1OnwhdYjAzOhju7SqzyCmdhzcwP1GvjtQ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFkBIkVnN8Barshp2aYCih6xT0dpYFbuz0mXoZOYzBCMg8aLui1gu0vr9DVkt2w_Cj4xfMEzbr1NNdEObsUTsXLPXY_c7-KunugsJCSdo5FnI9Ruc=s220",
+        "view": "https://drive.google.com/file/d/1c0eb87UQSdvs4RkBwijGjVaUlJSGZ1lC/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbOfSf-Yxo180HcpHwfxTeehmBP3uqD12GNSBRKaqaYtpGzqBnILZE6mBp14lyDfX0qZzX0eApgBHyJgvkKK-1jfFpzFomp2Ez--dkv3NKvk5vk2M=s220",
+        "view": "https://drive.google.com/file/d/1EMn5wOMwliNyG2mLPgd-hiui7C-pXLiq/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNh6Y-HboKZJMDVh3yYe1OAfeipGikJaJdI1-jMRVBqmsIHvbDyHDZhF9gmupe-Hw-iq9KMzNTaSHnG1XU_IoTSV2PSMV_jcQnm5MJ0z9AWxn7Pb48=s220",
+        "view": "https://drive.google.com/file/d/1DcnlWkON801BXjkriKDLYSMaRylXu7lj/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410248 - 27/4/2026 (9 FOTOS)\n  → 410248_inicial ✅\n  → 410248_folio ✅\n  → 410248_corte ✅\n  → 410248_demolicion ✅\n  → 410248_caja ✅\n  → 410248_liga ✅\n  → 410248_mezcla ✅\n  → 410248_terminado ❌\n  → 410248_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410249",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410249 - 27/4/2026 (LEGACY)\n  → 410249_inicial ❌\n  → 410249_caja ❌\n  → 410249_terminado ❌",
+    "_folderId": "1B2iD1l1uHkWsGdBgLXgM62wxpzUkiV6F",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWRAPtUO_aW4T6LMRt67Zzzuhfkon6DDuRhiShHjI7psQ73TBbBUm5_RaImV0-BtcoqzYaDHhGZ-kObeLGENUb8UYovYP8pwgWP-pmGVUlx-lw6Ko=s220",
+        "view": "https://drive.google.com/file/d/1qQAeHhjVwo9oD0pe6Wk5U1B0toDRxae6/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX6roPuGghwJF5crXGk8pIX035vdm8lfiDGdq68naouh-lMbzpi7u6Kdxcsff-8t1Q2AXhDQOdqJhEflboG-Cf_he5oOR-aPXqqn-TC93G61803AM=s220",
+        "view": "https://drive.google.com/file/d/1BzWPFYI1jnh0Ldu2tqyY_YMPTbarhc-0/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7cmKfh-IkJvgJ1c0fsNkhUod9gf6_bZyBTPDzsBz-ZKocHPYrp9fK8xBOT7Qpk74WiX9UiQR-zDrbnkiA8OVXz5KH6NC4Zfz_WmafdWmyD9vXx5k=s220",
+        "view": "https://drive.google.com/file/d/1QsZjbscgc9yR_VhYSprpL1hpJuNtTGz2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8PuDJMwCFMl3RePH5ZvPNoltwOkSzcIM0K12LQrBMbfOMkvT670v8E6ttziSWxzofXsoGmE7M-nmZg9oEON-cWe44t7kfVyrAR38BzKezLOtE19k=s220",
+        "view": "https://drive.google.com/file/d/1sNkoPkIYq0tK1qlDo0_RwZ-cJLkAbOM0/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNfS2jESI8olrnvzCrVbRC45QJN63QTGmlTHnIVk3-UlxJwkmaOcxGpq_VIYAjGvbzUvTAZ9roDRbXg-tMikAu8XTpMQYC5K_flQb8gZFFraqZRpk=s220",
+        "view": "https://drive.google.com/file/d/1sExhK8EvAQYuQdVHK7kXqBkLZWNwGZi-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4Z3LHgup9_mov0V9NeM-4GHKWAZx4SimzTKkVWIkeAJJrtHe-ztKraoq-OI1HHEZ7mv3eDW4kPygFxoeHGXDfd2iEN5UtdUFCk2KKs8FRUFoTHwU=s220",
+        "view": "https://drive.google.com/file/d/1QnR7INTzhFigsAWucF6_injHRY2F5rbW/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0zTzgF_5WZNygvlJWCkfnA60VsygIJaLt9bR2Gk8mjzL5Va2n5qbJJXJynfgze_CQKglVNLXYS379ylVEeoazzihPUdGPUJ0KaNUR_ve82c2xQV8=s220",
+        "view": "https://drive.google.com/file/d/1CAHI8xEkMEv9uwrjp0UaQLv_MksS0I31/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkaFA0m-taKSnhRsN2pwKcTBbtrfrCkC5f3uc33oRmAj_jtJx_vUXehFDSwKEQdiDJ1djTjJbddPe_oWG_1kAx8wAZToRtGzVVir9cXae5EogQUyA=s220",
+        "view": "https://drive.google.com/file/d/1Y4Z3An0ezvuB3B5x6Mj9Ibz2wYfWtJF1/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410249 - 27/4/2026 (9 FOTOS)\n  → 410249_inicial ✅\n  → 410249_folio ✅\n  → 410249_corte ✅\n  → 410249_demolicion ✅\n  → 410249_caja ✅\n  → 410249_liga ✅\n  → 410249_mezcla ✅\n  → 410249_terminado ❌\n  → 410249_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410250",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410250 - 27/4/2026 (LEGACY)\n  → 410250_inicial ❌\n  → 410250_caja ❌\n  → 410250_terminado ❌",
+    "_folderId": "1-z8aUAW0B3Qa_n0aRPD02EAOnoZl52Pt",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzIr79oxLSg5pRvcnlLQ0CotykR70JNt04ZzNppxDYBacJgkpuXzOOJI8zKSyMqc3alsCPpv3NCNs4EJRL1BrVKAy50Ac8k5lT_nO_24tJ2VYzdqE=s220",
+        "view": "https://drive.google.com/file/d/1V2Ur-fcmMGK8vhuw7Neh6M6De4sNzkN1/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-7_GRpsXHQQuZIOAKU3nkdNJIEkg7_q5DzLDJ0azu99uVtX5qxqAyNc-sVqryCMuTEhe9tpKgTfrL19U0SE_AxVZYKlrKeuY-ghQu5owuXRjpQoQ=s220",
+        "view": "https://drive.google.com/file/d/16ppB4pe5twxgs-gRsxLZ0r1B11TUcYbQ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7cCxeCnVGF57OEM_f1eQdq0VSsO_UGnnmdQ0dRPlCeC4C2ul_-UbJ_LhXz3rJenyv10O84qkmdRfdsBRCLe_1cV_aJbHbfe9UPR0YmHMTr4jQKxQ=s220",
+        "view": "https://drive.google.com/file/d/10U-XoYux-UeKkBaCIJPJhl0wTGz9MBet/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1UhuXzg5l9V4_AVC5PDLL2ciAQgJ5HnjjoLZKZz600ReZ7uWvlmvVvf0bw9MWugMeKCJLgBiHc1oNqc-MdWvAbIVJceuPOOLjcn9NXcHPuEqc6BU=s220",
+        "view": "https://drive.google.com/file/d/1erDWj2ChcrMiY2nsnir1QAPjC03h8N-Z/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNC6kTGhptRsnQmJ72W5LK2K2Og7LZ1-8jDe66kAq7lRqhIxll0MgwFvY6jz4RD2u8UACJhMqM9JVubP4NRg6Jv5UgdKNiQjjg6px5jyjQ1xzxIEQQ=s220",
+        "view": "https://drive.google.com/file/d/1xbFDo_ZFiMdFkIAbgT6AkhMz1N3r4nhB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOet2_pZwJxtqKmvrgwBu9mOuYLk-229r1M5YWYMqjuP_SSmXTEXY1b9VKOSU8SDIxxxV9V9nKol3PfU1Vn6x_rqkZ6PoNNo8OKQ4c30gOdGIJK8pY=s220",
+        "view": "https://drive.google.com/file/d/1cXYeO2roj7NlzCdrqWqlQlh6w8UzKAOa/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5zYd2_ddj-Wpr-hmCwrVAICjfBVUJgpSECcVGGxW7V1d9LG0_PijvecjzFYnRHKntY7SyE1E8jCk5RiW-rYBpvTIqemp06sm1WD8MiajMvW6tCEE=s220",
+        "view": "https://drive.google.com/file/d/1p1MF2xmbqRjTu_F3LFivCzl8MXmQc0Aa/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQUDxLPe1GTBQ98BjEABtgeSKVDOnaiUToVleJ9eQJUXqVUqZs2lyaAnUJZYQr-S7wyU7wJhZSZawGvqEs8OWgoYKibpe7WWbRBChN1xJRAr05c_g=s220",
+        "view": "https://drive.google.com/file/d/1zKU_WMfklXSbi8DZ1uh2vSNJMPnKee0N/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410250 - 27/4/2026 (9 FOTOS)\n  → 410250_inicial ✅\n  → 410250_folio ✅\n  → 410250_corte ✅\n  → 410250_demolicion ✅\n  → 410250_caja ✅\n  → 410250_liga ✅\n  → 410250_mezcla ✅\n  → 410250_terminado ❌\n  → 410250_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410251",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410251 - 27/4/2026 (LEGACY)\n  → 410251_inicial ❌\n  → 410251_caja ❌\n  → 410251_terminado ❌",
+    "_folderId": "1odpXWjIUDnM3w6OdM15vfFs7IWSIrabz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNgPvyBS2gHBwWW_zmP7aLr_grCp5N4CY89foMlWxeAtnd8NESydzbZOwQAtx1LeE1qI3ywt7cMhFIOwMhslCiIszd6-lWDwQasQadIbChAayFJWI=s220",
+        "view": "https://drive.google.com/file/d/1kC52MGedUTvf8EJnnaOc_i9AhQKvqBqN/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPk3lSJWwFjikyBrx--ywE-J3ny65WkTiY9Us-5IOkcAuixDPpyfE4LcPDFQNqWrPRUTej5ODkteLKO2XrPHcUDR0chUECuDgMIF0GiYSmbn_PcXpw=s220",
+        "view": "https://drive.google.com/file/d/1oCXWjLiNgGSR7L-Ld8Fdb3IDgM-27sVt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNksvCPBdRy31KKmBP77xctLCa9xexCaawizo3Eb-99BTf2ifEYg9oNZq3IfMMP_Yh1yUJPJWUv7VRkxtaRA8M2ZoWlOCVsIaqc7MwClSydL677WIM=s220",
+        "view": "https://drive.google.com/file/d/1Nb0qORKSVxnfONygvnPsUqhM4stp0Kyk/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNj_r6-Jvps6sSAMqiCNEPWPuzQ-vruguGNIUYIb6_QxfUtcl6rB6Tel8ZXZd1eUozhRH0g0KIfkgrBTOa_X9ZX22sq5MQhbGYIvl0DOPbjuO5TFaM=s220",
+        "view": "https://drive.google.com/file/d/1pP-_ACnOBBfcKe0puFTyB--ZluTmrB_n/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoDtSPpBWDoi74vHOFCuqwVnLgHCw_Wp7M4BirgwomxfN59NNwPjytZGhfhylNhAgfAXnX0WNzqBLYIoLCm_iflOa__80u0WG1mHSXA3ZNKzAtGao=s220",
+        "view": "https://drive.google.com/file/d/168UyLSy2zloXuZbA95YsrdQr0j3gwC_M/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5K-dm-w3jZHB4ITL97zbRAXmL44n7YcjNShJeYbM4YPfEzFFCmY-YoJtDZ_NOB-NaMlxZgrQRqieNIjHhjVKMo6Hd7aprasVfutrnoYLqRfiptCU=s220",
+        "view": "https://drive.google.com/file/d/19DMp37gQqCbnG1u5Ng77ublqvhHbcdut/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJRBiQv4l_2t0h1kjanu6sol8NEEsLU7Vi70TfLSCKIz93nuRudOh4uaYF_U8UEEbEsw1tDvOIP-R668GcH4IgxY94GL3QNhFy6pG-QMk-z2KQ1tQ=s220",
+        "view": "https://drive.google.com/file/d/17eadfF7Ia4h-oWOcZLIVnW9k4wRyY7KB/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFBdsCl1LhSPwRX_ImzLnXLHNqSiLL6F8UY7RNAT1-SHHlYzcM3FQ5ew81NuWT4YelUDJn1zQYBcf0G6VkEhFV-zAvyS2FO4KN8KQLmlFc0yCJmi0=s220",
+        "view": "https://drive.google.com/file/d/1948I2Cx3Dx_6jWufZuOn55_yrjYkyJWA/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410251 - 27/4/2026 (9 FOTOS)\n  → 410251_inicial ✅\n  → 410251_folio ✅\n  → 410251_corte ✅\n  → 410251_demolicion ✅\n  → 410251_caja ✅\n  → 410251_liga ✅\n  → 410251_mezcla ✅\n  → 410251_terminado ❌\n  → 410251_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410252",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410252 - 27/4/2026 (LEGACY)\n  → 410252_inicial ❌\n  → 410252_caja ❌\n  → 410252_terminado ❌",
+    "_folderId": "1cNuPsO51WLDPTlir5S2J48bly2Lk2Dk5",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPgQ4xm0x5MDq8BxacwfGQ4aJ2i48r2LXkZQLHJDwvtpwfEg5MvH36JKBZbEuNlSIjR3e8fxeeoEQ9XQ1AUmf8toTw2brGw7IPAl7SpV8yH6IiEJ8=s220",
+        "view": "https://drive.google.com/file/d/19TExefejiWIcbTWpnMQfUhRunrlYxztc/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNID6PM9GHh19SXyYVCAFSkH_Cwvr-ymqidBw_0ke7CeColNvbJDN3LRP5N7V_DQ9_sOp-C9-naiX2WxLRhxh153GQGYZpt0mF2YisAv6fUKfNeT-o=s220",
+        "view": "https://drive.google.com/file/d/1n406QWOur2WsfvOIfChyKBo4hTPffwy0/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6QylKsdwS1G2xlyJKTK8OsKEhHmkpFDcxQI5UsOx2k3Rq6qQDsqxt_bpfrcASGw8hF5RDAKtm7fIHSOH6sPQ3mc3lGp7sYJjhoGEq1pHC0-biBtk=s220",
+        "view": "https://drive.google.com/file/d/17G0UFZKixCWQVsMqnR8oTnwxEn6ai6J7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYopzm_g3MSxN9k14NeC6d3FUEdlz2vkgYw2ymoEK7-2A0HsyxObVfUJUoLl6pku_SYzKJKLQJrEuE7nyUd2ablA6vHOSdQ3QVSc6NS5MrwGPtfGI=s220",
+        "view": "https://drive.google.com/file/d/1jCtrNx8thvKd3ZRJbR_bsuPznC7K-QZd/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4JHJm8v7y1Jlx5v7Eymg7h8wsB75UoG9aOHe6K-BML6AUPmfA2hvfm_XhiVfv-hjh8YmEcrGosUtWuDPffOseZODH7dHfJl6DUBGfjiFybLNZw4U=s220",
+        "view": "https://drive.google.com/file/d/1bwVBcmkqScP2zEE48-9NwrEaoeJhAmve/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJroL7dqZOK8KtprRiGvolMxikz5cpXcKnH5FRO1wDJVv4r3RN8k4pe8ly5UQzeZi-YIn2PC5kiNn90OeYm7OkESnkInpj_4Z1vZuBbovQ9ZXVq0Y=s220",
+        "view": "https://drive.google.com/file/d/1y_-a7ug4rSW0w-NTG_gqqu3nQwyMPmlQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiymJHghOXrzpA08OtF6QUjPLSXTkMkCka0GD0ZoaxVWeZei6hc-Y0bw3eAIMLVt1_ptHssoJU-JrOGXEFiHNvqgTVCQpcALHQp1IM-MErHWMMvuc=s220",
+        "view": "https://drive.google.com/file/d/1cXYyAhdrNan1Uz3_9sMG7gXZ_0WRmBxS/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDnJXvoZVBZyzOxrp7crssrKylS3YhIIFrWIGbB92l7TdPUn1B894Na3stx3RC9A1ThTk8H2Hp7snnW93aKOWldyaqp92dT8J4B9_BUiIGl8ANBEI=s220",
+        "view": "https://drive.google.com/file/d/1JDZqOL4URCDswLnvscK28H_Db9eCpths/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410252 - 27/4/2026 (9 FOTOS)\n  → 410252_inicial ✅\n  → 410252_folio ✅\n  → 410252_corte ✅\n  → 410252_demolicion ✅\n  → 410252_caja ✅\n  → 410252_liga ✅\n  → 410252_mezcla ✅\n  → 410252_terminado ❌\n  → 410252_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410253",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410253 - 27/4/2026 (LEGACY)\n  → 410253_inicial ❌\n  → 410253_caja ❌\n  → 410253_terminado ❌",
+    "_folderId": "1woCl85OuemKXNzvjKIehYMQGnUWnJV-G",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORUQ1gDTRqPrL9f2wtoM8e9bVZFlvFM-iie2oljVm3gpiBATRirdsjZh0hXVig7vXmWSpjeHa_GRQZ4aR4I-IJwjrC0jQNLWYKgfpgXnPY9v53_BU=s220",
+        "view": "https://drive.google.com/file/d/1rbsBzj8QD7bhfgB1iEMnIIZEPTd5vyMr/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOacMHhbPY5YA_H2Wavh39a-ioDxcuYFttNPaqUQn5iEQkSJpDjsUAGbtoZcDjYcIiSi_zkcBO045UAAUJuZ6ooRAtKmuSc1UUQGj7kC5C2TDeP2jY=s220",
+        "view": "https://drive.google.com/file/d/1hchydHGlOrPxbbctog9DVHyAtk0GpAzO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOJ1BDxcF6Bj9pmxdFCRXiWf0LcnMW1_E9G60t6UD_rZ1oXerBTkoSBZS3Fn1KcBBcMre0ubRMbn0kdOmYkjo4wi9OtibGqoABZWhf_WodeCG7mbU=s220",
+        "view": "https://drive.google.com/file/d/1Vt7N6mrgN1ZFT3DlU7xQoQ4ZMlcrpEPD/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxcjRlsdoOJIogov92UnxOqthaetVHdXAOVd3oH1Dz4laY8Js6cYtKUC105ORl125SRjzRlCBYIURGWCgSU8RQA3J55w-9MCgn7kataXG4Lz1IorM=s220",
+        "view": "https://drive.google.com/file/d/16TUedGkustafBDNeaqrC0NKhIG1FEhF3/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWCJrZzT2-nGw6dSaJfju8PTmp6k0Ut8PT_VjxLwGII1I2GxlUb4EkqkkLRJQ-ze4XnZ-gs9nsVbWKp6lCDgev2gyXCEH030sc5mFj_THZNPViWWY=s220",
+        "view": "https://drive.google.com/file/d/1BbscVIdC68IvvMCyUMlH0lY98PkgqZHP/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj1Y20Z-Xz-FKCqLIIF4-g1xNBTJu9Vih2LHr09j4E9lDmD_SIdPq8gcgrfae0UF_Q3TpLIg5HohlS1EUxrYHLdIJs7Azob7-_y3npO1fJcTj3-mA=s220",
+        "view": "https://drive.google.com/file/d/11mgO21p8zwRbMxNq6_qbA4M0u1nONcO5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyZuTzttgsXoODM7M_h-BqSi4JDU_FuR2w0aI0t1Bek9VZwjtTSYG_Uh4TKUCoYdQa2pIR5UYJ0cFqnRx1ui0SCq_Xk7nVUeAyUyP84vSjWA-CNWg=s220",
+        "view": "https://drive.google.com/file/d/1s60edhD1o2QLX9zYSOdVS-pAxoDaoCzl/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOBJ34yeJHdiYAch_KrGCt1uutUf8kl6RDk4DV3jXfhxJ4MtHNOxKq4TYrqPEGosHZpqIaFIz94l1fbPm-OIXRm2GcxZx26ucMKdJydTSES8dpRsc=s220",
+        "view": "https://drive.google.com/file/d/1rKfssv7Nm8oiQPyxGTyN3GBJvbDN0Osv/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410253 - 27/4/2026 (9 FOTOS)\n  → 410253_inicial ✅\n  → 410253_folio ✅\n  → 410253_corte ✅\n  → 410253_demolicion ✅\n  → 410253_caja ✅\n  → 410253_liga ✅\n  → 410253_mezcla ✅\n  → 410253_terminado ❌\n  → 410253_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410254",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410254 - 27/4/2026 (LEGACY)\n  → 410254_inicial ❌\n  → 410254_caja ❌\n  → 410254_terminado ❌",
+    "_folderId": "1OLINoEmLigrgUayeJFRzKOYZGvkC4mGX",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoToqv43FJClWB5MxwZVQF9LJVG0OcA_jzae7dXuufNVJ3zE0hpvv29R8BdFfBTtkJGtMIoTSoq26zb2Xj8Ucas6ePccOQWcgth49dNAqX5vM-ZhE=s220",
+        "view": "https://drive.google.com/file/d/1gpwNXmHthgLTME3830R39Z1rWhIDlG-C/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5oyUu1govecVQNv13frnZY2Ty3KhYRvgSRkrpAuEWDrGnc77siM6zm7mEDtjAXRaFEFeF6uUIaFYQlNRK1FFkcp44mkOtX1sFDaWU_AqQ9wLz5C0=s220",
+        "view": "https://drive.google.com/file/d/1huh4iNQPli6Z5ADxgK_Ev4nBj3ngLqRs/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM74ArXXozZMibprHbWZCMvPwxI723GXhdsRUVWU7Ssvsy0R4gTFNhH8lCUrsWTxnedjkgGr43uQEy8vrVXiZE2uaiJlqi1X0wciVJT2tHbGg9cdNc=s220",
+        "view": "https://drive.google.com/file/d/1btU1NDoEIYEg99Rf7h2ZM97dIQ1zNfJU/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhtJFrXHduALlwb48J9c2DBFVBvTBCPoQbm7Wk4tdOaHyimfZsxFKYTvFk4epyEDYpaDSksibPXbl_59Tk8gtWH8EumlL89OYgRFxzjp-6uXIXF3g=s220",
+        "view": "https://drive.google.com/file/d/193HhrgHzPPha6iuXCjg1gcY8a5Z6w9GF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwnDWR07djYBaHMLZXVIAKjoNk_4_RYMDYHHC149POdJMcFx5qV0l9A7iRsrC55bC2hNWGqxUcvqR_L4hf0cweiXKyIrWYHRSIG3491XsjqrqK9TA=s220",
+        "view": "https://drive.google.com/file/d/10_hdvHDTDlHwib9w7Z-a7gvfDBST4NAg/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEr232160MQFjoctrM--z2JxYWy_gBdhYG1LLsv2eWnYz9n7l0GGgXuor2I1_6jd_3_i_Ok4iqJA3aMDd3eQDK5Y8Y_Zc_aG8UUvQ2UIQJQIOqNdU=s220",
+        "view": "https://drive.google.com/file/d/1P4f7RzblYyMJ-4ycLOIEPvNI1tOLTHcz/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsSUXuVG5YottSHz14CcacdZnCadS80tODbZCAMjQxRN4VO8iHWXzr1l-N_WYkvvr5TBMIGjBSnihJl9RBd7cjavuiXYlOziy4zx6fJMq5MAdF9wk=s220",
+        "view": "https://drive.google.com/file/d/1S0gbGJVs0ZiSK283LUy69EV_YME4knLF/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 4,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410254 - 27/4/2026 (9 FOTOS)\n  → 410254_inicial ❌\n  → 410254_folio ✅\n  → 410254_corte ✅\n  → 410254_demolicion ✅\n  → 410254_caja ✅\n  → 410254_liga ✅\n  → 410254_mezcla ✅\n  → 410254_terminado ❌\n  → 410254_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410255",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410255 - 27/4/2026 (LEGACY)\n  → 410255_inicial ❌\n  → 410255_caja ❌\n  → 410255_terminado ❌",
+    "_folderId": "1LOD7TquK-wgWkbhRE-sptZv5SuGzjeAm",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcKfA4SM51qH5Zk31zcL8xiG6u5A4VS6E-iJUSV5AReXf_18nEH-EscqH8ILkun8GePbf8h3WlRumPRIkhNkxfAgmjLKFj3kXnM158mHTbXqasSBI=s220",
+        "view": "https://drive.google.com/file/d/1qnlyH3tfSNoGRgRB6WnHxh5Dq0JSExB5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHorES433_b_igFuTwKdPCBeLWmhPUijU-DioXO7DSANv1wCXHZJM8TpJc4IGUMkhKGy3qCvuqepJq1jOpAS16ANCbEJk-VgKsuE5Kv_AN8UATBG4=s220",
+        "view": "https://drive.google.com/file/d/1ONda7iCUuAH_zj1BU87gC11DdaLkWzuu/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvj04PZnbD_xiNIeIae1On1cOo4pZ_uf_3vIkxriaLK4Z5OowcGUoUCSeoXr6gGL7SOh9yDnYGOYIItwNabT_cZcQNVJIt6_o9u2gVpNu7dGgeGus=s220",
+        "view": "https://drive.google.com/file/d/19dzN7wTT2t_ouSSks1jUN6t54mcRASun/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNERrqZsZonFRZsJfqHlcBrTsT8TEyDHzIC4OfkmLYxROM8UVydXQINIchi83dQNqGFcfVQIS2PPZhK6mGgqdL4ZAZeKKkxwKCmtWJukJalOs7gT-8=s220",
+        "view": "https://drive.google.com/file/d/1HiyzKsxuQlDDk9o72mDIH95QFAuRCmHY/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8XP9ce-IXc0mqGwNHbLv5vnLUKjefEpYyc_PYT3-VV1JkkMREAES7eeg5nP9D3JKlEs4pJmX8zYQarfXH0KywgcI-vRvtFkv5PfKAT0JK_u-inWY=s220",
+        "view": "https://drive.google.com/file/d/1v1IXEs5QissIpQT-7iwU6uZwBMKtJIMH/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyOTaXTd0T5xnpxtBSEyfSErIoE6ZZDV__JxLW44jXSGbBlihJ2T-ni3qGftxjqz-I983-W4G6URvDeDIBP36M0InVAVG_IRmY_N6VuWvtleIIVA8=s220",
+        "view": "https://drive.google.com/file/d/1x6o-uyXssNPRese4SwX731pip0AmIIyF/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkx2guTNS83B3vJErbGf5jUyD-ciJFGJruPh8aiBN0yrmpgGh5uujTE9L07bRZZ21qR8Q1PrCezWfij3N6k_GP-dvum0Xs4NVIanqFP2JAcn9itX4=s220",
+        "view": "https://drive.google.com/file/d/1RdDEp_cOXctvzaGg1fJTMLDlzu91OOy4/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 4,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410255 - 27/4/2026 (9 FOTOS)\n  → 410255_inicial ❌\n  → 410255_folio ✅\n  → 410255_corte ✅\n  → 410255_demolicion ✅\n  → 410255_caja ✅\n  → 410255_liga ✅\n  → 410255_mezcla ✅\n  → 410255_terminado ❌\n  → 410255_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410256",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410256 - 27/4/2026 (LEGACY)\n  → 410256_inicial ❌\n  → 410256_caja ❌\n  → 410256_terminado ❌",
+    "_folderId": "1ct7aAqtOnxaL257UAvKOwQT1R44TdUWW",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNneNziRvYJ4U253GnOmwXNe7IfQ75yluVVYJPiIdu_8DuQate9FmsMmtIX5ZxmD9t_mcUrnSRihKAKxx_OQR7f9ao4Aoc98Rlw-W3umKVw5XLlids=s220",
+        "view": "https://drive.google.com/file/d/1qCQ745YnFRfeqKIsEBi1e42uPTSUseui/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmaQppPSFwi-r07coHH2TvQKH6DBh1oUy-SgnDWA6YrQ_cnSsr90StNTsq8w8bvn6pAG1J6Ajsk4dlXdoLDOXd23ayTNWYJBfk0af_qnrhvCCGj-4=s220",
+        "view": "https://drive.google.com/file/d/1CvJqcKmHy0to03WT5xAsHwfu62ZVxJmF/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMLfpVkXtRZlug-QfmEwOj--1pZNlrtt7En6WsvTiOLZFyysoKAQDDUg8H9y2a8oZXqMN8RW8qRtcK-ht5OquBIXqbB_xwbb-6hnQJzxDR-41R2Uk=s220",
+        "view": "https://drive.google.com/file/d/1GYhJSFqJEZYiFNCUc8eJqQPx7ciw5A3a/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXg5mrs9eZipsq_1bxLhMARvoAQFM_eIxuYcJ-Iq46quX-V7jGrn8ZZVRnumLM6kHJq69W9M5ULC_3bua8VmrxSlEZEfFS5AmhlysTusDEk7nRxjs=s220",
+        "view": "https://drive.google.com/file/d/1iDqDQiefdpYvxSZIkIpYWllwTHOcFtbQ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCEtaZpRzlIWcTj4y5hSpLN9_6y8Q7zTuRwnjLdpQluH2EV0mNmmnfY-rxKEy2Qo8hhptjgYd3_d6KGszfIMDg78bNBN-TOZHclP-izeDjZaLprlE=s220",
+        "view": "https://drive.google.com/file/d/1dzlsJlps5OOkaASSfJCmSgwu0e4V95Ca/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP96o3by9r_saVPGu83bI7WtRGGvWI5LhBpsBTLU2vjAGOe3nhNlZJynotyfmCqeUce5cLSjDwOGql6oxReN955Z7icba5nEJJkIo3vl-QYMTvZT4s=s220",
+        "view": "https://drive.google.com/file/d/1gSk_5doSoA0w3IOfqnYeo4Qh6yrAHUhE/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhdqxyASpC1dTLBd7jogzDGtU7rwap9Or49gpUf_z1aOeDe5orvU3K83TtYt9cxmJtUJPgVUtQ9KQofndo2tH4xgKwDq4XmndsNL-R8iXrMfN6PVE=s220",
+        "view": "https://drive.google.com/file/d/1QAEIBStbWgqIZ5_uITc284Rizp0azOnR/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPN7pNfVid5pZRt1eaFN3jE9YXEaSidikWF9QV1XH1KltmLxh0_hMFU0vrQUniul15ljDwrJZ1VIuRDGAxrhvXurUcRldIZIJgD_wOWV9QwJTCV1CM=s220",
+        "view": "https://drive.google.com/file/d/10XC7n_57139fSD6gNOMqZET2SefFU-A2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410256 - 27/4/2026 (9 FOTOS)\n  → 410256_inicial ✅\n  → 410256_folio ✅\n  → 410256_corte ✅\n  → 410256_demolicion ✅\n  → 410256_caja ✅\n  → 410256_liga ✅\n  → 410256_mezcla ✅\n  → 410256_terminado ❌\n  → 410256_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410257",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410257 - 27/4/2026 (LEGACY)\n  → 410257_inicial ❌\n  → 410257_caja ❌\n  → 410257_terminado ❌",
+    "_folderId": "1lpwtFkMU-K_6XcxL1odqT0TJ7ZtAVK9c",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyWxY4LAgYZnsDC45D_Hl5bp1-9PqWlGa9nOAK63rx7-cPy6rKMRas-j9riYvpAVzhUi54JIkrNQSeTIksitO-QYmv3R49y7zqrrLSu61Dikh6zhc=s220",
+        "view": "https://drive.google.com/file/d/17VP7FW9SmXqW3JRwdDAuRy3jdRJgIEno/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiTlKXDXCM70BSwgaNWh4ULzmXcO-vBiKj4UnTQghJp8TRBYVS9fukpaKjkzmGFzjiBgoOYBXYzS-CFOoLR_yr0hKV5R4DcHU_Vpp42qM0AiYurjE=s220",
+        "view": "https://drive.google.com/file/d/1LOLG6Y727CjkZud8iltoOJU02DnAqV0u/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWysDJbywFs8TfH1H2zic0BdBBUVr_U_YTSg_3btgJqAorYJBniQInV4vxc8HNnT40B_50xfKMnjskWNeEnAPgrEMlOJhF75k8FBGT25QU6Vzoxgo=s220",
+        "view": "https://drive.google.com/file/d/1v4LehY-sFuK3KVCt_tuSaJqlvJklSlaJ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbVEovIhGd1iHHHUYlRkV2w_hTquEcOzNN5ROgUBPtksv2Gqf3oQVaxYpM3HSEr4gswfuhMxUbDeSEBlteozMDDREuMoyJzqrjlprkCTovbqUaxFE=s220",
+        "view": "https://drive.google.com/file/d/1MC-nrMVmc3UKJ0u0b6v5zRwU9Rb29fDE/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjzzixRhmPvv0TVEMp5H3h1bLdT56IJodrfCbzbTvdNLBbvWVxRrNdQW7a_5NQ5UI0kDHFffX1Bj34ejuu4Z4Q7mGFZSPWVCx1F0SUp-slKC53M54=s220",
+        "view": "https://drive.google.com/file/d/1XrX9g09LdDpENoSGUci6qGdX_4oqur-c/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuRNcrtSXXPtUJlORORTjNlBPu-82bfSpumFscV7jVFG8fVt6OkCVDwp-uBgE1B_xT3Gn6A13kn2b_N7R604vSCEmBBZo_g7qmo0UaZYRp9GgawVE=s220",
+        "view": "https://drive.google.com/file/d/1hRIEhK1KPq3mbONqNMZ44n0gZejHVwNJ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIthJuaxv2UzFuuq7ZwKADlHYVV5aLq4s42YNa48CvQpDNgLnpCAcPbqMp-gVF0M3nA28qpubcD6BGuki5KjV6DtGlRXDly_i95s-aaf1Nub1r14c=s220",
+        "view": "https://drive.google.com/file/d/1Mt7gpu54N1Xgt79qX9-x70X65Ypjo5gH/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPue-qonhSFBKwyla3UTNryxxYFDR_BuloZ9opgg2ipy707e9BEEj3oWLWzr_oZu7qAv8T9j6LsI4X3ZxVELaWTlJXpqzgKVswVn827NTWsbvQ5Tyc=s220",
+        "view": "https://drive.google.com/file/d/1DE03oGPF-kMXCXlbJTlZwFdeH8PpXjjy/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410257 - 27/4/2026 (9 FOTOS)\n  → 410257_inicial ✅\n  → 410257_folio ✅\n  → 410257_corte ✅\n  → 410257_demolicion ✅\n  → 410257_caja ✅\n  → 410257_liga ✅\n  → 410257_mezcla ✅\n  → 410257_terminado ❌\n  → 410257_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410258",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410258 - 27/4/2026 (LEGACY)\n  → 410258_inicial ❌\n  → 410258_caja ❌\n  → 410258_terminado ❌",
+    "_folderId": "1-VGCMxn7-5iRUMQEF_BPwDD2Nent2mi0",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0hfFYINXyyDEFkQgqLRFZjKHrdUMSmY4XTizLgfxzvqJuNO-d7bNlO7RI6IUsoLRC659dDljjgEgGsVq0MoFgKbAVBgZrROFXWSeI4C42H7Zjnl4=s220",
+        "view": "https://drive.google.com/file/d/1DddGoFNdG2AY24w2HxhE_JzI_tsLqIbY/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlquR84P4gT4AtTwaF1NPpOidObs1vKNzpDqlcJPRMk-qgbLkPowbxvwCaSfoGAaZJaqAMbtWPrD3XHt4zT2xy-58LhZ-7xXUsA_0atsAYPjFIW8U=s220",
+        "view": "https://drive.google.com/file/d/1gCk-qV4Z4QZlJwLCeE3mBJeTNG0VnyxA/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsLJ3p2D7loxC4Gw2TjClutYo3IPjsViBC73n_As12HXvIZonFnsME0xP1Ru5MsRmzAZrDewgt03wjhwDlSvc1Pk4sgTc6b5EDGecNmFnLpWzJ2bs=s220",
+        "view": "https://drive.google.com/file/d/1Sqe_GUzvvqH93jzomdF55xGztlLZlqhZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjZNu1UuvSIAkehccYNbdIYxaCm4NCXJR1kv6V9HhSQtiT78Uz2ZuAohxXvyisvoPggd6rlUrJcQ6lpkKcm6l-MzWphQNRXgfM6Tco7hm5u8c0G7U=s220",
+        "view": "https://drive.google.com/file/d/1rHG1xV2VOwSTYBMrCnUSgwXga8G--eTB/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwxbUOvYwguXg6_jAdfotQ0XJPL7nUzBZ6ENhv1OiX97ywVMlnDmfEEGYBME4AVSFTvql_SnJ-OqpRGGxVUKwmZBOIZFjEwSuYfB_Bv4VtPxJiMHY=s220",
+        "view": "https://drive.google.com/file/d/1yiBpeP--kbfgI0J6mc7hr4Eac2CEJwh-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFFlIMNHGum26LHKu2UYFehQ6qpybtu36NEIVFPNR1XdIzwgM1ioVjU8y1bhb119vdlaHx8YPnwTWOYt6kOJZo09zD92gKJ7A2gqKI9e-2qa6XsRk=s220",
+        "view": "https://drive.google.com/file/d/1TfTalq70oc5p0NSyZnDs7_CYaTAJkxtx/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIkF6ak-oT_xq5Ki6L7QMar9-zf8--btsZURa2HouXdP5Prej9SycCwYg8_Yu40alE9v4dtT05TYRyc4NGh424asV4bJWRd221LorjrurvF2HGFM4=s220",
+        "view": "https://drive.google.com/file/d/1KFsQAu9jyAmKp5yEErqJEbDZUmVA1ExE/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCK5GVixvXpObsEm-C7qn8AuWQOSkeLiN-jEZI1H45pRSl5UbXRTebL3LT5dyp1ARCjBk6JqWjCG3n3louO0G7rxVpIAV0Qcl3_KzgfFBbAfInaNM=s220",
+        "view": "https://drive.google.com/file/d/1Obwex2gugHB_ELulRihgtYLrXP9S-lqC/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410258 - 27/4/2026 (9 FOTOS)\n  → 410258_inicial ✅\n  → 410258_folio ✅\n  → 410258_corte ✅\n  → 410258_demolicion ✅\n  → 410258_caja ✅\n  → 410258_liga ✅\n  → 410258_mezcla ✅\n  → 410258_terminado ❌\n  → 410258_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410259",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410259 - 27/4/2026 (LEGACY)\n  → 410259_inicial ❌\n  → 410259_caja ❌\n  → 410259_terminado ❌",
+    "_folderId": "10nLmK8ELACo7g68r3SexZfDO4CoPL6dT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsBkMgoyrzHb0fxHdW5Fx63Vmq5KKy8SEVrr12sI5mVRncvm4pCC-ZRVA93Wtx1xcOKKIxiyS559UjGUQu72GKUrsAXmtEORYjlJ8mdaIjVDBPm_w=s220",
+        "view": "https://drive.google.com/file/d/1BEGDXbn7fgjtKUqzKndtketdhRKKO4p3/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPmnlVY0UItrQD2bxljsf8Dkg-MAgoN99kAjM552-gyzxd3tWEqQ1jGBERkEqvlB49EqGTDOEScbL_Izwx9vmB3l0PBwIMotWlFPh4KCBFavksIlo=s220",
+        "view": "https://drive.google.com/file/d/13ZNubcngjhjieR930XYvYFmGrvxvUeev/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOJpSBUQjQ-BOfjHt7SRyG1ipvgre3kJ7Up4h91ZmX_oCmFS3HEqv8Hj9uz4B0Et7Bx6XydKO4JLWXX8sycGRxVp8wlOj6yk-VWarjiuyyrp5Nuhs=s220",
+        "view": "https://drive.google.com/file/d/1mrQFkR0IvkbY8oeHGobwg2STgUG8OrNJ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNABVL2rtvVldvbSGyhrdLJaRJ70iovs0PhLokyzwVfhnoM0_13JXo7EUro8pb-jy6j830k2ovZHsB2w5U5C4025zCZnRNe8-rj-mTDHL0X42gnFKQ=s220",
+        "view": "https://drive.google.com/file/d/1xf8FDLqD0Os6fqUESk3nxGouP-js5RPB/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFkc_8sGoSHrYHQ39ay-baDr2EqQUlQCe_3t5qDOSS_yZvkWsWOfyA_IEGTCitOa-LdjN4dmbO6a3HkcB4cpd18m4kmMezFtyZGNBJ6Uooyq_4HeQ=s220",
+        "view": "https://drive.google.com/file/d/1wcW0O4_wv5mkvcqkaZhBGJOU8m355Yh5/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMszU29neTETHv8CJl_IutBEQRLpkeW35hgoe8HGlb_vC6j90CeKgtZRTFx92Jm0bkEGaQ-OTNJZQxnWImOaSWK4pYPpJQyzbx4-nwMQEZT9lgAIkk=s220",
+        "view": "https://drive.google.com/file/d/1TbYYjmT5su-4rDr1XyC9fpZ5bdxoCFVj/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTfEq1QArc1_W3mRFzYGp1iRY88Rs1rQjl0Emc06lPk5SYzkbEztyGPNiDN0nW69tpYZrAEDooJLs2AdiKtFfzg85ufPu26mfaTt1oOzJnhl_DZ7Y=s220",
+        "view": "https://drive.google.com/file/d/1NgKeTi6rOOJQKtIxtTN1Vv2ndgu_3MQL/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMU0tDb21vI3bDWYYdXkJ5KTZCsvoHFhezetDkdxLGy2ZMBDVyptnHkBHz969h5KLIV_4e2SyiOuhvsGVgevdrwbe7W2a9FKQgGF0oKEiBH-jGKn2A=s220",
+        "view": "https://drive.google.com/file/d/1TRLCQ99BzVJ9fY1T76Qj9kaGiV9P2t2C/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410259 - 27/4/2026 (9 FOTOS)\n  → 410259_inicial ✅\n  → 410259_folio ✅\n  → 410259_corte ✅\n  → 410259_demolicion ✅\n  → 410259_caja ✅\n  → 410259_liga ✅\n  → 410259_mezcla ✅\n  → 410259_terminado ❌\n  → 410259_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410260",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410260 - 27/4/2026 (LEGACY)\n  → 410260_inicial ❌\n  → 410260_caja ❌\n  → 410260_terminado ❌",
+    "_folderId": "1gBP7hBQkhDvnIMtQv79pmgdjDM8JZ2Mj",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbeUsBXgonti-m1dn0tAd5tIiZDanjmBOPg6wHzlx0UGLkDVwlxgm5zFrcuzqdU2__HbDfJIZI5cVuOCXDSc65TK-tOs8HAjahoQtsV-y0Wu7CISE=s220",
+        "view": "https://drive.google.com/file/d/1njeUTmDbqfjhU89HANa7-idDHFfMX8mk/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxLBwchc3TZgxj1nxZF1UCwYTjHCIfL8yjvdizlDUHDugx9jzGjZutZVYTfJYCRCAzxKw3n1cMvEDCizfMB-BccV7da2xyrCwUwszb-xYzh1a3Lfc=s220",
+        "view": "https://drive.google.com/file/d/1SHRHbRh3ni28wc8wBk0wIprvsbWDx1H6/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNlOlhuuD5Uq20TCItjlUZe9l4imsCnGjpm0p25zgz0OO8obFvTmJASEZu_OzDsC3WUmwv-Q5WG1v80k1haOBa_7XrGdbsec7c_c_ALpDYwJ8dyNo=s220",
+        "view": "https://drive.google.com/file/d/1BBQjQWBWZs3X6AdH_2bqEpmb8pHhmo6Q/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp8fQZICNjXBKh5ThU22cYIv89iadYdhoCUmD-u37cGTPY3lMnyU85o4An8iJH-L21K6QJC3XE3To-z7Ot3woqOt6COKGptseuJw1heqF30WtAGZ0=s220",
+        "view": "https://drive.google.com/file/d/1SW8TPtQYnd_kQJTZaXMmfjZq3nf1RtqZ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUsekjRwu0ZGRBf0ErY6jbwunzqqropTPMP8jBEQjSpdEuT6t1-Duuhg1GdrVUrew47T90bK51Ije5uCCyqL3w6HXIYQ38pNg_IgThW4Dc5kgWt1c=s220",
+        "view": "https://drive.google.com/file/d/1qX1Db35PHpL3YBuPB3KN6CtOqw5-3HLQ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7gKHLrUWhaOqYxt-bZ-qCiIHexjMGSwC_cfKlO8_Q_1Ry2-C6H4IcWOLkkJC44DK8PbPatcGYKbSmjj6PABSa14eWgZNra41LuCsm5bq9mgnB7YQ=s220",
+        "view": "https://drive.google.com/file/d/1Zmu7IufJmUDME7ljy90iodSeV6sv4V3G/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOh_6a6kkd8xl4ialUrsvUjquBjKcWOBVTnvjqcjkU6fdm_j9nEpdJqRhCmhFsAEbxDtEsOqkMCPytwcDMbOnEBCUGAAfcwrhOr2-w3uNrmbvnF2YE=s220",
+        "view": "https://drive.google.com/file/d/16QPPgYtZBXXRHXoh6wlLAEV-LaSR_6Ie/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRzlwWjVvkcNxfHwbXquKxVxUPcnNeSThr3CdYRKBr9ahLvm11S_FlH2Dyc3RvL8ndSyYdJ7sMVwgsUw5BQyxfqQNRPm1D-KOPPHu1eJXfwGtxHaM=s220",
+        "view": "https://drive.google.com/file/d/1R2vTh6FrOsHg4j3dMl4HJkXDDcik2xt_/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410260 - 27/4/2026 (9 FOTOS)\n  → 410260_inicial ✅\n  → 410260_folio ✅\n  → 410260_corte ✅\n  → 410260_demolicion ✅\n  → 410260_caja ✅\n  → 410260_liga ✅\n  → 410260_mezcla ✅\n  → 410260_terminado ❌\n  → 410260_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410261",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410261 - 27/4/2026 (LEGACY)\n  → 410261_inicial ❌\n  → 410261_caja ❌\n  → 410261_terminado ❌",
+    "_folderId": "1VgVeXfbf2Gbbr3qbj2z35RVQ8-hRrZkk",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIkkLqat0pvYKTIrZlyB8_TxX-swPQ__NtPmkCCKKV0-oZVYLiGUvhe_zxTqNJEIllBkExGZ96rQmGxR-4NIT7a96rKAKJyl-PDiOxjzwmOhDHv-4=s220",
+        "view": "https://drive.google.com/file/d/1Tx465R_UtWawTE6gKfJS_gdB66X07N6z/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPe1psqV2XjkMKWkuPr2YhgC6n1LIoasCWBDK1EWaJA8Fye2dRIM2GbWjt478FGyKXKh_a4sfw45a8foD7UA4PfH-x7yrZ2HIUxzTFfnytWpU6UyQs=s220",
+        "view": "https://drive.google.com/file/d/1pxrlODe9KiFBnzPqFrQAlfdn9ilcGDxJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEnklYYVOqD0xDC5Efy4r_Jyut8RYJDQIwutl4HJN45mBh3qGjS9mSZw4NL_zxzRFPfPCaoAf6z-rZxMRIrIDc0yTHS1VC7YKoIC9n8o9HhWYbzOY=s220",
+        "view": "https://drive.google.com/file/d/10obGDRWiyKghLdk4rav86-iIc1-Abv9Q/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoJrHnsQR84cypIYLKOu0XLdDKw610TN1IqZ3J2UtCsjnX4GrpUCJ6CYAhVAN6lDJV0vElijfPuUbDYU8DyS3paZ3oWbOu29t3JYsOSBwv7cZhNoE=s220",
+        "view": "https://drive.google.com/file/d/1Eeb6RO7wV-MZXUinwZY368_8QAGr2VKi/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOebpZ-rYCO8XsWmCUnADYrI-ojlZgsUQ_VIUpm9O6hfnly7LwemAlTY4SIQcAYh5DykSvlDIUJlbJirVjFyfKXy4z67cMdt4K9GTBZi996Mi3Qs8=s220",
+        "view": "https://drive.google.com/file/d/1IAlWXjyAscmyAf9AbkIMyK8Z7HM52L7V/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLXKwuVd90j_d5NGVnTcbsh3P53Fna_Muo6Ll_0Ql8yF7NKbgZdDc7fXPgVHdJRC2AehzJsg-P4PpwPjebs94r90G6jV9d5KrHcpzMvqXse0RPOso=s220",
+        "view": "https://drive.google.com/file/d/1Vd6aLDAcCFF2g7fD8wSpXTHHJ13rrxfU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9sYKByKu3pwtVk-k56_rnoeOp64aawH5TN8Xbd1nYSgzQfFYnY9hKW0dMOv8gMrB6zGeH4zOXOCJlkfFxCDD3gSF_StkZpa1WeF_ULaubJLjp3cI=s220",
+        "view": "https://drive.google.com/file/d/1B0Viq5oz4Hx00YLANb1CPjjzh7kSL_eh/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWLrOS9qypbkyJ21osLhVrYmuhwmN6EBzG_G-l5P11pccYpyC3S3rzCXulduYGCJxK6-OcT-6ZGyRzvNpRBe805oW_PKZMfU5_x2ZsPySHMqJm8wE=s220",
+        "view": "https://drive.google.com/file/d/1u_inIShrlTzTNIrSfo7qAZGHmVhAIr4I/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410261 - 27/4/2026 (9 FOTOS)\n  → 410261_inicial ✅\n  → 410261_folio ✅\n  → 410261_corte ✅\n  → 410261_demolicion ✅\n  → 410261_caja ✅\n  → 410261_liga ✅\n  → 410261_mezcla ✅\n  → 410261_terminado ❌\n  → 410261_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410262",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410262 - 27/4/2026 (LEGACY)\n  → 410262_inicial ❌\n  → 410262_caja ❌\n  → 410262_terminado ❌",
+    "_folderId": "1NKgmyIBAaCW8aQVe06UMdGvGjXTyM1IB",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_a-sbOl2G8XXa1ixHG88OyFbccr97g_33zo_tzlSOCqP8J3vA8GH2Rycs4YWprdE8X0FfbHtgRQ2X5hlUe8CXm1VsY8jrKSWy2yUhRx1t7cEt-s4=s220",
+        "view": "https://drive.google.com/file/d/1e-5F0A3CqlvaqiF0RhDXN-JtHYdnz09I/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuWKJbeQWuflsXgzotT84KFttMyum6FQW_S98ydeHT27xnvYDN9N5A9TAFH9HOjfs_yjtSjvA4fNCeESYlWtkPowqiD8FN8PBF10PcsDnuMRwh_V0=s220",
+        "view": "https://drive.google.com/file/d/1i7ZdPKMk9I54dHXSIgEkwGHPt15U1uLf/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPacy1MeMk5EgWI7qZZ81uyVCUWVPvLESfaQbiGO7wxnX-Y5XfVBaRJhvczKmaqvt-y92idQKxT99lZqskQx6GcXpk92iisdTOguSDtYKWkLxhjJCY=s220",
+        "view": "https://drive.google.com/file/d/1_gU0j6R4NqECPrJSmmC2J2Cnrwhe0ha8/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPOrtNj0Pp__GD4g0Nn3iYYE-ZPW76nYjvg9ZHG5Yyb1gOEhK4V0RoPi5_seX2Br_9unwzF1PLqGf8mDLXzEsRbBx5XwnD-BFY8gNG9EFk2vRGSdU=s220",
+        "view": "https://drive.google.com/file/d/1VLnDse7E0s2Qw1eV750lc0qTgTWyxG3G/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNQiayYudNeI8MQja8pshtHgsJLVl6cyGTzIa2BZ2rFhj9rjXGrzkdKJDQeKDzkKjZH4iRvlewLLf20n0x6P0NiaB8RkLGOJj5-KWiGpWQgoZN4m4=s220",
+        "view": "https://drive.google.com/file/d/1_mLhMei9VX7cJ5NHGwemJoQcA-i1D75m/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWeRZHGm8LUnvf-_g5shbcptmdgHhYuETPx3n1o1s8gkisPVXEe2GDxfEAkjEZrFym_56QnFBrFWCDvX8e4jAHO9dtNgYuB9eQDN0DJwmFWspKEsY=s220",
+        "view": "https://drive.google.com/file/d/1m4UduEQeiExHgbbkTMg9DNpPGlv0jVh5/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNi5vT4oB65PY89_ao0Zfsz-OADDt5wSGQ_GpQ9hkJzdsAYraAdbkXyeTqDwEtbpD-zdjN47b0ehUKnHmKuhndXEkoKeSshSnRAx8VpPAcw3t89Os=s220",
+        "view": "https://drive.google.com/file/d/15QXGkuGber6ZjMfz-yky_HSGiiPdxt4B/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 4,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410262 - 27/4/2026 (9 FOTOS)\n  → 410262_inicial ❌\n  → 410262_folio ✅\n  → 410262_corte ✅\n  → 410262_demolicion ✅\n  → 410262_caja ✅\n  → 410262_liga ✅\n  → 410262_mezcla ✅\n  → 410262_terminado ❌\n  → 410262_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410263",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410263 - 27/4/2026 (LEGACY)\n  → 410263_inicial ❌\n  → 410263_caja ❌\n  → 410263_terminado ❌",
+    "_folderId": "1zwtF6AUK9dH40a0rmb6UxbZCibrC_gxQ",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-chp64hax0td3dkt-6GhreIdYV1PFsW1JFiLnCtknsuFNGz7Lw6Jq7cj3TTWvWlwzuqjB3UNATZwEybnUILCKPamPER2MelTYbkA28KO_X4mw2m4=s220",
+        "view": "https://drive.google.com/file/d/1E5-wEdwkXaxQ1teXESX03iOq28hp8SLL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7UhHx4H5sIZRqv7vfTZpZZ3R2Ey7nPJEU5LWBOA-qZ1ZgV_8_VqjvHW7SSeNLiR6q0-9A5-gq01Vf6pheoWO92Pn9zFB0Ef_hWjhsBV4VPXX0vz8=s220",
+        "view": "https://drive.google.com/file/d/1qUX6GgAioehEuy0LlHkzk626UPpIVqPK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlhyNvaEhNxDMv0XsX9VQuosXQKfkHoCrpP_wXcGAIqfiGgx4FTv0g9MDso4qeHNVzcOoe_CN9vgld16V0UtSnAU9Vj82EPTWzRfGZ9qgYBeXGq98=s220",
+        "view": "https://drive.google.com/file/d/1izT6LDOz7kR12K3diyY-PC9SsFIDGcMc/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmtXuqo0GvW1tELtQcHqi5b2s9IJ3zolDZq5pISxtnnxrr5Id102Xhik5j8wyF95dhZ8-7U3sONsWeO0aMfSUU4XcbNX2a_9Xi5OLCYj9fpHa_2XE=s220",
+        "view": "https://drive.google.com/file/d/1UwzbNdqR-ecbHEseHXxSNewXNu8bbfMg/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjI6tKf62VMgT_H9wbkr-Rji-cQ6fAqwxtI8pcNjWJ5JReF4n2UZkE9TPatNdybkDUsot4cBcPpznd9602-NFERYRkCtiAaxQUcruisEdhfzIHGuk=s220",
+        "view": "https://drive.google.com/file/d/14qmy-2mvv6xqRujW3JFtkCC7BqiiE9sa/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNF8gJzTNBAJS2zx6x82W7C0BZulJWtLFkS_LzhkHaW1JNJptIh3GHs35MLxdSqG8TENkIYYXwnAQGiZfWaFodal_cG38-Wjuv2ESACnK8zWDyvzBA=s220",
+        "view": "https://drive.google.com/file/d/1hxhmH96voSqa-RJzsGAWzgOxCENas7fs/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW2u2TK2jJO_Q1dAEjUg6zs1BOCToiuiSdN_QYDqDG6A53IIsC9oq_wBd4n6v0Aur6qpdgFCf707wJz2AW3JW0CrNDnifSRIBEdUPwTktcFUW9Adk=s220",
+        "view": "https://drive.google.com/file/d/14oJAp_e873wxm3WhHwZp5r7Q-m7tcff7/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 4,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410263 - 27/4/2026 (9 FOTOS)\n  → 410263_inicial ❌\n  → 410263_folio ✅\n  → 410263_corte ✅\n  → 410263_demolicion ✅\n  → 410263_caja ✅\n  → 410263_liga ✅\n  → 410263_mezcla ✅\n  → 410263_terminado ❌\n  → 410263_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410264",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410264 - 27/4/2026 (LEGACY)\n  → 410264_inicial ❌\n  → 410264_caja ❌\n  → 410264_terminado ❌",
+    "_folderId": "1E8MU_boq6TflSPfnMPFAYjZC8Cv7xi0I",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNs4lDaX5os25cZdYhz6-6OgL9TOdP4iCQ3XuLdzZ6JCPNYBafXzJ_GYwKRQY28NbY4r6JFPeECHDcUc5OTo0xhKH02sIKyEzooYYi1RdlSLSB7dlo=s220",
+        "view": "https://drive.google.com/file/d/1brkbZEcZoPDR7cHnGPTyjxzywuTN1epS/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVvgbbSvi5ixhTHmrfK7GOiFnqjvNsntLJAbu9gCMu_kfjNrs8LC8LhFmTuGgvEgszTAUPrwLgXv4MAvtNOq2VqaDf_M6ksRy5dvLbSc5EY651zCE=s220",
+        "view": "https://drive.google.com/file/d/1c4_3JcfUOru8yS9_fFGc8DxaAkLzl2Dg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBML3ZX5IPlHtKzHGUOJIl51jOdQ21Z6sufuefZ6b69rZ7TGB6EMtVK70lrwlKUaF99ZH9UoXJ0l2ogakm4hR6duNdTpBjrGGeE1KiHSCKS7dTlkXSc=s220",
+        "view": "https://drive.google.com/file/d/1WQ8_4vz_UXfi6QNWr3qjujTfB2oaDoSt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBND4j3JXG0waWUi1k2Ds25N4-XzarEHQp1f5LKVrqbeKyKlpF1BXgIKUkEoI9-jVib-ocTtTXeksLDrZS5ijDa3lO74HmI8b5WJb3Sl1vr02T7fcq0=s220",
+        "view": "https://drive.google.com/file/d/1AY4bgIdnIINPhKfpsk4UT-X9ezJ0Ukmi/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYnrNd_3AXwGjCh_C3QQ4ruoFnyIhPM2jaLfG3GCtuTm50ok-M7XNOcqCUGT-2seDAmoFPYl_4lorR7xWeSb_Bv1Z63b79hBGdzai1wYJGhdvxo7I=s220",
+        "view": "https://drive.google.com/file/d/1fH92tOtLP8CFmjbP329VWyXb225jE2Uc/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODnd_MnB0tIgNfdufj1UkamHV8vR3Oqk3XPVPafHQcRof9rBakRnh5Mv3-Hpr9Vg7uuZLyBjit7MVsbtG_vdP8m8vazjUGxnnoLgbgP5y_09oTfcQ=s220",
+        "view": "https://drive.google.com/file/d/1qYtPBD8rMBgdglo8wNWAD9pcDUqUeOkA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyqRkf778BynBz8mTFAQT7XpqdLvU49TIcYxqimV2fdhLJPE_FO8jlFh_qhv6hWPoBrVE4qkkwoFSWI-v-AbOhz3zT-BFGSpfAO_30VwlLhaC-ZDQ=s220",
+        "view": "https://drive.google.com/file/d/1iH4NLU9Yxom6tD6mZ8uUi6pvuMca6QWP/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSaVi_5sQGlpcgnBrGEO5BuoktdUwHvEogIMawS74In7XpmRLYdnDhICoy7ZNAOVXNzv2qTZBVJms5rNa8WmK56iF6hWo6IcQGHQL8GsUbVbswAEc=s220",
+        "view": "https://drive.google.com/file/d/1cAGFLdLAsJ4g54Rv7syFeE4a5zxE5TdV/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410264 - 27/4/2026 (9 FOTOS)\n  → 410264_inicial ✅\n  → 410264_folio ✅\n  → 410264_corte ✅\n  → 410264_demolicion ✅\n  → 410264_caja ✅\n  → 410264_liga ✅\n  → 410264_mezcla ✅\n  → 410264_terminado ❌\n  → 410264_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410265",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410265 - 27/4/2026 (LEGACY)\n  → 410265_inicial ❌\n  → 410265_caja ❌\n  → 410265_terminado ❌",
+    "_folderId": "1FJdMnMgM0zsyiyQ_nO9KGMFWFFqfR-_4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoRJMdjcOMFDG5-zshRO8wXpJo7VCq4KOv60fmDnwzTgJ7gCWw1eFFbhkxNHdXehYFSJZDjk6_Bg0HEv4q6XbT9ZhMSfQkYldGk9y8tc3q-y7GA0Q=s220",
+        "view": "https://drive.google.com/file/d/1jUwcWnT1MsstaKFvXB29yqAoDNRHXCYZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2vXLvLj7Mtn3-2aSqxwmgr8T6Cs8K9WvFPdLTmbsGvcQZBMQ746NWafj0mpkqLMjAoOXJ2BMfW2825lvUJ3d6LC10AEymFoPAMbgt0aCUQE0atyE=s220",
+        "view": "https://drive.google.com/file/d/1CofsmeG_cUG2XYCPwo-UWQZdMrF_FNjE/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZbE-337KcJVvrYXI1pXhawUjIdgWYIWviXPPZVFE8fPQ-B2AeC3Bl-S2SmdzJddzm4UN3LcIDzijnJMfJQVIigNu5tm2TKJIG3ZPUF5EjLqoKQYY=s220",
+        "view": "https://drive.google.com/file/d/1C6WQz9QeoqGByzocY4Nnp1rQeaFNp4Bq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPut6GXmiTLWU8vmLVtvkUc-184FxdldiSW4kzeNO8b7bPU406fvfT_0cWK3CQAM5jf2B_7Nfyp-l4WwOcVaBlz-WrLgrTc6a5LjowZKykCworMsQM=s220",
+        "view": "https://drive.google.com/file/d/1ZltTgQZGVsqOLrwyf21reefwCy162TRl/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMougMeu3Yo-Wk8GpoqYnKZYHTFQ0LlCF9f-iWIXNwBIjGXrlWUqCB1YUVq2tp-hktq2c-oAU7Nm8IY8Xr6saZxSIE1YjPn2bqfa8Rzqtkbm8VfRBI=s220",
+        "view": "https://drive.google.com/file/d/16Lk8N0zlnofoyeEHqYmIFxqeLGTIHIv6/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg7Q8iHlZpySV2cVQvHR3awnSKhn9r5L7qGUdPul2-XOM9atKHoUNOZOpM375tCe-l2LkL_AW6kToi3g8YRReNUzpQ32frkawpLXs8x8CiLiWbzLQ=s220",
+        "view": "https://drive.google.com/file/d/1FLqJsCz1B-Ecu1y2uXwyo1_LCEH9kUqV/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgO_vLyaDL1ENYDZ76Q6Y4Ac5X3cuv_6FCCSvOy4dMlApkd_vGGrAdk2MXXTH4HsG_IsOCRyDbKF6eGo5hU_5r3b9HaTVDXXFh2c78DgtmGhOuUuA=s220",
+        "view": "https://drive.google.com/file/d/1rGT3xt38-hAo9vnAoBHvdOszOI9D9VAs/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2ffPvCIZ5sNXNLkZZC9Svz6fyNmoTzU61Z7X4e-Ig2uO2JKyvZ8Dw2VDGDhEYumc_SxF1QI6GxQls8Vo3I3u_m7NcZWPdu7OZoR_b7JyPEJZw3wE=s220",
+        "view": "https://drive.google.com/file/d/1WmZOl7_3MLGArBubPSl-OOhhcaQz8IBT/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410265 - 27/4/2026 (9 FOTOS)\n  → 410265_inicial ✅\n  → 410265_folio ✅\n  → 410265_corte ✅\n  → 410265_demolicion ✅\n  → 410265_caja ✅\n  → 410265_liga ✅\n  → 410265_mezcla ✅\n  → 410265_terminado ❌\n  → 410265_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410266",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410266 - 27/4/2026 (LEGACY)\n  → 410266_inicial ❌\n  → 410266_caja ❌\n  → 410266_terminado ❌",
+    "_folderId": "11ENb_mDa5nKbAZJkE5BVwbTdl9nd3kTG",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHIltMqSTRAsHkN2wRX21UPumJxcRw09vxRKkVWqDIsEA_KCtkqoxPWfozfU_ZTy4d7BDcjJrtSCZqL_pPfadnd2qUrPYE62fT-o3MrhGKGZfMmQQ=s220",
+        "view": "https://drive.google.com/file/d/1-HiLefjhv4hO2xcouU1rFYt00jGQlSne/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfJXOg-LEcmiQMsuLyMNrp8f-avDEHSpUVa9eN93mBxfFU3BA80UYlrGdl24-VqN0o1vhFRKsD91HbaSvzN2DEo1Khqh63ILaIkeGfKGTWk-aueKk=s220",
+        "view": "https://drive.google.com/file/d/1JIps-zF_2hnbmlZk6kr6xOicMR5kXD0t/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOy1bnteKWX5yOuSO6cA7W8FADsYGOYbJGJtAA6F7gWzt0qfnQoh_NLyrHDdvPrVokEHN5We5D80HaAKtPgk5g7d4cu3ZVd8oh65iW4FtPDWgCWi74=s220",
+        "view": "https://drive.google.com/file/d/1N2qYxMP6QtDwELsRnmJK_ZHIVD0lDojw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkaXmtp185hml_yCpP2bBtLRzymibmBJDUBKKY4PKRLOks3oTyn9ca9Ml9LvkGxUyjLAh6RkCpz_tnJY58tvugiKm0zjvOfOufJClHHmNuT7cjBvU=s220",
+        "view": "https://drive.google.com/file/d/1zrIaASRfSjsHoThOwsTpkWZGTa5PDfL-/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSt6aQyJLzAcci3u5O7eiBirRlm4dP34aVRe25Ar8FapbBZRKmgrfOKa_r-Vq3O5trrjjiK78e6IIiH1lLAqvFmhgalnEMRKDsr1aI_jfbEy0zuwA=s220",
+        "view": "https://drive.google.com/file/d/1qqDRDnuwCyNH_1Wc-bKMBf-2q886Rrqw/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxnh_SghMDhm3dDcdujMT3VLkn_kS99vQc68d7Eh8jxdPdQcWhrmpw9af6gUDns4kqyX2Rr-B_Xz0qy-K55MRYpmyzv41ilw6bR-N_rmfadjF8XOw=s220",
+        "view": "https://drive.google.com/file/d/1NhHZvuccBfP1uvOFONpvzsGrSU-nOsj9/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLbY6vHs__lhJT4XvRb6rM76E9DhaHtSZ59fLCxYSyHfHsc-9EEYBrkUWb4tdSk2pNVQwqZe5Bbf05bp-CobTyvqAMzHgNcLUDcB1MbvvkXCoPzJo=s220",
+        "view": "https://drive.google.com/file/d/1A_9pKaXdhIySyrVupwveSeSxuiuTiFUL/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtpwrMBIFuRRYg6HmoMoWEFX6b3d0X7YLfxxxrgpH8crcOONvEREZXoyntr9X69YrU10GNfXXSM9QDLmk-kRLjtOn7NgPt-KkUdp1QcSwfajXA_BU=s220",
+        "view": "https://drive.google.com/file/d/1oW04DzM2RFzAZlGVAKWzAsxrhb9ajdgX/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410266 - 27/4/2026 (9 FOTOS)\n  → 410266_inicial ✅\n  → 410266_folio ✅\n  → 410266_corte ✅\n  → 410266_demolicion ✅\n  → 410266_caja ✅\n  → 410266_liga ✅\n  → 410266_mezcla ✅\n  → 410266_terminado ❌\n  → 410266_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410267",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410267 - 27/4/2026 (LEGACY)\n  → 410267_inicial ❌\n  → 410267_caja ❌\n  → 410267_terminado ❌",
+    "_folderId": "1HTfPjD0doX2K5NFxt5VvBztUslychfd9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnQ67EEZq-OHeeYiWMK6uWFv23hkVQaLgZy1u5RVhS2vyT36qbaCdiv1CPVy00e-o_Gwk9qfpnPihedGxKdiNdxwqbCS3Wh97TsW2roQEhVPLtl8M=s220",
+        "view": "https://drive.google.com/file/d/1OQ2wy9kGVyu-HtG6Gp7uLixlMHA-2FTn/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-Mu7dsTsE9M7blcfx_WEk68OfvQPwEoYRDhoCbgxUhBBUy99q3ycnOVLZp6CVTAUyEWuAyg5AcSxjrOg3YjckfV74byAsg1cWIMydEDwZyJ1QANM=s220",
+        "view": "https://drive.google.com/file/d/1VkqpahnY0mYEKT-hYCoDFaFW-H5vi88a/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbHX8wdZJShu9oIlLz4qDgK_Lz9eVGtl7h3fefAaxQ3Ib01tnJCtzUQ2FEpzcQjQ54b49_KEZvTqXHN-F-VSeHWrpCpSVQChGRwmj5RATnHJLZEGw=s220",
+        "view": "https://drive.google.com/file/d/1eZDoEEVPbi7a8fMerFDBOvCF4FhCxaRq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIIMhGU1z8qX4fqxMB-TWIOdlYsNROPr3qAMXVy7-CBwfcbRoS-eXGRV7kuhD_nOJOVIC94_87q5LhNrwcaJf9eKC7aJ8xtc7soWaR5MxMUYHmWRE=s220",
+        "view": "https://drive.google.com/file/d/1lbkp2YSvKj-VxgluhXKDaI6cnrFuuelV/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlUO0WQOlQzc7MTPTdhYz6abiB2M6rL63LKl7tUpN-2NZBA2P1FEVHYAFUYRFDPRj32FtGV2nqM3OL5FaZDpbSZEZANrWdyBiBH-5xfbbqUIUWtDc=s220",
+        "view": "https://drive.google.com/file/d/1_93p2T_HcNl2iH06rAoOKCIMbHIweLFB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnLD1QjVeo507w4O1XLnHRs65sB0ntXtSbjkj8kqrBrnB0zhZPdavGdAlX6bbbJS49PP3hquvKFlSLWd46AhvJQ1tvXkCm_8hiwUJmY8kMlGPI66A=s220",
+        "view": "https://drive.google.com/file/d/1KQreQc0_eRPiXC6t0MVfONSRmN5fqSRX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmEzanYBcvgckHRNrKvmbxr628erQMNRsOoJ6fJnBPKNojjQRVLg5lTGmsPVR_w6fXODalgQKlkmWpLPFrIzu3OAnF3lKJTykZMWm8aUPXSAlYrAo=s220",
+        "view": "https://drive.google.com/file/d/1N4BN4NhoYa-Gaftj5OWg9ALgfJCdKUfW/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhMpJH8J91fe0U9r5lOCVGTr_0B79uaN4gmTKnyctCSAcr53dsiyTcMfQbpi75uhwTCuFe5xKueKeZfJa0GbYrdIz2oy_tAL8E1TY1dUGo5CCAIzI=s220",
+        "view": "https://drive.google.com/file/d/1Uqhj50uTwo8wsJXQmwpCMgtS3BSIWi9O/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410267 - 27/4/2026 (9 FOTOS)\n  → 410267_inicial ✅\n  → 410267_folio ✅\n  → 410267_corte ✅\n  → 410267_demolicion ✅\n  → 410267_caja ✅\n  → 410267_liga ✅\n  → 410267_mezcla ✅\n  → 410267_terminado ❌\n  → 410267_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410268",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410268 - 27/4/2026 (LEGACY)\n  → 410268_inicial ❌\n  → 410268_caja ❌\n  → 410268_terminado ❌",
+    "_folderId": "1UWufM4MlA17TfFkS0MeldPEqYx-Co3mr",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk5oXbkEb6BBYNbVD_Gsf0VN-hcZtv1tzuMN4_zT9PRxEn5qL8S1Biq7eKu9-brkeAYYlvcJxeY7N9Qs79aoOn_FApk4U56eu_X4HoobUnS1cpeCY=s220",
+        "view": "https://drive.google.com/file/d/12dquQC8Z_brC1HAEmoMiQsn45HDetkEs/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUT8EyWOYn87xqROlpGfSif6ko9nUEpS7Q1I02Y163Ka9ijGTFM6g3ivRp0vHj11Ojn3Q_vWH8ka6iFJdsk5xO79vPIJ6SLhT9E84pxwIy4fy4tlA=s220",
+        "view": "https://drive.google.com/file/d/1FPAYFrDP1Yk1oo9_rL4rTA3uuWst9H1h/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMf59LNKBPPpgQuEQe4xlv5fRygLXhb8179jlS2f_7ayGTvd3btuCmOKtHW7bQXI2qonRt1JvoxJMQEvgdoXkHkCvszhObOGTUkBdBp8D8GUR8Qq_I=s220",
+        "view": "https://drive.google.com/file/d/1HjrXdqK9BZ34A2hsFx0kpacuuUR-2_OE/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCupyuAuPd414SeYevRgPexjLvVxISgPe6YbKKD2HUt3lPKZDLJKAr8H3st6JqYZghly82srx4mu08zgf1PzyVNLv-SyDa-JcVBr8x-H66x02f104=s220",
+        "view": "https://drive.google.com/file/d/1qwMeBEIf3DfY5u7A2efLYp-1gJIX77Ob/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbyj4qAz_7ThrdCGwBQD6Ztw5gmM4rJOmqV3BkbqK1v1E9N6VwF-HsfaF8_SeEdB0vGbmBxlWXr1YJztK4tTnUhyTuD_MqiDhJbdGzly0a1_GIZn4=s220",
+        "view": "https://drive.google.com/file/d/16M5cIaHxYFi0ayErtWAGdp-aimSTVfyl/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbNnQ2PvH3KJ_hM062-YEo0z4bW8lDCYaSLpfZnG7k3PZVnNOu5oRXPnbfGu9x0XRrL4oRHv6XSyWIwrqQsZfMewBQPMmcnYsWt_Ty__c9ncVdkaw=s220",
+        "view": "https://drive.google.com/file/d/1Cxj8fhaT_ZzwqEaoQGJtdyoflBeP9xUA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPS7N5274iGQQXbdyqFPm9BUEyY7vONGJlF2eggcPOOvTgzprS3q2pGVp26cA-4_jMxvnp9UUFfI5Xyq_wr1iCnXcH3r7gbUKsz9hGa2ETd2SRvWu8=s220",
+        "view": "https://drive.google.com/file/d/1CiIoVhlk8xi3H4hpEzZZgBkJ58nifDik/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeMWf6xDy1zQO1L5_SgnC-kr4sl41uZQz8fGYkFeDDXQtj6neRb8GMYYb0l27UW3Z2v8IAhfdVGm6WMjDsMJLuMfueO_hfvQjG7lXnhuIC30vnuvU=s220",
+        "view": "https://drive.google.com/file/d/1hYJydlUec29B-DuErjgmmH4iUF3ZVPjw/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410268 - 27/4/2026 (9 FOTOS)\n  → 410268_inicial ✅\n  → 410268_folio ✅\n  → 410268_corte ✅\n  → 410268_demolicion ✅\n  → 410268_caja ✅\n  → 410268_liga ✅\n  → 410268_mezcla ✅\n  → 410268_terminado ❌\n  → 410268_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410269",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410269 - 27/4/2026 (LEGACY)\n  → 410269_inicial ❌\n  → 410269_caja ❌\n  → 410269_terminado ❌",
+    "_folderId": "18QEdViWi_vHJ4T_piaclI8kGbedWr6DK",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtVfGndtmzZWR1ynLmgoaXmkHWQdYDrbTrmgoz7fG0jHodCx8xb6KeO4d2ETKRy-hgs2Xcemd_vDL42B4BTQZ8GL8QCjJYEB9Rd0jf66vGNf7o4JA=s220",
+        "view": "https://drive.google.com/file/d/1cWIcfiXB7TnSSFdAijEkajO-MlZ3uTda/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUlY7gHdI1rqNf6yAYPRyw8mDD7cpjUPsTPtUk2tGsrtPqqK9uZNy-p5g6wVTZaIbEBfKQBMY7aieCPGCzmFEyLo97DKOWv1iPRnHBhsYax0FEHjU=s220",
+        "view": "https://drive.google.com/file/d/1D-RIzr0FXzbNc_1cZYyiwK6TAkSFaEFy/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaBNjYv4iu7BMg4PJeweAc562koBICmqzjUlSVaT-0A7Bfs0gKhu_d84-HVYnjgF3TDo1qh3XekcOflJGrpTrwjqCC0-qscSKzKfIwqxA65wwnvho=s220",
+        "view": "https://drive.google.com/file/d/1F8U8ASHozWi1FxwNByN65YzydIiu3oFh/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBO-8T_1lCi5cxlTDMrRLg0R9_fOiBmt9sH7_SglTw5_rXc5SsgWbSauLF9uN4IlB8r-ESrB7r_i-vxgcwm1J0Nqs5BVjCh8lVzMsXlnk71_2JDbs=s220",
+        "view": "https://drive.google.com/file/d/1q-SijAkdpukrS3AXTAhgb7bfB8tI7ZSj/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1_V2R3MLAtwgiu7Zt8REmR7xcKkZ4EvzOD_Brj_cTcvmAmbwZdbr9kiCsP6CrSpUcNBwaNkXeZ0_EUrE2opcM7qMwxj979NfxVkWB7tR5HxJUxxI=s220",
+        "view": "https://drive.google.com/file/d/1WphgnaW7ZXTuf1iVDNlkVuZA9rMtJz7B/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvLnLpyEc2fhO9HBUvnU0XwayEqov3FWo7-dddHCiGNYCiOiyAgt-Dwo6kGfQ3YZZhdkij9NbjvJ8bk_Yz4296dOkWF51QZuIXRTUgiWgUXdjbuAI=s220",
+        "view": "https://drive.google.com/file/d/1BGYtzMhuYnSfAHAK4Ix0xU2hB8dG1wEQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzKeWWYz30lBXojY30U1_K1tqW5XSNojrvFYn8qqjnVwHDLed3Zzcktx_ImOSW7SJ_9INaOLpd3PF7OyJHkAkvzWEHzIqFuhTFQOla6VYeVQJVQiw=s220",
+        "view": "https://drive.google.com/file/d/1LgoqLKNYBxQPFtnES0OLHJlW_KVlq-xc/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYThbUALaPPuWhreOOMu_F7KwymKhoqhqj4LssUYz6uo8Ip1_762AJVpZTdbvl3eiP8XpVPrzN_d9HQRfQOZ5p2XBcStLsqSyxBtyuZoumiDrabXY=s220",
+        "view": "https://drive.google.com/file/d/1r_sPevl-h1nPUNhn_mk-CLR164uypWCm/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410269 - 27/4/2026 (9 FOTOS)\n  → 410269_inicial ✅\n  → 410269_folio ✅\n  → 410269_corte ✅\n  → 410269_demolicion ✅\n  → 410269_caja ✅\n  → 410269_liga ✅\n  → 410269_mezcla ✅\n  → 410269_terminado ❌\n  → 410269_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410270",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410270 - 27/4/2026 (LEGACY)\n  → 410270_inicial ❌\n  → 410270_caja ❌\n  → 410270_terminado ❌",
+    "_folderId": "1QTm0AIoOxnV-nj5DqFWfZPG9-WhknQIU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkFDFKVhaLQwi5dlQ6RjAjslvgS-0spZdAVAI_RaiVz3JNvMwk6bd6HZeuI5efRxN6OAtqxD5GPKCRVEXIdoGebzRDmi1TZcQPpNsFwyV_qJVq6wM=s220",
+        "view": "https://drive.google.com/file/d/1zOL38YVSMkQw_5glVVBlRNfqS6X_1pR0/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuY-k_V0uIYapMm1hezNwBfA1VjXG0B52UAyceoQGvf8JK1gkOXK6dXy1eqjMdvs7FRbHlcPMwr2aC0srspBrt8_qdHxm_0H9A0ZL-7COsEc-rgv4=s220",
+        "view": "https://drive.google.com/file/d/1RJBOPYBtrR46c-JOz4RNSz2uPga6ZdIq/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5DZlK7s7NbigKgrM3liW7eZZutJLs99MzcVxASAnFzg24IEwXS_rFf5oO9tP5zZLKpzkOS_AKt1-tZoTezQj3yucIptfkdu4fPkl8s2iQjigp_6M=s220",
+        "view": "https://drive.google.com/file/d/1W78fFBNOoLyaUx5BnC7K6fjt8ny83hXq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoWymPWFYJkDP0ffIcWYdr6AnxylF2_GhKm9DtAoFsvc7N9yMEGf_WzW_U-aV5o33I4Lj_HZ-gouya4lz5sSaOSotCDUrX_HCPvMZgl_Kobs6dXrQ=s220",
+        "view": "https://drive.google.com/file/d/1gtw-40k1w_bD_CHyS5JPrSyMxh_waATM/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7A-SDt9-vMS9TYR22tYzu6Umtzf1sNBPRg2nBUUX9vFg0TmGYYdmLwMlBEfl1gJxAEPxkSIOvKLx2BS_bXXY9zrxYRw8HGp9itt0rxPjZTal50ew=s220",
+        "view": "https://drive.google.com/file/d/1cNHBvji1S7MJDV9jAtgi6if891hbXsWq/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVkMIgVB4kz5bRu5Q-ZrDddywS4T2pJL_f2l5i0j2P_1wB3AxRsF1oGpt62Pa-1k3cpH1ii5N8ZVEwKj4F5oCPE11LO8Bsf8MePcEzrDp88TGhomY=s220",
+        "view": "https://drive.google.com/file/d/1XDVe6saNArdXcTaKDJRoEz3avWxf7ezl/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMNtBDmLKQf935VGoNzRNHgPZxNdK1lOkqGOdLgTjLvsfCjivoNv49L6a91ssymrGX9x3hlVxlvic7dWeLL73jhc73wZZ7fS5ceoXNU6WiAvjOiEM=s220",
+        "view": "https://drive.google.com/file/d/1o5Hy6EyXfYSz3g0ANTR9-K4Fu6rTaYtb/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMF_o23KFAmNFxIROEV2o_lac0I4vk7RyxpRGZk_XSAdA-F_dcwQRzLLy3SJpjYRdxZJPlbXsg7wlKW2NWiZQDyJq7Te1qnZEX5pKbtdouXZKMUTkA=s220",
+        "view": "https://drive.google.com/file/d/1GciCDzVkXEtd74ocKoVoJdGXwqlC-BQh/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410270 - 27/4/2026 (9 FOTOS)\n  → 410270_inicial ✅\n  → 410270_folio ✅\n  → 410270_corte ✅\n  → 410270_demolicion ✅\n  → 410270_caja ✅\n  → 410270_liga ✅\n  → 410270_mezcla ✅\n  → 410270_terminado ❌\n  → 410270_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410271",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410271 - 27/4/2026 (LEGACY)\n  → 410271_inicial ❌\n  → 410271_caja ❌\n  → 410271_terminado ❌",
+    "_folderId": "1Hy_Ad9CQk46443m15z1WwklnU02JGlLN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOteWfmf-Uv9fpv17bwhGb2K1s8flUTp1tqL0uRbJBZSQmUgxx5JJToiuqfnNCfWLcJ8n04Y2UEwsVX_mQ2kCcS7PW-03Z-0WVdCwBrApbljj2_5pI=s220",
+        "view": "https://drive.google.com/file/d/1NVsIKuUzy8VS1Q8qWpoj-hUdcUJTz6Kf/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMu74kF6YX3yHWDsnlgvCi2lFjgCkGoe0Kldilgql7put28EOS7bx6tpbGx8H0eROlRKgPj_fKLBLmM2nwajPlrEK7vZQpXrvvKnLRIF961XS--aS8=s220",
+        "view": "https://drive.google.com/file/d/1mGgHWi-ldbFyDOnttzM4RP5z3MePsN1-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwT-jEguz3b6pysfXw-iUUYQoDspYh1Ao8yVdqaL-GMgDQ4zDzQ-y9JcY45VITnP0A7AY6RShYUQgaxTLHJiFrQdDNOopYeHi6__ug5bxSatip1Ao=s220",
+        "view": "https://drive.google.com/file/d/19aLs4az2Ti8_AtxW3wjDzR5vjx0WTV4M/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvjHk13sR4Hc4aHVy5DGF9GkWyKg9nbKVphPAe9Q0G8iqokZmcwzofD0Pi_lZ3a7IMhhJdfdhR8OCImN5DBDIv9FqjwZ2nz4uzL2ibqHXyFJvU-qY=s220",
+        "view": "https://drive.google.com/file/d/1tFF8T8NaToBTUDNs8RqI10S_HWD1RIVR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNf6h2ZLOzhj7ebvFJEzdLpmS2Llo_VeL1TxduLRR_eAk8FOTI3THKOFDVEc1caSKjMnHg3WscmMOCDyb_TgRezbgbKwS1fUbKqKgFL2nuYlUwpD2E=s220",
+        "view": "https://drive.google.com/file/d/1ivsUCBvLnOv_M5QSxcQVejJz1aWIEI0n/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlltrR0hP3_OqefExqLMIAbiMN9__xuJt700a4myifdhzPceafUzzh-VIsgCJfFR2WgMmJ26MDXFio4nkSLowzy4Gaqc9bfSF-WPoqGji6GaQl_m8=s220",
+        "view": "https://drive.google.com/file/d/1sj9SaGQJvgi6dznc7QrkJ126przIL8Kp/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpDYXmNAemLYw_tu2n-GLy70SgJraAvvKQ7efF_jlQzdx4HcSPFkMsSb7yxdUWSaJAJNfpY06WZ5cGZ8o766S-aOyseYd1CaVO8V2Q3-2kkKujR7g=s220",
+        "view": "https://drive.google.com/file/d/1q3v8rZGPCsF6IET7wqybGfxzuolUzvas/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgEeXJCpxGilYTRixIPmD4Y63U1Ehmt9Iuo0YZ2WG7FE6_DdUInI2Vl6kuTuL3xPHkRTdM5CR6nFRluFqos2oKZCNmWWtQhdn5N1is5BeeXeu661o=s220",
+        "view": "https://drive.google.com/file/d/1p8arhV9eooBpPrbbXpcpaK-6HOSF2qcX/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410271 - 27/4/2026 (9 FOTOS)\n  → 410271_inicial ✅\n  → 410271_folio ✅\n  → 410271_corte ✅\n  → 410271_demolicion ✅\n  → 410271_caja ✅\n  → 410271_liga ✅\n  → 410271_mezcla ✅\n  → 410271_terminado ❌\n  → 410271_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410272",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410272 - 27/4/2026 (LEGACY)\n  → 410272_inicial ❌\n  → 410272_caja ❌\n  → 410272_terminado ❌",
+    "_folderId": "1OfTb_3tN97B9hBhucwnQa9Epyw3ug-QT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIhKP6qnGUcGiXXX0CborrRI8AA6k-4F5_bcGvjp2FouqYxdiEAyRK6DNq4kuwPNGZLv4f05jDGGu3MBL3NDqTsdi0rOIS6k14sMvyF7y6-wNCPXk=s220",
+        "view": "https://drive.google.com/file/d/14IJP2KDTHNcLX40B2mTpkPa57zvACx8X/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkriyXq_HkZ_tSleZhyqrSj6RnhxPV-Egge6sD3DqAjRUmw-CS0Y11tJSEDoIBSGOiQ5RWza-lNeiVGE79p4APYo7c-Li_X87CAs08o9UZl-DLk8w=s220",
+        "view": "https://drive.google.com/file/d/1ZtF3_VIwHy-H0fazPNPeRogmyKf-m3Nf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKAm7XgJwHvZXhUByCS4SDOBKnJfaemhl9KZpCYU6CJha4r8LBDAa8XMOrX9mRhVj8D4maBwAhwOTzaX-dzHSAGezepHhlWeUeZWRKD9Q1N4igb5Y=s220",
+        "view": "https://drive.google.com/file/d/1Ll8t7src50oRCnfDN5wXQkfw7yzfMq3B/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEqo-c573Vhn6daZXBu2hhhGho7Dku_kfNpZ5S1uc7SgHc6GEjom7QNMwR0Hf4Oi7DtnYuq5OQ1ftP8YNvvtckInGOd2r9vxhuB9UJzouWxDKHs-8=s220",
+        "view": "https://drive.google.com/file/d/1a29N9eT6sAULG8O6GPh1vaiYS4qMwTor/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMG1ffuP1Z4ztyXNoRNLUiYZUx8wc48rGt9uRiN03tJ-HGGaYldBQpuVJ3h_zUvJbgyub-_jmCrREkagXMHLuy6s9ZUT-lGSZpLXit_RaSXYr4zJJY=s220",
+        "view": "https://drive.google.com/file/d/1Q_d1T3a-ufXSYObSu1ehqxfVIAZpXojW/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTS027ECCQDXf5rdvzokyfIdKvAQ-qwlFhog8GGmC_uhTFLHViUR0Kch_LA_Q4jo4J0EYnM-arYzioZaa2kkxJAi_ispJ9XxUm7jBwac67Px12EME=s220",
+        "view": "https://drive.google.com/file/d/1qIeFLJ5QM4-Owc6A8D0bkTsqVi_lHiND/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6u53M0v7-MKF-eNoLH-6xSBTLQqA5lOvcYMk1XA33qaY8KFc887iAMojifyCIqpaNxTT_FPQeXriausmyaCrSOQJFF_jgBEwaTUWCPLyz2fgREl4=s220",
+        "view": "https://drive.google.com/file/d/1nLDfxhCOAraUvc9GOvu2xGtJth_hihPi/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410272 - 27/4/2026 (9 FOTOS)\n  → 410272_inicial ✅\n  → 410272_folio ✅\n  → 410272_corte ✅\n  → 410272_demolicion ✅\n  → 410272_caja ✅\n  → 410272_liga ✅\n  → 410272_mezcla ❌\n  → 410272_terminado ❌\n  → 410272_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410273",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410273 - 27/4/2026 (LEGACY)\n  → 410273_inicial ❌\n  → 410273_caja ❌\n  → 410273_terminado ❌",
+    "_folderId": "1EzHvFPiiwEv14Xsnr9nIpldOMkYaSpFA",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMisAe_ueoMW-_1T_E6FqpGu_ALGOaGqJB0aSTW3-4OWIOKuoNsn8i0Wynks0UQ0alhIGWzpax1JdtAzjnQU64ReFuTTnUXx_bmUw89-Z2I_w7Jfq8=s220",
+        "view": "https://drive.google.com/file/d/1kNSP-Szt4dXiQocm9w-VJ09Jjh5h5nlU/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVzzCA5D4kG9b-N9U3grR3L45fUukJhQKqEZFj0KMIwI3E02e3lbBgXQl2LD-hlSSrkwsCC-wagESmMo_31GswUuSi8k7jFQBcWoiA5EtVKowwo6A=s220",
+        "view": "https://drive.google.com/file/d/1bgSxqFz-BZ7N-5GisWZENF_5nNN0H4eV/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMu3QQMV-YnmoYr0BOU0Q1w4c4am4LAaK5JrynaOfQcLHY3B0CSDXEhiVnQExnMdiGeJSt0C2x0o_CTqM-LsQ3X-k3hyaRCybPkqZy5ngwJ2mFIhG4=s220",
+        "view": "https://drive.google.com/file/d/114QAZktBD0-oSLi_gp4l3R4kww_f7w3A/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWA054tpX3H4xO72FdKmDKvJqOr-sxi7fnCxph3qoauw4G_s2YK8aabACc-IY5hFnrW5jNdLdmuscjVvqm_MdmNur6T9ZUiNO1vBonBCIcWB1uAeY=s220",
+        "view": "https://drive.google.com/file/d/1xnoi3iRohB_hIX5tzkMDthxTiF0Wx5Tp/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGyBYNAvK0qwzHegqjMykxhoLBSPndrht7qH6iCBaezT3Bcrm9rmE1cbKfS053plNq6OuNDs1GvfsWAu-5osCvBuVG3pay0IvOINUVjzRzO8w9Kj0=s220",
+        "view": "https://drive.google.com/file/d/1eupcAghVaBachAt-_u7ischexunwYz3J/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9tpqr8HBzhLgdTJn5OdFmKwEhtsqG-NFoAFCJxMe512mnR3xRHC-dXm9NjnZ3SAMZaqppNg8pNrNbxqotb_lPE1NhFWZEY40ytd8tt8mCA1B0JQw=s220",
+        "view": "https://drive.google.com/file/d/1g5i8tw97AxdUah_fEF6Sf3TrvW2NKISv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlsFIByYH6oF8jKI_g3AFTIXrNf6Vh6stfFjYl4t-cXfncQa7tmGM_T0ChkYQlUxG8WGGz0fF3YBMZQogA6oz_CTJuzvoTmmiy_Z6tegACl1FywTA=s220",
+        "view": "https://drive.google.com/file/d/1mZyFlUIUq0CF2XK5gtnBBEBqQy45NUpK/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN49o0fVqGJTgNABhiEDbm0IaIvIj7oSqLSeZT6ll8uBunS-IoYYJAtVPssCCNOhofqRaQ73klYxqa_5gkd-FGYDVpA3IjKfnFg4FjYa4-cq3O2h1E=s220",
+        "view": "https://drive.google.com/file/d/1JEAcU94mo_z5jno0YUHf7P5huHB69Yy9/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410273 - 27/4/2026 (9 FOTOS)\n  → 410273_inicial ✅\n  → 410273_folio ✅\n  → 410273_corte ✅\n  → 410273_demolicion ✅\n  → 410273_caja ✅\n  → 410273_liga ✅\n  → 410273_mezcla ✅\n  → 410273_terminado ❌\n  → 410273_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410274",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410274 - 27/4/2026 (LEGACY)\n  → 410274_inicial ❌\n  → 410274_caja ❌\n  → 410274_terminado ❌",
+    "_folderId": "1AG9-ZKWz1yAJ2toOk1bVzsZBLUhz63me",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSlUkvGKFlIMgbpLbwQ3VZPmmYT7_IeXkoHDjBmunXC_i1BjegRWYhJlPPAJmHzQFg3BJb841-kt2l8mpmMGFTe8xfLfVTpGOBiTxt_kuXo3W88xg=s220",
+        "view": "https://drive.google.com/file/d/1Qwz17xI8L-x_-r1PohsBvwv9AYdEFR90/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_GF2Os94Y7mlF2x09Jdc3BRG5oSOXRp1P9WpZBtoK2ZWE5CcIhcAzzriUqqk3XzFiLbRa_BhVT1avVVTYj4j1f3qve9iVvLVfbTTwrcb0x4hx2DU=s220",
+        "view": "https://drive.google.com/file/d/1KkG1NV0cufNgOTo4P1PST26nRKLrWHm1/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcPN_Lw0Ve_ElcyNwQiSarWvK3e6nlAeJhXAeL-1CeRsVBPmzKYJIfKh5MCAczVqn2FRWoPeuYN1h8W6xfYqg1ekFfWXK-7s4Y34_-EkTDehHx9VM=s220",
+        "view": "https://drive.google.com/file/d/11nuTen8SU-eNW3unDIfGBRYD9Cw-0Wxu/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5XpnmWHeHQhbYlw4BlND2cEt-zqtSTsOnXOptDrghhTKtCKyX8vbrKBAhRVCP9Tkg-kNYX1zsa9Z4Zi9repGxJolx1N-AptypgggTag2CdAhMlD8=s220",
+        "view": "https://drive.google.com/file/d/1-FLa55NrPaL6daAUU7Qnn-qWIu0pHahr/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-30Zf3jzo3k5VGHUwScDFeRhNM1rkzU8G3oLTiA9MdTaXSgGRsx_LIH3UgNccHs10IDtyKQRJaInv0OQhuOOzmwtsKVnPnQE-ibAWH1fFqp5eIJ8=s220",
+        "view": "https://drive.google.com/file/d/1T41XzkIzW_nQwGVgzX4DMrVe9fprbedj/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4Uf7PnuBJYM31ntPvaGtSoIZUxVJ_zEI-Dvuj8FNzZ3sSjB9S7XMytZGsc8qWgF7kZqNZqLoRbvCI_vYYvDdLEejfbALFA8TYuZWxYCED9MRK_LI=s220",
+        "view": "https://drive.google.com/file/d/1s7dCUWWUFYqQn92DgNfzq0FUZUlu6ct4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP56OgUb2jmzbjypombklP7vTWjb29fi1avBQ8kBtqtvNRY4IZ5MUsnw_NMO4UshHRo5t0U8CYHImE9FGWSJbMSNKWlSMuSzqd1r_0t9U5VjvJLIDg=s220",
+        "view": "https://drive.google.com/file/d/11NlYQ4UhEjnrSNII8SOnkP3hT-gKhJgQ/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHO1V3ZemhVPISieeCDURM-Nm7dbvgpVDBElCcFFqXBZvwSQY96KbJGDpbDVcWcX9BUaMn70EXpiA-z-J-9BLZ7ignWJXd1zZl5IvkYTfYXNq9lqs=s220",
+        "view": "https://drive.google.com/file/d/1mgUE1zGCCSKlnIjleBAxPhoIHR-TDaLw/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410274 - 27/4/2026 (9 FOTOS)\n  → 410274_inicial ✅\n  → 410274_folio ✅\n  → 410274_corte ✅\n  → 410274_demolicion ✅\n  → 410274_caja ✅\n  → 410274_liga ✅\n  → 410274_mezcla ✅\n  → 410274_terminado ❌\n  → 410274_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410275",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410275 - 27/4/2026 (LEGACY)\n  → 410275_inicial ❌\n  → 410275_caja ❌\n  → 410275_terminado ❌",
+    "_folderId": "1GnVpT6_e7Cgo1lm5_kVHioDBt8uKRjhS",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0QQc4kuqxKMdidHRnZKVCD5Lr-rjvkHSB2OSMBo0ssEtkW6s0jBqtRuOEwHi9oq95PYDtFHgnHWoTsm7DHjzxqpZYMSpLsPgqtNfU57uYadisKfQ=s220",
+        "view": "https://drive.google.com/file/d/1UlElK8WnEtRh-Pw0xeQ7QhT4nycNfXY9/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPasjDU3suAg9FidarZmKDbTZrWiEesEr7MZ4JM30QUM_7q-J4Pa5mfHKNDCg4ASz_iiPUieg0Ikg5dULQ6zYECulMUSf8iT3rG30i0iOpyVmVtrBQ=s220",
+        "view": "https://drive.google.com/file/d/1bd3s8hnu1auQq_DVLCGJyImM9bXg-MNq/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDj899AdfTlvR4LmhXRPLVANbIInWQUJxCkJQKifakfIjH-6H2VeGIUtjCqalv2rHrDF0Q9qIvASLQR56QwBvvRFdFVRORGsOA3SqY9furKJVPdNk=s220",
+        "view": "https://drive.google.com/file/d/1o9PMJKqxaOT_R-H4iin5wPkXWhj9KJWs/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4AcITu2jfyhnS37iKSGBzrlmoHZ0AXk9hVKHuMfo0EimYGh8ah-f3xi51LPDP8si8n_CTgiI82oLcE8PeyYDn6KqGijzdrBBtBTqPaNMgsOWOkj4=s220",
+        "view": "https://drive.google.com/file/d/1h3t-q-rYTx1arPiJtWzo8FicVsSdlaGP/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWwFaNRx0R4eyP3hnsSDt2_cCRMilEBJlPeI8VVv6q41lqt8NccR_Du7qXpt3sVB3kr4g3LeNDcPygEDURsgme_tar4lbIh2VKvdJ5dfWqP1-8dgE=s220",
+        "view": "https://drive.google.com/file/d/1CANBB2YgPqmYxt5lGmmS7aM4JVhQqPGp/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMstBt5lpHCz1xG-uWNB4nklXO_Ix52BMLgbFtnnPFnEH5uPRULnBlQFMNatGy2nMsZw8jCm-NkDkVJKctvjBe_aIrFotiRlX_-qO8p2fanxfUg6t0=s220",
+        "view": "https://drive.google.com/file/d/1kBwf7AMnQUKweG-lDI_c2Da525G-eK22/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGHCCKzLnZxbuttH_VCUd3-e-W5PTa629Pj4GQNuADSgvkQ4VI3alb3srIuCBofuc0tXIdNTB9WD93LtriiRtIRObABvm8V3QZGCDRzK4XXgxqovM=s220",
+        "view": "https://drive.google.com/file/d/1QJMXh5d5qKqnE5lk9O_hwKwyb4CesAFV/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOECK0eNGsfqK2-YEbyA6xNL3KAdpeieD6dmhA8hj-rXY3hOpxdMcaK9YwnEx-AJt6BDxokiMGnsikQeGFL-ln0z1P1HyrBzWho58tmcaMozcGMNPA=s220",
+        "view": "https://drive.google.com/file/d/1G5amwA0WUmclz53AXIrYmab0Y_cdC91S/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410275 - 27/4/2026 (9 FOTOS)\n  → 410275_inicial ✅\n  → 410275_folio ✅\n  → 410275_corte ✅\n  → 410275_demolicion ✅\n  → 410275_caja ✅\n  → 410275_liga ✅\n  → 410275_mezcla ✅\n  → 410275_terminado ❌\n  → 410275_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -10039,321 +11010,1001 @@
   {
     "FOLIO": "410282",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410282 - 27/4/2026 (LEGACY)\n  → 410282_inicial ❌\n  → 410282_caja ❌\n  → 410282_terminado ❌",
+    "_folderId": "19_vVFSrjXcIQvV35HIqtVSX7gjhVZDFe",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5P4UVAhw3ODDrbwJcWe3K0Y17zMQnCm2WM4tGZv-f2atMVewzCW9LhjmSjEwjatB2LwVMJ2hU_RqmOMna-2QVI3zkFQmIdXEH8XXggxpE113cVlk=s220",
+        "view": "https://drive.google.com/file/d/1Lz-az93VhIXtV2NUNj_s70cP-PYns5Xe/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFB214afLYu_hfsn7BpGBYsCm74J5Bb-1Du-zScfdTyRt_uhIw46qSE1-GL7YCMXSEZPUHHro-02_xum4r4gZBSh5I13XE6UBN_XpIYUMwyTuNe-M=s220",
+        "view": "https://drive.google.com/file/d/1ITNpWXgAUXv5YYGCaM8raXFcNYZvY9LX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNft7RSK8UGU5-mlL9u3gp0fFEVDuwK8HxBxym_bWK41psXIAMFc-czqqC1_9DlZR73KFaILvMVxwMDqXev-FgUbvZvtmBNeUvn5_MNeggPVnr7Co8=s220",
+        "view": "https://drive.google.com/file/d/13jLq6LGiIDIZ8po13idNZ7hKRg41Cime/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMArpW4JJUpJEpIW9tgk2zHgIT5pLSxBfWOtPY7V479zVYHokSltR2DtfiXIlkcGT-KzjhuSiYE2_tTxro1qURPnLrEbmx1XqAkveEB9qxOhYnNOi8=s220",
+        "view": "https://drive.google.com/file/d/1qOnriITcYjgyKrDk_WZkHGtK7M1O3noO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX6olp-ofGjwOpwPH1s4PRTH3Wg1UYr5Kf-e7H5wzKljgMu2RewlHhWCqZJ_krHQMWp9Fs0s6rypTavyTQqbDMp_094huPTT0rHQ0jAUZzGDfTCOQ=s220",
+        "view": "https://drive.google.com/file/d/1AuonavqiIDmEm6D9tztIlp_9G32wg3hj/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNrN-iDMbXQftVTNvDFQpKA0bH3KE4HZr-glADBJ_kyIK4Cc5_qmCd39cHOKl6CNS-jjBIZN9xv-NHkJumuk0o1xwfbtlJusQs4vEJ5AnPrASpGb4=s220",
+        "view": "https://drive.google.com/file/d/1zuLRws3_dx1NPlH4uflJU7P8b8wfiBUo/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNq2o2OPSziMeeX2OWpl9BrDpqSbKEdgmBrIUHyegar5q7xkqXky-i9Qaw6rwNCNaGPggRXsXgRlCEsU65IBFb3R77A-8rieFmbckjrotMwWafTNYI=s220",
+        "view": "https://drive.google.com/file/d/1IJa2VXcx3PsZcjXnxyfOENyKJ-luHs2Z/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY_qaq5cIxoDxmIMRrVKWLO5VIGbdupRNQ5Y6Pj6Qcmvg4D4pgJamZ1_QkhajzvUr4FT9C0kk2g4i_EtPd8Cd4vC4PsORiOCLQSiX6Tiy2qXGrM4o=s220",
+        "view": "https://drive.google.com/file/d/1v3lYFA20Rb56shb4QaCkQmVDVvjNUVDy/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410282 - 27/4/2026 (9 FOTOS)\n  → 410282_inicial ✅\n  → 410282_folio ✅\n  → 410282_corte ✅\n  → 410282_demolicion ✅\n  → 410282_caja ✅\n  → 410282_liga ✅\n  → 410282_mezcla ✅\n  → 410282_terminado ❌\n  → 410282_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410283",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410283 - 27/4/2026 (LEGACY)\n  → 410283_inicial ❌\n  → 410283_caja ❌\n  → 410283_terminado ❌",
+    "_folderId": "133NzSFmISt6zQ32Bvn3iQxv6ci6qudcw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOewqAuFIE6AhwbwojGhQueTfNNjs-Ap752xEK2_-0_6ILgHWq9_pfA7l19EZAbr6U4gjYvXzWvaEVlFPUXWL54k0jU4Vr-L5dpaHHh8MARzTu1uB8=s220",
+        "view": "https://drive.google.com/file/d/1GZxrUTqP_v3CBPt66b9nVngm9FdkG-40/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpy0MGRvdXNhX6x16dcGcv8r3cmzDrGGvhhe4elOxhUDcY5wtG42tdk8VVSPBZRAX0SEnVOipqcuIRy5s5zx5QW2SZY4hmWctte213O7uSB5LcTSk=s220",
+        "view": "https://drive.google.com/file/d/179lhQCgS6_knmQZ7_L3YAZtVi2SNQPyb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3HIz4gNQWShY8fHLcqW0ek-7fIRfAOZmsPqNBaw0a8EwECfBQXkZ51j0bZHJotZMCAeo2cRO_bTKb6oFwm9-iA0OjIP_9hEfb49fdIdBuQkdN37E=s220",
+        "view": "https://drive.google.com/file/d/1iBKS2wUk5YGGEyGN2Dw8VsySgtHywnS1/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBTBJsJTLOUpqOxsZP3kVnR26AI-NJZQW0C5v-dteDzl2qJDVbVZuHY-tm-Os-M_HP01IwmF6itk7el5rhsit8FfTvDz7npuYWTU6onIkp61WqW_k=s220",
+        "view": "https://drive.google.com/file/d/1LmHOrYmKtRmOEERCuA64g0pCQsln3nQg/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdNHO0GJaU6MleGWOl85zCykjT4J4XxW7GUga5ZqRgNTMBf5PXwSsfDXJTnOHZ98p63WRNPcSSKcj-YF30ib3At_4NBke41-tPbaUhbgaZ0cFT-OY=s220",
+        "view": "https://drive.google.com/file/d/1iM5KK0rDR2_tdIAwM0avucuRtMiTzdZM/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrOgzk_8lUIjtB_nv9uI97NEJkUFcFqv2scZZYNQR7QfrzZVKBUROJrrElTdUIy_1-QOr6HBTErd7CqT7FxmiflamqQZ6DFUjysgediQ8N6o6fjq4=s220",
+        "view": "https://drive.google.com/file/d/1MpfbTdnu0qR9TxOzTQwpcfj3okaQskDi/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzemXeK65TNKV36otsEeaWs1e-V_hN7Kiy2nrFhWNwgnrCQ4xLFm0KbQQsHjAKgMeoU1fAiGhsaR_-hqzTKLtYx_FcDfUoGADbdZhbZmkpZj38dFY=s220",
+        "view": "https://drive.google.com/file/d/1qaycEi9By2DCKi_bgxLxkEOHgFQEL-Qk/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAX7rzJ3AxWlOrcEqS0tNIZtQp7yssG6fVR60UThPGMxXXVIMUP_ZPTVqw76VP3qKi8Ae-B0Ss1TWrbtxks1rdFXZtIzKdAMByQweeij2j0loOpeQ=s220",
+        "view": "https://drive.google.com/file/d/1JHRW3wkTrdO7ovb8RfB4hQIbCXJSjM_o/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410283 - 27/4/2026 (9 FOTOS)\n  → 410283_inicial ✅\n  → 410283_folio ✅\n  → 410283_corte ✅\n  → 410283_demolicion ✅\n  → 410283_caja ✅\n  → 410283_liga ✅\n  → 410283_mezcla ✅\n  → 410283_terminado ❌\n  → 410283_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410285",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410285 - 27/4/2026 (LEGACY)\n  → 410285_inicial ❌\n  → 410285_caja ❌\n  → 410285_terminado ❌",
+    "_folderId": "1_N-WqD6GHt9aEMaUwKcrkkW9-7M660cm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdUlV3x2g178YZNT_OZl5ipEvXB35ogSCGukYMC_FkG0D137JXBlj5DffWEL4Y4HHhmeY7RwwLM4hqac9OZ5aOKLMNtWm6VG5-rp01GXOcdQO5Hl4=s220",
+        "view": "https://drive.google.com/file/d/1-i55Ry6pXDuRJLhhdHzGiHsouTrRKjdp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8Ij7Ici0mfyvI9wRz5IKa9ewyS9NuGZC8-tRR5loq6MpT7auuBlVk-tikgTyrkGoazTxrdVWhYf6P8aAEEqy-B16x40Fe1VFBJYAyldtdn-CtXiw=s220",
+        "view": "https://drive.google.com/file/d/1CeOSchYpeJe-5_UR_j39fDB66RUybIOY/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcpMQMnKAxMeAhC0K9THSjYF0gh0ZpNpyPrzY8BDkQPmtFxbi8bA4GUJvITETLpaFNXR76dsghKfathLC9p6jd2K0d7Jgnu3ZHdHP_jJHsPvzAQfQ=s220",
+        "view": "https://drive.google.com/file/d/1SQvLcOvAe7aTbiqku2_w5fF4ftaiQPXl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwC06OcthQEJXQT0yncSNAURz0Gl7CemEs_OdQWG9-diKNxU9wGGZnHPAUHr65LNGnZMpERobMQhj-Z-X3VlaoNOtMxx5ni2xoAUA44xaaVVspvp4=s220",
+        "view": "https://drive.google.com/file/d/1vgh4l7i37WcDrrT0xLya6v4qaGkVSWPq/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUTwBgJfKsfeXuT7UzPMDFg0UUWHlBlp0qVTcBOjbburZxP-Vu-HU_Zxg_83nUrVQj4aiPHDmNrRIfuELSsrB8oWjoM1iUd7tz5OWACX8QILNeERY=s220",
+        "view": "https://drive.google.com/file/d/1aA2WLg2vVCULpmuxJx5kWqeHXzl9WcKW/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqf0wEVgy22QwX5MTDCjmPlMM0h4YaGNb6wD7HQ_uNbpOZqh_3bdbHeVj3cwT1BNcwPRrHHe1QdkwJDCk2JmG3fLPaNNXeXGCASH0v12vB6h3f4A0=s220",
+        "view": "https://drive.google.com/file/d/1JVcBkHmllW-hr3i2-C3MD_8Ys0msj5K8/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7rCBjpOgT3z3HVoqfydl7WtwR-u_5or8BEc7ywQ8LoRpwyjrJDEpFdpGyEApYZblXifzit7aKRUR_47iAPhE9JhHAk7bqX6bor1_tiX7vdRIGlVw=s220",
+        "view": "https://drive.google.com/file/d/14sVKAMhcS_eRIZGbOgADHjjEpl0a4_F1/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX5yjEzzQNlNbSApQudZEe_4mv9a0bxeVazaj3TQR6HfJ8DXNE5SZAjzO77d3ZXywgdTlcJosc_sJgLi2FHESkhVU4TB61KvIZ1lIklzeWHiJ2n8o=s220",
+        "view": "https://drive.google.com/file/d/1CvSYQqXrsqmsgbAhJnKKyYzb38byGTLH/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410285 - 27/4/2026 (9 FOTOS)\n  → 410285_inicial ✅\n  → 410285_folio ✅\n  → 410285_corte ✅\n  → 410285_demolicion ✅\n  → 410285_caja ✅\n  → 410285_liga ✅\n  → 410285_mezcla ✅\n  → 410285_terminado ❌\n  → 410285_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410286",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410286 - 27/4/2026 (LEGACY)\n  → 410286_inicial ❌\n  → 410286_caja ❌\n  → 410286_terminado ❌",
+    "_folderId": "1R2mFlwNviNvAAjJmT-WHGK7dv_W4o2eY",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgNdgM4hjSYK1EnqrZLVYebS0bt0aUUMyg-78v5TgcCYRO3eObHplBu44INrPFfTojJSV1Nc-dpkkST-Dr6GNiUvTOTZYnFprwYXgxzUMFSb4Gw3w=s220",
+        "view": "https://drive.google.com/file/d/15KQZ5llhdS7MKYy1lKeGISThS3ISYzCc/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKGh3CRaFbunowRomElmzNRw4w1yvtkrckAq8SwjUwIxmGRR59cxhA0kwvZHoAosgKRR-kB_90ilJdoPBFkwTt61q52ydWRY-86CErXt4l10hqIdo=s220",
+        "view": "https://drive.google.com/file/d/1QlWNd10oEBrR5YmcTC_lP6FiUNCgPUn_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZgYpG6_r93YVIL9_v8PpoukS_HXD6ZD7h2zF4dYyqDdE7PyZQI7xqdph0lbOLSLLWIs7UNF3GEjbsFIzoCLqOJC-AZxCCZsviWg67U7YdkKCLI6w=s220",
+        "view": "https://drive.google.com/file/d/1PGUiEFmPUZR0NQyQvPdtyhklbqP6dg5C/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0hMPuaujSmI4pNmoN7QjU_XNVAgDzxYnDxAx0F5LLPBkRdSP0KGgU_YUZoxQB5rZxHu6ov6e2TVDYImC1EZqKuGd2853Trzk3lPp-QoNNpDws2rU=s220",
+        "view": "https://drive.google.com/file/d/1INUjMYLuZ4tQUep1y9PABoyw50AriMMK/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdzj1kYHVrQ7dw3hsDTfq4vkiEkorRxeokIPHDfCzwF152Z0fRajJcU1dOm3rnoMzwmB3D3rZm7DVtqge8KjDpX7WKLp1UDj_FzpuNQS41tdo_28w=s220",
+        "view": "https://drive.google.com/file/d/1HPW7hXfPgDPmXpk538Huzybukfqi0JiF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOPOAHT6Ah4P89Vwtis-d8YpNTZf8oq7A2JzmHB6Se3CTUJaHKXlddpsJcdOoojSonZSTFncfOJIzJ3DKCgFjmpmrcYmrEbXYNG8m2_Lu9-xLFDWQ=s220",
+        "view": "https://drive.google.com/file/d/1joqA5OhThydlyblSr4vFMi7UJM2-ZAcg/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPk5ctc6TQobpReCznrr0tqWNstWc5kiq3ceXCm_l4XXJuZpf-ZyVZx0XpwzVE48ZOp-iPCqLZcZGYhG-s3KhwNITjt2MDC7JCVtuCJW3bcvSHUc64=s220",
+        "view": "https://drive.google.com/file/d/1ei4-T331qvQWIf__9nlSq-s7M7birrTl/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRAAy3U6INSPUYYyQOdD8iQpaLJOKUcDBTmCYSZF6pKV1nZY1_S1eY6RCYpRujN0h-bkiUzL1-5gSpaEtlYAmCNJrLYa83xRDe0Egc6q0i75LeDVQ=s220",
+        "view": "https://drive.google.com/file/d/1CFqHa5OX2kgTHPVD8ST0_Q8mI3odPbLK/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410286 - 27/4/2026 (9 FOTOS)\n  → 410286_inicial ✅\n  → 410286_folio ✅\n  → 410286_corte ✅\n  → 410286_demolicion ✅\n  → 410286_caja ✅\n  → 410286_liga ✅\n  → 410286_mezcla ✅\n  → 410286_terminado ❌\n  → 410286_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410287",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "MACARIO MUNGUIA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410287 - 27/4/2026 (LEGACY)\n  → 410287_inicial ❌\n  → 410287_caja ❌\n  → 410287_terminado ❌",
+    "_folderId": "1hlAbsx-9OjQT4m3bw6gsJBuMH4iEGvrG",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPj4GXOU3hhQ8GUxkJLtrE9x54GlRG8LjJTp9kgy3GTiVQ64LHbMLjBvt59L8afElWaNKOVTfdsOeA036-L0v5dEGpHIuzV-HauYnBtO2Qo5AsIVyY=s220",
+        "view": "https://drive.google.com/file/d/1ZhCYMQ_9COzjU2-Djh66t33fHoJXHFty/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnNwgcPK7NgnpQet1yJfQrX5BuEPJ6fot_qBg0Bt61Vf4DVRaqt82OWcnrorWIMW3cWxz6MCPDdQoWYEJlNBe0aCXszIqymlNYHAZGcVJU3WIyL1w=s220",
+        "view": "https://drive.google.com/file/d/14ixvpJegWk02F7Ug2lMPnUOu6XrTw78q/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgJyCOgfc2ixVvtZhup7NRqULejuhYNjoxWGl-LnJJleYmJWvLMz_pKLeprPBYjwLFbNkxOLUJ2v8K-btSnr1SIhlHD9ikoAK2AZs6N1JFKdaMP8Q=s220",
+        "view": "https://drive.google.com/file/d/1fh9_3E68tMtbHvqwO31b2GuVNMLQLiYA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIvHZVcCFJSMKia7wxzVondIJITI2NLP6mNHcAKX1oK3UpZ-3t7zzgQqQp9lWfD6D4xJloiKGKsPwfr_M8ChQ03fCj-9mKasW07BA0aZX6s7pgwyw=s220",
+        "view": "https://drive.google.com/file/d/17SIr7zQV5xfMh215Mx7pG1uZsx9TTc8u/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcyOalCvT4STJ8yiq8rCtUZ-uTFDAPnSSUEi7j4MBFfP2Gs29ZVmHqY8FjI-LoR-55S5F5am2oZWhKsub91fw9eoGP7T8kBs3OJVvPboai5az9-H0=s220",
+        "view": "https://drive.google.com/file/d/1w5lWJ6ManknYID8AAjhi-qE-5QdLcG65/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNCpaW2xwgzitG_yeeVady61oRwLUKttHNTSa8tsyDTIIO6ASetoxPC6cfhpAs21UVbc66BZByVJASMPL9IUjg4oMbNXsKEQq3O8BMvF7dxgiMIfU=s220",
+        "view": "https://drive.google.com/file/d/1ihpjj3d7p0xGXK9Nn2Ebs05029vxKjBu/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSzXFq5M-2vj7lF0Oy4NWWun4PLwBDV70KPcUqiqLQ-BiCIVrrGB6iJT8LkaxcgfKEcy1FatkZ2EdzdtaIK48a1pS_6K45B7bH0gqdN-j_p-e7YzI=s220",
+        "view": "https://drive.google.com/file/d/1Ji2RMMH-BzGjRyrNQoljGERdRomoNVG0/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz1UJHDe8SMg6vm71710YK4C-NtcGxQV-mbq3lTzGA2ER3_pnvwWPsa6pU0YomgqtvpDFWoIProYBmhAUBHGVmseFoQKHE-fJzc6-zEOpZHmUrv2g=s220",
+        "view": "https://drive.google.com/file/d/1kmn9X-gPTb61MBYIBT0zbgdeyBO_g9Xf/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410287 - 27/4/2026 (9 FOTOS)\n  → 410287_inicial ✅\n  → 410287_folio ✅\n  → 410287_corte ✅\n  → 410287_demolicion ✅\n  → 410287_caja ✅\n  → 410287_liga ✅\n  → 410287_mezcla ✅\n  → 410287_terminado ❌\n  → 410287_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410288",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410288 - 27/4/2026 (LEGACY)\n  → 410288_inicial ❌\n  → 410288_caja ❌\n  → 410288_terminado ❌",
+    "_folderId": "19yl_d0Uy8ysrGaQTzsCK9FuNQGHC6N4F",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUjV8zJeGdgf58cUpn-sb2djvdaaOlnMgicMwz9G46F4qgwlZSlHqH-1Mit6fuFSWodlh2rVa3IZKE7VSCYucwtUTegIjZPbsCGusSfgGVB7bZrX8=s220",
+        "view": "https://drive.google.com/file/d/1odsIyWLik93wcyKy1q0XCkD7iVA6Yx9b/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9aXynLQGaOENUlcCZpdYwdepX8vpJ0j2sgaQCseNyWA6jbb5DkDW-FyLQeypCw7xfIW-OLDHm-Q5n7rQSR5KHt-mubYM6zwhkeP7vm8GvS1_kfwE=s220",
+        "view": "https://drive.google.com/file/d/19STBdTWY-5jSIykcUpjrnjWRwNPYqn9_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlKnOAxvPD94DckfsTSmCeCqkpkBIPqAPl00vNpR5KhqVLYbueLdogVFXXfHRR6f6-KusInAYr7GTUwPU92ohQEe_FKIpIzTvhuLdoo6n4YZYUyl4=s220",
+        "view": "https://drive.google.com/file/d/1GbITOXQyjouft7HuhUTV2yPY5JBfkJAx/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPbu2Z8ujySeN3VhPaYp2NeO4GVZjqOmj_qtqCHzucFHb2uVfPJs6y_ZR44-THIQvWNXxkV4tlofWP8woHuTbbGhWskdVhlbohqX18C6LYDifqJK8=s220",
+        "view": "https://drive.google.com/file/d/1QuxyY6wXTUyOV4EdFN0pTmcaarjOlNfe/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuzeGwap4S3I1xkkMrtzsUy-YDP5ZdKE1EYBkI2Nk0rzJVL7hbB3qLkTFMnd899PDVa_FGzrlUq_-BHRfCYmblwek-lH6L_8yaJwVPqEJMMPn30E4=s220",
+        "view": "https://drive.google.com/file/d/1DwWIOW0tXIUkDapbChYMJOg5WU2uqUTg/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFUor9zfIoyldZbwnbxXmN4vrvJ8ButosQeoTOMlJJAwt3bHadwav4Q0rGHkaaVCJC6VhWWmcVZn320YDng8mFlQ5DTkUOz_BmTm2gT2tLq46ZMZQ=s220",
+        "view": "https://drive.google.com/file/d/1_JlXlfr8bnrv-E5BNd5V1eWeQfgkbMGe/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnU0dOhsyTe140Bo1vWsCdrz-c3eEob59NVfVWZsTFhV-bFBfvjBi3wGoAomEkRHA4p7_eQk2-jT35RSKOildno6dNT7XezVP_nPt_wVvtDq9yiFM=s220",
+        "view": "https://drive.google.com/file/d/1pfmahVjuNZp67asOEoTRoNHH46hBnVzZ/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPk-VihJzShT8lwFTS8voIffw43qW9WETZZynnFqcagy7WwZiQMWKzK6W_-OQlueLKa3RKj9yzmJXHXwFciAjLm3cqUrw2sGuciwU8SByDG5cZW94I=s220",
+        "view": "https://drive.google.com/file/d/1ragbPbqDWgm8DRO8LGjOGzjR8LjhJQU6/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410288 - 27/4/2026 (9 FOTOS)\n  → 410288_inicial ✅\n  → 410288_folio ✅\n  → 410288_corte ✅\n  → 410288_demolicion ✅\n  → 410288_caja ✅\n  → 410288_liga ✅\n  → 410288_mezcla ✅\n  → 410288_terminado ❌\n  → 410288_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410289",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410289 - 27/4/2026 (LEGACY)\n  → 410289_inicial ❌\n  → 410289_caja ❌\n  → 410289_terminado ❌",
+    "_folderId": "17QNyPb015fBt4LzPbkEm-OS3xNyw7mcS",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKswCTYs87FhHxI56J7ARRnCwzR7sXAfy98yDF3oAo65WiaY4SkrHe4f2N4Bi027pqQyEAZvKjclZDA3vCM3BMZCM2BGkiYYbV3GT0X62W-M1e718=s220",
+        "view": "https://drive.google.com/file/d/19V94ywkuZcES-4Uuh5qPkRszZhQ8MqMG/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOl3eeR1jf7wfz0YsU8250qYQdrDDJqRBqEjco80Fcbrac0vKcF4bHVwF2h7jc-SyNK7qHJDvHBxKWAONC7k6gcs8n6GJxFz31k5Je4bzzYxf1p8iE=s220",
+        "view": "https://drive.google.com/file/d/1cBBF_0u9M1fHc44NkihKPrKTWXaQJsY2/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZcbOtfuFLAQiBSAs1VABXNhHIABpLPRQN1D64JZBULWa8CnhjZH8GS5-QmmBuNI2Ndu74gzN35zzBDcQzlbp7-q0db245Jshnil-1S0LEQ0MTAgQ=s220",
+        "view": "https://drive.google.com/file/d/17-pRuX1vsAI1rYwODPm1wK_xetQcaZSP/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvUrwoRn23aESiuasWjMJNS-OzCZGGJsfBmURt_TPN7XazIUqGEynw0R08t_fX8TfMiWBNOVT8wewOFH0LxZdaFQwV2G9CZC4cIi0BZrqzynh4JTM=s220",
+        "view": "https://drive.google.com/file/d/1TbFWK56TFjj15D7sRSAVRfQsGp4eWEHU/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-ZXTcOt1v57-sp81z0o06spsVQDCb-irQGFaPOSXAr8n4jZm3t9FubVJmMkBdzfKUF-sCf5ckqXU1yC05pyTeW9LkrXvxvc9PRo9S4WqjFCmc9o8=s220",
+        "view": "https://drive.google.com/file/d/1Z57j8dVI7-SGLRBSCC0gIltQtN8rCC_W/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEvHLAamqZoopAbaoG8jDvYSr3P3l5_Pfw7eooGfqaXrbRrZylXx-quyCIidvucirSYeUQ0A5LjCZA4om7nJ4yK0OpZEhGE9iKL0BGEaJBvqbPdtE=s220",
+        "view": "https://drive.google.com/file/d/1xWwoEXYGCjQr2Pf73gB3XGQqd6LCJ8mE/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTICRViLoaldu_lpZQhSN0KYWNGZeeniT-k8G0dcBcWZcScTL6c0lgz81GeT4l4x-VfTKsd2hUBrblwSWc069OYxl_y0lj0OSmytnio-AovHcOcx8=s220",
+        "view": "https://drive.google.com/file/d/1WT9_FdOCHeS_-EeUlCpLthN3h-Nyn_LB/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQ9-STTHijfrKwj76sYr1ITs16eLnBZkL3Vh54phAGXmTAUj9qJpUBjCS19FvXUxtlkEGGoI9oaBlFJVzW6hgBzI3H4TwojNPpt25goTbvzzJNnzQ=s220",
+        "view": "https://drive.google.com/file/d/1AD1SMLS-ADAKPWttwK5OpjiAJUxt8zAG/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410289 - 27/4/2026 (9 FOTOS)\n  → 410289_inicial ✅\n  → 410289_folio ✅\n  → 410289_corte ✅\n  → 410289_demolicion ✅\n  → 410289_caja ✅\n  → 410289_liga ✅\n  → 410289_mezcla ✅\n  → 410289_terminado ❌\n  → 410289_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410290",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410290 - 27/4/2026 (LEGACY)\n  → 410290_inicial ❌\n  → 410290_caja ❌\n  → 410290_terminado ❌",
+    "_folderId": "1cMpw3oprKgwcEFddRagCd810VjttPK_7",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrc1K5-c-SG859YhSPsjoZLJ5bkdWNkEHeGJ2B8pA_0ybhkR3M9iksC3hrF4fySMZalD3l_gXWeuGzRsf0_vPjIHh6mpQcYMG64a_sOVaED9pPY70=s220",
+        "view": "https://drive.google.com/file/d/1nno2G0iFAQrm2aDitrnKbhqCNePmgs2F/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqjIFHJjpxOCgs8WNcvyyKSh1LOo24ctROUsMIIm3vHhpOfUCVeY2-_IMVPO4uwyuPztvletGKluW5pOY2LXTTSW2O1dDP0fXCwt_E--1oi08HyOg=s220",
+        "view": "https://drive.google.com/file/d/1ISMp-edHz0G8w9xtPLd1bJjkyuGNAw9a/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-eT-4jJjttJDsJz9oFHwvz_yJ0VpOihmLvbJRFQolrSBr8GnRlsl7Y0Jqkr0P6SZGSAl79BX9QAsaEuUdN2-QDJSuhUoI6uMLnTOwgSyugYRFsQo=s220",
+        "view": "https://drive.google.com/file/d/1O_6jOYR-djAJQzQIvVqXG2MTOFdkZSJK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5mNg1LAiy4pOumFJKiU6nexJKM_MBJbOu0VoXSUNUDp7VKHeiTFSXUT1zTNyUw2-ms1s9DCzjd4hLcdaoeNC3Zs13WfcuJxUr5JAodp5MvGbp6r4=s220",
+        "view": "https://drive.google.com/file/d/10yMSRXr_3u-LGjbUhhA2Lo-HgcHJxzNy/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXY_Wgo8lFnK7vqFWU3rtNGYHkd5y3CFei3VLtqx9bcAop_kJbJw4HxiuYROZqsKcbAFZtVBwLUVc5oioiN6OfbELswwOgz8C3qjRWSVrAo8MY6_4=s220",
+        "view": "https://drive.google.com/file/d/1q3_iY87LChXaidMbv7WInILynXo_uM7q/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7O6yIRb6zs_cTzXdfxMs8f5PCmfsy9TCzmoBFwf0HJXnM1NhXFodOuxalnBsUj3ZujbSkuDSV6LeR6f5ISuTl8I7D8uWSEtKtT5Y9TpYNAbk9jHs=s220",
+        "view": "https://drive.google.com/file/d/1yO6apnLYBycshEC6Jlrx24z6I9YKHYxn/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDFYfpZfnQHNcFSkykihlWKBxkBmvVEQa89IExs6UOqDFR51bOFZT6eHTLR4-YUkL4zk3p6dJsL97L6dc421huVGXef6vV8KNrgI-wGVeqNMgwNUo=s220",
+        "view": "https://drive.google.com/file/d/14dZoO81AVY0Sb7kPWQEgLTy1sKDRN0ZN/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9uhBgoCOuky1d_7OnhJaZRFW8sDkEsmmLZ3ea1vmSht30Gv35S5n6mlpzLeRaSHYdRepx3CIopXwVv9hdjnzHnK_GlJ2wGLCDmYgIXx_ZQvfFhnc=s220",
+        "view": "https://drive.google.com/file/d/1xOkQqLx_aBTxDPZ6izjTApkRi_ALjpwo/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410290 - 27/4/2026 (9 FOTOS)\n  → 410290_inicial ✅\n  → 410290_folio ✅\n  → 410290_corte ✅\n  → 410290_demolicion ✅\n  → 410290_caja ✅\n  → 410290_liga ✅\n  → 410290_mezcla ✅\n  → 410290_terminado ❌\n  → 410290_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410291",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410291 - 27/4/2026 (LEGACY)\n  → 410291_inicial ❌\n  → 410291_caja ❌\n  → 410291_terminado ❌",
+    "_folderId": "1N-HWmqnMdTDxSj6GUm521xYbOeuCJWIs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVcqLlynZEDr87xFWNg6CZd0x6GHk4IvHRXk-uWSn5zf3FYspUIpk-8FIk8Oy8zZFykAq601OLyO3GogSQg9bCoRYmKnobddcg2CcA83TPfuZtsmQ=s220",
+        "view": "https://drive.google.com/file/d/11PjYBbdFBd60hGR8pcq7PBQhUeVm_y0N/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8CXEnZ0hcbtiyIilalRq2DPsTEEsYtcq0-QE5M4tX7_n70ljCEtwX6JKFmSaaF10e7jxHuO7TscD3_aSlLDwUvDJdn1ZS2lXAb75OLz5G_df1KUE=s220",
+        "view": "https://drive.google.com/file/d/1RfebP06qPoycJfLYDPo6SvJNV7hbqoRK/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzG5CqeOP4fIjNKbCHvgtq3AbvtLnvzB-dLpONg_7bGu9_PjlaDhfh2U4rOZhmx9lHC64FtQs2KpB1rUylEB2P8h5KWEYymeVVsNuP2Zq0zgoO4fg=s220",
+        "view": "https://drive.google.com/file/d/1DfoRZlxIpgW9HvQac9IdYG_oWwVZdsvW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM43ycHP2p2neqBvL8aCE-mLOf7f4wqX898hoOBX63JL20ISbry-Bla_9Q0adlWKUHRWJtdg20zR3Ig-qSETS29ooR5EbTbcsO_PPBZHPF7mgn59n4=s220",
+        "view": "https://drive.google.com/file/d/1uBuNP6gslPNDHrYJFbKj9UEhhzYEEyRv/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkw-uwxehohDWerV9buNXQLW0-2K6mvCP-y_k2Ufec_qKLL7J5v790u1RBPcflHdiVQTW6g_yRv1nE_m2byooRdJpygMGTK-dr-_oFS6UVbKsuxuE=s220",
+        "view": "https://drive.google.com/file/d/1ES_Rx2MQsasKnyRNdNAXzNca4hfSiHmk/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiMNKjXVRK25Amod__gOFau01mv6uM8mWO_aafSHHq_M6wLe1HyYQx6EfnEx38-87CKsmcc4l3E5rt_-jLP-AJranHNSptMzAmW8U_y_5g_U-9jMo=s220",
+        "view": "https://drive.google.com/file/d/15sUpJM3ZCtNcHFVa84B7aLrv8XP1hEyb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPExrQxoZSH1ppJ7AoaB0jvORqNRkreKeNppkbFcWTPrV8jPi_VS-Vmhm7oScFdJ2HawRHyQcIBRFUEZrwLQ24rQv7jYYjFvosOzKKyO_sSBHFPR7Q=s220",
+        "view": "https://drive.google.com/file/d/1DQHqOiiz6bHblTFB5vt2t2GeQVFECxLP/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpd09Lj0uE9-vt8ArsajuwzdSBgDSBXzuTP87dgv7mFS44xQ2tOrz7iQq6oTfPc8pA1lhYXMDw8DcdEr2YaxzQ-DVcV3HBkcJG7DSCKxPGSlhj_G4=s220",
+        "view": "https://drive.google.com/file/d/1xPYw7lPWGuFhGjhuwSmrMqJx_6tPdPLY/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410291 - 27/4/2026 (9 FOTOS)\n  → 410291_inicial ✅\n  → 410291_folio ✅\n  → 410291_corte ✅\n  → 410291_demolicion ✅\n  → 410291_caja ✅\n  → 410291_liga ✅\n  → 410291_mezcla ✅\n  → 410291_terminado ❌\n  → 410291_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410292",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410292 - 27/4/2026 (LEGACY)\n  → 410292_inicial ❌\n  → 410292_caja ❌\n  → 410292_terminado ❌",
+    "_folderId": "1-bnhcIDu666yd46ZaNfSHRbFRSkqCYN3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNx-8VU6OpESzDH52sqBBa45lT--huq20KOwZ80bN5qi2dZW9HELvsh3wcBhXmTlX2ZeGanxDor-pJykTrx1kILpnXVuiKLiKgkBoJtoWGQ51EovQU=s220",
+        "view": "https://drive.google.com/file/d/1pvlxPagokgVst2P3nFEARvakauuBd-Gc/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6qGXU6m-jUC22GVsdYOj62hxibHihBBsx3xEHG0LD0M2W8N5Ckx1IBDSBwgVq3LEqirrtVlcwipBIzo_x1L3UZDN_mCAj5CgG8iJxl_9-BFrt7tc=s220",
+        "view": "https://drive.google.com/file/d/1EiA4p4fiJ-iu_0wiq3n1vtg5PqC4ghLr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwE_Ezekd06Ao1qpWCN2cnl6J1BAogP9ZC2D-ZtqbnytACGV9bwXMhTxWRkCGjOEMG5eMiI2MAa8ydW4weodjnpQoJd1pGHq4Zj4IfmuhaOauCfNE=s220",
+        "view": "https://drive.google.com/file/d/1N70-vImyCbK3-lJISF8aGx26uBKVyBQt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYWxT0NKppWBXo6R8XuEbGzSlfjcfYeu4sSntmlXAGu7GhP2P5DJybJ8o2MSMtMHmA1GZNfAAg7Ep5jNhRQ6BVCh6gKMg32W2tc_yfvp8g2DtGnAo=s220",
+        "view": "https://drive.google.com/file/d/1DP0pWAn1ds4aGdqSa6Q958Nh0Cq0Cd2p/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5c10z-eZOqotDICYE9z5JD3k069nP9CW9Z9zruD75amA08uC1ZXmwblNRmB7BLq3Qddg4AtseYjE6F-pWWll2glYTRpuRCcrFaEYQf4pcVA1YmIk=s220",
+        "view": "https://drive.google.com/file/d/19LBaGbWdIUzTYp_5TGfDiBa8j-T4h1nv/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxm0fF0f6-8A10dkU_8Fz9EvRtcra8J9mJA4P92kAXJF1w7TDSx-Hz-ls957cTVeorT2ThZgjaqlwIXyB_Ccr-VvQUtZB7tWHevkn8BSlPASkPt28=s220",
+        "view": "https://drive.google.com/file/d/1bepgB8K6mGe3i3VxQ51Om9EItzNVKGMS/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-YpkHFEKkvQH2Hfem-Xgyo65xdhlWbKSbS3r1VDlh5fL0gASztJ79ijd8RBqWi2H70RqHMIMws5SYFS57WiKI1f5p9qHNivx2NlhSGK_jwp_3S7s=s220",
+        "view": "https://drive.google.com/file/d/1qY2PCoPaNb6B3S_c4Ww2tlRv7ujIMz6t/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwSRsWiayDcoYSTK212JdB1MSwnw5ftHnNWYH2CsO5cV7aliragURBAVitDPx_XO9LLQGWdpjjPlvFwv9n9GPHQqvSyj8UGi1Dh36EfLC5ifz-x4g=s220",
+        "view": "https://drive.google.com/file/d/1OE6szSCfRzCaz7hDrK2CwQQATM8UFaMF/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410292 - 27/4/2026 (9 FOTOS)\n  → 410292_inicial ✅\n  → 410292_folio ✅\n  → 410292_corte ✅\n  → 410292_demolicion ✅\n  → 410292_caja ✅\n  → 410292_liga ✅\n  → 410292_mezcla ✅\n  → 410292_terminado ❌\n  → 410292_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410293",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410293 - 27/4/2026 (LEGACY)\n  → 410293_inicial ❌\n  → 410293_caja ❌\n  → 410293_terminado ❌",
+    "_folderId": "14rOnUtcgy5_3cOFFd6WKkVRTZU3TehbX",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkNTlYYVc9V17G0urNCewFL1ouV4y58Ii5MHOxZhPaemmEAyYoX2clW6-YYqnhYllnOtM3QrvXal4TbtYvEM71SC32MorV_u_ovl-xQievUzuhT9w=s220",
+        "view": "https://drive.google.com/file/d/1Dg10OOgR7ekF7YmiFI1Uv70Oz4Agpdwz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcGfF0uBoCTgFtrq0p6cI3EfaUNETKpyYuZuNlDPreG4cG3rwRQR-Sd06ylihDiF2_2wIAqhd1KJve6AUNu2xtpmRp9oylrOU-thHQLHHLDqopBD0=s220",
+        "view": "https://drive.google.com/file/d/12JCvZijLy5edlJn_c3nrve14zJ-t6WEo/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7rtQa322wb-eFZHeP09Yq1HwXk8YUwSZT0-cf7Acvd9sHji8Q2cTflmhCmD6imrETCKgDf5dkeyM35f7FYlsn-cXxSzE5QL1kCDZXFVd91p5Vcs8=s220",
+        "view": "https://drive.google.com/file/d/1Dt-sAja4XTPxS0cQhfOfi0C3zsDOY_mg/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMF_j_OFfMLpOCUVxOZeGFR6lkQ8swRsZcnbS7q5P74X1R8en1VirnhWZgXiu2om6D5l1XY-EhppnJ9gQC7HKDpmOivALYUzSqHHw_HZx60Qu6KiLI=s220",
+        "view": "https://drive.google.com/file/d/1ws7QkckNQdqI2-WR080538Rae8EWHwpX/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjfNXjN-5nmBJ_Ib_aIkgJ2LxhH94IJSZfUH5WD2JFj31Qp6qpxfdq3uWRGEXT-F2uHsFVQF6F80BOTH9KBgq-S8bjzOGzy_kTpwaH5ha_VztN424=s220",
+        "view": "https://drive.google.com/file/d/1bBAnyHn0rRQTZCt8laU2YPFN11XROzrz/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLOcmJitwsEbl8zUwIpJX6hgtznIl1MItmqSRvaqmsHY8TF_XS1v96Xr8b1hPGWH30Va4FllhAPps486rtJY-PQTokwB5EeaortMP7Y3UgXStvGys=s220",
+        "view": "https://drive.google.com/file/d/1EBWhbqXqKvO9WZy8XXp-w73GRLoMq7zd/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCSwQHnUaOgAbfqQY_Wm1SdZy6HYIo2eG3jEJH8Bsx5ZCaa-Ah6ksqZhQ8_s4lzqYSKCLMuHyqlW78S1DnH6Kk9ZjNzlBc3wxV9vQAcpGPzWsefpo=s220",
+        "view": "https://drive.google.com/file/d/1cOlgJt3-X8OpWZF6iyYdJ6Cq4AhN9lVM/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNt2QyOOhZde95XD0FedB4gI_WMXuYOlfZSFxN3Tv3SzJtIRSnnlYKcFAtk1iVBBjYH01mj3DdTSdiWH9z3wwJlg3K7norA5fWSTFQrALDizvAHZFo=s220",
+        "view": "https://drive.google.com/file/d/1yYljErZhJhUddbcPeZyXU45efEh2-9N0/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410293 - 27/4/2026 (9 FOTOS)\n  → 410293_inicial ✅\n  → 410293_folio ✅\n  → 410293_corte ✅\n  → 410293_demolicion ✅\n  → 410293_caja ✅\n  → 410293_liga ✅\n  → 410293_mezcla ✅\n  → 410293_terminado ❌\n  → 410293_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410294",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "LANCEROS DE TOLUCA",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410294 - 27/4/2026 (LEGACY)\n  → 410294_inicial ❌\n  → 410294_caja ❌\n  → 410294_terminado ❌",
+    "_folderId": "1uujXCglmWANKapMHbDx-fyr-Un30IUKR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8PeqcOfny4qGoqnjBJcugctyPDUMu1PDpXcTFJh__ePS1ahTYWJ4Sc4T0mHhfF5kOQvM-5kZdvHqcosEzHZm1v_2hFrWUpFqca6n8Q5ueXt5Bta0=s220",
+        "view": "https://drive.google.com/file/d/1pZZE2JBS3gR-53BB_aY5A0CH5IY_AT7U/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVjEWL7GwR9vPstjUqsiBY-jXv0nrt2_aMQwz-D_LKK69pvv4XjgaE1W4CWfNQerEEt_8G3bhvj4ONCLmjKKSDggDxVrcX0NeCSBrXMlFyfwfSNvU=s220",
+        "view": "https://drive.google.com/file/d/1nI2-F_Cg2CJ3PpkjoE2dTP3P4fOal3rJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMb2tKE_daEceOpa_5DHxZ3oLNQICJim5FXPtqG6n8KdJ6B928g9HwcMD_L4MLG1o9qi8zUWXlY2PBM9hq7g1eO-9HAXpdhl7YZBY0czGIhb8Dmp60=s220",
+        "view": "https://drive.google.com/file/d/1ejo5tVQlCXwT0ncjgFQELu_Bnn8HehLA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNb-pmkCiYxSFNBkg1MSI9Tbl8aULro2vMnx534-ML68BJt_WTI0uY2teDGMf6g3HJBhqSkdYx6CtwHTPh-8WxQ9H4xnG-ScWWpbHyehxe3OdV_tDc=s220",
+        "view": "https://drive.google.com/file/d/1nYV7ht2sf55kJPl4fPQvdqEhEkC4tT2v/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMxuA-Cl3_31utrJcIsPqCbK_-m4nPg85Y4lRt4fWMewawmYaaP7U3ci-2hiEOLYH9Di0dA3IxJYoT-yZ3UyJ8l0ewnsPlUVaaZg9MXHEkAlrCMlM=s220",
+        "view": "https://drive.google.com/file/d/1ZDzX-2NroCK9IMzwvdpRgQoZ-Fcm4hTn/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeWGUjxtTXgly88hOiaLFXd1rlZ691mDWaY48f2SjfeKzxYufS0pdYM6rudgbHKSBYvRyymn1HviBUwYD_v4PVDmqmwPHZnLkCBeRcfgQuPJ3b1iU=s220",
+        "view": "https://drive.google.com/file/d/1ziXK8iNHOwkMo8005BngrYfBSqL_75Jv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOP6DSyN1n80OLypEbevY7nlMiHbC3XAx3qTH57_gCSYTPGbGmb_N_wMtKzbdyTMw2Z_zVtxZYnufqz7r0nnf29u1Lixa_Ydf7Fp5S-Xi6FN_ntR0M=s220",
+        "view": "https://drive.google.com/file/d/1YFe2dwhZxshaf5xObR3pKZhhtWZWNA0Z/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_8zrdggDNYFQM1cwVuJX5mgmCq7DL2Q6GnjmjSMfSJ_pEyDO6h-g-tl2dzqJzmJzh5MPtNhvpgWQmmRERQX9XyY216ofPPBY_sbhMsS8RhMIuLCE=s220",
+        "view": "https://drive.google.com/file/d/1CJaicxiRjZLrwa7b1aAl_5LWkOwxTjcI/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410294 - 27/4/2026 (9 FOTOS)\n  → 410294_inicial ✅\n  → 410294_folio ✅\n  → 410294_corte ✅\n  → 410294_demolicion ✅\n  → 410294_caja ✅\n  → 410294_liga ✅\n  → 410294_mezcla ✅\n  → 410294_terminado ❌\n  → 410294_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410295",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "15 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410295 - 27/4/2026 (LEGACY)\n  → 410295_inicial ❌\n  → 410295_caja ❌\n  → 410295_terminado ❌",
+    "_folderId": "1T-zkcoLiZ5GwHoYsZRhy4z6U47HlzuWx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKyoH-_NXi6nDeSoV3P931d7fE9gC_bIlWd5AIxbCF-C9e8a-qsbm8dt-pq8cuJjDoSUTQnLXOmHgSK1L8Ym2YaV1kWBQoIlAhjq9GbrO9aWgJeIw=s220",
+        "view": "https://drive.google.com/file/d/1s2ldYHfxvtZbBUCZ3jdOFXb4gqwOOwrO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOf3NPKCLf2aKKp0ZRDfnTUGqavtqyFkKWsnc9PzGJq7TaV8xBh01hbjmnCRdQHs60viG-yz-VAmblj1GulNsoC3tDfnYcHqpFGp0ToYWdLh4FQEyI=s220",
+        "view": "https://drive.google.com/file/d/17CqA2lizbmICIx3IMoFzCOxYIknsnv_Q/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCcgZRpzFxmtQFdoMlQMi_G9Tmese8K4T9vi-gIox_t1OeRhoYih49XRM8rpIup3usbu1NYWZGieMsG1TpM67qxBflMtukGqU8T_rhw0pQS68dMR8=s220",
+        "view": "https://drive.google.com/file/d/1Qu-Jg64xsnGTRSPtL5SU4F0ww5PosgVt/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNf_njPXO5eBoMMnKgczSxfFbJi-j4vR8B3aTtQsKb9i_3JNVKgcdVyzwv2sHKSiugB809g2GdKERkKONN6EcSYsilxba85YDjhN2UohWcMK7a3K9w=s220",
+        "view": "https://drive.google.com/file/d/1oHJfD9_3M6HSFNTifU9-oKkd5Ax7P5CO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHZVfYsR7aRqc9TFj3T6HqNWg9rpMbp8XZScrU8ViB6fU2bzZ5-ujERvHDtUsymbSAfuVgPTsrI4JPhn_el7gdvYMC9vME2ACItEwGa8dctyM-sGI=s220",
+        "view": "https://drive.google.com/file/d/1UPin7QD3C5u85s6T9McGyjsFXPUaFak4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfEjFC-ES3Kh1kgTmcu-OE1-VTSSzQalkoO_UlnZpp2AJfE0JV5SQwXW-ndS9qdbVtJfh9Dm7n1uv5jBPCXmJyEbIzHoq8be1Imy1fb-UkkZt1oYI=s220",
+        "view": "https://drive.google.com/file/d/1obFFWQDp32AG2wJCd3y-eFxmdh1zMBlo/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsvTRvZ4z_jMHs2bNPHe7QCYW2FAsaarQY3-vqV6pvohnm1SAZJMKwVGEA1RX0VkjNMPXiQhyST37zV7gcJLJ8hrqG-IkUT1Tv4lfX59QPbSpANrg=s220",
+        "view": "https://drive.google.com/file/d/1xzSoE9ZZOdMa2vmOhqmusI1RPj6wISui/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPN_6xfqnE48PLLW4PG5D3aXAA0_TigQ5KkvmfaqIk8t451I1GmpplORqQRfocznWVm0eB0S2G0YD0BKPvcTTWXYwvhVg0Zs-UWcBupo2MAgCz2gmc=s220",
+        "view": "https://drive.google.com/file/d/1lHSQ7mV_FwyCinywzfa5JLW7W7euphES/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 3,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410295 - 27/4/2026 (9 FOTOS)\n  → 410295_inicial ✅\n  → 410295_folio ✅\n  → 410295_corte ✅\n  → 410295_demolicion ✅\n  → 410295_caja ✅\n  → 410295_liga ✅\n  → 410295_mezcla ✅\n  → 410295_terminado ❌\n  → 410295_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410296",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410296 - 27/4/2026 (LEGACY)\n  → 410296_inicial ❌\n  → 410296_caja ❌\n  → 410296_terminado ❌",
+    "_folderId": "13r0plCHBz9NAvUXSiPmJYaVfXT6SeUre",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzdTnXDOuI9uFQoRlZU9MK8logsovSbZsETz2-zxOhyz6rXbzKuc6FQ3UJBRRN_EOxbhV6qXMpQVUc0ihO4j_mZi5kdUA1ALkgFRdhmMDv6jjCmPw=s220",
+        "view": "https://drive.google.com/file/d/1I-z0qlLrD4aT-VOIc-nfNws4iilhIIOM/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdyH_ND5HOSLNv8x3MMcEo_ALpA7Dn4xGeSNrKRqig-nCYxVSVjo94oVt0i7nEQj8nfBw8G5T-0eFctAaU0r6qg344ZTnnXJNmktfv2mq07rQIKws=s220",
+        "view": "https://drive.google.com/file/d/1w1VfCL57Y6AU1KD_VKlDNDNYzC4sx1cs/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKP5XC0nhjTdN58fMLy_iSbngfiF9weZbQbrQIuXW3VzLyaN2RwBmgDAl7Mukz3qLMF4BmajdccLYYRQ7plFJ_sSFFFUBAvu4slBnLwO2ntJ4a7JU=s220",
+        "view": "https://drive.google.com/file/d/1bBkL9j9IIUzOPAT1NVIJLkX08oNF3Wsi/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYak4Lb6BsNYUv1U2H4lvZnk965ArS6Y6mRhsu7DLce_sCvO7QpEQ9gwd8wMPyswwCZlrxjQmOB2LtNyoINQOh5KH7VC0bIBhnzBRmIAZ26vASWFw=s220",
+        "view": "https://drive.google.com/file/d/1IJF9Ap6Iu0kDVE9N7SwQ4fI8u5Pbe7ap/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMYmcLTa-FDP9noauYjNLK5Y6jiV8JaeeEinEtFv6XRsqryvh-flJdCMiiW5bg1TLhmf1g2jUQaH14oEMO9_xxkpb-xfRZSvzq3Fod55G7NV-N5xI=s220",
+        "view": "https://drive.google.com/file/d/1BRKZpWHikfpfrWyU1u8vfh7onaJp6dOs/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgo78BYjSfvixrK1c6Z6UTuOr3DqEn1NZgPWAi0zxFu5PpcTFe4sM9SBCJB8rKn4SaOS5q4EFKrfPJhTYrQbQkfy28v036BzgXvuDzU0FZ7tkhdOk=s220",
+        "view": "https://drive.google.com/file/d/1XK3wCUjlBVgMbz2wHA2accy0xLDwhYFd/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2484EV1s2LQDG0veQUxR92iiybFk8eQGV9UZFKd8nZiR7fa_WAAlv0VVD6XqSCc8kfcxrBHLa-g61xNu7xXLb6yieGtfV1BJ9lBdy-o15vfqTQQI=s220",
+        "view": "https://drive.google.com/file/d/1piZ09K724VLbdNaKndfZnbDTw9z4w5Cb/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_7EVwwrsRgA42-h0eOHiL0wkXzpXEp9PRiPxfMOC2h8t93rRFzwm9-XXftgrikskPn2HFzeq2lydHyKcuXWTduA6egKcDAbQjC9D6XXrVEMulvEc=s220",
+        "view": "https://drive.google.com/file/d/1tNdbBc9kifxF9apw9fojO8RQYjnAJCYT/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410296 - 27/4/2026 (9 FOTOS)\n  → 410296_inicial ✅\n  → 410296_folio ✅\n  → 410296_corte ✅\n  → 410296_demolicion ✅\n  → 410296_caja ✅\n  → 410296_liga ✅\n  → 410296_mezcla ✅\n  → 410296_terminado ❌\n  → 410296_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410297",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410297 - 27/4/2026 (LEGACY)\n  → 410297_inicial ❌\n  → 410297_caja ❌\n  → 410297_terminado ❌",
+    "_folderId": "18iYjTJfg4jNbTVubyxJiAWVoovxTAbRY",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0vh75XNvWhdwfcOP1TrJGIKlBeNbi1Yl-c9GedyCBI97KfkuvykwKK3So2WKDxKLKGhkeLv3JbQILujKWjamTp2z9hoWzB5CyuuesP2mn8lyv7cE=s220",
+        "view": "https://drive.google.com/file/d/1f7T_MNWeLA34rb93YHiD1SY0pgoLd09P/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7ph_42-G6jYUrOLp_HDuuxIObtwL1WspFsFq5pvveXZqNDHxE2nTiJ5hlUn6DTrKaTUSgfjjgh8pS3S_BesdGBJMdcNyUSJ8XYwYQEZPoBxe2tIw=s220",
+        "view": "https://drive.google.com/file/d/1t1n_BxgWMdlwz4K-KHFXA9XWtZsq3w6U/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMVBi5_IL24H34Mnwk2V8kQEYJSnX1rL60RF0XVw6PeFzQP2wPDxfOy9uGzC9w0uc31ihfN_FxBbwIaptDTTJuNY040x1h-TZnCETKLsJFGGKN8Lg=s220",
+        "view": "https://drive.google.com/file/d/14GyDNmFpaFlLrj6PdnShz8fJy4jVLfC4/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlUU5iDwiWLG0j3fV-D9GPQIDtUbqUQjDXffTxulhehbdUekUADgcGinaRKh1CZF-o6h94jdL_QTagYyNdcv5CA5q98zKuPsY2L6UeAyf_FRyEHLA=s220",
+        "view": "https://drive.google.com/file/d/1xLUO7F8OiyvLw0UZpzPFdkMfDTCMC1ZT/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-hfLdSdO7E9dHdxAIaY5aUMo79hWCJ-7pM8hpz9Q_05vjGSEQ3-XeLoOiR4zQX8w_YXtbGY8TdrEUGYQOXjWEX4jPG2DRS0LxscCwQLbjW_VCtxM=s220",
+        "view": "https://drive.google.com/file/d/1_2rJblciFRw3-dEToi9vD_ngo4Jj_laB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpa0tadHMHsH47gQk9ZB3Uru9FYOJljAnWgE8CR0QDD8dDOdsidbvFf2kELt-CtIKaBIh4N3jJstSJfbzsNaBaVji5JzN0JX0UO34pZgWab0Abvfc=s220",
+        "view": "https://drive.google.com/file/d/18OogiU0dWFPQR9X0OD1EGcUSmJnXJIqw/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPd8MkmGp0neY8gnxeNg0Qtku5_AQoVZPafRWq78v9NK_zEa7cI4Fy7fDEaNF5mr6qttLcXlpF3xx3dBKmU3Y6cEW4PbBukAOMeSmXFcjr8KXrhj08=s220",
+        "view": "https://drive.google.com/file/d/1PGOHVBF0fAtsg3lj_6IScMGinfsXoKj_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPv4JXAUSfhJh4FQZdW1knlF6wPfojFfST2euXinCoUn85Sp-lU384fLoGPF01hBtpJ9rSmXXRzmwBRy_dvQ0h2y7FgftJQ2p3l0mJhxduePD1X1V8=s220",
+        "view": "https://drive.google.com/file/d/1FhuFJTzZ_ELNT6W_5jdw3zQ7xgwCjp_c/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410297 - 27/4/2026 (9 FOTOS)\n  → 410297_inicial ✅\n  → 410297_folio ✅\n  → 410297_corte ✅\n  → 410297_demolicion ✅\n  → 410297_caja ✅\n  → 410297_liga ✅\n  → 410297_mezcla ✅\n  → 410297_terminado ❌\n  → 410297_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410298",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410298 - 27/4/2026 (LEGACY)\n  → 410298_inicial ❌\n  → 410298_caja ❌\n  → 410298_terminado ❌",
+    "_folderId": "19tFKv7qf2vWKQwr7XpstBgo-xgwa-M2d",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZgQGD_dBXfx5TRWJbcGy4ul11_OTeS_K9RJdzInVSgpcdc0JQManljtO3IoRzfR3IjNc0kjIMVnW7asuwmkANYQL-cSgnKIpF3V0ung45v8_p7nE=s220",
+        "view": "https://drive.google.com/file/d/1oc0FgeRnLJF46rynZO7w9R_NJ9wxFSEE/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0KDT-xJiLjAjmMDX-mi4nNmutH6FHAbQNPBdqzm68Hh8dOvPtKYDpahNDAOFC4YZnImMQ4cwnhzEgwmg_ZwBgc8vMTJaeJvqxKZAHqzZQDC4V34M=s220",
+        "view": "https://drive.google.com/file/d/1IfCQXZQk7n-LklDNgimHg2vam2kdfvRb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUugpCy6fZQFwcoOm1Gmg_8t_ImzU9gzVXDbiVHaQy9h3RdgnRbRJASUpXp4c0B6p4Jv1f_916b3yd80pRkiQf2p2nQ2D8-xYSncDrx8Z715xc7VY=s220",
+        "view": "https://drive.google.com/file/d/19JI9z8r_xmXPlD4S5D7rCwsxyHR32VFN/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ9ZEi48rmEZyLPZQZUx4emiwPOPpfrGj0_rBV8meO4WBOac7DHe-dnbe9ookP-Azx2Vwha0qR3PlqHbLyZe70-Lio39ITXM2c0m9823EiJzcMKPU=s220",
+        "view": "https://drive.google.com/file/d/11xpNj7zAoxG5GsQZjD-kUUpiY0PgsP_Q/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlrMvuwsGxLZWhsfAbxGHbD-RYNPrX47auOo0pNsSzWTCzqytAdrnvlGUroAchL61UUgW6TQLQAxBXU8uuCTgfV6HT63G7q_rXgD_8yRYUHe1EQ3E=s220",
+        "view": "https://drive.google.com/file/d/1J8Brwh0SL4F2Mh5e5iJIiqC5UM_oHoBF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEGOtphpo2sgKZaGiEM9ZSqMxHJ5DtJfQKg4L4067xF0bQHCYs7i9atzkdy6sGe82w8M741AStRPmXDN1vvjGT10vuTTg0KfZi2ok0fIIV6G34HIY=s220",
+        "view": "https://drive.google.com/file/d/1NTp7u8iL6mwJi7D1wM6W3IGbps4JPNnD/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWROFO1I8r2miwy9Soci82GJZMZNwFJ50RA9F6LYjtLgjFpuDPK0zUVqLIaJ3oFbcAawzN0qmBAaMcSLSZc9bL8_tXyb-14T7_tCv63KF6aG6kCRs=s220",
+        "view": "https://drive.google.com/file/d/1q-v4mDMeB3iArh2FxyPkG-rJt3y5pnGJ/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuFKYWHqywZKDQgIEC35B68NU_ROjqi-AgnfXx7V9IOHq6g4Gn45XHTKdoaIfpKIHf8AaOsL-bHxE7e8j3YTu3tcGHEjbv5Mz4uebITvV017dnH6c=s220",
+        "view": "https://drive.google.com/file/d/1__4GENkhAJFhBssU4IgEkTCrA9LRRV16/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410298 - 27/4/2026 (9 FOTOS)\n  → 410298_inicial ✅\n  → 410298_folio ✅\n  → 410298_corte ✅\n  → 410298_demolicion ✅\n  → 410298_caja ✅\n  → 410298_liga ✅\n  → 410298_mezcla ✅\n  → 410298_terminado ❌\n  → 410298_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410299",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410299 - 27/4/2026 (LEGACY)\n  → 410299_inicial ❌\n  → 410299_caja ❌\n  → 410299_terminado ❌",
+    "_folderId": "12eStFoksY9zb6ZYhatSvksUX7UdzJWEw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSZcyqwkyB4zXW9B_ZXXcWNZ0tCcCYCUu0gPHBp5CdcBLrHQJmayaGw-gnBSjLSE_TMZHLese1EOOBlRktRvVfwphOzCJMBuWOfev1RXPjBb-7aps=s220",
+        "view": "https://drive.google.com/file/d/1zkC1n5iYSGi9qo6ttlOisBBSnyjKfL1m/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNldxtpbScUG8hbuNNO8ozV3l1TotlKGPFYdv6vO1Vzo_nNee_ZbdpHJtcfvbazXr6R4ouQ4sLlhR0fbZ4zZPluSc6tko3PpvunM0oxBDkkp-ICRJY=s220",
+        "view": "https://drive.google.com/file/d/1CpFW6zDJ7URhaxHZxKDj65K_1DP7mXV9/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBUqysxaxIkhJ2_Ncg8khszrlzBXG2jGYrYwknp5pUvuAdfgvvx5nefvN_vVp0MxWu5x7c4hXJP6qCPppCksKKrcFm2oR_79w2CLEAlxdoj_PUkgg=s220",
+        "view": "https://drive.google.com/file/d/1sORPjw8z6lsxd6DE8sRE37_wlT7_eBw3/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP80zPun488USAa92L0veHttccDxcOffnA3ff-JnF0wIivH9dvU0heLbIagJoxfyC0n5NzwZt-AUXL0BuICDfym7sL8pSfwBBBI91gruPIbmOJfcPY=s220",
+        "view": "https://drive.google.com/file/d/1pqFQfF-ld05tFmJyyNgr4dWH-db96zCP/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCFbb281a8CEw5Mt9pwEJrEmwVwsjzLq2ugWUykQOuInIkzSS3wNdH7CvNDQA_DUDpTeDEF_Ldhh20EZ_Tsz53uiM-WQYQiTFylh8KwAixpPWHJ7I=s220",
+        "view": "https://drive.google.com/file/d/1d3grGT0vpYQoxdDkiw3uexJ5tbxkNd2Y/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhG0Zf_8t0lIrmdSMs0sx43IUktQM72tPteV5zoROEdsiw9fap8YvEOW0yL_lKtZ8SqX642aGkNRw2MNTXYAINhT3twEIKPJvKnkSK_Nz6-ZIhJJA=s220",
+        "view": "https://drive.google.com/file/d/1NCBJTdcVcLTghFPfehxPS1bIpHhdQwla/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMbPJ3G4ddmxuFpetYMvxMFHoIuFs-c4WYIMmsTbD2zVoyJswmIw5gI-8mba33iaC-3MVxJlYyEBqAFMhnOItY1Qv0uVChIs2ojTOxMP-9OTcOjkw=s220",
+        "view": "https://drive.google.com/file/d/1P2lL5YY7OgyJNyjCdoDQStR-bGvbn9g7/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkx28xLBOVwLrc2tHRwyIAtmj8FwHTNEzL7veBQ4GHE94WeY75l3n7ClXCexKhLYnY1n9NOvURW4XxJpd1CrkSpEPn1_H1GRNrhQD7gMxsMVjC5LY=s220",
+        "view": "https://drive.google.com/file/d/1YlNFKVHQknACtVYcfVtnEn64FlBVKg8b/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410299 - 27/4/2026 (9 FOTOS)\n  → 410299_inicial ✅\n  → 410299_folio ✅\n  → 410299_corte ✅\n  → 410299_demolicion ✅\n  → 410299_caja ✅\n  → 410299_liga ✅\n  → 410299_mezcla ✅\n  → 410299_terminado ❌\n  → 410299_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410300",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410300 - 27/4/2026 (LEGACY)\n  → 410300_inicial ❌\n  → 410300_caja ❌\n  → 410300_terminado ❌",
+    "_folderId": "1Txi2zu0A2DBuHQmW-kEboD06K5hteG8o",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4XhH_e5hEhyJe5vipBP8vTaJy_j8cqQdHNbMxmGQRQvmxlYdCGX1AAnnud_4MYG7lL5oI7t7Us0Brp-V3nYmfbvQip3K_IRKGA_GDdRlGNqKy1Qc=s220",
+        "view": "https://drive.google.com/file/d/1biL7Z4iFBc3-oKBs9Aw9mL9ZSpIxOUXH/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEGRpW9iJzxfnnBuvjXVkR4LWI53WXGSb7-vsmvQK6jMHG7oiPDTKTwWb4TaWSqCVzb2Ek_IgzteofCjJMiK7D2vTAZ9R_SYMTNp2f1REkGnaEy9g=s220",
+        "view": "https://drive.google.com/file/d/1vQD5lV5h3Clp01g1Holrtk4yFqY1OCqo/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZyL9XD1szWmJeisrgNNVNosq4844faEtAg_cnSIGdG_Rjc8_pPg7vCaS4xX5Xqu6ERTzEN7I-PemvcxPu8jGAk3NNIxmW6nJ1q9_4iS0iMs5juuQ=s220",
+        "view": "https://drive.google.com/file/d/1I0Gs-za7tX0xMsdbkW6fPCEvd0uoJwtM/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVZU62eb8r10jopWiEblDRhkNg07jgTVAABsJJpZd_X1oC8ofckRR0GhnmE3jDR4B_6sqpimb4m941pDpg-j_sdnNHqvff1CRX2mffDv7r58xuIUE=s220",
+        "view": "https://drive.google.com/file/d/18lUEdLVNPwQ-8XOCA44yH2B5oRKb4skb/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMKjIxiFPxE7B66DbW5QNqukA3467CXVz2zyMwK_6-h7VPNqN-ae5tNpCrhqkWwZHWVOvKgH3NEwoIr2pg1woQSBEnCswxT1qZcqoMBRbSfN21lPI=s220",
+        "view": "https://drive.google.com/file/d/1UhR8_-uFCz6VVI0RzFp2sNmDYm3s--dl/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnpw2k7qRr-CWFPKJbKWROxLAdbGq6sCmQMHHM0OCfP7GDk6N2FwOWvQwhMsYw4VKoYw7rSyHlgmdTiurAmpxDNV0SdMzttjYbn9nqW_dcCrA2v50=s220",
+        "view": "https://drive.google.com/file/d/1dwmrU2RY4EYumLeqEhjTzaLNTjB-w5yW/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMA1UWWIpR-XRivz7sYNoISbIlqjElHkW4UMD62Lux8G2HtfSDDK_xXQr8vfFb0qDdhH9w2AZqQ8ClH9iaiqtc9GLL9NaOuK6qdu_9rOJ7BRo41p3I=s220",
+        "view": "https://drive.google.com/file/d/1_93LwJYZCqNTzCLZLW6hXDkk_ZVO7fLA/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwmD-fgHC5iebdc144bOE1GbRoMNxRjKlxWn814ZqxrB96aObM4TwW5Cy1bbu_Rbt6YWkVsr0ILL4UbVn7LDihJDE-jhLOYQvAs8_ZESp5vcqdh8c=s220",
+        "view": "https://drive.google.com/file/d/1txbu1vtuC9o9suOkaSPyokfs2b_Xf_1g/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410300 - 27/4/2026 (9 FOTOS)\n  → 410300_inicial ✅\n  → 410300_folio ✅\n  → 410300_corte ✅\n  → 410300_demolicion ✅\n  → 410300_caja ✅\n  → 410300_liga ✅\n  → 410300_mezcla ✅\n  → 410300_terminado ❌\n  → 410300_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410301",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410301 - 27/4/2026 (LEGACY)\n  → 410301_inicial ❌\n  → 410301_caja ❌\n  → 410301_terminado ❌",
+    "_folderId": "1zJyKZQ-GQf85MCRtgLdEKgNBbYh8ZbDG",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpoqICfWapw5SkfLwlrbqgunicllRmfqFuJblJEnt0nexcWDDQkgGbm4u_-F_3CoLm12R2H8pvH3xSWz5xhL2W7x9YBeqH1Ys_u6JyuJNq_Zbc5Vw=s220",
+        "view": "https://drive.google.com/file/d/1hzOAU7CpfTcJHPBIW1Z1bzawMhjdxZnB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSvCY5te5nv2xqdHuswVX2ykWWHF30VvG3DtzYYlrNt8cpxgvn6CywCreKOSzDcWNwAV1u6bHfq_zaxct79ABeQUmc0mpdNGihFqvqZT4iEOMqvDc=s220",
+        "view": "https://drive.google.com/file/d/1Y6C-s9BPBruviUdQN2JMLHJmX-n5Jpzr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxl1vNswOGp8Xq-YOrl9tw8ZqtvwIL0ialJ-E8vjNHNASVWRGX-SmelP5aDZ8MSrl-Qbq14TPLgP6e0X0uAKTmKdqjDe3m-u5V8543LUgylKrWWck=s220",
+        "view": "https://drive.google.com/file/d/1-a03M16QtQ3NYJcbUp2spobV-F8IASy7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2O0JomWzjGcVMqRATkd7B1fDQ-fV2xHX3eQIu-pSG7NO12n3ED6DIaamFe-Hoeo1B6WqDOGCnPtczO8A8qDIzScWKZzLoMiY_4UNU4VzSeypRQL8=s220",
+        "view": "https://drive.google.com/file/d/1NfzMd9KBdfEZRYRbUg2SaKlF_k_W0AJe/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZQQa65WlyoTpDaFNlG_l_6FMctp7HGfMZpgmn1cxKugpzDIGfLBCqqYDh-tcVpO3pWiZFEt_KYKQ12tsHmduIbFYaFQP06JUpyvjvwfyR6NjLy2Y=s220",
+        "view": "https://drive.google.com/file/d/1nYN0eOa5F88Kky7alxNN4tfRMKVGu_0v/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz4RDUlq_saDztz5IfIFXINrO4XWl-G5TOFMdGXIA35iPzVQfw4yCAOrhPRWKsQQ6ChWLoJ23xqiKYqR1C2uHwTeo5Eq7jCeMUOM-iSHwaTcylqJE=s220",
+        "view": "https://drive.google.com/file/d/1FKmrOUREd8oSuXtsY0XxD09OdjC1Ge0t/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNP7a0hXwaQ9O07UPO4ZsfjBN8_zp33545pQn8ryExBPbm3n0MkOer91udZ60BhtJ0YHsPOu7N9adOqkd2D_qNL0kXU8AjmyFEnUl9zSUxjUdts8tY=s220",
+        "view": "https://drive.google.com/file/d/1IcrldYlWs8y1npdnGJ8UUK7DwPrfDN7w/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMnQLsjeck4ts9smYLMb3Z3LdYT2NTUh3mDpaZ_3ZUjPES0KyipW5ra6inlSyNtzwvTjsJr3dM8a6-LcgXyaA2gadDB3tGqRI5LIac48n0nb3zJlc=s220",
+        "view": "https://drive.google.com/file/d/1A6MpsCmvZPfDAVs_KfeYZqNakdxZTrxP/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410301 - 27/4/2026 (9 FOTOS)\n  → 410301_inicial ✅\n  → 410301_folio ✅\n  → 410301_corte ✅\n  → 410301_demolicion ✅\n  → 410301_caja ✅\n  → 410301_liga ✅\n  → 410301_mezcla ✅\n  → 410301_terminado ❌\n  → 410301_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "410302",
     "FECHA": "27/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "12 DE MAYO",
     "COLONIA": "HEROES DEL 5 DE MAYO I,II",
     "DELEGACION": "SEMINARIO 2 DE MARZO",
     "_company": "EAPRO",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 410302 - 27/4/2026 (LEGACY)\n  → 410302_inicial ❌\n  → 410302_caja ❌\n  → 410302_terminado ❌",
+    "_folderId": "1i3jze0qmLfwPp4Tmi7c8Sep3tuJCOdHv",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8ZOjjCLDE5gfsbc8XRFlDt2Q8WZZhVKB2CGoiFLwVYxIFkUIOpmCrg0FGxsaL-VPfIAMnzbQMby7ss8iPYovln1PA0xHYzHA1GJlYJt-3hDhpxYk=s220",
+        "view": "https://drive.google.com/file/d/1U-Mk_PCwCFq5nKEgenLCPXPoODwnTAkR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJlTRhGDryUjBSb830yMsVhSsk__XQW4vmGdw5fkZJGSoJFkgNb5nQ4BXPklnhk4hxRyTvT95uhw7NBfTkptxKyKMk9E-igsLQ_auOGVjROtjo5As=s220",
+        "view": "https://drive.google.com/file/d/1qyTUThjyQ3A3PBLWnboTkPirANZiskxW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHDNbs2OH5UvsFlyFavZkmkqxCRY4qEL3txGUpACOHhtWIpXEqmUnJxs7hBvXENz0ts9CDWSqlnzRWMVKDHCJUEDCcEUNWypfa_GobUXK3fWh5Xhs=s220",
+        "view": "https://drive.google.com/file/d/1IaLbvm3CZ9lVRk-fKCo31Q7U9S4iIcM3/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYwQCFTAGMe3NmpmXA444ALSupkVYEp-7dTYbdAHZk1OgSym8p-HhLRptW1UylIRjjNwrnhTutGXj-_qYfTNXMJt4mXRXpgrz-GxfZK00bnemDcFc=s220",
+        "view": "https://drive.google.com/file/d/1lH3nBAQlbdMi4vatjnvu-wNC5PJwt1U4/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZlpAh6GmL9brLIAFBNImmW0uT0nmywvvH8dkSRZD6c1F-vZZTLJUFRDsdt46L-mKlnJK1o-r7eXQwsdDooATYtFrR6Cxol9wgHXPXvgA_OzcKnaA=s220",
+        "view": "https://drive.google.com/file/d/1DHQ2jC2PPMI_gBhtM-eA8NIqWCGlBjrM/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqQc5jOkhmFvcOadVcqvH-T-IZYGvAcBD794j-KJlhvWucDjoIQ5A_02op4oVRytauEtynjBtAMHx0_Kt_bhxd1nQecX1XZeJqjEj7OKi9iL_pwXk=s220",
+        "view": "https://drive.google.com/file/d/1ziuDDJkvgmmEtadTkhUzwp-75tbgwfTA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwGcGZJZ9-1D2Vi93dAa9lDXYz_cZ5XT4rbJ2da00u50-uAYEsb41dM5D-uFzkXytUoQzOpVOgH1sfyCjwdfTtSIqM1KrMUFTCtCwG46lKWLJZ7N4=s220",
+        "view": "https://drive.google.com/file/d/1TFjPIZPLy_0s5reCki0p-sKtK3QgxHB_/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFdhRhLMtwU1xfXc56LqhLycmL3F_vRkr03fxrB6R4y9cyczRb0teqxAJCLpOhbH4wxGRgA0uyUaR9Nh9QzP4vUrj5vPzIPLUl0lzDwOIGDD4K5EM=s220",
+        "view": "https://drive.google.com/file/d/1nU5nXBMK_pqIHpr3MjgIzx4eCYqG-Cvf/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 410302 - 27/4/2026 (9 FOTOS)\n  → 410302_inicial ✅\n  → 410302_folio ✅\n  → 410302_corte ✅\n  → 410302_demolicion ✅\n  → 410302_caja ✅\n  → 410302_liga ✅\n  → 410302_mezcla ✅\n  → 410302_terminado ❌\n  → 410302_limpieza ✅",
     "_faltanNEO": []
   }
 ]
