@@ -12,15 +12,15 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 327,
-  "OK": 62588,
+  "FALTA: INICIAL": 331,
+  "OK": 63308,
   "FALTA: CAJA + TERMINADO": 1786,
   "CARPETA VACÍA": 446,
-  "SIN CARPETA": 1694,
-  "FALTA: CAJA": 409,
+  "SIN CARPETA": 961,
+  "FALTA: CAJA": 412,
   "FALTA: INICIAL + CAJA + TERMINADO": 339,
-  "FALTA: TERMINADO": 534,
-  "FALTA: INICIAL + CAJA": 56,
+  "FALTA: TERMINADO": 537,
+  "FALTA: INICIAL + CAJA": 57,
   "FALTA: INICIAL + TERMINADO": 48
 };
 export const RESUMEN_DATA = [
@@ -1801,7 +1801,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3",
     "TOTAL_OMISIONES": 345,
@@ -1836,12 +1836,12 @@ export const RESUMEN_DATA = [
     "EMPRESA_RAIZ_MASTER": "ARKA",
     "ID": "23",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 645,
+    "TOTAL_OMISIONES": 644,
     "OK": 644,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 1,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
@@ -2025,7 +2025,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 1
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3",
     "TOTAL_OMISIONES": 147,
@@ -2585,7 +2585,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 345,
@@ -2620,12 +2620,12 @@ export const RESUMEN_DATA = [
     "EMPRESA_RAIZ_MASTER": "ARKA",
     "ID": "23",
     "_stage": "E3_SUP",
-    "TOTAL_OMISIONES": 645,
+    "TOTAL_OMISIONES": 644,
     "OK": 624,
     "FALTA: INICIAL": 2,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 11,
+    "SIN CARPETA": 10,
     "FALTA: CAJA": 2,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 6,
@@ -2809,7 +2809,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 2
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 147,
@@ -2973,14 +2973,14 @@ export const RESUMEN_DATA = [
     "ID": "45",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 194,
-    "OK": 52,
-    "FALTA: INICIAL": 0,
+    "OK": 188,
+    "FALTA: INICIAL": 1,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 142,
-    "FALTA: CAJA": 0,
+    "SIN CARPETA": 1,
+    "FALTA: CAJA": 3,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 0,
+    "FALTA: TERMINADO": 1,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + TERMINADO": 0
   },
@@ -2989,11 +2989,11 @@ export const RESUMEN_DATA = [
     "ID": "46",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 277,
-    "OK": 0,
+    "OK": 277,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 277,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
@@ -3005,11 +3005,11 @@ export const RESUMEN_DATA = [
     "ID": "47",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 150,
-    "OK": 0,
+    "OK": 150,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 150,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
@@ -3021,15 +3021,15 @@ export const RESUMEN_DATA = [
     "ID": "48",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 163,
-    "OK": 0,
-    "FALTA: INICIAL": 0,
+    "OK": 157,
+    "FALTA: INICIAL": 3,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 163,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: TERMINADO": 2,
+    "FALTA: INICIAL + CAJA": 1,
     "FALTA: INICIAL + TERMINADO": 0
   }
 ];
@@ -3045,7 +3045,8 @@ export const FILTERS_MAP = {
   ],
   "AZTLAN": [
     "21",
-    "73"
+    "73",
+    "35"
   ],
   "COPAD": [
     "COPAD"
@@ -3192,10 +3193,6 @@ export const FILTERS_MAP = {
   "EDIT": [
     "17",
     "39"
-  ],
-  "AZTLÁN": [
-    "21",
-    "35"
   ],
   "EDITUM": [
     "22"
