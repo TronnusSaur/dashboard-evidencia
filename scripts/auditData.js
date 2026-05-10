@@ -448,6 +448,7 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 // ══════════════════════════════════════════════════════════════
 async function main() {
     console.log("👑 Kinger: Iniciando la Auditoría Magistral...");
+    const authClient = await getAuth();
     const drive = google.drive({ version: 'v3', auth: authClient });
     const sheets = google.sheets({ version: 'v4', auth: authClient });
 
