@@ -4186,238 +4186,732 @@
   {
     "FOLIO": "300215",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300215 - 30/4/26 (LEGACY)\n  → 300215_inicial ❌\n  → 300215_caja ❌\n  → 300215_terminado ❌",
-    "_faltanNEO": [],
+    "_folderId": "1q8811dN5C4HQGx1MBAzhsWMi8Dwnj3nh",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsZSFK-ITIDVzazUR8bNUjLvAkrRfopcce1u1Sc42rcFlBL4VVOlvfIDWIslOJ8g2MKoAkQtm797FK4uSc9eEm2nCd-bcKnuLxF6lEIpIJzxRiqw=s220",
+        "view": "https://drive.google.com/file/d/1w3BCZ55iywU24vGjoV9_WpI2mXYUrduI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiKaEBbZqRnomnpl4sXKviDAdtHGqsodauVPnEUYiP0NnZG_VVspCxWlKKPD5QLPigATWmGtrGYKiJIlPnWRgCcimd6T20OYBbq8S7yjKV4Rj5Gg=s220",
+        "view": "https://drive.google.com/file/d/14JIsoLWa6D7OGIxHdVCEyjuG1mZjpW99/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPicJNoPjUoXZpSvA6S0y5nMU-AOdqLz7hJB7CIsV304Kbbxonh38l7RxAZ8NjPM9jS5ZKW_D3ywPu5eefG3bt1tsuYIzEHTTQawxofw8LPTzp3pg=s220",
+        "view": "https://drive.google.com/file/d/1ZonW6gsNAWEA_IVISqu-w5zSiRHb0q0l/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR-kRXre9hXfPQhKWe1TaXkJcC5kJAV2UH3__V91UISDpHz9m7JcPiMJUHPPqKhOykBpeVOBiurfLivQELuzvj_ZvKBVB-CYLN8Y-WoPYo3wUigg=s220",
+        "view": "https://drive.google.com/file/d/1qxKvYbXgZ097zAWbM-34rJvhh9TwwqaA/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTsIwsznun3KZHpS_mbTDeaMOYgy7ezBnD1sOEybfJc37XiZLG7Z_TCjN6OARSMmPrkOZ2wphSuJgo8KLQHP3DEkQRBdnz1svVWNHnRcc4vcU1Wg=s220",
+        "view": "https://drive.google.com/file/d/1PlHKD7odEuiH-C3L1V3LpNCLm9nZsNWZ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAYo6mUcIdyHA0SjLi-kxxsypNgmbZfAna7ylRMx9nDeDRm6189BY33hxBCIfTS_IV2KLWcBND8c_yFbCfYgnC2vEYJnygkPHbHhyR1szXiHhGCw=s220",
+        "view": "https://drive.google.com/file/d/1emOUP7g2hwr-jwnZv85WsBUagaESQpC-/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPRQZ2gujgJvS-Y1mvoEVln9480-SvdEyXvimOEx-KD7-Ur1NR-CdFgEMqhMTfuqs977DTE0rBGzxkGGj4OOXYQF5LuCfJWbw6ef-89zJhSSeuNA=s220",
+        "view": "https://drive.google.com/file/d/1cQym8ACmfYUNX2eROXIGyrN1pHUP9Xtr/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZFBKh8kbYXLcRgz6a3AYzvX1co5JnExWv6jpCHcM2zsMIew4SWWAm2akvlfOmEGKq2zjUaEkcZVTW3mRqxfaR1xNWSBBkCZVSRYAqMpaTHoBgBg=s220",
+        "view": "https://drive.google.com/file/d/1VLPPZBFCDH1l-LloAr53GeoZU0K9vrMa/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300215 - 30/4/26 (9 FOTOS)\n  → 300215_inicial ✅\n  → 300215_folio ✅\n  → 300215_corte ✅\n  → 300215_demolicion ✅\n  → 300215_caja ❌\n  → 300215_liga ✅\n  → 300215_mezcla ✅\n  → 300215_terminado ✅\n  → 300215_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300216",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1IxbFGcExqkJjvf_XNXiHf20QHmDN5Htw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3SVYvK5cWY6G4SY1OmXEgBCd-FLfBPm6e-HDsg2q5SaEh6E2c18Q_dJmuBmd8hooXnKLax4RRtg88lbx9K47BiB7DYicVvIPjPsdAwkoHFvfBXA=s220",
+        "view": "https://drive.google.com/file/d/1hGb0XQKQFRhgEz-XbqmgoeIwuN_u97NR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5-0cjt5IHjdMyJCADoiwZFQO27rDQIqXZLwTdz0ZWhgAKVtnMnNJqCHUpw2zs6lKrN3yXHuIIV1fGB4GX3s8wUkrujPHCvAaQVPP3AiT4xUzTaA=s220",
+        "view": "https://drive.google.com/file/d/1Yurn3fG80zR2_5Oc4mb1IB_vpZEKJ-qz/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCLsp8V0ZKM60TcDfqPpZAlUhwNOg4VC32JPssHzHMPSNSEqvErxmcH3Gw2QXlJCarDmzQTDH57nP8vRqDYzYRBTwwZN6ifDl421NRiPbmjOJdtQ=s220",
+        "view": "https://drive.google.com/file/d/1-YLUMnq0DHmAnRD3e77_a5zpsusPXjZG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOXr0SpG66fViwviKefxc6pS9s2YwgWt2cnAKTq8mYbxWEjvd4J0V6AVcT9EQFVQIphTQl-3nqsp5QgO4jZKF4rIV43MJzUoLnZrYwIPcE5FKhRA=s220",
+        "view": "https://drive.google.com/file/d/1PRsPcHxGx4Q3jCB_wTVJwViEIiyKeec6/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQvWR_7Fiez2fZeg0MsPi324Mpe5hXUPIpxSyDOcHZAL7_d_KhNt7S4O74bRdb87EUxTv9969wobXhJQlsvl9nc0XRCbbGJpCjhoF9Ozs6B4rCOQ=s220",
+        "view": "https://drive.google.com/file/d/1uUIHkylgUzTQESqBCQGaWbHex1vLzDZi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqVteH5atL2Kwb6SMPDeMGIp_AG5i97UF0fr3FvERZdZ5cl3r6FTS8OYMqA_QlGkDCQRE_kKGKmbX-gpYj9nPYUd2PilWfcIa8NgkJ_pVgBJtovQ=s220",
+        "view": "https://drive.google.com/file/d/1A6RgPmSB57rEUf-Iw3wmjfV8ZL_nA-vR/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrBNAefbMfKZE08T-wQHKd1f9nYiPFt7iepWj9LfLBxKlaKwHKCYDfs2kUKeiUjh3OAJbOcKqgzeWfhw-H75y2apnEphcDD4YEJKEDggu6hNBDtw=s220",
+        "view": "https://drive.google.com/file/d/1l-Elt9leiKiLXQDnDDhSt5MP9u2F_UK3/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0KpsHqvJzgeLPX7SxWk_P5LAWtiU8bsd5AOY6pi40e25uHispJ78SX_RKjej4Nw2xRtHCD_T2MAuNwzk5Gpwy9mH0GwKHuG04OAN2inxAZuOL2w=s220",
+        "view": "https://drive.google.com/file/d/1cvuiQs-pFc7imqMHn47pntKOPd8BGrXq/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlE3P-IKc2apYCyvwC6Ew_aCj6hJo97Doq6tchcC73U2Wk_pGEIhl0CSsr-9FPKbFAX-hd70ZZ-Q-krnszo1NEk_LPaqAQs9oQzAXTrnubxZ1Kog=s220",
+        "view": "https://drive.google.com/file/d/1jOIbb5klSe116f9dP1F5ImnMH0Ut5BK4/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300216 - 30/4/26 (LEGACY)\n  → 300216_inicial ❌\n  → 300216_caja ❌\n  → 300216_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300216 - 30/4/26 (9 FOTOS)\n  → 300216_inicial ✅\n  → 300216_folio ✅\n  → 300216_corte ✅\n  → 300216_demolicion ✅\n  → 300216_caja ✅\n  → 300216_liga ✅\n  → 300216_mezcla ✅\n  → 300216_terminado ✅\n  → 300216_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300217",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "14mCPzVv2BlPoLdSxQ_oB4RjcU9w12WAF",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOp2SNGYxYQfA1eODfAC5wHb7k7QFX8jJ73z3JueyfiYk9cdBPkHO8YrDwizquLvTslndGq6WN4Fo0AJ6geHvCdyiOdX8f3kvjT0b4i0Bf-RgxXMw=s220",
+        "view": "https://drive.google.com/file/d/113gyffkM0B0Un0Hn7GrGzHfHR5FcV8Io/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPM84GhKC93wOURR9Na7UUzNwTCx2av4rXlFQnUMS8sh7nqwrCqYZfahv_bPNNSlyUrnb4hkJd0bf6A-OOwC8ZUkJtwZM2sdvK-MEgsadGAWh3TLw=s220",
+        "view": "https://drive.google.com/file/d/1_fVN4sYDczWJ5wnPMntKQVYGbiLUx-6S/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXkYpAxOA4GT7i0_TVXoEBv2iTH1y_JO4GkK8wBXB6KGvPZVO1sXqNURer0EXZyMt-eX-PCkvDoucik7PvBT23fTCNPHrfpqm5BQskmfDIMR_3dA=s220",
+        "view": "https://drive.google.com/file/d/1Y-C8GDwoGOYchyoS6Jfh8iWaovdNKh4H/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOemsM0Cp5443r64VG44iVlwGIX0PMSDpkVZREXEDbJP-rvAnQbgKD8-6HXPrEnSbParZ5aCy6up8Bu4cjApBu0SjmBnMU_M5EclzCYaCAV3gh6Q=s220",
+        "view": "https://drive.google.com/file/d/1sXR7SX8by25kacoVduPeGtDqhKq_L9R3/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6OFbGcl3s5-gNi2j751tmV1hX44rwKlpE508Y7M9AZeYylFDz8oVI0xBNGHU_p4YX4xgjHOz04Mj8J2sezJAZCYtQJHqqUClv4MfHxZcqTs78BA=s220",
+        "view": "https://drive.google.com/file/d/1eiNmI4ZInmiPYQMGE53pawUDhlKYmEyU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPR1wZzScMphcnL5D1y64fItUguexLBHtL2xKJBuCErNr4W6xNdVkMKhc6f8kjrKTOTtSKTmM_L3f0fTHNmnjhmsvXvFEFihTagYNitxLUeSnLtHQ=s220",
+        "view": "https://drive.google.com/file/d/1dSRbFyXwHWG3J5NBEmvAJWsstC8XrSIY/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2MKGryK8zE73TAv_SfP2kT-r31tF5dUcttjbawKepBGDQsGrglDTnRkVYwTnoBTgDrmPJL7xpWBUuZQgLKOGU1_9gILTHCHCVCTbq0xxV7CmGIQ=s220",
+        "view": "https://drive.google.com/file/d/1yLQnMna4OLbPIBlR2E1wzg6-zgLkXiJm/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-zCO45-NRHlhWlDR9G3nFinXfi8Z1kZIVEYrzq_mNrgIRTFN2uP36ZFrQy-GcKO_HOtTUB9PXapLm-y_iID9IPho3Q5TtirzIN_ygEgzIFy93vg=s220",
+        "view": "https://drive.google.com/file/d/1qt1Cefgrul5-tIppkVVPHuIG2baZGzZV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7Bv7NdU-ODVzBP-4XUhDMId3hECz1WNFIQRmrbhRDp5nJjNo8OwTP57d9R_inoy1QNJQPppvL5JwX-KVXKMsNT6GNpQV8VMYMRiox1Yvc9m3T-A=s220",
+        "view": "https://drive.google.com/file/d/1VdNy2-mebjL86Eg0yNwp0Aq4vN-vVh4P/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300217 - 30/4/26 (LEGACY)\n  → 300217_inicial ❌\n  → 300217_caja ❌\n  → 300217_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300217 - 30/4/26 (9 FOTOS)\n  → 300217_inicial ✅\n  → 300217_folio ✅\n  → 300217_corte ✅\n  → 300217_demolicion ✅\n  → 300217_caja ✅\n  → 300217_liga ✅\n  → 300217_mezcla ✅\n  → 300217_terminado ✅\n  → 300217_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300218",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "147A_X2THBNXvp094patdwjUzL7FfVuyf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2l_3Tex-PSl2i4zzcPkbBtC_wVIxTnctTLAqSvrl9qjBXkPnCo1ENuKR2CY7hRxYtrwO2BwG_vmqd_p1c-bIQnbnwLLPG2tsE4ySjDSgmqm0rRQ=s220",
+        "view": "https://drive.google.com/file/d/1dOSSQj_mjul0lhOnQ2W4APhLiixSd5Po/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFAcDC3bDE6YaDtOh8hGxb2EKzv6acOt2mbRf7dWB35sXnMTwjLAQanZSkvcgQ_aDlEaWTV4mUxOe8ysk_VpmQl2vBu91q9H3tSK1x-ETRgTiKHA=s220",
+        "view": "https://drive.google.com/file/d/1rjdRZjcvfgsHz_fplGFSm3sXQBXKmbPq/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMapDMmBWx7z88LqKy9G6QRMKZUP3f5EtM2G6l4l6xmhrzgbv5jTW3osWTCIan4NuZgwYxFO7gp6H1X3i2z6ohHvOEHWz2tsXsd2aLPhFKxHx3CVg=s220",
+        "view": "https://drive.google.com/file/d/18x7SYax0pfOAPRTFNWAfB_rranFmf2uB/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV_h-JdAB89uN-XA4RVufrpNkyzKOhzXGJUqwQyl3yUEeKoDASClHMFcXcwVPTRlLBATd7siS2GNIIv4iIyRQOXLc_U00zXxdDmCprI6RxnuRrUA=s220",
+        "view": "https://drive.google.com/file/d/1u1ql-m3QcoUs6Y9wgaSFA6OkPXTlqyhR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLySeJYYlI20wif_Tk5vNftdbCwecGWm6IdtdIXvzvlhE2zT9OgoomxnFPPp0xBfJIjNmT83NGWgnnKx_G494uSgtkqAAa395ip7oJD_wzGFUN9A=s220",
+        "view": "https://drive.google.com/file/d/1leuZUEOWusvC1Jh56O9QnyfpG53jSM6D/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbvfyCv3rDxuipJwDkITFU9UOw5O8YPPB_c3fLuTOjhbzH5tw0D2QL-7TC_Sssryg2X12a6xvbVZX6xugRp-MHNeGnwdnAXwE-gTtJLsHHRIgpbg=s220",
+        "view": "https://drive.google.com/file/d/1rhXnbREaQoUCQRtPhRhxTKz3UXppG_Dr/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHBwDjBW3AaF1umto5AHMQyl4cly5XscAYx8QjvcnmEQhcG9oYMTaRv9Wg3JW9JyELxhhaWBLR-4BIvJchlSeVIVZDRYoWbNUhP5h6aIwE9Lta6w=s220",
+        "view": "https://drive.google.com/file/d/1F6KId4Uj7D5m_Di0AH8lAtswEcbO2kAR/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAUB-vI4M2rn_EPNu9FEq948Vj8-fPKZyAEgHAVlD9ZxY1ySeZNY5CpO0etOYmdfb2sUPniDqdmxaWr6BdrNuBg0KcJGnSiIToFQ-fwHvGG0vHjg=s220",
+        "view": "https://drive.google.com/file/d/1kD8HHlq1B3fm9RwtG7i_WikeZACi6DX-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1fvDIivMp_944MBCMe7EnznmAP9Wtg4gg0Nbcy5oadHcxFd_vtwHSU1IbJyRsGSBq1ZO5I1eoqyn0viXNLrlZo0hw5WFaHu9JksjzzGLjUW3Bfg=s220",
+        "view": "https://drive.google.com/file/d/11ijkshjPpkrE0H7uccEdj2ehiEpb7kZp/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300218 - 30/4/26 (LEGACY)\n  → 300218_inicial ❌\n  → 300218_caja ❌\n  → 300218_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300218 - 30/4/26 (9 FOTOS)\n  → 300218_inicial ✅\n  → 300218_folio ✅\n  → 300218_corte ✅\n  → 300218_demolicion ✅\n  → 300218_caja ✅\n  → 300218_liga ✅\n  → 300218_mezcla ✅\n  → 300218_terminado ✅\n  → 300218_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300219",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1DpcFCWdTw3pcoTngfE9DhZsys8yTRDSR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgMD9LdEYI6iH20L8YDilRKs-RGK0HGY8O_wDqIt0mDdZsY21y7cY7bNDaM5pM4OKgN7QWvDVo0xFY-HlOFQ-a2e1Qq1xZGUFZD3nrf6Wkmz2jPg=s220",
+        "view": "https://drive.google.com/file/d/1HpZ_i-s578OjZZMZ-DNMpjNmzBP1x598/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLaT1JlSIqvYSTJxWC0xDe1jLVClquApIdvBEt0pOLUCzwZAehzoHvNMTYyFBUVreK_lVkBX_5bAjsm8rsPDEgJWaOAzdwh7EZk8mplFsdscfbEg=s220",
+        "view": "https://drive.google.com/file/d/1S5_5RLB7zovWY5VX2kBj9rGjOnr6xLM1/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNvJEwdwpj_ZIkWR9rWOXq68Uq7f25qAAZ83ANJ3VR5cPngb1cPN0g2Mu2lr_IFUjtqu8Ss3Z3mcwXqXvvjFXFR1EHSTbXRWPIN0nS4ydPZ79IOg=s220",
+        "view": "https://drive.google.com/file/d/1acZlF-3AHhoxVwPMvHgiTqu-DfIHcCv-/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3JC96tOx5_MmABYq0j5QUGqqWNJoaV6rhO-gVloE98oPcKZG5uFPS7O48kKvBF7CPoUX36coI72fQeVH-Y2FVCxmY8DQhVUkncFAPemAUs7gfSg=s220",
+        "view": "https://drive.google.com/file/d/1Zo4QoQ8P1VKTowaaSWMK4eT0IC33KGNu/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfklRIxx5X7qSd1MTfUXXmUqMazUGPJ48yPKv_VdfzlD150V9qiZRE1i8HkHxeKNE4e0KZVLsp7XJyhczdYxra9k-cr5-Rbd-0Ja5jpFq7Xw4XUQ=s220",
+        "view": "https://drive.google.com/file/d/1S1o9c_0i4ppuHyvMCYltoGQCxlRN4OER/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwMiO09vWXTDgTddT5y4cnbm6rIrQHaaT_I7jZISpGDSCzTgBkHiETRUP1nTeZBCdcKWjeRG5cGjwM5V7ePqtb7704wMGr5sNeb9avEYB6TeZ_Tg=s220",
+        "view": "https://drive.google.com/file/d/1MFHD8afh3DxtZzBML3rkab0UQ88yWKpT/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBVplkf3RIJMKTHsxsVsYK2swTb5gQf4p9SnFKISBIYE06YEkfJ4JsUcPLnll_CIJsd8KYEl3qwtR2NlDf760CpvztSgvsuDi3UgPv2wSJ2rHNPg=s220",
+        "view": "https://drive.google.com/file/d/1ablm-V380D4W4WD5holH8cVFgsGvPbY1/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN48bZFITHoCQQJmQdc1k6mqWnbOTvxWSeA2UXzC3Tk1fxglXubaz01i04ELHc2G3JpZFxoT5CljoZGE3whBDhh1DJRzDv1FZ8WRn_s1avNVMAUqg=s220",
+        "view": "https://drive.google.com/file/d/1wFChywQwY_CH2Gteil2mshjpIS2EH70h/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5Tk6pfTb0M-fXst7aX7ozoJXuIgf43iZbkxrhy7-veFwUMRn4Ywl6rHf-2F-wd_4BfWMZCEZjSVZceg5PrNbnyaq6tEquYoyc-dOkVeRfGrJFXg=s220",
+        "view": "https://drive.google.com/file/d/1H6utUBAQiO_dypQ8RSPHzXbIv7jc5I6h/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300219 - 30/4/26 (LEGACY)\n  → 300219_inicial ❌\n  → 300219_caja ❌\n  → 300219_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300219 - 30/4/26 (9 FOTOS)\n  → 300219_inicial ✅\n  → 300219_folio ✅\n  → 300219_corte ✅\n  → 300219_demolicion ✅\n  → 300219_caja ✅\n  → 300219_liga ✅\n  → 300219_mezcla ✅\n  → 300219_terminado ✅\n  → 300219_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300220",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1dRLMsLVBxP9sVHew6l59koj1E-rPNT9J",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZEMDIPISBI6sOJIvnOxca0QWHfAdIzOBHZCBjyidn58rjG6H2EIVH7Pq2AulNtlKmgK2mD7Z1bRPQXNlUgG2LWz8fL2nyswnb3KV4kygs3XLcrg=s220",
+        "view": "https://drive.google.com/file/d/1vqIzQSEvxuIjPdE8HVWQIoxV0ttnmgOj/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxCihrETulJxleF9CkC-Mdqyj4qLlcpJZlp2Gk0m_1vkliywH5UvfNFb-q5oyMkyiTzJWMkaedOXy9zkh5h7RbPyo4T7SHOGAql2al_0b9vX5D0A=s220",
+        "view": "https://drive.google.com/file/d/1ynoETO2FOobPBnCul3651_CLGPT6QAnt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzuNb-BQaYDvvSYX8zihjKiBLrJtdWKORnqgyw6bI2Su4XJsUhQiARLPW4wcNReTVrr_RP0EIB5t8MGWMJFcjTmqyNy3WE3Yhc27LshnGQcX_lKw=s220",
+        "view": "https://drive.google.com/file/d/1NTu5VUKbfg1lSMmsxo_uPbTTFVJCs6Ex/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNA3n7d3cQ5aClZP67-NUp49Q2ey30BImAyVjfBajGVuFfw-bFhyIylgfOTQtO7pHE5Q5EtSXIXFpU8OfottDy6AJ_g8N_rSOickb4bMBjYUYwwZw=s220",
+        "view": "https://drive.google.com/file/d/1IaADRRJTjTvarDFcMxfnKCb8b2qbVIpJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLOaD7eJvwrVCCPgymP062pPr0IvGpRt7A2lvUzVYE_xpLCXwCooYB4poDFcodInIiC6XIDM_rQsRIwuChZ-ON4sVWzLD0mwQplpr0xthJXNw6CA=s220",
+        "view": "https://drive.google.com/file/d/1PxAUjwYUfxxa59UKBZ669Ds4GeA5vY2M/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_jUmEySEuVcpos4yTHP9yazvClzKJg6_CHZRU29mnoOVJRQgaXeVKvamfarzpHECsTpBZbtlJkLVn0vS64DeD_yVozhsMkAsf4vB1mLyfNvdIvQ=s220",
+        "view": "https://drive.google.com/file/d/1BNNxe3vjR0-1pQOBdp4xU7vo3U7KwBUD/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN68hNn-xszUyE9-buB2mpg9YDmfU5yZnDfmptbQYP6cJQgYzQKoh2gTrSewRa-_Q0WaOwlMOREWjbBcwFdsDBmymAcpxHZXP7HqXyohQ4-g0b5EQ=s220",
+        "view": "https://drive.google.com/file/d/1PlTAxWmQ3i5V50HwAOnzCfDkz4Dy2iB2/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCPJOppGQib3sHLACjY23D1uKtYSiRj52LqKAsPkGP87nppq30VQeV0oFw8_I9hy2zwcHTksb3_t6phCDTug9EnPXp7NwkFra7flsEJVta8lhaYQ=s220",
+        "view": "https://drive.google.com/file/d/1GVnulciLi_E6womncbBr7ehlxaOFpxLW/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_xGROLkNGi132z8vTkFbJSXPI5f7srhJMbv13ayjkCEL4ij3URXyUjox2CDlrercBCJ6Md1MauOMxZXNzWAB2nVFYRJzFkX63dMf8D4wnXyNpFg=s220",
+        "view": "https://drive.google.com/file/d/1OxJPMlmZHR3kWPju76m4d6nkUHc4I_8r/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300220 - 30/4/26 (LEGACY)\n  → 300220_inicial ❌\n  → 300220_caja ❌\n  → 300220_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300220 - 30/4/26 (9 FOTOS)\n  → 300220_inicial ✅\n  → 300220_folio ✅\n  → 300220_corte ✅\n  → 300220_demolicion ✅\n  → 300220_caja ✅\n  → 300220_liga ✅\n  → 300220_mezcla ✅\n  → 300220_terminado ✅\n  → 300220_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300221",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1m76GUqOQ2T0yk58ZcQnk61Wgjx1uyWSO",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNu7EVKxcBH2igma8Qkurz9I0ZCyN5rIYd2_VlEvm8PstARXPZOndgAZrYROTNyREj07W6UyuF5gIXIKQQTcA184aasz6YQqhDtzgc-GwkQLxr37A=s220",
+        "view": "https://drive.google.com/file/d/1_CQmP8GX9XSbdhQJRvHjkGb2seLgNnIC/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1syQGGRX8HBcPnO9DdKlntLMEywR_X1wEBvvCw7ybELKqUsVnGlDugPHIGU8xGiOk9ZHYEy753jBwIr1UTt4gfvP8-QGhpKSJx_zpVepwvsALIQ=s220",
+        "view": "https://drive.google.com/file/d/15oOjANOCA6GwNeDCdJSJUZdwmZ6dWxdm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQzjBYmuuUHqHfosZ49ylZK8UH6kEVqmMkbnwQypcNRAXf_h2vPxBbzpEu2Pnjdy2X0Jj5fKB_Y1oGIoW6r7FRZPfm9yo6CEjW0cYaSwjeXwuxdg=s220",
+        "view": "https://drive.google.com/file/d/1971fk2k7cUdJK9SgMRysHACknonQmvY8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOg3TI57qOJdIzVxtoYLIJ9vdPcALva1_6O6pNVzUv9XNPWrUpFe-0l9TMxDcivL1BQNPcGlQ0dGo2y2X9KSa03uNaVm_gia7H_4b53B16YkYFJMA=s220",
+        "view": "https://drive.google.com/file/d/1yyAX0AZEI6ptYq639zhD2tlviwG5Tn14/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1iHRtf4dy6CTmsXo3G0lRROR4WxAe84nupnPxKEYBxGy8g6QGVoPb0AOyxhVYy9It5WN_lsOQG2G5m8H5hBdhi1-FrqM8iBpTulnTDmcGyF5SVQ=s220",
+        "view": "https://drive.google.com/file/d/18rqgQ8td3S3q_nl3TBAuLXCSH7S0g6Zt/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwX6fkYCNw9etRA3V8qt9SG51BwRvncJKZN6wPWx36zLz0hQ3guWCe6zuvghW75no7TR5mchgOg9lb4Ys_hKrj1qsvqyHcHGfFmd6_-yF0n07FUg=s220",
+        "view": "https://drive.google.com/file/d/1mi5jv97IMfn3b0aH9--Ds04TuCTmjP-e/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTZm_EQlTql9I4A5QPMRrVopOy00OL3vKPx85aTW6zem4WeR87F9jIPX4WYse127l-4AYtywD6qCV57csKrHx4H6d9uezzEU6eserktqD9e-RSCQ=s220",
+        "view": "https://drive.google.com/file/d/1sFR36B5yP7fdrKFuCnw_gst0fZKLeQjR/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQpI8iXdax1FxAvfaf9zIep4SzqiHiAnZ80yZHY3TNSbBX--m7h16wYvVo17LHSzrxD1FIyHB93-r_BcSrZqtUkzlFeXDnK7P5ra1APYBuN5Z_Fw=s220",
+        "view": "https://drive.google.com/file/d/1TgVaYH0cNo8UIfMQ36LEe6e6AMquW3b_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONu0doK0p3EZrNIW7OCwY8nu5-9N0y4CG4Krhx1P0IeXMaDdgtmzu7E1RZIyI7v51bI-Fv9zmMuP8yvEltZtlEu7KjJjvh6k75BIDhpEsPqdVA6w=s220",
+        "view": "https://drive.google.com/file/d/1X5CTiRGyUSzmAcSUaFpNaaZge7kA9IQ2/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300221 - 30/4/26 (LEGACY)\n  → 300221_inicial ❌\n  → 300221_caja ❌\n  → 300221_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300221 - 30/4/26 (9 FOTOS)\n  → 300221_inicial ✅\n  → 300221_folio ✅\n  → 300221_corte ✅\n  → 300221_demolicion ✅\n  → 300221_caja ✅\n  → 300221_liga ✅\n  → 300221_mezcla ✅\n  → 300221_terminado ✅\n  → 300221_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300222",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1_LOSGKpFSmfdFdHL9Nj83xuohBfPE6Al",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxSaWH9L0giZZSQ7FzBe6nXMEAk4XrhNd5Wm7CPWLMhzRiZ8fCUe4RKP2dOfTtBEUYRnYNZWw3X6-oCme_qDcLp8Vc9pQbBGh6F7-9reg2J-3YHg=s220",
+        "view": "https://drive.google.com/file/d/1frlyExch2jJPRF1M9Qboszq3k1n75dfG/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSDS1MOepI3t1DaP08GxpsMNWvdq-fZRQxxFOcAtfUXLQtH25pQFGSd5e2y71Q4M1H75-Z17KR95jyOLd3VginfyySdxSsVZlwbL8RhQ1hlFmKnA=s220",
+        "view": "https://drive.google.com/file/d/1FSkXora5oPjiiuX6Shi92nwb_j2mUnzr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJA7lowk5ZLBGdXwLHiooRGKwITw56_gnWNvQrdVRx2N-fm9mFnwhDnxNe7giS6MsUfrf0YFvFBAkxeP8uUQjDURvW8Gl_1D2hpQ0ZDNWdZGSrNg=s220",
+        "view": "https://drive.google.com/file/d/1eNWyoblCnmDUQ3A5F0o5XEB_yryK1Z41/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9rA7p1W0azRSE6uMQceuUI29B31aOiqZfEMt57WMYNPWVhsfJ-WBNs3HBK6f_2fzbvkEiZXOjSCL-wO7BmINqzzHtPRPHQ6HYKe6Khtx080prSg=s220",
+        "view": "https://drive.google.com/file/d/1WQgkuWU8jeUiscQYEr7oM85vfTvQ5o_n/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaeDA3U1mcbmzEz4rmmGhEzXtsDgv7RsUvdTnEVgC466FZU6HETDjNQXMTmnuNQcYfWlNpfUurvW3m9zRvdTJOJJuu2gP8DPgTDHMYhOBQ7eJQOg=s220",
+        "view": "https://drive.google.com/file/d/1yNXdRzv-4k2OPRt8uD82tKkvWbm9SuZ4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPBuLW2X-_UZ3z0kWWwohsuFHVTgaN1Xn1SxktkcG6Rhn2TZxtFf3p033wa_zW8s85q6O0UvHPkLye0SA2RmanmXpz3Te_-0tHV4Um2eowDNIwqw=s220",
+        "view": "https://drive.google.com/file/d/1NMgM7GX5ghybwcj8uCrmyX0wLUmFxaXY/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNR9scyau0SPOA8ivhK_t3p918vpqOwWVhHksV5qwpIeX-FLkxUEOvKdeuTlSkVr5pu2B9TEb6O40f0mqcFY-vU2DCM3VaE0gSxj6EdcLzAjWFaig=s220",
+        "view": "https://drive.google.com/file/d/1YB8vaVVEJU6H0fm0Zy0tDWxMVRKzOKd9/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoy_0hbi9dcMGBEMgPmmHLeONbcvhsfkdXE7PofC-zhGGoQBHeDnNC0WnjFWnTJVJgtwJRgVpCxZQfc5eFYbY5E07YPnbbUzYLjCgrI64RdAZLsw=s220",
+        "view": "https://drive.google.com/file/d/1QyneZimD28Wmjsp8ZHhYpYg8h4otdy48/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300222 - 30/4/26 (LEGACY)\n  → 300222_inicial ❌\n  → 300222_caja ❌\n  → 300222_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300222 - 30/4/26 (9 FOTOS)\n  → 300222_inicial ✅\n  → 300222_folio ✅\n  → 300222_corte ✅\n  → 300222_demolicion ✅\n  → 300222_caja ✅\n  → 300222_liga ✅\n  → 300222_mezcla ✅\n  → 300222_terminado ❌\n  → 300222_limpieza ✅",
+    "_faltanNEO": [
+      "TERMINADO"
+    ],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300223",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1VdOmppy9uVtwX_NhcfkUwjTIA0ZwLgo9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOxjHfSIq4h6kvdZeceRWB9eyMFOMAzF1nxc6D4t5TQ_e6N2jLicQkdXBhnHTRbd01EPZ7weAD1gvuHZXdRio0yqBB6LTgXy4qvcy-XMDjTx_l9Lo=s220",
+        "view": "https://drive.google.com/file/d/1jABT_9Qj3HSC6-Zy_rLkDUBMss5NWxKT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaYKpjNxI899P79ju_PyAxsv30otu1qB10tx-f0h8qCJe_PkydNnpbXE8p1ABsJ-LNTE6ie0-7zzuSEPs3bkBB0aylZ287pj-cLVNgpUH-G2Vsc0Q=s220",
+        "view": "https://drive.google.com/file/d/14-vlQ4D8zVoz0PGtHNS4RnaeswQkWEr-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNqAdVVIrGgKX8ICFC33pHInsCs1ee_1fzC_7U-iF6Tz2s8laMxYW6KeVwApMltq4zYlxQEK5Dz-TW_1VyChOUvdpwHOEJSXg450BnTwp-m8zPDws=s220",
+        "view": "https://drive.google.com/file/d/1TRbLcuL7CrDkqWv1gc7pERuX4c6z_keV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2OrOnAARHU0C0kobG3BXjHP397NnyEK-nwzb9sYA5aPIbPwaKmHLH0VuGwsTMuSTGG_8o8f5vZt1sU9i_7HQ2WzHMy7g9jhkDu7sWMlVMWli9YHI=s220",
+        "view": "https://drive.google.com/file/d/1UiJjiyTMS6YdPq6OqU7p9M3bJnsIxxof/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFCAydFjuEoNt9w-GTxB_bTU1TmHgskdqKal46Osi5Vi-qHuX0w09CFBwBdEDqlxfQBzuOIEi_qPYxK7FZcC9qrxeYUlxESO7ruBFQwaurgMyqomQ=s220",
+        "view": "https://drive.google.com/file/d/1f143hqvt3hEtyxk6vQIt-TFDAHLHg3Ud/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1zxS1BHQ9ETwiwJeMqe1sZAv7bsdPdPBo-SQlD9XAmXoWFKX2zbc9H2OeLRS5Kk4CFiSewQkWWAE3umdpizhOzB0sDDIkn9QKtARs5GJLsJgz-1E=s220",
+        "view": "https://drive.google.com/file/d/1-ccGboRz6dSZIO6zyN2DtQ2-qcC34Zi-/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPC2hAEJzcThlquiud4cOoslll1gxlRme-zcaehs20Te5wazMbsqrC_Inq2FA_ET3yGCIguoweD7QZEzM4T72xV9MvzU3gO30qYnV4EGEpMZPVPW8=s220",
+        "view": "https://drive.google.com/file/d/1pMtKLPxYR5ADwwBwvIH9trolmTahyLpH/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSakyVCXkmwFqArUdu8grEEQAkOMZXuHJjVn4jn-kf9zaZIy-WTUc3SIvXV7acGDp2hTmlu5XqGRQYh43NOUd5XACJ8hbNYg-2YeJoGgnAbAEWzfA=s220",
+        "view": "https://drive.google.com/file/d/1q56t-it-wLBtJHEmxu1RwNF297QGDPeB/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVIGecR9NhnA5AScJpCAmq3bCfB3AgXvmIWNODJCMEGW65NHMw7yUYBqeGbrLItKKSiIcGjiUgfrHsG04nMlxbNcag4bUN7FWvBYbbeUvIDXICu24=s220",
+        "view": "https://drive.google.com/file/d/1o908KdPwSh2vQAbK-CN8UZKKxdwJA-al/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300223 - 30/4/26 (LEGACY)\n  → 300223_inicial ❌\n  → 300223_caja ❌\n  → 300223_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300223 - 30/4/26 (9 FOTOS)\n  → 300223_inicial ✅\n  → 300223_folio ✅\n  → 300223_corte ✅\n  → 300223_demolicion ✅\n  → 300223_caja ✅\n  → 300223_liga ✅\n  → 300223_mezcla ✅\n  → 300223_terminado ✅\n  → 300223_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300224",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1e21nJoJsrCfqiGsRLhpyo5jwv2jTdp78",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPbQMDwTJyKeL-kmTS-Qr1wqBjmgVZ9T-H85PTg3bVP3Gengh3GcyqAEEKLoqp15tBJ5WdFRw2106RDcWp_okU4X_s5rCdGP4WDjDuF430QosMtFE=s220",
+        "view": "https://drive.google.com/file/d/1ridVieAjAn_AfK8Ao_RkB2wIu5gtfzBO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_sgrAafe_o66qOi1mrQItSn4FqfPbzsFTLNL-N1YrnG9amQelq0Z1CGgYCw7tJv_DScGDXvtcaC3ObQdiKjj8R7C2XDsZ3L9ebyWRcNZMtIgYW8o=s220",
+        "view": "https://drive.google.com/file/d/1LGAI5f-IjY-oBzsTfgJEzLUxcck0DPJ5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONaGgbc3VlUAWrC5u0mC0QE795syEki9MDd5k9rQVY_Dl-_htfRUczpaR_mYfHNtBcMg54K5MfFKIiNEATYCj8ocIGY8OalqA-f9iTbeXO3R4rMTQ=s220",
+        "view": "https://drive.google.com/file/d/1IOlUyLo2C2xoj89pxdJgLB0YTFMfs1jT/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNK5ubr0rlUhXHcXGyX1NGGEtpBIG9nC4DZo3MVThkzZJ8TLsh3-4io12vJNtGJd0qedgtK2D7JmiUI0N-2u4vVAl_D-xfufGfUC9jR7YZicW_vqck=s220",
+        "view": "https://drive.google.com/file/d/1v2ccxaLyydgUxe1m1XYeEsOqRvKfHzhQ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZ8NzltWVu8k3W9n4L51MoR1OgIcRD4B7ORS7nmVAog2dWYWcldURf-8MkNZGvIl6ESXSjyz49IoiNJM5sa0Z6bejSNRsHMyebBE3K6mVqkbnNzxM=s220",
+        "view": "https://drive.google.com/file/d/1ENpbANJZRdgFSvmnv75GelGRFsv8vGNc/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-F94xtNwl5iRSrfGrEBIn77ERXKComeyBt65fp2V48j4HNwzLvWmggtPf79mPdzgfCljWPGQAlruZrnb_v8n472YIy6vN3wHAVcyg23ylBm0wWL4=s220",
+        "view": "https://drive.google.com/file/d/1Txu_OgSCNRiJvNzNnnjNjh6SBIuehBYb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBeTkbjrif39kfzPLKeSOj7kVfPNn44GlqhQeWrt6F0o5VkquZfSAQ01AX1UIxjrtmk_Ojkv8CfeZLx26P9Y1YjX6WRK9eVF1FSVhRrLcMRSWwLrI=s220",
+        "view": "https://drive.google.com/file/d/1U7WpjNl5DnjzTk8EpLWqi1BsKxKPkkZx/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8s06MjRBtckerAM9YJpLeNFiT7h7gMDEMCeDi5RsM-gDvAx6PPdlbF_0EZ2grb1UcneVatNSF9IL1xn8v6Rs1ToUMjblQLc1SgTBo44bK1MkHsf4=s220",
+        "view": "https://drive.google.com/file/d/1syu10b9tbkHkmA61RrZ3dg6JGFQLo6zC/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPMXEdu3Ta0eBDpoSX7IKjOh4fQ_0i58U-rRTfF7RDiPrCvKg1qEOJcXCgDT8sRf-5perD7ti5G3CLRBgUyEA-hoExgNgiXZtzJIxGgG5TZEjx3us=s220",
+        "view": "https://drive.google.com/file/d/1tkOLx9AuirxtJW3PxM24x9oCaFFnLXKw/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300224 - 30/4/26 (LEGACY)\n  → 300224_inicial ❌\n  → 300224_caja ❌\n  → 300224_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300224 - 30/4/26 (9 FOTOS)\n  → 300224_inicial ✅\n  → 300224_folio ✅\n  → 300224_corte ✅\n  → 300224_demolicion ✅\n  → 300224_caja ✅\n  → 300224_liga ✅\n  → 300224_mezcla ✅\n  → 300224_terminado ✅\n  → 300224_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300225",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300225 - 30/4/26 (LEGACY)\n  → 300225_inicial ❌\n  → 300225_caja ❌\n  → 300225_terminado ❌",
-    "_faltanNEO": [],
+    "_folderId": "1bQ0HO6jDy6L7ugp74yPyShJyBmfylmnS",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 5,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300225 - 30/4/26 (9 FOTOS)\n  → 300225_inicial ❌\n  → 300225_folio ❌\n  → 300225_corte ❌\n  → 300225_demolicion ❌\n  → 300225_caja ❌\n  → 300225_liga ❌\n  → 300225_mezcla ❌\n  → 300225_terminado ❌\n  → 300225_limpieza ❌",
+    "_faltanNEO": [
+      "INICIAL",
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "CAJA",
+      "LIGA",
+      "MEZCLA",
+      "TERMINADO",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300226",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1bYMHq9YyP1VO-XhIiilqW6a-NalQ8ktt",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvUXAxcUYCuu0-hwmpFGPCKZXu18zPVg7iE7vg5ncD28-tqCw-Yjl6xxXKhkmyN-V8xkstXUf0t4X0pZPSog8DjhcG6fPUlefMPDDzHgUarChcTlA=s220",
+        "view": "https://drive.google.com/file/d/15jDGM7dNDwFFe8fyjX9M2TsZMGvbAFd5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNehI7U_PHDcDq5cBvJTD5MixL0mHgy2MjtR_pohy0oz8zi4BhsOEalux8sUjD-XIQbEIisgGo0JR5Tvbl7NpoCgT36hvHuajBESdv4JxUZ9RmbEaI=s220",
+        "view": "https://drive.google.com/file/d/1siRfezFW9InVZLE4IoT7c4X3tBpa6OYf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoRazdfctGCJfMdK6CGmcGFofA6QHxdUsmRwv875r69dFQG2htNCIncnDoAMtM0DRwvzG3vaI4k4mb2n3_IY7N7QlNzy5lueCNEciPLAVEspa4260=s220",
+        "view": "https://drive.google.com/file/d/1PnSefSMX_sfxR3dA5h_citDctiFWd6CI/view?usp=drivesdk"
+      },
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPujHK0Z_1Sphnsa6Ydj8ar4fTO94woQIHZuMiKeWIVq-TcGHp_MnN1T5EVPkr3mIobURVStPqlRzvXLQwRPFbPt03F-JAYq9H83LN44FDGxcrx9sE=s220",
+        "view": "https://drive.google.com/file/d/1UAh0YMboT9T9K9zj_Oq1fxqv-QN5eNin/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOmZwN7GIxG0zeh5-QM631x7Xxvtx2A5NFoLWITypryUK1i9am4A4FUiAH7DBodypxAAeskOWO68MDrUpNF5fRbgwVxe0bl3t0y_v4muAhK2VDFBQ=s220",
+        "view": "https://drive.google.com/file/d/1yw7MEgkLXTO1i_H8VWFcYrDsmilhgjK2/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrAxeeLtjvjTwpS76sDQRSOCaL10MjwLyGFlkG-vdWmAopE5Q2e6qy-czWkkihKB7BI8uDJIUVtjqygaP0trTRp11zsFv0DxuyONmOYqLDuHJC5FU=s220",
+        "view": "https://drive.google.com/file/d/1TDOPYjAFLCa-obWyLpr7R199ss2VZlNd/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300226 - 30/4/26 (LEGACY)\n  → 300226_inicial ❌\n  → 300226_caja ❌\n  → 300226_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300226 - 30/4/26 (9 FOTOS)\n  → 300226_inicial ✅\n  → 300226_folio ✅\n  → 300226_corte ✅\n  → 300226_demolicion ❌\n  → 300226_caja ✅\n  → 300226_liga ✅\n  → 300226_mezcla ❌\n  → 300226_terminado ❌\n  → 300226_limpieza ✅",
+    "_faltanNEO": [
+      "DEMOLICION",
+      "MEZCLA",
+      "TERMINADO"
+    ],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300227",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1t__EAkuPKu_HSwXIEj3KjvVeYi4SO2Zv",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdSzItFMpOkGXoomCzeM4C7bxDhDsbe50jVfMsPLN4JOSP6s5WTV_fgRzK-CLSP101xolmA4xW3r2Js38pgW2iFy9gZ0b_TNQkgBuvZk4RKvMyS8Y=s220",
+        "view": "https://drive.google.com/file/d/15JMDQEw17-XRO7KpzRELhyi-5Waa1BCD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZrNdPSfznbCohDFXEQbbLaW2V-dONbrbsnWqutxsdP0HkM_fP5CRZ8TaDhKdabXw6InmmPEMYtagDTK7uQAkZcUV-_hiALs-0k3EmiQkYpYqRUMk=s220",
+        "view": "https://drive.google.com/file/d/1YmiMl6_Bj7aOHV63NLWSgWOfs1LXHs4u/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPS6pQ8APMLhMbeBvd7Cnmr2jX89Pq1UdAx5Ro90Yg_NBr9ANUbwe3LjKtNCjI4xQHnhMJ2KTlelRz7u5jdUFHLiuG6g9wDTY4Mga4nP3PrDFTTmx4=s220",
+        "view": "https://drive.google.com/file/d/1JEbCb1jJCXvXEwgf1QJAnOwQSTzXE9Vu/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7E6mRxH3i5RJFbO_0kcj-idRVOzsAaxa1W7GiIhNNsdAFpXSCO7Th2xSMR0p_1SvRVekf8fHkVOaQRXHNRzr8Ga_dA7pkxfhtC-KrzfZjrjOhDz0=s220",
+        "view": "https://drive.google.com/file/d/15RdvDbdid4bnXeQZ1pb3QJPMPRbN2KB7/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr2BGx36LH2Z2u7jDVIzV_D6fuVgvAXod9EwIIDzOEB1JXozmnRrd9Y07zodIx7nx9TYTTgwzWw88OkO3COo-jRs6QRVGK3kMaSDptCrT9TtDFFos=s220",
+        "view": "https://drive.google.com/file/d/1eCIp5W8XqA0tY4joqHGOT1qIbQ5uWE7o/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBoO4w2fZpsWIwbp1l1NRxpECGCkk0ZWlIwCxASa066VXQk7WMM8Ysdised8lfJyhJPkrpihKzDOCN5ZU28fJknhNuPFmywG4pR-_pDXB0bFtYYw0=s220",
+        "view": "https://drive.google.com/file/d/1ctosG-VgVIq8LM6vHfpzqsXXPYB-zIjv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9VkkMk8a0O9KQljpWlos6ICULm7DCh-3dtm3LlvNjIpNA7_-aHOzuKozeQuusZR7t3MVwifTvCTt10o67fFoyEGs3n0qd40qXVNAKMVbVXHEHr70=s220",
+        "view": "https://drive.google.com/file/d/12B7ZR2pMCzw5mopHP3tzx3rKrl9LbdOi/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMg-1ObrG1NAvrF04hzRhRf8mOYwzzr7Dfvdv5Kkr652Eq6F7UaTIstKE-lM-S7JSHRh1c5TYMN0-KGhzhI8iWZcLtfxkz1YM74LVWjmWehyVVcZwA=s220",
+        "view": "https://drive.google.com/file/d/14MwOTZKTgd3MUNy2JczDtFcVhCUxfcFS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr_OWScV-Wrdf0o9AbXtZj_68mExKjw4VKFAahKewqSUmcsFinJmgPZYScxc_4nQM4okwLB1SHZ6rHTztPYVAMm2CmUi8JQXbvkzIcu17xONLyCjk=s220",
+        "view": "https://drive.google.com/file/d/1vbNQOWVVK9jeVwaEi8GDZwV05Y9aMWhd/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300227 - 30/4/26 (LEGACY)\n  → 300227_inicial ❌\n  → 300227_caja ❌\n  → 300227_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300227 - 30/4/26 (9 FOTOS)\n  → 300227_inicial ✅\n  → 300227_folio ✅\n  → 300227_corte ✅\n  → 300227_demolicion ✅\n  → 300227_caja ✅\n  → 300227_liga ✅\n  → 300227_mezcla ✅\n  → 300227_terminado ✅\n  → 300227_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "300228",
     "FECHA": "30/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PASEO TOLTEPEC",
     "COLONIA": "SAN MARTIN",
     "DELEGACION": "SAN MARTIN TOLTEPEC",
     "_company": "SERVIESTRUCT",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1NV1mw6ORa1_uZT1a72RHx7HAK3669aLl",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDwtTYFIMl_a5Yk4bEaGIBYDhii9TqGRI5-5qMzKgDz06Uy6OZWqYC3ZaQVMT9mHfuX7KoMp3uaJdhjPbIVvMvR4EUdNUH_jqtUm_M-nxSSPMYknM=s220",
+        "view": "https://drive.google.com/file/d/1SSunBH-hlKJVkQCXE8rWBoQv03Tsixl-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrbIGTX5HM2tt4_eS3u48t9EbJgeghW0p0681G3w2z6RIQq73QVdhMOxPN19SuSwIto89kv_cjx6FI-PAY7JdLrYnAWcQymVez9Yix8oiKBRCyPcs=s220",
+        "view": "https://drive.google.com/file/d/1KsngaRL6b5aDTK898otkhf24M_dJZ7M-/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYd5EodUNRN23NrQmNEtBjQ1oY_jOldgzZlVznVeZjptOKDj4mRn_3igdwKSj90jPzTwY8Tq0eur-DZO1-LrXuhtORJHYy1Xg8tSNwKLtXN6mHnAM=s220",
+        "view": "https://drive.google.com/file/d/1ZaqIqMUStmrm67-exGrhBoLatGE7aLmI/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg1sctpYdA2trxa48eJRcWILTe3FidolvHAiwY9rxyUn8BASoqR9QRH8PZcOHdVpWQTYwHQWleqiuQuyYooMjp9BuSCmHCEvuEzqAujcFwvYIFhjg=s220",
+        "view": "https://drive.google.com/file/d/1dwsjDTrqEg1pfebdUXpQT0MK83rS9Wgy/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOF0SYTjxH5-YeNMVIdHn2Mjcsfad4P8bnKNFN4fKxDkyBJYMILXLnMPcOJui7CPkta6zR9awbaMtifGBZx5Jw4wpuEtHNDbfXbVDwKWSohgZsjAk=s220",
+        "view": "https://drive.google.com/file/d/1hx9i5q5ABMSi7yqKoJW5-KqRWHXVfq8n/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuwkGeb6TbpDBicVBjQdNp2iQ9GpOoyMEuKxkPpBq9AXL7fKAMvrd3tHRs3yJVc3BltodfL2FMoA-yUaIMVIZ24YOYWtOINn_IbreieVly_Iu7hzY=s220",
+        "view": "https://drive.google.com/file/d/14niPC4pU0IDQ-qZXxdHZRaeUhmnCCl4l/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPT2YeG8AOmQdteKHMoMOJr3vL7wuGNJo4zVfTXE9JecUriETELO_EJjRhH7WNXBSZqf7ygWzKP6dCOhcYfbDodLlICjHzqpTZTbYvuZKGB5GTC-Bk=s220",
+        "view": "https://drive.google.com/file/d/1IMtWBi64oK-gh_qWuA__wkigPJHDmuVN/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaGkwDDErU2_AurdcfhwPb-4DWUWzDnqdHtoN0rUNxix57B9k0gSbtvw_WQ7k9WTQjBZu9V9850s2wkPTlRfs3Y9vXrNtlb-mamtEv5YrXdcY9GMM=s220",
+        "view": "https://drive.google.com/file/d/1-KKHPOSzKM81jgkTTy2bhDAhlwdUEaur/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSKo7dCtUT-BYpHhhwk6GAu1SBmG6H-SaFh-Kx0bhDIWS4CxiYD2FcB_aTOfn-GYyBxVwqBzqu9nWVGE-6rtJg_0d6W2mYSImEN7zlSfsg3OwWOuI=s220",
+        "view": "https://drive.google.com/file/d/1hSwluDKQ9j3dRZ5ooRHzGXRsilGxrcPE/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 300228 - 30/4/26 (LEGACY)\n  → 300228_inicial ❌\n  → 300228_caja ❌\n  → 300228_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 300228 - 30/4/26 (9 FOTOS)\n  → 300228_inicial ✅\n  → 300228_folio ✅\n  → 300228_corte ✅\n  → 300228_demolicion ✅\n  → 300228_caja ✅\n  → 300228_liga ✅\n  → 300228_mezcla ✅\n  → 300228_terminado ✅\n  → 300228_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   }
