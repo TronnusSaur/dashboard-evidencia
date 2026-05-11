@@ -3504,113 +3504,326 @@
   {
     "FOLIO": "350085",
     "FECHA": "21/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JOSE MARIA PINO SUAREZ",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1YmiT59Y_NET_lgPldVAwXhH5fTI4-AoH",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5WVh7-YydxvhmaAZPHx4pJ4OU_CTD6OZltLaKTqDHMccyt_SmEdRhxH9WM04pyd0OA26U9GDfzNBqlPsUKEVHDKB9tLuAIFUc3PCX36uUVgW64mE=s220",
+        "view": "https://drive.google.com/file/d/1yTtH-MpZYoQr73TcF29QPCPLJ5AJ5ah0/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP94u4gRaFohPYBWFBgSMFk0dvzEVr_ZMvI9mtepKsgdFwoxASMOukAcbfsKkt5hPW1z72Zt4r6VXPPf5L2uXWuo34XKDMuXbMX7LGGbWFh3t0Q3YE=s220",
+        "view": "https://drive.google.com/file/d/1J5GYYGstGvor4v97PPICBK6f5i2MTVfq/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMARIZqQoD7LfyQR3LpHBtDdwjtb4pi3KeXO_MepopU1voTiuoIn__VxJ8esTZLUbZllji0rP5Ljq44VyWaBjbpfGMk-a9gAJi7B0MsZK7j2weVBDY=s220",
+        "view": "https://drive.google.com/file/d/1pE_SS0V28ypWq0DG5d9jW9IxmJlYC8B7/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350085 - 21/4/2026 (LEGACY)\n  → 350085_inicial ❌\n  → 350085_caja ❌\n  → 350085_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350085 - 21/4/2026 (9 FOTOS)\n  → 350085_inicial ✅\n  → 350085_folio ❌\n  → 350085_corte ❌\n  → 350085_demolicion ❌\n  → 350085_caja ✅\n  → 350085_liga ❌\n  → 350085_mezcla ❌\n  → 350085_terminado ✅\n  → 350085_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ]
   },
   {
     "FOLIO": "350086",
     "FECHA": "21/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JOSE MARIA PINO SUAREZ",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "14yj4FhrIWuyHQgBx5vpJGmlxqFdSzSag",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNE4FFAphwZewYrYlmjtnziNQnkIV3nqxGGzunA_xjQp_dSRRfzS4Q5JCOev3C6S02_JpiuL9D4ws6fiA20j_l_oz9wcipYJDSZeiYiOxGZl4dgPro=s220",
+        "view": "https://drive.google.com/file/d/1cPidRGzZ_XDYbLF8aib5NZypObg6Ldal/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOA0RlJRkdkKMBpBRtT08gkuxZlV8BhHIlt3tNOY2Rsi9VAzZkFe69IDnTCpMvn8LkGllaoRb5DYUGIWok8Z0SJmAtuwxTi9JuyonYgNH7MbYOT9qY=s220",
+        "view": "https://drive.google.com/file/d/1AuIi772yWfJR30aWROw-aAZYqkrhfdoN/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdBiDh5otHCFwn_wWpZL2yLARhOGqDZHuM6yTqwWULFA-i1Kc74fCRLCx-XThopUhYW8y_YXokyioAQRRe5VlWM3g-WH3IhfuBwEq5J8l7fYo1b3o=s220",
+        "view": "https://drive.google.com/file/d/1Nu32e_e0u_bqMKp03vN5vg-W6Fb3m-p8/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350086 - 21/4/2026 (LEGACY)\n  → 350086_inicial ❌\n  → 350086_caja ❌\n  → 350086_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350086 - 21/4/2026 (9 FOTOS)\n  → 350086_inicial ✅\n  → 350086_folio ❌\n  → 350086_corte ❌\n  → 350086_demolicion ❌\n  → 350086_caja ✅\n  → 350086_liga ❌\n  → 350086_mezcla ❌\n  → 350086_terminado ✅\n  → 350086_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ]
   },
   {
     "FOLIO": "350087",
     "FECHA": "21/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JOSE MARIA PINO SUAREZ",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1p7EkhTiEgli2zv-g3X2j6L_I_3TCCgaU",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNY1oYC2P3WioPVHCFwjmNWdcg5oYkBRG1hm6Q8IWm49PfFP9TCymNxRXOifXImZ0UH4AGmvefRv4p3HLbnoP33t00KXM8FKD6HHFXKr7gI2zioZ90=s220",
+        "view": "https://drive.google.com/file/d/12KobcEFcFbLpaK5rnDPNPt31uHivM5BQ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdTsKp1QOUOhAQSkdmqgBKmcIVn3-OG0WXZSOOGwY61PyVlCR4A3v9f_ivy2ltKAe_-XTADub3SVupFZG60Xg0QnSzUNcsWU29d6jKFvAVQFyYBV4=s220",
+        "view": "https://drive.google.com/file/d/13iZWUr-ai8x3HVJvBnFSYgAT8pG19Tr3/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNatE6-RXNyQdmUfvwTsg9ZVfzUGIiRdJYG17i3-WTgvi8RYmcKmMIkLXONd8wtfWgtYFbnV-1hMNDLJBdZU8GtuDy2S2nQbeIJxabFaYi1B4OpE3c=s220",
+        "view": "https://drive.google.com/file/d/18IlUZMj5606uKgtkGCEz9DMH0HbJxTs5/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350087 - 21/4/2026 (LEGACY)\n  → 350087_inicial ❌\n  → 350087_caja ❌\n  → 350087_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350087 - 21/4/2026 (9 FOTOS)\n  → 350087_inicial ✅\n  → 350087_folio ❌\n  → 350087_corte ❌\n  → 350087_demolicion ❌\n  → 350087_caja ✅\n  → 350087_liga ❌\n  → 350087_mezcla ❌\n  → 350087_terminado ✅\n  → 350087_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ]
   },
   {
     "FOLIO": "350088",
     "FECHA": "21/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "JOSE MARIA PINO SUAREZ",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350088 - 21/4/2026 (LEGACY)\n  → 350088_inicial ❌\n  → 350088_caja ❌\n  → 350088_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1usf8jf48TdMkX_si00BaaOMjPJSZQzsl",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMI7kwLbhpYBGq-gUHyII3tAOmQ1XRbwWjDl60lAkzFBs9zsakSDpcy7dpI3l_OoJISCdSnf_g9POqvS5camRGyE35iouoVAwhrDE4s1rGLVN4Tjg=s220",
+        "view": "https://drive.google.com/file/d/1d_qarEjQsIs82m32YqrMpOOTHZnmM9cS/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-WJWFBrFWTQJmDpL5DvnUmjjfKYw17rdmm3jcuUOfOzLZKqHoHd10yw4C8ZA10raNwFveIx-pBiu7BwSrXGro6Gc8-O3eeWv__j--AOpx5hcGGQ=s220",
+        "view": "https://drive.google.com/file/d/1_FAxmocpNObpt4yMmkWEf0IPalxbVAFy/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350088 - 21/4/2026 (9 FOTOS)\n  → 350088_inicial ❌\n  → 350088_folio ❌\n  → 350088_corte ❌\n  → 350088_demolicion ❌\n  → 350088_caja ✅\n  → 350088_liga ❌\n  → 350088_mezcla ❌\n  → 350088_terminado ✅\n  → 350088_limpieza ❌",
+    "_faltanNEO": [
+      "INICIAL",
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ]
   },
   {
     "FOLIO": "350089",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1p_7EFm0KEeKSEWfZIxoCuFkSuyuS1y8T",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOC7T2KRn72U5zCGIWqWk293PHDNfDU2tUFqO3Arwp3PLA9w-uQOrTbWVk7b3lE_uG6MgELZZKeK4TBe_UyqfBvogqkH2G_ujC-hE3ryVajVCoL5e4=s220",
+        "view": "https://drive.google.com/file/d/17Dwhk4BbYg4Z3qbr_xCf6gByJ9kqxB40/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmivNRfxhtlzlCidBH-IgSEcHduQ8V44FKciumhK1VQpiiGzevyL8BxdwThj3o5TlRlixIjyTSs4sICtd5F-fARoh-kTktrfwuZdnKH7w-yRhGYc0=s220",
+        "view": "https://drive.google.com/file/d/1ojlDEVKEOd7_JV23y1fC3BaqFcTZk4JX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLoER8G3Y4Mt8W1vvRNvOZ7qYmkRl5dMSL2NfMzlmpYRhBguYDGVKLFhA9eugtyHEt0VbDPWum-j3zGyU4gqrmRg_r0Jh1kyFxQGwU1cMyAmC27hY=s220",
+        "view": "https://drive.google.com/file/d/1jdLxcWF_y5Vs9lgiMSzlLsAZz-B8L7lH/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIt7m4nbFmZg2xqallGjBXO--Gv0oCwe9Npqngg-ZuVaA0nA92gMrODXlQShF8IGa0UC-xt7bcgmLnMkEbNzXi_aNq6Bcq8_tTIj-BV2sDYid0NCw=s220",
+        "view": "https://drive.google.com/file/d/1NX08E-BSLXcyeOeZA7ysTV096Rty47gN/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOj6lYV2AcRsp6N4PwrQxTPXkLyKmL7neuUKC1WDiKwjTmrRQGaBjtZmuDI3g5e6IsaBGOSIhzMwAGxMlgayZCI9XUV0valLkgvT5fGkEaVXAfwPI=s220",
+        "view": "https://drive.google.com/file/d/1gzxjAK6PCXEWAmPT_9ksNVJD3rfLtV8X/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWxlhE85FC4yPTbohiA_x5rtJOPOk7DsnyXJNbFUDiySNnt49ZWo2zkW-ymxm1ClFNnIdoh30wrDnB4adWzz3d-hLNdCAlLLMXXLTHNfchbcwDYC4=s220",
+        "view": "https://drive.google.com/file/d/1PhPkAjKlFHPmPYyk2GRI6UIrtFEr1n8I/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4EYjPVg8Gm-hZp7LKeUT9ivJPHw5MIy_ER1fR79zDVlseOrDPG1GFZAsFiVzvpXmzZsIlIppfJZLSGRawFboHPaYGldBsnYFz3VPM1S2aLITeoCg=s220",
+        "view": "https://drive.google.com/file/d/1Ll4YOaq3EdUiTtrDVaK12Z9R_zu9YW2F/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMH0Jr2lBlO4VwzUC86kHjXm4qfLHfS4JQsnZFf-Cz0YcQoeUHd-zZfZ2wkUKkhWyu2ZPTm2YPcNItNOeZUWuZqnSsSnGD229HhaLmKBEZkeVeXKjA=s220",
+        "view": "https://drive.google.com/file/d/1HnB_Hl-TvcxBLiGNIc0kh_QOwac5Umbf/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTz_u7uklZ9EpRqJvXvjXo_VbDhy3GXm8ppXiKVRNkMuKWukZ3K61lAg2f7oQu20hGL8BOKgMFTsFAKeatv4X2nB7kBhAX54-mwX1UbQ5GJz4b5eg=s220",
+        "view": "https://drive.google.com/file/d/17ssKwl4ZkJDjvnvTgLSXvXzK2gqewnNW/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350089 - 22/4/2026 (LEGACY)\n  → 350089_inicial ❌\n  → 350089_caja ❌\n  → 350089_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350089 - 22/4/2026 (9 FOTOS)\n  → 350089_inicial ✅\n  → 350089_folio ✅\n  → 350089_corte ✅\n  → 350089_demolicion ✅\n  → 350089_caja ✅\n  → 350089_liga ✅\n  → 350089_mezcla ✅\n  → 350089_terminado ✅\n  → 350089_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350090",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1gnnpuS1JEx9u42pSPWfMuBmHqJkcxmqD",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3Wy_ouAkMtalfTcWOrEm92gXCNx2pXmwgswX_zTvaandXeguM_OPxo41PaPIzFBQk__LZL4fg13GWMHscRIbzax0r6S3HYpr9qgI9AErW2ufIoMs=s220",
+        "view": "https://drive.google.com/file/d/1d7MtU3H33G19-gt6QCD1R4H1-Boi4k2k/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRzF0cJTmDjSU-c2hUEHDpJVniu3p1o7Bk65-ZH0KK_u8gNSym2MZBb8UAZim_kgRaGGaeB56DUs-yl3y56B4BQVahxg_fygQ4GwtysSikFsT_tOU=s220",
+        "view": "https://drive.google.com/file/d/1hvQ1ytgq9Pz38QP3oY_MivRAfTmh6mlv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJxFJYX1YR68Wbj4pbZQQGMIih666CHyR2B8knoOT3TPhqWmTv0OaxqAw7pyXV3wnn-CGXefzetyae9TTHUp-jyq_Jr9ICCb7Mp-Q7rq-_thXTDgQ=s220",
+        "view": "https://drive.google.com/file/d/1SWvqzTC2XPfEzCqN5OxQSXUNcDwNj6Dn/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhAp1RZSOZWv1hvjR8kxB6p-7e6vyUrouSzWByAC814vd_AdUu6SUdbBt7iz8g4jZVD5NCPegb71tY4kPGUmlNUt80tzq0hsFSVP4YWQP3xRopmK8=s220",
+        "view": "https://drive.google.com/file/d/15hxXsDfOU1oAB6uux_Zmu_Ljl7Jkeg7y/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgwivMjBcw0w63UpizND9vGKp8eX3G7M6uY7RG5Q_9qU18GhXE4rEU6qiRXHRTaaDJbM8uDOaEptKdUfnoNR1QFibJXW_SjOrGvI1Qog3hayAkeJw=s220",
+        "view": "https://drive.google.com/file/d/1_VFm2S-WpXEZkh11ncHXFjwsmVRacrul/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5KZHW0i0Gz8HyMiZoM-ldOiak9AUqFJhTWe487lNE40z_4bqmTA6AXEzbTC89m35BnnIvLW-9bE8wp5_T-3N69RlHUAItaYcVHqjHkv9zOjOC8U4=s220",
+        "view": "https://drive.google.com/file/d/1IHMqpbkwugvhD-ptUalxiIIxDTtpP2Eo/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5RtmFB5Hb4Jed0hr_yczDWMJ22Yr46zYduWdUUR0JVBZO9zbdcMWmRa0B624NQIeMpEcco5agBtM1tUxqXdsXT-z2QqjM5IcQR6R9mAnfqHiVuTs=s220",
+        "view": "https://drive.google.com/file/d/182Tga5W4jUOvjyfn_tHDx9KxQjl9ACyH/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4NB6v9bbQOaROSVtKJBHbtvWB74kyAj4r6VVGzEWjc6g0ekoo68gfqPXp2empkzlFdcrgH8nmC0domnCngispSIWn2NiDJ_e7JpwhrGNBi5pDC3o=s220",
+        "view": "https://drive.google.com/file/d/1pM9iB48MCNmbp_aheodIBWZxJc6bhbL7/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlkQPgClJfw6BAgOdlF0Z5hMgn7LpyRtC4KrSU23aFX3Pecf1k7z9Xxz6G2PB7pyP3KYYJNQncKfTji8kvvCsUKh853shnZ7ht0z8U1B2G6aavAuU=s220",
+        "view": "https://drive.google.com/file/d/1kcOlzvArmYEj3kDhzIPT5Dq17UFkglDM/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350090 - 22/4/2026 (LEGACY)\n  → 350090_inicial ❌\n  → 350090_caja ❌\n  → 350090_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350090 - 22/4/2026 (9 FOTOS)\n  → 350090_inicial ✅\n  → 350090_folio ✅\n  → 350090_corte ✅\n  → 350090_demolicion ✅\n  → 350090_caja ✅\n  → 350090_liga ✅\n  → 350090_mezcla ✅\n  → 350090_terminado ✅\n  → 350090_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350091",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1GNJWfQPyfsyC2Ce4zqBr14CMAiR2aoEa",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTh1kkxVNyulNrM96FnIQwM7eSVkvKzRLnLTtMEf58jdCw2I9LBSV7SqBm53SP06OIXHCPQMv-d8ogHkBOfVKphf-VTFaNhDfXQKb8eiyNwa06tUU=s220",
+        "view": "https://drive.google.com/file/d/1NkJwMJegczGsF_T2IKNdNv3CKzqKfaQk/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIrBV0mPJ5yVnmM2-aWxuytUDi2tLlZcPZye1V4EMx0yVNQiw93U4Yn0GJtU0h0TjsZyECfGADXHbMquBY7k62QxkX7dxw997eRwJlh6MSB5LTR9Y=s220",
+        "view": "https://drive.google.com/file/d/1kl-pSnniLf4TykraWHK0UCfWgssDnyT_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsV39YiHwzNw_xLfVsmii-lNfqLb-aG5f-uhPvC1pCXJXal72ejnQHmSABwI6eqNy6DZ-JzqV9SqV4GSfyJKCfac-4YMqgrh1MXIFfQFApu_S5ny8=s220",
+        "view": "https://drive.google.com/file/d/1ZOo3mYkggnMYoMqHzCipg9PXcAzq65sY/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe1TMBbpmHOKIkpRzHNF551jX4HCJqVdV7a6ZMHAgOQ5c_6JxzVEe7yUHOSV51h8bWIqbEp5ppp4HnxwAPM6Ftt2Tdtaz2yz4TLvV7-Bh2YGNs5m4=s220",
+        "view": "https://drive.google.com/file/d/1VRuNez3pPJc3_P8FoV8RBCLSnMN2fv2u/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcJTBVzf1RzLDeB8rahlBxmvMpEF3W_pw0cWFciGJhUFXkFODTPXPu21rDhe5IWCKX5zpVGcCsEyFHA4giqAU_MLbkoxmrvRfTnNIib-_IPj64f0k=s220",
+        "view": "https://drive.google.com/file/d/1KTlP0JvuYKNmcZZ3G_-HIT6c9sO9HzLn/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtlpSjJjjjLux3AT0NcmrLcqKvJdOz353Kvcfdb-ax3XYNCeskSp-k1fbeL3S7BV5M4tAnwQUUzPqh_rjxQoo0NkwjV9aeqb9cIxASdSLF7fNP3Jg=s220",
+        "view": "https://drive.google.com/file/d/1FF7JDdhGgo23SU_YnC0lk9MqkvhQLeqn/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN49jlMNP9USvtz5tExpCSwJjNvKW1Dth0XezRedoJEb6r4UDS5Nq0q2iOOrcy99qUJLkDWZqmO2g100GwzfJGghEVFsk0pXPiZzm9HzC2z7a7f2ls=s220",
+        "view": "https://drive.google.com/file/d/1uc_4f6-2ISeWtEh-lfOaLR66xmmZi0zZ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmaz3SnF_HGnm434AsgPCB6tgAvCoAjh-Oeb9GrGPbStRNDdfIRR4YRNsTbcbq1A4_mDLOI6H9m670G2DOW_lUp5a-Oi4GkmptNBsmB3SdLblmUdE=s220",
+        "view": "https://drive.google.com/file/d/1hP27VPDzcAhj04Hz4rMeL25ZY0SsuDf-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8V414ZhkJUdLckT2IZOY9NbwbUpyxZfG5AS4POf59Z9f2a47_2LFVDowx9Nc3GTIuMDK6_vtYgXmLcnGrKSARnZTQC_DzcEXvIeOm2eXu-8fSOtc=s220",
+        "view": "https://drive.google.com/file/d/1iYAEM4YANFZmQXGRLZJa5h0Y_E2kpHsF/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350091 - 22/4/2026 (LEGACY)\n  → 350091_inicial ❌\n  → 350091_caja ❌\n  → 350091_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350091 - 22/4/2026 (9 FOTOS)\n  → 350091_inicial ✅\n  → 350091_folio ✅\n  → 350091_corte ✅\n  → 350091_demolicion ✅\n  → 350091_caja ✅\n  → 350091_liga ✅\n  → 350091_mezcla ✅\n  → 350091_terminado ✅\n  → 350091_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -3669,257 +3882,841 @@
   {
     "FOLIO": "350093",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1tSA8a2cwOY7SWuUAkUFVq_mGvjuRuesx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqIJvkuKb-KSFmVtnr0XukH-y8TDe5AyI6mAzHq0D5b1r3EGkGn1xylHMuareVIAZaJ8y8NcUK7tJwAEy8MbYP90gx8JnrOAixcGTS8hfSbdbCVbo=s220",
+        "view": "https://drive.google.com/file/d/1T_oFCI4TBzesNIDbsNNYlMiclilEihqK/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5gykFbufH83hjVYqCgubKYeg1rre_DTWlDLY2wo3HAb6mzR4uCYYbW5SCLTveMyWIjPutku0lr1u4b152jgZ8aaHPFYnU_4pgOzXDF1p5C4aLnuk=s220",
+        "view": "https://drive.google.com/file/d/1rz1tyZjMhvj_D4hym0DQYzwD5dPn8aAh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzN0kvxcGWNA7vwYJzMN3NgR1kvXpuTOkF5CUwA2nwENEBjQ09dXKAV-_SdZ-z1Quy7gaZMsLHU-jxtpa0jNo5viLILQ3noL1FHrMuUugIstif8zY=s220",
+        "view": "https://drive.google.com/file/d/1P59g__oPahdoDCjR8ki-Wpc_m95iLjs9/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnjOsoEijOnRFzzfgOqgidj3YA_xDGpR4zy9cy-EbUae4oatrS0rXC55CSg-5R8RtUQNsPkjs9rljHB_P9C7N1h0Tio2E68hjcTA2y6ttW3iywGIQ=s220",
+        "view": "https://drive.google.com/file/d/1k2uC9d_dlw8tu-mDntfdDw_9y3hbHvhY/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBfejY8sIy0YBKExWMCfREMsH-zu_VAC0c8tHGorD5Gyn0xhQ12H8pQkBS--TLZILIdZKXM9gxhDfaiiVf_AspNCQmLhNpg3Jyc9F7Ae3DfQKNcf8=s220",
+        "view": "https://drive.google.com/file/d/12iGDgtRHDte1_1Oo-We8vN6pKWzECLsr/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwUfkko4AOm1D54_7JIQNzxyGrwzyJMpg1WGYT7O7xQaGs_-d8QaCU5Kkd2QXTFdMj-jqn0_WL4xlvwQMabvv4sl9W7KO2tLb5XxUuUvJaPl8qDSs=s220",
+        "view": "https://drive.google.com/file/d/1YL9JfkHmhH3vWKdMCGf-RFHpGtRHzJwh/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxb3qHvXiyn8wfPHQu7oHoHpzFmynuxyXXuk37ZmeukAW3eQMiwUwkHNpA0glJLKvOG-pSKYTEdVLtjro8rmMTNNJUo4yji1AJ4_8jcasuLATLPp0=s220",
+        "view": "https://drive.google.com/file/d/1P7jvFWNde8Gah_pE8F5iw8ok3anGIzPc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMjqUzO7eUBn9ufSMVlr-m9Dv8i1AEpp07Q3GV2z4Eq8oPsyK5WHnPtW1Nv4z8EkMLqwwjudJXVSFCjMgwt06PSgXmrYZXcld7o5VPe3KVTD4Jl5E=s220",
+        "view": "https://drive.google.com/file/d/1c2mDknhMXSea2OvUrqhufF0qowbUfnAs/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350093 - 22/4/2026 (LEGACY)\n  → 350093_inicial ❌\n  → 350093_caja ❌\n  → 350093_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350093 - 22/4/2026 (9 FOTOS)\n  → 350093_inicial ✅\n  → 350093_folio ✅\n  → 350093_corte ✅\n  → 350093_demolicion ✅\n  → 350093_caja ❌\n  → 350093_liga ✅\n  → 350093_mezcla ✅\n  → 350093_terminado ✅\n  → 350093_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ]
   },
   {
     "FOLIO": "350094",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1CgwfU3hLcKhQOlflJxnbibSsshKvvQdz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOe1RJ8243eF-e-QaL5jG2Yi8bJu-TFV2qHDopWBwkTp2bMNpSXGrjbiZGj5ZGc6NmVpLnlA49DJjlerAkJoK7ErDRxCJakGPtaiMI8XooIUNL2gw=s220",
+        "view": "https://drive.google.com/file/d/1hjLeNEWjehKIZouHdN0iwF_gIgSanb2g/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN52R8FnW3JWcO0nLQptchT68UQ_Uh7aIGWujn5pNwDl7uVngZFSj372zI0AheSNSSG2AdNpCsGQptdic1JQOuadNwMS3Q0fXhjd6v5pRKGNUgMOg=s220",
+        "view": "https://drive.google.com/file/d/1byn1e76Frp-NAOWYPiCRVQxrcJiPTtTA/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDOGFU9EU7r3xEmxN9H0AC3jqF86_1HTLi6tr2eTiKkMbdjyI4hn-ghT4RkUi0r7RtU7Rs7yu62aNh2fh3VfKEDfc6HoySyX6aWZrv2X5MWBhcnw=s220",
+        "view": "https://drive.google.com/file/d/1N73KwPlfcAf817VbXm9MD7MAnsBxHSi_/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMttBn8uDvcVgvMadhqen4WtcVo6CFqOYzDpCdqoxuFMrBpYEQhYEgDoi5btqpv39L-w5QdukFjswcHdZK86o1k45UTFSbjAE2hxQk2l4cK-w4K7A=s220",
+        "view": "https://drive.google.com/file/d/1JR6IsDetLBCCV2YU2-gERoActnxGyzqZ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGNO5SKLEaYOmnjFA4M830rlkreWQWbowHw5r-l5iOXnafbiex6kRDcPZsebfUmSqqcmY7smvRPlXUCwC-_FOy14HWq21a5AuHwpp3MLmNpHIdWw=s220",
+        "view": "https://drive.google.com/file/d/1UAIjWALNFEKUdWexj2tG-8f4e3qw791I/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3CX8pk6yzV78NOPmnjLI1zC0XtoN0kK2PvMn3Z__EpKPMbt5pM_7zBfcrr2cDibR965CTL-6nCO3cucc8D61KN1D4YdAlDbdgKxYP9celBpj3Cw=s220",
+        "view": "https://drive.google.com/file/d/1lstiqC0E50__czUdOrK2cLkiOj1zV9g5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmJeEf7bZqNHVI1LtO90uLQgyY7O9C7XAcsyEUchqrmOBjau_q6WU7Vdt7hegulOoiTZk7mxkwWEdPH1MxhVBSYOK6JVNZPbaJhkjlc9UcedRxMA=s220",
+        "view": "https://drive.google.com/file/d/1Bvb31znG0yWQBBoSdHF4a2vutLikSbcb/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOpT1kO3sdX48kKHacKzgesny4tIVIeTjqPi4uTfX52RbAioRvNC8qkRnAB3SQGUrcQsGGdW0nuFo8N3KDh9EbwaTWbCI-ZvsxGVa0-sMLmUQvgQ=s220",
+        "view": "https://drive.google.com/file/d/1bNlmV4xYa9z3cFBdZ_QhWt7bwJ8QgpNS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO33ps0N05ouGEz2xiWDMFYTuK9bOhLW3Wip3ghmZT-a6Aze38U8AUBDyxJs7f9GNbAl5JCWoCucuejE9LhOwijFADBXN8TCbqamdtoVmMgTIEiaA=s220",
+        "view": "https://drive.google.com/file/d/1ZTrnVoaIaz1wN1hF2PQgy9ftJcDAIsoP/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350094 - 22/4/2026 (LEGACY)\n  → 350094_inicial ❌\n  → 350094_caja ❌\n  → 350094_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350094 - 22/4/2026 (9 FOTOS)\n  → 350094_inicial ✅\n  → 350094_folio ✅\n  → 350094_corte ✅\n  → 350094_demolicion ✅\n  → 350094_caja ✅\n  → 350094_liga ✅\n  → 350094_mezcla ✅\n  → 350094_terminado ✅\n  → 350094_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350095",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1Qq1QbVAaYypJIQlp63wU1ivKiiI4CNXN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNb7h49bXfhwfGrJzFDYGFGvh1t3re5Y3BPtFZrkmmNbQ2JfrLT7P_LAu_yhUzBzafC6PfNR3abUH3NnUFgQ4JDqjZYwRHOSY_BsD8x0oBwU6T3uQ=s220",
+        "view": "https://drive.google.com/file/d/1HkFaKlJY_KH4ySn1jQ10BOkA-qA2k1Od/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMG1nAWbh75S20_u0be0M9qHXKLH3NJOVp1xdmxE6eQ6kZ1H2f4GDirosS6JhJoRNoM39MEdLNzDDS02QItDP_lBq5TjcCUJmqMsSW6L1ZkiI5-Qw=s220",
+        "view": "https://drive.google.com/file/d/1IXA6tkNhe4uzGWib9c7H4qWucfrENqHw/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDl41L2zVX0ZZMwVt4m2-wXFOKBeUEaEeG6VhAQbMpwWOSG2FiHZh8n19u41V58Bw-TDKkopeEqIgsWbYhqkIjNYBKWGyD_h-9_l390C_6KdrAaQ=s220",
+        "view": "https://drive.google.com/file/d/1vvbCIikfXr6_yF7aLL727SY-jldCwo1m/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAaga8I8TaeXSIhnPVdIZKTxm5RuCGuoRWKRWIE-Xrafgs5NSL5z6SbvHtNd64R2RUmQGhw43Y5C-NMvhRz2VgJgE1Pzys22Gkg3Iu64BEL58spw=s220",
+        "view": "https://drive.google.com/file/d/1MqsDo26IaO3hUSZXdxNXByGXmeB7OTm4/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP13gQxVqg3l5wGmfMbK9oV8i_JZdASON9gqmApkRwZwcCiVHPjUfeTB958kZtqysxYKvrFcGKKbvXR-i879FK3tPczEdTXrM0b2yAnsIA18xGx2Q=s220",
+        "view": "https://drive.google.com/file/d/1RZooM2ihAbhM-r-65xRZ2nRlXhkR142O/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOkWWtvuls84YHGjmMw34lAe81tncd-HsLfAdRWBfjrtgkMLJU7uVzmHCPlmPHO3B70pvLhZDzZs6WrAU3ql-b_1kYCuhn7OgYErVbgtS37DWV0A=s220",
+        "view": "https://drive.google.com/file/d/17jJ7iWZW2rUZw5352zKUJRhZepqTVvlw/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUhogbdrBjCDIjHQQ2e6PQMO2wYXZOVIxP7y3ZTW3GaQhM6rvJ_0TAQg_AEtwn0dw2nxhZr5lF6JIeAp_h4zbO0VQDJD35HYwwXIxcx-8dzTJTjw=s220",
+        "view": "https://drive.google.com/file/d/1AUwBOVi7n_IMPWJjn8kfSBKEzzXnaqVz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcVv7YBorTLSPS6Syq3kwfgSClFghYC6EzZVgKogpGL46RqR-1pBKMGlNfY5kAIED3cLE1Aznwj6YgviAriIypmm3lWTVv2Ch1aq5SNPhvKl6cxA=s220",
+        "view": "https://drive.google.com/file/d/1fPuftyJjqJJmYt-hI-O_t4nJFQhxin9E/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNM2HNLrKkvObFnWopY2Iot9bfeA1UYgTacT_1UDJFSOLRX-DGGQ4fSVTUP2FRVaLjL6fz3iydGF2BRfRF17BrBngdMfSCJKjF-K-28E_lmfZeAsg=s220",
+        "view": "https://drive.google.com/file/d/1mSY94O3ayoyDfmxrfYAJLV_sc8a_HsH4/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350095 - 22/4/2026 (LEGACY)\n  → 350095_inicial ❌\n  → 350095_caja ❌\n  → 350095_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350095 - 22/4/2026 (9 FOTOS)\n  → 350095_inicial ✅\n  → 350095_folio ✅\n  → 350095_corte ✅\n  → 350095_demolicion ✅\n  → 350095_caja ✅\n  → 350095_liga ✅\n  → 350095_mezcla ✅\n  → 350095_terminado ✅\n  → 350095_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350096",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350096 - 22/4/2026 (LEGACY)\n  → 350096_inicial ❌\n  → 350096_caja ❌\n  → 350096_terminado ❌",
+    "_folderId": "1CRxs0SIsJItVTVLPHNnl0LgOb5m9SKk3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVnAAqR541RoHQsBgjH7zLPfl8eac-bxM-4Y5JxCss2AT5wCjEwLO9zBkltD2YnarRUTRe3xDq3jM9spR4rnpPiNvx8dzD5b9JNbLAJSOMXB-X5A=s220",
+        "view": "https://drive.google.com/file/d/1B4aDOdtv1MyZ0DStKgjR9PeqBtrvRrIu/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtaJhopLNM_VPVi3oUZdVs2uCwbWpsZhnETyJdEt7m4rf88fjKk_Qb1xq7D2SKLvxUTxQLSN4P8vZRhTfP0ZtgB0l6LhknBlwdZMa7e2e-yKmVzg=s220",
+        "view": "https://drive.google.com/file/d/1akgBVTRyJteki6yM9mBvPbRO0_6zai0A/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQxkDoiVJ_i64RAOJycujGzPNid8BQTZpsjUbYxGxNcKiNBpHy2G8_wgV8MOQcGF-00l5tb-f5rnZF0CxWFpZrWC37drRrOtiJN39NmUm0WGBT7Q=s220",
+        "view": "https://drive.google.com/file/d/1H5itcD9Qi4FFfu65Va1mhErCP7WUmuN-/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyvkkurwmf00YKjWGsePO0PHxzu246O75n9yoIc8_FrwMaXR5NTP-R6LR7NgwiaiUkkybfEOiKVcNcuyET60wn87DWBvallSieN-JekgxN7fW4UA=s220",
+        "view": "https://drive.google.com/file/d/1Q8ekcONuieK-x_VWGsn12YAifbpxrvis/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIWNIHZNV_u8OijN5TLP-VIkGisIbI0qhdowxsjP5WeuGAG3OjeVF_vYtOd1qOSwbuDwQ2QMnqk3cnaiVRxzSxDvAHevgHFRozuVCuixOvdlN7yg=s220",
+        "view": "https://drive.google.com/file/d/1HL-vwQf3fmRNXCCoWHUfpLwKWcHwIfnb/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWkf_aYor-zTbAioHn94rUkMwKGNlSQceiiYIGPuB1vg6cLcDq3ATMmCBVTfjTsDiGNZ0Ayb-n94TBty93nl1QeJODTREYCRXCg_vmMGhBnvY4cQ=s220",
+        "view": "https://drive.google.com/file/d/1EDIkcx9UpovdkELq9oh4vzmIxcBJpYdT/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-uANP215L5yoAcDt3MQpBklEHbdSQP73mFFCCFlu-5Br5TYenZU4p-NispR2jPRn9BwkTmXXA2J0DG3lkYHlHfAmoOAD7La23PPvqZhcodiBdAg=s220",
+        "view": "https://drive.google.com/file/d/1J_3RWQVqQbdfBgMBHryVYPM605b50HHK/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8HCQKMhm7asVqNgeMlaFWPLz2kxtX5piOfd-R-hYf0purdYDhbORXg64LX_bM1ldkBc7umqeCQKeBdB8glw-WXzcKIyZaxiGN6VoegP4B0_-M_A=s220",
+        "view": "https://drive.google.com/file/d/1PFwHnJVUp4uq1blWsdMy84dkOyNdJH20/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2GMiGDXSB0IxiSC255_Tg2PM1zYc_oj9E3Q246qPtLCSxrIPt-6KR8fBP73sgmv0msVmaP_VliMjA-EfIKPkXE6FSYUAlz9gwZ-5DJHsoD-vu7w=s220",
+        "view": "https://drive.google.com/file/d/1dlmwsKoPuvka3sF-9Vtr12V1h5_0UpZE/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350096 - 22/4/2026 (9 FOTOS)\n  → 350096_inicial ✅\n  → 350096_folio ✅\n  → 350096_corte ✅\n  → 350096_demolicion ✅\n  → 350096_caja ✅\n  → 350096_liga ✅\n  → 350096_mezcla ✅\n  → 350096_terminado ✅\n  → 350096_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350097",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350097 - 22/4/2026 (LEGACY)\n  → 350097_inicial ❌\n  → 350097_caja ❌\n  → 350097_terminado ❌",
+    "_folderId": "1RCg_f1QP797W2wq4_niUapAioT56dBlJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMB4Qiw_FO1fg8PKKWaptakLIv9Mt6qOC5Wd-oIC_KyCwLU7W3sD9A9R6RHKgvwPU7kSfjE3rMScFdhkDdxDlYxUIzx4EhgaBsT4LoYFS0v3BUpsQ=s220",
+        "view": "https://drive.google.com/file/d/1DF-nl_5jUk3sP3QiV71HXkfgLx96KYle/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJ-Sr8GHdmlgHg9XNvp0PncD4dG0Xi6dZwyQWdNQoFHYRej9Kp8tnAN2W74eJfhQJFqY-ps6F9yH6dKHqB5EAuACJW0QmFmUonMwNQmlFu047khg=s220",
+        "view": "https://drive.google.com/file/d/1AYnB5HWC4eSbL2pkggHCnZb8NVvte6DD/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6kKPF62gQHUqY1NK9cs5WZN37JodZLWxAzT57bFgYCBPJt0YSbdR3SLw5W6hdenzI0x1HVTeIP0KL9Ie7-JKIO7Z5Yz3_by_bbkbgzXkGB0DzbQ=s220",
+        "view": "https://drive.google.com/file/d/1cULOT1Awb0_RwTq5DoN0yfLJjKzFMu_2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVaxNMkUyZCfj0PGRkiy4lP81TZThuns1BoZBVDJDCOy0WZQziC_uzzQJSBVxdcS8e3YJyrSRmYzmhZ92EOoXyD-ms1vT8M8LUu5G8Yoqopno4LA=s220",
+        "view": "https://drive.google.com/file/d/1dLu1kLUkryHpNbeaHi3-bEvl0-GfzCWl/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMe4LeI_HufUYZsIEm46BACgxLEmatcJRO59QjamXqfhpizYsX2WYCgs-D4CsIgEvrq2hg_iT1Bm89jxLIrN0t8TF3bsEwoTKQoryohnnK5lSyczA=s220",
+        "view": "https://drive.google.com/file/d/1imscqiGj7cJaKrl2py40-L5RzGmf-m74/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9T4BBxAWvJqH7HStl6XM2Wr9N6LtFWW2n8Heg6L-WbURNMpzrnZ3xJ3z0yeuPP5FSbMXhvhq4pCAssH5_kp063QgJFdoOqVdUai-9tdsslUfD8w=s220",
+        "view": "https://drive.google.com/file/d/1almG__y66eKLYG_tPz0oQuUoDq-uiEld/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMJX3CZiUwSdnVUxrPkBYgPd0V_r770AxzPcOQgwgM4ADGHzvVmYUFhs4DklJJ01XNV7gwrk0daoIhqFMbQT-cr0fZqAQKijyWGS6kZR0Oklf8Dg=s220",
+        "view": "https://drive.google.com/file/d/1QHnsSFXKTUq2NkdSHyt5_v5V_Tclx8b6/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZHZjCm0v4CcP3hFjn1fgHGp-dR5mem95CIKdoCrIRzKytX1NxzakKAgiWC_n9nvzZWE-EgORoQkr6cfpbtGzITtGHEAbLF4_2f8L2xcq7U4otlg=s220",
+        "view": "https://drive.google.com/file/d/18IDUiCCGWWOKFzNaPPC8b1hVKZjSvK3_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-yK0eRmplTHJ6bb8Nsh-24M18vR29tphTDWs90UpQruo0F3_z2l4Y5HkMmIzWY2wh1d2BX1znQS53AUu4cOjWECpNiw6bCsnONa6a2akZ6WT_Zw=s220",
+        "view": "https://drive.google.com/file/d/1mL_U6xhh5Q5Rf_pLZLzZxduPfXy2ymut/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350097 - 22/4/2026 (9 FOTOS)\n  → 350097_inicial ✅\n  → 350097_folio ✅\n  → 350097_corte ✅\n  → 350097_demolicion ✅\n  → 350097_caja ✅\n  → 350097_liga ✅\n  → 350097_mezcla ✅\n  → 350097_terminado ✅\n  → 350097_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350098",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350098 - 22/4/2026 (LEGACY)\n  → 350098_inicial ❌\n  → 350098_caja ❌\n  → 350098_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1YOjQGwTRjEnaFWnnRkY8-eioTLsd0VJ3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJyXIIIAcii6lMmkHic3swk62znMXSkZ4xV13UR7tf8M4CmcCNZbhy0bPQOTJIcNDFb8RZlfRuHNZjUfKmP9PsyucG-eKTKtBD8Dp2DtsTs-lweQ=s220",
+        "view": "https://drive.google.com/file/d/1Hrs-I6opXGX4-D_x4huScpWvhFvk6fKg/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2iStnEkS3LjgX18VWaMcGfRdG-tfLfXg0kbcY6ZfgSYYjjA4Wd6TmT02fQuaNw2aHeBNVU2XHN0v-fSpjGiXjGTkX3RHtv7yI3vVmHWKK5qBdSg=s220",
+        "view": "https://drive.google.com/file/d/1tstaFMep8PxEmDzvoWBg7ncbF86YKACk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3wAS51ZledfOi6MHK6SPH7zqwpXCMYGEGdIaXnT2BhNzYo3DJe1Xf-MFNZ1nCJ_pDZR79vxMTJC45z3NuLkff8E-b7LGlt_hH2wpcgmBF8T9ZXQ=s220",
+        "view": "https://drive.google.com/file/d/14knrXFITNQz3m15hKrPZBWgzra5sHEJJ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTJ7PsRsaN_fBY5M09gMa3IH4XV2oM953peCyivEl_bq0iVqVguMvDYjxqH3D1yF1u-U105h-ayDZXzlwIFNCGtMT4z7Y7qqZPZdpQEyf-dvWXuA=s220",
+        "view": "https://drive.google.com/file/d/1D8F2fT8sA18cY48ForQWZbckheCIjbfW/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_wj0LLJtwvGLWq1lWpXRh_QhSY3DtUD9QTgnbHhxOZWcq-dMjAwoynNMsfEAaAjLyZWVpWB7bTMP8iI783GRKJD-M7y4WEFJEoylRH3EfT6nDgg=s220",
+        "view": "https://drive.google.com/file/d/1wYSHlngGCHsIteYubOGSjlj4oTjGyLjs/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCbXQt0NmqMdpSyHnR6UIlsXNWAjXSdG-jMdFSMkLwhOt6zNGuJeV08kACz0CEW9grkc5WyM2wEMo25dqm36aKHfeKfe3kcb5xwZFf-3H4VDIZwQ=s220",
+        "view": "https://drive.google.com/file/d/1yXspXr1cYZEy3C72t-mrxQ-IomxhVW_R/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3RSTARTI5PCFwy_q0Ys0Kr44D5JFpOLL8_F3zZF2FsxziMdSPv_yuNRMmbHaWhZzN96rSr_VMhgCpwG_pVHvi1EYf5PLUtq8N86eXUOssSwLsyA=s220",
+        "view": "https://drive.google.com/file/d/1JZPHjgUPnVZXWLGifLVXsizixUX2K7gu/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEbxPXAXqthSNYVQ2GRoFi0EoH0G_vngRps6wHFRZtV4QEdY_eF9L8FWZjtgUkK-F2Lxt5xG9s3pjjd8cxSdzyL57NynxjSC6ZLTdSvwpgmy8IpQ=s220",
+        "view": "https://drive.google.com/file/d/14W9DO58HowDJV1X2uibc6-19lPwPmV6c/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350098 - 22/4/2026 (9 FOTOS)\n  → 350098_inicial ✅\n  → 350098_folio ✅\n  → 350098_corte ✅\n  → 350098_demolicion ✅\n  → 350098_caja ✅\n  → 350098_liga ✅\n  → 350098_mezcla ✅\n  → 350098_terminado ❌\n  → 350098_limpieza ✅",
+    "_faltanNEO": [
+      "TERMINADO"
+    ]
   },
   {
     "FOLIO": "350099",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1N5DrW0yTpdEk33G4b2SEVPmJE0GL5_NR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsaDWMz_ddzO8zvGFEbELd5_MUfyeK_nxUfo3LOwcF_BJPBKTFoGKDkv4PdqbbwRGbRj4_8Uo2PsqWYyujj_0K0IWhfJEokdWeGVLan39k3_belw=s220",
+        "view": "https://drive.google.com/file/d/1psiGPZjJIZByfj68034YLAbz830kEEn-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqrfEI8w2DDtI10T6GDZR7ei104sdeGFnqf20AhQUqG9yeUNexgYRK1nzYt6N5Vof9_M7sbiY6RoLlvIT0SeIw3rfey6YKvemZehLPb2Eqs4-JCA=s220",
+        "view": "https://drive.google.com/file/d/1LI2qB6haff94fdbX00qBm-EOo4DnDTGm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN38aGfRHTya4HnO7TzlBHcuDv6G0u20znHZ1dws6_3v3qwIejAQzbeF8VrALc43oir38tD7E5OGG0cCzcMdFTIf-K4jvNuxm600Y_F1JnyWX8bWg=s220",
+        "view": "https://drive.google.com/file/d/1rG8VVI2WxfYwL2PF6Xh0jbnvZV2FKHRa/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLmnLTaKyRLvjFC6GFyp8yvSZlBebV_3KKCakU7aih9X4PR48q4e9hv8izwG26b6ERaFAjJLhQtwF9rblokNPK7cc7gGHbM3rgVgsbzfgX2Mmaxw=s220",
+        "view": "https://drive.google.com/file/d/1-s8kAaGvvA_zxKZwtAplWk57NUCiDlhF/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTyYPN1BITM7EZJ5KXjYe_cXfUbFkjoqo49JbFXtWp0XsgZDbIXHt-kSmcZPK1zs-ACpCoD1DO1nJ6rjRbxRQ0zhOyDSDW0eNGMMuYmsQEpuOqTA=s220",
+        "view": "https://drive.google.com/file/d/1mbgtl_IDl-jsWu7b_-G-XRYet0OxhJYz/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqY4IZuS1oX6GB4mnIgxzqOmu8PYz0dMYamsPovuQxmoiZ3lejvqm8OcvRM0fv7GVuf92kEQ-Ja1zV_S32IUCL1iSQEQ7C2QxVJzc2nRQC6-ozKg=s220",
+        "view": "https://drive.google.com/file/d/1D74pW1nKNhB0oH8iduJplZPQ12TsV4IP/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmk_-2H69Of2D1XLnXGjkZenM5_hYPTdtcQYO1j6Qj9gw5_RXnlCbvdfIEyeBinpjbLYQVmcGE-TWSZ3-dKQhYB9UH5knXcm0CTrdLGundIUIh6Q=s220",
+        "view": "https://drive.google.com/file/d/183SbJz07GVsmNeO55QrXKTE1Nh__2aaX/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5t2_x47ozT1qwnR0VrN1Co169I3PRNCLiQmUwDMd_-rziwpaC4s7uwNESZiTpdLUEZtBRZCRRWmfcXBH0nSLa0dEGgBy-9kYpaGAnOIISDYhX7g=s220",
+        "view": "https://drive.google.com/file/d/1IRXxm3m2vbfBHqTEzi6zIeS4LlixuS9z/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-MR0NIMTWfXW4ly0u-QTt5AiSjJyB15wOzzgYD4ycK6y_flSvvag7RGonzSUb0-vVx-givb6onAF_SwpeRoJlKMQXmAAGWyLNE_A-OsoqAajDtg=s220",
+        "view": "https://drive.google.com/file/d/1x41NTx5ilOj1rt2Se6BV13-vZ_JEGtYx/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350099 - 22/4/2026 (LEGACY)\n  → 350099_inicial ❌\n  → 350099_caja ❌\n  → 350099_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350099 - 22/4/2026 (9 FOTOS)\n  → 350099_inicial ✅\n  → 350099_folio ✅\n  → 350099_corte ✅\n  → 350099_demolicion ✅\n  → 350099_caja ✅\n  → 350099_liga ✅\n  → 350099_mezcla ✅\n  → 350099_terminado ✅\n  → 350099_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350100",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "170Mg97BsIhf84EY4XpH96S4eCRlewlBW",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcJCx6L9YOvLsZJRMk7mQQVWvyDohWJH_soONp2-eIR-FNOKsGpCeFu8RBJbatkSV9AY8UUrH9S33ZuAWOyhl94rjY-2hBBH58HL03U2oB-jVqRQ=s220",
+        "view": "https://drive.google.com/file/d/1hJz_L4Zil1-ZAkvy0ML35uj3ATycVBRh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2UTbFHGs2K35e4qPeyVJtJrwiPyIq2WvvQkRlBj1zF9fcE1f4Z9E_YWKz5lDanybybmQ8rIcaoNwmD69uaGgvNapTiCg2eVT02i-UEBD2S3TA0g=s220",
+        "view": "https://drive.google.com/file/d/1wS0AG5vE9y6Cq4nkHAJvBgdiGsNCHkTC/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXncGB_Djf7SlyxrR-G2N2Q3yZYtskdC-0yXWym53IJ0BRSsKb2czwc0ETZRWl1TsxRmWr8sNgGX6Lv7A0Tj0xIGtaEH286KhG68LO_TNfOpaUUA=s220",
+        "view": "https://drive.google.com/file/d/1IYySX948_YJ1bwPsshIA2QvIqV1ukI5h/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIGTEsdaCaoRXFaWDom8YRAuPJLFr5XemSHmeDUAijaUuniFux6Z49klu8YE2zDqgZTsHb5dKDPkUxm6WeZ2jAf8qHE4jfpkgTkQ4SrbH_B8n_vQ=s220",
+        "view": "https://drive.google.com/file/d/12p00ATnD3enkbO5Qi0YvzHuVT8SPlvKI/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrAAX2sAqktbDKDtV2c6q7NN9gOpYIx6PXlNoptujG2R9WuGpmHDL70Pr62c8cKUUrzg42i6EqQgbrBC40U_EwuOpEOBNPkNAzR5xCpYY-3CHswA=s220",
+        "view": "https://drive.google.com/file/d/1ev22PDrisVDp_awCkQIjQIXac5H6B-11/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcIO2QMaI6dVUsuxFCm1X-vuc1gyKUslATdGbr4jK1yRGjbJDh_KjeQ8wyP_ZIhdF3HsLXt_0pwHl4NIvZ5GRSWpiVYUYs3aSJGtKgqPU0nGbocw=s220",
+        "view": "https://drive.google.com/file/d/1sGz51C_LDn2ASAA4h1Aq9Zaeo638FYBA/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhR3UHtv08uFBomDVjiDKEk_3ujXkMTC5FuFa9JHQwjio_mNnWqv0Swj6nWejObh9FeGf-XnPXZsQU196Q-NcwcD48ASQvZMo5bpyB1PcjuOlw1A=s220",
+        "view": "https://drive.google.com/file/d/1aB8Giamjy7bzVJyI-47800o2XMzmC-Z5/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN80Dt5R83QZ2DWxp-12nasP5XkTfZ3QR-1Jv03ZSzflcSW5XhyUmBBs0QS-d492Dnk_3EKbwTmEJaLR6KgRKyVcnDxkC0GNHDbno-8mZRUGfF1IQ=s220",
+        "view": "https://drive.google.com/file/d/1emXe4K90TSch6XkWWDgN1fzKkueRR9mG/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7UYyW8wmYrcET6Ed-4uotMoVWpKWBGpIQeYqDitfYS3h_8Oj0wz2vHS25lPkwzU1FNrEoRE4g0U17o0ahkYZmrIAxj-tJJ-ts22BjbV8ibaWyvg=s220",
+        "view": "https://drive.google.com/file/d/1b78sCl5zYAegfUsvfiWtJhJtR7EZdj1Q/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350100 - 22/4/2026 (LEGACY)\n  → 350100_inicial ❌\n  → 350100_caja ❌\n  → 350100_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350100 - 22/4/2026 (9 FOTOS)\n  → 350100_inicial ✅\n  → 350100_folio ✅\n  → 350100_corte ✅\n  → 350100_demolicion ✅\n  → 350100_caja ✅\n  → 350100_liga ✅\n  → 350100_mezcla ✅\n  → 350100_terminado ✅\n  → 350100_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350101",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1JNhUU_K9ittF2lOnbo3QNB-u1eN4vs6O",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNz6pUGgE1AmF4LSAR_4UyW62cGbkEKKF-ri57jtAO-AVdh_HzHg_VLRsItzlvT8m1GSTbDXfvxhZ3yhBiti4HF6Iqxl4rkA8QmwIWMcbRZJV9Dg=s220",
+        "view": "https://drive.google.com/file/d/1mYQRF-vMfoJAsSasghELNIWmf4MGvqe7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXDxiKWrDkt8zuj2H_d0yWzpl27g7TgQMU8XKZVMkI1xVk2czCe_j9Tprh5UxmyJq47NpFBjMMnzeB6SnL3yJVtM2WpPlvZW1G4mx_3CfYW0bvgA=s220",
+        "view": "https://drive.google.com/file/d/1YHRG1jQaTW1ZLk1KqxTK2MP-BbAuUDeS/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFhne6gkoIK_OV6EZ7Bywm89Ozt13YVItLVtQ3eXRRRCXTq-W70WdWz6hb1HZVfzbUqlNwfGnGLgRnn5PfFvF0wTYSa6ADl2M24tUGFeMGS9l1uw=s220",
+        "view": "https://drive.google.com/file/d/1JahOmunhoP1Ph617exdJOtonEYOaPtVs/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0-Ag8b9yDWMS9iNIsSi7CZxE0I_G90t5rDqrupPtPHjGyHhhtiULmAaAp1hNKDB6k3oYHs9k7MkNogx199VFvpHHlifJKCnCxmEBBMgEchMq_jg=s220",
+        "view": "https://drive.google.com/file/d/1l4gi343wp4v1LbMhGODZUpHhDK4TwklZ/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpIB0-MdFqqOZ2BZ-0F4Rvxcse6r6zrMqSbW5uc_XwY3qv8Jeo3KAkyPsYt9AQptqyZnwZtmJnQMONUO7BxC0j0UAPMWQhlJO2yDM7t3CX974C9w=s220",
+        "view": "https://drive.google.com/file/d/1L8uX2yn4Chj8qrKqbrSdytu6TgA6gwTO/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMHnhundeye7VTiad8jRhjgQpIJLp1AG4R5bAM3D49JGQlWzeKUi5EJizh-YzZwtfZXBWsFV9VIC3sOWhx5LEN8XbswkGeuBSkGyqy_AqhpzihXQ=s220",
+        "view": "https://drive.google.com/file/d/16qaU05NC9J5wgFFzfNvrUqTHpT2fU9U6/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3lVUxK-Ca10Lv05JtSpKpLnq7rR2SmArdHDIHD_PZ6nxtRjIFNiICO_oBuBxFTVXZT3bVbJOP3dq020szFXRslABP-v6VYtri_VBcl2RkMADNeg=s220",
+        "view": "https://drive.google.com/file/d/1DAeCrs2_02jFg3-6kvGU-BeXsUpvluK3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPybkg84-9u8-4zw_T3FbBYkmbTCyXiawGn_RHPBioVlp5Goss8R6CytSHe9T8emuRF3veeZZWAm1JQnbA5wjmEbpPUY8yQlM167utsIlLV0knRfQ=s220",
+        "view": "https://drive.google.com/file/d/1y8T966rIvLxBXTIBQYHCOCfv9iyD5Cz6/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350101 - 22/4/2026 (LEGACY)\n  → 350101_inicial ❌\n  → 350101_caja ❌\n  → 350101_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350101 - 22/4/2026 (9 FOTOS)\n  → 350101_inicial ✅\n  → 350101_folio ✅\n  → 350101_corte ✅\n  → 350101_demolicion ✅\n  → 350101_caja ❌\n  → 350101_liga ✅\n  → 350101_mezcla ✅\n  → 350101_terminado ✅\n  → 350101_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ]
   },
   {
     "FOLIO": "350102",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350102 - 22/4/2026 (LEGACY)\n  → 350102_inicial ❌\n  → 350102_caja ❌\n  → 350102_terminado ❌",
+    "_folderId": "1VkCGa7FmhhdsN3o8X5SrSQ9AGZJ-932v",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrd1X3pKIfsUoJ601jtydsvXqhDXopAZLF4I7wKOSMDyurnAFATYixV29uD4NJmy4w91tu4JPK2yL3M_IaWe-yAOFGVZYgklTOrJ9nKoFkH4QCPw=s220",
+        "view": "https://drive.google.com/file/d/1lUkxK-voHzxt51sM3YmMCfFwx7gWpI45/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSAyH16BOePbwNwGwr9UYK_Gp740BFvZmHJ9hxgMsy74Y4BPUIA6qRXcV54WbXLEm44cl1G5c8bKrkJvJqS2oORjGfG-e-v7I3qsev66JghuGk1w=s220",
+        "view": "https://drive.google.com/file/d/1n86jLUDoAVzVNogjNL5BMYIjZ1J6f3Yr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_KSmVKlkQrzZ8-Udz1_aZJ6foySd6vdHG-aNQb-aQILpEPfDccMUQoziWsGmxdcuU36sqXnpjubosOv8XZXtJ0bOZmVQlqxwTc9knrN8W-ShfOA=s220",
+        "view": "https://drive.google.com/file/d/1xjT2te3XJk1hS7zkNRUU_fFPCQ-V6cqA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjxU7nQYO_hLbCcN5lhi8Koj8A8pKFM4y1qIKcas69baRqIV2zNXDFIk4i6FEUrr6UQ-dqz7lO1Ebvddy-X3d3YM9sn3ML0sCf0p3luwrDAGEjhA=s220",
+        "view": "https://drive.google.com/file/d/1iOEYKSFOFBdgL98nlYzOps1LCswjZaQo/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-HkGJoHAJr-Myz013RvPYsr-zvwtcchDaFyT-JlHIVdEPi0z9Z1qY6AdiQI_d4Q850oddbAOusJUU_xI2tmNgoaf1E3M1MYds8-P9O5sULm4L3Q=s220",
+        "view": "https://drive.google.com/file/d/1j3_rBtYNcY24fQkbCV5JImMl9tWHuS1s/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi2iTtVRpLeX-KzBktx9sQzhofuxdnB5-anYasIJ6_0P89MzUcoWxwwouvAPmzkGnr1p8Bdj7-jqG4Wv09oBKZuLxKJ63UYhFQpZTLQjKliykWQw=s220",
+        "view": "https://drive.google.com/file/d/19WRxDFLTdaY3RsP0qDCOSJS9IXvjTRsa/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrtVET-OumVQGVCT_oA9oGgLk23_TAwTOlajdaosPCR_UN09_IHo6ngfzQLd_g9oo4cdUMxkezGQ1i1dE77sk-98kim_LLfuZhAipySu9d-MZeAw=s220",
+        "view": "https://drive.google.com/file/d/1vRFqolVRKy92kHziWzhxuapcIJ6BzgRz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5p5_5ZByJMWmp2PGi-Vn7eAa5TPysr5s27wW03x9A_S54aKyFs5_4fuwsNLFIfpAgAPAfh36Q-LLAxVdOByGjmqmHhc8DFVsUMG2nt-0cjFP6Fg=s220",
+        "view": "https://drive.google.com/file/d/1cezLrQ9s-2xyRsx8piwq28uVF_1UNQQ2/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7ESmRV4B00tLAwE2vrk0J6IqpqkbYx7A8E9hHYzg1glTe0OonIZUOQ18otwJt45plQJ6gNe9MTgOka9eokyVZRRouR7UQxgZsjrbYwo_AWQkhJg=s220",
+        "view": "https://drive.google.com/file/d/1NT8GmPfic_mfa8_ugmQJKcTWMzFTH0VM/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350102 - 22/4/2026 (9 FOTOS)\n  → 350102_inicial ✅\n  → 350102_folio ✅\n  → 350102_corte ✅\n  → 350102_demolicion ✅\n  → 350102_caja ✅\n  → 350102_liga ✅\n  → 350102_mezcla ✅\n  → 350102_terminado ✅\n  → 350102_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350103",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350103 - 22/4/2026 (LEGACY)\n  → 350103_inicial ❌\n  → 350103_caja ❌\n  → 350103_terminado ❌",
+    "_folderId": "1okG82neztgnJjULfVTV9sD2gxKGz-GoL",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLTtbZMBVa3f5aypcPSvjQzpof5259Ec16BE7U4Ka-J5e02FQEiflDZJobd9P_ROsJ6q0Qf4PeZUGPF1D7pNSJ_vNALmE-WrZIarAuSUrrc2wkxQ=s220",
+        "view": "https://drive.google.com/file/d/19Ph3iX6h4vzHwrmZK2SPlr7xHUBl1E3-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOj57pwVsJYxKUG-Dtk8AO94Cf0YL4tFqwOOv3lPoW70TlZgp2zRygsbumHR05iYXM4A_QNdlTWZ0N5WeD0bbq2PxjFKzqx7Gl9-usWxsO1oQ8O-Q=s220",
+        "view": "https://drive.google.com/file/d/1EwVrtg5HZnwacdqqL9rQUwfUGOGCRJaw/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuhuSgtrn3gSPRpSL2E4aXHEPLSFsz6qbUNcCeAufeO4y7351VroNRJIiZEfAVGiAdWMk8kClSMFofx1lP9qzTD_8GcADcUFKd4d31h36uKxLEGA=s220",
+        "view": "https://drive.google.com/file/d/16F5ETzRc_StcOPXzMOwM3gudNSpqsX_8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtLFjqVIVbffn6MvM8PoB5jRwlRLc14dEQUckoejUXU9dbX6Czs3VofHZJ4H83jYmDTlomIEsg3aaJD91xQ_OPiccB9NkYp5QiJ4FXjV2ve9tU4w=s220",
+        "view": "https://drive.google.com/file/d/16BV7059dJCbutwR94_iPHQsnEG7cOlvU/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhhPPGPUKbZ5plSMFP9hZ-eufV86pVw1WoUjSzhZGtp6itr_eSF3F6fQojFd1N4Vt9bzU_idRus-A9aaj1NTAddCEt4Wca-DCDbusQWjgP2Gbk_g=s220",
+        "view": "https://drive.google.com/file/d/1buxys_TUxSEmY8mUo8c-h4jQBpIUHWfQ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2Z2mXWkWKiS6xrt-onLSde3LEMplB0Moev0plB1meOOLQ30SdnTC9UKWTqs4G0qq5lFcerDDpKoMKEIh4OZis3HngoIGivLXRABjDiPY_3D7jdw=s220",
+        "view": "https://drive.google.com/file/d/1CCC0VbbZGPUhk-cRNcAnuurkzT1fDTRF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-CVfBt-vWUvDrmDGpPlmv_dijYLuvtmmJycLMqaxlrBMzeRWNB0okJ6el6KTHKMg2WhT_Q_E_y-VctBvYVrwSoIzZuJSHwwaEhO1LxnvJXuWyFg=s220",
+        "view": "https://drive.google.com/file/d/1ZQctPEg1_F5UnG3FAcYTtrQ599ncg1qT/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkxZeSv3VvuG1zN5yyUMTjKsdvZfx0DTVYzXnrNxQy7eFN4KLGw5Wg3AGkpLCUl14w_YqeKzdeALNbd1lwOjGGttNXKtGJhKsldnSk8tw1-v70sg=s220",
+        "view": "https://drive.google.com/file/d/1_kx3hm7oEdYJf8sMW0ajCFzIXDHsRXKY/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXrykd5GW-rnrNF_6kO5gu8fD3KOXOo7_INe6Iv2xp_sdzfNHDIshXF0rq3lDVR55n29PpJT9T-LP3QCgTtVUhZcS4meTwVwR9_4_3agiXHna_sA=s220",
+        "view": "https://drive.google.com/file/d/1bSEXozZUE190nQh7ggimLrFNUAT4yHwx/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350103 - 22/4/2026 (9 FOTOS)\n  → 350103_inicial ✅\n  → 350103_folio ✅\n  → 350103_corte ✅\n  → 350103_demolicion ✅\n  → 350103_caja ✅\n  → 350103_liga ✅\n  → 350103_mezcla ✅\n  → 350103_terminado ✅\n  → 350103_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350104",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350104 - 22/4/2026 (LEGACY)\n  → 350104_inicial ❌\n  → 350104_caja ❌\n  → 350104_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1ILD0xMaDPEHZz2sZPjjeHZz0Vas60olv",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbsWOw4i4BiFxmpIr0hgk8d4npXfqlhS5_QauaPyjwmiv7M35VLul7o4_D4IIWh5ML2Z3JISA1LjCvl-rdzzHMQxTOgY5kAivQRoM4wHVeXZmMzQ=s220",
+        "view": "https://drive.google.com/file/d/1_teBfpj32YJ2c0HP_AV_GQA0cGM7CUYr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXw40ZG4WDTrnsYFkDm71FUCexHnpxUUERirVXy_txO8PPAjGqwDYCvUjW5BkCM_NIamgBgXurqV3d3CiXeaQR0-4FXwVdwcPxlrNKKyxz90UGPw=s220",
+        "view": "https://drive.google.com/file/d/12BVfyyVxVpsuLFUtIapCs26wG2-LNuuf/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtyrCfFosS1v-5pZ-vPTLMSbrpZoeVo5QT5A8sjVU6g77AZvLHsxe5vOrWSnbDio1vkYJzT0FiQxSXshQJWwy4tNFF1aPvw-WslEy41iaTY6RLsA=s220",
+        "view": "https://drive.google.com/file/d/1wbvZXeBwNUZm_Xt2PPxxsD5Is7CJe4e8/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-fZsu3aDukxpaaZxL339l_FMeaGRWmw9raxmw6jD7EVt4JAX7UsDFIpmO1H8z_ypPXfuwfTdi1oYoheim7zn8QgMwL_HIHgaFa3yViDqQmzWfaA=s220",
+        "view": "https://drive.google.com/file/d/1xDBLrr62n72Av3FgIYHM4ehei_wviVul/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5tKjd2Xhl4EvMHSwjiSIBDYNZcM3xnGONxmPgkd_DeAug0W7dcLavMarsYIwQUxTJG51-gqzX6LrklyD7mUpVxChC82TxqhtyDSgvcle-wvMt5Q=s220",
+        "view": "https://drive.google.com/file/d/1zXuVoGprNTon9Y6H14Ct2wFFCiMd2VGK/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeq8yLF6ssEDJcCY0g9GCBoSIV0qSYGBPOqqcDDjhJBBQOVrqtdBfGiP4ybLloMNUwmDuFI0FjmW9gtgAd3uu2VNlVok7PlbOjqwhrQuvb_Lcfgw=s220",
+        "view": "https://drive.google.com/file/d/1BthUes6i2Yl9KfhmK7c-Y6yiAKDXsINL/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNv4WCh-Np8ZzaCKwqNxeCr_uWdsN3yoBJzn7IyuPBRaePEQ5R7Mj_zKzlGBtT2QIxs6POhVqcRQxlxh_yT0AQw04ucLq25NIJl_i6BxforM08-lQ=s220",
+        "view": "https://drive.google.com/file/d/1EJOXj-pgyK-VHd9qc7zmA_VIvH3S670O/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350104 - 22/4/2026 (9 FOTOS)\n  → 350104_inicial ❌\n  → 350104_folio ✅\n  → 350104_corte ✅\n  → 350104_demolicion ✅\n  → 350104_caja ✅\n  → 350104_liga ✅\n  → 350104_mezcla ❌\n  → 350104_terminado ✅\n  → 350104_limpieza ✅",
+    "_faltanNEO": [
+      "INICIAL",
+      "MEZCLA"
+    ]
   },
   {
     "FOLIO": "350105",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350105 - 22/4/2026 (LEGACY)\n  → 350105_inicial ❌\n  → 350105_caja ❌\n  → 350105_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1UR8WlNvaal_yCaruO95jDrWug3pTtZ2U",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg2Che8OxdHUAyn9m3hP_J4HAETyz433kOjwRJVgkhCj6qaZ81MROZPL9L3yNBafDGpkvMqm8ln_bV2D_OgdjAcxBlPYb4t4Cn4KwDzc_ipNdiAQ=s220",
+        "view": "https://drive.google.com/file/d/1u2LYZ3Fb0ZID97_8lkx7Ub5dIvLK2o9m/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9HIiM70999UfAHiQRdsT5nK9b6Pt5_jNqg89V9qxHI0IvRwgMS8CwgeeDMKVDizXsbIvupKifrCND4kLaP9USGyXJjFWr5BaUUcHkGlhrkhXBjQ=s220",
+        "view": "https://drive.google.com/file/d/1auMUB8G4LGC04Bjixpe4YgwgFu6VFqqw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzVFXKIlAj5uul3TD0fjM9ud9ETKv0QTC_ezAIKyW0yeDVdcL_cjWRRGTltIjW4mdQnMatMK17ZGmbeqUG1ObVX1X2ODpnd_u-QIh0g5kwJdeJ8w=s220",
+        "view": "https://drive.google.com/file/d/1Dws7apVK-bVzOQ7udwdw4Vygd-wvfnEc/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCOtEfBi9d5PRrMyI5kM2DvHapguV02WalD1UB8iHpatieKiwGlywIIFga1wDIG14RgI0LUEN12g37Caxs5lg-7ovU-A3bCgHICUZhD9g4BasKfA=s220",
+        "view": "https://drive.google.com/file/d/1YOOzaRMG7-DTmghHUsiGHttoAIJYA8n4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMb5KvW3uoLGCA9h0o8hVz1r6gmb_bhxkiXeKC4yZMXF5WwiITrtIIy_Blx4TAOhKyySFdJkZKcxUnegpvAQYVRXaCpGIBlz368-h5xoXLEAADukg=s220",
+        "view": "https://drive.google.com/file/d/1JQ01NPFldBRw5oCSahfxR__QwkoTb5e4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOO6yTr7kKjyvDLziNDsVW9eNrxU52_YREW_CoXOZLAhHigDmU6cYunXZ_5Z442fL5h_tK7oxM6Hq7CwRdJDDgm74P84TdQ9I6Wv0E8s3qr1HoJyA=s220",
+        "view": "https://drive.google.com/file/d/1wFYXlP8wveaf3ZOxfEfaTAwJf8eA5qvh/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpyxk5N9hM9Cqusd3RTR7k28GqwKfnrGyxanr45lI_QeQ8TggnXo7s8lRCU7ln69fXltDj4OSIjas3oMF51wiZvSQbrA1MGW1jU6uMYt5PI8qpyg=s220",
+        "view": "https://drive.google.com/file/d/1YDGQ2So74Lp9EuEp-UWjTN0FJRVg7jN3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZWjW3apwIRRT4g87dCirSheHVZL6CoAz4VHw4IROHV2kCCg1gMcGZqmT606WDhoy6dpQNf9mypfI4tfAgmdxpC5-0LMlObIfJSybCOUDm9xTTNA=s220",
+        "view": "https://drive.google.com/file/d/12S-e64vZo4jiEmiZEqnctwU0qkOly0G2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350105 - 22/4/2026 (9 FOTOS)\n  → 350105_inicial ❌\n  → 350105_folio ✅\n  → 350105_corte ✅\n  → 350105_demolicion ✅\n  → 350105_caja ✅\n  → 350105_liga ✅\n  → 350105_mezcla ✅\n  → 350105_terminado ✅\n  → 350105_limpieza ✅",
+    "_faltanNEO": [
+      "INICIAL"
+    ]
   },
   {
     "FOLIO": "350106",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350106 - 22/4/2026 (LEGACY)\n  → 350106_inicial ❌\n  → 350106_caja ❌\n  → 350106_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1puVqrHezHfHAMwO-RdD7FO3SVq6EN8XF",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWTqgtX5QJoqibJ5RGhtzt8QFCRb_Jz2I9BGMYAKOX-4C2AoBgKhFvFeg6XxDxOZpxuxVr8lAu-0gzP6QCsXMlzQNFI1nAQc-o04p2OQFG6rjh-Q=s220",
+        "view": "https://drive.google.com/file/d/1DPy1JL1dzbEx2HKC5vuMmHkblDoknJT2/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyNPFTHF7aBWnSCVxlH3dO4B_criSGM3nN_VbIEHn9Hrq-cPlBzGmhCSblmG6yELL-lIH_XCWa-vcgVS9pWPX4EoXiQPOuNW4Caon9M-zVCET5Kw=s220",
+        "view": "https://drive.google.com/file/d/11JmRUtmto4xsjTGGkdj1sNZ4_Mc5RQVr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBniY-BQEPCW5jnr0M9XHv-gkjHABkk93eR-iZ90oZyk4bXMcsMupG4ZgyRx6PR1Eu3CQX-N7iX5j1zu-FWJpfCgwMCjSQu_GKst5OBs1DO5GqYQ=s220",
+        "view": "https://drive.google.com/file/d/1nP2ly4tOl3iHqlG_cTyR7u39DFjHH7bE/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKydp4fWh0Lh4KCwyzj58FldL4pYlZJshpvNztbN89hU-Cldnm8zAFbXk51nqLGo8aV9f0_IK8faVQJkjChddQM5hd_bgNph_KcBbrOMSR_nkggA=s220",
+        "view": "https://drive.google.com/file/d/1SkCBdAdW5DyLShIZQmkrI62wcKKSV7LJ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_dsBSdolpxQBueeObVR1jUV-klKK91sBUADpg5CnVJDjdz6VM6yrufQl7r7jofiQwzfbS0LcLS_pIzcXjJxQbGDYu6Wul3LRgViOUPV0Yr6pipA=s220",
+        "view": "https://drive.google.com/file/d/12OXb0xraLCcdvHwqPFmVpawYzj-ygH4u/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCQR3QWj7s85AZ2nooOPJ0CgQ9YdlhCdYpIe7VH2eWBmT2vzWjOQFoJDqHC1tenOH85IKDBM9UJhCuM3agAhynSm9yZQxd65Mb3F8ViT38KgJ_3A=s220",
+        "view": "https://drive.google.com/file/d/1gne94bw4yG9bY7t9dqFhwZka1C0Cld4h/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBQbdKbDO-vpeZZ2yHcP12CB6o3QN-16SY6GkcCqHd6ffwhCIecC_sMmD7vu-9oZcPuOk8Jlzdr8S72I4gwOKpOAtoH7Sk736JFGSLzMtkZ7P9dQ=s220",
+        "view": "https://drive.google.com/file/d/1yEOfapgsItwsHMw019upkw19bFgMgMtV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOv_olccrPYhW9tZvDVoqWcoZZCwhfG_-14wVFL5xyS2Lx_u8UYuDlO-kMDOkb93cM-xP4eSnwt12vffiELnpA9HXzmeqN1QuouKzNVd5AVyLRLfA=s220",
+        "view": "https://drive.google.com/file/d/1zXvhj61-8cATGVUbsS2aZWDMFhjvLhIV/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350106 - 22/4/2026 (9 FOTOS)\n  → 350106_inicial ❌\n  → 350106_folio ✅\n  → 350106_corte ✅\n  → 350106_demolicion ✅\n  → 350106_caja ✅\n  → 350106_liga ✅\n  → 350106_mezcla ✅\n  → 350106_terminado ✅\n  → 350106_limpieza ✅",
+    "_faltanNEO": [
+      "INICIAL"
+    ]
   },
   {
     "FOLIO": "350107",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1G--iRTXmNMP9FiBObScJAJBFxAoFVwMm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf-M3QP3N403WO1eej9OY6A99AE5HtkSsH7ilXfNw5SoNhzehjcUtaRJwh0l6ON7gGyKEXMe_-uFhJQDiYttDgMIkgvVClKK1jiIzGCV5wgBx5qQ=s220",
+        "view": "https://drive.google.com/file/d/1jZ7_ggfhNr9tp5jSpRv90uaZa1KWER5C/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeAgGtDUJP0KfGC4xNyc5mgCcTli1xd4xpBlzL1igNvBkq7ovkQXWb31fyV8q6xLKkMZ5b0VkpL_7-StBmQC8A3atuvLk53KNJy6xwbX9Sch_ilA=s220",
+        "view": "https://drive.google.com/file/d/1wWXo5bgTdd9_SlEE55EPV59TTcrxdlbn/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzx-dinF-Q82f__UiyYOtbqH7UMKslfHNTd2TWZgXCvj7poeUY2ZmdyNh7DQiNu-vfUoALw6NDvU1POPJidYW50bsUrxvWaqjQ-dMAJl9tAMGenA=s220",
+        "view": "https://drive.google.com/file/d/1vNpzvevRo2hDqn8ISvKBUCeM9EOA5cku/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIF3xIIOGjVllEDZhxk2FTjNMHL606yHsG2C6Hm_EDb9CF-f0FNXPKlzy92g5GLIXJ1a-UuORyhoJ9D3hSrikAvCZ-Zv92oMcsMaZPuhmxlsn-Xw=s220",
+        "view": "https://drive.google.com/file/d/1u9OWtBDvSWCbIaLQZ4my6Ackf721XbH_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcdLrXRXwBQ_0JYSSm1yS6QGzvoxu7k5X2XHH1QWw5QHy9_BbzavZsakVteyceXgG8wqcFlPVpvdcrE-GLymb2xalqO2Sf2d1oKO8WO_J0myxMVQ=s220",
+        "view": "https://drive.google.com/file/d/1dTYl1g2OC2z_VEU6IUCWuHd64OlGHfd_/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN810-dgvadYw36FUrOl6P2dv5zOuVPPCsSfx2brD69678HSlhQDcnvH055hyvw2caEq5HIR84qNrBLgfBsWh7HuJ5O0ZP2XJr9LzoZKrf16jQHkw=s220",
+        "view": "https://drive.google.com/file/d/10KgWemOSswWxm047GJtzYuFfSj2O7xJm/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOo4tLi9QQJVwVrPqsQqvalKih8N9qGCvT5M5uVZWm6hAr4HRIn5BPFQxd_PE2uL4ZMhCo9vI1VLQwWPLtfun0G_PjKQ1UV7SuCwuN-rXVD4k1QPg=s220",
+        "view": "https://drive.google.com/file/d/1dsxfk9tcsnrkcV51U0JrJq2uMPUBsm1L/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNa7U0V7QVp8i5L6B9Qgwlsd9GKpYnW5O0rwoejXUIiGhF-OmDTVFDm1xpTrI8_GRq9TLHsqieIme-rmoSJl4xws6h4C-PZnlxFololawnI-xfA7w=s220",
+        "view": "https://drive.google.com/file/d/138n5NeCEwzg_5v5aNHGxNFtVsmPwwBPn/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNotiNZNfbfo2MMWbwHSSBRDGnMGmDpbdRrCmw_-5bW-1pu95eEB96vxcWPUejQuOQCfzA3TvcXIAdt0uxnjeXDD93Ap5kHZV_0weEAUcSh_Z_QNg=s220",
+        "view": "https://drive.google.com/file/d/1dpL52Fz3dm0Uf57tyjAOFaeUGqRleDgQ/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350107 - 22/4/2026 (LEGACY)\n  → 350107_inicial ❌\n  → 350107_caja ❌\n  → 350107_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350107 - 22/4/2026 (9 FOTOS)\n  → 350107_inicial ✅\n  → 350107_folio ✅\n  → 350107_corte ✅\n  → 350107_demolicion ✅\n  → 350107_caja ✅\n  → 350107_liga ✅\n  → 350107_mezcla ✅\n  → 350107_terminado ✅\n  → 350107_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350108",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1pRO8sieaELeCH-UDewlzBeG5_787jPjM",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhpNW4ieOZbDSjU6fsfPaVOcyPTh4GcTo0o9stAoUmoo6e6TjIRhDcNnylha5hIxPUtLRW2WWxA8uQYrufxWdJ1Bnxegzh9E6rjANQcHRauiXCcg=s220",
+        "view": "https://drive.google.com/file/d/1R0D4UJLY_1mND02v8ZUyRdzuLaFhIEIU/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-CBbvyTJEzDjzbVjpg83y77KhKLgq7yzNe9A2CbCNvOVw1p7A2UM7PRSw7xa_KXYXY5KM6_3MlBnCHJ2vxcvSV45IzLZT-19QGYyniUIsx49lEA=s220",
+        "view": "https://drive.google.com/file/d/1z0d6RYhAc0L6niq3RlCyr78Q93Jj9Wnk/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbWzPZ2TN87L4z8NMcPZe_XSc92ArfWjCChgbQl7ZPr1mnzX4cLMd0pSCNh6RbReW8ZwtUA57yecsFzwzy3nmTBiu61UJ3nFy8Jt422laMg4LneQ=s220",
+        "view": "https://drive.google.com/file/d/120GtcEkS_qs8lYQS0iAUHkOuKv9fNjyQ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9RfGVF-Io_7veoQiQziX2RLBmc0_8KJoAfhY0aQfBzhbrzLEeM8Hph2bTsKPDt2NotUTt8MwWBudHGYDtFkG5AjSuHIdvto9cmsokyFGVAp3FKw=s220",
+        "view": "https://drive.google.com/file/d/1Pj9tSzABykPY_cCc8KMfCFfA4VT-5iFi/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAtuTHd2TOtIurZL_XxHv8L4ghn0QHnMcyHpsOqsbxHaR4WkkD_N6wi_UvJ0EddlLScX_MR1JrsuYTPFNjFG4zkCw-Ht0bjpSP-uyC0yS7C98HSA=s220",
+        "view": "https://drive.google.com/file/d/19K9HNVmXh-K6Ji2XkzhizdEeoHoEthI0/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpfznHf96f7Yw5gSkPLP6cry0g5dKOOKWhY0BDJO462eG1Ft568xODWzyUSjz4WVeIKuZp-OaAjhf7FOYJI9sLsHTBS-9hPG_aW2q85Jeqh2F09Q=s220",
+        "view": "https://drive.google.com/file/d/1SXWN5ZV0N9BZFLBK05nNvPpgGYem_QfN/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOU60PFuC3aVCCqjHXo0NjXpOJce0o2wM996TYKJoxGzl8CWpauLOd1DJetqAKe6Lnv-TnV1UbRBEkWmXr98gkDnmu_7AjsAMZeZDfkWAboZ1ESpg=s220",
+        "view": "https://drive.google.com/file/d/1UBAU3dYTfNjRjA1yaKDW1yUTRRweWag8/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmRTB-itBvmk7ZwFuEtoKD_qfwFVGKPsus5BClw9cJD6gciHNkjvJOtSA2zMO9MFMHDnGLTE8i-uWm6C2kZbsMo2YEUud8XNNG6d9abVU9gt6JzQ=s220",
+        "view": "https://drive.google.com/file/d/1m45iQuTEyKDfTXT731fDY-zwGc1S6DWN/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEShQIQ_GN1qECbJe-5CFwTOBV-TYDynv5-BYDTOZxVrpG_Eogzc6xzAsCjMfCvc3aveWo1JbVLL7H-mrgwXLTv6pwi8b3N4u5qVGMMjXHEkjSTA=s220",
+        "view": "https://drive.google.com/file/d/1qOi5EEniE9VRKjWMKM-64xG0qVC9Bpoj/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350108 - 22/4/2026 (LEGACY)\n  → 350108_inicial ❌\n  → 350108_caja ❌\n  → 350108_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350108 - 22/4/2026 (9 FOTOS)\n  → 350108_inicial ✅\n  → 350108_folio ✅\n  → 350108_corte ✅\n  → 350108_demolicion ✅\n  → 350108_caja ✅\n  → 350108_liga ✅\n  → 350108_mezcla ✅\n  → 350108_terminado ✅\n  → 350108_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -4030,50 +4827,160 @@
   {
     "FOLIO": "350111",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1bEVUfiRcSq-AJrRaQeTpUrn4wsYrJ3FM",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkPQu2Y_dfph195nuEOxnpuogIuQQaCafJnHEh0_DymW4EfYEb4q8X2ERoey0QugwrPe0imhgMWvSpuY9rlZRKG-qwtwcDUpw0QQttUK3U06ji_Q=s220",
+        "view": "https://drive.google.com/file/d/1WP_yW4zu3yb-gqAObbBr9toOcuZYN21Z/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6TSvd6k07yhpKY-DHAatboFid9uYvcnNZvsk-dG-IR4jw24CS87ZmxAsu_qubB2z0xj8mVYVkvJbyzIHdsoLKkanjdV3ttN64c20q9F1OGJAb3A=s220",
+        "view": "https://drive.google.com/file/d/1PF6pWqr_r8zK8Q-xUkq6KvbUsr6WkVPY/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBwFHjWYnmiLJpOftz29mSc_lXmGp1efsHOj57WkEUXJlZIBJwgNnf9Nwr7PDKa76dKB-8Q92o3pj2nRzxdQauekOrP1y3anEzidWX8DlBZkMRYw=s220",
+        "view": "https://drive.google.com/file/d/1b5tZQ9LjhwXpmx1Av3u8lV2FDEcMXB3n/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNF7FOo_S6XFILgY_-iG4VNqfgY3oNIRfqa3nF2qNh84v40HblaPoBtkn4jZkqacuWWZ2fJUqo_a5YM7-hx4sW52IsQSBBWRGrgXsjN3yqJ2bP7WA=s220",
+        "view": "https://drive.google.com/file/d/1w7YsgMTOZCPF_v62Y4dx56m2Nsaq-m9h/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPohcZPvGoLTgoo9K7ChH8dZlzkWKXUar0yqcOaA578hgDtaTn1CBclRtpS74sRcFAFTMDk8VAzcdCX_t3DeRaVqr6VV7gBLUpaeK1vAUdnjMV5SQ=s220",
+        "view": "https://drive.google.com/file/d/1RH6IXOoKY9mEmewJFwwARfyDHmR4eh2C/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUWxu2nwp8W29TqWpnEsUIrZo_2K5ZyFGRy5VJ7eJfWHeR0yDo31Y8ZhgrBP_jl1DTJEuWgnDfXs_tDnbjqQgZGV0GCxNSqlwxbdUqkmCUlSMN5g=s220",
+        "view": "https://drive.google.com/file/d/1h2RQzlIwICeXbdvvxNBJVbNjeeDkEUmc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVyDrD5QpBNSJP_YrZTte4MJpfHvw0TkSkzi6EZpRcbDK1AgHJf8NJYfdm1yCJC6vUbyqVLkVpj1LlIZBIqUwsC9HQoT75um48-T5ldRV8wbH81Q=s220",
+        "view": "https://drive.google.com/file/d/1yfJ2ZgAgJO_zMjjQ5_bYcz6eZUUfiTXz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6bjy1c6qeiCX4DpvU_2ExGhBD4wkf1_kVRK8ZsXJWTSiiW58iQlSTG3HGZtn7JlsOWIjn7kY1tPE-NgeHL7I5Ev4xSQeQfwCXdlSsHtxXPpLW2A=s220",
+        "view": "https://drive.google.com/file/d/1dfhIcjGUY__MEz7xT80F-KfaaLqw_Qmy/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4Qw9Cm6rRbw2NgbosBSucHke6AEJz-dGrcz3PSt-SYQXpRgrajS1etKVoj9Yh0C5T5RXX-v2lYx4_2vOZOAqGxt04QBKY9gN7Gmd8hu0rXOIwtg=s220",
+        "view": "https://drive.google.com/file/d/1wYbu7HD9zmDszppwi0QDtIY-COuVZfu0/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350111 - 22/4/2026 (LEGACY)\n  → 350111_inicial ❌\n  → 350111_caja ❌\n  → 350111_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350111 - 22/4/2026 (9 FOTOS)\n  → 350111_inicial ✅\n  → 350111_folio ✅\n  → 350111_corte ✅\n  → 350111_demolicion ✅\n  → 350111_caja ✅\n  → 350111_liga ✅\n  → 350111_mezcla ✅\n  → 350111_terminado ✅\n  → 350111_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350113",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350113 - 22/4/2026 (LEGACY)\n  → 350113_inicial ❌\n  → 350113_caja ❌\n  → 350113_terminado ❌",
+    "_folderId": "1Te0A6J1L_wrlbKO6siz9GZ2n96zBmGxO",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOz0oq2g1hjRvDJwSoZtpdO4Epd8pk070ouSZKFE7sWvFOp_nVEHJI44gquOKx_0Umda-YBDaSqdRDAkYDZ5t4LWy2u12WwzmPKJ6gbrv37c3_kew=s220",
+        "view": "https://drive.google.com/file/d/1GDvoUM0DlLt2S7uXmwHPOhE7iNhkdg_G/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOP4e1EHbDXxEQQyf5mv9NSgI-U0Vp-wP01B_hqNeI-iIXq0cRVmUacLdj6974v1MJRZVg4GGZWHJpKAfwq88gSl2hnr1Rhr3xX1fO-aWkAMDG74A=s220",
+        "view": "https://drive.google.com/file/d/1qaSX-QBEfX1bz5GW4lt7yeBHrCKnxLxs/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeJHjfosTc0beDNb7whprqpGdRzpTwPgHMI4ioyX9b7ZPq-6qkZs_Q8qHcelU7AEVHlD0d50K21NceIEs6_X49wia--lupeRPkhiRHp4b00oyJzQ=s220",
+        "view": "https://drive.google.com/file/d/1Z4h6iTsWr28baVfKTqeF8qYD-oJsxGgH/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCk4hfqoNBAhLLhg_VpuPcygx9K4HEv9Vzl0CuXQZFpJmOw9YCSyETpH2NW60b4DOD-C_1sqy3_NamRkOQgeeWXefstXB9D2U-_X6S8vP8z7UGVQ=s220",
+        "view": "https://drive.google.com/file/d/1X6HGLOGHuIukK38a8N8KLK7yPHt49_2F/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMO5j34AswaRu0bpDXVJ0Ao9fHVN6lO540MnAA6_FjathHrzBuGO0MRElTYrdNsh1jimPX6pztaGf5exV5V86aPFx60r5PcLevXaTvPQUVMdP4F7g=s220",
+        "view": "https://drive.google.com/file/d/12XPqeso8VZOA3P0NK0LPa97moiXemQM1/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONTjMekcCGfvnMaVekACJjmuNem_vORkDlueZmICtWBjvIwvour9ibtvGhGIW5eDJGZJw62uGnHjoDO_d_5v-Xek54JKmwXcjHkUeMXFR0uL4x4w=s220",
+        "view": "https://drive.google.com/file/d/1K0M705gtk1gbWd8aejxOzHlXhW7-LWGw/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOu6QbZmw9hecWR0s6n6_MGohqiULDwqCYNfwqRSX5a7YoSlSE_p2uvgR7DqrURaDPro_dW4slOvRGqCQqtJC3-9qGi6o6G4hMLR4_D1lCJybqF1w=s220",
+        "view": "https://drive.google.com/file/d/1fiCfO5pPt2rXIdRU80Tv9y9-JsfmJKB8/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMW0fVynSmBs1OXjCv9WASzU4xIJAYKKofdCBKoYTWx3zJc265d7rLIVlB1oTJuSUT5oxPlvaav92FOKbC9kxPEPuuP1dOjGJlhVcT4cPH21z122A=s220",
+        "view": "https://drive.google.com/file/d/16awbceOGRpkV2nGE3dgtXSZQeq9ig94H/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVTooS72Wmnx0irRXcZ_hYk7MngaF2n0ZHtZVoAaSR118j0p0fdJAj3ALiOKtCRH9JycLH_qxnOA-nAUEjCsdNKImeKACzdXbSeEYjo7S0UGybhg=s220",
+        "view": "https://drive.google.com/file/d/1E2F5QSW-9hBRO9givkS48ws_rtF9x76A/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350113 - 22/4/2026 (9 FOTOS)\n  → 350113_inicial ✅\n  → 350113_folio ✅\n  → 350113_corte ✅\n  → 350113_demolicion ✅\n  → 350113_caja ✅\n  → 350113_liga ✅\n  → 350113_mezcla ✅\n  → 350113_terminado ✅\n  → 350113_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350114",
     "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350114 - 22/4/2026 (LEGACY)\n  → 350114_inicial ❌\n  → 350114_caja ❌\n  → 350114_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1wk4_n9dr5cFLh0ORJI_Ruvi1q7vGm0FD",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQjW0HcFma1yuT33Ap3WAzE99iBNCc19qx_z62Qdr6A_dw_5bBdlZCzH91vYLToYQSadNDPd1EuEAYf-63UXOvte1eHf7FlcQK815ggcvhmDYiPQ=s220",
+        "view": "https://drive.google.com/file/d/1cQsMfN1gQ4T37h2pxQJxPenUFj7KCixc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtF5D9SnQVBL-SgPdzxz2z-Gd47uBSy7OI4Svyj6Nw9k-u9Xr1OGYksx_KuM6wEG58xMa-28MAi4owLeXOmVqVfzWEsKedlmOBXYa9_BIgIP4ccQ=s220",
+        "view": "https://drive.google.com/file/d/13Z2YxmokoMsveAsRjBBFpFd8D3Bmhznq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW8GFzqFr0QGId1s2kHVtV2EXPmm55RE3BOYvs1R4g68FbzxWsFFuMS8OK0jbuqWfgK3GoOuP2CifHDdub6wzmcQnF5qO7HwVYxLSgh6yvik0WiA=s220",
+        "view": "https://drive.google.com/file/d/1D_w2nOfBxIQd9FNNH-OoNSNGrLKT899v/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNz1oCD_95lNEnXQhSpQzdS8J1FG8Jmv_v1SzLQp8AtbQb1r_k0VQPE4_gJYVDu_FBOyc4RmxQk6wQ863Gv8FArG7WztnOssM18rJ_2t-dXivKW5g=s220",
+        "view": "https://drive.google.com/file/d/16V-yofyycJemgvJX8IVBU6W7bMR7rbaG/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTH2N_Kqmh_NzMJhIhBdOvfla8dRspr3jwEplisxuVCiE677E0NxsvaFT8V3DUgVm8_p-Hl7YcQ61c2Y6fzpe7s0lbySTMjv3lvONi3Dm5JyYQPw=s220",
+        "view": "https://drive.google.com/file/d/1M4YOJkovtMblFHt0onqEKA2DwcAp2Das/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlQo2rm4UtfUIhdiU1auEpgyTkJF9ZOiN0k5KHyOk0Iq7ZynZFswGTmIfmaMGPM6TXsn6kYyKHlsbJbAcEkw7M219Obl29GqJXjy7CQhvkvEjgtg=s220",
+        "view": "https://drive.google.com/file/d/1M-ETOn61D6FSDhfE4SrwO0cLqZuoHfaf/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVxvFPWYqegwjnNFayuRf7ui0DJ6lOpTrKcOZiaxRR3Xh5QTOhyZokU8Bw1T8UnO1y30YrSPIKXjMXvPm-7X6uOZEYs2wwvt2bnwOoQRSnQ1iQ3Q=s220",
+        "view": "https://drive.google.com/file/d/1TWzkM4I0YOzkcbH1FQt5Lr7v5cDGRg4p/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMh79h1R1VT9y7ri66_XiR3xmZXnMNLp5nfk_0b5waNddJsY69dH5uZVem-GWpMsD3VZtk_YKuOEm6gg2xuOMaBALqpVRaJJDa2T0f4youJYR7t-w=s220",
+        "view": "https://drive.google.com/file/d/1PlycXFuPbK8G0QP2DHDFKgzyC4-kaJVn/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350114 - 22/4/2026 (9 FOTOS)\n  → 350114_inicial ❌\n  → 350114_folio ✅\n  → 350114_corte ✅\n  → 350114_demolicion ✅\n  → 350114_caja ✅\n  → 350114_liga ✅\n  → 350114_mezcla ✅\n  → 350114_terminado ✅\n  → 350114_limpieza ✅",
+    "_faltanNEO": [
+      "INICIAL"
+    ]
   },
   {
     "FOLIO": "350115",
@@ -4237,34 +5144,104 @@
   {
     "FOLIO": "350118",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1D3Va7-Z8re0jj5wUzfSOdZWVAqi0VRDZ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDNsR0AVhh2uwIpIVnUsbqRXvneK8mswYfix__p0CVQ4otx3dtPRNVwqzUSNGGM_uDRY31xu5d8EDjIayA_x_tVDYcGdqrA4Wgmim_7FJL4jkmfQ=s220",
+        "view": "https://drive.google.com/file/d/1u2p5jvY6cAVWOZ_aciBbzT1xylHkQ8ew/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOq0k30Hj6GNgeMtWVp49Dx2lq7njkrL4LRj7YNjl8UFzL9c9v3vtrg4R9jyYvvLOH0Lx9R821GoEXyEiqDcpNFkjWwo1JX-TNIee5mkasf_D6stg=s220",
+        "view": "https://drive.google.com/file/d/16GCaDWE7H-nR_pfwNCr1ZWo1Lw0WffhJ/view?usp=drivesdk"
+      },
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYuLMeSMYerXlCxFlX7-sIa9i2ag5ZoddULQgN28V-yNM2nHdMY54ZZfqLw0q2Ite4kxgZRrfFNpV5vJYIeZMrmqnRP7pWYj1PTdfxZcE-PJCHvQ=s220",
+        "view": "https://drive.google.com/file/d/1949LzUeB-IsjNbtBeMI1SuVBRDGI3YIS/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOkuzY9_2piLNl9rJUTLukTV-tkd0xxSjQbWypF9Yxoj3wVnNyMAaCCE_sUnqJ44x_tCwYRzuB89eNzGtuMrEd4CIG7xppggCaqDGZRqONhaxoaQ=s220",
+        "view": "https://drive.google.com/file/d/13WfbKHAatFhl05t-obJJ2ci8vRSIMRqc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP11kD5BsQ9HZXwHyUyN4QCqmQXkbxKf9NukKWnQzIWXdAHcc5K4ojR4kptMWWpOkQJfGE3N_e37MVJQGyvg0GfuVmYsoQ-KXsTXQ29AS-7ypuN9g=s220",
+        "view": "https://drive.google.com/file/d/1pr4KJUokp6EVoX8dQ4AtMwLc7fwWmOHz/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP43CSGKN1p1EjQhM6v2m2yQxLAtaJpLw1hhlaQDpEdSz-BeK4KStO1c3l8xVdXJuj_4aFCIuWVuTHvcta8Wofs0B0ITAIQYdMZpc1l7DSgQ2g92g=s220",
+        "view": "https://drive.google.com/file/d/1G5GD2JIvv5nRsV6A6-_mO1gf-jVvQ0er/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNt5nj-K3cZvyxjBXjGQOKmky5CRKdEXasf09M4nlrBJJUBDo5HqJJfdgSQ3cMEs5yFN2i_ul9QZ6OHyTsXVOnGo_r3ojpjCZJJL3feCQWiNMWpA=s220",
+        "view": "https://drive.google.com/file/d/1nFWSWSVrAC-nb6jbiXqUfH1YC-1nSV1L/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350118 - 23/4/2026 (LEGACY)\n  → 350118_inicial ❌\n  → 350118_caja ❌\n  → 350118_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350118 - 23/4/2026 (9 FOTOS)\n  → 350118_inicial ✅\n  → 350118_folio ✅\n  → 350118_corte ❌\n  → 350118_demolicion ❌\n  → 350118_caja ✅\n  → 350118_liga ✅\n  → 350118_mezcla ✅\n  → 350118_terminado ✅\n  → 350118_limpieza ✅\n\n⚠️ AVISO NEO: Faltan fotos secundarias (CORTE, DEMOLICION)",
+    "_faltanNEO": [
+      "CORTE",
+      "DEMOLICION"
+    ]
   },
   {
     "FOLIO": "350119",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1fz_FTNywaX-rw2hm5eZpQ9NVdwdx2pkb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR65dzISYdmiKPvm3cDgkO7AtahVYd8h4uIenTwrfQl3rqTvTosfUcAn4Hu44Qf9Rm2g5JNwje3nEvS-a9blTZlLqDSZ79s9-W7MNfKaDu7om6OQ=s220",
+        "view": "https://drive.google.com/file/d/1r4rxyvnbcCSDE1NpTnqzb9qP2Uj1k8OA/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGDjQ5L3lbaorJBuqYMh0gf8YbxBtStseYJJf7VFJWpoUdB0A5ECigbyUfiRMRTB9xTAGFLs1BXy9ZEo0mZFlORX2fDn-PAgPymU0MX-xaEpyufA=s220",
+        "view": "https://drive.google.com/file/d/102PgYNUeac9irlCnKWaA9zOcy8eBMa2X/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaokSu5FczUeCMi2scVJO0rwX9lILAvDHOBYmvjhUekBaHnMqFddYFutifAlANVf3EERcH9nsfS0Zdyyw2PARbGKtvK4cKpLOh_W0wmxvcZscnHg=s220",
+        "view": "https://drive.google.com/file/d/1MJHt0PZX9Wk5jzCo3Ds8PjiDtHLOkbTD/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkRGIHz2a_djDgheHNlwoG0kEYmTDn9wHKJk3dB9ZVzTf6R5T9cdY1iWdd9yoMMus4jeMSYiA2FOfY4c-Inng9eTJ2uMCE5HUAs0lSey7Np1gMjA=s220",
+        "view": "https://drive.google.com/file/d/1QENYGatyXJZUXnA8ps5Bw6ZFn4ROph9f/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfbCiKeijIOPu8PsDtP-nCPWJ9_Tn9I8RMYtmSiHOZwKzMdPBLddIj7YVDmKH5rskjPDe28Li7om98IXRPFpNDFdzwHw-AJdMn15Mt3MvswxgtrQ=s220",
+        "view": "https://drive.google.com/file/d/1SKg94JsD_f7HWDVbBsK4T88GWNFOS3Vb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVhQ31yG0zm5ILiOW5sTp5_8kM0UO12lFqIMd9aqsoFIWL1_kGOG109yI2_fRuCBcNr_2cF429_IdiSszKKYN746Lcb6R0MmCWrAbh_I23MRNMBA=s220",
+        "view": "https://drive.google.com/file/d/1PepM8EiDqwknSJp2C3jRNuXopXeJO7aE/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxhnRCfVTdTl2LetiA2ciMbcGmKQ9ZKqzqkhd6Elt-KVqKvVMxIBqwR823A1TtglUAL-IEO8K21_nK5Odi0Vd3nfL-ySvPBFBSzNfOBo9PWGJYzQ=s220",
+        "view": "https://drive.google.com/file/d/1qJ59OceTZLkT6n66nuEEv81InfQuwIPS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTMM-oPyZ4YEhnyHTENcEM00RVZyRJMpiIDeo2cBrNdjTLEeaTtO0XLEmAFub9iUBTtS7rhiLR0OcDsQi0R4l_WV9m7-A4VTi4o_gyChuPqvnbVA=s220",
+        "view": "https://drive.google.com/file/d/1nMP2CxjKceoymMJ-S_kR_KEosYmbRuSM/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350119 - 23/4/2026 (LEGACY)\n  → 350119_inicial ❌\n  → 350119_caja ❌\n  → 350119_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350119 - 23/4/2026 (9 FOTOS)\n  → 350119_inicial ✅\n  → 350119_folio ✅\n  → 350119_corte ✅\n  → 350119_demolicion ✅\n  → 350119_caja ❌\n  → 350119_liga ✅\n  → 350119_mezcla ✅\n  → 350119_terminado ✅\n  → 350119_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ]
   },
   {
     "FOLIO": "350120",
@@ -4587,17 +5564,54 @@
   {
     "FOLIO": "350126",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "18sTm4_mOCpPUmtOAPiL7DrR1puPa3eGd",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtCzaMCF5o2czudboY-aQct8NC08pSI0r6vvNKzb96XTPfMrGqgZNhCKeraLFkkMV_hB_y8aTkAHESei3IQITJ1JXWbHmkxPrdTMqNh9i3tzuQMg=s220",
+        "view": "https://drive.google.com/file/d/1zQLKxtubcYbLw8iSVDk7KIZVeGlw6kaH/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2nNS_-F9Ia8qsbPcxgM6u9GJtxXcRhKGAoXLcdmzu99bxs8ERm7zh_lPBr7LAEnQO3VUbAtXDhkqRpvQ71iiaVqUsgMZKfyz56G6PaVlPoE8l5w=s220",
+        "view": "https://drive.google.com/file/d/1nzI8BQWQPVP4eJs_enieUuupAIXgZxUb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiSP8yp35KQnC5CWBMNpVzqMw8hjlrL_FwrvOSPgH-ZZIv9XBnvLmdIC6dc84D_Fdoxb2fvMtXYljBNPzHUCpv5eLNZMK09Bz66qG1fmWk3kMNuw=s220",
+        "view": "https://drive.google.com/file/d/1iDt9u79wPdd97_qF7aF5TUZKF-KcjPrl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNufajdjKnGcXRQKwHjX-m9wZ_YD0ujRWK8V3X9z9qPBQrJ1vmmVJ1kpTspw1R25Q3Zqe0R0It4rs89GH8Sj7b8XmtUq5BXEdsb9AKcjphL-duTvg=s220",
+        "view": "https://drive.google.com/file/d/1Xv2rPWbwFR8r1bbdizqqtyudf0owYlFr/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNm128OrjlMRTdyr95WniPn1uTt7jQWF_HdCFAu-w3c4LqOAe2-1vmkzWREd6vk6dd4RMUirLLDV9cHdNlN9WmGchtkZn30aJmO15PiXou9qTP_dw=s220",
+        "view": "https://drive.google.com/file/d/1074IKfWOOqNd-qTaU2SV-15luJWf1yq3/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGDWWoJYhJUfGwnDy-rPuNC6WeNdztOuUGMCJM16amoPvHqAIsPFyTM7Zf0XPCfWt5jgIEwdpqqsUmIuUVnS39id1Loqo5LgozT0A94EA-8ozIrw=s220",
+        "view": "https://drive.google.com/file/d/1oU4mFlLbzWTCViUa8VUWgT38ulhB8OOp/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPloLh4AwNTDMnqQsK_5I-Fcg5YoPNF1idqx93F_8Yy2ptfdifIF4nRZNylkVkZcY3gjEiQho7wedpyY5rpKOmgmsIlJi-BloEZ0ZreaJoFzA8Dqw=s220",
+        "view": "https://drive.google.com/file/d/19HGcvrXxVZnmFb2r-iA6QtyKRHCJlg7s/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOh8fEsgGf3ezs-FBeiAWftZKgNGd-TyjR9KJHenW3G-2lHmpr0WSm43FzAzfVUkcSTpVXVE-6jDV8ouQB2Ss5LLkHwGNF7HbXiu31GYYrfCelaA=s220",
+        "view": "https://drive.google.com/file/d/1b0aUK1orbz4kvuMEXnhkuuuo4C0MUrkf/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyg9vHtZsIhuit3i3JJvnrTshY7ijTG0rmfp1s7zpwG591nZJguJHV5x4Iu4H48F-HBM7JWv7wtgZc3KqkXa-VmTc5Pf6aOp8F1z9jOHWiwhwDYw=s220",
+        "view": "https://drive.google.com/file/d/1Fou_4PeHLDazS9sbExrwDMfqRkxqSQ2v/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350126 - 23/4/2026 (LEGACY)\n  → 350126_inicial ❌\n  → 350126_caja ❌\n  → 350126_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350126 - 23/4/2026 (9 FOTOS)\n  → 350126_inicial ✅\n  → 350126_folio ✅\n  → 350126_corte ✅\n  → 350126_demolicion ✅\n  → 350126_caja ✅\n  → 350126_liga ✅\n  → 350126_mezcla ✅\n  → 350126_terminado ✅\n  → 350126_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -4708,17 +5722,54 @@
   {
     "FOLIO": "350129",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1vlBsfcSq5HwQLyoxf66kjhvqn8RKAroY",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdpWllSIZTvIHYRubjg7IAIKqd2T5UFRdJfSxCQGpftlDur0dAWlGhZxnASdetAuzBCS8I3jxhnRRNzQuzuycY7NeoW-iD13Cn-PRVnEySpNEvLg=s220",
+        "view": "https://drive.google.com/file/d/1KdW3PFHaXuZ3jLrmwfwfTFN4GXgjWlZW/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0pII23cDT0zgCfB0gLfXj5P9vQviKmLm-5kiWKBsmaKYaP5-dFi6siOjJ2FguugqDTovbKrO6EsZ8sxAS0WMyKOveRaOhstzgyDXvaVqy3ZlYcg=s220",
+        "view": "https://drive.google.com/file/d/1htw0kxET_Z8949aaAYhXsQCgPm9VSBZe/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPp_MO1bbFNiuAENfU8m_m5uvt9HTNElWkZtLI97mbyiFD4vxYkzDMSoEOxCqy1ebsKQTOmehsJ4lsZqG4u8IyFFRNMhHqdEh3zotW09f-FgHz1Qw=s220",
+        "view": "https://drive.google.com/file/d/18K7nJ77zLw7nG5-i6mT1qEU076ZmGAQ9/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsV_9NMGOCLKl-v8qkmJbPHV0dxo8sMMpeQcXn-EXuUFt86JbghDlopzS56EXLOttxXVWagz5H5_FJrHKz_140j603PNMnwg6S9UdbBKjfIciLpg=s220",
+        "view": "https://drive.google.com/file/d/1ulw70AYLWezhq2IETn-5rYsnF35e9DXw/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFnCxB258JOAaXUXawUX44DGYrqjsuZs3G-aPrmfQGnWQ0GqeWi__SBF4q4usd-cf3NawbBkdOgEM0XWY5qIfYze-u2QjsKk9UbzDIAqJwxFjEdg=s220",
+        "view": "https://drive.google.com/file/d/11D3UNVds69kPbrEDufhmUIMr0Vtm2WEB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGEdarlplptXHws2OdPmlNqn3b0qAkeE-jzlNMzsm9q4-OY6ds_0NFE4Gli3_vp_sUsgyIzr2XcXrppSpd-NvxCufcORyXNkj-hJFHf4p8b6s3yg=s220",
+        "view": "https://drive.google.com/file/d/1buw4z5GlQy4wqule6OH1ojHlUZ0CQWMv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWSK7WsnbsYNdgjqu9aolEhSLUcaH5ChE7VEHXcYY7iEPCdiUR-ECN-iN4OBiX7a0Huo4UEAd1sPSpquyrX_GdIXA5CM2PhKrk9hk83GHrkQ7vDQ=s220",
+        "view": "https://drive.google.com/file/d/1VsXx3RcTxltUqB_jMsGzL9zOEg-rawUI/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMptlO4Fl838yNc_QrFPV90kuPFLw6CPhvitoPCE_-6os2LH_suaZB2VS-mDwmXnWBOxKH_6gNJ7DyT26kJEbXsLgi3JwIwk53MXVS69EGSsBc_AA=s220",
+        "view": "https://drive.google.com/file/d/1yx3YwnTuW98q-bh8dJHCFXY4-ZrpGZX5/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8dQ6stN72bmN2Jk8yY0Bbaxv-_7I2WAF4Eeq_iqvul2knvR4TRGgGu0riRgX1R2-WDcONi0ZbrPzQCpFcgAncWGxZH7gdW8T8PP17XHZEwmyWGA=s220",
+        "view": "https://drive.google.com/file/d/1AvU8Z7MoXZV_GGi8zWV4fPHNptE0Sq0x/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350129 - 23/4/2026 (LEGACY)\n  → 350129_inicial ❌\n  → 350129_caja ❌\n  → 350129_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350129 - 23/4/2026 (9 FOTOS)\n  → 350129_inicial ✅\n  → 350129_folio ✅\n  → 350129_corte ✅\n  → 350129_demolicion ✅\n  → 350129_caja ✅\n  → 350129_liga ✅\n  → 350129_mezcla ✅\n  → 350129_terminado ✅\n  → 350129_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -4830,17 +5881,54 @@
   {
     "FOLIO": "350132",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350132 - 23/4/2026 (LEGACY)\n  → 350132_inicial ❌\n  → 350132_caja ❌\n  → 350132_terminado ❌",
+    "_folderId": "1sfHwVKNWeNz1u8L8TggwOeBYnup7y5Es",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqSyAiF7sa5C_RscWx27ZLzPnUcRdurWkLnWWNXxu-BUGCjrlYZ-5PsCeH2AzhiN2j0Kvc3R43rAy71jRnjNnrf8viTOkxHvfiMyFlwzyIABKr1w=s220",
+        "view": "https://drive.google.com/file/d/1bXYlkjiOTjmK6Ayf5J_fPGcSyIYfUbgF/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHcvVXIpA-V_sgi9U6jKHpQj77R4OZuy9syjCuJkl0N6fecGEJg-F_WDSOr8qBeuUbx5Lzu388audTcFVw3ZQDF44LpVoQn6U3uqlvMMT0pT-EpA=s220",
+        "view": "https://drive.google.com/file/d/1RgSRJQJ27cU-NrpVVAS_yHVZYBHAi2rl/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYeWKq7ByXPzAiUJbjfT-w8W6y4mCUF23TGJVdJeGxUYwj7n9AoGolw3lURe57Lcv4gmCGW0pJLELKLxKliqjM7N9Yaqy4673a-sqhWjCLfwhWTw=s220",
+        "view": "https://drive.google.com/file/d/1p9V_57MoJP3uMJNUXltgOHXo6DTf3o4b/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgEnF7_5Syp6eI-cfZRtCem85pA__OlLGU8YUFxfbdWg1ZCwOjVI0M30HcYIPyIAwOc53p-gvqiFMIAQ4JHdyuiy4G3i-BZMKkRgXu00wGapm0ZQ=s220",
+        "view": "https://drive.google.com/file/d/1HIahy3eLD3OFcZGEsbmhxLd-tv1NV4jh/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMt7ti-ksxGUzT5bJp8Z7ZLHii3pYU2ElsaFNJ5qSCQTWPoFrkLJN0Lwtn2G-MXnAqDtuixhnhm3dNksMb9P7bxZ0bTR4ohwgDfDpSBXn38a2OZVg=s220",
+        "view": "https://drive.google.com/file/d/1HhMG_16RAiIEJriYldlreAgceVmGe8rp/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ_MVOP_OSAkoSdn4zdwNCEh_d5OP6bp9oFYPuten2eQzqV7TISwu8nlBLwH6oP6o0RnRTfohW-_gGjmkPO0raOfAqzWc3sp78jnQx56jPqkhFVA=s220",
+        "view": "https://drive.google.com/file/d/1e91Zb56oN7is5p-DjNnlxRHPu3vYb1Fb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-EfX2p_Z5zJyER1PIQMfJH9r_Y-wAKdgCCPwTVcYnWJ0BW5XH3czWRS2aGt4_vN1Za-P5805I_18cNVsRcxqpPhnypo2Va95MEL7SKr9o8vJgPg=s220",
+        "view": "https://drive.google.com/file/d/1erRvAg2nxLEAjPHcgWjbi3o2Bx33WyYH/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqh1-G0DfTgC3ILO64s-hPAP1Cd6e0nh4OyOoe_QVtLtkSV5AtFArNJnwxM4fzEee6lz9fSh7g-X1l5iOniEbs7jrrZJBhjOhu3KgjB7lZ4evEKQ=s220",
+        "view": "https://drive.google.com/file/d/1XHobQu7eQ-QNwfg9ATVFahlr103vP78Q/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJeAjuvcfl5qlm1nrBMkYwauBSKwA9akLBYAdcqCFzydSEMNJM1Ype5_EPM3ObZc25Yir80iowegWG57ScmtP6Z3jVcsWXcyJ11UtQGxPRAPFuXA=s220",
+        "view": "https://drive.google.com/file/d/1wtG_xsZdamoH4hisqfzJeR9cZG155WT3/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350132 - 23/4/2026 (9 FOTOS)\n  → 350132_inicial ✅\n  → 350132_folio ✅\n  → 350132_corte ✅\n  → 350132_demolicion ✅\n  → 350132_caja ✅\n  → 350132_liga ✅\n  → 350132_mezcla ✅\n  → 350132_terminado ✅\n  → 350132_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -4899,18 +5987,54 @@
   {
     "FOLIO": "350134",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1K6u-gV02rlia-LFCUI8zCvXhzMD9cxNt",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfCloNgOXXkJ7lnm5lwGeawUxuupBJ4RWQdAks80W1Q0XljzRUXuur3td_BPYcdqflZ510QdTEWbBVuHfWPRURC1qHW3Bjsi_ont0l89NA3yyauWc=s220",
+        "view": "https://drive.google.com/file/d/1nuWYZCKctmsxEuKMd9YAz2ixw6binpBJ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVlDVU8r50H78Y8e8yarBeJmPvhe-gGXzkJkXhmax1QblAJ1fNvKRYrh10-cS9FXB7Q1DPTZh3WtZpZHpgTvWsZbgLQob19gGKkpAy2HE9U9OYBto=s220",
+        "view": "https://drive.google.com/file/d/1XemD9hdLQZEuA-p4wPbbmeP-rrx2OYpb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuQGj8vB4bOhJ1frhVn0YImDvPUC1fwWIXnlLBvaq-_it9b8AlLYx50xJTwIJRoL6XN4rcW0foeRZ0e009Ks26QjocgB8Q-8tFiM1urG7E099i8bM=s220",
+        "view": "https://drive.google.com/file/d/1Gux1WO-Z5quBfA_vH6ZyZaCeC5HRA_uV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-VMiSZ6DiXhtRtZA0HbibIyMw0pZELuwQNEJpFf9RQRLowNYZAu06QhuXa8o2boEuhS6h659B86LjVuynVy2Sq-0hxq-ZMAddXDpg9Xjl15UExAk=s220",
+        "view": "https://drive.google.com/file/d/1XPwCgd1_C3ZSZZkMJAlwbKMZ13x-rCDS/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZYVh1XJnu4KfXwsYiAiJs1FD87tDCyBLLKZW-SqHwBkP82Law-2xpn7YFRIPEeXE3P7KldThaQUWVW4oU7gn63r39eoQfbMwd3ttRWmkL7nXcask=s220",
+        "view": "https://drive.google.com/file/d/1q55g4cohob8NI8P3_Gh0U5tmlRpOi8Db/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyZ7-yS1i9-rIYXFfPqwscZo3rl-pS0jeHgFHT1QwSe4DuZHmZti8mgQ4jqGMrxqb620bsgSa5Vmg5xAbkkhiw9OOXNzTsyEtQEshet8YmJw0P1BY=s220",
+        "view": "https://drive.google.com/file/d/1VUBJBnOyHzIwNFo0YpMGqGTk06H4hTA8/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOv2r6m9G_rA_ftceuvJkVvRtv1Fz4ZE0Ccsx5eXMRue-E0IIJhSYUcPon1CtB1lVn5vvJt59x7DH3zIaPt-DkulEXfRDdxcMUzTbfMCP8NB_6DTJI=s220",
+        "view": "https://drive.google.com/file/d/1QuDPDf77ASKlvFz1PVUK0nVImEaCd9di/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtuka8-tG7UMDwoBXjjeqoaKmayLN9eauJPLtuUGWTDUl9ASNN7XYvXDIDPp5VJGir4Un_8YatYZ6Oc99eROfbi45Kt-bUFdlGpdBTE_eEww20h68=s220",
+        "view": "https://drive.google.com/file/d/1SlK4yZdFZxGr1Pt2q6odn4XHNdJIyd98/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350134 - 23/4/2026 (LEGACY)\n  → 350134_inicial ❌\n  → 350134_caja ❌\n  → 350134_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350134 - 23/4/2026 (9 FOTOS)\n  → 350134_inicial ✅\n  → 350134_folio ✅\n  → 350134_corte ✅\n  → 350134_demolicion ✅\n  → 350134_caja ❌\n  → 350134_liga ✅\n  → 350134_mezcla ✅\n  → 350134_terminado ✅\n  → 350134_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ]
   },
   {
     "FOLIO": "350135",
@@ -4967,17 +6091,54 @@
   {
     "FOLIO": "350136",
     "FECHA": "23/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1mevk8wr4Af0tLFJY6BLw3GLkPEoYQLBs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvZG3ekklz9bvWjhcRTsHoHGPd1evj84FoKtOsGBYF4j44FCThlRY0uIUBJogvCKHPxEPb7tvkHRTvIYk3c40WZn-dGOPKcAlG6gaepHXmcbGlPg=s220",
+        "view": "https://drive.google.com/file/d/1PIzHIhtc1rNL9sXAqMMbq6BR0EFZkJk-/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFGlEMVpfwJ4loT7GhekSguQ1HfiRnUIbe605gl2r614gdUrdN0f0z1bA0QKJ5M7LIgmGFWPQ6SFuPvnbrDbN3gTDZ9I_GTksbfEYfCfrhyw6iEQ=s220",
+        "view": "https://drive.google.com/file/d/1e2s-EAfE63sJnz3_IPMtcTDLwYhx7Guv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnq1S064juvVeWH_O9xPhbdY-MudSZ4iy_iWKxkb-6wQYmVPZFVgI9IKW51CA3T7yxmpZZ_aY743eojjx3KRU4zbpKbwax5Xwgxu3se2opqHOMkg=s220",
+        "view": "https://drive.google.com/file/d/14K7rOMmz4FIjHYqW6X4Jo4RLxHazkOrz/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPa3rmD5owSe9Ew_EFaYgZuv-7P-abXnwzeaPSTWCV_LB2gM_dxccFrXVuRgG6CCxK8VCAZN_YCy4gKf5TpfwHiUBxqKCYMrVse-yNtIRkC9mbpMg=s220",
+        "view": "https://drive.google.com/file/d/1DHt3lRqjjapwDt1OY0bMMOfYpAf3_zPG/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2eeuMvRcC8nrsBbW53uLfnRSF8eABu_WtzCtVsRS3Df_yMRph_Ixrty94PdDPJXJEZm5KjyXd_PGR-e5HQLP2YkV3rwu7KxdmvLrX0RwZnLn7Xg=s220",
+        "view": "https://drive.google.com/file/d/1kBr67CLg0_aELVOVuLKEIcHJTKF5HfHq/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIDxtrWFvu5dCEhb1t6BleQn8bVnVPh7PPG4bJcjWdUvATTAFAbSAaIkKmIlJDKtHxoHIPmx5NzPVW6Bqf20EFZL5RqfCLUo-b13-0RQaE9fSSAA=s220",
+        "view": "https://drive.google.com/file/d/1a_50Gz5WhcseZFYnV7y59XUO3Syoik3r/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPz6qXH3wYBFtnbniP-UCAGPuc2HV9CTQTUZI7qf_rXD8WNvbt--d7tvJS6sSjPz1YQRwrHAgsBNWvwAgbZnmE4y_BxSWVKBb3Nr8vW64hWSVjnYQ=s220",
+        "view": "https://drive.google.com/file/d/1JuLjFFtCnGonO-YbhL7vmGlRzdV9-yDB/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0oOdX7R7kUP-DdqAsSOx-M3D2bN_KAwpVEuVbXJP7MHv4YVHjIYpR7zYzCpdYx3WH5P9vBl5sWuEcikZNpu3v4dsZR88ZIVjgrrNB1DvKYIo1sQ=s220",
+        "view": "https://drive.google.com/file/d/1bCCKeg3ccWIbWdYja2ll05xVGwoqKmN2/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3Tm76FLEYxsrkzDG7YCIXi6H_c45bCZsJG1Fhand1iFTDe05ktgh-9u-oXFPdsDyxOPsO1Nad4SAQot5L0A8hln4mkMgjGrmaAXCuo6R-2McVVA=s220",
+        "view": "https://drive.google.com/file/d/1IHOyecfUPx64Syzs27yP9YvZqj-dLFSS/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350136 - 23/4/2026 (LEGACY)\n  → 350136_inicial ❌\n  → 350136_caja ❌\n  → 350136_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350136 - 23/4/2026 (9 FOTOS)\n  → 350136_inicial ✅\n  → 350136_folio ✅\n  → 350136_corte ✅\n  → 350136_demolicion ✅\n  → 350136_caja ✅\n  → 350136_liga ✅\n  → 350136_mezcla ✅\n  → 350136_terminado ✅\n  → 350136_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -5089,49 +6250,160 @@
   {
     "FOLIO": "350139",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350139 - 24/4/2026 (LEGACY)\n  → 350139_inicial ❌\n  → 350139_caja ❌\n  → 350139_terminado ❌",
+    "_folderId": "1kiRpNX3u0QzSqWUC2lAGfX0vZaFil-SA",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBXTfFnWeryLO1KgrOZOH-WHICz-B2UJcvHalLxkXjSK1Uf6i1KTy1AM5hFcLHEpStAGZkJnaTjnDrDKpe_rAK-7wmQtYbYLtHaTzNxXiJjq6B5rc=s220",
+        "view": "https://drive.google.com/file/d/1CJaj1wvbgTWut3j7DmAwTBYM8QOCcfAb/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDMvvbPcw052-utd4Myd5IfR-Ht-1mpMnRch1s5Pa-hNquC2cADrhHmtXP1SUJs1qAptO0pMxP7aT9BCNNmv2k6dRepAv3ke2Q44bQcLO3MPkQA_E=s220",
+        "view": "https://drive.google.com/file/d/1zLQHFdCg8aKIM7uCUotQ6cf_hfvPz1Kc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOT4QFndn79V5P6DYiKaV1zY23rUYhQA2-C5DWv79TAhhpq-4EX2TE0_O3-qhps3D4mdCNVbvW-JMl4VuL_cBhxmXdxHb2v5-WAa51FmPN-SRjNBXw=s220",
+        "view": "https://drive.google.com/file/d/1fkvFmsYi-QjH5VcypRimObMGKjavdPWu/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTQTMGryYTjgiO0W4jbY8MggWSCZIkRui4sbHM9g2nFZYlDRaxEDWVfRydE19aRkOQT5HrhD11kfZ0wFmZfRtK494jzk5E_B6zpQ1Ny0O_xlGPKQw=s220",
+        "view": "https://drive.google.com/file/d/1JUJQxfWX2T4oza89mmJfX_7YiLl5cpst/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3Bfgv91_DLiWzZRy8P4hTbjY2J7Jf9wwrQIZXfPpnvClXyIOCBD3S2PvYnvEXC7q0FL27PoD8RjT948Ur56vus0VjtaBTKge5d3jXn76fosAHEZs=s220",
+        "view": "https://drive.google.com/file/d/17T79zievUDKG6HJMUEAwJFV-uSx3wGGD/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0_otBHJuBpeJDLE44Pa0t4imEnzEE7KgNtmTxAT5t1TFvkeBUnKPerQkyAd0d6F4nTmaxpU-RzOAHBUvxqAB50Op33uwDruigNl2aBrHH3jciu3E=s220",
+        "view": "https://drive.google.com/file/d/13NuBpTfBviJbCazerYMHdjudO0d5kiUN/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIZx4HOhDk6vALKl7Qc_n47JWWFi3myWkI2SUwSxnjot6mSr8dhdx1mNDDHJzUgMoqIQMHvdlT2uWq0j_vAmU4bgtYhlYDm6014c_RjQo9KXsmZGQ=s220",
+        "view": "https://drive.google.com/file/d/1v7ejCPfpbGl_U5yUuLEAJTQF0IkF-qpQ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkyvID1F8LeqvfVECE9HF3vkDzXkZ5YxEM0c3jOWbeTmuSfGJbo4G7yb8gDUw5hTREFThbGItq6dj-luK-xJiOeTVL3elxsRw2akvllMj4vLDjO0A=s220",
+        "view": "https://drive.google.com/file/d/1xNxCVEle1Q5v8toR-6xSLr2xEwiUzJ26/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-RsHrPNqOkwVRQxe-X0C6GWSZvGi-KsaxBhlDCuC36elnpAwFpP8rUxBYh02yDBoQHvuQGJUjA3ZbUMYhJVytWJGi3C6kYLkzSjZ5hhz6FUd5JME=s220",
+        "view": "https://drive.google.com/file/d/1CNeuP2dxK93BRdDLb3DWvoGdLS7ps9hp/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350139 - 24/4/2026 (9 FOTOS)\n  → 350139_inicial ✅\n  → 350139_folio ✅\n  → 350139_corte ✅\n  → 350139_demolicion ✅\n  → 350139_caja ✅\n  → 350139_liga ✅\n  → 350139_mezcla ✅\n  → 350139_terminado ✅\n  → 350139_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350140",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1a1qR6Y79y6eknh-uhgDao_3eqN-8Ncox",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMFwk2kEfXqK_9RV-makLav_wzQvvMt6YCiT0BRCdDfq7A9NgAt5RXYlSrhARqIjCEQqUZxawlkNLJcoG5V4-TzhFOapDxxZYQqtBjk0tZiRPyQg=s220",
+        "view": "https://drive.google.com/file/d/17yGcj2KIYIqjuhioub0LDxxtdqSU5ShX/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOs8-jx_W3Pmk6fn0oQlm3Y36pa-QZGpbYz1wqe00gjTV562KYxmDaAaKSjf5c4zJimHUIHYgrrjs-6MAJs9KUtqXXGd9FmLNs2I3mzb8MKxksVYg=s220",
+        "view": "https://drive.google.com/file/d/1gXFPkdd-fn75vmvlR9j7WKVTRUBrsqzR/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4UzxMamM6NxqCM5rE2XhCsQJR2papEcMrY_3PVxj3gUFKjow9AZl8ggmbZVysqmjRa_B0OrpWGQZtXm8WDb55olfqaYYnyXMM4BR1lMfVO8pyYw=s220",
+        "view": "https://drive.google.com/file/d/1U-8CDSl535bDmDpYty9Sfzkuaohi28Li/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAcIsYMYcrV9TRlP1Z3KhZQUTthqfynUMd_KYu2lkkvBSKm6g180p7ZedxQ2-ZhIhCRZgcFGI-gD5rYFCN-7n1kpv60jDq5b780pEXR_N2dUsxYg=s220",
+        "view": "https://drive.google.com/file/d/1lY1E-ZoBPQ9iJFUVkfT-HzXlmJBok_Uf/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBON9wvjSnDjRVYafNMib9HMyTnlyYzIRnZuoIEY94ykfp-Vl64wZEoiicg1cXJUGaayLQHY_hl2akhs_ztU_1fXr1ROKDCyUr2VGHcXtzeOqo3-TA=s220",
+        "view": "https://drive.google.com/file/d/1YBoI8kXzyp1GrDEnFjpa-FmMt99PQn2n/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkwBPTkJ1bYjzXIBHYXGZoIP_CSe887sVTWIVNzDYlqsoyhpLFoQZSgE3MPHdVNbw8gsJC7njGYoVolYsExjm74qPLhwR5yFQasWEXBI_mRgbI8w=s220",
+        "view": "https://drive.google.com/file/d/1LBinI2jucyMy_6k6VGPL2Qp32AL3PBMy/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4_SMfUeFD1BaUVFLfxlFUTt9h8S826KoZXc-tDzbnPCgI9z98VCv5YVT3V7t92orR9FHvfbaVWna-3Y6ZluSa09zr_TtcjC3bXHyyjIBwiDz6Cg=s220",
+        "view": "https://drive.google.com/file/d/15jxezkbTPoNwDldCVEkIsW8osr6w6zvp/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObpAld7fH7uA4d8MPX_Zs9YZ1OZDZxLva7q83qF42bUK7uu7BBtZg5jZyTVsEe0NtRvrCaDM0W2EeEzmU5aZPDNgNUVmAGIcaeRhBwWuBrPgi7kQ=s220",
+        "view": "https://drive.google.com/file/d/1CC607kprb726CVXxgh2eKNeXMYY_rXmV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhosRmPtEMfb2AinH_2kBSYiJdOk6y6Kxxm5lVBXuulG3LZJrkY4ZKtWOQdAA6erw25q9izLVF8Pa-aHWg2gf-gEMq_jpIcL2fm8C2N_aFS8d-og=s220",
+        "view": "https://drive.google.com/file/d/1J2jy8ji_uFgvj2I-mbYjG_bLOwwXGHVY/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350140 - 24/4/2026 (LEGACY)\n  → 350140_inicial ❌\n  → 350140_caja ❌\n  → 350140_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350140 - 24/4/2026 (9 FOTOS)\n  → 350140_inicial ✅\n  → 350140_folio ✅\n  → 350140_corte ✅\n  → 350140_demolicion ✅\n  → 350140_caja ✅\n  → 350140_liga ✅\n  → 350140_mezcla ✅\n  → 350140_terminado ✅\n  → 350140_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350141",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "GRAL. JOSE VICENTE VILLADA",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1rdYzPIm8qGAiNxWfbi-sBT09QTau7ryu",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPT1EJusUSIVP3y1QScs-pLcC7fmQOKqx3bWrbnb_OmrbVrNjRPqyIFi8UvI8Isy5rScZXCOTomq1nsCHuz36OhK9pC9uQhvDZ_Ilh4-djpe_voTA8=s220",
+        "view": "https://drive.google.com/file/d/1quBOqCtDA3w75Nl0cseON3iyKEr2c7F2/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMS6L0OhSMUQawq3n6krd5M8AVhHTlWyeBlQCiqZsrYtEzN8Jon0oWLnZ2LLQFDKWyF13Z14Fy6z9bnjYXY9BXhqDIYiwd7MUqc498PgPBhtlJWLrM=s220",
+        "view": "https://drive.google.com/file/d/11U96OFQuH2acAXv6bRnn7tjeLFr6dAPz/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhFJYnJyB5aYMVC7On1nIBCbnMLCYXkXgbY8SqLo08Rs3O10C9ammThQ4v8eTRa98_c462aVkwDg3G33X4F8xvSno3mBOcvxrXZoV07GRxJVr24xc=s220",
+        "view": "https://drive.google.com/file/d/1wZPqDjktt8ba7VLc503OzTf0dFoi4-M3/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPL5cotYlTIGcAge_qLibrW5ATvF2u5R68kKUdvUGMHkgLmn8kMBONYfCjjvQvTzJH4_k4HGqCnaQTXpcIO6uqMGmCooYDBIHrdfS3xX4ukxAjCW1c=s220",
+        "view": "https://drive.google.com/file/d/1dbxQvHHXGwan2e0K8253x5VmCwk_42Yp/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONrKIif0-W0d4xCrqm1Zbr4P2MH5qOu5SGUsiic6cDqZE0Hq5FEOoIEM5Q6Ep68uvcvvjQN60tibuXqNJ2b683rP075fprKz1PXj3l9wAsqAI2LJM=s220",
+        "view": "https://drive.google.com/file/d/1HB8Oare4l3Ci0F0aPg3nRrQTLuqOmjjQ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIeUkO88QekC9Sxl6SSudNfrX4OimOiyIrYgwoKARuDxViMCm8aC26ZTXh-R0Q9QyR6fT2GLPU7z8s8VUKJHb89HuGSTYCpcxcHRdQxNhH4ITo4oA=s220",
+        "view": "https://drive.google.com/file/d/1p8jTfSyrEzdgv4i-YLRs3QF0GOvbSvnh/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIjE7Drzq5rb76ejqMWGmAdLLkIK-cTOF4yxIy_abAj1gty0QqvRKsQ-dyA1f2z4l9u5E8Lg9hmm3-W9dH44P072Ic5Xzs06JGdv8oEPeDuwiYXVc=s220",
+        "view": "https://drive.google.com/file/d/1w08MccGlKcUmg_80ZFEAaY30csNN719-/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwvmAs_kklgnHoXRF1-jsv3KxDvCsW-_AZWtyI832ejK_S_BMoq3fk_rup5hG2cYWyy1gssPkWgn18422DhBE2TkKPKnSapoJ7APIw0wq0V7C_zBQ=s220",
+        "view": "https://drive.google.com/file/d/1GhWNpE8HwETpnvZI2PxbWk7GQ6ekuTSm/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONYts-vK3bqhum4W3-FLSbXY9kVMB7qE-MdildPxrOS5lhTqJlHK5wKuw5hBgfKmQoVHHt35ISpO_7WVv1ESvWBgLDd2UpQEe0l4F4Z4pdoMIEwxM=s220",
+        "view": "https://drive.google.com/file/d/1MEmX4c3OCB3rZTSKTAECUBQfGYfLMQsM/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350141 - 24/4/2026 (LEGACY)\n  → 350141_inicial ❌\n  → 350141_caja ❌\n  → 350141_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350141 - 24/4/2026 (9 FOTOS)\n  → 350141_inicial ✅\n  → 350141_folio ✅\n  → 350141_corte ✅\n  → 350141_demolicion ✅\n  → 350141_caja ✅\n  → 350141_liga ✅\n  → 350141_mezcla ✅\n  → 350141_terminado ✅\n  → 350141_limpieza ✅",
     "_faltanNEO": []
   },
   {
@@ -5190,45 +6462,116 @@
   {
     "FOLIO": "350143",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1UGUgBsfla9MvMJHRKnCRRbZrzTpI-_ZK",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEiNxNW1QfNpQt7kK8AEmlFaN807PjB8nxpvcQ-og2W4G8e6MgGJAqOXJD_4fojQelf7KxY4Fibk0aV0NUXwJNZzLc0sKCEWSGUik9zSzM1vMB7Q=s220",
+        "view": "https://drive.google.com/file/d/1cZgqo7XBRLyRdEEzFJtTT7to2FClTZlA/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFB4aTYg7Gphbxu6nUJyOGhNWjKUH0tiei_3g1Jk0vU7x2QvD4GGcppk40kpU9Nxn5ACB5qz9spMyyNCFpfh2VQIW_qjuau4fPlJsvC09ZQ48Ejg=s220",
+        "view": "https://drive.google.com/file/d/1GWZWG9W-tO9O9f3WFLhpKUkcFqv8mQn1/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpeR_KO9gbdasrmbEHvt9w4jcAZxl-OL9204a2oB6eeztstH2YRTPnZQEFYhs-QodWFCxpx1MIaViOE77iVXZm0tZM6xQyqDKDfr__3nh-UCD6pA=s220",
+        "view": "https://drive.google.com/file/d/1-Mar7p3FqQDtwycd__m3FWOFfOq-m6eZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoTEFJj0e8yYOewhzf89h9b9Al4iVN2R8RItYB6cinCeYmVqp5LpeamE6GucqMdsm_v2ieNbDLutBB_9JpGEOCbCCM4XDGwmKAxcmEOpLJlXKVUOg=s220",
+        "view": "https://drive.google.com/file/d/1ekdJnhZnT9i29s0QgXzAqRv1IpwNm8Og/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY0pwQJco6dGp6sSappwl4Ccum3M12xHtBzGFKIW9QyuIM0amSGvCMOlI8xGwaGWwYo6ZC_t15jcTpTqLwVduwsCdJNKszJRYey4_tJpTkZm2Y2g=s220",
+        "view": "https://drive.google.com/file/d/1oazJnLxN0IPjSjBfr9vxhd7JGXhQx63E/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaJI02mxMNdq4aJ0xn8SUe-yOxbyYTWds9saBSvplAhe-RxJvhqaDH6ViFsg7jzcE_NvgZ-gGd9O6conyfKon9fMpyMmT6H2QurFS781uqE4QbukU=s220",
+        "view": "https://drive.google.com/file/d/14POttXcZ_eVgSDth5kWPqdOc0b2_omyY/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtk1bd5CYfBbR611yqZiKjFHDDKQmomuKP8po39Pa4TRT9gTTK3SDzNIirxCtr6-vzhb5N0mmDKftrj6pZFZoXap1E-_ufJQRQcxMyi6Ui5hm2lOI=s220",
+        "view": "https://drive.google.com/file/d/1m0qUBXMNCHf3G6pZr_ZtI6mtzizhRtlq/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350143 - 24/4/2026 (LEGACY)\n  → 350143_inicial ❌\n  → 350143_caja ❌\n  → 350143_terminado ❌",
-    "_faltanNEO": []
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350143 - 24/4/2026 (9 FOTOS)\n  → 350143_inicial ✅\n  → 350143_folio ✅\n  → 350143_corte ✅\n  → 350143_demolicion ✅\n  → 350143_caja ✅\n  → 350143_liga ✅\n  → 350143_mezcla ❌\n  → 350143_terminado ❌\n  → 350143_limpieza ✅",
+    "_faltanNEO": [
+      "MEZCLA",
+      "TERMINADO"
+    ]
   },
   {
     "FOLIO": "350144",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. MIGUEL HIDALGO OTE",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1HmIcxmdD2q200y8MesraYZVjn_x9a63r",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAO9Y_e3zEPCVJDRyv4ElyjoB7ub6GQ1S_PvNm-RPPJTG0b2k7hSPXZtYCSEbqtykHYI7G7i8LqvfaLI1QRufwctTfytSD5_vBXdQ-3APKoWvO8g=s220",
+        "view": "https://drive.google.com/file/d/1-7wMqb7dCbA95ZTlJtR5_Fx1Svu_e_HE/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQEQsdaz-cKPwm_IbOyNB6xYigqbgwQtDLpRxId-RUfLING6APavtgYfw0cD0bQRaIS1GN0L47iyzJ5v5rHUSpNi748QZMSqa_TjQw5cXubWR0cBU=s220",
+        "view": "https://drive.google.com/file/d/1hCTJe_9PHczLKlCODIRR1WLSRzAXsa01/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP38tqK4UteZC4gzP0-XI-V27cXIuFendOcHUl3KvBUc27cwidC-pJMI5WqIo12VZaM-HFIwpvVfMMJF-cVb7a8rlPLKUTf2PgNtasifd0HGUeszV8=s220",
+        "view": "https://drive.google.com/file/d/1BBF5IxZz91OVgQYqWGcfoZzPdSaJeEDo/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOX48BkwGJJnh4IO1-BvYoLHk8rBJNlkf9V8J1AbrzV_0V7wEdw9Z5BxsUHRphgS4tjpiI_vysOaSxMUgGZC6K1DeKPBYgo-Dg4kE1DwVJVloVHLSU=s220",
+        "view": "https://drive.google.com/file/d/1kVsccLDOMUm3CjkzTGoCU-RoAUQ5SzY9/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2qbrHOXRIjsLILgJv8FJwgWz1XHDuytx3Hl0AuZSBygHLykso6AICtj9zfDZfcK-OwytEcU05db_XGbHDVUKYy1c1jQ3kc8zwr_dUxpAx9UEq0rk=s220",
+        "view": "https://drive.google.com/file/d/1MSbv_jBuu8izEzl7bu4edblaSDt07t7q/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9C70R54N8-x5wsd_Qrc4hRLmvHMjkGRCsERCexDLgnORx0SN6lfYEH2lpxmS_c7cX85hP4EvT5S8YBCajvE7PHZxuyV9F94LJ9J4x7UkYxWGRLXA=s220",
+        "view": "https://drive.google.com/file/d/1CWXRVFClzU2kxq2v3cIA0R27Gqp40eh3/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPSRrNioRWvcQahmXXZ2Zz4dLWb0dGv7NvfkL4FRLyB3Dr3xUoYN2v6ILRtwQNPP5O7kWv6ooJUoKQB8VvK2Syv16R2IfO4oaRSfHv1xQSuype_2o=s220",
+        "view": "https://drive.google.com/file/d/1fB-BamceD_OuH5rFbhIeYqjlB6VtbzUi/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR6EsY8Qy3OPy0SnIOUK-Xmt8J9GFncBikj96RHthji3YWFzPMtHaWg_TEdfPtizgHITpg7BApwapizjcucQuTAQBYToIW85xSBD_bMHOqdqpY3R8=s220",
+        "view": "https://drive.google.com/file/d/1b9cRkUfHQEBDIl7zBcOHml-cCjK1wKQS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIflNhz9J-3Hftl2p1xq7B55PSDkS8QTXjIHAwqkVZjdDpVdc6PnSO0B8RInPn7oJvsJskbmzRVhJRjQECGPYkw_cXLuvlZwWflrlFlt0--Ijhh1g=s220",
+        "view": "https://drive.google.com/file/d/1zzALUK8grhUmdgzJIrjpnc2s3N11dLsY/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350144 - 24/4/2026 (LEGACY)\n  → 350144_inicial ❌\n  → 350144_caja ❌\n  → 350144_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350144 - 24/4/2026 (9 FOTOS)\n  → 350144_inicial ✅\n  → 350144_folio ✅\n  → 350144_corte ✅\n  → 350144_demolicion ✅\n  → 350144_caja ✅\n  → 350144_liga ✅\n  → 350144_mezcla ✅\n  → 350144_terminado ✅\n  → 350144_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "350145",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "J.MA. MORELOS Y PAVÒN",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1i0lym2aLLTOQiXS7OdYVcPcghQspZxMq",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -5238,13 +6581,13 @@
   {
     "FOLIO": "350146",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "J.MA. MORELOS Y PAVÒN",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
+    "_folderId": "1QHpRnPiLnz77JaKZ36LKuXd2rYZoZAao",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
@@ -5307,17 +6650,54 @@
   {
     "FOLIO": "350148",
     "FECHA": "24/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "J.MA. MORELOS Y PAVÒN",
     "COLONIA": "SANTA ANA",
     "DELEGACION": "SANTA ANA TLAPALTITLAN",
     "_company": "AZTLAN",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1HjvZ8FJ6jyTvU1VztrUGGRRkYQNS7QD3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHgzcGzdSZKOYV-ogANt2IzoAhsmMwp-xo-0778dXSwTs0ZZMA5LWSY2lxYGy9-EsfDl_r4xcwQQ6blkhmeo44Tkmki4qZI5FI3qmvDxNxpPsrtZg=s220",
+        "view": "https://drive.google.com/file/d/1nvAhfDNLDEzMmadczsTM1wRGkii6fwUp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjEx0e3ZdyWq1ZfqS4l2TgI7gED6PuTB71wm-JG-gE0cvaknio8G2zfHLCw18QDcGNmPdawWp9cS4BFfxhjw_srR986nemgNmMJUlWxHbh9xSuugs=s220",
+        "view": "https://drive.google.com/file/d/1Z0VGo4bJo06RwCXp-S_uzAUHTKVB3VdW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyxT3qnzkt0ozy700caQuUJwatx77k1RqU9Eu5KYIN620zWHAxE09M8efBHBCnN2xo1v0JE1KWFe7AJEOiRc7CJZTe8RBMkSHzEGTT4r9u5FmKnh0=s220",
+        "view": "https://drive.google.com/file/d/1lqIYgyLHxY7ED3b_nzycpbsQItGOX7hl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpenLOGRKpVnC_z12zgJEGrgjburBfpGBkY8M_3xy1RA3xHQ9DvHGhlbEMupIutFhAUTZcHINyu-l4cQ5_oMOweR11dZTXhdnp7_vfQI6NS-_KzMI=s220",
+        "view": "https://drive.google.com/file/d/1UfPIL4R8hHXVC1h2YYvkf-KvaZgRkDt4/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCDjpYziptDaw63WbPiXJurZijkXL9eZoEFRNU7yUOVwTK6Fk50uqcM767BoMIqTWPiYDMBUUS9hoRb6hvHfED3cpR5Jbf3B60hx05D0ES84ykWaQ=s220",
+        "view": "https://drive.google.com/file/d/1vP0NmCR9LTu8pnnE8qWPZMY-1ujYu7um/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMes4YeyPRKlUR82G65WhU_hCjR05-ot9aMH5ifGWodPOCwSktlS_FcB2_HvDKpNWNEOecs-JFK7RYn8s5OUqSieVoaNX-oEiXnmJhi1OqvEF7mNsU=s220",
+        "view": "https://drive.google.com/file/d/143TKJMGxjr8ZUf93fc7pF_gmWKOjjyL8/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZ-Tgb4HKo4hs70zmk6wUr93cwPk5nNGW4dMZLoH7boza4WPL_XIEsGcqcxPbTRyZvYQqCAdim7sIBc4zcmvjmYtvODxR7VGt3NW1Rz5hNrx8DkWU=s220",
+        "view": "https://drive.google.com/file/d/1Q-jysS5pPKi9P7k-bdrKEb03AFEk8wbW/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNozpfk5t7aZCDKLMbPJ39Ic_zjFw_OCFOjjlkEjOCfRzXzjxMCq9vb1xpHssogbM4VWAxQnUFgkxKJND3jj4-a-_dBBwHyDv7J5SNmR9V51CVetQw=s220",
+        "view": "https://drive.google.com/file/d/1TCsJm0i9CT1GuvJSQv4T7whCEarmAyVa/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1c0A-Q43Tc66sGOQu1UrZnhnkkruYUHx5rmB03hKnR80bRan0WobZJA8oHOXQU3F9aycf-6y8GUz2WdX-wii9BGgqR6HoJDTKKl3vweQJ3vWi-JY=s220",
+        "view": "https://drive.google.com/file/d/1y1RcUeK01cDfNUzxTQ3Gm4KLiNtzs0Td/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 350148 - 24/4/2026 (LEGACY)\n  → 350148_inicial ❌\n  → 350148_caja ❌\n  → 350148_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 350148 - 24/4/2026 (9 FOTOS)\n  → 350148_inicial ✅\n  → 350148_folio ✅\n  → 350148_corte ✅\n  → 350148_demolicion ✅\n  → 350148_caja ✅\n  → 350148_liga ✅\n  → 350148_mezcla ✅\n  → 350148_terminado ✅\n  → 350148_limpieza ✅",
     "_faltanNEO": []
   }
 ]
