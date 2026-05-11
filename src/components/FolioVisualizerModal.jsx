@@ -434,7 +434,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         "soranodex@gmail.com",
         "terceraetapabacheo@gmail.com"
     ];
-    const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
+    const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.some(email => 
+        email.toLowerCase() === userProfile.email.toLowerCase()
+    );
 
     const fetchUserProfile = async (token) => {
         try {
