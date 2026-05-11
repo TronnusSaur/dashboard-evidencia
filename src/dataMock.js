@@ -13,11 +13,11 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 336,
-  "OK": 63352,
+  "OK": 63511,
   "FALTA: CAJA + TERMINADO": 1786,
   "CARPETA VACÍA": 439,
-  "SIN CARPETA": 920,
-  "FALTA: CAJA": 412,
+  "SIN CARPETA": 760,
+  "FALTA: CAJA": 413,
   "FALTA: INICIAL + CAJA + TERMINADO": 338,
   "FALTA: TERMINADO": 538,
   "FALTA: INICIAL + CAJA": 56,
@@ -1497,7 +1497,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3",
     "TOTAL_OMISIONES": 189,
@@ -1549,12 +1549,12 @@ export const RESUMEN_DATA = [
     "ID": "6",
     "_stage": "E3",
     "TOTAL_OMISIONES": 601,
-    "OK": 419,
+    "OK": 578,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 180,
-    "FALTA: CAJA": 0,
+    "SIN CARPETA": 20,
+    "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 2,
     "FALTA: INICIAL + CAJA": 0,
@@ -2265,7 +2265,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 189,
@@ -3081,7 +3081,8 @@ export const FILTERS_MAP = {
   "ROCADURA": [
     "7",
     "57",
-    "81"
+    "81",
+    "3"
   ],
   "SAQEB": [
     "54",
@@ -3123,9 +3124,6 @@ export const FILTERS_MAP = {
     "62",
     "63",
     "64"
-  ],
-  "ROCADURA ": [
-    "3"
   ],
   "ICI": [
     "4",
