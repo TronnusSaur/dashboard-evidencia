@@ -38,7 +38,8 @@ const STAGES_CONFIG = [
         name: '3 - ETAPA 3 MASTER', // Misma hoja de cálculo
         driveId: '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6', // Raíz de Supervisores
         sheetId: process.env.DOCUMENT_ID_SHEETS_E3 || '1u-JWLmWk_3YP1Hu3O407j_XJq7p8Rq-MEihzBQjd-IU',
-        driveType: 'SUPERVISOR'
+        driveType: 'SUPERVISOR',
+        uploadEmail: 'terceraetapabacheo@gmail.com'
     }
 ];
 
@@ -367,7 +368,11 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
 
     const headers = rows[0].map(h => h.trim().toUpperCase());
     const df = rows.slice(1).map(row => {
-        const obj = { _stage: config.id, _driveType: config.driveType };
+        const obj = { 
+            _stage: config.id, 
+            _driveType: config.driveType, 
+            _uploadEmail: config.uploadEmail || null 
+        };
         headers.forEach((h, i) => obj[h] = row[i] || "");
         return obj;
     });
@@ -551,7 +556,8 @@ async function main() {
                 EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
                 _isNewSet: r._isNewSet || false,
                 _auditDetail: finalAuditDetail,
-                _faltanNEO: r.faltanEnSetCompleto || []
+                _faltanNEO: r.faltanEnSetCompleto || [],
+                _uploadEmail: r._uploadEmail
             });
         });
 

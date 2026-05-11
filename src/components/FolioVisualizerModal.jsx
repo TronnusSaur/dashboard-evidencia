@@ -427,7 +427,13 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
     }, [FOLIO, _isNewSet, driveMode]);
 
-    const AUTHORIZED_EDITORS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com", "soranodex@gmail.com"];
+    const AUTHORIZED_EDITORS = [
+        "dgopbacheot@gmail.com", 
+        "juanpablobumblebee@gmail.com", 
+        "soranoautodgop@gmail.com", 
+        "soranodex@gmail.com",
+        "terceraetapabacheo@gmail.com"
+    ];
     const isAuthorizedEditor = userProfile && AUTHORIZED_EDITORS.includes(userProfile.email);
 
     const fetchUserProfile = async (token) => {
@@ -858,6 +864,22 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 <span className="material-symbols-outlined text-[16px]">location_on</span>
                                 {CALLE || 'Calle No Especificada'}, {COLONIA || 'Colonia No Especificada'}
                             </p>
+
+                            {/* Banner de Cuenta de Subida (Supervisores) */}
+                            {folioData?._uploadEmail && (
+                                <div className="mt-3 flex items-center gap-2.5 px-3 py-2 bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-xl">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-800 flex items-center justify-center text-indigo-600 dark:text-indigo-400">
+                                        <FileIcon size={16} />
+                                    </div>
+                                    <div>
+                                        <p className="text-[10px] font-black text-indigo-700 dark:text-indigo-400 uppercase tracking-wider leading-none mb-1">Cuenta oficial de subida</p>
+                                        <p className="text-xs font-bold text-indigo-600 dark:text-indigo-300 flex items-center gap-1.5">
+                                            {folioData._uploadEmail}
+                                            <span className="px-1.5 py-0.5 bg-indigo-200 dark:bg-indigo-700 text-[9px] rounded font-black text-indigo-800 dark:text-indigo-200">SUPERVISORES</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                         
                         <div className="flex items-center gap-4">
