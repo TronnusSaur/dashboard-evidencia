@@ -5714,401 +5714,1325 @@
   {
     "FOLIO": "450141",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1PcScbDHy8LPqeyy9Qy_pJne9AM7S9vhF",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7lTfzhHeXJYvrOmp3ILazmi8QwkBUxKUw0M4B_55vpsLi3ymHtxs6ZVd-l9CRL-he-BUOnQNMol1c9FrW0qqBE_7FUZXopEAmsjSuGs2XsuMdQCI=s220",
+        "view": "https://drive.google.com/file/d/1KFcVczrj1TutiNtIw7s3mgNc5genmFBn/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONGFQt-YLkKCHdeGG1HywG5TPHbFHh-cw3bVP3_iZDPvGBje9818rnLYKJ6wpBtyrECGS-pM1PULn5iZPDyeuPFrtxhPyXEeu_lFDW-jcOizZe-Lk=s220",
+        "view": "https://drive.google.com/file/d/10-xxv5YbrU4WGHqcWBa-Zpra2kkqs-Ec/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVcbCg0O9CQ7wzmaZ4-Y3ODV7x9zUC4_9gMwvo3jdaPdioUtl5JMSu7uoqQ02J3tr4LpNUUcOIBbbQUFX9cRdGHPUce2Ph6Xa2hYOLwuPtTGcML-8=s220",
+        "view": "https://drive.google.com/file/d/1qYxetNQ8bkbux3B1iT6cR4sY3xVbN3-q/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPla6O5XY0cDF6MkUlhdJyo6mIfYypdkh4xdhLymlSiswpxgu1rL3quoaPoGvmLBcOmxHCFj87GfXvE3Cn5XCU3WVTxmvuVBLCU5VgEN8DsKqSzqaw=s220",
+        "view": "https://drive.google.com/file/d/1Pl8k7f8eA_qLsbEIAPs1w3c9Y3mQWl4d/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUhfP_adHwWIrmjSnX4u8SijH_b8K_30QgYqIuLK_2xOW6O5Y_VBFozQni6y_gIgoVfGhOjxTeBewkPvDN4hZFxRAzdnGz7OyGWqCnAOy0ey-6ifU=s220",
+        "view": "https://drive.google.com/file/d/1Ol0Pj6sYZffWbepQ-0Y2iMtPzyBy_hxK/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeKTa5rt2X6ZXdLYPwjZZwT3Yi_MJgnmmr6ld9l_Xa8tlouCGKmjFvBLLTurvGcXpA8ss47NCgNIqgTLZz9g-qDIzgXh9bEwvtrclnOrb0YT15Oi8=s220",
+        "view": "https://drive.google.com/file/d/1ddafQ_9mIENHz3zXUCZkW13uu1jWSWWL/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOmlosYoAT3UQtWMe_jfCcBQCRfO3UVCWIyNPAY5qKBZjZ_6j78IkwE9lUBgUIsCPg-FSbL60Y25ozcHr71kTyU8bfcTkWhYhlo8G5psLtz77latw=s220",
+        "view": "https://drive.google.com/file/d/1neCoTAOSAsirR75367A2W4MPYMLv97JG/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcpCMetTwIGorjEFvx5n3_AwmIWbJc7JjcitxzAB9d8IiqgBH24NkzKsDTxZhw2wFVxerJ3J5_PoPUn8ESQcBQY1wt6Cljld42Li1onVSK_O2FB-4=s220",
+        "view": "https://drive.google.com/file/d/1BoTosZ01HDLZbM97usLM1ck-Yusjp_Ho/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOue5sv0iK5wcK9WQXLOKZC-aLPbRx20XlNIxbOR4UoOf3dK5GbrAQ5d85T_1QDUS7A65kWr7aKvN2m30jpF7v4101K6W89zocjwj9xAd9R86SB-XY=s220",
+        "view": "https://drive.google.com/file/d/1CTwybHVObuDDMWwGv88kiMrudR9p7HMt/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450141 - 28/4/2026 (LEGACY)\n  → 450141_inicial ❌\n  → 450141_caja ❌\n  → 450141_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450141 - 28/4/2026 (9 FOTOS)\n  → 450141_inicial ✅\n  → 450141_folio ✅\n  → 450141_corte ✅\n  → 450141_demolicion ✅\n  → 450141_caja ✅\n  → 450141_liga ✅\n  → 450141_mezcla ✅\n  → 450141_terminado ✅\n  → 450141_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450142",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1yptEvmY3_jaq5lANkc_RHgSbwrCqZCV6",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTJdvUKxQa9yJ9CsxAho21fKCUEOWNSjEFsF3zYTgNAlim73JjoiOzhqfku0DB20qlNOuHeD_WxbYSTvMctlLE_v84San99O9eogA3JdwY8WzDRnE=s220",
+        "view": "https://drive.google.com/file/d/1Uyt-AuMaHxwcdRUay6R4QzTdDu2ttWLg/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmRotYw7RmYeo80RXIA-ZEXXeffVtvKwS_AiTXezBrLzSjsEOL_n8Hsi5gii4T6WgsMwl2ZY5jPu6fai55uekTP9x8O9LSAI7SNmo5LaGMUKlTPW8=s220",
+        "view": "https://drive.google.com/file/d/19nmIEzKwD0SpGUuORKON_rKavRIC9Hkt/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMS86awpWYHjtTnfpx7GRjE2h1aFzK5WllUx8HdA8ltjqhWcEhOafdVcDjASKYvDN49teZY1EE0HVRIUpqj5C8vOd3rxjX4ho1fHPNrjiWBMfs99M=s220",
+        "view": "https://drive.google.com/file/d/12nUsxID9QX5xL_9A3FMfVVhy4Vg2Oqeo/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOU_8dMqvuq1RDUnKV2kfhALVsPE2pQ8fPFqDuapXUX8MKvp8YuAOO4CnWCJDQbGerE9YS9Ym6voBitffjPn2I1Iuvu46aXjo8JD88Thj9QHM6ZD5A=s220",
+        "view": "https://drive.google.com/file/d/1MrD78hExCIj_6HlxSAzxH1oKkDwHbkLW/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4CWqqk00g88qlCNXxWVJmuzFqA3r-s06E6X2fmDNrDQetC1kWEXLpGRmAdzYl56ufNQnfwsyIvBuADyFcNqzb8ah-xNMrfjuLklS4zcqt_Jay2-Q=s220",
+        "view": "https://drive.google.com/file/d/1X1dFJrRLTmMrMkDiQeCOpcgNbNKxs8GW/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQGPu80ooSteoNyCI5HB6APVY9ODETp5IvfJL1BBCHZ4SXEhWYeZu8yN4MRNgrwJoN6PGTeo3RfoHEb4UsCF-CsIlO-iUQ62O6n_XHcj9zK_BL2ss=s220",
+        "view": "https://drive.google.com/file/d/1uJRwOU1HnxIlOMzqRk9cm9T05oLGtVMv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr-jHl5SpCqV2NmPfLHvaUXwA7DjMVhIlrFZfCGS4jold-onlI0DUrDj2RwEU2WU8iSDKLPss6jPEkirzv6Z76nqFgYUZK4PJNldweocUc8PZ8PAA=s220",
+        "view": "https://drive.google.com/file/d/1RVUqBXnaxSmvKsU4ZEytbEz6ZJZY9WHb/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMofs8QvH3lbZUSm5Rj9D7WG2UMvHjVc_RQDzNvY3F-M-Vdwj9oElbIVXp9_rbnm4fL2-XD50pLses_SblzkWAg9p97M8Z-ZohZQozONSoccseKriU=s220",
+        "view": "https://drive.google.com/file/d/1ECRdlwxXpIhWhndZ1XoTXLyFFJSX-NGn/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMj8SxYIKA7iO3BEOp-lQE6bNPE3dY1pyYx9qy4hFV6YbSyzRL3x8RjJEhF1fnMRNEbdoRGNRAhBn6_0VCOGgd2g8mDCSXg0H9598Pft0urJ0wuIcY=s220",
+        "view": "https://drive.google.com/file/d/1HmLYPb_ugV40h2UId3S1IbkIxHA_IzvE/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450142 - 28/4/2026 (LEGACY)\n  → 450142_inicial ❌\n  → 450142_caja ❌\n  → 450142_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450142 - 28/4/2026 (9 FOTOS)\n  → 450142_inicial ✅\n  → 450142_folio ✅\n  → 450142_corte ✅\n  → 450142_demolicion ✅\n  → 450142_caja ✅\n  → 450142_liga ✅\n  → 450142_mezcla ✅\n  → 450142_terminado ✅\n  → 450142_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450143",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "152niqHhh5PTgdLIrYOfaN7si5zUGgHYE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqihREQuj0GieHs0PaKzw3J0K4l6JPTLLXKq1204lKGYzSOEUO95psrNKcMZC3QyaUCZhogVw1xrljY2Ost6OAiji5dRiUPyMfH8RABsrJp9YmAxo=s220",
+        "view": "https://drive.google.com/file/d/1SNHZkyJMKHJKh1CM5_CeFbQ-aEgZuc_F/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMC-pmRrvU-IAmATGTUSjHm5bWykGe6b9pp7-LXjqCU0BTvAB_p-2eiL62B6Vl_AkALLuA5d2pHvcLUgnFkw8GJ_GfBg48-tVu_s_gW5MmPW3OsOm8=s220",
+        "view": "https://drive.google.com/file/d/1Mtm-okTAEPjb9DagT0T0ytTvOGMoHFOb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqmLpfjXxm3BsGoA4IJTp4arinBnzMhg1Kefc8hDQwRhi4Q_OOqhE2A3Uz7Y7a7-IiZgMjmLHo7om_CdjILlfCfPskZf4DzQjujZXAGqzBbAuldso=s220",
+        "view": "https://drive.google.com/file/d/1Rmaye0r1q4u574vxHT0eVpZKIsGzNfOE/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkUsdt7Lxrdq1b4urdh8hfkQ0S-Tegr4UzMzuyUJTzWDYVIiQudtuS2umHVZtdj2HVjLkfxRueapERnt9FZtFvt6D9VX_J2LeNasAWbed-on84T8U=s220",
+        "view": "https://drive.google.com/file/d/19VT8iw_MiRhUiH1r0aGx9ZjcNMRzGNsC/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLBi9JSTtdLUFzmgAqCwukVCP1h3YrBtBUF5oBGCJ3avl65ZBik6pmStKLzg1pprqzpVyamaJn5VJ4Curw3y_eZU8avD4gu0SpxeaqqNIPjtWf0Lo=s220",
+        "view": "https://drive.google.com/file/d/1nwsQpvIzmm179tUaXQZ0ofwrLTim4Bds/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORbX-Is69ZNlldTqijtspUboAEH8RH3xTYT86pyuHEUT_44JM8nal14RxLSmXLR_OHNYRSucEe_I65hAWqTwnrsO_bdqp8nA3ezxsvUo_em7TPvs8=s220",
+        "view": "https://drive.google.com/file/d/1N5a3a_gGuhOItH3twXgAPBpNkMISECgJ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoLDd6b1tqjlzTuIrVLvnb8pGada1PbnuLLHhwACgFdOFOKAzI6WpViNA4n_yn3TddPP1Ec_tONrtpw5-X1WrpoHvBWdjCfrlcuPCB4xSUBmehTmI=s220",
+        "view": "https://drive.google.com/file/d/14_fcLXb4LFvTRD2JlTxHyTgTF9Ldx8fQ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlkTwwheeid1mlg83QWpRlUGy44CgdpgWqq7TnxEfWtFrLdFRS5jAca0omo-H57FSjvJ4QAJi6ZdCJ4SKaAt_p69FDWt9H1-PI6Bx_mWiahpAcimM=s220",
+        "view": "https://drive.google.com/file/d/16osOx1st6o2rbJiM6Prh8Zlf5sgVLgKy/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWfU6XaBe9ErsnSBz7rSrML0cs1s9cJbQWcAHAsyATDyTrm0TFXd48W7Y6yAhCs156f88gd-692iE_hPxOGZjYkShT-AF1pTIe0VuSFlS9ErVpFM8=s220",
+        "view": "https://drive.google.com/file/d/1YOyPwfHIP6y6FKGJjjuqmhYprHJI2Iba/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450143 - 28/4/2026 (LEGACY)\n  → 450143_inicial ❌\n  → 450143_caja ❌\n  → 450143_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450143 - 28/4/2026 (9 FOTOS)\n  → 450143_inicial ✅\n  → 450143_folio ✅\n  → 450143_corte ✅\n  → 450143_demolicion ✅\n  → 450143_caja ✅\n  → 450143_liga ✅\n  → 450143_mezcla ✅\n  → 450143_terminado ✅\n  → 450143_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450144",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1F2avb9OgHsJQU1BinEJ_3TrApIr2alXw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfg8gfgEQFYZ6neQhShATuTSw_VpRonlwOeqkfnmtZeA87P4UkrTI946k2PG-ahBbjQ_GFoUQ9c1nKZf462MqpX5Jtau5OsOvo7IeHUtzPK4MHdFw=s220",
+        "view": "https://drive.google.com/file/d/1Ur8xBJ7umUkfCs56o4Eyc8Y8NsI7Cn8Y/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN471xsbQSVEkBoANDC9tnLdW5UgaCI4t3XmeqIFihwHOkLpj1gX_U8LMYGUZ8D8SkvFZeAQ8ypg2eiRzgAjSLGm38U14QkRToRUVJnktwCO1G652s=s220",
+        "view": "https://drive.google.com/file/d/1UcJSfTrP4LVpsq85SY11J91PJaSLdRcs/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOr9nG7sw-8VCnLNAfQuNftjgSD9CnI8vaOyAgl-NovT5db-JxPIfsCUIjRg5rfRRRblr5mNdOrz1HUAZxp_RNvJphgilqZx_BcBCarapMvYkMM1eA=s220",
+        "view": "https://drive.google.com/file/d/1uufzXnUJdm2gmp0cw85dr8rkdth1mhEd/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-6Yfj8qXgZlwbm3UpX4ADnkZifI2zbXGEb3oqK9f8E-nwCwlTERr3TQYwhFEx6AjwMvKklDUOVLGDThU5OukefEA5eVcOo7Ml4DqsvfO0sGkCQFU=s220",
+        "view": "https://drive.google.com/file/d/1Ioqu7AT9w39moGr2eorbpWq4JZeK9G8B/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeAxzJ_6xPc5yuoKQr0Wg40ccu-YdUx2Xfr9ia0CEGODJ5J7wIL0ILy3KsvW1esHr0pQDVggXtwFUSaWKWGPvkhzB3o-c0HopOfANs56_zMpBamxY=s220",
+        "view": "https://drive.google.com/file/d/1piuLyRQAbZc5ND3vwWIRtnpWlkLLv4dA/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPU_DXudxMGtcKfjfYojxi8FG4gTHAhpttgzak4IbGu_iSPisQYrh_loYocOALmxYJz6eBJgc4MroutSALqrPEtdHmfmU101fS01c31hmyOR7VuGfw=s220",
+        "view": "https://drive.google.com/file/d/1PMADFt248wp0oEzRgZNWMdjZsZ0MttyZ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIGZK64WVuVtRh-NwkDfirK4Ho_J_kdWKAzKEuB8ekLEyxmM7YZsL4sdvZ151Wnf_H12Msp41GBNSG6S0LG6bKpN9_Jich4dEJDLlINzHRmmCw59U=s220",
+        "view": "https://drive.google.com/file/d/1AIo-cGkiAGtcd2oCIU3j2Sp7MGKGWgqr/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjyGy5DZ_i_k9_KeusVtIwcKdAEFO0bRnN-VE0jNyfIOdAoNYWLeq5fMvmb0u2MYeMQ5635SHqbkoJhlS_deZZsaOXV4DP0mkxsck2PlK4c4XxMts=s220",
+        "view": "https://drive.google.com/file/d/1sKRcEeyebSUwB8Ffc_uDhbJty6Nl_SVR/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTOocZ1vwwNYJR8I7akZFZ1X87lPeXu4IfNtEJBYRrreJoZp7rSGeDyONUAzhcyVhfqVQyHbTioQuZqvMDFIRxTVC5CksoetCMvwZOMGnP7T3S9W0=s220",
+        "view": "https://drive.google.com/file/d/1Yah0CNBck66Ky_JveerjMJOlALOR8BPS/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450144 - 28/4/2026 (LEGACY)\n  → 450144_inicial ❌\n  → 450144_caja ❌\n  → 450144_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450144 - 28/4/2026 (9 FOTOS)\n  → 450144_inicial ✅\n  → 450144_folio ✅\n  → 450144_corte ✅\n  → 450144_demolicion ✅\n  → 450144_caja ✅\n  → 450144_liga ✅\n  → 450144_mezcla ✅\n  → 450144_terminado ✅\n  → 450144_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450145",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1XbX-V4kguE8ARfOFkxlm6NH5lgNMIWxs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPB0u8cr5lvJ3wGXOzS23vb_YAql9D2TpETf3cEYd4MTWgYNs0H7ZJkhyybWNVzTJDIVzTa_jvjQQR8lzac-oTWhym7mpEvZ3w_naL-M3k_iTHC4p8=s220",
+        "view": "https://drive.google.com/file/d/1cXxdxd1nKwafjZjDn40BrVoUoc_zG4RB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTP3zb248udrc02JJJVSQGY3uFNnOo0i8Uw6t4DTU5hOtRpu-x1zt7_vr43LWXoLmKVWtdtdr8rmSnXcaGLmbFq-cunCBd0UDVoMdKRMbBFrOeloE=s220",
+        "view": "https://drive.google.com/file/d/1b0HpshOS2WbzaPj_uh_UtJODw8ZzlzPW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPnjXU-41j6h1V93ouhIjCoZU3O-CdY7c7eem2SnoYo-9pqnjYybR4ZaBkCzuh0g0asE2lckf2lfafFboKlH7Cvz0s-YIqFWNwxJ5-IlGAoDlVxfM=s220",
+        "view": "https://drive.google.com/file/d/1d9FFEkghXJ0h-K4CZvxS4Pc_KKEF6MhI/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgsWs06gitFUtMBwxmW156sRJvPdkwxZKU8xcwNVGo5ltl50iyi9l0D1o4YyQ1v8KyfwmDhhxc3AkhXeeI_qxVX-kxX_MVcCMsVQC01w5eYzcbfcM=s220",
+        "view": "https://drive.google.com/file/d/1Ua07XaAOkl2u5bPoIc4ym8g8BXz6Zgvx/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIXL0uTy9UvialnP6sRl3U27q6a1kpndrY1u_makLL1_lJTlvCF5R6bTqAehSL2qS_aI2LzVBat4rfnKgau2l5TiepvBbE34XHb17gjwpaU9NdMFw=s220",
+        "view": "https://drive.google.com/file/d/16zaLqlozEpgiEdW2eKpshA6ECapiWMdK/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY7ejhpi0s3gC87bJnvJ0yQU3cczdYIuhkA-QKddg5oEZGwFM8NhaR4eoc6TfR330Wdu9jTTtYT5_TVKRm5p38YZJAlT1HNSkqGRkEx64RZmdBk6Y=s220",
+        "view": "https://drive.google.com/file/d/18QnwRqiJlsWKjlr2uKPhSEDy-avXkroM/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuD-qlfD0dXhmGV1ajVIAC7wjEo8OCCNPtOlF3ub89iVCdkPhO63nJV2Mc6E19GwWYXSCGPcJzCdVAcLHOsmtD83tUKSb0Q9IrrYmthKFjInxmfYU=s220",
+        "view": "https://drive.google.com/file/d/1e8hGLVfaeHy354SGFPNMoCf00Hak0Hhy/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9-vMZfLo9Fdgin29g-Ia5RI7wWr92SCbM4IvSulxeRdb3x1ssdoCCP_8AvkVM2jC32kK_L3-hSR3EDqVnepY-YG8U1g27XfhPGEAhDL_q8DqvmSU=s220",
+        "view": "https://drive.google.com/file/d/1TPCtsFaDAd2pqOtZqHKGOTfCifx-giaj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZNvYInh2Ji1RgXjdD6_KmxdybSzYNpVeI0X_l2cIic08VICp4NOAOmsdxLAqj6v3uoZo2SBsdWR_FVg8KW2-6XaFVhgcpHYQlz6JZTFrGJwdK_r0=s220",
+        "view": "https://drive.google.com/file/d/1a6UsaeX5kc0zVa_3Ix6l-mE5_ulae2RI/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450145 - 28/4/2026 (LEGACY)\n  → 450145_inicial ❌\n  → 450145_caja ❌\n  → 450145_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450145 - 28/4/2026 (9 FOTOS)\n  → 450145_inicial ✅\n  → 450145_folio ✅\n  → 450145_corte ✅\n  → 450145_demolicion ✅\n  → 450145_caja ✅\n  → 450145_liga ✅\n  → 450145_mezcla ✅\n  → 450145_terminado ✅\n  → 450145_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450146",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1DvzOpz0U3hx1aE50PUqYZTCrisrQI4be",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2F9UOwP1nn8q2N1WOe42mnxkdAYDxqLkJbqRvvQVhE9M7QyO65fgCrpDkNVTjdFSJR8ppNwDsopVRvRA1G1aw0Jb4UopSS0TgPb19j40PNdIe1_E=s220",
+        "view": "https://drive.google.com/file/d/1wgTw-2dwCFrzDbJa7K8X3T6LVqtxT70j/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJDn7EaDLmY1kEb0SE6Ze-HPcHZtQdflzZkazH8BrSytXSowVU6r7p7hZxyHU5-54JbrxOHXLJ9CkHDRqonMbHZBxM_2bUz1QZKpgnKrSq--w2_z4=s220",
+        "view": "https://drive.google.com/file/d/1reH6pUoAZLznBhH_8URyML1YajzEwHIH/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkwL2gYw7zw7qnYzxraOl0q_J71tpCkzrNdQ1fxRf8rd-CvuRrjcDcDSNyEZPEanisunUGupAMffbBzqbxN-IFxW1Bt6PSI51xCViEVjsfNzGgue4=s220",
+        "view": "https://drive.google.com/file/d/1Z4cfviPv64S2Fu3OhsceDyGCdxMuu8Tj/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD74l3AWTT6FHM4SVe3R20rfWj3kFVoN4hzsHNKg89YjOFRIAtX32VfVlDdba7RTLE-tnIrcI9zq7QkoD5EKrl9titie6A--0HIhl3t8OJ8K0DciE=s220",
+        "view": "https://drive.google.com/file/d/1bTIfLL_hCRzH2yw7BN_zrst-GVGjrhu2/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9WtZyAt7R38HnwTBwVPxUDzxV7nx7lx7rHWLU8pm6879UeBOqJs7IvNs9KTumTiW6kkH9zen-PeyyLtBkdzL0GUYarz_WYPgtmtA-tVN83Wp3ebY=s220",
+        "view": "https://drive.google.com/file/d/1EmSnPao8DyHCYD-wN4mp1_dtL48ZrH3x/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5lvVZMp2l4KJd5NTEMv-bQufcUehRAfiliZlUzK39PsitghGlsvWQzLB9XiLd2saSFReF04YWFrSyz3-dxNS2BBI_X_h4UNZo-kaXbTKPXeMA7vk=s220",
+        "view": "https://drive.google.com/file/d/107vGsd7U2psDyhgymB4Qpi9k8yWCzf5f/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDZ83mHRRq8W0Nqrg1Ep8mFlyTDpwXrnvsfvOh9OoMPEefzUrZKymh84XZujAajinWZcnvsruVLZp_UvBXSRG27B3xVuXTa9-z34_awXJ-OMHcHbc=s220",
+        "view": "https://drive.google.com/file/d/1ulrR8Zfl3ct_-j_NCMBF0suFZ1WccXUD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-aGnse9YW80Yqxgu_kiSYQ1vsvdg6W1-HPrwLVqHcQPHDx0l_mjr-UMA_BA5uGLrWAGQOP9PpIqPulqWmzSC9V1BNIXyKG5rO6tHilfrdWhTTWgs=s220",
+        "view": "https://drive.google.com/file/d/1AUrekdKwwUOnEd34Rq3iQ3h6Fyo2ingP/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfCwTasR7XvqZ5cBD-O2xbG15rINDXxGk26I3YeI-pZCdG2dehc1y_T1fUb6jzr0aW1Tf0DszM48z53WGhUMfCQbRcQEcUi6SfjF2onpXcvCUGeJI=s220",
+        "view": "https://drive.google.com/file/d/1LCpqqJOqmNmNi-qIkCCvn4ERZE_R1pL3/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450146 - 30/4/2026 (LEGACY)\n  → 450146_inicial ❌\n  → 450146_caja ❌\n  → 450146_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450146 - 30/4/2026 (9 FOTOS)\n  → 450146_inicial ✅\n  → 450146_folio ✅\n  → 450146_corte ✅\n  → 450146_demolicion ✅\n  → 450146_caja ✅\n  → 450146_liga ✅\n  → 450146_mezcla ✅\n  → 450146_terminado ✅\n  → 450146_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450147",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "11Vg0seUZOplLqnN2jGXSHadQRbxRHNnb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3JCEl4Ipo4AZ7ZZo3BxKNgtz02Vy70tc3SQtd16Cuxnru8froVXIeDDE6EqlVEZq4rZ_c29sfRz-EW3oMk7JStEak3cdqMWdRD1U_4Lj6iIz428w=s220",
+        "view": "https://drive.google.com/file/d/1s9F0nSOAkqwcqa7Oh7D0NRLhFxB5bVcZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfe_gfQYsT_bdB92no-2tjUFVIPIqI40U1VLaoiOdUMU2W3nsGkMNOF9Y03ukoFcrQc-v7X_C7I8lIxux3FRxmlt0C-tMtQgxjPcc6iELVkg0k2I0=s220",
+        "view": "https://drive.google.com/file/d/18ALhtyWhEklGefBCYzl-t5lkBRILNumj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuuhO_ZnYIBFIEGjZ_zPQkA5Lyiufjk9bisUPezatj9a5CYFr24Bc3PwSo9EDyW-8N8JCWFz--eXeuM6n_qTRKBfE5V0phPkAdvNtzOSXibfeUzgM=s220",
+        "view": "https://drive.google.com/file/d/1jjUgocVgmDUbdf0azoYd3-KAR7ZvsFUG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHmPe00hVNbBpIIG-2Ahnu4ZfrgxDy91pV2Aqw600xdL6EOM9fCHsDBKZTyJZpZ7bxZIpVhJk8u9vzxoSc2A3ft2My9Qpkrflqh0shc7pLgZ7I0YY=s220",
+        "view": "https://drive.google.com/file/d/1lfAuN5xj5bg1oA7BxWmgNIA-VutgoTUT/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPL0ZS_HT8Nmmjkt_VOkgCWj0ZmmxNWg_Usi7vDdv6fsm9-qu8IylLi-1KEZP7sJ4JVY6oqOUUTqDoUgcJfSx25pjUVTd_-ae7ytfL_jfrECQQ_FO4=s220",
+        "view": "https://drive.google.com/file/d/1hBaqKk-6Zj0vCn75Pj7IfDPRYZB-Mb7t/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPM24bM8I0Nq8VKN7xEx5ksXluipD4yZDt7Txn2oFR2QirL7IlAag2edywzLhkZPmhYBCWExYxCphX-2Uw7rIe7qdYa4eICC4cXXkQdy21B2xX97Qo=s220",
+        "view": "https://drive.google.com/file/d/1ZmupYEnLX_T054_1qbGjHI9ucZWsQ1iz/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKDjh0pyo9-AW4KAeWTYf79EwQ6Z0KAOXQW-VHPV9y_yF0UuFppt9RHFl0XY4i4Wj2tZgQQU0-dPf2sE1P_mwQpnKY5Ivl1BZ0iGJoRg2GH2tK2Fg=s220",
+        "view": "https://drive.google.com/file/d/1sjdgxFYXMrYfL9KMbz_n5BJ6kEHNTIJp/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0jkLEtndjLaNfQnGfDO4RKezAdULQbCbnsrTpmvfxiZHDGBI1wB_l3lsscLbTKeibklSTeW2eDnygOM4cJgmjAQpGGV-Y48FKztSiKkON4Uzzeq8=s220",
+        "view": "https://drive.google.com/file/d/1t4H8iSxjbrpziyGInSNdlXkwkelTeZ7i/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRtokP7DClGG3Z8-VrjyGu4ZfEkrSn4fQg0iSyLEQ0zoOWRb3Vfk6hnp_Nn0eMUomXgzdU6SrYC6zT_mxb5WZcRjnv_vZ609GxBnV7TNQsSZ5yT1w=s220",
+        "view": "https://drive.google.com/file/d/1A5oqjtYxzMJikIMiJNaprYVFWhdmgXPE/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450147 - 28/4/2026 (LEGACY)\n  → 450147_inicial ❌\n  → 450147_caja ❌\n  → 450147_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450147 - 28/4/2026 (9 FOTOS)\n  → 450147_inicial ✅\n  → 450147_folio ✅\n  → 450147_corte ✅\n  → 450147_demolicion ✅\n  → 450147_caja ✅\n  → 450147_liga ✅\n  → 450147_mezcla ✅\n  → 450147_terminado ✅\n  → 450147_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450148",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1NZfoaiFLi_OYMqUcrPtvwOPTNbV1KcPk",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4TAtjwEvwdVwAmho349O4KiKnkpKoo29wmSCq-iqzfI3cKq6ot3N3DJq7p9hDfRHO_SnXTWgSHJYhNzLxPUfZ_4aO47Zfm5mA8iO5FmUKLd9JXyA=s220",
+        "view": "https://drive.google.com/file/d/1Y6MQlhYloxAVQE2Juzb5cpKS_Pcqy-su/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0wYjuDZp-CFycHYNXlLd2MCAuYB8hUwL_09qCTMem9_wQ2xr8zGCklZL7yvr3RSZI6_CLQGHNY0R8YLuWxK6VqDMVCMJmx5NOjMBNQZMV2F8xC4E=s220",
+        "view": "https://drive.google.com/file/d/1YiA9AjZwtur3g4hDwkJ8RJaOBcFkoO92/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPH7NhuVi2Tnt9Im57mKCwWZIgCG1geyC9Mg1sMMN40Onfs1MPOcp-ujt4E0NmIUjFNHpl82QG72R1XqTSBGqBEkc711LWSQoBcWYV44l9gKPI0jsU=s220",
+        "view": "https://drive.google.com/file/d/11Ih8RY93QH0wzB-_FxKuWzo2N4F_-K9i/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtZn4B1fRoSzeeG_U5Rp_ay6oF1x3BgwrwPenOfgK8NBRGiGPP_USzZcsAjs24cvEM3keLpoBrV1NnnoxEbj6OnIsRjkkK7c3soxphHC-4e9lPjaA=s220",
+        "view": "https://drive.google.com/file/d/1jee-d08KH1n9IVzwU6SP-AgpJdh_NtAf/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOv1UH6Da9WPHHPEBroVCKzW7U_dxzG_oCyaIn1Kfu7ab9AlmcquDjTLrzaovcz3RJGJ_GaB49_tfT4KhO-HGhhF07HcGNQ-mSpqngGtWFFFChmHsk=s220",
+        "view": "https://drive.google.com/file/d/1V2SCpZoE9Pjz4wp7cZ8NNPZAg2nFSzdW/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZ-RSs-D9ftNqsdZ4yl3E8KkOeSGk4SQLVg78-WpqjJ-33MD7P7C3bqjwQylmG5rfsLCTiCn7cNbhwTL-A87jnYjd5mX4NEMUqIzqpIvs96W4W-J0=s220",
+        "view": "https://drive.google.com/file/d/1Ih9mE4hBejUUk0aGdzr1GH6U8H7SU49P/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1UVh_9_TFwUkoYnJToIDRXobKHxwC705S6nf5ntVJ-n9JVba6WrErc8NO1GuSlDV3MtdeGyrGPTR3Fic45JKlursLf0NMuvO_M9jtXFpktkxQqWM=s220",
+        "view": "https://drive.google.com/file/d/1pT_UK-P-4ZPLTcy_ACpV3G81nNscJ7uv/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOH7oy3t8e9gn51MrbwOYgGWOjs1YLWdl6bMrJ2RRBx75Q45VKELynGQ_f7mEYF47p535FQCumrXmkPTW3iRLV_48N2fXtdls9hb0QAGXcRheWRyfM=s220",
+        "view": "https://drive.google.com/file/d/1abHueQDczueh9EX-8UnE0fulWDhGnIs-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHw6Kj5yNGjHMOPllR_xTgXNXcmGT8ixySQQ7IHBdIKA7249o__C0V-HuA-bwQc7L0Egc7KvzdUnh8JeDKdzhTZZtaP4yx3kdY_Ufxh2OtXqFzVV0=s220",
+        "view": "https://drive.google.com/file/d/1XB3Sz-Ysrz2kMDHaLHGzAfQ0QxK7-DXT/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450148 - 28/4/2026 (LEGACY)\n  → 450148_inicial ❌\n  → 450148_caja ❌\n  → 450148_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450148 - 28/4/2026 (9 FOTOS)\n  → 450148_inicial ✅\n  → 450148_folio ✅\n  → 450148_corte ✅\n  → 450148_demolicion ✅\n  → 450148_caja ✅\n  → 450148_liga ✅\n  → 450148_mezcla ✅\n  → 450148_terminado ✅\n  → 450148_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450149",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1BMCZ3JbUs8Cti_fPdp5N2rKf1AI4ZV2R",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfmILji2ZyITkesgNcUcwQ33abZU_e6KtrWOgDJG-EbGqTynLvszdbA7evB2B4TVJP_DFNDwtEfHUXXJhYcdBYT2OKVz1A2aGW7zJChj8nIHoEEs8=s220",
+        "view": "https://drive.google.com/file/d/1-bw2wFBm41jmgaXpv4LOivm8SFanVlEL/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfnCpT3lWx82LZDLp5w1KVgwt1V_A-RxERKDHU9w13qk7xT-idIi-Bazz5KRug_w8o9UyzbgwOI61zIqEQ6wnJJ-yivRAkYZdkZWmOdf7YLnUwGZ8=s220",
+        "view": "https://drive.google.com/file/d/1TAUF4aKyPV0gM9khq-OSLEIfe91Z1M3P/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNI7aKV901nemdTs6bsr3loAWeBE2cPlkFuc86eiTpuLqgbK0T5Aq-3hcvQz8YnMjM9jZq0AB9Fdf5plAb3HsVV1SX7FdMXQWLnS1-j_8WIHJiml9Y=s220",
+        "view": "https://drive.google.com/file/d/1i1iT-HL7CIvp9BiWuXwGgEfjTkKUg-0h/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhlS8O8inW5Yi2svjHAY05iwQ-LzYo62MI3EjqcQNLIDhnmM7Kfhfc6q-Yd5lKnFKgh_PNJXeGrQYdN5eIqeMP8a9tRirSNZP-9jkNnyAJX5D77oY=s220",
+        "view": "https://drive.google.com/file/d/1B6pjO9zF8ee5RT__93N2_cPpKvD6p-nd/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORolnxI0XsUV5lixNDPdmtq_RQFK0PZezEPXe_A3nPMCX_FYvh4VxTYTcJQk4TjQdOE8QK_7Qx4x_NXlN-bIa38fhrEYN2XJ2SgW0YB-PtzF9hZpA=s220",
+        "view": "https://drive.google.com/file/d/1knbqigQYV7T7KCZY4vQDTlSsR_0fAAuf/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZP33BS-g8loOBUUulczV1xZP4e1fRjLMZOkSq5lkFl92aUehiX4O2mHWJCL6Pk7PTSMRJ72wTlNMbmK4ZaUm1RW7NmY1f26wyAexnwOFusJC8UmQ=s220",
+        "view": "https://drive.google.com/file/d/11KiksVBCKmMaCqcAnLnz3coI9iPgNY0I/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMN5uKdu2dmfaSH9Lx1gEvK67nsP6qcSY82w4nBBuEME4ZYbz025t80pbGPckWYWi5NKxcBQ097zlPTdw1nm0y2dOEK_aDpdTAKwg2UMpcKcFna9Nc=s220",
+        "view": "https://drive.google.com/file/d/11UKMPDjtEJcN-XlB0nUY9VwvJ1nLx6ei/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDNIgykmztb2O4BlP-79DmgYc2raqf6BgTeuv9tF1b4wbYuwvTAfCVZElquty-a6oxUstvcxn55-DNOjJRMnSUIEwX6Kzk1Yx2FHcNioqPMGYOgck=s220",
+        "view": "https://drive.google.com/file/d/1pLVmCl8n3JMxFCVwESPI5RDeJWIhHvnH/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuc-lFEKqOAZedKd5jtUVgp6aYemMSR2SULgpU6oGsKSOZRgJSktL7h16Bj3LDudUiQmc1bKu-vTAimF7g9b9yuE0ZmgBvFxneQfBO-gCByAOIaGQ=s220",
+        "view": "https://drive.google.com/file/d/1SAuQ1AwF0FIYJrYXheQ38p5IDTzv0dnh/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450149 - 30/4/2026 (LEGACY)\n  → 450149_inicial ❌\n  → 450149_caja ❌\n  → 450149_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450149 - 30/4/2026 (9 FOTOS)\n  → 450149_inicial ✅\n  → 450149_folio ✅\n  → 450149_corte ✅\n  → 450149_demolicion ✅\n  → 450149_caja ✅\n  → 450149_liga ✅\n  → 450149_mezcla ✅\n  → 450149_terminado ✅\n  → 450149_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450150",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1yoPlHDt4fh-xIxSR-evNifI_50PFFiOf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPc4IXpkj3FaWL_uUB5G4mJUryFNSF8rzN33TWjgG8c0nEdllTATmJpfnRKlz5T97Q2ywUJ4VvTriMpr9wPqe3S8S6ajWHx3e4BBxvid2J-vrzoqcs=s220",
+        "view": "https://drive.google.com/file/d/1LcNfsSLtG4WCtWSn89T-vVUq8t07NmhD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6jQ1uA3UL29yc9U7COe0vPqdjowuemJBQSvKZg5NuifKpqq4CxtN0tHnauLSABFV4anpAey3UqFAnfQL7T955aBrUXhcF8MIpkLmqom5sZqSm5Qw=s220",
+        "view": "https://drive.google.com/file/d/1ABtBIMdxgl9-Q61SFEU7qCZVUrCPsMAy/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4baCwRA9jMrLE7W0XCNumxk47727-AqgHrHFCoUx7t1pShTrTzdW4Ns9aG_TOszsHrCMreainz7wkmAR5s9S8I1WoTd9VAONK4pH3VuHU3Iw2Qq4=s220",
+        "view": "https://drive.google.com/file/d/1GhMwdWeNtOoNk1vUSfybhI09OaK78M8L/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSbKEdyDK2-tOsyWi2iNl0sJtHA90mVYee0EBmwLN2zLghfa8X2wfW6qGuq3FQw4BVKMhQb3PoWJivylPjvv3VgjxeUQ2kxbrkjbjnwcRtonCAE-E=s220",
+        "view": "https://drive.google.com/file/d/1PReD8GELUrDSct5f_abuDcDihmr2UtM_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtPk2p8HODRB5s5METM6CZBsEY-chgTJIUxUIq9F5szEElKSMmeZVBugsHYT5sxVWqu87SUFUkcMHZ1dFVvL53cxF5f-y8JMeM-zRjBMlgoOnZWM4=s220",
+        "view": "https://drive.google.com/file/d/1AYSxgHujWjuLRTU9rr7ox1i3fnA9rzMj/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmUN9CErTkzeE6xQNx_4w2IXJUOPnHhimijhS2foyNtw_pkqJUiHUu4OCpes_CqAYBawfrdwhBu6o1dkZNbsFJ94geEtYWKEdHbVFxF5SoUi-fpbw=s220",
+        "view": "https://drive.google.com/file/d/1lUMoCofCro2a-UQ7ORvzJR5SP8VqVokF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMScRk-_cVGh4xaSrzjHHqI321bszQ7fLnz0BZHpqogWR6jm2JQ6YUpGPv6WUpgjKVeMB8d7UUlHeNyVXs1UV0VwtJswL3XQdmm19pmmVsHpZUxODM=s220",
+        "view": "https://drive.google.com/file/d/1VABVGzGsL0OGKqCsfHlD64K8Ss-l_FwI/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEXH1ufCyJsP4nO7_VOd4ypcZ_6YKGHlon_SNkK8dw9fZifIyDal0-O9rvVMFZs_4VnjUfNmunSKroik7OcBXNF6783Hj6AL2fSJ4YDsuTUNdnTRw=s220",
+        "view": "https://drive.google.com/file/d/1ADlHhxzLMlaFD6v5t3BA9YV5TIwRouJT/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCGX7v7IGy7Comwp0HLoC-dGD_1BlDrIA3GfgaORqLe6VoPqpY2O_gZw1B9vkol1h28X4y7IPVs77AwdbOfsP7K6ML9xqCo-iml9c6wrcDq79aoig=s220",
+        "view": "https://drive.google.com/file/d/1ZDS_EeKhiI45cLyod6s5dY2E0gHz2N71/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450150 - 28/4/2026 (LEGACY)\n  → 450150_inicial ❌\n  → 450150_caja ❌\n  → 450150_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450150 - 28/4/2026 (9 FOTOS)\n  → 450150_inicial ✅\n  → 450150_folio ✅\n  → 450150_corte ✅\n  → 450150_demolicion ✅\n  → 450150_caja ✅\n  → 450150_liga ✅\n  → 450150_mezcla ✅\n  → 450150_terminado ✅\n  → 450150_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450151",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1oKDBSEztjigDBrABVY46z-ChbxkpXYlW",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPh5CfBaNF9etEkaAsLXLyAx38bEUnDyibt-nLGZosKn0UY-b73gqEJl4N-nuHkiMiCC6j7DBNCU4AGihR5qd4ziwUIIbNaR7qrfB4CBqRpwI-Z-us=s220",
+        "view": "https://drive.google.com/file/d/1fejEjZF7BFSKxl_NBgWFG2uMSPW0-wah/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqF9VzsCO-hXiP4bWmOTOATHZj5Pn3mvbur6Cl3Rh-RbmF3tuQ-b15KlkVoPZqADHVd9ckAUEvdjR-49IA1ljtBtFrGcYiuYotWeKTqQC9_be_LVE=s220",
+        "view": "https://drive.google.com/file/d/1-lHRVA_72EVDDppoud0Wl0HnV739XTFj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmrhwPQhDR84m4ey3xsjycT9veJvGTxUUC2j2y_1a635XpqOHPf-g1DydlUx8FWCnovxRX1sYo_8NY4ZltoJRstJePq1njYC0NvCGF1JdunH5JwSk=s220",
+        "view": "https://drive.google.com/file/d/1aOtVaNl6Uhzg8MyoKq8kG0MlakWIrFxS/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZa4GXMmpr_850a7DFBCA9ktx9zMPp1Pn-N2SZtNpDdQBx2OHc76SIJG__dbo5lkQpDcWa8J9cndInWLKf2TtY7TCt04v7MTP2UDdimf1YV-dgd5c=s220",
+        "view": "https://drive.google.com/file/d/1TUdX_8pXnKuyLxL7N_9ZqW6g9TG88Wcz/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBME5kNyq4RBeJQ_6PrI2SwgjA2kKsYTjsdpQiUPhn5HEL028yzGK0YnKABSxjy34gcBeXxKzhl5GSmypc30xnjJndbhXlRFHlTerSHU_BGJh2O_EzQ=s220",
+        "view": "https://drive.google.com/file/d/1a48ZuRyAPz8Ewo0TkDlSQCD0b1MHv66D/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyYFPYCmIKrBzHRzPooRuclsnhygf1K7cEloYPWFFd4Jk0DJ2yCha3aYVA22D-DNgMjsv7vhAqx_FjYh27OtomJolxzZwDZDmO0TzBh7y2oZKXO1Y=s220",
+        "view": "https://drive.google.com/file/d/1A2tf1lKsX9-_JA3LSQkcl-vzq2h7noP2/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNf9rRbKp7sA3F5U1C5dU9LKwvk6-xDlpTAm3NC8ccdNoGmO6ca9nKKR70-ngiD5FlXv3EWTJoH2JY4Bsaj3377BxLRkMcAHBwGZ0jijwVkvppCgU=s220",
+        "view": "https://drive.google.com/file/d/1oQQwDdwaRTHabukQT3ADPPaUIcyWhinf/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPexQmwlWo6WVIICBJ6YZ-2LsEQ2bM2nT-NEzo-c0jS6-i_wMo-gEeX518X-mF1_ZdUWPVC_Qu4TSYkwYsDoHarNSvo8G8nsfzcpfIl_56VxArarXo=s220",
+        "view": "https://drive.google.com/file/d/1Y4Po1Ae76jpm5woo9PCdoiPNeZwdl3hn/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPODGMSVn5KuFIgM0jiNsvPqU_KhRck6StYWb7MaeIeaXL8L02n1oPl70OeXYJfagB2odAvD0uWouOqNTxTM6QxfG5mC4TeAVG2DfZx44juvyDEhd0=s220",
+        "view": "https://drive.google.com/file/d/1bmCX7swu5TVRm-g96MNgcM_8pQO4ImlJ/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450151 - 30/4/2026 (LEGACY)\n  → 450151_inicial ❌\n  → 450151_caja ❌\n  → 450151_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450151 - 30/4/2026 (9 FOTOS)\n  → 450151_inicial ✅\n  → 450151_folio ✅\n  → 450151_corte ✅\n  → 450151_demolicion ✅\n  → 450151_caja ✅\n  → 450151_liga ✅\n  → 450151_mezcla ✅\n  → 450151_terminado ✅\n  → 450151_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450152",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1XZz8-OMFZMfPpjhVTpK5WcdcLp1pYAw-",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7EeDjWSKaD12p3GkuMAe9cEtI-oLffHy5KbFu3e8q5BZ85mUWnKa_UYouuwt7dnPEGFFZgSmfbybSOlJbYUFyJ1dGrIB60dkihXSz8OJdBN9eyac=s220",
+        "view": "https://drive.google.com/file/d/1SdbsDwURZq77BC4LxvKNb2cM7xudrKbp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSbZLO8YJDmFYscgQT3WvTx-DDkXw5ai158mNQNPu_0PoMdYLG6Zf7QX9UQOm5BSVGrCBcHFcWsHNShvSq9EjnQG7sajswen1uYSJXCW6kMOcMVgc=s220",
+        "view": "https://drive.google.com/file/d/1KhiQm_u4s9e7z9anyVf4NqBSUxp4YGhP/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbKQ7wmHdCU9oqrVXjVeB-ISCE00dgx4ttc0EranNO2BUBtkN3SSaosbvMJarIEURi2OnK_wXKHrAvx7zVJvDa4bzqtQXR6Xsy3nfrEXejqdAkEqs=s220",
+        "view": "https://drive.google.com/file/d/1hWdGHlkSWpXogv1_r98m7RzRQdF671hV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcziwfdcc_tCRz1-tgVGTTXlhkd-mFkY0emyqHdBsNDPjkxU4CO4tuAjreYRemgo-k0KOls4IrkFna7Nmj7HcmrX88j8SHZbZc4Lo3C8wYxOJu4uc=s220",
+        "view": "https://drive.google.com/file/d/1O6q2dO2QD8s0at-uc2Z9qH2A-4mISd8s/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy9lDSSKXqlqcpFmJz-wSWK8Nk9UBuDz-ivOynEQbrSP7PCM6g2Gpn9J5qYpOUbVRCAnSwBKUQ6ShRI34N-FK8HavPiN8bEb3piG4FhMUrQchXL60=s220",
+        "view": "https://drive.google.com/file/d/1lnaEX7fxeqeS9eshhiJNDSJguqNwXoX8/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrgQAiZNH0goFLvZ6mIgv8Za3wvfPPRXzAiEUaCiYCAFJs4C3Wq9AIn_GWNJjZsUTahuSdgnqYo3qcgR-5Vu3QhGcoG9SyrUjFCida64MWc5LkamU=s220",
+        "view": "https://drive.google.com/file/d/1G1nA4zn3nZMbp_yTK__KBBaNR5QA2yGF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIIREYlevjNb_KlXCTkjKsgYw3t4y1qAWoTwzad6azCaIjCp4A0yRK8l6YZJOTOTL_Qt3_ILFL3bfVL5BWqmNmKn3s0VydSO0Fc2HSDLH2EgSRnTY=s220",
+        "view": "https://drive.google.com/file/d/1kGJhuOfKQkWJM_0zplo-onzgyiKLemOo/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOfJ38KPwU5eCDyfPTTz07JFcM20GVC78gurliV2nl9ifm13kWTU1auY3rz4az5dVYROrAtsuRlKdE94RodVkzRvZ7cJplrQL2i5BskmJ3g_P0egk=s220",
+        "view": "https://drive.google.com/file/d/1JfPC2rSy4q7m6unde3yy9dQDecz2AlZa/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjIfQMaLmoPg3R4ZWGEiwp1H_aELceA_X_0AxU4821dK_EWrYM4ccIBP5g8AAFnJt0myDizilxoXUwUAgSiXzPhUeFxBJq66Nu8Kc6L5bTg-v2gYM=s220",
+        "view": "https://drive.google.com/file/d/1NXfakjISy5K6PIRwziRqj9jjGylocYrI/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450152 - 30/4/2026 (LEGACY)\n  → 450152_inicial ❌\n  → 450152_caja ❌\n  → 450152_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450152 - 30/4/2026 (9 FOTOS)\n  → 450152_inicial ✅\n  → 450152_folio ✅\n  → 450152_corte ✅\n  → 450152_demolicion ✅\n  → 450152_caja ✅\n  → 450152_liga ✅\n  → 450152_mezcla ✅\n  → 450152_terminado ✅\n  → 450152_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450153",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1f5pyPq28GAf1RHCyfYQjhvHxpbBD4-oP",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTGJG8KuxBIehkmBTWUCLv4jAvOar3ZjswmmegIsbBnQsOCq230h9BqdDqUcqVM32wqNN0jdl-9TMXzF-IXVi49JxLOA00eOpu1i3WS8YKWytHeVA=s220",
+        "view": "https://drive.google.com/file/d/1e8BIHPytEWRqZtSA5o53TqNVYzwKSLJI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJhUcpgGLrWjroqQd2ELN4_Pl8pm2vqrw3Pfa0MaFGTAjEnR-Ll-NUtvHrGPd_BGSsXBU3zSPvklfSRUY62IU72h85gPao5Zamxx6xJh8Sb8WhekA=s220",
+        "view": "https://drive.google.com/file/d/1pHEcXogP7b5OkHGNW19rYQlDXCefUPIv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTtqhaauX5-XPSm5R4uB7yQ6tJlLOmncCodKXtHvub3-WRSh5fZ6iAN9CxEydk5Dbxkk3PM3kpo7QVhRmk5l0TLr2O9VZAbToOChPZJuOTF7xgVgw=s220",
+        "view": "https://drive.google.com/file/d/18B-I8XvELeFj9fhGdiQ-J4kU9YY5Z9xp/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGkZYyZ9ps4r6rs5GwXG6xy74kZlgmGqd-OHST3I73g04GMItbz1gYeIZrEGE89OoRlDcr3-KcWVj3tqR-e87uHMXzzPsSXq0tjxqF4jNxB_qSBic=s220",
+        "view": "https://drive.google.com/file/d/1i1pcPY9aYO1Hl2i-U71ll3T81zXQrJ75/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVjpoaZhzN5_ePvVXFGpf7Scw29AL7Vk56roMCmq9vj9fbxJsgviE5Aux9fcAeEIQikrnDs-DZ85bz1buDSQJk7kOjXCxzODrHG29V7-_U2qk7EHs=s220",
+        "view": "https://drive.google.com/file/d/1zOGOI__n7_Btox6_SfWd4SFD74Ok8uoq/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhoFQNpdB-4UT0DpVk3z8Z1-EAPVjXi566C5t1KQQ4zP_cslk-1KEHYcE4xI-MhtJTm-lEIJ_PL6V03YcK182TMWEp0ERp-ZU0TCe-PeQJLd4W6lI=s220",
+        "view": "https://drive.google.com/file/d/1Uem7YGO2hxBFDzGwytEWe17YaeNVdA_3/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPq2rjDtwPh-cGfkE2GlkwEUv1u8zJJSD3udtEaDikOW-m0CQ5TVLFNEVGDGHxYBwcHzLg6VXG2ul1QNI2AwQMZ5PlnPqJxt1pcO6or8h_vkGFkby0=s220",
+        "view": "https://drive.google.com/file/d/1kh4t4PVWPvm0VJqIH5zyHMRXVObOrH5I/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRmAICfVtuGuK4ezlEtwDXn9GURkBFSEysxa5UEIujE6MySPyDhAum8hn6wl8f6Nl-MDn0O3LEhEA0u_xLsWKtKQN8UYLSYiTAsT9icK3yqsD0L7o=s220",
+        "view": "https://drive.google.com/file/d/1_hEzIdW4xSr0rFbbWTYUHr7V6EgpcR2k/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVE6zJJqYfGdqTmCGoKIDva0wzfejgQWQkpQow8nDgPYAv8vaEVeVGsZgBpVm_PwGm_xSBuHOQ-NRFSNTiNBkKmBXjMO3hDCXMQd_Bd6iv2YQXVW0=s220",
+        "view": "https://drive.google.com/file/d/1o84xqaZA9dlQCuM4ZIIpnBZCGooO5Gj-/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450153 - 30/4/2026 (LEGACY)\n  → 450153_inicial ❌\n  → 450153_caja ❌\n  → 450153_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450153 - 30/4/2026 (9 FOTOS)\n  → 450153_inicial ✅\n  → 450153_folio ✅\n  → 450153_corte ✅\n  → 450153_demolicion ✅\n  → 450153_caja ✅\n  → 450153_liga ✅\n  → 450153_mezcla ✅\n  → 450153_terminado ✅\n  → 450153_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450154",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450154 - 30/4/2026 (LEGACY)\n  → 450154_inicial ❌\n  → 450154_caja ❌\n  → 450154_terminado ❌",
+    "_folderId": "1OUx3jmmulWLIVPOhcU00aS-tIDmXCOMX",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcPdwIA82Qjblr1ndhgxnIdvBTJJckCUDaxkxw9OoEg57VLQvaCakr3wVuzwJmEOFwC2FDI8EEBwVU0R30uBJ89H88moIMhGsvQfJ1Vju1LXMZyUg=s220",
+        "view": "https://drive.google.com/file/d/1uSwRbVHjlyEHZCkeFzRQR9_xBO2zoUTO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjgqjKsQ9u-QZxKNivGMZ9Lh8d3AAdCp0e0hI8MeXhs_KdNS2TzsrAccKlgxa578s6RA_XO5tFPfUEI1KEllEQMku1d_J1yO_WJ-lOc5okDknQEBY=s220",
+        "view": "https://drive.google.com/file/d/1E80t7Ae0Y7zsGJYf2DeHS1I5ZQVKLFaV/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqAXnAoVwg4Zp1O3mG3UfOZe4k1xZzZUukG20SL4OwiIB9qr2r50qCg8epqW3KMAQ6p7XK_tbMqBaWj4glAEyChQbu85dZ51eBtQVxZ1ljd4-pOYU=s220",
+        "view": "https://drive.google.com/file/d/1zJEU7WsA0yGe8LhJKp-tYAGgql8ybpvC/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBIWOuNOZGBOsgnexPV3iMTEjdEaTgzpl0jD0zkyvnrzcMx5qJl4cPf5DbmLwL_zF_RUTntPtvrd1pXZCs8m01j1Fq3Fd5keFMDnG25viPaTwRmBs=s220",
+        "view": "https://drive.google.com/file/d/1a6TbWmkJ_udlaoPen3259-7BAv2FLrx4/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0I2XtzcU2yJLISlRxOBgCh7qLaBVbjq-4gFPxc73iA9Isgl7tPpV69oSvUdP5Ioeh2Hn24Fa8MyPC5l-aQQHpUepFv81L_jx0tVIKUAUss1l_e-k=s220",
+        "view": "https://drive.google.com/file/d/16dp81ODKF358tP6DSlynIN_ZPR6TNBQ_/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMSP2e9M7zwobUIhEUdO4u8OHiC_q1n_N9vUiricshMcPWWBtQmJthF0E1QP_9q8OlD0Pdc18qCXes6zvzSKFd8_N44c2Xjr1JMXrqjiRe9QIPhHw=s220",
+        "view": "https://drive.google.com/file/d/1DxjMQ2D9mRXll2Lh457OfJD_DyyikHma/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlMMQXYI5CcHJ3hgkqP49EKofjerPulrTy4DuR5bYZgdzAyfkH0s_ivJcCba5O9JZZaddoXfUH_jVweojFA0mKbg2Hs9SAT744vuxvdHbK69omXI8=s220",
+        "view": "https://drive.google.com/file/d/1z8rZ4DWHGWAdYpu5UX6bY9g_LaPtxKLD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOl4CJRblt1a3QrDNlsVJ7VvYqETGvWZ6RzpBZjgaP6NugKt7JQ33ps-wUrMDWOeO4fQ7_dVy9d5Pbo-Pn2e5eFvjhZvh18Nal7PlE1zvNI_QD8CCc=s220",
+        "view": "https://drive.google.com/file/d/1czCcpx6d02XVECovuC6mEywAlhTyhmOi/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5rhmcv2Uohok1g3YJTvLLdNt5bCEGPCI1euCP3J_GWNCu5jw0BdNvsrCY5zVClCYHoiadK1BfEzfhgInPvzWgwy-lrsQu0WtA2zeZihZ4mYUFGcE=s220",
+        "view": "https://drive.google.com/file/d/1Nc31EQ-hmrZXKYZQnRX89sd1r82liHwX/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450154 - 30/4/2026 (9 FOTOS)\n  → 450154_inicial ✅\n  → 450154_folio ✅\n  → 450154_corte ✅\n  → 450154_demolicion ✅\n  → 450154_caja ✅\n  → 450154_liga ✅\n  → 450154_mezcla ✅\n  → 450154_terminado ✅\n  → 450154_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450155",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450155 - 28/4/2026 (LEGACY)\n  → 450155_inicial ❌\n  → 450155_caja ❌\n  → 450155_terminado ❌",
-    "_faltanNEO": []
+    "_folderId": "1N56BUzHHim8iDQb4y1A4JDtHNw52sxVm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVxgcpmqb1yRWB3tYzU5mfJZoGYA35knm8kfuF40oKweb0z8Wq7T3bLWJYIdmcYk7JA1gLTHZe9qDVB2zDzs7f428grUiwhVBftuPFDXGiXVMmx5w=s220",
+        "view": "https://drive.google.com/file/d/1qyx1C-y7n25D0ILCoiAryfjIknEMJFi5/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUyEGWFlhVrX_Wd-XklVJ9M97y7ZV0RtFSuCVfsbnUsFwE0TkZD0XVXI3ydey8-kkl9OEzdjt-5YZoFzieflOnJkTqCjBHWlv4m_HtdhfGh8lZ7UI=s220",
+        "view": "https://drive.google.com/file/d/14gXMHdvuwAJSU8nPv1bsF2ca_0GMP2Vf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsNoogDbEDNM0OcUkufPPi61T4O93S9XEBayhnbVkGm0Yk0l0sfqcd-nRzBvVpcK5OTUnDflZMae7-gXeOwzi3tF4thfRfDPK2Tep7w_p98dW5SRs=s220",
+        "view": "https://drive.google.com/file/d/1ESDdhe1L0HZfI_v8WPtbOYNiORDW9PCq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9xdya6n2By2lwxW0Ou29_TghbLd5TarM9m4jeA7_5KyilOS9G7G50mU_irMqUGm06MmwoeTjyL9HKZDGGT-2RQxmEF9iL6MlivwBxmN0AdodMB7M=s220",
+        "view": "https://drive.google.com/file/d/1GkdJOGxY_woiXffCI168pGFjNwnnz7T2/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGTE1bsVzuGJ0dmVxJF3Mdppwzq8zD6WeM78qESkyNrUx82OUAlScajFaTl4Aa6aXC10wzhAZu1_HbSspktmB8q9UcrER7leS3J-HPt50h2WnEFA0=s220",
+        "view": "https://drive.google.com/file/d/1NJNWr4h4jbX-SnW8n3ung3DiliCC4pbB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4X2V27zVb4_DMOJkMjeGvkoh5eJ71wMWv6rofPPjsSRyqu0Z_KjlfS73-GgwwkMt4C73_LVA3-MuuFoYeODPNz9FM1gHdhnKPvfk6Mb5nDmTmVsg=s220",
+        "view": "https://drive.google.com/file/d/1fTo-Q-UXdot2z-Qd1akMaAWcNGAGHIl5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMhmX4EAfITLEdshpKXt25CRso1GIDQH51eqxc_9wMEer0CTyq_nmv5kjP07yqYVV3J8s1yyheICxWY2n7MVOogJV8Pj9TyrbviA-X8aM6YF_ZOTQ=s220",
+        "view": "https://drive.google.com/file/d/1jogmVggSHEDfn70D3wpf8G-pUj85RgSJ/view?usp=drivesdk"
+      },
+      "TERMINADO": null,
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF_OXPbUYMCj-yiL7-yB-SPt9nwRXQ5DDkCtygsChTfMWh7mwArbs16MNsU8LvGfWxtHv6NudWVed4uAWM-gV2w9yvYskycVWPyE9dYohxZeWQayA=s220",
+        "view": "https://drive.google.com/file/d/1Q5Bfn719DkVqSa3N-geJx6WmhoZHFyYs/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450155 - 28/4/2026 (9 FOTOS)\n  → 450155_inicial ✅\n  → 450155_folio ✅\n  → 450155_corte ✅\n  → 450155_demolicion ✅\n  → 450155_caja ✅\n  → 450155_liga ✅\n  → 450155_mezcla ✅\n  → 450155_terminado ❌\n  → 450155_limpieza ✅",
+    "_faltanNEO": [
+      "TERMINADO"
+    ]
   },
   {
     "FOLIO": "450156",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450156 - 30/4/2026 (LEGACY)\n  → 450156_inicial ❌\n  → 450156_caja ❌\n  → 450156_terminado ❌",
+    "_folderId": "1InrrI2lkDLMZru7bEqjihIoXINqM6ehV",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkQiKvhpKiUZCNKjxNaPr3oM2X7EI7LJ_h_KJtMCzXi7IJhto6V5OXH_GoJZjoLysK2LpsS1G4JRklE8yx2cP00CSsadTOSJHh0YxvnSXZ7A77fIY=s220",
+        "view": "https://drive.google.com/file/d/1nu6QMfZT9FPUw6QsFJ19xrC97VO2D3kZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV0ZWSn_acuoMgzxQ_PPigmuZQUPWFXDV_adsZ9vBInaQs5CYo3Y3Zm07JMKYTgIiwuSQSnqt3mnLxWc-dmtznWry07UZo1RJxON2oJQqPx2IMJVs=s220",
+        "view": "https://drive.google.com/file/d/1vTuIzeh9skKirwNhjIc4PACgZOl7q2L_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6Si1qnACdQ-mVvJyDO4FyQJLrIsb0lq3CER6KAJXn7I2oHETvvzmtmU7x-CB8c-D1Wxi5upSuXAx9vCDIYRRCDED_N92CycPyV1fX_0LYhprbD7E=s220",
+        "view": "https://drive.google.com/file/d/1ZbA3omewCLaWM0_b92stImt2bkVh1fun/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCqT6AfcwWYI-uzBVPLrCBE31vXfISno5-P-tJDsxSGzLeUd2nadVhXy7tD7MC9Jouu-gy725YsCkG0OzraSQ0xEL495EKKwnI9R3cSbQZ9lE9-5Q=s220",
+        "view": "https://drive.google.com/file/d/1-wQzxfHTvjVuMOiQyD5eMdkzWlJCsDz2/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8kC7_V9zk2C6nUcB0t7C2QjapxplW8_zfO5lwCMErCxg9YEJEb6NKa3wc0Zilr9h1pnC16IBlLo9K7FZKUcrzLyg3mLx87bfRb2qrIPeW-AAOZeE=s220",
+        "view": "https://drive.google.com/file/d/1AQfGTBr4CA8g5IeE4WwYJxosSTd21ZtY/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPR-3bqwdcq7LKePwkGntb3xDiM-VOrEx9SPuJzcrR9s07XBCigODA3NBX4W-4FD0oRgxUxG4moqUlaTRId8qPYLq4arRPd7KBC7Its9x5xrEtWgC4=s220",
+        "view": "https://drive.google.com/file/d/1gRUA-AWuHBsWZqcCUrIM_OYhZY60Cf16/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIU6GdLYQndlfQR4TdzreistdAESmUySrbn2HptBlxJzD4Q-umPXFe0UWv7uyYTrE2x5tXpzX6ermHE_fCSbxchv8CTdanSSBCkTh6p3xqG2YRKpk=s220",
+        "view": "https://drive.google.com/file/d/1cONr-dJUsffNTuhYmmrWYqqN4px-D4R5/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdBGTvUOBq12uHcIT2Fw-Pbk5chqhpuNVbwxYSNAxtc5oN-cyEdJwqkIO8a5f4yPJ1-6jBGvhYwYUbpwXqyLVpp8aUduT9rR-TnwGoVv3LV15aWo0=s220",
+        "view": "https://drive.google.com/file/d/1oVm-WO5CXkgo1YrOauFgX3vJNwsZxv1I/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeTdmuTewMRz-msoTMEtsmgm5xnWpm2xkjYl-piGU5IRI8hcPzOKH5BjIAuTcCfit82w64OmCEoO9nTL-CmCThnzK2RhYm4PhcOssktiPCtHaBi4w=s220",
+        "view": "https://drive.google.com/file/d/1NX0bm4oEgTEMD5FTPzd0mDyix7m0dA9o/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450156 - 30/4/2026 (9 FOTOS)\n  → 450156_inicial ✅\n  → 450156_folio ✅\n  → 450156_corte ✅\n  → 450156_demolicion ✅\n  → 450156_caja ✅\n  → 450156_liga ✅\n  → 450156_mezcla ✅\n  → 450156_terminado ✅\n  → 450156_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450157",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450157 - 28/4/2026 (LEGACY)\n  → 450157_inicial ❌\n  → 450157_caja ❌\n  → 450157_terminado ❌",
+    "_folderId": "1I9BqJWBcQxwdc2bhjmDK-3d2PMQjiPEp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6s4vZLOToEhHTz7OqVyOZd2fBa-29NrBO60-As4DhbtL_zARPD7h-GZtwf2sIta6xI_c55y2ahQe2Rs9UkeCKE-wmdzBt71VFkAHMwEi6JuvErf8=s220",
+        "view": "https://drive.google.com/file/d/13jXnWMQWd1yItfvVGwoMp0P9RPmJNk2p/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzRKjsCjyJZC1j7wqACkgyGNw9pQiziSLlSwF6y6c3Ne5AYTnXBBeuhzRpBfHR-0KcmbkWT_hRQy9zXUspC2xKWWtF8GBi5uqv5-haYa1_C8z-cTE=s220",
+        "view": "https://drive.google.com/file/d/1sPhqKJmOaw73-WDUcJprDPSifqf51Qd2/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9uJ6tDuk1x4uSonYnZbAxZFD8EftlhJJV2_fEc5_AOMyfnyOCh1IQWsujdN1ZJVgUE8JvN7LiS0mwUxsbIP2mIN8x-qtyNeOGuOBASSfDZ7GWvl4=s220",
+        "view": "https://drive.google.com/file/d/1fdkiKFF-5Uv0af3Zj8RC_C-H9u-vsrrN/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOykRU9UK65Ld4nZkZTwZrrJyd5bmKv0w8Iov3EcSNx1h2RI-5Qa3CZvqWf2_ByVwdboG7B4kIsuCOkdQ3lS7QfHTiTYjG_W8G4lxK6U-OcfjvHEyI=s220",
+        "view": "https://drive.google.com/file/d/11-HE9LNaieX4u7szyCyN2bkjaQqz88EQ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_2sLOL7O9qVo1DXjpS4fUpV5KYQZOD5vClIL53va4V3VkbD6jO95a6HjXycsHeOo14C9QxRBaygh_bjOtpMwNoUvmmqkmwR-QgCjL6lqWAHkvYQU=s220",
+        "view": "https://drive.google.com/file/d/1EbnOcmpyrUiXQDL7aYnhkGJpIlYjYpPm/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-C98VG7WyHCGMfFGpZst7bstp6ybdFuOstZM3-qCJplbf6WGr8uYNx-c8DVj03KljZb0bbjNolOYRk9nGlacMU9wC5jvjeJhV9q1qwXH-5SmxQRY=s220",
+        "view": "https://drive.google.com/file/d/1YeY8G449HcfCTVoqMbhcnKzgW-j97ka_/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_cu_DuIdwCQBLBaNqeYI8H1SY-sveCXcmhJoqDGM01f7i1MCC53SJRO534vM2KRAFt5K4nWV6KF0YDuub-Vl3Oleeblx0eenza7jnczz7tFGhg5U=s220",
+        "view": "https://drive.google.com/file/d/15cSj3ZFNS3STR1fMTgvPX2iph1aqCPBr/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNozoDUMmtGovAp7ovgCHtuMAQxrZodcAiCrUtECAP6eWj42dYLhJs5BEz5ByYvbq4wozHpPGOcLPMRhW1ktUTzuGZulCufIlXhFFH8WF0_iNFeHuY=s220",
+        "view": "https://drive.google.com/file/d/1C-I5JjvpsAJEDafCgMU6FuhZHmTX4fTM/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOBJkFiOpTWv4pBQ5ALYUTxZfqkQVOY7GJtZ2ux5Csp7r7ox5sFSA_0YzpuDWwu_Yc7j_84iprBs0CATFEP0uRJQmy386MeN_ty9tVjhDdqERENmw=s220",
+        "view": "https://drive.google.com/file/d/1yRyvb7_Z9FuTuHs0Bx_RQaqStiYYk_6i/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450157 - 28/4/2026 (9 FOTOS)\n  → 450157_inicial ✅\n  → 450157_folio ✅\n  → 450157_corte ✅\n  → 450157_demolicion ✅\n  → 450157_caja ✅\n  → 450157_liga ✅\n  → 450157_mezcla ✅\n  → 450157_terminado ✅\n  → 450157_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450158",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450158 - 28/4/2026 (LEGACY)\n  → 450158_inicial ❌\n  → 450158_caja ❌\n  → 450158_terminado ❌",
+    "_folderId": "1KLDGzlwPcalrXXiySQF5d8VzjkHx3idC",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW1YMfOQwhFy5jpYIvMDJvKk8NhcWj28z5t8Qrc56FAIRpWOP9zTVhqM6rWEEPSMmUNatJmBhZy7c5jHxx-7jX0sQp1XvOCGKe-h2DDUjwKevSLlE=s220",
+        "view": "https://drive.google.com/file/d/1nznvqA7n5L3GzS6uU8R6HjAmVfQol2XS/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrZgMPYZxCB3wNFpZIfwXMwU6SuKOO-0UZ1QUDOU_tk1c5Hf6t651V36jVAEerJsZPq8Kp3oDCsrHZzb9Gxpp9TaJEhUIUEkf6oubmF2os0rKIFbQ=s220",
+        "view": "https://drive.google.com/file/d/1TO2r2fRbg9uxOPJCijvVI8riDxBIl1mD/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP26UaHYlYE4bYnYHviKIK9z0JJfA-Rl8WGC_cPRv7tokLbdR1oezpuHhx1zu3nprb9TkFQpyiTW9IclcUYyvGINixVjWjR-urIGN0dh1FNDNP2cGQ=s220",
+        "view": "https://drive.google.com/file/d/1ga48pqWjjqRU0LZRr850gmbv8UiNN1-7/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-PmnRPk70iHhvu2FUSF_L1aeCKFfJ0H4fVqsIHBfylhKjZdwAse8y2y7NbY_Dw5rWqGi8DCsAWZucv1S-3PI7QWnIUSEq2Zssst5o4ko1jQWbBkQ=s220",
+        "view": "https://drive.google.com/file/d/1vAShw9zCEKTJpNcMI3g6SzyKyBJNyzlj/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNKwmejsYCM-ESQ1emx3cDH7OVA53IJdDIwcdRjW3ozlldgknUkXIqIvU19FYXKb6HL7MV3Sy8_w2tQJagg_8DpZpy0rULRJ_zD848QxaXWQ4K0Gg=s220",
+        "view": "https://drive.google.com/file/d/1CWWGqwtNQ20CkJoBZ5Ab8rbrI9MmFoL2/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPj32RrCMNYw3iKz9K-4Ud3AVH1_UAtikJ6WFoU8rLwKqC8MDPoXb4mg0P2UjuxaOTG-kcFFWz6Ah-BUYvBkwZ4WvAD9IMsvBjS_r3eAjAjvs2dkIM=s220",
+        "view": "https://drive.google.com/file/d/1g5fEtidO9pnipguno_A0rKgAj3blNRWt/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqVAxNcZmEM5DHmuUodlUPkHApAtUSq5JFS72XAoYChoCt1ujgq1IvKjIPZ6bZSZtTIXXzvZhR7fvLvwQ41OVL-HkUWssKci94ueliWb5KtsB5NG8=s220",
+        "view": "https://drive.google.com/file/d/1ch8g9vtWTY1tJXK4057gLzNp0ezPo5fH/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaUIf5TrhgrhY98bCA6aC0AkE8X38_Pdo0u2NiDh3HZiR13Vz4kgu0uUL1VKsQkDhyPTiltJDwUz_lcpxjO07sswWQJVHCpCTlvGy6XS8c0Ti6g9I=s220",
+        "view": "https://drive.google.com/file/d/1Kcub4b077Rwz4w99EaxkG1kmzUIXX8C1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOt4HorElfvRwuNlEKb2pbzWT3ncpqxqYEsi4NW8z28zGBdj2pLYgQioUJY6JTN80W8Btrp9PTilKlUiRjN6AkWzagcRZTJ4Osdidp-x3OS5vmeUU=s220",
+        "view": "https://drive.google.com/file/d/1Dqgv8MSVZvZvBwsKjUowcyNmFNuGbelA/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450158 - 28/4/2026 (9 FOTOS)\n  → 450158_inicial ✅\n  → 450158_folio ✅\n  → 450158_corte ✅\n  → 450158_demolicion ✅\n  → 450158_caja ✅\n  → 450158_liga ✅\n  → 450158_mezcla ✅\n  → 450158_terminado ✅\n  → 450158_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450159",
     "FECHA": "28/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1wUh2QjwZyQDrKUQSC277CgSuutmOTVME",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBGTQ_m4xaW6dqDpsNWla4fvhvH0RnyyRYqvOpW-jZShok0QVdqGotIz-iYqLlUJ6Ua5AIiIrNN4t0epEwZHp2IKjd8OvPPJmCZT5fHMN1reG-IyM=s220",
+        "view": "https://drive.google.com/file/d/17-E5UgZPtL9erqvTeQU62ZvFIDIMTRgu/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYsOIJdBiyspMQkfSrc24VBX2W3jALnGxnFMijFV3b5iYLDYUc6wLCQGmgPJNTjeyUwBwuVEwE5jTWD-5noDCiphHWRWN_pT_E00CviH6Bayrzf0s=s220",
+        "view": "https://drive.google.com/file/d/1koFEs2LzrbRkl1ugLQcyK6z5Osnq7RVi/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOQHR_nqRNwd6wgJuoogWFSWi_JwrrxhLM-4lRbYV0q8u5tvwOB1UHkTY7FFavKnitl27sLFRD_PUEUcDlp7wIGZ2wDJENYTksuhbF9-yEl8xr-Jw=s220",
+        "view": "https://drive.google.com/file/d/1HkSDxlBgFxqHkJHGcTMYDHYBowJEXRse/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOW3eT3Wkwme76XsWIsBTr1eX9CClj_mfor4gO2JUXvJeihM9fM8P9BpoKJhqHGPFtxKjRrIO3NqkMG1DO8nnHS_ardqkkkvBwT6BnEP4P0GZyIXos=s220",
+        "view": "https://drive.google.com/file/d/1-t_KKPWyrjm6NIjpn3mSqzy-hi134KRz/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZJNVxqqi8jQ07anhZHXHbdlh89Sv9ekzAGJeyp77l8Q6ER5wZ55sBlHiuE2nQHb776mNfgHibNHOD4pgHqef1DDTW_ciUUeYThYa3z3yuu_L13ek=s220",
+        "view": "https://drive.google.com/file/d/1d-plmrgyeC7GD5vJLGzB5PCAVVvYjlBi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSCxkfW2gQm-CPixaCCL90AOxneBWnCS9TzHlZild-FpGfPSf6xhe0X4B-bUFWQzAK0gqXwCNFdOBKLx0Py3GD83y94k8O8hrh4zDcsqM9yP8kGwE=s220",
+        "view": "https://drive.google.com/file/d/1ujAstSWY9KFdqUwDTTbNulnZvexhyFeL/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwv5CehLirzTcluY7uFUAa26_0YE2EUBZd7CFf53NkoDV6ARhGLP6uYyqrw6yLSp9pvknFpWapstpSvieq41Ow-UzCHNzB9Xk1PTdOwBWkU_Rf27s=s220",
+        "view": "https://drive.google.com/file/d/10r1rF82c7-lcCo5PGfIL9x7dkG5siyEA/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYTXIAdmTotv1q8fJUYyCW_vC44V4Qk9eQQT-DI6tHLo2uL0ABGk1ObrNxr9li3tG9vqtd3StB9IitE4_X1AB6Js6cjiyaCwVODKlkdwdBApnLZt0=s220",
+        "view": "https://drive.google.com/file/d/1xiK00Dh73YacHgogdhRiqBLXFKmWbMrU/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKkliSejgzMPdckPHE0nFbK9Ive_uk1lovYvWNxBRIqdqBsuXGm53_rf7E3nr2djgkBd_KolegyglhrJ-1rQWDOFKQc_nZraM8bfPiuAJthaa5zCI=s220",
+        "view": "https://drive.google.com/file/d/11p0Di_MH-yeuQwUq0F_miR_R_lI8vNnN/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450159 - 28/4/2026 (LEGACY)\n  → 450159_inicial ❌\n  → 450159_caja ❌\n  → 450159_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450159 - 28/4/2026 (9 FOTOS)\n  → 450159_inicial ✅\n  → 450159_folio ✅\n  → 450159_corte ✅\n  → 450159_demolicion ✅\n  → 450159_caja ✅\n  → 450159_liga ✅\n  → 450159_mezcla ✅\n  → 450159_terminado ✅\n  → 450159_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450160",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "13X8FvdTVG1rPRVD7-o3wCSUytVlWWAVK",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-2Hn5lKRs_wOLxHkb4_ZUrk7w99kuonWYGZmwJEaxgPlat5EW1Ckyjb3Jk7iDCM52gV8tsk15z_4gho_lxrMZPLEgHlcJPggjfCbQFhbIexrTM-k=s220",
+        "view": "https://drive.google.com/file/d/1pc1-bNaQogpLwOzB5N4tIW2WCxO_DKh0/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUKea7DW_q3zHx2Sox_TR_73rgL3ABLTFYKIWEXqbggE3o6Dmd1gyln9ePbX5QiAvEJQDgjQppCiK5Y0HCOmrPAk51IsnuESywQGbm2neRTPovZU8=s220",
+        "view": "https://drive.google.com/file/d/1rEAjgWgUi8ogENvDg1Lr3b9ah7FCpxlf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwiZre3u-AlWWCZtvDnnmXGcLnX8P2YHKcARf03YecelCpwvffk2yQ_VWJybpmLqdOGfMIoq9W8R4Z3J3-otgfaFFbQczukyemmZXdrP3fcg8m9Is=s220",
+        "view": "https://drive.google.com/file/d/1xJNUW3Wl_kljkwBC1SWyq8fQVh6pv2wZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPricgihsmqVRjL6Nw7rFgbfWhMbDOXzdFYnL2sSWOIhVdCh9OuRoApb0ULqlPTBSF8cu6SX15jSINaxfVb8eDbZmt0ltwH3KphZw_z2snzjPRdfA=s220",
+        "view": "https://drive.google.com/file/d/1MRKSzvlyWKDCGaPry6kX27KasJ3MICJR/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLzjFgHrqSGGSVkbPze9aHf5ELA_yr4wmnZytbxiiooBcntfTPopd0ucbeY2l_cJbQcFIBEbVG-UctNliGJ_vtuaIJzqtyRXYbWQawuX3wmcnn_jo=s220",
+        "view": "https://drive.google.com/file/d/1L2LlmNTvMXY0n3sUIA5_KTsarT2Us9K5/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhQVcvMx2L7G6cahIM9C4syCXTTLJ3S5RYJx1vZT_G0c5lt5NnZzoEwNzpZvx8a3w7UuwifP5Qt8psbPHOpa4SIri7LZBuniKDcAnG9ey8q6xbJj0=s220",
+        "view": "https://drive.google.com/file/d/1kAB6Rxd4DWHD4LZgrHZlZieJ6P0wrEyX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMctyE-iHAfpUlMvxknTFJ1uSd7ZMsbzpKut5v5e8Lzzgo-F729YXHbOI1h-LATHmmNd-TbdLDvITGhzodtYyYMZ5i0-nybXbE2TB9R2FJR5LR78Es=s220",
+        "view": "https://drive.google.com/file/d/1XUOTUBNIrUWtEgI7N3PXyx6cZ3iBnRGP/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-fXcwJFEv96p9sqL05nZ6cs4chgH7t3uug41GWbixed8AbodLqNYMN7t0p4X4oMSgQ-lGMn7_YVDaEvF6l7XBImz_2yEr0PrdYayPMgAFHNXBkHE=s220",
+        "view": "https://drive.google.com/file/d/1X3nt4SRBqW8MIlh5TTV4qBOqJWOx3JQp/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFhLC1-DzhodHLzJlt7o4eLzmXEatxa_2j73r9QVaaOvD9l1mUznSJiZ8SEub4Dtu7-9J8V2_ci9CzoSjb9tyTD_2OllZcRtjnwpP4DiCxIkrtxrg=s220",
+        "view": "https://drive.google.com/file/d/1m5XWvoXrtz6lMQhQ7KqOaTLRKG3rYL0U/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450160 - 30/4/2026 (LEGACY)\n  → 450160_inicial ❌\n  → 450160_caja ❌\n  → 450160_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450160 - 30/4/2026 (9 FOTOS)\n  → 450160_inicial ✅\n  → 450160_folio ✅\n  → 450160_corte ✅\n  → 450160_demolicion ✅\n  → 450160_caja ✅\n  → 450160_liga ✅\n  → 450160_mezcla ✅\n  → 450160_terminado ✅\n  → 450160_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450161",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "10u6V8CxMRfn_6G4d-5DLtgGLs7BDJAkm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLRw-Y9bEXZ1oyEmNQq29aPmzxhc9SproNg4LD25IvgAkK4WxlISfkdVB0g4Ro0N84xslhfy8zMZ1lZq1dbC67F-Xg1fCvePz6OXcEwvPtFY40c6Q=s220",
+        "view": "https://drive.google.com/file/d/1Z_GxJNHkTT1baiWr8mYCXWbPN_sRciHe/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZ3iuSWBoLpO7o1Vq0tbqmx460o8DV_8IKkFyXOmMaYF6D5IF-vHIeQGzu7U4DmomDkixqG6U28KRY2vYEEsHKNfu98bKQoNnti8z102rrmddBZ8E=s220",
+        "view": "https://drive.google.com/file/d/1CWGc55SIFeDwpTOT0VhnZn6jV-_IXjUR/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKxVWycoI2isIJzoy-PgpUViv9-wzf-MhPQOzufvnW9mRYJ8KSqwyUHKueiyvZU-8QqU9jl_GipaWj2nK3-EMF7S5m1PXgAL2ZG2ouK6RjR8DYlAM=s220",
+        "view": "https://drive.google.com/file/d/1kEwaEIOXOIPUxX3JsA0KiwIRBQqGtaSh/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOV2UcwaI7onD4Dg6L5yZyTBY4bAK7mSft1-owyyCIWAcll8KxVf4Tys0NlAw4bkw9uhtq9Z_bcNVcsJwsPL46UcIEg50rkvWhSHOSVZNh-l4ZGtSw=s220",
+        "view": "https://drive.google.com/file/d/1rAPkytYFhesnYV9GqDDxeJCkUGsMnijg/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSCT8cLwbyAtkKQ6ajULj37xtMWwcMTOVFpb_qnm0pCL7w3oIht_H1Gbj8OiWMk9lmkttSurUqjGOqd5nDl1LptAwm-M-1htw3quhZYbRIhnbElvY=s220",
+        "view": "https://drive.google.com/file/d/1jXbTzF4fSRDkD190Vh7tFe35Lz5VQjOC/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONpQHMmZTvW0Oghh2uv_lcLeLURU2YQO7VJofq7nh3d0Jr6F7wBr7iMpQ-3j7udEwSlrsQ7vbQiDnhmBLsImQi2vzQrOVb-7yiRb554hAZxUO_gd8=s220",
+        "view": "https://drive.google.com/file/d/1F_cEfaWDXin9g8aPWljC8itSCm8dRseM/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4ASZ1ciqtQ5XF-ITyTzkYRCYIIG3HcRU-M19GdGrOvGbT8LP5uspECpvGJETqJZI5kUgCLNDRFiKnTEZt5lUEXp9aGFbQLO8N3MFB8-JBOo_ycVk=s220",
+        "view": "https://drive.google.com/file/d/1_ufM0x1j6EvNzSSiuyfjYsNIUhkCinCr/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6lLxaaTvmeNu7uydg0tsdZhzvMDXxKJMkQAR_E_h4d01oZAXdaEmW3VcyWwfk1GChtbPoDL-W7t2MwR6EpmHPsVaoNksHMWE6F3AeS-S3jsKZPuM=s220",
+        "view": "https://drive.google.com/file/d/1huYq9SyMKF5Hn6-aYgsSiPTrQVxx-WiL/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_Ew_23A-ueNDVHqvXIUotA5rZ2e0MDxP62SfViUkCoYTh3gvKpVzMMQiDZGMyG4iDxqBNETlyGkZCGp4jy_KylCJX3Ogun4WyznAxIzRKdRDpAAc=s220",
+        "view": "https://drive.google.com/file/d/1PW7Ui77QHpQINb5L4SNiNC0-q1177jL5/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450161 - 30/4/2026 (LEGACY)\n  → 450161_inicial ❌\n  → 450161_caja ❌\n  → 450161_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450161 - 30/4/2026 (9 FOTOS)\n  → 450161_inicial ✅\n  → 450161_folio ✅\n  → 450161_corte ✅\n  → 450161_demolicion ✅\n  → 450161_caja ✅\n  → 450161_liga ✅\n  → 450161_mezcla ✅\n  → 450161_terminado ✅\n  → 450161_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450162",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1fYv22AePZQurwLN8Hj98uWP3cjMNGDYw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVNDd8Y56OtB-HHyHLlYahEnsuWn3KIvnh90QZOogXJiX4U4WdQz9iWfe6U38iyCtA2zGmpCykAjNTkWBuiCGejr5fHjTb1liLbNSkCnFPCVzKaJ4=s220",
+        "view": "https://drive.google.com/file/d/1xajJy3-MLS7OseDQCh6P_DNzCDBSfKhV/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-xBRHcOEVq6UsLMFiSoWW57a5exkuav0dACKNTyaHJIkSGcLNef09CzBuxMPDJT0ko6tuaaJ7zPpE6sqdLmkVR-2wDfYJb6xM_4o3khgO_xRq5pE=s220",
+        "view": "https://drive.google.com/file/d/14QITcJw8lJJRy_tv_Ra9TmjsD_2XkHBU/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtPhn4WTfh5bQPBx4fRvLD1w30fpO0ICFf-i-l1fH82SDE7exU3LDJVkpp3pcx9H-D-3Ef-eJ15afw_RHDUFII216UDAMVpaRtA4pcoD1J4hTUu-o=s220",
+        "view": "https://drive.google.com/file/d/1_IrIGQWMgEuQ17cEB_1syZcKchLrXLJG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhirT9SLvlp9OI05nOiGr9vgkaij3ZwF3-GTtK4YF28siLdSa9jE8CPCnt7n_RU_nOt1KFugDKgIR4-2ECtJeP7cNszVzJtBZjuN4Gc3khKLS1spA=s220",
+        "view": "https://drive.google.com/file/d/1m9buBb44p98E2h8AJi_weShMaJcRa_At/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpF6HRRTlYSrcp4RvXrrpjYqENXoTB7KpnqND87VC5bPKZ67aTt2-gXuDfQA06TmPdZ_l8RImwoPv7nB-gMEhKXGdiMwVpo2e5TQ0Z1VjrNUfAHyY=s220",
+        "view": "https://drive.google.com/file/d/1Grp9L4OdVO8s44a4CqoSPBaskvEKUrWi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzUzWz7TLeHp0Jgrs7fqKPC39UkDLIcOGcKzPGgvnkDUu9inZvait2_4MRyzkQSk-crSXw6meRJ-aWEvQfNGI_sHD45mD1aeQGyg6W0EQKJw6Vyb4=s220",
+        "view": "https://drive.google.com/file/d/15Iql34uxRKFaQlTgvr53Nzhehc0TOlH5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCp-HEsoWfWVuItbNyjPxLzdTQlJZSDEJ_x2K9Wal9Sxz1dpGbcEiNnWFEhc_KgQhezS1qaiJtQSRVFjXSGRqvLKc_8lTkGErzR4D-frAtVBd10I0=s220",
+        "view": "https://drive.google.com/file/d/15LynQHbRzmOF382tu2vf1HZ1-POX_0cy/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-u1zOY8qiSsyxAXJwLuiVYJazyhyCubUBAfJzmHbIhvP5R3wOeAGPY1s5ozsB49sCK2FQkyJdcBxDN-W-eA5iwpubyVto5YD0wEDdsL6lUq2zVSA=s220",
+        "view": "https://drive.google.com/file/d/1zAkOcPTSl-LEjWAV16b4PI57RgaYHJk-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdQl1g4rBudguap6QpfoYdv8sdXRkJXAe4zrNLR49sXQzrUBFenCo6qiHoXmXvsRi_XGyc07NWvr97Yhx9f9VlUfsx9WHv546ueblsp_CbrGkI-5c=s220",
+        "view": "https://drive.google.com/file/d/13rUVpdKvOJZ2TfBCfiMbHQ-V5C31XDUI/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450162 - 30/4/2026 (LEGACY)\n  → 450162_inicial ❌\n  → 450162_caja ❌\n  → 450162_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450162 - 30/4/2026 (9 FOTOS)\n  → 450162_inicial ✅\n  → 450162_folio ✅\n  → 450162_corte ✅\n  → 450162_demolicion ✅\n  → 450162_caja ✅\n  → 450162_liga ✅\n  → 450162_mezcla ✅\n  → 450162_terminado ✅\n  → 450162_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450163",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "173HPO3RqVRpqQuC1kq_bDwpXrn4_Nao4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZJIp1HW1bYm3mQRtDUR2krYof-UkezzLPpFaj_5g5BAMNFzu-XVCQtb2CD1xSqcq_mC6mkQvt19jUUraXfqk0LUDkC014axCNmBT58rcjAeDckiA=s220",
+        "view": "https://drive.google.com/file/d/18t0oRhCtLrUJvGos7-VYTu6_nt3BolLl/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLzBdt13kKU2mNdNqlPYAaf87jPf-h4F9bborVuqZVHDJ6o2JfvYc1EIN28dxLGn8Vxsz9sSXCMsaG1GawFm4n23lGFysO8SfEBtOvwTHt-c_GWqg=s220",
+        "view": "https://drive.google.com/file/d/1LZuaTbXe7kRS4oNfGMgXD3aJHr2pw0Wj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpQrpsoXujr_LPArztLFgKm16wtcCIcxw-0lwFP3wkI7y1XZtI-icvwzEa78ndIai6PJd_IBRx4PtqFLMJEFAxCvvXgDk8JTzyHI7BhcG0O3UJFRk=s220",
+        "view": "https://drive.google.com/file/d/1hMeML8YKPCtkgaJ5qMpii8YKIy4wfgac/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkj7UbAntD7KyS_r6H0zZGaDPO4tqsR-95d9JI26Bnj9EmaVm2P8gGVqcchU9gxENhEaH6D0XRPNmAGWkbBfaegfRI9aSkZcZMyKMluLTMISjJ0Zo=s220",
+        "view": "https://drive.google.com/file/d/1p1z5WxfVPyS15XE8KoJhxURIfAX5PH7G/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFOX5ksGFFSyvMTOz-aFqio7mP1JYxWUyBp7ExLwR3ERCb5pAF_SEu5hQSNmr_SOSHAHpUixjSOfxkGcKO-ZWNSLcBTM4DTuqBzntFxHgkCt61EXM=s220",
+        "view": "https://drive.google.com/file/d/1Jkj3aLr10bLCbfAbnLIAH5D1JdQx5KnC/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkAOFcWuS38xRetNXQ_W_qCcPCub6rSvRhCkU_lXG_DI_-6pTcmlIHFzYuxKS89EMYIAp3-AarywbWEKIV5hsoFvm7U43o7z60eF5h9g5drj6G8ZY=s220",
+        "view": "https://drive.google.com/file/d/1hhsRx4LYZzxUXm228r7pBdPraMDgnC2S/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHbEgClY2hvlGmwz_gUsO8py-Lf4dFoMR7l5QXaahTChbg7akozHZCo35kQZ9jOPGpvDZXsYt4_JnmZKJkrYh3TAyUc31riiTfrhK-FD5rdneOljQ=s220",
+        "view": "https://drive.google.com/file/d/1v9guKRcPLrjBXb6ifv-6a2O5XM-h0zDg/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvhDWnfv7CIizuyIF_H5s5I_1Dles8onZI-sItMaanNrmX-tTg4dvl_cgGRX3M9Q3CAfvvEOoLZtFIg5z1xzJi_K0N88pxsHuq6iKDNT_tpyR35lI=s220",
+        "view": "https://drive.google.com/file/d/1_ems6CUIHsPDrIksu7yxahdkWX8ndXp2/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxXpJzzpOUV_ya0Akq99N5XPsCr6O147wbNq_UdlaXbUtmLpfKPIt6AOh0X-L0m-IMQLYbXFomXVmOmomXTMt6Qgt-f2i8E8WcLo9KkisjtVnswuU=s220",
+        "view": "https://drive.google.com/file/d/1dEod7z0fsQX273qYPR8OyPxbkxsd0VCq/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450163 - 30/4/2026 (LEGACY)\n  → 450163_inicial ❌\n  → 450163_caja ❌\n  → 450163_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450163 - 30/4/2026 (9 FOTOS)\n  → 450163_inicial ✅\n  → 450163_folio ✅\n  → 450163_corte ✅\n  → 450163_demolicion ✅\n  → 450163_caja ✅\n  → 450163_liga ✅\n  → 450163_mezcla ✅\n  → 450163_terminado ✅\n  → 450163_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450164",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1ZH6VkIuD2-wCCWtkZ7OfKFIZ6nvebccx",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUaDQ4tX_sw_9qsvf1EAlNLv-YSzxbJXPPJGOj0L_upa9owWR3-yigv78psNELuf1d2mj4q4hsI5HDUalgrF-3eZdZaF3nJQ8UiCuskXGtwzO68X4=s220",
+        "view": "https://drive.google.com/file/d/1zgQpMhJQzPBxbmfY8bBFxf5SX5fy5T7I/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJVFCXY3XmkvXo_d6NdzpWPF1kNZRDsRxt3Rey3pkGJ3ngf11BItQgMmmSFKvgUMBE0crGI-cX3WNfoIQRKIZC5tDD_puEoswmVEadnQTfJxv_SZE=s220",
+        "view": "https://drive.google.com/file/d/1tWUK0milgnka8ZHYKZNVnVQtIkR346Ge/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBMI76breB5TD-TvWxZV47M-o1xgcySnbn99ATDIjwzZmIM30qoEzegnA0jpLbCb7DdsNbU7uwFzQTMNViHo34DPJKYxRR907y4gw5cTxKM_ZdPzM=s220",
+        "view": "https://drive.google.com/file/d/1c4BCgVJvWqUSlBxE5nuWtew07P_imG7v/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_BcVn3KztbLUecUEmozoSz18mR_3FxQ67Q4ARwSCupGEXgHmccDziXsgmIWGVmXgrllKZ6Pyw41mSJ4U0odA5VDcvwkn4J_Zz5TXRmYaPp41XEwg=s220",
+        "view": "https://drive.google.com/file/d/1Oth4iu-r1ky7ZpqVQJ_NLCxvWfxhZOda/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQNRshEVYbxZtrdX2z8Q5GJ9-UZduGnqS3EQ5xqGUpUs2SAzzx3nimbNt9THSzX4ROhK_JNAkeJc38UYfcFgZgWzyM3su_oOnMBz6oWmnZuUhW9TU=s220",
+        "view": "https://drive.google.com/file/d/1roI-NtpjqdOKC4sRxA75Kn9skQ-Qp5Wi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSFR-XNbJYpvrrUuUyKRhuXtJn5gVbMW4komlSQyzoxjLVz2pWxnGH2YOabsZfrEdtm5RNXDJu8CG6lcXL1-FLCB-YxFpM-cIoR47Yfa5-YqNYPtY=s220",
+        "view": "https://drive.google.com/file/d/1El2mDR63YlenvaZAcYDIkqxIuURQhZu_/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2Epfz44REe5Q5EodwunnBHlo_pcwCVP8heuRdCp7me20bu_iep9zPhP4cYIbRaLFs5SMxAla46Au8eMwnc-FhYjvm5-3J-C5mk7CozD6g4jhmUjc=s220",
+        "view": "https://drive.google.com/file/d/1156S__u6x0-uuEeghpVSKKeS7mkBgRJZ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYOClNF8id53MSfQXX3VXXE7p7DiTczAJUdb3a1cC6OVrOvProwBLrZ4HErFcyStg0rPUyQrgMUE5gGAimmoeLT8oAabXtECd-vSjiCAnPbukKGHE=s220",
+        "view": "https://drive.google.com/file/d/17jM_23icd07HOR2eN5Ss3tPtv3dCtQbY/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1rT6zCqop3AzyRlPR0CUwveW-RkfpaArGyUB30v-TCN__gM3okNfpw4ska_31jC68nrxm7SV_gtKBxDUcP1RYiUH2W0YCXx345099TVObsqPgq8E=s220",
+        "view": "https://drive.google.com/file/d/1UPCQzVHGgJdB5L8guUy_70JI0-RtwyzC/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450164 - 30/4/2026 (LEGACY)\n  → 450164_inicial ❌\n  → 450164_caja ❌\n  → 450164_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450164 - 30/4/2026 (9 FOTOS)\n  → 450164_inicial ✅\n  → 450164_folio ✅\n  → 450164_corte ✅\n  → 450164_demolicion ✅\n  → 450164_caja ✅\n  → 450164_liga ✅\n  → 450164_mezcla ✅\n  → 450164_terminado ✅\n  → 450164_limpieza ✅",
     "_faltanNEO": []
   },
   {
     "FOLIO": "450165",
     "FECHA": "30/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "DE LOS EBANOS",
     "COLONIA": "SAUCES I",
     "DELEGACION": "SAUCES",
     "_company": "TERRA",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1lqC0lNSPcNVLh84tFAcT22d0-zOCcZvp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7kbadEn5-zXr2PC38S-Ln5_71aN0Ak94f3Qpv3vnpE7KqxIIIwmi8xPYCLu_xdTyKukrwKYnFN64Knx7ghbCh9bq721AUkI--G4isgfLcAO_BzNg=s220",
+        "view": "https://drive.google.com/file/d/19-Yad5JS7oJ-WI7zh5ZMCinLOcrsZbCL/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFPh0rIoD3fT9WBkV2BMeVeqiw1gKEgtchuEgGe7E6dKHQ-WHP0RQgBmfShI8everIvtPC9ntPpDF1etfiPr0n93dY8_txjRx06HJQVpOdSAEDwEo=s220",
+        "view": "https://drive.google.com/file/d/1rS76u5XG_Y16PtVOAbp3t6hKtOW3z7wX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuxWxFPHANfxrviLp60iIL2g2k3QwgO5oYjBX9Xiolm9S0dhIKbGuuAitELMNjg5R693Qkm307lxiL-5fll5s8X2ozdfbY0zYNCjBqlJgNAJCAURc=s220",
+        "view": "https://drive.google.com/file/d/19sJmfSq14lMYr_AMYZcY0XBRZy83mAZd/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMFEJKCG16RbdVNM88VM53KLQS-nFSB2n7hFwUn3ZpLQnuSPEi8lFrWqxHTJV_iwkL4yKr9t7q9O-HVYxVfVDdPY0y4OhqVRea5L0J8t9H_dan3IE=s220",
+        "view": "https://drive.google.com/file/d/1cd4azY6qGGEyNJXTO7LVg0MhWwnMV7r1/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxZvFyftzjhBiDLQRWUk7h7m0V-7BKj5FntnIHGq6Rk2SpczplQxzUPb5wHZrYcm6zLPK1vjCDCty0q_nxx_uARrVpXzKng99xweQ32UUvavPmLJw=s220",
+        "view": "https://drive.google.com/file/d/1Y5uo2OZ1_gD5OHkra7oAGBe0yrEWfQJ-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtTPEqlQ1j7dvU_mrO0mMp0mi2gJA-CXyoPx13JvKusOSGV9efkHO1iR_pLuu-rc1EciaggV_PESJs5anI73VTVj2Xa3gd5QXOXHKL7941zu38On4=s220",
+        "view": "https://drive.google.com/file/d/1BR9UJxdB1GWVyCNMLPRkee7iS6E_Kdkm/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwrMHZgJgKEDQGlMYyJN7yQam4mBOq5w7x4Zo4t6HQ2jGh0m7XBRdk1dV64XqGGvaA8zRxFeWlop5_61h-ji20oGHBGRgY6X6CTHVodVjSJCVt-Xk=s220",
+        "view": "https://drive.google.com/file/d/1XLGZFUIC1pPxmtkTTxH_AbJNh_-pWYeD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPViQrTxu4bUuSCxaLp9t44gPpmcyKb162Fl1TDtrBedSuvlq6qQ8_I1Q4Nw3xkIdoEzN2JfgSPH_GTqXBHRiILRQy7Di4_a5i3ujIZnlzzjhBDc0k=s220",
+        "view": "https://drive.google.com/file/d/1woKsGJKhy03-KniZeaPU5N8jAmcshJnP/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGeGX4DyoejTQD4iB0m43ZCFIjltx8ivQtdr7uMRHhsVceggr377B4j5aK8HIKCsEpEzH1coKYLQSTOiLahTOl0Q5-34U_4J_J-VK8vGP3EwmGBW4=s220",
+        "view": "https://drive.google.com/file/d/1kG0V7e8oqg_M8_0fuI8lXZ-e2kqwUFkr/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 450165 - 30/4/2026 (LEGACY)\n  → 450165_inicial ❌\n  → 450165_caja ❌\n  → 450165_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 450165 - 30/4/2026 (9 FOTOS)\n  → 450165_inicial ✅\n  → 450165_folio ✅\n  → 450165_corte ✅\n  → 450165_demolicion ✅\n  → 450165_caja ✅\n  → 450165_liga ✅\n  → 450165_mezcla ✅\n  → 450165_terminado ✅\n  → 450165_limpieza ✅",
     "_faltanNEO": []
   },
   {
