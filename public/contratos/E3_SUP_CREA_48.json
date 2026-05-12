@@ -604,7 +604,7 @@
   {
     "FOLIO": "480015",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -612,27 +612,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1_9EUW2TI4jEtcyUelIyXR2sAGvlej0wo",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOtGWQquIojLnVMrFcQ4xIHfhCvEMbISryR4z2g1QnkMgn4JJrJqvnj7hBzOtw1YjMsjYjF22BUu0fq7xmh1ClSDTO_tlf2rrx6dyx0Gw2Enxro7Q=s220",
+        "view": "https://drive.google.com/file/d/1wSEs4M9HP7sIiegAK48lnxakJPs6J8Oy/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtLtz2Q9brivOmQO9fur9DJjQ3VdF8z_VjYmG-CF1NQ4KrZfpUW0mKnmhyO2qoLmXSgo3fO_VS6PAQej2HwUmQpHMn9rLB4yFqWY-YHYkKX9Y4rQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuFvXsX6xicXsnJ0yUxpuPya5KkUNq4bXid_HIH58sbKcLIcbaNqaLzPjNmDT5YBRAxtSEUSyK-sUGKdovaNvPmSqJapErThAFjtCXrTtw7rbznLo=s220",
         "view": "https://drive.google.com/file/d/1YHzn7Lm9WYX5W4986tkIf5kCyAeOmqxQ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeALiS_R0Y2Dv_2oThqM93wBr7wxaSYI_BjoHC_3Ty_LrgVPOoZIzjjCjzvZkMHiJkfgu15Pseme-buQK_9P3girSO_I0MtiFidPCpVFgfVjuSVg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1Rp_a6IA4MHFkdJxbA4kpqNMj9XeCDRtGOj07q-YBD4PjT5byiFtpZoIRkow6hyIvgYVKx50EvqxAMQCmuFBDFr1TJO98g-ufMLmHz92v6MC5eMY=s220",
         "view": "https://drive.google.com/file/d/1JhH_mnH_hgV_VIS2Z1PpdGBGNpVZMqs5/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 0,
+    "EXTRA_PHOTOS": 2,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480015 - 1/4/26 (9 FOTOS)\n  → 480015_inicial ❌\n  → 480015_folio ❌\n  → 480015_corte ❌\n  → 480015_demolicion ❌\n  → 480015_caja ✅\n  → 480015_liga ❌\n  → 480015_mezcla ❌\n  → 480015_terminado ✅\n  → 480015_limpieza ❌",
+    "_auditDetail": "Folio 480015 - 1/4/26 (9 FOTOS)\n  → 480015_inicial ✅\n  → 480015_folio ❌\n  → 480015_corte ❌\n  → 480015_demolicion ❌\n  → 480015_caja ✅\n  → 480015_liga ❌\n  → 480015_mezcla ❌\n  → 480015_terminado ✅\n  → 480015_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
