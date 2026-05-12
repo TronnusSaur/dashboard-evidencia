@@ -423,6 +423,29 @@ const PhotoEvidenceDashboard = () => {
         const unsubscribe = onSnapshot(q, (snapshot) => {
             if (snapshot.empty) return;
             
+            // 1. Primero actualizamos el cache global (stageCache) para que los cambios 
+            // persistan si el usuario cambia de modo (Admin/Supervisores)
+            snapshot.docChanges().forEach((change) => {
+                const data = change.doc.data();
+                const folioId = String(data.folio);
+                
+                // Buscamos el folio en todas las etapas/modos cacheados
+                Object.keys(stageCache).forEach(cacheKey => {
+                    const cacheItems = stageCache[cacheKey];
+                    const folioIndex = cacheItems.findIndex(r => String(r.FOLIO) === folioId);
+                    
+                    if (folioIndex !== -1) {
+                        cacheItems[folioIndex] = { 
+                            ...cacheItems[folioIndex], 
+                            RESULTADO_AUDITORIA: data.status,
+                            PHOTOS: data.photos.reduce((acc, p) => { acc[p.cat] = p; return acc; }, {}),
+                            _isFirebaseUpdate: true
+                        };
+                    }
+                });
+            });
+
+            // 2. Luego actualizamos el estado 'records' de la vista actual
             setRecords(prev => {
                 const newRecords = [...prev];
                 let changed = false;
@@ -432,14 +455,14 @@ const PhotoEvidenceDashboard = () => {
                     const folioId = String(data.folio);
                     
                     // Encontrar el registro en el estado actual y actualizarlo
-                    const index = newRecords.findIndex(r => String(r.FOLIO) === folioId && r._stage === (data.stage.startsWith('E3') ? 'E3' : data.stage));
+                    const index = newRecords.findIndex(r => String(r.FOLIO) === folioId);
                     
                     if (index !== -1) {
                         newRecords[index] = { 
                             ...newRecords[index], 
                             RESULTADO_AUDITORIA: data.status,
                             PHOTOS: data.photos.reduce((acc, p) => { acc[p.cat] = p; return acc; }, {}),
-                            _isFirebaseUpdate: true // Flag para debug/UI
+                            _isFirebaseUpdate: true
                         };
                         changed = true;
                     }
