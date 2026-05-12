@@ -11,7 +11,7 @@
     "_folderId": "1zRIUzCERtNWHgCjDJ7gbCMjlS8U06Rqx",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfi8TA_QAuJ-oBNdwNG7SsjWkXPLa4ei-H96UGfRDPM1fby2fz0luooSZs-B7GmJvgS9AJBPnk1pOUIIs8pHxfOAO-oFf8apgafOpa-zC0eAUidfw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpScozlGaAMpG54lb3w5GRyZSZN0sqyG8cV6t7GdwUqWXZ2ScBWNVZ6s5uwOI22QDtiQf5O_SoLQ8-8gONwg1b_bgpLzbWeOYGbWkAw2mgfJsVchA=s220",
         "view": "https://drive.google.com/file/d/1fgDr86YEnwAFl4qLSuD32iJxS2jbSvP4/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -23,7 +23,7 @@
       "TERMINADO": null,
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 31658 - 16/5/25 (9 FOTOS)\n  → 31658_inicial ✅\n  → 31658_folio ❌\n  → 31658_corte ❌\n  → 31658_demolicion ❌\n  → 31658_caja ❌\n  → 31658_liga ❌\n  → 31658_mezcla ❌\n  → 31658_terminado ❌\n  → 31658_limpieza ❌",
     "_faltanNEO": [
@@ -36,7 +36,12 @@
       "TERMINADO",
       "LIMPIEZA"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "68"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "31659",
@@ -50,7 +55,7 @@
     "_folderId": "1Spyrch8EIC539XmCWAcqb0NTKXThXFHJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW1cbX2kUAdEdYcpvKi3jF9YAzN0m5V83EepkmON-b0Dj_RbFIdnzS55I3BUdEGz0fSjO1t9Ic2poU5Ch_GvPgzLUzKGN8ym4EcDvdouu69BJKtuw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2s160vN_7VKEKQAPJ5zsbBXwLqpepVw8qHkH94nxmQjP9JVSPJieRjVchy8YLJ1BBNGevZnO5540CDDuoRlr2ca-8zgOBDqZPJt7EqLYz4NcXCuM=s220",
         "view": "https://drive.google.com/file/d/1qbNYAkAXjANorrSMs25sk-ICyjOC5ugd/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -62,7 +67,7 @@
       "TERMINADO": null,
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 31659 - 16/5/25 (9 FOTOS)\n  → 31659_inicial ✅\n  → 31659_folio ❌\n  → 31659_corte ❌\n  → 31659_demolicion ❌\n  → 31659_caja ❌\n  → 31659_liga ❌\n  → 31659_mezcla ❌\n  → 31659_terminado ❌\n  → 31659_limpieza ❌",
     "_faltanNEO": [
@@ -75,6 +80,11 @@
       "TERMINADO",
       "LIMPIEZA"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "68"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   }
 ]

@@ -7,10 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "audit:full": "node scripts/auditData.js",
+    "audit:rebuild": "node scripts/incremental/rebuildIndex.js",
+    "audit:changes": "node scripts/incremental/processDriveChanges.js",
+    "audit:watch": "node scripts/incremental/renewWatch.js",
+    "audit:webhook": "node scripts/incremental/webhookServer.js"
   },
   "dependencies": {
     "@react-oauth/google": "^0.13.4",
+    "@types/uuid": "^10.0.0",
+    "better-sqlite3": "^12.10.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
@@ -21,11 +28,13 @@
     "jspdf-autotable": "^5.0.7",
     "jszip": "^3.10.1",
     "lucide-react": "^0.344.0",
+    "minimist": "^1.2.8",
     "multer": "^2.1.1",
     "p-limit": "^7.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recharts": "^2.12.0",
+    "uuid": "^14.0.0",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

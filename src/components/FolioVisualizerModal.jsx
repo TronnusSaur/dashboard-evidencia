@@ -703,6 +703,24 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
             if (onFolioSync) {
                 onFolioSync(FOLIO, currentFoundPhotos, currentStatus, extraFilesCount);
+                
+                // --- SELF-HEALING ---
+                // Si el estatus en vivo es diferente al que tenía el JSON original del servidor,
+                // avisamos al servidor para que re-audite este folio y actualice a todos los usuarios.
+                if (currentStatus !== RESULTADO_AUDITORIA) {
+                    console.log(`[Self-Healing] 🩺 Discrepancia detectada en Folio ${FOLIO}. Notificando al servidor...`);
+                    // Intentamos conectar al servidor de webhooks local
+                    fetch('http://localhost:3000/api/recheck-folio', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ folio: FOLIO, stage: _stage })
+                    }).then(res => {
+                        if (res.ok) console.log(`[Self-Healing] ✅ Servidor notificado exitosamente.`);
+                    }).catch(err => {
+                        // Silencioso si el servidor no está corriendo
+                        console.warn('[Self-Healing] No se pudo contactar al servidor de auditoría local.');
+                    });
+                }
             }
         } catch (error) {
             console.error("Verification error:", error);

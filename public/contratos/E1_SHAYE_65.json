@@ -11,20 +11,20 @@
     "_folderId": "1xvAt9l8ESk25BeXGjQibWbRLAW1pqy5g",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZNFzOatuz2RJXerb2VctSTwNdbHgYXpWYhNHQNEJd6plgJ_LTmsyzlkZqxwD_RDgFhScmULNUZJvxAFoj-xhGjE-VYWdLGGB4hgqAAFgO29lZHwc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDUETxrqoSAIF3Yo4ymNFnZrs8enWwzkXZji8zaaV3v8z5UdOjERLsp5neJoFTkLiexqp3OrZ6OmVxGc_LCOJuknMCcoeqr4FszUn3zuNOqdP2Ug=s220",
         "view": "https://drive.google.com/file/d/1X7aNPRWrg-Ck2flKeiSHOOFioefLtCSD/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNA3R5i-zLe-615IpYaKGu-pu6Jc-GOfpQZ2CtgiYNkZAx2F3N4oZQNe-Zz1LW7AnEKLwIF6XHEPBCs9NLERSaCT0MUg3frpi9J13dKL7x1n30CgXM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIbaUuiyKXiBJq2F5WR5sBy44-XDxhFa8-phs737bQ3QppVROSKyZKj38-3vi_WOm6g4rUYFgGyi1ffdxOMgHBwev4FdJoJ4YzhiuHxZhqRzZQTw=s220",
         "view": "https://drive.google.com/file/d/11ae83Mplueam2j-wDkT5eRE6ZS_W6BnZ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3uXN6xfOGDtz38WyostaVdmgmQvB6minIeuM0yD6bUGVsMUORRlW7lvdrMu2ZpFl3lAki0OeyXPiCiDXJVExIgPQmfOLDGSBt5OUFO-nqTZ_1Y_Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAs1Wk9A4Xb_e7KScB4fJm4bB4QwjKpNc63E56YU7Mb76bl_egBhGM0Jih1cNysg86WOpoCrRRye6NnB4255PCk_nsSyFTEayds1HgjBUAUALPdg=s220",
         "view": "https://drive.google.com/file/d/1KVcRTMd0R5VVhotKmVuQFHYqNDgC7S1g/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -33,6 +33,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 27542 - 7/3/25 (LEGACY)\n  → 27542_inicial ✅\n  → 27542_caja ✅\n  → 27542_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -142,6 +143,10 @@
     "_auditDetail": "Folio 29318 - 31/3/25 (LEGACY)\n  → 29318_inicial ✅\n  → 29318_caja ✅\n  → 29318_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29319",
@@ -155,20 +160,20 @@
     "_folderId": "1vYiBqAzVENm2DnTt1kqA2URGQqSbRzvk",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3ZPefVAEyxRkI1UntWg3YOeLORtdSIdMbm5AlVQdIN0miAiTxVa8HPgAWQ0P4jAhhs9uWROHYuUscCxFrCxqZ2TW48l4IVm0apLT5P_xhM-htDk0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9nv3dmWwYAJEx7aZ-2_diiXXyVkYM0iPuXpqiBMdVxqqmva8o9RoRAJPV6XMC09ZNaDjRUAthOu6nMKsVYmDkgizkaxP0hplQbSPpbLM9DNzDvA=s220",
         "view": "https://drive.google.com/file/d/1n9zEOPvpU3Cwj6yad2A5BD5gGkon7CHE/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQ-I4zzGeUw3uJf0qkT0ysT4dkTH84ClbkNTH7yCxO0w8yYleq425ANd8DBTijTfhW-K-t3TxlRAL5yrmgF7B_DYQGQhn1O-9QvqA6al2RqYGnLMw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOS-C6PI6L33QWcY2dL1a6N43Wl_8HfIitV9qMIUInZ6CkY7OGK8QesDmJIFigSYobjG1ZwytuCL0nmOHz1S7Zlu6TuuwApJ5xyG65qUeWzstkkzQ=s220",
         "view": "https://drive.google.com/file/d/1niwuM84xaDnWo3Dn5ey7gp9fJ__vwW-I/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmyEchtEVkjyh1gLu16QNjfHDOrtzslBlTDOF9MAaR7iNzsTHApZpqzkVxc2v7zrb24YBJdddk6i6tIAiXXbnwM76AZaX1M2No8mnkQA6mipnAEDk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYVrrfcmixG29OkXLTB9DOyWuEE_E_YsMv2mu7MUcdaPhXkR8wdutaNDnhViW5RKe-IKZbOHyCDQ96CDj8qwpdlmCfEORizuQ2_Qw0oHHtjgID-A=s220",
         "view": "https://drive.google.com/file/d/16xQhA0YvLHCV3v_Avp4qGu1AAmPCJpnh/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -177,40 +182,46 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29319 - 31/3/25 (LEGACY)\n  → 29319_inicial ✅\n  → 29319_caja ✅\n  → 29319_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29320",
+    "FOLIO": "29317",
     "FECHA": "31/3/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
-    "COLONIA": "Del Centro",
-    "DELEGACION": "SANTA MARIA TOTOLTEPEC",
+    "COLONIA": "Arboledas",
+    "DELEGACION": "SANTA MARÍA TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1vvC4QxuZLZ7LLw2O8kPZh7TLqzDVmC_o",
+    "_folderId": "1i1B8MJwXXn9V2awyMFoBNHB4YLSF5v-r",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO01Rt457yxUxGROgtld4TcrCssln0FwkAgqfJiPWjf0P2KwKEKfSUQdmZ3B6e_h6Y7Csr-Kk-mv7CAzHdBs0FL3omc2-WCIkykonAXN_absO78-w=s220",
-        "view": "https://drive.google.com/file/d/1EnGDUVyi6J2DboGAHc5U5SZO5Ko8_mHZ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXa1D5wLkKDsLwv474ixyuFh7-EgRBLFPkv9m574F3SsUkYTGyyzLWpBM9M3yjsaeLJhT5mYw7wA9LabVma7fksbjcFLSXvhQ3tYM1U5ih_TWoBQ=s220",
+        "view": "https://drive.google.com/file/d/1m0dVGvr9351auqlq32uH2k0l_QlxidAW/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkv3wwM_tI9tUQG4jvQNzyN-StK6NIvgtxreNsjhCVjYR5Ksa399AKDM2fzfspCWwmZAGYuSinbAKukw49Xi07gfCj317Yo_12V-0hgnPCw55PqQ=s220",
-        "view": "https://drive.google.com/file/d/1jwEhMBaKaXJm1zRVCvwJPiVdQvAxElw3/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjoIqPUGOpG17JgUWjcvunzeN2e7GCUjC4BY9Jcor0tYPBU_vWieGXnv7XOhwkaoED2H_sRXvEJvm7Kqwnu-NSA9dSgdGw7a_VMp9W_eT2fCPxuw=s220",
+        "view": "https://drive.google.com/file/d/1rsY-gE55edcihP0tEl6tgEmAGAJmBoHn/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNt8OpT5biA5XJL8SPeSkNVi6rVh9kgGbfbW8VIWGDfJcLgZVIc_eq6YThaOeUm2KojpoUDNVChwCjd4C6PG3FKWvrTfH_zXC8cG2C1BSZOiOZrfA=s220",
-        "view": "https://drive.google.com/file/d/1S-uZ-SvGwA6L0vvnyb9oF_mpsckvVY9b/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRa8DKrLeOeNdA6J8xiPY0Ed9LmtIpfX_oLKow_c4zh2YUP16QaIGL7Adbjvc44HlB7zNGRpT9vek93Vjc8_btJjRh9zraFaktlcHioXCT6AUyhA=s220",
+        "view": "https://drive.google.com/file/d/1guIBrkppWvshb22ywEBO8wftCMYX7lu2/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29320 - 31/3/25 (LEGACY)\n  → 29320_inicial ✅\n  → 29320_caja ✅\n  → 29320_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
@@ -250,6 +261,12 @@
     "_auditDetail": "Folio 29423 - 1/4/25 (LEGACY)\n  → 29423_inicial ✅\n  → 29423_caja ✅\n  → 29423_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29317 - 31/3/25 (LEGACY)\n  → 29317_inicial ✅\n  → 29317_caja ✅\n  → 29317_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29428",
@@ -263,20 +280,20 @@
     "_folderId": "1YXeWhrxsb95QUKimEN2BSN9DZfWUhMsD",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1Dxb1LpbZX0k4Jxzs-KhMbPnC9bmniu6c7q6O_bd7WyF1i5TyiBmFmvBWdR6sFYFdAAzlORbdMW-U34seS--NJXTrLXlPiVonRDLHAyE5pNgPv_s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvGrsq0FNggCiKG150hlGy8Rw_vwaNMdEreaAPWFpubz_bs-YokNONnMhztEMzXrBP33w3BCpckJeD86R3DtQXcH5LhV8c3oosNheyAWqttXlLPw=s220",
         "view": "https://drive.google.com/file/d/12pRwBqFJBmiyPUOXIVGYQp78vAA3i4vn/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP02Qfsc2nt0iGQKr8LGoHlMcpUwc6kCp186gON3yg-l_A8xi56rhZtUJeawJE20CVnn4iBe0yu5_JQdFcBrS7B28CBJcJsUlcYM4Yyk1yVIk8M54E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNo0UPrzObNWEJFoXglBWd7G_3sKG9kJq75Hrtf2YIZzbI_G33MGEcfp8BV37K1_jtmdj7UOdOTlF3lAtoGSi9J2hWE6if0sMwUOcYbv0qbb9FjJg=s220",
         "view": "https://drive.google.com/file/d/16NAG4ee8zxa-uvqEZiUbxbmPBpoMwC7j/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-6dp1QjXFFnXvvoOBATBiuvlTx1pCc5dUl87xV8f1kaWiJI_kqQd6CjQ4wyqz_qTuyR1jN_3sFgLliFl4PCs7fn3eR2kV96zwxIJ2sdaFytJCBiA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNUcFcvQRlc3z2mW0xlOUVDru_mgOMLBM7-jy4wPyo4DvxRF2t99q7-p6FIuNpoVgPLPCBQGKEWJ_FSRYobeec5iDbhWCGlGWrIqHn4YNmQb3-Jgw=s220",
         "view": "https://drive.google.com/file/d/1hsjiBnu9pTnhPUuS5zDLeUMK9Aab-bdX/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -285,10 +302,52 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29428 - 1/4/25 (LEGACY)\n  → 29428_inicial ✅\n  → 29428_caja ✅\n  → 29428_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29430",
+    "FOLIO": "29320",
+    "FECHA": "31/3/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Del Centro",
+    "DELEGACION": "SANTA MARIA TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1vvC4QxuZLZ7LLw2O8kPZh7TLqzDVmC_o",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQ9Jymb-dMrz0IAcyl6LUk_EAIXlhLyhbGQrST3hUsnlo-UDsujImqeWBrXhDRG1ugDBEbCjDQTby_6vlBYCqHQHVrJeB2ho2a4rMRIWGNxmvVgA=s220",
+        "view": "https://drive.google.com/file/d/1EnGDUVyi6J2DboGAHc5U5SZO5Ko8_mHZ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYrlAANUqpWgr1tCvsNpwnoeOzc6Rdwe8nkyeccTNCzwjslIdurx8Ja_gbCJuEfY50L9dDyHYbF48znrHKFx4uwEdyvQUT9GfPW-pj_IJPVlpgKw=s220",
+        "view": "https://drive.google.com/file/d/1jwEhMBaKaXJm1zRVCvwJPiVdQvAxElw3/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFcHYwfK53udDvxbVSxUePybbJT7Xdt14jNmupd3Ip60urtXGymrJZMYZiudyanFQvgFUvwn-rJP1efu1XJmIJms2j2iRqw0IebY8uXFMQ2LLfdA=s220",
+        "view": "https://drive.google.com/file/d/1S-uZ-SvGwA6L0vvnyb9oF_mpsckvVY9b/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29320 - 31/3/25 (LEGACY)\n  → 29320_inicial ✅\n  → 29320_caja ✅\n  → 29320_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29423",
     "FECHA": "1/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
@@ -296,32 +355,113 @@
     "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1vnizdKUxzwoGUqpbtjAu565hH6rWrSM_",
+    "_folderId": "1duAX5Vb5il-LhWP1iKB9oLxfaLEJMsMH",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyjFR4IsgGbCX0C65Xs_YeU8fEzEtohgwG-6QrmAuM1FUPhU_6fzgzXZEvHEB-VIAaMJVR8sjxXqZeZgEONH0XYIm_kFNCV26Ta5-ChiNgQy8fHy4=s220",
-        "view": "https://drive.google.com/file/d/1tdXR-ZFaIi9TygktoBOJXkKDFyzs420z/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUGqJzHFeq6pNl_xsHuDYJ3D9ZvaaEZYnrnJRFmDCPJhxDJDwJ5ipTNp6CZpJCMzLjXSlffPHykT7_KDkX7XLERJVKYymbxpRflYx1UW5eKQI4lg=s220",
+        "view": "https://drive.google.com/file/d/1VnxD0q9EGzhIXW__AsKMz-Hrw4yFTVAf/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOC9CPTgkFb5lrKnMlF03AThP_DU1LBI9Q87s7pnY902xSVAZGtGb50i24Yf9EhlOPgz2ThL4NNLDvTCPCp2yjrzuMPN-lDxttBYGQ1DG_78lyGDAw=s220",
-        "view": "https://drive.google.com/file/d/11nQ9-_zAgyAtKYgobuTzdsW7uZpBPtA9/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgkQCFlR0ItyDRyq1JHp4vorTuTBDa94sES-QlGVvjJP1uHslTx76Obir1crhPCAxSYh3NmnUUKTNz5T6SyBEnrPtNpyIx9vS00JV-acpSqrU_YQ=s220",
+        "view": "https://drive.google.com/file/d/1blLhRp33DF1Ncf1D4CT5yrFPxBEqQbaW/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMy4BySrR-1yCeudjpmA9OdaDA8ZUFzSmcxlnl0EXPwxzSFEXj59R22nJytAO3loSotkqbcFSEiSIzZ6PhB_wXjpPR72UezmTw9t8Owkvm33egpPu4=s220",
-        "view": "https://drive.google.com/file/d/1dkAxIiJRWBKC_yf2rNqrwFUStLldfqty/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrN13bPDvLNp8cANRG5khXW7EmuKOxRiuyzvhas_aIDHdw03NXO_h1yiTn7xr_KsrNg5ObZN95p3nJDIbC-stQG3KRr4-HVvpJ3V2Drvxfp2SJIQ=s220",
+        "view": "https://drive.google.com/file/d/1B-taVABocxzvWu1gZG5qTLLtjf4Mmw9l/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29430 - 1/4/25 (LEGACY)\n  → 29430_inicial ✅\n  → 29430_caja ✅\n  → 29430_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29423 - 1/4/25 (LEGACY)\n  → 29423_inicial ✅\n  → 29423_caja ✅\n  → 29423_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29318",
+    "FECHA": "31/3/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Arboledas",
+    "DELEGACION": "SANTA MARÍA TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1XQkruJUtRnR-tHYR3XELcTMjdke-dRN9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq7GtBm5-aa14egpQz4Au6qTGw5kluSMOZ1UO4uUUlqkT8PODOY_P12wrnihGf_KccOwIeLU3M5aJExYDD9yQNeo72dYVMyYVwt7fBU_mBJ778Nw=s220",
+        "view": "https://drive.google.com/file/d/1LO-iQ9ROCd2MmWuPZ6cFSB9Ai6NP0buN/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqy15APMhdF2xhKrbzB5v6alEJ58eZpSvL2X362IKQskqt8xgmCBpBqNBFMB6VvFubFkAitddGTbfO71xyWPR1R8L0qy-aZqbuZCujQRZxiNoB1w=s220",
+        "view": "https://drive.google.com/file/d/1vdK1Z6SpumQcakYXl7yDuQJhVdYkE1Dh/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjRcKVFjAnnMBq6gL3IdfowzqKemgTWcmcHleswsxN5n6VhZEXahNp1MfOraSUNpl3FA-idMl7Z75mksxkUKCCoBZsoCEXNrU7--EB51DRxjyf3w=s220",
+        "view": "https://drive.google.com/file/d/1uzz1lbbv43KsZYHlB8sv4QGVtIi_ulQg/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29318 - 31/3/25 (LEGACY)\n  → 29318_inicial ✅\n  → 29318_caja ✅\n  → 29318_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "27664",
+    "FECHA": "10/3/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Independencia",
+    "COLONIA": "De Jesús 1ra Sección",
+    "DELEGACION": "SAN PABLO AUTOPAN",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1XR0URnbPEyVqOBCW-r4gHU4vqCwfvoT3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeJF4GX1BRhhRGtarT2e8-6393jyUlcOkF8uvTstR7dbFAgIBo5cY9nUrmDYeEhby0cRMXe5ZGhpWvLl3NlHcTMUHoYfVZPW7r1swS8xhD8u1LeA=s220",
+        "view": "https://drive.google.com/file/d/1wvRFw4SVfQKevyj6KYf_Ym06YA98Mn0p/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkcf_YdG2YfdefMBgylWzLvDCgGaLepwilI205qOI1hbg1sfINARJhl2oP76NP17zCKhnChpo_LXcnea2f1k3whjFC6Yo58cJXMaQt7x5PNdoylA=s220",
+        "view": "https://drive.google.com/file/d/1wmig8On4ZLqW2hzjoVG5jNBCBRrve4lf/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVrFA88Ox50qzqvGGXiFL0VzI37QpM9ZKPzGmV1WcIw73yCGuf-vEeCzMDUDLW_QOzD3IsS5qhgzUxmPe8L77dwR3ekfEwBn_DYonEplrVZ0GcJQ=s220",
+        "view": "https://drive.google.com/file/d/1lPA9G0qNA0jC5_jDDE8cthfQMJ5Gvbmk/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 27664 - 10/3/25 (LEGACY)\n  → 27664_inicial ✅\n  → 27664_caja ✅\n  → 27664_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29432",
@@ -335,20 +475,20 @@
     "_folderId": "1_ee_4In9Ec5VOK6tUxSGgPMMdMMk77R0",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtckahps3xztQ7EWsrCxQotD1dm4_kaV9ewPGza_fYm2jmcx3tMO0I_UfFj4zQvoKKKW2DgvrdjcdIjipyfH1RjmJVMlK0-zvYwjeZU0nfSlCLylU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1zAVvVM37zTeJRht0lLKRm8rzniWZenIYVKBaca8X1b6sRQxUTm2P7m--dEoaTBDnQz-iO7GPElqlAtToFy3WvZk15CW0xgQGkyPJhCc1s1zl9Q=s220",
         "view": "https://drive.google.com/file/d/1YaSXfmkklNERNhZbeUlMk_Lo5TSOcmYB/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjRsqKR2AdCUKlXLC-uNTP14ZD05iiQEjJxkMF-eTpd1c35GqTpbrlDJ5998H-XG2sYdzmApeISdVG5ZMuJ7_Xow28Ewl-lynyoMb4PCxRcJc9Y0M=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgI55Yu67aCfZYsq-H5hnylIkxdvWDhhGqQN6DBaPM9OP7RlqH0stQVDDX_wqUuZyfczzCpXxSqk5N3IUdtVPbbWPyGJKTedoUJyUdAO8U0-L4ig=s220",
         "view": "https://drive.google.com/file/d/1Q9vYOX3tRfXawU-0V1X0IJqFOnfco0g6/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtwUuwMzMovbfTMFKndz2sW7HJIH7X19w_8QOlBjQ7NDkZIC6Pk4patV5SEMxMQCBUNzAh-YQi1IfEs5e4NswaLiGX32kZROrMXQ2S67scghMuygw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIngBnTprOdEL1NLVvlHnEICPa337SNijPAfgwFJT5vB9DKQ9OaaAwXdLfh4KuFK_k-_HpY-MBFwUwf44u_dMTe5lCcfNXqUBMSU2IddxD9QG41Q=s220",
         "view": "https://drive.google.com/file/d/1gw3imHbMh8S14UWPoSxQ0vRv3SXcJURu/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -357,6 +497,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29432 - 1/4/25 (LEGACY)\n  → 29432_inicial ✅\n  → 29432_caja ✅\n  → 29432_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -466,6 +607,10 @@
     "_auditDetail": "Folio 29515 - 2/4/25 (LEGACY)\n  → 29515_inicial ✅\n  → 29515_caja ✅\n  → 29515_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29517",
@@ -479,20 +624,20 @@
     "_folderId": "1osZcKInVQas5szHdDKAxXf6oH98dU48z",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO17agSQ6G293OBl7DNs358Zf4wHMbI6jhQxAqpbpsMbOpWI3HtVp4V2HsL6MP3Yc-T2REDBR0PVwMCGYLsG9Tm0OUv4cqi4Sv-GkV0c5b5uiz2xIA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEl7uCUgpFgNml8lFFCYqJYut2PtaVG-m_xAZ7tCmSzKLzFgFqWWwqY12kFH_cQR4UcZhpLsT0D9BcilVVnWHXzSkTd4KSPIecm5MU3oAZK2PARQ=s220",
         "view": "https://drive.google.com/file/d/18NJUvbEaLBzzTaIAFQ3KwMStlnChpibX/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSHsZxXECQIWdKtampvMgA9ArHYO1bCcc7F7lfdLhpvnegLKz7cyb0KXl4rsweI5wekPR5nHtQEicOx7reSJ41rQHTB8DRaOxPyAaHMSt10KO6X4o=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOm0AzCyLu3ucK4vNfbj146dVJJjPS7v-YPQas0yKaytqrs8KpVkRjJL42X1mhlW08n268QCttbQMc0K4nscGGAGBWYZku8Z0U_Dgw2Egw2l7R9Fw=s220",
         "view": "https://drive.google.com/file/d/1fwt8BN1PJTxQVJ_QnBkADxPW3HjHXnFm/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpipzlItn1FxsjdwpFcZKCTZ7DFx2D5BoPwWQDo92ke_TXgBDMKjpYbKCxjdDJn-unTSP1t0UIh3-l8eNBEwBzxCRqpFcwZfXF6EJIVXHEMNeKPmk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAMxpLCz9kS6h_3O3uTO41K77C_jJBrUA4RCaVv_moojfgMJgYfX-gUNxAxrCBnx1VG9Z36U9-NXCrIIU13NwyyvIpQ4YP7YuLV_bVt15r0YlGLQ=s220",
         "view": "https://drive.google.com/file/d/1H_v9ABftGqIQHs4LLKL_mz0A8WMudWy5/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -501,10 +646,15 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29517 - 2/4/25 (LEGACY)\n  → 29517_inicial ✅\n  → 29517_caja ✅\n  → 29517_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29606",
+    "FOLIO": "29511",
     "FECHA": "2/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
@@ -512,101 +662,116 @@
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1vB6b75rKGkf-gkqANvfujw3MC89xQugJ",
+    "_folderId": "1qp2Ax6tV9emyObrxTHWTDU-rQ25n-s_6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvSDjq4LgQ_BlJGjbrwT9OtTQzXbgA5xlrmrk2l_tr45xWhTTRsqtMlxROHbzDzlkOzy99HRuy0myjbKK74FO_nt0Mn6yq-dBv_J4QYmdSkJF71Uw=s220",
-        "view": "https://drive.google.com/file/d/1rwOyORAY7g3uoZIBlQHtHy_c4VmAsdGi/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOHAoAXlBaMg9mNqY7h01MmFPheeIySM7WxbMcsGBJ-c1Ul8hPK0ej-jd7IyNOzYSEHYGBW9FtOyIPc_WR6wRNelVxYYeQAqxdY2sgYq1cxrnjGA=s220",
+        "view": "https://drive.google.com/file/d/1IKejWMr5Y63JcUfN77vV6ntFexcAxl_b/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNK2zWW2aYWyayYVlYvQj7fDZcox40gxxZQwG8V3pD0N9f4g2a_DymvMsFwQeUjM3HV9WjW88si2cpYmMA4jQpb2zQhyGH-WkcL7AgjOOL1qlJyLBE=s220",
-        "view": "https://drive.google.com/file/d/1vJ2i4LMWwr1TWMGXKx9P-m-Gt_h1bwRi/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO10VkBF1Agy6DUHMIAM9JIdux9LT2yBBCDEE7AAWzumnpirMvC_pQN59I_5cx22uARy-Q0v73YlwU8BoMCLthEK50XvpsFAk-u2aL-I2DBRfyV4A=s220",
+        "view": "https://drive.google.com/file/d/1FFj5nENKPPGYiUgSicU_pA1RXjOYbMBi/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMf-Yi4x-9VY4TIIoj0ivoDL2_aA9cXw8105aPGqE6J4btuqkhd5hfDSZ8pYB97SmmalWyZOV4mXbt12JQ3KwN4Io9YEXc4GOXjMTtSP-XX9ArGo7A=s220",
-        "view": "https://drive.google.com/file/d/1kRy1ZHPxofo0h_GSMW9GwAFC0OG5jTkB/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-EgIGvgaZ0KK9ZHms8c7YV-x9ne-s2mpB4wf4E1zBzjwguzNIdIkiCtWKr6IeJXFKnEFhMEf1FwgwHwOWXRukGQB5jb_QSa9guR673pQW_NQvRA=s220",
+        "view": "https://drive.google.com/file/d/1oFzCNx-UHCUQ6Kj6ivM9KdVlB25SzhIn/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29606 - 2/4/25 (LEGACY)\n  → 29606_inicial ✅\n  → 29606_caja ✅\n  → 29606_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29511 - 2/4/25 (LEGACY)\n  → 29511_inicial ✅\n  → 29511_caja ✅\n  → 29511_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29629",
-    "FECHA": "3/4/25",
+    "FOLIO": "29512",
+    "FECHA": "2/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
     "COLONIA": "Manzana Sur",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1BWSd-34Nn6kAo4p_IL4-6CQlsHbsKOWH",
+    "_folderId": "18-fpP3zl13KYKleDLwNYrkxQU8kZt7HR",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDP2gh04pUeSUiUfN4d3Ieq5Wo5LClO6K1j6rEKtjrCaDPVT_Me0LbnPh_tQexNGSEkBFU-NcBdN_7ADNRIrBMfczIsjUrlYVt_Ys4N5Au1ad140k=s220",
-        "view": "https://drive.google.com/file/d/1AaSFXdb_6h1ulvlvgJI3oxHcB6jw05lE/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSy-yAhGpylV0YEMgTeUUneGz0ly-HAruLwSQ9Utq9CLBHXDi0c6Nqau9gCBXUkiLdxWHiE6vNH3vTxfq1YIlaqpUfyPGDNLajRZ7aDTLC3saSIA=s220",
+        "view": "https://drive.google.com/file/d/1jKAvYHhfvbvMUSyEEM2O_ZrE_gdDfJYW/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0x1GBcVbQBXxBjLAXp2GQuTkxf4-qLA8-Y0fq_Y70h04lupdVGigVzMfyFH2Q8mwpboyHb06pbD7uYrRweJId61zo00GsUfeHMU42Hnl2_SVNVGs=s220",
-        "view": "https://drive.google.com/file/d/1wHcR9OEgesfR17Dp8IbiZdXsEBRBWnSE/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkBrXI0HmwkESXRcmuXkMvAfQnRFEyPfdsAsn42JVrWx8JpKljECBiP-gPbf3BMQrLzTgwyLNF3rTA4cpG50g21Et7GDeuLh5iBuSs7XwjbrqF_Q=s220",
+        "view": "https://drive.google.com/file/d/1-AIlauu1GdSvtlV7SjDS8QgAHNAj_A9O/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEGpl07EGTD-5a-EwZxD14eiDPXaKDGGTTdbL0RE70211Xswyq0emEF6EsIfbrJOmBSpp3CdgiGAJDXpMNiR-Oe3MLEDg_ahSgxLy9DSmKqNF525c=s220",
-        "view": "https://drive.google.com/file/d/1XFnAdtbvYuKibI_e0Wt7QRyaOu4fxj_g/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQ6TWBVL1N2Xc8WPd2wuqStn49ZRsaALHgt_H_6cuiZb6x8iKKkG3QIg5-uTDIU22KQlrrMKSV_MYmfaSr6qeluH525U5cHUTAMyaVgKrWsnMZHg=s220",
+        "view": "https://drive.google.com/file/d/1cq9ms4l9PHiI1D1mXa8aO5pjj2WG8u5m/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29629 - 3/4/25 (LEGACY)\n  → 29629_inicial ✅\n  → 29629_caja ✅\n  → 29629_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29512 - 2/4/25 (LEGACY)\n  → 29512_inicial ✅\n  → 29512_caja ✅\n  → 29512_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29633",
-    "FECHA": "3/4/25",
+    "FOLIO": "29430",
+    "FECHA": "1/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
-    "COLONIA": "Manzana Sur",
-    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "COLONIA": "Del Centro",
+    "DELEGACION": "SANTA MARIA TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1Pv9Mx7MOcW9q-sYttHgOhpdgnhk-b9pD",
+    "_folderId": "1vnizdKUxzwoGUqpbtjAu565hH6rWrSM_",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeJbgWRjis0Q7kzDykL6Hm85jdbddeX_fNj-qvxJn3lO9jlQNtPpbsoD9Z7hGIDwzDuwlYtv_RbA10cF_ZQztyS9wSg9TbLtXpLYwO06W5yE2S9cY=s220",
-        "view": "https://drive.google.com/file/d/102gNa64CNaz7yLJA0vE4F_XHn4dptYbJ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWHXFMMe8MGUR80sPzGJffIMPmKzEIOsAQr_cyVtuMGytZY80ZtDsRXSF1WtGhp8erYv_i1shI-Pia6XLeFaLnVwsLInFe0-8qJZ4wnBgBgNEanw=s220",
+        "view": "https://drive.google.com/file/d/1tdXR-ZFaIi9TygktoBOJXkKDFyzs420z/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTmVvOYYAbp-wHSpq_KEIpHxbwjiPZ4TSyMERey6DHZBGej7njyKGU8v3p6H_C5IN4g0mA00HBVqgnPuIESsIQVMaw7LjX2yYSiMHufjFjLo_bEzE=s220",
-        "view": "https://drive.google.com/file/d/1QF0Krdhz21NBQG6czaVr0bDy8fB-BTBg/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPa4VgAQOWn8yyX3TZUfjmYxJ3-gQ4gskqc6sHZvmemGQi8I7ERllHN2KE4mf_0M1ShFBZacCMmiKYculQtZo6QkvUhXYz_QIQZR8HWCl1qoDZNOw=s220",
+        "view": "https://drive.google.com/file/d/11nQ9-_zAgyAtKYgobuTzdsW7uZpBPtA9/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwQpprvzVQmcHd1BA69IOc13_JJQ8_y372R6Ux1RSQ_W98sELiwVmUa86eCHIlGbjrmQ9qI2fZJoxhVkYKhP6oCQdXHKlXXyz5Es_DfKrVLGV4mQA=s220",
-        "view": "https://drive.google.com/file/d/1bm5qfwU7A2r5XK0XisniVxSdz98Cnf5d/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlFP7_RJ7kE99UAdjvhuko4m7tykcr4cDXK_O2VS4HCCHoqfGypZtK3uoj0ijBd9CZThzJ8x5hedouZpGvZPk2iJ0EnWiSwCoDKx2rNN7_EqQx7A=s220",
+        "view": "https://drive.google.com/file/d/1dkAxIiJRWBKC_yf2rNqrwFUStLldfqty/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29633 - 3/4/25 (LEGACY)\n  → 29633_inicial ✅\n  → 29633_caja ✅\n  → 29633_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
@@ -646,6 +811,12 @@
     "_auditDetail": "Folio 29636 - 3/4/25 (LEGACY)\n  → 29636_inicial ✅\n  → 29636_caja ✅\n  → 29636_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29430 - 1/4/25 (LEGACY)\n  → 29430_inicial ✅\n  → 29430_caja ✅\n  → 29430_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29638",
@@ -659,20 +830,20 @@
     "_folderId": "1Mr9W51PUaaZEHqFFfHhSA5QlCQ6riQaq",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMY2eTQ6x_oOLtEj9V5ykehXDQIMj1HMd7gEsvfOkKRw7lpzgSqyh4hyu_GJhXnWWhT3Tv1QehKsXCQmRR77VK6IG1ZFXBxY7kT3_LswkfO5O9hHY4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyq4SI-QZBSZhj06EWK5YZ8reg-s3ko4CAtjqeaWqNIwjR0rFipAB-8AoMhdKTLX4kH4R-LyMfBcPVEIqeWexzER8SIutbWoTZ86-z5tNcHUA5PA=s220",
         "view": "https://drive.google.com/file/d/1lxRBEG4DE2lCDk_VhJswQYUMj04JNy2V/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6V-gfXqq1WtX4-De3UyEBwvZYg3isNUkXQN4kyS5l93gCISePmN_DmLO4gMn1coyb2ptGERBwRye39uLhACXeMlywDlz9CArwymLBvJZDVp8Jvo4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjx221632xSazsqg6Bf9UnglHXkth1x4S3RswdT_Ae2DmPqTcGirrLRNycKk6hAbEOP6Jh6d4VVOyzIRqsKGPL1HJRjf5hRwaWol8rh3rZpPnISA=s220",
         "view": "https://drive.google.com/file/d/1XssK4SrRBReC6ggj5RVftWMX5DBEqTs7/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPhHdYt6ZcfLGvNkQCxkRY7AgaQEhsKFpzGhZ4tda4oZuXzi8eYSsLrHQhULETCCnS7JI3BPPKBguq40L3oI5-1mVQw5A0tDEyC8k4yOjpxcufWF4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlOPj3UcUQsMbZB7kLzy8fBNCB3vVcVVPPEfJ3QWg_NrB99hDhVtEFFZp08aOsT1GOJZhEEbBuRtbOf-87APMht95i4cwy_tm7k0z3N5T6KW0rFA=s220",
         "view": "https://drive.google.com/file/d/1JxPASNvidulqMS7rIh1ye1UKy6P2S34t/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -681,7 +852,197 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29638 - 3/4/25 (LEGACY)\n  → 29638_inicial ✅\n  → 29638_caja ✅\n  → 29638_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29515",
+    "FECHA": "2/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "19XSgxTNprcE_uj_yGc7VzvMX79QXxvXv",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIK76qocz3k7tO0SrRQ57opja_88sjf4UVhV4qC3hdUTJw01pb4vtmg5lZTbSXeGvf5S5m7QqCTik9vCn9WJPirkvEuWirNZvQcnMVYe_6gigPQg=s220",
+        "view": "https://drive.google.com/file/d/1suAQwGMGA2xyaOB0EQhlPOI-j8GPFYIq/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgGKbnZ5_1jQ-uKP03gzgdLaPWj5j0F3qLlTFENPIn3vYearG0s92TSAgri6mzaizB8MGvtjnhv6bpPe5zIMbWGKab0GDfuFvKKgPoCUKa1iyXGA=s220",
+        "view": "https://drive.google.com/file/d/1L2hLQvgtvHjjEVco2TCp2YwPHzcAqzMp/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbY2LQ_5u6yTTYLs2ncGnistI84e3WbgXc4qEBFtHAm7nWSgDUXSiDvaTg87QuflhlUdWaz2TTUHaniiO8q9szwt4n_bP1gpr5xul9_0NfXQ3J7g=s220",
+        "view": "https://drive.google.com/file/d/1YMzSmIHyHaSJ6TvwGaIM5YbHqX_TvGA8/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29515 - 2/4/25 (LEGACY)\n  → 29515_inicial ✅\n  → 29515_caja ✅\n  → 29515_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29606",
+    "FECHA": "2/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1vB6b75rKGkf-gkqANvfujw3MC89xQugJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOa-w_Owaq-wMzxVgW6FRq6DtjfLHVOTGf7YRnJDWFHwmGYgyL0UyV43aSoctg4HxndZg-ZNnb2iQu4AD7YUdp2X-zYCNK14zrDcJFMYz3B67OPig=s220",
+        "view": "https://drive.google.com/file/d/1rwOyORAY7g3uoZIBlQHtHy_c4VmAsdGi/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyzwYf9jHE5VY8D7SWBtZP0Vm3uqUtYUH8Xs9vEps-Z8a2TReW_62JMehgT3kuXPW7ncRnEO6o4xu4G7IXD6hYgxi7J05lh0Nb9njM_9swh9Axnw=s220",
+        "view": "https://drive.google.com/file/d/1vJ2i4LMWwr1TWMGXKx9P-m-Gt_h1bwRi/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPvNp4o-OpS2FPLk1hR3y5Mw0u-mlcmf2Q-ULcLS2mZmQTzFD2mpNcm8NYvesxrhYgYpRfICAemP71nVv_06irK0jVihV7MG8ASluLjsDxuOfZwA=s220",
+        "view": "https://drive.google.com/file/d/1kRy1ZHPxofo0h_GSMW9GwAFC0OG5jTkB/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29606 - 2/4/25 (LEGACY)\n  → 29606_inicial ✅\n  → 29606_caja ✅\n  → 29606_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29633",
+    "FECHA": "3/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1Pv9Mx7MOcW9q-sYttHgOhpdgnhk-b9pD",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwDunde3E5Nk5cbq3JQ6b4fw5nq5DwtvT4w82c3tg7UjSvYPOmWimxwQpV-FI6434NE7DeQrdlqpkOSl79b8s0yT5eFV3u-IWRF91-GUAPBshRYw=s220",
+        "view": "https://drive.google.com/file/d/102gNa64CNaz7yLJA0vE4F_XHn4dptYbJ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBI4_x1QrjTMR3MTMl9y_2aLX-sYtLiF6T30jL6OdyjWkm2lmj43cTCJeyNHka3njFCeAIySm1OUdJ71oGHw53reeQd3nx3dyMmRy144Y_2WWFrQ=s220",
+        "view": "https://drive.google.com/file/d/1QF0Krdhz21NBQG6czaVr0bDy8fB-BTBg/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOISlwZ_V1HcFzkV3Sfhb62t1qfl-hdWJfvUT9SKC4goxCr95OWBsSQiY-jz95XdDD6MIOxI8OlP7hZbmNHssB72ZrxeZk6CdBakTLbOieHa5kTng=s220",
+        "view": "https://drive.google.com/file/d/1bm5qfwU7A2r5XK0XisniVxSdz98Cnf5d/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29633 - 3/4/25 (LEGACY)\n  → 29633_inicial ✅\n  → 29633_caja ✅\n  → 29633_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29636",
+    "FECHA": "3/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1QtMBvXYSOm8ExL-YtqupImMnPGbxnRJs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYEerYJOGt3Xr6y3MSZV-E5fk-VRNcV3tv8RTGdWMr-zdm6O43SAHcJQtuSrWCPQBw1z9FY171MpSPMW4k5KRhSwmUj3jD9lqCZqpfsPBmcijKDQ=s220",
+        "view": "https://drive.google.com/file/d/1toFPgwTomb0-jKhjC_quMjafWpfRL5OP/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9CEIjQS7BwxPCI6p3tOeXLLrHC2Dr5tx0P1BlvNb3HreYXg_Jn1-iS2kT7PRQOIOEW4lg8IN4T7ifenEqTkP5wg2k_KGc_1Tne_EEp0s3S4Dn7Q=s220",
+        "view": "https://drive.google.com/file/d/1WhDqn4Y0M0_9SuNocRT0hrNLh73YJZhT/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfORYzPlDxpEZ-7ocxPS-p_2dLwobFakp_lcgBF-S_Zs3FSisH-W3HYNcc76jzR-bs1x---4VZ_XxymUIVHEbSI8fyy0K-j-Y8GOvPAB1FtuH_uw=s220",
+        "view": "https://drive.google.com/file/d/1aXnEB_8P88Ch8JQdXASkEOGCI-DEWOTp/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29636 - 3/4/25 (LEGACY)\n  → 29636_inicial ✅\n  → 29636_caja ✅\n  → 29636_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29629",
+    "FECHA": "3/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1BWSd-34Nn6kAo4p_IL4-6CQlsHbsKOWH",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6s0bhWv6VIdO7HBZvw9CMEhAZj8ETbZaASRh3ZzI8zueklJs-ySvhN961olWQwG7UZ1UbIWxmklTnYz-aYwnWY4u3djAtIwHKlctUR_-We_vXmQ=s220",
+        "view": "https://drive.google.com/file/d/1AaSFXdb_6h1ulvlvgJI3oxHcB6jw05lE/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOICfGBSYtPYBW73YXW90aP7oF1DppQ0n8W3VH0yNyJC9VbTrIHXTDXDvWkJg26WIlBmVtlLFt5nje-UnmH66-r5J3DyJ3PXwun7uxoBShFb5_-iA=s220",
+        "view": "https://drive.google.com/file/d/1wHcR9OEgesfR17Dp8IbiZdXsEBRBWnSE/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOR0VGWMBgsD9Z_kEr4W71-uNXlb3OfGjHjmvvkE31lE5HEXZ6jcel1eB2A_hc8pXjNhQ7gVY3yNzi33760_N-Oank0QIuReGBRvtYyIZ9NxuLANw=s220",
+        "view": "https://drive.google.com/file/d/1XFnAdtbvYuKibI_e0Wt7QRyaOu4fxj_g/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29629 - 3/4/25 (LEGACY)\n  → 29629_inicial ✅\n  → 29629_caja ✅\n  → 29629_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29639",
@@ -695,20 +1056,20 @@
     "_folderId": "17bmm3JkZD81-QCqi7Wp2qZMWfF-l7hGl",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnq10NUAEmPzmh753HkHHToK6bST6e-_EhCXy5Z0Az0AHPjWVk50EFBEe_fultT3gvPHkjwQ3h-TcidjckcwZD5x6wxRGI_OiAFiQ6HjngdTs2Nw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPql03PuYsmoLVlcp21iMk44KUeplNj3nCZqy_bfGbY7vYdwv7akdVB8iClw3u3kSuvF6UnMKNlRTjnxcK1N4tv-VvxyJ8XDPyos6cSsfzaWoPW6Cc=s220",
         "view": "https://drive.google.com/file/d/19TvB0E6Tply14y54u8DRfr0gKIFA6PDF/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrx1sf69pROTfh2Klwv64hZpC1JmSFoiTuzhb4HjuY5O6n3CE6vM8VllarAf1ylao-QX43tgnJmkzv7JStoGgTCi2dUkAE4Kwl4OKUR8kbEHxa=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvHhEwElJmb-Lc6FxBGVISXctcn5jTsw0F0_LCZnYGPn7q6W1zB-ib4F3qRV0HDc6opucp7hDJMQbQZswQET0y5ZoA-xD9UKCSg1i2QzTuoBfCnao=s220",
         "view": "https://drive.google.com/file/d/1NJmJ1E7wxT6XOLIpmFJ0qWDUYpcWqirV/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdixh_D_wYcSDhMeQw3WTW3yIJswwoVEbrw_af2endXme5BOnrosa-7Yf03qQYsPmFW3-EWC_ToS0TZkVxFOInL7VTyM8agUdrnukjXjCej6k4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYDmUp_xb6dirPxIOpdxeR6g74SvuSe52YBhFWEEjHn4xwNN6PtOZbrr-bzsMNQLmsMlOTKbfJamBt56IsjVuMNYUS0eYHL4TEiHQszqjBBIZIgfs=s220",
         "view": "https://drive.google.com/file/d/1xhF2p2LXX8RLDl4kShCw9uad41PN-btC/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -717,7 +1078,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29639 - 3/4/25 (LEGACY)\n  → 29639_inicial ✅\n  → 29639_caja ✅\n  → 29639_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29640",
@@ -731,20 +1097,20 @@
     "_folderId": "1Z6NcLTe8LrPFDKmkouXCub4rWaoMYqzr",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5-GdmAy9sEeUIS6HTNz5z-0ntTxGd8YHpfrKdPeVY9sdJNWCQHp6pcTxUhgyTa5x0OtWIwnR-LafNrPw1jjlVtmi6OdfkaAcG0UbVEu2Fx0TNfg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaLa9V_fUMnt6zpNAqf2A6iq-7OMQlWqDAlCHI37aVMYe-pj27sieTWWbaSxn0gkJSab4EmNmwl_XUyomIaERaDFpPJeVT8BVXiFIYb8UvTwn8gis=s220",
         "view": "https://drive.google.com/file/d/19wHeLmvaQivXTEna3RDJtHB4W88HC3V7/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZQxT-Ae8cvDgZicyb9B6km0VdFKbsZBRrQ_g3QViuQiKpfOTqGm3aiYpScyUC3ltogZzIGmqiz7H_btueRdoqjMiLZjxQAds5PkZL1P3TWGk7EQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnoD9EXq2favwSqTS7W0cerTl5WNRpIgiCRZzW5raJsqPPIRaXia9yfYmbZKjJsZlvJI5vHfqSaJl_IlGs8Z9N4kahh0EXZRvRO6Wq7dnvhFiyQkw=s220",
         "view": "https://drive.google.com/file/d/1AKuBKL4xjF0hu1RwI1ImidPBHq3jIFDN/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzfDmmD1ZJ_dg3pb_R1yCWGsgdCapZXHCeKJcFTZ-Jzc6gxcLtKxPjOwXHZgmumGg4OT_hTxKnLWladjdbGF2CmfwubNSR-CT-m2WJTI4i8MX1xA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXbXrkYtmBJ3W7hqmQfzi11cFBXiixJ0FhrQGHFZ0ftWfgBswCtawaUYNoMc1BlxrfMOOrkWQrqIobM1yTpCInexFOMJI5UBhP5ofXkLo3R6Sbdgw=s220",
         "view": "https://drive.google.com/file/d/1yQsMc2ZKqp6GrBrzhrjXj7lr7g3Y_9EG/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -753,7 +1119,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29640 - 3/4/25 (LEGACY)\n  → 29640_inicial ✅\n  → 29640_caja ✅\n  → 29640_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29641",
@@ -767,20 +1138,20 @@
     "_folderId": "1fh_eh-7TCjq1MLf3TKSzaFyrdBGLUU7f",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4J3n-bYWqLYZeVZM_6hSX3dc2WJAdHyYkJlmpbGdMh54LjOlM7W7jYIDCKXd4Wh7xQd3_8V3vUrhesavv1i5-5VB9fzszMSo487Xvl-CaiS1tEw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO95WzW0nOp1IfWzPfhcEja8C56RoSF76bVgvIhFY96JDa_3knXTqa0C_CDDFOivtHg0e9MMjcBU7ITVUYwAO_3sOjw7g2aEh3y-deOV4tlLnuvBCU=s220",
         "view": "https://drive.google.com/file/d/1Jw3e55cwUzZafWtxMKTjJMSN74UmLJxj/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmEC9EpGWQW21N2HS82RB27r7TFn7SXO_z9Ym2PGIQ7-IzL8LNyOEmHWLQyYPgWwnopMM8cZHJBko8hZJUI76mdQnEHQX-lFJ6L5cTXO6e3cYnYA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKc8NP7ItEBkncDG6TzTf-gNgQv-CNDhtVJHO1HWJCUhacIyi1_ESriujCjd26JUENz8QwTpbuLFrSDymdBdcRNr-OxhpMLhlEEVQR6igPYCpRw1s=s220",
         "view": "https://drive.google.com/file/d/1obF6DD1hUTuf0qra2jONT_62XxxXHNm-/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJojcd8h1U-L-kHa9-2W6IrQofgPTZtWxaf4WdVnqA7xLXHgVe8MR6kB6w8fSTrcZW4zMbmNgAazUZJZexF76-td0IOmYG74ujA5NlLt0qi7NDxw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMM6J4DRnN2QVth9S5sLTz4ZiaBZ58f6ymkMARfH1D9S6F1FoQXH_UfAkZVKwK9PWjdOnGqBdgBqftCmG7v2T62btUxh8__MIPjIVI_amUnsKF9jss=s220",
         "view": "https://drive.google.com/file/d/1OSfnt-5Mtso98MHx4aBqobbTzovBio0q/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -789,7 +1160,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29641 - 3/4/25 (LEGACY)\n  → 29641_inicial ✅\n  → 29641_caja ✅\n  → 29641_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29730",
@@ -803,20 +1179,20 @@
     "_folderId": "1mHJIgLDXYUKyHXOOHwlH7ak0C442eNYr",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq990pzxV8aEzTXWVPBmigE8Y69WNF3O1lnfMUEHNEbL2zU0nvzpa-HZeZ7eM9Hhfxv46G-Mct_sCJrRqOp_wPNa_WVk3XoR9wi9uhqSA3luZR3g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX9J_r6qQJR7_VwuyKAUGRnXqzWNs9fusHtQx9zdlARbSVlCC9T6vzdrTF2zl9x1KIB0zGflA_Dbny6uyxg4Z6teRbL5xYV4JG1K87iXOTkTbyG1Q=s220",
         "view": "https://drive.google.com/file/d/11bOtiL_ZBhiok-84F6TGwwmtVuzkv6eu/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNgFFC_rezXRHajCn389xx3stJAYHbn0at6vwCGmzETwwW5TXuJafm1DnX4UitvGlCLedDYHZzNnlqo9UfqPaN_TP_FlD7n69K5JEpCWtfIK36Yg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3l7U2vvD8pKznpJaXoiRKn657EIIcwwe7Ujkyu3VQ_klrA3bCYcIS3EKiMSE-EyUvCUe_dA2JgIWnMO8-OUX9CeX68yn16aJIVjPxydWjYKeG8KA=s220",
         "view": "https://drive.google.com/file/d/13c7gNvND_r--s40Iz-_V3pREoXi4wIyS/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfr--EDCFIEDjfniMt9Ojjmjp6oux6i9AT1CaRZ42-a5ynY4PkEIQ6IFBTZk-TTQRCnKL4QP8pu0_7Kqv17SL7XRDO-lk9dTofzoNs-_t2xqwxXw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtmEv_d4XY69IXrWBieNkbbsyQgwXHXkZqkpGiW-3JuULOerZCCHWIIBxRy1YZV-uggTvrd5k-1jQJ7lpkKecdH9XcVKGAontDiKTBtJjiVvY1MRQ=s220",
         "view": "https://drive.google.com/file/d/1DJoJm7XC4njqmKqR8mu15htqwpSlItrn/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -825,6 +1201,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29730 - 4/4/25 (LEGACY)\n  → 29730_inicial ✅\n  → 29730_caja ✅\n  → 29730_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -898,6 +1275,10 @@
     "_auditDetail": "Folio 29733 - 4/4/25 (LEGACY)\n  → 29733_inicial ✅\n  → 29733_caja ✅\n  → 29733_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29736",
@@ -911,20 +1292,20 @@
     "_folderId": "1rA7Uzzwk30wkc4B9px8PEJjvDli3G0ae",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6ewpYOtDOf2yxfbLbI8W_eWzpyAyZWwF07-eBtYVOGOckm2kGq5Ctg25JFVr-IS3K4lpbrotvYit4pzr2PNjsARBr9RVUI_Zf-B9fOXk3QeINCw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXK9wFl9cnlav_EWB0JpecrCzcFh-mJ2nmPd1QjLkL7vC-VwApX6TNWDYaUzZzoPn7WLU8u55tvHjtYkTDwqEQ1kPFr6omd48WEKooVU08y_KE4Ss=s220",
         "view": "https://drive.google.com/file/d/1iiIcu02ENHG_fF5xYYLJJHWjE9eSvNlI/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFBMSWPtJtfu_ZsOj3jUXy0ikvboUjRDmtuAPHdLSzzzasVq6aGDEG847AigUHbieyL1x3B0_q_eo8CYN-9YCR5jmcYiaWeaeN7j-jEG5QGTpwrQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlFk3XVEIZH2_fFJ5frgGwUJx_1pPQ-YQDtJGvms_-Ha1LeOiHSxS8Bdoo5O8rsFJbkdgF29tQPfORNapYmu75ccRuvwBlxYKv-JtbrlNiVi44eaw=s220",
         "view": "https://drive.google.com/file/d/1Ou8yPjNgx5MWpj0NOY35wxdf3EjX_O5d/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQKZKrZ8qWvlkFw3V9i5i7JuGwyvlzvfk5Lv-8Phs_qw4AMNfLKcutANAGyysJCokjxgkyA2NmgmN60URvFxn1CyIWoDStXFpuN2tyvzRDxiXqCA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPASEXsBhFovMh3BruhsOR33tybwXpMD5ISjV4qVfxA2bMMOdj-5g6fKzOWgxsY899PJCdn6aRbVDGUZ2Sp3_TFpNGZAMvlettSIu9SLiF4xx6q5G0=s220",
         "view": "https://drive.google.com/file/d/1VjfgHxrU7FQD63S1jX7DNvFjPup2Gkk_/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -933,10 +1314,15 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29736 - 4/4/25 (LEGACY)\n  → 29736_inicial ✅\n  → 29736_caja ✅\n  → 29736_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29737",
+    "FOLIO": "29732",
     "FECHA": "4/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
@@ -944,32 +1330,76 @@
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1cBBfoffyBzHv9zkqNS2mfImN-1jgCdYb",
+    "_folderId": "1R3KicH97IolPBbKdhTCG81hj7UoD0o5M",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNd11pGHXWRXbpmt2UfHOe8-AkSAnp47hz6o_HRxPbkQu0Vzp5mXyqZTSYxdUeZlAnCY-d_2kGtXemoxelpPQxMWggoul63eM7p-pgHoZF5z7Zr7g=s220",
-        "view": "https://drive.google.com/file/d/1im9McU7pFbJCjQ7qtxPbiIA93zUE7vXF/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN396Y91GC-3tY8kNki5nH0YM6yFFOJc0RcMSQK8LRX6FyszBmvtoZFHJkt1KmIEDHFRSMigV5mxPVhYdVdIRD-xHhWjpwbfvxtjVzvLKRCoHKQNGY=s220",
+        "view": "https://drive.google.com/file/d/1o9huJHAa-o6SwM2iN8bC-oOfSA-A4ERQ/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyJGE0D_I8tgl_PcM9sBi-mwS7PObYK1oxdoKGa7kCcnPj_M3aPrubhnhn6iYS7qg02PKri3Zy3q6Fv3ZwYrli1ar9ivIob-Io4_NYreKXYYguhQ=s220",
-        "view": "https://drive.google.com/file/d/1Hl6o5lnHdWtfygIa89QB6h5aShafXqaP/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEzXfOGsrum83UpnyjJZNbVn6UqaDuy6TQCjvV8nFNTI90LMwOeNXY4VocShYrJFEIOwZp2YDLd9oQTtrfI4Gj3PJggOCWRHcn8WFTzw_numsrkrs=s220",
+        "view": "https://drive.google.com/file/d/1sFVhvG6PiSGVvLOYDuSXzJbX-qTkoA5T/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMR6VnlkkGLhKFO8vVmwtSwVMRXQRHiMfDPCVKjGSRLpOm8Z66UOs5mhrVfaJ98VU_dFA5EdepYhv_fqusjGe2P4VZfyqOpm52LcUoI0QeWp6npDQ=s220",
-        "view": "https://drive.google.com/file/d/14pFd7dyqf5u38jKBEFrX4A1wjQZiDbfF/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwj4rCJzQCIfYTZo2feuOY1VlPJuyZXBnGxRot6TTX9zVpzQqSwC7iZ5vQ2rLOxsBBjDM9psFpcNErYQgMVv20E0uJuumFcB7nXVgFB6QSx8UpzZg=s220",
+        "view": "https://drive.google.com/file/d/1xvUrwX7m4Q7Dhm24NBBJNT11LaN39xXr/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29737 - 4/4/25 (LEGACY)\n  → 29737_inicial ✅\n  → 29737_caja ✅\n  → 29737_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29732 - 4/4/25 (LEGACY)\n  → 29732_inicial ✅\n  → 29732_caja ✅\n  → 29732_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29733",
+    "FECHA": "4/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1wDV4ZIgwK3u-UCTQbV9u8gkFm_OctqHC",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSPb5hhtWnSJvXR0PgaVEJUrZiQB2VbBsA-MFqQuCZOQOP-RooynxTrY3PENQ_hV1CcIqaSr0xQtXbJrtlfbOQtjn4K57h8En1Isx3VPQnyd7SWQg=s220",
+        "view": "https://drive.google.com/file/d/1OkM-waqIvHkPxxA6Ke1kqpieiELdGRF9/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgD0a7wa5kTl3azUYZUgixsHbGELEDZd1HrEdncv3FFEjwHQ1JjZmreZglfJ4GhVg9ykzsCLAAfKjgggF0eMhE-uj8Pm6Ztnx1DKfkIZe1HEKpF7w=s220",
+        "view": "https://drive.google.com/file/d/1igqHW0nF96PQ3ZacaFRJYR9IcLhEbhwl/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2KUOdFmPofGgMaSO0HXWqNkrimCajscY9Y2-ZA-UJP0-Y2KNfe48X3qnsl6LS4T9WURkXfMy8crYbEr_OP6WGkc4b71rq17WREOPb4kVWVhtzuJ8=s220",
+        "view": "https://drive.google.com/file/d/1Y7VnKyRJtHptid9InCq8XV2T2IfRld_Y/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29733 - 4/4/25 (LEGACY)\n  → 29733_inicial ✅\n  → 29733_caja ✅\n  → 29733_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29826",
@@ -983,20 +1413,20 @@
     "_folderId": "1T4EHcACIu6lkvnWEfvMYAC2IRD1VHfJv",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXoAV4v1578fHenlrkZ822Doxxft3FPRyJsg2v7BhOitF8hMOF4AuIsM8uY1f4daVidKQJZtbI5i_wtUc83pQ1QpKkCzzHVGJ21p7wxLYjQqT-Kw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZG4-jZHprPeZRSKvgMUwyxU6EXjb2V8PEZd0DQ664QAfa9H5TkodVmGaFoQXTf4rFh0AxOjRecbA9v1fhVuPYusGcDRBZjB-vz72e299E0KQ-0yU=s220",
         "view": "https://drive.google.com/file/d/16-yAp0sDtyxj3GS1Vxik2s75lkatX_r4/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONup6OrCRcuheFXh317lYnQ0hD2BpNd08-ln58Lfqfd5mAwgIWWaGT-veoL40vIhWxY-pDtN1jbjEjYcchfp5VFzHHUZbmydGgL61PmUKzSfTa8Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfD2OPSG3cvo__j_jMXBugr68tw9zi5jg5boLoNHj-H0UH3EELIKjG8ZDHOid5vRrPvTjN9pAM7bl7U9M3qZKvUIa_0MTw0P8gPl6371F6TvqZPao=s220",
         "view": "https://drive.google.com/file/d/10aig4mkDhlEldU16jRf9V7ABZmiN3m1z/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMljDrG4PqUTGmi_AFrnMzXO3SKD1uXd7uKOuGnt7p_f4vzwyxMNKZjSG9SaKr33c6nBqak_lagfjJikSXpnYW7dCr7mfq_0Pb8rnUlimuCUYyA6A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlj8uPNco8LrDu3z4RP9xvEMtsoOLaBQGtGwhNnPK4mL3d7w5Q25MBGjIHNScUvvfy3ZmUPfYXJBEs3CQLwSVjVNdNfDraBSt8c3ABz6tOal43WNo=s220",
         "view": "https://drive.google.com/file/d/1wEATNo1bPdG1Mx8TMiNpyBGidpm8go7U/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1005,6 +1435,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29826 - 4/4/25 (LEGACY)\n  → 29826_inicial ✅\n  → 29826_caja ✅\n  → 29826_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -1042,6 +1473,10 @@
     "_auditDetail": "Folio 29878 - 7/4/25 (LEGACY)\n  → 29878_inicial ✅\n  → 29878_caja ✅\n  → 29878_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29881",
@@ -1055,20 +1490,20 @@
     "_folderId": "1u9qzyFfLE6q6F2y2v0FOJdlGccN2gc3c",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXzxLq2AuIfzCy3Hjhc-1JOG92CRfEu0KlFDXvVIZjkhQf058oOE836Ruizwic0-h1F0hOkEC8xzBZk7ZZxvvrkOhaYCuKX7SCx55rvZr6BB0vAw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOow4x8UMGneqs9XuLl-KFRKg0Vshfb8YnReP19LtIkxVF4n-12ejo95Vf_UNm36CjvOV39i6T9ANi8DR3HzHVZWuMG3DgoYI9AUUBfDgdpZz9f0ko=s220",
         "view": "https://drive.google.com/file/d/1qdje0qnrkrkapOGGxKealXgqkqBAD4SX/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7j7ssxfYyDE_tOcwDnanL5hE1ZPDJ2uERxYEWmWdRXDnYQV8OeD41N1VJl2x-ty7IOPWEX8pitFMv6WP7PXmRMop9-1oipOyJmHyQnUEqhGbiOQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMo6GyvxQvw8RlaakNQc20b6Z0EXC_E2GQIRQQkIclN0k_DeSn-lxTRXURCqf8WEhBzIjAH0hst4V5s67ejSY1pFRnphpYctbSe2d7BYuQRP2P0NYs=s220",
         "view": "https://drive.google.com/file/d/1tVxq307W_YZhw0y0Ra6pwr4wiBbXSxSU/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHNiOph2nJfS85uUzZQuUCCnTdkJGhN9NjHdY79z6ET9wJeNZucOQ9rOIqnvZsBc7l7VLadQhuHUxqDv5sLVE8Dq01gPynvtvPstau_ZecAw7Kmg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsO-bubldLCqVd7YVQbGUVpE86cP7M4PJDGoxS5AudPoJH5YxEsX36VIE1QCgJokghkFaTQrlsGiNYdnFyvG_kQvvbDgJf3smlax-CW7bbUX0yPuA=s220",
         "view": "https://drive.google.com/file/d/1XSZ4_z5rYFAdnD-qygo6VXDnzF-DPKYW/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1077,6 +1512,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29881 - 7/4/25 (LEGACY)\n  → 29881_inicial ✅\n  → 29881_caja ✅\n  → 29881_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -1222,6 +1658,10 @@
     "_auditDetail": "Folio 29936 - 7/4/25 (LEGACY)\n  → 29936_inicial ✅\n  → 29936_caja ✅\n  → 29936_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29962",
@@ -1235,20 +1675,20 @@
     "_folderId": "1A5b755LvSQpFrGEJEkxct4ZkurJ0fd5t",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFRVjub_to4Z2DhT7Kzru6LpXLqZfccdPvH3min_PVjXsQ7zkJvWh-YIN960d_ZpVqrlUL83_KfVM34QH_PZLXqjobplPVDa1K2dlJPYnGr378kA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMK0kIGl_OTTrrqQwug5A2fToxpXfsbyJhRViGQPY1pWgEdKPVo06L4YfW6tGNDNFRzi7y5Y66VCjYeOmVm6yhDVpVhngIWsw70DYkmUfjgg-ktO7Y=s220",
         "view": "https://drive.google.com/file/d/1r7Rs4TNmEYLTKPdw-bdLbJVmWMJIwi9T/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIe7vDOtd2gt2akbKy_SvQgajvyuYOkfPhQsnd5SIe3p-YurCdzkXriwpayU2ZoDzLqXgFXPLpGxJVAyO9OEczWZ8yT2vM_6D91EIuBcr-wgmlyQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX8RLqBblyyEWYkb81lXLdtmQMKIe4R7LKKY_51er9z3RvBzXNdYVEwqfI7pSRQYlgjGRiMzhU-pbXQ5LLIVkkhmeGBK-DEqpLtfvfcEb__i5C0BE=s220",
         "view": "https://drive.google.com/file/d/154qqwd0moGGZu67L-n6Rv5ybRQXrzm5I/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2HTavI00el_aoBodF6BGPd7zpnLTxpANixAcH-5iqkPpLNlbz7QotMCPdGf35luPyCOgNLPegIEx_eQpvvhcOUFK4k5YfmajmL5sAYptGBTA3qg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiJJfTr0iclOFqDXCgAJ-G1rVZGcZDgDtzwse1wbha5IKIR7G3BXp92KutfqxBLkmPH44SigWXiBVplYKEoL0BUO5P-HPiuYxQhmD60Ob-bErqoUU=s220",
         "view": "https://drive.google.com/file/d/1y_dYY3Vp6c7DHffroLNTFPRauIfU_S9O/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1257,79 +1697,98 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29962 - 7/4/25 (LEGACY)\n  → 29962_inicial ✅\n  → 29962_caja ✅\n  → 29962_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29970",
-    "FECHA": "8/4/25",
+    "FOLIO": "29936",
+    "FECHA": "7/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
     "COLONIA": "Manzana Sur",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1jccqZXA4w4iQhBiSMccXbTTBQ54gHNWX",
+    "_folderId": "1mmOzbOaw0mhoc1YFWu3QV41O62D3OaEE",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_pKLdnhA_RuuFeXTVesQEMd1s_eQx--TLevq-Mtrlb3ahp29SU7V7VYSDNEnu9w7dHrdJlhQJI4J2NuMCDtaazWeV5n1NAzuxppAkw7ViDe-9DQ=s220",
-        "view": "https://drive.google.com/file/d/17vhL50gq0pCn0A4JSmN86wJIB9drx2dg/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmOv6b1LX0h6eGq56AfKN0N9YUCCAls-afMGSs8PEYlkaMzur_ZLA2VAd-b4oIzfg6jHMTNYQSk0Cqmm7Vhh4AVvvAMm52q5Fr92IEZpPAD9FuMbc=s220",
+        "view": "https://drive.google.com/file/d/1i_EDGvMX8LUt2s9PDcpSfsXYI14jRsoQ/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNp5yWhLawZeY1zJl_UhojUsZNoIlX3r-_57gArj75zj456PXjykrOT26C25a3qZC7p2COcB7SDgEQZg4ZOQ1GZE3slY8i4rJglDEHTCkv735Vr_g=s220",
-        "view": "https://drive.google.com/file/d/1QGu9t18a4kINZF-j-6gO5NWKe6aPhqu6/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgcwyHfGkO6LQw3giyGJ1p731u8Yrs96imNoVG1rgtmBBxuiNYguTVexH6tBAfoeP5XAK-3ANeov7BwDDLxA7ptuZcjrLGZiDKFpwv64UJpM4zbm0=s220",
+        "view": "https://drive.google.com/file/d/187wI9Wd8bXT5QqaZVoX3VTYNIlA1S23L/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhQaom-b5_DKhd9C6xUVW_7C0qssw2yrrusVCs2H5h39Er3IylUUYNhMnZfh-nPfM0X4ExvMmruas3IaZQB61_oGqaI-9y1VMKfINzJv9pX-154Q=s220",
-        "view": "https://drive.google.com/file/d/1ZntaBuSJdwJ9it5QGpIH-aIwBlw6Jjoz/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM63kCf-NX0D0r6Zx95GVQOJ8SnAEBkQ241ARbkAX-wjl-iYfyRpXJxmCtLE2P5iK6bjIt8eWDBXznqir-hQho1qpavtyOyibpwHnmYFpHQJQMKMi8=s220",
+        "view": "https://drive.google.com/file/d/1bqgZJ2aoQJQ4J-bMZk0eJrh0_b_zQE4P/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29970 - 8/4/25 (LEGACY)\n  → 29970_inicial ✅\n  → 29970_caja ✅\n  → 29970_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29936 - 7/4/25 (LEGACY)\n  → 29936_inicial ✅\n  → 29936_caja ✅\n  → 29936_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29974",
-    "FECHA": "8/4/25",
+    "FOLIO": "29886",
+    "FECHA": "7/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
     "COLONIA": "Manzana Sur",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1fYIC39E7IufS9oL-wihCP8HNY6-DP-Cp",
+    "_folderId": "1Ev2AogtMHnWnHV2olKwltaT0uHFYGC5u",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPk_RF1vk94YAYjlaeOVAL_oRZKyc0DzWh9p0jzGhNbMVqfmR3eviWbSHpw2uq1Jly78l26Kp1PLfAX_hW9o0nsRaCscRkt4UISIjWYpLwNKuDVTg=s220",
-        "view": "https://drive.google.com/file/d/1dZs9mE8PFzRhCQwC8slfSBQyTX70AZkW/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNk6QdR84a-xGcR9C0viOcS_9YT4yrXccz6puoW__DriOZEBFUvKJtiNTni_2kdwj6WOIDeqIwRBelrDlbRqOWtvkjsK3Gg4GVv-zMKX6K--qkZEFc=s220",
+        "view": "https://drive.google.com/file/d/1oDvfrlsRLHZqYC4TFMlLONFD-WR6j9d7/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8Sj3aa4QITzr4gPxWJQSINwW7Dg6z-yESkeUC1iiVJkxYbTZbd-SrSU-YdZmyCh-ydXpgZOOrQVdI1ZDh8SRRClKdOtk3MrI7SJjMRSzuuD1FDA=s220",
-        "view": "https://drive.google.com/file/d/1gVlVgXM3GYGjowrQgkbSySX1bi6ClXke/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwjr4XEmaA2jAFhm8yJ1lMeBVYuMC5begw56-x9ncIF7vWSXn-kWaYYfIKP2v5htS3Q71CRycnGyHCdJAts7fWjYqXQjmKR4eprNPOoFRe62knM6g=s220",
+        "view": "https://drive.google.com/file/d/1BXc7i2baKFuMtYtRbL4EjCCTZNmnC9IP/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCyBQVagrNINuvXA6DePbS2cdPqG2Yd6-UPrR3fSZBPafjrnNRO3nw6rYfFzWCOk7YzxJGRvfPV6Bg1Yu0EyIpurMTt7t1bBM-szarZZy2_NgY4A=s220",
-        "view": "https://drive.google.com/file/d/14LT3xn9RG2VlnyNGmNLdxk5lauhQY3i9/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZUJF3NthV2-qzTuM6Nqq3pDoPSg-UnpnS3TcPPUeJ4Uq_qgiHVbBZ5BNNU2RRecOU6AGv5QxCn55cMenuBML7v-ifByNBl6nziQIfUbcpKpyD08s=s220",
+        "view": "https://drive.google.com/file/d/1Ehea-1mk7tWzzFzYXMOyp8G1ax6NvJWs/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29974 - 8/4/25 (LEGACY)\n  → 29974_inicial ✅\n  → 29974_caja ✅\n  → 29974_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29886 - 7/4/25 (LEGACY)\n  → 29886_inicial ✅\n  → 29886_caja ✅\n  → 29886_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "29975",
@@ -1343,20 +1802,20 @@
     "_folderId": "1hgPEZKmPfyWchMZtj9XD_a8WB6hb8WhH",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOd2L-X4HEsocWAe1OQp1qnmpwEHq6Yf3wzFXWgqb78RifRmr03c2Zhtz4DiwMfIecWg1mxbLgX57lHxrUGPuJcmia-zjAgusXa5igWEvaxQKsWYw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGYB9MqD71x4k3XXc1nEbABXKVIjnBbxpBrLlrVpJarLogOUuGEKoyDhwk7xC_Q0QLdSFMedw5X3eeukuHNBGVbQUqwf6D9DNA4I-AgPI2BUF_4gs=s220",
         "view": "https://drive.google.com/file/d/1E9d4xgPVNzqH2l80qiQw80yptN0d-7J3/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzIDCf_qkM00CArt780GLhBGSZlvDNyUsiw3Wt3wBcSRawPHyyKKUt8yCdhRhnlON9t2qVihStupFTY1MAsDywiLhW5OplNtI-4KiUANqZLdPJQQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhq4Iq1nYq3udcpaQQOkHStI2nJ15OM2yMkdX1UI2rElmAOKZ-H8fm_TUA95U_PitPBfs5cBd5qN_0GPZzAaro_rHy_RD68im2fY9Nyd5DzfNXdzY=s220",
         "view": "https://drive.google.com/file/d/1zPiIFfaIVKdcmoW-u1VgY0laPrVzWOFN/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSalb11eXAxolYjrwlE6STyfNHwdhLbXMem_d73KfaQndzRDh1mueKfJQTphKnYf5m3owc1BJzwC42ecJJtL6Lm2v8EVmrOp9lXywRbBTpk_qTjw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6XCIDXOgZTNzmIbfbJ8QDN1cZVk-lsjihFzE5oiDauYZMlmOfW_KNY_fC3E4wpeo4eE7PaBmhvb5V9D364QZQ9sqtK6U7nTn88TAdETWQGiJXino=s220",
         "view": "https://drive.google.com/file/d/11vLh3W4yzjhV_uDdvz2joX5jzcx3Yngh/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1365,10 +1824,52 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29975 - 8/4/25 (LEGACY)\n  → 29975_inicial ✅\n  → 29975_caja ✅\n  → 29975_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29978",
+    "FOLIO": "29884",
+    "FECHA": "7/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1v85DO7EF1nf-vBfIptbpTdeScJfNF5Tm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkHzzambDPdiRTRyiFkgscXqhOHl2O62yMTE3wPjLtyZgjCAoUVhaIqrVMkDg0WZkkhKmCfIGau3zg_LJ8Noj6qmMhRp8OOYtAEsBHSN_PI1lhyYQ=s220",
+        "view": "https://drive.google.com/file/d/1j6jW4mbBTqEsIhmOwai7pFY2IUH1IFlG/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfv1CVwdWwSFJMA7kf2XECyT4nBm2cPZ6tlsQfgvK_l9WER5Jatpasv94-A8iXUzF2eC_MQUKPm0kDl-pmgd4QZGrttY5k5fOfNqgvsmkI1ggN4UQ=s220",
+        "view": "https://drive.google.com/file/d/1LAPnAn2BTatGYPCEcbGsbRRfR5NaMbBu/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoU60eV33OLCc2cQnUI1RSco1LS7rl8lZqNQkRWZoQiztIXQSz4rTZgZ6xxTQUshk4aSFNMkhwpa0Y7hPNlcPgov0Cth3MOSROYH9gFqMZ2kCEY48=s220",
+        "view": "https://drive.google.com/file/d/1-R5mCRQAjvowTl6rOexuXNhVB-EvEd_l/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29884 - 7/4/25 (LEGACY)\n  → 29884_inicial ✅\n  → 29884_caja ✅\n  → 29884_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29974",
     "FECHA": "8/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
@@ -1376,35 +1877,42 @@
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1x6RQotkHmMjUiiXh0oAs0yfD_82A2Gre",
+    "_folderId": "1fYIC39E7IufS9oL-wihCP8HNY6-DP-Cp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKY7ekgjQ4FXeKzTx7gE9IKZT9O79f6jHDB6F0Z-spud4PefSr9Qur4l5XUEOPopfSvHPn4VO_KPNfs0CUtdHSae7DaFoUbQ81hUL6ETXj5cyShQ=s220",
-        "view": "https://drive.google.com/file/d/1Ot8s6tdLNAeq4ih06wODsJ66Hux_aXOs/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZUghGWOTXiQchSZVn8M6GSY0TRoYvaNLsvaoG7xXtqtGNo_Wee1vkxnaPNy-i4k2KEQLnb_bM-Qnx-JgRmX2SXP7X7SEawGnQ7qBjBY91hyUAMWg=s220",
+        "view": "https://drive.google.com/file/d/1dZs9mE8PFzRhCQwC8slfSBQyTX70AZkW/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7I1UhQGwOfGLXF_mMEQrPzBK0-gTQdiGuyO3vzI-1yeEishWeE92NDELDbQKtkOzCgmUzZ0SU-OHzTdIjBR61kKpq_6CaFuz2ntc4JAWs6rQprQ=s220",
-        "view": "https://drive.google.com/file/d/1FsBeRhrVw6SNYlpyYVj1TYq1vCJnQKBy/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCpPjb-ilYkMYXNTZdUHAdxw2tyPpC4e4kmJyB_PpVntjJDJF350kvNmDOlMqBsPJy4f0pWQnadZ-nFqozme5fIAaT5LY4L9fYEu-UQP0fFgZYGMo=s220",
+        "view": "https://drive.google.com/file/d/1gVlVgXM3GYGjowrQgkbSySX1bi6ClXke/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxuteeo_CPyiKCKuCP1dztplPhjf9vH4wjszu4NUi3tgFTp5QodaJn6sbQiR3FcvrEjSNwceEsSllwez72mRGJxaJiyq2vs1zM4C7Xr7Fk9Nz6hw=s220",
-        "view": "https://drive.google.com/file/d/13rrxdX3AwZb6Ajs6GgF6pg7lbFrHlf8I/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWP0gYTEgLXKAck6JgaVP3jmymsh6mc3nPrQy7xyOsn0jDUl1aMhTgNl9Wl90g5QXpOT16ccL16IWKlaSPlT9m2aECC_tO696LC6qntOfh5hPKi0M=s220",
+        "view": "https://drive.google.com/file/d/14LT3xn9RG2VlnyNGmNLdxk5lauhQY3i9/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29978 - 8/4/25 (LEGACY)\n  → 29978_inicial ✅\n  → 29978_caja ✅\n  → 29978_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29974 - 8/4/25 (LEGACY)\n  → 29974_inicial ✅\n  → 29974_caja ✅\n  → 29974_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "29980",
+    "FOLIO": "29970",
     "FECHA": "8/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
@@ -1412,104 +1920,125 @@
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "17XLGUZe_pdpVWEMiRGKOQb2WS9PXySfR",
+    "_folderId": "1jccqZXA4w4iQhBiSMccXbTTBQ54gHNWX",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7TQZKnFfaICuWYZ8D9ng-3E6sWZAdg4uo6KS5MMfcptwJgwLk2pnUkxKYMZL5r1LN6i5dh1-ZO7ajR8LqHAIzwnFKsIYtDuucQjrIAG8bX8xkbQ=s220",
-        "view": "https://drive.google.com/file/d/1T2Vs8CILMVPu3-Rs1PB-DHapLTq-45zb/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-fvLEEvJXsmsdaGbK5YQm6mwQ_3GtR9g_kjZdDESI_Bgqrm_pHWY_K4e0TbLVnzYIaBTrmbiH-LPY5qIKEGj-zOcD6Mf7DYCz_EUB71m3R3bAY9Q=s220",
+        "view": "https://drive.google.com/file/d/17vhL50gq0pCn0A4JSmN86wJIB9drx2dg/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_KX_9G7es95Wv_DBB_I3UdyBU-pQnvp080vWeCkcLiwtTlpGDlxxQKBpwz3uoM8QTc7bOJAO-8UPtXzhVERYA7xnRrbgmfsvxrMdHu_jyx40uKQ=s220",
-        "view": "https://drive.google.com/file/d/1WxcKpFTCuGeXPRiGq2s1QKFIrrw385bD/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY2bS2nZTN9tRvyWQLEay1Z8JDG3TwZGj47nf4-avNx9bvyWlQaYLPXqM6S5QYU-jwe9GggeDDjVl8xR2ynHOR3Gdz9N-2GWG7JBkWoR50KCQfOdA=s220",
+        "view": "https://drive.google.com/file/d/1QGu9t18a4kINZF-j-6gO5NWKe6aPhqu6/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPycJ3r9p-yHGEmnVqUbyzXh2tP3aEvSFGK7rzJApZmHIQqEpYJlTcfFiIeoq-Y622RMwJbJxkJIGIecu9uT7FKN-IdVETNcJiDG677XGxKtXXD8Q=s220",
-        "view": "https://drive.google.com/file/d/15jQNrTYLwEcbueqZlR6dEMT3u6u8Gzh9/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXMhhwtCrpUrY3rFs7Yj4TasOxYpY1638SeYbLSQAPI5xFwsfhDdY7aCpr3P79pQXl8t0uN0abyALz_UY8faE9B0SkYQNHgK2GG0jcUwqjhI7sPSA=s220",
+        "view": "https://drive.google.com/file/d/1ZntaBuSJdwJ9it5QGpIH-aIwBlw6Jjoz/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29980 - 8/4/25 (LEGACY)\n  → 29980_inicial ✅\n  → 29980_caja ✅\n  → 29980_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29970 - 8/4/25 (LEGACY)\n  → 29970_inicial ✅\n  → 29970_caja ✅\n  → 29970_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "30103",
-    "FECHA": "8/4/25",
+    "FOLIO": "29878",
+    "FECHA": "7/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
     "COLONIA": "Manzana Sur",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1ND_FcLJgd88GY4MIuowSm0uOkzf4qs-h",
+    "_folderId": "1jUbGhwhBJ1O5A6sUfSCXQ7rgCRGKxlyB",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrTZyqOeSGQOPGeHQSzWyh1jdHllXE6cIz8wuYBI0ziSzKtCqr5A5q9sJE94Zr0DqKvcJuK9Bj1RxZNcqgHSSZOzxtAfSdiM6TZsvW1l_uAd5SLw=s220",
-        "view": "https://drive.google.com/file/d/1Njw3qu2gycmNcURYg6d9m7eFpaHzm2gB/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgnspw2jZUgebgCkAw_AMf-ws6sWW95BACuhyeTXpKmtRjGu_V_IrIM6Xi1Xp2EQajxBGPiF_wKabDRbAx9dimAQXBTexgAlH5wS9KsGCfdk-NM_4=s220",
+        "view": "https://drive.google.com/file/d/1E9UF0ml6GMXSfJpnHiEpqg09VZYFa64Z/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6tA-WyWze6PPZCcIa53C_dj7OdXJiwsT1ZrXCIhsTLZql5W1TWYdhsp7WpwRBWZwNnazH0hzc8gg8S-t0jncg7evTxfvGami8V8EwA9nwqyAspw=s220",
-        "view": "https://drive.google.com/file/d/1vY7Yec0d24y9Af6FsYM6Hd65xBlNkcnk/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODa7Igpe-cIrkJp7522NudGlZ1aYOx7IT-AxXH46Ud-gi2iKLKcLaTvWIGbKlRJgk7hZ7Xt4xuZ3GM8671_qru1uwuG7bTqei5-1S-JI3Qik_-iFo=s220",
+        "view": "https://drive.google.com/file/d/17BBbJrdnxk2oDWu-8OXb3DJKpYpR4bmx/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjns8RBSgXvh810jdk3CjP2nLBdElyROu1QRO3t35IfujyDvm30CgyRbqesEneEGW3ICWWXhNyAfAytRowF3hSCj00T9sq05ypAH_fASr9xKKBUg=s220",
-        "view": "https://drive.google.com/file/d/1Ou4cDgW4I5r8C0iDPkzzRum1uGOmrVYA/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWbBmpITP2sDL2PVBcUPxx_UPhcAXu4AFatcTGLfgpfki6CIwkBU8poHugR_-xIr5mkj-4V8iLolEw8l4s37spSkuWkhhKSo4dKg1zMcQtiAB1Oc8=s220",
+        "view": "https://drive.google.com/file/d/1GIc7nh9oY3Ubc1fTQWEAWjePvZqoI3hy/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 30103 - 8/4/25 (LEGACY)\n  → 30103_inicial ✅\n  → 30103_caja ✅\n  → 30103_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29878 - 7/4/25 (LEGACY)\n  → 29878_inicial ✅\n  → 29878_caja ✅\n  → 29878_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "30139",
-    "FECHA": "9/4/25",
+    "FOLIO": "29885",
+    "FECHA": "7/4/25",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "Revolucion",
     "COLONIA": "Manzana Sur",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "SHAYE",
     "_stage": "E1",
-    "_folderId": "1PqEeJLylJpSqhb_knu6V_O4g3Jr6XYlp",
+    "_folderId": "1Qyfb3thOimCRqloih4HBsHGd7YlirL1D",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8SIgdoCTwX6djSxGuw_U1xfR__yXKbHSn-g2f9OegWBt-vd2_dK4JF7a7khLYeJdHZSTXvimumzRInwmb-COEKrnEzZPO2bTF8rvVZghD8Ob6kQ=s220",
-        "view": "https://drive.google.com/file/d/1ExhFe44Km2cYPFQ49LR6TYowxpyBNYoS/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZ_LfOUx_xI-YhpL76QD_P4YfxtlPKOxXq-9-EsXxX9UrO46N2Ah5hl5zktnDU27XScVg7sISrk8svk64S37K7p37o2IGY6i2rJa3BV-5h_vMBAZY=s220",
+        "view": "https://drive.google.com/file/d/1iqJkVpYqlDSs7R3jfnn-9g9sB0PtL8fx/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaFWOhYObdkyAZY7YcXFA6HT-zIRr9ZaSixFbbfbLGhjnkGGNQRTq5uA8PuKwynD4gs1hnLiyYfMdKMoxTT_2kHLHvGOb84IWv9lv1wBxqrY8PBw=s220",
-        "view": "https://drive.google.com/file/d/1zrKU0ymYVYEmh5ja_BksGSNmwyVw_vke/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPBHKfn9QwNja3k1rr_vdfHaX7ZaOGE9bzr-nZkCUl5BqJ-zGj-VcJSHy46xUzzfaEoHSrqmsF4BZDP-wXUyte69i8K85OpeZQ-xmYVYvcVKpJLyk=s220",
+        "view": "https://drive.google.com/file/d/1p15uImQvME2EaJpkyAWrTiYBgfg7IX4F/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNE7AZt7TiCMaBO0rwQjkB25eGUj1349gkEwp3ZBfiFX_fq762TzjaOG9a0eZx4_944YGPn03QEWDhUV9oyezpiH5Q8_8PjYbGn2i1fm7hMASu62A=s220",
-        "view": "https://drive.google.com/file/d/1Cu86NZCj6D5Seyi9_15VH1KiedDtWGdV/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrKQn5ReY9rGK6MyaHDzCLt_CCib-eBOabn6st9FdX5qIIBxTlchbqNVBLotoGOV3mNxUZ_DUQWj7n01tUtkfkXwzBxmtebTAHSiWDnTRZVPgR1S8=s220",
+        "view": "https://drive.google.com/file/d/11Vk6qqv3UBjYaRE_K9jFUprNJ9SSNf7V/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 30139 - 9/4/25 (LEGACY)\n  → 30139_inicial ✅\n  → 30139_caja ✅\n  → 30139_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29885 - 7/4/25 (LEGACY)\n  → 29885_inicial ✅\n  → 29885_caja ✅\n  → 29885_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30143",
@@ -1523,20 +2052,20 @@
     "_folderId": "1ZMPd_xTc5lts2O5rP3lA0j2jx9yrLozh",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwR86nBokSDp7L5cwgYXLd7TdXt47Fa7FHJCyTLnMbGm6U1KWSCs-yjQMe6CoBdb-2A5hUSTF48wJp4BAflB_TkI_KFgGUaurmtlpWailkZ9nIBw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6lSa9PiiVO8YM0otsk_AUZpt5uyCjpcufa1PQWWbu7s5tIAi94l32KBRsGxRjzeC17B6mdhyhQe6fUlhwe3VmjYm7QtPMLL0Ltg9DRcjpNXeLxWw=s220",
         "view": "https://drive.google.com/file/d/13suJO1CQsBFaRAOzT0Te3W67cIAofKD7/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmPz9PbL9Q2jdsc-VuIGs0c2C0vSmPoN6_Kr097wGhpPfCv2Uwwfe8G3lliBc_v0Iiez7sqhuQ7OfyU5bRFCXDxxoSEWokaqPI_e2pLW1MY8gv7Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnX_NCoh-Px3vtfQjJQ85wpi4R4Q8HMWFq5zu4bLiK0A1b-h-kuoxy0dwnCqvt4qVFtdvAp_x4LS1W-MQ1Hd38LPHb7MIVkTZ1ptjB-LfENEAiqSU=s220",
         "view": "https://drive.google.com/file/d/1ifA23E6_umUTxgSeyt4AITYkriYQf-Ld/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMACEilB66GYzrIh13ruAeCm-czD0vb_LO9gz8WXt-LwltN28-E4moSSCIrIkc1tHU_8103xThtoYM1AELLlG1HQ7N1GCGu4ga25oBJkzoQlEI8Ww=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDKYzFHbZC0z73c9GvMWELxOLnjMSLi1k9pTYpVA0c1GjGG7dekQvcO-dU2syyl3hVxmFNSH6y0r4FVH8330hDPACKZP1CEmuRfiS0dgMZ1mMCdiM=s220",
         "view": "https://drive.google.com/file/d/1OYqxBKM2SneXsUxaiJmyKtFbqvM3biEU/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1545,7 +2074,160 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30143 - 9/4/25 (LEGACY)\n  → 30143_inicial ✅\n  → 30143_caja ✅\n  → 30143_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "30103",
+    "FECHA": "8/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1ND_FcLJgd88GY4MIuowSm0uOkzf4qs-h",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQfTm0iPaRVWltZbVflls0p4I0z0u4jftIqeFj8PmgeUEN-ckscgsGbjwTGCMbP3jw0bozhwcT-ClP_8BjJYaVbMP8KcmD3n3igFa2H0YvpNNbRAc=s220",
+        "view": "https://drive.google.com/file/d/1Njw3qu2gycmNcURYg6d9m7eFpaHzm2gB/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPoGLGQJeQXyfFSU9r4byKvasoDKPRUipji8-Y2K_Z5kia-8Z28YYDBAzB5Q1FYbDsCOBBL_HE-16DI5gHnAnW_qr5PXNMXhLzWwJW0HLSh0kRrno=s220",
+        "view": "https://drive.google.com/file/d/1vY7Yec0d24y9Af6FsYM6Hd65xBlNkcnk/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNt3YW5P1kMRVogNVQV5MruTXBvrkskCr-zLXgzHkSZOhnzwbnZRC8EFddgxyCKBbGk4gpBcwthYZbD1g0fs0ydwoIEFUrrAG7Co3h7pmUt5L4aoT8=s220",
+        "view": "https://drive.google.com/file/d/1Ou4cDgW4I5r8C0iDPkzzRum1uGOmrVYA/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 30103 - 8/4/25 (LEGACY)\n  → 30103_inicial ✅\n  → 30103_caja ✅\n  → 30103_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "30139",
+    "FECHA": "9/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1PqEeJLylJpSqhb_knu6V_O4g3Jr6XYlp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3IxVlOWT0lXG-kF1whjcrz96haYtkNZMfNogcMqpihea-dDkyPQxgHutYclAAzaRf_u5Y-YikfpGdy07IOzbBMXCzSPuuMQblGpE1fgYglM6nzWI=s220",
+        "view": "https://drive.google.com/file/d/1ExhFe44Km2cYPFQ49LR6TYowxpyBNYoS/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPcidLVxj2Uje16en1tVU3VkZYJDgfccy1EczlCBAw6EgTWMAG7h5w7CZLgUWh1W7iP05iswNJeZlAmFAycFedIvwXy8MZHMYAb8DZticOQpH8EJM=s220",
+        "view": "https://drive.google.com/file/d/1zrKU0ymYVYEmh5ja_BksGSNmwyVw_vke/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEdgUs3IBsJXBDZ8vFZJdIKt3QJ7lnnzxzvVHoc_twWfdYYUthJRRTLBETgXgR8WGtOujR5Rzddi3mllzFyElZJMjRNxHuiRJGsiCPUNY_6g1RgZ8=s220",
+        "view": "https://drive.google.com/file/d/1Cu86NZCj6D5Seyi9_15VH1KiedDtWGdV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 30139 - 9/4/25 (LEGACY)\n  → 30139_inicial ✅\n  → 30139_caja ✅\n  → 30139_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29737",
+    "FECHA": "4/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1cBBfoffyBzHv9zkqNS2mfImN-1jgCdYb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP38L83YgdWhV8rAngRztxUKw1xi2IJF764x6sjsaiTlWzDLd_dY-L_7Zat9HJiE_edcHtluhiVEria1CNZvwVf3wUXeQkwyXhnU5MMk6sHhLHs0yI=s220",
+        "view": "https://drive.google.com/file/d/1im9McU7pFbJCjQ7qtxPbiIA93zUE7vXF/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPl5EXR1Iw6HYk8vWi-QqkVXlJ9hpePB-7EPh5EsE5lu6QPlSTRHaLPJknwmJm6O4JeM-2b_IhxCKRrVlaqM1nVejUZ4KCnNtG6XvGrSNt62CGmi3g=s220",
+        "view": "https://drive.google.com/file/d/1Hl6o5lnHdWtfygIa89QB6h5aShafXqaP/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7gHDWMCSHnY6xavaqBDWH7HIFOqDviPuOGnpOBpMd2_kHK6SW3scwvYzfyGf6uxo6PDjj0bUIBWe9ZQ9ui_T876ScKF5hruqVhsUM0Nm-uWAZFq4=s220",
+        "view": "https://drive.google.com/file/d/14pFd7dyqf5u38jKBEFrX4A1wjQZiDbfF/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29737 - 4/4/25 (LEGACY)\n  → 29737_inicial ✅\n  → 29737_caja ✅\n  → 29737_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29978",
+    "FECHA": "8/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1x6RQotkHmMjUiiXh0oAs0yfD_82A2Gre",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONGFqBE8KKYVgx3AjxB4t3Opp221PG_GabfcU39tkWBGPPAfk3uHg_aoZiAFF1ytAq2tuav25gPT8ccUK_YIwTN48_1awyczTJMIpRagOZKLRiB1A=s220",
+        "view": "https://drive.google.com/file/d/1Ot8s6tdLNAeq4ih06wODsJ66Hux_aXOs/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuWyVqx6dbUIyBkPg32JP1pDfkcAlzfBNANG5cvwPaomf0fVXVszUuM4tPoz8gNsCixbLyLjJLYP64WafQ_rMu3kOUjRJXO1ai-tS2wAI9qko88Ps=s220",
+        "view": "https://drive.google.com/file/d/1FsBeRhrVw6SNYlpyYVj1TYq1vCJnQKBy/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmwIJvVx6Mh3rqQggbpysJ38WzRqRcpJ1G2YWPkS84xoRWUsC87wKZ2c1d7ZAeej853O1G-EX4kUeBZjgTlFmzZGaHOhCdsrCJ4W9QSC9CGnSPBso=s220",
+        "view": "https://drive.google.com/file/d/13rrxdX3AwZb6Ajs6GgF6pg7lbFrHlf8I/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29978 - 8/4/25 (LEGACY)\n  → 29978_inicial ✅\n  → 29978_caja ✅\n  → 29978_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30149",
@@ -1559,20 +2241,20 @@
     "_folderId": "1HVEiUMJSCUodsFy20693Tn8VJNL7olpo",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8g4EQ8H_LOJj9fGC2nm85RJB9oF43lz2TjB9qu8iVgH5ArHgt1bPPv663SaOCFduZIAGtllYxfs2yApPjlqo3lUtuNuxuw_pwWlg6vAyMx9XPwQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN14gxf8TYtWqRYe6Ysai2ggItSSoSiOUJd_n2DM5FgCieHEvnv3WVipnwlvy2bHYDv1gtUrIWDiztvuQKlv9WKxW8T7GLiopy16yGnv_hFCBdn2qY=s220",
         "view": "https://drive.google.com/file/d/1yDR-qFR-Wl3oKVIx-184TNgY3H4r-LQK/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIyLvXSYPoHcNfD9UKOW-_VB9xjkLAJ4mhTIPXLIFPXWjTGDbGiydMMeGBjFThHWS7G1U7Qj3bT_qnsMaIFdLRBSKbIFMzPkK3z-23o5h-QvwZ_w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPU5gJepFFaxoovllot-v1dNZiKf3bMME91Tw0rHVseSfGqYGyopTGospPuZLeP7QtlLcJ5vsp01rXqIA-hv7eVp6I4PIAnk5IYlvYJiN2KsLo3gjs=s220",
         "view": "https://drive.google.com/file/d/1WSbIxs4o4HOxFIcoNf3RBJqUhM60NZm8/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0MgHA7L9WbAoJeD08CcE6Lhs-EfloPLf0LE9weNoPK19zRo7P5cgVve8WONahGrqrIyexK3gw4JYy7wJKop5AwfqRdD7p5HQCuRadPiC2MAN9CA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN49V0I9sl3MK0Q37MvsEamnxMBM_dEgM6mGSadmd9v3iX7re6KipSqIGd1b6tJMNgyjXoeyb8gjbtKMnj5uTja2J62PQpUEbWUSw4rg3dTiAi66_E=s220",
         "view": "https://drive.google.com/file/d/1J2fLJMFgFW6IriLy9KNxMLy39aCLX1S2/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1581,7 +2263,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30149 - 9/4/25 (LEGACY)\n  → 30149_inicial ✅\n  → 30149_caja ✅\n  → 30149_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30154",
@@ -1595,20 +2282,20 @@
     "_folderId": "1g_bXwbtJA6ZoIcHR6jPC7Df4ZcsKEb1W",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrrwDr2Xdv19vhgm2HQu83y560rbvE7n0cZ2LlUM4VE3i-ZSYXAs_7bHalV3ynRIbEncoly1V4ojgwkQ6n6FVzNt1f97qVP3qZNxtWsXZzyYshTw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMixpmFAiWXW7QQ3hM18K6cne1PM9C-RvVampm3iHVtfBWbMNFKqiGJGeru4vrZ2Fk7-XoZ3dCCzAJwnew5dkK2jm3dOTw7dc4BZnfgc8wH3BVMpQM=s220",
         "view": "https://drive.google.com/file/d/1G-KvhY82aEoY_KtWIxLEBUtJNDaq8von/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiRK2AOzuV3ST3eiA1s13qhr5nld6HgnpLpI5k8V1kfFp9PV4kvvQHEGbHC9qXrFY9mvwtmAcGRYGC67zjitreEQ87UAIo9g_sezIVLZB7_Y-UTg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbtIdr2Mx1uOySEa3549hn2gP5G6F6ZoXvLuIsGJ1-skEBIOCCtJybNeEEAfIGt3acqMXaPJpfRcPO-c0TPN3ufrrrZeoUAgH732C3hmvPTfUlqYg=s220",
         "view": "https://drive.google.com/file/d/1K3PjHeR5QCNM9scR_z0EGTrsu7X2jNiR/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPF05GsQOjh9YteNAqwQ213-AhYup8z0o5Z5PEB-j7EZ_AE34VdRtp7LqmPtmF7YsNnOCX7yZsQWr6vrjYpUCxXfLwRS0cdy0H7KNLw67cnO6hTg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfn-Q0xUlYYDBwB1SdfQiQ01tT2ok4lHTgLdmFqwRsU7iDoqoZWnZBcOYOYfHBJa3gVNQY3UKrUF_xe4X9u_My2TCMirmw5-TaaS4M8HMfnDfZRNc=s220",
         "view": "https://drive.google.com/file/d/1jN7n2s63L0vukrJ1AdO1hiWysJFuU2rW/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1617,7 +2304,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30154 - 9/4/25 (LEGACY)\n  → 30154_inicial ✅\n  → 30154_caja ✅\n  → 30154_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30159",
@@ -1631,20 +2323,20 @@
     "_folderId": "1bqd1OgAF1mwLT-zzP_3NQssahy0B7hG7",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFvsWVS8L-WUhkw8sFJHnjWCheuPbUSGrJ6qXLj_Joz1Jj7DKLTEccycGdP6d2jxH0bILXOT9btqHnOyjzefZE6MpXoDH2XnGMxNBYU6pnSlgZsA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgvSmfl4PNqVqHLIFOaKBu3-Qu4mgdRXq9QlayDg0YxRFx6NOLGSxRY-sN49woeuRUwSFEaI8eNmRlJSocmJUnszAkN-VljD_En0aRr5oK1XJCefY=s220",
         "view": "https://drive.google.com/file/d/1nKDv3NMglKKUeFXrUT5BSYZmnEXmAwoH/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBcr2PRQxQ61FBs-ulZgdgmk99SzYnR32GOdiSwBusoGnNjmFzivzFlnTfGwQ-V8d9im6Xqac2xSLFc6lvjzH6PyTh2fNTaHnPSJONS1_Vb2GP7w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfHpKTWiOT529NgJpeAIB35McI-vshogkumJvNNTjw9ku-k1m19jkLic_oFlasulINPvMEygPp015smjPiQfT0msdTfyOz1PtMmFMPbaxAduw-BNg=s220",
         "view": "https://drive.google.com/file/d/1MEYvq254YkcBYaJ8RvVlsCHT5HA0z5Z3/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2reKLRdyLUeXKpmmKzQEWR0JGHsQnNXoGs2VD6BhcoxSDutI22Dn9ax9Vncr_jPtM5sIGhfsrfB5RF_D9DlrJVgbVhtEr5TSnh-svOZ22L_tOSg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQVww6lwZTDAtYgfiIcMiI6PgVRrxYV1gre0dGoNMiUolYJgnOCZfhBkwssvu_xQ1MzcGihSQUXum4iPUuue5wn8x7_PWSuu4Y3Ln4iPDfQzcYKwk=s220",
         "view": "https://drive.google.com/file/d/1BJPNYLFKvRwV6aeVL1aNMo8Xmau7jO5Y/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1653,6 +2345,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30159 - 9/4/25 (LEGACY)\n  → 30159_inicial ✅\n  → 30159_caja ✅\n  → 30159_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -1690,6 +2383,10 @@
     "_auditDetail": "Folio 30225 - 10/4/25 (LEGACY)\n  → 30225_inicial ✅\n  → 30225_caja ✅\n  → 30225_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30227",
@@ -1703,20 +2400,20 @@
     "_folderId": "1tHEYikzIPvMJMEr2g1BBsLhgtinDR0MA",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2JMrAaeMhxwyQejGxNh6pGkkiJ0Ee0Mtjpd_7NuK6HUh4XwOBzwVgOBXJGtCSU9ula9Wnd1iGHn0Mpz4eKQRRPvfWGweaq4EacO-BPHrfl5M1AQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2_HjBScXP_Ia7HOCCuNMoQ3JOnhgdP5Ob4J_dzdJbjzFOJWzUaqLGNjKJ7T4kPg7NAPoufA0ztgDZAPfqSs1g1JZ4u_eBeOg5XZLdOVq65voAdAY=s220",
         "view": "https://drive.google.com/file/d/1v3MpYDkYCNgldoL3q39nLyu7wflNoPlK/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhOwsIeixTH8j938dclnHxk_3JZEKXjXnp_jien6DjwnIxV8gzVaj87xsDFiuLXN9VtzR51hk_kZ4kS38aJks83UFCogo6iBuTH5z-tED-aLYMcQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr6bvao4pO-NMdq7RaGpp31YeA-3rtrSg7018rKvzkD03TuTKJyJztWxzZZtbQyezQ3VqpmB8kbD3H46dMUjp2NgXqRzG8IG2UVV5m1XZUO4Dt98c=s220",
         "view": "https://drive.google.com/file/d/1iTXoVzHL5uxHynz5x4551eI63rvJ8XyJ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwT3FM0OZeFARSXX-htKB0HEz10nmpw2lv6KxcKtLGotJeh220jKM8elGlznqpZHF-n-IbXwGm1B37wus2Wwnyh5IKTuJ2DFKBrLMirE32BTcizw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3GbcP6QjFQg6xss-ER8rGQuLYNLUF7w14qyLfGYjZte8lr5GjmiyPPKCNq-0DFwuLTibSbB7hYy4L1UAk9bXloiWpw3477Axoamys3Cqd2EtHMnw=s220",
         "view": "https://drive.google.com/file/d/10GQgsZVvwpH4qJ8cGAhP_Z1HMN7CC9Cx/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1725,7 +2422,49 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30227 - 10/4/25 (LEGACY)\n  → 30227_inicial ✅\n  → 30227_caja ✅\n  → 30227_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "30225",
+    "FECHA": "10/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "1PXi8f4KCLYfYuyJUNgbz0aoh6l2zusYO",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1S2JbbsUYBjhgoiXCdHtGtnAFtjoSg38s9LYklkOopmWcSJMx4HGH_Ab8TjiTqmj06ty5lL1NJ-fD91lSTwCDqyfpiVrvMlOt9RCN5d_XH9faQXM=s220",
+        "view": "https://drive.google.com/file/d/1VmpehoooF35FFE_xORFvjOFXzyZMENXq/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNI323--EeQL6nKUVN9EzZxkBFV70cbYqQr2WfoDr4FIf1qG15rmYMpKGoOK71RZp8wbIJtvX3-0DkvBOLscHRNx7CHb-09SvGdRWg3479CgqCjNC0=s220",
+        "view": "https://drive.google.com/file/d/1OybbbS3T0FbwbgpznkBaBuIOpI7nteRw/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAh84Un10nU64S3ixuAWJNofb_TR8VVXm0XS5a_kOlPR3ast7JeOZl3Iy3wbLJ_PTMFEX12iQEcOe8lgFKgBp8MgrzoA41DTqM897DKyUW71h6SJw=s220",
+        "view": "https://drive.google.com/file/d/19jW3VunOZk_zrJJIB239rGBj1OXkngbc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 30225 - 10/4/25 (LEGACY)\n  → 30225_inicial ✅\n  → 30225_caja ✅\n  → 30225_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30229",
@@ -1739,20 +2478,20 @@
     "_folderId": "1e8MaW-gphTki-S4bUtsb_78uqiRJMXjk",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6xBJ0gfXu8GpXeky-0ju7FF7VQEdwYD5zx3okVSYhWNRSdF1DrdXbG9tOxY-3VL1HpUtmgw-5irM0d1itHkE-TbQHAFNl3dSlXgjpm83jqijqeg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOF5eoBWCW-QGC8Mps2xUvhV2wxc4uQAPxJy7K6zpsj7S4nA-71h-vG03SG-p1rW08BnNcbF4zb-NP1T5VziM23Tg6IVuIDCnbt1PR7rxqdBCiBAs=s220",
         "view": "https://drive.google.com/file/d/15I2M3GoD78uKPMkXZWBmvbm0nM5ihrfy/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlFkDRllRfM3Ey3omOhnH1DsbBwyRUIZD82o1UcWclqzTtEgqN23qn3iigSfYiS48tlbPlQWhdk56yhLeCrWfyGVJ50TAARHaRDPQOhntQ1ZLswQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1dBkc9hTaEqsc7n0F_VWMktpzcV9pZxVutHEgeu6y2Qj8q_yQqxmH-NNQQixzwCcruooaDR6ArQkuhnFbYDLJ0vAdKM8uCxOHJUvW9rRL2N7R9Pw=s220",
         "view": "https://drive.google.com/file/d/1mHbwmp1T3HOqM-5SjfbWEW7HMpGaUWNq/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNILGrXzBD5_sBsp1qj14OuLPAwyJDt43AR5mtnijxUybg82ztmbwMH7hmCiX4L94QHwanPritZm5ICnM8bHqSZ6_MHN7t8f-mu18kRUka5BPAC3A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2ezPHFWpxAXGvsoRO2DqQmjPBHJ9axpX1PTDGxI2VeF-EtbOO2Bj1LGupOsEddAx0u5AieIhrUMsWniGk8-iUmpp1vgeQwFr1za2AGNX9pOB9_Ss=s220",
         "view": "https://drive.google.com/file/d/1nlrEmI0S_hyLYb3EMSgJ6kDcOyRI9NkL/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1761,7 +2500,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30229 - 10/4/25 (LEGACY)\n  → 30229_inicial ✅\n  → 30229_caja ✅\n  → 30229_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30231",
@@ -1775,20 +2519,20 @@
     "_folderId": "1GvG3h7n0crSZhDkcCGywRRcE1Nb7Ryue",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjz4lT33gmE6Qu6xvWt3iucozzRDtlQBau8BlJyGSPqkXnS-J91FIVrN0l6aRq8Q7YQwnybA5ewkA43tJ9x0FfCuUPDIntq10EZQUcPCPvlE1llQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpTtSsWr0hp3-dcx8TScw-hRsPO40pvrAZ-IBl_c_eq6foil8zvTtSW_q1dQl8DWhyURU-FHUzpcm8nU6lN6YN_1JmAYGt1XZcEoqMpAWlc2xNnqU=s220",
         "view": "https://drive.google.com/file/d/11c_IJrbcsQQ9iavd7YBVa247OMHGmgsB/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFPGodM63aTOSc0y2HGsxoED417ml4opTWVVaqtyXx1mmMV7TMyAAyK7HvvIftvvDa57fJB0NhH1aC-74jlZQhbKGqLOGs4aL8h-WzZKZ0D7mD5w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOThlayHsHytOXyCt5SUHf2lCKVK2uWMG15fWv1SRn5ZnbhgnxISb_H6KN12hyfssjKHE1sVqX0yAjLaCg31WJ5f3i7Y9A_itviyLCtM7PCgPwPr0E=s220",
         "view": "https://drive.google.com/file/d/1flu_DCYY11mIm7G82AciWTSoJmv_AmLP/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOef15tbINfn3E-X2ngEJwV6bVgTcO9IiMZe6rY0JJR3xeJhQQgKLTfjyT5nRt7HRvWXeKF2PlNIoHPur-NWsoxHkJx-ELhkwrzZJ75viN2UtG79A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOODNez7z_Po9NBquElYaWzAiKdNWS7fzHwCQw9laGWeY7n_zE0Ewy0Akp0bxKOAl9buBrOHrlWTonfr6KRGowfrg-df7V_KRLFm_zGUMQNfX787Fc=s220",
         "view": "https://drive.google.com/file/d/1nHfyu6I53cCTLXp95PJxycL5Om4uZIai/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1797,7 +2541,49 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30231 - 10/4/25 (LEGACY)\n  → 30231_inicial ✅\n  → 30231_caja ✅\n  → 30231_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+  },
+  {
+    "FOLIO": "29980",
+    "FECHA": "8/4/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Revolucion",
+    "COLONIA": "Manzana Sur",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "SHAYE",
+    "_stage": "E1",
+    "_folderId": "17XLGUZe_pdpVWEMiRGKOQb2WS9PXySfR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMW9wa4hPKqb2wSbQ7YFS03WlQUcjMHyscjsCWfWW38JNJUJgu_0gkj2Psy-No8XkN3fx8Z1UM6lqPcLPsVh_mSiRIW7B2gXVqn0AEQJeY73wCdd8=s220",
+        "view": "https://drive.google.com/file/d/1T2Vs8CILMVPu3-Rs1PB-DHapLTq-45zb/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJFkajsd9pNGqBnbIs5us2xZpO9wNVz-AkLIlGIT90ESELByBLAXroB5o_VAcItb5iBAQ6O9L7Di-kTVDS1X1j3HHiAcds16uQ64mhUt593DQMTJg=s220",
+        "view": "https://drive.google.com/file/d/1WxcKpFTCuGeXPRiGq2s1QKFIrrw385bD/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2dlFhmyAoCz6y3-6PvX-hIB6ZHjo2HUwL32UFaSxx2pYP2pMyMk7DeehuP9QszarKsjeL2n1sybghQZ75X7I05yNPBXFOTbzqgXyqTIMr-7FlUr0=s220",
+        "view": "https://drive.google.com/file/d/15jQNrTYLwEcbueqZlR6dEMT3u6u8Gzh9/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29980 - 8/4/25 (LEGACY)\n  → 29980_inicial ✅\n  → 29980_caja ✅\n  → 29980_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "33181",
@@ -1811,27 +2597,27 @@
     "_folderId": "12zrtX_Xa-5V-NUeWPoNrugok2cwZgnbf",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM26LD86_ZDHhSGdF77AUdBx_L5AA0Lm-3iYqNeBFO18G0TgbjYZvWXZ1dTcq5doSj-kczwo-eCxqF5D4ysOSaz5uKtBS13pYykgP9bslBTU5vKmuc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFsKDEfTy1NUhPSVVzwQRydUjUCpXodDrub_PgXrbBwmhoE3At2PSkeVmwyit-D8WRIZa--w_dWMvaVk5E3mv-uLAa-eG7zKcud-XaBXhntVZ9qg=s220",
         "view": "https://drive.google.com/file/d/1uvOutA69lJEI1aVuD0UPKwNzxnIZ6kGh/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJPtH0Vfahgr8_6NncRD6Qw1NuBmoENHKae3g72GLaG8HryGXXJvZ5NYHwWy5Se_fC5HMGPPhHo1QTM1StMs8y8LlCHTo1iGJ95iKYSVErssWmggo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmH3z3uWYUlp7qGQOTxS5wWG7S4oniJLmMoFMSeryIDhlqR7QjHp8fcrHxhej241wScCsmV8Nz2o-6VmPDgAz70jf6lZ8TsPxwnEgGUDTKMnH73g=s220",
         "view": "https://drive.google.com/file/d/1mJ3YiVW3tQm16gKE_7-uSQsOnpNYkbFG/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiqzI2XNBObfcenlE1uJ0ce2SVrCTxAe6PFJWac9ElRYgWeq9Xz6flYOBNROXeqqIvVEHrVMOQ6x37KbuDo2hKqPa5Bb-CnjhMApJf3ZHCO0EmQ2I=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfzO-DorgXgMPb8dRQ9CDEXlOAVKKoxOVIsF64UkMC_YJZfJV9ktRTgZnETmQsuebjHq2rMFLS94gKAGVIVeWxkNAZCeqKE2TC9QDRd4sjVUnLOw=s220",
         "view": "https://drive.google.com/file/d/1bLUNTUONkhyoEY5544jaIRIvAUhQ9I9V/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 33181 - 5/6/25 (9 FOTOS)\n  → 33181_inicial ✅\n  → 33181_folio ❌\n  → 33181_corte ❌\n  → 33181_demolicion ❌\n  → 33181_caja ✅\n  → 33181_liga ❌\n  → 33181_mezcla ❌\n  → 33181_terminado ✅\n  → 33181_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_auditDetail": "Folio 33181 - 5/6/25 (9 FOTOS)\n  → 33181_inicial ✅\n  → 33181_folio ❌\n  → 33181_corte ❌\n  → 33181_demolicion ❌\n  → 33181_caja ✅\n  → 33181_liga ❌\n  → 33181_mezcla ❌\n  → 33181_terminado ✅\n  → 33181_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -1840,6 +2626,11 @@
       "MEZCLA",
       "LIMPIEZA"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "65"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   }
 ]

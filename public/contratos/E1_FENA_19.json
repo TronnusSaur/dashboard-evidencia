@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "FOLIO": "29137",
     "FECHA": "26/3/25",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
@@ -17,6 +18,8 @@
     "_uploadEmail": null
   },
   {
+=======
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "FOLIO": "29321",
     "FECHA": "31/3/25",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
@@ -31,6 +34,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 29321 - 31/3/25 (LEGACY)\n  → 29321_inicial ❌\n  → 29321_caja ❌\n  → 29321_terminado ❌",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -53,16 +57,25 @@
   {
     "FOLIO": "29543",
     "FECHA": "2/4/25",
+=======
+    "_uploadEmail": null,
+    "ID": "19"
+  },
+  {
+    "FOLIO": "29137",
+    "FECHA": "26/3/25",
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "San Antonio",
     "COLONIA": "Del Centro",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "FENA",
     "_stage": "E1",
-    "_folderId": "1-DOhp2jd96Xu4aDxdCtsK_F7x7OEIB8n",
+    "_folderId": "1eunVfBBDFOt61zaVgG5iT2RAHk7tGz4Q",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 29543 - 2/4/25 (LEGACY)\n  → 29543_inicial ❌\n  → 29543_caja ❌\n  → 29543_terminado ❌",
     "_faltanNEO": [],
     "_uploadEmail": null
@@ -100,6 +113,12 @@
     "_auditDetail": "Folio 29738 - 4/4/25 (LEGACY)\n  → 29738_inicial ❌\n  → 29738_caja ❌\n  → 29738_terminado ❌",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29137 - 26/3/25 (LEGACY)\n  → 29137_inicial ❌\n  → 29137_caja ❌\n  → 29137_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30410",
@@ -116,24 +135,54 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30410 - 14/4/25 (LEGACY)\n  → 30410_inicial ❌\n  → 30410_caja ❌\n  → 30410_terminado ❌",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "19"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "30734",
-    "FECHA": "23/4/25",
+    "FOLIO": "29543",
+    "FECHA": "2/4/25",
     "RESULTADO_AUDITORIA": "CARPETA VACÍA",
     "CALLE": "San Antonio",
     "COLONIA": "Del Centro",
     "DELEGACION": "SAN PEDRO TOTOLTEPEC",
     "_company": "FENA",
     "_stage": "E1",
-    "_folderId": "19M1fHQCGEiqCvqPFdO9cjNBZohZxvaOL",
+    "_folderId": "1-DOhp2jd96Xu4aDxdCtsK_F7x7OEIB8n",
     "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 30734 - 23/4/25 (LEGACY)\n  → 30734_inicial ❌\n  → 30734_caja ❌\n  → 30734_terminado ❌",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 29543 - 2/4/25 (LEGACY)\n  → 29543_inicial ❌\n  → 29543_caja ❌\n  → 29543_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+  },
+  {
+    "FOLIO": "29587",
+    "FECHA": "2/4/25",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "San Antonio",
+    "COLONIA": "La Galia",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "FENA",
+    "_stage": "E1",
+    "_folderId": "18-RglJMqqSDsK-et2--Xx3TOj86YBT5x",
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29587 - 2/4/25 (LEGACY)\n  → 29587_inicial ❌\n  → 29587_caja ❌\n  → 29587_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "30739",
@@ -150,6 +199,65 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 30739 - 23/4/25 (LEGACY)\n  → 30739_inicial ❌\n  → 30739_caja ❌\n  → 30739_terminado ❌",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "19"
+  },
+  {
+    "FOLIO": "29374",
+    "FECHA": "31/3/25",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "San Antonio",
+    "COLONIA": "La Galia",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "FENA",
+    "_stage": "E1",
+    "_folderId": "1Ln_u4UD9dOnN3UmI-j0qoxSVMoUM7eN6",
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29374 - 31/3/25 (LEGACY)\n  → 29374_inicial ❌\n  → 29374_caja ❌\n  → 29374_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+  },
+  {
+    "FOLIO": "30734",
+    "FECHA": "23/4/25",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "San Antonio",
+    "COLONIA": "Del Centro",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "FENA",
+    "_stage": "E1",
+    "_folderId": "19M1fHQCGEiqCvqPFdO9cjNBZohZxvaOL",
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 30734 - 23/4/25 (LEGACY)\n  → 30734_inicial ❌\n  → 30734_caja ❌\n  → 30734_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+  },
+  {
+    "FOLIO": "29738",
+    "FECHA": "4/4/25",
+    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "CALLE": "San Antonio",
+    "COLONIA": "Del Centro",
+    "DELEGACION": "SAN PEDRO TOTOLTEPEC",
+    "_company": "FENA",
+    "_stage": "E1",
+    "_folderId": "1eoRP4UYbP4ubLqOqFp2aTAttM2FXudSJ",
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 29738 - 4/4/25 (LEGACY)\n  → 29738_inicial ❌\n  → 29738_caja ❌\n  → 29738_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "19"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   }
 ]

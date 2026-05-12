@@ -1,5 +1,23 @@
 [
   {
+    "FOLIO": "20587-1",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": null,
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20587-1 - 14/1/25 (LEGACY)\n  → 20587-1_inicial ❌\n  → 20587-1_caja ❌\n  → 20587-1_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
     "FOLIO": "20293",
     "FECHA": "13/1/25",
     "RESULTADO_AUDITORIA": "OK",
@@ -11,20 +29,20 @@
     "_folderId": "197NnzDxIDor_j4UhMr6cUbvxxYqxByKJ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCdPkIvIOCVeDfsHsnCaFyh9R6tOOjcxh4dUby_EmW4fzJGbvsAoFgFJH6GS6udZa6RRWA73_hCRhf5312jHoY4_j47283VicVeHAnSyQe8UljArE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4OpGwEwRq4loccBkbWIcbvFWM9z53RzeUJcYiQNePjxut3DoieAuW8aPle0EHpc1Q7T9mDvkHqrLSI-5YCxhqpXjgURTJ84fxVXesexam1YYSqpQ=s220",
         "view": "https://drive.google.com/file/d/1CIE_cKD-eEkbGzbzDoe2noQtCtfuenmR/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMzn5pxAundoNzajIdt0IUT-km_uo_XeIXDM4Wrk63mDCam1bqIEz17Etx_iGJgWTr2ZfkdC2paZk3m2l_WRscYeXsTz05cy-l43DOk7ZvSu27tIg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHd3nqkoBea0iWjHnfvwIC4XXm5TWvFLA9qClZN5BBtKgs_Uvf8CSBQZiUVBrsFhVP3utMioOQchytwQ-HIx1kN5esgC0gvacTlZbTj2tpa11EAXs=s220",
         "view": "https://drive.google.com/file/d/1jGyCNGGfgZynEovMTxoKrcooJM2Yd1FF/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfPmB3iGhy7W5jhchTRnSB7_9tSlgNlv6tV9swLiwQPZWc7PIv5ugywSRqxS4u_ktTK2EZ1CfRvsSp-ivZbhtvXOTgPMWD-OTAIiNmZdf3Ir9t2-E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKHd81av9HblVudSCbKo-RjDl9IJyVw9fM1nHVDy9MozVVoiCMrv8z8MhpHvfThH-4SNKKoCm2P9tXrN4tF6OkVqzqxHwg7FPVVCSb4ZPIVhpaxjE=s220",
         "view": "https://drive.google.com/file/d/1oVAigCULwsGqPic2Ez7UERzmLFxlVAe5/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -33,6 +51,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 20293 - 13/1/25 (LEGACY)\n  → 20293_inicial ✅\n  → 20293_caja ✅\n  → 20293_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -106,6 +125,10 @@
     "_auditDetail": "Folio 20295 - 13/1/25 (LEGACY)\n  → 20295_inicial ✅\n  → 20295_caja ✅\n  → 20295_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20296",
@@ -119,20 +142,20 @@
     "_folderId": "1OALxjn-rxd4uoIL9YIpkbsWJ5gZDn3_H",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHt6Qy5rrJ8J7OTfg7-NcregUaB6Gs7de0LIQ91FzDqbCNGCN2580I78aOzey07CusqbwzY2gEvUjoOlILBIG350z5GGSvTBXtTIU7C_eVf1YN7-U=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtGEfdkaxlsRU4Qy4RXOxmQFtrIVCFLtTvz2J2RQHyOUkOiPFQ0iIgO5EnJLz3oT_30EYXu2Ji_cT5Qvz4CMULLWNM_0svmpM7LBeLhgsp7ydgHD8=s220",
         "view": "https://drive.google.com/file/d/13uuAUORFaTx1u6vEIYMnwEppaLdXtbm4/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFGg3WZhLQQ-xOPEw3O4k_6CgMq_E931kNphxDbdP324V-3rSPUluHGTAgPnfo-h8ObR9prntVak8RosFVwa75WwjEMxy5OKql-J3r0JRDkq8Ahgc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNS2KSeAnB7QlRqmhQzh-CEjxugXqkThtcXISQlUbpTToooGY4qtQt8kjWhP5CedTdqI-rRly9MqZU80oTe6dSDFaI_IJ3w9zkhc69jpQKbfdZit1s=s220",
         "view": "https://drive.google.com/file/d/1TxEuzTO0JysfJyybuf_LaLBZBQbJBXP5/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNW_FNMmLN-3ncGqCfphPGIq0tSx3HapJCVdHeLrKobIICFytsa5OADMCGiazm4MOI7pO6do3UFKt5jFlkNxIcaOR1YKpzh31ryJQJtKkBUubEsAww=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLa8Z50GVM9GRHUWjKP1fAupT-bIhMW_JM0daseFcvroXkUbzinUxXi8rTegB9Z8Jg1urmHZeg9NC6WRqPCsDjyaZqAyDg3maT4fbOfeIQ9_rx3sw=s220",
         "view": "https://drive.google.com/file/d/1JCaunZFx2n-1qDLPp3iK-cwEJ2yTfGeX/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -141,7 +164,12 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 20296 - 13/1/25 (LEGACY)\n  → 20296_inicial ✅\n  → 20296_caja ✅\n  → 20296_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20297",
@@ -155,20 +183,20 @@
     "_folderId": "1830vCfvFWfBKTrnYfjIQb4S25rxjVknP",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxyV6Hb2GPs4VXegNXAXyeprCFjTwkdlHSZPFnN2IL4zFTRQAPwi4zO4PHDQxhvsKRtvEblH9YBb-TnmilMm0Mc3ExV9rNt7TSMvdPQ6WeJAJXvwA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF-IdfhpfeNuKW564a7KYaTpOm34OzgYrndXsGuhOomRt6qkQwcNSxCqXZtWjcaHRhSpewgJ4GzS7gSmLoAq6zANt0v6DoThni-vTK7Ht70o_oeDw=s220",
         "view": "https://drive.google.com/file/d/12AKOUAQDL_JzR0dHct7x-gArk_dxh2ia/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKmAVr2g_RpJMIujaGInD7cuNG1u7yjdVVJ2BLlDJbM9399EdCRfHBtDWjrTxj5HzfRU-5IOn72rh0ER18HGuEWrTG57LaPJ3Hn_Bhh1JTxxxVih8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvPKpMzvacDLrglLDuR7mC6YxBIsXwcG8WZy0lOQEH4n0gxeUWizMrW9VIW0NloQRATZrjE_o_BFeFppT29kYQevrEEEIV1DnbONpYi-ULj2_kA4M=s220",
         "view": "https://drive.google.com/file/d/1pMTwCM5jOimKhXOs0YwKgg2mkXfwhi_R/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhP3PPxJuH0A-sHWGHmwGTzY7pnieg0S0Ugrw2tby2V2H9RfCkjQQ_9pLeaifb5IQQjbZFOSkdz63lWoXhkVAr7bh1UalzB7FrTxegOJUtr_xcYrI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKmT5NSdWQcwXJo8eUnwgVCG0zMZu4e3HjCoRRkbB6W3wA3apPUBpYYZ0RCAEptXjmcuQmHpLaLGBry3tINcDMRuuDfSG6rkpr8rSz7Vd2aNjvyn4=s220",
         "view": "https://drive.google.com/file/d/1D6PYbsXjywPDWphDp8wQnaWLhpe9N6rD/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -177,6 +205,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 20297 - 13/1/25 (LEGACY)\n  → 20297_inicial ✅\n  → 20297_caja ✅\n  → 20297_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -213,6 +242,10 @@
       "INICIAL"
     ],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20406",
@@ -230,13 +263,13 @@
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsNFHfIQWWTdb6r4VOzumbaYxIMxYFBzrv6OrCz3L193TZ4G-FzbPqc8mh69IiTJKNAlEAqWDPA8FhRf6Sof39bwvqElpkxCQ2_LPE8Gxp2q1ExAg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4uGmqY_ICCAj6IWc317d7Eu-aQx7dZ1gUcmWo_R27hrRftq4yJpQ2QzLjaD-5bdd_h3oWFYR3bi74sGcC_HNJJwUsHeCYnEjlE3_aV5f0dMBlhwk=s220",
         "view": "https://drive.google.com/file/d/1hPacWBVW--g8cxaP3tZ5lHlfW-uPYmU7/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXzlpfJ1vBztUkUxEeKpbM59szPheT2DW50SKg_-ZFDIliRgmv0aSYHDQxONi5a-59J85KLrUx5l-XrX0jvEwYWkA0De27Rj3ZPYnP2fCNqaYxeWw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfukJxxq76p9m8MDBG8bkyvoYVoiysgzDGZ1YGc9wN6OrXY_A6m6znvV9NdbCcWS2ggwfxXsL9yQWWQWf_B0AXn9c9ZIr3AkVfqvmU2OQIIXvcenw=s220",
         "view": "https://drive.google.com/file/d/1_aWJV00AnEgLYUrk1kR2wISOmYI6jTOl/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -247,10 +280,52 @@
     "_faltanNEO": [
       "INICIAL"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "20407",
+    "FOLIO": "20294",
+    "FECHA": "13/1/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "11baVBqvFI6qUuUIdDtkBrsGvCwfPdrOq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFWPiOBY_s__IQgDUFWWdbPxxmzBySVQA2THqLT_c62SXb8-hvFpToD2Eh5_jZi1WTawMLmnzVszGan3Q1vFr8_pGCrOMPhN1p2Y-SQpCrJT-yaSw=s220",
+        "view": "https://drive.google.com/file/d/1Uy533btgFDMLgEJylTg-xtPtthYCdvhL/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1wHFg69X2XYUlaJ15IoH3RpTSsMN0vhF5Tdvl1YOX5aI8ND5J0Rl2bmt4PMsTQCd_cGxMNLy4Yos8kkRuDFm2W0jCK7ybEZCadNrykCGPnfrx2ag=s220",
+        "view": "https://drive.google.com/file/d/1mZgBK2j0RvhaNiRpn88t5jokz4ERWdF-/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYJwQLgJRnFXntvwrEGkFlWmLi8kzIDesx5LEM9DIAuLfUneinH7shPItZG9lmItaOsXhIA35pudSCOV8_iRui4GRN6YbTKC2xktSaDoXM1tpnTLA=s220",
+        "view": "https://drive.google.com/file/d/1KycfKWiF0MfgUmethfoMn2zqLn3nW4TI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20294 - 13/1/25 (LEGACY)\n  → 20294_inicial ✅\n  → 20294_caja ✅\n  → 20294_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20405",
     "FECHA": "14/1/25",
     "RESULTADO_AUDITORIA": "FALTA: INICIAL",
     "CALLE": "General Emilio P. Campa",
@@ -258,31 +333,73 @@
     "DELEGACION": "OCHO CEDROS",
     "_company": "AREVIR",
     "_stage": "E1",
-    "_folderId": "1P70dwR_Y1YihCSDPvUjXPqKTksq2neVL",
+    "_folderId": "1z-b94ZJfX2MkvqSEYbPLnRTNfux7Pyep",
     "PHOTOS": {
       "INICIAL": null,
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_E0qZc75Dp1GmXrMAvi5oZCKcRBxeBqnMPzQzuocBFr0KVUkjQ35Q1Nde8GkAOMbxqF647693sFt7TqUKor1Wz91pnpccC3FnkMbdQAmYXXyWSCk=s220",
-        "view": "https://drive.google.com/file/d/13rbkv-nnUCUMF-dan2bDuRhdOiBvz1GP/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3HJhUwR4ePpDWvbYx-C6pQ8gPH8ZhUvXQntXsOQd0-oCl5zpI6XT9KBvGxXGeQoHP0jbPDLrZKbRgCitHfGlSuBhVhjELW7JpkYuWdRu4w_S9Cao=s220",
+        "view": "https://drive.google.com/file/d/18Hp7Ca8ZiYs7OR0zqwwrAl24MaMDss4i/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyELck8pyS7hdeWqd94F3e4ZdWOgtM5rA6Jb66lJ-ba8E3InjUKUjrvex-W5zCsd2PSXePY2YJk_FnuPOa0CUpXqcPFPSYkzpazDkxN3GPQXPlBjk=s220",
-        "view": "https://drive.google.com/file/d/1Ct8eBJT2xiZshfqX4GTIzVMDFaqKVHsz/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhQxMQINn4RY_47WnivUq5y0aQ0iwYfE2fGVXx9xIcwlHJFB213uiYr0CIWjpMRXWCUfacCLJjg3dGmolOohwut-PhKf7xUed1Dp0H_gwIvKF2H5Q=s220",
+        "view": "https://drive.google.com/file/d/1oEhr4LURrsPWF1nbzq8xZSYXJCSLbuRe/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
-    "_auditDetail": "Folio 20407 - 14/1/25 (LEGACY)\n  → 20407_inicial ❌\n  → 20407_caja ✅\n  → 20407_terminado ✅",
+    "_auditDetail": "Folio 20405 - 14/1/25 (LEGACY)\n  → 20405_inicial ❌\n  → 20405_caja ✅\n  → 20405_terminado ✅",
     "_faltanNEO": [
       "INICIAL"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20295",
+    "FECHA": "13/1/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1aaB9v5rpMuPl8mehnz7dbvM2aF5E7KZe",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSIAx1WeF1e7QJXu5cN9AR4f3kaEK_lIowGHQXwbFcCxTNx-vvLpGbO1KIPA1mAMoehwq7XHIMiXNku77uDb0r8JQi25SQd4QujQHvsdE24sIHDe4=s220",
+        "view": "https://drive.google.com/file/d/1r5ADRhK8CaXDV0devllFWv8WhLcol2LK/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOf8xgKbtjS6_KSIQyXuLR6y9_lCLgv7vNkgfXqQE5bIdqhnyss1g-p3k7WkLCPKTiGpYqHblkHvYmOquis1Xp806WbjnsU9IGKz0oHmckF1T-VcGw=s220",
+        "view": "https://drive.google.com/file/d/18UXplQu1IPDZR5DLF_Dmoa4YyVc0yDlX/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNff78JPy2QhXdGLh-Doo-ZU0qL6_cUfCdDLf5bSMumgYPCyj4j9uv7RwFaoDpzV5iS37cf3IXymNSJiy5P5hWbgE9POvVMtp5cHC1qCP9Iq68KoNA=s220",
+        "view": "https://drive.google.com/file/d/1kLDUKRQmNtFSvDsfhsg7koTTK-9caRlK/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20295 - 13/1/25 (LEGACY)\n  → 20295_inicial ✅\n  → 20295_caja ✅\n  → 20295_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20408",
@@ -300,13 +417,13 @@
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKybM6gOzctS4AcEMajhOhKxuQM6UPXsXTLKfVh27eWYTH79s8s0wuu7pWLc4HTulPCowUG6l9BaJyZIqZ34IKAZpQLweQL_DOY7T2txT_iDlo3iw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmA0EnHfXv4ARCRtpGyOs5ubhKlDJzX7fHV-XAx-Z2O8sRQszhrBazfIEw7-h83FGmHfY1quTptlqf8_UZh7pFH1zviOsDmM3X-N5Cj8KLr6Idlds=s220",
         "view": "https://drive.google.com/file/d/1hvWTd3MBrC__cZjFJQhc186tpoMFN-HI/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxEuTQYxxM66UKbcVNu69grEeRErLU_MGl129kJnTBAU8chxiN3Thn_9kmMJUM2OpiWmA3GL762qZHMPIfLlTf1CuqKm9oKifX80zlPMEhOwIWe3o=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKxf7_wcxH7jDaxlTHjtfcwDNm6sgb2pCzQSh92bR_vAInBeA2ZxRJlKChr9FDRSVc6eQJXa4gFiehYAOXf6YkQIgzzLc8BeJrg9FdEV7DwBCke3c=s220",
         "view": "https://drive.google.com/file/d/1qTCNiBJ2LArt4LgMyErXlAfsJhENm3WJ/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -317,6 +434,7 @@
     "_faltanNEO": [
       "INICIAL"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -426,6 +544,10 @@
     "_auditDetail": "Folio 20588 - 14/1/25 (LEGACY)\n  → 20588_inicial ✅\n  → 20588_caja ✅\n  → 20588_terminado ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20612",
@@ -439,20 +561,20 @@
     "_folderId": "1SypoqSja1bIxYjmpxUuPCY4o8sUk2Jri",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9Kbehwze3j9VvJlzKGXQxK9MwQyif_5gxsgKAwb265F81y-VOWCCfXKwBgRMMFLFhwBDfCe7d6QHFA96lYCcRybwCirp5K9OeTUl2Ds1FxpOScBM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8aWQ8HSyaDzfoJ1s2As2lRuiCNBDuNlHg0mug3KoExRsBmjY8ChdeHu73RzmJc145gEU5eDO6U3MPG8whkQix-nmGpMzNWpuckcFNWZ6DUEUa7WY=s220",
         "view": "https://drive.google.com/file/d/1kgqSuW2VZdLAKxNyMNHfS4wdKvSCTIgf/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzedXkbu_r6u0wPCgBEGoKgjWsq3H_xrBdfYrprctio1WtmrNx7kw4MlZTAZr4TVduL9fj8ayrrJyf3ADRjLjkNNm73Ehxwxeh56UKkrM2a0zZ4Eg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOJplHHsAgXs8Y6HC3_h4hJEiT0Gm2Ov8oxJuYXufPK3YefCF9uwxv5DYS3-2YtP28Eqj5MpB3VVFrbXgFIvtEtxucddwhi25wks_GvYS5ui9I_aw=s220",
         "view": "https://drive.google.com/file/d/1CtU2twiEtFgCJTJ0ZuGfswWvs1q0ysj9/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPby0d-feqOYdiKlW4ey3vi-kvK0BQBy3istyWBhmIgDAeS6fnFWN9T_IF2oOrPxEHcAXjNqrwxz2EXAaW4b7DniHOcn3viZ8-nfhT-ZLV9HL11NkU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0HFKZ7lzDhZovBw4peJVGbJxv5UXwqFiDO2dqozASLaqk4ySi0GKB9RxtQWEwFQ2LvinoL8AWKYiXJKGwBZGVVT7Nv400RzZrjGCej7Vu_2HyzV8=s220",
         "view": "https://drive.google.com/file/d/17XwS7WSBl89Mdhwg3NVvA-xjeN51sJvt/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -461,6 +583,7 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 20612 - 14/1/25 (LEGACY)\n  → 20612_inicial ✅\n  → 20612_caja ✅\n  → 20612_terminado ✅",
     "_faltanNEO": [],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -548,6 +671,10 @@
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20205",
@@ -561,7 +688,7 @@
     "_folderId": "1H0gfsB9GC6XImDEr1PNMNBXSI12wkC2R",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGkuk4NFnHhrUW5PomhhTKCKMXCAhWDSN9KVpacQDqR5fA9-JssdQTkSn--c9YR41BegQYaWrJXRPbyeLzEOSxGurKg5BIfuzL4Sv_uyf6RuyiqS4=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgTsZuMpDHWcaz-XK-IHZYuWj0h5Je_-0fUNe1Lsy5QvQJTIFgpnEZ4NXuHTUpJ_hvcHWydjwAFtQcDbCHD0gVnx-dFQEnTfXNdmszlhgse2of2WQ=s220",
         "view": "https://drive.google.com/file/d/1xImwPw7wkVTmBAURDop9SMs5lHTybm76/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -580,7 +707,49 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20581",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1eD7i_PNyqiWC0IgFLubPBAnV4K8IN6c9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiYQfZ52VQEd7pSizCpqMMPlHFWsqWbnoDdwIB-u_6DbX6TjqQ7s5Sdy-iwHhCr_dfGKPW04uh0-Dvt0uMgig8ThyqnSXBeMAY1n6XyUEFkf1izdM=s220",
+        "view": "https://drive.google.com/file/d/1FOgffr_s3B-ETCePxzyNRBxa_zgaH9Qd/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOs7GE9x5W_4AU_VemySP3PrSfJgtNnYY_dt5GbCpuXLmQ1B1c1m7dH9VPSN8QggCeQR1wsfz27jk-loOeKBuivufFS_u7gYluFtuVJwcuMmjs43HI=s220",
+        "view": "https://drive.google.com/file/d/10cBSFRWQoB8Ld8PaFgdrWLPgfo-VKkE6/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWC9NHJ2Dkq7dwIxykszWyyluUk2sSeIOyTUtLonpECiQbkuOPVU6BNi2ee-j8t9Ktw0WLQq3JZ7JJPVxkdi4VtsWBas-Vgb4jYXdtDMHBGoKxc-8=s220",
+        "view": "https://drive.google.com/file/d/1KKV6n8rTfywztneo1d2as9kjcIwcMG8b/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20581 - 14/1/25 (LEGACY)\n  → 20581_inicial ✅\n  → 20581_caja ✅\n  → 20581_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20265",
@@ -594,7 +763,7 @@
     "_folderId": "1mZOMCdwzzAXNZEYQ6ojD_VZuzaLmX935",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEliif3DcSmwbaHVU39NJWfNFBPBD0Ub_I584ngF-q3E58F5iDCiOTV0TnhCi6Hioj2W5oTp5lgerbzaGhXu_wRV9WspyyoGxXXBFonAfoOomZo60=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0D80VlhGeWvTF346CzRX21f7yYVLFBbB5UUrVsGyyUqnWStMR2DRO0racmLQkYoj_KGYAN_BIAyD72JZ8N_J9ICpD8bqTl8FSPV8T6vg7Pys4lwE=s220",
         "view": "https://drive.google.com/file/d/1GmaWbmrSO2qa00ckYcmIR4n_SKir5AGH/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -613,40 +782,58 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "20266",
-    "FECHA": "11/1/25",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "FOLIO": "20583",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "General Emilio P. Campa",
-    "COLONIA": "Ocho Cedros I",
+    "COLONIA": "Ocho Cedros II",
     "DELEGACION": "OCHO CEDROS",
     "_company": "AREVIR",
     "_stage": "E1",
-    "_folderId": "1uHZi6xV-s2drMBBvDq0PKXH9_aJEbXQ0",
+    "_folderId": "1-NDJQI6P9e7cvn7v3fjqDCOyrmIc5mEG",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHUbIylIkyl5WDg9EJVrc-Gcy2Y2Aal5ttbjvJvPjJ8OeVoyoz7qiM-uaKF0CWfPuMEeiGWYgc6dImDIiiUdxOWj58gnA0WBXpOetdffQK0J2Kqts=s220",
-        "view": "https://drive.google.com/file/d/1-4j_a0ma6YpddXQd7kEI5SDVb4LqrkN6/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7UBa9DXn2PourgcjfPZAGRX4FdfGM6sarNAxynUvIFHKcKG0Z1rs92xalU3fnROBiPrNuhdkcmq8ileyLDX-Jq3lUZAqwoMcdR6rAnAsUHlBL2l4=s220",
+        "view": "https://drive.google.com/file/d/1DxaCw5weSmCCDPCl-b5AVP0tDUEu_Kmw/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlY70FEDic4OScc1HL9p1_qqUTlCIjNIWKbt_xVyED5WxvoBpg0iHv2PwP8rYAWv9d3DXM2xUAvq3Ju77Bxj0MidQIKb9uKM5KP0LJlxJHNdIBgmo=s220",
+        "view": "https://drive.google.com/file/d/1E_pOq48fXumwpdbD5t9aapV-mzX1qMcs/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPC7CyFoi-Av3YkU_xs79BtCY4P1BLZOG6K2Sto2omwMW67jHYxCz2a9GK8K2_KcE7xGXjJHrRRkvSiBf9CnWu3Zsm7e_bCxwLw-fVRx7Cq1RElQ0M=s220",
+        "view": "https://drive.google.com/file/d/1BXmP-qHLryCIrXQNriEICkKB1jgEdfje/view?usp=drivesdk"
+      },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 20266 - 11/1/25 (LEGACY)\n  → 20266_inicial ✅\n  → 20266_caja ❌\n  → 20266_terminado ❌",
     "_faltanNEO": [
       "CAJA",
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 20583 - 14/1/25 (LEGACY)\n  → 20583_inicial ✅\n  → 20583_caja ✅\n  → 20583_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20267",
@@ -660,7 +847,7 @@
     "_folderId": "1EY836aS590r1OIMMmyTyyGj_CA-2gpgM",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMVZyAuwET7TWjbWsEw2N-uWelW_XPc74j3eOo07pR2ebBI93zflpVhMKmtpsjn4_VBeevAt5-zd7aMyzbX0c7Uv6PkuzCvJNyFf4C-gDMWuXKWqg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTIgKNd4hh4yqJI0Ui4TeDijB5TC0DpwdEGlbiSKqis1H8ntdyMVk6kB30Y9h-ygLLikFcEe-zPVQPG98Hs3XANOcE2htKV1kTZRUVk2Fm6D_q-5I=s220",
         "view": "https://drive.google.com/file/d/1PRiyHSbFOchw7J7eNI0hKK12nYLlNI2b/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -679,22 +866,100 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "20268",
-    "FECHA": "11/1/25",
+    "FOLIO": "20407",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros Segunda Sección",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1P70dwR_Y1YihCSDPvUjXPqKTksq2neVL",
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBganvJx_rjQfB_vOfMdeIUdhNFnLAo5f8_1agMluLwjj--rcGrwMn4GZPf4k0O0UIDpW2sEU0-RZ7yuGagrzV58cO8IC2BRTmM7VEUC9MAMlWcAk=s220",
+        "view": "https://drive.google.com/file/d/13rbkv-nnUCUMF-dan2bDuRhdOiBvz1GP/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoEf5JBbLfCIV1VbT3f4zeKGPZQSdxITlK5z6txUSoPyHOKYLTqpENMlGBU08yS5i8rNlOSqB6bCbaUy_FIgOHw62gQSh_ZPhlo1iwHnxUXKRjeTU=s220",
+        "view": "https://drive.google.com/file/d/1Ct8eBJT2xiZshfqX4GTIzVMDFaqKVHsz/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20407 - 14/1/25 (LEGACY)\n  → 20407_inicial ❌\n  → 20407_caja ✅\n  → 20407_terminado ✅",
+    "_faltanNEO": [
+      "INICIAL"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20613",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros Segunda Sección",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1eyrhAW6Q7FgCNoY505560riQwOKZ1HMc",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4f8Qf6Jaa7PucsLorLjxpnkT2l5ZMzodqkfhhfD20bkciTwywz6qpqxaeEbixke5VBpFPnFasjxkzDI1dqu7o1ZG9oO-0gN6yT52bGYfe0xsBamM=s220",
+        "view": "https://drive.google.com/file/d/1FsU5q44NZQlLtY2LpW0d0pZPmzBTh3HT/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbYX4QKjG5zdkpeQTSZmHDBsO_FyeZTSzZYuCQwaEafe2hAHWTL9xBxIHOJuA-6ElyIL0gU9eSAd-I5XqpZjWh8MVwVUlwtJa1k-x2c_729sedvYM=s220",
+        "view": "https://drive.google.com/file/d/1X0z0RFJ3tHb002igVd1fGPdAD1C8Djc6/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObg010yV6EGO9bLF12XgVhMeDyPz8Ws0-PKmHJ-ni9kIwWDWj3_YFhGQCWV8oSslWXTFcJBI-ICqKVUz_EaVtbuVSZbuwUvaiAD_T3X_KBSW19BI4=s220",
+        "view": "https://drive.google.com/file/d/1rz8PofDFz_oUlACW2A2BDLtrhj9beGYr/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20613 - 14/1/25 (LEGACY)\n  → 20613_inicial ✅\n  → 20613_caja ✅\n  → 20613_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20201",
+    "FECHA": "10/1/25",
     "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "General Emilio P. Campa",
     "COLONIA": "Ocho Cedros I",
     "DELEGACION": "OCHO CEDROS",
     "_company": "AREVIR",
     "_stage": "E1",
-    "_folderId": "1D0g4t4xZHSwWPFv6qFUkP7Bv8VjrK-xt",
+    "_folderId": "1PsbxAC7yqd0XQFRUQ0TkNPbHLZyVrNoO",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOp1D9XZc0qNRPDlIUAPcFqZmiIXCZW6040TGWfSlDQwywwOb1NmSj23A31B321bE5W9vXJVG6hoWxv-lsmR5vXGXWfVqesOASZ-4FBeUOGba_ELEE=s220",
-        "view": "https://drive.google.com/file/d/1dS1XPyQHI5NSKyTpKjNpUfCIgsUNe0OF/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmRrN0Fbdp5a9-pFdxgH_7iHqLqZdDdJAe02E0axe288PM9fHpNbSvfGMxQDk-Zqr-_iDongAk0HNmlWss4aIfQa59tZ4HA-d5PdvbyZ68OyLj6Tk=s220",
+        "view": "https://drive.google.com/file/d/1KrJKWd79DGxwfCsxVjgHcNKT1N-njk8f/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
@@ -707,45 +972,63 @@
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
-    "_auditDetail": "Folio 20268 - 11/1/25 (LEGACY)\n  → 20268_inicial ✅\n  → 20268_caja ❌\n  → 20268_terminado ❌",
+    "_auditDetail": "Folio 20201 - 10/1/25 (LEGACY)\n  → 20201_inicial ✅\n  → 20201_caja ❌\n  → 20201_terminado ❌",
     "_faltanNEO": [
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "20269",
-    "FECHA": "11/1/25",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "FOLIO": "20588",
+    "FECHA": "14/1/25",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "General Emilio P. Campa",
-    "COLONIA": "Ocho Cedros II",
+    "COLONIA": "Ocho Cedros I",
     "DELEGACION": "OCHO CEDROS",
     "_company": "AREVIR",
     "_stage": "E1",
-    "_folderId": "1hMj22v_tEuUb4L7PfJlCRsj014ukp5E1",
+    "_folderId": "16Cmt2cc1i03Jn8GgqVht7EivMDGCO2Lm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlC9xnzjnRn2t8u3q4Dp4xavLCvH-imnd_88Y4WVEjs_UdVqUv_fmz20fyy-Cp-jbm-8plFzTMzpRvJn2nsJ2CkStOmvrtBI-7eqVCBs7pdk96oAM=s220",
-        "view": "https://drive.google.com/file/d/1aubYx65vjcijlKJcH4f5DIFBw3VwWUI6/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZZ8-zpOjTi_Sf0bjp_n-8p6gJqLcnZyb9yQfAvjwm_55GKd69zMIcuwlba_Var8fw7OqFFWkHkd8claVjljZFCc4Nc_jV5jwKlud8U9fe-ouLdgI=s220",
+        "view": "https://drive.google.com/file/d/1SjDE_sI8qYVFDUG4uiliduFxgCkp1zth/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKmtu6kL77LoaZp6IqgUecQLLlMkCGygbZOb_39MGtcEkX8oGxW6hpocoBLz5RledFZzJeLRPEUQRRq8BXUC3FnAQsCUKl778xdEjSswzn4Fi-b4I=s220",
+        "view": "https://drive.google.com/file/d/1ZNlKLWsUF9BpGr-MUzS-nbJGFCLx68h6/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJAyFPGRSx1LbSNBSpC32fnUnMciubV3lk84kD6vqxFtSuZ-Qsa31cPvh8qYPrfmOZZoWNFdhmwiVkehGKwdqBtb8CsC4-dinoTik09NJ5Jvgd6Ek=s220",
+        "view": "https://drive.google.com/file/d/1JSO0hKNc-so5peF7rVlJhjWBHOBrR-c-/view?usp=drivesdk"
+      },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": false,
+<<<<<<< HEAD
     "_auditDetail": "Folio 20269 - 11/1/25 (LEGACY)\n  → 20269_inicial ✅\n  → 20269_caja ❌\n  → 20269_terminado ❌",
     "_faltanNEO": [
       "CAJA",
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_auditDetail": "Folio 20588 - 14/1/25 (LEGACY)\n  → 20588_inicial ✅\n  → 20588_caja ✅\n  → 20588_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20270",
@@ -759,7 +1042,7 @@
     "_folderId": "1MbaOCvbT6sQBFiJ0dqDOdtB0ITLtIKP9",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBll-nI2llIKm2Ef5TcsIJi4bO4wfNZZ-Qcr6ogCnYJjOdk4obwYF4yCCfnkKghzBCR53NY_nfsGEWpHROXxzf9MWVcC9hoyvNL9ycdyIzDIGE8U0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNU5bjcvUvIswlveOESz_hO6wQ-tD4lNDwgHQyTyBBbmA5Q95p6eycyYC-Lpv5dgahuSbMbt7wVOe6VSAq1mA6dtiSQsmnF1JCkQo-J95cB7XvMcQU=s220",
         "view": "https://drive.google.com/file/d/1TtcHBwrbu0CBDNdnXmi4dO4M2AuD1ye3/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -778,7 +1061,80 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20266",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1uHZi6xV-s2drMBBvDq0PKXH9_aJEbXQ0",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7yExkNEU7nRYylfuEATad7-1U9PBzM8xoLtrdBlzN-FrxCuZywr1aQwtOoDA46TCeHbPOEs006HjOY3modJsgWG27SWgw6BBsfWcU1b2fOA39q2o=s220",
+        "view": "https://drive.google.com/file/d/1-4j_a0ma6YpddXQd7kEI5SDVb4LqrkN6/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20266 - 11/1/25 (LEGACY)\n  → 20266_inicial ✅\n  → 20266_caja ❌\n  → 20266_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20268",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1D0g4t4xZHSwWPFv6qFUkP7Bv8VjrK-xt",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9UabEr3Xi_X9nlOrF-N892ES8mNtF9zu2hwZIkzMs3lCagAPnkjXku4_Cb6thlkxF_DrSCQH5c5Mp0SGMImPyVdzeFb-lGMlUzx7dfPBxBzOeer8=s220",
+        "view": "https://drive.google.com/file/d/1dS1XPyQHI5NSKyTpKjNpUfCIgsUNe0OF/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20268 - 11/1/25 (LEGACY)\n  → 20268_inicial ✅\n  → 20268_caja ❌\n  → 20268_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20271",
@@ -792,7 +1148,7 @@
     "_folderId": "1WJwfsuL_ct6_2dRLw2PG12Lrb9ijPuLm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPA_C-LHMP9x2igMmMv4y8dy96pbMECLlTF4NbAwesmzVl0aCaipW8oULM958117eU55B4ccsY8HG0fb3iDGDkiQ5gKxysBo_u2V2rFdD5nwBWQHC8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpKjPZWzzgFv5_Uqcq2JWQh1xY0D4Ffrr_JVH-Ci1iU2Ya3BMIJmZ6oGN2opkpYsAyI5qNB4eszMZ3cC2yfQNbu9aQHOwSQsnglrWeb7D-bTAlcPw=s220",
         "view": "https://drive.google.com/file/d/1bSL5-46ibp9EqykkVycOhfvjiAZZ0IMZ/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -811,6 +1167,7 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -845,6 +1202,10 @@
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20273",
@@ -858,7 +1219,7 @@
     "_folderId": "1pUDOJrkZmoDsFi3lJzPE5_DP_u0RqjB6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMx0tqTF72kL8lBA8HDbDst_8U2RKfO4WIngC5PBEWWiDLDiMGXRUQq-a71vxObsd106Ll2lAC198LqMLoEZIpy4dFtBhK_ofq2JDztcIb--2rtLjk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbzDWPyF4pMV3GEsryMlkvrvlZAmpcggvy8GNbbup4KOAqS5V-fECRGAsIdUqgBDr3bxWexhAG02awnXbtd95dVwIjUbBm8uKqRr_vZQkwdZlIf3Q=s220",
         "view": "https://drive.google.com/file/d/1SlVVuMbV7BWWn-bE2lhlBwiE_smvjHd7/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -877,7 +1238,46 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20269",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros II",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1hMj22v_tEuUb4L7PfJlCRsj014ukp5E1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMb6qmmEhDPThqGCLEb17UmxLl_PruBWkZKdhyFPKpR1xhQ8ZJYzyS0C1vbLa01OScqCEI7V0FqvlXYjXzLb7vH2yRmSqSlFojJBcTnFgmF7Slqtyw=s220",
+        "view": "https://drive.google.com/file/d/1aubYx65vjcijlKJcH4f5DIFBw3VwWUI6/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20269 - 11/1/25 (LEGACY)\n  → 20269_inicial ✅\n  → 20269_caja ❌\n  → 20269_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20274",
@@ -891,7 +1291,7 @@
     "_folderId": "1VYG08GqtqQmTH5qF6ciA_pynaYa02RtC",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdfebVPUrOEOHJZlDvxVBXh43NbGWves4-c9xJnOeHAyCXSbzwtQ0XpEXn9s0KjPaLwY_LxoC-JQao8kTejRkp3sVnN0D_SsU-IA9Ih3YDQJDxK2s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkmamh3GZjBdvpT5FZStnHmBGbLgZbkRE84GfQsvMPMPCorfBm05laWCkG5V8ga4lol6IEHdpYYImisbOApDik9vQZU-64r1IqFA44S75BZyfJyzI=s220",
         "view": "https://drive.google.com/file/d/1Akcq284KLVUfRY-cMW51Uyu9k7XgGkks/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -910,7 +1310,46 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20272",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1521eMs073CnE507QMwkbkQqzV7Rnmvq7",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOornpdFKavUCJiqfNqIS0WLJWn1zOPF3V-WMQVYfFOD5yOU-yIi8lsvdyA6vV65vvBnm3bhHqfbuH6qmxmsWu8WpdlwbFd_uRgKw778j4zif4gWuA=s220",
+        "view": "https://drive.google.com/file/d/1NE6ii58yaucIFYCKuP2qVPboO6MWl50p/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20272 - 11/1/25 (LEGACY)\n  → 20272_inicial ✅\n  → 20272_caja ❌\n  → 20272_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20275",
@@ -924,7 +1363,7 @@
     "_folderId": "1FP_jMJ1PkRZkmS9DvuiYU3sZBC5WAX62",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIO69gi__eDu2kdPjVpNNwEjgA9TzQgBjVxEGG3erqyYue8b47vJ8TEhFePuvMo0P4V7dho5Xsr1eWF85VdzDGqVbl9HtsyPIgIaBWuK8lA1N54Fo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3cAnJIqucUsbKFYDS-rgu98RfJMvVQFes3BuLYCes5lBqaF_2iKkHmGnxrmQPpn0VbfpZObBLt0Qv6DCChqWAP4pboeKHwpWa_2KaZICHvMXTsHg=s220",
         "view": "https://drive.google.com/file/d/1hIAH4RFkW_cqHR2SJ5BlqQBD-8Hu3GPI/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -943,6 +1382,7 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -977,6 +1417,10 @@
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20277",
@@ -990,7 +1434,7 @@
     "_folderId": "1Gb7ts8yalyKt62XekVPoG_QCwPW1GBpn",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYpR8mxecAvcrcKvW1vGqi5xBBb0fOsRmJGSydRV2rH0p-u2YxWvUAotjGnMTkaqi5jPuaYB8TpECjdnWKOUqXod7tNMZ8YLBNkOn4Pu9kogZYqG8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuq3bOX-kH243Ppi_e2MhgadJeLHarJr7Je67GsdSVY-3UoRQgkM7wl6OzRyPiB1fc82ta2iP5PPMypHC4qwpMj-Y5uxIF9n43FiYF07Ge3oRagds=s220",
         "view": "https://drive.google.com/file/d/1aH-R2mJLKcI4ERPMafJnK92oI8vC88aL/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -1009,6 +1453,7 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -1076,6 +1521,10 @@
       "TERMINADO"
     ],
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20292",
@@ -1089,7 +1538,7 @@
     "_folderId": "1uZ7OdKevhvG0gfYR4nci9M_dBoSJIomD",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2q2OiTcuTkZIPbyKQJgi4yrMThcQaP0hzy7CPpUe-JzHBO35IVLMsnWU4szz9eRMOqk9Y4vfYOT9s7Xw1ltDA4x-qb5VBBFqEU5mumZxzXvxvxxQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKqNmoYatZFjV9tfqmkGqYyIZflJZHOVGvH0q8GdOnEFCtcgA7RMz3dzoIZjgQ3gqQ4S2SlmFG-cK_L-Lb8BzSg0jWQOfEL_eX4b4WUKaNimIrpEs=s220",
         "view": "https://drive.google.com/file/d/1rBVbOZBmC_uOA3rIXkyxv6fmHWgQYu4G/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -1108,7 +1557,114 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20291",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros I",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1mYdeH-P_46Lx17QMxrLfb49x9BxdXyMI",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGLkIsEYJWb-OTMOVp9NSIYNFUtOfMVslZOOBli1HVZ8RZqRAbaoWVAc6whc9UCsx2XD7s-__PvDahXQOpaKgFE4XwVctRWUqvExkTNoS6OMbh50o=s220",
+        "view": "https://drive.google.com/file/d/1zS4MTX98DLhtUom8eKkbLKTn2X_c8Rkr/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20291 - 11/1/25 (LEGACY)\n  → 20291_inicial ✅\n  → 20291_caja ❌\n  → 20291_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20278",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros II",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1csqu1AAya2lLX_LrooN1jc_Qka6hGURp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAP9x-a2r618BRn8OrhvXdnxwe_TXQnZxwgOYaYPwNA0IdO4zt8af_1Yp1IvZRgdE0qJ3IJxsLLxYQMwgQSO2EfV7zpXdt-eBxGkw1viVhp8_tuqA=s220",
+        "view": "https://drive.google.com/file/d/1WcrffoeQH1pcQWjPLt3Nz61EQbEUDb62/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20278 - 11/1/25 (LEGACY)\n  → 20278_inicial ✅\n  → 20278_caja ❌\n  → 20278_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+  },
+  {
+    "FOLIO": "20276",
+    "FECHA": "11/1/25",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "CALLE": "General Emilio P. Campa",
+    "COLONIA": "Ocho Cedros II",
+    "DELEGACION": "OCHO CEDROS",
+    "_company": "AREVIR",
+    "_stage": "E1",
+    "_folderId": "1S13_4D4xr5S2R7NMrsU8Ti2gZRqflbZl",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiXTGzJY-uTWrFHIdKLmjlvV_G_9DXQG1JR7AeO0d8RxNXa8Llb1XyJVEdJExff9FbipwjPzh5_lY1I3QO-i5OmFQdVBAHWZTLysnRUl9ho9u7cdk=s220",
+        "view": "https://drive.google.com/file/d/1bfq6r3_9xDMj2ulgN4Z8JEUjVbFgujLb/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": null,
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": null,
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 20276 - 11/1/25 (LEGACY)\n  → 20276_inicial ✅\n  → 20276_caja ❌\n  → 20276_terminado ❌",
+    "_faltanNEO": [
+      "CAJA",
+      "TERMINADO"
+    ],
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "20298",
@@ -1122,7 +1678,7 @@
     "_folderId": "1kFh7lgevGCnjBmLKrz4RegkM3FPW6MDM",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYkjaq1KKxKrhIXF5mmRslq_edOK4rSq7MhTQQJol-ArAx_iRotX5bDtiXCS-r3HZXqoJykmAq1yHIhyvTteINcUqxVBDqIkJFf4My6IuxE1cROoo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeDkTpubolIBSObY1r17JSNlULXujYBpxCCcS_FCEO2ZiOQ5G2c30WVFHzLmGmHCWBzNPNoPgjo5uGGTsvpyiJbzE84Fsa3oMDFC6p-9YEj8WTIIE=s220",
         "view": "https://drive.google.com/file/d/1v_NQuKdOiwvNA4jAqiq3wpTtbXw4UPvD/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -1141,6 +1697,11 @@
       "CAJA",
       "TERMINADO"
     ],
+<<<<<<< HEAD
     "_uploadEmail": null
+=======
+    "_uploadEmail": null,
+    "ID": "16"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   }
 ]

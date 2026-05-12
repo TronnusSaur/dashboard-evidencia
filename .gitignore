@@ -46,3 +46,6 @@ cleanup_log.txt
 token.json
 client_secret*.json
 subida-de-fotos*.json
+
+# Incremental Sync State
+.incremental-state/
