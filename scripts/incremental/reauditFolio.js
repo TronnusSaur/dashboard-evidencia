@@ -26,31 +26,43 @@ async function run() {
 
     const drive = await getDriveClient();
 
-    // 2. Listar archivos actuales en Drive
-    const files = await listarArchivosFolio(drive, meta.drive_id);
-    
-    // 3. Ejecutar motor de auditoría
-    const auditResult = auditFolioFromFiles(files, meta.fecha_inicio, stageId);
+    try {
+        // 2. Listar archivos actuales en Drive
+        const files = await listarArchivosFolio(drive, meta.drive_id);
+        
+        // 3. Ejecutar motor de auditoría
+        const auditResult = auditFolioFromFiles(files, meta.fecha_inicio, stageId);
 
-    // 4. Actualizar base de datos local (SQLite)
-    upsertFolioStatus(
-        folioToReaudit,
-        stageId,
-        auditResult.status,
-        JSON.stringify(auditResult.photos),
-        auditResult.extraFilesCount,
-        auditResult.isNewSet ? 1 : 0
-    );
+        // 4. Actualizar base de datos local (SQLite)
+        const folioKey = `${stageId}_${meta.empresa}_${meta.contrato_id}_${folioToReaudit}`;
+        
+        upsertFolioStatus.run(
+            folioKey,
+            stageId,
+            meta.empresa,
+            meta.contrato_id,
+            folioToReaudit,
+            auditResult.status,
+            JSON.stringify(auditResult.photos),
+            auditResult.isNewSet ? 1 : 0,
+            JSON.stringify(auditResult.encontradas),
+            JSON.stringify(auditResult.faltan_neo_json || JSON.stringify(auditResult.faltanEnSetCompleto)),
+            meta.upload_email || null,
+            meta.drive_id
+        );
 
-    // 5. Actualizar archivos JSON de salida (Granularmente)
-    updateSingleFolioInOutput(folioToReaudit, stageId, meta.empresa, meta.contrato_id, {
-        RESULTADO_AUDITORIA: auditResult.status,
-        PHOTOS: auditResult.photos,
-        EXTRA_PHOTOS: auditResult.extraFilesCount,
-        _isNewSet: auditResult.isNewSet
-    });
+        // 5. Actualizar archivos JSON de salida (Granularmente)
+        updateSingleFolioInOutput(folioToReaudit, stageId, meta.empresa, meta.contrato_id, {
+            RESULTADO_AUDITORIA: auditResult.status,
+            PHOTOS: auditResult.photos,
+            EXTRA_PHOTOS: auditResult.extraFilesCount,
+            _isNewSet: auditResult.isNewSet
+        });
 
-    console.log(`✅ Folio ${folioToReaudit} actualizado a: ${auditResult.status}`);
+        console.log(`✅ Folio ${folioToReaudit} actualizado a: ${auditResult.status}`);
+    } catch (error) {
+        console.error(`❌ Error durante la re-auditoría del folio ${folioToReaudit}:`, error.message);
+    }
 }
 
 run().catch(console.error);

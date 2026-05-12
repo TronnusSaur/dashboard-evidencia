@@ -1,6 +1,7 @@
 [
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "FOLIO": "380001",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -186,6 +187,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380001",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "FECHA": "25/3/26",
@@ -198,20 +201,20 @@
     "_folderId": "1AqO1tUv_WYjjy_5s65iWJY65h8PrEPFi",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwe7KqCyWVPhYkqCUBoxd6ZIU_wRgma4Ok5pIlge0Wkq1nWTQUs6DMAXEUJnLrXC42Itaa5jl6gd4dkadrxlHJ_AkrtUQJZ9obychU0cc4CiPCUco=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-OwW9Keldhly1PdmHX5QjHd3ardBaCxlzgLRjncdqVZ88REQ9B8ZNYSkcU7Piggejr4nQyVpj3n_5eeQGpjCIrVAWFYF7iwAMQF07bI1AdDFc1Fg=s220",
         "view": "https://drive.google.com/file/d/1XBQ-jg0GFB7X26dlVDiw78lVOSmhGd1E/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOiTHsp4aXWGxRwg42ztPi8KhKEqOZh-05qtaXfbtojbNSU0AKx8V_yzaMNRL0EKwFuHqAdgWdX8egiy4_fLDt2l36bE67y0JVT0517KFFP7LKrSw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1t-ledZEQsWygjKAFjKklWUJXZgHI067Auv36EzWRDINVlgs9Tils5BCn1LTBAiVozKt1E_qTwHI897a_J03HyAe8HKkjEVqjAgs-KNt-Bhk5G1U=s220",
         "view": "https://drive.google.com/file/d/1MFy2JoUjxyBjrlh3BYiEmwvowqf7s7mi/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJcUPv9tP2TqPrhTxsGnTf6DiwbjLLrldxDkoaW7qiui8AaTJYeAqOl1Eo0OnuPIordv_fwktT_qX5s_NJ9rPo4Z6r5dpomBeZdB9-CZRFSSqZbbw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAnOGY9oyAcVknE63dooDI0pzQby7snXicKR_QH9UAsSGoKRftQLdeQLt_mAYbJhYWjoDyI94yrL-gVPL6lZNB1613sXloMTiWMxdBcqvsD8FK7ns=s220",
         "view": "https://drive.google.com/file/d/18Eb1LrCs8SGV7ah_dhLkc8khLte6rJlX/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -249,20 +252,20 @@
     "_folderId": "1Rtye53GjTLRuVu4W1nMK0q06MuaQXADv",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOp00Wgu6m_L5NRLla5d1xmbONMubFTyx4754yGMF5yFRZ7doyIGcsr89uNmpKu8fBbRevwIZcVN128i6hrdis251VRqe3bVChk8uir-CpotUYsfpM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNy5_JDm12f43mADle9VmFeg_ay2DjzAEH6kLzdTWCEEZgNf8pXPpd7sAGTNn1Ab9eAQGU6oSbHAJ_nOZJi1D4YzdIToY_M2L3C_Egd0XXf-0lwjwM=s220",
         "view": "https://drive.google.com/file/d/13khCSjklrv1Y_XZpzUFueLzpCIB1rI5r/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEHaob93B3fIELUZLgjlgHFpzTpRbiLvC_FY7CZ30loOI13H5RdN2MULlnSl83_zXk5TaFdD8JZREcXs-nTV4QuzcQSvyaHEqx_t1W5YQuXLF6uQ8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFdB_xJHU29qYTyPi9Poi7FywLnXZtVR6pxac2GYswJmmOZARi62bBSgJEb6XFtXT0AY6hUAwL2NaMzg9-jcuyTsxsX5b1wZV0X47oFsYkumF-bVQ=s220",
         "view": "https://drive.google.com/file/d/1vsg2YkqeqzkaMqBv8rwhnwsqXo7liQvZ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSXQii8xnsJFxuU1JT108u37G4f2F0bjW46Ftm3jXsGsmed4PrilB7iXkJigy8k2LR_XOBdPUof9aCmJGSjoRbkqjN5g2QOGA3z0Y6DINfetbj0Ic=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdIrY6qT9P8_4zUwKOKVCGY-BufM6--FSoncyB1qeQeWL7tAoJvTVBD178k8ESbelu_MhEq1DLgZWFaZtyHLAvbih3igYlbtDUczGFomRqzH8Jw1E=s220",
         "view": "https://drive.google.com/file/d/1O_Vb-p6XpiHZl36aYwSLnbSX2vIo47s9/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -283,6 +286,138 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+    "FOLIO": "380003",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1PpigfxtoTqkSLoPSChSfUpm91u6pehpw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMhgdus2OFcGriXVCp_fZFsMf6cGpdLerRS5X3luXNJMx-Trs33Tgx0575RpL19I4GXEHAW5VE-rcXpXPlrTTLGTmssBhkjTSfmIZtrfpi2uuJVug=s220",
+        "view": "https://drive.google.com/file/d/1nGLlyhWoVQvwGZ8gdOL_V3F_Tje9UErT/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgJMBukZUjt4csBD91cWOIahnwnlvhsZY_GcisEHRDHomeIQnxf8BUHheDGn56RQGZxyWY1KnjjCf6HTXc5KAVa_GxIKq7Bmi0HsgElp3Xqo15iBk=s220",
+        "view": "https://drive.google.com/file/d/1N7XX2iC1vJYmRf07MIYB04zD49uTvmOD/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKYxUysS3DZxtirXymXW2MlmB3_qXNzrW6X5otwiQjKI4WS63f0jl0Gi2hs_XUfOD4W-XNVTGeErTUMMPbNPpoqJzkhnZYl3xK0JvrrsR5tuEazMw=s220",
+        "view": "https://drive.google.com/file/d/1ietDR3z34-zGV8PeKlfA7unCYf35tAEc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380003 - 25/3/26 (9 FOTOS)\n  → 380003_inicial ✅\n  → 380003_folio ❌\n  → 380003_corte ❌\n  → 380003_demolicion ❌\n  → 380003_caja ✅\n  → 380003_liga ❌\n  → 380003_mezcla ❌\n  → 380003_terminado ✅\n  → 380003_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380004",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "19hAN5jaslNt-jMagiqICdp3aNvukp3Oq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNw3vI4rVIPPFtwF4lXHgTF5DCedVY7lid02W6eniSDMch3YERWtovyw7IUc4ktF1SJh4rFto133V3ObTUfs_XRJMGWPyplXWt0sHNo6iH0JN9HrBI=s220",
+        "view": "https://drive.google.com/file/d/18faqmlHuc1t69yGOG9cjM2ey1y1B16_9/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkcy4fHbemg3iHKqWJenBswJXh7epxaUvc7srXd65rE-LfVOkUqzkFMBYcEDXcWVLfr3GEU9_5Y080xe-IGCj4eKFIDT8wiZiU-19p8_2DLGZPaxU=s220",
+        "view": "https://drive.google.com/file/d/1O7Q4fp7gbqLcslnDRW1mcjR0M76HnwDr/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtHkvwx9vVehdayAFsaH68tvSbUVTrDHO7eSGew4QSTnRdmCLFMH3XghJaHM2GQ6TEd8moJeD3li36PtY2VY2n1xaaHYs4yeH6fiutb-O_ylGzXWI=s220",
+        "view": "https://drive.google.com/file/d/197BfhNjcOLvVffwNxoUD5RNIvQKmb3yC/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380004 - 25/3/26 (9 FOTOS)\n  → 380004_inicial ✅\n  → 380004_folio ❌\n  → 380004_corte ❌\n  → 380004_demolicion ❌\n  → 380004_caja ✅\n  → 380004_liga ❌\n  → 380004_mezcla ❌\n  → 380004_terminado ✅\n  → 380004_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380005",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "149ic1m7B_X7d5jgCIbXeYOgRTFPb73-e",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPORvsfVCju4gZCADLjGBVT0R-21s7nasNB-DaoZDDw_dd6P-H_daKa2yABrLxQ6yslwI4hc7_jWsXaw6A6ZiU-G06tU21srvoTJ3VQvqB9JpBGXz8=s220",
+        "view": "https://drive.google.com/file/d/1mwDxkYp3thfp5USg8Jn_-7MmHdU5SGDT/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNq-JyJc9uLBi_QtbB6O-kzayh-nwqBhQc5SXTgsZaKE-9zGPFYq0_TeqYWnZkcylKiu5cavZfR-X-MxiCM3rCQFJDcV7b9egFUfjEekYurMQYnqIU=s220",
+        "view": "https://drive.google.com/file/d/1_b5jWv_ev-9Kyksl4_2hEnSoyvkDBAau/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTnSRIZevVKNCc4hfWf-T8WlDD20vZXvLt80P4SQRUanwW8mnriaoE3FyMs16sSzN0m83ZWTzGQPml0ljjKBnlQmJhrb3cwiqUXDICnBt7IE38UEU=s220",
+        "view": "https://drive.google.com/file/d/1MXGYP3tGR07OxyJHxOe4Ojht9nfsrUPg/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380005 - 25/3/26 (9 FOTOS)\n  → 380005_inicial ✅\n  → 380005_folio ❌\n  → 380005_corte ❌\n  → 380005_demolicion ❌\n  → 380005_caja ✅\n  → 380005_liga ❌\n  → 380005_mezcla ❌\n  → 380005_terminado ✅\n  → 380005_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
     "FOLIO": "380006",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -294,20 +429,20 @@
     "_folderId": "1haFk0Xrc-7iNiMN91ZfjCiVHAB_3a8D2",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiYm9CoOD_QgfpNCsXULguCR1mvh8xWVv1BfFVjHJxzGnE2WAnJ3MUDEgoIMTQblNgozZblppOTnIATS8EE-_iZ3HfZkujVh0e7Ds1x08kDq3L5o0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPqdpMUCJWMGCi8qS06J8q21BDfCz4w75NX3Xo0BnLef7fzYzhuV3uMqoEHibNhk4EgMGu7fTEzvv6IUvGjvPIl93L_lVej_7_22VXdcCIRkUL9vw=s220",
         "view": "https://drive.google.com/file/d/1BzTvExEqPNF5GBX41YK7QrFc2X8mk2AM/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNiN_BKF6eVcCgnBqW9p4dko-hcsPHQIzp4e6efuYDhQv6wziJjaDYPIR-lovP2XIZIxaeZU9k97EmpfNSN4c1YKsLfhLcwcnMv0r18kuSkQC2X-w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOHSSfqYHSRNTyglMOafYoB0ifH2tSdv2fT58kMD2NVl9S_t5vOqsbqUJQC62x3Btbt1zIH_07UufB9zfmE-UA9YvdfIPYi0Pyl6uByA0qUHd8pzLo=s220",
         "view": "https://drive.google.com/file/d/13B9LS-alJVhC-e3RxfKnVg2if-Mk312A/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPt38gVLal5g6ItP23oKxXx09xg6qKr1WWAttKIE1IDZXWjZy3wpK33pSkJBwOLGUYOrpRRUcsaTh0lM-mq2gLJCVbXxljyUNl8-NRyK_FmIKAlJd0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2frt1DvqCA9OkGdRyUd1djNia-0vRXN3IeLyxKH_bohgnW8svgvfM6HweAdC5qG4rWBob0QY36h_XU3NrrcW-snSm6laEcAF97atKEo8oRpKz3ZU=s220",
         "view": "https://drive.google.com/file/d/1cJ5U-zI-bLwQ0YpYl4SJpgixgao07wry/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -346,20 +481,20 @@
     "_folderId": "17kYXSRCnnmk01a-SA2vZh16bnK9hT94G",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAvfm5kWr65qh56XE-n7HkLm2LuypG8IKkPOa4bvb0yHb4yWPQmw1q5Hri3BJG2DFBEplOJXMOebpqplPKbp2t2gYWt_bMc_S-hNiKOgXxGWfv54g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVUUr4_1fkJ7JAeyckjuOxg-IOsr2EW4GN2rSBrICWage1IYmYhJ_Ennj6L6htbdA_ed64GTqqqYcpYc5WjggrrkRA0KiojZEDPpYHg4H9tBt5aw=s220",
         "view": "https://drive.google.com/file/d/1zoJSgh9yVDym-5Uhk9T4N1RDhzwY0zIE/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhS23qiOj1bc65X_WJj5088CZufkILN_gNjKbjwjBhqJaa022sd1mA4NU_UvNlFtPH5Et1QCWgo0WaT_MQCKWAEzMxuggxRb7buI1NWwQqWEqUfc0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLHvII_F3MTLXyBVX4nPFQ8k1y-TFhzJRViJEe7qwmCZCjNWoU9uodux_czW7XqWDkZyVQvwq2dahBL0nPIKtnbr0TXqFEXcQ45c8rlPeEIwUPLg=s220",
         "view": "https://drive.google.com/file/d/1KRp0zrCpSH24eP9roPNIVElpOrcplEHo/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7znqWnwPDOmRpvwz_F7bgfdrfosuPjjbD_MiFU4l06H6W54Vf3DNZd1nOBVxzNQkfMKkCqJ6XU_CiQsG-qR0pNowJ8PzKbZv3raWPiE4c8m97wCI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJqKkUYBbk0zrh0o12JLDUkQgUruToCMDjVI2ZLMrKFb9NoY45DdKq7fSEuYod48jZrj7APYmQWvwidtMH5QIO8RJBx8qRL1hq6YCeIBGN9CCDKQ=s220",
         "view": "https://drive.google.com/file/d/1lTJUROZtILtAufCwhBE9KD1VrPB1CgtO/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -430,6 +565,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380009",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -533,6 +669,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380008",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -544,20 +682,20 @@
     "_folderId": "10l__wL_Vv_dUTLe3wzobC-dDcrvgmfCm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8HF3wZ-BR_jIK32d73XQ5pe7Fb6KJf_to4eWlAaM7k_uvRqyJc0aLO3ivhsoLh4PjzQyBz-I3ldsj9IDYnBdggsRCeNi8bPeNsGO_uQ7KSk2InPw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXW9gJmv8SvF8mevIWHOHEiQu2w32WtW5yd9xb-masYp4M_4w5SWMjA1Qlgh8GyFEKTg7xTT3UIZ-tP2TVjaKRcs8coMldcjLLXq-zyBZ548aHzA=s220",
         "view": "https://drive.google.com/file/d/1L5Y8SpAY1KcnSwfpx0apBVEDAb_nrkvj/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXrlA448w09FCaRRyiXz_JbjmmWkDXIQJJsU53NBsVFeHyJlXdB7Y7OA51nCdyuJg9xXzxhxGIiJt4wTp9Wpid3PlSmLj0RdAzShkTWCIboR0crng=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSjxPr3R_CLwB5fsdFqjb1ASAW5jh1sQQjW3EqxDqNIWQGgoD-rHlxN1IWzWfCX4R5vR-E8Aa27Ga3xmj3v1T5p0ue0X7HbQMtJGxU5c5cknvgIA=s220",
         "view": "https://drive.google.com/file/d/1LcNCfNuXS13qHOvm5DN5tiGTIzb3BfeT/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN26fDL2oBRM8H3G_aipjKCERvF_itBDgKPe05aNY8KmtXy2GG1INfD4R15rPL_onWzBqksBhuXwP-DVnfyk9x6FN_U1N2BoqtkUsEj4GeOPizGHH0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObcQqHcLy8MulYijR7H0WrRFdNDBhRjQMe0NDso3S7mtI970Ua7D9PRtT5_E_PzzVePqSiPeqTM13wMsAYsNDwoQgd_pQbrUX1Ggh9GL8Czgq5Ag=s220",
         "view": "https://drive.google.com/file/d/1RoQuXCsSnxDuHVSXwv1wEE3AuZVlEXGq/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -578,6 +716,182 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+    "FOLIO": "380009",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1ZUmV1izzH03JfZtNjCdx01bKgJcmuaHF",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqaUKvD8ZIYLSCL5i7pStM_RaUXYfNNdCUvjxBAE34mzHD0l5BBTZgEYimQRlKuqZ1mFMPFTzME0VRqwJBqeff31MF7yaM-_4A6pUMOK6Al0UVbg=s220",
+        "view": "https://drive.google.com/file/d/1L7aYrj32GY3aE2QZyF_8U-1z0lx-bf-F/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdfRMMEwl83dF-oDUUE6Kxm4Q9VZPOs-j1qpPBMYpiLDJu5Djei5qTzdjLuXC4VWHa0PNGsi3qWODUy992NZkuIS2FvIDMhpbzfrcLSKMYdD5MPA=s220",
+        "view": "https://drive.google.com/file/d/1Bbijqv_AICUn_8KSqEf_q_IhuCZRGCsj/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOw36cid6PNTRWiWqsbxs7heA9lFuazulOEffxFuyQ_9L1XHbdHoImQ8viYr2fFdlk6hVMPgIX9nCkkxbM4q6nOl0W5KX6rzPFWtoK-FQemJxJi3w=s220",
+        "view": "https://drive.google.com/file/d/1HtA37emkVHXaRLxtMucex0nBbZ-WqgdJ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380009 - 25/3/26 (9 FOTOS)\n  → 380009_inicial ✅\n  → 380009_folio ❌\n  → 380009_corte ❌\n  → 380009_demolicion ❌\n  → 380009_caja ✅\n  → 380009_liga ❌\n  → 380009_mezcla ❌\n  → 380009_terminado ✅\n  → 380009_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380012",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1HpYfHRfTTagq0EhIwrHh8fFr1FZzEjbg",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN71xHoUuaoOY884Y3Qjf-lpTSv8XNQo0ZL3EY-FKPJxJRtNdQ8Moh6wS8cYWoeU08AY7JQ5XQ7GzDGcRZKLPsASItOvhSwJcoWOq-9wcCyEWFaNA=s220",
+        "view": "https://drive.google.com/file/d/1rcJwPe1hsvNDlGJEtFVq2YTLlIXETTKI/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfCs-RO4pKrvv62PTwwqw0S_j8Yn_cIKazj3QDxGWu_ZZ6ndJuVT1PjQ00KvX-6YaL7GvwPea2FZHGpCLW0jOKmIt-7w9lE8C7KG7TnEVyCwMzuw=s220",
+        "view": "https://drive.google.com/file/d/1vmGMbCQt1Q11DPMWTfOP5bv_yaCCHJwe/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvyFfOAsazQz_xi-qf9mNffLRVEZo_qdnxyCqzBlIncaE3eEwAykdWYlSKitOT_-4F7RsjT5MyiEhOblFpNe1YvSqiygnJLXkiHGGxkjzUciQJUA=s220",
+        "view": "https://drive.google.com/file/d/10yG5qnVfEybnKMQ3BX-tvsNEX6cnS23x/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380012 - 25/3/26 (9 FOTOS)\n  → 380012_inicial ✅\n  → 380012_folio ❌\n  → 380012_corte ❌\n  → 380012_demolicion ❌\n  → 380012_caja ✅\n  → 380012_liga ❌\n  → 380012_mezcla ❌\n  → 380012_terminado ✅\n  → 380012_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380010",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1xnF03FBYrZIo-eg5VU_TycJZnGsVxBWw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUkmGoyIIwjFt5KTR05gViazlXpOEqWHcKMAIQY4V-i_p4DlMoPUHmevyNNhhNvqZ36lyuZFivjCHMr-JtxsnJWMCFfgjNgCeTfqAiwLGAaL4s7A=s220",
+        "view": "https://drive.google.com/file/d/1YuxGuNoqiapKqn1-2uw3RIqu0aRYGFXZ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPv45gIKoIARZSD03EgYiZRjTlSPAdUKGbaH823eKNa5V9iOSmGN0UxHAiWrTdd6M3RuNHkXLOP9EfQeHeJkhQf4lEIsyb5WQnaxT6KduWjUj9keg=s220",
+        "view": "https://drive.google.com/file/d/1-NgSWRDjMd1iPA34ES6_zQulQDPtYT8r/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNh3iiNzGckm4JcWBDZtqb0690wO_i-w64YXL891yFibd262TtyTx0jlhhjkjT9niiGjXDJippNb5_GoQ76jfRQnzec_Zw0Jo-cO_wAzlRcrCN3pA=s220",
+        "view": "https://drive.google.com/file/d/1BUrTVoWZImDKBsfdJDX8qg8vqtGv3TtK/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380010 - 25/3/26 (9 FOTOS)\n  → 380010_inicial ✅\n  → 380010_folio ❌\n  → 380010_corte ❌\n  → 380010_demolicion ❌\n  → 380010_caja ✅\n  → 380010_liga ❌\n  → 380010_mezcla ❌\n  → 380010_terminado ✅\n  → 380010_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380016",
+    "FECHA": "25/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "15OpwRT3QXMhW44zLVQWxrLQHeoBfhDJT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJNYbenNSA0YhYJX0pNtwtRRrNHYFWNv6nXKohtFZGnJxVweE2kZQMtKwjWOwDK-AMwqy-4a_lgJw0znT4TCZm6bkT0bUBQYoAoBeo9SbkOQKP5g=s220",
+        "view": "https://drive.google.com/file/d/1zgT7br96IteHF1g2QoV8oCtcvDFkbY3p/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMa6JjaBoyUvESI14LplxkBPEUzkK9LWMvIT_Afr2rpObKWwsBy9Iozd8wGQdYmKurf3rzcMPg5LAg97LvyyuH3cr6C9tld-DwS7f_cIOvqM0JCXw=s220",
+        "view": "https://drive.google.com/file/d/1fjeKUYD5MZpzzFxgsHDyZl2jQKGBA_bR/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiQobHb-Ega3udoqgr7_82TUi1iuRoChhBCaKR30160ubIwUKHboiVI0aEhxxeX7jgRdjl5UVOC3EfDigv3QxTnA6he7k-GqvNfxC2p8oiplg1Yw=s220",
+        "view": "https://drive.google.com/file/d/1cvBbxLFuc0xoxqlAE1tBMrsC7QGSG30n/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380016 - 25/3/26 (9 FOTOS)\n  → 380016_inicial ✅\n  → 380016_folio ❌\n  → 380016_corte ❌\n  → 380016_demolicion ❌\n  → 380016_caja ✅\n  → 380016_liga ❌\n  → 380016_mezcla ❌\n  → 380016_terminado ✅\n  → 380016_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
     "FOLIO": "380011",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -589,20 +903,20 @@
     "_folderId": "1LBOLw6HwtBG75RJoUWtUCUuU8Zvfnh18",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMREs-qY8DWDSivKM-3viiBk8t9tEbw66uTQCuA2jOPZsxUgF1jjKsmVbAm7LLTLbJPdNtNvarW3drHQg1mmqIYqNQFxrMSlBZJjUejtSuk6pMads=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOM_E4GxRhpdYeK8qizontoMPLD0i-7fmPDPZl8SlwWCKS_AcY_cwKOq2OnJQ_0AfHw7TBX_l0_jryPUKCwLm-A230pjgNV78nmisLqOlwzycGP6A=s220",
         "view": "https://drive.google.com/file/d/17SN-UHZ63A_Zvyrd3G9TzrC9m-Lnh4sl/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPaag2vfn66cIyKVgUP_p8YckjelGN7yUrhFC76L40B62_Rf9jzh_3nqUiJJ_94SAQLE98FERHIqOkuW5tF1aX6Odyu8Z4sKKXQHLSfbgb06tULyI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwNPgvt1GXY9vdZTlVKgqpqH48YM8sbBxcQH9ldZkWqxs_O5Oymz2Q_F24Ih2aDAX5_dSJPbKdOrqvaleot4c9uX7LSMIy4mGVj1Jqx75lvapcYA=s220",
         "view": "https://drive.google.com/file/d/1X8vl4TATameFy3OygS3Rgz1Bc3hth7kJ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTDOrC-SJpL5_LYiHUqApoDiYkqfo6BnvM1d0X9pJlx6kd6jnZEW4v8ccK6wq93AYaBJjHU4KGdcAmcEkkoHvjQBDYU0LpqiwB2LZkmLykp-qcgN8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPzE0tgBzAtvTDKyRFkP65BndRJGn-vx2Q7udw_k-VR6M6VgaF66E7gDeONFiMjqXbRFuLcg0fzrnWyARwgAwud_UG1YBLhFafXmT-uXQC9bYBhw=s220",
         "view": "https://drive.google.com/file/d/1DavUpizt4a6ri88mmkMtdI1QD2EkFI-v/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -632,8 +946,12 @@
     "ID": "38"
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380003",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "FOLIO": "380014",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -641,29 +959,30 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1PpigfxtoTqkSLoPSChSfUpm91u6pehpw",
+    "_folderId": "1KANY9Bq1-869Ium51ZSUKjX_pjOn1xgU",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXvXi-PK4H8OW7wKvXevxY3BPEwEJ7cO-BezQe4aAsnjicYZF91FKlZiHBr1nwk3Nllw-lJ5vaBIOa2zauZbFqmae-iG55iMxBmfl5M8-shU24M6s=s220",
-        "view": "https://drive.google.com/file/d/1nGLlyhWoVQvwGZ8gdOL_V3F_Tje9UErT/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPr_ccBjxtr8uMqhW9PkcrtZcl5nbUPqzAStL95ldRcwTrJyJ5LUSfJEjVDi7xXEL2vCw06dQuN4YmWz-rfjuN0_-2WQ3mKW02OfVjx5On8ERPevQ=s220",
+        "view": "https://drive.google.com/file/d/1T6xVPvsC1hvi187k93oZlyov5AWxZ1Cq/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtGh5t5JF-MBj6KuCW_NSk2ldjuZ_x0whnLQshF1_yNhDde07Kt8aOZtYRPGP6-OCee_L4i5QvdfhNp0eCUd5AKtxX2pRMwg041tc_2qb4bZe65ss=s220",
-        "view": "https://drive.google.com/file/d/1N7XX2iC1vJYmRf07MIYB04zD49uTvmOD/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTeABUCDzqleVAgeuP-oEhApAPOe7f9LNh_Fg1KYLnc56mrKDRxawIa1cFpcMaLSNFzD2fbVc7Kyi3TgSPcmdhMTq-o_t6QumzS3exheGlXYYlyQ=s220",
+        "view": "https://drive.google.com/file/d/126TmBITlIpzzPn9YJRqXNf9n85qurWlt/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDKi40FIX9UZ2KHfCjz8CULzCEv8Ddk-uYRwYrzXErd8uhhGHLeplfUvNoUMpdybrh-EF08yRhlUof5ucoM41q2nHsCY0hOKo7r5kvlpjgHwDrgEQ=s220",
-        "view": "https://drive.google.com/file/d/1ietDR3z34-zGV8PeKlfA7unCYf35tAEc/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSXxOt9dY6wvC9n31untOkp70SPDkOejc1K3dImI7cEs_XRsjR7a7wnixNVMuz95aKrzvFRxH1I7Ihczmscu6Q6a07KZjY8v4dOjdguAjKw8qjRQ=s220",
+        "view": "https://drive.google.com/file/d/1YZ4qlBpWqeTDhPBokgI3XX2Ct6ORJez3/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
+<<<<<<< HEAD
 <<<<<<< HEAD
     "_auditDetail": "Folio 380012 - 25/3/26 (9 FOTOS)\n  → 380012_inicial ✅\n  → 380012_folio ❌\n  → 380012_corte ❌\n  → 380012_demolicion ❌\n  → 380012_caja ✅\n  → 380012_liga ❌\n  → 380012_mezcla ❌\n  → 380012_terminado ✅\n  → 380012_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
@@ -716,6 +1035,9 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 380005 - 25/3/26 (9 FOTOS)\n  → 380005_inicial ✅\n  → 380005_folio ❌\n  → 380005_corte ❌\n  → 380005_demolicion ❌\n  → 380005_caja ✅\n  → 380005_liga ❌\n  → 380005_mezcla ❌\n  → 380005_terminado ✅\n  → 380005_limpieza ❌",
+=======
+    "_auditDetail": "Folio 380014 - 25/3/26 (9 FOTOS)\n  → 380014_inicial ✅\n  → 380014_folio ❌\n  → 380014_corte ❌\n  → 380014_demolicion ❌\n  → 380014_caja ✅\n  → 380014_liga ❌\n  → 380014_mezcla ❌\n  → 380014_terminado ✅\n  → 380014_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -740,20 +1062,20 @@
     "_folderId": "1kXrvG2KGYRzoe151bJBVjiba289QqUN2",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCfD9VmAziSs_TT0mjdYoXnccWenI56GR6En_8uBxhl3jWbFeMMvFTR3TMLXOnsYVH6YV_1Y1xCjxDC5vC9plS0J_QZu4h4xD9V57NqdlDS9Hskyw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRNMi0iEc7YJ5wkCsDKov-s1YOckfvyhsvK_EtxNMbrOzwvghafV7ERxGMcxzldN1rw5ZFdx-XXXK9YC7-rYApQzTDipzOde5NUkjsJA6D1Yi27A=s220",
         "view": "https://drive.google.com/file/d/1kWfIAhYUf-hWeXmdAztBmatuzDXTzd-W/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYyhElVrtQSI94pqsTiAfjmPfJx62KDR7ONTewC9RKJhaeSm1pJSo9MeRLgLKQJQgyMZXzZHjjaLSLYkUJaZxItpsMcYRlKjePjytV1OSDH8DRfTE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3LjjOAPyfG7eepYrvEy2hgaUKz8AnTaeAHX7SUB-I-MEYcnJUmHxyMeKLZSjRT85waFnCcxwjqosXh3_fP4ZDw9gmEu18NmTeCwfZQ7M6hG5grQ=s220",
         "view": "https://drive.google.com/file/d/1HHe6jh0eATrJMRD-LxhfV19A9dwInt59/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4xEOBbsA6gWZNUsiVB_p_1SF013CnAQzT3hOzucDpgx2_X8DbXspBCLasOpL9OdMoinBYln_42y1bU-nVq0GquHlaBonWfhdkRE7CZXZc-7fo5bE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMH8wXsvwtAv9pZrk1OZHKGSXdKfu8hv0dcNFRVvf3U3adDVxybhRdTmbhhJaMKW-seb6PqJIz2oYNhVa2E2zg553aPMsxtd7qxZtmRecAD9LnFmg=s220",
         "view": "https://drive.google.com/file/d/1KnUubE0LlOs-9rYqxSPPJL0FASin5Om8/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -921,20 +1243,20 @@
     "_folderId": "1R2H7Dx4GZuOyHFPQWzMfLeHa4BHjzMYX",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQKEBX48Sug8_Ucnb99peKdeE-QZDGmNONA3H7FMG4fIdl4tyPbvSgxG8GxrAmngHWw7IgJVEyRw41NXsW932NNKDpq09adVtZr9Kx_N5PIv7nxnA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcT-AsvmSUKk9G78sZ3F9OnMkRd_1hfhABrJUOPNNll9l_GWXUwAAjQj4yNso2xVp64tM-7pMZWxcgOPKC9vtj2ynvthI8oe6Es8t_w5jhOHlLpw=s220",
         "view": "https://drive.google.com/file/d/10w4n8RLHjLpSitSBIvWSojIvE76njKK9/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgUFYXWHGhl4M5lxY7o32JdK1BuDDsS_zLrIij7zt9e-b1qzpdwLNbrhshK0anyuCaUQgP3xwUXJ7Rztk5BDQIE5VT6bbEhEgyYcSdx4jcX1u315E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDnnutcMHXrH1GMDwsUupqcl8TqdU9HvWB8tP4tcRXziD-5nkjVXa_wO0lc-xu8papfygFWPhklcsExnkU8Embmhcxn0IeP2Jtwdqa0F_aORhlQA=s220",
         "view": "https://drive.google.com/file/d/1IXLyUW9Ongg-TSTTYA9umMT78qbkyGEz/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNn9U2-4Bj5M0AANZjJYGeFdyId7vVOr31G3GAZ9C-POBDObuoPKRdz4WX3BDoOBP5NEi-mqtac2_8mHsfBkE0cqpLuxWZGhuvoamXQYM1aoAo6T5s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNchvLUF1w_ZLdzGTy8d2p3JTkZ_I0eLT9iRNnjdOTMt38xlwUzhex8MmGvYjxMUiTwGB2nQGnwik8j6QMGaz4QM9tSgCPvT1cL8feIahj-7dWHWA=s220",
         "view": "https://drive.google.com/file/d/18ZYaJLthQG7iVthxrSmWGirHXMkE8Dr3/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -961,6 +1283,7 @@
     "ID": "38"
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380016",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1050,6 +1373,8 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380019",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1061,20 +1386,20 @@
     "_folderId": "1jU3y623xkKfxev0XO2W4bfmPbKRA1X90",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNmcHLw8l0NkcWG39JwSGEUcPVBZBnVwj-VYukbmRl-gzJVkI7yhPzvraFbuce4Luyq98jN3CyWPdBtiTXefnOJAasbVDCUFfk7F313SrdfWxFcQ8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmsJJ2LkzWcHeJSwsa3ydMci6WeG8EDS-Ev5qeoHfXHkeJjWSnq1RH3D1RVgw-tDO5IK31aLTnKMPWc8YH4JDOnTlvnLrlemhF_vsZ3XSgatMVyw=s220",
         "view": "https://drive.google.com/file/d/1T0hlc5yFz2OE9T2z-0UEtCyWZ6Jrhq37/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPsCNHKFOyhrXfE_M9_-d7LgGs_HxETT27TOA0y8plV7frLR5wSIUgobkqpb-qWdirQoJpoxWzq1mpqZGD3GyzRYVyBOOXdUgpaCRiX8aOVZTmwdm0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrWDProfesCc4Az07sFxiJlom1fvB3wLIr_iyV3EPreeX9jc-Zog1Mc5vWMqMvYX4AnN5Lk6U-beRCi816IJ1Ur1Uky3wYh7xXD6a0eMD5mwZQTA=s220",
         "view": "https://drive.google.com/file/d/1I3z36yeKhEDxuHLO2nPn0VZN9VA5fQsb/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNSJNj-xBslvRLJO2nld698vCX8TVSW2VCn-QB2ZNUx9dkbpglRzuymwutgMKlrtcsk0-F0K6omK3bO--XGJVJIzgdh5EiogphoJ5HKzJG-oX74yM0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6mbvrGK_8zdM-RQYkZQdmvU1lVLJn8xm6sY-L0uzbgKy52yvB9456qye5ahs7e6VXP0Fn_TcSUe9drZ6IqYCa1pUk3XV-oRaojorQm-IimeX82w=s220",
         "view": "https://drive.google.com/file/d/1c3SmTOPx6KchlOuKehkT72NkLswlT1FX/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1188,6 +1513,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380021",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1295,6 +1621,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380015",
     "FECHA": "25/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1306,20 +1634,20 @@
     "_folderId": "1khieOudTIy79DGWSzvFxzh4fKq6xAWGU",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOs7YEddrOLLeGAywTBRGnSnpJJAOsQLt6ZjKVigYbH8Av_2BVDY6VXoW5qyAwYK0_PdHzbfqaYSADuK4Z8BCZEBpJ0e1HmDL_iGh4KwDDwiPq=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvUoyKXg4N7y5EmVybGkT7FhhXQ5A7-ZWjidi-Lbsttel1e-nVa5XVxJJPyhg3SrT4DYynsM38AAMxEcPhF9UqoG3OKLzSrUhvq6QfW309mP5vFA=s220",
         "view": "https://drive.google.com/file/d/1AHUoxzyIVQ_yoOKfJEAp8JVpAUn8Ww_l/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSVF6xoqFtgTfBr15h36oChu09b6Ja0haUcp3N8b9SoQ6HJJsI_muPzH4QRDL2Y2d1twd5S_cMtBE75vZJw8vw2ytiMjzY2T-6kwaM6a-fT6Bl=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2OAjs9U4qtFL2rN467uz-qHrSoLPVjjpwBgng0ImEvQyi2Pb6hKeNiCuizrQSMIkVOoQCk-3ABwhU7oFGno2A64M2x-3mXIvOqE-hl5lRBnkP6w=s220",
         "view": "https://drive.google.com/file/d/1UDgbq3c5Pz-81llFBPJgS3CcFK7zLbcs/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaF_2g4Eu79uGWW9vbt6ZX6ZNuq6TtBpwWr2c9sZ5LL0UbAs3odNYddXMZfsEh7lTlZ6yJ2lkQRIZWIV-JulX9Th_nUmA8iZXpaWLCycjwUtjO=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuLfsNFJ8Xp16UpWUDwF455Rjm15P3Rf_efrm9LMtBLMucvTULpFooD4vRirMlAaHcpHN3FIzq9NqP1GFN7cKGmwxBlD4k9PxGEmp9BRKNsTLJOQ=s220",
         "view": "https://drive.google.com/file/d/13gpIPdH4GNdtewesnhrU-ZYagqKOvpRE/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1340,6 +1668,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380023",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1391,6 +1720,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380018",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1402,20 +1733,20 @@
     "_folderId": "1y4gFXd16ygacAET4s9r8d5ZicPNXIVvN",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMv2mmPlWYAAXzKZAz7Ox-yHRkolvNuolHKqZyu1uglJniVWdF6yBqVQDWSu-i5CflC4hKH9FX8-6AUYY8-yVVEGLLOW_YD2OxElnGCuF8ZjcqsBw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJUqLlrZGoTn8dZ1RUCuGslcteudToS17vvze1ZWB7WvVuVbWDoQ89AabPb4csu6FG4I9XsSt4CBPeAitkTCODo6zWlyj4g06iFSd4qtuXAIesnQ=s220",
         "view": "https://drive.google.com/file/d/1rsGFNIltkDzV35LuPCaybfXODIdLT9Y5/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuwiSdVQuMD-Ue41LP6WZv1Oz6yhXc0Zlp5aJjAPcjJXyIUUCRefMTgbyIg8ou7Jp8od7s4Z4ptmhjtL2G-OplyoDtqGuCh_ADH-5sPD09ma8y6Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNOPyB6SMETO8wQfCi9G6oFKwma0TJJQINeXGzKDZPF_y-uAyJjKoPhAF_hrToCDl5gpVsjK5nnNDN60Rfwcn-suXq6mNxc93u7t5-q8QwdoEuUQ=s220",
         "view": "https://drive.google.com/file/d/17R2avNiUL7f_yNEjc7b25htbjp1pX_l9/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvVhlkiF3PiDp3u7P01kuNbDXto0YzmG9fvvr4Cdk7SamF7XejcJX-TTdHGuYRDpwx0SgKSRDhUePtvY9OC6hcgFAOx_ifI2Dv73H0grevEBHO1w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOd4oMfI2I_b3MacsE8ET91poD0Xie8f6pOHwsXoklJBY3yqFNU92cA7gkBPm93X9Adtu6tMWWW7ZxFmaMm7M73VY0MyjHwhS6VoV_NyCu8S1ipdQ=s220",
         "view": "https://drive.google.com/file/d/1QGUC3ZbYFHIhcsVBkPsRstcJbiqpsS6f/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1423,6 +1754,50 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 380018 - 26/3/26 (9 FOTOS)\n  → 380018_inicial ✅\n  → 380018_folio ❌\n  → 380018_corte ❌\n  → 380018_demolicion ❌\n  → 380018_caja ✅\n  → 380018_liga ❌\n  → 380018_mezcla ❌\n  → 380018_terminado ✅\n  → 380018_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380023",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1Nk4r_9bq-5YrMPPyDo7E1QhhW87hjQVo",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSF5cUUCwDH1akN7AqLhXJ8--3OffOYaBkZmUAl4suuTDKkn2BvMHslRXqLNXj7lOK14AJv4CmtjmUY4_uxnMMAqP8dgmrak8NasJMdQAMdgMc1w=s220",
+        "view": "https://drive.google.com/file/d/14j1qA6FApSrypPolkqukGS9oP0W9J5P2/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMt909Q2VCSAquWKTOMYQZQsgiHvb89b0QGktD2Fl8pXx617c4jyprxfnk9CLq4yb2NqmPFwYwqy3yTutkej2bI4K7JawMUzVQFC_OuB6i_gzFxNw=s220",
+        "view": "https://drive.google.com/file/d/13FDhbz-u12vLOeluXYJdkW0k4WvlUbu_/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSgL1UC4hf9n_LPNlHYJQf2ZZV47nYOPRG9EpAZKwJWiKAJrd1AcXmNSxeIgLiMnHJlbY6HEfUzj5vgiOnjAWiMgnhkODxc-sT34ASfRaQAwcbyg=s220",
+        "view": "https://drive.google.com/file/d/1LQNbxZfH6J5UC4EX377NKbj7GZMWCZVI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380023 - 26/3/26 (9 FOTOS)\n  → 380023_inicial ✅\n  → 380023_folio ❌\n  → 380023_corte ❌\n  → 380023_demolicion ❌\n  → 380023_caja ✅\n  → 380023_liga ❌\n  → 380023_mezcla ❌\n  → 380023_terminado ✅\n  → 380023_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -1446,20 +1821,20 @@
     "_folderId": "1YUlbQg-gfAABmIpvuRTQ2hqXdTNndSwe",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOt1DcrM-xIiDwDebOlpMI8aIwWr_yiJ_TJQXALspEReeWrbdezn5iWwkUVZsWCeR5oq_rKtckoWYbw2Eomvy9Zsa3Q6kYj5kAqfOxb6PDUxoVIMQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOENYIuMX7Ks7WGJnZuzIoPVhNLwRvd9DYWwvKBXpQvhCayLOUilIli0v-gVhH9Zqe9f7OLxHHi7t3KTHRfclkchh-5_C5OI5pvLXfkfzIW9uhnJA=s220",
         "view": "https://drive.google.com/file/d/1G0oqypMvu1fNG_wtso9uX6LnLqSRRAVT/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0VloJ8AhZfGbfPLf4m3M_K5TTgtuHGW5GHzGhDjyBlWbrHaW6jY8YZCLX4-ohd5NRr9TL-klKudd6X1_Ntz7InzQOZ6hgbFZlaRcSY_8pbuQJhg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhVEx3JNEkOgiIBnc2zgPTpRzqSovKqDa4Dx1JPGreVgfiIl2ba4Kom16eWy6YVaM43wJzLVodHkSHVqXOaYFkrSA6fXeeVNlDBRzz6z64r0J_MA=s220",
         "view": "https://drive.google.com/file/d/1j5nwI45ZkKfUnBpAavkcuSEMEwWaXMM-/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6MPWfAVDBpm7F2FBJzcWeE_nbPQHQ4bEyoopOPUz5bwdBYkYmtzb0EkeGBRKkdjfmufV7ND7v3py6w07ABdhJ_ry5TvF7kN2fzFlmUQS5uqKk5w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhg951hAfV5lqP39ioP3IygR5oA8NWr8FrLQFVI3OyJB3MmSdCaOALWFyA7FF0uLJZvUIuR5BH3nI93D4OaET-UCwv0Vtn4x5eU1-1v-kkn6wTTw=s220",
         "view": "https://drive.google.com/file/d/1zbUZhwTNRfw3FkGkAOXD_s3vAVTIvTW9/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1491,20 +1866,20 @@
     "_folderId": "1H0K5ar0978MjPZkozIFSQ0Z1p3zknFbQ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpuPm7I9rA1fvzb8t2sZUaNdcPduhu_LuwY_C98_9K6Fsc6U-epRF18JIIUtzdcmlHOkwwrYMEgWyFw5DNJ78bKZrPmMI-vpW8BrfmZ1kIsMitsw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8Szg9rxkBw-3AYIhligamvhWgOQBpfR9StX6xp5toMxGQQKjph23zmMBgA8vgakgSHuMYZ3re8xVukxbe34m6LP-gOtf_YAx-T1HrP30w3ak3qw=s220",
         "view": "https://drive.google.com/file/d/16w7fEhvludrPQQjWdv3v78Pn4g-7kymL/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUanC1aQuOAe-t8Qzok1Ulzu51o_b5Je093XaTqwc_OjLL7vdUGkP-8C7cVj_zMiv4cuc6Xuy8CRn2UpQByQNNzpmemTwLff8FFAoFl3Y5ER2Jtw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRMiI7MDpkZffYhugJbxaa2PlRXPAzwh2Fz2RRr-lesPwT-W22HiJBGj8tgBfqo3rKqMY8FYrw_cc6SGP5l2rc8I43DImD04x8XJeJvR7MhVDs4g=s220",
         "view": "https://drive.google.com/file/d/1dkI0eLgmT4hLTIGlUy5t16LFNPG7EsBd/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqusPugqbnJcNcC6KifOE3-TL1jpk6NEkhuO-e8sGWSb-u2XegXYeLKyQzDBlz5Mrb5fbGZ7v35hTsVz-KAR0f5HoIycGzvX5ErvZ9fxu34b1saw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlLk0e1X2bmxejT9JDiThk4TJUL18PtzaUXVlA5oeSWS6Yp_4YVxLS4DAZ1RhHUKeOK_uN8GJSqn0_AOHSz_tIXwIdUyoZUq6BHzifqbMBU61k1A=s220",
         "view": "https://drive.google.com/file/d/19Y85eahPc1ZmTJyY5NlWCnqPJdLix3fi/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1532,7 +1907,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380025",
+    "FOLIO": "380021",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -1540,29 +1915,30 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "14lH3wIB4ajwAyHy_5KGbDnDk1r_iO34j",
+    "_folderId": "11x79_B1bCFf-MSf3NgfA3MTohe0waS1N",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdl77xhlI6bdndU_kpKvvZ-BDUpoQMMzSEtsei6E3gzHdE7qBG7kvlvI_P9LG7hNhVjqV9dz9W7BkmmUAjks-6ycKeA0kcNtIQCU7bJfMEHA9-KQ=s220",
-        "view": "https://drive.google.com/file/d/17zFXUbGQnmekYWEJv3s3mnuMY-fa2IB5/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4OCKyn_aladvLooCIkaRn4wlFrktfFM8VxuTuwuAOhx1R5as0eTFefVoD51E8BQE-sXSdDNBhmVen8rF4gMkXKK51ItznioFL588W1QiR4awFGQ=s220",
+        "view": "https://drive.google.com/file/d/1zUXT_hPI-X16RxM0xVmByMIiXVJOGSrv/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMbq482TtWtrzSKF--ncrB1A0-JUprMbaAPJkUosQ3hf2DRX_1yYnKxqx51_qVQTy_-AD4eGpQo3mCfxoXfGNBHqlgq2_1xzVdWDAG5IJt_hzK9A=s220",
-        "view": "https://drive.google.com/file/d/1m5RDRPBL3GG6aWm4PUwvjI7DSOEFEFtQ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNj5kUPCgW9qL6FRj6NqPVObwoxv_7nr-MJw6dezekuWkVLdAnYTorm46qlJ0MFm3fpMKwHodlONqSr5XS2SBOWzW6rhQmO9Q0OOUVc8uq4eEi7LA=s220",
+        "view": "https://drive.google.com/file/d/19ZpJo9XhNuw2Ffl82Mx4kCd8LRgNgODi/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6Ou1ThwEwHnCL3BbMy2X6K7DpB6aZqkN8CXF6W_jxkglPiVSDV2uuynOGriaR83bAfOMwpxFsqcXluQ4-sIF6c8ZtWmuf4K8kRZZ6MdNOKv3SMg=s220",
-        "view": "https://drive.google.com/file/d/13PuueehVSl-D3B6gCA7zqU2X3atGYHQx/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcO9Q_OPGEGS8x4duJyDI9yyLjiuRKb8xAMfB3BrHzCJkYtVMElaINkL0u6hyyr01D9fnVR8-5Cn7FlQi8AzVPAtePth0xAUEe6NbbPOsmDo6TsQ=s220",
+        "view": "https://drive.google.com/file/d/1k6cRHf_yvkTEYyD3UuRyqXOww48-HEJj/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
+<<<<<<< HEAD
 <<<<<<< HEAD
     "_auditDetail": "Folio 380025 - 26/3/26 (9 FOTOS)\n  → 380025_inicial ✅\n  → 380025_folio ❌\n  → 380025_corte ❌\n  → 380025_demolicion ❌\n  → 380025_caja ✅\n  → 380025_liga ❌\n  → 380025_mezcla ❌\n  → 380025_terminado ✅\n  → 380025_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
@@ -1811,6 +2187,9 @@
 =======
     "_auditDetail": "Folio 380030 - 26/3/26 (9 FOTOS)\n  → 380030_inicial ✅\n  → 380030_folio ❌\n  → 380030_corte ❌\n  → 380030_demolicion ❌\n  → 380030_caja ✅\n  → 380030_liga ❌\n  → 380030_mezcla ❌\n  → 380030_terminado ✅\n  → 380030_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380021 - 26/3/26 (9 FOTOS)\n  → 380021_inicial ✅\n  → 380021_folio ❌\n  → 380021_corte ❌\n  → 380021_demolicion ❌\n  → 380021_caja ✅\n  → 380021_liga ❌\n  → 380021_mezcla ❌\n  → 380021_terminado ✅\n  → 380021_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -1837,20 +2216,20 @@
     "_folderId": "1yWZBTQaFfis-3gftzGE1GYR816cnUqWW",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTADNsBiV0typJA9BpFzqlSE99J6VMl5WQ0ya77D-yKCeBfdqcwrOdfVym8KLsqrzYqsjqU3ViL6nzN7m_zLmEcdE6MK7pIUlWc6NoYz9zxKhPPw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzzlLxxcjx4MtwcNFbluYQkhjUQiDivXzmOQnmHkaDsKQccgeygWZJ9mQ1qwn6hflPX0MpF019U8QmcA-Dlknii18YgWWhxxPpmzEIhg-zNSKVZw=s220",
         "view": "https://drive.google.com/file/d/1E0lZJaU6DALWMl7UHGkuH_AJiaQ5mPzo/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbYl7DUr53DkpDSjutVPYok3TDKkdj-x8DzAMaebEQAYFpTX8A3klySvUdzbkPHnKCtVt5I3tau0CkB02BiuwUDZXGQwEel7pr4h-RpvHdhep1DQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBOfDSCKptHI8kC4E2mq6QUr5nRLNcPHz9NQ4ESkcQpOmZChPhZwJ7SFUb2-qvBCAdp9txXLAfnbI3Xr9u2HCb-5hgjTmnx5gI-cVbkugeXQ9T5w=s220",
         "view": "https://drive.google.com/file/d/1akLuBwIgBNGQqgXlOGjPt7a3o7hOLhxQ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXu8jBNCMxy2Dr2-hUC2JJQC_eOvxH1GO6nuTYwwP34fxcLSwZSTjpPQcEreJpfGxgicTTbksBFDO3TcFHG480hZFAXKUX2b7bJ3EwXFTRzBc1Rw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5_uWnNhU1QifYZUDCNJ4Ph70X-4Ah8mJYMSdCN7ASfggTvaneWSlrVNOEGhTn5uPtesnq-wSYlbv34Ire2EmhUK0yXk9Py7f8nZ8wrI4o6y7Z1w=s220",
         "view": "https://drive.google.com/file/d/1HKQDJkw0mrMXheNLDbWDoKgLFfAdVKo6/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1871,6 +2250,138 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+    "FOLIO": "380025",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "14lH3wIB4ajwAyHy_5KGbDnDk1r_iO34j",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP0mS2HYE7UqPRSMURMn8XXZ9aL0j-Qs_fwwq-EkFcjJCRurGQSx2pzHUVgz31rLAD9460HYlFPsvaIPn-7sUOjp-bdeNyN7WzHv84OXMtHAJcoSA=s220",
+        "view": "https://drive.google.com/file/d/17zFXUbGQnmekYWEJv3s3mnuMY-fa2IB5/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIiic2Qn5KGaPCQ06JvW53uoquDQ4JhUZ2842W2isAJ8Xe1Omd2cGkCl1msO9xFRchMTBWHYzyBVpJjOWcuTK1LQDvSSOdcv4_47h0zf6Yz1RIqg=s220",
+        "view": "https://drive.google.com/file/d/1m5RDRPBL3GG6aWm4PUwvjI7DSOEFEFtQ/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrKBAEhLJe6zS7mOKzKibDYutSXord3AqwJ6DV2_SQV12iq1MHaape1BFnfclmw2zRgmw8i-sArVDTiztq_imKq4JzmlP2DTYRMXudDVmqyXreRw=s220",
+        "view": "https://drive.google.com/file/d/13PuueehVSl-D3B6gCA7zqU2X3atGYHQx/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380025 - 26/3/26 (9 FOTOS)\n  → 380025_inicial ✅\n  → 380025_folio ❌\n  → 380025_corte ❌\n  → 380025_demolicion ❌\n  → 380025_caja ✅\n  → 380025_liga ❌\n  → 380025_mezcla ❌\n  → 380025_terminado ✅\n  → 380025_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380026",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1IMiBNVTNnicjvXJfZ2oXGFkcjq-3h4Ne",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgRzs_EcF0GXS62vl2cRBRRXxgWnR1J3rLUKTj1tPb2UC-4NqylGJNwr8DZiNCErOlujbxlcrHd5f7PbK0aQZ4MjNfsOfRVrYW1kKzvSeSp01AWg=s220",
+        "view": "https://drive.google.com/file/d/1sBv3l02Cknve_iJ6fN_pTqjxXqsRp9sP/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNi46uyAwFq-nCSaDbO_p2B7bJVTJGH48V4S5mSLzKz90cz0o6tZaq5_UWlXbfqYFQ5396woTDMks8OSnivH1LsDZuOWCFjkk3u9pfcZ05NwjGZ1g=s220",
+        "view": "https://drive.google.com/file/d/1_oqd1SMeEYTiNM09lSuFum_8urpCoNdf/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmdkZTBVbrvisNsE0FtE7__eav_q-Hbp7ITbkALuEs86iZWcrucTY_QXL2SuXt30iQQYv2sF54SSl9ti5pc5jsIucHGVjfRpbi6GkBsZiV6NGNyQ=s220",
+        "view": "https://drive.google.com/file/d/1MNCBIPp7GHoyniFvDtrCpkzB4h0CepCb/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380026 - 26/3/26 (9 FOTOS)\n  → 380026_inicial ✅\n  → 380026_folio ❌\n  → 380026_corte ❌\n  → 380026_demolicion ❌\n  → 380026_caja ✅\n  → 380026_liga ❌\n  → 380026_mezcla ❌\n  → 380026_terminado ✅\n  → 380026_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380028",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1T64GC374ATUrXTYl6aTTUeT9Hy_kJdce",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMl1mApHJ3hHeL6nc8GDV6x_CS6y6LHNniKoIEqmrEy_dKlcnIXELkOb3NhiOEpwf-77w1MLBZiw3IZsTZBLVFKZjvFFqXKL2zP2mArONv0w83DnQ=s220",
+        "view": "https://drive.google.com/file/d/14_1BqXu5kcH97LxTelMLpiilmY-RzkNx/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMy6gnd7JwcGUClPlXmwab2q7dzCkbyS1lER54TUqlCzocmHecTfRBOP_TP11qQGnytLZGU18uA08zDcwYZKWcfgrCGqSLGofK4DtoAddDnAS2Hqw=s220",
+        "view": "https://drive.google.com/file/d/18q7Y4NSASKrHi2mpP4_c1GZCg_DC7mXk/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuGOflFmoU-JcaVQv3HE6aKO6PCLlTgmcDxCj6HoO_diWfh_1xsN6jH9C9NoYjDkbe8vuUcnrqvLfKgUNVK6Xmp4W0hEKPxNQao4vUmgKGec1Rsg=s220",
+        "view": "https://drive.google.com/file/d/19ShcuQSi3oWFlIv8iassG0U-EWK77kNM/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380028 - 26/3/26 (9 FOTOS)\n  → 380028_inicial ✅\n  → 380028_folio ❌\n  → 380028_corte ❌\n  → 380028_demolicion ❌\n  → 380028_caja ✅\n  → 380028_liga ❌\n  → 380028_mezcla ❌\n  → 380028_terminado ✅\n  → 380028_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
     "FOLIO": "380031",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -1882,20 +2393,20 @@
     "_folderId": "1GWxA4M4JaHNKLP1LgYgOo4WYgGxbfQId",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPefmfL_DxuT_OfdV6tgBvRwwE-ktQa-UEMhTL_wFiiaXOqrembfH7_D0wLRmF5D1mjzFNRgwYIejwvCJ1jXsCvz3U3eaNr-zWmikW7k-tyaHmIog=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmlLQna07aY81P8aycJNk08PFJ7i27T0ZbfGRH-uZ_sU6krF84DRPvKI8knPbIr7Ck5wHZx4nPc7GDfzmhnObzbdOMDl_9yxXdKrLdeMrtPor0gxw=s220",
         "view": "https://drive.google.com/file/d/1jd22dTXVbMBmuL7EhSDsv7Gi8RW81sHc/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZHmp5ppjmRZeUShSaiwqZgD8R3yaYMlFlwF3gYt6E8mm4rsw0Gm0ujScdA7koo_qMG-FaJNW1j8BtzscFgnumXmKOMz2zWU5Yy1Y9UYiLPDV3oA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOe2TvOs6GsXOsPWzTmjxe89ZSFavGaW8om_wTGLPrrxHGKdcQQ1D-EXtJTgfNMitdjlF4A_SKyuCaIg4i3VTRWGEwGq6ZM0P0DiNK-giMlS9nBUJg=s220",
         "view": "https://drive.google.com/file/d/106JE9ZBq6tZXF0cyFSHGxHpumxiKhDAl/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf6vSswJWorBUae4KYrIkTgs2eimoWAew_WtP2pcxvJDt3iNe1o8Tlhs142yQijOkUQSx4T9SJRcA3zZ6IJ-wzOxrclIy2kISzshr4i4do3kT3Wg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMXYNUg_NXzb7x_U06daXJlijzOh8EIektgRuylPvPZy1oWuUnlBmnHNGO7s85QtzTGEOF3wUK--PAXmJRAeOncWy_Kto7G8iaybGPceqzbVPMfJ0g=s220",
         "view": "https://drive.google.com/file/d/1quDIj_oZ2TqGRu6EIUiZefdgdES4grbS/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -1977,20 +2488,20 @@
     "_folderId": "14bcV9aBqrUbxU4qQB5pr8KD93Nl_52xm",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVE2QbTfox-arTB5LJehhwiQMXu5sIc9A2k41oABqYykQTcvXFB6XQcGJc54rlveOBFUfaw_Q5gOpikyhLaLdi3sbwLt5Dwldpt4TR50FtNPAHKg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjMwU56_Jh84juDQqcHjS79k6zeYpQsnOGmh43ccH2B-ABOjdRMHXIT2Omp-_gIrgasyAibSN5FLmWRLGPGrh_6X9j0cO5N1kq2beLiFiHnr3QH60=s220",
         "view": "https://drive.google.com/file/d/1oCU0n0gzXu7LRZdTe12kvMVZy8xO3sma/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4hDmiLIuBNRojQXMq38vCyOio-M0iyHRROyJx5QtzcLGE3d11vbiBRh2ZUHAbHfutmzOKjPeBr5HVyS1wRQISWEh-cJ1l9y55ullOZOmjxoqUIw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObrHmliPijWOpkqeRacRugnLcH6DbhiU4f85IAhN7s1yvIWg6rJYJcU0wXWipcXt7ZI0MgKGA0thOqjH23qbNlXw0inQLmUidX_13FHcNHbVc9174=s220",
         "view": "https://drive.google.com/file/d/1E84ZRzjqoor3haQHDJN_nonxvJfwPPLd/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPb1RkVimOwCGwK0LFPScavtgeuOyIOfWzA44dPHAa1UamNJ3R5MqgdqzbdSn8YK7k3YYSyPsf2XkRm0gGqJQh-bz9Yq74bJu0ibBPAIHD0iwZE6Q=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHEEjI1prXFuhutYgCcstSg8kUJ_OL8uqLMJdKL0qK8QwP1d0QYZmTczfcmNEHFRaBBMRMWuEq0JRfiVRJ8GxAfK815CLIBk1QneZaciJF3cQUGO0=s220",
         "view": "https://drive.google.com/file/d/1Z_2-HzieZgMilwwr0URtBFzWGdGmALGa/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2072,20 +2583,20 @@
     "_folderId": "1Vx689W_niUSnMTChtwkHDfW2ffnQBQsF",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIVF4pnrYVh_uqEgT_XBhslRSRhLULmiD5BzwWaiKK-_iEQVtQMY2v4I91zDRMJkEcTJ-P2_-8qLgXhmXYsNh0QFybcQtHq8UHWmpuPwn0MirqWQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrJR9wJofe5u4yXWRS3Z7eS8ktTzEKkuCIq8FTeKUNYPJbDwIgAYFa_lpKNRuOAEdY_8bhWjz9yM5u2gFKk46PuV5szvG-ExP7eWx5isi3wrMADsA=s220",
         "view": "https://drive.google.com/file/d/1A8hUtCdiBN1GD_-lMk_l5uHNc0Lkekg2/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO73XNOeVXNtUlrjbMs100QbcpfO8F2rOFlUlESk0liLxMq87VjwOMbQicEhlKv2h424QSU1rq3yLdQapXDALoH0eSPorFm3oDVz5vDR48MO2Xviw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOB8qzpwHQ4yV_gfx6ag74qROVK6F08X9R1Mb_VlzWMnUj_clF2Mmg1xzoah03Rb1qll-b1nahbNVTdL3csCWCvSLdZD-7r6WbHJTSogOhnBf5FD_8=s220",
         "view": "https://drive.google.com/file/d/1UENhtAQp94gvwI2sUo2nUKFHx5MqhEoi/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPdnf4dk6HsYwbfGi5bPdRuIFo5HB_HTS27lDhNlZhJ3mMsLFxrVSK8a98wup1Sqib9iutNUC5mEiDKGhVlUpXwBLWsb5beI8yaOaTjEgAnE_Jiw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNauveJcU5i5YyOVsVWac-QK4Vm6n9Yx9TjkQo_ASbINnfrJcIiDRwvp6m98d8S7xYOfa9sMjSXrRVpKBzo5VMkuUzuZ2r6lpyBart6mZgGR0PpYN0=s220",
         "view": "https://drive.google.com/file/d/1EzSUTx3NKLAYu7MDtieRL6CqtTw6gWyB/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2116,6 +2627,7 @@
     "ID": "38"
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380032",
     "FECHA": "26/3/26",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
@@ -2169,6 +2681,8 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380037",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -2180,20 +2694,20 @@
     "_folderId": "1OKHqLTpwtnInzv8_kNWUyOxPMJB7Go1L",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkdtjfilyzKjaLugdMhCB_FfmJxUNsFjzGFQl2aOOJbnoKi0DORDgaDZOrB2UY9Wa-_58PNnKbnYpWOBgXVybNItsCZ1vrDl1KIExmmQWn-sGrZQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4aL-eF_E2c8IEtIzoPfwY-4J-prEbxsu2gjTn8SBBOI5_poOZbwnMyyk-wo3P_WZn-Kxxw8KwbxJzSk4GIRl8xepngIEYrZhehTKbiFBoZWs-80I=s220",
         "view": "https://drive.google.com/file/d/1h9Q24hbKqtoe5a_0rdQr_hFN3JGv8Z07/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPptIsD27vy7htkVK9-VLYs6TSDdXbUnf9yU3oQL9efpUAhmuOrCc_SIcxRCsGS8JKq6WYvivCPIFq0RZSb35aLZSA4R736LW1dhn-4LdvO174vqA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYJdHW1VLwYLSVO0ISknXSlzHw27DbQWhHLqjPiB7Z2g0I1x7Dqev7RTwt7IJawuYD2SQJM3M4aFo7NaQ3oLhjPNSF0W0EWtzOL_Ba9S5o_KXUt3s=s220",
         "view": "https://drive.google.com/file/d/1_eUZuLQR-HWeRgNV5X4gFQkyJ5LQd6U5/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXrOkBEwPNrO_xGiYoi2lP1GOGEN9dYtU15DR0OQjUuefI6DYjkAQFoFsT5HRp8LzSb6NbPeJalB2vEDlRiMHrtBZhEtClj6b2dIy2zUcUymiRAg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5nBhWRwyRMErY9544ovz6PjsxA0JMHAkWAWYz3aAMGmVGBBBLT5E4iNiF_sB2UcuWINtPPnL9b7ihYBgALUjiwQj2tHAYgbBMRMeCk7W6of5vB-o=s220",
         "view": "https://drive.google.com/file/d/10o4LdvkC8jQWxKE7-P-Isd_iioT-3s43/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2264,42 +2778,46 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380039",
-    "FECHA": "27/3/26",
+    "FOLIO": "380032",
+    "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1fQVgweYVO823ObrnuQJ47ZgBt1C9rLRX",
+    "_folderId": "1t9WgLXJrn4SPAzZlJgHxIDsk1dHbnme6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOpBKhauZrllt7UxCj7PVDtKcQB-JNQ7nVPiTpjYDOcsxTstegdPtLgou6Fp78RFUe5gDJdG3AOcy9emOABnVdXMsapNKlsqMr-9bHLXVglcNeWA=s220",
-        "view": "https://drive.google.com/file/d/1Zh1LeXY40DkcIQs0zimnQNjEG3tM-0fk/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3Dk6AqIPSVLHHi7Oy_3UZ-mnX0kX6rVcXzocHCh9tTwZ73QlKhb9EMbS_lJyl9jLNvbFdYwaJxwe-gR_c8pgiDnjeO4vAy76MMmV7l8R2LCqWURE=s220",
+        "view": "https://drive.google.com/file/d/1Z8hXf_FdUkShZIBy_88TTgHLUOHKEjgW/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPexfMgscxNzJsiHsGoRlk_zloUCQJHgucEinAGc0eQqyFxgTALrGG-AEa6D1WzLw5CMGbK0H4jMNQVSU4TFpypXMVSzI2zD1RTn4BOYqiMQyt-qQ=s220",
-        "view": "https://drive.google.com/file/d/1RaPhTl0DOvqUfx4MQcYwSJGfKuna2Hus/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIDSaxiBIiEOWccGdIJGe-1fvxMZ9X3SNBztR4BbJfHNyEZwWbo99TikOd44a-usXfiVqO-A6X2nKiMHcQL5KH0pGpbB758HYF3L4WukKEtEl64c8=s220",
+        "view": "https://drive.google.com/file/d/14InMJH5Kue1iBr8Rei0zTcbbesGeVexK/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCOmgr6OtRuAp9dXeEZCBHhkMH-jAMURpsssHFm0ZIcz9l47GQkAEnyKW0CPXFLcECK-0e6sUxicaEyjeYjxE4AXWf55yr-fc697A2F85rSHSk0w=s220",
-        "view": "https://drive.google.com/file/d/1C2MhhBzCx0VJcKTBbfF30_c-AluLxNby/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNldccEtL1W6CdIj5UBTz4vj3wJwKLKdSUrrkwakaenZ_tWnAmY-XlaF5HrtoDgQyid_kra4elsF6Lr2cR7HmUKjPz2vAsTL93AsqB_BEMq9moTsLc=s220",
+        "view": "https://drive.google.com/file/d/15FnNUwW-wwWn7G9aNMc1snEJbcblIRGQ/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380039 - 27/3/26 (9 FOTOS)\n  → 380039_inicial ✅\n  → 380039_folio ❌\n  → 380039_corte ❌\n  → 380039_demolicion ❌\n  → 380039_caja ✅\n  → 380039_liga ❌\n  → 380039_mezcla ❌\n  → 380039_terminado ✅\n  → 380039_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380039 - 27/3/26 (9 FOTOS)\n  → 380039_inicial ✅\n  → 380039_folio ❌\n  → 380039_corte ❌\n  → 380039_demolicion ❌\n  → 380039_caja ✅\n  → 380039_liga ❌\n  → 380039_mezcla ❌\n  → 380039_terminado ✅\n  → 380039_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380032 - 26/3/26 (9 FOTOS)\n  → 380032_inicial ✅\n  → 380032_folio ❌\n  → 380032_corte ❌\n  → 380032_demolicion ❌\n  → 380032_caja ✅\n  → 380032_liga ❌\n  → 380032_mezcla ❌\n  → 380032_terminado ✅\n  → 380032_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -2315,7 +2833,51 @@
     "ID": "38"
   },
   {
-    "FOLIO": "380034",
+    "FOLIO": "380036",
+    "FECHA": "27/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1LHszv5_GWSbIDXI0sNmZzBmHdFl1F240",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSJmAjQi0bR1dcoPaD33-iWq5z7a10lOg6DAqijSNhJaz2jswdbcmzPiUQlnvzMTt8D46lUFk7Mn4qTi2X45vYlQnCdngSVPEwrgiX6eZsxfbsWfE=s220",
+        "view": "https://drive.google.com/file/d/161oqmUXCczwiAIi7oi3gbwLxb6qw2aX8/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObScYykOVKGOAzg72aeXrvTm1QU9shfy8r5OKB3r4IVweCZYXwC_BNmOCEJYhVZTG3Vr5iTX5kjBv3_4zBwWFwqcyy2wnZBQgesVQaq6c79XSuRyA=s220",
+        "view": "https://drive.google.com/file/d/1FNYKxJRvd48iF9o76d7HDZICuatTq1PC/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNr3S-d1hBwDMPD8wDnwazRZAklGGJOrr2rhUVtpYO0DWP1Qc22x7pBQ3wufMqUvzOayDorO4oPYPin-fY2fWhyFL0TsbJ7D_LJdIJmCQyJRthia7g=s220",
+        "view": "https://drive.google.com/file/d/1iW_kkpKk474SCQ2DlraMgs4HUOFGZR6P/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380036 - 27/3/26 (9 FOTOS)\n  → 380036_inicial ✅\n  → 380036_folio ❌\n  → 380036_corte ❌\n  → 380036_demolicion ❌\n  → 380036_caja ✅\n  → 380036_liga ❌\n  → 380036_mezcla ❌\n  → 380036_terminado ✅\n  → 380036_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380030",
     "FECHA": "26/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -2323,30 +2885,30 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1SesifM7UpcinRpM7UWruj9BB_xuaDg0e",
+    "_folderId": "1-lRbJPesygRUrOl3P-B80KZW2vYcz4UZ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8fW5Xvn0_su0ztUtYQJeMknDKnLJvy-QPa1r4-baX2aH9WrxwAQQn-E34kUAe1mPeIkIc5R8w95x6zvr1G6p8QKsjH0lGZiu9Q0NchpupOSLz1w=s220",
-        "view": "https://drive.google.com/file/d/1F5eLrs8ps0AmvHmqDrFletBOviElMV6G/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCNEB91mGtILF7wLqzFFgvKQ7zLJ3rzEbwZQkv7sj8Yjs3klxl1g7S_UoOPFoW3EEXA8IfORF9iSecRwVcssAOMEm4p2K1EO3qFtKA4cF-mviUrYA=s220",
+        "view": "https://drive.google.com/file/d/1HwBcj2gbw4ty5kR6RsTdkLjFfs9jJqWp/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNxp8Y9IzHhjxH98PsC6W5XEeOyEdGnimfjf8DkeEu0FUULqHEydGxf2csjzs_hrDhpLeefKXMFX0ODpk2cmWKa7C0QmyiDJlBAV1xgUGOhk-fWg=s220",
-        "view": "https://drive.google.com/file/d/1QtezcRGobK0jMt9zi60KVjefcK3fm51m/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrDpPKHsylhAJ5uaXGvY-k5o2fsjDtwTgwdktz4pEFwioBkoeugk2Pt4zjX0RKsMZVSQgdrvvXsPHRcsRJQxI7AHwXpnEDQjJX1u6jAlOTHSFgyRE=s220",
+        "view": "https://drive.google.com/file/d/1MVix_7bEcCaRWHRbDLUC7-kAV55IoTAx/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrLf_iBIG5m_-KYL_sTddLyqsfArpu42fGekCufSRX94b_-9yl4tDMdkGKdOtAIlvMNc8NHUxl8246kZKw3LwsGzrUAwDj7IgaxbkXv2Fa4XBsdg=s220",
-        "view": "https://drive.google.com/file/d/1OQ8waaOpd2fY_d5KYKN5wHo_KS2U5_B8/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsCP9u83SNkVYCFvEj9AfcktWtqadP_hKuHUc9GbNWTaRmBeeOin67dXISa4XAl3MUR0ocEwRalmdN1vsg299uJUyE_R8Is78RYdzE-ejDkTeDLK8=s220",
+        "view": "https://drive.google.com/file/d/1wzO-yagKZJCZ1CJbr7iH2KQeGKHow8pd/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 380034 - 26/3/26 (9 FOTOS)\n  → 380034_inicial ✅\n  → 380034_folio ❌\n  → 380034_corte ❌\n  → 380034_demolicion ❌\n  → 380034_caja ✅\n  → 380034_liga ❌\n  → 380034_mezcla ❌\n  → 380034_terminado ✅\n  → 380034_limpieza ❌",
+    "_auditDetail": "Folio 380030 - 26/3/26 (9 FOTOS)\n  → 380030_inicial ✅\n  → 380030_folio ❌\n  → 380030_corte ❌\n  → 380030_demolicion ❌\n  → 380030_caja ✅\n  → 380030_liga ❌\n  → 380030_mezcla ❌\n  → 380030_terminado ✅\n  → 380030_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -2370,20 +2932,20 @@
     "_folderId": "1B_0k0WXv7K3SvYD-46kXsfEGM7SyQd8Y",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOx9U0oidfiy4Fz-nC9lEV1yQTGePg-s5BnUgH45bJUGVH789atC13pRmjI0eqs3jjABDy-Nn5RAPoFoVsthIIanmXK457eJsitOIsi7oHwkvxxUQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvNd_ygUiOObY9yo_Pu9-mKYzmkueVbFW1xvRGP-K9SviUYqduYvtpPQpW-rRW7QYE0vCb0Hs6D8_nRaAX5EaPe4lGCir-FR_SDI5kIP7E3LR5kGI=s220",
         "view": "https://drive.google.com/file/d/1sl6KceFV1nBw4g7F0H6MHJQAMg2-uoTE/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPInqHDGSq2xSgfHikAH1WH7Qisu3gzORDAhVFmhbZRkugkqDLEjoZVo7O7suRw0sXXg2yHZQQV51DoclcxgioWXnuEykV8J98yDlJ5A_clPdoqPw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMa9deOe7uHNZmajlHE3c4lCwFfM3c9R_P7xRXGAnPm7xWA2Qt1m7WseLLjlgI_76MdYGRVfGA5cS2SUS-UukXcz4Nxzg6IDIYSrjJOldNVf2dmvyM=s220",
         "view": "https://drive.google.com/file/d/1uU7zAm7sboaJ7j940FRfbiMS-yVCnF6C/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBME0iwM6RADZimetTSiFxfyuY2mYtjJB2rzVaRev9a9ZfsYao0b_X6ReaLZ0_5uzHw0IHZnA_dlttWa-5ip4lKsT0iSxr0fu3duQR-GdLsVi_BdDA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTvirNzIwTBhji17wr7HZI5gt8YVzAIV2HWSEUPBjQgxQ5t29SAVpRAEDlVFp4uixISE32EScno6Y7z3LOErP3GcpcVfvIdYDWBrA4GgtwyvxWpwQ=s220",
         "view": "https://drive.google.com/file/d/1_g_aZkwsAMO5rOoo3S4RzXFpd9ghhcDD/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2415,20 +2977,20 @@
     "_folderId": "1kIz6K2OGf3r4VXeGou96edJhU8QkG_Sw",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWT9VCTFDnZhU-hb17v6OnDEplimMuSme8Gr3zjhcObMeBnbYESE1HDHqvz-a4PrGk0-44n6nvamMCTLVXtfHm2-WtW2J3OA1NX5uVq-_WzezJUA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4fyFkAUbymCd0QKPb0v6NC-UVpeo_fxyRSPPVHhq2tv6w_TjJYEFGiy9RFJesmZFYphtbzGvl0tXv1iOiYO05EKCHcNEB1VRTg9ONKANBLpdRLvc=s220",
         "view": "https://drive.google.com/file/d/1nv4mg1hD2ul_g5brMRZ27G_H_ZWDAicx/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNM3Ba--nz7R4KmBraBn20urlL5NCDT4BFyysIw-L8xWo-W-ysCmm8TN09D5wHLzStPlq907A33jT0fQIuKOPeFtSu2vYMnogQg0mF35ZqGIOPMjA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMhDbDQyzzlAPaHxG-rFR94c_eLR8stgVJFnaeU8nCpKGJFnA9Yzccg64yduliGHyRxewAAAKRBPez9qyraFXhAv51Crt5EH4N_Am6h2NCWxcjtq0=s220",
         "view": "https://drive.google.com/file/d/1A6RUKRSUqaL4RqichGgiPfzC18xhByvu/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkPGR4xx7vjORuXzRP2t4P4-9ejPKGqTq4xcmnNC179SsxJa7ZsN_1y3HnUd0N9zJ5pqYjIh3yK0MlYajRuz12wOoRtxdnHQof4MQHG6PGcmmGfw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNatltrDm4sOlsBcVjZe6GNhXqgLmBmpXX6rGh166rfW0ILgRziMDDWuTJG0LKp95_TiR6enDyjghaGm88rpIlsgIyzsPzlWj9n4lOH1QWt_DrEizw=s220",
         "view": "https://drive.google.com/file/d/1jSY50Ebh3qf_aesnXryJ2SOsyLbUf3wR/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2456,7 +3018,119 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380041",
+    "FOLIO": "380034",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1SesifM7UpcinRpM7UWruj9BB_xuaDg0e",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCCJxRhiD52osch-nzg10mkMjmg8p9X16lFKqfKmssUO7-AoVlGW7v70ftwfq-b7oekg9c8ZzfTwvETSb5ClZlWH6TS-rI30xAbyM__Fj2YiFR8m8=s220",
+        "view": "https://drive.google.com/file/d/1F5eLrs8ps0AmvHmqDrFletBOviElMV6G/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmQXs9Ey7-of4cQSN1j_cuCdEPu5zuYjQSEuYpKFrPg3PlosqSyOB0kgG90IfCtxzbsihsyv9yV1BYnE30RX1cVZASDtkoDkDYsFAefcmNV8YGWD8=s220",
+        "view": "https://drive.google.com/file/d/1QtezcRGobK0jMt9zi60KVjefcK3fm51m/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCgj7YHGpv3OmumuWi8-VqgO_ElMxcjHm9UUFFyzJkQONmF5lXHtp8jyy99zArjpGtZxJJKiop7dBTmsv7u0bMv0knZPK_SrHXX2PYQ_k_VeWZ5QE=s220",
+        "view": "https://drive.google.com/file/d/1OQ8waaOpd2fY_d5KYKN5wHo_KS2U5_B8/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "_auditDetail": "Folio 380041 - 27/3/26 (9 FOTOS)\n  → 380041_inicial ✅\n  → 380041_folio ❌\n  → 380041_corte ❌\n  → 380041_demolicion ❌\n  → 380041_caja ✅\n  → 380041_liga ❌\n  → 380041_mezcla ❌\n  → 380041_terminado ✅\n  → 380041_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+=======
+    "_auditDetail": "Folio 380041 - 27/3/26 (9 FOTOS)\n  → 380041_inicial ✅\n  → 380041_folio ❌\n  → 380041_corte ❌\n  → 380041_demolicion ❌\n  → 380041_caja ✅\n  → 380041_liga ❌\n  → 380041_mezcla ❌\n  → 380041_terminado ✅\n  → 380041_limpieza ❌",
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380034 - 26/3/26 (9 FOTOS)\n  → 380034_inicial ✅\n  → 380034_folio ❌\n  → 380034_corte ❌\n  → 380034_demolicion ❌\n  → 380034_caja ✅\n  → 380034_liga ❌\n  → 380034_mezcla ❌\n  → 380034_terminado ✅\n  → 380034_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+<<<<<<< HEAD
+    "_uploadEmail": "terceraetapabacheo@gmail.com"
+=======
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+  },
+  {
+    "FOLIO": "380029",
+    "FECHA": "26/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1dUbtZ1QfseOJMIp9qTgnjmJQEN87m7mB",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWl7trrCLc6erMSva6iIrQ7isSN-UUSXM_s2zm5JaOzk-QXi2BoRDQllm0JZnGh3ZaLMz8KnLF5bJu0PCj1V6Iw76ulzRy8SCsAgRlA7JJoZGCh3M=s220",
+        "view": "https://drive.google.com/file/d/1XRTnTkzQdYzmDO5-GExpDaE7UGYDwYZL/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIQzqAGuHkdLWTTOwWm0-YUUyL8MZUxRIky5I3nWaUFz2Gxj__zqjbH1JU1zZUreYOW7FBh9-_0z8V2iaqYhPjVSKCeF-63fyVYe8yJL-UAy9N2fE=s220",
+        "view": "https://drive.google.com/file/d/1pa2yZL5gAMzRlcniQF4PM55nYaGbxGsX/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNKCrb6pGPf9T4cUjK5UnzNNJwxA9fO8exBC8wig5Z4o4WgHEPKWOUii4238ZDsJ3x14U472wdnUKlT6uSYprVn56sG6YhzLbBCYMRXWOES00mm7c=s220",
+        "view": "https://drive.google.com/file/d/1fAomFK08bSTN3F2MFr0mSqALUhVy8Mwk/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "_auditDetail": "Folio 380042 - 27/3/26 (9 FOTOS)\n  → 380042_inicial ✅\n  → 380042_folio ❌\n  → 380042_corte ❌\n  → 380042_demolicion ❌\n  → 380042_caja ✅\n  → 380042_liga ❌\n  → 380042_mezcla ❌\n  → 380042_terminado ✅\n  → 380042_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+=======
+    "_auditDetail": "Folio 380042 - 27/3/26 (9 FOTOS)\n  → 380042_inicial ✅\n  → 380042_folio ❌\n  → 380042_corte ❌\n  → 380042_demolicion ❌\n  → 380042_caja ✅\n  → 380042_liga ❌\n  → 380042_mezcla ❌\n  → 380042_terminado ✅\n  → 380042_limpieza ❌",
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380029 - 26/3/26 (9 FOTOS)\n  → 380029_inicial ✅\n  → 380029_folio ❌\n  → 380029_corte ❌\n  → 380029_demolicion ❌\n  → 380029_caja ✅\n  → 380029_liga ❌\n  → 380029_mezcla ❌\n  → 380029_terminado ✅\n  → 380029_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+<<<<<<< HEAD
+    "_uploadEmail": "terceraetapabacheo@gmail.com"
+=======
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+>>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+  },
+  {
+    "FOLIO": "380043",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -2464,33 +3138,33 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1H7QycvNCC6jLkpjYR7_8ttiRpBbjeNU0",
+    "_folderId": "1NGn6hvkSYV0NRRRskbKnEyXzMkGxbXrE",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7Hm5xcbhpf_-W8aEtj5AMI20mkZGUYA8fyqMOXlvjPlSxfp6L8XNwNBGo-1hnfU0z6fTxzmpUN22hjqMt9EO_TNCIH0T1qCU6vAmsmIW58E9AzQ=s220",
-        "view": "https://drive.google.com/file/d/1Ue9jjUPSrOxCAFkcPyrY75yalsvZo2Un/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYpLP_l6qxt1u4Ornk-ljnze42kDx3DvvLPjj6ZYUD0xsQQLq5IDTtD_hx-CKn1qBZB2879fMpubzvtZSBi0PGDqJQ2v7oDgbugPhDIVfuXyOlNUo=s220",
+        "view": "https://drive.google.com/file/d/1eyBGqsHPgZhmUDP2OkE8Vmz1TSxGhTD7/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXIx0PIsQf6n7az2dudgV73TbyOtdTAnoqP2NFC6U-EsE7G0LJOgiIiw0bMR-6HZirzCMtx1YNq9-WfR-11AggsUnOSrkhaMtlgwWvFghFlHO8vw=s220",
-        "view": "https://drive.google.com/file/d/1eZWXodkm2mKcEvUgr7GDVnjZW_DBaDGZ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhislOyxSTdEa8qerhysmCDRQY_RTWOPtwiZh73NRBIqT0QK9r_ajPruIrIZQCpRYXPefD_BJl9W_PjThmMUrXZjjuHJN8Ph6ZrQQIuu5gsvDEaS4=s220",
+        "view": "https://drive.google.com/file/d/1B37fZzbRZSnhf-cqkVF3KR0Y47BIVm0e/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYwtUqpUtOTOFtfH6EpmObSyhFNb9NKbuP-1ggesgRgrmf1a1zgwytcuNO9B4w-0Nsa02ygBelStyR9u4RHk5oCmk-59nQCcp_Bwq5ZLeFldprOw=s220",
-        "view": "https://drive.google.com/file/d/1XYyUBulDZ0zF9FIkIEcULhQz7sEfsNd2/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5wpbE8a37bl52Msh_hiBu92WDDt2XwA8oPsd7V-MDmbccRlYWz7vRKZu92EsJMo8BUw9AM11DPjfy8v5LINv7lynqYfNL6RH7Qji6cg51oFkhQWk=s220",
+        "view": "https://drive.google.com/file/d/1HQ57R2IzceYiyaZWDywsVFvEZBdGvecq/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
-    "_auditDetail": "Folio 380041 - 27/3/26 (9 FOTOS)\n  → 380041_inicial ✅\n  → 380041_folio ❌\n  → 380041_corte ❌\n  → 380041_demolicion ❌\n  → 380041_caja ✅\n  → 380041_liga ❌\n  → 380041_mezcla ❌\n  → 380041_terminado ✅\n  → 380041_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_auditDetail": "Folio 380043 - 27/3/26 (9 FOTOS)\n  → 380043_inicial ✅\n  → 380043_folio ❌\n  → 380043_corte ❌\n  → 380043_demolicion ❌\n  → 380043_caja ✅\n  → 380043_liga ❌\n  → 380043_mezcla ❌\n  → 380043_terminado ✅\n  → 380043_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
-    "_auditDetail": "Folio 380041 - 27/3/26 (9 FOTOS)\n  → 380041_inicial ✅\n  → 380041_folio ❌\n  → 380041_corte ❌\n  → 380041_demolicion ❌\n  → 380041_caja ✅\n  → 380041_liga ❌\n  → 380041_mezcla ❌\n  → 380041_terminado ✅\n  → 380041_limpieza ❌",
+    "_auditDetail": "Folio 380043 - 27/3/26 (9 FOTOS)\n  → 380043_inicial ✅\n  → 380043_folio ❌\n  → 380043_corte ❌\n  → 380043_demolicion ❌\n  → 380043_caja ✅\n  → 380043_liga ❌\n  → 380043_mezcla ❌\n  → 380043_terminado ✅\n  → 380043_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "_faltanNEO": [
       "FOLIO",
@@ -2519,31 +3193,27 @@
     "_folderId": "105CA-dzpNWM1ST48vyqEigGQYe7vFWsL",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORiKa0O1Jolh9_XzI82stMSgjNrHLyIAqL50kIUpzap6K8OJlOmLZ99FBuY9DfamVkWzK5mRtKYM6SJvJpi2DAz6mn93_uMcin4NnGsoeYK28_pQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOA0VRix_DNOgrcP9xpG3STP8hfaNF5Nc6_URfjL8nyAiWOk-Vtw20y96-1rnkfFjHOMnaDvMcCrcscwFMV6pjINcSukHLhdPt-nkAkmQzdqaj3zxo=s220",
         "view": "https://drive.google.com/file/d/1fD4c_zGyh0hb09gCnCMNhA8LAM_HNGpc/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYANWWAhH9BRrV2LORqQpUUTnKzw0_WxPJqd4Lbvwe8pvFOF5t2JHhapFHQEMmJvVe006NuoN-YQO-K_PGBd3BvF3MjRrACLewVHdV2K0acHHCkw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKEDfxrCYDRVKpwZFjRz-jhyAxKcIvsyzERjnzPFYTamd89A0F5eZiSQY9ou592n14x8NcnvNUHy58lU5RcGiVv3S_1CHruf1BDojKfdeM5fBW7UA=s220",
         "view": "https://drive.google.com/file/d/1JyCoK0afNY5sihm4KHeF84qqf-FC_HzX/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4QrRqSANteDpsvYCkvLbGPecePKbplxistlwv70HPa-ly-fPO2v3H2keqPqSKL_MVW7KBGw6cD9h3JYWMzSGIH7jdn7sUP7Qd_kfhtYggIUJiWQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_et1wa0A9tsE1Ftu0_g3FXv8bbyp_mHehAgTigBuZIL-5WNIaH3sB8oQlysOu7WyabNadYCZyomiFEE-RlAAcHVfNVUApmGPABtIPynHAD8VttG8=s220",
         "view": "https://drive.google.com/file/d/1hbbAI531JPl8jgupdDzRuEQgfAzbDS0n/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-<<<<<<< HEAD
-    "_auditDetail": "Folio 380042 - 27/3/26 (9 FOTOS)\n  → 380042_inicial ✅\n  → 380042_folio ❌\n  → 380042_corte ❌\n  → 380042_demolicion ❌\n  → 380042_caja ✅\n  → 380042_liga ❌\n  → 380042_mezcla ❌\n  → 380042_terminado ✅\n  → 380042_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-=======
     "_auditDetail": "Folio 380042 - 27/3/26 (9 FOTOS)\n  → 380042_inicial ✅\n  → 380042_folio ❌\n  → 380042_corte ❌\n  → 380042_demolicion ❌\n  → 380042_caja ✅\n  → 380042_liga ❌\n  → 380042_mezcla ❌\n  → 380042_terminado ✅\n  → 380042_limpieza ❌",
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -2552,64 +3222,8 @@
       "MEZCLA",
       "LIMPIEZA"
     ],
-<<<<<<< HEAD
-    "_uploadEmail": "terceraetapabacheo@gmail.com"
-=======
     "_uploadEmail": "terceraetapabacheo@gmail.com",
     "ID": "38"
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
-  },
-  {
-    "FOLIO": "380043",
-    "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "AV. DE LOS HORNOS",
-    "COLONIA": "MILTEPEC NORTE",
-    "DELEGACION": "SANTIAGO MILTEPEC",
-    "_company": "KANARE",
-    "_stage": "E3_SUP",
-    "_folderId": "1NGn6hvkSYV0NRRRskbKnEyXzMkGxbXrE",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSC_TYvhrqpGeOdGgjNKaJ7Y8sue96zzH8og75-_wQgwJHuKGFhG8yZn6rz04qcJ4CWYbIDouaBbs4ao3EDoxZ2Tt-41cdB0b0RfCYHUEhr5Mse6Q=s220",
-        "view": "https://drive.google.com/file/d/1eyBGqsHPgZhmUDP2OkE8Vmz1TSxGhTD7/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-QLGO0XJ2Sau8Z0Ky9Vn_Hr8l_BgiHL5aaIKEUp2yGuftu-8brZm0Xc0Xx9s1S1FzYfZLZsQ275Oq4CD2mdHt7p715zEQ_l_K4b4ZCak5p9Nfvmk=s220",
-        "view": "https://drive.google.com/file/d/1B37fZzbRZSnhf-cqkVF3KR0Y47BIVm0e/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMncQeCHHYGqoSCTdFGKSbY-ExGnadce_Aaeh2fIn3yeWOhUbFbodKX2_tgq5awfMUxzATNe40rrsOsGJBKwjJRrqomAxCOPjv8X6YXScUL72Vpzj4=s220",
-        "view": "https://drive.google.com/file/d/1HQ57R2IzceYiyaZWDywsVFvEZBdGvecq/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-<<<<<<< HEAD
-    "_auditDetail": "Folio 380043 - 27/3/26 (9 FOTOS)\n  → 380043_inicial ✅\n  → 380043_folio ❌\n  → 380043_corte ❌\n  → 380043_demolicion ❌\n  → 380043_caja ✅\n  → 380043_liga ❌\n  → 380043_mezcla ❌\n  → 380043_terminado ✅\n  → 380043_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-=======
-    "_auditDetail": "Folio 380043 - 27/3/26 (9 FOTOS)\n  → 380043_inicial ✅\n  → 380043_folio ❌\n  → 380043_corte ❌\n  → 380043_demolicion ❌\n  → 380043_caja ✅\n  → 380043_liga ❌\n  → 380043_mezcla ❌\n  → 380043_terminado ✅\n  → 380043_limpieza ❌",
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-<<<<<<< HEAD
-    "_uploadEmail": "terceraetapabacheo@gmail.com"
-=======
-    "_uploadEmail": "terceraetapabacheo@gmail.com",
-    "ID": "38"
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "380044",
@@ -2623,20 +3237,20 @@
     "_folderId": "1u9HzEanUEzOHpCyDQoLt3X-wjp9wgYyp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5M-GDyWaCmJQxjfxrroJiJc65Me5SL3gsqdeU6UAI3Nr0Gbm2-TMH--0OwPhIJKQgGAdFaBfwT2lf3VVY27pXxWb9HbC0Kqy9qanIkch4A6--Z5s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBls49Q2i--2D5QPfWn2Y7jbhjtP_gMprIPLD7GIWgP9Ek--gv4Ms12FeradFzmTJ5p8Ux9JjvjiLuvqBKjD-g2DYGS31Gk3j0_uqkYxhCIffplvs=s220",
         "view": "https://drive.google.com/file/d/1SJd4fLWd3xo9g1_rGACzlkZOYLPjSiVq/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6M3lmzTTmYMPr0sUQ_Ye4NgXS4E0mm1Sw8V-_YM0nNusS_9PYEzrdjwszHMMD-5XAlSQ7T739ik31eKoaQpi9Syf0_ioEf8rZL-mnnExBxLRuGTY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuVjhL5Dsqc8guCJJVBso-Peg5dfU-RjsYm5uggfjl3D6ZYmRsblOv55ESfgIrTciEqhTRx0o9zlR6lvr93axdKsKDHLoUACETMCvUEE-VAdmDu8U=s220",
         "view": "https://drive.google.com/file/d/1XcULrCfhfTZNMHPd0HfW4k8rH8VwITiY/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhOkPnID2J2O-G6D76GRlWER3bEhr-tWt2U9XwRP_i55w3KSJrhwoBdTUT0ibuFKxorHSLlf6B1jTMrm6kpF8l093noMvK1jC4dKfLAGDroI3pL6c=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2hQumgSJ8ghYGD8Kmrw2D5cDbloSyfIQOV_MptPib9AafDA4oZge7L3oMhYTSHq7Abus0gNoXJAIIq-ldB8zjHT4HuHe7Pym54F4huoT65PWfsXM=s220",
         "view": "https://drive.google.com/file/d/1u_q9TENxd3rEmzXVxEbjs4j0zxmNZhtu/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2707,6 +3321,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380046",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -2906,6 +3521,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380045",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -2917,20 +3534,20 @@
     "_folderId": "1MSZQcwtb0Q4GwXPk3bByWsEqYCAjcH36",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUA1k-jXKZHt8fqsS7TVgdsGV_7Skvw7DuxrKbBstGotogUVoxSUiNjUwVdIr-BIgAGJlJ47Dn3OXOLVoCL-TCP8TLiGY9VQzPiFuWTG1S1LuIxfQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPpKdmRgNfTDrwD5uFZmhVrLl1fn4sd431Il0slBjBE3GB-yPozD6gfESUITfz8Rg3I9cUQ0wjtKVr2qEiZZh-q_DGrKVNCMl1LvX6VyfjKMlQr3A=s220",
         "view": "https://drive.google.com/file/d/18BL5_yi8aBflRzpIGqzALwIGjP8CL7lg/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0W8KAPDvIweRbf0JfdTNINEVz6e3eFBwlzGWHHGLMaARzsgMGFiVOHEbejS-S6niFPcBZi6JL29LPvTetL69ljiH8RDkvOgyyeLKO8KC18VEMP5s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7Raegd4hcXsXuwdHVKtwL8OOy6nymfcoDOtijMnfEefyT1vUw3z4AMYEktXge26dftEbEeHPhKStTrpCw3-Kn0wvnlukXMcB654xc1W-NKUZsmgk=s220",
         "view": "https://drive.google.com/file/d/1XJhBWHewA2ugPwUrSA38GBUFE4AHPkpL/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgvrYifIRGHZSA1pdi0Y7XR8vJZXwrRH9JByZJpGx0w-m4Khku_MJ4dgZ_C8SwySqfqWO7OPoXUrSk99nHQucVXPOPETeAwmAwByX7A3oIFCx5pes=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONcNZ5VwvMkZItyNI8SoyGezLy_ys2eirAOkH8Imzq-OgFbqHRKdOPqU5lZuzqe-31pjQkRsThZ1NaV98TY66m8BzMMhxrQTdbM4wI-qVJZiaqeUo=s220",
         "view": "https://drive.google.com/file/d/1AnTnjDIIgZm69CwRlcXvXeZBc-qvntN9/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -2951,7 +3568,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380049",
+    "FOLIO": "380039",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -2959,34 +3576,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1xbhK8UHoqysx5sR-PrWO9M_my52QZlqX",
+    "_folderId": "1fQVgweYVO823ObrnuQJ47ZgBt1C9rLRX",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSqFCNl1Y99ZjopxENxsusNs54VPIygbSBCi5wkMA13bbBkNWL7XqV9jEcg5B_bfhPeG0nSqdmQ8_jCW5UiX8_brfe1vsngbvuUpLZmdwMkIO_l-U=s220",
-        "view": "https://drive.google.com/file/d/1Hft2Ke1zkrKhu6igiXkiorsdXNBh-3A-/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEzHsVNlq__yDb91zWMAFluXK1sZsIR_13sYiqv6NzzPl37IxigW80u23nU6eGKX-eDMAkDV2kj89erPZhGn_qESFEI5sdT0BDOZuA73wTFyB_h5Y=s220",
+        "view": "https://drive.google.com/file/d/1Zh1LeXY40DkcIQs0zimnQNjEG3tM-0fk/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP26knDd4LSVbsLIPdFG0Hmlx9p4__H38EhVmFt563Bawp0isskhKzlnRTR69sSc_BxzGPRNNZkbvSuzdPn7KoXLN2ZgisHB9-8iN42nGwFpR7uw2M=s220",
-        "view": "https://drive.google.com/file/d/15pxXahJ_4fCsLPaDxDY2Ctv32ylYh3em/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMI9_W-hPwRgZ3dK_vMsQPX-DWI5-fPGagoni-QfXlb9u1NXQ9yXbwsO16MAxyziJULKm_EMu_1yr8QecVlvv9gRLFvIeJ8CGZSzFyeMzk5BAPH5_4=s220",
+        "view": "https://drive.google.com/file/d/1RaPhTl0DOvqUfx4MQcYwSJGfKuna2Hus/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPY1FuVvOQB5-m5hz8baEW6Xb1XSXma427ffgsiPbpRkebOCrIKHSjNP56XRTZkguVJzcKe1VZE0Ja09NCG9k-g8rGzrEyUyrVSxUbWYuuKJpcRY7Q=s220",
-        "view": "https://drive.google.com/file/d/1kvEBoLEUlUirinrGgGoMDQfBWd6KSv1j/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsu79KGbgALtD_qFamlT0DUzqSPUoCYWoaE_Yy34LnogF_jufwqR4ITb6Zn-PNza7UHV6bupHDMzsNzOxg5W-q_t3UGKAj9icFiwxzmn2OcqUzXvU=s220",
+        "view": "https://drive.google.com/file/d/1C2MhhBzCx0VJcKTBbfF30_c-AluLxNby/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380049 - 27/3/26 (9 FOTOS)\n  → 380049_inicial ✅\n  → 380049_folio ❌\n  → 380049_corte ❌\n  → 380049_demolicion ❌\n  → 380049_caja ✅\n  → 380049_liga ❌\n  → 380049_mezcla ❌\n  → 380049_terminado ✅\n  → 380049_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380049 - 27/3/26 (9 FOTOS)\n  → 380049_inicial ✅\n  → 380049_folio ❌\n  → 380049_corte ❌\n  → 380049_demolicion ❌\n  → 380049_caja ✅\n  → 380049_liga ❌\n  → 380049_mezcla ❌\n  → 380049_terminado ✅\n  → 380049_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380039 - 27/3/26 (9 FOTOS)\n  → 380039_inicial ✅\n  → 380039_folio ❌\n  → 380039_corte ❌\n  → 380039_demolicion ❌\n  → 380039_caja ✅\n  → 380039_liga ❌\n  → 380039_mezcla ❌\n  → 380039_terminado ✅\n  → 380039_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3003,7 +3624,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380050",
+    "FOLIO": "380041",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -3011,34 +3632,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1BJ_lrAlJ0hacl3gLYAfWHoh6INLlt_g6",
+    "_folderId": "1H7QycvNCC6jLkpjYR7_8ttiRpBbjeNU0",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvl_m37GGedpge5mpysRG8gVBb-kMojwJ_CWIhyTlcuO5MoQYH1A37FzZpVKqeRzYdbW4FBB39HsD8iWbAlRxJAe_17GQU4yqiEpWnwC9lVMyZxJ8=s220",
-        "view": "https://drive.google.com/file/d/1VfG_AnLctQoGKUWKBO5uQWx1XHCay3k-/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuSOCbkGmH96klriHCHgqfqn8n6m5nkt1n-E0X5Xq3Xmbug9rZv3q-1syk0LEHr8HYmDhQKmUQGvQBJqaL0Z4M5g8_gojlDY6bEUHvOyuexLJhbdo=s220",
+        "view": "https://drive.google.com/file/d/1Ue9jjUPSrOxCAFkcPyrY75yalsvZo2Un/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVbxdDIkP8vaf4oS7esZZ-QjyxdKXIQBSAO8kKdLOpJBv4GaWMF-ePj2nEFFNT4AbuF5G2idGiNZEnUUUBMG8raaxA91U8BJ86Y9aBED4q-zveVL4=s220",
-        "view": "https://drive.google.com/file/d/1mf8tb1JzLtakqiWRWBUBOEs7Bik6VvUF/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnjCSGPB7oFhtoWC0Yr_q17nyk0TxT4_TZkEH3iqZDQTfDpbqosgWpOAA_dF8E_Jl_XmA7j6aK4s3_gcIdvMpmpEc8qvSFjWOgw7J6D2rnptPI_SA=s220",
+        "view": "https://drive.google.com/file/d/1eZWXodkm2mKcEvUgr7GDVnjZW_DBaDGZ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuZA4cVef-NfDJ3ye5u9IJLTI_EPYpe_h2lPdR3VBGRlaj71sRawKrkNEP3p_qJSQJGDSXymIyyvx8avXZqw9dMaUELbqny_YI5kRTgN1LMKGeaX8=s220",
-        "view": "https://drive.google.com/file/d/1h5YeWH5CVKN0wlQ4uw90AqW5p8YfRgCk/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMn-UJKZc4Eq8oPKVdlgRFmD2Gp8KgDfFU4xHP8Ww2H2PzEEYpPuHT-Myb_6T94X1MO07vOj9Gw6kgv-3WrpZXGnx-NvXlw9MqMKpdtWCalDppc6U=s220",
+        "view": "https://drive.google.com/file/d/1XYyUBulDZ0zF9FIkIEcULhQz7sEfsNd2/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380050 - 27/3/26 (9 FOTOS)\n  → 380050_inicial ✅\n  → 380050_folio ❌\n  → 380050_corte ❌\n  → 380050_demolicion ❌\n  → 380050_caja ✅\n  → 380050_liga ❌\n  → 380050_mezcla ❌\n  → 380050_terminado ✅\n  → 380050_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380050 - 27/3/26 (9 FOTOS)\n  → 380050_inicial ✅\n  → 380050_folio ❌\n  → 380050_corte ❌\n  → 380050_demolicion ❌\n  → 380050_caja ✅\n  → 380050_liga ❌\n  → 380050_mezcla ❌\n  → 380050_terminado ✅\n  → 380050_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380041 - 27/3/26 (9 FOTOS)\n  → 380041_inicial ✅\n  → 380041_folio ❌\n  → 380041_corte ❌\n  → 380041_demolicion ❌\n  → 380041_caja ✅\n  → 380041_liga ❌\n  → 380041_mezcla ❌\n  → 380041_terminado ✅\n  → 380041_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3184,7 +3809,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380054",
+    "FOLIO": "380047",
     "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -3192,34 +3817,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1KLPRv-Zn-bW8l2Oy3L4hUcVfItTUAX2w",
+    "_folderId": "1PTCR8-IGZlQBcA75C5Xem-0GoZv6po_i",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMl_2dS1e2pwr3FRkIDB1fVLezakRffoDDQ3Puk3wbhIZ0uh8CwirvgDiVJ2BwE6rOm53y4jO-dKQJ_T6MU1O63YSx7pWva3IdLx-Z-8ZVdHZV3dOM=s220",
-        "view": "https://drive.google.com/file/d/1vJ_ruTrLJoPUMDU6aeMpC5fehNZL0S6Q/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYdFCr2kmik2Hc8C9sSA4GVb2zLNgdUhyosHLS32cHk26PIxwoI_UD_M6RZGoo3MBvgTPCO-9_cS3JTxbGMx-3KZYArwnizz6AP5xbv0ba6OLhrhk=s220",
+        "view": "https://drive.google.com/file/d/1-xkccnCW1YPla8FXcyoLe9kqWHefXWak/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuk1Y945DLvwAE2B-pab83ZS472PxtdeMl1iwMr1vx-VmKvjdjgPLaZvxt7OjvZcv0BKZmFDqoIsfPZGfJWv1eaKxJaEc3AGVsOQlbuAHDliifI6o=s220",
-        "view": "https://drive.google.com/file/d/1_kAyiYeYOlXbHsx-ChpCwWheq0IXXAP4/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_N9_YV58nB_oYv2ZjdjGCtZt4ANjIvZxrCBVuYJ1Poqp5avS9AlaHzWZiBSsOcUVvvjciGtHT04pn0j3TyBSmMHo_ViAzzZq-bUfGob9D8kcCudI=s220",
+        "view": "https://drive.google.com/file/d/1iKtfKE8FNOwf48iCA1HnXGrNk45kBAyx/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyy9HHAvWa2mQxG4rKXWz_0ICBZk2bq3_cv4-VMXyaYQMLqRkQq5ABvaEMfyktJq9xf38UTQ0zIQl0ZlttVRZ5xB-SFUL8iMzl8aq21vfqM7OklBQ=s220",
-        "view": "https://drive.google.com/file/d/15NETeZHRPL1IbLgCkz6Gz4ubeJqmCMrQ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPvk2Y13C2KQ8I2xnCTt_RZfI5QrYtGRWzy6gsfrLFJMqq1WyQ5CFJ3MZItY7ROX_8aFlAe_8sXKAlWGbrF-NuoF_il1f0wYmFVqycBFhBhruMGqE=s220",
+        "view": "https://drive.google.com/file/d/1BZTX9POs6ZE3qL5Xil-_W1-gaQtH_Ght/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380054 - 27/3/26 (9 FOTOS)\n  → 380054_inicial ✅\n  → 380054_folio ❌\n  → 380054_corte ❌\n  → 380054_demolicion ❌\n  → 380054_caja ✅\n  → 380054_liga ❌\n  → 380054_mezcla ❌\n  → 380054_terminado ✅\n  → 380054_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380054 - 27/3/26 (9 FOTOS)\n  → 380054_inicial ✅\n  → 380054_folio ❌\n  → 380054_corte ❌\n  → 380054_demolicion ❌\n  → 380054_caja ✅\n  → 380054_liga ❌\n  → 380054_mezcla ❌\n  → 380054_terminado ✅\n  → 380054_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380047 - 27/3/26 (9 FOTOS)\n  → 380047_inicial ✅\n  → 380047_folio ❌\n  → 380047_corte ❌\n  → 380047_demolicion ❌\n  → 380047_caja ✅\n  → 380047_liga ❌\n  → 380047_mezcla ❌\n  → 380047_terminado ✅\n  → 380047_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3279,42 +3908,90 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380057",
-    "FECHA": "9/4/26",
+    "FOLIO": "380046",
+    "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1Y5VjR5PPaGsPktAyuLTRa7JLRvyC317U",
+    "_folderId": "1qNIDyG7AAQ-3Fsa_8Jt1AdqKC_zRLxSO",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtuSLE6-50WgtnbQzVPm3yjgNcqGVWKNYu4RIHXzwEghx93lHo87wxQfaWDAhO8Jfi2y3FhbALK8f9kOpUlqB4YV2Kvy51ezxglR4VbkPaBADcsq4=s220",
-        "view": "https://drive.google.com/file/d/1gYXfeyE3FKoq4ivXKSkTfigPpExU3QPl/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMthqXi63vibUX0y-4CO2B4l_M7OVqYwbj-Orqqwj-L3zZnmKwuwevi1ZzLEGp1DxDnxiyduNXon7x3ZQdEC8oBrKIn698UGO7Ocyc6Hmojb36X7K0=s220",
+        "view": "https://drive.google.com/file/d/1poizSnVDjBxCNPV_69PPbeLaUKAlLnGT/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzOzP7cnl3n6X_7cRPlIrbLB6Iw9i_R1HiOaE5rZgxp3JNhdAUq_Xaca07M-xuTDikbzFJLXzgH0eiE9IOJXY9brpKNdrGTeqVrLBt5R1JHnZUc20=s220",
-        "view": "https://drive.google.com/file/d/1PNWevnzCsIUIqz_WtjchEaB6URz12OLs/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLP9aWScAgZZkps5mxTTlAFvXiyBWtVNIYsRVAH6ElFTef1OPm6idZZ2BLiBIHh_nbl1M1d-Yq9hKtT_hI3Tx0J--K85CQWXvh4EcbWWUMUM6LMYQ=s220",
+        "view": "https://drive.google.com/file/d/1Ukhv4XEFFHlZkrUEqzjDT3d0sipK3Usb/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOd7wh3n6fvlsZxc1AkpSR15JB82smLDkVuI1PjPFaJShIRSmN2tFT5Ine2WfB29dOUiqDJGIsEFpUsiyjDgqt8kKQ2LCY94k8BOsAnaY9pQV9GFZU=s220",
-        "view": "https://drive.google.com/file/d/17Kh_gd_8cd_nAPWiLcqlCAx3q5tyE6R3/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDd6itJfwgr8azgavDm_IT9_zQ1YJiFwalMyDijQr7xP3tNNHLHxM17M1ytpYYUpjb9eU-64FRbWBPYAw6aWFKrYC7MIwWZQwRSHFIInIp_fn9i14=s220",
+        "view": "https://drive.google.com/file/d/1cOa1T15nnyutCY3uMIkfbOiZCcNzW0mt/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380057 - 9/4/26 (9 FOTOS)\n  → 380057_inicial ✅\n  → 380057_folio ❌\n  → 380057_corte ❌\n  → 380057_demolicion ❌\n  → 380057_caja ✅\n  → 380057_liga ❌\n  → 380057_mezcla ❌\n  → 380057_terminado ✅\n  → 380057_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380057 - 9/4/26 (9 FOTOS)\n  → 380057_inicial ✅\n  → 380057_folio ❌\n  → 380057_corte ❌\n  → 380057_demolicion ❌\n  → 380057_caja ✅\n  → 380057_liga ❌\n  → 380057_mezcla ❌\n  → 380057_terminado ✅\n  → 380057_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380046 - 27/3/26 (9 FOTOS)\n  → 380046_inicial ✅\n  → 380046_folio ❌\n  → 380046_corte ❌\n  → 380046_demolicion ❌\n  → 380046_caja ✅\n  → 380046_liga ❌\n  → 380046_mezcla ❌\n  → 380046_terminado ✅\n  → 380046_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380048",
+    "FECHA": "27/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1I2FOMN5llff7oSwk6opXb9AXuOLGX2Yi",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7j_lljZxMjIhj5mTw7Eho_l2xK4ZOMqImvUQw95Eu1bj2-Y5nporM99m_JS6K6xlHImQVZ3grIW0J6xIi-7s_mIU4cQt7ynmY-2fP7oH4Z8CICrc=s220",
+        "view": "https://drive.google.com/file/d/16OZaoO8N61UnQc1YSOu0AhXaDtxJWv9Z/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_v8-lpLejgk7TYzkRNp0xrGKSLidKza-XMTkZQoI6NwrYmHKDL-DIMhIyxysIyp8CsF7iFovw-mUXMx8SyIXBL2trf5fjS7-77kYJz3tQ0M34tEY=s220",
+        "view": "https://drive.google.com/file/d/1kxw768dW8v08q2tq6oxX0hLpp-SKEzsy/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNG2FpyAnHPZMBVLPClnrdmFfE-tUtDwV8wG3y7jQN-f0qOHYp6g-VMoGcAlaQUHsQKP3K-LlVX9KHZ8PpPMtLsIVM20X8aVjzpqzMf0dsY7e3zicI=s220",
+        "view": "https://drive.google.com/file/d/1zlVnt7oqDXXzQYQ9xGh-YSzJZdELympi/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380048 - 27/3/26 (9 FOTOS)\n  → 380048_inicial ✅\n  → 380048_folio ❌\n  → 380048_corte ❌\n  → 380048_demolicion ❌\n  → 380048_caja ✅\n  → 380048_liga ❌\n  → 380048_mezcla ❌\n  → 380048_terminado ✅\n  → 380048_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3341,20 +4018,20 @@
     "_folderId": "1boZZRQ8AHcj_t9Fo_FCkiY-QKGckG4nD",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNsVl_gvkTYULh_tFUWfCSCTYLh6kD_timPQfpTfMLUL95mPQppc1C5umzGNhL8EZ_FsSJHNlHyBFO6rIJcPubkHhOfJlEctFA7kWWfnaNqwe3D11A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWHi6NiXaQXIVxtyTsPU3QqKIXOLpHDCmktfP9ZinjVh_o9mcEI6cb3x3gGPTc8QHNMp4raGBmwo_5h7hqgoFMGZlezeKhb6GZex9yhbkOqaf7CMk=s220",
         "view": "https://drive.google.com/file/d/1aAOsDeYkm0aESYEEJEvutg935YFzPw5G/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMThSbmwqy2DBcYjeIdDn1L7wefsz12dVfc07opIzcSQ0FOSUlmizGbLkqLT3fAZMij3OXi6aVSLqh3RSs4rkkism5TWQlMShh0XPZy5HeSx9mZNw0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbR_9Px3A9ogVsIFXD-nUyE0bCMUPdLhG3YmeErkEqL3G9NiyBn-puW0xqXFNlWENXgPUhsfbBi1FTqIbEE5KZughqh_35XU1RuqUlt_DQBx7BlkU=s220",
         "view": "https://drive.google.com/file/d/1TnWRl_kzo9vON0Bi9UdGEYWY4bPBd0Ar/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvZsNvcKnoM-HZ3iJ0vL_nT2J4yFDRMhN7Wru0vjEhY7JesHOvjSJCNO_ApQrJlKkV7hdM3on1RJPhXSeq5zAE0yW-7S4m9-GjkJ3T3f6Ex0r97DM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrfiePTm_jd20x-Zd-avF0HcWRPAr4OcAanJyWMv7GbCng7502-yVbcdG2tiec8OObmilfBnVuMe2e7QeXTKaNj3IxE7POeKhOUU7FAE4kfflx90U=s220",
         "view": "https://drive.google.com/file/d/1OvuKHwxdIqF-yrspACnzAgDWfW0A7Tjv/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3375,42 +4052,46 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380058",
-    "FECHA": "9/4/26",
+    "FOLIO": "380050",
+    "FECHA": "27/3/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1y92B4ayvN3zmNUzwhom5lfkZx2y21pgu",
+    "_folderId": "1BJ_lrAlJ0hacl3gLYAfWHoh6INLlt_g6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeAqD0O01iRvuZt8Z5d-5v3eE_dWF6-swOI1dbaSNLo3j1FiHqa40yPnnkOBAj0SAKCHPLfwnHyw3iho5cJZsjBTvKgOW657G3uYzEiBr_Fkld1H4=s220",
-        "view": "https://drive.google.com/file/d/10v-tI1go2SvUONayRzDmQDQAYFWZH7LM/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcMzWTbAPyc3SMLUY771X9MMZgdAafmYPVcggrFTux2KlF38UB9roYBZUgtzkqMeG60vIqpkdbRdGNjeUMNp6EWmuzkb-4CtL_QrYwbzYTr5Sq7hE=s220",
+        "view": "https://drive.google.com/file/d/1VfG_AnLctQoGKUWKBO5uQWx1XHCay3k-/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoxEh2dRkpkNNzgPQhqgGWPLnNJC0VqeIMLD1Mtx9Kf9xItq1UQt9wtt9-9x9_ZofRm2MMYHkQTOB045Z6bieispWOkpva_hjlMzvi2bO9a9Ie-R8=s220",
-        "view": "https://drive.google.com/file/d/1jmOblf7AcU3PJ-x_cLxDEBb4GkMIW5TD/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNemRW62gxWokNxrgimktRyXd6aX9jdV_3EwFBeMrPrcojrq4F3sQxJSPlFnhF-5kh_Ln4j7Y05NsrNlcAQlDJMjXKZAFyUJo7AlIa6HmVNOEKRoM8=s220",
+        "view": "https://drive.google.com/file/d/1mf8tb1JzLtakqiWRWBUBOEs7Bik6VvUF/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPo7Ia1ai_z9Q_HQAme4VI1BKg3ZWh6gP7wzxd6SBfu8Ossd-wzUytG0CtQ4XN4dNpdMYYqB8Uj0oGmlNz-CGTyRqTbp8AFjWstyaEc9rTnHLfDDhc=s220",
-        "view": "https://drive.google.com/file/d/1LbKEvuJAV6U2AT7EmomLKf_uUTRT3Wyt/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMmp3Yw9nYPfVS3ZXd9Ra8DGmkoZfh1taIMxJVZWQqeyp0zV3ZJHKqweFFMaOJSkVFCnxw3W8hMp_Sal0xmEvhKEVDTe2opQShTS9_V3vGgRLKtlHo=s220",
+        "view": "https://drive.google.com/file/d/1h5YeWH5CVKN0wlQ4uw90AqW5p8YfRgCk/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380058 - 9/4/26 (9 FOTOS)\n  → 380058_inicial ✅\n  → 380058_folio ❌\n  → 380058_corte ❌\n  → 380058_demolicion ❌\n  → 380058_caja ✅\n  → 380058_liga ❌\n  → 380058_mezcla ❌\n  → 380058_terminado ✅\n  → 380058_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380058 - 9/4/26 (9 FOTOS)\n  → 380058_inicial ✅\n  → 380058_folio ❌\n  → 380058_corte ❌\n  → 380058_demolicion ❌\n  → 380058_caja ✅\n  → 380058_liga ❌\n  → 380058_mezcla ❌\n  → 380058_terminado ✅\n  → 380058_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380050 - 27/3/26 (9 FOTOS)\n  → 380050_inicial ✅\n  → 380050_folio ❌\n  → 380050_corte ❌\n  → 380050_demolicion ❌\n  → 380050_caja ✅\n  → 380050_liga ❌\n  → 380050_mezcla ❌\n  → 380050_terminado ✅\n  → 380050_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3442,20 +4123,20 @@
     "_folderId": "191SvA8AwdzlwMfpiAw5y_3UghsXR75VH",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPacNNgh71ik0XfMAb32C7mQMeN_Bk0hhMe1PM6rs5MYUj8QNGCgp4khPH1YDdpTobUfml8t3ubk9E-vxWXyO993uk04IEyKS1iOf6zxPjLah1CA7U=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwYVabN3tdMfwdtH4isxMSXakURjU1yytqeZ0rFVfD1JNO76wAnz0tTGj4QcL10VHu2HLKiVJTwp6vcU0Z6nKi5jLU6MLbcw667RFA9GsrXM7ePSg=s220",
         "view": "https://drive.google.com/file/d/1oN7GgJnmvzVsEa5OGtD3I1-d6m-Loz87/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJHvpn1-QkW1dADyxz4Zf-lS2HY2RDKb293z6PIi0WQatn2rgYZKPew6OJi2EOdpUXn6alFi4DJnbQ6RRvo-wdNe54rOMy9Dj-kNpAVg_ljfYENjI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_OBCoUOcimjLJesnn_rPTBicUhiMvIG_8IO8vN9GIpbPTyJJZMqvcoZxVO-Yao4FHJDWFAFhNUYm2wbcf5d9vIxvP18wHfKCrS1UC6k9geLS5yAQ=s220",
         "view": "https://drive.google.com/file/d/1oUaOPmKq-KjmeHglJUQ3HNkCPtgoUFLw/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnOIdDEU_5HYMGpKzO14vZD78FUwsTbopdAxroMr11paW_N6yfzXJSQw4a82PuRKTLKUS3VMzu1QurWs5RyCF_jVYR5tIhXWEexwEf2rGACOKU-xI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmCdLfgGyribD0cWpT6adCo-vsTuCkEgOdL5nMWbodoO5Jl6a6rpw4AgMxvt_a9pr9yfZ6dcilbRTXsTvrVzyZ-vmGimWrNjR7lHkf4auN-dy3kuY=s220",
         "view": "https://drive.google.com/file/d/1dUK24tT7xUTAcL1lyQDJJoek5EKjl-WL/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3498,20 +4179,20 @@
     "_folderId": "1Uor9uyb_UCIxmzj6ST-43BBU6cD2vz6u",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZNFAzWJQleE2lmOIkmQ4ScVs8jAyOkQe_GjzeTmgPHNQf_3sHgu6metr7RiMsWTyC0zcvUjNAfF4V06j8F4zOiSIk5WppQN7kKAp_gTIt_-B0vgw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX-IFZOMC8yu2LenIwOrYtAcTjI4h0MurJJ_iehg2ZxRl2--U38GPIVUtpkoIA6yJcv7yt8cSbBeeBYxXZyQtKVnXAEfJ7EsqMSzGtAWMRogQVzZw=s220",
         "view": "https://drive.google.com/file/d/1jpYYaoqmbihiU9opCwwq9vcS_Kffqcdr/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMslcre1nB14dJ1PItWZ0idkUV6n_oFUn5Tp6TLtAXgYutaCg8XO5kWsjEFEDCzQTdtTsArWVgLdOm8Af2VuFnwMvZeJKABkFPNNEgHYOFi3uqzOYU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3HSTC2m0UUe0Mya1FhfoS8L_XnyL00lFzvbUL4jtlha7be9t9sLHCr4xx1aZMTVVxtVZQp65XnCr1TGV9t1mZQGQw81nMGRC0ducepiQ7oBLXdis=s220",
         "view": "https://drive.google.com/file/d/1CDoq6uJUkOS0ukvNimwA3YXGUf4MuS8Y/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2kEVVnBMgIVPORs2k0cW-SyXiLZcTMnfgC6a0DfSXy0JcTgDPFZznI7dhH1rhqYpb3rTNiqTAcYa3P2gw-CjUbFhkRXJqnbu7ZIPD2C42lP-47LQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPid3VoDTj_AfGDdWzxKBsxwy0y3ZWQyY8D_yzD3L6LMdDT-auJGGdjHC-Glwwmz8PGaxWSNX6dn03b1lrC59-VhfWUXXLzLPNqQhowL5OM_iD5d4Y=s220",
         "view": "https://drive.google.com/file/d/1bAYIV1oKGHVM0S30rJJwOnM-8O1YwMJ6/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3539,7 +4220,51 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380061",
+    "FOLIO": "380054",
+    "FECHA": "27/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1KLPRv-Zn-bW8l2Oy3L4hUcVfItTUAX2w",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAag-eA_dUI2ipfK7Jhn4MepGCp-YUZq2cfs9881gFiBTGA3kFPnS3VJpxqx-qkiHuw7jA4syd_kCP_MiPdNZTXzz05ck9xUUrtRCmv8XLaRJIQS0=s220",
+        "view": "https://drive.google.com/file/d/1vJ_ruTrLJoPUMDU6aeMpC5fehNZL0S6Q/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCEO7ZueeXMtpVnBlCaYAO4TB6yv6g9rO4GQYI1skkP-HU-NGUAXCFjBRE8a-vajjaF8AtXQvxIgsYCHLYCf9xyOamQQHvokuxw75YYO27hIQJ8JI=s220",
+        "view": "https://drive.google.com/file/d/1_kAyiYeYOlXbHsx-ChpCwWheq0IXXAP4/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzs_IWQ8gzKyVYKPhwqDXYth1_aXaZZMFAq90_8GDPgSA37WHWdxBr-wV-8N2BLu5682FUUArp6aLotwcrSphcf6dLHZ-imAQRj8YiJao-oUVV_P4=s220",
+        "view": "https://drive.google.com/file/d/15NETeZHRPL1IbLgCkz6Gz4ubeJqmCMrQ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380054 - 27/3/26 (9 FOTOS)\n  → 380054_inicial ✅\n  → 380054_folio ❌\n  → 380054_corte ❌\n  → 380054_demolicion ❌\n  → 380054_caja ✅\n  → 380054_liga ❌\n  → 380054_mezcla ❌\n  → 380054_terminado ✅\n  → 380054_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380058",
     "FECHA": "9/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -3547,34 +4272,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1wsppbh4hjaDSxdUhW3cqCFCDuhusTxCq",
+    "_folderId": "1y92B4ayvN3zmNUzwhom5lfkZx2y21pgu",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyhjG24AMBHd1zffeufWbt4IMwycfxfUBrKS_v7wl5hWnw7GMfL7Letm9TsGoUt1-nYtrm5zBtqYV97Ui31awMzy_1OK5fmKGFBFFpxB3JyM9BsnI=s220",
-        "view": "https://drive.google.com/file/d/1AdZm4ISJwzVdXo_uLnDmHhlYJsCxtlya/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMe85l72lhRwFL1kmx71BMcmfS-a371Yd0smTAhV5oKsqy2xaNHuYChxcqgrjnvQjiTYngvrSC8TuSeeAfVwP-w8_-9ENb09BAGG5JFKsMiVfExIUw=s220",
+        "view": "https://drive.google.com/file/d/10v-tI1go2SvUONayRzDmQDQAYFWZH7LM/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMwc3Qybf_xN53BfVncv5IJmA6G4EJYU0Fa3BV6yEwtgl3ItVJx4ZjrddKVxgHdtEZ1GtYMA3uXZ_IZdQGgEqdkcJRrhfiyapU6WBMV412AUWOda4M=s220",
-        "view": "https://drive.google.com/file/d/13F__DGygDduWrJP9JwrRS8Wu6oh9Y3qZ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmVBL2n4g443gQT3KheTFfg7oe27f3fVME_uiWWauKzXVviGjxumdfk2twooRQmhrrrHvsynOmkVzmWs0IQYj8rGAILKnR-9lAsN0Pv8-gDAJNKXU=s220",
+        "view": "https://drive.google.com/file/d/1jmOblf7AcU3PJ-x_cLxDEBb4GkMIW5TD/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgOu4WEEqhNsA03Rlo3xf3B4U3UTZC-NgIQHF-0Je4fdyaCsOj5lrYCUpgMv2DxOKBpq7IFnNkRrD_x2CORRpgM8wp5pS_oXHFlHI7fwpx4gC7qbE=s220",
-        "view": "https://drive.google.com/file/d/1Qi25HV2jbRiiiCm72K-2zmIbpu1Pq_j7/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkcJfEhATY5hZ8LLCW4DwBu2G65APGmkmC1_RUPMQbY5HBio8LEir6bsWstQPywLyKwFY-EeYOxOyqrYUPat80ASIJP84yVGydxiiEUMvWZopgVRQ=s220",
+        "view": "https://drive.google.com/file/d/1LbKEvuJAV6U2AT7EmomLKf_uUTRT3Wyt/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380061 - 9/4/26 (9 FOTOS)\n  → 380061_inicial ✅\n  → 380061_folio ❌\n  → 380061_corte ❌\n  → 380061_demolicion ❌\n  → 380061_caja ✅\n  → 380061_liga ❌\n  → 380061_mezcla ❌\n  → 380061_terminado ✅\n  → 380061_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380061 - 9/4/26 (9 FOTOS)\n  → 380061_inicial ✅\n  → 380061_folio ❌\n  → 380061_corte ❌\n  → 380061_demolicion ❌\n  → 380061_caja ✅\n  → 380061_liga ❌\n  → 380061_mezcla ❌\n  → 380061_terminado ✅\n  → 380061_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380058 - 9/4/26 (9 FOTOS)\n  → 380058_inicial ✅\n  → 380058_folio ❌\n  → 380058_corte ❌\n  → 380058_demolicion ❌\n  → 380058_caja ✅\n  → 380058_liga ❌\n  → 380058_mezcla ❌\n  → 380058_terminado ✅\n  → 380058_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -3601,20 +4330,20 @@
     "_folderId": "1FHY2QbZI9DUPhf70daaydekziD5Mh8JM",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQwIF6POrOAKLVinDYljTH4WD4yuvCI9MKpVkzvtPA_yHzOPaeyfZKbmyBTqbSTxwNtA2i1IJAwogMokBX-X_YRjtdShiyFbLlc86uhiolpiXU52o=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5KtoyCT7aeZKUHf1aIuyvPwEDeCFKIY9Zk-ptVZkd3waXQ2gd3u94ORx-oOpFRtTChu7rY7i1a9WzFhDYJTsYkESkrwkfmcJ6fY5o0fWQ6xmmEfQ=s220",
         "view": "https://drive.google.com/file/d/1Yz5Du63XHs8glmnFIzYX_K9WBbQESvOm/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbEvxjpaCpMfuEDsowZXX8IjM6rbNnVKHV8bLFT-rN4TThmkCCjl8q8G7vduqx3m8L9z6yXnyz7bHgN9MDNSoBEB1rrwmMOXH9Ta05UQLDsI-L1PI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnx-0EeWFImUskOgMtNQ2bapNy9TaVPXldy06zKB-3rAEVm43flJ7esJlYRxHMK92kxeUJ4X_qttJV9lng401dgQmoxvQbxmYWbJoXfWQTKznYCLE=s220",
         "view": "https://drive.google.com/file/d/18lzbK-u6-EjWlPiukYTNItaYGqMWDvD7/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdMM1io8pyfVFtzDbTclrvTkRQ5wh1z0NSrVdawBCmeN8N17TiLyMJES0vrr44Y7sygePSvxdSJLqRPIIrnDf7DoEQKCpRvRE1zH_a2t-O-t11z7M=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnElsi8hFMUw_gttFHZnCtA3ctJ5M4Op-o3WlbDkVkp2oYEhIw9Pu6XGZpIFK7dM7-Xvlep8-i4ZnOXiI28nA4rBNpP2K9PLJi55kEpbvcGnqw0xw=s220",
         "view": "https://drive.google.com/file/d/1lA4o2meJie4D6-PSTZkyDCaB24dW5Iv0/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3635,6 +4364,182 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+    "FOLIO": "380057",
+    "FECHA": "9/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1Y5VjR5PPaGsPktAyuLTRa7JLRvyC317U",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRqojBrXoQedoUFmsPRGy6QCWtr4W7ERaD4XNA_wLUczPJcoaKg52UJjVcate0UVI8HEAFCrqnXJ9GOAD-qKhfPeMJ7Tec1K81tNpgzsd5IOLWmoo=s220",
+        "view": "https://drive.google.com/file/d/1gYXfeyE3FKoq4ivXKSkTfigPpExU3QPl/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLM5-BQNjFp11vFK4I2YjBojJKrpFfIj1_YdxXicY0oco0XpzCKOua_Eo9yTzl9fV63WpGkJNPqs4PH1kjcCgJzerQ6bSjLYEVHr4O-e730gIH9j8=s220",
+        "view": "https://drive.google.com/file/d/1PNWevnzCsIUIqz_WtjchEaB6URz12OLs/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeCiCQdQYLPnRhwat9gFUQJSiq2PqwB5CxyKtsyyYfwbWMUeYKxBQ1Z5zJSRM2xa3Dz1QGFqJxJsm4eY6ZQ4sp3yFE83GGcgkBL_GkmAsL-AlckBs=s220",
+        "view": "https://drive.google.com/file/d/17Kh_gd_8cd_nAPWiLcqlCAx3q5tyE6R3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380057 - 9/4/26 (9 FOTOS)\n  → 380057_inicial ✅\n  → 380057_folio ❌\n  → 380057_corte ❌\n  → 380057_demolicion ❌\n  → 380057_caja ✅\n  → 380057_liga ❌\n  → 380057_mezcla ❌\n  → 380057_terminado ✅\n  → 380057_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380060",
+    "FECHA": "9/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1hpiegbXiRB2BL83D6XAkFxIp0QIzvRu1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeSmQFvl00_8Ewe44wMzqiQIm2FBh5aRdR6XDllQozm4RbT5oOgVmBZ05f3fTlT19phLkOhE6YI7Yx31Dx_54Gbtc9yztte39TrFUuHthhiPzst_k=s220",
+        "view": "https://drive.google.com/file/d/17YlYVU4pS2yc1HNabtpeqj80DKYeXGlt/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiMiYRNPQim1Ku57fdIoVzlvRCCkhqxOnkPpktXmjv0XvqfCP_KAa57aJH9hUMHUF9AM_27c6PELhK-CWZw5pdi6tGTKa8AAcig5ZVZoxqBS3I0bI=s220",
+        "view": "https://drive.google.com/file/d/1ODDV-Yc_KRfH7WHUolRbNsMBOgSvp-Zk/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhFUv66Dt88koP0mRLIdebhlsqdLLD9uOBz-Hu4Tr5lI7Vi6jaLb7Akxzc3DwRKCRiTp2cR_ojRJdMm-njyodrzKCpviUMYdawjP3_5Q-Wna3-E5w=s220",
+        "view": "https://drive.google.com/file/d/1709BtIXIhiKeSZ5dVMPql_zeri9YtdGY/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380060 - 9/4/26 (9 FOTOS)\n  → 380060_inicial ✅\n  → 380060_folio ❌\n  → 380060_corte ❌\n  → 380060_demolicion ❌\n  → 380060_caja ✅\n  → 380060_liga ❌\n  → 380060_mezcla ❌\n  → 380060_terminado ✅\n  → 380060_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380056",
+    "FECHA": "9/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1694S2AqIEVaPUlVkiAnvZF9djJz_DPEc",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFXXSQhe6YOox1OisYUoZKQLqNW9LLl0ZuXcsZpIS_CKQKHsIguw__gd7NHIdFUv0iZ6EBDAJVmJXxLS8jhstkTWEdFohamAKVHyIOOQLOBZ-1qB0=s220",
+        "view": "https://drive.google.com/file/d/1FGHEsfVKuO5dde29GNqvFkUcsq46ovSb/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUhfzSm56litWvUYa-9R23npMiPg_SeCFfnc_lgPD4SVsaxLVfLhRtG1PBgH-KAmXZkEfpWJtzBc4psbeQS7Bk05xql36J4kvkaPwOl6vzlCFu5Ts=s220",
+        "view": "https://drive.google.com/file/d/17978kJc4ArcZjCMoecNryKCzS1Rm1BYZ/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2Py8cNw9lzujXLHNJtwsa0kHcNwZNeyxFeI5TbYYZBQlGW81AxrLBIL-FYhYUtjCbF224X3gzGurC3oX7JFPOH1zgVu62JxIspsixBJtbbUZxYuk=s220",
+        "view": "https://drive.google.com/file/d/1Z7H2JJiEzBv2YEs2a_0uhhS4IrZ2PfQ-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380056 - 9/4/26 (9 FOTOS)\n  → 380056_inicial ✅\n  → 380056_folio ❌\n  → 380056_corte ❌\n  → 380056_demolicion ❌\n  → 380056_caja ✅\n  → 380056_liga ❌\n  → 380056_mezcla ❌\n  → 380056_terminado ✅\n  → 380056_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380061",
+    "FECHA": "9/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1wsppbh4hjaDSxdUhW3cqCFCDuhusTxCq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUGniAfz1YW1kUHqSnbaWyWk4LVRxnyEt2qpy4UzEs5GZT-RghFTTXzxwSCH_8G1YaQo3hEtoUhzLSvlVusbR7l7VJv-lidrNKhoen19gVsDVaLF0=s220",
+        "view": "https://drive.google.com/file/d/1AdZm4ISJwzVdXo_uLnDmHhlYJsCxtlya/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9If3654UX-ZG2r-GkwhB_7X-6YsGcIS5lxhsFMe6BIqeXz53NW-DwmOa70eDaeI8aDpuOLOUh0wd5kIUN_LzJYeRxh6sdKYwpaM3DGUdmO6fLwyI=s220",
+        "view": "https://drive.google.com/file/d/13F__DGygDduWrJP9JwrRS8Wu6oh9Y3qZ/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOD6SSMwuYDxmaNfdgM5RJ-j8QQd2EL0oHa1XfuZPgGci0y47ZFazvnk9k_4UuPgzDuIj5jDoKIYGRPv60tO_O-Q5l1EiTYOMpvKyyca8l7ybXuC6Y=s220",
+        "view": "https://drive.google.com/file/d/1Qi25HV2jbRiiiCm72K-2zmIbpu1Pq_j7/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380061 - 9/4/26 (9 FOTOS)\n  → 380061_inicial ✅\n  → 380061_folio ❌\n  → 380061_corte ❌\n  → 380061_demolicion ❌\n  → 380061_caja ✅\n  → 380061_liga ❌\n  → 380061_mezcla ❌\n  → 380061_terminado ✅\n  → 380061_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
     "FOLIO": "380064",
     "FECHA": "9/4/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -3646,20 +4551,20 @@
     "_folderId": "1WjXHDEL7mGn1NNpmcYiaZLzfegmbjbuv",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_f1z7nxksiaBbNOLtWAm9u5QycQvnHFHSzSWkf0bJ2XDl6aQfFiWl0_foQs9tLkEMiHbc1X6ZUlmUc9-VALhVVg5zJtA7ZctrQNccDwmMKEgewA8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlHwdLHWbcKByBOW7ShChrK7QXlBH7Li98-cxZ87JbnKqDtdqkKTAj3njYfWdv28E1RIQa4eijV0y_HU4eehEd9Xu3wlgGrWAoz7Lwp9NzUDS4RnI=s220",
         "view": "https://drive.google.com/file/d/169eObsGngY1cnI7BXmsqZ9nLq2OJjacB/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFaeR82XbXuu75LD19_tO7MK9Km5Kx5R5uYd_z951Nnm2ft89Q_dVW1tQCpvqQGCVt2k1GltRlEl_z1pSPDX0bFaIamvS6ccKzsNR2zzr_FUx_M_c=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcQCO3gtDymPrbk0ecVgm6BQ3zjFK4hrxtJ6VptEaoD9s-gE4Y1rbpoxa7qhQbihMTk-oZlXlWHJ7QbhY4Bl6yd5u1IyONNvIbswrwWKKwvspId_A=s220",
         "view": "https://drive.google.com/file/d/10LX7LlAzstihY5v29IUPqWje1uOZsmHp/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMVGGB-o9mEjDLrolu2MUe6wdDvuv1QO1qbQx5CFit-t7OCboBZPeZlTQG9DMQEohPNIbCluDUPhCtE0jOTXQ6mNRhVrOh-khkVRv-4dqJp_CKFmE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIh7K5c3f8Y--pq11S0AJ3WTYSijVAFprhh1HCevP8OfSL6lvOvH0JQNWrJrDw-dfubIWnhqgQoeAZYe1fiMdu97LY4KjBEmf5tgJGbfTy22HgmJU=s220",
         "view": "https://drive.google.com/file/d/1fbIAYlnJjGGvkYk4nUumUvbDKeeXVRMI/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3698,20 +4603,20 @@
     "_folderId": "1GzHuAERb5EA6I--qIJCs39gzRPP60j0y",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5O22_EQrxcnMyAIl2UQ3mhLQqorYny9doUqF9TQHJx8_VinQZyq89TCcPzr28jVyiRms7BnCKLhlMEfxrtyv1kap0ahc2dHXzhasueSmo7X2B-zI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT50jzEt1ZigGObX71F7vpiqxKHZRknQuOc8MAT8Y2zUisHOvHs8fT4KdCH5et87E3cyireAs4CLMxIgHAMz8TaJILX-QTsU-dXNVgLnXndM5LDf4=s220",
         "view": "https://drive.google.com/file/d/1d1K7gzHjdBfZPnKDK_zjxKMf0_rGCBRB/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMclDAmjt7XGIjFdWagwLeb1ZvfdLsOLGlYAf7wcEG3ICOC0v5GNUVAfjbqqXMAVe--_0ljbGNQ5ypq7BRVlule4lIdXj9M3MVZWDpT9_uf4eN7yjw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdH8wi2mraSPboJx8EuTe6XscoBAq_ImO7WQ-ZW7VGk3hwFsPvjJS6Up1RinX_z-Ma7xzd465n9Cx4qtQSBQuDSkrmunyyjA0L3lVUJEdLkpAw8Mw=s220",
         "view": "https://drive.google.com/file/d/1T8p7oJ60jkwhOnjsaXm2N4iI2UBncxp3/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjwrbt_vfx1XzQq-cc6PlX1veDVZlqeVFZ-NM9hl6jevJ2YCmuQTQoOD0wBNOBP0daqg8OezNqt8FTCdLMEsER8U0iYzD0TVIUTpP2HJtoGwzzk_U=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOY0Ov4Ll8o1uxnhrdPYVNAjR51KP2fDEh9zZIfOPwUuk45rmVwzH9PBQJ3BsqQ0pWq4fNAMIOFOLyOpvZVOAvOxPTmlklt-jFGJrBgb06TTuUlbA=s220",
         "view": "https://drive.google.com/file/d/1UUd0UNCQhTWz_87mEdJIer8rNW1KCcZD/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3739,6 +4644,50 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+    "FOLIO": "380049",
+    "FECHA": "27/3/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1xbhK8UHoqysx5sR-PrWO9M_my52QZlqX",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMet9m-OXwJM5j0exxWxSscQ69PbDWSHFyvj-3UpF67coVXy3Zbi9aIEetwRqXu9jFT8vQmu93fbO_xbq-ZRdiTJzE6g_SWkaBBwN8WAXoSuTxbY8=s220",
+        "view": "https://drive.google.com/file/d/1Hft2Ke1zkrKhu6igiXkiorsdXNBh-3A-/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZl3B_u-hpetilOgTl7cvsNopJJFXE8Leqr0Gi-cV8DWFmh27Ns1L6ghgLvvLf5e43xTYLXgbVvb_q6Q26Shrv3tfnKZ98rHTUGskXnqCaVwu0lnI=s220",
+        "view": "https://drive.google.com/file/d/15pxXahJ_4fCsLPaDxDY2Ctv32ylYh3em/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1mKdetVZVa3KGmN0Qf19Olwm2wyU1PeutkhK-Rci9f4CJjjOf1Vng3SDI5CfMdOW8i6Qbs7HFwJuDAoakr6yH7PtzjNiFhlPq6HdlFivvAMvO9OM=s220",
+        "view": "https://drive.google.com/file/d/1kvEBoLEUlUirinrGgGoMDQfBWd6KSv1j/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380049 - 27/3/26 (9 FOTOS)\n  → 380049_inicial ✅\n  → 380049_folio ❌\n  → 380049_corte ❌\n  → 380049_demolicion ❌\n  → 380049_caja ✅\n  → 380049_liga ❌\n  → 380049_mezcla ❌\n  → 380049_terminado ✅\n  → 380049_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
     "FOLIO": "380062",
     "FECHA": "14/4/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -3750,20 +4699,20 @@
     "_folderId": "1IK2DSaP80sCqoQKisXSMNO4tcSZDm0ds",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwZTOjk4ziJqIJFpQzgXcrv1aK_rnA7jY34m7v375gAPUuWrQ4sgJzv2XDv0FXs4MP7JXt-3ZgYcFxOCGKacCIw0zmb8u4xfWlv8p0q9A-UD62NNg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfTeeBeuuaRrPbNyPnEECSb7GuCVPwab_TK2mMtwrwEc9Qto_kVlnJqbGFJX5zol1EhQgtR_Mb6XfOnlII99wzgem6Q02ULUtMIVei3U-2ze7OiTQ=s220",
         "view": "https://drive.google.com/file/d/1XS2GdR-e_RS2uBmLi2glZ7ClaZGIuRti/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7EtPyjwuEEeg2CqS3c48Jmwinp31vj-eac6_OinZR8RjzfmIV5OOJbB9xyZab71ZYTAyhlKnO53qAMvO3m6TN7CjgzxpSZjvEYpNHRKeJf8scWvs=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWWtrAKJ0uVmqxrGWY4dAHMKdw0goCRiZLdDANLu5WAJ6yLU4Hg2wRRJzViyqTcFN3gkEX9J6mB_s0CbLz2QxM5Ccmr6_lQexOYoi6vCTTuukzweA=s220",
         "view": "https://drive.google.com/file/d/1bABvrqs7pZNNe3vhIdK6oY-O5F-V_udB/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8rmf3GPTvqcFINkoZsB0uqMvO5dAFAPhlwBg-f4yfBHUlfqnxWR78kjRdZIKkpsSA7P9vq7mF0j5J1JKG1hjDwrWmzTir46CPssfl_cetYASfloo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_c3RYiLuPZKdrW-N0VpgHviwp2JZRILMqnGzypy4MGzOr_Oe5kLfPMtZUWEghDe2PPxOqRnRUDOW7yfQgQWpniPb2J0z3oJSwCGwpWaCGvYxZkOo=s220",
         "view": "https://drive.google.com/file/d/1p6_Z4JwGFCCt2oFFoCnmVxjOCknM92rK/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -3791,6 +4740,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380063",
     "FECHA": "14/4/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -4066,6 +5016,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380066",
     "FECHA": "14/4/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -4077,20 +5029,20 @@
     "_folderId": "18JGuP4VyGhJq2PhdLmd7yOlmuF-CTrSw",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnQCpKDzMkVy4lgkelyGewBSx1EM4x8976IjIffGhTeYWyt209W09IsBaCpcKk1pDhFVUUO7GQW7JsnlWWDfmXOA-mCi-0qiwyuP56u_NMK_ASYgg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-r6JGb4o2dtvBHVTSbVm6wEVwAG47C7KJlkJ5bvJQKUsdWnktBHOXcRDldNCRBvDLx5MvqsREOdP0tkmQTDZrq2r2SuCq9RJ2AexRc7D3DEt28Ys=s220",
         "view": "https://drive.google.com/file/d/1gC9fp6uvqF_QLj6AylTzPDTnODSRqfdO/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOn-chkGag_ckFO8jtHyvAjg5dSu6YzPr1iJ2Ni-4Y30k2Pr8g8MVb3_rUWdDxewO7wSN0CcwwmnCOHk7Lr_9bBrym6vLSs35CilES12KJ5TVThlG8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPxhEdmda1RTeTuZOcYLt_9Qyfj_hKAf5t-FDOlhLzN0oV_9VIM1F78on1cP3FD4H7G1yKe2qE3x3Vl_chC5v8-BS9cJwL53VuKl-IIsaQalz6Yqa8=s220",
         "view": "https://drive.google.com/file/d/1hYeiSNonxS9saHmCsju13sKDcUohpAtZ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPOTcGDXWyHg06f0nPG19hpEwqypSm28rOPMihm2MUL33zlpUUWHrv74yK6xfn-w6dGLnje8ln4UN0K_dUEJ_pcsDDBVUX7BvZSY-w1h8iSnDuY6I=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmJs5qya8W_COkvad2U7JBuq_ud6ZjPo4GO4zfANPm7_YclcH0bWEVARreZPlrdAlTMlwmPb2BTj6r5Y7wt_Ch9WjBYq_vqMlKr0zY4WbvaHcdTfY=s220",
         "view": "https://drive.google.com/file/d/100SMSzR9QE1HITcBGgmfs-MPbzS2np-u/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -4110,7 +5062,7 @@
     "ID": "38"
   },
   {
-    "FOLIO": "380068",
+    "FOLIO": "380063",
     "FECHA": "14/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -4118,30 +5070,30 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "18t-apW8FpDyDpXY8qZy01ECgcURzypux",
+    "_folderId": "1i5aSupn8MUR45GpoZHBhR61miSySdO5S",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGil_nVZn8sY__KQBPCMvgUXndHp5YLZwmuOlCfqh4A-2H_7zyPPvk78wTzaX0lU8-y_VuJ_sNTY4C3gAaf1o-45s2qcctmvMmAmGjzJr0JVDLV0A=s220",
-        "view": "https://drive.google.com/file/d/1sKA8eIbmBio2mh_e67Kc9CZOuhXcvi_i/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8igVIjFH-jbX2AXzMcrbRByzhntFGCCmYTu5JsbEa-CnFYUf1ZA28SqMDJGm9HIq2FJuod7AW8RwrkGNBzYZWnVYsy84ahXOkQgPpaaGXp5kcUYg=s220",
+        "view": "https://drive.google.com/file/d/1Sr7uUml8ab5fFeNniRphi8GqLNlQxxd0/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2NNRM8KvUMdpmePoqbTx9vrs7o_WCVdPbiwxUNiivM1Jiczp9MOMtIR7NwAxZppK5O2i1E4Hm2dQdSbyiQBrk7SxHuHgQ-2-6U5-ncIAnixoacZM=s220",
-        "view": "https://drive.google.com/file/d/182YrVN3CQaln9eJlz7MzWHKTrOLoEzRi/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIWkSJsNNy6BjDbHmoZAZWzFtZrGqv9h9fsBkJ7NROe4uwKB6T3PJViYZ640zmo4FSz9QhO0hN-7IeULGngpV8PTKDi7vEXCfDSlbBG92JO-c1TqA=s220",
+        "view": "https://drive.google.com/file/d/10uXTpvM3A7HRLJJZ1_DU2C6LhgY6O_3p/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGcPoxDZMsjxNYDkaiBm2GLqtX6XGgY3-HyIay4KkAvZzxdOps75uh1AONCsXVrhWv39fx8tBOjTN7jGza6iVS9BTdNl_XXIuWt4N9ufzO_XiJMPQ=s220",
-        "view": "https://drive.google.com/file/d/1p5heLB6s7AxhFLF_Wcadb6ulm4XJ8pno/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9fHOq9KYNS6NITQCj9jpx9wizzl-sKzi6U7k6mcfmdyx9HpGEiJrLj1lE8vhOrwIzRUJAkSNV9ZSQHKcxrkoitLtu2rbEVFqpBS7xDZW7TWOM1IU=s220",
+        "view": "https://drive.google.com/file/d/12HV7qgagFZql0k1cWPdTny_g0shvlrNa/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 380068 - 14/4/26 (9 FOTOS)\n  → 380068_inicial ✅\n  → 380068_folio ❌\n  → 380068_corte ❌\n  → 380068_demolicion ❌\n  → 380068_caja ✅\n  → 380068_liga ❌\n  → 380068_mezcla ❌\n  → 380068_terminado ✅\n  → 380068_limpieza ❌",
+    "_auditDetail": "Folio 380063 - 14/4/26 (9 FOTOS)\n  → 380063_inicial ✅\n  → 380063_folio ❌\n  → 380063_corte ❌\n  → 380063_demolicion ❌\n  → 380063_caja ✅\n  → 380063_liga ❌\n  → 380063_mezcla ❌\n  → 380063_terminado ✅\n  → 380063_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4165,20 +5117,20 @@
     "_folderId": "1we8QPfySsu3pB2CFvqOyiKs7T1m5F_1V",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqRIutDqLUIIdvoROUnaIOODS2fT_mGCX6Z_FrrOYlDnkJHyVI8RTguUfTsidviqKgutDoVXkDvRjNH1BrvJ6s9HeU7SdW9QtXtxlzhkHLuUhLQYY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPth-Q8xO6V5uslHu0zjuNtJcoJlB9rGr4z0Nu_RhvMsspW4IkknMvhAYfdeEmaZrU43x2Ij3_uozuEDcfOnQ-pSjNHhrNsRpHIL9XZVxylxCovPRU=s220",
         "view": "https://drive.google.com/file/d/11yOkKCQzJyGJa9WoDsJF92FI0EDNtfQE/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFL_54o1KN8uu4PFKxlOntLMU-yb5PhDOXD4LHd7I8JkiLi4knh9lUIvccEqFim6ghKFfjI68DVegWIxEIzfTKOeulP1Z4vvATRHYrVA0ZrVupKuM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf-4i4X7PXydoYJcYJhXzFuwXoEehYTJIHXbE1SZesXhaJhHY25g2WYv32PZbVl6U_IXC2vJK7kWWxOEF_4Wwo5A4w4niKwgbIlZKhLC1wQ56bazY=s220",
         "view": "https://drive.google.com/file/d/1G1vddc1u6QInJrCISmHQEkgqtqHjjTYJ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6nOKBmamyJIdPoVzxT9hdmVxqReyly5ud7MxjMjGpm0ZoJiQe7ol6mBIaHBrNEkexN3WanXAD5A9DOdpDGb1pCRJtBgtPjG3y_8BS3qsdy-TahKI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwM8rWINn7DnoAPyBzy1Sfh0uJhT_VLxfX_7-wpJDkl0dyX5FVSJzwbtuvKDLdqgbmRakXA4ifatAobSlmUBzFLaifYfAEbX1STAQHfslzlu6La6o=s220",
         "view": "https://drive.google.com/file/d/1wHrPdHlfTKPEaRrVBL1nCm4hL6y8ujkc/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -4199,6 +5151,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380071",
     "FECHA": "15/4/26",
     "RESULTADO_AUDITORIA": "OK",
@@ -4254,6 +5207,8 @@
     "ID": "38"
   },
   {
+=======
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "380069",
     "FECHA": "14/4/26",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
@@ -4266,20 +5221,20 @@
     "_folderId": "1iZtcdEsCBj-aKfL4wKl_chNABfNxwMFp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZsLgJYw4fAF95ysrJM13IlaB4BQEgURd9dema6EOT7ZIl9d0uVOYAG3WoQL3OG9g6lsk-hBXPufH7XrqwMFzkwn6tri4KgTrAwQPS15J2hTOyHA8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuH_4ttBk8euTEH2V4-NVz0ul2VUNr57xq7Z2KustZB5JYlrOVbB78oABh3TUDNUKuGrlkUbw54d0ufM2HBezFphMpuIM_E6pFY4M4WAJgjRACpj4=s220",
         "view": "https://drive.google.com/file/d/1S0ZeAMPLXR-EKlP-gr4plxDDY7_FatoR/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNh8LMIS00_ok8kE_Jb3e9kusomW7SWQF-jO22fV_p_dPm9AlpQ7E4nJQG9-5XIcEUJbG1V-Sw4uh2tDdM3RARw0gYsS08kzGvfYkz9rHMpXNMz6bc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjx59YMxMoH2E1N3NQdNpPs2eg5jwe6j0gpLnKnXE_b6Nrr308cmaYUo3FR981xK6pikoHCsFdqfdW-1BQiD5LvGDHQ3LOWaFAzXuejmIRLP-Umac=s220",
         "view": "https://drive.google.com/file/d/1OnQe0M7cidHTNAUqJb7hElv8cepin75M/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDKWdIEyUifZ_Tn7bXdKMPjMjQRmSg2n4mkZRB1HemjYoESGMcIrgPboY3mr5tpbxl0_kA5a4sGMQDLUZMLR1er-Ix3bMZjrwESrs0a9LkJoKEJVE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNA25bA7H-zsm4GZjys90-pmEpCwVRSk9ST_P1sHwRMy3bcLHlePTz27TJYi3QFx2oa7hq5IIIw0zNm4tuFuIYFBkYMgFNgzH3pD-19CP3LYXHJTzM=s220",
         "view": "https://drive.google.com/file/d/1i2-r6iiXoScSUIQ5ZRMWoe8IL3LYDjC2/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -4310,43 +5265,52 @@
     "ID": "38"
   },
   {
+<<<<<<< HEAD
     "FOLIO": "380056",
     "FECHA": "9/4/26",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "FOLIO": "380068",
+    "FECHA": "14/4/26",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
-    "COLONIA": "MILTEPEC NORTE",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1694S2AqIEVaPUlVkiAnvZF9djJz_DPEc",
+    "_folderId": "18t-apW8FpDyDpXY8qZy01ECgcURzypux",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLSeU9CEtgkacpjAc2d_KQ-7TF71Zf_03Zz1pBp0POmuU5ZSt5qG5EIZbOKFAG68QLOZLdDnxd10B_yk34pfkeA8qdTNCurdYvzWStFKtzMxdfy5c=s220",
-        "view": "https://drive.google.com/file/d/1FGHEsfVKuO5dde29GNqvFkUcsq46ovSb/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNmn5NFkn-YXG-443gaPZlH6RqqsTdUFoi1MRaA73C9HiAv5yXLyc9uTBivyWaRgmRh5uhiebAjNLgMPUOCak7mesU_c2mUTribZRnjYntliZ288MM=s220",
+        "view": "https://drive.google.com/file/d/1sKA8eIbmBio2mh_e67Kc9CZOuhXcvi_i/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyUMNlwzk8NNGjdrPqlO1MYrRIWFkxlzqXggvlxUEBAYAnooKOAGbC3frQj2nDj94dKJZplh1Bhjvvl1d79f35F1x4D5cjZKRqERkixqoH-rrHQF4=s220",
-        "view": "https://drive.google.com/file/d/17978kJc4ArcZjCMoecNryKCzS1Rm1BYZ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQyqMRqcIKRhC6AWCZqQmwVe23oO8SNcOVVcreIxdmhB4n3VUYAnn7XSBPLmOc7BOMmq2fhs8CoF52eGpkUrxmZqPAokP60UkJVA8K8IH-dYS4KbY=s220",
+        "view": "https://drive.google.com/file/d/182YrVN3CQaln9eJlz7MzWHKTrOLoEzRi/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqJT5YpRg79DUDM6MhP4YS3GKQQP82kFt1IEMJ1bfqxyqHoxB3sj5kdDuPwp7dlF4FijMpp8_HduZETLSA4y47BxaER2MBFQy5vPEiG4iJWcCGfA4=s220",
-        "view": "https://drive.google.com/file/d/1Z7H2JJiEzBv2YEs2a_0uhhS4IrZ2PfQ-/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-MnLHZ8jerPvBqbE3DCDfs_0k8M_xKWOzfKbbD_InYGpQstwcKlTyacnAHF5vsyWRLVaSFBu2c_WuY0A0xe7_IdjndmKl6ikIyA7iVmPoKttsWNA=s220",
+        "view": "https://drive.google.com/file/d/1p5heLB6s7AxhFLF_Wcadb6ulm4XJ8pno/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380073 - 15/4/26 (9 FOTOS)\n  → 380073_inicial ✅\n  → 380073_folio ❌\n  → 380073_corte ❌\n  → 380073_demolicion ❌\n  → 380073_caja ✅\n  → 380073_liga ❌\n  → 380073_mezcla ❌\n  → 380073_terminado ✅\n  → 380073_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380056 - 9/4/26 (9 FOTOS)\n  → 380056_inicial ✅\n  → 380056_folio ❌\n  → 380056_corte ❌\n  → 380056_demolicion ❌\n  → 380056_caja ✅\n  → 380056_liga ❌\n  → 380056_mezcla ❌\n  → 380056_terminado ✅\n  → 380056_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380068 - 14/4/26 (9 FOTOS)\n  → 380068_inicial ✅\n  → 380068_folio ❌\n  → 380068_corte ❌\n  → 380068_demolicion ❌\n  → 380068_caja ✅\n  → 380068_liga ❌\n  → 380068_mezcla ❌\n  → 380068_terminado ✅\n  → 380068_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4406,7 +5370,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380075",
+    "FOLIO": "380071",
     "FECHA": "15/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -4414,34 +5378,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1Z61LGNQ9tSuqd9eOC4DShrJq1HxPqZVq",
+    "_folderId": "12bQrtGkjkNkW7vbFLsdO_3a8MS7jDi-6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3gZJ5zohzMhdk3Dn7cJYG18Tnpm024qH2H6JmnmzRFonCy__mPoZa6_2UfjRO43l4Z2Rsre-eyUVoC6PW2jYIjZNrt26tfZ2lB94mGNGmGvoFl64=s220",
-        "view": "https://drive.google.com/file/d/1KfyCcDCkIIP9BH-Gc3S5qkuwp6U1KUZh/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7TFrotz4PLXtv7P4nk2L7jNE8JboSYF6kitZhyYEQUElkFmBjVcM0q63f5dMFjccOr6BQt6-62X-e2XrhKxabWc1rw6TCwyk2kAWv5xjKwhzvMtg=s220",
+        "view": "https://drive.google.com/file/d/1JohlT6Bj-z4NV0UR6YHyDjxb-9qBqZow/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVLq05xlnTzTD4jRr8SHxw0M4ZwnIXahX_ahCxpGvBLnV_jLavJZxkxdz1HhX0wFx-uJ2lJfwurFQAsiv6LlaXoBahD17RW_7q5AB510PhpdI5ReI=s220",
-        "view": "https://drive.google.com/file/d/1wfQTesXcq3a9mWEdlHzcElCyTAO4ftNQ/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwDKvDJFy1IJcTfxxozKt3u7UYVLte5xwasYXuCaC8aQHdPrNF7vy5y7cSmPf_D3SaW34BGyY4ltUakCd5HqloKbn045by8FsNTpcUN8ZJCOkCsa8=s220",
+        "view": "https://drive.google.com/file/d/11sH8G-tXkqBgJymf5F4gtZs4sGkUTkM3/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgjOK27UgS_0LK6RSNRF2Id0JmppO-pssbt87xOMrTshn4ZdgFOWpnzNKjHK47jJNMleomqpjReu9xLGNSYpTSbWzD2ku1if4V28PvragmOF2df0c=s220",
-        "view": "https://drive.google.com/file/d/1EplO9Pz2zWH0qgSbrXKWZWm6cFNsE72u/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg8PEMeiJqndwd9rrQTLt2rP8oC2oJ-rNsu6lfvlleZZ3iLUIucTg0J_oKulOsOzNqdf0BHqmUxLjQHaaibY3FtYNHyW-Hjuwxf6gH6Je2GSPgKiA=s220",
+        "view": "https://drive.google.com/file/d/1OcsoEWuuSluN0wE6O9BWvopxwzqxXpcf/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380075 - 15/4/26 (9 FOTOS)\n  → 380075_inicial ✅\n  → 380075_folio ❌\n  → 380075_corte ❌\n  → 380075_demolicion ❌\n  → 380075_caja ✅\n  → 380075_liga ❌\n  → 380075_mezcla ❌\n  → 380075_terminado ✅\n  → 380075_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380075 - 15/4/26 (9 FOTOS)\n  → 380075_inicial ✅\n  → 380075_folio ❌\n  → 380075_corte ❌\n  → 380075_demolicion ❌\n  → 380075_caja ✅\n  → 380075_liga ❌\n  → 380075_mezcla ❌\n  → 380075_terminado ✅\n  → 380075_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380071 - 15/4/26 (9 FOTOS)\n  → 380071_inicial ✅\n  → 380071_folio ❌\n  → 380071_corte ❌\n  → 380071_demolicion ❌\n  → 380071_caja ✅\n  → 380071_liga ❌\n  → 380071_mezcla ❌\n  → 380071_terminado ✅\n  → 380071_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4458,37 +5426,38 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380076",
-    "FECHA": "15/4/26",
+    "FOLIO": "380070",
+    "FECHA": "14/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
     "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1N8pD9-LrplqUTgZ-jSzp-YqjxzrmybN3",
+    "_folderId": "1ENozIYzbXtXrhZjdTpI1L3NJqhMdXWnp",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyNhUq_PFUNsm-WdGOk-GKHZXCgOmDhsEXCOK7hNeltb-ibfIpYqLN1R5zv2VQHXHzNpS2I1RI-qdaE1tqiJuYkZSMnl0hLvEjgWEJLeTt0P9u7Bk=s220",
-        "view": "https://drive.google.com/file/d/1hrDv1Z1XXXwtndexCcNo7gFQmkaKSUtN/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtpVMiYc1LBwsinrh7U7Ap_zKqen8w3svyvkqLd23m1VD9lFQAJEjQSwbX1dJKsxzfi9ZRSVTh25pjMDguBPEvh_iYvb8d9Qle--AUDWJMoD7yQkU=s220",
+        "view": "https://drive.google.com/file/d/1iwQU0o1x3Oy5DOVEF0macd4zyB1cvehM/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCjEJaO_PdEk9rvBBrV0aIsPblUfEnDq4M3XMX79ZIAVE3HJ7ef1y1wqZ9eZeL17jWSiPtOVLTso1EnsAs7r6bAY420QlMBapgAh4IR42kqhRxjMU=s220",
-        "view": "https://drive.google.com/file/d/1ULJ63Q7OPc9MbEBukuZ40Mqo7NkhQOOR/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMaSoZyW2eR2JYSz_k8qwAdbtwp1dgwG-auLnMHRfkbP23QOS1e-8BPIK6FPzD2lo2Wm57lqIVv7HiSwutf5PVlMG5D_L5-jV2eU_IgjFZf5_NXoCk=s220",
+        "view": "https://drive.google.com/file/d/1YLn41v2OOU1BTC1UIUdmLvJwLVHy664d/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUYu0BHkfCjIso04ie1-cG8tpXuSQssOJssTSTDre7DjXWresbpd3xIPhqyp3912lflWLhMrvLFgqktvvB7wGLfeLmhN7URPRbSxPHGMyIPPVBpWw=s220",
-        "view": "https://drive.google.com/file/d/18UGPkSMa0Ivgy9B2CmFmuqtZemj2Li3e/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxsMaWC4Xs4QjC_piV0OAY0RFGA05Fnnv4eTkfb2cFcui72yLxZ6E5LfPLM6n4_WQJ7ofLrR6qqZWiDD1Zx41zfbb9Us4KRrQRGzPvTYQHOfvwd40=s220",
+        "view": "https://drive.google.com/file/d/1zxH2Ehe3CWsTFIU4HoLBoSBpGv29l73j/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
+<<<<<<< HEAD
 <<<<<<< HEAD
     "_auditDetail": "Folio 380076 - 15/4/26 (9 FOTOS)\n  → 380076_inicial ✅\n  → 380076_folio ❌\n  → 380076_corte ❌\n  → 380076_demolicion ❌\n  → 380076_caja ✅\n  → 380076_liga ❌\n  → 380076_mezcla ❌\n  → 380076_terminado ✅\n  → 380076_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
@@ -4689,6 +5658,9 @@
 =======
     "_auditDetail": "Folio 380074 - 15/4/26 (9 FOTOS)\n  → 380074_inicial ✅\n  → 380074_folio ❌\n  → 380074_corte ❌\n  → 380074_demolicion ❌\n  → 380074_caja ✅\n  → 380074_liga ❌\n  → 380074_mezcla ❌\n  → 380074_terminado ✅\n  → 380074_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380070 - 14/4/26 (9 FOTOS)\n  → 380070_inicial ✅\n  → 380070_folio ❌\n  → 380070_corte ❌\n  → 380070_demolicion ❌\n  → 380070_caja ✅\n  → 380070_liga ❌\n  → 380070_mezcla ❌\n  → 380070_terminado ✅\n  → 380070_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4715,20 +5687,20 @@
     "_folderId": "18ctSTAysNJVHIAgrZTbb4J8RCQn6T3if",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcEEejZyOBXswpxuJOZQ6skBLy8bNIoBpWC7ewgZFwwVyBJKAAOFn4S7EPbm4NqAFSvCHcYIaWQA1VY_bDCPv6w3tm1dOUommDQIR8izv4F2Zzi4s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPmVTz4W2b1xTXHNrh5KztzHbutyGze2ETY1slvg4teYlAhHD0KzHE6Cj46OaQf8W8gvbNtGqTdRXa9hS0l_UFYVWhsCKTVuvw1mTfxMU2Vx_kf7Y=s220",
         "view": "https://drive.google.com/file/d/1MCGiPbXOkNe7ciKUkmUXgVjeMjgJaCPt/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPT9zfmGkOO48k6ajamSqMcbBDPdIxwVkxHXjKKqDIowG6zKviteo0jntuaTnBYoFEKqzTtXj7wOgw8rD7Enz-ak89ShuHZYXX5w9SRWe7ArPQzG_U=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM7vZqjPTaOLFqcQDFqxZx7iZMI0SAC5aWy0RUVAptLDEBZMUffBXy6DxZ1-u-XYMhq18sz0-FUT4pkQsyyINiFxvU4rxJs2DeDX1G4PV5AehyhjIg=s220",
         "view": "https://drive.google.com/file/d/12-3c60K4uaGEwbML8T7lLqLx2fBher6_/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTKMEYXGOZSsTatDnh0vVM1MfFWr7vrcyCsHfwNED-FQ3pAovLwoUkKtbF_FEQKAq8VStcc2NVnhe7kj0iYZfWW4Ae-0QWoCHsdpR9rPAPCSazHqs=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEN3eK2VQLvKqQcPBrQYEslV7x9Kf03vnhPsvTaKz9ngnTfpyKk8avA-L-VLBRImL8-bwgwIn-ggtJ9ytS6oky501ejMJslrAlUYQophbVovxgK8c=s220",
         "view": "https://drive.google.com/file/d/164l5kMhMfp2A7ilLZiWm0u86S-9OubE0/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -4749,7 +5721,7 @@
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-    "FOLIO": "380080",
+    "FOLIO": "380073",
     "FECHA": "15/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -4757,34 +5729,38 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "18ItLGYzVKv0NP0buU_cGcV6w2Y6h1enh",
+    "_folderId": "1uoFZ5-RgN4iHkQGv4cQRQe_9xdH4ZnOz",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOXOj4D_Me-HLRVIkIEsACaF_-mORtSm12QO_erLjSmXKVUjZR3TPhxwpfgK-XBQIruGGqzjI_ojJlAIKrjJ9JtYH3XUORUD-FVibI8dYP3WXVu6s=s220",
-        "view": "https://drive.google.com/file/d/1c2WhqGWdA_XRWNwTjsnrUq-lmz8a4Qec/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr98kFAXyGA0TzcHNdmABtlkpc0C169bFQvwvHErD66YWlkWZwsVInhJ4ZVI8f85eIaFc-FF8YPNMthSshkoJr9SzfHySDdZdTlDN940AT-kEhBz0=s220",
+        "view": "https://drive.google.com/file/d/1I0LBNAx9EI8f1kEcg6L_JdGsJKh9pYUO/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSF91tJNkhNB7ix9XAj1YlOXtF1z6I3dSEzhYimiFUOStTKoKmDDk_TtUcRIOXGhjWOjGs7Dd8cOiwMgpSfAS-MkyrE27F3IWwKdnNQUGgRt2cA5U=s220",
-        "view": "https://drive.google.com/file/d/1u-KumYgmgrEsZAk4GrCX2gwRxWFrTnFK/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP06aV3iWHcyvSOIqhGLm1hVebtYpMRnCDxz-qdVL2OPCigCMGmwRcaJJznKTLHBCKXcqBoTCPAs1-VvrouDL2J4RHC4GGtwOC9Id9OMIG2iRtX_Ns=s220",
+        "view": "https://drive.google.com/file/d/1igVUiYCl9o9R074_O78G8RD4yebtHmg4/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCT1QBO35-HWjJA2vKwiBGftxTlY22GfAYkysMAd2VyTjNdZrKFXhgpY6E4l5UlBsqhPEGZV-ddL2Q9WjYtOLyvV2v9Hs0wP20-sVLnfabw-KXCDQ=s220",
-        "view": "https://drive.google.com/file/d/1YZtp97B-UQTg6GFwaBkqheaw_Zf-Xohc/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6_qOpVku_4SOS8xChXV8dvs_X_cumdbb1czOvAQqmMEaaFbXZD38FA-pUiMsVMY0ZJQF82R1wdiO2DKcS_Sbfu7aAJucHJFnVOrPHvs3Z-bzpZgk=s220",
+        "view": "https://drive.google.com/file/d/1Rq4To3XLPjFNgLhxPMREqMN9QSoYIBs2/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "_auditDetail": "Folio 380080 - 15/4/26 (9 FOTOS)\n  → 380080_inicial ✅\n  → 380080_folio ❌\n  → 380080_corte ❌\n  → 380080_demolicion ❌\n  → 380080_caja ✅\n  → 380080_liga ❌\n  → 380080_mezcla ❌\n  → 380080_terminado ✅\n  → 380080_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
 =======
     "_auditDetail": "Folio 380080 - 15/4/26 (9 FOTOS)\n  → 380080_inicial ✅\n  → 380080_folio ❌\n  → 380080_corte ❌\n  → 380080_demolicion ❌\n  → 380080_caja ✅\n  → 380080_liga ❌\n  → 380080_mezcla ❌\n  → 380080_terminado ✅\n  → 380080_limpieza ❌",
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+    "_auditDetail": "Folio 380073 - 15/4/26 (9 FOTOS)\n  → 380073_inicial ✅\n  → 380073_folio ❌\n  → 380073_corte ❌\n  → 380073_demolicion ❌\n  → 380073_caja ✅\n  → 380073_liga ❌\n  → 380073_mezcla ❌\n  → 380073_terminado ✅\n  → 380073_limpieza ❌",
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4800,7 +5776,7 @@
     "ID": "38"
   },
   {
-    "FOLIO": "380078",
+    "FOLIO": "380077",
     "FECHA": "15/4/26",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. DE LOS HORNOS",
@@ -4808,30 +5784,162 @@
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
-    "_folderId": "1_2-sEV6IFQrVjXy8VNwPtdV28BNlfG7G",
+    "_folderId": "1bsW-cWhyy655U04xG3KFcPjih5fn87XG",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOo7PV44djnvxEOW8RBm2e0LrBDyrsKyGkK1-sMzxV0hOwQ1v8-lHbLJuiTX5plooKpbKfFRIW41U2aeTtj9wuzZcvDUUAvdwxiF3WJmt8JIS1Mo20=s220",
-        "view": "https://drive.google.com/file/d/1o_SuOvaJ7nPwM1rnDWnRX0dlKjB_7Oj3/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP58Cru6CPZXzcREFglj3B3QZrPWSqweX020uTj7dyeVbJwbb_wC058VasyM4mj77cKsanCKu34oMZFvtPnsd0bRed-m4dPVq7l-mCdIPikJRlgYLk=s220",
+        "view": "https://drive.google.com/file/d/1_i4wsVpd_61_-Ai6AwnAciToeFZn_9_u/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN29Q115yjoDOclF6WaHB8ZWNnzQJhRf3ih8W0SfWZ029kp9uauwJuhcgNOb_gnIjd-E3-4_uGwUPZGNp5nlq4BcEVpAhqSXLVXbn1KgjdnPQCEYZ8=s220",
-        "view": "https://drive.google.com/file/d/1fS7pefxQY07mbdNzdUumm1Euu0IB0PD3/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOISbU2Pqnkjur3YoDdohVeOLLIAd3erP50pZdZ_RqV3byJYrx-NtoBORecRqCu6oljrKLhj0hjPoSeM2Mb3mxaXGIW441J6gz_2fTC4rPeApHC6Dk=s220",
+        "view": "https://drive.google.com/file/d/1CtYSe3cYdn23XzzLwpdu7Xhs4rkRkj_z/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPKNDXj5ERrlXLfIHT9aKrlPZOPJp9wlD7d8KVLW4kuoMkhsHjCRXhuvLzw4D78cw5tjZAhz0KCWzrsQcIIMNBtYyUIl498DrLpHUvBw5SAHftxyMQ=s220",
-        "view": "https://drive.google.com/file/d/1bSy_kbScAQvmLk9UIm3dMdMJeH2Za7Qm/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOinrh5L4VPhfVMTe8nf4owRSuqhavyCHZvCHTPNcMEbcWxSInnCbi52ZkQy0O0yvY9bYgSSO4zS-uLeqPoCB47s_z99I4IkhhoD97Ut4quAENYmTk=s220",
+        "view": "https://drive.google.com/file/d/1spap0oJbVdbUHQrNJ3zx4vm6lSCDzAX1/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 380078 - 15/4/26 (9 FOTOS)\n  → 380078_inicial ✅\n  → 380078_folio ❌\n  → 380078_corte ❌\n  → 380078_demolicion ❌\n  → 380078_caja ✅\n  → 380078_liga ❌\n  → 380078_mezcla ❌\n  → 380078_terminado ✅\n  → 380078_limpieza ❌",
+    "_auditDetail": "Folio 380077 - 15/4/26 (9 FOTOS)\n  → 380077_inicial ✅\n  → 380077_folio ❌\n  → 380077_corte ❌\n  → 380077_demolicion ❌\n  → 380077_caja ✅\n  → 380077_liga ❌\n  → 380077_mezcla ❌\n  → 380077_terminado ✅\n  → 380077_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380075",
+    "FECHA": "15/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1Z61LGNQ9tSuqd9eOC4DShrJq1HxPqZVq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPg1oXJeSNtgVbU_01LII9UjvGL1UlBgrlDQRpDE2FYO4ckSQMEp7u4fjan99MhcFKZyFuLXzNSD3LFdxqalJ3tc3LFuTkKAY6fZMMmk3nYMA-Yup4=s220",
+        "view": "https://drive.google.com/file/d/1KfyCcDCkIIP9BH-Gc3S5qkuwp6U1KUZh/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJdgMfx_neuY03v1X4lUxcIfVoO4Delhy9fmsRcGuvd2acXbS90j6eLhyNZz1tWDY5_IgrNh-0aoRpFEP0z62kMxXjriK5H3kZZfNYJ7cdQRpmRfo=s220",
+        "view": "https://drive.google.com/file/d/1wfQTesXcq3a9mWEdlHzcElCyTAO4ftNQ/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiMdYhbAwCjVBDU6NcKX9SgO7Ov1Qd4tS-pgtETY3YB0Aw0GLdEtB4VTSlN6S533R14OYsY9aImQ7VFTZYm6eJ2jRlylvHjDg6YRSB8oKoNSShOFE=s220",
+        "view": "https://drive.google.com/file/d/1EplO9Pz2zWH0qgSbrXKWZWm6cFNsE72u/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380075 - 15/4/26 (9 FOTOS)\n  → 380075_inicial ✅\n  → 380075_folio ❌\n  → 380075_corte ❌\n  → 380075_demolicion ❌\n  → 380075_caja ✅\n  → 380075_liga ❌\n  → 380075_mezcla ❌\n  → 380075_terminado ✅\n  → 380075_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380074",
+    "FECHA": "15/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1kOfGHSlv4Lzxho0ZE1FmXOBpw6zhF9UJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqjzO8BKBnS_UyIjgxzv_ZI5lt1TsEIxvPTa2N6o0ZeP86gjjq2HqpJmvfju5nkZMzex9nTiX89qj_b2rCiVPzhk5rQFbBnZ76fxXZVRGPScouYoQ=s220",
+        "view": "https://drive.google.com/file/d/1fUgYnliizeaY-a2Dq8gyc-Ei6qCTkK0c/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4yoT3cBKjZMb3PNKS5Qwp_38HvSV5bghgxFG8RiqazkBI9BKCUipln7I35OJFVSNT2cWmDFbGzQcervnhzCAFCdFKsK-K4TFEtEjZEi3mQ5-w7Z0=s220",
+        "view": "https://drive.google.com/file/d/1LYopoYEqjFarCy4m82VmHcYv3q1T-0Lj/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXx0uG1098sAWRZflWLmfZPGpiLWgrjeLIWo-f93CUq0zzMVTAnawzE73dltE4dOuH7Z30a3HeOJh81B8AF5hE8FDt28dwYivdTNSJO7NeZzgzteQ=s220",
+        "view": "https://drive.google.com/file/d/1oceDsxbJ2C_aZf4LuwUVA0UAl1_Z_zj1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380074 - 15/4/26 (9 FOTOS)\n  → 380074_inicial ✅\n  → 380074_folio ❌\n  → 380074_corte ❌\n  → 380074_demolicion ❌\n  → 380074_caja ✅\n  → 380074_liga ❌\n  → 380074_mezcla ❌\n  → 380074_terminado ✅\n  → 380074_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380076",
+    "FECHA": "15/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1N8pD9-LrplqUTgZ-jSzp-YqjxzrmybN3",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNP5TAng1CDjD7MxIIYWLRR3iwgDOGVgeUkSFdGl9Y7iI48_l6aS2cYCsRwA0I1C8eLg9URcSKoLHkl7KY3_MlUysyTpAjPSauOMTEe4iZUMqzUOqQ=s220",
+        "view": "https://drive.google.com/file/d/1hrDv1Z1XXXwtndexCcNo7gFQmkaKSUtN/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJs_nBuvlIxGB94vAlQnhaSonLvLmc5Yp7WuaZa5PG_Fa47sYkBM6rm1Jv-XUEU4-MlNcG4ysEq_NfJ6ikp-VBFta0GbHPg0yYP5ob9Eaj2dmrj5w=s220",
+        "view": "https://drive.google.com/file/d/1ULJ63Q7OPc9MbEBukuZ40Mqo7NkhQOOR/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkC0wlhHOP8Djg-Al7J6_49GEz2GuaML8WbVZpdwdMHegURmV3ffV7nDANWrtY7r_ocxygz8OqzMlQgwQ5JdZHm-8ksCRVAZEVpsbTPvfJGnbnAp0=s220",
+        "view": "https://drive.google.com/file/d/18UGPkSMa0Ivgy9B2CmFmuqtZemj2Li3e/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380076 - 15/4/26 (9 FOTOS)\n  → 380076_inicial ✅\n  → 380076_folio ❌\n  → 380076_corte ❌\n  → 380076_demolicion ❌\n  → 380076_caja ✅\n  → 380076_liga ❌\n  → 380076_mezcla ❌\n  → 380076_terminado ✅\n  → 380076_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4856,20 +5964,20 @@
     "_folderId": "1tmUigdPl6IwboNtXZ2j5FJAC4IJzlv1l",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMy5u7UaGdbMKvArhsy8J1pH81aRhhXMbB_fn4BKfnf7my87IYfk7OCuIUFEaRHtvdvSvIGzeiURZfhxhgA11rkrcznJVF0PXIghDq3ApTevyssjYY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNF37ynxFs58sfalp3iDOk9T5N0CPDkoKxuQEpEigPerAA6badXnZG_UIea5fXXCU9oUtGUx6ifUA25cgIKExQwsCUzzOW0kg_rLEj5_6d7b7HbVtA=s220",
         "view": "https://drive.google.com/file/d/1T2VGdmYAs7VeOjTM_FRShEF78XiGfO9y/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPU75rlG5TmvranlDmVXF0882gQuxUBu4aHnK6r9g_I_krA977MXn2cqmEezM6ssX1w1VZyzeWazq0ORFI9qIW57-3gBSMS1sYjA31my6bOeo8wYE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPb9oDQLdE_ZMUgcSn6YOkEpPqGPjEYcNqXMkODkBhXpTJt-vCdz1A8T0fyCy___oyFV-HSXXbwc_0__vENyusuzHAiJ8bzrBECZRvfinDIpk7uXwk=s220",
         "view": "https://drive.google.com/file/d/1YjiE-rSfuzk9u3JU7_0RZ-WCVn-42IHk/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNx0w5KTRDL3E4-92yCclVAMKknzhikROQRguljEngt5VMGcIFI5j89acPmWOSQlpqQ1KpkwN-8NPaNbbJGePH3g1sltJMWBLnWFyB0pvsX8-j6PVE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuRMnkeYxrlEB_FEjAC2e1SGn1zOAKceRf4bSxtTkLlgvrMNzSW_G8gE9VMJldWXvRl-HyoYmkdAVZfaz9OXRvSGwEaktCKAcZg3dB_swMQoz6eA0=s220",
         "view": "https://drive.google.com/file/d/1gQov_E-u2yW5yiwRgB9xNQ1YiYozaO-e/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -4894,6 +6002,97 @@
 =======
     "_uploadEmail": "terceraetapabacheo@gmail.com",
     "ID": "38"
+<<<<<<< HEAD
 >>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
+=======
+  },
+  {
+    "FOLIO": "380078",
+    "FECHA": "15/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "1_2-sEV6IFQrVjXy8VNwPtdV28BNlfG7G",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEEMwI0JHBJiBYH1udpno6eQz27FCIn2xyqkTls_uyw0MvVbOmWQ5B1FhUGNQ5bYUaBWXJMQXw_jiOEAKuc85EndOKLZbH5AAkEZSOifGRucjd3iw=s220",
+        "view": "https://drive.google.com/file/d/1o_SuOvaJ7nPwM1rnDWnRX0dlKjB_7Oj3/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJnilT2KW43kZ2sol0O47qYEv-aNpGa8xZnF-45Vir2i6mZKl8zQA0otwNH3psnnTawbMuZe1LgX7DqcPk13ltMxx6vMx-4ohJz1PQMf_kdQYA5lk=s220",
+        "view": "https://drive.google.com/file/d/1fS7pefxQY07mbdNzdUumm1Euu0IB0PD3/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNfwMt4npaYXc2ShH34UC_MohV5KvCeM-_v4_4xHb5LdaiBQ6aBymQs3NoleQKXdjFkBhGlfuOIwnQdtsOwY3S7pidT5GTmWcnCoWSwjCEmZdfbiKQ=s220",
+        "view": "https://drive.google.com/file/d/1bSy_kbScAQvmLk9UIm3dMdMJeH2Za7Qm/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380078 - 15/4/26 (9 FOTOS)\n  → 380078_inicial ✅\n  → 380078_folio ❌\n  → 380078_corte ❌\n  → 380078_demolicion ❌\n  → 380078_caja ✅\n  → 380078_liga ❌\n  → 380078_mezcla ❌\n  → 380078_terminado ✅\n  → 380078_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+  },
+  {
+    "FOLIO": "380080",
+    "FECHA": "15/4/26",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "AV. DE LOS HORNOS",
+    "COLONIA": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3_SUP",
+    "_folderId": "18ItLGYzVKv0NP0buU_cGcV6w2Y6h1enh",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCaX-VqcQt7S9cDQG38o31oK_64eIi8M2Do-_yWGGNy2T0ukv69edZciYyXpSQ8cVJ3JlfWF9QhFbLpCXMuVC9W7gGbKXYjc67iIUt68fsbS6bAl4=s220",
+        "view": "https://drive.google.com/file/d/1c2WhqGWdA_XRWNwTjsnrUq-lmz8a4Qec/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3f_j_zwW7Q-nWvL0Aeob7TB8nHHilKW-WGN9pR6OZJS4duHqxzDGziz5klqfVJ2ussZ-9B2IbOTVEqmoWroswlG7Ac2ILtoj4onNn5SL621eUiNc=s220",
+        "view": "https://drive.google.com/file/d/1u-KumYgmgrEsZAk4GrCX2gwRxWFrTnFK/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuZ5t1B-qq4xtSY3PgWI1xljE2ROhnDlAv706qH9OFcGQ49cjDSq_2s13REpxYowiFum5Z-urV3tn1y4WM6tzkZ70kdSwfVPin9K1D3tpunahcK4E=s220",
+        "view": "https://drive.google.com/file/d/1YZtp97B-UQTg6GFwaBkqheaw_Zf-Xohc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380080 - 15/4/26 (9 FOTOS)\n  → 380080_inicial ✅\n  → 380080_folio ❌\n  → 380080_corte ❌\n  → 380080_demolicion ❌\n  → 380080_caja ✅\n  → 380080_liga ❌\n  → 380080_mezcla ❌\n  → 380080_terminado ✅\n  → 380080_limpieza ❌",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": "terceraetapabacheo@gmail.com",
+    "ID": "38"
+>>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
   }
 ]
