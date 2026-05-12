@@ -12,22 +12,6 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "FALTA: INICIAL": 334,
-  "OK": 63527,
-  "FALTA: CAJA + TERMINADO": 1786,
-  "CARPETA VACÍA": 439,
-  "SIN CARPETA": 742,
-  "FALTA: CAJA": 413,
-  "FALTA: INICIAL + CAJA + TERMINADO": 339,
-  "FALTA: TERMINADO": 541,
-  "FALTA: INICIAL + CAJA": 56,
-  "FALTA: INICIAL + TERMINADO": 48
-=======
-  "OK": 65279,
-=======
->>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
   "FALTA: INICIAL": 260,
   "OK": 65277,
   "CARPETA VACÍA": 449,
@@ -37,12 +21,7 @@ export const GLOBAL_TOTALS = {
   "FALTA: INICIAL + CAJA + TERMINADO": 97,
   "FALTA: TERMINADO": 229,
   "FALTA: INICIAL + CAJA": 57,
-<<<<<<< HEAD
-  "FALTA: INICIAL + TERMINADO": 18
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
-=======
   "FALTA: INICIAL + TERMINADO": 19
->>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
 };
 export const RESUMEN_DATA = [
   {
