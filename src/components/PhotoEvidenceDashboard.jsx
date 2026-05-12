@@ -153,6 +153,11 @@ const PhotoEvidenceDashboard = () => {
         else document.documentElement.classList.remove('dark');
     }, [isDarkMode]);
 
+    // Limpiar caché local al inicio para forzar sincronización pura con Firestore
+    useEffect(() => {
+        localStorage.removeItem('optimistic_folios');
+    }, []);
+
     const companies = useMemo(() => {
         if (selectedDelegation === 'ALL') return ['ALL', ...Object.keys(activeFiltersMap).sort()];
         const unique = new Set(records.filter(r => r.DELEGACION === selectedDelegation).map(r => r._company).filter(Boolean));
@@ -359,7 +364,7 @@ const PhotoEvidenceDashboard = () => {
             try {
                 const downloadPromises = stagesToDownload.map(st => {
                     const ck = `${driveMode}_${st}`;
-                    return fetch(`/contratos/${st}_Master.json`)
+                    return fetch(`/contratos/${st}_Master.json?t=${Date.now()}`)
                         .then(res => res.ok ? res.json() : [])
                         .then(data => { 
                             // Normalizar _stage a 'E3' para compatibilidad con UI filters
@@ -373,7 +378,8 @@ const PhotoEvidenceDashboard = () => {
                 await Promise.all(downloadPromises);
                 let allRecords = cacheKeys.flatMap(ck => stageCache[ck] || []);
                 
-                // Optimistic UI Cache
+                // Optimistic UI Cache - DESHABILITADO PARA FORZAR SINCRONIZACIÓN PURA
+                /*
                 try {
                     const optimisticStoreStr = localStorage.getItem('optimistic_folios');
                     if (optimisticStoreStr) {
@@ -387,6 +393,7 @@ const PhotoEvidenceDashboard = () => {
                         });
                     }
                 } catch(e) {}
+                */
 
                 setRecords(allRecords);
             } catch (error) {
@@ -406,7 +413,7 @@ const PhotoEvidenceDashboard = () => {
         const altStage = altMode === 'SUPERVISOR' ? 'E3_SUP' : 'E3';
         const altCk = `${altMode}_${altStage}`;
         if (!stageCache[altCk] && (selectedStage === 'E3' || selectedStage === 'ALL')) {
-            fetch(`/contratos/${altStage}_Master.json`)
+            fetch(`/contratos/${altStage}_Master.json?t=${Date.now()}`)
                 .then(res => res.ok ? res.json() : [])
                 .then(data => {
                     stageCache[altCk] = data.map(r => ({ ...r, _stage: 'E3' }));
