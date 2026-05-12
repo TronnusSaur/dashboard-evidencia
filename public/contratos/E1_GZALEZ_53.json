@@ -1,5 +1,60 @@
 [
   {
+    "FOLIO": "27410",
+    "FECHA": "6/3/25",
+    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "CALLE": "Cristobal Colon",
+    "COLONIA": "La Concepción",
+    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
+    "_company": "GZALEZ",
+    "_stage": "E1",
+    "_folderId": null,
+    "PHOTOS": null,
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 27410 - 6/3/25 (LEGACY)\n  → 27410_inicial ❌\n  → 27410_caja ❌\n  → 27410_terminado ❌",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "53"
+  },
+  {
+    "FOLIO": "27199",
+    "FECHA": "5/3/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Cristobal Colon",
+    "COLONIA": "La Concepción",
+    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
+    "_company": "GZALEZ",
+    "_stage": "E1",
+    "_folderId": "1cVtj0cF2YYPgMVcHuOdSRjBJSUVKeLw0",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOacJ-TVr_AihdxSKc3L3WttqIgymyG9YYGQSh47UAi4Etq2quvr4PQn2T_fpBoaXD1V_D3i2FEsRfArmm4mdnLBFaYqZoxoZ9mv1f2grvSrFjnC8A=s220",
+        "view": "https://drive.google.com/file/d/18AvdALXcl87fAbQF6r9QwzcHfsYoD6lg/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgIJWHvA-zKfucttAeDkWs6C0_k8ZIcf1G-rdljHgpYlGlo1HfWMJvE2ENIJ93QntvvcI1U_TIXCvCyISYalYjaC0Lu93eblshaoOvGaN1Q0bulNs=s220",
+        "view": "https://drive.google.com/file/d/1xly1xxCMnZG2uHMP_bw6WBer2N6Y7itO/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN585lAFpneGp-7iqY0pzbPaNm--HmhVPN8rNfbqUIAeZ7GPxQh0mK42JdvM5aOff0ZQSWZiq-qBvC-n_u5IXNCkWjefGDVx27xKwuAhr5-e7jklJc=s220",
+        "view": "https://drive.google.com/file/d/1sj9jQEl89yTfkwVLOPjkPkrsWjHPn2w1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 27199 - 5/3/25 (LEGACY)\n  → 27199_inicial ✅\n  → 27199_caja ✅\n  → 27199_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "53"
+  },
+  {
     "FOLIO": "26596",
     "FECHA": "27/2/25",
     "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
@@ -11,7 +66,7 @@
     "_folderId": "1zk9xUuXkT5alnTES6oZ1AQJJN3LiR1Pi",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAZwMUb7zO9dYBVfijatRddq-IrHIYScNDJiZCnGVNtTFNbTWnScd0GjXabGzJcF4HKYBUA5N_YEqTWOwUK0MARA7HfNWNE1EJrun11YQKoggsxx8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJSmsVsVbgvH0I14F8CkgzW7FwV2Bwe96ZLStAqmL3FgQMnoO9gUg3o17EhNRHDUzmdF2Fqz4K3AhGwERpPNxhsve4cdD-LZjfB6bv0ekCcLjg1sE=s220",
         "view": "https://drive.google.com/file/d/1LRv0eW3mhf76yVuh6rmH6WRfBIOgYBc6/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -30,96 +85,8 @@
       "CAJA",
       "TERMINADO"
     ],
-    "_uploadEmail": null
-  },
-  {
-    "FOLIO": "27199",
-    "FECHA": "5/3/25",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "Cristobal Colon",
-    "COLONIA": "La Concepción",
-    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
-    "_company": "GZALEZ",
-    "_stage": "E1",
-    "_folderId": "1cVtj0cF2YYPgMVcHuOdSRjBJSUVKeLw0",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOcLN4jr-thEnnQH8iUMTKUWLQQJAe7h4aHasaXXLmmOA_l5dbxHjMmAr9oLel5hWnU-Pbfy2LIBAqjiRwkFSBfdnhvmy7gvJBDmlslljDHrCPLUc=s220",
-        "view": "https://drive.google.com/file/d/18AvdALXcl87fAbQF6r9QwzcHfsYoD6lg/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrO8V3kx5cdEuXLiByrhMxiU5qi0KUYPCeDOghxm9D3g41ME3Dc8CFJGTYORbjoI-Crc5nGg_Vz0-qwHmgav5M-BxpmH4yT_9V-gP3ttT2i-iLuxQ=s220",
-        "view": "https://drive.google.com/file/d/1xly1xxCMnZG2uHMP_bw6WBer2N6Y7itO/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM091uFi11mr6HwHmQzw9AbDganU4T8JUfBahLbNLo6DO-BxHa5TmhL4XL2rRCw9dwrOobJ9XWqH3t1E2HZXqiD6bnqqKhUYquWfQnmX2nKzAGWpR0=s220",
-        "view": "https://drive.google.com/file/d/1sj9jQEl89yTfkwVLOPjkPkrsWjHPn2w1/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 27199 - 5/3/25 (LEGACY)\n  → 27199_inicial ✅\n  → 27199_caja ✅\n  → 27199_terminado ✅",
-    "_faltanNEO": [],
-    "_uploadEmail": null
-  },
-  {
-    "FOLIO": "27410",
-    "FECHA": "6/3/25",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
-    "CALLE": "Cristobal Colon",
-    "COLONIA": "La Concepción",
-    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
-    "_company": "GZALEZ",
-    "_stage": "E1",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 27410 - 6/3/25 (LEGACY)\n  → 27410_inicial ❌\n  → 27410_caja ❌\n  → 27410_terminado ❌",
-    "_faltanNEO": [],
-    "_uploadEmail": null
-  },
-  {
-    "FOLIO": "28542",
-    "FECHA": "19/3/25",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "Cristobal Colon",
-    "COLONIA": "La Concepción",
-    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
-    "_company": "GZALEZ",
-    "_stage": "E1",
-    "_folderId": "15oBrA3jm7LbN3IuzznSvgqJqe3v-rYhd",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwSSpBozMMUV79zDj757Q2867dGbdk73HAbALM0_kuWS_34gMFxGJnol7PBlx0v42EPAc5kLvUbSTeWg7k8emZ5sMCncnFXWllsYbMkpu-oZqXH7o=s220",
-        "view": "https://drive.google.com/file/d/1T0M_2qu8YuLaWvTWMoRZ4CjjFjTkJcZq/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPP2z-iisEki7JomV6b9mIKpQd23T3RzaC2CKdcnFar8qAZCuJmyJioVEG6tLGJ0GHUJGyVJl-VM9ctSYmnAT09EkCQ8weowjMlIXgximZt_Di0g9M=s220",
-        "view": "https://drive.google.com/file/d/16gq2Cdtu3tyumyIjKyNI9P-LUEJ-QG4C/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5zTFCnNyTZ3pQTj8BCO2G2eNknMsmLrvhi2lcI6TcuOFG2kkfhEIFDfa8gSuvFITbJdR69200Zh2FDrmciTk_ehdaMs1qRpY-E8--Th4FFsTHwBI=s220",
-        "view": "https://drive.google.com/file/d/14M9iWfKUQXG1H2wkWZB1YokQjCenWiEC/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 1,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 28542 - 19/3/25 (LEGACY)\n  → 28542_inicial ✅\n  → 28542_caja ✅\n  → 28542_terminado ✅",
-    "_faltanNEO": [],
-    "_uploadEmail": null
+    "_uploadEmail": null,
+    "ID": "53"
   },
   {
     "FOLIO": "28766",
@@ -133,7 +100,7 @@
     "_folderId": "1PG0jnGJIFmHbtU7lc3iwgKBk9nVe5jPa",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjcA54eJZuerJOac-oXCphdw-Fxzb4VSLKA6ciky9sfwn0S904E6IbdWn1G06PCpz40G-3_TetKf2EdLMMlHl8nqvWTpCedESr2bOnbaSOJZkqvyc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuMLRxb51BC1yZIIMcyiRXQ0qefwi-LHsirESMeR3LelbmpKWr2m366V_x7AIMixIx634wwBFN4azZ9o1qa7A2Us1dyFuW8XTvaL69peHcn1b5wKM=s220",
         "view": "https://drive.google.com/file/d/1bNF1mCUiYto4AGC3E3sYLTyui165Z3y_/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -152,6 +119,44 @@
       "CAJA",
       "TERMINADO"
     ],
-    "_uploadEmail": null
+    "_uploadEmail": null,
+    "ID": "53"
+  },
+  {
+    "FOLIO": "28542",
+    "FECHA": "19/3/25",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "Cristobal Colon",
+    "COLONIA": "La Concepción",
+    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
+    "_company": "GZALEZ",
+    "_stage": "E1",
+    "_folderId": "15oBrA3jm7LbN3IuzznSvgqJqe3v-rYhd",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNhVjxMTgRRSIZtqW6NruIDXF1u0Oo_udbhhE-7_--5UhN79z4R0daLg86rAglzCReAKzlOpYEazlg-NsVXTryA4dzwCg3-h8AUetR6JPzhUVL1dQ=s220",
+        "view": "https://drive.google.com/file/d/1T0M_2qu8YuLaWvTWMoRZ4CjjFjTkJcZq/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxz2RXC5pJfbvSx2B812foCvzqb0wT4kkiykVh6XrBd_jgkRtlRLP82Az_4pT033qXdWk6owl5jUXvuyOLoi4_0W4R9Aer_wytsoZzbFVyK7NEeoU=s220",
+        "view": "https://drive.google.com/file/d/16gq2Cdtu3tyumyIjKyNI9P-LUEJ-QG4C/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOl3ln69gUECEPqs-sIwGr8uVREhgpYXzCEVetqs4cWpdDfCt0V5DrvM8JTjwlPe-KXRdBf67u9bdnW7GqvP5RuJROoNDx5ksyt-Pf3iPXTxz8bXA=s220",
+        "view": "https://drive.google.com/file/d/14M9iWfKUQXG1H2wkWZB1YokQjCenWiEC/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": false,
+    "_auditDetail": "Folio 28542 - 19/3/25 (LEGACY)\n  → 28542_inicial ✅\n  → 28542_caja ✅\n  → 28542_terminado ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null,
+    "ID": "53"
   }
 ]
