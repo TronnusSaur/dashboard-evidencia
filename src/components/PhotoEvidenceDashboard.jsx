@@ -432,6 +432,8 @@ const PhotoEvidenceDashboard = () => {
                 // Buscamos el folio en todas las etapas/modos cacheados
                 Object.keys(stageCache).forEach(cacheKey => {
                     const cacheItems = stageCache[cacheKey];
+                    if (!cacheItems || !Array.isArray(cacheItems)) return;
+                    
                     const folioIndex = cacheItems.findIndex(r => String(r.FOLIO) === folioId);
                     
                     if (folioIndex !== -1) {
