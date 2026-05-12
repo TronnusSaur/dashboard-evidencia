@@ -3,6 +3,7 @@ import { listarArchivosFolio } from './driveIndex.js';
 import { auditFolioFromFiles } from './auditEngine.js';
 import { getFolioMetadata, upsertFolioStatus } from './stateStore.js';
 import { updateSingleFolioInOutput } from './outputStore.js';
+import { uploadFolioToFirebase } from './firebaseAdmin.js';
 import minimist from 'minimist';
 
 const args = minimist(process.argv.slice(2));
@@ -57,6 +58,16 @@ async function run() {
             PHOTOS: auditResult.photos,
             EXTRA_PHOTOS: auditResult.extraFilesCount,
             _isNewSet: auditResult.isNewSet
+        });
+
+        // 6. Subir a Firebase Firestore (Sincronización Real-Time Global)
+        await uploadFolioToFirebase(folioKey, {
+            status: auditResult.status,
+            photos: Object.keys(auditResult.photos || {}).map(k => ({ id: auditResult.photos[k].id, cat: k })),
+            folio: folioToReaudit,
+            stage: stageId,
+            empresa: meta.empresa,
+            contrato: meta.contrato_id
         });
 
         console.log(`✅ Folio ${folioToReaudit} actualizado a: ${auditResult.status}`);

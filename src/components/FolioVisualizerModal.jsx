@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key, Pencil, FolderOpen, Check, FileImage, File as FileIcon, Clock } from 'lucide-react';
 import { useGoogleLogin } from '@react-oauth/google';
+import { doc, setDoc, serverTimestamp } from "firebase/firestore";
+import { db as firestoreDb } from "../lib/firebase";
 
 const SHEET_MAP = {
     "E1": '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
@@ -708,18 +710,34 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 // Si el estatus en vivo es diferente al que tenía el JSON original del servidor,
                 // avisamos al servidor para que re-audite este folio y actualice a todos los usuarios.
                 if (currentStatus !== RESULTADO_AUDITORIA) {
-                    console.log(`[Self-Healing] 🩺 Discrepancia detectada en Folio ${FOLIO}. Notificando al servidor...`);
-                    // Intentamos conectar al servidor de webhooks local
-                    fetch('http://localhost:3000/api/recheck-folio', {
+                    console.log(`[Self-Healing] 🩺 Discrepancia detectada en Folio ${FOLIO}. Notificando...`);
+                    
+                    // 1. Notificar al servidor local (para persistencia en archivos JSON)
+                    fetch('http://localhost:3001/api/recheck-folio', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ folio: FOLIO, stage: _stage })
-                    }).then(res => {
-                        if (res.ok) console.log(`[Self-Healing] ✅ Servidor notificado exitosamente.`);
-                    }).catch(err => {
-                        // Silencioso si el servidor no está corriendo
-                        console.warn('[Self-Healing] No se pudo contactar al servidor de auditoría local.');
-                    });
+                    }).catch(() => console.log("Servidor local offline."));
+
+                    // 2. Actualizar Firebase Firestore (para sincronización global inmediata)
+                    try {
+                        const folioKey = `${_stage}_${_company || 'DESCONOCIDA'}_${ID || 'SIN_ID'}_${FOLIO}`;
+                        await setDoc(doc(firestoreDb, "audit_results", folioKey), {
+                            status: currentStatus,
+                            last_verified: serverTimestamp(),
+                            folio: FOLIO,
+                            stage: _stage,
+                            empresa: _company || 'DESCONOCIDA',
+                            contrato: ID || 'SIN_ID',
+                            photos: Object.keys(currentFoundPhotos).map(k => ({ 
+                                id: currentFoundPhotos[k].id, 
+                                cat: k 
+                            }))
+                        }, { merge: true });
+                        console.log("🔥 Firebase actualizado en tiempo real");
+                    } catch (fsErr) {
+                        console.error("❌ Error actualizando Firebase:", fsErr);
+                    }
                 }
             }
         } catch (error) {

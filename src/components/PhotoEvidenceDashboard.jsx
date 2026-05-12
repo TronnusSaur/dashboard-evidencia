@@ -15,6 +15,8 @@ import {
 } from 'recharts';
 import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
 import FolioVisualizerModal from './FolioVisualizerModal';
+import { collection, onSnapshot, query, where, limit } from "firebase/firestore";
+import { db as firestoreDb } from "../lib/firebase";
 
 // ── Animated Counter Component ──────────────────────────────────────────────
 // Provides a smooth "ticker" animation when KPI values change between drives
@@ -412,6 +414,43 @@ const PhotoEvidenceDashboard = () => {
                 .catch(() => {});
         }
     }, [selectedStage, driveMode]); // Refresh on mode change too!
+    
+    // --- REAL-TIME FIRESTORE LISTENER ---
+    // Listen for overrides/updates from anyone in the cloud
+    useEffect(() => {
+        const q = query(collection(firestoreDb, "audit_results"), limit(500)); // Listen for latest 500 overrides
+        
+        const unsubscribe = onSnapshot(q, (snapshot) => {
+            if (snapshot.empty) return;
+            
+            setRecords(prev => {
+                const newRecords = [...prev];
+                let changed = false;
+                
+                snapshot.docChanges().forEach((change) => {
+                    const data = change.doc.data();
+                    const folioId = String(data.folio);
+                    
+                    // Encontrar el registro en el estado actual y actualizarlo
+                    const index = newRecords.findIndex(r => String(r.FOLIO) === folioId && r._stage === (data.stage.startsWith('E3') ? 'E3' : data.stage));
+                    
+                    if (index !== -1) {
+                        newRecords[index] = { 
+                            ...newRecords[index], 
+                            RESULTADO_AUDITORIA: data.status,
+                            PHOTOS: data.photos.reduce((acc, p) => { acc[p.cat] = p; return acc; }, {}),
+                            _isFirebaseUpdate: true // Flag para debug/UI
+                        };
+                        changed = true;
+                    }
+                });
+                
+                return changed ? newRecords : prev;
+            });
+        });
+
+        return () => unsubscribe();
+    }, []);
 
     // Table Data (Drill-down)
     const tableData = useMemo(() => {

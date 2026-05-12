@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { uploadFolioToFirebase } from './firebaseAdmin.js';
 import { PUBLIC_DIR, MOCK_PATH } from './config.js';
 import { sanitizeFileName } from './utils.js';
 
@@ -66,6 +67,17 @@ export function updateSingleFolioInOutput(folioStr, stage, empresa, contratoId, 
             if (index !== -1) {
                 data[index] = { ...data[index], ...newData };
                 fs.writeFileSync(contractPath, JSON.stringify(data, null, 2));
+
+                // 3. Sincronizar con Firebase para tiempo real global
+                const folioKey = `${stage}_${empresa}_${contratoId}_${folioStr}`;
+                uploadFolioToFirebase(folioKey, {
+                    status: newData.RESULTADO_AUDITORIA,
+                    photos: Object.keys(newData.PHOTOS || {}).map(k => ({ id: newData.PHOTOS[k].id, cat: k })),
+                    folio: folioStr,
+                    stage: stage,
+                    empresa: empresa,
+                    contrato: contratoId
+                }).catch(e => console.error("Firebase sync error:", e.message));
                 // console.log(`✅ Contrato ${contractFileName} actualizado para Folio ${folioStr}`);
             }
         } catch (e) {
