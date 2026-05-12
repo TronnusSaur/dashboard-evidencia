@@ -1,23 +1,5 @@
 [
   {
-    "FOLIO": "27410",
-    "FECHA": "6/3/25",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
-    "CALLE": "Cristobal Colon",
-    "COLONIA": "La Concepción",
-    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
-    "_company": "GZALEZ",
-    "_stage": "E1",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 27410 - 6/3/25 (LEGACY)\n  → 27410_inicial ❌\n  → 27410_caja ❌\n  → 27410_terminado ❌",
-    "_faltanNEO": [],
-    "_uploadEmail": null,
-    "ID": "53"
-  },
-  {
     "FOLIO": "26596",
     "FECHA": "27/2/25",
     "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
@@ -29,7 +11,7 @@
     "_folderId": "1zk9xUuXkT5alnTES6oZ1AQJJN3LiR1Pi",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTlmbbASmxEal6Ghho8Rp7XDwh6nYcQkgjyi3d_e4UCwp5o5B33XKM-kRfEcrxA_IYCuvZmW5yAYjSxpb3HKMhcI-uax5O6IEbhWlefHdis-ETKg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAZwMUb7zO9dYBVfijatRddq-IrHIYScNDJiZCnGVNtTFNbTWnScd0GjXabGzJcF4HKYBUA5N_YEqTWOwUK0MARA7HfNWNE1EJrun11YQKoggsxx8=s220",
         "view": "https://drive.google.com/file/d/1LRv0eW3mhf76yVuh6rmH6WRfBIOgYBc6/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -48,12 +30,7 @@
       "CAJA",
       "TERMINADO"
     ],
-<<<<<<< HEAD
     "_uploadEmail": null
-=======
-    "_uploadEmail": null,
-    "ID": "53"
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "FOLIO": "27199",
@@ -67,20 +44,20 @@
     "_folderId": "1cVtj0cF2YYPgMVcHuOdSRjBJSUVKeLw0",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNd1deo8iSD8iVbl6crVilp4efkuldwPswiFLU3GTfNqTV8-1sJjqqKIcR73-ZF51HLoxTQ8eKGqhhrS2VL4siQt0kLwhtH195JShOVddyiTaOeMA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOcLN4jr-thEnnQH8iUMTKUWLQQJAe7h4aHasaXXLmmOA_l5dbxHjMmAr9oLel5hWnU-Pbfy2LIBAqjiRwkFSBfdnhvmy7gvJBDmlslljDHrCPLUc=s220",
         "view": "https://drive.google.com/file/d/18AvdALXcl87fAbQF6r9QwzcHfsYoD6lg/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBF_R74v4Tdx_YEBXB-AWGbyRigwN9_LV1LSbhfNaVAZR3HSYPqUev0_HXYRKru30dI1JZ9hn4dnNZCeMEpU-uXCohDqSs6jN8YCELFPsPRVfstw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrO8V3kx5cdEuXLiByrhMxiU5qi0KUYPCeDOghxm9D3g41ME3Dc8CFJGTYORbjoI-Crc5nGg_Vz0-qwHmgav5M-BxpmH4yT_9V-gP3ttT2i-iLuxQ=s220",
         "view": "https://drive.google.com/file/d/1xly1xxCMnZG2uHMP_bw6WBer2N6Y7itO/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLVZjXls9pYCBy1jwVAYziVwz7b775Tdh6hy-TlPsvV678nlBHzifxrXin9EYhl13tAb_lM7qDRKP0VfUtrd627qFLw-9TgLZLKxojc1hOMg5NWw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM091uFi11mr6HwHmQzw9AbDganU4T8JUfBahLbNLo6DO-BxHa5TmhL4XL2rRCw9dwrOobJ9XWqH3t1E2HZXqiD6bnqqKhUYquWfQnmX2nKzAGWpR0=s220",
         "view": "https://drive.google.com/file/d/1sj9jQEl89yTfkwVLOPjkPkrsWjHPn2w1/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -89,7 +66,6 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 27199 - 5/3/25 (LEGACY)\n  → 27199_inicial ✅\n  → 27199_caja ✅\n  → 27199_terminado ✅",
     "_faltanNEO": [],
-<<<<<<< HEAD
     "_uploadEmail": null
   },
   {
@@ -108,13 +84,8 @@
     "_auditDetail": "Folio 27410 - 6/3/25 (LEGACY)\n  → 27410_inicial ❌\n  → 27410_caja ❌\n  → 27410_terminado ❌",
     "_faltanNEO": [],
     "_uploadEmail": null
-=======
-    "_uploadEmail": null,
-    "ID": "53"
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-<<<<<<< HEAD
     "FOLIO": "28542",
     "FECHA": "19/3/25",
     "RESULTADO_AUDITORIA": "OK",
@@ -126,20 +97,20 @@
     "_folderId": "15oBrA3jm7LbN3IuzznSvgqJqe3v-rYhd",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcduiU5ZyCFSAHJW7rr8ssvfEFEskjnCN5WNBSA2isLXwLqSZVk9cgOxjSuxSpgCebyMmXx7Yn8lIFALOPtQWt_Of2j8V3FEslolrgg0kov-j-yVw=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwSSpBozMMUV79zDj757Q2867dGbdk73HAbALM0_kuWS_34gMFxGJnol7PBlx0v42EPAc5kLvUbSTeWg7k8emZ5sMCncnFXWllsYbMkpu-oZqXH7o=s220",
         "view": "https://drive.google.com/file/d/1T0M_2qu8YuLaWvTWMoRZ4CjjFjTkJcZq/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHWejQkmOaaDt0K76rWqU5ptMscEahXOfHnFh_snK2J0htOqwldTUVSqcTqyIFfaJs6vc-HTA4lCpDJlm6xsBWOtw9_AlF9BEkLtJRX_KAYpE8QDc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPP2z-iisEki7JomV6b9mIKpQd23T3RzaC2CKdcnFar8qAZCuJmyJioVEG6tLGJ0GHUJGyVJl-VM9ctSYmnAT09EkCQ8weowjMlIXgximZt_Di0g9M=s220",
         "view": "https://drive.google.com/file/d/16gq2Cdtu3tyumyIjKyNI9P-LUEJ-QG4C/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZLrnAQEfMzGyOLvlBV4RNiOC9QveSKAkTHpt1I3D4XDyxwud0QTH1Ot9waa0aZjxl3Xy5l42nTqCOeQEz52e_XR5S30w9Uztg2E2Y1rsMHhJHIAc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5zTFCnNyTZ3pQTj8BCO2G2eNknMsmLrvhi2lcI6TcuOFG2kkfhEIFDfa8gSuvFITbJdR69200Zh2FDrmciTk_ehdaMs1qRpY-E8--Th4FFsTHwBI=s220",
         "view": "https://drive.google.com/file/d/14M9iWfKUQXG1H2wkWZB1YokQjCenWiEC/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -148,16 +119,9 @@
     "_isNewSet": false,
     "_auditDetail": "Folio 28542 - 19/3/25 (LEGACY)\n  → 28542_inicial ✅\n  → 28542_caja ✅\n  → 28542_terminado ✅",
     "_faltanNEO": [],
-<<<<<<< HEAD
     "_uploadEmail": null
-=======
-    "_uploadEmail": null,
-    "ID": "53"
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
-=======
->>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "FOLIO": "28766",
     "FECHA": "20/3/25",
     "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
@@ -169,7 +133,7 @@
     "_folderId": "1PG0jnGJIFmHbtU7lc3iwgKBk9nVe5jPa",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq0VxbX2WFWb2fHe3bpbvK5ATPgqz1Vmpozfjl6zdKIf8RpqSFaaaE1wUKhZNqCBNn9LQ7oUcCrJ8pA4EXy5G_-8SRzXDUo0qs_ZaZr1Qo-X0xFg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjcA54eJZuerJOac-oXCphdw-Fxzb4VSLKA6ciky9sfwn0S904E6IbdWn1G06PCpz40G-3_TetKf2EdLMMlHl8nqvWTpCedESr2bOnbaSOJZkqvyc=s220",
         "view": "https://drive.google.com/file/d/1bNF1mCUiYto4AGC3E3sYLTyui165Z3y_/view?usp=drivesdk"
       },
       "FOLIO": null,
@@ -188,51 +152,6 @@
       "CAJA",
       "TERMINADO"
     ],
-<<<<<<< HEAD
     "_uploadEmail": null
-=======
-    "_uploadEmail": null,
-    "ID": "53"
-<<<<<<< HEAD
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
-=======
-  },
-  {
-    "FOLIO": "28542",
-    "FECHA": "19/3/25",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "Cristobal Colon",
-    "COLONIA": "La Concepción",
-    "DELEGACION": "SAN ANDRES CUEXCONTITLAN",
-    "_company": "GZALEZ",
-    "_stage": "E1",
-    "_folderId": "15oBrA3jm7LbN3IuzznSvgqJqe3v-rYhd",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM35nDGkwQofIf4ZWBAicXSKNeQJ85ZcBG1iH4RdRZgI1aCB0LdeR5FASRLFPrSjwx7TvT4cp1J-8Tj7W6lRxygw4Xl0bP6ro5IyXKDlfBejYV1eQ=s220",
-        "view": "https://drive.google.com/file/d/1T0M_2qu8YuLaWvTWMoRZ4CjjFjTkJcZq/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIglUQ-T1gaStQBVeFabRr1Ill03fN9tt_muMPpzN101kjue3H56yGMD-ftIqQ7diTnO2XKkUJm-oEWnwgH6ZFG6mNSv63CIYCEpwWbR0Q4V7Qfg=s220",
-        "view": "https://drive.google.com/file/d/16gq2Cdtu3tyumyIjKyNI9P-LUEJ-QG4C/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyzq87HErl73RR61xjpSVk2DHGEIMn7vbo3RevmB9nG7XFTW00B2NmSjJGapD3topxNj6MYe9iIOh0-_oEGykPUG9u7u5D0Kh6w5fATg6H5VogTA=s220",
-        "view": "https://drive.google.com/file/d/14M9iWfKUQXG1H2wkWZB1YokQjCenWiEC/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 1,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 28542 - 19/3/25 (LEGACY)\n  → 28542_inicial ✅\n  → 28542_caja ✅\n  → 28542_terminado ✅",
-    "_faltanNEO": [],
-    "_uploadEmail": null,
-    "ID": "53"
->>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
   }
 ]
