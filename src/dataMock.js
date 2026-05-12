@@ -1074,24 +1074,11 @@ export const RESUMEN_DATA = [
     "ID": "30",
     "_stage": "E3",
     "TOTAL_OMISIONES": 110,
-<<<<<<< HEAD
-    "OK": 94,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 1,
-    "CARPETA VACÍA": 1,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 9,
-    "FALTA: INICIAL + CAJA + TERMINADO": 1,
-    "FALTA: TERMINADO": 4,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-=======
     "OK": 96,
     "FALTA: CAJA": 8,
     "FALTA: TERMINADO": 4,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 1
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "EMPRESA_RAIZ_MASTER": "ALSAFI",
@@ -1559,24 +1546,10 @@ export const RESUMEN_DATA = [
     "ID": "34",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 406,
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "OK": 278,
-    "FALTA: INICIAL": 12,
-    "FALTA: CAJA + TERMINADO": 10,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 5,
-    "FALTA: INICIAL + CAJA + TERMINADO": 97,
-=======
-    "OK": 339,
-=======
     "OK": 340,
->>>>>>> 552bb8cb (fix: corregida generacion de Master.json y manejo de errores en auditoria incremental)
     "SIN CARPETA": 1,
     "FALTA: CAJA": 3,
     "FALTA: INICIAL": 4,
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "FALTA: TERMINADO": 1,
     "FALTA: INICIAL + CAJA + TERMINADO": 49,
     "FALTA: INICIAL + TERMINADO": 1,
@@ -1587,24 +1560,11 @@ export const RESUMEN_DATA = [
     "ID": "35",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 147,
-<<<<<<< HEAD
-    "OK": 109,
-    "FALTA: INICIAL": 5,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 2,
-    "SIN CARPETA": 23,
-    "FALTA: CAJA": 4,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 4,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-=======
     "OK": 117,
     "SIN CARPETA": 23,
     "FALTA: CAJA": 4,
     "CARPETA VACÍA": 2,
     "FALTA: TERMINADO": 1
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
   },
   {
     "EMPRESA_RAIZ_MASTER": "KANARE",
@@ -1706,18 +1666,8 @@ export const RESUMEN_DATA = [
     "ID": "48",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 163,
-<<<<<<< HEAD
-    "OK": 158,
-    "FALTA: INICIAL": 2,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-=======
     "OK": 157,
     "FALTA: INICIAL": 3,
->>>>>>> 758840c7 (feat: implementacion de arquitectura de sincronizacion incremental y mecanismo de self-healing)
     "FALTA: TERMINADO": 2,
     "FALTA: INICIAL + CAJA": 1
   }
