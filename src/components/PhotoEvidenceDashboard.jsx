@@ -790,7 +790,7 @@ const PhotoEvidenceDashboard = () => {
             const errorsByContract = {};
             records.forEach(row => {
                 if (row.RESULTADO_AUDITORIA && row.RESULTADO_AUDITORIA !== 'OK') {
-                    const rawId = String(row._contract || '');
+                    const rawId = String(row.ID || row._contract || '');
                     const cId = parseInt(rawId, 10).toString(); // Normalize "1" to "1"
                     if (!errorsByContract[cId]) errorsByContract[cId] = [];
                     errorsByContract[cId].push(row);
