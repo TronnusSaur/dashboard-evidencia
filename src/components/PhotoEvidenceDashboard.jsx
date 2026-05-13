@@ -192,7 +192,7 @@ const PhotoEvidenceDashboard = () => {
         }
 
         if (selectedContract !== 'ALL') {
-            filtered = filtered.filter(r => r._contract === selectedContract);
+            filtered = filtered.filter(r => String(r.ID) === String(selectedContract) || String(r._contract) === String(selectedContract));
         }
 
         if (selectedDelegation !== 'ALL') {
@@ -205,13 +205,16 @@ const PhotoEvidenceDashboard = () => {
     }, [records, selectedStage, selectedCompany, selectedContract, selectedDelegation]);
 
     const kpiData = useMemo(() => {
-        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaTerminado = 0, ok = 0;
+        let sinCarpeta = 0, faltaInicial = 0, faltaCaja = 0, faltaTerminado = 0, ok = 0, okTotal = 0;
         let faltaFolio = 0, faltaCorte = 0, faltaDemolicion = 0, faltaLiga = 0, faltaMezcla = 0, faltaLimpieza = 0;
 
         filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
             if (rawType === 'OK') {
                 ok++;
+                if (!row._faltanNEO || row._faltanNEO.length === 0) {
+                    okTotal++;
+                }
                 return;
             }
 
@@ -234,7 +237,7 @@ const PhotoEvidenceDashboard = () => {
         let total = sinCarpeta + faltaInicial + faltaCaja + faltaTerminado + faltaFolio + faltaCorte + faltaDemolicion + faltaLiga + faltaMezcla + faltaLimpieza;
 
         return { 
-            total, sinCarpeta, ok,
+            total, sinCarpeta, ok, okTotal,
             faltaInicial, faltaCaja, faltaTerminado, 
             faltaFolio, faltaCorte, faltaDemolicion, 
             faltaLiga, faltaMezcla, faltaLimpieza 
@@ -268,25 +271,40 @@ const PhotoEvidenceDashboard = () => {
         );
     };
 
-    // Pie Chart Data
-    const pieData = useMemo(() => {
-        const sums = {};
-        CONDENSED_CATEGORIES.forEach(type => sums[type] = 0);
+    // Contract Progress Data (Template vs OK)
+    const contractStats = useMemo(() => {
+        const stats = {};
+        
+        activeResumen.forEach(res => {
+            const cid = res.ID || "Sin Contrato";
+            if (selectedCompany !== 'ALL' && res.EMPRESA_RAIZ_MASTER !== selectedCompany) return;
+            if (selectedContract !== 'ALL' && cid !== selectedContract) return;
 
-        filteredRecords.forEach(row => {
-            const rawType = row.RESULTADO_AUDITORIA || '';
-            const condensed = MAP_TO_CONDENSED[rawType];
-            if (condensed) {
-                sums[condensed]++;
+            if (!stats[cid]) stats[cid] = { company: res.EMPRESA_RAIZ_MASTER, totalTemplate: 0, ok: 0 };
+            stats[cid].totalTemplate += (res.TOTAL_OMISIONES || 0);
+        });
+
+        filteredRecords.forEach(r => {
+            const cid = r.ID || r._contract || "Sin Contrato";
+            if (stats[cid] && r.RESULTADO_AUDITORIA === 'OK') {
+                stats[cid].ok++;
             }
         });
 
-        return CONDENSED_CATEGORIES.map(name => ({
-            name,
-            value: sums[name],
-            color: getColorForStatus(name)
-        })).filter(d => d.value > 0);
-    }, [filteredRecords]);
+        return Object.keys(stats).map(cid => {
+            const total = stats[cid].totalTemplate;
+            const ok = stats[cid].ok;
+            const pct = total > 0 ? Math.round((ok / total) * 100) : 0;
+            return {
+                name: `C-${cid}`,
+                company: stats[cid].company,
+                total,
+                ok,
+                pct,
+                fill: pct >= 90 ? '#22c55e' : pct >= 60 ? '#eab308' : '#ef4444'
+            };
+        }).sort((a,b) => b.pct - a.pct);
+    }, [filteredRecords, activeResumen, selectedCompany, selectedContract]);
 
     // Bar Chart Data
     const barData = useMemo(() => {
@@ -305,17 +323,18 @@ const PhotoEvidenceDashboard = () => {
                 color: getColorForStatus(type)
             }));
         } else if (selectedCompany !== 'ALL') {
-            // Comparativa de contratos de la empresa
+            // Comparativa de errores por contrato de la empresa
             const contractSums = {};
             filteredRecords.forEach(row => {
                 const rawType = row.RESULTADO_AUDITORIA || '';
                 const condensed = MAP_TO_CONDENSED[rawType];
-                if (condensed && row._contract) {
-                    contractSums[row._contract] = (contractSums[row._contract] || 0) + 1;
+                const cid = row.ID || row._contract;
+                if (condensed && cid && condensed !== 'OK') {
+                    contractSums[cid] = (contractSums[cid] || 0) + 1;
                 }
             });
             return Object.keys(contractSums).map(contractId => ({
-                name: `Contrato ${contractId}`,
+                name: `C-${contractId}`,
                 value: contractSums[contractId],
                 color: '#8b5cf6' // Purple for contract comparison
             }));
@@ -1083,7 +1102,15 @@ const PhotoEvidenceDashboard = () => {
                                 <span className={`material-symbols-outlined text-sm ${isZipping ? 'animate-spin' : ''}`}>
                                     {isZipping ? 'sync' : 'folder_zip'}
                                 </span> 
-                                {isZipping ? 'Generando...' : 'Exportar ZIP'}
+                                <span className="hidden sm:inline">{isZipping ? 'Generando...' : 'Exportar ZIP'}</span>
+                            </button>
+
+                            <button
+                                onClick={exportToPDF}
+                                className="flex items-center justify-center p-2 bg-white/10 hover:bg-white/20 text-white border border-white/30 rounded-lg transition-all backdrop-blur-md shadow-lg"
+                                title={selectedCompany === 'ALL' ? 'Descargar Resumen General PDF' : 'Exportar Detalles PDF'}
+                            >
+                                <span className="material-symbols-outlined text-[20px]">download</span>
                             </button>
 
                             <button
@@ -1112,7 +1139,7 @@ const PhotoEvidenceDashboard = () => {
 
             <main className="w-full max-w-[1536px] mx-auto px-4 lg:px-8 py-8">
                 {/* Title and Filters */}
-                <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div className="mt-6 mb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                     <div>
                         <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100">Panel de Control de Evidencias</h3>
                         <p className="text-slate-500 dark:text-slate-400">Estado actual de folios y seguimiento de incidencias administrativas</p>
@@ -1176,12 +1203,6 @@ const PhotoEvidenceDashboard = () => {
                                 <span className="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-lg">expand_more</span>
                             </div>
                         </div>
-                        <button
-                            onClick={exportToPDF}
-                            className="mt-4 flex items-center gap-2 px-4 py-2 bg-primary text-white rounded text-sm font-bold hover:bg-primary/90 transition-colors shadow"
-                        >
-                            <span className="material-symbols-outlined text-sm">download</span> {selectedCompany === 'ALL' ? 'Descargar Resumen' : 'Exportar Detalles'}
-                        </button>
                     </div>
                 </div>
 
@@ -1226,15 +1247,26 @@ const PhotoEvidenceDashboard = () => {
 
                 {/* KPI Cards Grid */}
                 <motion.div 
-                    className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8"
+                    className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-[1.5fr_repeat(5,1fr)] gap-4 mb-8"
                     key={`kpi-${driveMode}`}
                     initial={{ opacity: 0.7, y: 6 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.35, ease: 'easeOut' }}
                 >
-                    <div className={`kpi-card bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
-                        <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">Folios Completos (OK)</p>
-                        <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300"><AnimatedCounter value={kpiData.ok} /></h4>
+                    <div className={`col-span-2 md:col-span-2 lg:col-span-1 kpi-card bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500 flex justify-between items-center ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
+                        <div>
+                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">OK Parcial</p>
+                            <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300">
+                                <AnimatedCounter value={kpiData.ok} />
+                            </h4>
+                        </div>
+                        <div className="h-10 w-[3px] rounded-full bg-emerald-300 dark:bg-emerald-600 mx-3 hidden sm:block"></div>
+                        <div className="text-right">
+                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider mb-1">OK Totales (100%)</p>
+                            <h4 className="text-2xl xl:text-3xl font-black text-emerald-600 dark:text-emerald-400">
+                                <AnimatedCounter value={kpiData.okTotal} />
+                            </h4>
+                        </div>
                     </div>
                     <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <p className="text-[10px] xl:text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Total Errores Físicos</p>
@@ -1299,23 +1331,38 @@ const PhotoEvidenceDashboard = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
-                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Distribución de Errores</p>
-                            <div className="h-[280px] w-full">
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
+                                {(selectedCompany === 'ALL' && selectedContract === 'ALL') ? 'Eficiencia Global (% OK)' : 'Eficiencia por Contrato (% OK)'}
+                            </p>
+                            <div className="h-[220px] w-full mb-4">
                                 <ResponsiveContainer width="100%" height="100%">
                                     <PieChart>
                                         <Pie
-                                            data={pieData}
+                                            data={
+                                                (selectedCompany === 'ALL' && selectedContract === 'ALL') 
+                                                    ? [
+                                                        { name: 'Folios OK', ok: kpiData.ok, fill: '#22c55e', pct: Math.round((kpiData.ok / (filteredRecords.length || 1)) * 100) },
+                                                        { name: 'Faltantes', ok: filteredRecords.length - kpiData.ok, fill: '#ef4444', pct: Math.round(((filteredRecords.length - kpiData.ok) / (filteredRecords.length || 1)) * 100) }
+                                                    ]
+                                                    : contractStats
+                                            }
                                             cx="50%"
                                             cy="50%"
                                             innerRadius={60}
                                             outerRadius={90}
                                             paddingAngle={4}
-                                            dataKey="value"
+                                            dataKey="ok"
+                                            nameKey="name"
                                             animationBegin={200}
                                         >
-                                            {pieData.map((entry, index) => (
-                                                <Cell key={`cell-${index}`} fill={entry.color} stroke="none" />
+                                            {((selectedCompany === 'ALL' && selectedContract === 'ALL') 
+                                                ? [
+                                                    { name: 'Folios OK', fill: '#22c55e' },
+                                                    { name: 'Faltantes', fill: '#ef4444' }
+                                                  ]
+                                                : contractStats).map((entry, index) => (
+                                                <Cell key={`cell-${index}`} fill={entry.fill} stroke="none" />
                                             ))}
                                         </Pie>
                                         <Tooltip
@@ -1325,14 +1372,42 @@ const PhotoEvidenceDashboard = () => {
                                                 borderRadius: '8px',
                                                 color: isDarkMode ? '#fff' : '#171717'
                                             }}
-                                        />
-                                        <Legend
-                                            verticalAlign="bottom"
-                                            height={30}
-                                            formatter={(value) => <span className="text-[10px] uppercase font-bold text-slate-500 ml-1">{value}</span>}
+                                            formatter={(value, name, props) => {
+                                                if (selectedCompany === 'ALL' && selectedContract === 'ALL') {
+                                                    return [`${value} folios (${props.payload.pct}%)`, props.payload.name];
+                                                }
+                                                return [`${value} folios OK (${props.payload.pct}% meta)`, `Contrato ${props.payload.name}`];
+                                            }}
                                         />
                                     </PieChart>
                                 </ResponsiveContainer>
+                            </div>
+                            
+                            {/* Desglose de Contratos en lista scrolleable */}
+                            <div className="flex-1 overflow-y-auto max-h-[120px] pr-2 custom-scrollbar">
+                                <div className="flex flex-col gap-2">
+                                    {contractStats.length === 0 ? (
+                                        <div className="text-xs text-slate-400 text-center py-4">No hay datos de contratos</div>
+                                    ) : (
+                                        contractStats.map(c => (
+                                            <div key={c.name} className="flex items-center justify-between p-2 bg-slate-50 dark:bg-slate-700/50 rounded text-xs">
+                                                <div className="flex flex-col">
+                                                    <span className="font-bold text-slate-700 dark:text-slate-200">{c.name}</span>
+                                                    <span className="text-[9px] text-slate-400">{c.company}</span>
+                                                </div>
+                                                <div className="flex items-center gap-4 text-right">
+                                                    <div className="flex flex-col">
+                                                        <span className="font-bold text-slate-800 dark:text-slate-100">{c.ok} / {c.total}</span>
+                                                        <span className="text-[9px] text-slate-400">Folios OK</span>
+                                                    </div>
+                                                    <div className={`font-black px-2 py-1 rounded text-white min-w-[40px] text-center`} style={{ backgroundColor: c.fill }}>
+                                                        {c.pct}%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))
+                                    )}
+                                </div>
                             </div>
                         </div>
                     </div>
