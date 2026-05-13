@@ -394,8 +394,8 @@ async function procesarEtapa(drive, sheets, config, auditCache) {
         const cacheKey = `${config.id}_${folioStr}_${folioIds ? folioIds.join('-') : 'null'}`;
         const cached = currentCache[cacheKey];
 
-        // CACHE HIT — no API call needed
-        if (cached && typeof cached === 'object' && cached.photos && folioIds && folioIds.length > 0) {
+        // CACHE HIT — no API call needed (SOLO SI ES OK)
+        if (cached && typeof cached === 'object' && cached.status === 'OK' && cached.photos && folioIds && folioIds.length > 0) {
             row['RESULTADO_AUDITORIA'] = cached.status;
             row['PHOTOS'] = cached.photos;
             row['_folderId'] = folioIds[0];

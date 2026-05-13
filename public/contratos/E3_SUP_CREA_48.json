@@ -1120,7 +1120,7 @@
   {
     "FOLIO": "480027",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -1128,27 +1128,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1KKyQobAse_0GfkUWIlGlpgiO65oVdWFj",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXkC9A2aUqwJALL1JFOBmHJoObQtbOS_UkcLUIwyDjhBB0uxzN1HbpGMHP7JM4cvAiZn3y9DmJ4KpK22TOhc-PISqO6Zf6IFOk3QLLqgpZGHBGrQ=s220",
+        "view": "https://drive.google.com/file/d/1Q_vHPniaEOKE1YYZdWwssuYdHF9rsDqo/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrVR3V5W0dfHv_YleKeCoSYpdltTxipXHWSTff0W4IIYjJ3P66w3slSllyPxJ8uMbH-lFleMoO7RuKJ_MR4cTfuT9ZquephgE_jnFDmLLJ8fcENg=s220",
-        "view": "https://drive.google.com/file/d/1sGOs6cAXHD477CIcUSHsR5xXlCSphSlk/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBf8Sc55d5sLinaeoIhsc8urg2UTHBbhOLY2ccei_5JOOd1YqRP-oM3A9kZdXGvL-Br8RBZFylPUDsMyglB8lYBnLCVI6mnOOAudzE6OmN8wILgA=s220",
+        "view": "https://drive.google.com/file/d/1r8cJd4kYUEnmmUs0Y9FRlA8T02Q8VINy/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9Lxsg2otYq79hCAekslCgJ_MD1aJbDlgprqzCIN1AnZA9UM0HZWkcv2Sgr9RrzoBdsbH-n_CpvurzX7oxVJnZ3LItdY8gwc14eaz_6pZXla1t9g=s220",
-        "view": "https://drive.google.com/file/d/11c0jPjaevW3zcWmzNH2Uxs_Mazu8diuf/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOI1gT3854nWXcRCTbyHjfkcaFa9-j9Y--EUMp4bvmUO45ccUq6RPoT6MpPZrgWJ3OZMgxyWrwy83wu27kTsCTrhZ1Dt_ibCa_B63rstWmFMvaa7Q=s220",
+        "view": "https://drive.google.com/file/d/1OTm87Cz1PCvY6RPfaTg-ADCLcNyWMFmS/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480027 - 1/4/26 (9 FOTOS)\n  → 480027_inicial ❌\n  → 480027_folio ❌\n  → 480027_corte ❌\n  → 480027_demolicion ❌\n  → 480027_caja ✅\n  → 480027_liga ❌\n  → 480027_mezcla ❌\n  → 480027_terminado ✅\n  → 480027_limpieza ❌",
+    "_auditDetail": "Folio 480027 - 1/4/26 (9 FOTOS)\n  → 480027_inicial ✅\n  → 480027_folio ❌\n  → 480027_corte ❌\n  → 480027_demolicion ❌\n  → 480027_caja ✅\n  → 480027_liga ❌\n  → 480027_mezcla ❌\n  → 480027_terminado ✅\n  → 480027_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -1290,7 +1292,7 @@
   {
     "FOLIO": "480031",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -1299,31 +1301,33 @@
     "_folderId": "1CQZop_LINynhn5s6xFg0zX6FGIRKI0Nf",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNx6ZheSn7ceWeKUGfOi5gynXDIgSeFehH0QGUy7miWdWPmlsMLwfgwIyyAPqqNCEifYkUQ-5C7LIAjPTI1wi4Ul2PxwBOb6jMqPolLQtz2wb_lNw=s220",
-        "view": "https://drive.google.com/file/d/1sy6D42697vvrELXF6EXr_0RZAkiRLyrh/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3BFk--ukv02yJsNX9Y_GXn-Jy-5Ub6mFd4qY-wZ-FlQ5q6IC4Vh4IrvY_tar-WMOrSAKaFkM35cPPN_knKSRepqwQNBwaL9ngx1wdCrH75MLumg=s220",
+        "view": "https://drive.google.com/file/d/1gVAPjGU0THWFzTVXfAYJV-wen-1EGbdc/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5cEex5Qaq83PpUfIVGpBbI31VbVTOu7-R2zEyeadqp9uGS3plwhA6N1H3pVOcryG76nYTbe7ak-u0XwGM23PYu33PE0mH4Oxku6XqKeLZqYwYxA=s220",
-        "view": "https://drive.google.com/file/d/1NIXC1MAtNZOsfml1qrRsCNVY93MR9Qty/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJiAloq1FCFGG14kuSQYaHcsBx3cPhIFxkQ6j9v25LiOm7U6qrl_qcdDN3mO5yyMoDWwSwhi436VIUrG0ahKCJ6GIEkcwjTNji19rrAYNEAyDmXg=s220",
+        "view": "https://drive.google.com/file/d/1XE-o1ypRDmM5WVNoX8oS3RFtD4SZEeEU/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsSaT1a9E_eTzCCAkdoVNEwgzPfyi_x0HxS-o-ZrVxTBu7k-6IgMnXlRjoZbgy6p_mNSAQ0Fu258UD7Yjaqfm6R2G_pqnbwfoD4DT0vtUUwh0QiQ=s220",
+        "view": "https://drive.google.com/file/d/1JRIPsKexOZgqxCZLM1CBLid8G_hJOkd0/view?usp=drivesdk"
+      },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480031 - 1/4/26 (9 FOTOS)\n  → 480031_inicial ✅\n  → 480031_folio ❌\n  → 480031_corte ❌\n  → 480031_demolicion ❌\n  → 480031_caja ✅\n  → 480031_liga ❌\n  → 480031_mezcla ❌\n  → 480031_terminado ❌\n  → 480031_limpieza ❌",
+    "_auditDetail": "Folio 480031 - 1/4/26 (9 FOTOS)\n  → 480031_inicial ✅\n  → 480031_folio ❌\n  → 480031_corte ❌\n  → 480031_demolicion ❌\n  → 480031_caja ✅\n  → 480031_liga ❌\n  → 480031_mezcla ❌\n  → 480031_terminado ✅\n  → 480031_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
       "LIGA",
       "MEZCLA",
-      "TERMINADO",
       "LIMPIEZA"
     ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
@@ -1374,7 +1378,7 @@
   {
     "FOLIO": "480033",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -1382,28 +1386,32 @@
     "_stage": "E3_SUP",
     "_folderId": "1SdPdDUibmF_Bngfj25b_5vtZXEDdNWQw",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMp2KiLbZd8haoKJVwA5IH0QdqT398vjaWd4ejdNRweuYXGqzbeYqPNg8LSrtVAfGZaiaN4Xd1AKMZHyspp7YMLT8PaZWqnz1WOTignDPuYM0Nfdg=s220",
+        "view": "https://drive.google.com/file/d/1wsz0QrOeSlhKD9TVwmJcT_3KfcLZ2IZ_/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLSxqBtUzlLejWQqHDCfdC0gOri71hdiMhc88CNBtoZWZosXfIKz4qeKDW4ZvWA6RybBJbu1TSuzAZucuOvbs7BtfWo90vy0pKX_Mh7mLwNdpx1Q=s220",
+        "view": "https://drive.google.com/file/d/1R9_tVNVaJJ3zzSPpiBQvQJ8NBcwzlNla/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLFc1upW2kBlnFYgw_QrC9oQBMX-BT-QN9abxtLCJd_-Fm-Ysq62okQ2Pq9PbtZckxQP9-kxGYbMwMuQtidgTNQHu2erVWiqjXshT0m-Y5FgZhNQ=s220",
-        "view": "https://drive.google.com/file/d/1KJV9EM0SDsaTzgkLwtrdTK5D5jrDBzTR/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_ZbYtueKXMlth5RD0jVDNzY2bqg3cFpnMQ7vUO3W7sur2Pb35a5OGQzCzLcdHaFVzlUHXwo7D-SDbEalQykitGK3UsaCVyiFFPgGTea4IlHyS8A=s220",
+        "view": "https://drive.google.com/file/d/1ptMHlxQlGU_XzDptkXHKrQ784KAgDmzp/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480033 - 1/4/26 (9 FOTOS)\n  → 480033_inicial ❌\n  → 480033_folio ❌\n  → 480033_corte ❌\n  → 480033_demolicion ❌\n  → 480033_caja ❌\n  → 480033_liga ❌\n  → 480033_mezcla ❌\n  → 480033_terminado ✅\n  → 480033_limpieza ❌",
+    "_auditDetail": "Folio 480033 - 1/4/26 (9 FOTOS)\n  → 480033_inicial ✅\n  → 480033_folio ❌\n  → 480033_corte ❌\n  → 480033_demolicion ❌\n  → 480033_caja ✅\n  → 480033_liga ❌\n  → 480033_mezcla ❌\n  → 480033_terminado ✅\n  → 480033_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -1671,7 +1679,7 @@
   {
     "FOLIO": "480040",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -1679,27 +1687,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1pXAZMXKl0domhIO-lG_1Z_Xo2rx8sXJm",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvWkie7A1I94KLfRfY30lcCi8Mq3xnWWXd78jYx30T4hNJebLaFGcRnv-JUlpTkF0GH0jmtF6blLglR0Cw0eruk-fRDtnhC0TnA-RVvxxXVMMtr2Q=s220",
+        "view": "https://drive.google.com/file/d/15jUrvEF2dHn_4RfDPPMEUrMJTxgk2qg-/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNL4ZE-0h_Z1zu6CcRXJsjt--AHjEoXBUaLWoNs5rZEYqeiB0T7BQVIk5VxRjL-tgh68CIycOrVFe9cXI4I7nBpLWiAAFsAC0X-BJRxQFIOVNxNIfQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9--GC-sfbyxEjMdKPOA9x-0DWjZ5mOu7y4kJtQ-uPVNEwWb7GQnHyhH5q7MIs5eDzPzWXukLHY0cTeIOuvPUidRCO-DQ3ePlLGSfqIy-t1i2rebs=s220",
         "view": "https://drive.google.com/file/d/1xiNL-u8VufXJp4egc58wJgvlx7sw5gVk/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEkmKgEIGsBUGjtjbAj1Xa3N6TzGDPQg7e1CEu_bedjpHKzGJ6Z9HgbQYhtNn0YSilOsAPhvTykqN_IF4pBn6Nw8I_LmGUGt4XYKAJUooHrngrJSY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpoqN-xwy90arqq922ZAXPfJK3kDEEgx_yid04a3y3sv6oxTqOrohO3Uv7PR908hr5F77h_4DPXXsg-fNVUqaMG0JDIP2BcHBofwAu4cw2PCQgfA8=s220",
         "view": "https://drive.google.com/file/d/1g3sFfFQSNRBI1m2PHXOiHj2LX5sgo_Of/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480040 - 1/4/26 (9 FOTOS)\n  → 480040_inicial ❌\n  → 480040_folio ❌\n  → 480040_corte ❌\n  → 480040_demolicion ❌\n  → 480040_caja ✅\n  → 480040_liga ❌\n  → 480040_mezcla ❌\n  → 480040_terminado ✅\n  → 480040_limpieza ❌",
+    "_auditDetail": "Folio 480040 - 1/4/26 (9 FOTOS)\n  → 480040_inicial ✅\n  → 480040_folio ❌\n  → 480040_corte ❌\n  → 480040_demolicion ❌\n  → 480040_caja ✅\n  → 480040_liga ❌\n  → 480040_mezcla ❌\n  → 480040_terminado ✅\n  → 480040_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -1798,7 +1808,7 @@
   {
     "FOLIO": "480043",
     "FECHA": "1/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "MORELIA",
     "COLONIA": "RINCON DE SAN LORENZO",
     "DELEGACION": "SAN LORENZO TEPALTITLAN",
@@ -1807,31 +1817,33 @@
     "_folderId": "1epxjeNtoqZhKcqLdCw8CFVQwBaKYlro6",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYC0jeCVC7ygmyGpASGKXMiPsWnXH_S1CyfHOmFjiPGeNzlUTOCAh_zWHwNhpNxLJTWBwS3LGfdwtkaAiQhRJfNsW6doDIJGKxkvmlDDZleQqiwRU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_co8bZx02phAOuwzI3c8g1bgYIAMnlt3VHd5W_mZn2rObfjHTYhWQPyRWTVP0szhf-bqP69vLrMs427ZKwe3aUY9UX7YIXugPOygiA4S3z1Btblk=s220",
         "view": "https://drive.google.com/file/d/18ruoN-maopbDgwiRp65_Fx7_YGYL6rK6/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvJ1k7Ha2xLNDIoxDKV3CIYVnqdd5EF481WpsNGvieXRn32Dg4mLTdAwAyJ2F-LyESU8U0U8A45_wT9NnoMroJ-GawrIa9-0h3bRcES2PxYXJAgeE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJnYqoQvDnSG8dNLB55Uphqykg8G9KQX-HvXMwoEIMdmgYClMD56V28sEDXJt9yKBgIWZsKZ-5OU1FNVgMY3tYWMk28HAX08vjaDRBBXGvj8aaxZU=s220",
         "view": "https://drive.google.com/file/d/1LBfLyXuM91CcJwydf2ieJ0T1LpuEVjvJ/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiKIMOlWJfT-3nXorCoZDEr-YnJHsDRxN0cOWgKPDD-UzX3IFkQhyZC-ushp08EQtKwL7D9U1d7x7LPfYH42mOICxO7MDVX9WQGPkRDGnvrPj4w-g=s220",
+        "view": "https://drive.google.com/file/d/1nWcZ3QkesWGRg605f03ivpvYs-ezjXCN/view?usp=drivesdk"
+      },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 480043 - 1/4/26 (9 FOTOS)\n  → 480043_inicial ✅\n  → 480043_folio ❌\n  → 480043_corte ❌\n  → 480043_demolicion ❌\n  → 480043_caja ✅\n  → 480043_liga ❌\n  → 480043_mezcla ❌\n  → 480043_terminado ❌\n  → 480043_limpieza ❌",
+    "_auditDetail": "Folio 480043 - 1/4/26 (9 FOTOS)\n  → 480043_inicial ✅\n  → 480043_folio ❌\n  → 480043_corte ❌\n  → 480043_demolicion ❌\n  → 480043_caja ✅\n  → 480043_liga ❌\n  → 480043_mezcla ❌\n  → 480043_terminado ✅\n  → 480043_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
       "LIGA",
       "MEZCLA",
-      "TERMINADO",
       "LIMPIEZA"
     ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
