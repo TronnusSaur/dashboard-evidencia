@@ -20132,7 +20132,7 @@
   {
     "FOLIO": "250446",
     "FECHA": "6/5/26",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
     "CALLE": "FELIPE VILLARELO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
@@ -20141,13 +20141,16 @@
     "_folderId": "1z4Rr99ZkwZm0DUgGOgzOaEfXj_A9HM8c",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2X50-u1YAg1LwqgB9ZCNuXYbzh-mtNu_Ql-PmTD-jtJDZbc0tNDvvvKYDm6bjWGSEhlSOZvpU0FFwYvnPgCD_yEfk1Tk7F815Tt_aO4Hf9ArTloM=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNN-wN_twCP_faGQP4Y-xOfX-ZxHMxsUwU7yG9nMzOrs_tnAEpDfilOpRPXAcEaB1D0GNS-Kth6sCIBfhb_c4FfAKkGMnai6nuVJdoVbNGhvEGoAZE=s220",
         "view": "https://drive.google.com/file/d/1A7B17Sr3BfY-I2_mfcWRmpDj3ZdnTOeO/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcdzQVz-WjqtrggF_7tkAcXBvslOv-dVF2UZ2neXvaLkgzMJjeMF9juTxZTVzuYIxbmPzrr10jbbeEoPN5fw-aQ1riRx8y2CQYPiHfUZIAIRWC08k=s220",
+        "view": "https://drive.google.com/file/d/16frEkidmZzGTOVPqP5Bn0lCgQk0t5TMT/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": null,
@@ -20155,12 +20158,11 @@
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 250446 - 6/5/26 (9 FOTOS)\n  → 250446_inicial ✅\n  → 250446_folio ❌\n  → 250446_corte ❌\n  → 250446_demolicion ❌\n  → 250446_caja ❌\n  → 250446_liga ❌\n  → 250446_mezcla ❌\n  → 250446_terminado ❌\n  → 250446_limpieza ❌",
+    "_auditDetail": "Folio 250446 - 6/5/26 (9 FOTOS)\n  → 250446_inicial ✅\n  → 250446_folio ❌\n  → 250446_corte ❌\n  → 250446_demolicion ❌\n  → 250446_caja ✅\n  → 250446_liga ❌\n  → 250446_mezcla ❌\n  → 250446_terminado ❌\n  → 250446_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "TERMINADO",

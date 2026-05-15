@@ -303,7 +303,7 @@
   {
     "FOLIO": "070008",
     "FECHA": "26/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -312,29 +312,31 @@
     "_folderId": "1JVPWds2WHBo1HqMjb1Ujal7Nw-A40Arc",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyb8MWJPOMFXdge26HCeOclSOO5b4TZ6meCjh6sb5DCIPtlFt19uwDVeVMagelBZNibVhd6YU2RkZGvqB3Kwr0j03PlmFK7lsXk0H0w2v5VAm-iXc=s220",
-        "view": "https://drive.google.com/file/d/1oAiXZOmdMP5WBjr-EKRVTTgpcrsPPS3-/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeU3G8BQU4N89yEJzB4BGFCatwLzzIaCXw2WIsxuFNSJS0oTxPJyh3enNqZ0H7zTbSUEWhRfzEpoQvwr7ZcuigS5XmKLdkgSPLTyTnscqUHlhpRg=s220",
+        "view": "https://drive.google.com/file/d/1tVtoNo-D6guyQy2lK_UtPV2xEbwyj4si/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtQ_WjP-5m_6DjfPJD1HDVRpr6j7DuaXs818ky0Srt7t4Z4K5u69MGC7VXfjBerj_eGjfXHHbnPjOuWRlrFNqqswEm12XHagzCC6cdBs7pDtDQAg=s220",
+        "view": "https://drive.google.com/file/d/1bPh2RaOB6EACrOgbU_QlvU2OdJJwUSmP/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5y6vj8mj1qxbDeA9hvpUoZVJDPb2iHdgx-n9Q8aLunTELHDNyqW5rZnd1GxJcVCljx1KUVAd_c4c9Gctdm1CqvwW8UqPk289S4t7LsCRV_jFa8Uc=s220",
-        "view": "https://drive.google.com/file/d/1EAYV2xh0jLkXkcUJNezHn25mtnXE3g4Q/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkoqZs2qoYBRTA7QbHMZtU7GV4WtnhDQcpLdaSxSuhOzIHfBQwZWW9Jpg2nvRgqhPxqZEKL3htFfq0EbgW2M1jIR6twvmQmFpcH9AXTMaz0HclAg=s220",
+        "view": "https://drive.google.com/file/d/1oM0QuAr8rlKRMbWmQ5cG0wktDNdtOhHj/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070008 - 26/3/26 (9 FOTOS)\n  → 070008_inicial ✅\n  → 070008_folio ❌\n  → 070008_corte ❌\n  → 070008_demolicion ❌\n  → 070008_caja ❌\n  → 070008_liga ❌\n  → 070008_mezcla ❌\n  → 070008_terminado ✅\n  → 070008_limpieza ❌",
+    "_auditDetail": "Folio 070008 - 26/3/26 (9 FOTOS)\n  → 070008_inicial ✅\n  → 070008_folio ❌\n  → 070008_corte ❌\n  → 070008_demolicion ❌\n  → 070008_caja ✅\n  → 070008_liga ❌\n  → 070008_mezcla ❌\n  → 070008_terminado ✅\n  → 070008_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -344,7 +346,7 @@
   {
     "FOLIO": "070009",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -353,29 +355,31 @@
     "_folderId": "1mi3-uiX_JRnTkCEGvWDxfeFkwhQR9i7x",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-mT_yrgEeHy_ufZcWwchOteIsuKBimzIxqhI1jL9yL521pB5eJ8sk3iEDe2UjLZBL2WzoB11N5eBZYkWBpbwf-DlTX_8Zfj0BTJFNsV_FgaBms9Y=s220",
-        "view": "https://drive.google.com/file/d/1y-70LhXz4gX1e3_o7_K8WxEroLul8YTw/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOM8AUHWNXpveJ0wqVVnlv_MsQ94L1biVQXaLENW0fWCxqdt7uJCjxWxXMzioG2ouQfUm5OY3d6hD3ZEtogrmOSfuk2H8TigZSEsXsbYexgWis8hA=s220",
+        "view": "https://drive.google.com/file/d/1r0A-b_L6t06BxQtXZPUhly3qITtt0AOb/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcCGpyKEGvoJNGqjLftXDX5HWK2VrwDF7foa_ORgd_s3aeSiAV2Ga2epwIg3Xm-tuY-7ZQ65W4XfBQezPLtU-i9lR5TzZNcrMvBdVuyo0anPfFHQ=s220",
+        "view": "https://drive.google.com/file/d/1hLyjeO_4MgmaDSK7Pj0E4mDk_SVMD52m/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmOmBGJbWEbB1l0nulhKHVubUOcwrY859j2N0RtlrjP8otnMxIYDoMYnJzTyY8lUI0MHeZ8jckjZjxQ4oPVUGPrgeUkB10dVJ3kjDHFoDczmhKJaE=s220",
-        "view": "https://drive.google.com/file/d/1rXBsx2cQXrwoa3FMNmlYRsfIAPX3fBh5/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSXQmQSwBR9yRFnGZPdZb-d95b0gnmOWw2D08UZ6xHs5ultnB_cF0bAXSujCesXWwIgitomqxcAsTV2oc-WyPSMMgJ3qgJ_KzKAe8brL9T0HTcbg=s220",
+        "view": "https://drive.google.com/file/d/1EZZj_M25ExzVMGLrqs3TDrXDJhSGbuyQ/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070009 - 27/3/26 (9 FOTOS)\n  → 070009_inicial ✅\n  → 070009_folio ❌\n  → 070009_corte ❌\n  → 070009_demolicion ❌\n  → 070009_caja ❌\n  → 070009_liga ❌\n  → 070009_mezcla ❌\n  → 070009_terminado ✅\n  → 070009_limpieza ❌",
+    "_auditDetail": "Folio 070009 - 27/3/26 (9 FOTOS)\n  → 070009_inicial ✅\n  → 070009_folio ❌\n  → 070009_corte ❌\n  → 070009_demolicion ❌\n  → 070009_caja ✅\n  → 070009_liga ❌\n  → 070009_mezcla ❌\n  → 070009_terminado ✅\n  → 070009_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -471,7 +475,7 @@
   {
     "FOLIO": "070012",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -479,28 +483,32 @@
     "_stage": "E3_SUP",
     "_folderId": "1WFLuCqKnT2yBB8_fW3UIuBTcznPMdBLt",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6T_LrPd60RTnItjMH_OmBKvNd3jFxZWk-Qjvbkvwl_m08b6cuguFEt9utA0xRLi_wJRB4jyPVMZ4koYgBMzMPYwuskGVJjhGZ6A_cgqtp-pjNhw=s220",
+        "view": "https://drive.google.com/file/d/1WsUxWfxpVHhzM1IIenQIOgN5FcFmLh4z/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWy_mOxHIBW9cx4VTCG1en9uxQvY8V5iVkOpvk_Uf4_bTYsPFgPKbUfzplsayXZzUQ4wBtTnUQ8JLRMW-hQFh9GWfxJ74hpRhZiMkzqwfv9M281Q=s220",
+        "view": "https://drive.google.com/file/d/1OfXirJBu35Q3iMAE-O1-n46rRTmi3JcR/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOg3eVwFvzgqqeNCLY_cGaW7B0TOp4r6SQd3hxzhx8k_9ntednEyUX-qbE4vv9283VS2DDPbSGQwzxzoN4wKU5k2nfCw1IFOdUvlB2P6yILYlPlOfc=s220",
-        "view": "https://drive.google.com/file/d/1L5GwuwaZgp2AMWyoUXZp6vaUNmxvrASO/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLZZGUs7tPHmlf6fAjHf3zdVIPPN1zcmYIS8QYQZ0kOJY6fIf5Fn4wxxDJt6mw5EoD72LeLzNCYby6jgr4mG7j42h11UIexrWHskhbM4yetrmK4A=s220",
+        "view": "https://drive.google.com/file/d/1nBJR295QOezOsDtcWBBYghyKR_jTmCDR/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070012 - 27/3/26 (9 FOTOS)\n  → 070012_inicial ❌\n  → 070012_folio ❌\n  → 070012_corte ❌\n  → 070012_demolicion ❌\n  → 070012_caja ❌\n  → 070012_liga ❌\n  → 070012_mezcla ❌\n  → 070012_terminado ✅\n  → 070012_limpieza ❌",
+    "_auditDetail": "Folio 070012 - 27/3/26 (9 FOTOS)\n  → 070012_inicial ✅\n  → 070012_folio ❌\n  → 070012_corte ❌\n  → 070012_demolicion ❌\n  → 070012_caja ✅\n  → 070012_liga ❌\n  → 070012_mezcla ❌\n  → 070012_terminado ✅\n  → 070012_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -553,7 +561,7 @@
   {
     "FOLIO": "070014",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -562,29 +570,31 @@
     "_folderId": "16k_E-ol44B1EmitS7yr4iX4RtgxpwK0U",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeipQib6rC4oK225pYwhwdmlGDUBk_u5od1feUnYt6ewWYtCjt5piGNKwEkNFie3O7muqdGIv0r7XTGa6BMwfuElQpsnn-yR8Obr5J1zWf8Tylsd0=s220",
-        "view": "https://drive.google.com/file/d/1DVZAA11arZ43UCrzCvxq2b2Ywjdbvzu-/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNREwmTqDdhn9ueda-GazbMw1qejz_w-MI5BgDqQHAcwVsEzfNYT_N7vjJDyMfx48SHH9_weFpxh5MeBEzR1rB7PZLlAFvUfnC_6tMoJYm21qUspw=s220",
+        "view": "https://drive.google.com/file/d/1sR3cxWXWDJToZEeyPsHokrj3Xdvjhamu/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbBgXLTrHKwVzgPTtx4LSl-LspfK_rZ7mnGPneyr3LpIFjIjP6fKHwWM-Ms9kQsxYnCDH21WAyKSz9TwehuskUsxQWJCr80z30G33Kfu8QE3k7sQ=s220",
+        "view": "https://drive.google.com/file/d/13PugxZb8lQu1qOtBjkKBuuC3xo4J_fok/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNubOe2k-ZCvSSMpt-a_lUfycBUUByL1vdnUSgm57-JQJUUT92-H6wOsHYsy9BUh_myRDF_nFZW79okTpswtP6izUn4srtnYcwnYPDkkf6rmpez644=s220",
-        "view": "https://drive.google.com/file/d/1NspEVPyKNOJXV3CFzE7WP8y4wGHVSRgM/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYu_Vk_5wHetSzJzNW3QROXInWrLPOZDHAnSfF47rPR2oT869EfbrTrO5_nNpwCIl9p_hob237JTtb4K8jI3SeSKqQ4P0QyoVMv8m8J4tchHdKqg=s220",
+        "view": "https://drive.google.com/file/d/10yYi2_z2Ob8vEnY5amYnjq3cDfZ0Kyak/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070014 - 27/3/26 (9 FOTOS)\n  → 070014_inicial ✅\n  → 070014_folio ❌\n  → 070014_corte ❌\n  → 070014_demolicion ❌\n  → 070014_caja ❌\n  → 070014_liga ❌\n  → 070014_mezcla ❌\n  → 070014_terminado ✅\n  → 070014_limpieza ❌",
+    "_auditDetail": "Folio 070014 - 27/3/26 (9 FOTOS)\n  → 070014_inicial ✅\n  → 070014_folio ❌\n  → 070014_corte ❌\n  → 070014_demolicion ❌\n  → 070014_caja ✅\n  → 070014_liga ❌\n  → 070014_mezcla ❌\n  → 070014_terminado ✅\n  → 070014_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -594,7 +604,7 @@
   {
     "FOLIO": "070015",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -602,28 +612,32 @@
     "_stage": "E3_SUP",
     "_folderId": "13Qv2jkyz5PWaUOng4yILMlYzk7ewZ0Nf",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3u3Jos9b8TQv7fKVSexdDLrH5MyT1yxa2pk0YDQr4aTd02xa8Nyc6xY5qC5pPfacRi6-P13fkRdoRauRKz6y5BPXb-c25LUwvzyJg-nP81XOdDA=s220",
+        "view": "https://drive.google.com/file/d/1ZmTnkmQC1jxxEQU8r4v8wPYUhOgjH2FK/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhDKtU-YNT-xjbp4L3A5_sRAlAnz-3MsivcrnBqGHD-7GhP41sYapOBfpTQZLfD7gFkKJI3JPKvW0rY_r4wNFz9Jhd8sSzkKCyf-szPyAKXQxwUA=s220",
+        "view": "https://drive.google.com/file/d/1VlD8IJzuaBJ97Edhyf7Hr8LN0K92_hel/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0u7g_Vj30Fp-OX3uwBlb5alhkp4coh2_pBt39ETky9heZcboNRe_6QWAg7esyrWAtV--kJmpzoQwy_Kn7mNgDuVIfMz9bzJu1rM0uF_EAQQ22LUc=s220",
-        "view": "https://drive.google.com/file/d/1R2lA5xyrV2hZHJ9zU0N88lm6jSWmkRss/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPF3kZWbG2pl3MlkGx_TglY2XyiotjXsOO51N145Q25wqlRCEl8XaoSYz56UwRicdWC66camwZgfTAVcby5wSipfKCbCR0wbGP20LDanqvJOEqPyQ=s220",
+        "view": "https://drive.google.com/file/d/1Qez9OBTF9-rYA7i00BN0qpW4WH01FXPN/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070015 - 27/3/26 (9 FOTOS)\n  → 070015_inicial ❌\n  → 070015_folio ❌\n  → 070015_corte ❌\n  → 070015_demolicion ❌\n  → 070015_caja ❌\n  → 070015_liga ❌\n  → 070015_mezcla ❌\n  → 070015_terminado ✅\n  → 070015_limpieza ❌",
+    "_auditDetail": "Folio 070015 - 27/3/26 (9 FOTOS)\n  → 070015_inicial ✅\n  → 070015_folio ❌\n  → 070015_corte ❌\n  → 070015_demolicion ❌\n  → 070015_caja ✅\n  → 070015_liga ❌\n  → 070015_mezcla ❌\n  → 070015_terminado ✅\n  → 070015_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -762,7 +776,7 @@
   {
     "FOLIO": "070019",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -770,27 +784,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1zOriDcxW6NdSnd-e3GvGXxr7FzDcGw8Z",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqr1uUsMmBKfP_WROJ9qnAH3XSvmWBAW7ReaT4anuEiEfSWseArxDi0p3yfTIu47VSjHpruokvw5dPPeLAWPBzNnVQI_rC3bWh7JCZpLlwgCAMWg=s220",
+        "view": "https://drive.google.com/file/d/1wk8yKJMGfoQVqIAEJEt3StVwcVb1IzK6/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMROLtXUB7_xUKN6HXkWRS6wz0xSOFG8JoHqGxHxU4yNH7sv9_bGd7SeWK_5KRXCqGcgHj5yIHT1VXldY57gb_yBS0USK4P_ppkB4bj0uoGlSuoJpU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzyjRnaEXCG7J_OQAnTMQD7xX35UqhwEwfqXikkfQUn1AVG1mA2xL58vWCqTytRDKtOINBn0AlEelPHChfOMcEIssYHHfA93xf0RhvJIhC5I2NPw=s220",
         "view": "https://drive.google.com/file/d/1qbrKrkgpnJZFuDvOUqt90LtR-z5USuvD/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrIMlV9cet00VQ_DGVGfEUwsQCSbe4B9S38kPEWoa5mePZs1G2xcNKfhclR6Uythtr-PboINGCzq0KVmGUlx0CNGf8stELVk2woICmS6zhiXu13ks=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAqnGUtwN0ResDI0Jo0UHxjGJwYIcVztJSJ3MASHb4HItRgvkOC9Y-8WX_ZGP4dGKt0aTxbydwbTcCLcru2TrQXYJDlPOqVKLVADnzyJU8j6hesA=s220",
         "view": "https://drive.google.com/file/d/1PdH_P0ZWuqezKU_Aw7uEsrIWF6n2oL1l/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070019 - 27/3/26 (9 FOTOS)\n  → 070019_inicial ❌\n  → 070019_folio ❌\n  → 070019_corte ❌\n  → 070019_demolicion ❌\n  → 070019_caja ✅\n  → 070019_liga ❌\n  → 070019_mezcla ❌\n  → 070019_terminado ✅\n  → 070019_limpieza ❌",
+    "_auditDetail": "Folio 070019 - 27/3/26 (9 FOTOS)\n  → 070019_inicial ✅\n  → 070019_folio ❌\n  → 070019_corte ❌\n  → 070019_demolicion ❌\n  → 070019_caja ✅\n  → 070019_liga ❌\n  → 070019_mezcla ❌\n  → 070019_terminado ✅\n  → 070019_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -889,7 +905,7 @@
   {
     "FOLIO": "070022",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -897,27 +913,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1tnJiBngfBtlBdPw9uXBtzpG7zBwS1zKm",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMS88YPVZagHDLc6gcFoOw_mU80f9-vnxHAnFxPIN2uUzITbtiOZRSI_rJ3Tt3Bd5BJnO4VIFTGk70csOX4KI8K-CdjlWGNMklLvLxgyuOzCKfrNg=s220",
+        "view": "https://drive.google.com/file/d/1TBpIqm3YH_sQDYvkTT3YRRG9prEHt6U8/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM51yjhrODHZjGZfh7EzFIZ2FOwJAIMTasv7SZwR_7z5DYAjyBP1Cw79IeDgYsC0WR-OZXf9ZbWR7HrOSniBsK0jEpNYETCfszLKsK2GlCBTZq5F_0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyH86Iqa7ZqmSvsuHVP-WpCtHyc7NMraOpNEkl3EoP0IwmNIUWII2Bq7yHOueLmhTgwkY2X-ft-kK-S3mly3sAHvJ1UnrHCrVn_4J8aVRBjVAmkA=s220",
         "view": "https://drive.google.com/file/d/1eUPn3C4_EtvUkone9aXX-m2DoVhllfqK/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaxs7-8qIaq28ftDpLmQLnVoDD_KAYZ-qmMg539nT7y60E-hO0QN8ZwwvXoXDyxxRJFSUSAE3OJCLAldgUeZ55LhA9ll02XIVK7ui-VHTja37WorU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiRfjQz5qfFPSzbUtyK9NFZJ9_3qQWtXoN0ALCd9T3caMMFozqNVU5dz3kLI41pERONwb4mC7VmKPXqyLJEv4X6K0r3obZ9CZUEMwsrENfCB3rmg=s220",
         "view": "https://drive.google.com/file/d/1-OJchQCvFtol9wj2_VxI8N7Zxp7IhdbJ/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070022 - 27/3/26 (9 FOTOS)\n  → 070022_inicial ❌\n  → 070022_folio ❌\n  → 070022_corte ❌\n  → 070022_demolicion ❌\n  → 070022_caja ✅\n  → 070022_liga ❌\n  → 070022_mezcla ❌\n  → 070022_terminado ✅\n  → 070022_limpieza ❌",
+    "_auditDetail": "Folio 070022 - 27/3/26 (9 FOTOS)\n  → 070022_inicial ✅\n  → 070022_folio ❌\n  → 070022_corte ❌\n  → 070022_demolicion ❌\n  → 070022_caja ✅\n  → 070022_liga ❌\n  → 070022_mezcla ❌\n  → 070022_terminado ✅\n  → 070022_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -930,7 +948,7 @@
   {
     "FOLIO": "070023",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -938,27 +956,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1U5d4FZk4NYNh_kiJXspd4b-Z0mf3UZYw",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3gHYM1c2fJb6Zd0_3XQYvpXRX3mdm4iw0NfpDts28Dn0Kd3j8eP_AElCdRNqRv2XkrFnux1CxVOCA5ECDnseY90lrnquJYDzQE32rHEhw_dvs1zM=s220",
+        "view": "https://drive.google.com/file/d/1yB0coalHIrcpZCLZhomMk6DD5JeRaDyK/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPA-xhOi-Klp8aSenK72AJ5GGs-gw4Ar7iY6Z8mP80nFjMNgOz35YDaFwxQ8hSo8hN9SHG1y-Ti0NCZfJdnXTJCUw1_nV1CW6Ur5c2IVZc8ewcIO98=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcKI5KIUwcu6LAzqsJeUUDfTdjkIH32gSMAc8pAm-uQXW1X6TlkuzEgDEytJCXP6oHDYDrYFp3yCbQsJ7fpVEoHOz9TInJmlaN7z7PYw_cH9kX0MM=s220",
         "view": "https://drive.google.com/file/d/1D3enigYeZsofzSYmVRJS15cg8jgCr9Je/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMB4F0aRzcmkSZp1KD8aTfSaDj9zi-i8fRGw2B9-nwzf6VWvqxihJMSubhXmuSSH6r-vG9--jovJBJAXWIUNeBkL09955JYHgadVE-Nxp45iZrU-I0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrrxledPko0r6jZDt9jDvDluIqmvefycpdlPERaxHfAwXR79_eetORZpm3xm4OCCZfz3ZSEmiNK9-08sJ52MRa0OP7pe7SS_by5IgNhquJPuR9jqU=s220",
         "view": "https://drive.google.com/file/d/1pQdQavIWBWFn1kCELSmi1jEdWTq7VpJs/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070023 - 27/3/26 (9 FOTOS)\n  → 070023_inicial ❌\n  → 070023_folio ❌\n  → 070023_corte ❌\n  → 070023_demolicion ❌\n  → 070023_caja ✅\n  → 070023_liga ❌\n  → 070023_mezcla ❌\n  → 070023_terminado ✅\n  → 070023_limpieza ❌",
+    "_auditDetail": "Folio 070023 - 27/3/26 (9 FOTOS)\n  → 070023_inicial ✅\n  → 070023_folio ❌\n  → 070023_corte ❌\n  → 070023_demolicion ❌\n  → 070023_caja ✅\n  → 070023_liga ❌\n  → 070023_mezcla ❌\n  → 070023_terminado ✅\n  → 070023_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -971,7 +991,7 @@
   {
     "FOLIO": "070024",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -979,27 +999,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1BYGhrzOW4j9HDOxtxUxUTF0WnskcK024",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHOuLJrutyO_ZaqNIf4hvhXmQFikI7dpdwV1pXZSQUWizxtLSkSfP8AddvblBCwqO9f0W2jAZwbcDT1j_rVt_pQcTE6F-ZW3jJvsQ0sqwDGwfyHA=s220",
+        "view": "https://drive.google.com/file/d/1aR2ITlC9mIh6zAC-w9boO_HZrGKELJKu/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4_8K9i2ZzvEi73GrdAlaDCKhFaqWOz6VYlxJE7EcCif392t5pgApeMNEb8sDn3sLsHRf739cViwTePl4LLqUBJ_jqhG9mlO-EpQ12mz1OkJ5s5ho=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP84QRsdntx36WKtcmSAFrg5KLZEQktkOzSBdKdtlxooMwbGMZhagx3E9ETmUjj3a8JQ0eVAXiQKbcC09pn3SZAmJTI9p2iWGmbBS387850ePcacQ=s220",
         "view": "https://drive.google.com/file/d/1dM-pur7Z6m42NUyNltHgTQ1X00gIZJJ6/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN3GMYEaMPVP7EOc6ZkTICAqlI9GRpaNtxPNdEY-qfPbvaZbHM-aWNl6cP4c1yIIvuMYp91QiEUisEHJ4XwxLcWKZCPlENU2pWrQbsOReEO56FTCJI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKy4wCp-VmRxezHHMUL1oeXzsHTWaUfC6BY0gBBYkq-5OhFrgCsalq7JjSAv9avtYQLrs32Lf8HWT37OiBMEUdngGXpXrpwlTGl7cU-3PTzLODtQ=s220",
         "view": "https://drive.google.com/file/d/1DATrANriybwvf0vRKD6PFgsoEyz-7YgG/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070024 - 27/3/26 (9 FOTOS)\n  → 070024_inicial ❌\n  → 070024_folio ❌\n  → 070024_corte ❌\n  → 070024_demolicion ❌\n  → 070024_caja ✅\n  → 070024_liga ❌\n  → 070024_mezcla ❌\n  → 070024_terminado ✅\n  → 070024_limpieza ❌",
+    "_auditDetail": "Folio 070024 - 27/3/26 (9 FOTOS)\n  → 070024_inicial ✅\n  → 070024_folio ❌\n  → 070024_corte ❌\n  → 070024_demolicion ❌\n  → 070024_caja ✅\n  → 070024_liga ❌\n  → 070024_mezcla ❌\n  → 070024_terminado ✅\n  → 070024_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -1442,7 +1464,7 @@
   {
     "FOLIO": "070035",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -1450,27 +1472,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1c-GjdYpM8og3vNdJ7BEcDc-oBwRnSP1t",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcFVDsVmxR3ayOp_C-hsO32nfFZUBa7yBHEaSlDyDF7EK2H961JQx5IPZ75WtpK4GfcFC9nSZxl7hiIniDp9JrWYbN5DlKtEA-eZYvgLbaMs9b8A=s220",
+        "view": "https://drive.google.com/file/d/1su7JiyV1tMMt0FiuUfkwU1aiU_YerC5f/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM67gRvdq8T7DoY5ohL4rK2Au9Y3V7k0gnauT7EPr11ysw6yOMJ4alsINzhsNK6XoC1RTzLmX_cOSw5eTn44bXOLMHacRZUcrpk5nqTtDma9NwCw5I=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqMZ8Wg2DM_OghYuzjdLUW5AWWe9Sct2S4o6MHcrNpYrOpXqZEGFw33dv8pCvUPQsiREAe3ILyXpCWlt-1HT1Ub0D731p6kj-LfI9rRe-OmzE_vA=s220",
         "view": "https://drive.google.com/file/d/1tdOp0YzJ05FTajffYGbmqs0FAWLi4z2R/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFWlgy3FxLBxZo2hHA7M1rohx0JXAYiKQ5HsCqyQE5xNnsObUbzjCTWtbml98b7HuDw5PEqC3SKVTvpO1KHMBgSASgbVoIOi2X5ODNJwEPAZE5R9w=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGD1ZMFw-kpWjFN1RH3TMP4M3DSBEXoOuL_Cm78xBPuv1iz1Irl9q86yJPRmquiEWAWqBEOyFnqpviNa0xCehObdw5kGaLl3eoXE31wWn2qV-dgA=s220",
         "view": "https://drive.google.com/file/d/1hPsr2xzwxedp4YSisac6rDKCzSGk3HGk/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070035 - 27/3/26 (9 FOTOS)\n  → 070035_inicial ❌\n  → 070035_folio ❌\n  → 070035_corte ❌\n  → 070035_demolicion ❌\n  → 070035_caja ✅\n  → 070035_liga ❌\n  → 070035_mezcla ❌\n  → 070035_terminado ✅\n  → 070035_limpieza ❌",
+    "_auditDetail": "Folio 070035 - 27/3/26 (9 FOTOS)\n  → 070035_inicial ✅\n  → 070035_folio ❌\n  → 070035_corte ❌\n  → 070035_demolicion ❌\n  → 070035_caja ✅\n  → 070035_liga ❌\n  → 070035_mezcla ❌\n  → 070035_terminado ✅\n  → 070035_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -2614,13 +2638,13 @@
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTSDTvRqdKivtUzSmyCtJzhcDvJb49sMfpsByUeIqmjlWV5K_eWYeimbzFBwF-KkZKsAHG3ecLVZC4JEftz_P5aJ5AMZdrS9ejJiJlPVteqtVJ8A8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRTNJqQzRVITac4cQhIl7Fh4ys5OGInS1k4DQUZhKkXi7kOk4AzgXtFOtLKORQKOY3XiJeAlrGFNRHkDsHTgf5bPA3Fe2XPcE-HrY78FxQuJkWHA=s220",
         "view": "https://drive.google.com/file/d/18tDxR4Gjj6ShzSQcNO07SgUUK2cQihx3/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIchFMR1VIleHf-qxA8QOGU6C-R9xsMHotSrpbMniFQbdxjhrp7INLYlim7RH5SzWld6PPtcUvAUUzaked1Sz16W8WoqKXU7CQN8cfebAz319rpeg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlDJJXdVKUP9JsCxmgo0UG0ogGDhDDhp851cf3KrkhoEzl5TR1qHlNgRsInryxmVIeWji31rBVFpPLYC5SG_Pmm_pSX8_495-A0sA-u457fj99LQ=s220",
         "view": "https://drive.google.com/file/d/18HfWPjn3_QxolTYp-Uwu6snILMsBVVwe/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -6984,15 +7008,15 @@
     "_folderId": "1SaspDSJKBB3JDd1ufernbuTZ0lYH2Vd8",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOwhrkOhJYoKLAnyLyCrsmakvD9n9R3p6qHrTnrpOYQeXQXbC473DYF-lxPZgWrSmDsSItUpA3ldzf4ueNxrtWAlam3mkm7gxiJ6UNv6LbUNxWxqE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSlu0ykxtjMFuYapP9GFcnHBNEoaodHqJwCgZPcuy0u1cgODGxY3C7_CMS8I9hp6yJ7WyKeBvs4YNxZB7xtq3a3qgcfvLIx0WkRiyFJsNmE9wIRg=s220",
         "view": "https://drive.google.com/file/d/1mJWenLNIY2Ug0a8IRpeXPWtOLf4jJg86/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSOl0pGIbd1OvjDGX-oP-qOVsDCihyiW8n8tqxrYp3m0w7r8xvHz9k86ZRdyml9BJNoALqZzxQJ9QBnv6_jCwrqTVDaTZDJY6fdhpMnhr_nJvOQzI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8M8Q43_-4XaDPuGM1XKMSzm1904Hh2G0wd8Mn0FymEHxwmuW4IuNVlyiWtgC9eKgr3xwbdCp4zKv9DrWIH5I49BJ7SXrAYy2ci-WkAaXJio5ZgA=s220",
         "view": "https://drive.google.com/file/d/1MwtoQCVr24AEPAc5aZKSos3u77lqNvcA/view?usp=drivesdk"
       },
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlwAZSng71cAZd8rff1uM8gx2nPTZa3AMM_korrlTFWvN0Kmp-Fy1xiojwyrP-mXRb0vWmRrC3OxfYF4oJd0aub6JaRXOSFrZoe-F56j7mNKPsefE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgkq54fcJknAQct-uOqH-oQSTd4hrcw8VlJx0fbCfQTAJTnA4RrJcgGWjWFS-B8BvSaMpR6fpxeqjZvY4Wxaaxzjc0TaqU2QOaH3oxXYT6Ix2v2g=s220",
         "view": "https://drive.google.com/file/d/1ebeHV-mr8aPYlUBPUay9i2LQeHL3jYxE/view?usp=drivesdk"
       },
       "DEMOLICION": null,

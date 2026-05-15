@@ -5162,52 +5162,130 @@
   {
     "FOLIO": "010121",
     "FECHA": "10/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PEDRO ASCENCIO",
     "COLONIA": "LA MERCED (ALAMEDA)",
     "DELEGACION": "CENTRO HISTORICO",
     "_company": "ALSAFI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1W-VfiQsZKy0U5NmdALDSRAEkiblS7yQY",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8R-QLyH_9WLy_XzU1VfYtyjL6pF21KZdRuLPzgR6Eyp4cPgUI_lvTGb3XWx-yb8YaIzvQAtUC1ecMTYWQc8PA6HFwNBQWbUpp0kDUVa53S7JgSA=s220",
+        "view": "https://drive.google.com/file/d/1Ym47Vsxwx2HB_dd_bKd9Ho4PsMqCBAHI/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZHsJHkKP3MD1mB_e-QEJZGscI7VRC-HDmjhAKbkVgG5CeRiDRcsAm54QeHJ9q7pUfKkV8tnKEa-0imuAE95sphdIQbtBl1F-oBr7g8jW4Mp8LwQ=s220",
+        "view": "https://drive.google.com/file/d/132LtHfxnVOHHqsk_3cnXX-swuf1M4DdZ/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMczYBwfJGNUuzq5wfJjdjLthbAhZR5hoOETg2WBjoDuhTZelRFaHA95fs1mP2pmUOsOLKSGG4XzBteOSH8L251EROtz8U-MZm8bOTcM8XWLwIoOA=s220",
+        "view": "https://drive.google.com/file/d/1DNzeSDnBEDu2obEPGokOOawIg725hYJ4/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 010121 - 10/4/26 (LEGACY)\n  → 010121_inicial ❌\n  → 010121_caja ❌\n  → 010121_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 010121 - 10/4/26 (9 FOTOS)\n  → 010121_inicial ✅\n  → 010121_folio ❌\n  → 010121_corte ❌\n  → 010121_demolicion ❌\n  → 010121_caja ✅\n  → 010121_liga ❌\n  → 010121_mezcla ❌\n  → 010121_terminado ✅\n  → 010121_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "010123",
     "FECHA": "10/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PEDRO ASCENCIO",
     "COLONIA": "LA MERCED (ALAMEDA)",
     "DELEGACION": "CENTRO HISTORICO",
     "_company": "ALSAFI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1oXUWZRrsPf_z1sM6m4JCn7PogayC4YC7",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyGYUltSslKVywvAXyxw5wLMnOQjI4kbs83H4nNJYUp4z582YO6X5zPLplPFivoXOcD97SrrD5FSN2jlCh8x0wNjZztqpZHqS5n5PDKlr-ZwY-ug=s220",
+        "view": "https://drive.google.com/file/d/1u19ivVTWJUmtLRmGWdeV-380a1OExkdk/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUeLpFhxpdwZALrhv6QbnL600XmCpuC1G9-wWinaWoPeNMtMxqoksDd1G7Umw7ZG2MKhCv5Hxqgt-A7Qkaa3ubmwO2o_WfckrPsGeduGHsGlzcXA=s220",
+        "view": "https://drive.google.com/file/d/1OqkY9y3hQX2rAOMJj3whf8--YsqE8hiw/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTPTsCQiPfr_r5KXXIJEvmt-joQ2wiLBQC9S8tLZmNjG8Xqmlu6E8rAjw-TKd9btUI75O6mYv34_OZhFQQfTNdNdpn4c_7cQSEt7sx5kSbBNoUVQ=s220",
+        "view": "https://drive.google.com/file/d/1q3hCiE_ug_f1UKUBEJGGnCC2xMsDRROM/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 010123 - 10/4/26 (LEGACY)\n  → 010123_inicial ❌\n  → 010123_caja ❌\n  → 010123_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 010123 - 10/4/26 (9 FOTOS)\n  → 010123_inicial ✅\n  → 010123_folio ❌\n  → 010123_corte ❌\n  → 010123_demolicion ❌\n  → 010123_caja ✅\n  → 010123_liga ❌\n  → 010123_mezcla ❌\n  → 010123_terminado ✅\n  → 010123_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "010124",
     "FECHA": "10/4/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PEDRO ASCENCIO",
     "COLONIA": "LA MERCED (ALAMEDA)",
     "DELEGACION": "CENTRO HISTORICO",
     "_company": "ALSAFI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "16VR4x86GVUFvoNefPEkHnRSWvpmoL12H",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMM1_TYjoM7FpMrL2avOaedqfHWVgtTtYFYAaLbeVVeo_I8YtujkvNVTGkrwyqL1zKty75QmtcyGxfNmynD_ZwvhmLAiIPi1U413Wk9s41WuuqXCQ=s220",
+        "view": "https://drive.google.com/file/d/1UJpWsOEDYDSenMsQ6UKgL3D-GrfmAvP3/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdl6zzNPakX9eobVGxiEYSaJMMZ3eJ24uylD-WnbyJD1_suA-H9UGsxWNw_Yyg1HR_jQOaAZ0iqthIUTef8tS2yroYKTqpd15Xqz84BBzuRG-7RA=s220",
+        "view": "https://drive.google.com/file/d/15GA421VQNjoKGCHSbGGmwHVHxunjSs0x/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOWE8veN4DaW5IX1WHMDDCtbHUiE3PKdmVQMrj8iO-cidqwnokP45R2Tpsfmiz1OTsJRGVhq5iz77G2qlJQMiCA98ZUW7VUZxrkbbyJEhWNp63Sg=s220",
+        "view": "https://drive.google.com/file/d/1SnvcLdS1hQLKUJlvQ6IkAjg_g9Q0ihqD/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 010124 - 10/4/26 (LEGACY)\n  → 010124_inicial ❌\n  → 010124_caja ❌\n  → 010124_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 010124 - 10/4/26 (9 FOTOS)\n  → 010124_inicial ✅\n  → 010124_folio ❌\n  → 010124_corte ❌\n  → 010124_demolicion ❌\n  → 010124_caja ✅\n  → 010124_liga ❌\n  → 010124_mezcla ❌\n  → 010124_terminado ✅\n  → 010124_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -11165,30 +11243,30 @@
     "_folderId": "1qY92ZExFb9CCx8B4w_13cIdCgajRVupc",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnca8EZdzbHMU98vgQwp-P72FpW30UJqqhxhoyJIxl_yBGDdShaXkFuYh3tSIzmesld5Ms4UW3T25JZXS5k4sB2ZzXV5jzbSVaTq4huhnRgfACX5M=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1fWIxMR1OLDwhnM1_nhppZlUXL7yu7x13M48J5Hd_f2TIUXx7ZowSsdMPyHzFs9Afkx-S0lXqBzRf1LWTtLZeefDbjoAlHyL907RMVw9qk8psvg=s220",
         "view": "https://drive.google.com/file/d/1HD00dCqdem5ekM6PuJkKDHBKX9PF0mCJ/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-0_EAeJleFDIDWV3NygDurw9sQDvis8GHH449iek5MUDc_rpJFHZdnz1p6pEgEDA4BU6vn3eDqjYdE0o5i__vB0qhjLZwdF302dxikoYtG8gBEds=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZnLUi2V-L2lEndcQ4p4U6q7eUUVBASnjTO_xOume33YdOQuyeF5o0BzotMq4Qeo4XxHIUA-3KBfVjED9gan4dTxwejut1kaSJOBGuZz48yWj9mg=s220",
         "view": "https://drive.google.com/file/d/1b7SNJnnl8OgpXBSSwtU3w_FhtPq4jQYp/view?usp=drivesdk"
       },
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": null,
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7K_v4xi-J_RRWRHqcB45GjCAIOIae_aSC9tD-5AcoOHfnqskt948Tya2j7Cxs1En_vzPpN7ewDfuQuxs8iUh0R-oIPzSSjR_QKHjg5PUOehVr73E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgZSKrXzjWdrOfykaRixxHL553z9pKHXB_HGGWP2R6SOMFjkqaQdQmFocccXHMkrbrCHa9h34mwX6UfNJ_yx2E4vQ6-G9BqZLwFpbR_ol8IfAi0w=s220",
         "view": "https://drive.google.com/file/d/1WjQO2ZI-GLwNgHwCfB-rXZJFOgZLnJMG/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlacHylCCCSK6bvcx03zHqZ1luGfmajLlU0GF3kS7HzTLYmNxWtVVbT0WAErWWLA2O_Ce6OZjFER_V24vHkhgR1SpNtkgrAY5C0eA4B6aFqtW00aE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQfEiYDyLxdXkg99Mbu6yf3UsJWYZlgL_RuQFCs6snMqyu_cwnfhvJ--6CyGezICTcoxE2bn-rCO7NkQeHN-aY7r_CTyFZHqdTMMViD_PnrNPlHQ=s220",
         "view": "https://drive.google.com/file/d/1RzeGHvGcAlRclN_GNRs1aQBSUg5TXPob/view?usp=drivesdk"
       },
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPs4uz0Wg96jS1NzmYJAI9qWFUAgEQlJ1yBEh6KoLEPe1VdRGQSuDe_4bbKrDu91vn4Abp_VB79fhK30Oo8nrWByHdb8qEBOr9PZTDGt-sJNRNb3EI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvhspde7ARXXLvwc5twODcHKtxkMvmEvSOK3zDDC-ooUhchrXPrIbBkoEyNNAhDrhbO_aT-zfmSTJSMGH1vYHrdMw08RfbVfyYnn3AT7fvzCp4FQ=s220",
         "view": "https://drive.google.com/file/d/10RxgS5OePqtahoH0nj4Z24ZMUjkvF1Xk/view?usp=drivesdk"
       },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtIb5382owMACxGYjb6aRy1jBs3lnLyNMOkKrjRv_2ME7bYES7j0k8-X7j3UvLs-BTkZ_kOBoGaxSq3xk_b1PbYT47jE9iS9bUzrd6gIW4d1Wmd-E=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZDVihsZgMqi1n2Qug8FymQJ4Xl1gRtAHjilckPqxTuBLg1S2048WeLciPDNgEI64BSE8R7RFbQaSWUcFCXiuLI9Je0Vx2zmj1s--KyenU9cYgSQ=s220",
         "view": "https://drive.google.com/file/d/1QBRbeqxhYF7cqFBFYuKgWriZE62fV5SE/view?usp=drivesdk"
       }
     },
@@ -11422,24 +11500,24 @@
       "INICIAL": null,
       "FOLIO": null,
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMN4wgTLZnrgI64vA1zK9DAVhrO3TsUugtNlDDcS0U4ezeIGM-9QpUbJ3G_hUkvb9A2NJyslJbHRhQe1u9fU4z9N6Yhd_QNdydTmHfO7bxNja86EI8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0VhEdCUBmfmyMtIQWu3nScZCCniYXbg-aa3Ebi1lkw_Y8SeYFvJfcQbU4zkagPcu-6fbYINlaAcnDl9t41-HTpeBEXdDDks7QkrrUBB3IoFOGpA=s220",
         "view": "https://drive.google.com/file/d/1RYrWCCOxZYNUVxpGPYviOoYLChXwNMvE/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuyGOfF5jD4gpfoUZunuJvJK_n2ppf0AsuvLYYI2K0cQpnewuZl3KPR3qZYETZWdS-NwFMSShs8gAR01Q5vfvHjE5QrsiXdYA9hfVmqCR6GtWih3A=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhqN2ZIJOiKZdO2-3GfiFR6Mj_jZpk1wE1vwYc8v-Dpk5XMWt98OkTOC4eWHMqCLGRew42VNORPSltL6sJBlkPjA75I2uJkXI406EQPBexVhZNCg=s220",
         "view": "https://drive.google.com/file/d/1N5tsfg2hv9VCYyFiZ8tcs_1yw6yf_F4K/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDX9jRg6GWDw8iRfLG-hZ281ePUo3S0UmW_3A4Li2psJt965KN481SU8twoNLFI9kz6aMxPo8C4yX1YXTDcWfcLGstm3xAs6STV7pp4IwiUlN6F74=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMugGTA8Tx9tcog4YezcIATOy-K8Jy6sRVGo24whG_5Sy5MgAa7xhAdT8ecagwvHxiB0pj4kS5zW3INnwS4yTJei6-0bc0LH_2cMJ55T0YLRvLQpA=s220",
         "view": "https://drive.google.com/file/d/1-_uk-QVi9uUOo2szQrzFfzhsV2Z0831w/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODUhYYVEGD-Rls82p5UkLZV5-Fcv2QIhSM06Ll1D7TnJyxPB4RKGfeTze2tkQHJrQAGoQ4SZwN7jOmgk3MlTISGOsfQUJX799iMJuJvF1VYbJuLHc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMILgZF-pSqtSUEz30o5mKQCjGff-rp3VRS2hhoo2CFp0SxVqVFffl4E2e-0E5HT6sZArZ8xgx83zk1wLCXBZETkpWIBjcALeHcyG2Z_jZWuIVhag=s220",
         "view": "https://drive.google.com/file/d/1Ca8qUTB6Hp0-fv8RxW98g1CwJ8J4AktW/view?usp=drivesdk"
       },
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtyOZHHH8yRCbCkXm0WKKFyAVKGEAXd2Jl1FdBRqoyd1OAmuoMB9Zua9gukexb3s8fY_QOHTZfTc9rs74kqgl72i41v2fuEw9WgtCoQI5OPDDn3Jc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLgFAh51cXbFgYb4o4V7yjAjD5UtBdpmbgCUTYcF6nLs1NCqwjMWFeTGyj62yTxY8JESF16M-YKhA3uJEYCyxYF9fqTm2e2R1ot7ecuiZXpQHV0Q=s220",
         "view": "https://drive.google.com/file/d/1hEDUl4xR4rs4xS-RTMELxRl4j_KPKHMp/view?usp=drivesdk"
       },
       "LIMPIEZA": null
@@ -11520,36 +11598,36 @@
     "_folderId": "1EnXl8rufH786WjhzbgDO0ncdwMDFPR1v",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3q__OJPr2mpqRBEVa_jCtZcLaRYSc1arA4jT7gNX1o4PyWiMjyu8TiN5DCYbJHzQBrSLFFL7uuofsirtQhYem3Nr_ovhP3b43t1OwXpBGE5OoVGI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMh6XwVrE98OpvKJb3R1WpSFrffpZRJDazUNsDedxwcHE7DosyjzQtYybW1SHC3vtk5Ks3-h5jGmkDlbUgXmClS640rmt1_xKCwqiNrL9xaqiPtg=s220",
         "view": "https://drive.google.com/file/d/1_XUK_2PlZUNcQGEGJ7fPtIC-Q18Jh5j4/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLHyElKLE56QNz-YAZWHnPjWh1JG4IDwQJx8Gp8uCr_fHwL5PutzKUgBlDi5pCxPB3nxd0ds-chFtPwqGX4vPt2CmDWps-jONxZZ8CptvHrZPQfyk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMk2FtZp8qA1OThoLnj16g49ivdvahyc_6ctu5KYqBr59X7fmhmfrhv6EqMzHImwmGaBJndggp46Iy3UKhTq0jKmM-NPa6wo6OtZVEwBBOdKUCFqA=s220",
         "view": "https://drive.google.com/file/d/1Lw_7hVfA4XmHlbHBGcL-zewlTqDX_4G0/view?usp=drivesdk"
       },
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJGIFLsi1g756_rSmYeiKrrcJ6CyU1VFLmPAxW5dsF4eooESGAkpXwWXJVhwt6fPV8hFNmJvSMIqhSEw2abN3oAqPsrfHjpclcKFREoNrm9NV0lKo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQE-ASUYMz07KmsFqNI3rAAwu8v0zroeaxC2frLltVbRC5pVm9F_uaubRc-s3g77hS_qGCEKxt3zggbcAAo7lrZco80Tvt7Sh5RXOOpSMJzYedFg=s220",
         "view": "https://drive.google.com/file/d/1p92_GT8u6p8HsPixMruv1LsW1M7ErfnS/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdvgrjcfOxVxndF_l-N6qio6ThW1E94Hcjim76DaX_L9pvlT_fIFxBprg9GVd9ZffHYSrTv-SPZAH4OwF664KPyOgkyjo6IIHPE9fH_03NTFRdkcY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMlHokktuf7Uj26KnOFcLj5ydwou3ZrLxzzJd6KdhfsGlRF52RuYz2rjBQ1vE176dJ1HDBfsYI80U6sUAyFhsVOK0vmVMXU8uxs-UbXHWHXh3_yGA=s220",
         "view": "https://drive.google.com/file/d/1CeiPG4rPbjGcOT_gSebTCVin2dDEDXqq/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMs-pdPtZCUihMJineXyH6l3eRaI1UacWTfaSOv-UPR23UXW3tCr6k0xgDhxSjAO3iUZ3iUoDSbiBEynMXCbpMaJYAeST-LMurhaGCswP65IR_gRTY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPa-lO2lg14ZilLY9bIHAG772X3kw057Repfh13JqHkErSloHDcUdjTMBQbasByAorV0MwpYIPBPBQVV7fjUQC5AtV0MJpNdtXY5_WlbIDALGM5rA=s220",
         "view": "https://drive.google.com/file/d/1iyzeFnSSWJnqXcGfDh8aqKIYJBFoUpDU/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNcUuqCERx_xvrt1iBYzsH9v9yRlqq2Ln77p6K5FKPaMd-uVynB-X1EEm_CSEsnfkX7jc12lEDPMoXic8t76Yhri2nknhIx_FNlz92496a6szCVcc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoUlAQhh3Q3s47ngbRxEl-eUHOnKKaW2vdLf-iZg603kJKaBMB1vbT-suTFkU868HQL-xt4YFs4_nvDaHbPx1lI2y9vJUs-7k0nMRdflCNKRnTcQ=s220",
         "view": "https://drive.google.com/file/d/1kNZZI3Ffo0NfdInf-A1aB9t03q-NzRUg/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0CIQP_03zlPNoSKxehFIJ1QiHV2V7AItvnztGLyqj4ZvWXkhE0kPOWUD0RmUSDGXKEZFSQOY5Ai-KCdNfATkzzng0S2YkXUkp6-r-k5a833h7bkU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNr0LsBAV-ivK7ylUbd8obJUE5gFwncIN1HBe6Gj5o93-s5NbID3DMk_ESmta4r6wgbny8NNifXxv4TS23w3xOemqc1c8H9DiRMwTt1N_0NgyVR5w=s220",
         "view": "https://drive.google.com/file/d/1Qmn_wHLFo5SPTmmmnb1pnvXGD-PdR2iW/view?usp=drivesdk"
       },
       "TERMINADO": null,
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPA5AfFyHbmH6WGxxKKczNqW-9mIrAU6Wf-nExASSzYot-BOKIzSi3VhiIQoqcM3Lo_ZvhhhupcbPyIKlewgmlnqIwRs_r6rjPs-UyUymhUTyg0vCk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWeCqHTt4_JogYqwCOPBj6EgDAzmcF85JQ09BSbZLDz66_7jy9rLSzB2BR_ItnoOX_iW9Sj0uyiZBhybKn2l8oSftXsu0W9aC3-Y9TQogy5iDkRQ=s220",
         "view": "https://drive.google.com/file/d/18yH-X1hoBICtdY-bHiP20xSmW0U2gv4z/view?usp=drivesdk"
       }
     },
