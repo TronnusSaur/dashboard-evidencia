@@ -2109,171 +2109,431 @@
   {
     "FOLIO": "250050",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "16LKFhX2YohWGfIToJEzpPktyE1_vSIh6",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoCHcteuI7cQPTBmh2SL0b5OJ5t36EFiB-slw0Jsg1tG1sPmMiq2PyINkS_YldejMK9y_S0sTD8HHYK6sLOe0YzXCqsudHOg_2Y6yXr-A9MTkeKA=s220",
+        "view": "https://drive.google.com/file/d/1tvL2IEibUduZ47kGcxZNKvS4srKcRrtW/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBB0A5-usW58UgKZ9OW3qY_aooM2SdhhTroscl277aFbledqMb0Mnk0zFwR1y29VBejvturITXec4jXfuzF7sUIGR3BLAzPLCvplOuae09pRX8Wg=s220",
+        "view": "https://drive.google.com/file/d/14aBbIAyxRtgOo9rOjgJGLwBxRchrhYXW/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhV4BtS36_NuUhFkyxPPMoQBHmDeL6IxQC7h0tmvUNqMZsHTA7C08uwOgcEkS4Uu9R2h0GWukcpEaZRglMIzch76z2w_LNiqNl33w9Oahn3TrKeg=s220",
+        "view": "https://drive.google.com/file/d/1KXmFBi0bBRv9xr2tpCYbz1u_iWyEpmgW/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250050 - 30/3/26 (LEGACY)\n  → 250050_inicial ❌\n  → 250050_caja ❌\n  → 250050_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250050 - 30/3/26 (9 FOTOS)\n  → 250050_inicial ✅\n  → 250050_folio ❌\n  → 250050_corte ❌\n  → 250050_demolicion ❌\n  → 250050_caja ✅\n  → 250050_liga ❌\n  → 250050_mezcla ❌\n  → 250050_terminado ✅\n  → 250050_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250051",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1mWZ3E6uj5Rj_3yympjoMowGKDkHCu1S_",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNh52A-aJnkSTEK8B1h0giYhnusGiWoUgPJoYKnlt8CC1NY47zmC8M7bZqp5afuIAwUMt16mamgtalCh03Dptm5_Sz7KyxHxqWzis0MAUendXPuPA=s220",
+        "view": "https://drive.google.com/file/d/1TNQGSVwoeWIFtWJEvICrA8kfUPzSiFe_/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgP2ato6sx73hVobzLyde-jasgq3v8UOrgCo72p2XwWwL7Rw0W9zBmcFUkXNtP_wnWlDW43EQW-vMRgREkIsOAV0psqyAeto5FlWVE5-TWuPkbjw=s220",
+        "view": "https://drive.google.com/file/d/19EcGLRK9tHCM5FaMf4OFgVA6MrbAnkNt/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvTo8IFuFc9ZjGZF6WhRtXpflKwfJf-OxWULHF5BgGu4weIlYZ-oYwpo2i8USv4YYGLvUP2W-RsJxkpI1VcSFeZZZwdRnAgRH8CP0-PXCLNHuKEA=s220",
+        "view": "https://drive.google.com/file/d/1RvHO5CgE0Dx492Laeg9B89DrUV7Rt8W5/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250051 - 30/3/26 (LEGACY)\n  → 250051_inicial ❌\n  → 250051_caja ❌\n  → 250051_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250051 - 30/3/26 (9 FOTOS)\n  → 250051_inicial ✅\n  → 250051_folio ❌\n  → 250051_corte ❌\n  → 250051_demolicion ❌\n  → 250051_caja ✅\n  → 250051_liga ❌\n  → 250051_mezcla ❌\n  → 250051_terminado ✅\n  → 250051_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250052",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1dyNrdKQHebpy8YkQrcvoW1VAFm4D3JKT",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPVxo-gy7xX8FZiq4GCi5GKDDMZPpvvOc4HJEvBJ1IFF18R_eJ4fa3Q4xHlkaSdac6ZY7E8ZkJS1BOjmdRKI3qxaKBLICtUUXhbmvit0XQFtHcdSw=s220",
+        "view": "https://drive.google.com/file/d/1laTR39WIoonPDIq878O60GGFffMrAN97/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNk5RuPu17QEQAA8pPm20_eFlbKSSeZR6RgpcDA8DmBpi4k9rtNLrMei_CMWmiDTXZS4uB9nVawBWAo-iKimWRPHqUxh4b_1cetpKGsqAUQbn-XA=s220",
+        "view": "https://drive.google.com/file/d/1PuB7pDPRrgz42qqovJ0MX3QdSJ7ws8sR/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzO4_m64ZFOOWLwGy5aTh0yJ9aR8FmcNRjrhrK75m9_xAL5DWM1STYBJ885jftmSEopMLymD7qEz5CGWt0p1rqhlHhJ0nRHztBr1fa8jqYelxP_Q=s220",
+        "view": "https://drive.google.com/file/d/1ANoS9JPSMAqK67mHECpUFBdstMmWNg-s/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250052 - 30/3/26 (LEGACY)\n  → 250052_inicial ❌\n  → 250052_caja ❌\n  → 250052_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250052 - 30/3/26 (9 FOTOS)\n  → 250052_inicial ✅\n  → 250052_folio ❌\n  → 250052_corte ❌\n  → 250052_demolicion ❌\n  → 250052_caja ✅\n  → 250052_liga ❌\n  → 250052_mezcla ❌\n  → 250052_terminado ✅\n  → 250052_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250053",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1NqctJmvz_MJK2SXUCzddMZvbpW4VEcAf",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMWHsIWMGUxQ2y94lKMcsuL0nZblhwubUshkDPrZ8sEqFKQILRSp17IZFlC08bqg0KiypeipyeQ1foCvP8nKAANv6zZWH4rNf0dFKSFcsbIqlRbA=s220",
+        "view": "https://drive.google.com/file/d/1-_wM7JyBe5FWYZy_P-EZ8eur30fK63zd/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtDt8scpZzs2eLe_0PIiT3h-IklGTUfPjiqc0gSf4I7o5trnydeJ0xBpvGCbuRpmaSdKuuwwPg4Y8pii9Wg8B0ypUzGKEEsaa0HqF4LUH19lLczA=s220",
+        "view": "https://drive.google.com/file/d/1qb_HHR7bDQ6ewPv6zXSSctT-JQurEMFA/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsupz_hMw9LPQ-PDrmLowaHIUlWdP7PCq7yx2yxmBRWsS2wPf2vPGVmNfVkfSYgMbIYyO2rMKuReV0l2VyY40hNQv6i0YvomrnLbAgzLK-b1acdQ=s220",
+        "view": "https://drive.google.com/file/d/17ooc3RFRYaha519dCaRtRFRzid9NZpg-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250053 - 30/3/26 (LEGACY)\n  → 250053_inicial ❌\n  → 250053_caja ❌\n  → 250053_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250053 - 30/3/26 (9 FOTOS)\n  → 250053_inicial ✅\n  → 250053_folio ❌\n  → 250053_corte ❌\n  → 250053_demolicion ❌\n  → 250053_caja ✅\n  → 250053_liga ❌\n  → 250053_mezcla ❌\n  → 250053_terminado ✅\n  → 250053_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250054",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1fJaC8qSSRCBO2Qet-FbH31Qiw2qxABvF",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoZqeyxGsSfmSnRJWUNRIzgKnnntGpyj6IGoK8QspTGTeT4mEfMrfKTabSS4x6r-1ZS4TifCB46Uwpe2ZhgEZwxH3AZwBsZQF8eJuje2jNe6bzXg=s220",
+        "view": "https://drive.google.com/file/d/1akPHAF7nQfiKn0nPhoxXw2as8AYIPedt/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfxwtq8Hc86jYqHc9ll0eGj5WTa30obKh7W7NJNllGfUqEZGxcpcxrqvVqHKOcqAa9BqoNcsHUV8jIcW7pnBVrrwGmQezX8HD1tympXQ2SylEiKg=s220",
+        "view": "https://drive.google.com/file/d/1XN7gs2zTAdkZEG1GMcT6YuZ5pz_PxDXL/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPV1mgg0D-3kHyy6DwGrv4XUfbrlfNiSklGz9ySaIH3_rAMaeXGMQIxerD93lEIqiW7AejO2i6UZuuOVrDTkpoJplwdkMMcTiWNcTm2mMbPMthjlA=s220",
+        "view": "https://drive.google.com/file/d/1RBa-l1pUq4eDmSRKoNm68iBF0jWEspiJ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250054 - 30/3/26 (LEGACY)\n  → 250054_inicial ❌\n  → 250054_caja ❌\n  → 250054_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250054 - 30/3/26 (9 FOTOS)\n  → 250054_inicial ✅\n  → 250054_folio ❌\n  → 250054_corte ❌\n  → 250054_demolicion ❌\n  → 250054_caja ✅\n  → 250054_liga ❌\n  → 250054_mezcla ❌\n  → 250054_terminado ✅\n  → 250054_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250055",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1LPsaZo3kx3kfa7sDwb7viL-CaZ4rIik4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwtzOg5LstmNLHmKyeAp7Ui6QEK0mIcX39608no6arsVQnODJ8V0yitJk5Ex6g_ZFy9UvsTyaIU7L5nxZzzCXhOuXmtDHaFCHfFxgCdo7q0z6xYi0=s220",
+        "view": "https://drive.google.com/file/d/1adbfLZ844WGH2DO48rUKUSdGZesbc_6G/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQs8sKWVINamPpUMaXAi2fY3oV_Yo88yrJ5q8EJ2HzOSAHMYCSAsnKik8UPqWbmg6fVELO_Lpe5JaFxf4chzKTP0e9-o42U6v8dK7kws-CcX54aA4=s220",
+        "view": "https://drive.google.com/file/d/12Wr2nP91J94EZ3H-aFuAmMZO5B7Idugh/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNeXgNZwylKGRGWou5ARREtwAixd3TLYd4nGFqmiI9FUtsfQD1cWLos0SQlRzBRx14I-GU49WMndeVBiJS8XeRspzGn_aQAhW7Fsp1UdUy9WV9M6VY=s220",
+        "view": "https://drive.google.com/file/d/1puNNDL4U6f4B4P-MaUZWEjguGTXlgbc5/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250055 - 30/3/26 (LEGACY)\n  → 250055_inicial ❌\n  → 250055_caja ❌\n  → 250055_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250055 - 30/3/26 (9 FOTOS)\n  → 250055_inicial ✅\n  → 250055_folio ❌\n  → 250055_corte ❌\n  → 250055_demolicion ❌\n  → 250055_caja ✅\n  → 250055_liga ❌\n  → 250055_mezcla ❌\n  → 250055_terminado ✅\n  → 250055_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250056",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1cDG65274cRMLwpwfQA6O9yJMVYHqAAa1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOf1hC11HIKeKgTWNW6w1g-8XRBmD4OxM9Y0ORz_B_NxHaenzAVEHW3PQr3qeai8faGnjPsM23yq7b6PgP_RlmhRckGQrGmDWyjmN9dIRUVd1DJbyw=s220",
+        "view": "https://drive.google.com/file/d/1Q-YGYhU4k1eX7Kpi0OppSRBB92du0lzL/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOErkkC6Vft2wbTdzg8eziSXdQRlr7S_HEMi0y_1SknfrvVTRsxHALA0ZwzEriHW5kqkdMrGo6x3zgRyiyzm37A_tSBDU7ED2ISk3R02Y16c3BvYs0=s220",
+        "view": "https://drive.google.com/file/d/1UT23Ki95XVp2TGr8mvo0oHuDBlv8bjBu/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2BefQrtjM_cJCidx4Kln2KbzdNpXovOoLDJy4K0cytmMAGBOK8vTfZlbWqQipE-AgIuU75L3nsnf2FDsmVl9dfb5exr2dc4pX394eBQ2kMHply-c=s220",
+        "view": "https://drive.google.com/file/d/12RWYnYWyOs0cMVM3WUtmyjHl5-v4Du2m/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250056 - 30/3/26 (LEGACY)\n  → 250056_inicial ❌\n  → 250056_caja ❌\n  → 250056_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250056 - 30/3/26 (9 FOTOS)\n  → 250056_inicial ✅\n  → 250056_folio ❌\n  → 250056_corte ❌\n  → 250056_demolicion ❌\n  → 250056_caja ✅\n  → 250056_liga ❌\n  → 250056_mezcla ❌\n  → 250056_terminado ✅\n  → 250056_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250057",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "168p2gUgMHESGjYOCOVxcb6_xeZVr-D8_",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtod6HepO9SMaZzLvTAprePxDDV-9MD-D_4iDNjD5qSWi3F3fD7uscjwzflsDJ-MrdxWcNdNvmb6liKU4HZhxOMbWPPluaDyQkF9Y2mNNZgQFfWS8=s220",
+        "view": "https://drive.google.com/file/d/1q1Dgxdo-16uERwGHDDgtNO82Ih_qtdvQ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOx9J-21IyH_bpJx5emWV2E2FQP-aYzbBgKGiLfhsco49vXdtEzFvDTsygGCBYmJnGhDvaK9CH1DZui1rlISpOpRh_CLVuZMm0kI2MFLm9D30YdaB0=s220",
+        "view": "https://drive.google.com/file/d/1WAa9N39Cz2CYtxSkkAVF-osn4fZzKyds/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMAFO9haINUx6mayHPRq2NmnzlTGD5cR6mU5q56cJwxYARWc8zhJJsfiMm_n0_QgzIY-7BBM5tFMCRsUi7kYSs-JR-glVWN4h7-VgCo4Y8eTCbKNh8=s220",
+        "view": "https://drive.google.com/file/d/17qcC5fJeCLKnlRsrk_aQ0Q_YMnAgtQV-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250057 - 30/3/26 (LEGACY)\n  → 250057_inicial ❌\n  → 250057_caja ❌\n  → 250057_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250057 - 30/3/26 (9 FOTOS)\n  → 250057_inicial ✅\n  → 250057_folio ❌\n  → 250057_corte ❌\n  → 250057_demolicion ❌\n  → 250057_caja ✅\n  → 250057_liga ❌\n  → 250057_mezcla ❌\n  → 250057_terminado ✅\n  → 250057_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250058",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1LuNqKAoM-7zVDSjMUPPvzhJytl-HV-9r",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYwFuFF08v0I6o0RZfmD93Si66mTkmFUv3tDv1MTuf-yuJKnnglQrxOXOY61Z2Ih0GxcNUmNb_z6eGDfJ2iR3j87pziokhFLRaoG_WoI7tEPlGDXo=s220",
+        "view": "https://drive.google.com/file/d/1cWgqj-z5_uOrO3Fr2RYgw7TQdZjJZBqp/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN06b-UghfqE2bXJ48n2YeqQC2vj5fv1pOfpjGh2WuYml0MbifmOURuQxxRy8i8Lvuqzl3nNVWvuopanYfkAt5ApiCbcqReVtKftwDgciPGyJKwMnk=s220",
+        "view": "https://drive.google.com/file/d/1kByshJJJv-6gliGE67D8WXiqhm0riQ_y/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAfoBHrDg5e6y9dXvnb5UmQ3NZ2gzTlSIrVhG2YAkhemp4G0l4McSO32Wl3wkRBWQWi9SRvzWgZ_efbOs5PRrg8ovAIZvnWjP2SdVWSS3_86OYwB8=s220",
+        "view": "https://drive.google.com/file/d/1-ut84iC_RHuSQsaY09LmzqoMw0TD83QX/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250058 - 30/3/26 (LEGACY)\n  → 250058_inicial ❌\n  → 250058_caja ❌\n  → 250058_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250058 - 30/3/26 (9 FOTOS)\n  → 250058_inicial ✅\n  → 250058_folio ❌\n  → 250058_corte ❌\n  → 250058_demolicion ❌\n  → 250058_caja ✅\n  → 250058_liga ❌\n  → 250058_mezcla ❌\n  → 250058_terminado ✅\n  → 250058_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250059",
     "FECHA": "30/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1G8XsEgNPmGGkajjn2TyXDCh6UsXz-C0l",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXnUxcgVtHuuzOOV4U_5Fdz_R2iylZxARMO2I9S-aQPj3FsaLJjRfR8KK9FcYadhCsErLpwX8BM57mz82dyVYUVwXgYXEG4VB5VbpYL-3VYU15NW8=s220",
+        "view": "https://drive.google.com/file/d/1dugT6whK5XPpwpHJtTDQ49bsN914Du3a/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGRbF14sbVKdl7i_fSyNdKSFeRSEb9Eq6uEO1SVHzAfAn2EpeuA5MFHBbezu4HxEFdwkC20E-GtvJI2lIUkiQ4LCkzPj4D7oOQhMBHooBBlni1lAk=s220",
+        "view": "https://drive.google.com/file/d/1nUfBGm2M-SypH-Ree3joHgTd-Vg6TKm9/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEH1SiXvmnMBpWzIPczNkC32au6WNjIbrdhkGjjtaeEl0u07tEGYq4_3t_g6E2DSux1g_HULL38HbJANF5U-_mZhQc_G1FY8Kd244I0rH-GDnQjcU=s220",
+        "view": "https://drive.google.com/file/d/1e_GbhzChy6VJBbnTpTaEcEK0Lap76EN-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250059 - 30/3/26 (LEGACY)\n  → 250059_inicial ❌\n  → 250059_caja ❌\n  → 250059_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250059 - 30/3/26 (9 FOTOS)\n  → 250059_inicial ✅\n  → 250059_folio ❌\n  → 250059_corte ❌\n  → 250059_demolicion ❌\n  → 250059_caja ✅\n  → 250059_liga ❌\n  → 250059_mezcla ❌\n  → 250059_terminado ✅\n  → 250059_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -3569,222 +3829,560 @@
   {
     "FOLIO": "250090",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1uKxqC6IhCuHm_N-U-n0R7uCCTu7orpGN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOtw3hzGT1wEZ4vEbOTDLg4p0q5Nv-p6OBcyWQEfLx3Ihpu6fB--heP0B1FLxbNTtxemRbxk8neo-FLb2hd6ThrHJfigqh8a3-32Ux1V-sWt_rUyc=s220",
+        "view": "https://drive.google.com/file/d/1gVldI-xvorh-u1phaqNna7-E2ACuGx9q/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiQ-Kf6rpqV-cEQ2xVcuneIcpfS2p4kjm_R49p-cjg8uasITP_NPqVYp-f-swyEXiJhzecL3iFwTmwk084DU71UEzMTUmhdv2LmRDP9R1FIzhpHDg=s220",
+        "view": "https://drive.google.com/file/d/1KYEmO-XtoXWWGe3HUxMtf2h9FLiin17H/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlkur1wOqPNnY-bXzWfrr7sB__3Wc72g1NQBhisA7QT0kO44pLq-FclxsKVzB5AW1BxZeSAXiakw8Zb0rgQQ9FkLiICHShZ6g8ToBsVcNT7JezK64=s220",
+        "view": "https://drive.google.com/file/d/1aZbAEWNpdkiW69N9uzx4AIUGL0cUE5Ii/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250090 - 31/3/26 (LEGACY)\n  → 250090_inicial ❌\n  → 250090_caja ❌\n  → 250090_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250090 - 31/3/26 (9 FOTOS)\n  → 250090_inicial ✅\n  → 250090_folio ❌\n  → 250090_corte ❌\n  → 250090_demolicion ❌\n  → 250090_caja ✅\n  → 250090_liga ❌\n  → 250090_mezcla ❌\n  → 250090_terminado ✅\n  → 250090_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250091",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1fgkN5kQ4Wtf-PMqBfBOJ7nHPk225w06J",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPd-MA9mj5IjRccrSIgi3Dyq25h2lsO-X_AgsBmhKx7q5XBQpQ6eKinpOXOMVFnCjem7atD_d6t8ruBN_LA1u4sCZX3nWCBJ-WG5c3qORTPvL3oGFQ=s220",
+        "view": "https://drive.google.com/file/d/1xAub9Rq_h7dtkWg48hM42zu3ZepYmzne/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSoolQL-S_dkkfS4x64ipBQaa2EZ6dYDm7oAB4gxxFmINlJ4cs9SbLz5msMdWbkhQ2Gxxph7KG1DCnemoF2jMqK3cUDE8aaZaaxnCjqDITGK-YJbQ=s220",
+        "view": "https://drive.google.com/file/d/15aE3fCL8NltBUM6C3usHvhtTHcO191ZD/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqZ2Dw-0tTnIZKuRCSiwMHDD8fyrVCPkOjdsAQsKvKzVcE-0j1ez5Od_gXbM1aC_ZW_02cXO5rRrYy6ickgy7KNKmv1Wao5QQYCfA5XtwcGdq_WYc=s220",
+        "view": "https://drive.google.com/file/d/1gy0AM1-Blg5lmJAsp6qfcERxNSkBcCIQ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250091 - 31/3/26 (LEGACY)\n  → 250091_inicial ❌\n  → 250091_caja ❌\n  → 250091_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250091 - 31/3/26 (9 FOTOS)\n  → 250091_inicial ✅\n  → 250091_folio ❌\n  → 250091_corte ❌\n  → 250091_demolicion ❌\n  → 250091_caja ✅\n  → 250091_liga ❌\n  → 250091_mezcla ❌\n  → 250091_terminado ✅\n  → 250091_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250092",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1W0HnmB9F-mzWwEQ5bonRpWYz8AqYFm9Q",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPM2KZ4Iqi2aAGGWt5etd7VSuHi_IiBQ_qoO1H0t8DdFYUSI67NT3SomlI2UiGhPJdDv_-c7zvpzzYzcwajXnmfuqk3yfAZpja8I9v66pdA3VZPV-c=s220",
+        "view": "https://drive.google.com/file/d/1fx47S091X2kLNJoarN9CuNFIOdmY8XBB/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNjVfXlBUqdAokqxbUeKRpp8gHCGje4mSpXNtrOUXvQB2XIoUNJYtlhckmhH9YnwxiMBP3CVMjUbYYRLU09W4pEsSCai1Jk-WO80P4heoG-hve4uY=s220",
+        "view": "https://drive.google.com/file/d/1RU_msUSsCp6Qj6fvLZqxgL9t_Lgar528/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1ohxSiZBQYpnkKgyp6Ndgwr7RP_3QkiZ0p0JdiTkKYQoJ4UuZuqwPiDaUcWQoSgndZ18K5TQfsNhp0ntl_8PMYyBOIZPLtkSUndOduEy3PfctlUU=s220",
+        "view": "https://drive.google.com/file/d/1ZuHL5MDyiS36qKP_rdqqnm6LUF6rX0Nv/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250092 - 31/3/26 (LEGACY)\n  → 250092_inicial ❌\n  → 250092_caja ❌\n  → 250092_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250092 - 31/3/26 (9 FOTOS)\n  → 250092_inicial ✅\n  → 250092_folio ❌\n  → 250092_corte ❌\n  → 250092_demolicion ❌\n  → 250092_caja ✅\n  → 250092_liga ❌\n  → 250092_mezcla ❌\n  → 250092_terminado ✅\n  → 250092_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250093",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1X0d2MG0RsTI_yQAn0gfqHQi9BDQ3vjdw",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYPs8KXkFZ8O-9vMwdWtLLWJ385KwCk3AzADWpCzWHa4PFCfcJbqZ19u51LGTEYyCtJU1_fc_bUgIB5-c11SGJmwB06sQU4VozN3s-L3_5PDhHPXQ=s220",
+        "view": "https://drive.google.com/file/d/114IbNYn3YzIL-69DBZ3Ofu0WT-_Nxdak/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3qEnRfROzHNNYa_xvTCBCF_7At9NNAnZM2Te2PbiZ1tzJjqO7JCw_9pqB9CZ6pxZPSr2f_nfAhHik7g_LRd8PEJxRkCOwUqmfir2L0tZred13Tcs=s220",
+        "view": "https://drive.google.com/file/d/1fFlnz2vEwAc9G7ZR1hjIO1Q9GnhBIe5W/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMouiqSCGbL8XNPEe-d84FWdKGF6oA73OE_QpyV437qlV1XMS-OJzKwgQ2Q4u8O0FKsjhFUu6Ytu4dXKUCmbcKD2qwdHIU7UhedN3HwzyzHfYtJARs=s220",
+        "view": "https://drive.google.com/file/d/1Dskr7lIIEkh8cnzPHJ5GApg7oz-lTiOI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250093 - 31/3/26 (LEGACY)\n  → 250093_inicial ❌\n  → 250093_caja ❌\n  → 250093_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250093 - 31/3/26 (9 FOTOS)\n  → 250093_inicial ✅\n  → 250093_folio ❌\n  → 250093_corte ❌\n  → 250093_demolicion ❌\n  → 250093_caja ✅\n  → 250093_liga ❌\n  → 250093_mezcla ❌\n  → 250093_terminado ✅\n  → 250093_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250094",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1CdOlMWHGGEtHUEHeJsM2xxjubkTThpym",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjNetQTEO1U5IYehWnDbLrMs3qUvZjfEBPWZodutS5VAuHfHIQr9mRvP0AkmcWbjo4D8pE947PB41XdIHNI5s0cdrpnFptx0szIw1egtECjgyrAMw=s220",
+        "view": "https://drive.google.com/file/d/1EskBsLbrcv91CzLhQZoaVcYR6V7oJV1y/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOoKypgXSKrGYeJlugNKCitfS8gOHGIXukm2QwL0cpIKTqiYlYYFoXrBSM101DEc2bOYTK2zWvJ51OOV6K_cvsteorSHtzEp9BDnbPGQk_1w_djeQo=s220",
+        "view": "https://drive.google.com/file/d/1wTEQzw5_w1sscwcti5VzB7HlXiIv7Cso/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMuGdRWCoUva9TLXUGEj-tg22pv___twZlHiN8DLNPjYCazL4baRjeJ22I841vhEZ6QJbozbPMl0lbauAyc5QE9hYUjK1yV8xe1H51shaRk-JPgnQ=s220",
+        "view": "https://drive.google.com/file/d/1iVRGziFZpg0azO3CH1_6nK3Uz8yIXfV-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250094 - 31/3/26 (LEGACY)\n  → 250094_inicial ❌\n  → 250094_caja ❌\n  → 250094_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250094 - 31/3/26 (9 FOTOS)\n  → 250094_inicial ✅\n  → 250094_folio ❌\n  → 250094_corte ❌\n  → 250094_demolicion ❌\n  → 250094_caja ✅\n  → 250094_liga ❌\n  → 250094_mezcla ❌\n  → 250094_terminado ✅\n  → 250094_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250095",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "18ciRVXLDVUWdE6R9HO4sQfjsW6O_-i8K",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYI1GsSakonJS1epGYO2BD-6Kw8OdEs7JE76WFVftWKOAY8gnEINyCiCA3PY6Jda5NK0T0gG4k6FaNwJ_8lohl62vm52rHqPFpHAYgEQnyPIAfceA=s220",
+        "view": "https://drive.google.com/file/d/1ODlZeZ5RFJJCE4Ibczi3-SjlwPE5mjhq/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq-S-kuu7bf-ePREnnyzbCE1mGwFE91y5Pq6TzyUpLLp-Gk_K6jjH2JdHwU8ih54YTZf6Jv10CxgNfzDP-Sa1Nj5nDXoBWyTzBNf0VkTcu0EWusZg=s220",
+        "view": "https://drive.google.com/file/d/1HixRZrI3q5t289WVm203FC1O-t_uZ5oy/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0mHIp4y8g-ga2vPIHOS6HhgsSO_zX0T2m3d-A8Lmgx1YVxxxIM-pKiF893C3SF93sFMg7ce4L5okxSxHdFgsLx8ygTaB1qqtmDBBXzZ4Z5vA99QU=s220",
+        "view": "https://drive.google.com/file/d/1WPaXOaEvNQUUcWd6Z_kVpXOJ-ZySwi3w/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250095 - 31/3/26 (LEGACY)\n  → 250095_inicial ❌\n  → 250095_caja ❌\n  → 250095_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250095 - 31/3/26 (9 FOTOS)\n  → 250095_inicial ✅\n  → 250095_folio ❌\n  → 250095_corte ❌\n  → 250095_demolicion ❌\n  → 250095_caja ✅\n  → 250095_liga ❌\n  → 250095_mezcla ❌\n  → 250095_terminado ✅\n  → 250095_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250096",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1ari0Pe49sleSXb1uDz3G0-MJwqV-tSMd",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMbV884vCMcjJfFALppZQKEXlmDZloiNiR1ZMgLtxiIEjQt8ohr0sVwuSapiStuej96JAVihKj8148gG6fdkUTWuBMWRIgPcZ6rYjd7nIQ60d4R2w=s220",
+        "view": "https://drive.google.com/file/d/1phiot1-Kr_hH33Q_3l0-0MKO-INMCmE7/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPuC5MF7egMDW3aOGSJ_5V-FSKF7r9NK8-8OslXGAadAeVuLlTq0d2xfqXbag2SIhwX3tiw4ylG67xAyMwIehWhhAp_fYLUVnLsyeYKjr1N64KzM8=s220",
+        "view": "https://drive.google.com/file/d/1x0UifbyNvlJzLABPs-l55l4qSx7JAT3x/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNQkQfrjrzLUKaNiTQmWcgdSXHnitg3Pny7yKH17kGVWV5_kqM-fc_-loDX_u2T2TqAuBopU1mjvIgEMHoZWOTcb0ZiStiob5r8P2XF9jW5GG4p3s0=s220",
+        "view": "https://drive.google.com/file/d/1ja2OBre5RVXcLpZxLFeMNt1X_2PUk8X_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250096 - 31/3/26 (LEGACY)\n  → 250096_inicial ❌\n  → 250096_caja ❌\n  → 250096_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250096 - 31/3/26 (9 FOTOS)\n  → 250096_inicial ✅\n  → 250096_folio ❌\n  → 250096_corte ❌\n  → 250096_demolicion ❌\n  → 250096_caja ✅\n  → 250096_liga ❌\n  → 250096_mezcla ❌\n  → 250096_terminado ✅\n  → 250096_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250097",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1e6JgeCiBu1iXsXwG__EoYQPVMA4X0-zk",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcBeSvOAmhCM-NmLzbEEmEOgNcjAZVraSv_uXy7DpCRk1kKHL6iM0LHt4-u4uM6qHfDI4FX9RI1FRQLkbrFQxWdGYEmcAX6d1__deTS3nroaNxZP8=s220",
+        "view": "https://drive.google.com/file/d/1cZeETqH06paiR_e5z5K92RQJbpKh1DlK/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMd5Z5GxOwcKHojSE0D5oC74FYvpnsgCZOwzWD97P-oJ1x2o4UYUDmCnENqQbi1ji07pffB8Sxqr_ka8fCBPKtW4vovwr6uS3RXQKgD4A64zXRNxb8=s220",
+        "view": "https://drive.google.com/file/d/1hsw51FDeCVtxs9pAT4EhaSySbtOOoeEd/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCIBGgvaedWQfMW2Nb7o3uVuiOlQufrD22pKqmuCs9PpwM3RbCur-pckqvfSIvFjwHUW0IpwYlg418wFU0I9Uhyw_j8Db8fe-T3g_egI7wLqyA524=s220",
+        "view": "https://drive.google.com/file/d/13cIw4lDIXqQW6qYoQCOB0X4TsJwrXS-U/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250097 - 31/3/26 (LEGACY)\n  → 250097_inicial ❌\n  → 250097_caja ❌\n  → 250097_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250097 - 31/3/26 (9 FOTOS)\n  → 250097_inicial ✅\n  → 250097_folio ❌\n  → 250097_corte ❌\n  → 250097_demolicion ❌\n  → 250097_caja ✅\n  → 250097_liga ❌\n  → 250097_mezcla ❌\n  → 250097_terminado ✅\n  → 250097_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250098",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1athvRjl4RDRCsr-RXuFw6xKdz2i-52IM",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaxul216gniy0Pso0Fm94x48NKrg34L8c98nub2RCEj-e9oLym2VeDWcw3Vgu6hqwuJ3j5j2EmVr7nMM-AmvoRwQbhptnk3GeqRo_iJ2J_LvPcl6A=s220",
+        "view": "https://drive.google.com/file/d/1uPWMcFBXveUe14cNUDZrnyQQ_scP9Dgy/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3VBwdTFtszBVhMQsP6gtJPYJ6IQMwma6naIhLNU-yIzOMTnkuQIU_iNYfqeMZgDCJH87YndPR0cfwuudVYROOhfGX2uxi7VUS83pZ5aQLGkPGa_U=s220",
+        "view": "https://drive.google.com/file/d/1xFqqK2uzCjVvVJpMGkxj8cTvtuYOKuuH/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOhGTz6fcotCopbe00qFmZAmOk1TxlRveulmvCfArd88s7VL48qDfhyVm0B8gNI52Jgxsjl2Ff43CGlafY43NaXGqkeAoPJo1Vl6TDmmOwigV5fQM=s220",
+        "view": "https://drive.google.com/file/d/1QnhGg0XPbOJk4WwuI6J2JHZxaHtl67ew/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250098 - 31/3/26 (LEGACY)\n  → 250098_inicial ❌\n  → 250098_caja ❌\n  → 250098_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250098 - 31/3/26 (9 FOTOS)\n  → 250098_inicial ✅\n  → 250098_folio ❌\n  → 250098_corte ❌\n  → 250098_demolicion ❌\n  → 250098_caja ✅\n  → 250098_liga ❌\n  → 250098_mezcla ❌\n  → 250098_terminado ✅\n  → 250098_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250099",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1l6DGGpXLKJOaCIwt2AvK5qwYps67RuYS",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLtfaNGJ7w1pg5MI2XiTXNh_8DAqTlnYZVLEQJ9ljn1uIw-YXRyt84Zj8Y59As4SfmZkKltAw9KyrMc6pwqDsC96c4eFKwJZh80wYKPFrT13tEkJM=s220",
+        "view": "https://drive.google.com/file/d/1xOf51N56HVlKpGLEK6iMukmMu5I7XrX9/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMXpAaqX4PsJY0HfAHol7z0mctUWS-AqjCxhxjG6XJ9Rhz3oF2w3KUeZ8DJNx4Af0aN54Kzt6SIfXqdjUXVBpmc7z2yULcN9mClpaswuN6sB9SxSU=s220",
+        "view": "https://drive.google.com/file/d/1vMyH4_G-2y9ANOeVxVG7wWpm2adsMtmT/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtqOeig1rgQqmU3uOztPtrgg4IdjOz2NzEARtjuzxT85Hy18fM6Iap7UGrhvl23KIrgg1wLYeCy49LKoMIcSvJ_EqXwA8rZ3-ijCPEFiM_QaeEEjw=s220",
+        "view": "https://drive.google.com/file/d/1OCumNh6FPSdQA90-6ETt5vb3fXyYqLZc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250099 - 31/3/26 (LEGACY)\n  → 250099_inicial ❌\n  → 250099_caja ❌\n  → 250099_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250099 - 31/3/26 (9 FOTOS)\n  → 250099_inicial ✅\n  → 250099_folio ❌\n  → 250099_corte ❌\n  → 250099_demolicion ❌\n  → 250099_caja ✅\n  → 250099_liga ❌\n  → 250099_mezcla ❌\n  → 250099_terminado ✅\n  → 250099_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250100",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1PyvExDzrRiSi_ui86IhzJsz-61Mw34Ab",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJsL3DZMJ-77QJRSCOHma8I_0023P0WAKEdTMGJnWszcNBGHumiS97V8OXCRhE9QxH0AlFii48mAFDLlwKM4czioJ4YvZwswQbAEjmf2kmROMlXqc=s220",
+        "view": "https://drive.google.com/file/d/1TkMvelRlCApb_u6wBTPPzC7r9CXi5mno/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5Y_adW_PJtNi3eDWn4epA3zxMFJ8zmzXfEyEWGf98MxDjs-XOxtzBhfGb87anxaUY1ILj9ixft11YIEdcl89ykkYrEmxeffAJermHmwipdg-Ac84=s220",
+        "view": "https://drive.google.com/file/d/1EIGB9V6MiELzKi_SqebbwMrYkgp4ZiST/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpieOCLuGWFVslaqRGQ5d7n_-o6myY3jWf4BqqqN_mmQjg7uiLNUzCzqi0-03YozP3yPPPN66p_vTLV26P_ZMjuz3kR-UaqZ9Pa6vRmVJuto9JT9w=s220",
+        "view": "https://drive.google.com/file/d/1EYm5be2phuuRs0RV9DOt8hLUGA_HDSh9/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250100 - 31/3/26 (LEGACY)\n  → 250100_inicial ❌\n  → 250100_caja ❌\n  → 250100_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250100 - 31/3/26 (9 FOTOS)\n  → 250100_inicial ✅\n  → 250100_folio ❌\n  → 250100_corte ❌\n  → 250100_demolicion ❌\n  → 250100_caja ✅\n  → 250100_liga ❌\n  → 250100_mezcla ❌\n  → 250100_terminado ✅\n  → 250100_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250101",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1PrHrpl7okihcrV22T2AXuYDbLY689v4d",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqubjhlvubcwOyHt5WnBEofvSdXuYeg-Ro3pH-9KvQL_5Qf6Nl6h-vRkI8nlZh2dOC_AwyhsH3z6sJOgQACzol7eOEVir1o1RHzusqWMNxS0To4RY=s220",
+        "view": "https://drive.google.com/file/d/1rARmHKir_ZPB_0LMPNArhdHDcJxPV3dZ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtUV_EGRIBg7yNUbs447_J8oaFcnNGFSe2-dpl6SrCHbsjn9-Q_bdOl9ZWhkqnAFM-Yx_Qnq_1rKjYeTMkIXPFwkUrzx9XQw8pxuVOHAu8RwNySRo=s220",
+        "view": "https://drive.google.com/file/d/106_U7q_GTyglhSfahlcV87uF4ipz7035/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-DliRDJ6bJAY7QOUpRBdVRyw6yqpFZa3HWYdVH2sgctSGwL9AVl1vV1oAZFZ5PD-REYgGJLgKxZIqY1ewbEDWjjGh43X5c-vBfiUQ_j1l-hRIXFo=s220",
+        "view": "https://drive.google.com/file/d/15GfyIImuPI-IXv2CJpIQZHdP7aGi_-tt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250101 - 31/3/26 (LEGACY)\n  → 250101_inicial ❌\n  → 250101_caja ❌\n  → 250101_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250101 - 31/3/26 (9 FOTOS)\n  → 250101_inicial ✅\n  → 250101_folio ❌\n  → 250101_corte ❌\n  → 250101_demolicion ❌\n  → 250101_caja ✅\n  → 250101_liga ❌\n  → 250101_mezcla ❌\n  → 250101_terminado ✅\n  → 250101_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "250102",
     "FECHA": "31/3/26",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "ALAMEDA 2000",
     "DELEGACION": "SANBUENAVENTURA",
     "_company": "CHRISCO",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1hrThz8m8wZ5E5kTjSCxy9DqRNjBYBQpd",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMGMhK9JP62MUdaMEI1VjIa0Vv7cozPBnVADLgjWKNT0Vg7BT5YPaPkvq4ZI7UdWxE8GRSLR_TFQR9yFtnIXZ3G_67lD6741aYCzzwyWJYSXT59iIc=s220",
+        "view": "https://drive.google.com/file/d/1Qz8zVsgD8YM5qIqp9podEkpCkIYhvwTa/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMG1TGA3-AVu4jP2HxHkENxW6tTwY7JcdLRbcKziTzUOXHL5byYpCrWwFTwCcKgARE8ZjWH716q0uSA95f3VbiJ4gOd_W3VckfTNxV_eC2P4xvLfck=s220",
+        "view": "https://drive.google.com/file/d/14pGnr5rU8l5P1EqTlE9wa6czw6_7ebHD/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwk0FbwCBDJl1PduWWMh6aLFUghdGhCgfTM3nfOu4oc-5QzkX5NBjILQ6aZcD3kSVS958EQ0j47-1UDUVwq9Wdf9EYuVdqusllutQh-BdICPhzUKw=s220",
+        "view": "https://drive.google.com/file/d/1WUAkCxSGAjm1UHF6LlDv-38WmQk1KuNL/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 250102 - 31/3/26 (LEGACY)\n  → 250102_inicial ❌\n  → 250102_caja ❌\n  → 250102_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 250102 - 31/3/26 (9 FOTOS)\n  → 250102_inicial ✅\n  → 250102_folio ❌\n  → 250102_corte ❌\n  → 250102_demolicion ❌\n  → 250102_caja ✅\n  → 250102_liga ❌\n  → 250102_mezcla ❌\n  → 250102_terminado ✅\n  → 250102_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -5338,7 +5936,7 @@
   {
     "FOLIO": "250139",
     "FECHA": "6/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "JESUS REYES HEROLES",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
@@ -5347,29 +5945,31 @@
     "_folderId": "13ggB3dl4YZr9mXwxK0G_iXNuWN3jRUbZ",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1Fpon59SdrQWxQeD9RSXqt-_0bGn3Y2Ru3ZepPj1cPRDG4_Jqpcjq0yuzTq1XX3J0u4oG8OmKyE_EfYLhXr-uEMNo2UETW5LdzzMb46TbArVQizE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNlaXvNsNLAREbCr2_rDTal88HLES1VFy3_SYnLb-dslgJkb58b4fgO_tKkfcjNr-hwxoMXoH3sulpGfY73YbWXKFXn5DADYjTPLNGB2yrlE182VPY=s220",
         "view": "https://drive.google.com/file/d/16W76PgyPv5uPAPEIdexcMCVffibf0uMQ/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1yKKjufQ_POokiW_q7-xDAVqkSGpn8TG6ZFwAbtV6crFlBolbH1-NxoOYSlpUe8FicaPmNzWRk6KxDYcD8TjP7v7C7zNROhKNrqM9Cyhv8dZT5D0=s220",
+        "view": "https://drive.google.com/file/d/1K-A_MTv2ETvp769aUYGcC6F-otLs5I83/view?usp=drivesdk"
+      },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPThsQinVhk2RXh111wjMR7ZMUKYJyCt2KaDOWrFxkcbRV_lX2qm2LOyIRWXQTVZZOLn23UlYDgFutprMNH8tzn49gNWK2GBmYEcvV213Pdk5EDrnk=s220",
-        "view": "https://drive.google.com/file/d/1famK7OTf-tXDvsb09MGJKQy_RXVvVUKr/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO900jvDm7H8ENCwuu5UDxrvuXYlLFc0LqjkhVhtl5iv4ijqsK0HyKnEE3QHevvMB9rnj1eNzS_1PEOjd_oZjjbuJxQn1qkqNdD1SXJ08p00Tgi-k4=s220",
+        "view": "https://drive.google.com/file/d/1HMWlivVhSA7pRr5_FFAiPG_QhEdW0hRz/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
-    "EXTRA_PHOTOS": 1,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 250139 - 6/4/26 (9 FOTOS)\n  → 250139_inicial ✅\n  → 250139_folio ❌\n  → 250139_corte ❌\n  → 250139_demolicion ❌\n  → 250139_caja ❌\n  → 250139_liga ❌\n  → 250139_mezcla ❌\n  → 250139_terminado ✅\n  → 250139_limpieza ❌",
+    "_auditDetail": "Folio 250139 - 6/4/26 (9 FOTOS)\n  → 250139_inicial ✅\n  → 250139_folio ❌\n  → 250139_corte ❌\n  → 250139_demolicion ❌\n  → 250139_caja ✅\n  → 250139_liga ❌\n  → 250139_mezcla ❌\n  → 250139_terminado ✅\n  → 250139_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
-      "CAJA",
       "LIGA",
       "MEZCLA",
       "LIMPIEZA"
@@ -15294,7 +15894,7 @@
   {
     "FOLIO": "250367",
     "FECHA": "22/4/26",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "15 DE MAYO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
@@ -15303,45 +15903,46 @@
     "_folderId": "1iRzffMunLcK0oG9Dl-K1Q_q7-fBuw3hz",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdtXfHMPr1tkCmuod3e8K--27ujkMm_f96RPGFxAuw-u3O_xh-4-3569osn9WOcnTNRm84euJlZlWheyL0bMSKVEp0HYtjcWNihIgEwLHYs2NvwfI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMux0WWoTpAkbFOaV9chXD2LXeLqf5bmMuyXsBTVDBN3cxUVFkM15LuJjVloviXJP0haNeF7iMG29IU47eLJO9ylfz1siEWL9lC97I_fEQjoi8jnuc=s220",
         "view": "https://drive.google.com/file/d/1NYOltwP2iwB2HQFEHeF4dO-6bsGGqKA7/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORdn8jp3eKtC1MJed7ccYg88b17UAEBuda0Um_V1JSxL0KeDjiCu1ZFOg-SNVzONcWOpM5zTR9DN-qnCJR8Zc6mzfGfTUiZVbeA1NE1zVQYzhKTOs=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNe4ZtpegJ7Bqpyrcegf3D4_2Vlye9gZIcMCl5MWAOyM226_HW9WNyGO0iqfIKN0U3oYPQaZi9iHQTdQSBS0RagFuN038nb0CLVVAglZKfJ9FIYStc=s220",
         "view": "https://drive.google.com/file/d/11EX3Gdmk3lFhQFdHhwqVLlAB5-FcPAbs/view?usp=drivesdk"
       },
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRdPUhaRqbHVSfwSeLSl2oSXM20DpD1petVG2JO1hlvPw3pFF4J8lEPmagO5vmcjOCIPB_v5YHtQoQ_LfoPl0KOswrU0_149Phx64K5xC2ub_lS4s=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMMd22i6REM_n1Ks9DZ1igND-eO1170x6lZ5QoWSsbwa-8WILbkSHKfRexe1HgOCtrCGO9NndkPwrgdYDT1OOnutEjjJfqp1y7z7rS3hSwXeG1DOw8=s220",
         "view": "https://drive.google.com/file/d/1dXrIfSlAkSZ6usLKri7Bqr5bj9JWb20c/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5NrB9FcMH6AVcwmbNpjy8KhB4e4TZoN106nxUFvtC-fwky2UXgT_QR-One72pD39cajEFC_gJ4m8TGxh8-tyQYj732sSXu5HwUuZj-hirApoOFbc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNa8v99sJddIX6v5VhS2I_x9aQkFd3dO9OZZhgXyqCPQllExmDzbyc9M-SZCQ4e2YVxIUR_y4nGIi4365dGTtZqyOfThPgN8o2b3hFJHGj663j-z3w=s220",
         "view": "https://drive.google.com/file/d/1yqU9kdQqIVk48JqNLYfyHMG5iOzqJLEX/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOLs1VhSZ6M7paSVXxsew9U9i-uLNE9JdjF7z9JfhVQFo-Se6xUtH6WlbQ2c5eRyn3lmCDbQbsoWpoE0rQhDrxdGj4eOjn-yy18OE-PZURGxYbdALk=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFjdXI8oaa5zcYQwKcQOtzQe9kPk5G_sWkTbH6QuSFz7p6fYORwXfZHIlOXnH_NDmBI1OuXJ0S8oGwAeWs0eA9O0UuHFauI-spMJ15oQE9IA-sosQ=s220",
         "view": "https://drive.google.com/file/d/11vn9abQ0y1x7u86C2eiCQTgJOLppVL3V/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzHWepUE-z1KWqEtBq-GPc3v56mILC5B1kqCfS0U_LCKhmxkk0lyBMun5oJGCqdkaPxQfKIRBMk5mqtXXOrkPjKpETM7Awh22MIHe7rj7Rhfcm-eE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwSCIimGPk0PT1efvH8pK5oKUWwSsu3Dl-2Lg0hAKUP6yuNwrnBR-_d81tdQe68gWnDyuo-q3hbdXfatWn4_0wiUpB2CatYa286yt8MbMWzeRgJ90=s220",
         "view": "https://drive.google.com/file/d/1ljkrd0HHjLgtqOJzynMAowU4ifPa3DCN/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGwWWwizAlCuqLQrYRGs40EQmtqj_4_xsdyPgc6VK4EALj9WeyVCLRT6XU8ZcRVEASh_9Wr7JdI1n4sulKpL02XpUUUtsxmZ_RXx9xlOVFr--iGLo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTeH-K9NqQ3dAp0GgJ-ibF70TfLPMforQsYHV7CVkjXv4jg39NSkejL64b3_Hx_bAwWijVCHo8Arl7LGYZXyCUqiFxPB5qmRKlhUzdy7f1LDJ-bA4=s220",
         "view": "https://drive.google.com/file/d/12jURc-FJyoBgAb9U3ZQwc8NvpnZ_yt6Y/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOj6u9NXZVYbCjNpa-VRGAClM0YE1LCZXe8qHSW2672Mv4TiToXAc_MO-gmbT6M3VH77ykSiHLjilQq10uaWoAnhV-RuV2SSPBxj_5iRnXNxg97GY0=s220",
+        "view": "https://drive.google.com/file/d/1JFiF6JPWthdidZaoBXe_1YRODQ3bvJ6y/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCA1sxpKxQyi9I8cTPrPmKttjo9HvPL5z0RaGvpY5-gUew8Hy9X4EmysDT7aPTerumzIATz2AJ-wqeHuwaWGmFIAjuILZhwI4uTx-SXjXOJZyoANY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTzrInqdBMCPp7Joc8FshNa_UcU1iWns0D2T4ZK8m6wKvOPe7asDUStm_Xg-1HpRfm1EhwoQsTj36ZHY6ZR3cF6uIw_WsFru-FS5Qcdp3FMAQIDtY=s220",
         "view": "https://drive.google.com/file/d/11B7HM6G2z_00yUpgChuxDt7onY0D6tQD/view?usp=drivesdk"
       }
     },
     "EXTRA_PHOTOS": 1,
     "_isNewSet": true,
-    "_auditDetail": "Folio 250367 - 22/4/26 (9 FOTOS)\n  → 250367_inicial ✅\n  → 250367_folio ✅\n  → 250367_corte ✅\n  → 250367_demolicion ✅\n  → 250367_caja ✅\n  → 250367_liga ✅\n  → 250367_mezcla ✅\n  → 250367_terminado ❌\n  → 250367_limpieza ✅",
-    "_faltanNEO": [
-      "TERMINADO"
-    ],
+    "_auditDetail": "Folio 250367 - 22/4/26 (9 FOTOS)\n  → 250367_inicial ✅\n  → 250367_folio ✅\n  → 250367_corte ✅\n  → 250367_demolicion ✅\n  → 250367_caja ✅\n  → 250367_liga ✅\n  → 250367_mezcla ✅\n  → 250367_terminado ✅\n  → 250367_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -19531,7 +20132,7 @@
   {
     "FOLIO": "250446",
     "FECHA": "6/5/26",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
     "CALLE": "FELIPE VILLARELO",
     "COLONIA": "SAN BUENAVENTURA",
     "DELEGACION": "SANBUENAVENTURA",
@@ -19540,16 +20141,13 @@
     "_folderId": "1z4Rr99ZkwZm0DUgGOgzOaEfXj_A9HM8c",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrHqEz4HaiS576Q8LuXCoft7_CNOJ2AuFmSH8RwwmUCL5OMkaW_Wn8jPrsgZUBr92QLrVu8jKw7UdeNX4kh-YV-wN7SPIEL6qeqIulnfNDJSE7xwU=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2X50-u1YAg1LwqgB9ZCNuXYbzh-mtNu_Ql-PmTD-jtJDZbc0tNDvvvKYDm6bjWGSEhlSOZvpU0FFwYvnPgCD_yEfk1Tk7F815Tt_aO4Hf9ArTloM=s220",
         "view": "https://drive.google.com/file/d/1A7B17Sr3BfY-I2_mfcWRmpDj3ZdnTOeO/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwY6DlAXHFOthKl3dyAzGBLN7gvAzAUORNYO7Lyg5RvRLpAlzolv5OPH-SqCtqx3wfUbqCqz89S_x0SGPPHn7p-1mf5_3-A5Axk5oRASwKPPaOgdQ=s220",
-        "view": "https://drive.google.com/file/d/16frEkidmZzGTOVPqP5Bn0lCgQk0t5TMT/view?usp=drivesdk"
-      },
+      "CAJA": null,
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": null,
@@ -19557,11 +20155,12 @@
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 250446 - 6/5/26 (9 FOTOS)\n  → 250446_inicial ✅\n  → 250446_folio ❌\n  → 250446_corte ❌\n  → 250446_demolicion ❌\n  → 250446_caja ✅\n  → 250446_liga ❌\n  → 250446_mezcla ❌\n  → 250446_terminado ❌\n  → 250446_limpieza ❌",
+    "_auditDetail": "Folio 250446 - 6/5/26 (9 FOTOS)\n  → 250446_inicial ✅\n  → 250446_folio ❌\n  → 250446_corte ❌\n  → 250446_demolicion ❌\n  → 250446_caja ❌\n  → 250446_liga ❌\n  → 250446_mezcla ❌\n  → 250446_terminado ❌\n  → 250446_limpieza ❌",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
+      "CAJA",
       "LIGA",
       "MEZCLA",
       "TERMINADO",
