@@ -12,8 +12,8 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 234,
-  "OK": 65490,
+  "FALTA: INICIAL": 233,
+  "OK": 65491,
   "FALTA: CAJA + TERMINADO": 712,
   "CARPETA VACÍA": 438,
   "SIN CARPETA": 661,
@@ -2333,8 +2333,8 @@ export const RESUMEN_DATA = [
     "ID": "7",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 196,
-    "OK": 194,
-    "FALTA: INICIAL": 1,
+    "OK": 195,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,

@@ -2625,7 +2625,7 @@
   {
     "FOLIO": "070062",
     "FECHA": "27/3/26",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "AV. PROFESOR HERIBERTO ENRIQUEZ",
     "COLONIA": "UNIVERSIDAD",
     "DELEGACION": "UNIVERSIDAD",
@@ -2633,27 +2633,29 @@
     "_stage": "E3_SUP",
     "_folderId": "1Ty8Qjvgj391KSrSJXsD0o1su36Afdx8T",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCq21W05YIq7HOgxt7t8LoWgRgOlJOU5pi4gIGuFWIa3Cbouvg92AsqkCiJTLEKf9NNhIeNZZogNiiJ0wgf0gWFvpu3jmNiTAxGTIn4c9V_v5iW-Q=s220",
+        "view": "https://drive.google.com/file/d/1dW4aTYU5-olSZwvXrWe7TQrosb5fud-Y/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRTNJqQzRVITac4cQhIl7Fh4ys5OGInS1k4DQUZhKkXi7kOk4AzgXtFOtLKORQKOY3XiJeAlrGFNRHkDsHTgf5bPA3Fe2XPcE-HrY78FxQuJkWHA=s220",
-        "view": "https://drive.google.com/file/d/18tDxR4Gjj6ShzSQcNO07SgUUK2cQihx3/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcswaEWYKYmadUUORyQeThXsSRrsBCpB4xUutBbcrp76Zr1PQ2awbJYQRifRSWwQZYHhOME1RogUnj4zaxFigcBuXKdVk138dpXZekmKqBNzHCZv0=s220",
+        "view": "https://drive.google.com/file/d/1q9KaM0M9bn9OgKLse-hzi0kMRBeYHZfb/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlDJJXdVKUP9JsCxmgo0UG0ogGDhDDhp851cf3KrkhoEzl5TR1qHlNgRsInryxmVIeWji31rBVFpPLYC5SG_Pmm_pSX8_495-A0sA-u457fj99LQ=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPwjsogKasUJ5plLUNBrr-zoHMumptqMq6r_lLQyLOdONL_BnkYpLjJvap9Xv_7Y8eDMfdx6it5TzfTzOfoioU2HQ2dk-khBOexebjc1zoKwS-41W0=s220",
         "view": "https://drive.google.com/file/d/18HfWPjn3_QxolTYp-Uwu6snILMsBVVwe/view?usp=drivesdk"
       },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 070062 - 27/3/26 (9 FOTOS)\n  → 070062_inicial ❌\n  → 070062_folio ❌\n  → 070062_corte ❌\n  → 070062_demolicion ❌\n  → 070062_caja ✅\n  → 070062_liga ❌\n  → 070062_mezcla ❌\n  → 070062_terminado ✅\n  → 070062_limpieza ❌",
+    "_auditDetail": "Folio 070062 - 27/3/26 (9 FOTOS)\n  → 070062_inicial ✅\n  → 070062_folio ❌\n  → 070062_corte ❌\n  → 070062_demolicion ❌\n  → 070062_caja ✅\n  → 070062_liga ❌\n  → 070062_mezcla ❌\n  → 070062_terminado ✅\n  → 070062_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
       "CORTE",
       "DEMOLICION",
@@ -7008,15 +7010,15 @@
     "_folderId": "1SaspDSJKBB3JDd1ufernbuTZ0lYH2Vd8",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSlu0ykxtjMFuYapP9GFcnHBNEoaodHqJwCgZPcuy0u1cgODGxY3C7_CMS8I9hp6yJ7WyKeBvs4YNxZB7xtq3a3qgcfvLIx0WkRiyFJsNmE9wIRg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPj_Nfl1Q-KyCsXCqTEBes3VepiiimQfbRXKRjvt_8wd3-QvaYnBmHwiPqtSzMwEasaGQUPgkZpoF8KGq97iDXK7SlbdtOvLEbU0oWNxWBBarPqvoc=s220",
         "view": "https://drive.google.com/file/d/1mJWenLNIY2Ug0a8IRpeXPWtOLf4jJg86/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8M8Q43_-4XaDPuGM1XKMSzm1904Hh2G0wd8Mn0FymEHxwmuW4IuNVlyiWtgC9eKgr3xwbdCp4zKv9DrWIH5I49BJ7SXrAYy2ci-WkAaXJio5ZgA=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMP4BLyDMF94J6mw_4vTcjloLJB-1lK96RoOfsq_-Y_dWjNYA1Q2g-6oKj1nffparayTH2kOJWHy_0TVYblYdbquntabEtFUQlKGJvgk3-2R3Tyess=s220",
         "view": "https://drive.google.com/file/d/1MwtoQCVr24AEPAc5aZKSos3u77lqNvcA/view?usp=drivesdk"
       },
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgkq54fcJknAQct-uOqH-oQSTd4hrcw8VlJx0fbCfQTAJTnA4RrJcgGWjWFS-B8BvSaMpR6fpxeqjZvY4Wxaaxzjc0TaqU2QOaH3oxXYT6Ix2v2g=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNue3VBYIc0d5Vuhme3UZiQ0YwRnKpJpjI4O9LmxHhYgZ2Cg1myq2wVKdwEpUyM8Fte94M6G052eyd_zGKQCTi-zSw7XKftiZqzsBxpHEGaEl5xp7Q=s220",
         "view": "https://drive.google.com/file/d/1ebeHV-mr8aPYlUBPUay9i2LQeHL3jYxE/view?usp=drivesdk"
       },
       "DEMOLICION": null,
