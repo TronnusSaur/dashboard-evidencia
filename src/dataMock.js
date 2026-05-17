@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 345,
-  "OK": 66932,
+  "FALTA: INICIAL": 366,
+  "OK": 67108,
   "FALTA: CAJA + TERMINADO": 918,
   "CARPETA VACÍA": 438,
-  "SIN CARPETA": 1028,
+  "SIN CARPETA": 776,
   "FALTA: CAJA": 365,
-  "FALTA: INICIAL + CAJA + TERMINADO": 209,
+  "FALTA: INICIAL + CAJA + TERMINADO": 260,
   "FALTA: TERMINADO": 248,
-  "FALTA: INICIAL + CAJA": 55,
-  "FALTA: INICIAL + TERMINADO": 25
+  "FALTA: INICIAL + CAJA": 57,
+  "FALTA: INICIAL + TERMINADO": 27
 };
 export const RESUMEN_DATA = [
   {
@@ -1613,11 +1613,11 @@ export const RESUMEN_DATA = [
     "ID": "10",
     "_stage": "E3",
     "TOTAL_OMISIONES": 76,
-    "OK": 0,
+    "OK": 76,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 76,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
@@ -1853,16 +1853,16 @@ export const RESUMEN_DATA = [
     "ID": "24",
     "_stage": "E3",
     "TOTAL_OMISIONES": 415,
-    "OK": 348,
+    "OK": 380,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 67,
+    "SIN CARPETA": 1,
     "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
+    "FALTA: INICIAL + CAJA + TERMINADO": 31,
     "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
+    "FALTA: INICIAL + CAJA": 2,
+    "FALTA: INICIAL + TERMINADO": 1
   },
   {
     "EMPRESA_RAIZ_MASTER": "CHRISCO",
@@ -1889,12 +1889,12 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 21,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
+    "FALTA: INICIAL + CAJA + TERMINADO": 20,
     "FALTA: TERMINADO": 0,
     "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
+    "FALTA: INICIAL + TERMINADO": 1
   },
   {
     "EMPRESA_RAIZ_MASTER": "MAMUTEE",
@@ -2141,11 +2141,11 @@ export const RESUMEN_DATA = [
     "ID": "42",
     "_stage": "E3",
     "TOTAL_OMISIONES": 246,
-    "OK": 176,
+    "OK": 218,
     "FALTA: INICIAL": 7,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 42,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + TERMINADO": 2,
     "FALTA: TERMINADO": 6,
@@ -2173,11 +2173,11 @@ export const RESUMEN_DATA = [
     "ID": "44",
     "_stage": "E3",
     "TOTAL_OMISIONES": 166,
-    "OK": 119,
-    "FALTA: INICIAL": 0,
+    "OK": 145,
+    "FALTA: INICIAL": 21,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 47,
+    "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
