@@ -602,6 +602,49 @@
     "_uploadEmail": null
   },
   {
+    "FOLIO": "360015",
+    "FECHA": "6/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "REFORMA",
+    "COLONIA": "SANTA CRUZ SUR",
+    "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1cEyBB0Os0V4V3OGDAZvB4-bELNLCZLMm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxAxuuQYEUHz_N2AFHfvtr6esI9I5yKKcHUKi0WO9XMIMeBmlaSybJDw6SwU9P2AujGM6knSwCS4UDZ7IItPpmpex5hAFFztzR8Sep36NK9YJuKM8=s220",
+        "view": "https://drive.google.com/file/d/1SeV12RdutPmibn64XauX_CmpVg1AHkYu/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqJ7PKRLajfx-yzSKbyLVo_kdWb_54FMRfnko2BX-qu0MbkaF88ldin_68YCjT4WGZncHIrsVkajUwAHTlPCN9h5OwcnMiDu6iLyD4ghmUjUuM76g=s220",
+        "view": "https://drive.google.com/file/d/17JM_IRF5c-gWEVfH4GPoFbko4pDUZPMu/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAgBFTr0LDOubfEFKCxKMMYwTFzYE6K-jWDCE2fFFuTZgGlNt8rwbri92gDYk5Y0gQRoYRBvELI5Dz6bIjTHpPPczRp3xoQGt-BeuW2OTzv3Aj1xM=s220",
+        "view": "https://drive.google.com/file/d/1JaHJZVOZIrjA8iBDZeK84TK5lB0uf7Hf/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 360015 - 6/4/2026 (9 FOTOS)\n  → 360015_inicial ✅\n  → 360015_folio ❌\n  → 360015_corte ❌\n  → 360015_demolicion ❌\n  → 360015_caja ✅\n  → 360015_liga ❌\n  → 360015_mezcla ❌\n  → 360015_terminado ✅\n  → 360015_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": null
+  },
+  {
     "FOLIO": "360016",
     "FECHA": "27/3/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -1365,49 +1408,6 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 360033 - 30/3/2026 (9 FOTOS)\n  → 360033_inicial ✅\n  → 360033_folio ❌\n  → 360033_corte ❌\n  → 360033_demolicion ❌\n  → 360033_caja ✅\n  → 360033_liga ❌\n  → 360033_mezcla ❌\n  → 360033_terminado ✅\n  → 360033_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
-    "FOLIO": "360015",
-    "FECHA": "6/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "REFORMA",
-    "COLONIA": "SANTA CRUZ SUR",
-    "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
-    "_company": "KANARE",
-    "_stage": "E3",
-    "_folderId": "1cEyBB0Os0V4V3OGDAZvB4-bELNLCZLMm",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxAxuuQYEUHz_N2AFHfvtr6esI9I5yKKcHUKi0WO9XMIMeBmlaSybJDw6SwU9P2AujGM6knSwCS4UDZ7IItPpmpex5hAFFztzR8Sep36NK9YJuKM8=s220",
-        "view": "https://drive.google.com/file/d/1SeV12RdutPmibn64XauX_CmpVg1AHkYu/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqJ7PKRLajfx-yzSKbyLVo_kdWb_54FMRfnko2BX-qu0MbkaF88ldin_68YCjT4WGZncHIrsVkajUwAHTlPCN9h5OwcnMiDu6iLyD4ghmUjUuM76g=s220",
-        "view": "https://drive.google.com/file/d/17JM_IRF5c-gWEVfH4GPoFbko4pDUZPMu/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAgBFTr0LDOubfEFKCxKMMYwTFzYE6K-jWDCE2fFFuTZgGlNt8rwbri92gDYk5Y0gQRoYRBvELI5Dz6bIjTHpPPczRp3xoQGt-BeuW2OTzv3Aj1xM=s220",
-        "view": "https://drive.google.com/file/d/1JaHJZVOZIrjA8iBDZeK84TK5lB0uf7Hf/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 360015 - 6/4/2026 (9 FOTOS)\n  → 360015_inicial ✅\n  → 360015_folio ❌\n  → 360015_corte ❌\n  → 360015_demolicion ❌\n  → 360015_caja ✅\n  → 360015_liga ❌\n  → 360015_mezcla ❌\n  → 360015_terminado ✅\n  → 360015_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -2838,49 +2838,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "360089",
-    "FECHA": "9/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "RIO PAPALOAPAN",
-    "COLONIA": "SANTA CRUZ SUR",
-    "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
-    "_company": "KANARE",
-    "_stage": "E3",
-    "_folderId": "15WsHunVhrILhtkhJUWVWqJxx2jZDDoc5",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM22BcDD1iGyuEAdeLneBucIttojSYyfIzUdo9RYsc7I5TGzkh3Zg9iw7vZOdKNAmb-OzeKSd4FeM6qbFFdRM4zdRdBUQ6VPTuYNhZsIhjHz2KS2g=s220",
-        "view": "https://drive.google.com/file/d/1tJbmNqlmocP5K2DfZi_0ucNrOYiaAo-f/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeKLjLsuxh9i26nKwWY1t-cfxz9DZuEbdPUQh4YM6RqIFG_bj4U3srnzC_wkmPGTYhC830kXU_eFwe3dgHMJP5kvaRi0xPM8CzpaEU_DIzJgccbQ=s220",
-        "view": "https://drive.google.com/file/d/1VkGLCK1D6-6Gj7xbctDowvhOymh7L2gf/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyfhjrUPf6uh7H2EJwfcqtJp2q-YW1HyKeWE9Iobg-ojw9c5Klq2O8lgmNH9yHKfHBGdK2lHSJ5bD8l-D0q1-5I8EHLDzeezsFBLCKUMI72UwKYg=s220",
-        "view": "https://drive.google.com/file/d/1xLR5Vaf15u4BVtoxArH7RS6HWSXxMXqM/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 360089 - 9/4/2026 (9 FOTOS)\n  → 360089_inicial ✅\n  → 360089_folio ❌\n  → 360089_corte ❌\n  → 360089_demolicion ❌\n  → 360089_caja ✅\n  → 360089_liga ❌\n  → 360089_mezcla ❌\n  → 360089_terminado ✅\n  → 360089_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "360075",
     "FECHA": "23/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -3418,6 +3375,49 @@
     "_isNewSet": true,
     "_auditDetail": "Folio 360088 - 23/4/2026 (9 FOTOS)\n  → 360088_inicial ✅\n  → 360088_folio ✅\n  → 360088_corte ✅\n  → 360088_demolicion ✅\n  → 360088_caja ✅\n  → 360088_liga ✅\n  → 360088_mezcla ✅\n  → 360088_terminado ✅\n  → 360088_limpieza ✅",
     "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "360089",
+    "FECHA": "9/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "RIO PAPALOAPAN",
+    "COLONIA": "SANTA CRUZ SUR",
+    "DELEGACION": "SANTA CRUZ ATZCAPOTZALTONGO",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "15WsHunVhrILhtkhJUWVWqJxx2jZDDoc5",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM22BcDD1iGyuEAdeLneBucIttojSYyfIzUdo9RYsc7I5TGzkh3Zg9iw7vZOdKNAmb-OzeKSd4FeM6qbFFdRM4zdRdBUQ6VPTuYNhZsIhjHz2KS2g=s220",
+        "view": "https://drive.google.com/file/d/1tJbmNqlmocP5K2DfZi_0ucNrOYiaAo-f/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMeKLjLsuxh9i26nKwWY1t-cfxz9DZuEbdPUQh4YM6RqIFG_bj4U3srnzC_wkmPGTYhC830kXU_eFwe3dgHMJP5kvaRi0xPM8CzpaEU_DIzJgccbQ=s220",
+        "view": "https://drive.google.com/file/d/1VkGLCK1D6-6Gj7xbctDowvhOymh7L2gf/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOyfhjrUPf6uh7H2EJwfcqtJp2q-YW1HyKeWE9Iobg-ojw9c5Klq2O8lgmNH9yHKfHBGdK2lHSJ5bD8l-D0q1-5I8EHLDzeezsFBLCKUMI72UwKYg=s220",
+        "view": "https://drive.google.com/file/d/1xLR5Vaf15u4BVtoxArH7RS6HWSXxMXqM/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 360089 - 9/4/2026 (9 FOTOS)\n  → 360089_inicial ✅\n  → 360089_folio ❌\n  → 360089_corte ❌\n  → 360089_demolicion ❌\n  → 360089_caja ✅\n  → 360089_liga ❌\n  → 360089_mezcla ❌\n  → 360089_terminado ✅\n  → 360089_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": null
   }
 ]

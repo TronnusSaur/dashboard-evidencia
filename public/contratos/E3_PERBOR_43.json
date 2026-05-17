@@ -946,49 +946,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430026",
-    "FECHA": "30/3/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "BENITO JUAREZ GARCIA",
-    "COLONIA": "SAN CAYETANO",
-    "DELEGACION": "SAN CAYETANO MORELOS",
-    "_company": "PERBOR",
-    "_stage": "E3",
-    "_folderId": "1zxJ6Ifp7KN9k8mWXHVdUDizMndWyz1Uy",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_ORSz7s1WarFz_1g5ZjS8DbDc-QKRmPmnpyH-ups8skMKz8_x5ubXUyMR-X1rUl0Yi6Uk3Yl4TT2z7hwVpUIH-mccallaHpIx2mSU7YReWuOpxw=s220",
-        "view": "https://drive.google.com/file/d/1qJBbkQzHTy0AxYSrJoyANp3-ceUuYHcH/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqhDctE9RfXUMb-mCAbjywMTqETkDhZVmARijWZbVgcny6wcOlBJw_Psp6F00ARcAKlVXsfVphHdo2fOb35SrpV19ZnGV6OGc53ejinCTBTfIo2Q=s220",
-        "view": "https://drive.google.com/file/d/1FWs5C1EFWF2S8XNsQhRECGxmdITf1mHO/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6w37_nI-ayEO5IObzOZIZ8TqRmJMrEMd48nT3tdJZFu44jtxUHtcVm1n1ld3yRCXdATjffesd-2gI98CkeOLlXZRTGJaaJvIbsP_j07zs4gSE2Q=s220",
-        "view": "https://drive.google.com/file/d/19LmO31MF3hH7JIC4wmo5wW100w1Qfalj/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 430026 - 30/3/2026 (9 FOTOS)\n  → 430026_inicial ✅\n  → 430026_folio ❌\n  → 430026_corte ❌\n  → 430026_demolicion ❌\n  → 430026_caja ✅\n  → 430026_liga ❌\n  → 430026_mezcla ❌\n  → 430026_terminado ✅\n  → 430026_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "430023",
     "FECHA": "1/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -1107,6 +1064,49 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 430025 - 1/4/2026 (9 FOTOS)\n  → 430025_inicial ✅\n  → 430025_folio ❌\n  → 430025_corte ❌\n  → 430025_demolicion ❌\n  → 430025_caja ✅\n  → 430025_liga ❌\n  → 430025_mezcla ❌\n  → 430025_terminado ✅\n  → 430025_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "430026",
+    "FECHA": "30/3/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "BENITO JUAREZ GARCIA",
+    "COLONIA": "SAN CAYETANO",
+    "DELEGACION": "SAN CAYETANO MORELOS",
+    "_company": "PERBOR",
+    "_stage": "E3",
+    "_folderId": "1zxJ6Ifp7KN9k8mWXHVdUDizMndWyz1Uy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_ORSz7s1WarFz_1g5ZjS8DbDc-QKRmPmnpyH-ups8skMKz8_x5ubXUyMR-X1rUl0Yi6Uk3Yl4TT2z7hwVpUIH-mccallaHpIx2mSU7YReWuOpxw=s220",
+        "view": "https://drive.google.com/file/d/1qJBbkQzHTy0AxYSrJoyANp3-ceUuYHcH/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqhDctE9RfXUMb-mCAbjywMTqETkDhZVmARijWZbVgcny6wcOlBJw_Psp6F00ARcAKlVXsfVphHdo2fOb35SrpV19ZnGV6OGc53ejinCTBTfIo2Q=s220",
+        "view": "https://drive.google.com/file/d/1FWs5C1EFWF2S8XNsQhRECGxmdITf1mHO/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6w37_nI-ayEO5IObzOZIZ8TqRmJMrEMd48nT3tdJZFu44jtxUHtcVm1n1ld3yRCXdATjffesd-2gI98CkeOLlXZRTGJaaJvIbsP_j07zs4gSE2Q=s220",
+        "view": "https://drive.google.com/file/d/19LmO31MF3hH7JIC4wmo5wW100w1Qfalj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 430026 - 30/3/2026 (9 FOTOS)\n  → 430026_inicial ✅\n  → 430026_folio ❌\n  → 430026_corte ❌\n  → 430026_demolicion ❌\n  → 430026_caja ✅\n  → 430026_liga ❌\n  → 430026_mezcla ❌\n  → 430026_terminado ✅\n  → 430026_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -2580,49 +2580,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430063",
-    "FECHA": "6/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "SOR JUANA INES DE LA CRUZ",
-    "COLONIA": "SAN CAYETANO",
-    "DELEGACION": "SAN CAYETANO MORELOS",
-    "_company": "PERBOR",
-    "_stage": "E3",
-    "_folderId": "1vjJ8ikAzcetIb82-oGZfXEdQnK19QPQL",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuW5eYOa24ldbdclsDK2eT93b6IxUbHn0TKPY1gv5-quAZNHH7dXs7L9z2qwFGng_uXbd9DfjaaCIvineLPSUYaevBztnbJses7dO4NazGjCIm29E=s220",
-        "view": "https://drive.google.com/file/d/1lGnUHidbmUTSP7xPQSsgoCrwuHAPAO-Y/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYO8ktoGZx1L1GnTrvELzGCRhZcdmQtvnoD82fa2TPZMkVIf9TCl12DccX-p-xHruyWGpn4IfidoH5v-1S8G4Gpfc3Pfxc7gnVJbc1bae_m07g_p4=s220",
-        "view": "https://drive.google.com/file/d/1WDDDlQ9OjNvgq_ovq-K2enlhdnCWCLgB/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSWyFHJkLHh1z8Pw0hniNPwrLYw-a57j3rPhaT38asFE3U2v8vdOEV-ss8Sh4atXipz3r-w0sMCkTKq7k-jgstpAX4MqXxMgyO9z3NH8nnFjLbnQY=s220",
-        "view": "https://drive.google.com/file/d/1myTPnamZULYSVYURDDBCoy0eoKgpNZLt/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 430063 - 6/4/2026 (9 FOTOS)\n  → 430063_inicial ✅\n  → 430063_folio ❌\n  → 430063_corte ❌\n  → 430063_demolicion ❌\n  → 430063_caja ✅\n  → 430063_liga ❌\n  → 430063_mezcla ❌\n  → 430063_terminado ✅\n  → 430063_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "430061",
     "FECHA": "7/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -2698,6 +2655,49 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 430062 - 7/4/2026 (9 FOTOS)\n  → 430062_inicial ✅\n  → 430062_folio ❌\n  → 430062_corte ❌\n  → 430062_demolicion ❌\n  → 430062_caja ✅\n  → 430062_liga ❌\n  → 430062_mezcla ❌\n  → 430062_terminado ✅\n  → 430062_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "430063",
+    "FECHA": "6/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "SOR JUANA INES DE LA CRUZ",
+    "COLONIA": "SAN CAYETANO",
+    "DELEGACION": "SAN CAYETANO MORELOS",
+    "_company": "PERBOR",
+    "_stage": "E3",
+    "_folderId": "1vjJ8ikAzcetIb82-oGZfXEdQnK19QPQL",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuW5eYOa24ldbdclsDK2eT93b6IxUbHn0TKPY1gv5-quAZNHH7dXs7L9z2qwFGng_uXbd9DfjaaCIvineLPSUYaevBztnbJses7dO4NazGjCIm29E=s220",
+        "view": "https://drive.google.com/file/d/1lGnUHidbmUTSP7xPQSsgoCrwuHAPAO-Y/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYO8ktoGZx1L1GnTrvELzGCRhZcdmQtvnoD82fa2TPZMkVIf9TCl12DccX-p-xHruyWGpn4IfidoH5v-1S8G4Gpfc3Pfxc7gnVJbc1bae_m07g_p4=s220",
+        "view": "https://drive.google.com/file/d/1WDDDlQ9OjNvgq_ovq-K2enlhdnCWCLgB/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSWyFHJkLHh1z8Pw0hniNPwrLYw-a57j3rPhaT38asFE3U2v8vdOEV-ss8Sh4atXipz3r-w0sMCkTKq7k-jgstpAX4MqXxMgyO9z3NH8nnFjLbnQY=s220",
+        "view": "https://drive.google.com/file/d/1myTPnamZULYSVYURDDBCoy0eoKgpNZLt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 430063 - 6/4/2026 (9 FOTOS)\n  → 430063_inicial ✅\n  → 430063_folio ❌\n  → 430063_corte ❌\n  → 430063_demolicion ❌\n  → 430063_caja ✅\n  → 430063_liga ❌\n  → 430063_mezcla ❌\n  → 430063_terminado ✅\n  → 430063_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -4472,49 +4472,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430121",
-    "FECHA": "13/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "HEROES DE LA INDEPENDENCIA",
-    "COLONIA": "SAN CAYETANO",
-    "DELEGACION": "SAN CAYETANO MORELOS",
-    "_company": "PERBOR",
-    "_stage": "E3",
-    "_folderId": "1A8ZjsRQYH6SfNtgkVbjGztZXzNcn6L1I",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMs3KjohT_6xybQUl0weQeZSrwyThwwEaolG_JkrQSX_45Oj-cZBkxPKasgJEbNwWSb4X-eqz_WvMHtTkWwqzj0blNwHdO2luO6HYJzyim7f4UyW4=s220",
-        "view": "https://drive.google.com/file/d/1dB-FduzL3dwmLrR_WxsAOGIqkKGflNpQ/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDDjXYk_BnK5r8odEsR4sqB3EjQK2iKp20pvGL8FmmeI4-8ZYYiGyoeDIVwWpEasilykXI9roRcp12nDF0FRcA0WfmvTkihQKJEs_Dahboq7s3rgM=s220",
-        "view": "https://drive.google.com/file/d/1ft3shREZ2swocCWgcKVM3XfSgYcjG6qc/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPST3TkHXHvDm0A_j99D9cHwPW5NArldHrdKxqm5dxKdwX98dAkw_rdUace9t3GSMrpr2teS64yXJHMjj9YJourPMzTpsIdEgIRqNWfVcVkO02AWoI=s220",
-        "view": "https://drive.google.com/file/d/1s5lWdpwrbpPExN1AjChtQ_F4xC6M1eEm/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 430121 - 13/4/2026 (9 FOTOS)\n  → 430121_inicial ✅\n  → 430121_folio ❌\n  → 430121_corte ❌\n  → 430121_demolicion ❌\n  → 430121_caja ✅\n  → 430121_liga ❌\n  → 430121_mezcla ❌\n  → 430121_terminado ✅\n  → 430121_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "430118",
     "FECHA": "14/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -4633,6 +4590,49 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 430120 - 14/4/2026 (9 FOTOS)\n  → 430120_inicial ✅\n  → 430120_folio ❌\n  → 430120_corte ❌\n  → 430120_demolicion ❌\n  → 430120_caja ✅\n  → 430120_liga ❌\n  → 430120_mezcla ❌\n  → 430120_terminado ✅\n  → 430120_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "430121",
+    "FECHA": "13/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "HEROES DE LA INDEPENDENCIA",
+    "COLONIA": "SAN CAYETANO",
+    "DELEGACION": "SAN CAYETANO MORELOS",
+    "_company": "PERBOR",
+    "_stage": "E3",
+    "_folderId": "1A8ZjsRQYH6SfNtgkVbjGztZXzNcn6L1I",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMs3KjohT_6xybQUl0weQeZSrwyThwwEaolG_JkrQSX_45Oj-cZBkxPKasgJEbNwWSb4X-eqz_WvMHtTkWwqzj0blNwHdO2luO6HYJzyim7f4UyW4=s220",
+        "view": "https://drive.google.com/file/d/1dB-FduzL3dwmLrR_WxsAOGIqkKGflNpQ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDDjXYk_BnK5r8odEsR4sqB3EjQK2iKp20pvGL8FmmeI4-8ZYYiGyoeDIVwWpEasilykXI9roRcp12nDF0FRcA0WfmvTkihQKJEs_Dahboq7s3rgM=s220",
+        "view": "https://drive.google.com/file/d/1ft3shREZ2swocCWgcKVM3XfSgYcjG6qc/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPST3TkHXHvDm0A_j99D9cHwPW5NArldHrdKxqm5dxKdwX98dAkw_rdUace9t3GSMrpr2teS64yXJHMjj9YJourPMzTpsIdEgIRqNWfVcVkO02AWoI=s220",
+        "view": "https://drive.google.com/file/d/1s5lWdpwrbpPExN1AjChtQ_F4xC6M1eEm/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 430121 - 13/4/2026 (9 FOTOS)\n  → 430121_inicial ✅\n  → 430121_folio ❌\n  → 430121_corte ❌\n  → 430121_demolicion ❌\n  → 430121_caja ✅\n  → 430121_liga ❌\n  → 430121_mezcla ❌\n  → 430121_terminado ✅\n  → 430121_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
@@ -8213,49 +8213,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430207",
-    "FECHA": "20/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "HEROES DE LA INDEPENDENCIA",
-    "COLONIA": "SAN CAYETANO",
-    "DELEGACION": "SAN CAYETANO MORELOS",
-    "_company": "PERBOR",
-    "_stage": "E3",
-    "_folderId": "11K2JDxHue97IDWPF3EFZexYQKyrMuH7o",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHe0172vAGjErPccXUFP1P6wMi6kUDi8yQqIEm8uflKbj45xrXX9kLFOODbeZflX2mt-EaM5fei4knPpVfzUI5CI38xxr4zvHmu-U7NnBTRhxo7Lc=s220",
-        "view": "https://drive.google.com/file/d/1mdpyQ2NcPUdnZ5sGviAxGidBvrgnc0YJ/view?usp=drivesdk"
-      },
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONI9O6CoPOCGtpW7Esu80ltLT6fp663AClQ9FBiSCJxCsxOUmq7MY5GQgQvC6rbVnVYaEpynWfuMjXubRYpd8EBE7k7CRb06C9HCxQlffFVei_Vo0=s220",
-        "view": "https://drive.google.com/file/d/1IPP5x3xOZLHRwNOkN1B7wg5evvg_FX_t/view?usp=drivesdk"
-      },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpAn_bjYY76bm7mC-11GDALDjE4hpNGXohPwzfGOlzNCvuDjAh1-L4ANtknyKgv7Y7awoJ9tN9CLv6QH4HAM1ThyZqABcmWG_-LmRYDYuUyOjWwEQ=s220",
-        "view": "https://drive.google.com/file/d/1S59hPHvhwYlBiYArNDyoNa7dWjGEBnpI/view?usp=drivesdk"
-      },
-      "LIMPIEZA": null
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 430207 - 20/4/2026 (9 FOTOS)\n  → 430207_inicial ✅\n  → 430207_folio ❌\n  → 430207_corte ❌\n  → 430207_demolicion ❌\n  → 430207_caja ✅\n  → 430207_liga ❌\n  → 430207_mezcla ❌\n  → 430207_terminado ✅\n  → 430207_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
-    "_faltanNEO": [
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "LIGA",
-      "MEZCLA",
-      "LIMPIEZA"
-    ],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "430205",
     "FECHA": "21/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -8361,6 +8318,49 @@
     "_isNewSet": true,
     "_auditDetail": "Folio 430206 - 21/4/2026 (9 FOTOS)\n  → 430206_inicial ✅\n  → 430206_folio ✅\n  → 430206_corte ✅\n  → 430206_demolicion ✅\n  → 430206_caja ✅\n  → 430206_liga ✅\n  → 430206_mezcla ✅\n  → 430206_terminado ✅\n  → 430206_limpieza ✅",
     "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "430207",
+    "FECHA": "20/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "HEROES DE LA INDEPENDENCIA",
+    "COLONIA": "SAN CAYETANO",
+    "DELEGACION": "SAN CAYETANO MORELOS",
+    "_company": "PERBOR",
+    "_stage": "E3",
+    "_folderId": "11K2JDxHue97IDWPF3EFZexYQKyrMuH7o",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHe0172vAGjErPccXUFP1P6wMi6kUDi8yQqIEm8uflKbj45xrXX9kLFOODbeZflX2mt-EaM5fei4knPpVfzUI5CI38xxr4zvHmu-U7NnBTRhxo7Lc=s220",
+        "view": "https://drive.google.com/file/d/1mdpyQ2NcPUdnZ5sGviAxGidBvrgnc0YJ/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONI9O6CoPOCGtpW7Esu80ltLT6fp663AClQ9FBiSCJxCsxOUmq7MY5GQgQvC6rbVnVYaEpynWfuMjXubRYpd8EBE7k7CRb06C9HCxQlffFVei_Vo0=s220",
+        "view": "https://drive.google.com/file/d/1IPP5x3xOZLHRwNOkN1B7wg5evvg_FX_t/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNpAn_bjYY76bm7mC-11GDALDjE4hpNGXohPwzfGOlzNCvuDjAh1-L4ANtknyKgv7Y7awoJ9tN9CLv6QH4HAM1ThyZqABcmWG_-LmRYDYuUyOjWwEQ=s220",
+        "view": "https://drive.google.com/file/d/1S59hPHvhwYlBiYArNDyoNa7dWjGEBnpI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 430207 - 20/4/2026 (9 FOTOS)\n  → 430207_inicial ✅\n  → 430207_folio ❌\n  → 430207_corte ❌\n  → 430207_demolicion ❌\n  → 430207_caja ✅\n  → 430207_liga ❌\n  → 430207_mezcla ❌\n  → 430207_terminado ✅\n  → 430207_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": null
   },
   {
@@ -8576,6 +8576,60 @@
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
     "_auditDetail": "Folio 430211 - 21/4/2026 (9 FOTOS)\n  → 430211_inicial ✅\n  → 430211_folio ✅\n  → 430211_corte ✅\n  → 430211_demolicion ✅\n  → 430211_caja ✅\n  → 430211_liga ✅\n  → 430211_mezcla ✅\n  → 430211_terminado ✅\n  → 430211_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "430212",
+    "FECHA": "23/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "HEROES DE LA INDEPENDENCIA",
+    "COLONIA": "SAN CAYETANO",
+    "DELEGACION": "SAN CAYETANO MORELOS",
+    "_company": "PERBOR",
+    "_stage": "E3",
+    "_folderId": "1B2keVQPnhSsiwDtEIbRondXoR8zSsI_b",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDEoP1SFJiifO4khu3ChPDygZCwf0zodhL2vx8YtpSi_GgqStNws_u_I6aWKHl3eL4fRCa4Mys4OqT0Xh_Bz1hXmlegNny-QwrPKURVrtL9LVO3Ro=s220",
+        "view": "https://drive.google.com/file/d/16Pea7O-saLRJ2IRpTaeWGXKgn8aAEbna/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFGHyZXbANFnG86e4IBaH8DGlAkgp_GCUUVyNGLz6hfk81IYl_l-7o5nu1-WpikrqpIF5jBIkhFD1-pHGFdOs2NCWu0VSEJ4ccZ0HEV-Bk-NV5eN0=s220",
+        "view": "https://drive.google.com/file/d/1FzoawjS87pDMHNHTcvLay9f0rqHr33Du/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMBJD1HkUzRq24GLWwywB-i8GB0O7ammwI9b4bwahEzcEwJhjgjRRePxETTKXMG2EIIKEOlqsfGHD1Y0WDBJ35tCBvy6G0SVYBb5SIXNdt31CLvFk=s220",
+        "view": "https://drive.google.com/file/d/1LRSmENf6KcG1CmwRtSnjBzVMsq-TpGQV/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJre-iPQxpi9MXzvJnlDyDT9qXJTmrJcJfsL9D4JpHnaA9CzRyjWf7ua1pd8lrgjH7dh8W5XuKkspPGVFuaDy9kVLhbfxkAwgC_X-W0lctzIUh8P0=s220",
+        "view": "https://drive.google.com/file/d/1SDqeZSwHe0T5uC5yBzkiY7T84aIXfK2k/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvVL4YkgKbYlztRbgnhb2WOUC8wF3bnuZdWYj2s2JwxR1R8uyQvmU7HnBmaLqtwCqTll2G3N3nRaJ2tg3By3F8W1aacI9CFyfqJ9BRj1PRiFraCrg=s220",
+        "view": "https://drive.google.com/file/d/1Zznza_afXKSSue96GBFJidM6JA1Ozf9z/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-tspLMr2Rfd2wjBfwpI8Tr3F7SiPFKzP7WD_g22VBiJzRbsAsRwaIdNMWrpbwtCKG4StGoSHa-sATSLxT9SXGXX4hXvNLQRRRh8KGNDa2R_snU9s=s220",
+        "view": "https://drive.google.com/file/d/1Q67BfwpkWxF6H4K8GgP-GF_r3vB74XcF/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3jl8me91mcKsnLLbrv0lSXd4_Klw0OpR9skWBKJCbg472AdyKVkNGZ6RWX3SEj_nNiKlCWbIj0q2NEvyKCMeG67ZRJYkJ40x7uQrqmbJ1FknhTNg=s220",
+        "view": "https://drive.google.com/file/d/1JL3g8W3UqxOLuiieyG6Ub2FSl6OhbtJB/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhMn46pAquLUjfc5Za_s5zWUjatXf9zpU0O3aHINPEEHgIraEKKzIAJhnEnC4M2lv4Tn8_wCkGfZQlmkw0T-lrwfjLzLTAHEcx6vuwmafkfZOSPhw=s220",
+        "view": "https://drive.google.com/file/d/18iTGlVNT6FBa4CLqqrU9aC7_w4RjGWa1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFDH-XHUB7WRJ4lcOBuHgTmPkuFfVXp2R7jyY84AXl5OaJJ5hs3Q6S2k7qiQPJM7iLF7_5_la8difEoK4tRu5jIHNGAI08M8JhqbOJUr3VXpEMDRI=s220",
+        "view": "https://drive.google.com/file/d/19ymkjzo9270gy-iTpK6c7rdutSe3a3bq/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 430212 - 23/4/2026 (9 FOTOS)\n  → 430212_inicial ✅\n  → 430212_folio ✅\n  → 430212_corte ✅\n  → 430212_demolicion ✅\n  → 430212_caja ✅\n  → 430212_liga ✅\n  → 430212_mezcla ✅\n  → 430212_terminado ✅\n  → 430212_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
@@ -9066,60 +9120,6 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430223",
-    "FECHA": "22/4/2026",
-    "RESULTADO_AUDITORIA": "OK",
-    "CALLE": "HEROES DE LA INDEPENDENCIA",
-    "COLONIA": "SAN CAYETANO",
-    "DELEGACION": "SAN CAYETANO MORELOS",
-    "_company": "PERBOR",
-    "_stage": "E3",
-    "_folderId": "1gTkPLjTcjYlIu_8tPU0UrQuV2adjmcw2",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtdgwEhXLP5FeRaX7xQBhU_9osoUJ_5XpRb46VFg_gxzxREIrcWD1aYTr7XZaqZ3CH5gCePrDXoSN3EYo_Hjzf7Lg_2ggL0ItQDUfRl7yfG8bPH7s=s220",
-        "view": "https://drive.google.com/file/d/1ncPPhVRXo7xMOHle-d4A1_I6xi3bPDnv/view?usp=drivesdk"
-      },
-      "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsppqVcVI-SOXJ0xmE09eRslax5idZUnLHGnLF5WkQi93qXsq34io7XMvqTCYlqAv3UIQ3Q6uYHehDQ4L1Mg_pHv_WJYzdPnsrgmuojpGfjZX6iLw=s220",
-        "view": "https://drive.google.com/file/d/1HyGqemXrRRMmV0QgBy1V1TlDdMmsSdlO/view?usp=drivesdk"
-      },
-      "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvzY3vqJIHECJJcVlGwJGaVhTpYGs2KeSDxpRigiIJLLVMTCZNV4yekrq9jFn_vrJuFvYi22V_RKcXKtUOhpGNa82bci7gyBexOU_6mlZ9qNNWcAU=s220",
-        "view": "https://drive.google.com/file/d/1XNUdiEei6VHDeDfP4BftZF5OYYVx9AGU/view?usp=drivesdk"
-      },
-      "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLvVejLYHIDUjAVdHM0dZ2LPAHzEpHCW-hIrFBhU0n5VqzTDDsUiigR9bxadVC-_IG8F30On53uS9-USHYGcrW9vlzs93fUWOf2tVLy6k1ePv5B38=s220",
-        "view": "https://drive.google.com/file/d/1jWKzzoTYoOLVregMvlYx2AD7dkQs3Af6/view?usp=drivesdk"
-      },
-      "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAja1CrOFj5oKOIIeu1xVpkO1EEIwNpLIIwBAfGVbgtVMxQyrmsFodrhdFatQa-mAdQiS8Lc6KzjW_RtJA_y67bg_I4YpSZjQO-7sfcNM7Gr2v0wg=s220",
-        "view": "https://drive.google.com/file/d/1ZMuRR5m0sI_0S0WdgpzZfBTYGbYluq9c/view?usp=drivesdk"
-      },
-      "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNI04y8IGDILfsMXjs25Zpj-Z1f8uUkumiiOpruqTN_L2cQ1HCttg_xJVWOnNsQgvYnq_jy4BvFz4EL9KpDGYdlntfBmKO6V6CCIrvYOoS4uKh32R0=s220",
-        "view": "https://drive.google.com/file/d/1cMzEMa5dLqBBka22ao5WpTkWVnv1tQPn/view?usp=drivesdk"
-      },
-      "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPm9zfyYxSShk7hGhYOv0TRRhWUAN_pgwUsLdwrnKeqKVAur33hwFXTlCmbGiIqh4Y3eThTZdq1OJRvl-79A6sOd3v9GUZWU5Zmq57lDasyx4y2l7g=s220",
-        "view": "https://drive.google.com/file/d/1t-sLnyMK-dvOC2v9A_aCoWyUqM62ksnO/view?usp=drivesdk"
-      },
-      "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTswRNyD5o0brJ328vky9MBFvXcnzQ9iz0YvvM1GaFsqcYr1MujUe1iZXkQMt0sPxfPsLlaSNG_ilgT6BrC9pm09yRWsbBF1bY0WkX3hpG9_A-6SM=s220",
-        "view": "https://drive.google.com/file/d/1pybHMZ0wEjD7Ad79qV4na0wE8ly_BF2x/view?usp=drivesdk"
-      },
-      "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkHaSTuEXkPYiQx6I5uBEGiqbR6IWrVr9DtUcCqqRDiB3AY_GLeOK65bUaZkdyFkb2VOLXrOflk8mWxkzFWzXa3R0F6lMs0lV1zymzf-KHySdF_Bs=s220",
-        "view": "https://drive.google.com/file/d/1I7OHX7mBNkF_oNSAyd4BjqjmPsp-XeZi/view?usp=drivesdk"
-      }
-    },
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 430223 - 22/4/2026 (9 FOTOS)\n  → 430223_inicial ✅\n  → 430223_folio ✅\n  → 430223_corte ✅\n  → 430223_demolicion ✅\n  → 430223_caja ✅\n  → 430223_liga ✅\n  → 430223_mezcla ✅\n  → 430223_terminado ✅\n  → 430223_limpieza ✅",
-    "_faltanNEO": [],
-    "_uploadEmail": null
-  },
-  {
     "FOLIO": "430222",
     "FECHA": "23/4/2026",
     "RESULTADO_AUDITORIA": "OK",
@@ -9174,56 +9174,56 @@
     "_uploadEmail": null
   },
   {
-    "FOLIO": "430212",
-    "FECHA": "23/4/2026",
+    "FOLIO": "430223",
+    "FECHA": "22/4/2026",
     "RESULTADO_AUDITORIA": "OK",
     "CALLE": "HEROES DE LA INDEPENDENCIA",
     "COLONIA": "SAN CAYETANO",
     "DELEGACION": "SAN CAYETANO MORELOS",
     "_company": "PERBOR",
     "_stage": "E3",
-    "_folderId": "1B2keVQPnhSsiwDtEIbRondXoR8zSsI_b",
+    "_folderId": "1gTkPLjTcjYlIu_8tPU0UrQuV2adjmcw2",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDEoP1SFJiifO4khu3ChPDygZCwf0zodhL2vx8YtpSi_GgqStNws_u_I6aWKHl3eL4fRCa4Mys4OqT0Xh_Bz1hXmlegNny-QwrPKURVrtL9LVO3Ro=s220",
-        "view": "https://drive.google.com/file/d/16Pea7O-saLRJ2IRpTaeWGXKgn8aAEbna/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtdgwEhXLP5FeRaX7xQBhU_9osoUJ_5XpRb46VFg_gxzxREIrcWD1aYTr7XZaqZ3CH5gCePrDXoSN3EYo_Hjzf7Lg_2ggL0ItQDUfRl7yfG8bPH7s=s220",
+        "view": "https://drive.google.com/file/d/1ncPPhVRXo7xMOHle-d4A1_I6xi3bPDnv/view?usp=drivesdk"
       },
       "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFGHyZXbANFnG86e4IBaH8DGlAkgp_GCUUVyNGLz6hfk81IYl_l-7o5nu1-WpikrqpIF5jBIkhFD1-pHGFdOs2NCWu0VSEJ4ccZ0HEV-Bk-NV5eN0=s220",
-        "view": "https://drive.google.com/file/d/1FzoawjS87pDMHNHTcvLay9f0rqHr33Du/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMsppqVcVI-SOXJ0xmE09eRslax5idZUnLHGnLF5WkQi93qXsq34io7XMvqTCYlqAv3UIQ3Q6uYHehDQ4L1Mg_pHv_WJYzdPnsrgmuojpGfjZX6iLw=s220",
+        "view": "https://drive.google.com/file/d/1HyGqemXrRRMmV0QgBy1V1TlDdMmsSdlO/view?usp=drivesdk"
       },
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMBJD1HkUzRq24GLWwywB-i8GB0O7ammwI9b4bwahEzcEwJhjgjRRePxETTKXMG2EIIKEOlqsfGHD1Y0WDBJ35tCBvy6G0SVYBb5SIXNdt31CLvFk=s220",
-        "view": "https://drive.google.com/file/d/1LRSmENf6KcG1CmwRtSnjBzVMsq-TpGQV/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvzY3vqJIHECJJcVlGwJGaVhTpYGs2KeSDxpRigiIJLLVMTCZNV4yekrq9jFn_vrJuFvYi22V_RKcXKtUOhpGNa82bci7gyBexOU_6mlZ9qNNWcAU=s220",
+        "view": "https://drive.google.com/file/d/1XNUdiEei6VHDeDfP4BftZF5OYYVx9AGU/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJre-iPQxpi9MXzvJnlDyDT9qXJTmrJcJfsL9D4JpHnaA9CzRyjWf7ua1pd8lrgjH7dh8W5XuKkspPGVFuaDy9kVLhbfxkAwgC_X-W0lctzIUh8P0=s220",
-        "view": "https://drive.google.com/file/d/1SDqeZSwHe0T5uC5yBzkiY7T84aIXfK2k/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLvVejLYHIDUjAVdHM0dZ2LPAHzEpHCW-hIrFBhU0n5VqzTDDsUiigR9bxadVC-_IG8F30On53uS9-USHYGcrW9vlzs93fUWOf2tVLy6k1ePv5B38=s220",
+        "view": "https://drive.google.com/file/d/1jWKzzoTYoOLVregMvlYx2AD7dkQs3Af6/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvVL4YkgKbYlztRbgnhb2WOUC8wF3bnuZdWYj2s2JwxR1R8uyQvmU7HnBmaLqtwCqTll2G3N3nRaJ2tg3By3F8W1aacI9CFyfqJ9BRj1PRiFraCrg=s220",
-        "view": "https://drive.google.com/file/d/1Zznza_afXKSSue96GBFJidM6JA1Ozf9z/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAja1CrOFj5oKOIIeu1xVpkO1EEIwNpLIIwBAfGVbgtVMxQyrmsFodrhdFatQa-mAdQiS8Lc6KzjW_RtJA_y67bg_I4YpSZjQO-7sfcNM7Gr2v0wg=s220",
+        "view": "https://drive.google.com/file/d/1ZMuRR5m0sI_0S0WdgpzZfBTYGbYluq9c/view?usp=drivesdk"
       },
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-tspLMr2Rfd2wjBfwpI8Tr3F7SiPFKzP7WD_g22VBiJzRbsAsRwaIdNMWrpbwtCKG4StGoSHa-sATSLxT9SXGXX4hXvNLQRRRh8KGNDa2R_snU9s=s220",
-        "view": "https://drive.google.com/file/d/1Q67BfwpkWxF6H4K8GgP-GF_r3vB74XcF/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNI04y8IGDILfsMXjs25Zpj-Z1f8uUkumiiOpruqTN_L2cQ1HCttg_xJVWOnNsQgvYnq_jy4BvFz4EL9KpDGYdlntfBmKO6V6CCIrvYOoS4uKh32R0=s220",
+        "view": "https://drive.google.com/file/d/1cMzEMa5dLqBBka22ao5WpTkWVnv1tQPn/view?usp=drivesdk"
       },
       "MEZCLA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP3jl8me91mcKsnLLbrv0lSXd4_Klw0OpR9skWBKJCbg472AdyKVkNGZ6RWX3SEj_nNiKlCWbIj0q2NEvyKCMeG67ZRJYkJ40x7uQrqmbJ1FknhTNg=s220",
-        "view": "https://drive.google.com/file/d/1JL3g8W3UqxOLuiieyG6Ub2FSl6OhbtJB/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPm9zfyYxSShk7hGhYOv0TRRhWUAN_pgwUsLdwrnKeqKVAur33hwFXTlCmbGiIqh4Y3eThTZdq1OJRvl-79A6sOd3v9GUZWU5Zmq57lDasyx4y2l7g=s220",
+        "view": "https://drive.google.com/file/d/1t-sLnyMK-dvOC2v9A_aCoWyUqM62ksnO/view?usp=drivesdk"
       },
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhMn46pAquLUjfc5Za_s5zWUjatXf9zpU0O3aHINPEEHgIraEKKzIAJhnEnC4M2lv4Tn8_wCkGfZQlmkw0T-lrwfjLzLTAHEcx6vuwmafkfZOSPhw=s220",
-        "view": "https://drive.google.com/file/d/18iTGlVNT6FBa4CLqqrU9aC7_w4RjGWa1/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMTswRNyD5o0brJ328vky9MBFvXcnzQ9iz0YvvM1GaFsqcYr1MujUe1iZXkQMt0sPxfPsLlaSNG_ilgT6BrC9pm09yRWsbBF1bY0WkX3hpG9_A-6SM=s220",
+        "view": "https://drive.google.com/file/d/1pybHMZ0wEjD7Ad79qV4na0wE8ly_BF2x/view?usp=drivesdk"
       },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFDH-XHUB7WRJ4lcOBuHgTmPkuFfVXp2R7jyY84AXl5OaJJ5hs3Q6S2k7qiQPJM7iLF7_5_la8difEoK4tRu5jIHNGAI08M8JhqbOJUr3VXpEMDRI=s220",
-        "view": "https://drive.google.com/file/d/19ymkjzo9270gy-iTpK6c7rdutSe3a3bq/view?usp=drivesdk"
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkHaSTuEXkPYiQx6I5uBEGiqbR6IWrVr9DtUcCqqRDiB3AY_GLeOK65bUaZkdyFkb2VOLXrOflk8mWxkzFWzXa3R0F6lMs0lV1zymzf-KHySdF_Bs=s220",
+        "view": "https://drive.google.com/file/d/1I7OHX7mBNkF_oNSAyd4BjqjmPsp-XeZi/view?usp=drivesdk"
       }
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 430212 - 23/4/2026 (9 FOTOS)\n  → 430212_inicial ✅\n  → 430212_folio ✅\n  → 430212_corte ✅\n  → 430212_demolicion ✅\n  → 430212_caja ✅\n  → 430212_liga ✅\n  → 430212_mezcla ✅\n  → 430212_terminado ✅\n  → 430212_limpieza ✅",
+    "_auditDetail": "Folio 430223 - 22/4/2026 (9 FOTOS)\n  → 430223_inicial ✅\n  → 430223_folio ✅\n  → 430223_corte ✅\n  → 430223_demolicion ✅\n  → 430223_caja ✅\n  → 430223_liga ✅\n  → 430223_mezcla ✅\n  → 430223_terminado ✅\n  → 430223_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
