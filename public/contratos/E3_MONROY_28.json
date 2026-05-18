@@ -14035,7 +14035,7 @@
   {
     "FOLIO": "280301",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14043,36 +14043,53 @@
     "_stage": "E3",
     "_folderId": "12E123gNFmMlzkrKI9bMyL6sd1kOqHeCu",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT-vHCwHiG8TEO2iMUpbh-M4Y6lmau48V3-rcsc0dG_-JzyElts5p93Mvk876OQ_tJsr_pbeE6qrqK68yhqTBHeAgiKTj5qF0Yk-VA-mIxuqCgeYQ=s220",
+        "view": "https://drive.google.com/file/d/1uZKKSj5ZJEomJ6L4oWW1A3INVNZ2pTaH/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbrkReqAS4p6v-hzukTrgX6mHp2Zo7mVXyvKGhO42BFp4zDj9La5-nAZ9S8O_tSave5YUMyF8fAtROZQ0yCagDaSlAeCbqSdWvXlNp0r2XTBG8MYE=s220",
+        "view": "https://drive.google.com/file/d/1qGdT2FW19TTCF4rrh-MF-ekCXa7opUy5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRetXB2s1eUaScZgv7J3JRlukijOzMorfc1x5VJdFmJhPPHDHBZGO-mHbpDy_iTRvCliRu6Y_V4jX8MS_ip6MGL-FwvwRgfezoXoCGeKj9JtxYbWU=s220",
+        "view": "https://drive.google.com/file/d/1U9Nvl_xnEi-K9YzK325CurOfshJoo_pm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuhc8QpPjufRnE4ll6ZNr8KrWdmK3NaOIA5YuQxYXYWSAuZSFpxXMoGYg0aVuEkUDK9VrwPHPSe8DEbAt2Lr9LgEc7GRUqnKz9pLtV-e8SzFFF2Go=s220",
+        "view": "https://drive.google.com/file/d/1Gyg_zYUSJPG1bHWVFz5qBBqhMnLltyiO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2geb2WstL9PJn4ZcyuJZ7yJHg_1sLInnaB2G_uO0WM4t1km0qAKitft-N4r6AEWTGkVuvGhOkiHgkEfzcyMLAKs8vp0hF_pUCvJ3K7eTyWqydDcA=s220",
+        "view": "https://drive.google.com/file/d/1BN5szgeG3lEIljtvJteEopV3fOWlJDJ8/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNB-_DNp8Ovd7lSZen85XNySqBFqjTHIyV0r-r1SRSQ3jBVRDyxHmHSJDIjeYDkg4rs-qO3XySw-AeDVfsaMh-_kRt2Ov-k22bUfSKBP_c3BcAbcJA=s220",
+        "view": "https://drive.google.com/file/d/1w6pYg5QQIC-Tr-_Q-PekZ4YQlz69lUAQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6MLZf1I3_81OTXVMmVD79ItgxECw6Q3pFGHpsUah8JEkYGb-rwuwJoiPXiNffSHyEDEGf_uKw939wZUICMVrScgaacDTjQ0t3hYJN_sCbKjOhwVE=s220",
+        "view": "https://drive.google.com/file/d/18DsUEHD1T5BBTfyIgVW_9KV53eEObrsq/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-JmzrgkqRklYzG74nE5-nGKi2tFkIk3GNWF_1A-IV4gdLL7u-ILNEVyM-jGj9TtU1e_jMqpF6HYtaFFtHJSBbO2C5qFp7f-GpazyTFasySs0jfno=s220",
+        "view": "https://drive.google.com/file/d/12GmoSnGFlOolK_wWx52YHkAm3BTn-ctK/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3IusYIvzupaaAVEeen3uqrw8lBbf1nCL45hmCIdwkPF4C1hoaaU_LLFemDFajnyJ-zPl3Pmc2aLqUS3xrTKxsoEz-kYsyQHpyV4JSHZdleypJYiY=s220",
+        "view": "https://drive.google.com/file/d/1lza0_wO49EAIyMGt70aCckt0L1phxnLu/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280301 - 13/5/2026 (9 FOTOS)\n  → 280301_inicial ❌\n  → 280301_folio ❌\n  → 280301_corte ❌\n  → 280301_demolicion ❌\n  → 280301_caja ❌\n  → 280301_liga ❌\n  → 280301_mezcla ❌\n  → 280301_terminado ❌\n  → 280301_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280301 - 13/5/2026 (9 FOTOS)\n  → 280301_inicial ✅\n  → 280301_folio ✅\n  → 280301_corte ✅\n  → 280301_demolicion ✅\n  → 280301_caja ✅\n  → 280301_liga ✅\n  → 280301_mezcla ✅\n  → 280301_terminado ✅\n  → 280301_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "280302",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14080,36 +14097,53 @@
     "_stage": "E3",
     "_folderId": "1dS4UG2Ea4SS_51j9rxzji6lWA_TQfZ2d",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN66hXZwM5zxj5pJY-PRsrJu2e8N-c_b7JLAjO14EyMu-TeL-TjxEJ-lUlEtiRvgsCqkpDEsU83KqowzzAq76QXjRv6ySjyltCHvuFhNfDLlx7dSZM=s220",
+        "view": "https://drive.google.com/file/d/10Zxub6fyXQ2k27gHQe3DRza60Xaa8ok7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZv6sRvFVeUFwp-BFmkLya5O6aFE79Cv7E8wLG78n3fiUNTWh8CMhaS8VBB4IAodiTZ2QqYUOIdrBq2K9sQ6aOMVOWmE4t02TD80TOOILUWS1yO2o=s220",
+        "view": "https://drive.google.com/file/d/1z7IJbPx5A8rNHlTcsG-NDq-EC3XHpBju/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPEjnZKzYaxduprp_OLTVqnc6ppiNJfoEofcaid4b0SolES1hVCj-FQNOXj40ZBglEqFNiVdji4BCba1CqBR_-0aLaKCdnMweBUC5W8MtZdnzw-j_M=s220",
+        "view": "https://drive.google.com/file/d/1_uPebqjqdsOcTMtLlwmSg_T2QHFprpDh/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaXhVygVNSSkn7N8NCqIojr2cPIF0-3MBIvHbiusvMo1gdQcvxyopcIs50ubD5NvdIXopM4lW2UylGPW8ZSVp0uKUYtpj-gi335g3-OjFTgmjHDfI=s220",
+        "view": "https://drive.google.com/file/d/1P4WD1TlXo79AKbMH3Now5QK_lCJ2fnHw/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLf_lRxsfc3W2FftGxgVgqXxolzV6awiQHzluC1LvVht66ac-9f6Hww3KpcN35mL7KGBceGZBgTNOvNKdjypVb9MsshxVzEYdxsBSusJtQzMBCexg=s220",
+        "view": "https://drive.google.com/file/d/1Q6zWB03y-MZXYbsUKAcnHSY6JHHrBkdF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVkodTJZeUwa1GAh7Fs-fEd59NmWRGI-gt6Ai7nXvSQ_EfW5cOPGGyEoDZUEq7WFZMfbp8GSXkSDefAKRlnSLloqZT0KDUSaZndgxB3eVJPQC5Lrk=s220",
+        "view": "https://drive.google.com/file/d/1MT2jZDrQ0_XrGyGZP7ZVvCwiQmIi2Hj_/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMILib1zQy0J6Vz43kicW1mF183ohiCtpuhDLPhm8ctoq6vFM_i7TtPqSZ1O9YqiygfeO2MlM4ywGKgvuqzytyLL1UwW8p8hUhcEeksA42ArpJhB4M=s220",
+        "view": "https://drive.google.com/file/d/1XZcc1UJrrgF_5GNHsMGn4AOepPQUa8lo/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3Wls_2xZy8Z-Z_BpuwjxRiGeKk_FiayqQ2HkT-cMldO_4_pGUHdDgltDKhzKfW2gspHvp072cGNrOQUHCxSOO4YKqa2oULmApXeYvOtnBhiTJsII=s220",
+        "view": "https://drive.google.com/file/d/1S30H_NjjcELoYNG73kRHrKyxqj_uGDgN/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzR5gS6bEFzI-jiopfhWezIcJrJW-ArhYRN8mYjx6MLX9yhtaBcxd2QoodJgcpXBoWS7rgs3-a2d85a3ckVivBGbiNldQUIizqiltxHwXgmLp8GgE=s220",
+        "view": "https://drive.google.com/file/d/1ZaJkMr3Jgm6s01Y86xETBap5dQiQWzkj/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280302 - 13/5/2026 (9 FOTOS)\n  → 280302_inicial ❌\n  → 280302_folio ❌\n  → 280302_corte ❌\n  → 280302_demolicion ❌\n  → 280302_caja ❌\n  → 280302_liga ❌\n  → 280302_mezcla ❌\n  → 280302_terminado ❌\n  → 280302_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280302 - 13/5/2026 (9 FOTOS)\n  → 280302_inicial ✅\n  → 280302_folio ✅\n  → 280302_corte ✅\n  → 280302_demolicion ✅\n  → 280302_caja ✅\n  → 280302_liga ✅\n  → 280302_mezcla ✅\n  → 280302_terminado ✅\n  → 280302_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "280303",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14117,36 +14151,53 @@
     "_stage": "E3",
     "_folderId": "1nR0VPInLkgR3uzX9_k8dy6_6nl09bxBc",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfOkP1SoK_nsm2NdPV3yVl_fTvjNjarZzvTPqe3P8J2on6I5YwpVfogkbFSNyjQMZuNFk3mAgoCTKOLMDIRsREgTW2qFU48KMaeMe3fVRAbeR5hds=s220",
+        "view": "https://drive.google.com/file/d/1f8N661HVzpabV8mP7LNpy9RV1LLhRYfE/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbi88z2_MygQa0lfgpD_zFYigSGTe8LYp3zBsGUFVbA0UiMxJ8MwDvid7am1sz0E4sEgnVsFi1asAbg9x_VBi7Y53tVXcts2QlUXHjESaWzyAlYYw=s220",
+        "view": "https://drive.google.com/file/d/17EmOG2oDM9Lcjjx8ztxGZYzlVCClKicH/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzLcEZMtS5HOiNK7BUHqEFagSMkqUos1hS_j9_B4c8__2SC2sXtDfUqBVILzmt90J98HWKN_ZOYFEdde_MjQjjYn6LyL9Kac494GwM5q9B0M3TNMU=s220",
+        "view": "https://drive.google.com/file/d/1y0rYZkEP8q3hO2ScG6xkV2CIcESOyuzh/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGi6UljR80GeIifRq6Coh1GRYm7r68nxsJHxEusUK1kuEMTPEVVsYr85WAkdDT-CbKQtO9EX3Wr3HgzTUKviSFiSzzpKe-FWC5gsvXV0xG5AEs-Og=s220",
+        "view": "https://drive.google.com/file/d/1rZLuzMXMvPQJYAueTYkoK1Nx2ipROOwx/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHJoUelta0CAxr6QEIrN-wDPGO8ZmeIciGz-wvHs7_508BX_GDGyOx9p3OiKTL5f5r9tfZwOgIEH2tb9Z-9oOCD05iBi8HmKXpujBhfiu0JTRI7pc=s220",
+        "view": "https://drive.google.com/file/d/1aZrri7ru4lMmrxhrtYl0oXd3XQVAXyOE/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5RTF8eI5d--NA4tyI3LNzmpesJ3ly6bqLYK6spZNWLGgS86GcXfOWGhwarRBL1rP8tO0lxsC6tkoAhA8ILeF-pSkCyVlBXGYXSZ14xqHD5FGXiL4=s220",
+        "view": "https://drive.google.com/file/d/1b7tyJlIelzeJ3utE81Lwa4WG-n-Nyv2M/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeC2xEiWVH9VLwbYp1OI7TC7H3SWeofnIZx97Ofykm11jqiYXr52781kXm_Ut2XTzR2GFm5AuFPwhnAkFanaZ6Xoje7gShVUC1-YsUBVb1L6ooXd4=s220",
+        "view": "https://drive.google.com/file/d/1MryJCnqPWF5LPcHNbDYUFOz0CIHOkleo/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbzGIwrk6oxi5Z5c6g6VkmSDp9wNNYDA4gd0iEDikBJS-n4lcHHT7bL3mOI5hCiGallThte469MT2JpyvjDo5mlpR_RFKpKWIFDJHE_lZbRGIcGps=s220",
+        "view": "https://drive.google.com/file/d/1apBX1OmWMoQ8sJja9HFzkbkiIHzzngOI/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPN7ALR-sQ-FsFSrWzLLGVS2gm4I-v6_OjaMstGcWX0qZvhX6uxUGMS1FP0pMrDBvwhtaT213xw5Uflh-upvFYfL1bMscDiv4KG8s6yN1NWNtNLYK4=s220",
+        "view": "https://drive.google.com/file/d/1Cb_wAfFLF7XRmK1NZQgE_zUR2MnSHxbg/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280303 - 13/5/2026 (9 FOTOS)\n  → 280303_inicial ❌\n  → 280303_folio ❌\n  → 280303_corte ❌\n  → 280303_demolicion ❌\n  → 280303_caja ❌\n  → 280303_liga ❌\n  → 280303_mezcla ❌\n  → 280303_terminado ❌\n  → 280303_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280303 - 13/5/2026 (9 FOTOS)\n  → 280303_inicial ✅\n  → 280303_folio ✅\n  → 280303_corte ✅\n  → 280303_demolicion ✅\n  → 280303_caja ✅\n  → 280303_liga ✅\n  → 280303_mezcla ✅\n  → 280303_terminado ✅\n  → 280303_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "280304",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14154,36 +14205,53 @@
     "_stage": "E3",
     "_folderId": "1pQJVqOhi5cRswjByAPSXIEaE-UH6DRLx",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO13BrwgbRPkRfC6-UMPPYhbO7QWFV3Na83DzD25n-7db3KvVg8512TtAsBSFwWd0zzMlNKO-DiBRqDu1cI9uE65yIFXgiYAh8_V-0OYtCGWNiWcck=s220",
+        "view": "https://drive.google.com/file/d/1omm5rNi-Kkn0Lz-yI_uSnOVD3wmDyGdB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOprV5GU-OxfwSLkpTqC1mpQ2Zi1imtRdW0iepJHgdOT7oR2NuxVhYY_2Xc-jgRe-X-IKrt_dY03A3VldTESykJHh1QcZ-th1Sqlxvxva_jzDigqEU=s220",
+        "view": "https://drive.google.com/file/d/1b0QLxUg2ddjALmuUSp6gQZUn53hCDkbM/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5FMZWMmHqiW8AI01UE4IBw_cCJ6PuPHrbPVocX1iX0B17u3O2JjR2vbCxIB_qAcgHFjihxVMVlsNysdcSTvGg-A63BMmHzlEHL7D106cdO_zNXJQ=s220",
+        "view": "https://drive.google.com/file/d/1_AXVdoTant5anABQa3khPbThTW3YOmF6/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPcSW0X6_x6C3ROZMiyFUTgti9URJXVyAOqubpvKCY5vVok1B6PWlQn07Z3T-aY4YbnVja1i5WZt_fexvzQQJyxGiTViJU2k6UVOIzDRyQxiVzIT9o=s220",
+        "view": "https://drive.google.com/file/d/1-maV2DITo_6eAyQz1c-dL-UOKfFNrq_7/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNLZ13T0YxmVLOoob-9bfk5EXR8bnP3PtN0g4h_gFSMn0WybrQXrHhF4eheBZGPVyh9S7SmAYeKa5lFKCKkM8hKF3ZG5fZoy_BoMWxULOVTPqgAUr8=s220",
+        "view": "https://drive.google.com/file/d/1W-jyc2zJ_yAkVJgqeN9BygYNzuvmTZ7U/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5PUDePTKZaH9ntyIH2wx9YkovHRFcIREmkeVmJjIGsTcYTXDrrVhq0sPrD0-QZ_VdNtv1NK3WO0_glJUnWOQ8pthBBRLiB1RtnNy9z3RpNsRA8A4=s220",
+        "view": "https://drive.google.com/file/d/1ZP8IWGrVE2Cu5xp6F5NqQCeq7I78tKEK/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGsMVXNOIItQ0WzFXiGaMvXYpExQEu9Ze5ks8dspEfBpu5GpxZXHz31_nNtgd57Bo73xp_2E4qKf38eNIU1qygJliMuDO0wIQXqvjeqXCVwcHuB-k=s220",
+        "view": "https://drive.google.com/file/d/1lk3hxdGPyhzKK5QFczvqmhl8LEA_LHQs/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdRKbDGbnRTlYP7qZ-Mm7S8-_NUJT5fdjtRyFah8LAK4OyXMjZxJKDxObrpf6MsVFQijGq6ftV2Uux_SdlzdDuE0YoH_AAVy-yDgHpnujdCquFHMs=s220",
+        "view": "https://drive.google.com/file/d/106DnEten0aE7Uwp00sIOTe60_U8yfA4I/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNv5dDU5UJGH5ZKScC-uAREqnoxhPQI2Lcd4MBl5CocD1IlHn7qLXVf46XPYKKYrLB5N4s0K-ELD3JMFkt7Xl7-Z0JnPhDZfURef3k0FkzWFtawox8=s220",
+        "view": "https://drive.google.com/file/d/1yEHJQ_GEwt5d2C9comQvuLe00_Ay6YgI/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280304 - 13/5/2026 (9 FOTOS)\n  → 280304_inicial ❌\n  → 280304_folio ❌\n  → 280304_corte ❌\n  → 280304_demolicion ❌\n  → 280304_caja ❌\n  → 280304_liga ❌\n  → 280304_mezcla ❌\n  → 280304_terminado ❌\n  → 280304_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280304 - 13/5/2026 (9 FOTOS)\n  → 280304_inicial ✅\n  → 280304_folio ✅\n  → 280304_corte ✅\n  → 280304_demolicion ✅\n  → 280304_caja ✅\n  → 280304_liga ✅\n  → 280304_mezcla ✅\n  → 280304_terminado ✅\n  → 280304_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "280305",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14191,36 +14259,53 @@
     "_stage": "E3",
     "_folderId": "10DmI-EajDbC-l3jy0P-Z8fZ10njlDk8c",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIzctnrNaauoHjWSxXadHkYMKjm8GRAclhFztvtymZl_7R3QwNlGpsxhT7mY_8B5oV_R20IytoHOUiErcAmA7UVtO7X8FrQZ_-6t0ao-w_ZrPe1PI=s220",
+        "view": "https://drive.google.com/file/d/1u0yuAUr_dNegigcysFyeY0hG2Wo2qwZV/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOF6Y1VUgSlNHvGxAN1OWQCCBOdaNWqZFXlDsYCRFsqj7KQgTkqvkPSxsAqnSiecCIzh5-e14l-7JHUTVsUts2xfFL6dDjcZM6OX21x32uXI1Z0RPM=s220",
+        "view": "https://drive.google.com/file/d/1NR6pPHM-TELq3cTeEDY4kwlew3ZuYZDK/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7hOo26F45jMVgucEj0FjouAEozySUvAFp16PojQukz2vEd9ugTCXH6BHNsj_n1n-PQ_15BEXeELjwEckNapuu7jR77PP0uzGFVrkzWefzU8nLJiY=s220",
+        "view": "https://drive.google.com/file/d/1ToUD8iksiswvw-O43iTd_mxJwpB3orFA/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlwHN8_pA2zBLiUQ-SlN-7Gflc1ohEB1HO1TCpYOqY8i6EAoKU2YfwM6ROFhjgt0oT_FsJBoHSJNkaxun7xUYzCPJOA6W8YXZdaZ5LYbzakrQH2wg=s220",
+        "view": "https://drive.google.com/file/d/15Zfv4iGngL-RUueH9EdePzjzR8drkjuh/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-oJNOEk83rr3p2UXHvaoWWO-rEiUgIzfDJavm1f2cgRZpC68trQBlYia4NRfOTU-GLeUnjKa62LgKIJ47YqoyWDwoOhFM6u6gUB6OAh2uqFbxoLo=s220",
+        "view": "https://drive.google.com/file/d/1oBcAuF5WFuYLGI9wyYfHPDWnEfF0v0QN/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcMvm5OvIsrr9A-AD7mxyrXzxUE_pcGHM4t5WYnF6slylKDlp6x99A_m-rtHfS_R9xtaUIGMfjUiXL-u9zoRc3b4vTj2dcBlBGCVBgpvHvT_NMYCk=s220",
+        "view": "https://drive.google.com/file/d/1vvd3qMM7KCfy7-2SC4tzMXZDZd2_Nhr2/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWRt8YvP4sUjvGouokx6ik7rYiUSKudNUq8heR3zi9by6H47AlWzkszVXa4qjLu7ftj2i5gP1nh9wEAjYmmembx2at7ny7n9vr6qjIPjFBPKsBPFQ=s220",
+        "view": "https://drive.google.com/file/d/1HG8PJe6LTzrC9RcT6wrACRx5Wvzi43e0/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPN770rlWEQdE1TP8t9JSZiAnEtyHKJXd-nNy4cn3Kg7b8G-7d60WOwGUnnbNLyleiuXLEVCjkPp0lWD41cATJYQ8EKjnxgjhYtetVZ25rQB-Lm7SY=s220",
+        "view": "https://drive.google.com/file/d/1mDL3LyRFVoLo5RvBSj1NUYKhFBcJWXht/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAUeLT__ukG9e8ZsgGjYMnRXyKZ-PMc1scK2q9qIK5UnxRsgEp3J36HkvHXZ67CxQrsb00cRtcU68Yh9tZ0uG-9laAd8Pzi2lWQ65s967doYMakrE=s220",
+        "view": "https://drive.google.com/file/d/1PnTeHySwt1g9M1SgyW_7rn000r_pmohG/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280305 - 13/5/2026 (9 FOTOS)\n  → 280305_inicial ❌\n  → 280305_folio ❌\n  → 280305_corte ❌\n  → 280305_demolicion ❌\n  → 280305_caja ❌\n  → 280305_liga ❌\n  → 280305_mezcla ❌\n  → 280305_terminado ❌\n  → 280305_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280305 - 13/5/2026 (9 FOTOS)\n  → 280305_inicial ✅\n  → 280305_folio ✅\n  → 280305_corte ✅\n  → 280305_demolicion ✅\n  → 280305_caja ✅\n  → 280305_liga ✅\n  → 280305_mezcla ✅\n  → 280305_terminado ✅\n  → 280305_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "280306",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "C. REAL DE SAN PABLO",
     "COLONIA": "FRACC. REAL SAN PABLO",
     "DELEGACION": "SAN DIEGO LINARES",
@@ -14228,30 +14313,47 @@
     "_stage": "E3",
     "_folderId": "1YUrcJohsMQiQtC67HaSF4R0RvBqH1L_4",
     "PHOTOS": {
-      "INICIAL": null,
-      "FOLIO": null,
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmtX6d6vWbbkgrN3dG45Tf3pUQ-y-5JBdUneds3Rz_V1qlxvCwM1pu2VAvsVwtE1UdM2mkFbGp3LZmYyh6Fl44HBZFJMreEkcAWLmGoerr6Vv5xsg=s220",
+        "view": "https://drive.google.com/file/d/1_-rsY0WLHu_HVcuE_w-KiJenMYIptaBO/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOEOlmGIpfj0W_tsCMqaG_JLnYN_TEYwHBAoa-xGTHNm3IQKZ9CI80KC2zrBUejhcb6d_k2rs7Pj9R3GHQs2HdvXOd2YQoH-glGFbcE20B9EB4s2U4=s220",
+        "view": "https://drive.google.com/file/d/1-fiIAC9MLIa4PydnhCTt7bDPsL8FQ1uO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNDEQ13KlnAjUvFlO0qOwlfvl54DdkrDdG3fI4mLRedFayrNbZBOErPv9uFK21KUQtudXQfTlAAQN3-865s7tXCvQU315BrgsYP7AROADiGDNLtVfM=s220",
+        "view": "https://drive.google.com/file/d/1O52EC0vmbi0QcHmJaIKhXw70puAtBEyO/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNu2qEeILelk5f8yU-S1yihsTLzGUOlBV5FUkkl5ovrcu4iqlxwo58I5yxhqI6mmQl4cFWGyBU3aRC9-MEni_aj0jqfZrKqF4LP1PnkDGh7RIQiN_g=s220",
+        "view": "https://drive.google.com/file/d/1-juk5gTFQEHr0P-6wm--WTtOZ17bg4BY/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjMW99Fj4cAurEtYR4S8JWXwRiGTmCcw08sxMTVT4rItb_Ux48X_bVIttYJqENMQGzGf09e3BWZFZD4LhTEqPwZpzLsQVMG5mxi16piZYjLoX9aLs=s220",
+        "view": "https://drive.google.com/file/d/1G3xcOVohbeECGUQSR1hVeNE5_6QlW7xU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9ra8_yPdFLkEX9GMjCa4WsKXHBXHT1hQPNgLOl-UjMcYcKnED9rYuf5mjJYyRrOgUWoS14gzYYAw-ZYaFAdxZGH3c9llOaUWE2v1PrkltDm9B3n8=s220",
+        "view": "https://drive.google.com/file/d/1JvcE5fYcLYr0Dj2oTMTGbzTLPZRIDvFg/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFV5HEz5pMrxirIOLM8x8rBIuUg-QvLRr2gx862j5lWlnAvMjYBAZqL8TgSGGIqi0SVtrNBCctJE1mUEXn-SJl_RdTOdVuDVsSJLOZoLlKVCMLX34=s220",
+        "view": "https://drive.google.com/file/d/1gk-MJON0hKlJlPk5VcFnGqutJlQ8OlPx/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyGggK--O0f8MqWi19kor2Sf61LV8jOpOU4gHccPtp8s4FTMh1yfAmsnjlAZYe8UG1aRBAh5H2h0Zacml9sUJ1fO2wUnOIs9DLnWDx4y-bbHNatek=s220",
+        "view": "https://drive.google.com/file/d/1E-QvPOtrKEtQAf8QrMWNtQLvqVKCHfU5/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBUQ-nnqrVHt2HGy51xvDiXTt-Ugr8ozzrBqJY54PKrsLY8Pt_S49KXTLf2WsgdezRDLQmH1Ae1WLaiTGTB-tPX8HtX3s_2SGM9VS36z-Sn0xaEi4=s220",
+        "view": "https://drive.google.com/file/d/1XH2hjhTXgxi9rrrsrxPAAjwbsoblqKQs/view?usp=drivesdk"
+      }
     },
-    "EXTRA_PHOTOS": 9,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 280306 - 13/5/2026 (9 FOTOS)\n  → 280306_inicial ❌\n  → 280306_folio ❌\n  → 280306_corte ❌\n  → 280306_demolicion ❌\n  → 280306_caja ❌\n  → 280306_liga ❌\n  → 280306_mezcla ❌\n  → 280306_terminado ❌\n  → 280306_limpieza ❌",
-    "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_auditDetail": "Folio 280306 - 13/5/2026 (9 FOTOS)\n  → 280306_inicial ✅\n  → 280306_folio ✅\n  → 280306_corte ✅\n  → 280306_demolicion ✅\n  → 280306_caja ✅\n  → 280306_liga ✅\n  → 280306_mezcla ✅\n  → 280306_terminado ✅\n  → 280306_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
