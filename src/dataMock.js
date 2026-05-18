@@ -1657,22 +1657,6 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "PERBOR",
-    "ID": "40",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 383,
-    "OK": 383,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-  },
-  {
     "EMPRESA_RAIZ_MASTER": "CARASTOL",
     "ID": "13",
     "_stage": "E3",
@@ -2121,6 +2105,22 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
+    "EMPRESA_RAIZ_MASTER": "PERBOR",
+    "ID": "40",
+    "_stage": "E3",
+    "TOTAL_OMISIONES": 383,
+    "OK": 383,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + TERMINADO": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 0,
+    "FALTA: INICIAL + CAJA + TERMINADO": 0,
+    "FALTA: TERMINADO": 0,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + TERMINADO": 0
+  },
+  {
     "EMPRESA_RAIZ_MASTER": "EAPRO",
     "ID": "41",
     "_stage": "E3",
@@ -2437,22 +2437,6 @@ export const RESUMEN_DATA = [
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-  },
-  {
-    "EMPRESA_RAIZ_MASTER": "PERBOR",
-    "ID": "40",
-    "_stage": "E3_SUP",
-    "TOTAL_OMISIONES": 383,
-    "OK": 380,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 1,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 2,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + TERMINADO": 0
   },
@@ -2901,6 +2885,22 @@ export const RESUMEN_DATA = [
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 1,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + TERMINADO": 0
+  },
+  {
+    "EMPRESA_RAIZ_MASTER": "PERBOR",
+    "ID": "40",
+    "_stage": "E3_SUP",
+    "TOTAL_OMISIONES": 383,
+    "OK": 380,
+    "FALTA: INICIAL": 0,
+    "FALTA: CAJA + TERMINADO": 0,
+    "CARPETA VACÍA": 0,
+    "SIN CARPETA": 0,
+    "FALTA: CAJA": 1,
+    "FALTA: INICIAL + CAJA + TERMINADO": 0,
+    "FALTA: TERMINADO": 2,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + TERMINADO": 0
   },
