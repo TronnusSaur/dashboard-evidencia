@@ -16999,42 +16999,18 @@
   {
     "FOLIO": "260373",
     "FECHA": "6/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "SIN CARPETA",
     "CALLE": "JOSE JOAQUIN HERRERA",
     "COLONIA": "",
     "DELEGACION": "SAN CRISTOBAL HUICHOCHITLAN",
     "_company": "TORRE",
     "_stage": "E3_SUP",
-    "_folderId": "1ZHX0HMyoaIuIo0b70OXJL5fFqYl-Qd-F",
-    "PHOTOS": {
-      "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9LwHj6bLXqilcV4Oi_ba1SYKZW2F1no7xZg-lO49ZXl2ZMoJRLiSmLjQvcYoeLSsB3Xa0QY2L1evBe72v9f96QdrcetmSchyPR_oJfMdftTCU-XM=s220",
-        "view": "https://drive.google.com/file/d/1LQWemw4hDrV_9WUXB1iy9aQvQt86E_Ad/view?usp=drivesdk"
-      },
-      "FOLIO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoIOPTTk5UJKx35_kDVXZlAbvLnuX77BtoXh9oIfbgleZ2vW1qw8ngBWQyppQf4W4MLmPHTWT4cNy22qLHd2WWlVLO36gUvI-tf1gczBnxLPmZa28=s220",
-        "view": "https://drive.google.com/file/d/1cKAV8E8i8YO-D3ZkJUtDbEUUzjXPcPoK/view?usp=drivesdk"
-      },
-      "CORTE": null,
-      "DEMOLICION": null,
-      "CAJA": null,
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
-      "LIMPIEZA": null
-    },
+    "_folderId": null,
+    "PHOTOS": null,
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": true,
-    "_auditDetail": "Folio 260373 - 6/5/2026 (9 FOTOS)\n  → 260373_inicial ✅\n  → 260373_folio ✅\n  → 260373_corte ❌\n  → 260373_demolicion ❌\n  → 260373_caja ❌\n  → 260373_liga ❌\n  → 260373_mezcla ❌\n  → 260373_terminado ❌\n  → 260373_limpieza ❌",
-    "_faltanNEO": [
-      "CORTE",
-      "DEMOLICION",
-      "CAJA",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO",
-      "LIMPIEZA"
-    ],
+    "_isNewSet": false,
+    "_auditDetail": "Folio 260373 - 6/5/2026 (LEGACY)\n  → 260373_inicial ❌\n  → 260373_caja ❌\n  → 260373_terminado ❌",
+    "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -19418,7 +19394,7 @@
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOGNW7zAzeLV8vnzngiopMSZxDwgDQxGfjetqbd3UXJeXhHi16roD8_BJuBo51sfrcwtfW6be0ELYCzAuWtABsVQiR562JUNLSbtzmqNYPZGQTS0Y0=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO6k0e8zq6cpKdo6LQ9RUjUkQWWoNH4fXjcN7yKdqOgim8Hc5Ip5Vosg1jT2DF1ez8_TPhFPkRIJ4eYRBYmwKa0eC3Y3iE9CJHuBDt1NA_0fnz2XCA=s220",
         "view": "https://drive.google.com/file/d/1swYnpq5gCQP6Os64vWgZaYZVlwzbISvx/view?usp=drivesdk"
       },
       "LIGA": null,

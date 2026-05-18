@@ -20171,7 +20171,7 @@
   {
     "FOLIO": "040448",
     "FECHA": "4/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "OBREROS DEL RIO BLANCO",
     "COLONIA": "GUADALUPE Y CLUB JARDIN",
     "DELEGACION": "LA MAQUINITA",
@@ -20179,37 +20179,45 @@
     "_stage": "E3_SUP",
     "_folderId": "1UxU9KfL2ytLteAD3nbaAEl5G_4EhE6p_",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNtST29nN0xUNhCRaXs-JoCAKjvMNCb0t7T7QwdmwQXqnhUrjfjtkE-NxANljiI33UhUFmvlJmZA3Tt8DECFnjAIGQ9Ln1WWFiKurcEDoFENBXe2M=s220",
+        "view": "https://drive.google.com/file/d/1hHZjuFnE71697ZkCIHmN952tjPiVEhc9/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCP8yAConIyA_MbcQNK8dRho9iUkpkxQ2Ea8LQPkStchmrg_2-GeyC3WkzchaU1EjVC59S7eMIRHZ2IaGtij5lTENN3Ww-WuqxbvkPATQttvP1b9o=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSldTxHvmgp6y5xFwMTzyJW6j2xETwOUdEQZieqGGKRCEhavH8jJ1b4e1xcTZpUzMpZjZGBRqCUSWcfP-MDEK9Baaalgi471EUnh-2lw1uNS9v1jI=s220",
         "view": "https://drive.google.com/file/d/1VACwKy-0Ix_Gbzz7b-uZXP1zc2qscGkD/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPa-AOYwhHFGmWfADcIBayxXvD7aM9r9fCwhN80h9_1ESEz_o5nweOcPiQxtccIIxHENjUf1mw7jVnywblKDs_4-rJeWK6WAps1SYh7d21MFqem4fI=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9WdkTaMFxVk6o1-bvPzk671nK0RtTi7dHv9wp-s_WBWxi8XNMLOJRYo39xpwxNhKxqgQEAfVZPXgSxi_qC-_F5iDIWcqTahLKalvDGe-QpNMK01c=s220",
         "view": "https://drive.google.com/file/d/1DDPa9xh1cpI1MbWzDurv9dgLeNPuiwsS/view?usp=drivesdk"
       },
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMtGzr-Jr32Kfx0zeq7cy5QgY9XnxinxZE8MtIbh6-XuF8KWbwFDWvAYR1WPOM0kjAxYfdBotIfmb-FAbpvg9aOZDmT3EtD-jgc6bFIlKGwRd8Reqc=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyT-iEnI5Jg9imqcXFs9DJG4THCBr7zZmwAXCUJKO1SK76kFq7rZdML2oX3SUSKx-hn6cl_oMlIfZUe5QqLnNRk3cjV2vYrB4i6RvMq3hhkH6j8u8=s220",
         "view": "https://drive.google.com/file/d/1hugXeZKotnU3Wor8icQck9ANN_i0KnKe/view?usp=drivesdk"
       },
-      "LIGA": null,
-      "MEZCLA": null,
-      "TERMINADO": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTl6KgiJAGEwUaP4S66wTbEc73m4dARm3Spcg08J4RKQqTyAaIy7nm2Dz9H6b3Q5dyKP94ZbV64wvVcaDms4KGwROj8_9ihyREZGLmX-9QV-cLqOY=s220",
+        "view": "https://drive.google.com/file/d/1gEcwz6vL8y8OUi8NFdeM_6CIwzXP89xt/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMQ8IMNBGhNd9j26ZJwNRNINIvaL0yCQc2jLL400q3QWWCjEAIuKRRxtQDvAgDLAjPV7SxYsQimXWzAXX6ZhCWIx8mIlhkZ9aHJx5xs2fKU1DlHAhA=s220",
+        "view": "https://drive.google.com/file/d/1tRNHv_XQk2goK5XUI7cctOPkBgz8h6uS/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9hOCcU7j0iLIekbz1TqD7rL_g7AOEAk4mNPpdbzOZ4aT83kx8_ajdbQqgem4UhuSdiMJQX48-Rly46Eryd2aGaA3TJuG69LCSph0odnI4CSstYcs=s220",
+        "view": "https://drive.google.com/file/d/1g0kSU6xFz1Sb8sUNOSzQoa8gMk211TvP/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-tGcUqmQ45bpo866XY4-rF3WJw8uhI6Fchxe2pkujPicGfULCLId5bwyQgDsnVr244V2UBgcDac3TtSzKAeEA6ffEFW2QmMHZ6LZeTG9zt7Z3RBg=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX9TefsznFd5TF71Zrm8aHai5UrCV9OFYBn7rqhtINnwInjloyOZ3TD9I-gdwwsA42y_l4I6h2nc7MMkGaao2mKHLyzNy4HFRpZ65pnPp_YehJPek=s220",
         "view": "https://drive.google.com/file/d/184Y-Jg8Il0A4s8o6PlvyzmgrO-0K36Gn/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 5,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 040448 - 4/5/2026 (9 FOTOS)\n  → 040448_inicial ❌\n  → 040448_folio ❌\n  → 040448_corte ✅\n  → 040448_demolicion ✅\n  → 040448_caja ✅\n  → 040448_liga ❌\n  → 040448_mezcla ❌\n  → 040448_terminado ❌\n  → 040448_limpieza ✅",
+    "_auditDetail": "Folio 040448 - 4/5/2026 (9 FOTOS)\n  → 040448_inicial ✅\n  → 040448_folio ❌\n  → 040448_corte ✅\n  → 040448_demolicion ✅\n  → 040448_caja ✅\n  → 040448_liga ✅\n  → 040448_mezcla ✅\n  → 040448_terminado ✅\n  → 040448_limpieza ✅\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO)",
     "_faltanNEO": [
-      "INICIAL",
-      "FOLIO",
-      "LIGA",
-      "MEZCLA",
-      "TERMINADO"
+      "FOLIO"
     ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
