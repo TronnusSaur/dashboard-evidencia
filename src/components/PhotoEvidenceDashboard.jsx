@@ -251,26 +251,39 @@ const PhotoEvidenceDashboard = () => {
 
         filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
+            const isOkParcial = !isLegacyDate(row.FECHA) && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+
             if (rawType === 'OK') {
                 ok++;
-                if (!row._faltanNEO || row._faltanNEO.length === 0) {
+                if (!isOkParcial) {
                     okTotal++;
+                    return;
                 }
-                return;
+                // Si es OK Parcial, no retornamos temprano para que sus fotos Neo faltantes se sumen en los contadores
             }
 
             if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
                 sinCarpeta++;
             } else {
-                if (rawType.includes('INICIAL')) faltaInicial++;
-                if (rawType.includes('CAJA')) faltaCaja++;
-                if (rawType.includes('TERMINADO')) faltaTerminado++;
-                if (rawType.includes('FOLIO')) faltaFolio++;
-                if (rawType.includes('CORTE')) faltaCorte++;
-                if (rawType.includes('DEMOLICION')) faltaDemolicion++;
-                if (rawType.includes('LIGA')) faltaLiga++;
-                if (rawType.includes('MEZCLA')) faltaMezcla++;
-                if (rawType.includes('LIMPIEZA')) faltaLimpieza++;
+                if (isOkParcial) {
+                    const missingLower = row._faltanNEO.map(f => f.toLowerCase());
+                    if (missingLower.includes('folio')) faltaFolio++;
+                    if (missingLower.includes('corte')) faltaCorte++;
+                    if (missingLower.includes('demolicion')) faltaDemolicion++;
+                    if (missingLower.includes('liga')) faltaLiga++;
+                    if (missingLower.includes('mezcla')) faltaMezcla++;
+                    if (missingLower.includes('limpieza')) faltaLimpieza++;
+                } else {
+                    if (rawType.includes('INICIAL')) faltaInicial++;
+                    if (rawType.includes('CAJA')) faltaCaja++;
+                    if (rawType.includes('TERMINADO')) faltaTerminado++;
+                    if (rawType.includes('FOLIO')) faltaFolio++;
+                    if (rawType.includes('CORTE')) faltaCorte++;
+                    if (rawType.includes('DEMOLICION')) faltaDemolicion++;
+                    if (rawType.includes('LIGA')) faltaLiga++;
+                    if (rawType.includes('MEZCLA')) faltaMezcla++;
+                    if (rawType.includes('LIMPIEZA')) faltaLimpieza++;
+                }
             }
         });
 
@@ -540,12 +553,21 @@ const PhotoEvidenceDashboard = () => {
         } else {
             // When not searching, apply the OK visibility toggle.
             if (!showOkFolios) {
-                docs = docs.filter(r => r.RESULTADO_AUDITORIA !== 'OK');
+                docs = docs.filter(r => {
+                    const isOkParcial = !isLegacyDate(r.FECHA) && r.RESULTADO_AUDITORIA === 'OK' && r._faltanNEO && r._faltanNEO.length > 0;
+                    return r.RESULTADO_AUDITORIA !== 'OK' || isOkParcial;
+                });
             }
 
-            // Apply Error Type Filter based on CONDENSED group (only for non-OK records)
+            // Apply Error Type Filter based on CONDENSED group (only for non-OK records, except OK Parcial which maps to OK)
             if (selectedErrorTypes.length > 0) {
-                docs = docs.filter(r => selectedErrorTypes.includes(MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA]));
+                docs = docs.filter(r => {
+                    const isOkParcial = !isLegacyDate(r.FECHA) && r.RESULTADO_AUDITORIA === 'OK' && r._faltanNEO && r._faltanNEO.length > 0;
+                    if (isOkParcial) {
+                        return selectedErrorTypes.includes('OK');
+                    }
+                    return selectedErrorTypes.includes(MAP_TO_CONDENSED[r.RESULTADO_AUDITORIA]);
+                });
             }
         }
         return docs;
@@ -633,7 +655,19 @@ const PhotoEvidenceDashboard = () => {
                     }
 
                     const rawType = row.RESULTADO_AUDITORIA || '';
-                    if (rawType && rawType !== 'OK') {
+                    const isOkParcial = !isLegacyDate(row.FECHA) && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+
+                    if (isOkParcial) {
+                        let rowInc = 0;
+                        const missingLower = row._faltanNEO.map(f => f.toLowerCase());
+                        if (missingLower.includes('folio')) { companyMap[comp].folio++; rowInc++; }
+                        if (missingLower.includes('corte')) { companyMap[comp].corte++; rowInc++; }
+                        if (missingLower.includes('demolicion')) { companyMap[comp].demolicion++; rowInc++; }
+                        if (missingLower.includes('liga')) { companyMap[comp].liga++; rowInc++; }
+                        if (missingLower.includes('mezcla')) { companyMap[comp].mezcla++; rowInc++; }
+                        if (missingLower.includes('limpieza')) { companyMap[comp].limpieza++; rowInc++; }
+                        companyMap[comp].total += rowInc;
+                    } else if (rawType && rawType !== 'OK') {
                         let rowInc = 0;
                         if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
                             companyMap[comp].sinCarpeta++;
