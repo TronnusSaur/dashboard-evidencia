@@ -59,7 +59,7 @@ const AnimatedCounter = ({ value, duration = 600 }) => {
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
     const s = status.toUpperCase();
-    if (s.startsWith('OK PARCIAL')) return '#4ade80'; // Lighter green for OK Parcial
+    if (s.startsWith('OK PARCIAL')) return '#166534'; // Darker, opaque green (green-800) for OK Parcial
     if (s === 'FALTANTES MULTIPLES') return '#be123c'; // Rose-700 (Muy Crítico)
     if (s.includes('TERMINADO')) return '#ef4444'; // Red (Crítico)
     if (s.includes('INICIAL') || s.includes('CAJA')) return '#f97316'; // Orange (Advertencia)
@@ -78,11 +78,11 @@ const FOTO_LABELS = {
     'LIMPIEZA': 'Limpieza'
 };
 
-// Folios capturados antes del 20 de abril de 2026 son "Legacy" (sólo 3 fotos requeridas).
-// A partir del 20/04/2026 se exige el set completo de 9 fotos ("Neo").
+// Folios capturados antes del 27 de abril de 2026 son "Legacy" (sólo 3 fotos requeridas).
+// A partir del 27/04/2026 se exige el set completo de 9 fotos ("Neo").
 const isLegacyDate = (fechaStr) => {
     if (!fechaStr) return true; // Sin fecha → asumir legacy por seguridad
-    const cutoff = new Date('2026-04-20T00:00:00');
+    const cutoff = new Date('2026-04-27T00:00:00');
     const parts = String(fechaStr).split(/[\-\/]/);
     let d;
     if (parts.length === 3) {

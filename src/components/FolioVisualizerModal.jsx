@@ -13,10 +13,10 @@ const SHEET_MAP = {
 
 const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
 
-// Folios anteriores al 20/04/2026 → Legacy (sólo 3 fotos). Posteriores → Neo (9 fotos).
+// Folios anteriores al 27/04/2026 → Legacy (sólo 3 fotos). Posteriores → Neo (9 fotos).
 const isLegacyDate = (fechaStr) => {
     if (!fechaStr) return true;
-    const cutoff = new Date('2026-04-20T00:00:00');
+    const cutoff = new Date('2026-04-27T00:00:00');
     const parts = String(fechaStr).split(/[\-\/]/);
     let d;
     if (parts.length === 3) {
@@ -907,7 +907,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     if (isOk) {
         badgeClass = 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 border border-green-200 dark:border-green-800/30';
     } else if (isOkParcial) {
-        badgeClass = 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400 border border-emerald-300 dark:border-emerald-700/30';
+        badgeClass = 'bg-green-800 text-white dark:bg-green-950/80 dark:text-green-300 border border-green-700';
     }
 
     return (
