@@ -1636,7 +1636,7 @@
   {
     "FOLIO": "110042",
     "FECHA": "31/3/2026",
-    "RESULTADO_AUDITORIA": "FALTA: TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "CARMEN SERDAN",
     "COLONIA": "COLON Y CIPRES I",
     "DELEGACION": "COLON",
@@ -1645,31 +1645,33 @@
     "_folderId": "1l5-hc6KfZojH2FHr2EeLu96o1NTApjuy",
     "PHOTOS": {
       "INICIAL": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPo51kqovWhh6vwoEz4k8afVBlQ0FNOADsD7mn-IyqFQZbx2a7wTC3qqP7iXXF2Svb2UGZpWRD42fIExFOujWrHqG2rIZ76xbr95NjnjaWFpF-hgeE=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOqNHmgM47yNMM8-QFyCcsL5H35xWSCWEU-JSk6m7ei_1SW5bDCT74TaAW2HUbh1amf5acscW3usjVhoUMQ37CzvOy6SdYmvcvpiGB4NlwiDt-WYU=s220",
         "view": "https://drive.google.com/file/d/1mNh0sk_9d0lOZr8Ku-BFFPBWr-tD2SXk/view?usp=drivesdk"
       },
       "FOLIO": null,
       "CORTE": null,
       "DEMOLICION": null,
       "CAJA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOtnPxozHok5Ao0p-8sSJzy5f-REC7ul65mnxiujrvgVHh7vf8MDDLpWKGlERrFGAvMostaIJlexhsI8dcdbYd-tfw0cMh6z1D9vks9mc4op0rfi4k=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGl543fGGsItOaVdkXG_xv68TAdRw5ctez_16SIIgwjynKNMb7ZYvXjzSiUqvNYdNWAQwqzeBhKp1PSmxk6eqWTUCXRCaP30-QiA0OHbS4aa4xAW4=s220",
         "view": "https://drive.google.com/file/d/1mY_nl0KzbNg7uiki5s4m4OcP70ZikeNC/view?usp=drivesdk"
       },
       "LIGA": null,
       "MEZCLA": null,
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMhRT5K3DHQhBlnJ3pfwd-RWrLBhnGvBmcaErOVbvmLQjRqu2NZw6nc7Hot4RP9shYdFNSIx9z8qhZDH9JKLOr5nFwA8tVfZzEa2jzbJEAy69JBN28=s220",
+        "view": "https://drive.google.com/file/d/1iypPFdhq5qO1vvxwjL-2hleViuIbF8mw/view?usp=drivesdk"
+      },
       "LIMPIEZA": null
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 110042 - 31/3/2026 (9 FOTOS)\n  → 110042_inicial ✅\n  → 110042_folio ❌\n  → 110042_corte ❌\n  → 110042_demolicion ❌\n  → 110042_caja ✅\n  → 110042_liga ❌\n  → 110042_mezcla ❌\n  → 110042_terminado ❌\n  → 110042_limpieza ❌",
+    "_auditDetail": "Folio 110042 - 31/3/2026 (9 FOTOS)\n  → 110042_inicial ✅\n  → 110042_folio ❌\n  → 110042_corte ❌\n  → 110042_demolicion ❌\n  → 110042_caja ✅\n  → 110042_liga ❌\n  → 110042_mezcla ❌\n  → 110042_terminado ✅\n  → 110042_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
     "_faltanNEO": [
       "FOLIO",
       "CORTE",
       "DEMOLICION",
       "LIGA",
       "MEZCLA",
-      "TERMINADO",
       "LIMPIEZA"
     ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
