@@ -41,6 +41,31 @@ const CONFIG_FOTOS = {
     ]
 };
 
+const isLegacyDate = (fechaStr) => {
+    if (!fechaStr) return false;
+    let parts = fechaStr.split('/');
+    if (parts.length !== 3) {
+        parts = fechaStr.split('-');
+    }
+    if (parts.length === 3) {
+        let day, month, year;
+        if (parts[0].length === 4) {
+            year = parseInt(parts[0], 10);
+            month = parseInt(parts[1], 10) - 1;
+            day = parseInt(parts[2], 10);
+        } else {
+            day = parseInt(parts[0], 10);
+            month = parseInt(parts[1], 10) - 1;
+            year = parseInt(parts[2], 10);
+        }
+        if (isNaN(day) || isNaN(month) || isNaN(year)) return false;
+        const date = new Date(year, month, day);
+        const threshold = new Date(2026, 3, 20); // 20 de abril de 2026
+        return date < threshold;
+    }
+    return false;
+};
+
 // 100% Serverless / Stateless: The Browser talks directly to Google APIs!
 const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onActionSuccess, stage, isVerifying, accessToken, logToSheet, isEditable }) => {
     const [blobUrl, setBlobUrl] = useState(null);
@@ -427,18 +452,23 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const [renamingId, setRenamingId] = useState(null);
     const [isNewSet, setIsNewSet] = useState(false);
     const [livePhotos, setLivePhotos] = useState(null);
-    const [currentFolderId, setCurrentFolderId] = useState(null);
+    const [currentFolderId, setCurrentFolderId] = useState(null); // initialized in useEffect from _folderId
     const [liveFaltanNEO, setLiveFaltanNEO] = useState([]);
     
-    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO } = folioData || {};
+    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO, FECHA } = folioData || {};
 
     useEffect(() => {
         setLivePhotos(null);
         setExtraFiles([]);
-        setCurrentFolderId(null);
-        setLiveFaltanNEO(_faltanNEO || []);
-        if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
-    }, [FOLIO, _isNewSet, driveMode, _faltanNEO]);
+        setCurrentFolderId(_folderId || null);
+        if (isLegacyDate(FECHA)) {
+            setLiveFaltanNEO([]);
+            setIsNewSet(false);
+        } else {
+            setLiveFaltanNEO(_faltanNEO || []);
+            if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
+        }
+    }, [FOLIO, _isNewSet, driveMode, _faltanNEO, FECHA, _folderId]);
 
     const AUTHORIZED_EDITORS = [
         "dgopbacheot@gmail.com", 
@@ -661,14 +691,14 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 currentStatus = "CARPETA VAC\u00cdA";
                 setExtraFiles([]);
                 setLivePhotos(null);
-                setIsNewSet(_isNewSet === true);
+                setIsNewSet(!isLegacyDate(FECHA) && (_isNewSet === true));
             } else {
                 currentFoundPhotos = {};
                 const recognizedIds = new Set();
                 const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
-                let detectedNew = _isNewSet === true;
+                let detectedNew = !isLegacyDate(FECHA) && (_isNewSet === true);
 
-                if (!detectedNew) {
+                if (!detectedNew && !isLegacyDate(FECHA)) {
                     // Check for new suffixes to determine if we use the 9-photo set
                     for (const f of files) {
                         const lowerName = f.name.toLowerCase();
@@ -861,6 +891,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     if (!isOpen || !folioData) return null;
 
     const getModalDisplayStatus = () => {
+        if (isLegacyDate(FECHA)) return RESULTADO_AUDITORIA || 'N/A';
         if (RESULTADO_AUDITORIA === 'OK' && liveFaltanNEO && liveFaltanNEO.length > 0) {
             const friendlyList = liveFaltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
             return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
@@ -915,9 +946,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                         : 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300 dark:border-amber-700'
                                 }`}>
                                     {isNewSet ? (
-                                        <><FileImage size={12} /> 9 FOTOS</>
+                                        <><FileImage size={12} /> Neo</>
                                     ) : (
-                                        <><Clock size={12} /> LEGACY (3 FOTOS)</>
+                                        <><Clock size={12} /> Legacy</>
                                     )}
                                 </span>
                                 <span className={`flex items-center gap-1.5 px-2 py-1 text-[10px] font-black rounded-full border shadow-sm ${
@@ -927,12 +958,12 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 }`}>
                                     {driveMode === 'ADMIN' ? '📁 DRIVE ADMIN' : '📂 DRIVE SUPERVISORES'}
                                 </span>
-                                {currentFolderId && (
+                                {(_folderId || currentFolderId) && (
                                     <a
-                                        href={`https://drive.google.com/drive/folders/${currentFolderId}`}
+                                        href={`https://drive.google.com/drive/folders/${_folderId || currentFolderId}`}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 text-[10px] font-bold rounded-full border border-slate-300 dark:border-slate-600 transition-colors shadow-sm"
+                                        className="flex items-center gap-1.5 px-2.5 py-1 bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-800/40 text-indigo-600 dark:text-indigo-400 text-[10px] font-bold rounded-full border border-indigo-300 dark:border-indigo-700 transition-colors shadow-sm"
                                         title="Abrir carpeta del folio en Google Drive"
                                     >
                                         <FolderOpen size={12} />
