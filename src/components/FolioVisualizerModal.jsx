@@ -451,9 +451,14 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     
     const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO, FECHA } = folioData || {};
 
+    const lastFolioRef = React.useRef(null);
+
     useEffect(() => {
-        setLivePhotos(null);
-        setExtraFiles([]);
+        if (lastFolioRef.current !== FOLIO) {
+            setLivePhotos(null);
+            setExtraFiles([]);
+            lastFolioRef.current = FOLIO;
+        }
         setCurrentFolderId(_folderId || null);
         if (isLegacyDate(FECHA)) {
             // Legacy folios: borrar faltanNEO y forzar modo 3-fotos
@@ -691,9 +696,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 currentFoundPhotos = {};
                 const recognizedIds = new Set();
                 const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
-                let detectedNew = _isNewSet === true;
+                let detectedNew = !isLegacyDate(FECHA) && (_isNewSet === true);
 
-                if (!detectedNew) {
+                if (!detectedNew && !isLegacyDate(FECHA)) {
                     // Check for new suffixes to determine if we use the 9-photo set
                     for (const f of files) {
                         const lowerName = f.name.toLowerCase();
