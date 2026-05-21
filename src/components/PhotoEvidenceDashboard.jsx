@@ -78,9 +78,31 @@ const FOTO_LABELS = {
     'LIMPIEZA': 'Limpieza'
 };
 
+// Folios capturados antes del 20 de abril de 2026 son "Legacy" (sólo 3 fotos requeridas).
+// A partir del 20/04/2026 se exige el set completo de 9 fotos ("Neo").
+const isLegacyDate = (fechaStr) => {
+    if (!fechaStr) return true; // Sin fecha → asumir legacy por seguridad
+    const cutoff = new Date('2026-04-20T00:00:00');
+    const parts = String(fechaStr).split(/[\-\/]/);
+    let d;
+    if (parts.length === 3) {
+        // Soporta formatos DD/MM/YYYY y YYYY-MM-DD
+        if (parts[0].length === 4) {
+            d = new Date(`${parts[0]}-${parts[1]}-${parts[2]}`);
+        } else {
+            d = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
+        }
+    } else {
+        d = new Date(fechaStr);
+    }
+    if (isNaN(d.getTime())) return true;
+    return d < cutoff;
+};
+
 const getDisplayStatus = (row) => {
     if (!row) return 'N/A';
-    if (row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0) {
+    // Legacy folios never show "OK Parcial" — they only had 3 required photos
+    if (!isLegacyDate(row.FECHA) && row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0) {
         const friendlyList = row._faltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
         return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
     }
@@ -792,7 +814,7 @@ const PhotoEvidenceDashboard = () => {
             // We group filteredRecords by contract, but only those with status !== 'OK'
             const errorsByContract = {};
             records.forEach(row => {
-                const isOkParcial = row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+                const isOkParcial = !isLegacyDate(row.FECHA) && row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
                 if (row.RESULTADO_AUDITORIA && (row.RESULTADO_AUDITORIA !== 'OK' || isOkParcial)) {
                     const rawId = String(row.ID || row._contract || '');
                     const cId = parseInt(rawId, 10).toString(); // Normalize "1" to "1"
@@ -845,7 +867,7 @@ const PhotoEvidenceDashboard = () => {
                 const tableColumn = ["Folio", "Tipo", "Tipo de Error", "Calle", "Delegación", "Colonia"];
                 const tableRows = errorsByContract[cId].map(row => [
                     row.FOLIO || "N/A",
-                    row._isNewSet ? "9 Fotos" : "Legacy",
+                    isLegacyDate(row.FECHA) ? "Legacy" : "Neo",
                     getDisplayStatus(row),
                     row.CALLE || "N/A",
                     row.DELEGACION || "N/A",
@@ -953,7 +975,7 @@ const PhotoEvidenceDashboard = () => {
                     const data = await res.json();
                     const files = data.files || [];
                     const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
-                    const isNew = record._isNewSet === true || files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s)));
+                    const isNew = !isLegacyDate(record.FECHA) && (record._isNewSet === true || files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s))));
                     const criticalCats = ['INICIAL', 'CAJA', 'TERMINADO'];
                     const neoCats = isNew ? ['FOLIO', 'CORTE', 'DEMOLICION', 'LIGA', 'MEZCLA', 'LIMPIEZA'] : [];
                     const allCats = [...criticalCats, ...neoCats];
@@ -1516,7 +1538,18 @@ const PhotoEvidenceDashboard = () => {
                                     <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
                                         {tableData.map((row, idx) => (
                                             <tr key={idx} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
-                                                <td className="px-6 py-4 font-bold text-primary dark:text-white text-sm">{row.FOLIO}</td>
+                                                <td className="px-6 py-4">
+                                                    <div className="flex flex-col gap-0.5">
+                                                        <span className="font-bold text-primary dark:text-white text-sm">{row.FOLIO}</span>
+                                                        <span className={`inline-flex items-center gap-0.5 text-[8px] font-black uppercase tracking-wider w-max px-1.5 py-0.5 rounded border ${
+                                                            isLegacyDate(row.FECHA)
+                                                                ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800/30'
+                                                                : 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800/30'
+                                                        }`}>
+                                                            {isLegacyDate(row.FECHA) ? 'Legacy' : 'Neo'}
+                                                        </span>
+                                                    </div>
+                                                </td>
                                                 <td className="px-6 py-4">
                                                     <span
                                                         className="px-2 py-1 rounded text-[10px] font-black uppercase text-white shadow-sm"

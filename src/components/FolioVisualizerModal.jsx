@@ -13,6 +13,25 @@ const SHEET_MAP = {
 
 const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
 
+// Folios anteriores al 20/04/2026 → Legacy (sólo 3 fotos). Posteriores → Neo (9 fotos).
+const isLegacyDate = (fechaStr) => {
+    if (!fechaStr) return true;
+    const cutoff = new Date('2026-04-20T00:00:00');
+    const parts = String(fechaStr).split(/[\-\/]/);
+    let d;
+    if (parts.length === 3) {
+        if (parts[0].length === 4) {
+            d = new Date(`${parts[0]}-${parts[1]}-${parts[2]}`);
+        } else {
+            d = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
+        }
+    } else {
+        d = new Date(fechaStr);
+    }
+    if (isNaN(d.getTime())) return true;
+    return d < cutoff;
+};
+
 const FOTO_LABELS = {
     'FOLIO': 'Folio',
     'CORTE': 'Corte',
@@ -430,15 +449,21 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const [currentFolderId, setCurrentFolderId] = useState(null);
     const [liveFaltanNEO, setLiveFaltanNEO] = useState([]);
     
-    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO } = folioData || {};
+    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO, FECHA } = folioData || {};
 
     useEffect(() => {
         setLivePhotos(null);
         setExtraFiles([]);
-        setCurrentFolderId(null);
-        setLiveFaltanNEO(_faltanNEO || []);
-        if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
-    }, [FOLIO, _isNewSet, driveMode, _faltanNEO]);
+        setCurrentFolderId(_folderId || null);
+        if (isLegacyDate(FECHA)) {
+            // Legacy folios: borrar faltanNEO y forzar modo 3-fotos
+            setLiveFaltanNEO([]);
+            setIsNewSet(false);
+        } else {
+            setLiveFaltanNEO(_faltanNEO || []);
+            if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
+        }
+    }, [FOLIO, _isNewSet, driveMode, _faltanNEO, FECHA, _folderId]);
 
     const AUTHORIZED_EDITORS = [
         "dgopbacheot@gmail.com", 
@@ -861,6 +886,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     if (!isOpen || !folioData) return null;
 
     const getModalDisplayStatus = () => {
+        if (isLegacyDate(FECHA)) return RESULTADO_AUDITORIA || 'N/A';
         if (RESULTADO_AUDITORIA === 'OK' && liveFaltanNEO && liveFaltanNEO.length > 0) {
             const friendlyList = liveFaltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
             return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
@@ -910,14 +936,14 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                     </span>
                                 )}
                                 <span className={`flex items-center gap-1.5 px-2 py-1 text-[10px] font-black rounded-full border shadow-sm ${
-                                    isNewSet 
-                                        ? 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-300 dark:border-emerald-700' 
-                                        : 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300 dark:border-amber-700'
+                                    isLegacyDate(FECHA)
+                                        ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-300 dark:border-amber-700' 
+                                        : 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-300 dark:border-emerald-700'
                                 }`}>
-                                    {isNewSet ? (
-                                        <><FileImage size={12} /> 9 FOTOS</>
+                                    {isLegacyDate(FECHA) ? (
+                                        <><Clock size={12} /> Legacy</>
                                     ) : (
-                                        <><Clock size={12} /> LEGACY (3 FOTOS)</>
+                                        <><FileImage size={12} /> Neo</>
                                     )}
                                 </span>
                                 <span className={`flex items-center gap-1.5 px-2 py-1 text-[10px] font-black rounded-full border shadow-sm ${
@@ -927,12 +953,12 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 }`}>
                                     {driveMode === 'ADMIN' ? '📁 DRIVE ADMIN' : '📂 DRIVE SUPERVISORES'}
                                 </span>
-                                {currentFolderId && (
+                                {(_folderId || currentFolderId) && (
                                     <a
-                                        href={`https://drive.google.com/drive/folders/${currentFolderId}`}
+                                        href={`https://drive.google.com/drive/folders/${_folderId || currentFolderId}`}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 text-[10px] font-bold rounded-full border border-slate-300 dark:border-slate-600 transition-colors shadow-sm"
+                                        className="flex items-center gap-1.5 px-2.5 py-1 bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-800/40 text-indigo-600 dark:text-indigo-400 text-[10px] font-bold rounded-full border border-indigo-300 dark:border-indigo-700 transition-colors shadow-sm"
                                         title="Abrir carpeta del folio en Google Drive"
                                     >
                                         <FolderOpen size={12} />
