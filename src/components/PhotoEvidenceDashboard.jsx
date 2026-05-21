@@ -736,6 +736,8 @@ const PhotoEvidenceDashboard = () => {
                 }
             });
 
+            // Si es un contrato, no añadimos la hoja general extra, la mantuvimos exclusiva para el reporte general
+
             doc.setFontSize(9);
             doc.setTextColor(150);
             doc.text(`Generado el: ${new Date().toLocaleString()}`, 14, doc.lastAutoTable.finalY + 10);
@@ -951,7 +953,7 @@ const PhotoEvidenceDashboard = () => {
                     const data = await res.json();
                     const files = data.files || [];
                     const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
-                    const isNew = files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s)));
+                    const isNew = record._isNewSet === true || files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s)));
                     const criticalCats = ['INICIAL', 'CAJA', 'TERMINADO'];
                     const neoCats = isNew ? ['FOLIO', 'CORTE', 'DEMOLICION', 'LIGA', 'MEZCLA', 'LIMPIEZA'] : [];
                     const allCats = [...criticalCats, ...neoCats];
@@ -1369,7 +1371,7 @@ const PhotoEvidenceDashboard = () => {
                                                     ? [
                                                         { name: 'Folios OK', ok: kpiData.ok, fill: '#22c55e', pct: Math.round((kpiData.ok / (filteredRecords.length || 1)) * 100) },
                                                         { name: 'Faltantes', ok: filteredRecords.length - kpiData.ok, fill: '#ef4444', pct: Math.round(((filteredRecords.length - kpiData.ok) / (filteredRecords.length || 1)) * 100) }
-                                                      ]
+                                                    ]
                                                     : contractStats
                                             }
                                             cx="50%"
@@ -1385,7 +1387,7 @@ const PhotoEvidenceDashboard = () => {
                                                 ? [
                                                     { name: 'Folios OK', fill: '#22c55e' },
                                                     { name: 'Faltantes', fill: '#ef4444' }
-                                                  ]
+                                                   ]
                                                 : contractStats).map((entry, index) => (
                                                 <Cell key={`cell-${index}`} fill={entry.fill} stroke="none" />
                                             ))}

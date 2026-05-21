@@ -213,7 +213,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         setIsDragging(false);
         if (stableImageSrc || isUploading || isDeleting || isVerifying) return;
         if (!isEditable) {
-            alert('No tienes permisos de Edición. Solo cuentas verificadas pueden subir fotos.');
+            alert('No tienes permisos de Edici\u00f3n. Solo cuentas verificadas pueden subir fotos.');
             return;
         }
         if (!accessToken) {
@@ -247,7 +247,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
     const handleDelete = async () => {
         if (!isEditable) {
-            alert('No tienes permisos para eliminar. Solo cuentas verificadas pueden realizar esta acción.');
+            alert('No tienes permisos para eliminar. Solo cuentas verificadas pueden realizar esta acci\u00f3n.');
             return;
         }
         if (!accessToken) {
@@ -525,7 +525,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 }
             }
 
-            console.log(`  ✅ ${Object.keys(folioMap).length} folios mapped in supervisor drive`);
+            console.log(`  ✅ ${Object.keys(folioMap).length} folios mapeados en drive de supervisores`);
             supTreeCacheRef.current = folioMap;
             return folioMap;
         } catch (e) {
@@ -610,11 +610,13 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         // In Supervisor mode, if we don't have a folderId yet, find it
         if (driveMode === 'SUPERVISOR' && !resolvedFolderId && accessToken && FOLIO) {
             setIsVerifying(true);
+            setVerificationStatus('verifying');
             resolvedFolderId = await findSupervisorFolder(String(FOLIO).trim());
             if (!resolvedFolderId) {
                 if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0, []);
                 setIsVerifying(false);
                 setCurrentFolderId(null);
+                setVerificationStatus('error');
                 return;
             }
         }
@@ -623,8 +625,12 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
         if (!resolvedFolderId) {
             if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0, []);
+            setVerificationStatus('error');
             return;
         }
+        let status = "";
+        let currentFoundPhotos = null;
+        let currentExtrasCount = 0;
         if (!accessToken) {
             console.log("No auth token, bypassing direct live verification");
             return;
@@ -652,22 +658,24 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             let liveFaltanNEOList = [];
 
             if (files.length === 0) {
-                currentStatus = "CARPETA VACÍA";
+                currentStatus = "CARPETA VAC\u00cdA";
                 setExtraFiles([]);
                 setLivePhotos(null);
-                setIsNewSet(false);
+                setIsNewSet(_isNewSet === true);
             } else {
                 currentFoundPhotos = {};
                 const recognizedIds = new Set();
                 const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
-                let detectedNew = false;
+                let detectedNew = _isNewSet === true;
 
-                // Check for new suffixes to determine if we use the 9-photo set
-                for (const f of files) {
-                    const lowerName = f.name.toLowerCase();
-                    if (newSuffixes.some(s => lowerName.includes(s))) {
-                        detectedNew = true;
-                        break;
+                if (!detectedNew) {
+                    // Check for new suffixes to determine if we use the 9-photo set
+                    for (const f of files) {
+                        const lowerName = f.name.toLowerCase();
+                        if (newSuffixes.some(s => lowerName.includes(s))) {
+                            detectedNew = true;
+                            break;
+                        }
                     }
                 }
                 
@@ -724,6 +732,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 // Collect unrecognized files
                 const extras = files.filter(f => !recognizedIds.has(f.id));
                 setExtraFiles(extras);
+                currentExtrasCount = extras.length;
                 extraFilesCount = extras.length;
             }
 
@@ -746,7 +755,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     // 2. Actualizar Firebase Firestore (para sincronización global inmediata)
                     try {
                         const folioKey = `${_stage}_${_company || 'DESCONOCIDA'}_${ID || 'SIN_ID'}_${FOLIO}`;
-                        await setDoc(doc(firestoreDb, "audit_results", folioKey), {
+                        await setDoc(doc(firestoreDb, \"audit_results\", folioKey), {
                             status: currentStatus,
                             last_verified: serverTimestamp(),
                             folio: FOLIO,
@@ -761,7 +770,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                         }, { merge: true });
                         console.log("🔥 Firebase actualizado en tiempo real");
                     } catch (fsErr) {
-                        console.error("❌ Error actualizando Firebase:", fsErr);
+                        console.error(\"❌ Error actualizando Firebase:\", fsErr);
                     }
                 }
             }
@@ -774,8 +783,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const logToSheet = async (action, folio, type, fileId) => {
         if (!accessToken) return;
         const spreadsheetId = SHEET_MAP['E2'];
-        const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/City_City' }); // Correct timezone fallback if local has typo
-        const range = encodeURIComponent("'Historial de Actividades'!A:F");
+        const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' });
+        const range = encodeURIComponent(\"'Historial de Actividades'!A:F\");
         
         try {
             await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}:append?valueInputOption=USER_ENTERED`, {
@@ -796,7 +805,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
     const handleRename = async (fileId, newName) => {
         if (!accessToken) {
-            alert('Debes Iniciar Sesión con Google primero.');
+            alert('Debes Iniciar Sesi\u00f3n con Google primero.');
             return;
         }
         setRenamingId(fileId);
@@ -810,7 +819,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 body: JSON.stringify({ name: newName })
             });
             if (!res.ok) throw new Error(await res.text());
-            console.log(`✏️ Renombrado exitoso: ${newName}`);
+            console.log(`\u270f\ufe0f Renombrado exitoso: ${newName}`);
             await logToSheet('RENOMBRADO', FOLIO, newName, fileId);
             setEditingFile(null);
             await triggerVerification();
