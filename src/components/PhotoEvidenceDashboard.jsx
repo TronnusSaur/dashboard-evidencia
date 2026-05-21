@@ -59,6 +59,7 @@ const AnimatedCounter = ({ value, duration = 600 }) => {
 const getColorForStatus = (status) => {
     if (!status) return '#64748b'; // Default Slate
     const s = status.toUpperCase();
+    if (s.startsWith('OK PARCIAL')) return '#4ade80'; // Lighter green for OK Parcial
     if (s === 'FALTANTES MULTIPLES') return '#be123c'; // Rose-700 (Muy Crítico)
     if (s.includes('TERMINADO')) return '#ef4444'; // Red (Crítico)
     if (s.includes('INICIAL') || s.includes('CAJA')) return '#f97316'; // Orange (Advertencia)
@@ -66,6 +67,24 @@ const getColorForStatus = (status) => {
     if (s === 'SIN CARPETA') return '#eab308'; // Yellow
     if (s === 'CARPETA VACÍA') return '#d97706'; // Amber
     return '#8b5cf6'; // Purple fallback
+};
+
+const FOTO_LABELS = {
+    'FOLIO': 'Folio',
+    'CORTE': 'Corte',
+    'DEMOLICION': 'Demolición',
+    'LIGA': 'Liga',
+    'MEZCLA': 'Mezcla',
+    'LIMPIEZA': 'Limpieza'
+};
+
+const getDisplayStatus = (row) => {
+    if (!row) return 'N/A';
+    if (row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0) {
+        const friendlyList = row._faltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
+        return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
+    }
+    return row.RESULTADO_AUDITORIA || 'N/A';
 };
 
 // Option B Grouping Logic
@@ -356,7 +375,6 @@ const PhotoEvidenceDashboard = () => {
     }, [selectedCompany, selectedContract, filteredRecords]);
 
     // Table Data (Drill-down)
-    // Table Data (Drill-down)
     // Lazy Loading Effect
     useEffect(() => {
         const fetchRecords = async () => {
@@ -396,23 +414,6 @@ const PhotoEvidenceDashboard = () => {
 
                 await Promise.all(downloadPromises);
                 let allRecords = cacheKeys.flatMap(ck => stageCache[ck] || []);
-                
-                // Optimistic UI Cache - DESHABILITADO PARA FORZAR SINCRONIZACIÓN PURA
-                /*
-                try {
-                    const optimisticStoreStr = localStorage.getItem('optimistic_folios');
-                    if (optimisticStoreStr) {
-                        const optimisticStore = JSON.parse(optimisticStoreStr);
-                        allRecords = allRecords.map(r => {
-                            const cached = optimisticStore[String(r.FOLIO)];
-                            if (cached && cached.PHOTOS) {
-                                return { ...r, ...cached };
-                            }
-                            return r;
-                        });
-                    }
-                } catch(e) {}
-                */
 
                 setRecords(allRecords);
             } catch (error) {
@@ -467,6 +468,7 @@ const PhotoEvidenceDashboard = () => {
                             ...cacheItems[folioIndex], 
                             RESULTADO_AUDITORIA: data.status,
                             PHOTOS: data.photos.reduce((acc, p) => { acc[p.cat] = p; return acc; }, {}),
+                            _faltanNEO: data.faltanNEO || [],
                             _isFirebaseUpdate: true
                         };
                     }
@@ -490,6 +492,7 @@ const PhotoEvidenceDashboard = () => {
                             ...newRecords[index], 
                             RESULTADO_AUDITORIA: data.status,
                             PHOTOS: data.photos.reduce((acc, p) => { acc[p.cat] = p; return acc; }, {}),
+                            _faltanNEO: data.faltanNEO || [],
                             _isFirebaseUpdate: true
                         };
                         changed = true;
@@ -709,7 +712,7 @@ const PhotoEvidenceDashboard = () => {
             const tableColumn = ["Folio", "Estado de Error", "Ubicación (Calle)", "Delegación", "Colonia"];
             const tableRows = tableData.map(row => [
                 row.FOLIO || "N/A",
-                row.RESULTADO_AUDITORIA || "N/A",
+                getDisplayStatus(row),
                 row.CALLE || "No especificada",
                 row.DELEGACION || "N/A",
                 row.COLONIA || "N/A"
@@ -732,8 +735,6 @@ const PhotoEvidenceDashboard = () => {
                     overflow: 'linebreak'
                 }
             });
-
-            // Si es un contrato, no añadimos la hoja general extra, la mantuvimos exclusiva para el reporte general
 
             doc.setFontSize(9);
             doc.setTextColor(150);
@@ -789,7 +790,8 @@ const PhotoEvidenceDashboard = () => {
             // We group filteredRecords by contract, but only those with status !== 'OK'
             const errorsByContract = {};
             records.forEach(row => {
-                if (row.RESULTADO_AUDITORIA && row.RESULTADO_AUDITORIA !== 'OK') {
+                const isOkParcial = row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+                if (row.RESULTADO_AUDITORIA && (row.RESULTADO_AUDITORIA !== 'OK' || isOkParcial)) {
                     const rawId = String(row.ID || row._contract || '');
                     const cId = parseInt(rawId, 10).toString(); // Normalize "1" to "1"
                     if (!errorsByContract[cId]) errorsByContract[cId] = [];
@@ -842,7 +844,7 @@ const PhotoEvidenceDashboard = () => {
                 const tableRows = errorsByContract[cId].map(row => [
                     row.FOLIO || "N/A",
                     row._isNewSet ? "9 Fotos" : "Legacy",
-                    row.RESULTADO_AUDITORIA || "N/A",
+                    getDisplayStatus(row),
                     row.CALLE || "N/A",
                     row.DELEGACION || "N/A",
                     row.COLONIA || "N/A"
@@ -950,18 +952,36 @@ const PhotoEvidenceDashboard = () => {
                     const files = data.files || [];
                     const newSuffixes = ['_folio', '_corte', '_demolicion', '_liga', '_mezcla', '_limpieza'];
                     const isNew = files.some(f => newSuffixes.some(s => f.name.toLowerCase().includes(s)));
-                    const cats = isNew ? ['INICIAL','FOLIO','CORTE','DEMOLICION','CAJA','LIGA','MEZCLA','TERMINADO','LIMPIEZA'] : ['INICIAL','CAJA','TERMINADO'];
+                    const criticalCats = ['INICIAL', 'CAJA', 'TERMINADO'];
+                    const neoCats = isNew ? ['FOLIO', 'CORTE', 'DEMOLICION', 'LIGA', 'MEZCLA', 'LIMPIEZA'] : [];
+                    const allCats = [...criticalCats, ...neoCats];
 
                     const found = {}; const recognized = new Set();
                     for (const f of files) {
                         const ln = f.name.toLowerCase();
-                        for (const cat of cats) {
-                            if (ln.includes(PHOTO_PATTERNS[cat])) { recognized.add(f.id); if (!found[cat]) found[cat] = { id: f.id, thumbnail: f.thumbnailLink, view: f.webViewLink }; }
+                        for (const cat of allCats) {
+                            if (ln.includes(PHOTO_PATTERNS[cat])) { 
+                                recognized.add(f.id); 
+                                if (!found[cat]) found[cat] = { id: f.id, thumbnail: f.thumbnailLink, view: f.webViewLink }; 
+                            }
                         }
                     }
-                    const missing = cats.filter(c => !found[c]);
-                    const status = files.length === 0 ? 'CARPETA VACÍA' : missing.length === 0 ? 'OK' : 'FALTA: ' + missing.join(' + ');
-                    handleFolioSync(record.FOLIO, found, status, files.filter(f => !recognized.has(f.id)).length);
+                    const missingCritical = criticalCats.filter(c => !found[c]);
+                    const missingNeo = neoCats.filter(c => !found[c]);
+
+                    let status = 'OK';
+                    let faltanNEO = [];
+
+                    if (files.length === 0) {
+                        status = 'CARPETA VACÍA';
+                    } else if (missingCritical.length > 0) {
+                        status = 'FALTA: ' + missingCritical.join(' + ');
+                    } else {
+                        status = 'OK';
+                        faltanNEO = missingNeo;
+                    }
+
+                    handleFolioSync(record.FOLIO, found, status, files.filter(f => !recognized.has(f.id)).length, faltanNEO);
                     updated++;
                 } catch (e) { console.error(`Sync error ${record.FOLIO}:`, e); }
                 processed++;
@@ -1009,25 +1029,30 @@ const PhotoEvidenceDashboard = () => {
         } catch (e) { console.error('Index error:', e); return null; }
     };
 
-    const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0) => {
+    const handleFolioSync = (folioStr, newPhotos, newStatus, extraPhotosCount = 0, faltanNEO = []) => {
         setRecords(prevRecords => prevRecords.map(r => {
             if (String(r.FOLIO) === String(folioStr)) {
                 // Save to localStorage
                 try {
                     const optimisticStoreStr = localStorage.getItem('optimistic_folios') || '{}';
                     const optimisticStore = JSON.parse(optimisticStoreStr);
-                    optimisticStore[folioStr] = { PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, EXTRA_PHOTOS: extraPhotosCount };
+                    optimisticStore[folioStr] = { 
+                        PHOTOS: newPhotos, 
+                        RESULTADO_AUDITORIA: newStatus, 
+                        EXTRA_PHOTOS: extraPhotosCount,
+                        _faltanNEO: faltanNEO
+                    };
                     localStorage.setItem('optimistic_folios', JSON.stringify(optimisticStore));
                 } catch(e) {}
 
-                return { ...r, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, EXTRA_PHOTOS: extraPhotosCount };
+                return { ...r, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, EXTRA_PHOTOS: extraPhotosCount, _faltanNEO: faltanNEO };
             }
             return r;
         }));
 
         setSelectedVisualizerFolio(prev => {
             if (prev && String(prev.FOLIO) === String(folioStr)) {
-                return { ...prev, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus };
+                return { ...prev, PHOTOS: newPhotos, RESULTADO_AUDITORIA: newStatus, _faltanNEO: faltanNEO };
             }
             return prev;
         });
@@ -1344,7 +1369,7 @@ const PhotoEvidenceDashboard = () => {
                                                     ? [
                                                         { name: 'Folios OK', ok: kpiData.ok, fill: '#22c55e', pct: Math.round((kpiData.ok / (filteredRecords.length || 1)) * 100) },
                                                         { name: 'Faltantes', ok: filteredRecords.length - kpiData.ok, fill: '#ef4444', pct: Math.round(((filteredRecords.length - kpiData.ok) / (filteredRecords.length || 1)) * 100) }
-                                                    ]
+                                                      ]
                                                     : contractStats
                                             }
                                             cx="50%"
@@ -1493,9 +1518,9 @@ const PhotoEvidenceDashboard = () => {
                                                 <td className="px-6 py-4">
                                                     <span
                                                         className="px-2 py-1 rounded text-[10px] font-black uppercase text-white shadow-sm"
-                                                        style={{ backgroundColor: getColorForStatus(row.RESULTADO_AUDITORIA) }}
+                                                        style={{ backgroundColor: getColorForStatus(getDisplayStatus(row)) }}
                                                     >
-                                                        {row.RESULTADO_AUDITORIA}
+                                                        {getDisplayStatus(row)}
                                                     </span>
                                                 </td>
                                                 <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.CALLE}</td>

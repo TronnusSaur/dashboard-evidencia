@@ -13,6 +13,15 @@ const SHEET_MAP = {
 
 const SUPERVISOR_ROOT_ID = '1B54IJmRS_D2J_FECE75RRo3UejfzUPU6';
 
+const FOTO_LABELS = {
+    'FOLIO': 'Folio',
+    'CORTE': 'Corte',
+    'DEMOLICION': 'Demolición',
+    'LIGA': 'Liga',
+    'MEZCLA': 'Mezcla',
+    'LIMPIEZA': 'Limpieza'
+};
+
 const CONFIG_FOTOS = {
     LEGACY: [
         { id: 'INICIAL', pattern: '_inicial', label: 'Inicial (Bache)' },
@@ -204,7 +213,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
         setIsDragging(false);
         if (stableImageSrc || isUploading || isDeleting || isVerifying) return;
         if (!isEditable) {
-            alert('No tienes permisos de Edici\u00f3n. Solo cuentas verificadas pueden subir fotos.');
+            alert('No tienes permisos de Edición. Solo cuentas verificadas pueden subir fotos.');
             return;
         }
         if (!accessToken) {
@@ -238,7 +247,7 @@ const PhotoCard = ({ title, photoObj, folio, folderId, internalCategoryName, onA
 
     const handleDelete = async () => {
         if (!isEditable) {
-            alert('No tienes permisos para eliminar. Solo cuentas verificadas pueden realizar esta acci\u00f3n.');
+            alert('No tienes permisos para eliminar. Solo cuentas verificadas pueden realizar esta acción.');
             return;
         }
         if (!accessToken) {
@@ -419,15 +428,17 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const [isNewSet, setIsNewSet] = useState(false);
     const [livePhotos, setLivePhotos] = useState(null);
     const [currentFolderId, setCurrentFolderId] = useState(null);
+    const [liveFaltanNEO, setLiveFaltanNEO] = useState([]);
     
-    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet } = folioData || {};
+    const { FOLIO, CALLE, COLONIA, RESULTADO_AUDITORIA, PHOTOS, _folderId, _stage, _isNewSet, _company, ID, _faltanNEO } = folioData || {};
 
     useEffect(() => {
         setLivePhotos(null);
         setExtraFiles([]);
         setCurrentFolderId(null);
+        setLiveFaltanNEO(_faltanNEO || []);
         if (_isNewSet !== undefined) setIsNewSet(_isNewSet);
-    }, [FOLIO, _isNewSet, driveMode]);
+    }, [FOLIO, _isNewSet, driveMode, _faltanNEO]);
 
     const AUTHORIZED_EDITORS = [
         "dgopbacheot@gmail.com", 
@@ -514,7 +525,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 }
             }
 
-            console.log(`  ✅ ${Object.keys(folioMap).length} folios mapeados en drive de supervisores`);
+            console.log(`  ✅ ${Object.keys(folioMap).length} folios mapped in supervisor drive`);
             supTreeCacheRef.current = folioMap;
             return folioMap;
         } catch (e) {
@@ -599,13 +610,11 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         // In Supervisor mode, if we don't have a folderId yet, find it
         if (driveMode === 'SUPERVISOR' && !resolvedFolderId && accessToken && FOLIO) {
             setIsVerifying(true);
-            setVerificationStatus('verifying');
             resolvedFolderId = await findSupervisorFolder(String(FOLIO).trim());
             if (!resolvedFolderId) {
-                if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0);
+                if (onFolioSync) onFolioSync(FOLIO, null, "NO ENCONTRADO (SUP.)", 0, []);
                 setIsVerifying(false);
                 setCurrentFolderId(null);
-                setVerificationStatus('error');
                 return;
             }
         }
@@ -613,13 +622,9 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         setCurrentFolderId(resolvedFolderId);
 
         if (!resolvedFolderId) {
-            if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0);
-            setVerificationStatus('error');
+            if (onFolioSync) onFolioSync(FOLIO, null, "SIN CARPETA", 0, []);
             return;
         }
-        let status = "";
-        let currentFoundPhotos = null;
-        let currentExtrasCount = 0;
         if (!accessToken) {
             console.log("No auth token, bypassing direct live verification");
             return;
@@ -644,9 +649,10 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
             let currentStatus = "";
             let extraFilesCount = 0;
             let currentFoundPhotos = null;
+            let liveFaltanNEOList = [];
 
             if (files.length === 0) {
-                currentStatus = "CARPETA VAC\u00cdA";
+                currentStatus = "CARPETA VACÍA";
                 setExtraFiles([]);
                 setLivePhotos(null);
                 setIsNewSet(false);
@@ -686,25 +692,43 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
                 setLivePhotos(currentFoundPhotos);
 
-                const faltantes = currentSet
-                    .filter(cat => !currentFoundPhotos[cat.id])
-                    .map(cat => cat.id);
-                
-                if (faltantes.length > 0) {
-                    currentStatus = "FALTA: " + faltantes.join(" + ");
+                currentStatus = "";
+                liveFaltanNEOList = [];
+
+                if (detectedNew) {
+                    const criticalSet = ['INICIAL', 'CAJA', 'TERMINADO'];
+                    const neoSet = ['FOLIO', 'CORTE', 'DEMOLICION', 'LIGA', 'MEZCLA', 'LIMPIEZA'];
+                    
+                    const missingCritical = criticalSet.filter(catId => !currentFoundPhotos[catId]);
+                    const missingNeo = neoSet.filter(catId => !currentFoundPhotos[catId]);
+                    
+                    if (missingCritical.length > 0) {
+                        currentStatus = "FALTA: " + missingCritical.join(" + ");
+                    } else {
+                        currentStatus = "OK";
+                        liveFaltanNEOList = missingNeo;
+                    }
                 } else {
-                    currentStatus = "OK";
+                    const legacySet = ['INICIAL', 'CAJA', 'TERMINADO'];
+                    const missingLegacy = legacySet.filter(catId => !currentFoundPhotos[catId]);
+                    
+                    if (missingLegacy.length > 0) {
+                        currentStatus = "FALTA: " + missingLegacy.join(" + ");
+                    } else {
+                        currentStatus = "OK";
+                    }
                 }
+
+                setLiveFaltanNEO(liveFaltanNEOList);
 
                 // Collect unrecognized files
                 const extras = files.filter(f => !recognizedIds.has(f.id));
                 setExtraFiles(extras);
-                currentExtrasCount = extras.length;
                 extraFilesCount = extras.length;
             }
 
             if (onFolioSync) {
-                onFolioSync(FOLIO, currentFoundPhotos, currentStatus, extraFilesCount);
+                onFolioSync(FOLIO, currentFoundPhotos, currentStatus, extraFilesCount, liveFaltanNEOList);
                 
                 // --- SELF-HEALING ---
                 // Si el estatus en vivo es diferente al que tenía el JSON original del servidor,
@@ -732,7 +756,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                             photos: Object.keys(currentFoundPhotos).map(k => ({ 
                                 id: currentFoundPhotos[k].id, 
                                 cat: k 
-                            }))
+                            })),
+                            faltanNEO: liveFaltanNEOList
                         }, { merge: true });
                         console.log("🔥 Firebase actualizado en tiempo real");
                     } catch (fsErr) {
@@ -749,7 +774,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     const logToSheet = async (action, folio, type, fileId) => {
         if (!accessToken) return;
         const spreadsheetId = SHEET_MAP['E2'];
-        const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' });
+        const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/City_City' }); // Correct timezone fallback if local has typo
         const range = encodeURIComponent("'Historial de Actividades'!A:F");
         
         try {
@@ -771,7 +796,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
 
     const handleRename = async (fileId, newName) => {
         if (!accessToken) {
-            alert('Debes Iniciar Sesi\u00f3n con Google primero.');
+            alert('Debes Iniciar Sesión con Google primero.');
             return;
         }
         setRenamingId(fileId);
@@ -785,7 +810,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                 body: JSON.stringify({ name: newName })
             });
             if (!res.ok) throw new Error(await res.text());
-            console.log(`\u270f\ufe0f Renombrado exitoso: ${newName}`);
+            console.log(`✏️ Renombrado exitoso: ${newName}`);
             await logToSheet('RENOMBRADO', FOLIO, newName, fileId);
             setEditingFile(null);
             await triggerVerification();
@@ -825,6 +850,25 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     }, [isOpen, _folderId, accessToken, driveMode, FOLIO]);
 
     if (!isOpen || !folioData) return null;
+
+    const getModalDisplayStatus = () => {
+        if (RESULTADO_AUDITORIA === 'OK' && liveFaltanNEO && liveFaltanNEO.length > 0) {
+            const friendlyList = liveFaltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
+            return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
+        }
+        return RESULTADO_AUDITORIA || 'N/A';
+    };
+
+    const displayStatus = getModalDisplayStatus();
+    const isOkParcial = displayStatus.startsWith('OK Parcial');
+    const isOk = displayStatus === 'OK';
+    
+    let badgeClass = 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400 border border-red-200 dark:border-red-800/30';
+    if (isOk) {
+        badgeClass = 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 border border-green-200 dark:border-green-800/30';
+    } else if (isOkParcial) {
+        badgeClass = 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400 border border-emerald-300 dark:border-emerald-700/30';
+    }
 
     return (
         <AnimatePresence>
@@ -888,8 +932,8 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                 )}
 
                                 <div className="flex items-center gap-2">
-                                    <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${RESULTADO_AUDITORIA === 'OK' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'}`}>
-                                        {RESULTADO_AUDITORIA}
+                                    <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${badgeClass}`}>
+                                        {displayStatus}
                                     </span>
                                     {isVerifying && (
                                         <span className="flex flex-row items-center gap-1 text-[10px] font-bold text-slate-500 uppercase bg-slate-200 dark:bg-slate-700 px-2 py-1 rounded-full">
@@ -995,7 +1039,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                     <div className="flex flex-col items-center justify-center py-8 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-dashed border-slate-200 dark:border-slate-700">
                                         <FolderOpen size={32} className="text-slate-300 dark:text-slate-600 mb-2" />
                                         <p className="text-sm font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">Sin archivos adicionales</p>
-                                        <p className="text-xs text-slate-400 dark:text-slate-600 mt-1">Todos los archivos est\u00e1n correctamente clasificados</p>
+                                        <p className="text-xs text-slate-400 dark:text-slate-600 mt-1">Todos los archivos están correctamente clasificados</p>
                                     </div>
                                 ) : (
                                     <div className="rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden">
