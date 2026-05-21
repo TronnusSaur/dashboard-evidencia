@@ -755,7 +755,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                     // 2. Actualizar Firebase Firestore (para sincronización global inmediata)
                     try {
                         const folioKey = `${_stage}_${_company || 'DESCONOCIDA'}_${ID || 'SIN_ID'}_${FOLIO}`;
-                        await setDoc(doc(firestoreDb, \"audit_results\", folioKey), {
+                        await setDoc(doc(firestoreDb, "audit_results", folioKey), {
                             status: currentStatus,
                             last_verified: serverTimestamp(),
                             folio: FOLIO,
@@ -770,7 +770,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                         }, { merge: true });
                         console.log("🔥 Firebase actualizado en tiempo real");
                     } catch (fsErr) {
-                        console.error(\"❌ Error actualizando Firebase:\", fsErr);
+                        console.error("❌ Error actualizando Firebase:", fsErr);
                     }
                 }
             }
@@ -784,7 +784,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         if (!accessToken) return;
         const spreadsheetId = SHEET_MAP['E2'];
         const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' });
-        const range = encodeURIComponent(\"'Historial de Actividades'!A:F\");
+        const range = encodeURIComponent("'Historial de Actividades'!A:F");
         
         try {
             await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}:append?valueInputOption=USER_ENTERED`, {
@@ -1088,7 +1088,7 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
                                                     <div className="flex-1 min-w-0">
                                                         {isEditing ? (
                                                             <div className="flex items-center gap-2">
-                                                                <input
+                                                                 <input
                                                                     type="text"
                                                                     value={editingFile.name}
                                                                     onChange={(e) => setEditingFile({ ...editingFile, name: e.target.value })}
