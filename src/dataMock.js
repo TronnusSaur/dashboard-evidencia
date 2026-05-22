@@ -12,16 +12,16 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 317,
-  "OK": 67704,
+  "FALTA: INICIAL": 311,
+  "OK": 67724,
   "FALTA: CAJA + TERMINADO": 813,
   "CARPETA VACÍA": 429,
-  "SIN CARPETA": 521,
-  "FALTA: CAJA": 314,
-  "FALTA: INICIAL + CAJA + TERMINADO": 174,
-  "FALTA: TERMINADO": 218,
-  "FALTA: INICIAL + CAJA": 51,
-  "FALTA: INICIAL + TERMINADO": 18
+  "SIN CARPETA": 519,
+  "FALTA: CAJA": 317,
+  "FALTA: INICIAL + CAJA + TERMINADO": 172,
+  "FALTA: TERMINADO": 216,
+  "FALTA: INICIAL + CAJA": 44,
+  "FALTA: INICIAL + TERMINADO": 14
 };
 export const RESUMEN_DATA = [
   {
@@ -1789,12 +1789,12 @@ export const RESUMEN_DATA = [
     "ID": "20",
     "_stage": "E3",
     "TOTAL_OMISIONES": 610,
-    "OK": 608,
+    "OK": 610,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 2,
+    "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
     "FALTA: INICIAL + CAJA": 0,
@@ -2141,16 +2141,16 @@ export const RESUMEN_DATA = [
     "ID": "42",
     "_stage": "E3",
     "TOTAL_OMISIONES": 246,
-    "OK": 219,
-    "FALTA: INICIAL": 7,
+    "OK": 235,
+    "FALTA: INICIAL": 1,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
-    "FALTA: CAJA": 1,
-    "FALTA: INICIAL + CAJA + TERMINADO": 2,
-    "FALTA: TERMINADO": 6,
-    "FALTA: INICIAL + CAJA": 7,
-    "FALTA: INICIAL + TERMINADO": 4
+    "FALTA: CAJA": 6,
+    "FALTA: INICIAL + CAJA + TERMINADO": 0,
+    "FALTA: TERMINADO": 4,
+    "FALTA: INICIAL + CAJA": 0,
+    "FALTA: INICIAL + TERMINADO": 0
   },
   {
     "EMPRESA_RAIZ_MASTER": "PERBOR",
@@ -2573,11 +2573,11 @@ export const RESUMEN_DATA = [
     "ID": "20",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 610,
-    "OK": 606,
+    "OK": 608,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
-    "SIN CARPETA": 4,
+    "SIN CARPETA": 2,
     "FALTA: CAJA": 0,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,

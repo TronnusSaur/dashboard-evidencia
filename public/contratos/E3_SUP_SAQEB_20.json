@@ -5755,18 +5755,44 @@
   {
     "FOLIO": "200136",
     "FECHA": "7/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TOLUCA",
     "COLONIA": "SECTOR POPULAR",
     "DELEGACION": "SANCHEZ",
     "_company": "SAQEB",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 200136 - 7/4/2026 (LEGACY)\n  → 200136_inicial ❌\n  → 200136_caja ❌\n  → 200136_terminado ❌",
-    "_faltanNEO": [],
+    "_folderId": "1OioLWxnE9GONDk_P4qkYNoXWj7kEgu5x",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIT0uOC8H47CfoIgaeTNHvyl875gLM4mJDUtO4MfibPlfvoVlrvaW7gqH07n_iFSOtoX5j67QwofwOCKbCQrgSIH_ip9wLXIdjMWRano2-Aevrzg=s220",
+        "view": "https://drive.google.com/file/d/1S-KXZ0Dh4InR-ItWJ__dvCs9kXJpk1S4/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjvkkufLCqijSKx66KusopCkuInC3-C8SrnJyGSZmL5kIuLOiKhJmW21c0sb6ZcP3p68f4sGzt1z-ALxH49iWiTkYX9kLK9FNTKypqyl2V3jdj6Q=s220",
+        "view": "https://drive.google.com/file/d/1Rh-2WTF0Z7vC07q8JEf2EIfi7IHYluGW/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPy3H36meccLp7WEd3dGjJFa2LmORYj06UZS-1DukVGSv5rRI2kmTVhyjICIsnOI_9oF7QxgmSmzEU0A23Xc1Zi5uK6jiBqP5ONOkuFsIRoHLeV8A=s220",
+        "view": "https://drive.google.com/file/d/1P8cH1eorw-jMB4NZuBNJvvz2PF-fVJg9/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 200136 - 7/4/2026 (9 FOTOS)\n  → 200136_inicial ✅\n  → 200136_folio ❌\n  → 200136_corte ❌\n  → 200136_demolicion ❌\n  → 200136_caja ✅\n  → 200136_liga ❌\n  → 200136_mezcla ❌\n  → 200136_terminado ✅\n  → 200136_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
@@ -5815,18 +5841,44 @@
   {
     "FOLIO": "200138",
     "FECHA": "7/4/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "TOLUCA",
     "COLONIA": "SECTOR POPULAR",
     "DELEGACION": "SANCHEZ",
     "_company": "SAQEB",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 200138 - 7/4/2026 (LEGACY)\n  → 200138_inicial ❌\n  → 200138_caja ❌\n  → 200138_terminado ❌",
-    "_faltanNEO": [],
+    "_folderId": "16ogI7hKy-TuLrgOKgwfLMnys8vxx6hqL",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5S7D6Y5qDrm4aA6fUh1olE687fb-_MCqjg2AGGffYJbfAMJxQUR2WbFYgAfwUpw4dlXpTn8GUZQUvsiWLlwHTEhmU2dm5AXTFmagOwB3AfEtv5w=s220",
+        "view": "https://drive.google.com/file/d/15V8sQb0PP38e4uYxmtTAxHjm2cNXSzWs/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": null,
+      "DEMOLICION": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO64TCanKkDVe4ptV82qBJXsB8WLxRQvEYxRzkOVEHYnG2r-_08fEQlNC1-QP3e5tCBPbdh8-MNjrqpRHEonzxV6AjktxCexz00jb2A-6aid4pxPQ=s220",
+        "view": "https://drive.google.com/file/d/1fhkc6rMLZ6KaJTwq6qMcK7wyN8R2lUsO/view?usp=drivesdk"
+      },
+      "LIGA": null,
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIeOISrqwEo_i1T3Yo5V93y159nfZ_uHcuWzbkelJdHhK2WZncSsibLimvSMXTHa-dYI_hilF7bmslOO5uSZ9VUBRc4s6cyd8VHB7Irv10WDlncA=s220",
+        "view": "https://drive.google.com/file/d/1sAr5zLMxRS6PGkmHfhHPLiEX4S8kmq11/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 200138 - 7/4/2026 (9 FOTOS)\n  → 200138_inicial ✅\n  → 200138_folio ❌\n  → 200138_corte ❌\n  → 200138_demolicion ❌\n  → 200138_caja ✅\n  → 200138_liga ❌\n  → 200138_mezcla ❌\n  → 200138_terminado ✅\n  → 200138_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, CORTE, DEMOLICION, LIGA, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "CORTE",
+      "DEMOLICION",
+      "LIGA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
