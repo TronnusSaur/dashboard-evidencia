@@ -13,13 +13,13 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 330,
-  "OK": 69042,
-  "FALTA: CAJA + TERMINADO": 1106,
+  "OK": 69080,
+  "FALTA: CAJA + TERMINADO": 1068,
   "CARPETA VACÍA": 433,
   "SIN CARPETA": 979,
-  "FALTA: CAJA": 327,
+  "FALTA: CAJA": 328,
   "FALTA: INICIAL + CAJA + TERMINADO": 218,
-  "FALTA: TERMINADO": 222,
+  "FALTA: TERMINADO": 221,
   "FALTA: INICIAL + CAJA": 44,
   "FALTA: INICIAL + TERMINADO": 14
 };
@@ -1561,27 +1561,11 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "DOMAJA ",
-    "ID": "7",
-    "_stage": "E3",
-    "TOTAL_OMISIONES": 123,
-    "OK": 123,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-  },
-  {
     "EMPRESA_RAIZ_MASTER": "DOMAJA",
     "ID": "7",
     "_stage": "E3",
-    "TOTAL_OMISIONES": 73,
-    "OK": 72,
+    "TOTAL_OMISIONES": 196,
+    "OK": 195,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 0,
@@ -1645,14 +1629,14 @@ export const RESUMEN_DATA = [
     "ID": "11",
     "_stage": "E3",
     "TOTAL_OMISIONES": 425,
-    "OK": 423,
+    "OK": 424,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 1,
+    "FALTA: TERMINADO": 0,
     "FALTA: INICIAL + CAJA": 0,
     "FALTA: INICIAL + TERMINADO": 0
   },
@@ -1661,12 +1645,12 @@ export const RESUMEN_DATA = [
     "ID": "12",
     "_stage": "E3",
     "TOTAL_OMISIONES": 347,
-    "OK": 294,
+    "OK": 302,
     "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 44,
+    "FALTA: CAJA + TERMINADO": 35,
     "CARPETA VACÍA": 3,
     "SIN CARPETA": 6,
-    "FALTA: CAJA": 0,
+    "FALTA: CAJA": 1,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 0,
     "FALTA: INICIAL + CAJA": 0,
@@ -1693,9 +1677,9 @@ export const RESUMEN_DATA = [
     "ID": "14",
     "_stage": "E3",
     "TOTAL_OMISIONES": 305,
-    "OK": 263,
+    "OK": 292,
     "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 42,
+    "FALTA: CAJA + TERMINADO": 13,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 0,
@@ -1801,7 +1785,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3",
     "TOTAL_OMISIONES": 400,
@@ -2025,7 +2009,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3",
     "TOTAL_OMISIONES": 248,
@@ -2345,27 +2329,11 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "DOMAJA ",
-    "ID": "7",
-    "_stage": "E3_SUP",
-    "TOTAL_OMISIONES": 123,
-    "OK": 123,
-    "FALTA: INICIAL": 0,
-    "FALTA: CAJA + TERMINADO": 0,
-    "CARPETA VACÍA": 0,
-    "SIN CARPETA": 0,
-    "FALTA: CAJA": 0,
-    "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 0,
-    "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 0
-  },
-  {
     "EMPRESA_RAIZ_MASTER": "DOMAJA",
     "ID": "7",
     "_stage": "E3_SUP",
-    "TOTAL_OMISIONES": 73,
-    "OK": 72,
+    "TOTAL_OMISIONES": 196,
+    "OK": 195,
     "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 0,
@@ -2585,7 +2553,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 400,
@@ -2809,7 +2777,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 1
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 248,
@@ -3045,7 +3013,8 @@ export const FILTERS_MAP = {
   ],
   "AZTLAN": [
     "21",
-    "73"
+    "73",
+    "35"
   ],
   "COPAD": [
     "COPAD"
@@ -3163,9 +3132,6 @@ export const FILTERS_MAP = {
     "4",
     "5"
   ],
-  "DOMAJA ": [
-    "7"
-  ],
   "DOMAJA": [
     "7"
   ],
@@ -3192,10 +3158,6 @@ export const FILTERS_MAP = {
   "EDIT": [
     "17",
     "39"
-  ],
-  "AZTLÁN": [
-    "21",
-    "35"
   ],
   "EDITUM": [
     "22"
