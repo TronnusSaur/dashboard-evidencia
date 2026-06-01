@@ -1497,7 +1497,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3",
     "TOTAL_OMISIONES": 189,
@@ -1785,7 +1785,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3",
     "TOTAL_OMISIONES": 426,
@@ -2009,7 +2009,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3",
     "TOTAL_OMISIONES": 294,
@@ -2265,7 +2265,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 189,
@@ -2553,7 +2553,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "21",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 426,
@@ -2777,7 +2777,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "AZTLÁN",
+    "EMPRESA_RAIZ_MASTER": "AZTLAN",
     "ID": "35",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 294,
@@ -3013,7 +3013,8 @@ export const FILTERS_MAP = {
   ],
   "AZTLAN": [
     "21",
-    "73"
+    "73",
+    "35"
   ],
   "COPAD": [
     "COPAD"
@@ -3081,6 +3082,7 @@ export const FILTERS_MAP = {
     "7",
     "57",
     "81",
+    "3",
     "10"
   ],
   "SAQEB": [
@@ -3124,9 +3126,6 @@ export const FILTERS_MAP = {
     "63",
     "64"
   ],
-  "ROCADURA ": [
-    "3"
-  ],
   "ICI": [
     "4",
     "5"
@@ -3157,10 +3156,6 @@ export const FILTERS_MAP = {
   "EDIT": [
     "17",
     "39"
-  ],
-  "AZTLÁN": [
-    "21",
-    "35"
   ],
   "EDITUM": [
     "22"
