@@ -1,7 +1,7 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import PhotoEvidenceDashboard from './components/PhotoEvidenceDashboard'
 
-const CLIENT_ID = '112055607744-l81vanbaqb1c9maa0c00h6tiu0f3afcu.apps.googleusercontent.com';
+const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 function App() {
     return (
