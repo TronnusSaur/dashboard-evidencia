@@ -3,7 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ExternalLink, Image as ImageIcon, AlertTriangle, Loader2, Trash2, RefreshCw, Key, Pencil, FolderOpen, Check, FileImage, File as FileIcon, Clock } from 'lucide-react';
 import { useGoogleLogin } from '@react-oauth/google';
 import { doc, setDoc, serverTimestamp } from "firebase/firestore";
-import { db as firestoreDb } from "../lib/firebase";
+import { db as firestoreDb, auth } from "../lib/firebase";
+import { signInWithCredential, GoogleAuthProvider, signOut } from "firebase/auth";
 
 const SHEET_MAP = {
     "E1": '1XsAB-ADnF8xqFOvsW9w9PGDCDI51OJbvYPVyFXTZ9j8',
@@ -470,6 +471,24 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
         }
     }, [FOLIO, _isNewSet, driveMode, _faltanNEO, FECHA, _folderId]);
 
+    useEffect(() => {
+        const syncAuth = async () => {
+            if (accessToken && !auth.currentUser) {
+                try {
+                    const credential = GoogleAuthProvider.credential(null, accessToken);
+                    await signInWithCredential(auth, credential);
+                    console.log("🔒 Autenticación de Firebase reestablecida automáticamente");
+                } catch (err) {
+                    console.error("❌ Error al restaurar sesión de Firebase:", err);
+                    setAccessToken(null);
+                    localStorage.removeItem('drive_access_token');
+                    await signOut(auth);
+                }
+            }
+        };
+        syncAuth();
+    }, [accessToken]);
+
     const AUTHORIZED_EDITORS = [
         "dgopbacheot@gmail.com", 
         "juanpablobumblebee@gmail.com", 
@@ -497,11 +516,20 @@ export default function FolioVisualizerModal({ isOpen, onClose, folioData, onFol
     };
 
     const login = useGoogleLogin({
-        onSuccess: (tokenResponse) => {
-            setAccessToken(tokenResponse.access_token);
-            localStorage.setItem('drive_access_token', tokenResponse.access_token);
-            fetchUserProfile(tokenResponse.access_token);
-            triggerVerification();
+        onSuccess: async (tokenResponse) => {
+            try {
+                // Autenticar en Firebase con la credencial de Google OAuth
+                const credential = GoogleAuthProvider.credential(null, tokenResponse.access_token);
+                await signInWithCredential(auth, credential);
+                console.log("🔒 Autenticado exitosamente en Firebase Auth");
+
+                setAccessToken(tokenResponse.access_token);
+                localStorage.setItem('drive_access_token', tokenResponse.access_token);
+                fetchUserProfile(tokenResponse.access_token);
+                triggerVerification();
+            } catch (err) {
+                console.error("❌ Error de autenticación federada en Firebase:", err);
+            }
         },
         scope: 'https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile'
     });

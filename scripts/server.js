@@ -4,6 +4,9 @@ import multer from 'multer';
 import { google } from 'googleapis';
 import fs from 'fs';
 import path from 'path';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const PATRONES = {
     "INICIAL": ["_inicial"],
@@ -18,25 +21,44 @@ const SHEET_MAP = {
 };
 
 const app = express();
-app.use(cors());
+
+// Restringir CORS estrictamente al origen configurado
+app.use(cors({
+    origin: process.env.CORS_ORIGIN || "http://localhost:5173",
+    methods: ["GET", "POST", "OPTIONS"]
+}));
 
 // Directorio temporal
 if (!fs.existsSync('uploads')) {
     fs.mkdirSync('uploads');
 }
-const upload = multer({ dest: 'uploads/' });
+
+// Configurar multer con límites de tamaño y filtro de tipos de archivo
+const upload = multer({
+    dest: 'uploads/',
+    limits: { fileSize: 10 * 1024 * 1024 }, // Límite de 10MB
+    fileFilter: (req, file, cb) => {
+        const allowedExtensions = /jpeg|jpg|png|pdf/i;
+        const allowedMimeTypes = /image\/jpeg|image\/jpg|image\/png|application\/pdf/i;
+        const isExtensionValid = allowedExtensions.test(path.extname(file.originalname));
+        const isMimeValid = allowedMimeTypes.test(file.mimetype);
+        
+        if (isExtensionValid && isMimeValid) {
+            cb(null, true);
+        } else {
+            cb(new Error("Tipo de archivo no permitido. Solo imágenes (JPG, PNG) y PDFs."));
+        }
+    }
+});
 
 // Archivos OAuth2
-// Busca automáticamente el json que contenga el cliente de OAuth2 (o usa el que nos dio el usuario)
 let CREDENTIALS_PATH = 'client_secret_112055607744-l81vanbaqb1c9maa0c00h6tiu0f3afcu.apps.googleusercontent.com.json';
 
-// Si no existe con .json al final, buscar si está sin .json, o buscar uno parecido
 if (!fs.existsSync(CREDENTIALS_PATH)) {
     const fallbackPath = 'client_secret_112055607744-l81vanbaqb1c9maa0c00h6tiu0f3afcu.apps.googleusercontent.com';
     if(fs.existsSync(fallbackPath)){
         CREDENTIALS_PATH = fallbackPath;
     } else {
-        // Encontrar por si renombro el archivo a otra cosa en Workspace
         const files = fs.readdirSync('.');
         const secretFile = files.find(f => f.startsWith('client_secret_') && f.endsWith('.json'));
         if(secretFile) CREDENTIALS_PATH = secretFile;
@@ -49,16 +71,23 @@ const SCOPES = ['https://www.googleapis.com/auth/drive'];
 let oauth2Client;
 
 function createOAuthClient() {
+    // 1. Priorizar variables de entorno para evitar leaks de credenciales físicas en Git
+    const clientId = process.env.GOOGLE_CLIENT_ID;
+    const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
+    const REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI || "http://localhost:3001/oauth2callback";
+
+    if (clientId && clientSecret) {
+        oauth2Client = new google.auth.OAuth2(clientId, clientSecret, REDIRECT_URI);
+        return oauth2Client;
+    }
+
+    // 2. Fallback a archivos locales
     if (!fs.existsSync(CREDENTIALS_PATH)) {
-        throw new Error(`Falta el archivo Web de credenciales: ${CREDENTIALS_PATH}`);
+        throw new Error(`Falta el archivo de credenciales de Google y no se definieron las variables GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET.`);
     }
     const content = fs.readFileSync(CREDENTIALS_PATH, 'utf8');
     const credentials = JSON.parse(content);
-    // Para aplicaciones web: puede ser credentials.web o credentials.installed
-    const { client_secret, client_id, redirect_uris } = credentials.web || credentials.installed;
-    
-    // IMPORTANTE: el URI exacto que se registrará en Google Cloud Console
-    const REDIRECT_URI = "http://localhost:3001/oauth2callback";
+    const { client_secret, client_id } = credentials.web || credentials.installed;
     
     oauth2Client = new google.auth.OAuth2(client_id, client_secret, REDIRECT_URI);
     return oauth2Client;
@@ -70,13 +99,12 @@ app.get('/auth', (req, res) => {
         const client = createOAuthClient();
         const authUrl = client.generateAuthUrl({
             access_type: 'offline', // Pide un refresh token
-            prompt: 'consent', // Fuerza el prompt siembre para asegurar refresh token
+            prompt: 'consent', // Fuerza el prompt siempre para asegurar refresh token
             scope: SCOPES,
         });
-        // Redirige al usuario al flow de Google
         res.redirect(authUrl);
     } catch (e) {
-        res.status(500).send("Error generando URL de Auth. ¿Seguro que copiaste tu archivo client_secret... al proyecto? Error: " + e.message);
+        res.status(500).send("Error generando URL de Auth: " + e.message);
     }
 });
 
@@ -106,11 +134,16 @@ app.get('/oauth2callback', async (req, res) => {
     }
 });
 
-
 async function getDriveClient() {
     if (!oauth2Client) createOAuthClient();
     
-    // Si ya existe el token en disco, cargarlo
+    // 1. Priorizar token en variable de entorno
+    if (process.env.GOOGLE_USER_TOKEN_JSON) {
+        oauth2Client.setCredentials(JSON.parse(process.env.GOOGLE_USER_TOKEN_JSON));
+        return google.drive({ version: 'v3', auth: oauth2Client });
+    }
+
+    // 2. Fallback a token físico local
     if (fs.existsSync(TOKEN_PATH)) {
         const token = fs.readFileSync(TOKEN_PATH, 'utf8');
         oauth2Client.setCredentials(JSON.parse(token));
@@ -122,6 +155,12 @@ async function getDriveClient() {
 
 async function getSheetsClient() {
     if (!oauth2Client) createOAuthClient();
+
+    if (process.env.GOOGLE_USER_TOKEN_JSON) {
+        oauth2Client.setCredentials(JSON.parse(process.env.GOOGLE_USER_TOKEN_JSON));
+        return google.sheets({ version: 'v4', auth: oauth2Client });
+    }
+
     if (fs.existsSync(TOKEN_PATH)) {
         const token = fs.readFileSync(TOKEN_PATH, 'utf8');
         oauth2Client.setCredentials(JSON.parse(token));
@@ -131,19 +170,37 @@ async function getSheetsClient() {
     }
 }
 
+function sanitizeCsvValue(val) {
+    if (typeof val !== 'string') return val;
+    // Previene CSV / Formula injection si el valor inicia con caracteres especiales
+    if (/^[=\+\-\@\t\r]/.test(val)) {
+        return `'${val}`;
+    }
+    return val;
+}
+
 async function logToSheet(stage, action, folio, type, fileId, user) {
     try {
-        // Enviar todos los logs a un solo Documento Maestro Central (el de E1/E2) para que el auditor no tenga que buscar en múltiples hojas
         const spreadsheetId = SHEET_MAP['E2'];
         const sheets = await getSheetsClient();
         const dateStr = new Date().toLocaleString('es-MX', { timeZone: 'America/Mexico_City' });
         
+        // Sanitizar todas las entradas para evitar inyección de fórmulas en la hoja de cálculo
+        const rowData = [
+            sanitizeCsvValue(dateStr),
+            sanitizeCsvValue(String(folio)),
+            sanitizeCsvValue(user || 'Dashboard User'),
+            sanitizeCsvValue(action),
+            sanitizeCsvValue(type),
+            sanitizeCsvValue(fileId)
+        ];
+
         await sheets.spreadsheets.values.append({
             spreadsheetId,
             range: "'Historial de Actividades'!A:F",
             valueInputOption: 'USER_ENTERED',
             requestBody: {
-                values: [[dateStr, folio, user || 'Dashboard User', action, type, fileId]]
+                values: [rowData]
             }
         });
         console.log(`[Log Registrado] ${action} en Folio ${folio} (${type})`);
