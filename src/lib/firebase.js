@@ -1,16 +1,18 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
-// Configuración para el nuevo proyecto: real-time-sync-5967a
+// Configuración consumida desde variables de entorno de Vite
 const firebaseConfig = {
-  apiKey: "AIzaSyBf4fo6PAvDByXyrFDp8bn44O1CFK7bscM",
-  authDomain: "real-time-sync-5967a.firebaseapp.com",
-  projectId: "real-time-sync-5967a",
-  storageBucket: "real-time-sync-5967a.firebasestorage.app",
-  messagingSenderId: "900742185195",
-  appId: "1:900742185195:web:867630da47e3fb1bf9beae",
-  measurementId: "G-S31B9CKMYD"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+export const auth = getAuth(app);
