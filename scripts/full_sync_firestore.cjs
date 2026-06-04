@@ -1,9 +1,24 @@
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Cargar credenciales
-const serviceAccount = require('../service-account.json');
+let serviceAccount;
+if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
+    try {
+        serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
+    } catch (e) {
+        console.error("❌ Error parseando GOOGLE_SERVICE_ACCOUNT_KEY:", e.message);
+    }
+} else {
+    try {
+        serviceAccount = require('../service-account.json');
+    } catch (e) {
+        console.error("❌ Falta service-account.json y no está definida la variable de entorno GOOGLE_SERVICE_ACCOUNT_KEY.");
+        process.exit(1);
+    }
+}
 
 if (!admin.apps.length) {
     admin.initializeApp({
