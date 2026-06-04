@@ -127,8 +127,17 @@ ERROR_TYPES.forEach(type => {
     }
 });
 
+// Cache key generator: Stage 1 and 2 are shared across drive modes since they use the same master files.
+// Stage 3 has separate master files for Admin (E3_Master) and Supervisor (E3_SUP_Master).
+const getCacheKey = (stage, driveMode) => {
+    if (stage === 'E1' || stage === 'E2') {
+        return stage;
+    }
+    return `${driveMode}_${stage}`;
+};
+
 // Module-level cache: persists across renders and stage switches without losing data.
-// Key = `${driveMode}_${stage}` (e.g. 'ADMIN_E1', 'SUPERVISOR_E3_SUP'), Value = array of record objects.
+// Key = cache key from getCacheKey or contract-specific cache key, Value = array of record objects.
 const stageCache = {};
 
 const PhotoEvidenceDashboard = () => {
@@ -144,6 +153,10 @@ const PhotoEvidenceDashboard = () => {
     const [loadingMessage, setLoadingMessage] = useState('');
     const [isZipping, setIsZipping] = useState(false);
 
+    // Pagination States
+    const [currentPage, setCurrentPage] = useState(1);
+    const pageSize = 100;
+
     // Multi-Drive State
     const ADMIN_EMAILS = ["dgopbacheot@gmail.com", "juanpablobumblebee@gmail.com", "soranoautodgop@gmail.com", "soranodex@gmail.com"];
     const [driveMode, setDriveMode] = useState(() => localStorage.getItem('drive_mode') || 'ADMIN');
@@ -156,6 +169,11 @@ const PhotoEvidenceDashboard = () => {
     const isAdmin = loggedInProfile && ADMIN_EMAILS.includes(loggedInProfile.email);
 
     useEffect(() => { localStorage.setItem('drive_mode', driveMode); }, [driveMode]);
+
+    // Reset page to 1 when filters or driveMode change
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [selectedStage, selectedCompany, selectedContract, selectedDelegation, selectedErrorTypes, searchQuery, showOkFolios, driveMode]);
 
     // Filter RESUMEN_DATA by stage AND drive mode
     // When viewing E3 in SUPERVISOR mode, we use E3_SUP entries from RESUMEN_DATA
@@ -418,55 +436,122 @@ const PhotoEvidenceDashboard = () => {
                 ? (isSup ? ['E1', 'E2', 'E3_SUP'] : ['E1', 'E2', 'E3']) 
                 : (selectedStage === 'E3' && isSup ? ['E3_SUP'] : [selectedStage]);
 
-            // Build cache keys that are mode-aware
-            const cacheKeys = stagesToFetch.map(st => `${driveMode}_${st}`);
-
-            // Check if all needed data is already cached
-            const allCached = cacheKeys.every(ck => stageCache[ck]);
-            if (allCached) {
-                const cachedRecords = cacheKeys.flatMap(ck => stageCache[ck]);
-                setRecords(cachedRecords);
-                return;
-            }
-
-            const stagesToDownload = stagesToFetch.filter((st, i) => !stageCache[cacheKeys[i]]);
             setIsLoading(true);
-            setLoadingMessage(`Cargando datos (${driveMode === 'SUPERVISOR' ? 'Drive Supervisores' : 'Drive Admin'})...`);
-
-            try {
-                const downloadPromises = stagesToDownload.map(st => {
-                    const ck = `${driveMode}_${st}`;
-                    return fetch(`/contratos/${st}_Master.json?t=${Date.now()}`)
-                        .then(res => res.ok ? res.json() : [])
-                        .then(data => { 
-                            // Normalizar _stage a 'E3' para compatibilidad con UI filters
+            
+            // Build cache keys for the stages using mode-agnostic helper
+            const stageKeys = stagesToFetch.map(st => getCacheKey(st, driveMode));
+            
+            const hasSpecificContract = selectedContract !== 'ALL';
+            const hasSpecificCompany = selectedCompany !== 'ALL';
+            
+            let allRecords = [];
+            let needsMasterDownload = false;
+            
+            for (let i = 0; i < stagesToFetch.length; i++) {
+                const st = stagesToFetch[i];
+                const stageKey = stageKeys[i];
+                
+                // If master cache exists for this stage, use it
+                if (stageCache[stageKey]) {
+                    allRecords = [...allRecords, ...stageCache[stageKey]];
+                    continue;
+                }
+                
+                // If master cache doesn't exist, check if we can fetch a specific contract/company
+                if (hasSpecificContract) {
+                    const companyName = selectedCompany;
+                    const contractId = selectedContract;
+                    const contractKey = `${stageKey}_${companyName}_${contractId}`;
+                    
+                    if (stageCache[contractKey]) {
+                        allRecords = [...allRecords, ...stageCache[contractKey]];
+                    } else {
+                        setLoadingMessage(`Cargando contrato ${contractId} (${driveMode === 'SUPERVISOR' ? 'Supervisores' : 'Admin'})...`);
+                        try {
+                            const res = await fetch(`/contratos/${st}_${companyName}_${contractId}.json?t=${Date.now()}`);
+                            const data = res.ok ? await res.json() : [];
                             const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
-                            stageCache[ck] = normalized; 
-                            return normalized; 
-                        })
-                        .catch(() => { stageCache[ck] = []; return []; });
-                });
-
-                await Promise.all(downloadPromises);
-                let allRecords = cacheKeys.flatMap(ck => stageCache[ck] || []);
-
-                setRecords(allRecords);
-            } catch (error) {
-                console.error("Fetch error:", error);
-                setRecords([]);
-            } finally {
-                setIsLoading(false);
-                setLoadingMessage('');
+                            stageCache[contractKey] = normalized;
+                            allRecords = [...allRecords, ...normalized];
+                        } catch (err) {
+                            console.error(err);
+                            stageCache[contractKey] = [];
+                        }
+                    }
+                } else if (hasSpecificCompany) {
+                    // Fetch all contracts for this company in parallel
+                    const companyName = selectedCompany;
+                    const contractsForCompany = activeFiltersMap[companyName] || [];
+                    
+                    setLoadingMessage(`Cargando contratos de ${companyName}...`);
+                    
+                    const companyPromises = contractsForCompany.map(async (cid) => {
+                        const contractKey = `${stageKey}_${companyName}_${cid}`;
+                        if (stageCache[contractKey]) {
+                            return stageCache[contractKey];
+                        }
+                        try {
+                            const res = await fetch(`/contratos/${st}_${companyName}_${cid}.json?t=${Date.now()}`);
+                            const data = res.ok ? await res.json() : [];
+                            const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
+                            stageCache[contractKey] = normalized;
+                            return normalized;
+                        } catch (err) {
+                            console.error(err);
+                            stageCache[contractKey] = [];
+                            return [];
+                        }
+                    });
+                    
+                    const companyData = await Promise.all(companyPromises);
+                    allRecords = [...allRecords, ...companyData.flat()];
+                } else {
+                    // No specific company or contract selected (ALL/ALL) -> We need the Master file!
+                    needsMasterDownload = true;
+                }
             }
+            
+            if (needsMasterDownload) {
+                // Fetch Master files for stages that are not cached
+                const stagesToDownload = stagesToFetch.filter((st, i) => !stageCache[stageKeys[i]]);
+                
+                if (stagesToDownload.length > 0) {
+                    setLoadingMessage(`Cargando datos maestros (${driveMode === 'SUPERVISOR' ? 'Drive Supervisores' : 'Drive Admin'})...`);
+                    
+                    const downloadPromises = stagesToDownload.map(async (st) => {
+                        const stageKey = getCacheKey(st, driveMode);
+                        try {
+                            const res = await fetch(`/contratos/${st}_Master.json?t=${Date.now()}`);
+                            const data = res.ok ? await res.json() : [];
+                            const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
+                            stageCache[stageKey] = normalized;
+                            return normalized;
+                        } catch (err) {
+                            console.error(err);
+                            stageCache[stageKey] = [];
+                            return [];
+                        }
+                    });
+                    
+                    await Promise.all(downloadPromises);
+                }
+                
+                // Combine all from master cache
+                allRecords = stageKeys.flatMap(stageKey => stageCache[stageKey] || []);
+            }
+            
+            setRecords(allRecords);
+            setIsLoading(false);
+            setLoadingMessage('');
         };
-
+        
         fetchRecords();
 
         // Pre-fetch the alternative drive's E3 data in the background
         // so the next switch is instant
         const altMode = driveMode === 'ADMIN' ? 'SUPERVISOR' : 'ADMIN';
         const altStage = altMode === 'SUPERVISOR' ? 'E3_SUP' : 'E3';
-        const altCk = `${altMode}_${altStage}`;
+        const altCk = getCacheKey(altStage, altMode);
         if (!stageCache[altCk] && (selectedStage === 'E3' || selectedStage === 'ALL')) {
             fetch(`/contratos/${altStage}_Master.json?t=${Date.now()}`)
                 .then(res => res.ok ? res.json() : [])
@@ -475,7 +560,7 @@ const PhotoEvidenceDashboard = () => {
                 })
                 .catch(() => {});
         }
-    }, [selectedStage, driveMode]); // Refresh on mode change too!
+    }, [selectedStage, driveMode, selectedCompany, selectedContract]); // Refresh on mode change too!
     
     // --- REAL-TIME FIRESTORE LISTENER ---
     // Listen for overrides/updates from anyone in the cloud
@@ -572,6 +657,14 @@ const PhotoEvidenceDashboard = () => {
         }
         return docs;
     }, [filteredRecords, selectedErrorTypes, searchQuery, showOkFolios]);
+
+    // Paginated Data
+    const paginatedData = useMemo(() => {
+        const startIndex = (currentPage - 1) * pageSize;
+        return tableData.slice(startIndex, startIndex + pageSize);
+    }, [tableData, currentPage, pageSize]);
+
+    const totalPages = Math.ceil(tableData.length / pageSize) || 1;
 
     // PDF Export Function
     const exportToPDF = () => {
@@ -1570,7 +1663,7 @@ const PhotoEvidenceDashboard = () => {
                                         </tr>
                                     </thead>
                                     <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
-                                        {tableData.map((row, idx) => (
+                                        {paginatedData.map((row, idx) => (
                                             <tr key={idx} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
                                                 <td className="px-6 py-4">
                                                     <div className="flex flex-col gap-0.5">
@@ -1625,8 +1718,52 @@ const PhotoEvidenceDashboard = () => {
                                 </div>
                             )}
                         </div>
-                        <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between bg-white dark:bg-slate-800 rounded-b-lg">
-                            <p className="text-xs text-slate-500 font-medium">Mostrando <span className="font-bold">{tableData.length}</span> registros filtrados</p>
+                        <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white dark:bg-slate-800 rounded-b-lg">
+                            <p className="text-xs text-slate-500 font-medium">
+                                Mostrando <span className="font-bold">{tableData.length > 0 ? (currentPage - 1) * pageSize + 1 : 0}</span> - <span className="font-bold">{Math.min(currentPage * pageSize, tableData.length)}</span> de <span className="font-bold">{tableData.length}</span> registros
+                            </p>
+                            
+                            {/* Pagination Controls */}
+                            {totalPages > 1 && (
+                                <div className="flex items-center gap-1.5">
+                                    <button
+                                        onClick={() => setCurrentPage(1)}
+                                        disabled={currentPage === 1}
+                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                        title="Primera página"
+                                    >
+                                        <span className="material-symbols-outlined text-[18px]">first_page</span>
+                                    </button>
+                                    <button
+                                        onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                                        disabled={currentPage === 1}
+                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                        title="Página anterior"
+                                    >
+                                        <span className="material-symbols-outlined text-[18px]">chevron_left</span>
+                                    </button>
+                                    <span className="text-xs font-semibold text-slate-600 dark:text-slate-300 px-3 select-none">
+                                        Pág. {currentPage} de {totalPages}
+                                    </span>
+                                    <button
+                                        onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                                        disabled={currentPage === totalPages}
+                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                        title="Página siguiente"
+                                    >
+                                        <span className="material-symbols-outlined text-[18px]">chevron_right</span>
+                                    </button>
+                                    <button
+                                        onClick={() => setCurrentPage(totalPages)}
+                                        disabled={currentPage === totalPages}
+                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                        title="Última página"
+                                    >
+                                        <span className="material-symbols-outlined text-[18px]">last_page</span>
+                                    </button>
+                                </div>
+                            )}
+
                             <span className={`mode-indicator ${driveMode === 'ADMIN' ? 'admin' : 'supervisor'}`}>
                                 <span className="material-symbols-outlined" style={{ fontSize: '12px' }}>{driveMode === 'ADMIN' ? 'verified' : 'group'}</span>
                                 {driveMode === 'ADMIN' ? 'Drive Admin' : 'Drive Supervisores'}
