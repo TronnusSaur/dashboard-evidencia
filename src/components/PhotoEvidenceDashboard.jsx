@@ -204,6 +204,7 @@ const PhotoEvidenceDashboard = () => {
     // Lazy Loading States
     const [records, setRecords] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    const [isFirestoreBlocked, setIsFirestoreBlocked] = useState(false);
 
     // Theme State
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -621,6 +622,9 @@ const PhotoEvidenceDashboard = () => {
                 
                 return changed ? newRecords : prev;
             });
+        }, (error) => {
+            console.error("Firestore onSnapshot error:", error);
+            setIsFirestoreBlocked(true);
         });
 
         return () => unsubscribe();
@@ -1314,6 +1318,17 @@ const PhotoEvidenceDashboard = () => {
             </header>
 
             <main className="w-full max-w-[1536px] mx-auto px-4 lg:px-8 py-8">
+                {isFirestoreBlocked && (
+                    <div className="mb-6 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800/30 text-amber-800 dark:text-amber-300 p-4 rounded-xl flex items-start gap-3 shadow-sm">
+                        <span className="material-symbols-outlined text-amber-500 text-xl">warning</span>
+                        <div className="flex-1">
+                            <h4 className="font-bold text-sm">Sincronización Limitada (AdBlocker Detectado)</h4>
+                            <p className="text-xs mt-1 opacity-90 leading-relaxed">
+                                El navegador está bloqueando las conexiones con la base de datos de Google Firestore. Para habilitar las actualizaciones y registros en tiempo real, por favor desactiva o añade este sitio a la lista blanca de tu bloqueador de anuncios (AdBlock, uBlock, Brave Shield, etc.) y recarga la página.
+                            </p>
+                        </div>
+                    </div>
+                )}
                 {/* Title and Filters */}
                 <div className="mt-6 mb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                     <div>
