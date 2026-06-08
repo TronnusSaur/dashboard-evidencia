@@ -6057,5 +6057,382 @@
     "_auditDetail": "Folio 380197 - 28/5/2026 (LEGACY)\n  → 380197_inicial ❌\n  → 380197_caja ❌\n  → 380197_terminado ❌",
     "_faltanNEO": [],
     "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380079",
+    "FECHA": "22/4/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1a5n0GXdXW-SZPl0izs4UOhv7wgoFujl_",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUP028sonSpG2jQMlHHbbQhz7FBIvRUBqiCky-Ff2vPBNsiS-BAISmstqwSMdvWS5tsCvdd3E53COBZzL7x3rczlOe9fSvvYixJbJhdRjMeVWwMA=s220",
+        "view": "https://drive.google.com/file/d/1nU_6Yb0MI5B8p5__r0a9JZQqCJQ3LNvR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWoOYAeBthI4jmOcYswY-itmIdArdHsE0Ytkci09I0VpVbwjnz--rojzd3B6JTFLUnhucI7WNx3zhsFlz8MV-MXAEB_url1UC0N2x-UUu4bqRtaQ=s220",
+        "view": "https://drive.google.com/file/d/1KZleEo7LSiXRk5ZdYLeHw_okQNc3Cxiv/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWzY5sfjKET09Fea56YH98bH_ENEM9Ym3O9RHATSIY5fg_lb13vqpypOsw40wmLy4I1FMygv_akGQjCfK0mGcN-JXqAAxIpqcUqBjOgnGSxV44EA=s220",
+        "view": "https://drive.google.com/file/d/1mKkmnd2FZeGD2HaDVjLZ6OpmLvWOacLq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBA0i1UZraMdZIyCmyVfWcWLUHK2XDlo1etNLCFa-b22JGClmGE-p6phzlPbJIuIbIWZzmjwbOTWhPWaEMPtmE0edO8uE7wld9aP3XmRqtNqGKtA=s220",
+        "view": "https://drive.google.com/file/d/1sGf57jp2SUZSPqNt2eDMNqQ5OLsaI9Ff/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2PuFbISZwRVfe3VIjP7k5yxmMXUYwF146bG_eTDUyIusj4JX3CnSyolFCUz3f-DG_9oOZEmhWXIim5aTjp3I3o6cy-WFG0CJcDhFAGhYxfUs_Tw=s220",
+        "view": "https://drive.google.com/file/d/12VLdafpBKuVUk3YIKVdONMiN0Tl0ES0V/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQgwEhOGWLqwhILrke7JHokcSuU7NztA6mp1k2owEjDC6-BNbrTSMYNxpn_SYXx7qCNbYxG7IlT7kV_C_NVY13jgKCwceqH1SCZdoa087am90u-w=s220",
+        "view": "https://drive.google.com/file/d/1-aG5l24LvG9AKvAYZ5kFnJNA0lP6fCNT/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoZ6Ec36DhzYGFwyYBUIOZsgPohbTa9UQY2RD5zUd8DDJ4KtsZWLnQpCUpe1kbkZIaJogr3d4_bY4_9NVlVpMCAd5sTVAR4Ecw_amY1UaCIYT9oA=s220",
+        "view": "https://drive.google.com/file/d/1cuiNxwg6ZnKBtYxlaBGc_Snfj8dsJhZs/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMgkAmY3SbVdTuQEDl_I8RoOBuaO5OyZQx67uoIwvAlvlIOys3wRTPVPOmOZ5KwkuEuBmAs1_TbuIBQkSJ-Y9V7aVyTZ80zqFaMsTLxnrm7UobRlA=s220",
+        "view": "https://drive.google.com/file/d/14LkRG4bcNlutXktgFLRdcnv9oeF8Vx5w/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN58SecYdeO81q_9K_QEtO4_0BcftEXkcNMSeaVjoOZZUIk004iyrj1-uK4NIB5Y4VneeDovbXbdOGrE8cOWKSQMkQ92ACWm3CftnQeq2ts_5pjXA=s220",
+        "view": "https://drive.google.com/file/d/1Xc0l1-T_lfi0dTaBJJzKTzMwumQ61Stc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380079 - 22/4/2026 (9 FOTOS)\n  → 380079_inicial ✅\n  → 380079_folio ✅\n  → 380079_corte ✅\n  → 380079_demolicion ✅\n  → 380079_caja ✅\n  → 380079_liga ✅\n  → 380079_mezcla ✅\n  → 380079_terminado ✅\n  → 380079_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380081",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1u4-KwJQ99IHiRCEX-SDsvtLzdE3DZIZl",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJs0xxv_a4YwSDquN3Fxnj5iZDcAcXWO6XMnVg93GHx6Zfh232d3YWks3E50xsmkRmhXaY3VR_a4idnU-g8gZfvWi2a3-xDY5UlJIaPHh-aARb0w=s220",
+        "view": "https://drive.google.com/file/d/1VrqleEwkL8uNfmafU9Uyn__PHAuhbKlB/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-77EKVKNxel5LwpHNNJcRtue99WORGM_lI1Gyo9R5gWVE-8Qb3w9Zf8A_XYeCEt4THVdPHTtTYm0K0fITIXLdP20GnvW6q0K1_okQf1V0FcNS2g=s220",
+        "view": "https://drive.google.com/file/d/1pSP_nJPxpdNaYbvztTx_cYOy-2uSykkB/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSMF0jo2Uwt7ECmWiX9f3m4ehoGWzyfe5Cxhq9zJAEM-1z9-3MzIs3TwUXgwzMfIbGxXYCAMxgi0bN9lU3XmtJrPm2mkRuRQLVjES0-8bykwY7eA=s220",
+        "view": "https://drive.google.com/file/d/1jas9aw_0JZGu749Xw_0kWVpp-t-AfgiS/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM6gEJRq2aM-5Z4j-eReXcOTqgiNoANwHS0cP9rzQb04kiOQkkG0hfAeuvmIEvAfAWy1P-9_dL5xBlvQ_8arS_579QGh27-l3NgPOetbjNojxmGSA=s220",
+        "view": "https://drive.google.com/file/d/1IgabCpZyAwtK11wmclOEAtCuhPYt3LpO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPPvf7-VMLvPBj37tinMFT4q-winZ5DM5R0hdsByyeeMb67RvqdCf7-x_rbnJikt7ZsFRtgtQasm45qtfuzxRGUBQ26H5BaCLX0BTHOuh3btjTLAg=s220",
+        "view": "https://drive.google.com/file/d/19aQNbwxLcpU41tifPIEOxa7JtE5MddPU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdOhQaCqvXlIlGmWkoyM9V7adz3IdDrKzeMzCntmdKBhlbCWyDtXaII8T-n4rfi0PwYbe19tJw4DKcOnsk66nGiC9iAF9EQMa6ps7XKElccAPcfQ=s220",
+        "view": "https://drive.google.com/file/d/1JVrPMFCsHxAS-m6Xs0uAWkgwYrlLbcvZ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO2MVQuH_yP11h3CtiOXVgdaZCEcDhEKcfypIIJjDJb7pE_LYbwNXV0Bgjhd5qX-OvX4n0ESuRUKS9Envm2HXyAQvvEXoI7qzOxkPd2pIaSndJMZw=s220",
+        "view": "https://drive.google.com/file/d/15eLuNanp8zVzvEE2cXs2wpJi7lKQ6pWl/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNA75DcB_ICRVbbIjrY8PgQDOSPB2RTfKKUwbdz7otR3zQ2IiYsf20r2USNVgq5eZekdmfuNKYSN5P8yGzevqU5ftV5HmjMzPh4FDOLCnJXi6sstg=s220",
+        "view": "https://drive.google.com/file/d/1FRFYCt4kYSjo1dhdeC1xOvbG6qJ69CUF/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxr-IJ0AuJofgDXM3EZ7YQEs11oVJtXL5838Yn_ydJF1S7nZhwdsm5bdEo3i96_0aSVBFY_y_2YQJXgulED4thNxeZA-H-m_MXfAiEiuBaZvkwrw=s220",
+        "view": "https://drive.google.com/file/d/193aYYTsYEh8esDmf6C5eZBD7lVAVgl1f/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380081 - 7/5/2026 (9 FOTOS)\n  → 380081_inicial ✅\n  → 380081_folio ✅\n  → 380081_corte ✅\n  → 380081_demolicion ✅\n  → 380081_caja ✅\n  → 380081_liga ✅\n  → 380081_mezcla ✅\n  → 380081_terminado ✅\n  → 380081_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380082",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1OCtKyur6_ht5DIKAYzUmvzaV-DJupelE",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSQRh8R5z1pQbxaEyzFv3H0ZjZuOw9HKBgQL248wGLhkNbx51bEJZLG1DWmMg6vMvyZJLErwqLkmwRjMhqBqxUl-LvvVzjNHlC4oeEM7aU5Ew6Bg=s220",
+        "view": "https://drive.google.com/file/d/1oPaPbBQUmP0EnIOcTeLC9_dyJ0tZUU4L/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjd44zfhi_YT6NNTqo3u2CXclR0bE_OndQJyiYHd_53oXj4hfv20b_CvyyQa8SfazfkGLWt8-wCOPLG3sZCLJou1cvd5pcDTxGGJHqWIsvjoKJ8g=s220",
+        "view": "https://drive.google.com/file/d/1XQ3EasR6LDI52dhzhbJB_m-reS7F4-yM/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9JJ711Bi64Ftqdg9jXIJUAtlR9HJf9ShkRiK9WtGQOL9rLjEm0izPCRFQ8Im3YiElWSAK8KArZiUgoAINeozrMwgmW_T6CSQvOJPEdmukDj9oXA=s220",
+        "view": "https://drive.google.com/file/d/1L5YRy_pl8bGWIhxGUSogv45J2V6QivO0/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdLXBah2kPj6y3QK6_Tz5PeX0ork3zpyr30mqAcQvX5zb8NmE-PsFeEl2yKxe93CGNR3axc8-oTwpAn4S2WD9fYDa01fWys-P4lSO-D4IO27tKVg=s220",
+        "view": "https://drive.google.com/file/d/1MlePO317v5wpSUwoU6-IvoeZlW3g1TEa/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGywn2iZqm2OyPK9Wl4P-Y3KwMVcJpNAXow3VkS2d1DJN6VqdFSzbNERdn4c06qjU9xvqa6x1sLE2VcQ1dd-wj-T0hUIMyTL0KhiuJ63w7LPwPPw=s220",
+        "view": "https://drive.google.com/file/d/17sc3RxP0m0FEJvZ1AHuxnAgYEOcguKz6/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMpbQN6AKdlI1yBrsrdGWgSh06fFz4uqxMgtPdwUmIiyasBlG7nxhVcHDh6thiiRbbYwRbbYgkNNXMyKaqp4IFMpqFI3fgmi7ko_3WTc0iNRgB7EQ=s220",
+        "view": "https://drive.google.com/file/d/1CqSr__PgVUKT_cs4QAqG9WLh5zRFfBND/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvY8-OdME-sKXd2hE1WkUtue_acuTQgYrK-D00C5G0kKV94hhGrlWKD8puAcCTlExyWF-_RWGIoW0gcAe4jMnTBeSkixLRMMU6DBpuC65bO13rpw=s220",
+        "view": "https://drive.google.com/file/d/125QIKOlKsDr7WONdQ371L0ipv1QwZ7Kz/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOonVJMETRBXbG3ak3SjU3zAH9BlZBvO4ZlMWW1YDJepkTW4fjD0GBzaZRhxPth70sl81InutVRZ6Yb41kVa42hWF-QPbmiIsedi9uXAlQ1Nd5xSA=s220",
+        "view": "https://drive.google.com/file/d/1TRwFaHtTFBoKSTUKcqptzopXahr2TMfz/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380082 - 7/5/2026 (9 FOTOS)\n  → 380082_inicial ✅\n  → 380082_folio ✅\n  → 380082_corte ✅\n  → 380082_demolicion ✅\n  → 380082_caja ❌\n  → 380082_liga ✅\n  → 380082_mezcla ✅\n  → 380082_terminado ✅\n  → 380082_limpieza ✅",
+    "_faltanNEO": [
+      "CAJA"
+    ],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380083",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1Te4DXiRVAGf_T2xzUyRcGDnAXhElRmDa",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPtiTDkNmkp5A60D6DRrsdjH_Y0rSS9pOIMDLmwJiz8DkYD048ZE9Pj0xBbLSyfui2Tx9rzqfZmNsHgSFIPyIL1qPvdexeKam8Vv0Mc-G34Kt2LIA=s220",
+        "view": "https://drive.google.com/file/d/1dpMR0mdghD-Lj8LukcZ-I1iDpKUNNSLd/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-b6Y_5F1Kdm30rv1Mb4VTj8kqwa_9sxrFkB7L-W2g2tJaYou2Z_-pCPq9vwLwKu-Bvxml2_IcDANGBJzwSubKK5UZJIi73F3G_DNdiqPfRd9kXQ=s220",
+        "view": "https://drive.google.com/file/d/1Z6LvcvwFDZUg0Y6JhYRg4iUyfRJ9JYzZ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX6nDijD0LJhpW5flFLqBY5lVK4bql_qyezHOEjyoZFGSl1Y6zNZedtNIPovu8onoO4JXYg3K3Kw4lERJXKrAtUj_R6DqaaU1WgOtFaCRW7bJ_eA=s220",
+        "view": "https://drive.google.com/file/d/168v6r6m-da2NNXD-W-nzUI7XGK-09cu0/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3370-Z7cg5pIa3JhWVJGWEBofe57wnE8PdWzB83-4EgEc5J7IRHdZKiBri_QCE6JPBa5c1fJwIXBB1VUiu-NnOW4IHWvlEnsCUif8wWHq6gllvg=s220",
+        "view": "https://drive.google.com/file/d/11xWnmvbc7UuXJd0WU4yXcFxfAd38AusI/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbs7fwqwi2TpaOO5rWZW2FEBOZ_puFW3v7EKVx9kgHQrfcsblzpo6QSykasD3tIwxXtqL5Qm00jwxvw2xCve7w_zpuG1ok39QEx8pclgngJ1WyVw=s220",
+        "view": "https://drive.google.com/file/d/1oCo_XSJ1J-wM0vI15mpsLyZdtNi12pX3/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPzowJAsA6KUQw_swYWnireSD32n11aCoXCQmS7DA7gM6x7vBD65X0j1viNRETwnsLGKIt5suJ5X2t72B_VWj0F43cih4BchaFRn4XL1CxOMl6n3g=s220",
+        "view": "https://drive.google.com/file/d/1v1a77yyDOJs6DvZSki2v9k5wS9AEahbB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjVswrRK_f9Fj-mvZUcay8TLapFFQVM-c841A-zJmkRUYTB2VP6n_DM7mT3nT6p2mZZ7XU317ekWiJyLYniyXO74Atqfxc2K3eaCO8T58o_B3EAA=s220",
+        "view": "https://drive.google.com/file/d/1W9g-QBLnU5hivKmNhfm-nVYTO8O_n464/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9OcrL_UE8NELStxrpSIPdzlYoqe6I-O2QsrgSVDnhMj94AVyrekid97r9sj-9F9a1DTpeLf7YQhnNzwZhwTuC7CxzEBm_z1wOLCMVjCP3wJ-vqQ=s220",
+        "view": "https://drive.google.com/file/d/1HZgaFeK8kL-4gHOj5K0TX4vIxbZF4xRm/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIBHIZBABpVpIgyfagh7dru5JzeuZe0tsQdKVuxjFd8mFq3kCJ1B2qfempeI12Y-6y8X21ol2yNlTSWYAgP5bcjADSWGQK8n7wrQJcky_orfjp8Q=s220",
+        "view": "https://drive.google.com/file/d/10HANODZXMlVaddrE8W2LpB9ctTfztHlo/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380083 - 7/5/2026 (9 FOTOS)\n  → 380083_inicial ✅\n  → 380083_folio ✅\n  → 380083_corte ✅\n  → 380083_demolicion ✅\n  → 380083_caja ✅\n  → 380083_liga ✅\n  → 380083_mezcla ✅\n  → 380083_terminado ✅\n  → 380083_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380084",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1FWTySx55EDQ2wQkqn1g73wjs8lFFvN7A",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7vw04HGd4_tYJZRghb8F6zOJPlpvaph85jeoNT3TrzoVnagLNUAJQDlLOFmSCwG13bAKuwwNErCS0cafHUT0he7CMvDO2POGw1XywZNcU16ta9g=s220",
+        "view": "https://drive.google.com/file/d/12ob39OW9WiLO2gAIETuMZPLhWVBUJLhP/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP1p0XFwb80JO79jBYjG_AFjRwxQZgl368PVNrgil76_bzgr7cumcjC2Y9boTv5FlZXyTX9yA_0lUrbGAYGaW-i3PNJZrtTqkO7-8ch8DIeU8XUQw=s220",
+        "view": "https://drive.google.com/file/d/103YFEZTSabLch2B--x20vEym5BG71Idy/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNRKFsmIV0NJf8fO4Gwb8Vo-DWrmk1dNANC05xAMhdFqV_v7WIl46x9evnJdKwFeIxGG_rtubhfjq_EjkhZVyucv2eAGAEUAsdCMUlRczyPslYC4A=s220",
+        "view": "https://drive.google.com/file/d/1wynh_1f2sCUO_EC8EhSURG7n9SYmg8sl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4qzZm2dKQyG78frq-OloiiFbHrZX_NAtRiyuJMYq6550YjR_ztiIpcT7dSMoYVDIOQ_r6pNOzjMNVQhspvABpK5J-OafTj2e2vo2_hzwPzzqmNA=s220",
+        "view": "https://drive.google.com/file/d/1wMgsUw026K04MxNR_ghWDkzCiK1hcJKq/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQJpjZ-8yFJfxBWxND1OVmjQAWU0bvTmS5RNvXgvAkQjzHjrT-yr5JYdwgchR8A5Bmx2x9n2RTuuLX0YlHZEEQhOI90CYi0st3oVwKTtFTivq4zA=s220",
+        "view": "https://drive.google.com/file/d/1M84vahUj8NC2zPD7T0KPmDEC5HJ7lhgi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMO4ZaZOdGVPoKfJcRKV6zqtLw4U0aruAM8_Eoiww9vSguLf56eJ4TkvgYGeofnrPMxEN7mVCmh3MDCju6o_kCMtXSgCSN0achq8ymt1e9fMm4z5g=s220",
+        "view": "https://drive.google.com/file/d/1KuzTbE1UPOnG4PhzyshYw0-Y93-OaMc4/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlL1rPCfSVv358PAeULoBnAmtSn8NrTt2kafHltSaII4L_dX-vhAn-OBwmgn-ad6_pT4xrAxzjap8lgrnOAUOlZnPFQT3s3Vp_di4ZGV3F6P1yXQ=s220",
+        "view": "https://drive.google.com/file/d/1f5sqV3z-h9ENc6rlMV5GSTiB_qbzpkNf/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZrS54JBGb4QNRjhrBXLQP2f0VQBIbRL84LxSY9tQ8wZ8rpZvWZSk0Nia2JJoQ3tJSxzGN2gP7kDrOvRv33Tylg1TkGHgHYN37cQF_oNJ7_bk73w=s220",
+        "view": "https://drive.google.com/file/d/1erPq7lbOF50eStNhQ_EOdsU9AtsiPPpD/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOG_cxTixvqhcDBgKUQeCs-R2eDvjTbq9PQ5cAUJTmGwjceZ0c-2c5dFCApPvaPPtGgUEFRtvmCwkfDJeExO0nhGSbVyTvRDSvqhjZ3wzENcXdzhQ=s220",
+        "view": "https://drive.google.com/file/d/19UolH0Oc5RQEsdMjs9edW2RI_fGlcPaa/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380084 - 7/5/2026 (9 FOTOS)\n  → 380084_inicial ✅\n  → 380084_folio ✅\n  → 380084_corte ✅\n  → 380084_demolicion ✅\n  → 380084_caja ✅\n  → 380084_liga ✅\n  → 380084_mezcla ✅\n  → 380084_terminado ✅\n  → 380084_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380086",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1k3ram8wK960wq9Gg5g10fMolPJwbXDVz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO5g9FyLkTDRohorIZD1opXR2GRpi5v7Vlo79mBQrnH749MrTm_It_ncytxYLHWigBoghvL7Xtkrxfo9Ao9EMfnOiji1HN_tyOrnJW-t-gb5mabXg=s220",
+        "view": "https://drive.google.com/file/d/1u4PGV93V8VOim0_GY5DwAYOgfV-0Ucqz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNnCqDTcUEqoWQUyRq31zhG3lrOEBdV2-irKKXViFbfn1ukmLU71pb6O6YLTumG-EPwHhG_uBx4nRN4cCgbJzwKXdEnEsUPinQhhA8kYfC_fpqo8g=s220",
+        "view": "https://drive.google.com/file/d/1mcA1hl5NskKLsEk5tcE2gzt_QYa2nKO5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvL_UOjUOMmMosi5ske7TH_TsXhTjJ4LyXlAUvaMR0SPenrHsphp9BR9as20m80Q1JOXLP3esal7YbHS2q4DUpVR8RyDDqffQ63i1rQARiojdlFw=s220",
+        "view": "https://drive.google.com/file/d/1J6f-wetuhyg1usDfPyt-SSGWTR1IyYdk/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHunptK7qtf0NqnUfGuO0F89BbBLm6wJ1HQ1SYogzCVZnve4IkhUYzzxJf8jI9XXV5BE85PimWX9upsGsTtzX6zF74STSwaKfQeFw6zeu_HtIZRg=s220",
+        "view": "https://drive.google.com/file/d/123vXf5Fl7P8qyzd2DXnHwxBJKWqII4CL/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcFRfetSrXgT6jRiszmi3_9hO06mlt1k6FQ2ZOuvVtjoiQ0gP3NXnruj7aJL78S4-aev6rwMAP9NzoZqDrIqSSgr6-1-YaJlK_DFDKwzb46ofyeg=s220",
+        "view": "https://drive.google.com/file/d/19NG0a-_MTwR_vmwSJeKVtcPNEvZs95K9/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhAEkWSkVR1UwB3H3R707p13eiibYN1w-q5mC5B-ID5xdA1RB-B4e_0QcY0tl4jGqP1Er76SPi6OL3jh6nl1-OSvCsmdJjZeiYxONGHuL_QmUsFg=s220",
+        "view": "https://drive.google.com/file/d/1iFgn4VYFfgO5zTlPGN_TZZQ84jztGkU6/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOTu3P_78-x367Dlb_IEqsKUpQZEKpARibsqJnATF7GYOQjA-QGpVAFcGGMBe0cZf2Fga9Yn_hpBTwLBoQWAL0RCElYlikLexeypVWs_g80pSqCFg=s220",
+        "view": "https://drive.google.com/file/d/1BQs2XvCX_5P1qNAZN89m5_GAtAaXvZtZ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBME1bxzP8_xlfU_eqpkmZErJNGIyRd29eF0a9rXLZSd7u37opxG70sZmjRWGWHQlhnFYyN3vys7GaDtimn5Q2F_PqRmrM06Cdy2fTvUI4tkk00njg=s220",
+        "view": "https://drive.google.com/file/d/1zSy6GUg6lkgl74S-eZuDPX7ZVuKBcIei/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMx3anbbRqaq2G-6XvSA_SzYZCQOa-A_hgqeYOjKoY_HNZquWeskNI--uLc0J_ih6mu79OE6WaKJSc7MLgI6DvGcUd2DJ8nK6ARC_Q4C3aacQLOWQ=s220",
+        "view": "https://drive.google.com/file/d/1vQD0CFZ-l8TmXmv3TpHleO6Ig4md01A2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380086 - 7/5/2026 (9 FOTOS)\n  → 380086_inicial ✅\n  → 380086_folio ✅\n  → 380086_corte ✅\n  → 380086_demolicion ✅\n  → 380086_caja ✅\n  → 380086_liga ✅\n  → 380086_mezcla ✅\n  → 380086_terminado ✅\n  → 380086_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
+  },
+  {
+    "FOLIO": "380087",
+    "FECHA": "7/5/2026",
+    "RESULTADO_AUDITORIA": "OK",
+    "CALLE": "LOS HORNOS",
+    "COLONIA": "MILTEPEC NORTE",
+    "DELEGACION": "SANTIAGO MILTEPEC",
+    "_company": "KANARE",
+    "_stage": "E3",
+    "_folderId": "1FgE3pKRIjBiGyUxSDgOlKX70dlHrPpaJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2bb1oDrMh_CfOUI-iiHq0DmLn7AZSmDCoUa_emDTsW-ZKbUM3jwRK3femaT0_uvyb7_RiMHrkmzPo3wyJw9Uo0_bkX0LCQqddwWRDc_ZSiJ6JOg=s220",
+        "view": "https://drive.google.com/file/d/1GcDEX2auIklYWfff0dqN94UkGF0nkrO7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtG5WbofLrPQfjg1cS5iMjLIF3dIH-wbBKDMcF-lRw9TJkgNNiNaUGbV1_ZWrf2MNG1hIS9ns2ESr1eW26z9lNaXoOtykvC8ITzYj7tv4qwtoGuA=s220",
+        "view": "https://drive.google.com/file/d/1DlNwHDzTdluQlhRC-9Dw4nmRPWo69UtD/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYgNt4IbgZO3EXVP0bMmGTP0Qzc8XbEb1Sl_saUCLNu1csetG2jnchZw2c_IQTJS3MtZVklXJyXwQaALcXatCHq-9Vu4q0e64ASbO_llm7QIrOFw=s220",
+        "view": "https://drive.google.com/file/d/1HWJimPMkNxrxt0DnCJSLoUOmAxzRsXmn/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOOM8XMvwzJr-2wtU2kH2yek6BW2uaJSg4kmpLBZRplq_5EKt2m1hvCsG9W59cie4NRedpBub9nUAERcVl8ogRq9nSnSUtduKxKhRYGYw5CSjDFbg=s220",
+        "view": "https://drive.google.com/file/d/1VREdJqxwlREi8_aLuo-jRL03Rbe7SqrT/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYG9NU9HKPWueX18mrsPMXmANH5q14oYUmAPclSEVfGB94xLvkyZqgFlR43iHSdIiYv63D1CYiRbQBTSgVuUEBVjyfReECm7nz8SCY9I4B7Ymcrg=s220",
+        "view": "https://drive.google.com/file/d/1Sw2_0NXmGMS5d7y0QJB8ms_8jBvWeokV/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4gWhGyInCS5o2IZMKyKO3DE3_STNvFr0IBvjnSxXoEljZtjBCr5OEi_vrqB998Gr4aYZP5rZ5Psy8Mb8SR380i1wTm0nspasnC33tOniXLfZUsw=s220",
+        "view": "https://drive.google.com/file/d/1CwjWVqgmpHwQJgAOJDVaSmDNhJfYuMTv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9Hwxxo9L93YaUKDiQzRqKAUEZr1H6dLsa0tAyFlK63Qc7CZcyXgHLwVD4nPjH_QtEfbiseUuUs0HXdZzKox0Z-a2iD7t_kkeXl07jVVvxmDByiw=s220",
+        "view": "https://drive.google.com/file/d/1T9wcuwwTCnt1HNXreG-Nt_egz3n9qKKl/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM47nW6GipyADGTj8aiMWJCEsn1SgqvPRb-2_0sl3zzyqv7-Ho_dN6SUKa21SeUOCMwVbI-dPQQDmr3oHr7vCGN8urKqQF4zeLlX-GCFmFdMo2m8A=s220",
+        "view": "https://drive.google.com/file/d/1E1knPyfZ8srQ7_fs8kUOzKhDXHcLziSs/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcE3_pSI1f19qNPZLY2sBr10YytY7l2tvigjOPaVYTG0xzj2dtFCRDEbIytqF3U7k93gsCITQ51GcsMiXrGhLwsDtmxdLr5ffrNRzz9dZVZRqQzQ=s220",
+        "view": "https://drive.google.com/file/d/1V_OP79d8pbFMUF1pUdOe8F2Vf97wJs12/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 0,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380087 - 7/5/2026 (9 FOTOS)\n  → 380087_inicial ✅\n  → 380087_folio ✅\n  → 380087_corte ✅\n  → 380087_demolicion ✅\n  → 380087_caja ✅\n  → 380087_liga ✅\n  → 380087_mezcla ✅\n  → 380087_terminado ✅\n  → 380087_limpieza ✅",
+    "_faltanNEO": [],
+    "_uploadEmail": null
   }
 ]
