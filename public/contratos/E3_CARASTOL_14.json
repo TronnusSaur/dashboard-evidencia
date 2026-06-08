@@ -17895,731 +17895,2321 @@
   {
     "FOLIO": "140362",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140362 - 1/6/2026 (LEGACY)\n  → 140362_inicial ❌\n  → 140362_caja ❌\n  → 140362_terminado ❌",
+    "_folderId": "1ULhxuy6Elvtk_Tfk8CaB2fGbY_BorY3Y",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeapLHaeXGl9RAZscfkL8qKHR29VuHjllFJW7_dQ_lMaW3_7AGN1kb4QdbAFW2_tVXRJTd-XzCuL82_Dz3EMClTXNib8y07WDaGHz91dMf_tyH4A=s220",
+        "view": "https://drive.google.com/file/d/1Kg8AqL4XL_y-br_hPzCaxd5VaDDDei-0/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPQfoonArjsY6mfAP973MBW1YFzTGeOsXcNi6pO7HAEOK_uSny6iPyTjcFaM9u8loAmLT2TPhyqOh0U7z1jlC3LqftySGOQer45TiCyZ75GNYxJsA=s220",
+        "view": "https://drive.google.com/file/d/1VONnb4te-WPzYwctQ9gt_Sxd6YgbmMbR/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxPt4R7sf6PB0h-BLiUJvS2AmvyxVJW1TjEdXt7tMaHX1mFT-znMUnCDFr1PrRmq1C_i0geLy9ThE_HUB1UveMNn09B8EL75Hsq7DqDlayMfM6yg=s220",
+        "view": "https://drive.google.com/file/d/1aF172WLQX7ezMiyMZyVclQagUS0_JO33/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMfyJqMxml2qp5DA4Kv5vxRApNobRuNIrlch5PKJgX3UdhdKNOCAfb2Ss8O885MJBpiGilhwxwWRqeSK9IUVWMyf2qzeEKnirxJUI0J-x94uDGJ0g=s220",
+        "view": "https://drive.google.com/file/d/1uH0as9XoJNaY0_EStUMY7ZkSnl6caKbO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBcXgOBUzyi1nya_IjF0kxir09_JHpJx3Avg4H5jTbcZ2vmHduDKWTb43feZjSrlqUvk_v7VEkFJtXcfV1Vk_OVFeYk0kOGV9wGov2LqtdFFxdwg=s220",
+        "view": "https://drive.google.com/file/d/1jFBfyjZLyroyHC4q6sa_QaXqVgNNwJRi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLjvDEq0LSucfE16FnRbE2jP2OcEDxXd4IGAkkMCd1Z0UBEjpYOrKX8qRQe3jfiAz8j57kGkvdEppRVyNSzKRORdYq8fkB-rgv7PbavOGZKaQxGg=s220",
+        "view": "https://drive.google.com/file/d/1O4u2Bxe0Vm1ZKDtHfJ3X1e7XyUcw27P-/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiNYM1MP2yB3pBtb1sm6YE5vEQ1RdyAT05hZNrSN-LfPTlqNnNJVMsm-AjG39TDh4A8BDbtdOPdlZwQ0-xWFTdnY392ecOvr4Mbjb-n24iLnKRjQ=s220",
+        "view": "https://drive.google.com/file/d/1n3JTF_oa-FTt1mmZIkTdTKkrPMKsvk5l/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-fdA_nwo_16HX_5VC7OC6_0nO7pUFzsfa0OQRmUxLF1p-e9b6fTsQfrWT3t42St1A2w4CyAJER47lsaEX2vg6N41CbpE484TZAL7zR0jLfkEfow=s220",
+        "view": "https://drive.google.com/file/d/1Fkwq6Ys3LQ9_gDQmjzBaGIiCOTuoEAdj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQW6--iCgmviXGmt7j1Fy-J8_Ksh3yZ17DPjiKOs0rp759Ujs8wgW6BUTsdHEZkNIUF_gUHvixXQljtVLLV9eAhI5-jAbeO6pjpT7eHo3mBPj3Dg=s220",
+        "view": "https://drive.google.com/file/d/1WLv6XIKzhAqZ1IgCXQ7Ry7wMUhod2Eqc/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140362 - 1/6/2026 (9 FOTOS)\n  → 140362_inicial ✅\n  → 140362_folio ✅\n  → 140362_corte ✅\n  → 140362_demolicion ✅\n  → 140362_caja ✅\n  → 140362_liga ✅\n  → 140362_mezcla ✅\n  → 140362_terminado ✅\n  → 140362_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140363",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140363 - 1/6/2026 (LEGACY)\n  → 140363_inicial ❌\n  → 140363_caja ❌\n  → 140363_terminado ❌",
+    "_folderId": "108lRbCuhBTvWCDRpot3G7OXj2mhUWOze",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbe7F6_RvyDcfod0AZGAwylm00fkY09BVNNApAhF_6IFE6DgQtJhHXbnMxOZLYiiv2nmaziTOnZEaJrboaYTSBZ5WVh_bO_gU2UZUDkkPiiUo2pg=s220",
+        "view": "https://drive.google.com/file/d/1lve5aMehgCcJZfhNjWX9-nu3FMyS5Pvp/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdFB09IlklGWutLjVRy_2xrpTRThzzvN9-Rl_LNbPOKxgTsVKV0ubXB7NgRKaKKGHdIQ1zVRvonF6g3HMnEyyc-vQ5E0XTowjs1Ts6JnczsC4-Ng=s220",
+        "view": "https://drive.google.com/file/d/1bhq6ZUvVKnvsxMNCAZUWCzw0aZ3ont_N/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5o4WUfXB0FZ0b0ZDnqgZWiAwMB9uzmwDXU_nhAhu5aK8qve6TZPggTRxvgipI_KZEys71AsqjyVkIeDgFLw0SnmGDdhZpej-o90Qhawyl7nCHTg=s220",
+        "view": "https://drive.google.com/file/d/1-NV8JJdqWvsWdIQrhNohhinUKJRsRTJc/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP8kPH8gWraDmhABIn-Gw___1-Lr6fPozU44aEkHdRrkumJ70FR1_X5So00dicyhdRT3vwZSXn2KAF2Sh2KKsoSS9sWK2LomhLULBKvTi9rmk1ZQA=s220",
+        "view": "https://drive.google.com/file/d/17wPWfTyQbZyuSuneas8SmfBccjWQHhNE/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCavuloECKHeD5q5wP7KklrpqhXs9IttjJFQyUb21Zvenw5z_z8r1q2DoobrwpF-fLftEaSBxK5l6f8f99L1Ed514wkqEF1ItJn8Zg7FjAte6zTw=s220",
+        "view": "https://drive.google.com/file/d/1jOD0tnOwubCpMD0dtPkR7AFsnM8RYncn/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPCLIBa-bZ5q2BmXNlz0RdtyscUq2tUyCAU0zLu3BtSdanGpOPyllf9qAD_FmDCH6oyQqAwOdrhj61R2w4KZsw7OPrqUinSAOClsCn-omRnJ5dNVw=s220",
+        "view": "https://drive.google.com/file/d/1WQguymEa8VKtZWQN4URrsPVP-KochQ4F/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0iYrG7-3ZT_ZDAGZ9xuN34NZRusQ9zdzjEorOyNzRT44k3cgWOiUoPvj6z-NXppE-SHTb8Y1cgUleB5f8suP_GpGaENwSiWkSPcAgP66XylNMVw=s220",
+        "view": "https://drive.google.com/file/d/1w52qqpacmHaUjBF7SWEAe3NLbKerOchd/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEIp76wC0IuooV6lne0BNqaUpEkaYK4X_MSEu3EursqKQCroTnmdqu8UQrAVnz4mHdvu9LmxLseNW4KEplX6vIvXXR-rmfFT71MSOi7ssOBiXvkg=s220",
+        "view": "https://drive.google.com/file/d/1VvY2dsoNn1q-LRFz9QZLi4ID9DXb19Ox/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGc5jWOjxbCQtoLrcdzYBxtFTIuquWaOhcI3q_6JpGUr1YF--h6MVTLscYquJTy0Kw2_t4xuG0J5Hl7HJkuiK4ZQyulnnjjglSBhDpfctWIqTujA=s220",
+        "view": "https://drive.google.com/file/d/11G0K6kQYG-pQcbC7jWZ2RfFdzLbxRsma/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140363 - 1/6/2026 (9 FOTOS)\n  → 140363_inicial ✅\n  → 140363_folio ✅\n  → 140363_corte ✅\n  → 140363_demolicion ✅\n  → 140363_caja ✅\n  → 140363_liga ✅\n  → 140363_mezcla ✅\n  → 140363_terminado ✅\n  → 140363_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140364",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140364 - 1/6/2026 (LEGACY)\n  → 140364_inicial ❌\n  → 140364_caja ❌\n  → 140364_terminado ❌",
+    "_folderId": "1RY9f-nhdvksPi1Z4Ibx-XbSz8ktpiH3I",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOzRuMMwwL7KVzskOFRwNq7dEC4DqR9FIcSUE8mBht3jHVWEO3miVuldZTOr6lEtxtdms3qYAk5HWY9Cp7Z9Mio9R8tBWnW65ZhMX9skYvpnH_y6Q=s220",
+        "view": "https://drive.google.com/file/d/1KpluP1dlWyKy-GB8XZDlcFHP2Z1FeqE7/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ3kI9-T4Tb7mizvjy_VsywaBolwmOy6xhtJJoIsjcoUXbtRV9_6iBua0CkvAnV66NdL2188_Rjj-cPGeSN41nfYU9gP-5iEBiBk3LkvUq8vkxVA=s220",
+        "view": "https://drive.google.com/file/d/1cDYaqxxwBfeS-YEbyKIIM6UkubiMEEaP/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOg3GXalnIxDCSYD0-5dBH7jw__aU3A2cPjowQ_RlF8tmRToOKOi05oBEnhy8M-WZaCywcxzShUnwrxpprrnnUBGag8sNeStEDwkMySGDEF5b_vyg=s220",
+        "view": "https://drive.google.com/file/d/1ai_Oa58URIo0SJIOTscg4FX9b2_dm0Wr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9gEMyExQ-zpAub_c-k1zWzMpwj4kJVcf9rQIpLQP3b0GwnsZCqRclDYOeNpgT73cEhOgTSUMNisxB6sJk754f7ljK_qajmINKbyHftbjD-n3Nbg=s220",
+        "view": "https://drive.google.com/file/d/1yrPComJhZeX6mzgHdO8oTYcAlLfZ6rFw/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfhZ6imH_57AJZ0SbkVj7C_xS10kClU751pJcNRYfhzziN4HWhbKZaOwOFMKWQiyJG78v4Wojkze3VKKX5zcMm5ud6ijSEoUvDqrPvdkjJiNFyzw=s220",
+        "view": "https://drive.google.com/file/d/1OTfcCG2RrqwOkixmIi5XmSYGoJljYN6v/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0RF8Z4pqnZ39lsmKw_5RWD84cDwllID8oEeu63HyMZPW6VQI27RYGqjkPaGYl0PYSm2d-w3EEXzl_JDcZrh-ulvtHFyw5j0d_3xSore109gCWPQ=s220",
+        "view": "https://drive.google.com/file/d/1eQ7-WYb7rYhDHSImbdTb85RiFmdc24qO/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0oQsVxYBaZc5afD2ZanDQa9TX6BW1PTOhmkF_a7DQ0pfQJX7crd2nmm0DdVYIKOL9RJYgGz7_CYVWykblSKHEVJcf_AlNTezzLalXda454peoNg=s220",
+        "view": "https://drive.google.com/file/d/1a3-UyvkhK-WDo0DAQel6eKKkzq3nLhej/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVVNLPdB2yuGsnOt32QJ9fBV8T4lUePL7Kn0r8s1PvTNEXvr5QJo-Ko-WyqPKq9ImYhNHs5k0pHLfH0b5y97lpP-lIg4egMUVM6Nfi-57NST7pZA=s220",
+        "view": "https://drive.google.com/file/d/1zkOHQPYRkZSE3Oe769YQgFDKwgjyVBfD/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUOOid3qWBt_UgLMNmthZ2wVhbnKZxfPiG4Yty1b-BpseMgxmS9a1I21nnyefsnxauFJPrbrb959lHrIwAy_63lEnluhwdbDnUUL3LYTFMlfq58w=s220",
+        "view": "https://drive.google.com/file/d/19hoF0PN80iD34gbN2pQe6WerPNu3zpLb/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140364 - 1/6/2026 (9 FOTOS)\n  → 140364_inicial ✅\n  → 140364_folio ✅\n  → 140364_corte ✅\n  → 140364_demolicion ✅\n  → 140364_caja ✅\n  → 140364_liga ✅\n  → 140364_mezcla ✅\n  → 140364_terminado ✅\n  → 140364_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140365",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140365 - 1/6/2026 (LEGACY)\n  → 140365_inicial ❌\n  → 140365_caja ❌\n  → 140365_terminado ❌",
+    "_folderId": "1BU90Cjpk84R01wLqiBx67To6jds9jHvI",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLQuGYBdWE6bWyX_dg7BOSAdE9yYtG4mL04krNKd5ps2KDMza3XQUZJmsh9OxHHRHvaMfHkp1JGq3rt15TXs3O8XdIxrCV2X3go7XOHcU1wehBzQ=s220",
+        "view": "https://drive.google.com/file/d/1Me-vSW2mw9WGIyoYBzetoV9Ivfaiz0Fq/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOX0lt3tFeUCrJlwUKYSrRp7Ue3mEFK3VvfA6QAx7nx4MrHtlGmlVEbdNa10V237ICrejnHbSgEjmPB5zG9ze7clwz4mbTYe8HG-NmVuzucSfbqfg=s220",
+        "view": "https://drive.google.com/file/d/1pUpAHDIag9hMOZTbcbVYeiLKKO8pEZh_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzCjzyZGlmXXvdwQ9ouB8fhBZF03cFb-QWNBdJhb7qU0GDND5nbrgao-cAapJTYzs3TMEBZOfaPGk24EV-0uOGICCFiMWFqw-IlX3uhbNs_K-X4Q=s220",
+        "view": "https://drive.google.com/file/d/1ie0VqrORtezVH1bOE06CKQHm4y56i2OH/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbOk8S0PQ_F79sk-lRT_ztj-cnMO0lPda_rrWI1cnjPEUoBzNyr68TRyvta9Cdilij3SW-yMt9BD4w09uROCuedNZmHtDk4ZH2TN_DzGJ6cngWfQ=s220",
+        "view": "https://drive.google.com/file/d/16BAbewxziEs0mBtOb_to2ubzVfLTolo1/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5Vgr6eEEmdF5hTTdZV2nuC0pEEcBL6pxXUYK5gI_lA235ut9S85n7KMXrif29WQGd5CMbyapFAVaBFuXt-j36FExvrc1-CA6Ca7puMarpLS7ylQ=s220",
+        "view": "https://drive.google.com/file/d/1wLzvuKBz-yESzUH38Bzhj7Bq07npLXKU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNtt3c6fMiX-1hTd01YmbCfklsQBYM_F_tkhXoVvxwb20xAXW0nK_psCx_7xgAHuFosfsK06q7On1ZxmkTXM9MQst8A2egHO7-K4y4Gv7RuH2bIOg=s220",
+        "view": "https://drive.google.com/file/d/1xfe1TUGwvbnVcAVPutBZ2CtxaVrDHxFc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1EUZoo93jKxLiPXKQkazKOGWdeQ5U9IwpS80eLIBAacJM2PiDWXG4F7xVkvg89FYBagSFCq4VJpb43T3G9Zbv719WJkCJBXAethPTWXFpHxXamQ=s220",
+        "view": "https://drive.google.com/file/d/1bK3KW_uHiCQtf_2e1w5jBvNSiEvX4lzv/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNebjw0fT-kkLoSURXKuhccikmjlIpul8SAqMbmPpvi_kCpSUOIESZOFuCiqE073iYq2cXmIMLtf2oPS0OfWZcixIXOt6YIoL4LC0GtDxkiEoOHDw=s220",
+        "view": "https://drive.google.com/file/d/1kJCZHI4Dh5lVgcvHP_ssQ4DRsYWmMtnS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrwCCqTxUqFVZR6QOotv_GLsMDomoxdNin0FjKwhJEWDaSPokWt_oeLlCosctwJ04c1lJ1JzMM2yo3SrfCD5TG_sgDt8dlMmpse216DwTKoKb5jA=s220",
+        "view": "https://drive.google.com/file/d/1L24wojW5ksBc_ZM5X_A-YAe95SE_6i1a/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140365 - 1/6/2026 (9 FOTOS)\n  → 140365_inicial ✅\n  → 140365_folio ✅\n  → 140365_corte ✅\n  → 140365_demolicion ✅\n  → 140365_caja ✅\n  → 140365_liga ✅\n  → 140365_mezcla ✅\n  → 140365_terminado ✅\n  → 140365_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140366",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140366 - 1/6/2026 (LEGACY)\n  → 140366_inicial ❌\n  → 140366_caja ❌\n  → 140366_terminado ❌",
+    "_folderId": "1s1jjVhb1y29krhttThzlujaonNZwJv7M",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvZHBKbbspM7khkMfakHW7uGuJu5PB3bnwXxDLRDrG2BC4lNVj3-pCXw0eEfqTaBj5A56ErfwdeR7wzRh1EIYzA2I7OfIUIl1_osO10dJKO6W-0w=s220",
+        "view": "https://drive.google.com/file/d/1803KdAIVj2_3CxklczRTZ6B3N50p_efk/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFtgdvQaNr2KJVQxYJxem-AJLW6J9Dp8W1yq1RcKMo7mniLKiVbsMkfM42HvpBYF0eiqpstpN7xBweh3sc6dgefYU9O4WjQ9-_Xhdm6ITb3sYbrQ=s220",
+        "view": "https://drive.google.com/file/d/1SWVm80iWTHOOF0AP41WPSab-xcc1RUex/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGbSYHWw3_CFzwA6FYTX-f-vUObkz1LnRROuM1YQh4Gh_a6AG8-69Y8bmEbtHIQiFWzGNl0XD5saDuilv4SmOnwjYej_rYoYrWXa-HM0kTs3Lh-A=s220",
+        "view": "https://drive.google.com/file/d/1fj3hGoc-d9v9yY78IsSXiIcm_ViV0Kzv/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOG-EN-y1DzNkpeQckj34HgkRZpZTJD17CKHuOvOCktxQhWa9QklXkQhJh5CH3F3QNhEwyk42Sab-SZMn3aqowNlzziL4_bA2_dcYwrG059Yn5dLw=s220",
+        "view": "https://drive.google.com/file/d/1QsMuj9FlxYhowTJIpP0tqloYV-CYsMhV/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOwfxSx5y6VslhgY0y0x7f1wu7zvnW19Ieiuf5ERhyO3GA0hYLXTibxKOfaYqYNj61l9Evf60UrIhT8MUC7jFeO_GNBhBFtvsH_D6NaUPJyntDvgw=s220",
+        "view": "https://drive.google.com/file/d/1RC-nDQzHOJFNEXLCVUfaB3b_C_vxLCDE/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPahdfcUsGysJx2yJns25g0x7WdQ4DXj5IvSgWeYQbzMBFGRn-X7_cuqFDkj8XNQ-MY_5ER3oON-wmeI4ropi5YdD1VPOx2zAYs4OdM51yzsLvgzQ=s220",
+        "view": "https://drive.google.com/file/d/1p5ZH7eEW_9f_BaS1CqPuntUDmaB0ecUO/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBcjFru7xYjavtbBW4XPa9Ksx18OIB3Uy6H_5aLwWWiz4xw4zqzYacst0U35cZHhxm8yTXm1tEluIAHmf1ygpgsr2l7429aDHX2lI7nXRte98nOg=s220",
+        "view": "https://drive.google.com/file/d/1Nrew5o_1jRgEw_V-mw9IlKwzCMtYAHmD/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4imer6fgQUAiSWVbCKzSEPeiGF8eaprC9kkqoxVJZNWd4oQcJ3Utbj1PdHNfNOb33sMjqZaF2nj_a0VD9-SIwfd_9aqe_rh2FR_nPdty-unwh6Q=s220",
+        "view": "https://drive.google.com/file/d/1T6DZLdPuUiqtDlS_drlWaehPLYSoeKUT/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9KgDQ_cjlS-331M5Udb9soqGOBCl9DbGKUr6lFTZhhGOP6yfMzP_dR5Ibf770nx-9DHT5VqIR181xnbzb8003VPm6d5Ovr25AeaHcfN10U46tTg=s220",
+        "view": "https://drive.google.com/file/d/1TFsObheP0R1B0Yy91JHaxSaC3lnbCrvT/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140366 - 1/6/2026 (9 FOTOS)\n  → 140366_inicial ✅\n  → 140366_folio ✅\n  → 140366_corte ✅\n  → 140366_demolicion ✅\n  → 140366_caja ✅\n  → 140366_liga ✅\n  → 140366_mezcla ✅\n  → 140366_terminado ✅\n  → 140366_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140367",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140367 - 1/6/2026 (LEGACY)\n  → 140367_inicial ❌\n  → 140367_caja ❌\n  → 140367_terminado ❌",
+    "_folderId": "17H0o-2oq-3j5KkB3yHXcuShFZPFSLrAN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhUIBSRP_CsnpLTWajG6avVaQsXMMBQCRl3Mwtfo4r4AKhllrsr1NPO9xODZhaAz9nE6tbV1RisY_bFIN-xr_1wZuRKrJ3RZl6zcwnVU5f4crjYQ=s220",
+        "view": "https://drive.google.com/file/d/1hOhMkD4b_Leb1XyZSoZD0Ua-XAXH5zU4/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHVeQmUhNhVGMPXLgieYXB-aR61mprtuAbjomx_c0SL8sJsMLpimuicfZZGkflZ5L4m2wCsGbvhYM2VXuqD5wUqLAfFm8iHhmpdoRtiwmM1E8gbg=s220",
+        "view": "https://drive.google.com/file/d/1QevEoIfiE69oCWIszOybJTduJ4RRggNO/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCGmEJAdycI84TuEB1M5hSoHU0Sxr_bCnt3279PkjycLD2H2eAGNBye1856pd8He8G2SWw3F3naax8MpUcD9plgBux2IZu0zJofcnZji4aEoQiHw=s220",
+        "view": "https://drive.google.com/file/d/1svEzZnYsgeYfQjHWLyd1ckZLkJdNj7Kf/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCKrNPwsowlMyic58y7w7KwGcjhSB9QymzpyxbQoF-oybBwFSbCNQrTPn7fAbSMJ2LraEklq4ChJrlQVk_YSR6FaGU8scAaXEsBLAWgK9yINd-xw=s220",
+        "view": "https://drive.google.com/file/d/1ERk3s7cMDLes-Ei0Ry3ot2lti-BY8x85/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSn3C3i0zAHDMbRrNSTlU9WYSywoYL99A3xoZGiMCdxBt_Xt_4FCYv_K3umncbCdsahOSASp47H0hAuATTgqKfULCKYZbEd6KrdYKaZGAjpw-mfg=s220",
+        "view": "https://drive.google.com/file/d/1RSDiTBQy7Zjx1T33YIGlvkFE_mC9OTxV/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEh25aC5Mnvp5JCJmfIklZr9cd8GSZdvn125wf5dBkG4WYK4FbmwEA3DE_acftQHsx2SiAOaVW_-fk_afXGtKfGcCy5VxyINPATDu541ltdusN5g=s220",
+        "view": "https://drive.google.com/file/d/1VZc9bWWooAfbzeEdCbS1H-MTKfi-BUs-/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdQPZLla9q2Ylm3h6GrGciOc4U708k5aotdcdvjIxabSxQi3X2Hk08RKQgq6TJMYak99P4ot5dIZM7wDY8Ri5ErwQlDlknqYva4gC5zKNFIPB23g=s220",
+        "view": "https://drive.google.com/file/d/1l9nqN3Uonn83Kisv32zbIiYzWigFB0sA/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOv20zzFHWYSYu3BxJOusAjkvFsCu8hpTK53LN2hqKA_b-f7THjJ9XuO88McUdHUaR_Jwvl8cnE-cyx_aDkq8v99tzRlwGS0-Z0g00uMTtD7vZqSg=s220",
+        "view": "https://drive.google.com/file/d/1kxQFHsEz0DRvRBSRq_F3-BMFrZR6syXq/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4KvyE17auBl9ElaFT2OGp7pJ_J1v7rUFdns6n__cUpK4pYqZhLqkuidAiTnEfTXla7VgwbR1wKqPodaGaOXIEWaWCFUKJiQPHqvtJxBSF7RBmYw=s220",
+        "view": "https://drive.google.com/file/d/1x8hwNrz7wSKZyrJdMF0YReZXIYoX8jvL/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140367 - 1/6/2026 (9 FOTOS)\n  → 140367_inicial ✅\n  → 140367_folio ✅\n  → 140367_corte ✅\n  → 140367_demolicion ✅\n  → 140367_caja ✅\n  → 140367_liga ✅\n  → 140367_mezcla ✅\n  → 140367_terminado ✅\n  → 140367_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140368",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140368 - 1/6/2026 (LEGACY)\n  → 140368_inicial ❌\n  → 140368_caja ❌\n  → 140368_terminado ❌",
+    "_folderId": "17TsVNkHzCX99z01VfmfmcMVTDdTVfiR7",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIhaIYNjG0637yCLRiKE6gTpOWWYDqJmCy1aGaSli7F353sNThvUh0al_cFgkCgaudaYG08HivKjv4fwAKHP1qC5J_MLYCJvlLNiA0Cy1ZXBp0FA=s220",
+        "view": "https://drive.google.com/file/d/1Esuf4SqUM4pGCDL6wOMFzlBZ7Qwr7bSR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNaOkIsBxdzgfwqZ4uauR8_mVoegVosnx1nhHNwPt-sNJe8VJGY8o0g_5slS-Iw9fCporerGWK1_xyuOkrXgR8qB-ZEQRhrcOvuDPvmkYO1QbF4Hw=s220",
+        "view": "https://drive.google.com/file/d/1RBgt3iykVFEjEvqa6SqVNMe9Ve_6r2m3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMobrYYWQSlR6_lWKb1Puj9djOXjWz5BO3XcYr0kc9lcykfRmYARfnxSYk_TPpjj91esL7_Ysija1t_NsSLrkK0G0N0z8Yyk22eqD8ADd_yVCV4Qw=s220",
+        "view": "https://drive.google.com/file/d/1UaZhH3pyi7MQstGwq33FcKnsQv7dhOQl/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMSoQwGgVg41vQJDZxGA9zNQzXBS2V4WjHi011ahT4YwodNviEOOeLDTCP9ASzrv1J4sTFvXReo_tOPmsUdS1pKrmFcf21o6MdUsFZwqqFMCXas9w=s220",
+        "view": "https://drive.google.com/file/d/1L07CjbauoN0fqzXZV4pDX_SJ4pXkbNz8/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPX_v19UZWNgHbLbGyzC6UlvXx7bzEGyMH2mI8H_GT2-Vf1ToNblbJTWYl-YwbEDV02Kd5k4qIQdJdWKkGg8WGN8-hrbP1JnqIX_6dFvxCPl-1BMg=s220",
+        "view": "https://drive.google.com/file/d/1g33NQKSQ8lCaOQqUMhRQEl28xFRB_Ks1/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYMHhWNAHe0Aq3jcrd1-CdpLlodlQ9IEkLPAp51IiThk2wHJCQYTXtvTFFezJEfrgNOZKFtURJ2PObv_kaxiHSmRApx-u-d60YmBidFfmS3fNKOg=s220",
+        "view": "https://drive.google.com/file/d/1244NWnRDMCMea76io-ZaJgLmgN01p1Pc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOS5QaDndiChB2wGNWonJm1Xzb2OALFhgzDnHyROWGm1DF9hk2UBN506xV8sCGlMqRfB2VA97MHXdBuliImCz6vXm1nAwOOcsDDT3ry5BSUzDDpQ=s220",
+        "view": "https://drive.google.com/file/d/1OE3BCiL3Taz_9cBSl24O13r5qJhijze6/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIo5y-RhWP5xre4byxS_iZ1xnzjhMGceoUKCVBG2auc1Ob8NIYdQL3UcTrNwuzF0fwo_CzmzMV-zQhIlCZtbrp27uP3qljsvJjS4T3XQ_C-_PQ_A=s220",
+        "view": "https://drive.google.com/file/d/1dRz6af8MHeLc_azaeqF1nNbqR6hiN1uL/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNrGeQ4kEL_oli0Iph3ySJY_Wqzw5LrsNaGU78CYWerA3WDdqezjloYZRB-e6TBn4VqdRRre5el-Nni6k8LPGyIiEQHcVDZunAz5awBgK42Il-Mrw=s220",
+        "view": "https://drive.google.com/file/d/1ISFe1DA64tU_l7ABqa_vY0mMPkKCw7g-/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140368 - 1/6/2026 (9 FOTOS)\n  → 140368_inicial ✅\n  → 140368_folio ✅\n  → 140368_corte ✅\n  → 140368_demolicion ✅\n  → 140368_caja ✅\n  → 140368_liga ✅\n  → 140368_mezcla ✅\n  → 140368_terminado ✅\n  → 140368_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140369",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140369 - 1/6/2026 (LEGACY)\n  → 140369_inicial ❌\n  → 140369_caja ❌\n  → 140369_terminado ❌",
+    "_folderId": "1La_b2wDRMcJcczuSdkMXnEWBbo7hGMJB",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMG0sKssTU6e0AqSqzWmPHhnabrsegy6QcPlp2pUjcjo__IUTEq-Z2xTacQOGkSr8Ldo3QlRHfKsfYJ9aAWAP30ojDj97DFXUcJjdQ-cTmQYrizrg=s220",
+        "view": "https://drive.google.com/file/d/1kokJu3bB-jmH8m5SwI9whPlIBNerPEbK/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJAS4T4yqFFW7NH6QKjb11uXtHJgOfDp8rkEpTTap_SFzb1lByM0fNAssR7A2JRs78WkfzlAyvkiHCex155OCowMV1PV1H7Cs0N9uNk5Iwpw7P3w=s220",
+        "view": "https://drive.google.com/file/d/1g0zAqEVPH_Crwiui1ZP-C-xgeJX_T_D3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-05vglX9vdmljRZPF0z9r8cS_gqz-zJAIKlZPOYGM83Vx_G6Mcd1epXpnRFu8-pP5I3GuaZTnAym2HZbu2a7c5-QkZUFCAvM-aw0V4JoGoQX_Jg=s220",
+        "view": "https://drive.google.com/file/d/15lA_ZapvnP-xAo3Sx6_FesMb_1p-Ddyw/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMoHKOMqnXm-pRsmEDblrCpqknK2yYicZYmXyFL729KLhwPwIzf5-jWnjCy56Sd59XfRyZkrc2twWuvR6AnrtkRAbMWa4ySNGeoP8n9bFL6_1EZUA=s220",
+        "view": "https://drive.google.com/file/d/1usVtUB8elqfd241ENraOs0ZvdImZ28Qs/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_ke3aLq5u4mhAQyWGh5nQIBsUYANkigVXlIJ_SwEZa9imFLPf1uyJhZtyb-e1BE3TDlWhNdNmlBEygl0ppKaxIARifxglIfQ4O5jylLMAv-7KEQ=s220",
+        "view": "https://drive.google.com/file/d/1N8r3dYaC7toEGGlZHaUppQoCq-PSnoru/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMUqqsywrKLBTPxzxn9UINwYelGcKbOQFvO5Hg26_kvbuum7EBhwwi7x93EspQeAxfb8G-jndfGHtbdvG48ktegDTRP4lgCE8NFNPRMOKGeM44YA=s220",
+        "view": "https://drive.google.com/file/d/1wX964FQNiO5Bqd7kQ7m_ztAP95fmYHQy/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-3gWosex-4_QhnwM3b_6_e7LCjwTish3udsdVQFvqD81B0so5MAJ9xbPrkFfolmVXckHfAK8rEdkOQ94SoiBB_DwPiBdmoQ71KjAjz6NgH717pA=s220",
+        "view": "https://drive.google.com/file/d/1vZCXKaPuP1FyBBVa2_CCZaNlaz7RUv39/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObJR2MfahTA5q0YQt2YTWGE-UEsAMzD_u6rU-05-B1M3UaZZkTX5SQTKS_hESFhhj-A0Ir0PkUZWj-QVfieBw-lQvPsASS-3G_NTC9NszeBehnkg=s220",
+        "view": "https://drive.google.com/file/d/1Cy_e2ipn4hpmzQWD9MCc3z5aNtVrdPJ2/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1kvv-JzGUKmIPWE3LU-MmsryS-k73rH0jc9TQFyiG52wuseQmlYzEQqSL_GIKLsMeSgr8kimO8VXvlcFr8CKnMZu2vGsOCsbF9vor8UTesiRdPw=s220",
+        "view": "https://drive.google.com/file/d/18eEtWUJugkAUEyQNqam416pMN2QXhwG8/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140369 - 1/6/2026 (9 FOTOS)\n  → 140369_inicial ✅\n  → 140369_folio ✅\n  → 140369_corte ✅\n  → 140369_demolicion ✅\n  → 140369_caja ✅\n  → 140369_liga ✅\n  → 140369_mezcla ✅\n  → 140369_terminado ✅\n  → 140369_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140370",
     "FECHA": "1/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140370 - 1/6/2026 (LEGACY)\n  → 140370_inicial ❌\n  → 140370_caja ❌\n  → 140370_terminado ❌",
+    "_folderId": "1vCSml_IuwWGupj6N0LzWEEqP7xkhw2Y4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNicG5GGoMKz42CCi35zYfcuRa-QTuMGQ3LK4Lh0Zk0yyKkx8e3RAqTy2qSemVFR9Q_7klmZLY6TrL0px1M5ZeGKsp26f7fRm2RZBNz50u8wEDcpg=s220",
+        "view": "https://drive.google.com/file/d/1OzDIiQReRTDv9Kje-SKyUzt6T15Ca0oq/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJ_AHZA3nMe2-W1DyYbk_RWQn7bxL_yYl-IoVb1unzTwcrZcommDIaUDnDc7QznKGTNA6KcRPoO4MBWx-XJBi1y7HUVKpZ0l8AgAu_tHMyqYiyvw=s220",
+        "view": "https://drive.google.com/file/d/1mgytgOEVxSpn-vQBoSUfBoBikxqF1lh3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfJJIvYyjSrZ2iTpoGKpb9U5Vg4Pk3MrDLCJtyFpGBPMNPMDidl-rvuxtso0zM0DM5sf-AxnZN4MFqH7IZXE-pEpDG2JrdMfhhbqJdkYSw52a-NQ=s220",
+        "view": "https://drive.google.com/file/d/1nbGIDVwU1Klme_M-g9qTfImDbGqc0e5z/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPHxJ-GhXcHxWMC028rdXJ_c_qLqIPNBVDF_-u6mt4R8bkKcLoxSjl1_D68IQqeLKTCx2WxxZqT0EWjtwNNxSC1E_hAl547jZ0tDczulKs4VN7hQQ=s220",
+        "view": "https://drive.google.com/file/d/1I1zbzyAKI5Fp2_Gb7jqraLRcEviStFPz/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmBcrsVk_tgXi4G3MExtGQ-KEtWVoAPt6uvJmsQxV37oWCPhri-02Y6GDTszKw59cVnox9kZ_OkQsVWxWUeK-PBTWDeQgrxI9lnCqeFpLrQPuNfQ=s220",
+        "view": "https://drive.google.com/file/d/1xed7_yRx4rwmk_L3ZB87FiTDr6LvhpCg/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDeHVjuZjHxxI8fNwr_v38lp6uEpqLpXGBNC6dWn2lPJl3DXmsHwkZlaCvJl1Ehdnlk4irU4UJK3-xqsQqQuJ6j7rKf7SoHlgsDILYBAkgVRxYfw=s220",
+        "view": "https://drive.google.com/file/d/1IRDa5pTaRcKLx4qi_F3IVPxUbFu5c4gu/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNMnnkwr4Btag-W9CppYRU73i86WmHy4o9LqTJiWbgF4WwA-6sWQ3Ug7UcnJQYrhYWG3PcRPWByp7Zp0sOd4ZvOv4okqAXgFZTG1S6L6QDuwOJA_Q=s220",
+        "view": "https://drive.google.com/file/d/1ZbFoqFSTare2kGCmt07woR2enV0X5I-9/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFfwJqy79aHh421rbkAB3B2LtveuU1w66hLuEPKqe8bgn6ZOzPzwEoChXKgCUNndbhAvXLhZv7zIS3VWMmhWkaLDoFD8qdjt_818TYGceaDijJBw=s220",
+        "view": "https://drive.google.com/file/d/1bYTyEAwx3vudxVWCkogLSFmKxaiS1832/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxbBjpCOlPx4jBOxVy4GsgMPbLUKlfyzwa59eLlNiUUfkBG6A-XIbrnAro0WhAvkCYBhaeImZT2IPnvHNbqG8ZJKMK8BrottvOV3UNJp-PIsusKw=s220",
+        "view": "https://drive.google.com/file/d/1LMsF93yAT8LtywQe3loi-1xhLQWC6Z3g/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140370 - 1/6/2026 (9 FOTOS)\n  → 140370_inicial ✅\n  → 140370_folio ✅\n  → 140370_corte ✅\n  → 140370_demolicion ✅\n  → 140370_caja ✅\n  → 140370_liga ✅\n  → 140370_mezcla ✅\n  → 140370_terminado ✅\n  → 140370_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140371",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140371 - 2/6/2026 (LEGACY)\n  → 140371_inicial ❌\n  → 140371_caja ❌\n  → 140371_terminado ❌",
+    "_folderId": "1a7aQlsRDMf23IPF-dTGHNpv6XQ0zAOjn",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSxbLkrTsf9dZwbfDO25jM-jjeobqQ6n6hm6C46B0UIMZOf7w7POdTrMdRPuykXkeClRYv4QrlvFnYco376z_ARp6bkX8HeagC2krcJ9SPrDr3MA=s220",
+        "view": "https://drive.google.com/file/d/1omKPI1Iwp4DUI44MqWDxlC2eQnmQNNzh/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOoHERj89dCx9N_KoH-RPrHi19Wrhe0ZLeta6-PAbeHgsTRFKxILc7lCAahqVkuj9FDkmo3Eq9vDOdQC21rIBDyiu2HQYyW94aZPG9cfH92ZXy7A=s220",
+        "view": "https://drive.google.com/file/d/1qOXxpg0QrxWG0n3jaDOh3p2Ibi5mAjgL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGhBQ2800AsjheTPkOe9U6alGlhBYCXoN5GrWq7CLDLp3mwyKTQyldUVkahxCc6lT0jmrleKtGTI3NLC0i2gxi7COu1yq6gHQngiWv1Hd2xgqjWw=s220",
+        "view": "https://drive.google.com/file/d/14RArNTVJVV6W1PGszz3JL6R6ODuigr0J/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAQYO4ho0_xCOS1WMQwScHCJyOR5PSDOHAITtKt8WEsWQE5GoeqEi9GD9DE_SY8vc6IAULSs0da1kd9OegZp1LGhsRL_VkSs2NlHgB2ox4Wx2xVQ=s220",
+        "view": "https://drive.google.com/file/d/1LcbRgf_IQHndd4QFJcFjnbEf7HEaX624/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCY70KNMlbT8e9d_ygy_Xk3D2x8MrV6_0cfREI3LP6dEOzzC5xxXqOI7aTBEngw_jWjCnQ_KHiJLVJ94oZNaUVGqLXUTyfq7FYHL3ulED6NRzywA=s220",
+        "view": "https://drive.google.com/file/d/1oOGpRuM4_dSUk0kHNhxsWtF-_z3Krwhu/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMIPfkFcG_3ExbGUZ6w6qZsLSIrNZB2yQ9Go0kz6yBuazNWMluGENGhBp6F3hVTB4LA72rHsay22GMeJ64zpoGRj_DMYKIloHxFu9ZeMs_KW7_pA=s220",
+        "view": "https://drive.google.com/file/d/1T3Ek6FuUOdHjiuCmattmHThRBS9EGZD8/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_56W35xECqJXxbZvRmFkFcVb9Wa9LSV1JoZqGdqTws5zFRDz4XA9WNO1lBA9n5LcGkWDtt7LyxbiGpLxhw1vYjbNzMmJyI6E-564wgm_wiujakQ=s220",
+        "view": "https://drive.google.com/file/d/1PxK7EQ25NakvoPflkxnmNK1qFV8Ctk6u/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPlGo7s4cbZ4u4SPTbIZETjg0L8mpOTtmwg09zwbCstr6jcbHc2tG-Wk-IRHnuQJDOtUsDBsQCGAwJlF3tTg9jHafZyGSh-LHr-JYy1P2H_rwE8Q=s220",
+        "view": "https://drive.google.com/file/d/167eyHBsWnoM-1Z4x_nFRmQHiMv1_UEx_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN09VRJ6dyZzrZoP_hXO1R9ecRAJSuFMC_lNBuk8Ge0s9Fo4llDwX5MFgp4ZSBtoaJv_gozOWCy3SbqJu3f9QxQ055h0cU76By2UGx0AJsBwYp7gA=s220",
+        "view": "https://drive.google.com/file/d/112-cYk3cnEoDubMTcYctNY3PFFcOZeFB/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140371 - 2/6/2026 (9 FOTOS)\n  → 140371_inicial ✅\n  → 140371_folio ✅\n  → 140371_corte ✅\n  → 140371_demolicion ✅\n  → 140371_caja ✅\n  → 140371_liga ✅\n  → 140371_mezcla ✅\n  → 140371_terminado ✅\n  → 140371_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140372",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140372 - 2/6/2026 (LEGACY)\n  → 140372_inicial ❌\n  → 140372_caja ❌\n  → 140372_terminado ❌",
+    "_folderId": "1CD2F-Pm2vBN-cVsjfpXHRnyE-Z0XUCOX",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOI1UhPKDSQSSy9344Y36EvLtmVMpTuzYMCxV7XWhOMmgP713P3Tg4kFoJav9SqXUvzDxX2eRWoMmj6DQJesvWtM9_sleJmQu8RSF6NHshtsHWwhg=s220",
+        "view": "https://drive.google.com/file/d/1KJdVjPW1j09i8ejwCVlvDkyoxpR6J7o4/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0HnpxWSRq6Prt4DGD-7z6EA7nCdCJt8jlgEynEOBFlX-iHcoq115bDSPxuFPKpWM4jHepZynqLZKr5OA7dj1ooIkZKiyv5C0pNKlmF7FFAs4qqg=s220",
+        "view": "https://drive.google.com/file/d/1zLnjQZjokBMsU3I1J0SaGe6MYfJkleEf/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN6VBP868326kbKcLzRSb5AAELqTaJvLurjjrR3TJmktKEBPzV2RrmwBKCRrs2Zxb_kTfCbt5c67zNAkqWxti-AE5znBhu8CQel27fFMu56B5tlZQ=s220",
+        "view": "https://drive.google.com/file/d/1m0Cv27q3QlL9RFzZj9YXzWEjFvWlK9pD/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_XcK7OpM_YJnRHRcEVpvsspvnwSgVlugdve1BnXBuD2MymqCzaVV7FBVaJx2kKMlC_7kJMJDnTldToSKwkqewDV0p7QeDVXXuk2l9OMNa10Pm2g=s220",
+        "view": "https://drive.google.com/file/d/1b4XuL6qiynvJYjcsFuyc-JFjSj04oZRY/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyAiwXREDsIU09Fx4Gd1zDTRmUcmidP7-atwb-JesJbK-vgqboIdg2IOW6TqjGNMbh_d9sEDg3njsAdMDxfv4vlOLezyzWWQztcuIDeKiUrQF8FA=s220",
+        "view": "https://drive.google.com/file/d/1bD-kco0VLyskWIBpvBVDNgzNngV0Fz6q/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWj8AoThSlJk5tAYa27UM3y7-kpi67tZ_k8fu6tSJlfuP_y2riB_xY47mWYLtexp1G3pNvYuRUtvhmXxm8EeUF_itr7n-6CjwjAqBJ2G_fCfe_rg=s220",
+        "view": "https://drive.google.com/file/d/1EM8Mx37c47Wv6-JtrJNhPIR0m77GzSow/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLyjtW2PzBhyRvrrIH8eOPQYQYK-IMiO1FS-Sog3-hGZ7TIsdBljddbWPHNQ0O2tAVlLmBDaWouFAklmoEKk7r7dAFYgXNDMPC5flj7CvxUCv5BQ=s220",
+        "view": "https://drive.google.com/file/d/1wz6YokY9dHUSPl2320w1-uRSyF3HaESx/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLpUSsWYv6WCZzfBEC7pbl9E2vqvyDNU3_P77qQPzbYVkSa9bfmpzEsHouuxh5X1Doyyhmsow61fNNHYiOA1Xvc8lw8AHX-VYieJ16wJpy43br4A=s220",
+        "view": "https://drive.google.com/file/d/1eOISiyzhoPh1-YWqLifZzk9ayGQnh1Si/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPs25tPDW83qBw5oN79zWkK5yCTn9ceSJrL3663_af0rk4BhkME-XaNUcxSRFzXTopLv7kj1sOgd4dgLFv40H0AE7sC6c7qY86L_hTbYJGh68GwAw=s220",
+        "view": "https://drive.google.com/file/d/1a1ZtlI3G_Zm33R_tQfGfHsat2SD299Pz/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140372 - 2/6/2026 (9 FOTOS)\n  → 140372_inicial ✅\n  → 140372_folio ✅\n  → 140372_corte ✅\n  → 140372_demolicion ✅\n  → 140372_caja ✅\n  → 140372_liga ✅\n  → 140372_mezcla ✅\n  → 140372_terminado ✅\n  → 140372_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140373",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "SEMINARIO TERCERA SECCION",
     "DELEGACION": "SEMINARIO CONCILIAR",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140373 - 2/6/2026 (LEGACY)\n  → 140373_inicial ❌\n  → 140373_caja ❌\n  → 140373_terminado ❌",
+    "_folderId": "1AXnJNoliFCnPkivENda1fpNNBiumXIHq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMvcZkZipQfHTR2LcAmIbYpVlunUA0C6FTCxVnrDjCCFILJR64FxuoCJIHGkoKeFwkBeuXhYAyaBiD0FIuBQ6lJlH8UiHbb2_QfMoByBrLi9rnCZA=s220",
+        "view": "https://drive.google.com/file/d/158h7k9cM0r41a3HWw8a8oLnRrg_X1tIn/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2HaEd9S9WD5ERsKbVxlkcOH9kXcZ49MSA1OaIOhNzJOnOHwu5Sc50TcizDsfhij8TNdHJz-HmfxMd3WFF0yKTSCidB4pWY_ZuEWwIT9JIytBHcQ=s220",
+        "view": "https://drive.google.com/file/d/1oEeAj5lG073O0ZkuLXj5uidID-LmYVH7/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq-0erSSXJGxWW3qfbUiZlZtvxUzsYgYRp3RgX8WO4ob0iiQmQBi_PLhrvcJH0YH6Onvkt3tjwKM5EYdq-iqB5h_Kk4c8EJ_eJU_u3eUKsmZo9PQ=s220",
+        "view": "https://drive.google.com/file/d/1YFsBCsTuSeAibzxK-o2um-ZOUEacpyi0/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK87Ve7Gliv7kJjdpG97LLumnvhuHeBbsZrRACF6o15DZoHPohfCazyRP7iayhhm9lmXl6cLysztzju55eFGTlXkudf6KHONrTbbT_klkJ31_aAw=s220",
+        "view": "https://drive.google.com/file/d/1AEjfBOtwyNvG_1aUQO6lT7Q0PSoftXw2/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNO1gLZU75xjeXLZiePCm7VVAQqTBqF8axz1bp9TK5nAFpZm_Gz2UKxwRrbmtJ-RjYmw9ZtHoi4eFXbQtI_LZvkJnEDvwX23HyxJqEkO14YxlFK3A=s220",
+        "view": "https://drive.google.com/file/d/1RAT9VosWcjVEtOHWKv8awfaN5VR4iZUz/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxSWCjJli7AR1Sw7RVQlNsGlh0rk7XcXPN2y0w3vPYPPwi1A-sgX1nFiEVy9m0j0r6VCMBxTmGBCy8d44WNnbwxD66Nr2zjNiJ3aDinwIICIvEgQ=s220",
+        "view": "https://drive.google.com/file/d/1sGIkzr9ill5etJ12zU7Xu01ZmwypGuzm/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNyqYqGAJFbm8w7kFR5-0_jb15rdxHnoSADmrKRE47Ru8kpSSWVc33_QpQ4drWdNXN_OvcMJ6JHsMWB42cEww44J2EAYntK1pTyFox1wUgQkb4mRg=s220",
+        "view": "https://drive.google.com/file/d/1hFicPNODrzjSQg4GmvVsOJcujy8vOtin/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNblZVkErvnKEJenLqRS_2jvXhPFWGBzRCxG2rZyhIEFnqsLYmHLzSrD28yVEEYMLNdaOpYfiBi4RpjOD7rTMBmgJuYpoFVqwDQZ7kCD8S1OpjRCw=s220",
+        "view": "https://drive.google.com/file/d/1bow6N3OpM3foU-qznXmDj2aFZYucTwyB/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPXM00XUqHCf_dmKOtXjb3tjhbHw5FlbK1rggf03aSn_kNy-7297u9wxrLSuWWMTLYm_-ChWwjLH-ZeKD1jvVYYEKrKZzOKByGvyAqUiBFY4BgsTA=s220",
+        "view": "https://drive.google.com/file/d/1gaNWx2txV7f_hHNYFNOxuqk89kIceUhx/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140373 - 2/6/2026 (9 FOTOS)\n  → 140373_inicial ✅\n  → 140373_folio ✅\n  → 140373_corte ✅\n  → 140373_demolicion ✅\n  → 140373_caja ✅\n  → 140373_liga ✅\n  → 140373_mezcla ✅\n  → 140373_terminado ✅\n  → 140373_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140374",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140374 - 2/6/2026 (LEGACY)\n  → 140374_inicial ❌\n  → 140374_caja ❌\n  → 140374_terminado ❌",
+    "_folderId": "1Zez0lnE2DR2TwjqXyTB2sC_TQCv4BQyd",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO30HnJsFV0AbAstGlE1wy08EIDeaDq4nqRps4PanRYJJuhoNn9lpvMOx0B0cGpl-ZYJk2cyA8whHukV63NeRl_if0mmDb81-l-YqSc1dBsmUDmcQ=s220",
+        "view": "https://drive.google.com/file/d/1BpPPLXbBlqQOggJXsr4YyLnenSNQ8OuJ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObYQrrv31bR4ZgxG6xsdzBT6FGkTvYtJFTFHQ7BjbVstQ2ewUDCPOCnHcurW1-ImklcsGRR9WHa4Mxt85lPzDwjEYbiu1Bv_S944aJRnk8lcOJrw=s220",
+        "view": "https://drive.google.com/file/d/1kRFtoi9SPLGbirkQyALQ8D-9w5tnmISD/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5OYqv52vzR0yA2xGc-7aF1mRqMqKBtkLHKHVZx3eDcRgzLrKHo6yAlGh-G9LuhwddWOuTA-tgXISuISrQLWFdIBMcXeYk96cqLfX72e4oyhsnAw=s220",
+        "view": "https://drive.google.com/file/d/1Q4IUOVU8o6jGMgodJtPJv6q0A_efCXMG/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaYtBq5aMzwT5QIYBJ-TTGCiENFHkZgtU4R-p0RdH9Mn1EDrNFOytBxGFvQGFtA8MNmR1vzlRAMbUGGjX1PL8Nh6JwJTCEP9KjESEJidb6IE_XHQ=s220",
+        "view": "https://drive.google.com/file/d/1dSWSP9DYbp0vcZK-w5jiMUDZhvQz5oim/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN9ccYrM_uyBzGeLTiH0IjKRorpVTMVmJPXAUNPZ0J-fs5bNXu3PaYiauNXizhtPTE3UWupKWqMO4D5PB5itwqCeNP5KScfPRE92piE3AjYudA75Q=s220",
+        "view": "https://drive.google.com/file/d/1a943p1VTrFnO6tikLhPSrBjy3tygHZcz/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO29LKwNyX_yFQTe9thot7BaoTIXtx3Zn34G5UILm5KK6t6FtsyXtryWfooqhs0C90OcfIb5qp3iua5X_VAIvPT52wUaqT638TEojBERjJ9wL111g=s220",
+        "view": "https://drive.google.com/file/d/1EhJIvxYEGyDXoaJRVQ6adaAyA6Y0qBjc/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHZub8vuigX-XBEfBhAA12ttwKKKTNKGXwzym8HPJqK-pikBJNTx3d4HXM3SPS16lwbU3lmwqm0Ktl9mnfUESosyMUdgd-EGuOGWQ2UkIhTXf2FQ=s220",
+        "view": "https://drive.google.com/file/d/1aLoOU72-WLgoFLCyINVpgsXZZ_Q8IUfL/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIV5FCd31tqhJzs_S1ByhjGJwtwdzgvWVf5__8yteFvaCwgeNtLtoVIU5Qwd7aNysMe5Fa9CCVxjVfjr9iLlEX5QOhVWGDGzUkibSd169SnJHI9A=s220",
+        "view": "https://drive.google.com/file/d/1XLyIoeBKcEigbSwFkXJb5P215OsG_gr3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMCABwgx4qyrYsjN0o_kHXtXYL0O9SWXgHaDQKX0Wk13g_xDsU1q3CszBdgtxjqp0n315X74UkEAYpUqYpK26VPz4cKxiy9S_V0VWlbBoa_bsuUgQ=s220",
+        "view": "https://drive.google.com/file/d/1BO4DFdQqTo4auBZCmPTAUoVjqjkjI-ig/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140374 - 2/6/2026 (9 FOTOS)\n  → 140374_inicial ✅\n  → 140374_folio ✅\n  → 140374_corte ✅\n  → 140374_demolicion ✅\n  → 140374_caja ✅\n  → 140374_liga ✅\n  → 140374_mezcla ✅\n  → 140374_terminado ✅\n  → 140374_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140375",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140375 - 2/6/2026 (LEGACY)\n  → 140375_inicial ❌\n  → 140375_caja ❌\n  → 140375_terminado ❌",
+    "_folderId": "1MQ5HCJmR0wKaXCsTztsnOdq0hyY7YBdg",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM9N8iEHFghAI9dVKscncvnVNO2K7JDFCyEALieyxxgbM9jnhBDqAOjSfNz4iGIwFE5r_UTTh-DW1Rh8HXPJXaIy0LR9MALVag0hzLaWJoCr99yHQ=s220",
+        "view": "https://drive.google.com/file/d/1xWOb561PIY_dT3e19_xY3NXpG9g-kiKc/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9cgKJeLokO4gZmEYJl3AVdrx24nYYIgfq_9mjx51JTghmf0DgkITrbMU7SuTalB-Vswn16ftITjVHmFlV4KC9IO3x0PBFBnapCXEx960MsCrxYA=s220",
+        "view": "https://drive.google.com/file/d/114obgVj9vkmOCYJoLSp4TVyG5uy_Sacj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBODHW0MHd6Ee7EllB4kuKolDDPfBh0HNgPFCwAkpBXwnlwpgPM9_ohTAIi1du1a4GoAXPZHNJWG07ydHywN04HgdOtw6gBIECfsQ1x-OAXsvvtNVg=s220",
+        "view": "https://drive.google.com/file/d/19dMD70na5orwAAzMuVqWyz-NOfOI3nJc/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRtfjFrb3Nj2Z4kHC0zrkYD9G41YzIvplDM8gan4MUUsGcXwo6ToagaBZa5aJHLDnsB35yJ4POiNkcKOnJutI9VprnWyxPN63YKzN0ZZdz6sOynA=s220",
+        "view": "https://drive.google.com/file/d/1uO5oybNYWUUY-i1721eNH731Yy2whIiZ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMG3zmbiDitvEO26yFuGrVBJJ8Cx781gST7hIFBNoEFblIwQ5Q8q2telPxS_0UxeWTG4GaR-Zky9yB4mxoH84muqhZXy5WgV7Mg5laKLDlERpEVhw=s220",
+        "view": "https://drive.google.com/file/d/1wnkpugYPO0g0e1cTD3JEBnEvEQNDqGeo/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqAUpfYMMWditOCYgcmsy0pFDrKo3cJ5Sde1gI4X7XkxMoLjm4e-PsdLYpM-yE0wftYzsreKNv5WSIpJJybOycPYilTcSEwliU1jbOoRS0CtZoBg=s220",
+        "view": "https://drive.google.com/file/d/1qG2i3JqvAWlj1PfADyQdUSdf1XPKr6ym/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqFRiH3YdGXq0xz-YlV3okCLpNP1O8w8Zb4zx5UivWaobGxl1Pny7jVEF2xnpK_MwjSr0x3ksg3jDwcXvH-IPXrBlS0hPxYWxQwnogqENHd43-og=s220",
+        "view": "https://drive.google.com/file/d/1ZPGGOq-Bz4RI5SwRciGX3ZxB8-VT8etk/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkyoRlbcTRnHwepQN0CXrUeVIoyB-HUzuPhvdyLdmDPnr2RsNGUAs9Gf8LwsVhYpY1sluKaZ4NK2gtUFG5m0obk1LIcNOxmAqh4AsshgKHSnCLkw=s220",
+        "view": "https://drive.google.com/file/d/1xFQ4KPDvJS4-QOZxPWnaFJYi6PSAlcWl/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWSrlL7ziKfHOJ-Gj3hVQNDeKjnCHdaxpt9mUId4eK_mx0YJQxTBm36bFpLijzhrjKOb_hle8UMKSOZEEtz8-bGQvSk4icyDYF4zw0V9QFkRVEgA=s220",
+        "view": "https://drive.google.com/file/d/1CNga-rcalIY1N3CRfDK48lGR2_Y5kJbo/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140375 - 2/6/2026 (9 FOTOS)\n  → 140375_inicial ✅\n  → 140375_folio ✅\n  → 140375_corte ✅\n  → 140375_demolicion ✅\n  → 140375_caja ✅\n  → 140375_liga ✅\n  → 140375_mezcla ✅\n  → 140375_terminado ✅\n  → 140375_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140376",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140376 - 2/6/2026 (LEGACY)\n  → 140376_inicial ❌\n  → 140376_caja ❌\n  → 140376_terminado ❌",
+    "_folderId": "11BIWXnygxKlH4w_dr0nWVO8Q_wLA7QGz",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJbA2yqzoUaUySoEXeVYbjo2QrfLrbHvczXoIoYGEDrISs3M135I73d-3M2jno9WTIHvfO5yw4kkTKOgVl0lJvnb3MLZfoChTphg54mm8tzDrYIw=s220",
+        "view": "https://drive.google.com/file/d/1I4RjZVo8soNYTVO2ceEbisdLqPIWsRvy/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPPbBgsR_4Xy7JrAdLVIFvVb7LWh3q1Jd5_efkssNEqohJO3DKgAVo16grcOoT7x3ImiyRxguiL8Kscowd25auJg7PWcN5V__u8knbr78kiC_-Bw=s220",
+        "view": "https://drive.google.com/file/d/1fx0VIaDlT0W3uBqyEZISByQkzLHnwmQX/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnMF_sBvO5c04j7xH5GZxv0I9K6XTXCfJozPqG2ibqMTWIxf5_7lpUHNRlIIzq_hPiOZng5_QcVB5p6OFNBe22tau4JJMgbcmVQ29cZCbVXf02mQ=s220",
+        "view": "https://drive.google.com/file/d/1ptMXyGu3TvOhDYeW_yvQ9KapG2dr4wkz/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYgZ56Bw4Vj8txBA_9HJzkZD1bfLXQ8YWuyChxSN8DdUmXMvVVkBKCOQ_-dVMvDA_h6vaaOjhA9yJy3sge8QZeSa1qhcooVF1k8nw3M0ZauxBFUA=s220",
+        "view": "https://drive.google.com/file/d/1FwJ7-Rg_PuWgUB2RzYMF_JEK5WE0nWc6/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMqvtFrAXO37IlO3i79ztnsttHrQoGn5VCyho7ljJGG2GHORHj3AAabs5E8tmJHEu-FC6Dz0nc-dtgyyYyGDVZfWtrEH_tZssc9Pkl1SAMYGic55g=s220",
+        "view": "https://drive.google.com/file/d/1VkXr2buVTvFdMMaC9nUD6xCPeSSy1-2J/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzmlmxyTIUdsmCxNG4wih3HDxKAJ-M_kORbGVEe4v2mdD0GB81upMA1xyZOfNRJ-GSZZmh0uuwidR472kPS3jCpWM68rcdP50jzFESBMNzK_Ym7A=s220",
+        "view": "https://drive.google.com/file/d/1fgQR3AqLCkTbaNleGmxx13cLtolMooND/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMnD2v_jnMo6hQk6zFg744vxnM0nl6l8gTwqcszZ6-Ak0wWLgYSmdB9rRDTv6xPRYusE10ONTA_4weqDz2Zy-R_k3hfSV-W5GPa8H2a48pOTze6iQ=s220",
+        "view": "https://drive.google.com/file/d/1crS0V9yyXswqVPNjmM-JFsOt9nPXgPwt/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOMMzz86u_T_Jz6uGbKUJ_L4IQ874lgbaONHF_4f1tH9q93_Mgo_gycbo5WuqwjIjL0srApHTW2KhiCvq8rU_2TQ-JnN7EJFOUw3rL7vUb3u7z3NQ=s220",
+        "view": "https://drive.google.com/file/d/1MnUwAV0ho1GJUTuAfEe8WsmhHx_HiQ5-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOg49zGa3YMY6qysO6Pa3npduPtHBgmwBb1uPpLICevdA35X6DFIjayH0CTF9lXXM7rIpahPrKxnK1UfRYGnW-buJ2ejL1oHyc5HJ5mc9kTeFBARA=s220",
+        "view": "https://drive.google.com/file/d/12eQyiFJzNQ7BUuNJNYWykklcHSF6jc1E/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140376 - 2/6/2026 (9 FOTOS)\n  → 140376_inicial ✅\n  → 140376_folio ✅\n  → 140376_corte ✅\n  → 140376_demolicion ✅\n  → 140376_caja ✅\n  → 140376_liga ✅\n  → 140376_mezcla ✅\n  → 140376_terminado ✅\n  → 140376_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140377",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140377 - 2/6/2026 (LEGACY)\n  → 140377_inicial ❌\n  → 140377_caja ❌\n  → 140377_terminado ❌",
+    "_folderId": "1D2kgtcMLHMHHC_7DpOUUdEn_Y6IAeL5q",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN0CNOJZ04XnB1hJ21o27v6axdDpXP6oNKXufrnwbW3Z7wN0ndxYLhWYiSIvxQK-wcr2aqFgaDFWKkxyqMvkiV0NI-3p_UowHXwkdV80HFBnpuCjw=s220",
+        "view": "https://drive.google.com/file/d/1fdivTDdIgEJ-TOFCtNL25b0gKj-lLO3X/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjDP0WayBF0fLeh700FXnPgxdzw7zEvwAREvgroC-rrKkp_zk1k_nUVh4f6DRq4IwH8zXgGYFqLSpGk8pO1IFvTus3Js3eLazTI655HtWkFOXLCg=s220",
+        "view": "https://drive.google.com/file/d/1jmDKZxal1PPJfADJRmlavbzBw_PyuXcs/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOaoJQl9Drbluw73XX_cdFzcZFdjr6fbaMA68xKawu3hmqYOG3r-0v-_pvf8oO6CSqFa1q0cfZ49bBxGfjmFfF1aNLkLtNtGDaCzEl9gAJOcsMbew=s220",
+        "view": "https://drive.google.com/file/d/1FRZnIxooXNM0PYEzDdryB7i7f4dD64c_/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNbewgCip9qsBb_mYyab3qFKFHfPAtZCnQ3XMWUerTofTQvxjvFcucijekvftz64M5NYjHMjQJpRyvHrmweTAaAk_dJkG8jTTWf79bTsMG75xIrMg=s220",
+        "view": "https://drive.google.com/file/d/1sCDgBsjVqO-wGmNMJbEBFPfYPcMmI1NQ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM47xj9SQB77wclKhwxStf4HbczfbDqILcMkGeGY8NgqLg8OpnEhKaq7nwdo92jy8KcsnAwOnkgd9nWw6cB9d4eFbk65ZpdKOjEq82SHZwK_XglPw=s220",
+        "view": "https://drive.google.com/file/d/1LhezxeQkcrCJJrPDIPqOxXY6Zf98sOOb/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxxfywqGrD4_yUgqLCFHAPUwqZvO4Ato8TkP9GZ127hBqh3_wcuUeBG2Oq1-TM6Bf-jF-vVG01eWl8krmEAZiID01EWypvIC3GqaPc4XPtSxcdFA=s220",
+        "view": "https://drive.google.com/file/d/1WvxVcYdAfeQyDod9lajL4HBheKE1k3l1/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORepGHEBKhUdd-lkRZf5-v4K-zLj65FAZCnQYthzWuXEHy2bfcOIKsUpup8SJcP4CzV5KNhySR8xlYaE0lXmr1ys-nXlYN4ax5yNTxAcq3LT8bzA=s220",
+        "view": "https://drive.google.com/file/d/1h84M2XSi9lF10EQ9_dFqhgO-29LpxUkK/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMiQVHbnROnVCmC9eXuRSAoabiX0_-b5vfsqomTYgoYuntM2o_JNcYVnO6pknufbt1BPGDMT4yU6F7xtxw1xD5N4aP1WN06VJX-G57ZmLQuU3wHYg=s220",
+        "view": "https://drive.google.com/file/d/1pJFtr9SC1kTcYSQcZaXwneoR9mHnM9hF/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN43GMMV6u6m-SMxN8tk8Q9SzYqvbX30vs5qzVKxnxtUBh6TpJLAvspjfHw0rwZj0u5GT5ALs5GcS0vrZzDTjtDMuHo2b8QBFlFUaC2UcWWJL_TfA=s220",
+        "view": "https://drive.google.com/file/d/1kDppw0h96MdTsdYKgvAvSJeM-q6v3IWT/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140377 - 2/6/2026 (9 FOTOS)\n  → 140377_inicial ✅\n  → 140377_folio ✅\n  → 140377_corte ✅\n  → 140377_demolicion ✅\n  → 140377_caja ✅\n  → 140377_liga ✅\n  → 140377_mezcla ✅\n  → 140377_terminado ✅\n  → 140377_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140378",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140378 - 2/6/2026 (LEGACY)\n  → 140378_inicial ❌\n  → 140378_caja ❌\n  → 140378_terminado ❌",
+    "_folderId": "1MMwQKzcXG8QK8zN7UPBc6-ZkHUibzax9",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWDUbBVeeqDoMMZwnYmHtXnOTptPPHAuuHd83TM948c5G-FfVSUMKP052HJP-n5b052Grok8Z8QrfiL4ej5PqwSOPmhlLg3IFQi81RM-MeAGZlug=s220",
+        "view": "https://drive.google.com/file/d/1g0tHcF9MFHcV4FvwtUp3OaFDCVpGU6Ul/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5O8AcOFJ5-H5yDeSEEVAwdguEPTzUEI3yd01oQDuJ-axVOYZUXDyJrSg7ByTajOZbuo1jG6D1r5NnhKcSVyY7wTy7hvip_6h0g1Fazv8V1m3QDQ=s220",
+        "view": "https://drive.google.com/file/d/1F8lclvvFUIBF04MDwahTaKMEK2iDB0D_/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAtpijVQtgvDuQjVi_BsYj9ZoMHkTw6S16-_eNW-2j4wvY6EOGGrAKsqqQVgLhe_sAZll9qPyxq5yD8z8zkZf9G4B7gr67BIMzyaZERNRr7xoQnQ=s220",
+        "view": "https://drive.google.com/file/d/1OC6FQaOXuKv2lstHGmKjkJreh49UZadO/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNJ075KxlgQ5_GvfjYN6kY_QBZVeKlWuUHdGnPMgFrNU3KFE3vSKXGyspY2uJIxBXW5CIEliNFnjwMwJG45JPFZF6bYse1V3jTrIss4KFcP7HKthA=s220",
+        "view": "https://drive.google.com/file/d/15qtK2N6KXn_mnyxA34i0-QySP4Brljq6/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNN2noPxP3E4LjJoVL8aUpCIt8rKtYReHTkGakwDPKqn3FUuyZl9DRdcMTfQDwqqkjrZbJfSrkZKM4ZChhFAXk8EW9o3lsKr4ObeB9hsfAsNLaowQ=s220",
+        "view": "https://drive.google.com/file/d/1gfDYG9VxYjEysGr3k3flkZxWDnP8AkZ4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM--wudh-7L72UZi5wDBMPSkXwIdHeo3sYkLeDCGkm1HV7zaEVyKsolA-eIZFvNYYvdkE0w8CPGMEXczbvLWqyJAcgAfDc_Xu-mk_YfgTcAMXQpXg=s220",
+        "view": "https://drive.google.com/file/d/18UCU2FyF_bWHQ6kYoWpKBQZhgSmHwc5T/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-c9mMqVzkrhz_KMHLFxQ5ZOTAI5rLfT_sdR40r6EFNSNVptpSTY8Bje3pV3Ux9OTDB-2Vn2KDbF0cOcPw2utQYpz9xGex9kijOar4S3BVDB-WlA=s220",
+        "view": "https://drive.google.com/file/d/1IaChIArGArLqYttzPEiUDXnlpEqLsufQ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMPNCAWRk9FjwBDSwDMdTd52iIK16f0g5Zqj3SuUVZZJI2_4BGxl-rHp76J2L1HSY1g-5YUY85FHNswwmf2RV894awxfkqhBOOKM52dFgS2veCpSg=s220",
+        "view": "https://drive.google.com/file/d/1HgOgsSq7dngFcp-2GueFthR9zTSjcihd/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrAQ7Gw6TvwS9wgC9gEm6MqiKlDb8IUv4_PgM7GFCzytVbPP9jyuDZ_cXC5DRansHh3Mn6AJcDclKSHMSxkBMkKhqmJTNZH-k_ZKkVWZw1rPhVkg=s220",
+        "view": "https://drive.google.com/file/d/1hx34QHGNFtbW_fPeO0a9KPRgJOHRWa6o/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140378 - 2/6/2026 (9 FOTOS)\n  → 140378_inicial ✅\n  → 140378_folio ✅\n  → 140378_corte ✅\n  → 140378_demolicion ✅\n  → 140378_caja ✅\n  → 140378_liga ✅\n  → 140378_mezcla ✅\n  → 140378_terminado ✅\n  → 140378_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140379",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140379 - 2/6/2026 (LEGACY)\n  → 140379_inicial ❌\n  → 140379_caja ❌\n  → 140379_terminado ❌",
+    "_folderId": "1bIHhq7ES9yVGfLxIIfQjv_xHyLO6jL47",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObUrloNHWC2nMv5-8x6m1t2seMM6s3diGVpscm06Ea2AfzFr6QEVxZcSC6psrWTwGG6J4ARRlpL3ILyhf_JgIXbtoz4t3kc1kmeWxHOwS4mg0DUg=s220",
+        "view": "https://drive.google.com/file/d/1hePRD0Y5CmGXwJxjA8ZrKHVUPT8204iE/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObH-0N1hzAJ_iub95_mR3jgVYX4LbnWEGeTe8H33qjao4Jzo_xUYP8HUO9iLfgM4PtvJfvRmV6tYw6cN6FdwoVUuqpFDhf9srHEL8tv3FFI7DiCg=s220",
+        "view": "https://drive.google.com/file/d/1wm4pYP-6m8iA8cs8pXQMOwASa_DSEiVz/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN4enLGeAUsAwisKwJSfPgZK1amZAsLExnGsAp6sbWgkBZpW-OEHggxMnNaXU7IYbpfnb3D_b80oMyrnsj5CGwceeRiKZc-OPfAWLGl-sI9HZ41Cg=s220",
+        "view": "https://drive.google.com/file/d/1mJpVdjcAKq-ZWd3zeN__wXk_h7meNj7I/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOcH7t_vsAE8pgKiF0y4uQBJTLP14FSAQhshObZ0pDAwAD1GprtmmSUAZ-Hr4S545vn70V0rq3gleQmgdWDw-rCOhJ-g_a3qn1BaX1AzWOx6q9sQ=s220",
+        "view": "https://drive.google.com/file/d/1NMgY6Mqq8zPMmp9XJS2LMsVtf212wfkq/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiAeLi4Y2xzuylzcOs9E-8IMTazU7wOq1z8Eu7Dj76PQ-Tl-gMPNRz6e2Ct4zKmgSLf_Eaql0mHax8wGyPsYq17M0_3NhLhugtB7hlpeNNI7VVQw=s220",
+        "view": "https://drive.google.com/file/d/1jOIbK9TIlTBW11zxjfejlvHX9Qcq6lv4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO97ddI-XmREWitLTxn83Ua6TAWfEtNIHwYMRERxpie4poSg0ScElwiKZZnAmo49raF-K7OKWnxhd7MrmO7j9cKmOndzNCYnLyhalNjX0yWq9YdGQ=s220",
+        "view": "https://drive.google.com/file/d/1hEvycfXaopi3rDR6oS2csGYwhsbvKD4C/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlqBzGq6Czhi0r4pISsDWjQOgFoSA9KtyDwFlwU6zA6_niZ5Ch5qFrfY0r1jcbdSAXhwQX9B5NY8KHZ4Q-P4sDKv1vkU6na8qbgPvaTnx6WV4z3w=s220",
+        "view": "https://drive.google.com/file/d/1AhbDEA_aa27SMqJ80NYMAB67N47wsbNW/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNOL6nG2-9PjF8BFfLX0ULTkQZIdUlRCLJNTfxexkGXHWTTFqwgUNPXNKj1FibK5zCx-amNh4ErLymafblUEXMZzWcZEgAYZAYZfN0bcMvNd0FCWQ=s220",
+        "view": "https://drive.google.com/file/d/1S56zSN0IDZb9cKdx7ZcRBcDsG5TAoX_V/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLy50AJyFw55nYgHLNWJ_i1oAk3OgMG49A2ZOtTezOU4r-jzp4HSo06lpkEIw4BPF-aL5COdtbPBP2XXWY8kRBHJhrs8MUSKFZ0uCa7fr1icwnUA=s220",
+        "view": "https://drive.google.com/file/d/1LXg-OpSdLBZNIdNhf5m1Cnr2X9VyarGY/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140379 - 2/6/2026 (9 FOTOS)\n  → 140379_inicial ✅\n  → 140379_folio ✅\n  → 140379_corte ✅\n  → 140379_demolicion ✅\n  → 140379_caja ✅\n  → 140379_liga ✅\n  → 140379_mezcla ✅\n  → 140379_terminado ✅\n  → 140379_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140380",
     "FECHA": "2/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LAGUNA DE TLACHALOYA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140380 - 2/6/2026 (LEGACY)\n  → 140380_inicial ❌\n  → 140380_caja ❌\n  → 140380_terminado ❌",
+    "_folderId": "11HSAx7iOQZPwJmM99de5C8Jr0-esEXol",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONLXjiEGq1oKIXZPxL1UkDr7__haCSNzWwV59ZAno2OMhLmQfMgfbiTOIt4gGniQIIihHLjpkPvjL0uG-Dz6H5PCfJKYdn2Pr6f3LJ7TCs0zi_jVY=s220",
+        "view": "https://drive.google.com/file/d/1x8F7b8jQeLO3YBrhxuG4oTrpK3Ad-OgK/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNWLfCxZufBWLMse0sI9lJx66hymHoUv8fDsLfv-S9kFulDoGhTnLLPYufYQk8qZNkto2m6p2exjndNJN2rrML3sCBlJmfOukLV6mQ9t7CG4tyAUSc=s220",
+        "view": "https://drive.google.com/file/d/18n91gzeaEm2XIxA0GUliLnSH3-fzGDlc/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHzL2_cIKH8cr4pCi2RrQlW0j0Gzlqh-V1dIG8O8XT2rftUp84z0u5LdZnLcadQTrCrV7SsJm7bA2vSfjZHX_m-3fCpIhY8vFBvh-2NeKDb9ZaXlM=s220",
+        "view": "https://drive.google.com/file/d/1SugkP6ELHQxQyCwDV8wYCsr8D_oLAdbU/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHYOeRqKrx9a2Wsygh6xU-7ay4ESjDc4diL0ju5k5xbpaIZQe7jBUe1Ffmhe0ddUYKVRV8O3RBGBHUYsCd4Cz5jpBsbKQR2jppOF0MA5O1NiE43oA=s220",
+        "view": "https://drive.google.com/file/d/1fBPv6x1S60ygtOb6EiOajgZEFbyaw20U/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_N7XW78smwHh7B5eK02XFJWDXksCQXWSIy4NqL00AqZn_UHMVAS_JxDLCrLaGJh78FBKgFRlaJLqNqHM56xaJRo-ZY2Jz-4DOdO8k4-b0Ezl8GBo=s220",
+        "view": "https://drive.google.com/file/d/19MCt-GH0ho5IONAOdvVZv1JoFjbKcopi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNM6UtETYdeVr41sZAdyVIQMrhwf6OJnxhEZsHtxzR8r09ZwO5o457EtRd8Zt4oXT7Ezz76Y2e0CNZcxqrYqmCsU0vjbP5yWpWJwWfRFcvwBw-rvro=s220",
+        "view": "https://drive.google.com/file/d/1uGVCSwUG-B0rNEuHaRiMgaaZ2LlK83C6/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWclfKAYuYotnntDL0sFpaUahyMek8YMldCcVVQotFrn84-2Eb3rUHyTka6z1BQmTOiJwTY3-Rvsjj4Cwyiw-Dwt0QykwN6cWlYZDSTYCX5lfEP4w=s220",
+        "view": "https://drive.google.com/file/d/106a7itoHo4mLAy7jSwzGDmXBtoIPjJPU/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPggpKC5KgK8u74ckFoHORGlifUnnbkxaGyDimvJi_GOZC99_IAz9bZrGD1We1ACh2vcw-w3fWe2uGkMeKxrP37znhnMeGEy05LCSLTS832v4TPO8A=s220",
+        "view": "https://drive.google.com/file/d/1xpc21xVHfGOS8d8LddYSFrBUpwl48uOb/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_SgDFmM984XbKBIEYQPxYTgmIxxJJ70PbNoPo_97EqPaEHDg-brm1Rbg9lbEr-6NwNKZ8ypIhg6CSdms9gu1QMaExU7tLBAzc4N3eC1Kuxf99g4A=s220",
+        "view": "https://drive.google.com/file/d/1vvl8GY-xM_FRiV8un02Qr-4TIwNacXs2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140380 - 2/6/2026 (9 FOTOS)\n  → 140380_inicial ✅\n  → 140380_folio ✅\n  → 140380_corte ✅\n  → 140380_demolicion ✅\n  → 140380_caja ✅\n  → 140380_liga ✅\n  → 140380_mezcla ✅\n  → 140380_terminado ✅\n  → 140380_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140381",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140381 - 3/6/2026 (LEGACY)\n  → 140381_inicial ❌\n  → 140381_caja ❌\n  → 140381_terminado ❌",
+    "_folderId": "1sRTPFvWNpHhy-Oh7U8sK4Youe0YzSZMQ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkRTfS7L9ZcuspLcVfAFlwEzIe4t2Akz5clw0mYQ4c4Djhr_AvfgkVx1HgG1wCrbSjmhpCGc-3J_shXkPvuMFV5ORaWzP34dw_TvNuhE2DNqauRQ=s220",
+        "view": "https://drive.google.com/file/d/1h-YHGk3fsmf60i2_16MI5yy8FVCJFU3r/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhGd4zJa0iWjP3VzuRIm1H496WNBc53freKIPUwD1hBUkFibnCAMxDahuU3RLC-BEo_r7WfcEATjWaGXEtMl99jbdXBsFzcWSl8L_xWBhyKavp1g=s220",
+        "view": "https://drive.google.com/file/d/1Tq02mfQPDYuKROsU7D2yGfbsdbWuZEZh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBcS8nmltm7uflM3Lyb1h7DzPQWmfnr-1-Ie2BuWH8k4l-7rjtJ4zpdP9ygm0LwdLO3L3kXR8EilTtROsFDXP4oOOR6tvzssYSSuyFag5b53kyhQ=s220",
+        "view": "https://drive.google.com/file/d/1iBziiEBvoLQGH0S7Eu5D5lB7VfzwoqKO/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_nw9ooY0-0B44g7e1mZDEemINzCZt9MWc8hifDmtyuEBMIFgibuxdSEM914xPQN2fEAXHt4biCXl3A9HWaX1WZYuOIvrfmR_gcxNbYKL6-t7yAw=s220",
+        "view": "https://drive.google.com/file/d/1g5EKpaxvjftT-KM_M_w9fHHUXRJXaj0a/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNX9B86u5WUWJoGNhfklKDok3IsB-kFyuJMsAM3B8jvGpwSZ-KlEK42TQPmEJurUdjXZ2p-pNhJGx08XdAVkW2kr_9Gf2s2RILziltCwfvBWAX7JA=s220",
+        "view": "https://drive.google.com/file/d/1vQ7HYXEBai2jGqkJDwdkx7ywh0cmW0QD/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNsYmiK84TxL4fIZ1Hi2zzLwT_AsHiGH4GMu2MA5JIIGhj7Ig1tKnnk13i9uH9Ge1oSyYYlg8EFNlEmkLnGZxVnqHHOvzweJObkHfesP3FBRHaGTg=s220",
+        "view": "https://drive.google.com/file/d/1gajLCXWv4AJvPw6BwF-2aDt-TFxz3V0I/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMkse_gGx5-lNfU2LPSJWWSPKAzq818zvQS_elsGhDD0z0mbEvPsPVx_f5UJF_2lHNAKoLrGP3SJWXikBs_gFP2ZIA03jW8s5YmvTIpjhUL-Bq3PA=s220",
+        "view": "https://drive.google.com/file/d/1aemw3PFLY33o1D8MbRa9oZtxphVq2139/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdtazT1uWw9CEKnbONRGMHZMrw5LUMlaig5y562uxzBQ9H8uDHUDMvrcnGYz1H8TBEJJWFoar_KXq_E99eZ75VC5jfpwkJorh9dG_fF48Q7dFE2w=s220",
+        "view": "https://drive.google.com/file/d/180HOHSTedd14-hsQXXzuDnQ4QYhCY8GF/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8ffpLM-w50KAgC67m4iS6KcD2SXj75BPpS9rRDVpt2OSLC0qBwKKzgN61m4BxZCrGZNCDqTr2As8FG7zK8CXUTNaIPxEOZ9N7SxLyOm-9mqRZOA=s220",
+        "view": "https://drive.google.com/file/d/1cdOVbepR7JJuVhHF09s1Os11AhQwqDT3/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140381 - 3/6/2026 (9 FOTOS)\n  → 140381_inicial ✅\n  → 140381_folio ✅\n  → 140381_corte ✅\n  → 140381_demolicion ✅\n  → 140381_caja ✅\n  → 140381_liga ✅\n  → 140381_mezcla ✅\n  → 140381_terminado ✅\n  → 140381_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140382",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140382 - 3/6/2026 (LEGACY)\n  → 140382_inicial ❌\n  → 140382_caja ❌\n  → 140382_terminado ❌",
+    "_folderId": "1gLFnMy6WCfaPLJ7SaGdp14vJZI7sFvqr",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_Th-_3D_AyDAk7R6X0SotvlhtbyRdlHDDIAJXgej_uWdeiV56XHWlwMvI2CzzZk8iMkOeeNxgZaeISP8j83NORttN5aIkNHRWPJQonm1YpFM9hA=s220",
+        "view": "https://drive.google.com/file/d/1nunkWYjHzDKX3gTA6dPhn560_ml0YJh9/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNGA6RBzs0miwU-HYIJt58B_339WDlYJbkrBgxRSN1kIySJfdT8NEuLF9Yfgs7VltDV0H5SNQIzGffCeiRjxHv8s_UMeDLfQ5-qF8aZrAHY0NEzMw=s220",
+        "view": "https://drive.google.com/file/d/1gBmi7X_86mUBDtNqBBUn_9y-jOauhekm/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0RKgfT7FNVT9JLrqI-jNHuLDFvYz504xitaiQXaSYXsC4QZvlgJOkPQiNJ7zcfZmyrqpGaqTB0icxZwVxQuR32Cwy_dbRQTjtaFgQ1w4d1WGejw=s220",
+        "view": "https://drive.google.com/file/d/1GFF3D9i5vXpV3SpOYSoYF6QxkSVlwX0n/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOmr0vkEZiBfBl_AFOQw4L2YIy7xULr87V6mJWqAx2YXje0TSCQtSz2qgvEH4MrirTJ0rDQv_Ff1fk0PAAbt3Scf0bODSlVrugNiDEfnEPCmSk9xg=s220",
+        "view": "https://drive.google.com/file/d/14LeLTHqYuWw6cN__3xFCIggIYWSFz54k/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIEZQY24LMkWcbLcnXWeYPrU7pxMPk36ZcOfenK8THcBqYIfwIHuCcMZRw1nxbPjWLQJZOeocxcRE2WwasBt08oTT027W5toR7wGV0zoucOts1yg=s220",
+        "view": "https://drive.google.com/file/d/1EbYj_PQUq5lLqUuLpddV0YrcPTXCls5A/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_J8gyGz4OV9EU6HL-HMiINTmu1vK9YNpZ1gXzMSFmuVo8mYNd5yd1GjqjIx3IMsJEkS-MR3DGz3fFu0qzhVYCvjN1LjJ65UQaSSbR77st8Qm4sw=s220",
+        "view": "https://drive.google.com/file/d/10uyxCeYBo6fFpmvICCULlDe1EL_SLkAQ/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqlIjhTQ4pYz6LNT9BQVM4vxiDR5wYxryd_naebhVmLOB1UQtEEQBR4qKHK9CDJYmf0I7fClUuBOJS9gHq-qkDJoiebEvhgh97tGAradKAAymbYQ=s220",
+        "view": "https://drive.google.com/file/d/1dH_O4vNOZi0QoWu_O7X30ruSLyI4fYw_/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMUR-CLeWKga-kTPCLDr2ql1e73G5_ROl97lG2ilfT-lD0nDbIf0L5gBIkigWmVo5ivt0J_BxBiPqrUU0EgN-DfDxlr8zPXAmBuEB3ex7LqRvyReQ=s220",
+        "view": "https://drive.google.com/file/d/1Unby-hLtnu1GHMUMIJr1YOcDke-ZftsX/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6pvqpeUwwGamvfoiyDK8mSkmiOwO807Ni01cyu4nz7FEc0FxMCVNP6U7BDJ4kriDgCrXafzD9-36nOOfUGceKjTJ-Nia3Z42X7DUi8egOL0kgnQ=s220",
+        "view": "https://drive.google.com/file/d/1c_hX3S1W5Vbl1d1aey9TRB1Pl6mMtuAW/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140382 - 3/6/2026 (9 FOTOS)\n  → 140382_inicial ✅\n  → 140382_folio ✅\n  → 140382_corte ✅\n  → 140382_demolicion ✅\n  → 140382_caja ✅\n  → 140382_liga ✅\n  → 140382_mezcla ✅\n  → 140382_terminado ✅\n  → 140382_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140383",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140383 - 3/6/2026 (LEGACY)\n  → 140383_inicial ❌\n  → 140383_caja ❌\n  → 140383_terminado ❌",
+    "_folderId": "1BpjRu_yKw6EIdJJPMnyTqxdQBVgY_uMk",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZIuoSRCjfvxQ4NN4VPk8cUDShtkD91LNeNut5VG5UlK8yipFF8TORlbkIpzfySL5BhKxu-QaIBIGguj3QaUj40YHf6ZzhY9Nh2J7dvyLGywdqEA=s220",
+        "view": "https://drive.google.com/file/d/10aWz2YO9ntssA4vSqRoLcwzOXdufYd8F/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVelHalchG1KbvDw0RJtZ11a-uouVSDe01qxHFaFy4ZV1cf1-VfuaWcGEz9oREZRYjSfcLLx2Htz_LJNl3WQixAT1hu_t4Q1HlkMZqK8-5yKQ4gA=s220",
+        "view": "https://drive.google.com/file/d/1o6aKBOd6kbbZwe8RHv1pSS2nOx88LgeY/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPa6s50Fc6PyXgmAcwoGQd6SLXw5MR0CAv7srF848q48yCXrh2qMS3Pcz2J01ci3BaPE4t35pRoi3Qww0pqujzJVNWqTVcDZGS6FV5o8ERg1GuoIQ=s220",
+        "view": "https://drive.google.com/file/d/1FyxE5ybnxcIReHI3bkMJQF0RX6uneJEu/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNNKS8_bD2465BE9fZwMDh2k5mRjPnQ-UGta3j8YawsbIXZIWTYmPMSo0XRZAimBQGDG5QQR7wRLSxzlCCw7-xJnhRE_2h0E-EsU_9UKPdYMfbGWg=s220",
+        "view": "https://drive.google.com/file/d/17dtky4jwZq9BxdF2Ck22NdZaatekcFOm/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONEA13LAHtS6y4itVRxVWcrHcsdd502TyK3eIuF5kL_HKjynsPvtYmqGZnRjNT2AQxewwE6i6RkXEpaHtOniq1D-nuAC1aqGR9w_2mJwR4ZqE-pw=s220",
+        "view": "https://drive.google.com/file/d/1F7TFKMhMwOHa_Aq2mBjKsVqt61RlwNAY/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOgiB09vaOQis-694KZAUjERhl5GWUs0SIWaoR3twWbz_mOjQIWqmt3QFljLRiYkx2Li5O_oSSoGbtLsrcJDdvvw1n4lABL--r4rTUHguY7yQBSjA=s220",
+        "view": "https://drive.google.com/file/d/1pYCZU9PG4B-BKl--bKseiFLJNnk7ia3u/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMawJtE6rv3HC0dkV4U8BP5F2PyPCrHnXkFNgznBhmQRDchyGk6Uh3uVm3Hd3aJL0ukc1Ppv0ToclTDMMeAq8fpSgdrT8sPuI4R2QbgLCFBQO2Kcw=s220",
+        "view": "https://drive.google.com/file/d/1PA0-gHvsOj5jakJm-rzptfG_-TMZ9h27/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMr4g8icgchnhS_fuWNEThvHN2Zi_hvvF6GwsXETu8uEP6sOcuMhvSBEQ5pmZThlRnASntUHWKpuTM0KAjL9OjyJNKsODnC3aTqISi7ZRjz1OzdFQ=s220",
+        "view": "https://drive.google.com/file/d/1pMcpfiK-0N_jv_rrVsvwKr04R_6uwXhv/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOcyX2oP_5tUXc1a1DA3DNrv8TEt5i98gAWv42s7CW2ArES77Vg3lO4RfPMbH7jVb8dlm5kiRaeVg98gZujnNwdCtihpuFG-szqzU1_SyT4IsVoYQ=s220",
+        "view": "https://drive.google.com/file/d/1a9zyWFMpfr3Ue1dc7KLUEY3kgjzalptx/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140383 - 3/6/2026 (9 FOTOS)\n  → 140383_inicial ✅\n  → 140383_folio ✅\n  → 140383_corte ✅\n  → 140383_demolicion ✅\n  → 140383_caja ✅\n  → 140383_liga ✅\n  → 140383_mezcla ✅\n  → 140383_terminado ✅\n  → 140383_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140384",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140384 - 3/6/2026 (LEGACY)\n  → 140384_inicial ❌\n  → 140384_caja ❌\n  → 140384_terminado ❌",
+    "_folderId": "1nzLb7NRKo_T9iQ2lkm8eB-ppXKpz6JvS",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNb8BT1TniCqH-V8yBykII9rCP49iOkJvD9jHX674BpvgzL0zjqU2lx1ubBc7tb6IdaSzGVJB-67O9etGeMxDNiWeavCLNAbdeoPbccAOZObxt-eg=s220",
+        "view": "https://drive.google.com/file/d/1SWy1x9UZn8xfhnvUTVO7UddSuSsbKBWr/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOA0TR_QR3xYkPn-evxM5lJ6EQqU_QyLSwhfJ2q4cyj79ESTJTXnUGnRiRgbK23WXdT5wREO2qjbN5pOZpxxawOq-gAcN0rW9uvTBcmbGNPrtAbDg=s220",
+        "view": "https://drive.google.com/file/d/1yfaDyFaVh1L6zorc5a52xKNzJvLqu652/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOow5s4IGNPu7J3Pli4oB-g8YcviyNm8GDlbGY0CfAzXMuIXbPDoIsg7WvJzwAsqDJEawDmO0ceJeJ0pA97bJiEHh4Qfs6Q3QWTAWQMQnkT-B8kGQ=s220",
+        "view": "https://drive.google.com/file/d/1qRChNKbHx_G6BFxBLgSgv9Vtjncveuzr/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1-75yrdIxI3tfUXKi-YkV0gImgz4tIULlOa4RbKM3qf5xEEVBSrn3E1PP3X-TAvbtGbVYemN_FpXYJpGpM46uGd2LJH5_FPCKvbpaz0_EsWxH9Q=s220",
+        "view": "https://drive.google.com/file/d/10YP5khyHo3RK12GXBkDtdtCCfiY6mSip/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNYs_zeP2uODMUGwRwaYe8Algf3qRWCWW4hMvfSSWA14_RuUfesLZaGxZM5aedJfODphSZrBON8NdJkW_S1AtWxfA2U1dL31KZ5h7N0DJiAhvWDhg=s220",
+        "view": "https://drive.google.com/file/d/1ROMkizn3yhErBbuAk0_1TI4HpYFg1YlS/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-3IEr9YX6cy59s4OypsDXxUr9Pnem2LtSG4OkXubT0EOZgH-PhCxv22bmfHnebSLxNnqxxP7ptalTjfwP3j1Tg9gAN850S1BAmfSkDQpl571BjA=s220",
+        "view": "https://drive.google.com/file/d/1trkMZ3oLfVklJXTukMiC9GnH6XSq7UQ_/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM23Ih8H1PErJW_LZRCbQRxcTJC7cMLXqGV8d5MnIa3FfcuJXSF6m-y5DDJ6mLysZoon9vyZc2e82IjuQTvqo-sCwNCiglFZb46nBI4yPatPYvBIw=s220",
+        "view": "https://drive.google.com/file/d/1VJDDf68gEUCUto6BuDddGU58RjpI6QfR/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2xmRoCbv_FEUtFS9iwyGm2iylSflaBFwD_JfA1c-S1EoxkZRNpnIpieKKx7lb0y_sdPAywc9c4zcM9zUKcfp8hCOWD3TYWQKmHCWOMHlN5IzJRQ=s220",
+        "view": "https://drive.google.com/file/d/1a0SbhUYXJC8g8UL6oERb0POaDmPS8o3m/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5d8e5IiXHL-GVn4-0Q7mASb7hkuTNRq7oNdZljWhzDtYunhYZ9nvcIFlkEcT9dPNguwz6-SG11SEKKY6vH1D-Js5ahJjPPBM47r94C9SqPhYF2Q=s220",
+        "view": "https://drive.google.com/file/d/1hQs2tevdwdKLtCoRNq-_r9U0VypYHE30/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140384 - 3/6/2026 (9 FOTOS)\n  → 140384_inicial ✅\n  → 140384_folio ✅\n  → 140384_corte ✅\n  → 140384_demolicion ✅\n  → 140384_caja ✅\n  → 140384_liga ✅\n  → 140384_mezcla ✅\n  → 140384_terminado ✅\n  → 140384_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140385",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140385 - 3/6/2026 (LEGACY)\n  → 140385_inicial ❌\n  → 140385_caja ❌\n  → 140385_terminado ❌",
+    "_folderId": "1iX41gNJshTczrCNrNbFcup71_DN3kEfb",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObE-5OhpVQJ_6stcb4gDocbySGMCW1_b13fuPXStlI62nC7IWIoV5gi6TrbXwYEPeCICBXzMbRQiN-RbKyQOxyAqHE1hlTsd5SRBFG7x65m3C7poo=s220",
+        "view": "https://drive.google.com/file/d/18wTdu4HU8PW1PVXmdpOSR17qoe-iNVRI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNow6urml9L_rECQ_iY0bUzNmWxwHztr566nSWBfc9mop4A0kAfGKD9Di4NeTb0Kd67dWR0R86w7cMeS6EZYe2fosMe7JkBBCp45EwUTR3UdzNzuI=s220",
+        "view": "https://drive.google.com/file/d/1PFw8y2qLkyjVFg08tZQFTjuwNJ2UHzZJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM33gN9vZXiIEoTyQuXoKFIsdSzsjeBrm3tRhfZ3wLtkzqcJGreDJjd_EYLuHYqWIvdY9pxbWH9WuHenIMmgMrgdre89jMX8NYG-RGM47H74lEXex4=s220",
+        "view": "https://drive.google.com/file/d/1BPejxqi2QcU9QfenUGfATWzIiELOBc_r/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP_vrmfBFtJIcaXPGrF9ip1KlC7kjyPmoMyUlX-nFv8ELFH7oXBsLOejVL_oOV8qraOo5e2p8dcMnyJWfZYOHNm2O9FHLx7pbkAoo5lh1IxYNOjoBo=s220",
+        "view": "https://drive.google.com/file/d/1PG8H8Up_RU-jy1_NIpil39qLRtYP4Ss5/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOreEeh4QhiGClm5XV0HbVRPDGTFTrtcWiBYQ053fzDQjpW-KfmnOrtEeWCZh0hZmJSzhsnZwxrYBjbmvw5-R5XWwMIi0DsNV1cFXmyHqFTYKH6Gjg=s220",
+        "view": "https://drive.google.com/file/d/1-am5VS16Lf_kDZhOhryYSAh2DZqDdS9x/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZ_tJ8C2gw-sKJJ6hbcqzpHfjxgwXg_31ei-mqEBcjIIe2VivTQeR3-5ph4lJ1zxs2ftKX9W8ytu99nW0u_RSl9Jvb-syqCsJp-Lku3CjEZQ9oPMA=s220",
+        "view": "https://drive.google.com/file/d/1KUW5sO9XIYq2SBijq8dLiEiNg7ZK8YAN/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJ-TsmC5PozwpYRqN-kwO5_mxMblrk6ck5rvSqrE56YnCOkyakwc5ZA68GFCpoDh-pESZCeTtjnB91_gPP1LC5q0Qbs2Olh8znm_GgOVVYHJkFqH0=s220",
+        "view": "https://drive.google.com/file/d/1-4R-jyd-hMGy0UYQoxdPlOHyTDbseQ7e/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9LKSCfguTUVIlvdt5_7fDbqFwYsEVfUKZAHoR5g5B19YqsNy0biwoo3wQw77VzGfnur3YCv_zN9hZW2eAARiLF-xVi8uHteADy65E6OsjplJwfaY=s220",
+        "view": "https://drive.google.com/file/d/1kcHDbay6EoFILk1N8kDFGZhwPKwgqzg1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJnRreG3mhRVfUzqmfx2tqrAggpGqHig87OVsKtEgpBtG2DW9BGRWIlfEHXypaUdstaE9A9NUrq9KwOFHNkow7QsFr0wu8T4yjCXNEdOuWR264mWQ=s220",
+        "view": "https://drive.google.com/file/d/1OJEd02bg__XmGVa5KH8ArM-mIheANJ4c/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140385 - 3/6/2026 (9 FOTOS)\n  → 140385_inicial ✅\n  → 140385_folio ✅\n  → 140385_corte ✅\n  → 140385_demolicion ✅\n  → 140385_caja ✅\n  → 140385_liga ✅\n  → 140385_mezcla ✅\n  → 140385_terminado ✅\n  → 140385_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140386",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140386 - 3/6/2026 (LEGACY)\n  → 140386_inicial ❌\n  → 140386_caja ❌\n  → 140386_terminado ❌",
+    "_folderId": "1AJ14rUCZw-F9Ly5dgCvJzN15Sog7psj-",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOfbYuCJncJkoNTxfAtj8yprDdORHXyCuwq2vsdfUSYdLojRcO0sfcT2XJVbY3fztZ_oayAvQfBv6ny4_zGkz-hweuBVvfOP7frmwmJ-FZ0bYqwQuQ=s220",
+        "view": "https://drive.google.com/file/d/1DTxyj0HpS8z2aLslI1DzZsab-q2PjCkz/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAyixUwk8m3NDjYpJnN0NRl6FfEufQQ-aqT-QgAdcBtGZXZg6nM0AUxMylS7PSf-827iLuqwsxYn48UyyeHOyK60vCKqJdlsbY0_n5tLPK9dxJTco=s220",
+        "view": "https://drive.google.com/file/d/1BJ31USEgtOUs7KHvCz8U-3BxU7XLxk6V/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsyw2w6jvbIdTm9zILuLSi_UiLfZb39YIs4TRuFqUzusQAf7C9YD3eDtdaRYstNKp89dkluEHxW6Y8b1EjtOmmInM6xiiH_ffI0QSBMrv13seEIz4=s220",
+        "view": "https://drive.google.com/file/d/16aJsOzeTw0JthBZ4K7bwwe3d0JXBmIBn/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSDKypV4madQe0tMrqrJdD5GVBaW4jm7WVp4YNGjN0n1brYqyhZbrl23_3K23r0nhD-7MEwo7_oc7F0Rq9XKaAmaQVj4eCcBT83z083DOnv-1iOBc=s220",
+        "view": "https://drive.google.com/file/d/1F1hDbNXGB6gKnFSJcu3jpPzxCbwER13L/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPf2fB4u9Tgs25CmcbEoFoFiVApacIDR78LBYNJBWmDhg9wYee8TjFTGhdSs7C5m2BPewglrOLTB2903q_72jvktmNxKXAiA9bFUXE2vUaFC_auSnY=s220",
+        "view": "https://drive.google.com/file/d/1JoaT7LMo__VlQHbR88ZPjncrnsp-w05D/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOPsC1ag3A9UeRmrIPKiFMVXvAwX16JfvoQmp0N6QVXpNy_wQb5CPYBbfA-nURpB-v2P0B-jkMV4gh2826bfYMuWZCxOVZo0oXgZgEbhfLCYlUHBeM=s220",
+        "view": "https://drive.google.com/file/d/1KoSvnzjAbIYaIZalXEnPm6w08WltW_-f/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhV8yhfeU03qd3zodlNn8-OkUtY6fLTFBWQGZ8CsA-zZf8vwoJNU9hANoFMDPKqDs2cQn7znhL_6G93bjyjJfiwcBSdblr2bERYydfnEum6lnGV3s=s220",
+        "view": "https://drive.google.com/file/d/17lJ2uxrDL99AUPGdHhyv_lGWOz3gIsG1/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSjnYrRNFOQn42mLq2owVL_ud7RH7zJdQe8sypDQ9LgTDaX6TNiHTWDrO8yvAkevFhWjuLfVmgbYJPLc-U-QTx89AlZIhQOu0fYc48t-EqZdElx3Q=s220",
+        "view": "https://drive.google.com/file/d/1qIDrWrRsf5TV0DU7f4aP_lp1_hXhiXBK/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNw4W0Md_Jp4fff5QqDj4Na0J4D02WGftRt7tUujWQENMOv1HEV-elSfG5DpszrYyxLWtc1dfJ4805uq0LTV4tU2xRrBAd3zGjKRMfjccnor2B8NZs=s220",
+        "view": "https://drive.google.com/file/d/1zXQj7O0qAdd4hr1og37N4UJnwXrfstFn/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140386 - 3/6/2026 (9 FOTOS)\n  → 140386_inicial ✅\n  → 140386_folio ✅\n  → 140386_corte ✅\n  → 140386_demolicion ✅\n  → 140386_caja ✅\n  → 140386_liga ✅\n  → 140386_mezcla ✅\n  → 140386_terminado ✅\n  → 140386_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140387",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140387 - 3/6/2026 (LEGACY)\n  → 140387_inicial ❌\n  → 140387_caja ❌\n  → 140387_terminado ❌",
+    "_folderId": "18ADNohJCC2qK2uoQW2oRCw2pVk6ssrTm",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiEoJ4LS-097MW3Q52b465jJf3f_D1CH21ckAxqklmMOP6ql1VclMxRhVAavVSJfAWz2bo-luZ3zWqKJ1rjctQ2kAGMfP1U_FlD9HwIU9dt2WA6H4=s220",
+        "view": "https://drive.google.com/file/d/1H6z4LWXiA8Dr_IIS8T1vqii9BTj5N-_A/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLJtKnns3nmtpurOkghp4uFtJaZsjOO5RpxVdY1qgIN9wBju8QS7jVjXlBbMVNKOahD68fM-e4WR7GezPEMUh8K929vf_5-Hif7hRIjbfjKJuhg40=s220",
+        "view": "https://drive.google.com/file/d/1Fg5bFw-Tm1NVsLvGFOZDgluVmIjVtMTI/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFr4wOYZPUabBK1ua0D2nqg2i_RbbczpEpKCOuWFKF8vE59UNpox2a0S_5X3hnTUarUeLfP10jx6kjbi59z5w3L2Tv9FMiJxKhiNqY9VVRoEgVZA8=s220",
+        "view": "https://drive.google.com/file/d/11XGPuRI8r384aKQc443CKnRIWUeOZ1CE/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6SzXEpdnoXE8k4jZdlcWxWXUBaEmaM4on98v6D8iZbppgr9W-EIxWr9hsCr-ACpZs6tLye42b-lRxMjaSELowX1V9vemyInSX8_CLPlN_M-PmFos=s220",
+        "view": "https://drive.google.com/file/d/14pzb-YQB4RfwEKtGlj1B6dzcgl0o2R-o/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdyziU9EQdqGGJ7N24KLosS3luX2sqhBt74Qlr5LRFrtyP8GyHUNFQi5qK6XlPVD9zAVWXg6I3osptdz78NCRGD0pl9OKkiAD-Vs3DMYHAuTkkQw8=s220",
+        "view": "https://drive.google.com/file/d/1sjJhBcMKg-tGDL_cjB5r5llXHa-sB6Ri/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOG-V-JWVfOiGRvl7vjOARP32rc5Yf1pYCR7GGOX32IFn2BVR3WB2kFGbxf3B94qtEOBwP8fwTtlRlBtYqLK-xZ3m4dq_pMxsaWTZA-7hY-4BVoz9s=s220",
+        "view": "https://drive.google.com/file/d/1rauDw_dTalyo-LvZe8WZlU2A0vxz0XIX/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMm4LqAU-DwuJ4yIWo-S9kZpnYhjwUs5anCwzQOBne0sS0ouxf-9ulQX45g-4ugKL54-3qHjNh0IqhMsf80DmlfYjOJcffCcBXWtQk3LXL_3e0lQp0=s220",
+        "view": "https://drive.google.com/file/d/1ISIRL4SkYGMzuvBMnWwoJBDXePXBzuT-/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3saJXLcoGRoLCQsvfCuGkUmtbbbSpUm-Q0XO0RyeN1PYWtqQfdKVvCYE9z-dZsFpo8Dx5DwRE220izoTaFPNdb0WUrb5QuHrhIFSLeIhhYJ_7L8I=s220",
+        "view": "https://drive.google.com/file/d/17UyGOXOsDWQpDVJpmrPUl5dyjf6lrLtU/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOJ9UnYuYhsTp7N36kMxx5XfVn_yO3lCTfY34sZGHT4NnscYAYJ0jSVHwuvTATve0iKwEF396ydtsyZUsa9IGjE9eiYqDlus0uy9gr7QFlRjG7pUJs=s220",
+        "view": "https://drive.google.com/file/d/1mAzUE5jb4cYsVa-BBwhCEsI_sRkL8OB_/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140387 - 3/6/2026 (9 FOTOS)\n  → 140387_inicial ✅\n  → 140387_folio ✅\n  → 140387_corte ✅\n  → 140387_demolicion ✅\n  → 140387_caja ✅\n  → 140387_liga ✅\n  → 140387_mezcla ✅\n  → 140387_terminado ✅\n  → 140387_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140388",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140388 - 3/6/2026 (LEGACY)\n  → 140388_inicial ❌\n  → 140388_caja ❌\n  → 140388_terminado ❌",
+    "_folderId": "1Y8nl0INOA73_A4cKhHU5pHVRu9vWGZ_h",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjEbitrXVSFrpxs6m2iHXHZC6rjlKgjY3zo2tAoO7XcTvl7m2UXdtEgFR-Zhk9iuBIOaJe2WVtreTxL3oboSP3G_hwllUKcxAWBmxzxJ6DpoZEato=s220",
+        "view": "https://drive.google.com/file/d/1RXGcHOc08tk9U4CYzsiik2olgOva6uKS/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN1ux_vnj9smddHJeRsly0nFxXTE6wIKn18Tdm88PBWu4GnNxGcrADfCjDzRnAY-sxjunXqFRPjTtf1oYTxyPAb-iL22fFV8M8FLc9W5RVJdSil_Uw=s220",
+        "view": "https://drive.google.com/file/d/139wqmvEm-UGSpz9vh7SFBhdUkgOWLX4l/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMK-zl3xavkE2hEgBNaXwzEkHgn8HgTAe8yG94QuLnchlxLTsNYJMY6hoD4RaQaxxDxpGuwz6MqS-19hO7gaxLPp3bXUxj4Xin-VRZ-kc42OVGpl5M=s220",
+        "view": "https://drive.google.com/file/d/1edns8-DCyVQqMWBH9zWuDn3sJrxZOdBm/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOz2oubCJRcDS-MNyq4Tf5lJapJwkzkvvuBXXwyes_vWS6Bqwdh-SMo63FNfJJUc0bjWAUGygTOTv6cwVe3KLcYgE4tPPpke9ROZWhzqXipj7lNs-U=s220",
+        "view": "https://drive.google.com/file/d/15ANKM-hYjdpKrRkadGzkpm3e0VTKRF4_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjOrVT57ML-stNmh5mtn5UurGGYfEzqwP3bhZg66ZWfaxPq_TymvKBwGp1AJFyTBnMVapj7wH59xxAHMacq-oyLPUzvdpIgf0B2C_NYS9gAUGp91c=s220",
+        "view": "https://drive.google.com/file/d/1CiwCvaNOw6eOUEHBoN2xFsdSW-jzdJXd/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPG0Vwru8lTAczUpmvb-LyfdPTjZ-9PzqrE4NjcRP7tP-88ThhNR3RvcYHOCn5Bv9O2WFt8pUf9sR_Y7mzMV9aaE6J589kVHE7EgYC_OoA9CwoToxI=s220",
+        "view": "https://drive.google.com/file/d/1-QP9kwpMQcHDV22htHyIQU2oLmAjqXJU/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNhed7_BrWPp4yp-o1h2-eQ1-BVEc3w5n2V7DiJ1zNkAhcLsyMu5-tatMaaBnOLkXTTePWtgAehd4mRd6zmsfR8WBfsNQafxL1GqbZH3nHexdy874=s220",
+        "view": "https://drive.google.com/file/d/1YUEnm1LoxlTWk8QCjfNXEuU4kUAaVBAF/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGUV4eWn8ZSu3Elbl2VwY56gZYjSkzGp6IP9zlztMJfYkn7l0HECU_9KAtzvwjtQ8CP73ErXpbONQVwVqUD2iwpJcJsmCVbXUMBmTIGNdPQU8kO3Q=s220",
+        "view": "https://drive.google.com/file/d/1AJBckvEAhUO8d95ooQOaEUwUCEe1bb_V/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONjLtz3lOqQMi-SEbOwoN02mpOsKomHo7y3eXj6ls0M_y1Ed9ISWsOVUcyO0SipgGYwZb-iMXa--d-G2q9PSn1UCR89dq7-UmQQuCNvf86rfab5wY=s220",
+        "view": "https://drive.google.com/file/d/1luYOA9HJKf7ctxh4Zv2finOvOWu6v9zk/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140388 - 3/6/2026 (9 FOTOS)\n  → 140388_inicial ✅\n  → 140388_folio ✅\n  → 140388_corte ✅\n  → 140388_demolicion ✅\n  → 140388_caja ✅\n  → 140388_liga ✅\n  → 140388_mezcla ✅\n  → 140388_terminado ✅\n  → 140388_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140389",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140389 - 3/6/2026 (LEGACY)\n  → 140389_inicial ❌\n  → 140389_caja ❌\n  → 140389_terminado ❌",
+    "_folderId": "1fUOb16NRSRdT5DebfV7L0YSTj1JV9KJJ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwsSny6VIYkrLgvBbLbRdypzmH0vZtMjmHJYu5vOzc5SNx2Dnn5tzmp_hiylKQuubdCK2sWuP_hAijoLm-ezhaHr7ffKQmu-7QV5I_th02ktzTf-0=s220",
+        "view": "https://drive.google.com/file/d/1_J23u2wcLfkB8t6Cd26oUROQk9Rz424Q/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjpvCd5NoxkghDByMeITzATbefNKPsENUrzAEodJZZcEuNQNES8UtEdpI3W9ECTpPf2FozPland9gRfi-XEUC1aR178ATcwXwyTjFTaNzuM4C0Nmw=s220",
+        "view": "https://drive.google.com/file/d/1ndt581bXul27qvy8axHuTj7M0Re8ShR2/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP7DM9cErG1MK8HgBq9yuyMCbit2fW7yQ_-GSqwTl3YAmhPeoiE4BEgDp5IVloVGZkEoAgE8b3xxtVEDSLLGd0Jfp5Kh9hcHVEPoiqZi9T21Oesb7Q=s220",
+        "view": "https://drive.google.com/file/d/1sGRkHet1X_TOvJs4yD-dikjATNUaDZ6g/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPAhC7gKzqMgJr-j3bpLKDzz9ok0p6-OuiTaP3zag__hVdAoTQ8U3GZsr7V4QmRziUZuIbKE2EkiC06Yk9oQfVKjMZv69HYdgyjRFg1IZzg4pmiCWI=s220",
+        "view": "https://drive.google.com/file/d/1r4g7qgEtLIJXcBdRkeq1if8OWKInQJdJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNTpeOfzLHzq3PTOBNsLDHuXK-LL5C8Ujj4XfsMnuxUrNfmBGscid8A7TjQGP4uZnb3VGQ44m-JQFJE9nnQ4Bn9wK0l2Op0uPV9z0qyWte9Inp_W4Y=s220",
+        "view": "https://drive.google.com/file/d/17NIBsSLdEtRPfM0JBOpWP7o_efl7FGbg/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMdykRmDN107pQ1qfMXXwqYVFtExg6t92pBw8j7Y4D1kaS5aO5bUmjnIP26yGDsWd2-RVs8JIo0aNSpB9rqO34EE69SAgSu-g9ZpSnnNBp0FlrQOX0=s220",
+        "view": "https://drive.google.com/file/d/1NxnShWWIRPSzzUJppHceOxMRV-UQs1Ci/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZpWXjN89aQJL6Cw18XC-Yz8ehjDub2b2KqT72dU_qbq-G0YfM-Vg5BBrDN5OWx6QsRwDTKe92O779c6f-EhzJo5PPw1f1xplfl9cwcOzvfTudpu8=s220",
+        "view": "https://drive.google.com/file/d/1sx6B4-dmwHVxrkI1EyXQtw57WrsUQynT/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIBqQSPOceUnnRva6TzAeS9w5l6yh2Nd-KhGzZrnzRJYsLe6ocwykMyaBflay_ADLXVJXPzozSApQd6KeA0K06azN2xd-NZoGXRKEyuiISS2lfSVs=s220",
+        "view": "https://drive.google.com/file/d/1Uu4QieBkHUfRkaUs2_cp8mvT2r8blPx4/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP-kRApPRfkiNbABm5IY4GQZ54pqIx2Eb1zdBFleNybZF_lJXYlzl_PLo63PnuVQH_96C47RxgaPAS1ZRe5wdK0-e4HhaDt1P3-SPuKHqvOUXcUvEw=s220",
+        "view": "https://drive.google.com/file/d/1hyYWt-IYw0ejLPOr7qI0KLDwBcLLoPqj/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140389 - 3/6/2026 (9 FOTOS)\n  → 140389_inicial ✅\n  → 140389_folio ✅\n  → 140389_corte ✅\n  → 140389_demolicion ✅\n  → 140389_caja ✅\n  → 140389_liga ✅\n  → 140389_mezcla ✅\n  → 140389_terminado ✅\n  → 140389_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140390",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140390 - 3/6/2026 (LEGACY)\n  → 140390_inicial ❌\n  → 140390_caja ❌\n  → 140390_terminado ❌",
+    "_folderId": "1otmagFa3sdzuUPWifQ-5lGt6WLOl7Piy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPs4FcFjsZjQoq93O1tlVMndnO5TXKI7xyJrbjb09ESam0_F7a3C4z02PLRYuFyPl6H0PUIO2XfYDM3u9p2O3DTj3Vo7GDRRU3_PJQqgGsvDh4nJ9M=s220",
+        "view": "https://drive.google.com/file/d/1rw1c1EeGCsP_AR4GDXapUplWjHYPY9SN/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJ9raNGHe0zkG6VbfcdSbikUVSgmEFc9R6mjMsqgebSSZGQFkC6iO6SN7LzNBIck3q-6b1k5nZnOqeV9pdZLRNQvMt3Sy1Lj8fos3UPmPyP3m7Voo=s220",
+        "view": "https://drive.google.com/file/d/12rH_CncVqRNXYzRWW1E46m9ByHdCKcFb/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuIfaPHhZY1BexlviaTM1aKVZN1dAleNBsEC5tVNyCWDPnWdFt-2xR7RqxzNpGolemSfwMjpmlTrwW9vdrGPlmRLQKGq5agOA6I7fMIq8AgAgdG3U=s220",
+        "view": "https://drive.google.com/file/d/1Ztx5paovh9pb635rq3nIvClhwhlqVdza/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN8qCiE3G-C_g0nGYBYYjOM0vIvm6vhRf6M4jBvROVhTfxZyixmkCFROYvUVDg8QQzptYwF7GuACGM3vMdgcWsM5MhGeHlG6FYapeKTxDlELsCpoKE=s220",
+        "view": "https://drive.google.com/file/d/1GIN65sYbPOc0wRHAf6nC0gADgFu68pCT/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZP83nmglvL6XhOlYlMvxS8VYkdCmxK0xHGFWqpaAt9yjyMtw0LwLCzWaoxF_7Fy3sAVxyweLm8v_uowfnMsIOjWqU-xn_SkUhmgZl39nOkDm6jgw=s220",
+        "view": "https://drive.google.com/file/d/1o9tgOphB81AiD1i8nTFr3SQwelLn77-8/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNp_1hSSSBECLM8TgJuusqg-M_GfEALNdknmIQuWYkSeAmkgQ8Y9nS5xHfpvHsc6aEhfQ2qwwDTBggS2FWA-IxClgAPXTKu8uR_mB_xWZD6NP9CgUc=s220",
+        "view": "https://drive.google.com/file/d/1hnwf2p92k8tgGtWco9_YhKQOSzWyDObd/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPaLF2TAf1Jy1lASbpAh0alHcTZyYy0GVKnJ0Qu_ublAdEt5MIRJ_3oUemfYgCsCr13tDmUBnr6MIcsVX23zJeUaCZth59IJmlTyXjDCfNAmBXYf5E=s220",
+        "view": "https://drive.google.com/file/d/1VH-63DsCTkfwvAFXWcUTIrElie9VIAaA/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4WuGZJ601Tucx5jrbCpcGu12hhyDzVG712wnH9NelfAC1BIk0yuphctD8bYg3OgNr69g02ikMSYe_XIKQoFn6Pz88HZTn0eON50Roe8EycKLLEYA=s220",
+        "view": "https://drive.google.com/file/d/1fNLSJRTfN8wxcr6-4yjav7mI-7Lg0dm8/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqhat13-T--KI-hojjNlXaGXx71Xh_UtNFZbplniUbSIuub_w0gybWCNHMovOKb1XGvR6yIuVUhOgljKp4bgPjQWuWRgCKCJyzbTE1CAFGUbK_EDs=s220",
+        "view": "https://drive.google.com/file/d/1xf77Yuki4oraVHEFlD6EaDQ-DNIf8mbO/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140390 - 3/6/2026 (9 FOTOS)\n  → 140390_inicial ✅\n  → 140390_folio ✅\n  → 140390_corte ✅\n  → 140390_demolicion ✅\n  → 140390_caja ✅\n  → 140390_liga ✅\n  → 140390_mezcla ✅\n  → 140390_terminado ✅\n  → 140390_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140391",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140391 - 3/6/2026 (LEGACY)\n  → 140391_inicial ❌\n  → 140391_caja ❌\n  → 140391_terminado ❌",
+    "_folderId": "1j9iCLlv81xkoSXwh1ZIDuetWq34O6dg5",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFLa0AoJCbxXyduSEudP91r-eBRuCz7mxUSIb2AtrgRkV4p0CwKdDsKWmXfOIp09hWaY9GZ_b_3K8zNTEAcRCVOWZ8dtjGV7zBf0yAfnKaeZJMzw=s220",
+        "view": "https://drive.google.com/file/d/1_kxib-5TsK8uqzewhtYnPNX9VNlxqbIA/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPFnqbj7zhgjk9RV_SiApnZAGVOjxClHuRbR3uO4fbyNIolAW1A9_b6PytoDKR40UlEUJe8bkVqrUKpuHtFsSFdRU1TUnURQJzI5vNWyLqgTWodQg=s220",
+        "view": "https://drive.google.com/file/d/1aVtLLwjbbwK7dX8rVoOwgUyTSUHUDPhT/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOo74aZOXt3NEwLoOzB3OTywPmgVNejj7MjZ6GZJv_1AA_I67vuSMV2S6O9yyAHJhSwhWmHdKrfyKCreXD0eUvr5onCOuxmJn-EsmGWpHROyKrkEQ=s220",
+        "view": "https://drive.google.com/file/d/11MpUPfwwug4Lp3PrOPh-4ay1UdcqqFpB/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFNDiui6StuIhxmaAMdp1rSh8UEVRpPi7Eis0uslfI0-PV9ZqHf7eL608_fTflsLTyPSwEWjySkg9GCQIkZKhdgHSLILbQA_JUKR5sCNvM2y7jJA=s220",
+        "view": "https://drive.google.com/file/d/18eQGDlUYcXhY23dPbZsXixyWGe7gNRjJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOrxD7LF1B-DeQtvRiE52VSRzY164f5wQGkfwgt9WWV7gS2TCa3RgY2LKRWLusaaQknGLgKiTU64IQ5SXiLAp4MW8knWpzqeXhXdMBmvWgY8dry6A=s220",
+        "view": "https://drive.google.com/file/d/1RuAh9QIOPZ0YSJAbxodXqVvZ8c8H7syl/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMs-roNLGtiDG0g3tFSXJqpbPQZXTrTj7bevBQJ7qlin6U5_1D79ANKScYdYUwSncWtAGpNFA-a_SyGEFwtyJFoV_S8E6vMLf-7FGT4spo-ULIzqQ=s220",
+        "view": "https://drive.google.com/file/d/1TJL5OgkPdwXw19HcbS-x-W2c5aGYq6X9/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPgmAaYVzVHfV1ZXzXH28foDMoO_cyQaQk2JAhlwx0IUxdGaVA_u7TEmnUuZr438TBYh-upySrQmHOhcmKEtoQjKKtxGNLB_azVry5GaWXGWWX0xw=s220",
+        "view": "https://drive.google.com/file/d/1UssHAfhHxGkP7cYsQcvMBTb-kObMzJGa/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOarCBgoQvtK4aqR2R4SCFrDjlY2iF8E_QBPiTfXnHsH2oZDTKoROULsK0x5v68iwl4QhllccFRzBWQavdMXMKkIKMJQt-jqKoN_uCjKk4tnq6IVw=s220",
+        "view": "https://drive.google.com/file/d/15d_7zV2FFM_7V4euJT_tukwgxxJIFaWj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVaSgRb6Js3Blhc3UPttvGKH1vnWhYA5E4eVIQlSMSAlenKu_5WRXW8Frw6dcGU-cOD8HeQKuC8TpAdgoEx1f0T0w5l5omgzRDJQfPrwmjYROUoQ=s220",
+        "view": "https://drive.google.com/file/d/12qrpsWKhk-1XXhFfni0N83rKNEbHCdiO/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140391 - 3/6/2026 (9 FOTOS)\n  → 140391_inicial ✅\n  → 140391_folio ✅\n  → 140391_corte ✅\n  → 140391_demolicion ✅\n  → 140391_caja ✅\n  → 140391_liga ✅\n  → 140391_mezcla ✅\n  → 140391_terminado ✅\n  → 140391_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140392",
     "FECHA": "3/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "FELIPE VILLANUEVA",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1XRJS5gbdkKa8OpGdEILrKgxU-xnqUvNI",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNR3OcEqCt2Gfl25nmEOECer9FO44DV1VBjDT-_Vq7XTBhj4vHyTTtF-In1YzshPhQZy1naIj1wzj6WO29Py1QcKzUyzsUQSZZajWPLOYz_gicZgp4=s220",
+        "view": "https://drive.google.com/file/d/1riH4SNu-W2OH6hX_T11GwFixXsvyEtGG/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYF0M4S4RmgevLTllNJ0g7oDNjnLrh0rRz-XOD4aQeEWPF6KCS8KiOPXkJ8LX_HHEMfAW2XsQMyUH9DHaCJOroN5DZc42TGOLaxcB5udQzL2pPMBE=s220",
+        "view": "https://drive.google.com/file/d/1IEGkbfRLCArW1XOkOEw_vxRrBUcFMbMG/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNBeZgB-hsjPIWCVbZDiRq6ZMPshVoqQBZi1xCTz7U_FnDS0GAsIp-6weBQeIO8s_6Y4rQOtf7IiueVo7IZpMwy96Vc1vAI7mCim9mgkvmrFWYc-g=s220",
+        "view": "https://drive.google.com/file/d/1M4DoAwj89KE6h0dkKj81xSdRC5xoPNrN/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN_t3w2LeKVCK4G-jMxSIwm6cOzOXiyKpfRfviRdfoJe3CNp_x8AZlHKNPdfvIG64W0noOJs7q7iTOlFKfFof3-nlROYu_IrnBfaEWBD5Q0fzYwjf0=s220",
+        "view": "https://drive.google.com/file/d/1Y2hp6dfFjDh8f2K-Eh9xJ0tQEp2xXScD/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMuUZVeMgpdzf66wSpLm553eNPWwurze_lzhLdSXkpRh5iS58g3rrHkG1nKykN7njpmVPYH_y6vkxw1e2nJ-CT4mUdGAM_QdBjYEJsKE_qqP-aMHXo=s220",
+        "view": "https://drive.google.com/file/d/18hfmN36Nt606WLj0t490_JDlNfoe0vH2/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO3EkxRYDlXZeNClvSV2Dbi4pj8hN5qb4r6ajyG8s7n1r6j25DyNaLWgBOBY7DvCwQljHi77ddFoaR42UX41V63if0CVYmBNU_Dqy7xEoDvENyMcC8=s220",
+        "view": "https://drive.google.com/file/d/1GKUs5CILoxmewFoL41oOPupbQEg6ReTB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNb1fkrpIxoJezp6HLm613ZFH0k2h5IkzkUuD5B-Dh48DWn4dbLWFL5gdxYsruN8TqDyIjKcLHJBHrmpf9opVpxVrSUz734bfye_AyJSPDAT7dHO_E=s220",
+        "view": "https://drive.google.com/file/d/13_8iOdLaxWh7GdFBHpYL3awaABaUfuoY/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPqsCPpOPWHv8I-UBMXpQZ9YmkFd2ctUYl4BaGGDPxSSFOVIdMhw3IR4xgILZczgkztM2wTADYJqSK04pfvyWOuxN3KIu5By34KzgoJ3zQbPJU5nxE=s220",
+        "view": "https://drive.google.com/file/d/14wv2XfzjvbTjm5hWKibQXIhtuyVMSdv1/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMacpQkye3ghCStH1T6bA6U0csKLlLkpFu6ZxzwXoB6TUhdGTSDw5Qil2IUaEKFw2_DHj5D1dSKmXyZje_pRM_Z9nb27CSug9XYVxiJQiw0hrXaP0E=s220",
+        "view": "https://drive.google.com/file/d/13c_D6XSC8zdc6yy6CH29bO7Iok5KHvVl/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140392 - 3/6/2026 (LEGACY)\n  → 140392_inicial ❌\n  → 140392_caja ❌\n  → 140392_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140392 - 3/6/2026 (9 FOTOS)\n  → 140392_inicial ✅\n  → 140392_folio ✅\n  → 140392_corte ✅\n  → 140392_demolicion ✅\n  → 140392_caja ✅\n  → 140392_liga ✅\n  → 140392_mezcla ✅\n  → 140392_terminado ✅\n  → 140392_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140393",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140393 - 5/6/2026 (LEGACY)\n  → 140393_inicial ❌\n  → 140393_caja ❌\n  → 140393_terminado ❌",
+    "_folderId": "186o5PaG1_TYLfReN086IidLkWGN3X_Z2",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOvEiIfHMmNHJkTuhSgBGp7HAjYf3A7nzvza982WHzNr7qEX4T-JYeU4cComrM3LftizjMIEcuBAUSePMBnhwBFXFnzTSlZxmTRIgahBFvjBhMj54M=s220",
+        "view": "https://drive.google.com/file/d/14epwbE58RWlcv7Ly_An_4HC0otf84kXk/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNT4Siefs9OJVYfC29kRovHhrxv38RJBB07SqinZG39N8f61erbIui9-XS-jus5OBXyl_ytq_PfqAaxQzrSxCKONZsk_nkO36oHi3pA51ttHnwFy3U=s220",
+        "view": "https://drive.google.com/file/d/1g55MXx7syw0S3TeL_O6VwI5Q99te7xN8/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBONOU_mstjqlNsSDuih_L23DTYxeQCOTBa4amxuMvPWylmY8Y3UFWVSM-Ce2gfRPNBp8vOHfwZT5Sq8KMN3dJDXtNdar77NVhVFKMrNaERKVC8Q57g=s220",
+        "view": "https://drive.google.com/file/d/1gYTzheKCOHIlVoJWbJ-_8ezf87nFZ0YL/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP2EbXNZQiBhpCvVBKZFbk7DofkH8SGRsX1DemXqyrt-rkLjS44x1X8nMPgj36I2VSTLn_71_5IZjY3-zhERa9kJ7E4WfTqHGUj0eFjNaMOubqEFMk=s220",
+        "view": "https://drive.google.com/file/d/1cYZ3pU85ZsS8kZHVt_GigfgdDs07XR7B/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdV3JfcipBQ9LT35aBIX9kI1BoQ068DvfSJHBT_uQ2XIv7twteaATUeWN0YDhCwczqRi-UbTb47zS9Ee-YQJFIMzlZnDQqCT5kLvx1cnP55lvPfV4=s220",
+        "view": "https://drive.google.com/file/d/1XZKRADSsNcf7LaKGah9E-5tBS-hNJU6b/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiI9GWAUl8_fFE5Rkf4suIkcQOGT7bdbIiTtSpxVz1RATXmYBoXwktYJv0urnuha8eVRalT7bJGp7bS3O9mu14sHtT1u1baZpKgvAmFsOSOESD37s=s220",
+        "view": "https://drive.google.com/file/d/1bv9qQWOn4wNPWVTunSPrbfKjw7ccbshB/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuS1Jd6nrRUOHzzMB0xNloAkakkeMNbQKW6vxKD1rw7SqYQUesks27IyStVW0oTHLI4360FBaDhIHM1fsRiB01MKAbPuiJNugkS-0Vl-O8StRk2sI=s220",
+        "view": "https://drive.google.com/file/d/1X7_okTkiPSMnFOrSblhVxgC2LVhEiqzj/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUNEXQl1gbp1EUnMSE7jyqGNWyeiA_Onqz0ST1mvv6aDM0xm6pLu6czHUxjeUoyuUBJ_a1Fs5dJxm_I2reO30XzgevQPeSyj_StGBvK3aph-GK568=s220",
+        "view": "https://drive.google.com/file/d/1w_ndphRe7NXTA5Z29NnH3iOCtYgVCCKi/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7PuBmrXt4-VFfJYfHgp-EBU_hHn7CAIyF8MNiZ5R1cFqQ96uPN121hwgg2fcicAKR4XdRP-N4mrCr2iF5mYUdYfhJnO2dDp033NqACf4ozgdbHYs=s220",
+        "view": "https://drive.google.com/file/d/1dXEc9f0nyp6tAneJbu_hZFoGN0A9SKeR/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140393 - 5/6/2026 (9 FOTOS)\n  → 140393_inicial ✅\n  → 140393_folio ✅\n  → 140393_corte ✅\n  → 140393_demolicion ✅\n  → 140393_caja ✅\n  → 140393_liga ✅\n  → 140393_mezcla ✅\n  → 140393_terminado ✅\n  → 140393_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140394",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140394 - 5/6/2026 (LEGACY)\n  → 140394_inicial ❌\n  → 140394_caja ❌\n  → 140394_terminado ❌",
-    "_faltanNEO": [],
+    "_folderId": "1ipHP5ACJHpFGUVRvD6OZj4yHZBDqZHyo",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3yr9aYasD_7hpE3s1XtB-DnHeOh2bmwnGmYlaNvqpNfd7eraw90_o88O6Lu-VxMkBDoRep7z-iQEVPSmj0oFx7GUNUkv-zpxtOGOcSNho5utT_9E=s220",
+        "view": "https://drive.google.com/file/d/1u7nZieIe9nyGCiI1-mce2WxDjGbY2zGy/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOT-RpxC4dnRhZQ-WViRcGVYUgWqTbz8SthTKHuO4ca5mzmQ5n4pucTdGTQ0M0ydJAI2WBs6sRZPfXkZ6BZUT9PKofNqu26DlvGsCQ-wV5yDpLnNVs=s220",
+        "view": "https://drive.google.com/file/d/1J4PCSL4UIG3Bt-OHXWw1cKuqGd7lXfWh/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvTje_lo4dIfd5DV6ZbmdJaj1_3RK4TH4bvsbiU13Zlu3InajzV8hAbO-BbTB-5ncJlm5hQ3s_ynuazleMT_m5Pl515LLxrTIkFrP-uYeWmnfEm-s=s220",
+        "view": "https://drive.google.com/file/d/1v60ETMsTM6OKMZF_xI7FyK8ZgGut7nmZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMIh5gMGtlATXu-lfxuP2ew8Y9zJMVFf0KS5ID6Rmp3qNGNPQAOXlTvJFt1nNMr3kZj-NVt1z32FdKQ7usu8jrIKTaZXTPH5a4VHECMsLPd-1RH7rs=s220",
+        "view": "https://drive.google.com/file/d/1ePE7US37WuP7f5DPunVrmpXuE9LQLEfS/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM2KGaDJdkmNF5k0mZYgO8ZjuxULUxrsGbFPevnWBDV_5XaPAw_BXjBROnhVbvqHapO3EgGDWbs2qQjAzFOqqU2f8aLEEEHZ8_nZCGjbKzfn7LeyiI=s220",
+        "view": "https://drive.google.com/file/d/1rjEqFxbYHW0A1KkxVqtONzPrGK8dUnLa/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO99HYfcZ4J5WYa3py0wytFgGCfRVP5EzorSh0SS_i60nu7h6sDOhqZuk20l8NBO3vVBmaEPcwaKSvbm4MD9t9Lkro4CHCqjwnfkPzxHPrUdpCTGTk=s220",
+        "view": "https://drive.google.com/file/d/1GO1Mvy1kFuCrLiQLi-pq0PuC1NSZSCTb/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4uLxW0bDoOlFyo9MKZ_Y4EuO5-cFyDxfoIuIaAVxywzBWP-EHeEXr3jn-CoyG1gKIhJNJlJ_6xFi0KvkNKLvi4lfLt9MlFYjdSEKgdi-2de8YzZ4=s220",
+        "view": "https://drive.google.com/file/d/1FZqP8-6mJdkSCYNsmCGnmf5qfIbCABH2/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNr9twtoCKt6pPdnG_dOFWNWz5kNzF6y7suJa63yMF9BxKrsXHqS2cWtHPXFNp9D7wkf3xlh9dK_Eps5kfYRC34lgaCuWiTRJKF4Bi-JLDAFBgcfUQ=s220",
+        "view": "https://drive.google.com/file/d/1CPhvIQ63AvfmTN7nMVx8Ymks-_8pXquK/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
+    "EXTRA_PHOTOS": 2,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140394 - 5/6/2026 (9 FOTOS)\n  → 140394_inicial ✅\n  → 140394_folio ✅\n  → 140394_corte ✅\n  → 140394_demolicion ✅\n  → 140394_caja ✅\n  → 140394_liga ✅\n  → 140394_mezcla ✅\n  → 140394_terminado ✅\n  → 140394_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (LIMPIEZA)",
+    "_faltanNEO": [
+      "LIMPIEZA"
+    ],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140395",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140395 - 5/6/2026 (LEGACY)\n  → 140395_inicial ❌\n  → 140395_caja ❌\n  → 140395_terminado ❌",
+    "_folderId": "1GlKCpxg4AU7Scpu7fM9B5LVwNyWBsuA4",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPeKGmqwE5F5UwSf9aNiaZpylKpM7c-KP13SdYt7XCK_gA-TI5Yi5A0xIBXd2oppX8yHWZN2A6xvtvRV5pWVbSVgJeMVOHM694UMt1iFGtBDqdUvmE=s220",
+        "view": "https://drive.google.com/file/d/1odmlDVi-kZyaIf6YvZKQ4M6wDeZX70k6/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJXS_fCmvgPtHegBZ2-FiVTO7g4Ify7bFRJu4qUFgEF7Ep1OjT89fGHhKAlWAcqvfRo86lF52FwMNMbZr9rLYe9nFkhedLKiG1wbJRhbfryXoh7ac=s220",
+        "view": "https://drive.google.com/file/d/1P3tuPfzGC6iMPwi5rztU4H4djtzupOR6/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBs_r2bO3jqiuqeTSQs7nM7NSjpGlxI5V-pBNFvrcuBjPbHxVfOnaYGqQnJ09odyiGr_PZVEmM2Q3tD6Z-qV3DLCxWDh-0H1y1HCUI-9-BMJmUqI0=s220",
+        "view": "https://drive.google.com/file/d/1GQnHj6h0s4tcxQBnf6MiPmslGxKHyAn9/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZ0OKcL_EfJArPNHOJEmQqjCb-ph0rBq7gMVjXa3LHLFUqLTsyqeQGfaYExQWT71QwJu0PN6RPgcOsTGYNGiGKrTQXZlHZ_S7mguDq_yfX4Wia9A8=s220",
+        "view": "https://drive.google.com/file/d/18EP3HKwLbSSNsn8PsWqhlNeL94jSTnue/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPdimp4udip3C8fkmf2IqYUuAKithG96Cdzs5elNtYUxdI-e5Q4-kUaLLfWzTkRbYc3wo8eWSyszvs9qulz6iUNxptJZK6p53Ptx4T59DnSvWzged8=s220",
+        "view": "https://drive.google.com/file/d/1chX_CZrqSgFucSE1SM7iCmTOGWy3cuDw/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPokBN9C-hKQ0IUZH7eNHq_w837AKQyJZygVhp3U6WPfPbn4WeXQd_cSvh5ncFy6taGtQUOdzflB5Qvhf-p0LpJf-LhuBUaXIbYdygJq3KWlTYP3LQ=s220",
+        "view": "https://drive.google.com/file/d/1bPyXJzAGy9PMSOl9zMFmW3m0NO8UVh9t/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLAUEyLLaX2niMdRtZb-3AR0FPuIUnAi1dXdgk-M_Uv2-E1wGLYn6L5hccoIOLXMe_GiI6pIxNMPdbSsiKfmOuF4n8Zq51ko466-r9H5O3-n07w-E=s220",
+        "view": "https://drive.google.com/file/d/1XSXGfNZG6tUwNhoNKzjl4mYFhrQunfNA/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEsvEgQlQHEV_CLzVsl0Ij8dzJDaDyUkeguwfot407E6nJ2ukgA-G8KqJu5ornJUgRW_iGpAYcG7urQmQvLeCub3AJr3NNoa6JicmrZZewd1ys2bs=s220",
+        "view": "https://drive.google.com/file/d/1ag_0whXQ_KW6LfZAT17tOJkjU40cUmZt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMN-5gzvk51tIUPj3Ux0YMy_Pd7X6ZxCKWu3QQLpNaBoTgb9nGzG-JwlcLCcx4rZQ-EfDSfLnXW7d7mvp1yyB6MM18QS0FFHTNrSDSF5xrcqKhBRJw=s220",
+        "view": "https://drive.google.com/file/d/15jxxfmJv7VSLs61EA3m8tnWKdwI3-oO2/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140395 - 5/6/2026 (9 FOTOS)\n  → 140395_inicial ✅\n  → 140395_folio ✅\n  → 140395_corte ✅\n  → 140395_demolicion ✅\n  → 140395_caja ✅\n  → 140395_liga ✅\n  → 140395_mezcla ✅\n  → 140395_terminado ✅\n  → 140395_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140396",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140396 - 5/6/2026 (LEGACY)\n  → 140396_inicial ❌\n  → 140396_caja ❌\n  → 140396_terminado ❌",
+    "_folderId": "1sTbo3339OYE76PiDoKMX0v15i-Zozm8-",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOE-R9rO3ZSPs5Q8LKr7sf493m2F81e1iCFVEg7HxgBWRnowOmhXGRuFosWdb37H_e9pBgOBnAWQvarD60p2zO7JVBBXjTEahaJMnqki8OKwobbR-Q=s220",
+        "view": "https://drive.google.com/file/d/1JoCCUgKx7WPt2p9mVrC59iWOI4NQ8uaS/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMyO2HTZy7BBaBxg2afoDbPSaFpOgjfzPfvLkleUAV5S8TP_0kg6V9K9fhH1HhbM_CnRrdegW4LRJXMkcMlhGKpFHbG09SXKC_YAuNErmYUoX_4Nyg=s220",
+        "view": "https://drive.google.com/file/d/1f6k4_OBOLaiacjd-eKFLrgXaoAS_ovp0/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPMiOZA4iMHnL7fpU4GbAVaiVoCqatYGsuxVwOmQn46iGIPxleT77YxejhWHy716xRhRFpVVtcjSyL4oKY-s4qNEUlUXNyC253tknuX8w3U49XzQeQ=s220",
+        "view": "https://drive.google.com/file/d/1EnjVLUDwAsv2kfZ75j3L_7vRQOA_Ia9x/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOFotnSYNsmrhWC8Ea7FN83RQAv1OkLE15nqwXSU_chNSoT1Es3GA8_UjJlt0Db1fw68aJ6mWMvY-Ykdt32ir24XJ5boxpNs5towTqUH3mQc4dpjVk=s220",
+        "view": "https://drive.google.com/file/d/1ksZT0HY1uTfnQ0D_gTtBX-DYf2sqM1B3/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJJQ7NBzIG4GaCJUf7vkgDGfV42g7cZqEdPizD4YQ9DHZZUBk3RLDsnBQgvtlMn2V0fnfZAqoxwU77N8K0nDqY_vh0zGaf7FiU_2UYZ2P7GfOCHsE=s220",
+        "view": "https://drive.google.com/file/d/1b8LnuroVltR-m8Q8ScP51sHA9zMdAE4D/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNKWf1FTjuFwcKPns55EBdEsr6Ogvb0jDCwavNa7-KI-cS92TUQslA1iv_FEE69XswEBraIgug3wFoLyfdLf0ojIGKk5HW4xPh5Uq4mt2kd62Cn2Js=s220",
+        "view": "https://drive.google.com/file/d/18QshJTcpD6z4p2kcD_f4ch3tQGrFRJXM/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMJOCTbIBeDaqEKSJGirwNuquNEZRa8rukwdoNpZ4osKtgHYPvYSHQHHdADWmE3vrirBcEpB9-Nql_jGJD5VVfg6bLUbkH4b-thvlv3CxaJGwaGRn4=s220",
+        "view": "https://drive.google.com/file/d/1gBa07r2s6rnb77QriR_WRi-X-i4RxIAK/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD_Utq9chfmbBrMKQV82LOJtjvIXPvTl6o0oz0xViMQ-Qs_VMuAwyEYRawQTG0_nOQrnKOkuCgaFNw9_uBrEKvjMRKIfN9-5Ona5QSs0uWTTDO00o=s220",
+        "view": "https://drive.google.com/file/d/1JgmwXvRu_tjoyQ9qEZOIGu4qxdJljna3/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBObqtpdtx6p60-kF-PF-3RBK6HLiE_BnehZJA_dDNGyxCKualBKxSE6-XMVYx9I7lVwQxx3fRtw5m0BMwMQEEDSNBaByBCjqFXNUngm0v6tTC8ZGm8=s220",
+        "view": "https://drive.google.com/file/d/1DHw6inmgsgiA6aQHV_ixXxxwTEBNkBLv/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140396 - 5/6/2026 (9 FOTOS)\n  → 140396_inicial ✅\n  → 140396_folio ✅\n  → 140396_corte ✅\n  → 140396_demolicion ✅\n  → 140396_caja ✅\n  → 140396_liga ✅\n  → 140396_mezcla ✅\n  → 140396_terminado ✅\n  → 140396_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140397",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140397 - 5/6/2026 (LEGACY)\n  → 140397_inicial ❌\n  → 140397_caja ❌\n  → 140397_terminado ❌",
+    "_folderId": "1Rw2fhqACOK_iAZIWX53XUnjpdFYHpRmZ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN5ZqGWkDilZ1S4RTQ1o6rPytC5qveEOZi3HqNuPxyVKBMJ8-RWZCwBZGWKX-TbRsi6SfetPdxZ3azkdxuRbRDpsOCJ_JDYZk4Vco2nuhW8_VVUOb8=s220",
+        "view": "https://drive.google.com/file/d/1nEm4xJablq-FoKkp29oieDk0vjmVK_K0/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO7VYyIhwfbSuljDyfCQlzMuMNaor0qcSELjYnQyNUmICzBil0XnH_N3DaS4rAfa4zx9SQ9p82cexc-tHhoC8bgRAu-h5TOs5LbVsDp-5LXRpLjJak=s220",
+        "view": "https://drive.google.com/file/d/1CnMtfRQ3vvzYJ0vJQ7N1R2Cus_b1rbxV/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMWlnE5Sj7bobQ2D_3zg4JrcM52T5rk6xFPoI9JJKR8iGAT-ELUIfkH_BEZuhjxWUcTRt0K6mTG52U4SZsCmZz_6QtsxoJSgoQ0CsXbF3KAdNDP32g=s220",
+        "view": "https://drive.google.com/file/d/1l8r1dZNvjTF9gfps7JF6xURBWva2zbRs/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVUYsUQvNPcXOanfRwxLx7TRYMkpofdvtQOEp3nnvO4rC0sM-Oe7cTVdHvOkhs82TKeLKzNXKI15KAdQ_sYuSG9THNYhtRf5xfd_HHKocQ11oJUuE=s220",
+        "view": "https://drive.google.com/file/d/1JpqOnrRr5G8O73Y1knt7OYPlY4_OmddO/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPmefUQCMMvcXqSouhsWM6-60ueGBPg8yVU3CB8wTae_DnDNFYmkvwCvKDdvKWSntr_SFV7f_q10fyX6IovqkuutsGsd5WD8Ol3KPH6McB-dfhotVU=s220",
+        "view": "https://drive.google.com/file/d/18wAir1n-o9nt5WsY5216olO6hhviZdDD/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO0RglazihHuoBOlSk5Xoi_lec4Pvde_R_gHwKYPxAZDTYIm8PfjSiDDY_oWnuNHZrnxLhKzSgETI9b-welEa2H4IMUjAgyuEanaZGST53bcufUSRo=s220",
+        "view": "https://drive.google.com/file/d/11Pc4AiIzhwziwZ7MFbf5Tv99Ywx_EKGy/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPACpq6kuj4GNRBscSA1omUw-TO2XerMVWb2RaG6y24tACOvVkoI_uMxOnhVyV0CZe_yvRuk-mlEoCIstgfl9O6NKiU3FnBw_dIHLC5pcyc-bF1dyQ=s220",
+        "view": "https://drive.google.com/file/d/1u4wjcVhrE4AuLVFsTh5ZmXvqA_LeVvAM/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOKrnnCspiqNCD9o8ySoaMpmwjcS3qLFhqWXHcjshirwlmw_749FbB2beGSibwABhR9I9a_rNL1IyqO7jv3kHoSU9CjqtXgrPeStsyhMswBwbh6-YM=s220",
+        "view": "https://drive.google.com/file/d/1PE_rgnDRfPIuep9dvqXdo4LwET0SU93-/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMKraO_4pPKrWdaR7a_7oADqTJEJ9dK-Ttk1gKco3NKGjzHoXrK-1F8qYixurWcyxEcEqeJkXmyxjpbmzcLKAcFLArplSiqFu-HlfOXBuXQQIv_w1Y=s220",
+        "view": "https://drive.google.com/file/d/1FPPt8ly6UvBa0Krn6WXc3lcfZ33iZOwn/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140397 - 5/6/2026 (9 FOTOS)\n  → 140397_inicial ✅\n  → 140397_folio ✅\n  → 140397_corte ✅\n  → 140397_demolicion ✅\n  → 140397_caja ✅\n  → 140397_liga ✅\n  → 140397_mezcla ✅\n  → 140397_terminado ✅\n  → 140397_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140398",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140398 - 5/6/2026 (LEGACY)\n  → 140398_inicial ❌\n  → 140398_caja ❌\n  → 140398_terminado ❌",
+    "_folderId": "1RRRg0gABFN-DscBYOU_OZoYH5Pm0f1RV",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNHSyZpN8R32c9WwCmQMCQbXqBBAEQhCcsdorGvSVOLK0c0n-dSuTXmcEoBG4QHmg4wy8_CSwhBx_IrLunwOA6hr-c2e8dxboKqFSV2w0Wtsdm3zXE=s220",
+        "view": "https://drive.google.com/file/d/1pNCk5YIDiA6IDGpT-836AyDe3Fqk79HT/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNAW7-eeXiSrAcdEVbvqibOvmzI5VJx6zTRpBJw0uWgZT8CPsn0Qpqd9b8WySpYB5-69DKg6ZXxzYIHLKlN_i0FFnU_r_HJEyJoHZjCaJP2LzRcBw4=s220",
+        "view": "https://drive.google.com/file/d/1Pgr5UVn9OaXOK4cxrNjIfl5vqsiM-ko3/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBQ4t6_vEbH5UpHc3xAcldHanV8O9dor5lSQDzIUKivFC-xbEGVmsY_wid-zPBqNO6KDubWn7MMcKRd6mBVGDcJ6c8DNvkbyKlfF6pzzZOV19hsGo=s220",
+        "view": "https://drive.google.com/file/d/1gPZnffLVbju_CmNIrk7Dn9izcWkcLiW2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOAd3q2PgyeEZS8jcGP8XZlGt0prtus4Knfb1pIFPgYBmHsqKRz8BUU5P9OOWrg-AMHylT2UqEa1EmFUzCncEQIz7JBsA86jgKmYb-uwwfhAjtoC7Q=s220",
+        "view": "https://drive.google.com/file/d/1f29OASOJ2mzOCs7dkMgor7881KfK8uQu/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPL6ipb3hasQve8By-kItNcRJJfF-97sRIuAjBOUhlUqfDq5a0QDcthoD1lk0nEM4AelA_IvwzCR9pX-YDPg8N3jbteiLsAx33PQyWacgue11D1xGk=s220",
+        "view": "https://drive.google.com/file/d/1VAvf6lqxPFVzXATmgXotw-0NzKcJm7X-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM4FShnSAVobLvMIoGT_X-Xn6qsMtbac3zJTmA7D6fA9WsQglG3MEOTDeZ1QEtoI1n-735o2fqXGXfiqbM8aOIr6256cLwn5ZoByxtrJobMw1Nr3e8=s220",
+        "view": "https://drive.google.com/file/d/16dcTLnxLR5jH50hmopmZlN3a5cJeBu_z/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM_cY2wweA_1gqBSU4lz7iDPvAyCD1OMktdyFmoRyvphXNFmmfdjv2R4a6LyjGacFbSxoAKbyi7d6EzPCxLjbP5Rhehw8BPkZHEpj-AswaqBjmWcaE=s220",
+        "view": "https://drive.google.com/file/d/1TqALfH5rDNom3_5jDYYnYH8Ng9wpe7ns/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOE68BDKo5VOVclyxbg9vHXnWUCg35C-qsuXmnmzGKjn3yz1SjnoxOk-fluhlqznpbuToKa56QcmC0-ihzU2RnEzNaxHGVQoLvLGDw0fWTQp-bfZD0=s220",
+        "view": "https://drive.google.com/file/d/1eOfRdZH3ZqkKVUFMp-RR_20Ytv8nJrJL/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO1MGG4jduxdQpMULdvxOO3v-6aVvQ0ad9StYoy87I13gabl-PFE2UpjGdWrgJYLVTfcqwprCJflmXKluMQs6wcqBz8bwPj6si6Z2k14_uW73pcbbs=s220",
+        "view": "https://drive.google.com/file/d/1KnoUA6Cw0QkttCXDhgTyRl1RiwJBKIu0/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140398 - 5/6/2026 (9 FOTOS)\n  → 140398_inicial ✅\n  → 140398_folio ✅\n  → 140398_corte ✅\n  → 140398_demolicion ✅\n  → 140398_caja ✅\n  → 140398_liga ✅\n  → 140398_mezcla ✅\n  → 140398_terminado ✅\n  → 140398_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140399",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140399 - 5/6/2026 (LEGACY)\n  → 140399_inicial ❌\n  → 140399_caja ❌\n  → 140399_terminado ❌",
+    "_folderId": "1Jl2GlT7adKWoQe05E7iyUS1hiigGVHjs",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLun7Ky9KU0mhya8jWjwe6HpVNvFd3hIEHIGRlWPIgjQXx-0LxJtE_NsK87mreZyx4774XGW-B_Y4ugs6ECpBSTxv4cOc96PfP224dysKrI8Xckqs=s220",
+        "view": "https://drive.google.com/file/d/1efoXD73xu98fJivfWtj44uujpdZw4AnZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO_lJuTp_1LPBWPTLnzxAUTJC62rxrHgfdsSoWeYVhvCcyRgqk1NoAGeAp-Ecj27kGOFmf6Vz_mcCG9Uiy-o-hV5Ggj3ec_iruIs8-9NaeoxZgK4f0=s220",
+        "view": "https://drive.google.com/file/d/16VHf7X9aLsyg_r7DaPuabpCIr3fydBXI/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWbaNB2FxcStpHQGOAPPxcwzvjVJ_gA4c2JselSIsXb1NlIftv_yELuclK8tQFAohskEZ4qED3elzlWHjgW_DTQlkPMLmlfsabc132q00kkCBsHVU=s220",
+        "view": "https://drive.google.com/file/d/1SaJ0VRZLrskSK880RVuVaYD9LEFTnStJ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPl6v7XQ1oHrs5RWnuFdZZExXuOsG7XPdYtB-VyUGTmvoU-J9FGKWpsH5xAE6T91Oej21dD7Tjxb28c5t4Ce1knWrzDx9VfK8xvIuaw8jrCf8AzrAw=s220",
+        "view": "https://drive.google.com/file/d/1ILt5RjjJa3KSuqqxS-xpasfkQkwDe7o1/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkqevRyOWde47j7nL8OlB36H_h4HVmO4bSCqHnkA_W3nMgUeSMfVBeXb2o4u8A2Z_yzVYY1lSRLkQB_tUHBUje1C0ue9sgwYMN9zxJycJfNis_cZs=s220",
+        "view": "https://drive.google.com/file/d/13mFdC5qcVtxrDFKNhb8zju0NclvWF2ZW/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPOo1aNOpUz4tncoTnEVHmq6QZj1LTjDTE_QJkAkmfBGfQ5WTMlI0IYCs0wrox20SSDl7PhxgLeiWEzTID6SmC2HGLwIsFaulpR18tUQqbJpONXCWI=s220",
+        "view": "https://drive.google.com/file/d/1FTXhiDWheNeedTl8V-LIcOi1ojNAQbsa/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPZ8Nd7BXuYaPKpPCGQ1jKH3ww1NBrRgg-yEeIiWaR0MY2F2jFCoP4-O5uvT3Lr4JgZW910nJVSQYaOLplXXPbYJbf3rfKCl5FnAdcyreWIGjRJVUo=s220",
+        "view": "https://drive.google.com/file/d/1yMDFstiCLS42V0qH6Kiz_VQUdlUz-Q9y/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNBG1ti5R5FHCrmKcjC0KkwBxvLtJ3bEu_ckmHr6lbXyp_aaDaQznsxU03jM8ZeWXLKwmeUVXy3XuUAd6T_WcKXC69ktAFDnmbY3hnn5fsAl__1jrk=s220",
+        "view": "https://drive.google.com/file/d/1vhFmzbDo64QC2deM63HfZZeTnvg76ys_/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOIxZUq3s3BVgW3yU7zESSypKwBJ_3HTHWzzKdXJtFKLwwT_p0Eg7NkG0Sid31CobZ6Ekqpvpvhcpqsg-GzSnsmdl8ZoGE85MioBm7oX32xfkS8W5I=s220",
+        "view": "https://drive.google.com/file/d/1R7zn9kkIizprFEmq_OV829NBz6Fsofs8/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140399 - 5/6/2026 (9 FOTOS)\n  → 140399_inicial ✅\n  → 140399_folio ✅\n  → 140399_corte ✅\n  → 140399_demolicion ✅\n  → 140399_caja ✅\n  → 140399_liga ✅\n  → 140399_mezcla ✅\n  → 140399_terminado ✅\n  → 140399_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140400",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140400 - 5/6/2026 (LEGACY)\n  → 140400_inicial ❌\n  → 140400_caja ❌\n  → 140400_terminado ❌",
+    "_folderId": "1kC8rui3oL4F28W-4fvWzBonbj5ioOaqQ",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNxKhWcVdq_84XrcUyc-z1unZD3jvrwqPqLnaVDkkTK-KVgbtZCEScPjoQJUHcli21wpBnDJvA1u7O_zaVcmqgLtv6lhC0fry4JfO6pE7p16boadKw=s220",
+        "view": "https://drive.google.com/file/d/1G9yxjV59hEoCZHdexqGDQt5650XYhuDR/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6Afe-T6R31GRIUi7BFtbBwDZTLs5xislzdTW_EcpSocguMpKphDNIWRcQIEhg_lEk_wh0Y0isSuIeHBtEszq1smaxsXV7BA-wk-7QcoZIDXedk18=s220",
+        "view": "https://drive.google.com/file/d/1Y9j7Cd9pLT0X9nEjvq92LhVbEZjytBKr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWv4ygy9bNFf5gnBAQWMR4fA4SDxv-hzsOtqnYwz7mQby5-Nl0NAhOOtdSydbl0sPVwBfFmgJYpIbnndeMrKEFb-Bwk_IfVbGtEagitjeusRKPQMs=s220",
+        "view": "https://drive.google.com/file/d/13p2_a3XHxe8NiGN16U97HRkM2_VYavyI/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrz9T2n1Ep5f6QxMpaLN4Msi4BGXvjWQEFZzF8hb_gdu_lBjSxmzxLOReEzsozWoCDnmdPqtIk9is5K8BjwfdS_jCVaOain2zFPjJ8uD_tbtc7op0=s220",
+        "view": "https://drive.google.com/file/d/1mAqx7NiLXjPUjptoULTw90UfIUh_SItm/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFxluw29ibq9AJlPcY_rubyTK7MDmpY6JeHgUI_vmykoPEpAuNVETeAqSB6Gn9VM3Do9MUh-vzH1USTcKia223TniuOGqlfL1rw2_Z2meOntHiEaI=s220",
+        "view": "https://drive.google.com/file/d/1nCfMGZu3jtz_XMbWt6uMgmlDJW5SmAPc/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPlPMwZKmnnql3Wygd30hTPbTAhDR_tLZipVBHEivUrSZCkORVugYSIA-cBmjQSXk1cMJVOKNUO9TFoXmBKkUAj19CrD186wsFQzoH3toyNvySuvMA=s220",
+        "view": "https://drive.google.com/file/d/1PgVqskSCTAqMfzaEpUzV-kUF8acbVETl/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMRvTYJJ5FoN-zOkkXbv6eObyFY5at_7H_PTJ3BXfjCrlDYNhGd4AsvHzxeIM0yuPkNejWEzShmgLXAqkYEa9r3BHAITG1T1bEpOdPto6Z-4lm7bTQ=s220",
+        "view": "https://drive.google.com/file/d/1e-comnMKjpy8JoP6sndTxbhC7GXnx65k/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLuMNXYm2swZc656vCmhTgBtI4x8OmuvfzKqfGOwMzZICteCqxhfpKX6rDxvISK81t2tfHyRWR8LVzytKrndo5zBvtUeJnDkTU55mUA7d7FCJ2PQs=s220",
+        "view": "https://drive.google.com/file/d/1vearjrzYiLFod2l7pfVMZxbCet5vSlcQ/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBso1SIT7SFFCjL8tjZm3Efb1-KkgyjhiB9O3tZ6uTNBU1Gb_Em-t1XA4L-H27Fp7pBvZsFhXbtPngcfL7cqLUDOyEPP1RTtC-uEYHgGP4ibi80bs=s220",
+        "view": "https://drive.google.com/file/d/1KsqBzB03vXKDdlf9caZxR4ZtlTnFF9DD/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140400 - 5/6/2026 (9 FOTOS)\n  → 140400_inicial ✅\n  → 140400_folio ✅\n  → 140400_corte ✅\n  → 140400_demolicion ✅\n  → 140400_caja ✅\n  → 140400_liga ✅\n  → 140400_mezcla ✅\n  → 140400_terminado ✅\n  → 140400_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140401",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140401 - 5/6/2026 (LEGACY)\n  → 140401_inicial ❌\n  → 140401_caja ❌\n  → 140401_terminado ❌",
+    "_folderId": "1Ll0trd_8F11SmN1O-8mpCS3WWULnGq0q",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUo5g14xzQljy4ZevsIPYYAU0olMFy-B5n4GG2PdM7ZzlZtf8dfpsnBMZy6TyFgE5CHZ2eSy8eFQWQvr85jPGTbsAA_p72vOQ8lgCaCplYXny-gAw=s220",
+        "view": "https://drive.google.com/file/d/1Cr0HusGKO_83cLcQZjqhQ5eLTbWSQei6/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMS2BK74-gLL0ZzD2ixbn_g46SDjvxIEpSF8x_87EWUC8pRhucCQ3HNstWtpyonokUOyHqdE5sct_X-PeJ4IJmMMmnhDbnCJQPA-CihOfLX1R9MFqk=s220",
+        "view": "https://drive.google.com/file/d/1p6jQDQukhHgjomuknfXdQRWJ0jnQ_Cg5/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPnhyeeHLxpgFHnicL-IE1i2RzK_4CWBXLBzyp7YO5k3_SZm4-v_Nk4un5f0dwAB0W4XPRG3KVmsLlpam-naTDRd-1aPMxF8ljftrVbDh6xGROCUx4=s220",
+        "view": "https://drive.google.com/file/d/1eW8lSs60YQvc3THaFoWW8kAJApd2ri5W/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdXOXQdLPJh7aGBYzwRUIgxvxi2eTfmuXvq9VyqkbYBgxm2WOi463lkKFCWB4OuDZRbEFANJsrhHHpU6k8cgVsN-14YY_kX8wv7ehO3pDbEP1GXvU=s220",
+        "view": "https://drive.google.com/file/d/1ep7DbkKygm3SbgQaK7E-OXQrCky07a7s/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN-vf5JxqGP61RyPKEzYAyAcAAWTPRfZj47cX-wZBAIAcYsjoaLVgKWBDP2qjoO2Tp0o4HZBpePe1LrnnyUpTD39AzqA5QOJWk8eRr5DaiKhu39IJg=s220",
+        "view": "https://drive.google.com/file/d/1RQnDhN7pvZWCl9rbI424QoKNXCEmHNX-/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNwIpWuU0ki-9a7qyYpxeXXbfRVRcORa2j7FpO5_6h9oWAOz1bjeaR-qBX37BXR-iu2FrSmeQ_K_YltVQKlBORNggPDPnJNxdrtBbbpiqsFLhLiPU8=s220",
+        "view": "https://drive.google.com/file/d/1rIATTJOxviJvy-FYexp5W-0kX9bgtayh/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMBG6YJeluWaw3_QbouSlhFRqfUf4EaxBH3JQEQC3AUWehDkqqemUXmE5flTgdKXTWHPvU2FIGHs0TBt3jni1k6XgfqjlKh3QHWMctHAETs1X7d4Bk=s220",
+        "view": "https://drive.google.com/file/d/1NjqtFboc3mHEoLxfF4WjD6iybgvPaL6l/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM3N2xHODvKBaaeyhVCPovdp8fDKUhFSGVWfeXEXpNQJmv6IAx06jtSO-50WgAhtEv2IUqm7OkcT-I01w2I-Xo_WFhV9ii3QWBgYg7JjUHTIPXyzx0=s220",
+        "view": "https://drive.google.com/file/d/19u4cTVGEAHwhSrOuWeR48cx8FaLUBePj/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDzwLbSk7Gpg4Rx-RFWWeZ3frbppUix-NiEHen-xKS8umQ5SqprSH-9yk2lnVaiL9YQA8P-OR9xy3z3gFgjAWgLlxNDPK1LuwWd4V8KtH1z1eevC4=s220",
+        "view": "https://drive.google.com/file/d/1R9u9Tr3GRBJwlkiTI1uCTiZGiF2-jXsv/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140401 - 5/6/2026 (9 FOTOS)\n  → 140401_inicial ✅\n  → 140401_folio ✅\n  → 140401_corte ✅\n  → 140401_demolicion ✅\n  → 140401_caja ✅\n  → 140401_liga ✅\n  → 140401_mezcla ✅\n  → 140401_terminado ✅\n  → 140401_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140402",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140402 - 5/6/2026 (LEGACY)\n  → 140402_inicial ❌\n  → 140402_caja ❌\n  → 140402_terminado ❌",
+    "_folderId": "1Q9u7wMAT2AzV-orSxrDmpCPSpOH-n2V1",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdqJOP-zcu6qnIcMz3Y71zgx_Lus5cgpSwE9-03unpDDbarp0OjnP7OyAsJPjLs1bsUH29ClgGvNQRffa4iL6WUbL5szhmLAxxt-OFw9mTfjFB0T4=s220",
+        "view": "https://drive.google.com/file/d/1Qb0E7YQ_vEhHCrJLV59OLMlzRuhczFTI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNH5-hydfUnR-4eC30mdCiCyqF7EC7G4P46LdEPFcHDWVhQm-GKMavG8QXR_mLi7dhj3hKQ9gN7KUtXQK8PwxC4OLU5YCwodM79-B9d11T5P9-wHT4=s220",
+        "view": "https://drive.google.com/file/d/1Mk3TWkdeWyf_Lh3NLDpiGbnjmlzsubSL/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMHz3aLvH0YvmmZiqwJUqIeXG1ojiBSNXBFYix3JvbRHG_epKi6H8FJmp_Sd0ldVVSrN4yEfoS4zpL6w_PRqyRjyfp8Qc4JFUgHPIfiVGkaZWl9V7s=s220",
+        "view": "https://drive.google.com/file/d/1H6MBDuDU4m2AKA7twARbSirTlwY4B0zZ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNC18SS4kpKJT0IxZgHEZk4hHolSHWYJts7SMl8JjQGWWFQEeiowDuYblKJkJbpi6z5lLrHSksDmoY029E1f46BPC1hs2E_NXiBoERxvhWbWKO1QMQ=s220",
+        "view": "https://drive.google.com/file/d/1seWilvJmB9XqacwGIos0eFGaGocCMIDU/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPbbGf7tR7vfqvvis7hLFe1G0laLhOJMmxQEeWwx-R5wQnqWLu9FQOGSqbyaXqCbQoGzP6eA25l_tHwxKZBRTdsu0mh7J49vB17pPvCTNzDkTGtdGo=s220",
+        "view": "https://drive.google.com/file/d/1LPUGJp45AyopPtdQJjq7i3Gn6AGy7LoF/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOVmHXXf5YYcsy2GnK1-2x_eFp-bU8tW_1HCzuib8zBvUe9OM5a55BlHow_NYqws6gSRnQY15ngF087CTldM2-BMKnNiRcUlfyxkK6l6nKzkhdWf94=s220",
+        "view": "https://drive.google.com/file/d/1mBAL06kZ0UQi4YjiKSqIqedHOwj7J2Mh/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvQDBRtdm3XyqDeFb0mT-hG9vr4rAT5XGiNXN5-18DOXiYcOyC0jBcEKn2lsOLsUKi8B4qeFyjFLFNAu6pgSVAhSEP6L-JXbAWlpQXchgyy8ujuUs=s220",
+        "view": "https://drive.google.com/file/d/1CvC8d8FWDACoc7Oepvit9oAjrDT1WWy2/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1UAOYQmrpwDlh_PMYJi_T7ktAeLI9Zf0LvOhcRJVfqASggVd11it_evejd-6Bhrrv-NEznaB0PukyKs5-8bS6bSUfUAdQUFvxsHu6RY_DbT_aCh0=s220",
+        "view": "https://drive.google.com/file/d/1QR4OMeIVC4pPeNEtmcfdizsJ6PtMn-9L/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNjdu0dkibiY9ANJRwt77-TasI2luO_M7_UyX5H5hwG9MnAn89y7gSFTIIPGMU-jMik9csLRbVJZdPSruauJIR5yg4plsYoJguQa8F-RGRrjXN3bqk=s220",
+        "view": "https://drive.google.com/file/d/1i2Ftp34kf_7iRR9F50zMxrp4MitFZEVs/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140402 - 5/6/2026 (9 FOTOS)\n  → 140402_inicial ✅\n  → 140402_folio ✅\n  → 140402_corte ✅\n  → 140402_demolicion ✅\n  → 140402_caja ✅\n  → 140402_liga ✅\n  → 140402_mezcla ✅\n  → 140402_terminado ✅\n  → 140402_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140403",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140403 - 5/6/2026 (LEGACY)\n  → 140403_inicial ❌\n  → 140403_caja ❌\n  → 140403_terminado ❌",
+    "_folderId": "1c8IY_x5BmlnjUnYI0KvxvBclv1Iwzk9o",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOZ5he0OxjS409U1roOmRZ8za11jOVQ5Q5xriXpAZoaEP6KPEOGG5apma5pSZ2Gd00Iijqo61VLdn3JITf91OBxO3KZG0Xu8_n6rXzJYKK3hl043XY=s220",
+        "view": "https://drive.google.com/file/d/1pwuoCMFuBhkHcFCknUskw4FdFmE1MLdL/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMLDQNXfrFW7nRUE0WRc6BV0s1ES0Xy-7pjkfG98op5lKUHIYdZKnlPeCDH9qIeO1ZkqwniLSQrCGGlFAXyTjO3gXgcHcwOQyWU-E77Sf5CtB9W42I=s220",
+        "view": "https://drive.google.com/file/d/1GdhmTwAVoG0HiwPYXTSCTnlYtJ_damFH/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM-pknnhk9Ggc84qbsPM1jkvTZ8eX8aDI15VOgCnim5ia7_sW4oN8r4E4orqUFy340h3fvAXpc4wxP97geS0ssEM2Ypq-5fQ-UT-gTgkJuZPDoRw5g=s220",
+        "view": "https://drive.google.com/file/d/1zxrol6Tq74rfANJUoFLVkbbmxQH00xWe/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZa7m-Su8y03f58ZSxJATq1d3eUWX0H4jXKG9WRutbYAFh0Fe7Gh-5uEhgSi4t5wPUqKJd7NGaO1DIlKkvIMOVJAfnvUif_aPihyfZ1-YFtz3CdBI=s220",
+        "view": "https://drive.google.com/file/d/1zQ-XDX0JLbSOpz_Zh1SXRfrGjx2bTfuP/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdMrW70-UW9nwVndX_QexLgTWnA08jtMI0TwVslot8b7Fa090YlQNHh5ii0cGu1zjThWrc7RRRAjdxMzWZsWkldBawH7Us79pEVDJQPBx402GpSoA=s220",
+        "view": "https://drive.google.com/file/d/1l8PkzMyMAxrBCCjvvfV58Jwjvn9WmXXi/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMjbE-dVotqwB_lUOioWCstT7OyQsNh8v_28Zm6-spzdL7ME4Z-sUIkfaG6Og_zLbF6U5uiae-qC2q_XNbmWDCMyyBNbAtoW1yL47vhWMzjWp4SaWo=s220",
+        "view": "https://drive.google.com/file/d/1H-oVuHAsLNCQI7kSsjNpCl_D-s8fdHs8/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOYJ1uonWSbIjv-NicaiDK70rOeO1mhUzd4s9A-CejYM85gXBSDmf7WECX7K6dr6ETSVM5xBO0pphW_TjrtggvzFTbjAk4GbFgL452H0FmbgUscLmM=s220",
+        "view": "https://drive.google.com/file/d/1J65RRx6zG5pGQskOnTzHhDi8BdDGzxvU/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMEU9WQCE675T59RQM_7vcEN_9zOXrt1MkIgUPffye68XPerTeaIw0MGD2LyszR9KI0-xCHQnonOznewrwulmsK_kEA7d0wjGtpeIQ2qB27QNr6M70=s220",
+        "view": "https://drive.google.com/file/d/1EZg7q6mn3m3O19FFxpfB4niG5SbAMBfc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNoWNIX1FbiSx6xgOBktnfxIp0orDhmCutqNkkYqWh4q5SW5HF4kEUuYgdl0Kp7SaQpSMoAKMOdSRGUys2PkawcvUoMYm3gW0myYgFm5lpG9wVoS6U=s220",
+        "view": "https://drive.google.com/file/d/1rzpNMxk9UXmNHKEcdpGItgSAHcQ6zgL9/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140403 - 5/6/2026 (9 FOTOS)\n  → 140403_inicial ✅\n  → 140403_folio ✅\n  → 140403_corte ✅\n  → 140403_demolicion ✅\n  → 140403_caja ✅\n  → 140403_liga ✅\n  → 140403_mezcla ✅\n  → 140403_terminado ✅\n  → 140403_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   },
   {
     "FOLIO": "140404",
     "FECHA": "5/6/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ABELARDO RODRIGUEZ",
     "COLONIA": "OCHO CEDROS SEGUNDA SECCION",
     "DELEGACION": "OCHO CEDROS",
     "_company": "CARASTOL",
     "_stage": "E3",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 140404 - 5/6/2026 (LEGACY)\n  → 140404_inicial ❌\n  → 140404_caja ❌\n  → 140404_terminado ❌",
+    "_folderId": "1lrpPQXtaM8PY_TAkIAJtxxQH-CpNlkJq",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9bIHzEdKfO_U07fu6XnE-3lFlZLKH6yeCDjOUUvARWaF6lCZgSQnlmaaHSVJgipC7rtiEE-4mUBEzH9MIRwdVVPy1x8Ln4eyemknik5e6xW6tCfU=s220",
+        "view": "https://drive.google.com/file/d/1yTFaeyDyZixoa52qwSrz81WNjfDpoPJv/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNqssuaRdhevNu7fWORMS2JEx6zUAgaAOW5wdTEgwRmpc6rBIUl8DB6WoFGnUcdhyZdn9pOldt5pXB2WHpHKet2ZrJ8kFiGBkMIfI31Feu6s2ON-GY=s220",
+        "view": "https://drive.google.com/file/d/1kPypD8Y6TqmRdanq-PTLiWK4wNs24Cvj/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJsRPsf8lJxTnYp-BLRUbKkOPt88WKXvX7-n4MloE-Nhz91pNfKgN6kLDv6B9zfHi8TzD-ckeD0VTHCeB9UxR4-KfcE9O1_jQdTSg-8_kQ99bZS5M=s220",
+        "view": "https://drive.google.com/file/d/1y__4I1zEOFxsNX5FYxYMkTE-KWen4A53/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMR6Z03z39zlWJuYtU7V6a53AB1G2vXoOWmavchjJSXp20g-l76XLEPKTAldt-cPyTwmoiD7X0s9NiQJXeJH_3nkF3JOBLxlcbD7wBhRlxFMRvETY4=s220",
+        "view": "https://drive.google.com/file/d/1VxRrcLAbIEV6gblWX3WGSMR6_IfW5M75/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4MmWyjwXg4F3DHo5A57PLRjtxQcI6qOSijXY7k8CV0JQXC2dE7scH9mc6PYrTQNyxsZuBkdG-qiba2DQ_lVAkEmN44oroSA4WSlIj_sjt4tj62MI=s220",
+        "view": "https://drive.google.com/file/d/1RDVssosWFoAXXsCNdESOjEVADRcjyw6h/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIE_gBMJoEe9uur_wlSlFILucmJ_Z9As-Zha7pSUOmkNRYufNU-REvDESGoXwTKe86_4TAY29w0NjESSJ8bYxL3qCibdp-Y1THBMj9M30BvsvlEUg=s220",
+        "view": "https://drive.google.com/file/d/1mLBjJZrKEmjEiTa4bzByv2Mb9DXbDR25/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvPjO3iFdlmuKJTA_qx0S2aWIr3mw6r5SgDrT2053nxGY79Yz_HqJBoOXbZMXzwT30mhd-MKFjhUVK5KZ6d06wbjQ396V8XgDZWYbzJnkA-PsoKO8=s220",
+        "view": "https://drive.google.com/file/d/1bl6l85Iq3oEEp8JEfIYFhxZoT4St-pq2/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNFCVEUWBLTFJD9to36crYwTxaESdCXWfctJ8bwSL39YSyetTb7qbTx07mBqBGC3gHd4o42Sg5TRPvkVvfroXS3clovzk8rAszk7ko7ruk0D66jWu8=s220",
+        "view": "https://drive.google.com/file/d/1Usopt5rIbHyElH7lOdwLEHhsja4zPZcS/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNj5p-krRjk_wDC6A8i4H4JobGH4SwX6sRk9WpiMYqlFeRHRWiT5P79Bou7vBOC85Nw3ioPxhtXOWnsU2cIQkY_7oCiW-A4u9SGFrnxlhOtWtMr52E=s220",
+        "view": "https://drive.google.com/file/d/1j0xQ0d5RibnnCDuVAT_tOMRB2cL3Qs5L/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 140404 - 5/6/2026 (9 FOTOS)\n  → 140404_inicial ✅\n  → 140404_folio ✅\n  → 140404_corte ✅\n  → 140404_demolicion ✅\n  → 140404_caja ✅\n  → 140404_liga ✅\n  → 140404_mezcla ✅\n  → 140404_terminado ✅\n  → 140404_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": null
   }
