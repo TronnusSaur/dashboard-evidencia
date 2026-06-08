@@ -13303,7 +13303,7 @@
   {
     "FOLIO": "120279",
     "FECHA": "13/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: CAJA + TERMINADO",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ALBERTO VIOLANTE PEREZ",
     "COLONIA": "MODERNA DE LA CRUZ I",
     "DELEGACION": "MODERNA DE LA CRUZ",
@@ -13327,7 +13327,10 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPpP4EmB-j76BugOVipXdGBvdExYaXQmiWpKciWVYmZpVGgn8vq4yIGjUKI1Vtzqg61tmcglfFfTwCwNPvfjjFx4BSBxkrcSfYgOYKUPTPVmhyB-MU=s220",
         "view": "https://drive.google.com/file/d/15uhWKeGhiLMepspYVfmanRqc3ASoo_K4/view?usp=drivesdk"
       },
-      "CAJA": null,
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMT5knoT0ZYlzGiBNFvwN7xBTNSXBcsyyGsrBOV_jpsol3_pHuJVuvN2V9UNPVX9QPvP8n6Vi_ojqrszydTkZ_dF-2u-Ce1JFkcpa023eKfKQpSUA=s220",
+        "view": "https://drive.google.com/file/d/1MAoDSpD5hupUP5d1WeZMZ650Oa7zTBSf/view?usp=drivesdk"
+      },
       "LIGA": {
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPhwAE8G_w4zkSlfURB5hWxAHLLog8LESKbJGyWDsoRQ_PvEC6hyq5Pdry84GSkoIAfyYTqEM1O_cSwdNA-bUHepUBRTSzzxe7Hd_apyFmPxykGSgI=s220",
         "view": "https://drive.google.com/file/d/11b0zP99o4uF9YNBIRCKk6gXcHhBVw4Lw/view?usp=drivesdk"
@@ -13336,19 +13339,19 @@
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPoYvKUZ1CdP5r0mM1d8cWorvlFCCLDpImU-3NzcwvZcwABDw_bAr8rr9N7uWG09Qmfa2_8dYCSKPNdl_2pdUJm9I_goS77lU1P1SyAA6qyJMOV2LA=s220",
         "view": "https://drive.google.com/file/d/1bNhqZW4yzgQ54ee79bmEW33GTYLvpTG7/view?usp=drivesdk"
       },
-      "TERMINADO": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhc7r8XeVZXwamvZuuxQm7NDq_mxufKmSKpx_B1j3XvTrykJuq_v0NqZ9LqxsyOtOLDdW2XTGauw2BEyHnMakLqg-kNlGRSU6RmE6_gUtVIKxF3g=s220",
+        "view": "https://drive.google.com/file/d/1ahbb7bXK0feef0reXcI1IueJe1CFCSv8/view?usp=drivesdk"
+      },
       "LIMPIEZA": {
         "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8aVy8ybkZD8X_3UZBKAfG35_mZ0olo6sMdepyCRmBg6SbqL2vvQ06qsYOaI4A2UdlQjlE8ZQL1QecKo6IXGuVDrkB_Y5Xq2ezyG9clUoSS5Mp2zA=s220",
         "view": "https://drive.google.com/file/d/1r6NOPMnwlfmpUUa5ltfiJOVHl5Vl7zFw/view?usp=drivesdk"
       }
     },
-    "EXTRA_PHOTOS": 2,
+    "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 120279 - 13/5/2026 (9 FOTOS)\n  → 120279_inicial ✅\n  → 120279_folio ✅\n  → 120279_corte ✅\n  → 120279_demolicion ✅\n  → 120279_caja ❌\n  → 120279_liga ✅\n  → 120279_mezcla ✅\n  → 120279_terminado ❌\n  → 120279_limpieza ✅",
-    "_faltanNEO": [
-      "CAJA",
-      "TERMINADO"
-    ],
+    "_auditDetail": "Folio 120279 - 13/5/2026 (9 FOTOS)\n  → 120279_inicial ✅\n  → 120279_folio ✅\n  → 120279_corte ✅\n  → 120279_demolicion ✅\n  → 120279_caja ✅\n  → 120279_liga ✅\n  → 120279_mezcla ✅\n  → 120279_terminado ✅\n  → 120279_limpieza ✅",
+    "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
