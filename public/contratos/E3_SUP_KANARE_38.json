@@ -5513,35 +5513,95 @@
   {
     "FOLIO": "380143",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
     "_folderId": "1QiZgvnxWMofL_W_Mur98u_nOXunnfK9w",
-    "PHOTOS": null,
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiQCPxZwS7R_balhEqg7jjXMiuzN0iA_im4tSZZYk1m5GLeazXQRvE5nhEs68Wlj9kjJzkdbW0iM9tlIHFFoiuKaukPUrtX7x65O_tY_wxPDoGvc8=s220",
+        "view": "https://drive.google.com/file/d/1lW6BLAi0E0NFZku8Puzf8cR5lpYR2oGF/view?usp=drivesdk"
+      },
+      "FOLIO": null,
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-wCgYUo6KXx7KdR9ePPimZa_vXSAXSEjbIzS1cIaoCDGa83GnbPAF47Sfl13_lbRX4DtFp4j6FzoRSfHM-wVf1cRseZTFvVaSGuvm64LyvKzTicQ=s220",
+        "view": "https://drive.google.com/file/d/1eMojvN8WzpEZWd9yRPbzrw74LBAUKT9C/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcUqsgFsAS5px2Vic4aZTyeuMT4O0hAhc6o8PwgoK-Io3sc2DBGO9a85LfO-AdUwt7hjOCHZUsU4YToTm0-1BrnouWahY4TOM8reslimmRP1xV9Xw=s220",
+        "view": "https://drive.google.com/file/d/1mPC23gdYhlF2Trs83dplTtKrde3W1edJ/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPuRd170fjR6ZPMLttb8wSXBPlHGfVcsxqNwTmtrXuQGKOOJyQ1mRDUBTfBOwp0uQ3Kpl9k05TMcD48-2qRIXAJ-czG718vmQMhfSasOGDQVZz6Biw=s220",
+        "view": "https://drive.google.com/file/d/14yWqtJlRkK7_JRf-12HoEyAgeesd_CWw/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNgHo8OqrrucklcoaEXRNIUk9Ba_uwQoo3pjlJbYEGF27KX2O3q4okpHaKcOgAAqKDoFg14u-BAq1mZ3u2pK6a_plseQEELCmAlHzYqCJLiaUTRBgc=s220",
+        "view": "https://drive.google.com/file/d/1-NzoNO4i2srrveKnsZEUMYPhqoy0pFyb/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYsgtJqYZQobz-tIkV_ENUVXv039gdL6GeABq_TDZJrA5FZ0vr5um1mNWgi7qQfn97qnaLQTEHbRzHMeqY6YQFTiCUIAf4RBgmkWtb66j65_on9II=s220",
+        "view": "https://drive.google.com/file/d/1tHcXdLpwuR7zNTWsEEw_Iw2Z4gGR2BMg/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 380143 - 25/5/2026 (LEGACY)\n  → 380143_inicial ❌\n  → 380143_caja ❌\n  → 380143_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380143 - 25/5/2026 (9 FOTOS)\n  → 380143_inicial ✅\n  → 380143_folio ❌\n  → 380143_corte ✅\n  → 380143_demolicion ✅\n  → 380143_caja ✅\n  → 380143_liga ✅\n  → 380143_mezcla ❌\n  → 380143_terminado ✅\n  → 380143_limpieza ❌\n\n⚠️ AVISO NEO: Faltan fotos secundarias (FOLIO, MEZCLA, LIMPIEZA)",
+    "_faltanNEO": [
+      "FOLIO",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "380144",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "CARPETA VACÍA",
+    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
     "CALLE": "LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
     "_company": "KANARE",
     "_stage": "E3_SUP",
     "_folderId": "1H7p9ZKIC_KVYtXMH_rshuImiKAFCbapu",
-    "PHOTOS": null,
+    "PHOTOS": {
+      "INICIAL": null,
+      "FOLIO": null,
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlQ3Eeuhb0_A89cDnQp8AnqmVxKMn2NNwmAsgb5mi83s0FRTpgFBavO1DUNuTRxy6NNRpdt48H92bZfp9Zu0D7dNYmYyytlVYNolq_es5hxh4rzQ8=s220",
+        "view": "https://drive.google.com/file/d/1IcvtHHvq14GdRRM6qsyCqafuV7U8HTxQ/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuqUhFgj7tjBxnOUS5lD_Z_3dJAGbeeOX8qNn_aqmbrt9KGjuLRZyISNPnGanu_5nTwiApNgO9mLneBgG7GlZDFB8OI6HeEuMRGu81D4W66iqmj8k=s220",
+        "view": "https://drive.google.com/file/d/1PN0jCxUeLj4N7bxzkohzkypQ83Rnx0bK/view?usp=drivesdk"
+      },
+      "CAJA": null,
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOrpfp9SlEi2KKBnPoV6dEHalS73jj9usvwl_r8iz1FiowWFGJ791yBZNp7HHdjbYEdmFfMgaK10wzWZuPAsUm2al68pwI2nxFhhs826k1QKPmSXY=s220",
+        "view": "https://drive.google.com/file/d/1mHVhlDFnStilCqMzlRUVGJ0TgSnCbe_L/view?usp=drivesdk"
+      },
+      "MEZCLA": null,
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhniVYMbEsV8dmC0PanKaDJwtlDL58Ms_-_mh9EthexApUzIWGlJVlpZ4FpL34mJfzSXdih5l9DiZtF7vQ3C1_cEGOU9GfOx5iGvdDL3QJFZwMreo=s220",
+        "view": "https://drive.google.com/file/d/107q_jlwmjQF7yFX80EAqihxhBtOegUOt/view?usp=drivesdk"
+      },
+      "LIMPIEZA": null
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 380144 - 25/5/2026 (LEGACY)\n  → 380144_inicial ❌\n  → 380144_caja ❌\n  → 380144_terminado ❌",
-    "_faltanNEO": [],
+    "_isNewSet": true,
+    "_auditDetail": "Folio 380144 - 25/5/2026 (9 FOTOS)\n  → 380144_inicial ❌\n  → 380144_folio ❌\n  → 380144_corte ✅\n  → 380144_demolicion ✅\n  → 380144_caja ❌\n  → 380144_liga ✅\n  → 380144_mezcla ❌\n  → 380144_terminado ✅\n  → 380144_limpieza ❌",
+    "_faltanNEO": [
+      "INICIAL",
+      "FOLIO",
+      "CAJA",
+      "MEZCLA",
+      "LIMPIEZA"
+    ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
