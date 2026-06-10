@@ -5562,7 +5562,7 @@
   {
     "FOLIO": "380144",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "FALTA: INICIAL + CAJA",
+    "RESULTADO_AUDITORIA": "FALTA: CAJA",
     "CALLE": "LOS HORNOS",
     "COLONIA": "MILTEPEC NORTE",
     "DELEGACION": "SANTIAGO MILTEPEC",
@@ -5570,37 +5570,43 @@
     "_stage": "E3_SUP",
     "_folderId": "1H7p9ZKIC_KVYtXMH_rshuImiKAFCbapu",
     "PHOTOS": {
-      "INICIAL": null,
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPN-S11ca2nZ_7hGU9DeMgYLojt1CF8hpXlzzxth02E1IIsET1HWm-XoiDskFvWX7fX0vUgYDERZLz2auXv-27C417qURKOb2oftaqbGJfGKTVRjA=s220",
+        "view": "https://drive.google.com/file/d/1I6j4sWnCp4G9Y-exCxXY8PQfzhYXjrfi/view?usp=drivesdk"
+      },
       "FOLIO": null,
       "CORTE": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOlQ3Eeuhb0_A89cDnQp8AnqmVxKMn2NNwmAsgb5mi83s0FRTpgFBavO1DUNuTRxy6NNRpdt48H92bZfp9Zu0D7dNYmYyytlVYNolq_es5hxh4rzQ8=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrtQpWtN2vzsZBP-9JIRfVDl-cpYkzIcmDANsdGtft4JSuQCz5LOk6KVexvu28qpwbD8MMk_HkTRHjF0-sFuQPoKa1KiJgJV8UYSIoOu-lrvajXw=s220",
         "view": "https://drive.google.com/file/d/1IcvtHHvq14GdRRM6qsyCqafuV7U8HTxQ/view?usp=drivesdk"
       },
       "DEMOLICION": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNuqUhFgj7tjBxnOUS5lD_Z_3dJAGbeeOX8qNn_aqmbrt9KGjuLRZyISNPnGanu_5nTwiApNgO9mLneBgG7GlZDFB8OI6HeEuMRGu81D4W66iqmj8k=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP6v5uIhM2JcxD44d27Hh3J5ym4kJfcVUNnzqi8xEw2qDpXJQ3RbSrluwOaspC4w0DpEW7hjcUAjMqnVYOb4RHhGTWc3MelAajnwLOAheQ5tmdDKg=s220",
         "view": "https://drive.google.com/file/d/1PN0jCxUeLj4N7bxzkohzkypQ83Rnx0bK/view?usp=drivesdk"
       },
       "CAJA": null,
       "LIGA": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMOrpfp9SlEi2KKBnPoV6dEHalS73jj9usvwl_r8iz1FiowWFGJ791yBZNp7HHdjbYEdmFfMgaK10wzWZuPAsUm2al68pwI2nxFhhs826k1QKPmSXY=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8O_JqZlnWxzHXsvMdg8SQ_4zplD7Xk2Es36SgJRoqaLIeroqn--SaHQxAPQPbE6J7cuXBMlmn8cc4cEIh233FXPs9TQ1hL25G_jyy3RcF3e_ZQw=s220",
         "view": "https://drive.google.com/file/d/1mHVhlDFnStilCqMzlRUVGJ0TgSnCbe_L/view?usp=drivesdk"
       },
-      "MEZCLA": null,
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSSwJEPGJ64OMZTygyWEOhPwPZT-7gMQxmYG9OfwZOZQP7xpac5lC2f_MsgIslWhWcdXcF1ix__ZLg5l4Qntbciau8lU_-wo9fBe9NnXR_VMAngQ=s220",
+        "view": "https://drive.google.com/file/d/1Lq5l15PxWZyG0wubFcSicbwINw0NZ9RO/view?usp=drivesdk"
+      },
       "TERMINADO": {
-        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNhniVYMbEsV8dmC0PanKaDJwtlDL58Ms_-_mh9EthexApUzIWGlJVlpZ4FpL34mJfzSXdih5l9DiZtF7vQ3C1_cEGOU9GfOx5iGvdDL3QJFZwMreo=s220",
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM0hJqUcOJWEQXaaal8lwutXbSFpzbdrfsQhAqFKybkn0o5yHdMf2fYxTnZVSL0UKiO4Y8O2LKJyYbDDbD9FAuLzu0x3TW5FAz8msefmI3NiAjXXA=s220",
         "view": "https://drive.google.com/file/d/107q_jlwmjQF7yFX80EAqihxhBtOegUOt/view?usp=drivesdk"
       },
-      "LIMPIEZA": null
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPauA-1vTTiu5SNjvXlv6rlOFBaKSb2OlrssaVwKa-uQ3G3XJ7LoLyvDCHBgS2qTA96Tonp-AKTHFKvc5K_bn7a5flx3mhO_UV3TbL-x5NdeB5NBg=s220",
+        "view": "https://drive.google.com/file/d/17qPJy-P3u_ZSBxR-jhTF1pit4zmvUR5z/view?usp=drivesdk"
+      }
     },
     "EXTRA_PHOTOS": 0,
     "_isNewSet": true,
-    "_auditDetail": "Folio 380144 - 25/5/2026 (9 FOTOS)\n  → 380144_inicial ❌\n  → 380144_folio ❌\n  → 380144_corte ✅\n  → 380144_demolicion ✅\n  → 380144_caja ❌\n  → 380144_liga ✅\n  → 380144_mezcla ❌\n  → 380144_terminado ✅\n  → 380144_limpieza ❌",
+    "_auditDetail": "Folio 380144 - 25/5/2026 (9 FOTOS)\n  → 380144_inicial ✅\n  → 380144_folio ❌\n  → 380144_corte ✅\n  → 380144_demolicion ✅\n  → 380144_caja ❌\n  → 380144_liga ✅\n  → 380144_mezcla ✅\n  → 380144_terminado ✅\n  → 380144_limpieza ✅",
     "_faltanNEO": [
-      "INICIAL",
       "FOLIO",
-      "CAJA",
-      "MEZCLA",
-      "LIMPIEZA"
+      "CAJA"
     ],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
