@@ -20140,187 +20140,594 @@
   {
     "FOLIO": "050438",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050438 - 25/5/2026 (LEGACY)\n  → 050438_inicial ❌\n  → 050438_caja ❌\n  → 050438_terminado ❌",
+    "_folderId": "1RFv-tcmFuO_CzCeSmCDe1uPRJtYGSrkp",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNCcsgIPr-dTL8juxrcu5fn2SenLrCMhTStTupqjGYEvKuG2lddJNWhSel2ZucLvyXX_yzbQHDyIBXpVEEjZGFYbJ7Ony7o4X_tiUIt9OpQtLhu3A=s220",
+        "view": "https://drive.google.com/file/d/1mDIJifhnQHPx6nvJq1xiTphpUW5LHZw6/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPNXdLK1EziTFNeMIZWgdhY6IOF4a67SRvSEYwa8mbiAXRDBaIEmNCT8RLoNN-dYkhZmnZIYlAFNV3Qcww9BfYTwHOPeVbpJPclSlottvu5YPLM2w=s220",
+        "view": "https://drive.google.com/file/d/1L0WjwDffTJhgehxSY0UJPeArB_oylCat/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuIOxa8Y_GS7rpKvbAYlGAQHdpJl7HAcTdb7UOyhQzWJ9KESn_dib60R82p9Ao8zle5tahl4EyVt474L-opcnQwJ5i-W91xnOql7VPNiZB6DYQOQ=s220",
+        "view": "https://drive.google.com/file/d/1BWpAn-jW3k1Cehe9wfYT_7lz8i7TwtAq/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVk817qB12TxCluBzXC647OwBw28ZvZHzzeeXkaoWQWETUrGFxPztOaq62FUkFvDkmPnD3oBqqCOgVa2g8mqvNEQEoGrdZec0F8fEDzL4TdrRqcQ=s220",
+        "view": "https://drive.google.com/file/d/1q1T4pEl7YmRJTpf9a8ASK9qp9Lnqt-pF/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOK-Q7B3PxJlM6weCSVHnbBm-8uZpGykt9fiNWbA1y87n3WDED_sYXbi3Oj_rzSPi81Q0mgnwWxpkEIxbij8i1j-u7E8W65t2lN5ktVExydYlEklQ=s220",
+        "view": "https://drive.google.com/file/d/1Oz5WUP5IIz7GgdvTG2A0VjK8YLDn1e3x/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNcOpgSLBuhC0lalIK1mYZPOa3pB4z4IM0Mu2yOApOt3dMDUkvBkxPmfJFhZ1dKajkVN-D96vh8_yBfcXWSP76OVEzZEWg_zQvlxXVuD5vLXT3F1g=s220",
+        "view": "https://drive.google.com/file/d/18AqwNHFbB1izP640_4JeHdPKIIpj0ByT/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOWBFW_abeLf4hThM79AdLypJkmUOiE3JuW2J0GoF2h23VVlnFXdLey_4-zZnXs9UTzAFCMMYWA63EINp7DwChOAsT7dhd263mAOO5clla6T-ZiTA=s220",
+        "view": "https://drive.google.com/file/d/1Zr8epKVqtEMAdhCWtGxpp7a1SboKbq8z/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBoyGUxpC7mrrbc3_vb2xSnRdpIZ48TR25pHu-hseoelOY0wtCeh3mj73lsmso01p-Kx-pL5P4bAeTNEv664IS8iFwsrRHQVNLipXytzxZa2fgvg=s220",
+        "view": "https://drive.google.com/file/d/10KEeiWcY5vuGCKvzPZqTDipQiePZYl1O/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMo0xZn29PVBNKZjGn_eOyn6TEwxgtNuETT03JtpCfO6gFIU4CSodmpjYYN9Djl1HOwZBCvtkhC9ulJrIFHev3s90Lo5u98r_rve5iywnyWNss9BQ=s220",
+        "view": "https://drive.google.com/file/d/1VUQfItreCeoR1kLwgvb7FxItfA03ceT9/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050438 - 25/5/2026 (9 FOTOS)\n  → 050438_inicial ✅\n  → 050438_folio ✅\n  → 050438_corte ✅\n  → 050438_demolicion ✅\n  → 050438_caja ✅\n  → 050438_liga ✅\n  → 050438_mezcla ✅\n  → 050438_terminado ✅\n  → 050438_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050439",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050439 - 25/5/2026 (LEGACY)\n  → 050439_inicial ❌\n  → 050439_caja ❌\n  → 050439_terminado ❌",
+    "_folderId": "1w0-k2Vx5bMrBfhBpZsLoYpAoRX3TIyqI",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMADXPqgUmI1iaYJ_6lrcDGIymnRRwal95NNUWzKOmJjWXQtbFmQNjqHewjiZSHxWsQ14gvAjTqOVh-93k2Y7gbTXYshvzOxll43S2UIiqjkOqAHQ=s220",
+        "view": "https://drive.google.com/file/d/19Y6pBmy8nxXlv9sdtPvHm88aEBc3vjaw/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO4SO-a6_9I2FYDXJB-ZMzJyZllp-zNfJl0s24p1F2-JYI8T9ziJCDhXEuQnMzjghFj4d_RiLzd5jBPTAQZKSTt_FLXf3As4TLHFtMW6feNxFVyvQ=s220",
+        "view": "https://drive.google.com/file/d/1xebYu8jwNfAH-iwKSyWNk2vvVKbQB_oW/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPYFWPgu2RzcWeaAhnQM5crucEoZrP4kuX0_KqNjL4S4WfvCjQo2G8EA62QpnWObrjBKUmjGK4FUoBpGJelGz69h0BebvMuP3q2q8cEj3iZTRSTAQ=s220",
+        "view": "https://drive.google.com/file/d/1tRQPt7i6JTMVKSBoTiXzJPp4rhkJzyy2/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMs7fYutRP_WE39W2mCPFkK9KMRz5D6g21uP-A0lxPSno8TM-iBn0dOnTbXSMC7pJP68sR_lLct1Zqw550FwIDfHnsgquYbJe5pq4P361aXGhzxNg=s220",
+        "view": "https://drive.google.com/file/d/1O6KoiJMR_O5l9sh4LJUURJ5KGMUSX53A/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjbr-Wm8HazUzrRaHMwjiMl0Oz5DM40xynke2TFJptUAKPWZhP37eJ92gd5Vhiz7XtV2CROr4zdBiu-Vq6H7OaqGVtmQdzsDCbv4ZO-G_wXHcTjw=s220",
+        "view": "https://drive.google.com/file/d/1CM62DAPAUfJikHkDsXaOiVwllfBv8srB/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOqIZM5tp9GNvV1J89Cy7RBf_7j4Cnd_VEWO9F6BL7UqtRrGedLgl4IFUuphsDUTAr2onPOZO8MGiPi8gvd9m1LxAbB1_NL_uE7mcJDCZtxubE21g=s220",
+        "view": "https://drive.google.com/file/d/1O1dU3qnmRdt0aZY2PhmQJFraggt2p8mS/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOnU2nxv9ZIpOyvbxjgqHB2LBXTB2PZnAbuP_iQMUv91zHrgq7QKUhuC7dIs9aJUDyqKlzYJUyW2puZCnpcQipFr_B6Gb_rY79srJjraiWPfpLVyw=s220",
+        "view": "https://drive.google.com/file/d/1R5U39TDSahoj5s9fO1V4Gga8boZtbkNW/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPfu1XrQriHEA2dVR_42ZDxym9xAqBy4VJ7AOyAF7jzjuTGhX5juJ9_AmQb8VlxMnaZbFHUVlDAIjvKCeW7hxU28wmwLkoU0-SCoDRcyy8h_taA-A=s220",
+        "view": "https://drive.google.com/file/d/1_JKYm7w7y2iDAsHRlNYhtT4sTAIU1A5M/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPGsTJJcEPdVXPrfwYJs0cVIDyRBDJz23sMLE4dGIuGAJDaIg01EdcacpgADDCkMZOJDkex3m2LsTjQsX7llHbZRPxi8ijmHn0W5GmjRdcCZiIabg=s220",
+        "view": "https://drive.google.com/file/d/1tJE966r7hsOlvvYOwsZq3noh3sJfINsz/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050439 - 25/5/2026 (9 FOTOS)\n  → 050439_inicial ✅\n  → 050439_folio ✅\n  → 050439_corte ✅\n  → 050439_demolicion ✅\n  → 050439_caja ✅\n  → 050439_liga ✅\n  → 050439_mezcla ✅\n  → 050439_terminado ✅\n  → 050439_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050440",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050440 - 25/5/2026 (LEGACY)\n  → 050440_inicial ❌\n  → 050440_caja ❌\n  → 050440_terminado ❌",
+    "_folderId": "1mLYillMeELBLL8IMpQ_vmWCJ6cg8xWKi",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYjAyeuKmhair7dVJZRq-4kXcSMXD4mYA_JXD59Bmw0GuM0nkEu37vhfzEaZSE29cWxWHuvQwQ5SUlwjD_JZ7WcA1DK2jey8TxJAJxmLhQIoBT4A=s220",
+        "view": "https://drive.google.com/file/d/1vqVC2tPSXXTJEO5IKs0Rc3Djd9qgC8a2/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPrdAX5HeoFt7MMew5wxssXHmQO1z8j8kJMsrZIf1KZgr8KPd15KfNJIfXrv0lTY1q5U2m5R8RbL4d-Dx6dcle-8wgmmjrHAeUm-x0CMwOAGB6Y-g=s220",
+        "view": "https://drive.google.com/file/d/1aHSs5OeMd2Mi_jY64bQDkfbFtY8VueMJ/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPDq-5L8VG3sWy1M8HSYlZ0ya52nJ-2QZfbzBd6BFspsSJFi_EnNXXFZfNUlWZmQGffz31HDbbWJ1_inuOOD11ilTxAG7IsmwvdJE8Hwu2QRQD9XA=s220",
+        "view": "https://drive.google.com/file/d/1Lg_8BFkh_Oxopg8ID0WgjrQRKZHucwbW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOxz8uDYO0BW_wCnft3x2HAJkJ0DtgG4UkUQiC9WDIfSLqpoA0Tvk_hyyODQo4PG2EJ5gw2mhU5mqkXgOYrOY6ZKZrLnkFgaEUhgykSXb4s3oRWoQ=s220",
+        "view": "https://drive.google.com/file/d/1L3Dv2FMiGuTOkkWXJN3Gj7O8FSt5YSLE/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2G-z_EQvPl_Vmxn27wKBOsb39fGRnP86EvuQsQ1jxcWdU9aIazvVMovGDxK0GMlvVnUVw2h3y1Vpo8PQQeufBrAoEprYFCabxzohGuvbsRHrkFQ=s220",
+        "view": "https://drive.google.com/file/d/1fSwDG46Y-hlgXwG_1T-30NX6iZqgJOip/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOjEBrWs4T3JZ10nPr7YR1difvo_2Lm4aDnNvypucT3-sAJKNB-DmLqPE5I2A0oy94m8PnD173YNrUCSYUBXdbhnpHmBqgkNfB0800MrovRg0VCAA=s220",
+        "view": "https://drive.google.com/file/d/1CPh8Or36-linC1xVz__hPpYxZOIeJUML/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPioYj0cl8h6QVaLbyoJPBADpfW0Wk0Xj5gqW_r4mvxPC1xihPMNuVLLNArYN9VjNNerT6aP1wQgOVw8NVKvx7WG2GncjK00zOVcI3QYYnq0vOtFw=s220",
+        "view": "https://drive.google.com/file/d/1ED-Io4-gfwM8LZqYrMbkXVXtbed1sI-i/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN7HNYXgFgZ7fgKSgxuEAL8D3JQYaGsUU1Dk9B-dCYOlZ1l7yUjUabgH3sXMLRr9bNc0Kns5FHIwQjzAa1SIogDd1VB49PJdGjCMJmz6LwtiiQrNA=s220",
+        "view": "https://drive.google.com/file/d/1qYRWtewgDDvmsrC63NSmGtW1E1mZQNqp/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPu2tm7x3hxVWH9-sywnKmV6GA9kbITWHKJMk2VpENCi6zqC2_df4N-_B7kek1b3cS2sE-g38Lacn17M9-dD41ReU_mpK4yL4XnKKd6gElToG8LEA=s220",
+        "view": "https://drive.google.com/file/d/1KvGLtRO3HsFKCaU4fHCEOl9stexV4ZGt/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050440 - 25/5/2026 (9 FOTOS)\n  → 050440_inicial ✅\n  → 050440_folio ✅\n  → 050440_corte ✅\n  → 050440_demolicion ✅\n  → 050440_caja ✅\n  → 050440_liga ✅\n  → 050440_mezcla ✅\n  → 050440_terminado ✅\n  → 050440_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050441",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050441 - 25/5/2026 (LEGACY)\n  → 050441_inicial ❌\n  → 050441_caja ❌\n  → 050441_terminado ❌",
+    "_folderId": "1J--aSo_vyBBCqtKRJtgEtEjX-uNlqX5T",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBN2ZQFayi2du-K7o8gMeY9l7F9lfsX98nlmABjE5wwBjE752y6z_cxlac5nhIsoOMqZ-07Vglxr81MVuwCUWlAg0e5fjioxpDeA9E5j30j2Sf8fWg=s220",
+        "view": "https://drive.google.com/file/d/1Rer-TEdMolLbnpttZ15o2u_XMHt4iKZ_/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPBfo-eZTslold8UHIQAmxapbZt8qwj2VueQvxo_4dPdZbKDav7U9aI6Ztq1Js4UG5i0EXFs3w9rewVhkETMSdwtBPFHjkNhtNoBLP5JeFKvo4cjQ=s220",
+        "view": "https://drive.google.com/file/d/1WDBmX0p_nMsSiEi7cHRDuvrlM31BcezY/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOeaCncMnDUke3RNc9ltuTPVqmzdgxP67o2WLBG9b1blPUmgpkds877lQLr0mriC5jiuzWA7ggkRfkZwEYNO_C9FCCf9qi3QYhplL6xUd2XPXA5uQ=s220",
+        "view": "https://drive.google.com/file/d/1iC1L9NhyhMLAhdlPXaub7MxJphaCIUN8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMbz2rfiAZzAQpZ5SF-KF6h-KMD_ZaZ_SVvTCKvcWiK4aoDS_N89B5GJQSmMef1uX1Z9MRhoCS_ukN6bQJ3X86eAj1wdNT2my3hqKtWqjVu9T3_mw=s220",
+        "view": "https://drive.google.com/file/d/151YGhNA_Bg1VVaXaIQqvpn35g_Ccur8k/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMcfhlqC3Argw5pG2dYXhZOKh6tQ8Vg3Co3_LG_u5bHOjagZAstF5ut4LwWkob_eINfhg3OP0DPxouR37vF-9LbheeXnagPtvf9HRQ0Rd6TZ8dRRw=s220",
+        "view": "https://drive.google.com/file/d/1cyjqbadFQ-l4pN0bduBqo2zne8TTLiyH/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFriim5ZQV16G-0FG8cbnyStEs4zllazC8RDPNLwgDDMJoI8ydQ-dnnLnRRM20XHpDKXI4qcIcI3sAwnmvVDkwf5TeZxFGvDv0S5oHrt5XhxOqpg=s220",
+        "view": "https://drive.google.com/file/d/1M7w55HDEqurvXHgsrXF4T-DeDzRNHo8R/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPF89SmCuDRrtZxWBKC0d4zq10ZOOUsSMb2cdKXT8ixByH7Z2vfCNljbPoxLwZJtqWLhLhdpXJh_ZZWAVWozELdhLquvW2gBMoZzbDTndxEn8tt0w=s220",
+        "view": "https://drive.google.com/file/d/1bUvcLIkKDTdVwALqPeSiPBOnkZIgUPne/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO88x7ayuxSOw0vaG5sDcNjjjOGnZTYJi2o8JTPBUx2csTW2SJEgi4WvG_yqU0manHS7Bv8FBHNGSrx9NaiSRq-aov4oQ5RqGGnyX05svH9SKDDog=s220",
+        "view": "https://drive.google.com/file/d/1MSPGRXj3n2S-lMOtAtdNgUDOjvgoYFCX/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOkR6KkboUoD0aMCabQL2hqSqMLxbi-cySh4ZFoLn8hbY7GME0PNa-WMHzuCLdi4HCT8VbEWph2fvYg2yS4uo3YWbXLLsXrjNw1SmR1PmsFmgfWWw=s220",
+        "view": "https://drive.google.com/file/d/1WvwvHmFvPlxhRBwDibTi4f-6PU1kzXYd/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050441 - 25/5/2026 (9 FOTOS)\n  → 050441_inicial ✅\n  → 050441_folio ✅\n  → 050441_corte ✅\n  → 050441_demolicion ✅\n  → 050441_caja ✅\n  → 050441_liga ✅\n  → 050441_mezcla ✅\n  → 050441_terminado ✅\n  → 050441_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050442",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1nNeKFu4_U1HLovqGQlNeTVR0c8WY6i1F",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPjp6Wjzrq-Ks27h9PtqkZyjKepXO6spOALBSn2D9yzrN06lf3jr3wmY1UujWRyYeDm_B4ijt0b31_zE3228csezwemUiWMpDg9o5UghhuavAcehQ=s220",
+        "view": "https://drive.google.com/file/d/1P5EtZhqVE_jaw4ehpdPplfX-TWNLem6c/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOCe22O7gfH4ZQSA6UUnfAGiEvLNKBh3s-TGWNpcSSnM8DpafxFltQgUiavmgd0vjFQxnzBhnvHYK_QfXHEO2O8Ju6Ku24K7rlVFvcjhJB7ztN2zg=s220",
+        "view": "https://drive.google.com/file/d/1zpYVucg37R-NNuYzg7AH842Qfg9yIetr/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP5hN9uhjxmUMirgpBGM3znxMUV9znkHOPB1lOTpsy0_apoFy2o7d7IVg6fCZN0Ps8rAkx3RWcRPkp99HqFEFxmjiG2qGY_eghLo4CLdjnx5XfJ6w=s220",
+        "view": "https://drive.google.com/file/d/161St6lmncOrocfq2rEq1UtTwiZxWEhY8/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP4tpQvvwsF7nNtOi90Xjkb23MuZlylx63f4Uk1dIxlg8SfbSdYkiCi2Th2YCkGOVSVs9KNtaD4cM14WaySk1lA-J9f2qOfD6Pk8IOS_u0x-zG6fQ=s220",
+        "view": "https://drive.google.com/file/d/1xuUIPPsAmO6yKHR49GI1fe-hn4Jjxx5q/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPUJacN6B2nqARbIsCFtmM3SCGgX5Go2iJpZK8sl5aOQzEfrHolQ2icKygEHlLLouKhiTYhW6N5-7f1wagAwX_2mfCnxhasPfwDgJltW5riPT3jyw=s220",
+        "view": "https://drive.google.com/file/d/1ReqAQ045vrcnwZjrwnrG0iojN8yPRgBJ/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPkytJCehVkSqaqdoEOqrUD3xzQTAT2r8VpGNU012XaFg72euErWbs_MFPQ1iHTssrJGt0GHbVrP0NyHecY8hKWx_yT59cbVmURq1GRi_OkuiHgPQ=s220",
+        "view": "https://drive.google.com/file/d/15sS2f1TNC18fawzbN2hHLNQHF8-nidS5/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMVbdv0F3RQm5RU2KY-43ZsvtG0qYR4NSQ8CbKvhlGe_NhcAF2VOIuTgvkLm0BSrFYZy3PrkSIM6c-rUy8WfvGKkkKhVZJig71FKySvK2zwbIEPzw=s220",
+        "view": "https://drive.google.com/file/d/1MQVnUSyAA9hwLgKDkfC2qucGCe4FmIz_/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMxpjqhzZlXLv-7ValOaa6tQloxNNop5qntJKsBlJF6tHNT6BVe0uV_fIfi5raVW7W2dLDSlLxKFDXyf18n61P00zn_XKHR_FkTJNowsPme9A74Bg=s220",
+        "view": "https://drive.google.com/file/d/13xfTqYNSFRhYc-xdIWgn30_7btazYLze/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNR-aapFz9FW0ptRBCqggsMQt_IzKPzHUfBnlUx1cqpUWpvSAai43BY1Qv59KzPosWGZrTnkJiR9A6uLJYWe0IbVO3DfJ07K9f7uN_xc4jgc84PCg=s220",
+        "view": "https://drive.google.com/file/d/19xQxQen19QMNC2mAvxVTuRCGDsE5Y6dn/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050442 - 25/5/2026 (LEGACY)\n  → 050442_inicial ❌\n  → 050442_caja ❌\n  → 050442_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050442 - 25/5/2026 (9 FOTOS)\n  → 050442_inicial ✅\n  → 050442_folio ✅\n  → 050442_corte ✅\n  → 050442_demolicion ✅\n  → 050442_caja ✅\n  → 050442_liga ✅\n  → 050442_mezcla ✅\n  → 050442_terminado ✅\n  → 050442_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050443",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "INDEPENDENCIA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050443 - 25/5/2026 (LEGACY)\n  → 050443_inicial ❌\n  → 050443_caja ❌\n  → 050443_terminado ❌",
+    "_folderId": "1kxMN1Ub-eaj36csX0lCI21tC_fwTaBNk",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNXGNqcyyZBxr6x8_ydWC8LQWQVOUxCz72-rSas_zXfsEADw3ufJ3rfzeHXzDMOjiSLe4VOLNvNCRMNFrCi9SN2w9IBSSHiV4XqRUcRE2MnhJsq6w=s220",
+        "view": "https://drive.google.com/file/d/1wy7nKWFDde50vDTysFoCDv3OcmdwyEJD/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMemMPuZBFxwC41O_WZvTIs1ta7YynlhZSWkgmNHpN6L_EO0DIrsprUMkkYYzvVjuCw2mbeBjYVM-lQVTLNuVXoVDSbm-FSSV3THCfYhycFQNH08g=s220",
+        "view": "https://drive.google.com/file/d/14y3JUewdGW0THavrz6Bbr5oCVKWFMlEP/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP725PK2_h0ekEDPX3cgS6qE3m9-zxmFcdeCiYIR7L_8pTUwDhw3ku__NM00GBRqeMIJmgorKhvCU-ul0KRfcwGmCd0DSLuec0Worx_gotKiejS3g=s220",
+        "view": "https://drive.google.com/file/d/1676DCC5bmRuZTwMPtHNuGrOFq4LxXAUW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMNj8QC1HMKYhS0EBiKbX6jkHkr6134q9sw4L_bbMt61_983bJ2VrbO6bobiD0K_C5RbbcFhSXgS5TuyewwoDWs-S53jZfXKkQSkuUAQ0nT5to_aw=s220",
+        "view": "https://drive.google.com/file/d/1IihnjAsxleMRpYIbAzt82xw3xROPfgfm/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNm8F3Vh9k34ywKSgvNH95MyEcc-yWi3byUYBSXfSnZlI7EM9XnJagm8fsKab2bRegtvz8eGlwlnFEV9D7HY0SjIzrhiFX4xt0DL-UHz7_8Maz1FA=s220",
+        "view": "https://drive.google.com/file/d/1p2g705PTdf9QZcSy1nWaVo4soMFB-cfU/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPRhCkQYOPLaiWvmmAnG_Ss7nEuoC0445UGAcAYYtfpyEzCCOOiyVm_WV5wJn8mAiBUla4Ba0tBRmvIk1QfX2h_L_7C2RAQCfhO7urt6nGeSe2u3g=s220",
+        "view": "https://drive.google.com/file/d/1VyOhVobMAQDtboJKqTJiEfuNkOgzGy8j/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPJ0cK8no8SJHTXFs6SUC2Vx-38r3Arsw2JNW4dDgBGqdAEm_jsyZ6uE-FvGHAjDs6qfhrwjfWFb0CIh9pTi8PhbiP1_gcpTCZymQYjMAuTIM2Kvw=s220",
+        "view": "https://drive.google.com/file/d/1lf1qgk7Cndy-jkKPPX4XZHkcMYzFLwUZ/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPLAz8Ifpg666pg5i1UDKsuhr9giNZ444u5yWbvZOAZCQN-GlEd3oyRVc9oRP3MfxIbUmkJPorkWG52hS1b9VXMR4FN8BKOGFg2vUjgZn-M4EVEmg=s220",
+        "view": "https://drive.google.com/file/d/1JQ7fG4BCSeyqU8tViJYjsbwQ02FYaD-9/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPD9vh-CmGRw2lvMQAH0lnm9H4Ne4_skMu938DTeb9-cYliCxkx4ENvHRFz9eW3PoVQOHdi2F7kFKNzQCrDjFlv8i8KNIbEMjthinXluQr7Gxa-rQ=s220",
+        "view": "https://drive.google.com/file/d/1IzpRrTGvTjUK8sV-nviIkBbKHMbPmk5m/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050443 - 25/5/2026 (9 FOTOS)\n  → 050443_inicial ✅\n  → 050443_folio ✅\n  → 050443_corte ✅\n  → 050443_demolicion ✅\n  → 050443_caja ✅\n  → 050443_liga ✅\n  → 050443_mezcla ✅\n  → 050443_terminado ✅\n  → 050443_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050444",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ALFREDO DEL MAZO",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1e9t7MSADOmx1VwAT42T9zr9f37mfFspy",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM8vZgej2wuVJ-ZJgb1NJj-nsARIBmlDwGar3AQZ1BkndeadSCaGuv7lB66SIzw0ITrwR6S_dva09KXFmsYBG07d_CCA47mF7JKots72Q4En8lTgA=s220",
+        "view": "https://drive.google.com/file/d/1xFqEjuXXi_ioBqZwOMJxaJoXqEUiLIUt/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO9ZARHQ3LW23jzDfqWiYPCOrsFAR2u__K7TQIc3QMwjZU_kHaNN43aKtAxxGgXwBF5k1eeuJBfLe6V_lXUtuZWtxz0m3E308WQ4b2U7au51DgZKg=s220",
+        "view": "https://drive.google.com/file/d/1ygwN2bhWs25Oq4AOjpgDClJblZ2KO_es/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPiSEq_2Sz19ra_2wX7kDMSnqvZE2ovras4-vL8p4wVjDAc3NTSa09pxoXwBQUP3G9GoS6h4t5Ef1-es37qs2xS9QT9RT_g2_4x6ELj-mKDg1ovNQ=s220",
+        "view": "https://drive.google.com/file/d/1tEyNf45LTWZ2_4qrRFARjIwmFpxZNWsR/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOBcswAJtlqNxhCEzry6BSo9Oh9ujao7UQCS2qGnu2O4198iVbIGqTsKQkmrgP5X5FsVjqydQbqFKO3Bd3VhMrktQz-4UtynGxkGHL69hhpFahuLQ=s220",
+        "view": "https://drive.google.com/file/d/1QPl0TClAJ5roaoApwoOGOhNuHBRyw3Mi/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO8D9MbtmI06_eaoJZqUuggrsJjWKllileVaRBl6ReC5VrVyp1NP9Ecceu5ia4bfJb7hSTNOR7tWzKlNJXopfOkkDFZF7ngFB70J15KVyF78lxc_g=s220",
+        "view": "https://drive.google.com/file/d/1wCCYGfkF5eaiukvqKwZS-_N_YSYwUOO9/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSduQTCpiyQ5UckiD8UhqWHKnzpt22k7rip3fraazf_4sG5_aFeRwDUyRLy0bhvaMMFCfIQkTpNXhATuRd1t6teOMVYwvKrb6dDtb_MGPiFRsiyQ=s220",
+        "view": "https://drive.google.com/file/d/1xy11XN-E5uI4h-2yX5OUjbPuwVw5FDYv/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNkZ9rvhSwtvKUI46ur9f9D4cVOppxLwAK19LtNRS6sMHZcTn9OhrWsFpkgQBNWEPIztgfaW0A8hcsBQBc2QvGfNhbCDn2MUJXQKqkmB1wK4jWeDQ=s220",
+        "view": "https://drive.google.com/file/d/1Bp9cADMf8sBpq2RSg5TDnKmYMsrODpBV/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO-z4K2YZ4U-qlfJcOS853zDltUvTfh9C7GCL6zMumeooTTqwYI_5k4nSUGoMy3tYW_abxlN0Qchejf4bYDW3cEjU650DnVY26pa3fZomPAqvdb4w=s220",
+        "view": "https://drive.google.com/file/d/13__x_8dzd8fZoMZevanv1QlNKAbcXD-k/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOx6N3XsqTiTp4Ax9DKqlh5bRZrH8WfM3NO4zAeEzhL6SGyIQxFqfr3bsoZohxSSns6MgmFXitshpKRfdjC2xROKcIs219tcGptET5l1AMVtNU8IQ=s220",
+        "view": "https://drive.google.com/file/d/1aAg8eHZcuF_IeKJfTUrrITQEN4OwtOh-/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050444 - 25/5/2026 (LEGACY)\n  → 050444_inicial ❌\n  → 050444_caja ❌\n  → 050444_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050444 - 25/5/2026 (9 FOTOS)\n  → 050444_inicial ✅\n  → 050444_folio ✅\n  → 050444_corte ✅\n  → 050444_demolicion ✅\n  → 050444_caja ✅\n  → 050444_liga ✅\n  → 050444_mezcla ✅\n  → 050444_terminado ✅\n  → 050444_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050445",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ALFREDO DEL MAZO",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1akbIhFpI3gK4XY9fBxDPy9THWmVRVQ9j",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPvSSRK31V0kY0aT3p_X8wRt5D1T20g8mpIBjGNWP_1CYxySYBWkd7wwULFsWVPBiM7l7eaMcc3Vw8wKg7XRlCb0I1h7BcgCjpX3Jnjs4sQMr6gjQ=s220",
+        "view": "https://drive.google.com/file/d/1BREO21koEqQ2KPAvt8xy_UyPZBRggjaI/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMZnFUCi81qBbu650jMH89LbTWK4QRk4RFGYneqblhRFfyh2JVE_gTqMB3HFPbN0tHN9tFy2uPZgVpkPQ6OqB1JS3V7gFzRsv2tWD4BjhnbYII4pA=s220",
+        "view": "https://drive.google.com/file/d/1nS_n2NlhnwK5sY8zX0Xn5i3jzKvbKZ-k/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNiZDBxy7w5QpNpK9wnck6W2Nx0iZzzzxa34x0k-8j7Fp3O6smrhfds3Yg_jlnTpHgyF5wS9gyc1sL9DxgTQ1tOWavPNfNlntO_hPexbMb_SScU1w=s220",
+        "view": "https://drive.google.com/file/d/1wu6dJX_e2Me3aY-p_DWCD66uHkaX47z3/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMYaLUCY0kfnOD71qWL_Fg0B5OiXhnlOC5GqHpCriJR8kllHfoG6i34QP6tKNkAwbhBPElCEcMp0YVTEwSCDCUHVPWYhQ7mPotVabSaPrVHYjqjFw=s220",
+        "view": "https://drive.google.com/file/d/1AfL4lcEp49Bq7d9tr_os4iBKvWNAqEYK/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNZkUyu5deTXRNiU5ecQ-bJ-xTlIp5HHh-2knVNdOBF4nFDIToPVDZ48lYnNzZDTs-_WqJzoZhuQ7ARMV-3IjJvYS3TblH5FkwWMAj65_luFOqGBw=s220",
+        "view": "https://drive.google.com/file/d/1Aze8cUrIpDTtlIKizG7DWcWY2AAAjxrV/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOUwuVS-XJ7ob9hYQYfXjtwxgYpGINiuzMVNfyQiJttYoCfnyoKKyQBOb0BaeBNLJ7xsFsUFjxAa0NMXCEbcdjM5ywvaW6XzQSp-iMtGW5ykxxdnA=s220",
+        "view": "https://drive.google.com/file/d/1FUJpFyBjPDycrmjbmVlvekuGNyeeoNZw/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBO72xAKwP3kY0Mg1GZ9MK7hfECsjbTqgdgZUeYf00hgMD0NUlZ-vOm9xhu27MLmvAFMXNHIDRS8fehZw_rX0YQhegm45bN_4u38xsP2rnCidyXgrA=s220",
+        "view": "https://drive.google.com/file/d/10Vez1LkErJH_iLesJs7k4xoIMnmr5erb/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMrh5uiblPA6uPOGa9k3u4VlNWvDj1dz8AVCOE_d9LI9qbdq-C7HjrbUqZSuTO2mhxE6UIyBZKCl7rielf2BhvoXGoZlD-pR8tL8zGIVqHgaGtXQQ=s220",
+        "view": "https://drive.google.com/file/d/19zro1hQsPJ18TeW1JX-RB7xhom1SuJhV/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOuyALe5oJ0AKZTeDKb0uOCrV2dAYYyWHub70ZpDk3i8MdejI6W4erWqX4zh_SDeD9P06P8xO0JWVIRi3epGwOKW10eGZkKyqH7V7NZYuAgVXHFUg=s220",
+        "view": "https://drive.google.com/file/d/1UxjwXENSa7IlJlrMmCLD5PrrWFqcnN9T/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050445 - 25/5/2026 (LEGACY)\n  → 050445_inicial ❌\n  → 050445_caja ❌\n  → 050445_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050445 - 25/5/2026 (9 FOTOS)\n  → 050445_inicial ✅\n  → 050445_folio ✅\n  → 050445_corte ✅\n  → 050445_demolicion ✅\n  → 050445_caja ✅\n  → 050445_liga ✅\n  → 050445_mezcla ✅\n  → 050445_terminado ✅\n  → 050445_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050446",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ALFREDO DEL MAZO",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "12Kh5XW_juDWTDQ0Ja-JuLfkKRZWvLBLg",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNg2yD8fjan01Z3ddfdQw_QnpWWhz6YoxQ3a36mJIvDfoWgfC3hBRbemDo6LhJ-6Pj8Wm7aiqsjlj2GYMvH-Ah3ZqMpE0K1OcR0xZAGJUAnagj-Og=s220",
+        "view": "https://drive.google.com/file/d/1nU2pLh3tnh2P1uIYxSP7Xrp-NXf4PXQA/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNdNopbmYlmw3hhlQPPXGWffuINgtQZ8pBcUZhHShxDpQTC5IBQkC1NZ7PXUn31r3yOT8Efi-Ty7o14B-KZA45RKbtwtHxSLYblKwEk_BNvlQDJhQ=s220",
+        "view": "https://drive.google.com/file/d/1J_n9lc9cIJ1oxtXa4GtZvPMjPKQs8I_Y/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOdOUw7CFPEKODk4ouuNsVLHWQYwf_PhZrvGF-MJIIklXQk3OAan1hPWNvJUuiHb5KHuZNP63Ejhbi_BIKy2OLBFrn0IZ9w6tRknreYMeeiPhdFnw=s220",
+        "view": "https://drive.google.com/file/d/1gaHaJtxGiVQB938Cq2hfafwV3KQl3CGW/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMq9NZ4cn4-aB2MjsrFr51baAFq_wRn72cvOrBZMI7CafXlaCLbwYktt2zAaYobjA0PlH15XqbZhFQgenBZlUJQIeRz0aa4YL7KwVLzmYt5Ucakwg=s220",
+        "view": "https://drive.google.com/file/d/1U-m7DEf96jmqSiiDt4HGfP_v_9W1OWpu/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP9XQ7E6HVONi3BF8atJ2_V3OdKpwrCe5iA2TGl8OW9CHb1T8YeOQst-_KVj0Cbrxn5KHjjdOj_NsFStH1ISHcxckpciLeqhfuUhXUAKDpz9a6oVQ=s220",
+        "view": "https://drive.google.com/file/d/1_MiAk7s-ljhn9Z4doukCjL625vCLBmQk/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPSwZErOi_7e3qVREnxoGOIO1PRuXV3d_VuwlzP7dP-DBAhpMQFRNOmvbeGPfG9r2aCv0XDXi_IW7Fye-1R67ByKhgHWvJ0hVvHprp9V8YetCBaBA=s220",
+        "view": "https://drive.google.com/file/d/1UjJxo66RwuPaV_OhygyjxOXeI2DgqBGG/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNEevxm2xdsJZif0Y6eUCVj1kHpm6K5Psq_K5GNNHNdpa227CqiuJMSEAb3_DtV0agwaXKHV4bTGuna_U4469dqP8TgH8pfiW8vNQskcYw5JxPcug=s220",
+        "view": "https://drive.google.com/file/d/1rP3Rt0OqQZIF8OfdCzemWvIUd5vR2nKO/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPy-DfhB86Y29cBjUiWbuHpRJZjr40GtNd3jrU73H548uG8U_8pOdGsBJ1tdjVmBytRMmPUZ15Cl-s0TziQ01JjzLegQPlvbeIzZ-iSmY1UyTf5vw=s220",
+        "view": "https://drive.google.com/file/d/1zutjwVyQ1h4Yx3TKeKks1aswz15zAULg/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOQXrBaR1nRoG0lrqD0dXjEEkRPAkz2mzomT3gEmxGQEuwo0Aph37TF9J8hwXJu0XP3RKSxuFVDyco-RYyjzTcz5KRReGhp8Ntv1oYcHwu36mUF1g=s220",
+        "view": "https://drive.google.com/file/d/14PdTNPkshWypfbC0sI7j6kc9GkhrpNdW/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050446 - 25/5/2026 (LEGACY)\n  → 050446_inicial ❌\n  → 050446_caja ❌\n  → 050446_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050446 - 25/5/2026 (9 FOTOS)\n  → 050446_inicial ✅\n  → 050446_folio ✅\n  → 050446_corte ✅\n  → 050446_demolicion ✅\n  → 050446_caja ✅\n  → 050446_liga ✅\n  → 050446_mezcla ✅\n  → 050446_terminado ✅\n  → 050446_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050447",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "ALFREDO DEL MAZO",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
+    "_folderId": "1gQBbD_4NGgPAVlaPvwVhma8z_ZiSwoZN",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNzRI5vn5IZAeZIg8d1yQxJjP196ig9XYR0lzkcIJTVNCVNQcD9zZRDtIlK4y_mc_x0aAESzvKa1spGLT0cVTWjU_iD0XQhPYU7c7mDUusvlXlbew=s220",
+        "view": "https://drive.google.com/file/d/1dNyNbMlgQbIvwNgw3zs9_UZarpryN45E/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMb6BxqrpW2JmcPMEW-L5ZDQc-GTJquOyPpDxaeOXbUS7HPenPG4lLiW0IvKILT4mCJnXOUusJJXsyV0hzgRA2lZB63rxZMiGMkaSRAIfb5xQ_oKg=s220",
+        "view": "https://drive.google.com/file/d/1qb8aUihUAfMeZnc03cTn2ykogh9tDGIg/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMFuydSU4iBjh6fPBYIM1rUNYYiYMKao7WMB5I6CMKeb34jy6jVan2Qx6I67MJ94U70yvMohtOC8akTVkNlQcu4IsQqoCLONoSLQjYolJbC13Xg_Q=s220",
+        "view": "https://drive.google.com/file/d/1nnKWnaPS8fKkyXAlV7odhF5iZ7hGBhXK/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVQ5KCsozP_mPot4p2dIhiwtlyM-4qQC6Hz_ymIUm7p0yRIJolKU8NURgWIy9lcCj8ipKpzxDpAzEhvY1unjn1p9mKFe0RkRaYlsDDAZ2hqT5b-A=s220",
+        "view": "https://drive.google.com/file/d/1T64LG6K2DVMxcrsBL31etXdTm1ZYN926/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOSHj7LqOwt-22bGyTfE2xv2fMRwFduBu1FvGFNAb_2_2pojUy6o9Q96DDMA5UXrP947MzU5iSpeFSHQbzn4K3yX5M_GFw845MGbIj2GYr__jCH4A=s220",
+        "view": "https://drive.google.com/file/d/1IdnQpuTd9oQ4kUZm1SuHi44xqLNwWJW4/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPIL7XG548x-B-ePXvO1UZRQRa6o8eMo0zy2Co60Eya4T4yfWg6tkbCkhTvAVh7R2TCZhiLvxbg3Yv2XotaUqkQRYPII6Daub5LxwF8tSZ_WTF1tw=s220",
+        "view": "https://drive.google.com/file/d/1WkYxkJNEe29h7XYXVJxKmc2rK1OLbLai/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNIyAz_ZFQK9uY0GJArCwKevULQW7QY5_05YoB9lbL0SWxFcwsznby0Iop3NbFqfhgFw7_w3sMbIJcQhHdbeMr1R8SpQKIbxjo5YYMy20vm3dJmBQ=s220",
+        "view": "https://drive.google.com/file/d/1jFAdOyjMVbCDQ60EAl_FDbN7TklcKQHk/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNln2BvQgnZvdIEYxKzMk9mexk9sOwidXkuGMTEC9RWBQhZDOh1pcoyTlud4RMAs9-r2yqbxrLFP9lK6e2UVhdCog77l3h33n1-H9NT1Zl2PCCM0w=s220",
+        "view": "https://drive.google.com/file/d/1aXK51xeatLFidMfgQdt7w59NLuXaoGZ0/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMzvJ9qkvkWR_BiZvRUbm52iS11LYY4DWsrluzdm0bXkRJe-Yd2Qbk5dxVcY-vutH5-SObW8QGtr0xKBNxDGBAasfXuFqNCdOsgdigmNh7obbasZA=s220",
+        "view": "https://drive.google.com/file/d/17Zkl3Yg6njmP9OIHLedWe8WUr4z9gNrG/view?usp=drivesdk"
+      }
+    },
     "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050447 - 25/5/2026 (LEGACY)\n  → 050447_inicial ❌\n  → 050447_caja ❌\n  → 050447_terminado ❌",
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050447 - 25/5/2026 (9 FOTOS)\n  → 050447_inicial ✅\n  → 050447_folio ✅\n  → 050447_corte ✅\n  → 050447_demolicion ✅\n  → 050447_caja ✅\n  → 050447_liga ✅\n  → 050447_mezcla ✅\n  → 050447_terminado ✅\n  → 050447_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
   {
     "FOLIO": "050448",
     "FECHA": "25/5/2026",
-    "RESULTADO_AUDITORIA": "SIN CARPETA",
+    "RESULTADO_AUDITORIA": "OK",
     "CALLE": "PROL. JESUS GONZALES ORTEGA",
     "COLONIA": "REFORMA Y FERROCARRILES NACIONALES (SAN JUAN BAUTISTA)",
     "DELEGACION": "INDEPENDENCIA",
     "_company": "ICI",
     "_stage": "E3_SUP",
-    "_folderId": null,
-    "PHOTOS": null,
-    "EXTRA_PHOTOS": 0,
-    "_isNewSet": false,
-    "_auditDetail": "Folio 050448 - 25/5/2026 (LEGACY)\n  → 050448_inicial ❌\n  → 050448_caja ❌\n  → 050448_terminado ❌",
+    "_folderId": "16gtjDIZpxioX9g_DDzUka-2i-Jj-oIWR",
+    "PHOTOS": {
+      "INICIAL": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOhLOv94fMQhP1NuTsJOi5fFB0-VMhwBH5gGqd2szmMntPQdMYe-XGOL0hz3PcJAQEwTu3cqFz24WiOYCiW-EsLf-OcSaZz2bFRkvARvjMKfGcKuA=s220",
+        "view": "https://drive.google.com/file/d/1e_EBxoicLQwtjetHkKmo9YQ-6Lew-rfZ/view?usp=drivesdk"
+      },
+      "FOLIO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBORdlBQhkuOSQ5Ka2VbzAuAsbK6VIcNJ1W-VPgIIP1jM60Z8nwTZ0BHL3672cgdlmpY-FemwA-3DmJAokb2XaNH0oSCrwJyOP5Ma9Y31lzN9newUg=s220",
+        "view": "https://drive.google.com/file/d/1BQe3Jwsr171QEkAEZdFYu9Hqf3f1Os2x/view?usp=drivesdk"
+      },
+      "CORTE": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM1VFViY5nD2Q8PMWMHKdMuoYNU9tnIs0fFClSYTjgu3JtZFEqe-CRQMtAZFfiluPu2Oc5Rmk7FNm2A6pt5YBzI4NswsK0a_iezyVQfMXVV48aoNA=s220",
+        "view": "https://drive.google.com/file/d/1TN958r1xZLphKK1xiPY_UjBz7a4lrVMo/view?usp=drivesdk"
+      },
+      "DEMOLICION": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBPWVPmS-Ixh8UXkWQm63gYYgoETo1IqivVHj84Yi_BfgSIMMoh6K7C-bwU1_xW2vOQY6fMfWmwL1r6hWhZSXyCWfoIzSSk97XVkfxEqymb1PnhU5A=s220",
+        "view": "https://drive.google.com/file/d/1YZK2AS1Xe0-TRiTqvDq1Tr2hQCfsfDw_/view?usp=drivesdk"
+      },
+      "CAJA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBM5qma25vqD251Vql8FD8L0PdFGZfz_kRw1qAP5Z_Bc4Y2HBl9-VkRNzEsR2aCxskgWzNiBDFutrWOBCavWKqZyDje433pHDEVoy9hJXSmDwQ_Gow=s220",
+        "view": "https://drive.google.com/file/d/1waXI7FPJMyLLAC5bkYP55Npd5pAUBxBC/view?usp=drivesdk"
+      },
+      "LIGA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBP52aghJ4zTltSbrDUMa3NdYJcUo6Xp456eUrvU__eAU2QZiQ2u-BzBQ_KtPof0UYHPtyjManB_83ppFktNioa0ctG4vpE6XTnHRdF8IQA3IznMoA=s220",
+        "view": "https://drive.google.com/file/d/1xkiqQTiPEJ5SoHcD3vQU0bISbngQVNyH/view?usp=drivesdk"
+      },
+      "MEZCLA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBMX9VN7nmg07M1bUMivvppPFazH-l3smqhOcP0ZdpFyuv9-syu8zV-gaUX2Y8HS_BZ2StQRzwhkeJq6OUaC-wO6cc7p1I7m0eobeX8QPRZxAR73jQ=s220",
+        "view": "https://drive.google.com/file/d/15XO-QMV14j4Yxxm9oRZCal4mZTiK4SkC/view?usp=drivesdk"
+      },
+      "TERMINADO": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNVCuqQo48byVxDFgzpdYaEzeYr8c84kyEarH8_wumhdrwRMvGwKoa-SWVU9Gc142hPfa8e60JygYdGY4jTiajVIMEf2mjQFybQ4gkiGid4IkVxMw=s220",
+        "view": "https://drive.google.com/file/d/1aTbp2VZmo_BOJeE6_2HGFtqgBuqPNpyc/view?usp=drivesdk"
+      },
+      "LIMPIEZA": {
+        "thumbnail": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNvUXyAkYuh7LqZEx92uai7l1lFoPSZ7CnIBiEUWA59oZ9TpkPRNwqu7zlhBzH-l8qhW3Bg6CHhZEzBwqXqtAg_vB9PCSd9Tpt9VYkSuI0vtRKtiQ=s220",
+        "view": "https://drive.google.com/file/d/1-lWnSkuali6Up_y76ujz6bncv1BzXDUZ/view?usp=drivesdk"
+      }
+    },
+    "EXTRA_PHOTOS": 1,
+    "_isNewSet": true,
+    "_auditDetail": "Folio 050448 - 25/5/2026 (9 FOTOS)\n  → 050448_inicial ✅\n  → 050448_folio ✅\n  → 050448_corte ✅\n  → 050448_demolicion ✅\n  → 050448_caja ✅\n  → 050448_liga ✅\n  → 050448_mezcla ✅\n  → 050448_terminado ✅\n  → 050448_limpieza ✅",
     "_faltanNEO": [],
     "_uploadEmail": "terceraetapabacheo@gmail.com"
   },
