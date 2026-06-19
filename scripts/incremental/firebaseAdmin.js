@@ -14,7 +14,9 @@ if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
     } catch (e) {
         console.error("❌ Error parseando GOOGLE_SERVICE_ACCOUNT_KEY desde variables de entorno:", e.message);
     }
-} else {
+}
+
+if (!serviceAccount) {
     const defaultPath = join(process.cwd(), 'service-account.json');
     if (existsSync(defaultPath)) {
         try {
@@ -50,6 +52,11 @@ export async function uploadFolioToFirebase(folioKey, data) {
     }
 }
 
+import zlib from 'zlib';
+import { promisify } from 'util';
+import { writeFileSync } from 'fs';
+const gzipAsync = promisify(zlib.gzip);
+
 export async function uploadJsonToStorage(filename, data) {
     if (!adminStorage) {
         console.warn("⚠️ Firebase Storage no inicializado. No se pudo subir:", filename);
@@ -58,18 +65,49 @@ export async function uploadJsonToStorage(filename, data) {
     try {
         const file = adminStorage.file(`contratos/${filename}`);
         const jsonString = JSON.stringify(data);
+        const gzippedBuffer = await gzipAsync(jsonString);
         
-        await file.save(jsonString, {
+        await file.save(gzippedBuffer, {
             metadata: {
                 contentType: 'application/json',
-                cacheControl: 'public, max-age=0'
+                contentEncoding: 'gzip',
+                cacheControl: 'public, max-age=31536000'
             }
         });
         
         // Hacer el archivo público
         await file.makePublic();
-        console.log(`✅ Subido y publicado en Firebase Storage: contratos/${filename}`);
+        console.log(`✅ Subido (GZIP) y publicado en Storage: contratos/${filename} (${(gzippedBuffer.length / 1024).toFixed(2)} KB)`);
+
+        // Actualizar manifest
+        await updateManifest(filename);
     } catch (e) {
         console.error(`❌ Error subiendo ${filename} a Storage:`, e.message);
+    }
+}
+
+async function updateManifest(filename) {
+    const manifestPath = join(process.cwd(), 'public', 'contratos', 'sync_manifest.json');
+    let manifest = {};
+    if (existsSync(manifestPath)) {
+        try {
+            manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+        } catch(e) {}
+    }
+    manifest[filename] = Date.now();
+    writeFileSync(manifestPath, JSON.stringify(manifest));
+    
+    // Subir manifest a Storage (sin GZIP, sin caché)
+    try {
+        const manifestFile = adminStorage.file(`contratos/sync_manifest.json`);
+        await manifestFile.save(JSON.stringify(manifest), {
+            metadata: {
+                contentType: 'application/json',
+                cacheControl: 'public, max-age=0, must-revalidate'
+            }
+        });
+        await manifestFile.makePublic();
+    } catch(e) {
+        console.error("❌ Error subiendo manifest:", e.message);
     }
 }

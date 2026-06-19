@@ -449,7 +449,31 @@ const PhotoEvidenceDashboard = () => {
     // Lazy Loading Effect
     useEffect(() => {
         const storageBucket = import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'real-time-sync-5967a.firebasestorage.app';
-        const getStorageUrl = (fileName) => `https://firebasestorage.googleapis.com/v0/b/${storageBucket}/o/contratos%2F${fileName}?alt=media&t=${Date.now()}`;
+        let manifest = {};
+
+        const fetchWithCache = async (fileName) => {
+            const v = manifest[fileName] || 'default';
+            const url = `https://firebasestorage.googleapis.com/v0/b/${storageBucket}/o/contratos%2F${fileName}?alt=media&v=${v}`;
+            
+            try {
+                const cache = await caches.open('dashboard-data-v1');
+                let response = await cache.match(url);
+                
+                if (!response) {
+                    response = await fetch(url);
+                    if (response.ok) {
+                        cache.put(url, response.clone());
+                    }
+                }
+                if (!response.ok) throw new Error("Not found: " + response.statusText);
+                return await response.json();
+            } catch (e) {
+                // Fallback to direct fetch if Cache API fails
+                const fallbackRes = await fetch(url);
+                if (fallbackRes.ok) return await fallbackRes.json();
+                throw e;
+            }
+        };
 
         const fetchRecords = async () => {
             const isSup = driveMode === 'SUPERVISOR';
@@ -458,6 +482,15 @@ const PhotoEvidenceDashboard = () => {
                 : (selectedStage === 'E3' && isSup ? ['E3_SUP'] : [selectedStage]);
 
             setIsLoading(true);
+            
+            // 1. Fetch the manifest to know which cache versions to use
+            try {
+                const manifestUrl = `https://firebasestorage.googleapis.com/v0/b/${storageBucket}/o/contratos%2Fsync_manifest.json?alt=media&t=${Date.now()}`;
+                const mRes = await fetch(manifestUrl);
+                if (mRes.ok) manifest = await mRes.json();
+            } catch (e) {
+                console.warn("Could not load sync manifest");
+            }
             
             // Build cache keys for the stages using mode-agnostic helper
             const stageKeys = stagesToFetch.map(st => getCacheKey(st, driveMode));
@@ -489,8 +522,7 @@ const PhotoEvidenceDashboard = () => {
                     } else {
                         setLoadingMessage(`Cargando contrato ${contractId} (${driveMode === 'SUPERVISOR' ? 'Supervisores' : 'Admin'})...`);
                         try {
-                            const res = await fetch(getStorageUrl(`${st}_${companyName}_${contractId}.json`));
-                            const data = res.ok ? await res.json() : [];
+                            const data = await fetchWithCache(`${st}_${companyName}_${contractId}.json`);
                             const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
                             stageCache[contractKey] = normalized;
                             allRecords = [...allRecords, ...normalized];
@@ -512,8 +544,7 @@ const PhotoEvidenceDashboard = () => {
                             return stageCache[contractKey];
                         }
                         try {
-                            const res = await fetch(getStorageUrl(`${st}_${companyName}_${cid}.json`));
-                            const data = res.ok ? await res.json() : [];
+                            const data = await fetchWithCache(`${st}_${companyName}_${cid}.json`);
                             const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
                             stageCache[contractKey] = normalized;
                             return normalized;
@@ -542,8 +573,7 @@ const PhotoEvidenceDashboard = () => {
                     const downloadPromises = stagesToDownload.map(async (st) => {
                         const stageKey = getCacheKey(st, driveMode);
                         try {
-                            const res = await fetch(getStorageUrl(`${st}_Master.json`));
-                            const data = res.ok ? await res.json() : [];
+                            const data = await fetchWithCache(`${st}_Master.json`);
                             const normalized = data.map(r => ({ ...r, _stage: st.startsWith('E3') ? 'E3' : st }));
                             stageCache[stageKey] = normalized;
                             return normalized;
@@ -574,8 +604,7 @@ const PhotoEvidenceDashboard = () => {
         const altStage = altMode === 'SUPERVISOR' ? 'E3_SUP' : 'E3';
         const altCk = getCacheKey(altStage, altMode);
         if (!stageCache[altCk] && (selectedStage === 'E3' || selectedStage === 'ALL')) {
-            fetch(getStorageUrl(`${altStage}_Master.json`))
-                .then(res => res.ok ? res.json() : [])
+            fetchWithCache(`${altStage}_Master.json`)
                 .then(data => {
                     stageCache[altCk] = data.map(r => ({ ...r, _stage: 'E3' }));
                 })
