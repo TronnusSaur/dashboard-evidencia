@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Reglas para resultados de auditoría (Front-end cliente)
+    match /audit_results/{document} {
+      allow read, write: if request.auth != null;
+    }
+    
+    // Reglas para registros maestros (Sincronizados únicamente por el Backend)
+    match /audit_records/{document} {
+      allow read: if request.auth != null;
+      allow write: if false; // Solo backend via Admin SDK
+    }
+  }
+}

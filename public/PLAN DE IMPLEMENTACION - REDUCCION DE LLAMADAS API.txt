@@ -1,0 +1,686 @@
+Prompt para otra instancia de ChatGPT
+Necesito implementar una optimización incremental en este repositorio para evitar que el sistema vuelva a escanear masivamente Google Drive y Google Sheets cada vez que se actualiza la auditoría.
+
+Contexto actual del proyecto
+El sistema actual usa un script batch ubicado en scripts/auditData.js. Ahí se configuran las etapas E1 y E2, cada una con una carpeta maestra de Google Drive.
+
+El script autentica contra Google usando googleapis y actualmente usa scopes de solo lectura para Drive y Sheets. El proyecto ya tiene la dependencia googleapis en package.json.
+
+La función obtenerPaginado hace llamadas drive.files.list paginadas para listar archivos/carpetas en Drive.
+
+La función auditarFotos recibe IDs de carpetas de folios y por cada carpeta hace otra llamada a drive.files.list para listar fotos y detectar si existen imágenes con patrones _inicial, _caja y _terminado.
+
+El flujo principal por etapa hace tres cosas pesadas:
+
+Mapea carpetas de contrato y folio desde Drive.
+
+Lee registros desde Google Sheets con sheets.spreadsheets.values.get.
+
+Audita cada folio contra Drive y usa un cache limitado que solo evita repetir folios ya marcados como OK.
+
+Después de procesar todos los datos, el script borra los JSON públicos anteriores y regenera los archivos de salida en public/contratos, además de regenerar src/dataMock.js.
+
+El frontend no llama directamente a Google Drive ni a Google Sheets. Consume datos estáticos desde src/dataMock.js y archivos JSON bajo /contratos/.... Para cargar el detalle, el dashboard hace fetch a rutas como /contratos/${stage}_${empresa}_${contrato}.json.
+
+src/dataMock.js es un archivo autogenerado con ERROR_TYPES, GLOBAL_TOTALS, RESUMEN_DATA y FILTERS_MAP.
+
+Objetivo de la optimización
+Convertir el sistema de:
+
+escaneo completo de Drive + lectura completa de Sheets + auditoría de miles de folios + regeneración total
+a:
+
+evento de cambio + lectura incremental del cambio + recálculo solo del folio/contrato afectado + actualización parcial de JSON/resúmenes
+La meta realista no es “una llamada API total en todos los escenarios”, sino reducir miles de llamadas a:
+
+1 webhook entrante
++ 1 llamada a changes.list
++ pocas llamadas adicionales solo si faltan metadatos o si el índice local no conoce el archivo/carpeta
+La documentación oficial de Google Drive indica que las notificaciones push sirven para reducir costos de polling y cómputo, pero también aclara que las notificaciones no contienen el detalle del cambio; solo avisan que hay cambios disponibles, por lo que se debe consultar el feed de cambios con changes.list.
+Fuentes oficiales:
+
+https://developers.google.com/workspace/drive/api/guides/push
+
+https://developers.google.com/workspace/drive/api/guides/manage-changes
+
+Arquitectura propuesta
+1. Mantener el frontend casi intacto
+No cambiar radicalmente el frontend. El dashboard ya funciona con archivos estáticos:
+
+src/dataMock.js
+
+public/contratos/*.json
+
+La optimización debe enfocarse en el backend/scripts que generan esos datos.
+
+2. Separar el batch completo del incremental
+Actualmente scripts/auditData.js mezcla todo:
+
+autenticación,
+
+mapeo Drive,
+
+lectura Sheets,
+
+auditoría de fotos,
+
+generación de salidas.
+
+Hay que separar la lógica en módulos reutilizables.
+
+Crear estructura sugerida
+scripts/
+  auditData.js                    # Mantener como rebuild completo
+  incremental/
+    config.js
+    googleClient.js
+    driveIndex.js
+    sheetsIndex.js
+    auditEngine.js
+    outputStore.js
+    changeProcessor.js
+    webhookServer.js
+    renewWatch.js
+    rebuildIndex.js
+3. Crear un índice persistente local
+El punto clave de la optimización es dejar de descubrir todo Drive en cada corrida.
+
+Crear un archivo o base local, por ejemplo:
+
+.incremental-state/
+  drive_index.json
+  sheet_index.json
+  folio_status.json
+  aggregates.json
+  drive_tokens.json
+  webhook_channels.json
+O, preferentemente, una base SQLite:
+
+.incremental-state/audit.db
+Tablas sugeridas si se usa SQLite
+CREATE TABLE drive_items (
+  file_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  mime_type TEXT,
+  parent_id TEXT,
+  stage TEXT,
+  empresa TEXT,
+  contrato TEXT,
+  folio TEXT,
+  category TEXT,
+  trashed INTEGER DEFAULT 0,
+  modified_time TEXT,
+  indexed_at TEXT NOT NULL
+);
+
+CREATE TABLE folio_status (
+  folio_key TEXT PRIMARY KEY,
+  stage TEXT NOT NULL,
+  empresa TEXT NOT NULL,
+  contrato TEXT NOT NULL,
+  folio TEXT NOT NULL,
+  sheet_row_hash TEXT,
+  resultado_anterior TEXT,
+  resultado_actual TEXT NOT NULL,
+  updated_at TEXT NOT NULL
+);
+
+CREATE TABLE aggregate_counts (
+  scope_key TEXT NOT NULL,
+  resultado TEXT NOT NULL,
+  count INTEGER NOT NULL,
+  PRIMARY KEY (scope_key, resultado)
+);
+
+CREATE TABLE drive_tokens (
+  drive_scope TEXT PRIMARY KEY,
+  start_page_token TEXT NOT NULL,
+  updated_at TEXT NOT NULL
+);
+
+CREATE TABLE webhook_channels (
+  channel_id TEXT PRIMARY KEY,
+  resource_id TEXT,
+  resource_uri TEXT,
+  expiration TEXT,
+  token TEXT,
+  created_at TEXT NOT NULL
+);
+4. Implementar rebuild inicial
+Crear un comando:
+
+node scripts/incremental/rebuildIndex.js
+Este comando debe:
+
+Autenticarse con Google.
+
+Recorrer Drive una vez, similar a lo que hoy hace procesarEtapa.
+
+Construir:
+
+folderId -> folio
+
+fileId -> folio
+
+folio -> folderIds
+
+folio -> estado actual
+
+Leer Sheets una vez.
+
+Generar hashes por fila.
+
+Guardar el estado completo en SQLite o JSON.
+
+Generar las salidas actuales:
+
+public/contratos/*.json
+
+src/dataMock.js
+
+Obtener y guardar changes.getStartPageToken.
+
+La documentación de Google recomienda obtener un startPageToken, guardarlo y usarlo posteriormente con changes.list.
+Fuente oficial: https://developers.google.com/workspace/drive/api/guides/manage-changes
+
+5. Implementar procesamiento incremental de Drive
+Crear:
+
+scripts/incremental/changeProcessor.js
+Debe exponer una función principal:
+
+export async function processDriveChanges({ drive, sheets, stateStore }) {
+  // 1. Leer último pageToken guardado.
+  // 2. Llamar drive.changes.list.
+  // 3. Procesar páginas hasta newStartPageToken.
+  // 4. Deducir folios afectados.
+  // 5. Recalcular solo esos folios.
+  // 6. Actualizar índices, agregados y JSON afectados.
+  // 7. Guardar newStartPageToken.
+}
+Lógica esperada
+Por cada cambio de Drive:
+
+Tomar fileId.
+
+Buscarlo en drive_items.
+
+Si existe:
+
+obtener stage, empresa, contrato, folio;
+
+marcar ese folio como afectado.
+
+Si no existe:
+
+consultar drive.files.get con campos mínimos:
+
+id,name,mimeType,parents,trashed,modifiedTime
+intentar resolver el folio subiendo por parents usando el índice.
+
+Si es un archivo de foto:
+
+detectar categoría por nombre (_inicial, _caja, _terminado).
+
+Si es carpeta de folio:
+
+actualizar folderId -> folio.
+
+Recalcular solo los folios afectados.
+
+6. Implementar auditoría puntual por folio
+Extraer la lógica de auditarFotos para que pueda operar de dos formas:
+
+Forma actual
+auditarFotos(drive, arrayFolioIds)
+Nueva forma recomendada
+auditFolioFromIndex({ folioKey, stateStore })
+Debe calcular:
+
+OK
+FALTA: INICIAL
+FALTA: CAJA
+FALTA: FINAL
+FALTA: INICIAL + CAJA
+FALTA: INICIAL + FINAL
+FALTA: CAJA + FINAL
+FALTA: INICIAL + CAJA + FINAL
+CARPETA VACÍA
+SIN CARPETA
+ERROR DE ACCESO
+La idea es que, si el índice local ya sabe qué archivos hay dentro del folio, no haya que llamar Drive para listar todo otra vez.
+
+7. Actualizar agregados de forma diferencial
+Hoy el sistema recalcula globalTotals, errorTypesSet, filtersMap y resumenData desde todos los datos.
+
+En incremental debe hacerse así:
+
+estado anterior del folio -> restar 1 del contador correspondiente
+estado nuevo del folio -> sumar 1 al contador correspondiente
+Ejemplo
+Si un folio pasa de:
+
+FALTA: CAJA
+a:
+
+OK
+Actualizar:
+
+GLOBAL_TOTALS["FALTA: CAJA"] -= 1
+GLOBAL_TOTALS["OK"] += 1
+
+RESUMEN_DATA[empresa, contrato, stage]["FALTA: CAJA"] -= 1
+RESUMEN_DATA[empresa, contrato, stage]["OK"] += 1
+Además:
+
+si el folio ahora es OK, removerlo del JSON público del contrato;
+
+si el folio ahora no es OK, insertarlo o actualizarlo en el JSON público del contrato.
+
+8. Implementar escritura parcial de salidas
+Crear:
+
+scripts/incremental/outputStore.js
+Funciones sugeridas:
+
+export async function updateContractJson({ stage, empresa, contrato, changedFolios }) {}
+
+export async function updateDataMock({ aggregates, filtersMap, resumenData }) {}
+
+export async function regenerateAllOutputsFromState() {}
+Reglas
+No borrar todos los JSON si solo cambió un contrato.
+
+Solo reescribir:
+
+public/contratos/${stage}_${empresa}_${contrato}.json
+
+src/dataMock.js si cambiaron agregados globales/resumen.
+
+Mantener el formato actual, porque el frontend espera los mismos exports y las mismas rutas.
+
+9. Implementar webhook HTTPS
+Crear:
+
+scripts/incremental/webhookServer.js
+Puede ser Express, Fastify o un handler compatible con Cloud Run / Cloud Functions.
+
+Endpoint sugerido:
+
+POST /webhooks/google-drive
+Debe:
+
+Validar headers de Google:
+
+X-Goog-Channel-ID
+
+X-Goog-Resource-ID
+
+X-Goog-Resource-State
+
+X-Goog-Message-Number
+
+X-Goog-Channel-Token
+
+Responder rápido 200 OK.
+
+Encolar procesamiento incremental.
+
+Ejecutar processDriveChanges.
+
+Importante: no hacer todo el procesamiento antes de responder, para evitar timeouts.
+
+10. Crear registro/renovación de watches
+Crear:
+
+scripts/incremental/renewWatch.js
+Debe:
+
+Leer token actual con changes.getStartPageToken si no existe.
+
+Crear canal con changes.watch.
+
+Guardar:
+
+channelId,
+
+resourceId,
+
+expiration,
+
+token,
+
+pageToken.
+
+Renovar antes de expirar.
+
+La documentación oficial indica que los canales de notificación no se renuevan automáticamente; cuando estén cerca de expirar, hay que reemplazarlos llamando otra vez a watch.
+Fuente oficial: https://developers.google.com/workspace/drive/api/guides/push
+
+11. Sheets: implementar opción incremental por hash o Apps Script
+Opción A: hash por fila
+Más simple y sin Apps Script.
+
+Crear:
+
+scripts/incremental/sheetsIndex.js
+Debe:
+
+Leer rangos de Sheets.
+
+Calcular hash por fila:
+
+hash(JSON.stringify(rowNormalizada))
+Comparar contra sheet_index.
+
+Detectar filas nuevas, modificadas o eliminadas.
+
+Recalcular solo folios afectados.
+
+Desventaja: puede requerir leer una hoja grande.
+
+Opción B: Apps Script
+Más precisa.
+
+Crear un Apps Script asociado al Sheet que envíe a tu webhook:
+
+{
+  "source": "sheets",
+  "stage": "E2",
+  "row": 1234,
+  "folio": "8041-1",
+  "empresa": "ROCADURA",
+  "contrato": "57",
+  "changedColumns": ["FOLIO", "EMPRESA"]
+}
+Endpoint sugerido:
+
+POST /webhooks/google-sheets
+Esta opción se acerca más a “una llamada por cambio”, porque el evento ya llega con la fila/folio afectado.
+
+12. Mantener reconciliación periódica
+Aunque exista webhook, agregar una tarea:
+
+node scripts/incremental/reconcile.js
+Frecuencia sugerida:
+
+diaria o semanal
+Debe:
+
+Comparar índice local vs Drive.
+
+Comparar índice local vs Sheets.
+
+Corregir inconsistencias.
+
+Regenerar salidas si algo no cuadra.
+
+Esto es necesario porque los webhooks pueden expirar, llegar duplicados o perderse si el servidor está caído.
+
+Orden de implementación recomendado
+Fase 1 — Refactor sin cambiar comportamiento
+Objetivo: preparar el terreno.
+
+Extraer autenticación a googleClient.js.
+
+Extraer normalización de folio y patrones a módulo común.
+
+Extraer auditoría de fotos a auditEngine.js.
+
+Extraer generación de salidas a outputStore.js.
+
+Confirmar que node scripts/auditData.js sigue generando exactamente el mismo formato.
+
+Criterio de aceptación:
+
+npm run build
+node scripts/auditData.js
+El dashboard debe seguir funcionando igual.
+
+Fase 2 — Índice persistente
+Objetivo: construir base local reutilizable.
+
+Crear stateStore.
+
+Crear rebuildIndex.js.
+
+Guardar Drive items.
+
+Guardar folio status.
+
+Guardar agregados.
+
+Regenerar salidas desde estado local.
+
+Criterio de aceptación:
+
+node scripts/incremental/rebuildIndex.js
+node scripts/incremental/regenerateOutputs.js
+npm run build
+Los JSON generados deben tener el mismo contrato de datos que antes.
+
+Fase 3 — Procesador incremental manual
+Objetivo: poder recalcular un folio sin webhook.
+
+Crear comando:
+
+node scripts/incremental/reprocessFolio.js --stage E2 --empresa ROCADURA --contrato 57 --folio 8041-1
+Debe:
+
+Leer estado anterior.
+
+Recalcular ese folio.
+
+Actualizar contadores.
+
+Reescribir solo JSON del contrato y dataMock.js.
+
+Criterio de aceptación:
+
+Cambiar manualmente un registro de prueba en estado local.
+
+Ejecutar comando.
+
+Ver que solo cambian los archivos esperados.
+
+Fase 4 — Drive changes.list
+Objetivo: procesar deltas de Google Drive.
+
+Guardar startPageToken.
+
+Implementar changes.list.
+
+Resolver fileId -> folio.
+
+Recalcular folios afectados.
+
+Guardar newStartPageToken.
+
+Criterio de aceptación:
+
+node scripts/incremental/processDriveChanges.js
+Debe procesar solo cambios pendientes desde el último token.
+
+Fase 5 — Webhook Drive
+Objetivo: automatizar eventos.
+
+Crear endpoint HTTPS.
+
+Registrar changes.watch.
+
+Validar headers.
+
+Encolar processDriveChanges.
+
+Renovar canal antes de expirar.
+
+Criterio de aceptación:
+
+Subir o renombrar una foto en Drive.
+
+Recibir webhook.
+
+Procesar delta.
+
+Actualizar JSON del contrato afectado.
+
+Actualizar resumen.
+
+Fase 6 — Sheets incremental
+Objetivo: evitar leer todo Sheets cuando cambia una fila.
+
+Implementar una de dos opciones:
+
+MVP
+Hash por fila y comparación.
+
+Ideal
+Apps Script onEdit / onChange enviando payload al backend.
+
+Criterio de aceptación:
+
+Editar folio/empresa/contrato en Sheets.
+
+Recalcular solo ese folio o los folios afectados.
+
+Actualizar JSON/resumen sin reconstrucción total.
+
+Reglas técnicas importantes
+No romper compatibilidad del frontend
+El frontend espera:
+
+import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
+Esto está en PhotoEvidenceDashboard.jsx.
+
+También espera archivos:
+
+/contratos/${stage}_${empresa}_${contrato}.json
+Esto está en la lógica de carga del dashboard.
+
+Por lo tanto, la optimización debe conservar esos nombres y estructuras.
+
+No depender solo del webhook
+El webhook de Drive no trae todo el detalle del cambio. Se debe usar changes.list después de recibir la notificación.
+Fuente oficial: https://developers.google.com/workspace/drive/api/guides/manage-changes
+
+Guardar siempre estado anterior
+Para actualizar agregados de forma incremental necesitas saber:
+
+resultado_anterior
+resultado_nuevo
+Sin eso, tendrás que recalcular todo el resumen.
+
+Manejar eliminaciones, renombres y movimientos
+Casos obligatorios:
+
+foto nueva,
+
+foto eliminada,
+
+foto renombrada,
+
+carpeta de folio renombrada,
+
+carpeta movida,
+
+archivo movido entre carpetas,
+
+archivo enviado a papelera,
+
+duplicados de folio,
+
+folio cambiado en Sheets.
+
+Agregar logs
+Registrar:
+
+fecha
+tipo de evento
+fileId
+folio afectado
+resultado anterior
+resultado nuevo
+archivos reescritos
+errores
+Agregar idempotencia
+Los eventos pueden llegar repetidos. El procesador debe poder ejecutarse dos veces sin duplicar contadores.
+
+Entregables esperados
+Archivos nuevos
+scripts/incremental/config.js
+scripts/incremental/googleClient.js
+scripts/incremental/normalize.js
+scripts/incremental/stateStore.js
+scripts/incremental/driveIndex.js
+scripts/incremental/sheetsIndex.js
+scripts/incremental/auditEngine.js
+scripts/incremental/outputStore.js
+scripts/incremental/rebuildIndex.js
+scripts/incremental/processDriveChanges.js
+scripts/incremental/reprocessFolio.js
+scripts/incremental/webhookServer.js
+scripts/incremental/renewWatch.js
+scripts/incremental/reconcile.js
+Posibles archivos modificados
+scripts/auditData.js
+package.json
+src/dataMock.js
+src/dataMock.js puede seguir siendo autogenerado. No modificar a mano salvo que sea necesario para compatibilidad.
+
+Scripts sugeridos en package.json
+{
+  "scripts": {
+    "audit:full": "node scripts/auditData.js",
+    "audit:rebuild-index": "node scripts/incremental/rebuildIndex.js",
+    "audit:changes": "node scripts/incremental/processDriveChanges.js",
+    "audit:folio": "node scripts/incremental/reprocessFolio.js",
+    "audit:watch": "node scripts/incremental/renewWatch.js",
+    "audit:webhook": "node scripts/incremental/webhookServer.js",
+    "audit:reconcile": "node scripts/incremental/reconcile.js"
+  }
+}
+Validaciones mínimas
+La otra instancia debe ejecutar:
+
+git status --short
+npm install
+npm run build
+node scripts/auditData.js
+node scripts/incremental/rebuildIndex.js
+node scripts/incremental/reprocessFolio.js --stage E2 --empresa ROCADURA --contrato 57 --folio 8041-1
+node scripts/incremental/processDriveChanges.js
+Si no hay credenciales de Google en el entorno, debe dejar documentado que las pruebas contra Google Drive/Sheets no se pudieron ejecutar por falta de credenciales.
+
+Resultado esperado
+Al final, el sistema debe poder operar en tres modos:
+
+1. Reconstrucción completa
+node scripts/auditData.js
+Uso:
+
+cuando se quiera regenerar todo desde cero
+2. Reconstrucción de índice
+node scripts/incremental/rebuildIndex.js
+Uso:
+
+primera instalación, recuperación ante inconsistencias o migraciones
+3. Actualización incremental
+webhook Drive/Sheets -> processDriveChanges/processSheetChange -> reprocess folios afectados -> actualizar JSON/resumen
+Uso:
+
+operación diaria normal
+Resumen ejecutivo
+La implementación viable es:
+
+No tocar el dashboard de forma profunda, porque ya consume archivos estáticos.
+
+Convertir el script batch en módulos reutilizables, porque hoy todo el flujo pesado vive concentrado en scripts/auditData.js.
+
+Crear un índice persistente de Drive/Sheets para no volver a descubrir 50k+ folios en cada corrida.
+
+Usar Drive changes.watch + changes.list para recibir eventos y consultar deltas.
+
+Actualizar solo el folio/contrato afectado y ajustar agregados por diferencia.
+
+Mantener una reconciliación completa periódica como respaldo.
+

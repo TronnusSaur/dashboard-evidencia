@@ -1,0 +1,75 @@
+name: "🤖 Queeny Bot — Auto-Refresh Dashboard Data"
+
+# Corre cada 30 minutos (mínimo práctico para no exceder cuota de Vercel ni de GitHub Actions).
+# ⚠️  GitHub puede retrasar hasta ~10 min la ejecución de schedules en horas pico.
+# Para un refresh inmediato usa el botón "Run workflow" en la pestaña Actions de GitHub.
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # Cada 30 minutos
+  workflow_dispatch: {}       # Permite ejecución manual en cualquier momento
+
+permissions:
+  contents: write             # Necesario para el git commit + push
+
+jobs:
+  audit_and_deploy:
+    name: Audit Drive & Publish JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del código con historial completo para el push
+      - name: 📥 Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: 0      # Historial completo para evitar fast-forward errors
+
+      # 2. Node.js (misma versión que el proyecto)
+      - name: ⚙️ Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. Instalar solo las dependencias del script (mucho más rápido que `npm ci`)
+      - name: 📦 Instalar dependencias del script
+        run: npm install --no-save googleapis dotenv p-limit
+
+      # 4. Ejecutar la auditoría (con timeout graceful de 8 min integrado)
+      - name: 🔍 Ejecutar Auditoría de Drive
+        run: node scripts/auditData.js
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          DOCUMENT_ID_SHEETS:         ${{ secrets.DOCUMENT_ID_SHEETS }}
+          DOCUMENT_ID_SHEETS_E3:      ${{ secrets.DOCUMENT_ID_SHEETS_E3 }}
+          FOLDER_ID_DRIVE:            ${{ secrets.FOLDER_ID_DRIVE }}
+          FOLDER_ID_DRIVE_E1:         ${{ secrets.FOLDER_ID_DRIVE_E1 }}
+          FOLDER_ID_DRIVE_E3:         ${{ secrets.FOLDER_ID_DRIVE_E3 }}
+
+      # 5. Generar los archivos Master consolidados (E1_Master.json, E2_Master.json, E3_Master.json)
+      - name: 🗜️ Generar Master JSONs
+        run: node scripts/generateMasterJson.js
+
+      # 6. Commit y push — SOLO si hay cambios reales (evita deploys vacíos en Vercel)
+      - name: 🚀 Publicar cambios (si los hay)
+        run: |
+          git config --global user.name  "Queeny Bot 🤖"
+          git config --global user.email "bot@dashboard-evidencia.app"
+
+          # Stagear todo (incluyendo borrados de archivos con tildes)
+          git add -A public/contratos/ src/dataMock.js
+          git add -A .cache/ || true
+
+          # Salir limpiamente si no hay cambios
+          if git diff --cached --quiet; then
+            echo "✅ Sin cambios detectados — no se requiere deploy."
+            exit 0
+          fi
+
+          # Commit con resumen
+          CHANGED=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "chore(data): refresh automático — ${CHANGED} archivos actualizados [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+
+          # Pull con estrategia de resolución de conflictos automática
+          git pull --rebase -X ours origin main || (git rebase --abort && exit 1)
+          git push origin main

@@ -1,0 +1,202 @@
+================================================================================
+           DETALLE TÉCNICO: PROCESO DE BÚSQUEDA Y AUDITORÍA DE EVIDENCIAS
+================================================================================
+
+Este documento explica de manera detallada y con citas de código reales cómo el 
+script de auditoría (`scripts/auditData.js`) interactúa con la API de Google Drive 
+para ingresar a las carpetas de los contratos, ubicar las subcarpetas de cada folio, 
+e identificar y validar cada fotografía individual.
+
+--------------------------------------------------------------------------------
+1. ACCESO A LA ESTRUCTURA DE CARPETAS DE LOS CONTRATOS (MAPEO INICIAL)
+--------------------------------------------------------------------------------
+Para evitar consultas individuales y lentas por cada folio (lo que causaría miles 
+de llamadas a la API de Google y superaría los límites de cuotas), el sistema 
+realiza un "Mapeo Previo de Carpetas" antes de analizar los datos del Sheets. 
+
+El script identifica si el repositorio es de tipo administrativo (`ADMIN`) o 
+de campo (`SUPERVISOR`) y utiliza la paginación de Google Drive para indexar 
+todas las carpetas.
+
+A. Para Repositorios de Administración (DriveType: 'ADMIN')
+La estructura física en Drive es:
+[Carpeta Raíz de Etapa] ➔ [Carpetas de Contratos] ➔ [Carpetas de Folios]
+
+El script primero obtiene las carpetas de contratos y luego, de manera concurrente 
+(máximo 5 peticiones simultáneas), extrae las subcarpetas de folios dentro de cada 
+una:
+
+```javascript
+async function mapearDriveAdmin(drive, rootId) {
+    const dictMap = {};
+    // 1. Obtener carpetas de contratos dentro de la raíz
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(5);
+    
+    // 2. Por cada contrato, obtener en paralelo las carpetas de folios
+    await Promise.all(contratos.map(c => limit(async () => {
+        const fols = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const f of fols) {
+            // Normalizar y limpiar el nombre (ej. "Folio 123" o "123_Empresa" pasa a ser "123")
+            const cleanName = f.name.split('_')[0].replace(/folio/ig, '').trim();
+            const folioKey = normalizeFolio(cleanName.replace(/\s*-\s*/g, '-'));
+            if (!dictMap[folioKey]) dictMap[folioKey] = [];
+            dictMap[folioKey].push(f.id); // Guardar el ID de la carpeta
+        }
+    })));
+    return dictMap;
+}
+```
+
+B. Para Repositorios de Supervisores (DriveType: 'SUPERVISOR')
+La estructura es más profunda e incluye semanas de reporte:
+[Carpeta Raíz de Supervisores] ➔ [Contratos] ➔ [Semanas] ➔ [Carpetas de Folios]
+
+El script realiza una búsqueda recursiva de tres capas:
+
+```javascript
+async function mapearDriveSupervisor(drive, rootId) {
+    const dictMap = {};
+    const contratos = await obtenerPaginado(drive, `'${rootId}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+    const limit = pLimit(3);
+    
+    await Promise.all(contratos.map(c => limit(async () => {
+        // 1. Entrar a la carpeta del Contrato para buscar las semanas
+        const weeks = await obtenerPaginado(drive, `'${c.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+        for (const w of weeks) {
+            // 2. Entrar a cada Semana para buscar las carpetas de folios
+            const fols = await obtenerPaginado(drive, `'${w.id}' in parents and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
+            for (const f of fols) {
+                const folioKey = normalizeFolio(f.name.trim());
+                if (!dictMap[folioKey]) dictMap[folioKey] = [];
+                dictMap[folioKey].push(f.id); // Vincular folio con su carpeta física
+            }
+        }
+    })));
+    return dictMap;
+}
+```
+
+--------------------------------------------------------------------------------
+2. ACCESO A LA CARPETA DE CADA FOLIO Y BÚSQUEDA DE FOTOGRAFÍAS
+--------------------------------------------------------------------------------
+Una vez mapeado el Drive, el script cruza los folios listados en el Google Sheet 
+con el diccionario de IDs de carpetas (`dictMap`). Si el folio tiene una o más 
+carpetas registradas, ejecuta la función `auditarFotos`:
+
+```javascript
+async function auditarFotos(drive, folderIds, fechaStr, stageId) {
+    if (!folderIds || folderIds.length === 0) return { status: "SIN CARPETA", photos: null, isNewSet: false };
+    try {
+        let todasLasFotos = [];
+        // 1. Entrar a cada una de las carpetas físicas asociadas al Folio
+        for (const folderId of folderIds) {
+            const res = await drive.files.list({
+                q: `'${folderId}' in parents and trashed = false`, // Buscar archivos dentro de la carpeta
+                fields: "files(name, webViewLink, thumbnailLink)",
+                supportsAllDrives: true,
+                includeItemsFromAllDrives: true,
+                pageSize: 100
+            });
+            todasLasFotos.push(...(res.data.files || []).map(f => ({
+                name: f.name.toLowerCase(),
+                webViewLink: f.webViewLink,
+                thumbnailLink: f.thumbnailLink
+            })));
+        }
+```
+
+Explicación del query de búsqueda:
+- `'${folderId}' in parents`: Le indica a Google Drive que traiga únicamente archivos 
+  cuyo contenedor directo sea el ID de la carpeta del folio.
+- `trashed = false`: Excluye archivos enviados a la papelera.
+- `fields: "files(name, webViewLink, thumbnailLink)"`: Optimiza la velocidad al 
+  pedir únicamente el nombre del archivo, su link de visualización web y la 
+  miniatura de previsualización (thumbnail).
+
+--------------------------------------------------------------------------------
+3. IDENTIFICACIÓN Y CLASIFICACIÓN DE CADA FOTO
+--------------------------------------------------------------------------------
+Una vez que el script descarga la lista de archivos contenidos en la carpeta de 
+un folio, analiza los nombres de los archivos utilizando un diccionario de 
+expresiones y sufijos predefinidos (`PATRONES`):
+
+```javascript
+const PATRONES = {
+    "INICIAL": ["_inicial"],
+    "FOLIO": ["_folio"],
+    "CORTE": ["_corte"],
+    "DEMOLICION": ["_demolicion"],
+    "CAJA": ["_caja"],
+    "LIGA": ["_liga"],
+    "MEZCLA": ["_mezcla"],
+    "TERMINADO": ["_terminado"],
+    "LIMPIEZA": ["_limpieza"]
+};
+```
+
+El script clasifica cada archivo analizando si su nombre contiene alguno de los 
+sufijos clave:
+
+```javascript
+        const encontradas = new Set();
+        const photosMap = {};
+        for (const cat of Object.keys(PATRONES)) { photosMap[cat] = null; }
+
+        // Recorrer los archivos físicos encontrados en la carpeta de Drive
+        for (const f of todasLasFotos) {
+            for (const [cat, patrones] of Object.entries(PATRONES)) {
+                // Si el nombre del archivo contiene el patrón (Ej: "8041_caja.jpg" contiene "_caja")
+                if (patrones.some(p => f.name.includes(p))) {
+                    encontradas.add(cat); // Registrar categoría encontrada
+                    if (!photosMap[cat]) {
+                        // Guardar links para el visor del Dashboard
+                        photosMap[cat] = { thumbnail: f.thumbnailLink, view: f.webViewLink };
+                    }
+                    break;
+                }
+            }
+        }
+```
+
+--------------------------------------------------------------------------------
+4. EVALUACIÓN Y DICTAMEN DE AUDITORÍA
+--------------------------------------------------------------------------------
+Finalmente, el script evalúa si el folio cumple con las reglas exigidas.
+1. Define qué fotos son requeridas según la fecha o etapa (Set Clásico o Set Nuevo).
+2. Evalúa si el folio cuenta con las tres fotos consideradas **CRÍTICAS** (`INICIAL`, `CAJA`, `TERMINADO`):
+
+```javascript
+        // LÓGICA DE DICTAMEN:
+        // 1. El estatus oficial de 'OK' solo depende de las 3 fotos CRÍTICAS
+        const faltanCriticas = CATEGORIAS_CRITICAS.filter(c => !encontradas.has(c));
+        const status = faltanCriticas.length === 0 ? "OK" : "FALTA: " + faltanCriticas.join(" + ");
+
+        // 2. Obtener lista detallada de faltantes del set completo (para mostrar en el visor de fotos)
+        const faltanDetalle = categoriasRequeridas.filter(c => !encontradas.has(c));
+        
+        return { 
+            status, 
+            photos: photosMap, 
+            extraFilesCount, 
+            isNewSet: esSetNuevo, 
+            encontradas,
+            faltanEnSetCompleto: faltanDetalle 
+        };
+```
+
+--------------------------------------------------------------------------------
+5. RESUMEN DEL PROCESO
+--------------------------------------------------------------------------------
+En resumen, la búsqueda y auditoría opera en 4 pasos ultra veloces:
+1. **Barrido Geométrico:** El script se conecta a la raíz del Drive y descarga la 
+   lista y los IDs de todas las subcarpetas del contrato sin leer los archivos aún.
+2. **Asociación de Índices:** Mapea el número de Folio extraído del nombre de la 
+   carpeta física con su ID de Drive correspondiente en un mapa de memoria.
+3. **Lectura Focalizada:** Para cada folio administrativo, abre en paralelo su 
+   carpeta en Drive y lista solo los nombres de los archivos dentro de esa carpeta.
+4. **Filtro Semántico:** Clasifica los archivos buscando cadenas específicas como 
+   `_inicial`, `_caja`, `_terminado`. Si encuentra los componentes obligatorios, 
+   aprueba el folio, guarda la miniatura y continúa de manera ultra rápida.
+
+================================================================================

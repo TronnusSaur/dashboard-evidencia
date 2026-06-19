@@ -1,0 +1,178 @@
+================================================================================
+          SISTEMA DE SUPERVISIÓN INTELIGENTE DE EVIDENCIA DE BACHEO
+                    DOCUMENTO DE DIVULGACIÓN Y FUNCIONAMIENTO
+================================================================================
+
+Este documento ha sido elaborado con fines informativos y de divulgación para 
+presentar el funcionamiento general, alcance y capacidades técnicas del Sistema 
+de Supervisión Inteligente. El objetivo principal es facilitar su entendimiento 
+a otras dependencias de gobierno o entes fiscalizadores, detallando cómo 
+optimiza el control de calidad, la transparencia y la auditoría interna.
+
+--------------------------------------------------------------------------------
+1. INTRODUCCIÓN Y PROPÓSITO DEL SISTEMA
+--------------------------------------------------------------------------------
+El "Sistema de Supervisión Inteligente" es una plataforma digital de gestión y 
+auditoría interna diseñada para verificar la veracidad y calidad de los trabajos 
+de bacheo y reparación de vialidades ejecutados por contratistas externos. 
+
+El sistema realiza una auditoría visual automatizada y cruzada al confrontar la 
+información administrativa de los contratos contra la evidencia fotográfica de 
+campo depositada en repositorios en la nube. 
+
+* NOTA DE CONFIDENCIALIDAD Y USO: 
+  Esta aplicación es estrictamente para USO INTERNO de la administración pública. 
+  No tiene vistas al público en general ni acceso ciudadano, operando bajo un 
+  entorno seguro de red para resguardar la confidencialidad de la información y 
+  de los contratos de obra pública municipal.
+
+--------------------------------------------------------------------------------
+2. FUENTES DE INFORMACIÓN Y FLUJO DE DATOS
+--------------------------------------------------------------------------------
+El sistema unifica dos grandes pilares tecnológicos sin necesidad de migraciones 
+complejas de datos:
+
+A. Registro Administrativo (Google Sheets):
+   Funciona como la base de datos maestra donde se registran los folios de bacheo, 
+   fechas de ejecución, volumen de mezcla, empresas contratistas asignadas, 
+   números de contrato oficiales y delegaciones geográficas correspondientes.
+
+B. Evidencia Fotográfica en Campo (Google Drive):
+   Los supervisores y empresas en campo capturan y suben imágenes de los trabajos 
+   a carpetas compartidas en Google Drive, estructuradas de forma organizada 
+   por folio de reparación.
+
+--------------------------------------------------------------------------------
+3. LÓGICA DE AUDITORÍA AUTOMATIZADA: EL CORTE TÉCNICO
+--------------------------------------------------------------------------------
+El corazón del sistema es su motor de auditoría. Para que un folio sea aprobado 
+con estatus "OK" y proceda a su validación para pago, debe cumplir con un set 
+estricto de evidencias fotográficas que demuestran la correcta ejecución técnica 
+de la obra según la ingeniería civil.
+
+El sistema clasifica los folios en dos reglas de auditoría según su fecha:
+
+* SET CLÁSICO (Folios anteriores al 27 de abril de 2026 - Legacy):
+  Exige 3 fotografías fundamentales:
+  1. INICIAL: Foto del daño o bache original.
+  2. CAJA: Foto del área excavada y preparada (corte de caja).
+  3. TERMINADO: Foto del bache completamente reparado y sellado.
+
+* SET COMPLETO DE CONTROL DE CALIDAD (Folios a partir del 27 de abril de 2026):
+  Para elevar el control y la calidad de la obra vial, el sistema exige un 
+  registro fotográfico de 9 pasos consecutivos que documentan el ciclo completo 
+  del bacheo técnico:
+  1. INICIAL (Estado original del bache)
+  2. FOLIO (Pintado o señalización física del folio de control)
+  3. CORTE (Corte perimetral con cortadora de disco)
+  4. DEMOLICIÓN (Retiro de carpeta dañada con rotomartillo)
+  5. CAJA (Limpieza profunda e inspección de la caja)
+  6. LIGA (Aplicación de emulsión asfáltica de liga)
+  7. MEZCLA (Tendido y compactación de mezcla asfáltica caliente)
+  8. TERMINADO (Bache concluido y compactado)
+  9. LIMPIEZA (Retiro de escombro e higiene de la vialidad)
+
+Clasificación de Estatus de Auditoría:
+- "OK": El folio cuenta con la totalidad de fotos requeridas.
+- "OK Parcial" (Solo aplica para folios modernos): Cuenta con las 3 fotos críticas 
+  (Inicial, Caja, Terminado) pero carece de alguna de las fotos complementarias 
+  (Corte, Liga, Mezcla, Limpieza, etc.). Permite identificar descuidos menores 
+  en el reporte de evidencia sin rechazar por completo la obra.
+- "Faltante": Carece de alguna de las 3 fotos críticas (por ejemplo, si no hay 
+  evidencia del bache terminado, se considera una alerta grave de omisión).
+- "Carpeta Vacía": Existe una carpeta creada para el folio, pero no contiene fotos.
+- "Sin Carpeta": El folio administrativo existe en Sheets, pero no hay carpeta 
+  de evidencia física creada en Drive para ese trabajo.
+
+--------------------------------------------------------------------------------
+4. ARQUITECTURA TÉCNICA Y SINCRONIZACIÓN EN TIEMPO REAL
+--------------------------------------------------------------------------------
+Aunque no es necesario adentrarse en el código de programación, es importante 
+mencionar que el sistema cuenta con una infraestructura robusta y automatizada 
+para garantizar que los datos estén actualizados al instante:
+
+- Pipeline de Sincronización Incremental:
+  Mediante el uso de webhooks vinculados a la API de Google Drive, el sistema es 
+  notificado instantáneamente por los servidores de Google cada vez que un 
+  supervisor añade, modifica o elimina una foto en campo. 
+- Servidor Interno y Base de Datos Firestore:
+  Un microservicio procesa de inmediato la notificación en segundos, realiza la 
+  auditoría del folio que cambió y escribe los resultados en una base de datos 
+  segura en la nube (Google Firestore). Esto evita tener que escanear miles de 
+  carpetas completas una y otra vez, ahorrando recursos y ancho de banda.
+- Mecanismo de Autocuración (Self-Healing):
+  Si por alguna fluctuación de red o error de sincronización de la nube un folio 
+  muestra información desactualizada, el panel cuenta con un botón inteligente 
+  de "Re-auditar". Al pulsarlo, el sistema realiza una conexión directa a la 
+  carpeta en Drive, verifica los archivos en vivo y corrige el estatus en menos 
+  de tres segundos.
+- Acceso Seguro y Auditoría de Actividades:
+  La subida y eliminación de evidencias está protegida a través del protocolo 
+  Google OAuth 2.0. El sistema exige que el usuario inicie sesión con su cuenta 
+  institucional y registra cada acción de subida o eliminación en un historial 
+  centralizado de auditoría para garantizar la trazabilidad total ("Quién subió 
+  qué, cuándo y a qué folio").
+
+--------------------------------------------------------------------------------
+5. FUNCIONALIDADES CLAVE PARA EL USUARIO COMÚN
+--------------------------------------------------------------------------------
+La interfaz de usuario del dashboard es amigable, visual y sumamente potente, 
+permitiendo a cualquier funcionario u órgano auditor realizar las siguientes 
+tareas comunes sin necesidad de conocimientos técnicos:
+
+1. Visualización de Indicadores Clave (KPIs):
+   Al abrir la herramienta, se muestra un resumen ejecutivo con el total de 
+   folios analizados, la cantidad y porcentaje de folios validados en "OK", y 
+   los folios con incidencias críticas (faltantes, carpetas vacías).
+
+2. Filtrado Inteligente en Cascada:
+   Permite segmentar y analizar los datos en segundos mediante filtros de:
+   - Etapa del Contrato (Etapa 1, 2, 3 o vista específica de Supervisores).
+   - Empresa Contratista (Visualizar el desempeño individual de cada proveedor).
+   - Número de Contrato.
+   - Delegación o zona del municipio.
+
+3. Buscador Directo de Folios:
+   Un cuadro de búsqueda que permite localizar de forma instantánea cualquier 
+   folio escribiendo su número, mostrando al momento su estatus de validación.
+
+4. Visor Gráfico y Línea de Tiempo de Evidencia:
+   Al hacer clic en cualquier folio de la tabla, se abre una ventana modal que 
+   muestra de manera gráfica e intuitiva la tira de evidencias:
+   - Las fotos presentes se muestran como miniaturas interactivas (se pueden abrir 
+     en tamaño completo en Google Drive con un clic).
+   - Las fotos faltantes se marcan explícitamente con una "❌" de color rojo, 
+     permitiendo señalar al contratista con precisión milimétrica qué evidencia 
+     técnica omitió reportar.
+
+5. Generación de Reportes Ejecutivos en PDF:
+   El usuario puede descargar un reporte formal en formato PDF que resume la 
+   situación actual de los folios filtrados. Ideal para adjuntar a minutas de 
+   reunión, actas de entrega-recepción o expedientes de obra.
+
+6. Descarga y Exportación Masiva en ZIP:
+   Para auditorías físicas o entrega de pruebas definitivas, la aplicación permite 
+   descargar en un solo archivo comprimido (.zip) todas las fotografías de los 
+   folios seleccionados. El sistema descarga y renombra automáticamente las 
+   imágenes y las organiza de manera jerárquica en carpetas nombradas por Folio, 
+   ahorrando cientos de horas de trabajo manual de recopilación y descarga.
+
+--------------------------------------------------------------------------------
+6. RESUMEN DE BENEFICIOS INSTITUCIONALES
+--------------------------------------------------------------------------------
+- Transparencia Total: Evita duplicidades de cobro o simulaciones de obras. Cada 
+  metro cúbico de mezcla asfáltica aplicado está respaldado por evidencia visual.
+- Ahorro de Tiempos de Auditoría: Lo que antes tomaba semanas de revisión manual 
+  en carpetas compartidas y hojas de cálculo, hoy se audita en tiempo real en 
+  una sola pantalla intuitiva.
+- Certeza Jurídica: Facilita la entrega de cuentas claras ante dependencias como 
+  la Contraloría Municipal, el Órgano Superior de Fiscalización o comités de 
+  obra, con evidencias fotográficas estructuradas y listas para su descarga.
+- Cero Errores Operativos: Al tener un flujo automatizado de sincronización con 
+  las herramientas cotidianas de los supervisores (Drive y Sheets), el personal 
+  de campo no requiere aprender a usar un nuevo software complejo; la carga de 
+  trabajo administrativa no aumenta.
+
+================================================================================
+          SISTEMA DE SUPERVISIÓN INTELIGENTE - ADMINISTRACIÓN INTERNA
+================================================================================

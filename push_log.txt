@@ -1,0 +1,145 @@
+﻿git : remote: error: GH013: Repository 
+rule violations found for 
+refs/heads/main.        
+En línea: 1 Carácter: 21
++ git pull --rebase ; git push origin 
+main 2>&1 | Out-File -Encoding ut ...
++                     
+~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (remote: error: ...s/main.    
+        :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+remote: 
+remote: - GITHUB PUSH PROTECTION       
+ 
+remote:   ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇö        
+remote:     Resolve the following 
+violations before pushing again        
+remote: 
+remote:     - Push cannot contain 
+secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve 
+a blocked push        
+remote:      https://docs.github.com/co
+de-security/secret-scanning/working-wit
+h-secret-scanning-and-push-protection/w
+orking-with-push-protection-from-the-co
+mmand-line#resolving-a-blocked-push    
+    
+remote:             
+remote:             
+remote:       ÔÇöÔÇö Google Cloud 
+Service Account Credentials 
+ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇö        
+remote:        locations:        
+remote:          - commit: 8924f02241c3
+c017b0581aab348e6bde6e8497ba        
+remote:            path: subida-de-foto
+s-491602-5db4ca6a3fac.json:1        
+remote:             
+remote:        (?) To push, remove 
+secret from commit(s) or follow this 
+URL to allow the secret.        
+remote:        https://github.com/Tronn
+usSaur/dashboard-evidencia/security/sec
+ret-scanning/unblock-secret/3BoN8OUqW2V
+P0xYNKpuCNnsLRRv        
+remote:             
+remote:             
+remote:       ÔÇöÔÇö Google OAuth 
+Access Token ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇö        
+remote:        locations:        
+remote:          - commit: 8924f02241c3
+c017b0581aab348e6bde6e8497ba        
+remote:            path: token.json:1  
+      
+remote:             
+remote:        (?) To push, remove 
+secret from commit(s) or follow this 
+URL to allow the secret.        
+remote:        https://github.com/Tronn
+usSaur/dashboard-evidencia/security/sec
+ret-scanning/unblock-secret/3BoN8P4asO5
+MRkIjlljVGcBKrN0        
+remote:             
+remote:             
+remote:       ÔÇöÔÇö Google OAuth 
+Client ID ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇ
+öÔÇöÔÇöÔÇöÔÇöÔÇö        
+remote:        locations:        
+remote:          - commit: 8924f02241c3
+c017b0581aab348e6bde6e8497ba        
+remote:            path: client_secret_
+112055607744-l81vanbaqb1c9maa0c00h6tiu0
+f3afcu.apps.googleusercontent.com.json:
+1        
+remote:             
+remote:        (?) To push, remove 
+secret from commit(s) or follow this 
+URL to allow the secret.        
+remote:        https://github.com/Tronn
+usSaur/dashboard-evidencia/security/sec
+ret-scanning/unblock-secret/3BoN8QmSJVb
+GnksiGNDKnO4OCkZ        
+remote:             
+remote:             
+remote:       ÔÇöÔÇö Google OAuth 
+Refresh Token ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔ
+ÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔ
+ÇöÔÇöÔÇö        
+remote:        locations:        
+remote:          - commit: 8924f02241c3
+c017b0581aab348e6bde6e8497ba        
+remote:            path: token.json:1  
+      
+remote:             
+remote:        (?) To push, remove 
+secret from commit(s) or follow this 
+URL to allow the secret.        
+remote:        https://github.com/Tronn
+usSaur/dashboard-evidencia/security/sec
+ret-scanning/unblock-secret/3BoN8Panl0k
+qXLX9sQeCcXSzGpF        
+remote:             
+remote:             
+remote:       ÔÇöÔÇö Google OAuth 
+Client Secret ÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔ
+ÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔÇöÔ
+ÇöÔÇöÔÇö        
+remote:        locations:        
+remote:          - commit: 8924f02241c3
+c017b0581aab348e6bde6e8497ba        
+remote:            path: client_secret_
+112055607744-l81vanbaqb1c9maa0c00h6tiu0
+f3afcu.apps.googleusercontent.com.json:
+1        
+remote:             
+remote:        (?) To push, remove 
+secret from commit(s) or follow this 
+URL to allow the secret.        
+remote:        https://github.com/Tronn
+usSaur/dashboard-evidencia/security/sec
+ret-scanning/unblock-secret/3BoN8KwV5y6
+KA08I0Y71usAgdqy        
+remote:             
+remote: 
+remote: 
+To https://github.com/TronnusSaur/dashb
+oard-evidencia.git
+ ! [remote rejected] main -> main 
+(push declined due to repository rule 
+violations)
+error: failed to push some refs to 'htt
+ps://github.com/TronnusSaur/dashboard-e
+videncia.git'

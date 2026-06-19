@@ -1,0 +1,63 @@
+================================================================================
+CONTEXTO DE RUTAS Y ESTRUCTURA DE ALMACENAMIENTO DE EVIDENCIAS FOTOGRÁFICAS
+================================================================================
+
+Este documento define la estructura de directorios y la convención de nomenclatura 
+de archivos utilizada en el servidor local para almacenar la evidencia fotográfica 
+de los trabajos de bacheo. Sirve como referencia técnica de rutas para consumo de 
+otros agentes y scripts de procesamiento.
+
+--------------------------------------------------------------------------------
+1. RUTA RAÍZ DEL SERVIDOR
+--------------------------------------------------------------------------------
+Todas las carpetas de evidencias se ubican en el siguiente directorio base:
+/home/toluca/Imágenes/
+
+--------------------------------------------------------------------------------
+2. JERARQUÍA DE CARPETAS
+--------------------------------------------------------------------------------
+El almacenamiento sigue una jerarquía estricta de cuatro niveles:
+
+Ruta General:
+/home/toluca/Imágenes/{ETAPA}/{EMPRESA}_{CONTRATO}/{FOLIO}/{ARCHIVOS_FOTOGRÁFICOS}
+
+Detalle de niveles:
+
+A. Nivel 1: Etapas (Etapa del proyecto)
+   Representa las fases de ejecución de las obras. Solo se consideran:
+   - "1 ETAPA"
+   - "2 ETAPA"
+   - "3 ETAPA"
+
+B. Nivel 2: Contratos (Empresa y Código de Contrato)
+   El nombre de la carpeta une el nombre de la empresa contratista y el código 
+   de contrato correspondiente, separados por un guion bajo:
+   Formato: {NombreEmpresa}_{CodigoContrato}
+   Ejemplo: ROCADURA_CONTRATO-2026-01
+
+C. Nivel 3: Folio (Identificador único del bache)
+   Una carpeta nombrada exactamente con el identificador del folio del bache 
+   (normalizado, por ejemplo, rellenado con ceros a la izquierda o con formato 
+   de subfolio).
+   Ejemplo: "045" o "128-1"
+
+D. Nivel 4: Archivos de Evidencia (Fotografías)
+   Dentro de cada carpeta de Folio se almacenan hasta tres imágenes que capturan 
+   el ciclo de vida del bacheo. Los nombres siguen la nomenclatura:
+   - Evidencia Inicial:   {FOLIO}_inicial.{ext}
+   - Evidencia Proceso:   {FOLIO}_caja.{ext}      (también conocida como caja)
+   - Evidencia Final:     {FOLIO}_terminado.{ext}
+
+   *Nota: La extensión ({ext}) por defecto es "jpg", pero puede variar según el 
+   archivo real de origen.*
+
+--------------------------------------------------------------------------------
+3. EJEMPLO COMPLETO DE ESTRUCTURA DE RUTAS
+--------------------------------------------------------------------------------
+Para el Folio "089" de la "1 ETAPA", contratado con "ROCADURA" bajo el contrato 
+"OP-2026", la estructura de archivos física en el servidor es la siguiente:
+
+/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_inicial.jpg
+/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_caja.jpg
+/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_terminado.jpg
+================================================================================

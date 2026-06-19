@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/google.firestore.v1.Firestore/:match*",
+      "destination": "https://firestore.googleapis.com/google.firestore.v1.Firestore/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
