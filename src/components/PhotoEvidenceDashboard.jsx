@@ -1519,25 +1519,17 @@ const PhotoEvidenceDashboard = () => {
                 >
                     <div className={`col-span-2 md:col-span-2 lg:col-span-1 kpi-card bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500 flex justify-between items-center ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <div>
-                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">TOTAL OK (CON FOTO)</p>
+                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">OK Parcial</p>
                             <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300">
                                 <AnimatedCounter value={kpiData.ok} />
                             </h4>
                         </div>
-                        <div className="h-12 w-[2px] rounded-full bg-emerald-300 dark:bg-emerald-700 mx-4 hidden sm:block"></div>
-                        <div className="flex flex-col gap-1 text-right">
-                            <div>
-                                <p className="text-[9px] xl:text-[10px] font-bold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider">OK Totales (100%)</p>
-                                <h5 className="text-sm xl:text-base font-bold text-emerald-600 dark:text-emerald-400">
-                                    <AnimatedCounter value={kpiData.okTotal} />
-                                </h5>
-                            </div>
-                            <div>
-                                <p className="text-[9px] xl:text-[10px] font-bold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider">OK Parciales</p>
-                                <h5 className="text-sm xl:text-base font-bold text-emerald-600 dark:text-emerald-400">
-                                    <AnimatedCounter value={kpiData.ok - kpiData.okTotal} />
-                                </h5>
-                            </div>
+                        <div className="h-10 w-[3px] rounded-full bg-emerald-300 dark:bg-emerald-600 mx-3 hidden sm:block"></div>
+                        <div className="text-right">
+                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider mb-1">OK Totales (100%)</p>
+                            <h4 className="text-2xl xl:text-3xl font-black text-emerald-600 dark:text-emerald-400">
+                                <AnimatedCounter value={kpiData.okTotal} />
+                            </h4>
                         </div>
                     </div>
                     <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
