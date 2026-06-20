@@ -80,13 +80,14 @@ export async function uploadJsonToStorage(filename, data) {
         console.log(`✅ Subido (GZIP) y publicado en Storage: contratos/${filename} (${(gzippedBuffer.length / 1024).toFixed(2)} KB)`);
 
         // Actualizar manifest
-        await updateManifest(filename);
+        // Actualizar manifest local
+        updateManifest(filename);
     } catch (e) {
         console.error(`❌ Error subiendo ${filename} a Storage:`, e.message);
     }
 }
 
-async function updateManifest(filename) {
+function updateManifest(filename) {
     const manifestPath = join(process.cwd(), 'public', 'contratos', 'sync_manifest.json');
     let manifest = {};
     if (existsSync(manifestPath)) {
@@ -96,18 +97,25 @@ async function updateManifest(filename) {
     }
     manifest[filename] = Date.now();
     writeFileSync(manifestPath, JSON.stringify(manifest));
-    
-    // Subir manifest a Storage (sin GZIP, sin caché)
+}
+
+export async function uploadManifestToStorage() {
+    if (!adminStorage) return;
     try {
-        const manifestFile = adminStorage.file(`contratos/sync_manifest.json`);
-        await manifestFile.save(JSON.stringify(manifest), {
+        const manifestPath = join(process.cwd(), 'public', 'contratos', 'sync_manifest.json');
+        if (!existsSync(manifestPath)) return;
+        
+        const manifestContent = readFileSync(manifestPath);
+        const file = adminStorage.file(`contratos/sync_manifest.json`);
+        await file.save(manifestContent, {
             metadata: {
                 contentType: 'application/json',
                 cacheControl: 'public, max-age=0, must-revalidate'
             }
         });
-        await manifestFile.makePublic();
-    } catch(e) {
-        console.error("❌ Error subiendo manifest:", e.message);
+        await file.makePublic();
+        console.log(`✅ Subido y publicado en Storage: contratos/sync_manifest.json`);
+    } catch (err) {
+        console.error("❌ Error subiendo manifest:", err.message);
     }
 }

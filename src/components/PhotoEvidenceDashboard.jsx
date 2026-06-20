@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import {
     PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip,
-    BarChart, Bar, XAxis, YAxis, CartesianGrid
+    BarChart, Bar, XAxis, YAxis, CartesianGrid, LineChart, Line
 } from 'recharts';
 import { FILTERS_MAP, ERROR_TYPES, RESUMEN_DATA, GLOBAL_TOTALS } from '../dataMock';
 import FolioVisualizerModal from './FolioVisualizerModal';
@@ -99,10 +99,16 @@ const isLegacyDate = (fechaStr) => {
     return d < cutoff;
 };
 
+const isRowOkParcial = (row) => {
+    if (!row) return false;
+    const rawType = row.RESULTADO_AUDITORIA || '';
+    // OK Parcial only applies to Stage 3 (both E3 and E3_SUP are normalized to 'E3' stage)
+    return row._stage === 'E3' && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+};
+
 const getDisplayStatus = (row) => {
     if (!row) return 'N/A';
-    // Legacy folios never show "OK Parcial" — they only had 3 required photos
-    if (!isLegacyDate(row.FECHA) && row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0) {
+    if (isRowOkParcial(row)) {
         const friendlyList = row._faltanNEO.map(f => FOTO_LABELS[f.toUpperCase()] || f);
         return `OK Parcial - Falta: ${friendlyList.join(', ')}`;
     }
@@ -286,7 +292,7 @@ const PhotoEvidenceDashboard = () => {
 
         filteredRecords.forEach(row => {
             const rawType = row.RESULTADO_AUDITORIA || '';
-            const isOkParcial = !isLegacyDate(row.FECHA) && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+            const isOkParcial = isRowOkParcial(row);
 
             if (rawType === 'OK') {
                 ok++;
@@ -443,6 +449,53 @@ const PhotoEvidenceDashboard = () => {
             }));
         }
     }, [selectedCompany, selectedContract, filteredRecords]);
+
+    const trendData = useMemo(() => {
+        const dateMap = {};
+        filteredRecords.forEach(row => {
+            if (!row.FECHA) return;
+            const dateStr = String(row.FECHA).split('T')[0];
+            if (!dateMap[dateStr]) {
+                dateMap[dateStr] = { scanned: 0, withPhotos: 0 };
+            }
+            dateMap[dateStr].scanned++;
+            if (row.RESULTADO_AUDITORIA === 'OK') {
+                dateMap[dateStr].withPhotos++;
+            }
+        });
+
+        const sortedDates = Object.keys(dateMap).sort((a, b) => {
+            const da = new Date(a);
+            const db = new Date(b);
+            return da - db;
+        });
+
+        let cumulativeScanned = 0;
+        let cumulativeWithPhotos = 0;
+        return sortedDates.map(date => {
+            cumulativeScanned += dateMap[date].scanned;
+            cumulativeWithPhotos += dateMap[date].withPhotos;
+            const pct = cumulativeScanned > 0 ? Math.round((cumulativeWithPhotos / cumulativeScanned) * 100) : 0;
+            
+            const parts = date.split(/[\-\/]/);
+            let displayDate = date;
+            if (parts.length === 3) {
+                if (parts[0].length === 4) {
+                    displayDate = `${parts[2]}/${parts[1]}`;
+                } else {
+                    displayDate = `${parts[0]}/${parts[1]}`;
+                }
+            }
+
+            return {
+                date,
+                displayDate,
+                scanned: cumulativeScanned,
+                withPhotos: cumulativeWithPhotos,
+                porcentaje: pct
+            };
+        });
+    }, [filteredRecords]);
 
     // Table Data (Drill-down)
     // Table Data (Drill-down)
@@ -663,7 +716,7 @@ const PhotoEvidenceDashboard = () => {
             // When not searching, apply the OK visibility toggle.
             if (!showOkFolios) {
                 docs = docs.filter(r => {
-                    const isOkParcial = !isLegacyDate(r.FECHA) && r.RESULTADO_AUDITORIA === 'OK' && r._faltanNEO && r._faltanNEO.length > 0;
+                    const isOkParcial = isRowOkParcial(r);
                     return r.RESULTADO_AUDITORIA !== 'OK' || isOkParcial;
                 });
             }
@@ -671,7 +724,7 @@ const PhotoEvidenceDashboard = () => {
             // Apply Error Type Filter based on CONDENSED group (only for non-OK records, except OK Parcial which maps to OK)
             if (selectedErrorTypes.length > 0) {
                 docs = docs.filter(r => {
-                    const isOkParcial = !isLegacyDate(r.FECHA) && r.RESULTADO_AUDITORIA === 'OK' && r._faltanNEO && r._faltanNEO.length > 0;
+                    const isOkParcial = isRowOkParcial(r);
                     if (isOkParcial) {
                         return selectedErrorTypes.includes('OK');
                     }
@@ -772,7 +825,7 @@ const PhotoEvidenceDashboard = () => {
                     }
 
                     const rawType = row.RESULTADO_AUDITORIA || '';
-                    const isOkParcial = !isLegacyDate(row.FECHA) && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+                    const isOkParcial = isRowOkParcial(row);
 
                     if (isOkParcial) {
                         let rowInc = 0;
@@ -965,7 +1018,7 @@ const PhotoEvidenceDashboard = () => {
             // We group filteredRecords by contract, but only those with status !== 'OK'
             const errorsByContract = {};
             records.forEach(row => {
-                const isOkParcial = !isLegacyDate(row.FECHA) && row.RESULTADO_AUDITORIA === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+                const isOkParcial = isRowOkParcial(row);
                 if (row.RESULTADO_AUDITORIA && (row.RESULTADO_AUDITORIA !== 'OK' || isOkParcial)) {
                     const rawId = String(row.ID || row._contract || '');
                     const cId = parseInt(rawId, 10).toString(); // Normalize "1" to "1"
@@ -1466,17 +1519,25 @@ const PhotoEvidenceDashboard = () => {
                 >
                     <div className={`col-span-2 md:col-span-2 lg:col-span-1 kpi-card bg-emerald-50 dark:bg-emerald-900/20 p-5 rounded-lg border border-emerald-200 dark:border-emerald-800/50 shadow-sm border-l-4 border-l-emerald-500 flex justify-between items-center ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
                         <div>
-                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">OK Parcial</p>
+                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider mb-1">TOTAL OK (CON FOTO)</p>
                             <h4 className="text-2xl xl:text-3xl font-black text-emerald-700 dark:text-emerald-300">
                                 <AnimatedCounter value={kpiData.ok} />
                             </h4>
                         </div>
-                        <div className="h-10 w-[3px] rounded-full bg-emerald-300 dark:bg-emerald-600 mx-3 hidden sm:block"></div>
-                        <div className="text-right">
-                            <p className="text-[10px] xl:text-xs font-semibold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider mb-1">OK Totales (100%)</p>
-                            <h4 className="text-2xl xl:text-3xl font-black text-emerald-600 dark:text-emerald-400">
-                                <AnimatedCounter value={kpiData.okTotal} />
-                            </h4>
+                        <div className="h-12 w-[2px] rounded-full bg-emerald-300 dark:bg-emerald-700 mx-4 hidden sm:block"></div>
+                        <div className="flex flex-col gap-1 text-right">
+                            <div>
+                                <p className="text-[9px] xl:text-[10px] font-bold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider">OK Totales (100%)</p>
+                                <h5 className="text-sm xl:text-base font-bold text-emerald-600 dark:text-emerald-400">
+                                    <AnimatedCounter value={kpiData.okTotal} />
+                                </h5>
+                            </div>
+                            <div>
+                                <p className="text-[9px] xl:text-[10px] font-bold text-emerald-600/80 dark:text-emerald-400/80 uppercase tracking-wider">OK Parciales</p>
+                                <h5 className="text-sm xl:text-base font-bold text-emerald-600 dark:text-emerald-400">
+                                    <AnimatedCounter value={kpiData.ok - kpiData.okTotal} />
+                                </h5>
+                            </div>
                         </div>
                     </div>
                     <div className={`kpi-card bg-white dark:bg-slate-800 p-5 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm border-l-4 border-l-indigo-500 ${driveMode === 'SUPERVISOR' ? 'supervisor-aura' : ''}`}>
@@ -1505,6 +1566,70 @@ const PhotoEvidenceDashboard = () => {
                 <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
                     {/* Visualizations Section */}
                     <div className="xl:col-span-1 flex flex-col gap-6">
+                        {/* Gráfica Lineal de Progreso / Avance de Evidencias */}
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+                            <div className="flex justify-between items-start mb-2">
+                                <div>
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+                                        Avance de Evidencias vs Escaneados
+                                    </p>
+                                    <h4 className="text-lg font-black text-slate-800 dark:text-slate-100 mt-1">
+                                        {kpiData.ok.toLocaleString()} / {filteredRecords.length.toLocaleString()} — {filteredRecords.length > 0 ? Math.round((kpiData.ok / filteredRecords.length) * 100) : 0}%
+                                    </h4>
+                                </div>
+                                <span className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${driveMode === 'ADMIN' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'}`}>
+                                    {driveMode === 'ADMIN' ? 'Admin' : 'Supervisores'}
+                                </span>
+                            </div>
+                            <div className="h-[200px] w-full mt-2">
+                                <ResponsiveContainer width="100%" height="100%">
+                                    <LineChart data={trendData} margin={{ top: 10, right: 10, left: 0, bottom: 5 }}>
+                                        <CartesianGrid strokeDasharray="3 3" stroke={isDarkMode ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.05)"} vertical={false} />
+                                        <XAxis
+                                            dataKey="displayDate"
+                                            stroke={isDarkMode ? "#737373" : "#a3a3a3"}
+                                            fontSize={10}
+                                            tickLine={false}
+                                            axisLine={false}
+                                        />
+                                        <YAxis stroke={isDarkMode ? "#737373" : "#a3a3a3"} fontSize={10} tickLine={false} axisLine={false} width={30} />
+                                        <Tooltip
+                                            contentStyle={{
+                                                backgroundColor: isDarkMode ? '#262626' : '#fff',
+                                                border: isDarkMode ? '1px solid #404040' : '1px solid #e5e5e5',
+                                                borderRadius: '8px',
+                                                color: isDarkMode ? '#fff' : '#171717'
+                                            }}
+                                            formatter={(value, name) => {
+                                                if (name === 'scanned') return [value.toLocaleString(), 'Escaneados Totales'];
+                                                if (name === 'withPhotos') return [value.toLocaleString(), 'Con Fotos (OK)'];
+                                                return [value, name];
+                                            }}
+                                        />
+                                        <Legend verticalAlign="top" height={36} iconType="circle" wrapperStyle={{ fontSize: '10px' }} />
+                                        <Line
+                                            type="monotone"
+                                            dataKey="scanned"
+                                            name="scanned"
+                                            stroke="#6366f1"
+                                            strokeWidth={3}
+                                            dot={false}
+                                            activeDot={{ r: 6 }}
+                                        />
+                                        <Line
+                                            type="monotone"
+                                            dataKey="withPhotos"
+                                            name="withPhotos"
+                                            stroke="#10b981"
+                                            strokeWidth={3}
+                                            dot={false}
+                                            activeDot={{ r: 6 }}
+                                        />
+                                    </LineChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </div>
+
                         <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm">
                             <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
                                 {selectedContract !== 'ALL' ? `Contrato: ${selectedContract}` : selectedCompany !== 'ALL' ? `Contratos: ${selectedCompany}` : 'Conteo Faltantes'}
