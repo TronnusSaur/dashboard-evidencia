@@ -33,7 +33,7 @@ jobs:
 
       # 3. Instalar solo las dependencias del script (mucho más rápido que `npm ci`)
       - name: 📦 Instalar dependencias del script
-        run: npm install --no-save googleapis dotenv p-limit
+        run: npm install --no-save googleapis dotenv p-limit firebase-admin
 
       # 4. Ejecutar la auditoría (con timeout graceful de 8 min integrado)
       - name: 🔍 Ejecutar Auditoría de Drive
@@ -50,14 +50,21 @@ jobs:
       - name: 🗜️ Generar Master JSONs
         run: node scripts/generateMasterJson.js
 
+      # 5.5. Subir JSONs consolidados a Firebase Storage
+      - name: 📤 Subir JSONs a Firebase Storage
+        run: node scripts/upload_to_storage.js
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          VITE_FIREBASE_STORAGE_BUCKET: "real-time-sync-5967a.firebasestorage.app"
+
       # 6. Commit y push — SOLO si hay cambios reales (evita deploys vacíos en Vercel)
       - name: 🚀 Publicar cambios (si los hay)
         run: |
           git config --global user.name  "Queeny Bot 🤖"
           git config --global user.email "bot@dashboard-evidencia.app"
 
-          # Stagear todo (incluyendo borrados de archivos con tildes)
-          git add -A public/contratos/ src/dataMock.js
+          # Stagear solo los archivos no ignorados (dataMock.js y caché)
+          git add src/dataMock.js
           git add -A .cache/ || true
 
           # Salir limpiamente si no hay cambios
