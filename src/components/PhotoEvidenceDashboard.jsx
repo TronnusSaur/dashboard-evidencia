@@ -102,8 +102,8 @@ const isLegacyDate = (fechaStr) => {
 const isRowOkParcial = (row) => {
     if (!row) return false;
     const rawType = row.RESULTADO_AUDITORIA || '';
-    // OK Parcial only applies to Stage 3 (both E3 and E3_SUP are normalized to 'E3' stage)
-    return row._stage === 'E3' && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
+    // OK Parcial only applies to Stage 3 and if it's not a legacy date
+    return row._stage === 'E3' && !isLegacyDate(row.FECHA) && rawType === 'OK' && row._faltanNEO && row._faltanNEO.length > 0;
 };
 
 const getDisplayStatus = (row) => {

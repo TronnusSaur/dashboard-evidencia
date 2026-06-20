@@ -556,7 +556,7 @@ async function main() {
                 EXTRA_PHOTOS: r.EXTRA_PHOTOS || 0,
                 _isNewSet: r._isNewSet || false,
                 _auditDetail: finalAuditDetail,
-                _faltanNEO: r.faltanEnSetCompleto || [],
+                _faltanNEO: isLegacy ? [] : (r.faltanEnSetCompleto || []),
                 _uploadEmail: r._uploadEmail
             });
         });
