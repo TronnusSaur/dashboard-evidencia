@@ -497,6 +497,73 @@ const PhotoEvidenceDashboard = () => {
         });
     }, [filteredRecords]);
 
+    const neoErrorStats = useMemo(() => {
+        const neoRecords = filteredRecords.filter(r => !isLegacyDate(r.FECHA));
+        const totalNeoFolios = neoRecords.length;
+
+        const missingCounts = {
+            INICIAL: 0,
+            FOLIO: 0,
+            CORTE: 0,
+            DEMOLICION: 0,
+            CAJA: 0,
+            LIGA: 0,
+            MEZCLA: 0,
+            TERMINADO: 0,
+            LIMPIEZA: 0,
+            SIN_CARPETA: 0
+        };
+
+        let affectedFoliosCount = 0;
+        let totalErrors = 0;
+
+        neoRecords.forEach(row => {
+            const rawType = row.RESULTADO_AUDITORIA || '';
+            let hasError = false;
+
+            if (rawType.includes('SIN CARPETA') || rawType.includes('CARPETA VACÍA')) {
+                missingCounts.SIN_CARPETA++;
+                hasError = true;
+                totalErrors++;
+            } else {
+                const isOkParcial = isRowOkParcial(row);
+                if (isOkParcial) {
+                    const missingLower = row._faltanNEO.map(f => f.toLowerCase());
+                    Object.keys(missingCounts).forEach(cat => {
+                        if (cat !== 'SIN_CARPETA' && missingLower.includes(cat.toLowerCase())) {
+                            missingCounts[cat]++;
+                            totalErrors++;
+                            hasError = true;
+                        }
+                    });
+                } else if (rawType !== 'OK') {
+                    const rawTypeUpper = rawType.toUpperCase();
+                    Object.keys(missingCounts).forEach(cat => {
+                        if (cat !== 'SIN_CARPETA' && rawTypeUpper.includes(cat)) {
+                            missingCounts[cat]++;
+                            totalErrors++;
+                            hasError = true;
+                        }
+                    });
+                }
+            }
+
+            if (hasError) {
+                affectedFoliosCount++;
+            }
+        });
+
+        const pctAffected = totalNeoFolios > 0 ? Math.round((affectedFoliosCount / totalNeoFolios) * 100) : 0;
+
+        return {
+            totalErrors,
+            affectedFoliosCount,
+            pctAffected,
+            totalNeoFolios,
+            missingCounts
+        };
+    }, [filteredRecords]);
+
     // Table Data (Drill-down)
     // Table Data (Drill-down)
     // Lazy Loading Effect
@@ -1738,6 +1805,81 @@ const PhotoEvidenceDashboard = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Desglose de Errores Neo */}
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+                            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
+                                Desglose de Errores Neo (Excluye Legacy)
+                            </p>
+                            
+                            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-700/30 p-4 rounded-lg border border-slate-100 dark:border-slate-700/50 mb-4">
+                                <div>
+                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Errores Totales</p>
+                                    <h4 className="text-2xl font-black text-slate-800 dark:text-slate-100 mt-1">
+                                        {neoErrorStats.totalErrors.toLocaleString()}
+                                    </h4>
+                                </div>
+                                <div className="h-10 w-[2px] bg-slate-200 dark:bg-slate-700 mx-4"></div>
+                                <div className="text-right">
+                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Folios Afectados</p>
+                                    <h4 className="text-lg font-black text-rose-600 dark:text-rose-400 mt-1">
+                                        {neoErrorStats.pctAffected}%
+                                    </h4>
+                                    <p className="text-[9px] text-slate-400 font-bold mt-0.5">
+                                        ({neoErrorStats.affectedFoliosCount} de {neoErrorStats.totalNeoFolios})
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex-1 overflow-y-auto max-h-[220px] pr-2 custom-scrollbar">
+                                <div className="flex flex-col gap-2.5">
+                                    {Object.entries(neoErrorStats.missingCounts)
+                                        .map(([id, count]) => {
+                                            const categoryLabels = {
+                                                INICIAL: '1. Inicial',
+                                                FOLIO: '2. Folio',
+                                                CORTE: '3. Corte',
+                                                DEMOLICION: '4. Demolición',
+                                                CAJA: '5. Caja',
+                                                LIGA: '6. Liga',
+                                                MEZCLA: '7. Mezcla',
+                                                TERMINADO: '8. Terminado',
+                                                LIMPIEZA: '9. Limpieza',
+                                                SIN_CARPETA: 'Sin Carpeta / Vacía'
+                                            };
+                                            const label = categoryLabels[id];
+                                            const pct = neoErrorStats.totalNeoFolios > 0 ? Math.round((count / neoErrorStats.totalNeoFolios) * 100) : 0;
+                                            return { id, label, count, pct };
+                                        })
+                                        .filter(c => c.count > 0)
+                                        .sort((a, b) => b.count - a.count)
+                                        .map(c => (
+                                            <div key={c.id} className="flex flex-col gap-1">
+                                                <div className="flex justify-between items-center text-xs font-semibold text-slate-700 dark:text-slate-200">
+                                                    <span>{c.label}</span>
+                                                    <span className="font-bold">{c.count.toLocaleString()} ({c.pct}%)</span>
+                                                </div>
+                                                <div className="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+                                                    <div 
+                                                        className={`h-full rounded-full ${
+                                                            c.id === 'SIN_CARPETA' 
+                                                                ? 'bg-amber-500' 
+                                                                : ['INICIAL', 'CAJA', 'TERMINADO'].includes(c.id) 
+                                                                    ? 'bg-rose-500' 
+                                                                    : 'bg-indigo-500'
+                                                        }`}
+                                                        style={{ width: `${c.pct}%` }}
+                                                    />
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+                                    {Object.values(neoErrorStats.missingCounts).every(count => count === 0) && (
+                                        <div className="text-xs text-slate-400 text-center py-4">Excelente: 0 errores detectados en esta vista.</div>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Data Table Section */}
@@ -1791,7 +1933,7 @@ const PhotoEvidenceDashboard = () => {
                             </div>
                         </div>
 
-                        <div className="overflow-x-auto overflow-y-auto w-full h-[580px] max-h-[580px] custom-scrollbar">
+                        <div className="overflow-x-auto overflow-y-auto w-full h-[1000px] max-h-[1000px] custom-scrollbar">
                             {isLoading ? (
                                 <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4 h-full">
                                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
