@@ -253,7 +253,7 @@ async function main() {
         `-- SCRIPT DE MIGRACIÓN: RUTAS LOCALES DE EVIDENCIA FOTOGRÁFICA`,
         `-- Generado automáticamente el: ${new Date().toLocaleString('es-MX')}`,
         `-- Tabla destino: \`${TABLE_NAME}\``,
-        `-- Estructura de carpetas: /home/toluca/Imágenes/{Etapa}/{Contrato}/{Folio}/{Fotos}`,
+        `-- Estructura de carpetas: Imágenes/{Etapa}/{Contrato}/{Folio}/{Fotos}`,
         `-- ============================================================================`,
         `\n`
     ];
@@ -278,15 +278,15 @@ async function main() {
 
         // 1. GENERAR ACTUALIZACIONES DE RUTAS LOCALES
         const localInicial = info.inicialFileId 
-            ? `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_inicial.${info.inicialExt}`
+            ? `Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_inicial.${info.inicialExt}`
             : null;
         
         const localCaja = info.cajaFileId 
-            ? `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_caja.${info.cajaExt}`
+            ? `Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_caja.${info.cajaExt}`
             : null;
 
         const localTerminado = info.terminadoFileId 
-            ? `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_terminado.${info.terminadoExt}`
+            ? `Imágenes/${stageName}/${contractFolder}/${folioFolder}/${info.folio}_terminado.${info.terminadoExt}`
             : null;
 
         let setsPaths = [];
