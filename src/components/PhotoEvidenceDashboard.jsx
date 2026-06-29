@@ -207,6 +207,48 @@ const PhotoEvidenceDashboard = () => {
         return map;
     }, [activeResumen]);
 
+    // Carousel Pagination States
+    const [carouselPage, setCarouselPage] = useState(0);
+    // Reset carousel page on filter/stage/driveMode change
+    useEffect(() => {
+        setCarouselPage(0);
+    }, [selectedStage, selectedCompany, selectedContract, driveMode]);
+
+    const contractsForCarousel = useMemo(() => {
+        const stats = {};
+        activeResumen.forEach(r => {
+            if (selectedCompany !== 'ALL' && r.EMPRESA_RAIZ_MASTER !== selectedCompany) return;
+            if (selectedContract !== 'ALL' && r.ID !== selectedContract) return;
+
+            const cid = r.ID || 'Sin Contrato';
+            if (!stats[cid]) {
+                stats[cid] = {
+                    id: cid,
+                    company: r.EMPRESA_RAIZ_MASTER || 'N/A',
+                    totalFolios: 0
+                };
+            }
+            stats[cid].totalFolios += (r.TOTAL_OMISIONES || 0);
+        });
+
+        return Object.values(stats).sort((a, b) => {
+            const aNum = parseInt(a.id, 10);
+            const bNum = parseInt(b.id, 10);
+            if (!isNaN(aNum) && !isNaN(bNum)) {
+                return aNum - bNum;
+            }
+            return String(a.id).localeCompare(String(b.id), undefined, { numeric: true, sensitivity: 'base' });
+        });
+    }, [activeResumen, selectedCompany, selectedContract]);
+
+    const contractsPerPage = 8;
+    const totalCarouselPages = Math.ceil(contractsForCarousel.length / contractsPerPage);
+    
+    const paginatedCarouselContracts = useMemo(() => {
+        const start = carouselPage * contractsPerPage;
+        return contractsForCarousel.slice(start, start + contractsPerPage);
+    }, [contractsForCarousel, carouselPage]);
+
     // Lazy Loading States
     const [records, setRecords] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
@@ -1621,9 +1663,9 @@ const PhotoEvidenceDashboard = () => {
                     </div>
                 </motion.div>
 
-                {/* Main Content Area */}
-                <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
-                    {/* Visualizations Section */}
+                {/* Row 1 Grid: Line Chart, Bar Chart & Global Efficiency vs Table */}
+                <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 mb-6">
+                    {/* Left Column (charts and global efficiency) */}
                     <div className="xl:col-span-1 flex flex-col gap-6">
                         {/* Gráfica Lineal de Progreso / Avance de Evidencias */}
                         <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
@@ -1805,9 +1847,200 @@ const PhotoEvidenceDashboard = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    {/* Right Column: Incident Table Card */}
+                    <div className="xl:col-span-2 flex flex-col">
+                        <div className="bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col xl:h-[1050px] min-h-0">
+                            <div className="p-6 border-b border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                <h5 className="font-bold text-slate-800 dark:text-slate-100">Registros de Incidencias</h5>
+                                <div className="flex flex-wrap gap-2 items-center">
+                                    <div className="relative mr-2">
+                                        <input 
+                                            type="text" 
+                                            placeholder="Buscar Folio..." 
+                                            value={searchQuery}
+                                            onChange={(e) => setSearchQuery(e.target.value)}
+                                            className="pl-8 pr-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-xs w-36 sm:w-48 focus:outline-none focus:ring-1 focus:ring-primary"
+                                        />
+                                        <span className="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-[14px] text-slate-400">search</span>
+                                    </div>
+                                    <button
+                                        onClick={() => toggleErrorType('ALL')}
+                                        className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.length === 0 ? 'bg-primary text-white border-transparent' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'}`}
+                                    >
+                                        TODOS
+                                    </button>
+                                    <button
+                                        onClick={() => setShowOkFolios(!showOkFolios)}
+                                        className={`px-3 flex items-center gap-1 py-1.5 rounded-full text-[10px] sm:text-xs font-bold uppercase transition-all ${
+                                            showOkFolios 
+                                                ? 'bg-green-500 text-white shadow-md shadow-green-500/20' 
+                                                : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
+                                        }`}
+                                    >
+                                        {showOkFolios ? <span className="material-symbols-outlined text-[14px]">visibility</span> : <span className="material-symbols-outlined text-[14px]">visibility_off</span>}
+                                        {showOkFolios ? 'Folios OK Visibles' : 'Folios OK Ocultos'}
+                                    </button>
+                                    {CONDENSED_CATEGORIES.map(type => (
+                                        <button
+                                            key={type}
+                                            onClick={() => toggleErrorType(type)}
+                                            className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.includes(type)
+                                                ? 'text-white'
+                                                : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
+                                                }`}
+                                            style={selectedErrorTypes.includes(type) ? {
+                                                backgroundColor: getColorForStatus(type),
+                                                borderColor: getColorForStatus(type)
+                                            } : {}}
+                                        >
+                                            {type}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="overflow-x-auto overflow-y-auto w-full h-[500px] xl:h-0 xl:flex-1 custom-scrollbar">
+                                {isLoading ? (
+                                    <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4 h-full">
+                                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+                                        <p className="text-sm font-bold uppercase tracking-widest text-primary">
+                                            {loadingMessage || 'Cargando folios...'}
+                                        </p>
+                                        <p className="text-xs text-slate-400 max-w-xs text-center">
+                                            Los siguientes cambios de etapa serán instantáneos gracias a la caché.
+                                        </p>
+                                    </div>
+                                ) : tableData.length > 0 ? (
+                                    <table className="w-full text-left">
+                                        <thead className="sticky top-0 z-10">
+                                            <tr className="bg-slate-50 dark:bg-slate-900 text-[10px] uppercase tracking-wider text-slate-500 font-bold">
+                                                <th className="px-6 py-4">Folio</th>
+                                                <th className="px-6 py-4">Tipo de Error</th>
+                                                <th className="px-6 py-4">Calle</th>
+                                                <th className="px-6 py-4">Delegación</th>
+                                                <th className="px-6 py-4">Colonia</th>
+                                                <th className="px-6 py-4 text-center">Evidencia</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
+                                            {paginatedData.map((row, idx) => (
+                                                <tr key={idx} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+                                                    <td className="px-6 py-4">
+                                                        <div className="flex flex-col gap-0.5">
+                                                            <span className="font-bold text-primary dark:text-white text-sm">{row.FOLIO}</span>
+                                                            <span className={`inline-flex items-center gap-0.5 text-[8px] font-black uppercase tracking-wider w-max px-1.5 py-0.5 rounded border ${
+                                                                isLegacyDate(row.FECHA)
+                                                                    ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800/30'
+                                                                    : 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800/30'
+                                                            }`}>
+                                                                {isLegacyDate(row.FECHA) ? 'Legacy' : 'Neo'}
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td className="px-6 py-4">
+                                                        <span
+                                                            className="px-2 py-1 rounded text-[10px] font-black uppercase text-white shadow-sm"
+                                                            style={{ backgroundColor: getColorForStatus(getDisplayStatus(row)) }}
+                                                        >
+                                                            {getDisplayStatus(row)}
+                                                        </span>
+                                                    </td>
+                                                    <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.CALLE}</td>
+                                                    <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.DELEGACION}</td>
+                                                    <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.COLONIA}</td>
+                                                    <td className="px-6 py-4 text-center">
+                                                        <div className="flex items-center justify-center gap-2">
+                                                            {row.EXTRA_PHOTOS > 0 && (
+                                                                <span 
+                                                                    className="flex items-center justify-center w-5 h-5 bg-orange-500 text-white text-[10px] font-black rounded-full shadow-lg shadow-orange-500/40 animate-pulse border border-orange-400" 
+                                                                    title={`${row.EXTRA_PHOTOS} archivos extra sin clasificar en la carpeta de Drive`}
+                                                                >
+                                                                    {row.EXTRA_PHOTOS}
+                                                                </span>
+                                                            )}
+                                                            <button 
+                                                                onClick={() => setSelectedVisualizerFolio(row)}
+                                                                className="p-1.5 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-all text-primary dark:text-white border border-transparent hover:border-slate-300 dark:hover:border-slate-500"
+                                                                title="Ver Evidencia y Gestionar Archivos"
+                                                            >
+                                                                <span className="material-symbols-outlined text-[20px]">visibility</span>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                ) : (
+                                    <div className="flex flex-col items-center justify-center p-20 text-slate-400 gap-4 h-full">
+                                        <span className="material-symbols-outlined text-4xl opacity-50">search_off</span>
+                                        <p className="text-sm font-bold uppercase tracking-widest">Sin datos coincidentes</p>
+                                    </div>
+                                )}
+                            </div>
+                            <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white dark:bg-slate-800 rounded-b-lg">
+                                <p className="text-xs text-slate-500 font-medium">
+                                    Mostrando <span className="font-bold">{tableData.length > 0 ? (currentPage - 1) * pageSize + 1 : 0}</span> - <span className="font-bold">{Math.min(currentPage * pageSize, tableData.length)}</span> de <span className="font-bold">{tableData.length}</span> registros
+                                </p>
+                                
+                                {/* Pagination Controls */}
+                                {totalPages > 1 && (
+                                    <div className="flex items-center gap-1.5">
+                                        <button
+                                            onClick={() => setCurrentPage(1)}
+                                            disabled={currentPage === 1}
+                                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                            title="Primera página"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">first_page</span>
+                                        </button>
+                                        <button
+                                            onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                                            disabled={currentPage === 1}
+                                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                            title="Página anterior"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">chevron_left</span>
+                                        </button>
+                                        <span className="text-xs font-semibold text-slate-600 dark:text-slate-300 px-3 select-none">
+                                            Pág. {currentPage} de {totalPages}
+                                        </span>
+                                        <button
+                                            onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                                            disabled={currentPage === totalPages}
+                                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                            title="Página siguiente"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">chevron_right</span>
+                                        </button>
+                                        <button
+                                            onClick={() => setCurrentPage(totalPages)}
+                                            disabled={currentPage === totalPages}
+                                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
+                                            title="Última página"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">last_page</span>
+                                        </button>
+                                    </div>
+                                )}
+
+                                <span className={`mode-indicator ${driveMode === 'ADMIN' ? 'admin' : 'supervisor'}`}>
+                                    <span className="material-symbols-outlined" style={{ fontSize: '12px' }}>{driveMode === 'ADMIN' ? 'verified' : 'group'}</span>
+                                    {driveMode === 'ADMIN' ? 'Drive Admin' : 'Drive Supervisores'}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Row 2 Grid: Neo Error Breakdown vs Carousel Card */}
+                <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+                    {/* Left Column (Neo Error Breakdown) */}
+                    <div className="xl:col-span-1 flex flex-col">
                         {/* Desglose de Errores Neo */}
-                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col h-full">
                             <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
                                 Desglose de Errores Neo (Excluye Legacy)
                             </p>
@@ -1882,186 +2115,113 @@ const PhotoEvidenceDashboard = () => {
                         </div>
                     </div>
 
-                    {/* Data Table Section */}
-                    <div className="xl:col-span-2 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
-                        <div className="p-6 border-b border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                            <h5 className="font-bold text-slate-800 dark:text-slate-100">Registros de Incidencias</h5>
-                            <div className="flex flex-wrap gap-2 items-center">
-                                <div className="relative mr-2">
-                                    <input 
-                                        type="text" 
-                                        placeholder="Buscar Folio..." 
-                                        value={searchQuery}
-                                        onChange={(e) => setSearchQuery(e.target.value)}
-                                        className="pl-8 pr-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white text-xs w-36 sm:w-48 focus:outline-none focus:ring-1 focus:ring-primary"
-                                    />
-                                    <span className="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-[14px] text-slate-400">search</span>
+                    {/* Right Column: Carousel Card */}
+                    <div className="xl:col-span-2 flex flex-col">
+                        {/* New Contracts Carousel Section */}
+                        <div className="bg-white dark:bg-slate-800 p-6 rounded-lg border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col h-full justify-between min-h-[380px]">
+                            <div className="flex items-center justify-between">
+                                <div className="flex flex-col">
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+                                        Contratos Registrados (Google Sheets)
+                                    </p>
+                                    <p className="text-[10px] text-slate-400 mt-0.5">
+                                        Folios totales declarados originalmente en la base de datos de Sheets
+                                    </p>
                                 </div>
-                                <button
-                                    onClick={() => toggleErrorType('ALL')}
-                                    className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.length === 0 ? 'bg-primary text-white border-transparent' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'}`}
-                                >
-                                    TODOS
-                                </button>
-                                <button
-                                    onClick={() => setShowOkFolios(!showOkFolios)}
-                                    className={`px-3 flex items-center gap-1 py-1.5 rounded-full text-[10px] sm:text-xs font-bold uppercase transition-all ${
-                                        showOkFolios 
-                                            ? 'bg-green-500 text-white shadow-md shadow-green-500/20' 
-                                            : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
-                                    }`}
-                                >
-                                    {showOkFolios ? <span className="material-symbols-outlined text-[14px]">visibility</span> : <span className="material-symbols-outlined text-[14px]">visibility_off</span>}
-                                    {showOkFolios ? 'Folios OK Visibles' : 'Folios OK Ocultos'}
-                                </button>
-                                {CONDENSED_CATEGORIES.map(type => (
-                                    <button
-                                        key={type}
-                                        onClick={() => toggleErrorType(type)}
-                                        className={`px-3 py-1.5 rounded text-[10px] font-bold uppercase transition-all ${selectedErrorTypes.includes(type)
-                                            ? 'text-white'
-                                            : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-600 hover:bg-slate-200 dark:hover:bg-slate-600'
-                                            }`}
-                                        style={selectedErrorTypes.includes(type) ? {
-                                            backgroundColor: getColorForStatus(type),
-                                            borderColor: getColorForStatus(type)
-                                        } : {}}
-                                    >
-                                        {type}
-                                    </button>
-                                ))}
+                                {totalCarouselPages > 1 && (
+                                    <div className="flex items-center gap-2">
+                                        <button
+                                            onClick={() => setCarouselPage(prev => (prev > 0 ? prev - 1 : totalCarouselPages - 1))}
+                                            className="p-1 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 transition-all flex items-center justify-center"
+                                            title="Página Anterior"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">chevron_left</span>
+                                        </button>
+                                        <span className="text-xs font-semibold text-slate-600 dark:text-slate-300 px-1 select-none">
+                                            Pág. {carouselPage + 1} de {totalCarouselPages}
+                                        </span>
+                                        <button
+                                            onClick={() => setCarouselPage(prev => (prev < totalCarouselPages - 1 ? prev + 1 : 0))}
+                                            className="p-1 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 transition-all flex items-center justify-center"
+                                            title="Página Siguiente"
+                                        >
+                                            <span className="material-symbols-outlined text-[18px]">chevron_right</span>
+                                        </button>
+                                    </div>
+                                )}
                             </div>
-                        </div>
 
-                        <div className="overflow-x-auto overflow-y-auto w-full h-[1000px] max-h-[1000px] custom-scrollbar">
-                            {isLoading ? (
-                                <div className="flex flex-col items-center justify-center p-20 text-slate-500 gap-4 h-full">
-                                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-                                    <p className="text-sm font-bold uppercase tracking-widest text-primary">
-                                        {loadingMessage || 'Cargando folios...'}
-                                    </p>
-                                    <p className="text-xs text-slate-400 max-w-xs text-center">
-                                        Los siguientes cambios de etapa serán instantáneos gracias a la caché.
-                                    </p>
-                                </div>
-                            ) : tableData.length > 0 ? (
-                                <table className="w-full text-left">
-                                    <thead className="sticky top-0 z-10">
-                                        <tr className="bg-slate-50 dark:bg-slate-900 text-[10px] uppercase tracking-wider text-slate-500 font-bold">
-                                            <th className="px-6 py-4">Folio</th>
-                                            <th className="px-6 py-4">Tipo de Error</th>
-                                            <th className="px-6 py-4">Calle</th>
-                                            <th className="px-6 py-4">Delegación</th>
-                                            <th className="px-6 py-4">Colonia</th>
-                                            <th className="px-6 py-4 text-center">Evidencia</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody className="divide-y divide-slate-100 dark:divide-slate-700">
-                                        {paginatedData.map((row, idx) => (
-                                            <tr key={idx} className="hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
-                                                <td className="px-6 py-4">
-                                                    <div className="flex flex-col gap-0.5">
-                                                        <span className="font-bold text-primary dark:text-white text-sm">{row.FOLIO}</span>
-                                                        <span className={`inline-flex items-center gap-0.5 text-[8px] font-black uppercase tracking-wider w-max px-1.5 py-0.5 rounded border ${
-                                                            isLegacyDate(row.FECHA)
-                                                                ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800/30'
-                                                                : 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800/30'
-                                                        }`}>
-                                                            {isLegacyDate(row.FECHA) ? 'Legacy' : 'Neo'}
+                            <div className="relative flex-1 mt-4 overflow-hidden">
+                                <AnimatePresence mode="wait">
+                                    {paginatedCarouselContracts.length === 0 ? (
+                                        <motion.div
+                                            key="empty"
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            className="flex flex-col items-center justify-center h-full text-slate-400 gap-2"
+                                        >
+                                            <span className="material-symbols-outlined text-3xl opacity-55">description</span>
+                                            <p className="text-xs font-bold uppercase tracking-wider">Sin contratos registrados</p>
+                                        </motion.div>
+                                    ) : (
+                                        <motion.div
+                                            key={carouselPage}
+                                            initial={{ opacity: 0, x: 20 }}
+                                            animate={{ opacity: 1, x: 0 }}
+                                            exit={{ opacity: 0, x: -20 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="grid grid-cols-2 md:grid-cols-4 gap-4 h-full"
+                                        >
+                                            {paginatedCarouselContracts.map(c => (
+                                                <div
+                                                    key={c.id}
+                                                    className="flex flex-col justify-between p-4 bg-slate-50 dark:bg-slate-700/30 hover:bg-slate-100 dark:hover:bg-slate-700/50 border border-slate-100 dark:border-slate-700/50 hover:border-primary dark:hover:border-primary rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5 select-none"
+                                                >
+                                                    <div className="flex items-start justify-between gap-2">
+                                                        <div className="flex flex-col min-w-0">
+                                                            <span className="text-xs font-black text-slate-700 dark:text-slate-200 uppercase tracking-wide truncate">
+                                                                Contrato {c.id}
+                                                            </span>
+                                                            <span className="text-[10px] text-slate-400 dark:text-slate-500 font-bold truncate mt-0.5">
+                                                                {c.company}
+                                                            </span>
+                                                        </div>
+                                                        <span className="material-symbols-outlined text-[18px] text-slate-400 dark:text-slate-500 bg-white dark:bg-slate-800 p-1 rounded-lg border border-slate-100 dark:border-slate-700">
+                                                            table_chart
                                                         </span>
                                                     </div>
-                                                </td>
-                                                <td className="px-6 py-4">
-                                                    <span
-                                                        className="px-2 py-1 rounded text-[10px] font-black uppercase text-white shadow-sm"
-                                                        style={{ backgroundColor: getColorForStatus(getDisplayStatus(row)) }}
-                                                    >
-                                                        {getDisplayStatus(row)}
-                                                    </span>
-                                                </td>
-                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.CALLE}</td>
-                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.DELEGACION}</td>
-                                                <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-400">{row.COLONIA}</td>
-                                                <td className="px-6 py-4 text-center">
-                                                    <div className="flex items-center justify-center gap-2">
-                                                        {row.EXTRA_PHOTOS > 0 && (
-                                                            <span 
-                                                                className="flex items-center justify-center w-5 h-5 bg-orange-500 text-white text-[10px] font-black rounded-full shadow-lg shadow-orange-500/40 animate-pulse border border-orange-400" 
-                                                                title={`${row.EXTRA_PHOTOS} archivos extra sin clasificar en la carpeta de Drive`}
-                                                            >
-                                                                {row.EXTRA_PHOTOS}
-                                                            </span>
-                                                        )}
-                                                        <button 
-                                                            onClick={() => setSelectedVisualizerFolio(row)}
-                                                            className="p-1.5 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-all text-primary dark:text-white border border-transparent hover:border-slate-300 dark:hover:border-slate-500"
-                                                            title="Ver Evidencia y Gestionar Archivos"
-                                                        >
-                                                            <span className="material-symbols-outlined text-[20px]">visibility</span>
-                                                        </button>
+                                                    <div className="flex items-baseline gap-1 mt-4">
+                                                        <span className="text-xl font-black text-primary dark:text-white">
+                                                            {c.totalFolios.toLocaleString()}
+                                                        </span>
+                                                        <span className="text-[9px] text-slate-400 dark:text-slate-500 font-black uppercase tracking-wider">
+                                                            Folios
+                                                        </span>
                                                     </div>
-                                                </td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            ) : (
-                                <div className="flex flex-col items-center justify-center p-20 text-slate-400 gap-4 h-full">
-                                    <span className="material-symbols-outlined text-4xl opacity-50">search_off</span>
-                                    <p className="text-sm font-bold uppercase tracking-widest">Sin datos coincidentes</p>
-                                </div>
-                            )}
-                        </div>
-                        <div className="px-6 py-4 border-t border-slate-100 dark:border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white dark:bg-slate-800 rounded-b-lg">
-                            <p className="text-xs text-slate-500 font-medium">
-                                Mostrando <span className="font-bold">{tableData.length > 0 ? (currentPage - 1) * pageSize + 1 : 0}</span> - <span className="font-bold">{Math.min(currentPage * pageSize, tableData.length)}</span> de <span className="font-bold">{tableData.length}</span> registros
-                            </p>
-                            
-                            {/* Pagination Controls */}
-                            {totalPages > 1 && (
-                                <div className="flex items-center gap-1.5">
-                                    <button
-                                        onClick={() => setCurrentPage(1)}
-                                        disabled={currentPage === 1}
-                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
-                                        title="Primera página"
-                                    >
-                                        <span className="material-symbols-outlined text-[18px]">first_page</span>
-                                    </button>
-                                    <button
-                                        onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
-                                        disabled={currentPage === 1}
-                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
-                                        title="Página anterior"
-                                    >
-                                        <span className="material-symbols-outlined text-[18px]">chevron_left</span>
-                                    </button>
-                                    <span className="text-xs font-semibold text-slate-600 dark:text-slate-300 px-3 select-none">
-                                        Pág. {currentPage} de {totalPages}
-                                    </span>
-                                    <button
-                                        onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
-                                        disabled={currentPage === totalPages}
-                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
-                                        title="Página siguiente"
-                                    >
-                                        <span className="material-symbols-outlined text-[18px]">chevron_right</span>
-                                    </button>
-                                    <button
-                                        onClick={() => setCurrentPage(totalPages)}
-                                        disabled={currentPage === totalPages}
-                                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 disabled:opacity-40 disabled:hover:bg-transparent transition-all flex items-center justify-center"
-                                        title="Última página"
-                                    >
-                                        <span className="material-symbols-outlined text-[18px]">last_page</span>
-                                    </button>
-                                </div>
-                            )}
+                                                </div>
+                                            ))}
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+                            </div>
 
-                            <span className={`mode-indicator ${driveMode === 'ADMIN' ? 'admin' : 'supervisor'}`}>
-                                <span className="material-symbols-outlined" style={{ fontSize: '12px' }}>{driveMode === 'ADMIN' ? 'verified' : 'group'}</span>
-                                {driveMode === 'ADMIN' ? 'Drive Admin' : 'Drive Supervisores'}
-                            </span>
+                            {totalCarouselPages > 1 && (
+                                <div className="flex items-center justify-center gap-1.5 mt-4">
+                                    {Array.from({ length: totalCarouselPages }).map((_, idx) => (
+                                        <button
+                                            key={idx}
+                                            onClick={() => setCarouselPage(idx)}
+                                            className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                                                carouselPage === idx 
+                                                    ? 'bg-primary w-4' 
+                                                    : 'bg-slate-300 dark:bg-slate-600 hover:bg-slate-400'
+                                            }`}
+                                            title={`Página ${idx + 1}`}
+                                        />
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

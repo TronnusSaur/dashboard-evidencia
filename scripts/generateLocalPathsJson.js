@@ -69,17 +69,17 @@ async function main() {
         const photosMap = {};
         if (photos.INICIAL) {
             photosMap["INICIAL"] = {
-                view: `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_inicial.jpg`
+                view: `Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_inicial.jpg`
             };
         }
         if (photos.CAJA) {
             photosMap["CAJA"] = {
-                view: `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_caja.jpg`
+                view: `Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_caja.jpg`
             };
         }
         if (photos.TERMINADO) {
             photosMap["FINAL"] = {
-                view: `/home/toluca/Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_terminado.jpg`
+                view: `Imágenes/${stageName}/${contractFolder}/${folioStr}/${folioStr}_terminado.jpg`
             };
         }
 

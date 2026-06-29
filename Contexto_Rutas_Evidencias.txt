@@ -11,7 +11,7 @@ otros agentes y scripts de procesamiento.
 1. RUTA RAÍZ DEL SERVIDOR
 --------------------------------------------------------------------------------
 Todas las carpetas de evidencias se ubican en el siguiente directorio base:
-/home/toluca/Imágenes/
+Imágenes/
 
 --------------------------------------------------------------------------------
 2. JERARQUÍA DE CARPETAS
@@ -19,7 +19,7 @@ Todas las carpetas de evidencias se ubican en el siguiente directorio base:
 El almacenamiento sigue una jerarquía estricta de cuatro niveles:
 
 Ruta General:
-/home/toluca/Imágenes/{ETAPA}/{EMPRESA}_{CONTRATO}/{FOLIO}/{ARCHIVOS_FOTOGRÁFICOS}
+Imágenes/{ETAPA}/{EMPRESA}_{CONTRATO}/{FOLIO}/{ARCHIVOS_FOTOGRÁFICOS}
 
 Detalle de niveles:
 
@@ -57,7 +57,7 @@ D. Nivel 4: Archivos de Evidencia (Fotografías)
 Para el Folio "089" de la "1 ETAPA", contratado con "ROCADURA" bajo el contrato 
 "OP-2026", la estructura de archivos física en el servidor es la siguiente:
 
-/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_inicial.jpg
-/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_caja.jpg
-/home/toluca/Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_terminado.jpg
+Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_inicial.jpg
+Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_caja.jpg
+Imágenes/1 ETAPA/ROCADURA_OP-2026/089/089_terminado.jpg
 ================================================================================
