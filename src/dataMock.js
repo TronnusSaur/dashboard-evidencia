@@ -12,8 +12,8 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 544,
-  "OK": 78066,
+  "FALTA: INICIAL": 502,
+  "OK": 78110,
   "FALTA: CAJA + TERMINADO": 949,
   "CARPETA VACÍA": 450,
   "SIN CARPETA": 723,
@@ -21,7 +21,7 @@ export const GLOBAL_TOTALS = {
   "FALTA: INICIAL + CAJA + TERMINADO": 191,
   "FALTA: TERMINADO": 343,
   "FALTA: INICIAL + CAJA": 44,
-  "FALTA: INICIAL + TERMINADO": 29
+  "FALTA: INICIAL + TERMINADO": 27
 };
 export const RESUMEN_DATA = [
   {
@@ -2173,8 +2173,8 @@ export const RESUMEN_DATA = [
     "ID": "44",
     "_stage": "E3",
     "TOTAL_OMISIONES": 446,
-    "OK": 396,
-    "FALTA: INICIAL": 44,
+    "OK": 440,
+    "FALTA: INICIAL": 2,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
@@ -2182,7 +2182,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
     "FALTA: TERMINADO": 1,
     "FALTA: INICIAL + CAJA": 0,
-    "FALTA: INICIAL + TERMINADO": 2
+    "FALTA: INICIAL + TERMINADO": 0
   },
   {
     "EMPRESA_RAIZ_MASTER": "TERRA",
