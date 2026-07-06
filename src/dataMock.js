@@ -1497,7 +1497,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3",
     "TOTAL_OMISIONES": 543,
@@ -2265,7 +2265,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 543,
@@ -3082,6 +3082,7 @@ export const FILTERS_MAP = {
     "7",
     "57",
     "81",
+    "3",
     "10"
   ],
   "SAQEB": [
@@ -3124,9 +3125,6 @@ export const FILTERS_MAP = {
     "62",
     "63",
     "64"
-  ],
-  "ROCADURA ": [
-    "3"
   ],
   "ICI": [
     "4",
