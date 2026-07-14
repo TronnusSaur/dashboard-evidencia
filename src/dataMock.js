@@ -12,8 +12,8 @@ export const ERROR_TYPES = [
   "FALTA: INICIAL + TERMINADO"
 ];
 export const GLOBAL_TOTALS = {
-  "FALTA: INICIAL": 590,
-  "OK": 79118,
+  "FALTA: INICIAL": 589,
+  "OK": 79119,
   "FALTA: CAJA + TERMINADO": 946,
   "CARPETA VACÍA": 498,
   "SIN CARPETA": 772,
@@ -1497,7 +1497,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3",
     "TOTAL_OMISIONES": 543,
@@ -2109,8 +2109,8 @@ export const RESUMEN_DATA = [
     "ID": "40",
     "_stage": "E3",
     "TOTAL_OMISIONES": 457,
-    "OK": 456,
-    "FALTA: INICIAL": 1,
+    "OK": 457,
+    "FALTA: INICIAL": 0,
     "FALTA: CAJA + TERMINADO": 0,
     "CARPETA VACÍA": 0,
     "SIN CARPETA": 0,
@@ -2281,7 +2281,7 @@ export const RESUMEN_DATA = [
     "FALTA: INICIAL + TERMINADO": 0
   },
   {
-    "EMPRESA_RAIZ_MASTER": "ROCADURA ",
+    "EMPRESA_RAIZ_MASTER": "ROCADURA",
     "ID": "3",
     "_stage": "E3_SUP",
     "TOTAL_OMISIONES": 543,
@@ -3114,6 +3114,7 @@ export const FILTERS_MAP = {
     "7",
     "57",
     "81",
+    "3",
     "10"
   ],
   "SAQEB": [
@@ -3156,9 +3157,6 @@ export const FILTERS_MAP = {
     "62",
     "63",
     "64"
-  ],
-  "ROCADURA ": [
-    "3"
   ],
   "ICI": [
     "4",
