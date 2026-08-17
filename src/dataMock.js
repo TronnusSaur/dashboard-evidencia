@@ -13,13 +13,13 @@ export const ERROR_TYPES = [
 ];
 export const GLOBAL_TOTALS = {
   "FALTA: INICIAL": 530,
-  "OK": 81054,
+  "OK": 81061,
   "FALTA: CAJA + TERMINADO": 691,
   "CARPETA VACÍA": 438,
   "SIN CARPETA": 667,
   "FALTA: CAJA": 247,
   "FALTA: INICIAL + CAJA + TERMINADO": 180,
-  "FALTA: TERMINADO": 276,
+  "FALTA: TERMINADO": 269,
   "FALTA: INICIAL + CAJA": 27,
   "FALTA: INICIAL + TERMINADO": 17
 };
@@ -2125,14 +2125,14 @@ export const RESUMEN_DATA = [
     "ID": "42",
     "_stage": "E3",
     "TOTAL_OMISIONES": 419,
-    "OK": 405,
+    "OK": 412,
     "FALTA: INICIAL": 2,
     "FALTA: CAJA + TERMINADO": 1,
     "CARPETA VACÍA": 1,
     "SIN CARPETA": 0,
     "FALTA: CAJA": 2,
     "FALTA: INICIAL + CAJA + TERMINADO": 0,
-    "FALTA: TERMINADO": 7,
+    "FALTA: TERMINADO": 0,
     "FALTA: INICIAL + CAJA": 1,
     "FALTA: INICIAL + TERMINADO": 0
   },
